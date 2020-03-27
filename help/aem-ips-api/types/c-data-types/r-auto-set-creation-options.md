@@ -1,0 +1,26 @@
+---
+description: Automatisch een generatiescriptlijst instellen voor uploadtaken. Hiermee wordt aangenomen dat elk script dat voor de upload is opgegeven, wordt toegepast op alle geüploade elementen.
+seo-description: Automatisch een generatiescriptlijst instellen voor uploadtaken. Hiermee wordt aangenomen dat elk script dat voor de upload is opgegeven, wordt toegepast op alle geüploade elementen.
+seo-title: AutoSetCreationOptions
+solution: Experience Manager
+title: AutoSetCreationOptions
+topic: Scene7 Image Production System API
+uuid: 2840fc3a-1135-4719-8f62-96a816df5f88
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# AutoSetCreationOptions{#autosetcreationoptions}
+
+Automatisch een generatiescriptlijst instellen voor uploadtaken. Hiermee wordt aangenomen dat elk script dat voor de upload is opgegeven, wordt toegepast op alle geüploade elementen.
+
+Syntaxis
+
+## Parameters {#section-0302e9238dbc4704914e938f42c881e6}
+
+| Naam | Type | Beschrijving |
+|---|---|---|
+| ` *`autoSetsArray`*` | `types:HandleArray` | Array met [!DNL PropertySet] handgrepen die de tijdens het uploaden toegepaste generatiescripts voor automatische sets definiëren. |
+
