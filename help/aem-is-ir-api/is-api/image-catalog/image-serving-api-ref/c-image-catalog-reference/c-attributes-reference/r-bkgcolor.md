@@ -1,0 +1,29 @@
+---
+description: Standaardachtergrondkleur. De RGB-waarde die wordt gebruikt om een willekeurig gebied van een antwoordafbeelding dat geen werkelijke afbeeldingsgegevens bevat, in te vullen.
+seo-description: Standaardachtergrondkleur. De RGB-waarde die wordt gebruikt om een willekeurig gebied van een antwoordafbeelding dat geen werkelijke afbeeldingsgegevens bevat, in te vullen.
+seo-title: BkgColor
+solution: Experience Manager
+title: BkgColor
+topic: Scene7 Image Serving - Image Rendering API
+uuid: 48f0c7d2-3a6c-4076-81f1-ad94f701c576
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# BkgColor{#bkgcolor}
+
+Standaardachtergrondkleur. De RGB-waarde die wordt gebruikt om een willekeurig gebied van een antwoordafbeelding dat geen werkelijke afbeeldingsgegevens bevat, in te vullen.
+
+## Eigenschappen {#section-2768b2beee214676aa32f17e2a0e3343}
+
+Kleur.
+
+## Standaard {#section-9c2c5794b82a4ef89a09551f08d03dbc}
+
+Overgenomen van `default::BkgColor` indien niet gedefinieerd of indien leeg.
+
+## Zie ook {#section-90967e515a0d46bd8a9361fd49fc43cf}
+
+[bgc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88)
