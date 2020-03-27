@@ -1,0 +1,88 @@
+---
+description: Verwijdert machtigingen voor mappen.
+seo-description: Verwijdert machtigingen voor mappen.
+seo-title: removeFolderPermissions
+solution: Experience Manager
+title: removeFolderPermissions
+topic: Scene7 Image Production System API
+uuid: cd9f7a42-e314-4ec9-abe2-a27581c7cd23
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# removeFolderPermissions{#removefolderpermissions}
+
+Verwijdert machtigingen voor mappen.
+
+Syntaxis
+
+## Geautoriseerde gebruikerstypen {#section-bfa745624f9b43aaba6c226ac6700fe7}
+
+* `IpsAdmin`
+* `IpsCompanyAdmin`
+* `ImagePortalAdmin`
+
+## Parameters {#section-7efa68377fd846219b906d354ae64ed3}
+
+**Input (removeFolderPermissionsParam)**
+
+<table id="table_15223256C63C4F008BDB1DF6F0AFE6A8"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> Naam </th> 
+   <th colname="col2" class="entry"> Type </th> 
+   <th colname="col3" class="entry"> Vereist </th> 
+   <th colname="col4" class="entry"> Beschrijving </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> bedrijfshandle</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
+   <td colname="col3"> Ja </td> 
+   <td colname="col4"> De handgreep naar het bedrijf met mappen met machtigingen die u wilt verwijderen. </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
+   <td colname="col3"> Ja </td> 
+   <td colname="col4"> Verwerk de map. </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> updateChildren</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:Boolean</span> </td> 
+   <td colname="col3"> Ja </td> 
+   <td colname="col4"> <p>Indien <span class="codeph"> waar</span>: 
+     <ul id="ul_1305D060E0F34A61AA3C827E43F296E6"> 
+      <li id="li_AB8705F3CEAD4B8A8F1C28291A6F7EC8">De verwijdering van toestemmingen verspreidt zich door alle verrichtingen van de omslagtoestemming. </li> 
+     </ul> </p> <p>Indien <span class="codeph"> onwaar</span>: 
+     <ul id="ul_19AEE80F1FC84B64AD623E050C12A0CD"> 
+      <li id="li_B8B78851004C43DB8CB7958E380AF510">De bewerking is alleen van invloed op de opgegeven map. </li> 
+     </ul> </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+**Output (removeFolderPermissionsReturn)**
+
+IPS API keert geen reactie voor deze verrichting terug.
+
+## Voorbeelden {#section-04390f0ec7cc460cb5d34d518e33e7a5}
+
+Dit codevoorbeeld verwijdert toestemmingen uit een omslag en zijn subfolders. Stel dit in `updateChildren` op `false` als u alleen rechten uit de bovenliggende map wilt verwijderen.
+
+**Verzoek**
+
+```java
+<removeFolderPermissionsParam xmlns="http://www.scene7.com/IpsApi/xsd">
+   <companyHandle>64</companyHandle>
+   <folderHandle>blackmesa/Awatermark/</folderHandle>
+   <updateChildren>true</updateChildren>
+</removeFolderPermissionsParam>
+```
+
+**Antwoord**
+
+Geen.
