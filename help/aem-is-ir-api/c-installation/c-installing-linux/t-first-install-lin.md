@@ -7,7 +7,7 @@ title: Voor het eerst installeren
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 6a9a6dd2-2c69-447a-9628-eba08dc4f6c8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: c5b68038fa5980c7051fae916520b40e17890a7f
 
 ---
 
@@ -22,6 +22,7 @@ Deze procedure laat zien hoe u Image Serving voor het eerst in Linux kunt instal
    Als het licentiebestand voor Beeldbewerking en/of Afbeelding renderen (met [!DNL .sc8] achtervoegsel) beschikbaar is, kopieert u dit naar deze map. Anders gaat u verder met de installatie en installeert u de licentiecode later.
 1. Decomprimeer en verwijder het Teerbestand voor distributie van Image Serving.
 1. Voer [!DNL ./install-is]de installatiewizard uit in de [!DNL Setup] map.
+
    Als er geen licentiecode wordt gevonden, worden instructies weergegeven die beschrijven hoe u een licentiebestand kunt verkrijgen. Doe dit op dit moment of ga verder met de installatie van Image Serving en installeer de licentiecode later.
 1. Wanneer de licentieovereenkomst voor eindgebruikers (EULA) wordt weergegeven, leest u de licentieovereenkomst en voert u vervolgens `y` in om door te gaan.
 
