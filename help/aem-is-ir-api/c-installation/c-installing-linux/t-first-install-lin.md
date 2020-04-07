@@ -21,8 +21,7 @@ Deze procedure laat zien hoe u Image Serving voor het eerst in Linux kunt instal
 
    Als het licentiebestand voor Beeldbewerking en/of Afbeelding renderen (met [!DNL .sc8] achtervoegsel) beschikbaar is, kopieert u dit naar deze map. Anders gaat u verder met de installatie en installeert u de licentiecode later.
 1. Decomprimeer en verwijder het Teerbestand voor distributie van Image Serving.
-1. 
-   4. Voer [!DNL ./install-is]de installatiewizard uit in de [!DNL Setup] map.
+1. Voer [!DNL ./install-is]de installatiewizard uit in de [!DNL Setup] map.
    Als er geen licentiecode wordt gevonden, worden instructies weergegeven die beschrijven hoe u een licentiebestand kunt verkrijgen. Doe dit op dit moment of ga verder met de installatie van Image Serving en installeer de licentiecode later.
 1. Wanneer de licentieovereenkomst voor eindgebruikers (EULA) wordt weergegeven, leest u de licentieovereenkomst en voert u vervolgens `y` in om door te gaan.
 
