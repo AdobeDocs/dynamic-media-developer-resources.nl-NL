@@ -7,14 +7,14 @@ title: Kleurverwerking
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 6c51d204-27ca-4fbd-a297-bf1d04b63a3f
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 341693d69fc414dacf984d66e2eaeba2418e663b
 
 ---
 
 
 # Kleurverwerking{#color-handling}
 
-De RTF-specificatie staat RGB-kleurwaarden toe die zijn opgegeven met \colortbl. Elke component wordt afzonderlijk geleverd met de opdrachten \red, \green en \blue.
+De RTF-specificatie staat RGB-kleurwaarden toe die zijn opgegeven met `\colortbl`. Elke component wordt afzonderlijk verstrekt met de `\red`, `\green`, en `\blue` bevelen.
 
 Met de eigen RTF-extensieopdracht `\cmykcolortbl` kunt u CMYK-kleuren opgeven waarbij elke kleurcomponent de opdrachten `\cyan`, `\magenta`, `\yellow`en `\black` opdrachten krijgt.
 
