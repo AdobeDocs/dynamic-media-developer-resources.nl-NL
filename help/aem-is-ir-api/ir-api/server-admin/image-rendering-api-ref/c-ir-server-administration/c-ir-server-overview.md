@@ -7,7 +7,7 @@ title: Overzicht van serverbeheer
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 83aa83b7-bb7a-4bbd-923c-dd69763fe9c9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
 
 ---
 
@@ -25,6 +25,6 @@ Beide componenten worden collectief genoemd de *Render Server*.
 
 Renderen van het beeld deelt vele serverfaciliteiten met het Beeld Serven, en alle opties worden gevormd door een configuratiedossier uit te geven. De extra configuratiekenmerken worden verstrekt door de standaardcatalogus ( [!DNL default.ini]) of specifieke materiaalcatalogi. Zie Materiaalcatalogi voor meer informatie.
 
-De installatiemap voor het renderen van afbeeldingen ( *[!DNL install_folder]*) is [!DNL *[!DNL install_root]*/ImageRendering]. In Windows *[!DNL install_root]* is de standaardwaarde [!DNL C:\Program Files\Scene7]. Tijdens de installatie kan een andere map worden opgegeven. Op Linux moet dit altijd *[!DNL install_root]* zijn [!DNL /usr/local/scene7]. Er mogen symbolische koppelingen worden gebruikt.
+De installatiemap voor het renderen van afbeeldingen ( *[!DNL install_folder]*) is [!DNL *[!DNL install_root]*/ImageRendering]. In Windows *[!DNL install_root]* is de standaardwaarde `C:\Program Files\Scene7`. Tijdens de installatie kan een andere map worden opgegeven. Op Linux moet dit altijd *[!DNL install_root]* zijn [!DNL /usr/local/scene7]. Er mogen symbolische koppelingen worden gebruikt.
 
 Alle bestandspaden zijn hoofdlettergevoelig in UNIX en hoofdlettergevoelig in Windows.
