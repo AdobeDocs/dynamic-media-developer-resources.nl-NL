@@ -7,7 +7,7 @@ title: Eigenschappen
 topic: Scene7 Image Serving - Image Rendering API
 uuid: b4e1de52-db0a-43dc-aefe-26e8f5020e79
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
 
 ---
 
@@ -28,7 +28,7 @@ De antwoordgegevens zijn opgemaakt om te kunnen worden gelezen als Java-eigensch
 
 ` *[!DNL propertyValue]*` kan leeg zijn. Witruimte is optioneel aan het begin en einde van elke regel en voor en na het scheidingsteken &#39;=&#39;. Enkelvoudige of dubbele aanhalingstekens kunnen worden gebruikt om tekenreekswaarden in te sluiten, maar zijn niet vereist.
 
-Tekenreekswaarden kunnen escape-tekens in de stijl JAVA bevatten, zoals \n, \t, \:. of \\.
+Tekenreekswaarden kunnen escape-tekens in de stijl JAVA bevatten, zoals `\n`, `\t`, `\:`. of `\\`.
 
 **Zie ook**
 
