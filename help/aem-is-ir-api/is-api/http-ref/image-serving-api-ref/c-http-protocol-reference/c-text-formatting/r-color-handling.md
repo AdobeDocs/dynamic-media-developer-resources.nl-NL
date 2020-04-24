@@ -1,13 +1,11 @@
 ---
-description: De RTF-specificatie staat RGB-kleurwaarden toe die zijn opgegeven met \colortbl. Elke component wordt afzonderlijk geleverd met de opdrachten \red, \green en \blue.
-seo-description: De RTF-specificatie staat RGB-kleurwaarden toe die zijn opgegeven met \colortbl. Elke component wordt afzonderlijk geleverd met de opdrachten \red, \green en \blue.
-seo-title: Kleurverwerking
+description: De RTF-specificatie staat RGB-kleurwaarden toe die zijn opgegeven met &bsol;colortbl. Elke component wordt afzonderlijk voorzien van de &bsol;rood, &bsol;groen, en &bsol;blauw bevelen.
 solution: Experience Manager
 title: Kleurverwerking
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 6c51d204-27ca-4fbd-a297-bf1d04b63a3f
 translation-type: tm+mt
-source-git-commit: 341693d69fc414dacf984d66e2eaeba2418e663b
+source-git-commit: 925fb4b0a9018d711ea9a1db248dc2ddc803c9fb
 
 ---
 
