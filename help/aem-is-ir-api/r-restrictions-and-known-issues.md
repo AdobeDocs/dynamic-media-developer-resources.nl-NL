@@ -7,7 +7,7 @@ title: Beperkingen en bekende problemen
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
 
 ---
 
@@ -57,7 +57,7 @@ De Digimarc-bibliotheek weigert een Digimarc-watermerk toe te passen op een afbe
 
 ## Beperkingen die van toepassing zijn op zowel Beeldbewerking als Afbeeldingsweergave {#section-f836cb40ae2d4f32a9cf7ebda4d91bae}
 
-* Het is mogelijk dat beeldservers en het renderen van afbeeldingen niet alle CPU&#39;s ten volle benutten wanneer er meer dan vier CPU&#39;s beschikbaar zijn. Simuleer uw verkeer op deze machines om te zien hoe voordelig het met meer dan 4 cpu&#39;s is.
+* Het is mogelijk dat imageservers en het renderen van afbeeldingen niet alle CPU&#39;s ten volle benutten wanneer er meer dan vier CPU&#39;s beschikbaar zijn. Simuleer uw verkeer op deze machines om te zien hoe voordelig het met meer dan 4 cpu&#39;s is.
 * Externe URL&#39;s die een omleiding retourneren (HTTP-status 301, 302 of 303) worden afgewezen.
 * Wanneer het vormen `errorRedirect.rootUrl` van het IP adres in dit bezit wordt bepaald moet in de waarde van de liniaalmarkering op die server worden omvat `<addressfilter>` .
 
@@ -80,7 +80,7 @@ De Digimarc-bibliotheek weigert een Digimarc-watermerk toe te passen op een afbe
 
 * Niet-piramided TIFF- of vignetverzoeken geven een vergelijkbaar foutbericht aan
 
-   *&quot;Afbeelding C:\Program Files\Scene7\ImageRendering\resources\MyVignette.vnt heeft geen geldige DSF en gebied van 2,25 MPixel overschrijdt max. 2 MPixel&quot;* .
+   *&quot;De afbeelding`C:\Program Files\Scene7\ImageRendering\resources\MyVignette.vnt`heeft geen geldige DSF en het gebied van 2,25 MPixel overschrijdt de maximale waarde van 2 MPixel&quot;* .
 
    De beste manier is om gepiramideerde TIFF en vignetten te gebruiken. Als u niet-gepiramideerde golven of vignetten moet gebruiken, volg de onderstaande instructies om de formaatlimiet te verhogen.
 
