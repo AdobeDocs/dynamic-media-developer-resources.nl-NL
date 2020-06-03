@@ -1,20 +1,25 @@
 ---
-description: Instructies voor het installeren van Scene7 Viewers API.
-seo-description: Instructies voor het installeren van Scene7 Viewers API.
+description: Instructies voor het installeren van de API voor dynamische mediaquery's.
+seo-description: Instructies voor het installeren van de API voor dynamische mediaquery's.
 seo-title: Meerdere viewers op dezelfde server installeren
 solution: Experience Manager
 title: Meerdere viewers op dezelfde server installeren
 topic: Dynamic media
 uuid: 91ae8eb5-1d23-4fa3-a0d6-a4a0ed0eb104
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
+workflow-type: tm+mt
+source-wordcount: '177'
+ht-degree: 1%
 
 ---
 
 
 # Meerdere viewers op dezelfde server installeren{#installing-multiple-viewers-on-the-same-server}
 
-Instructies voor het installeren van Scene7 Viewers API.
+<!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
+
+Instructies voor het installeren van de API voor dynamische mediasviewers.
 
 Installeer en test Image Serving voordat u de viewers voor Image Serving installeert.
 
@@ -22,7 +27,7 @@ Kopieer de bestanden voor IS-viewers naar de vaste schijf en implementeer het `s
 
 >[!NOTE]
 >
->Er is geen upgrade-installatie voor de viewers van Image Serving. Adobe raadt u aan een back-up te maken van een bestaande map voor Scene7-viewers voordat u verdergaat met de installatie.
+>Er is geen upgrade-installatie voor de viewers van Image Serving. Adobe raadt u aan een back-up te maken van een bestaande directory met dynamische mediasviewers voordat u verdergaat met de installatie.
 
 **De viewers op dezelfde server installeren**
 
