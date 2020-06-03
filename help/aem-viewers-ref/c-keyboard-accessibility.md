@@ -1,26 +1,31 @@
 ---
-description: Alle functies die beschikbaar worden gesteld in Standaardzoom, eCatalog, eCatalog Search, Flyout, Inline Zoom, Gemengd Media, Spin, Video, Zoomen, Carousel, Interactive Image, Interactive Video en Video360 viewerinterface zijn toegankelijk via het toetsenbord.
-seo-description: Alle functies die beschikbaar worden gesteld in Standaardzoom, eCatalog, eCatalog Search, Flyout, Inline Zoom, Gemengd Media, Spin, Video, Zoomen, Carousel, Interactive Image, Interactive Video en Video360 viewerinterface zijn toegankelijk via het toetsenbord.
+description: Alle functies die beschikbaar worden gesteld in de viewerinterface Basic Zoom, eCatalog, eCatalog Search, Flyout, Inline Zoom, Mixed Media, Spin, Video, Zoom, Dimensional (3D), Carousel, Interactive Image, Interactive Video, en Video360 zijn toegankelijk via het toetsenbord.
+seo-description: Alle functies die beschikbaar worden gesteld in de viewerinterface Basic Zoom, eCatalog, eCatalog Search, Flyout, Inline Zoom, Mixed Media, Spin, Video, Zoom, Dimensional (3D), Carousel, Interactive Image, Interactive Video, en Video360 zijn toegankelijk via het toetsenbord.
 seo-title: Toetsenbordtoegankelijkheid en -navigatie
 solution: Experience Manager
 title: Toetsenbordtoegankelijkheid en -navigatie
 topic: Dynamic media
 uuid: 9d7df3b0-2d77-4a2f-9ef1-210ccbd7a1a6
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
+workflow-type: tm+mt
+source-wordcount: '609'
+ht-degree: 0%
 
 ---
 
 
 # Toetsenbordtoegankelijkheid en -navigatie{#keyboard-accessibility-and-navigation}
 
-Alle functies die beschikbaar worden gesteld in Standaardzoom, eCatalog, eCatalog Search, Flyout, Inline Zoom, Gemengd Media, Spin, Video, Zoomen, Carousel, Interactive Image, Interactive Video en Video360 viewerinterface zijn toegankelijk via het toetsenbord.
+Alle functies die beschikbaar worden gesteld in de viewerinterface Standaardzoom, eCatalog, Zoeken in eCatalog, Flyout, Inline zoom, Gemengde media, Centrifugeren, Video, Zoomen, Carrousel, Dimensionaal (3D), Interactieve afbeelding, Interactieve video en Video360 zijn toegankelijk via het toetsenbord.
+
+<!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
 ## Toetsenbordtoegankelijkheid en -navigatie {#topic-f5650e9493404e55a3627c8d1366b861}
 
-Alle functies die beschikbaar worden gesteld in Standaardzoom, eCatalog, eCatalog Search, Flyout, Inline Zoom, Gemengd Media, Spin, Video, Zoomen, Carousel, Interactive Image, Interactive Video en Video360 viewerinterface zijn toegankelijk via het toetsenbord.
+Alle functies die beschikbaar worden gesteld in de viewerinterface Standaardzoom, eCatalog, Zoeken in eCatalog, Flyout, Inline zoom, Gemengde media, Centrifugeren, Video, Zoomen, Carrousel, Dimensionaal (3D), Interactieve afbeelding, Interactieve video en Video360 zijn toegankelijk via het toetsenbord.
 
-Een eindgebruiker kan met **[!UICONTROL Tab]** - en **[!UICONTROL Shift+Tab]** -toetsaanslagen tussen gebruikersinterface-elementen navigeren. Als u **[!UICONTROL Tab]** gebruikt, wordt de invoerfocus naar het volgende interface-element in de tabvolgorde verplaatst. Als u **[!UICONTROL Shift+Tab]** gebruikt, wordt de invoerfocus teruggezet naar het vorige gebruikersinterface-element. Het focustraversal volgt de natuurlijke locatie van het interface-element op het scherm en beweegt van links naar rechts en vervolgens van boven naar beneden.
+Een eindgebruiker kan navigeren tussen gebruikersinterface-elementen van de viewer door middel van **[!UICONTROL Tab]** toetsaanslagen en **[!UICONTROL Shift+Tab]** toetsaanslagen. Door de invoerfocus naar het volgende gebruikersinterface-element in de tabvolgorde te **[!UICONTROL Tab]** verplaatsen, het gebruiken **[!UICONTROL Shift+Tab]** brengt inputnadruk terug naar het vorige gebruikersinterface element. Het focustraversal volgt de natuurlijke locatie van het interface-element op het scherm en beweegt van links naar rechts en vervolgens van boven naar beneden.
 
 Afhankelijk van het besturingssysteem en de instellingen van de webbrowser kan het interface-element met invoerfocus een visuele focusindicatie krijgen. De visuele indicator kan bijvoorbeeld een dunne rand zijn die rondom het interface-element wordt weergegeven.
 
