@@ -1,20 +1,23 @@
 ---
-description: Hiermee maakt u een nieuw element dat is afgeleid van een bestaand hoofdafbeeldingselement.
-seo-description: Hiermee maakt u een nieuw element dat is afgeleid van een bestaand hoofdafbeeldingselement.
+description: Hiermee maakt u een nieuw element dat is afgeleid van een bestaand primair bronafbeeldingselement.
+seo-description: Hiermee maakt u een nieuw element dat is afgeleid van een bestaand primair bronafbeeldingselement.
 seo-title: createDerivedAsset
 solution: Experience Manager
 title: createDerivedAsset
 topic: Scene7 Image Production System API
 uuid: e1f9b690-af34-4da5-a534-c3a8c6b0a8fc
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '276'
+ht-degree: 0%
 
 ---
 
 
 # createDerivedAsset{#createderivedasset}
 
-Hiermee maakt u een nieuw element dat is afgeleid van een bestaand hoofdafbeeldingselement.
+Hiermee maakt u een nieuw element dat is afgeleid van een bestaand primair bronafbeeldingselement.
 
 Syntaxis
 
@@ -40,7 +43,7 @@ In tegenstelling tot een afbeeldingskopie (zie [copyImage](../../../operations/c
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | Ja | De handgreep naar het bedrijf dat het element bevat waaruit u het nieuwe element wilt afleiden. |
-| ` *`ownerHandle`*` | `xsd:string` | Ja | De handgreep van het hoofdafbeeldingselement waaruit de nieuwe afbeelding wordt afgeleid. |
+| ` *`ownerHandle`*` | `xsd:string` | Ja | De handgreep van het primaire afbeeldingselement waaruit de nieuwe afbeelding wordt afgeleid. |
 | ` *`folderHandle`*` | `xsd:string` | Ja | De handgreep naar de map waarin het nieuwe afgeleide element wordt gemaakt. |
 | ` *`name`*` | `xsd:string` | Ja | De naam van het afgeleide element. |
 | ` *`type`*` | `xsd:string` | Ja | Het type actief van het nieuwe afgeleide actief: `AdjustedView` of `LayerView`. |
