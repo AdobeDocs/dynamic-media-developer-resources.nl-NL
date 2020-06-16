@@ -7,7 +7,10 @@ title: createAssetSet
 topic: Scene7 Image Production System API
 uuid: 1e86bd37-511c-4c12-abfd-075053b86f78
 translation-type: tm+mt
-source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '322'
+ht-degree: 0%
 
 ---
 
@@ -42,37 +45,37 @@ Syntaxis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> bedrijfshandleiding </span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> De handgreep naar het bedrijf dat de set activa zal bevatten. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> maphandgreep </span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> De handgreep naar de map waarin de nieuwe elementenset wordt gemaakt. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> naam </span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> name </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Elementnaam. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> subtype </span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> subType </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Een unieke id die door de client is gemaakt voor het type elementenset. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks </span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4"> De parameters in de reeks definitiereeks. <p>Deze moeten worden omgezet in de indeling die is opgegeven door de doelviewer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks </span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4"> Handgreep van het element dat fungeert als miniatuur voor de nieuwe afbeeldingsset. Als gespecificeerd niet, probeert IPS om het eerste beeldmiddel te gebruiken dat door de reeks van verwijzingen wordt voorzien. </td> 
@@ -90,7 +93,7 @@ U kunt vervangende functies op regel opgeven die worden opgelost tijdens het opz
 
 | **Vervangende functie** | **Retourneert** |
 |---|---|
-| `getFilePath([asset_handle>])` | Het hoofdbestandspad van het element. |
+| `getFilePath([asset_handle>])` | Het primaire bronbestandspad van het element. |
 | `getCatalogId([<asset_handle>])` | De catalogus-id van het element. |
 | `getMetaData([<asset_handle>], [<metadata_field_handle>])` | Metagegevenswaarden voor het element. |
 | `getThumbCatalogId([<asset_handle>])` | De catalogus-id van het element (alleen voor op afbeeldingen gebaseerde elementen). De catalogus-id van het bijbehorende blokelement (voor andere elementen). Als een gekoppeld blokelement niet beschikbaar is, retourneert de functie een lege tekenreeks. |
