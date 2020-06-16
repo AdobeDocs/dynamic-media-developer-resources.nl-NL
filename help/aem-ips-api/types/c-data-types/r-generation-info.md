@@ -7,7 +7,10 @@ title: GenerationInfo
 topic: Scene7 Image Production System API
 uuid: 166637e5-b981-4f64-8d92-5fce4f1b20d2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '53'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +26,7 @@ Syntaxis
 | Naam | Type | Beschrijving |
 |---|---|---|
 | ` *`motor`*` | `xsd:string` | Gebruikte Generation engine (zie &quot;Generation Info&quot; voor waarden). |
-| ` *`oprichter`*` | `types:Asset` | Gegevens over het basiselement dat bij de productie wordt gebruikt. |
-| ` *`gegenereerd`*` | `types:Asset` | Gegevens over gegenereerde activa. |
-| ` *`attributeArray`*` | `types:GenerationAttributeArray` | Array met kenmerken die zijn gekoppeld aan generatieproces. |
+| ` *`oprichter`*` | `types:Asset` | Vastlegging van activa van het primaire actief dat bij de productie wordt gebruikt. |
+| ` *`gegenereerd`*` | `types:Asset` | Gegevens over het gegenereerde actief. |
+| ` *`attributeArray`*` | `types:GenerationAttributeArray` | Array met kenmerken die zijn gekoppeld aan het generatieproces. |
 
