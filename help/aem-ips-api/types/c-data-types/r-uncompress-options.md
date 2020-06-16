@@ -1,20 +1,23 @@
 ---
-description: Instelling voor uploaden om ZIP- en TAR-bestanden te verwerken als hoofdelementen (Geen) of om de inhoud ervan te extraheren en te uploaden (UnCompress).
-seo-description: Instelling voor uploaden om ZIP- en TAR-bestanden te verwerken als hoofdelementen (Geen) of om de inhoud ervan te extraheren en te uploaden (UnCompress).
+description: Instelling voor uploaden om ZIP- en TAR-bestanden te verwerken als primaire elementen (Geen) of om de inhoud ervan te extraheren en te uploaden (UnCompress).
+seo-description: Instelling voor uploaden om ZIP- en TAR-bestanden te verwerken als primaire elementen (Geen) of om de inhoud ervan te extraheren en te uploaden (UnCompress).
 seo-title: UnCompressOptions
 solution: Experience Manager
 title: UnCompressOptions
 topic: Scene7 Image Production System API
 uuid: 1e6827db-8c5e-47db-b7ff-4e681e107e57
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '114'
+ht-degree: 0%
 
 ---
 
 
 # UnCompressOptions{#uncompressoptions}
 
-Instelling voor uploaden om ZIP- en TAR-bestanden te verwerken als hoofdelementen (Geen) of om de inhoud ervan te extraheren en te uploaden (UnCompress).
+Instelling voor uploaden om ZIP- en TAR-bestanden te verwerken als primaire elementen (Geen) of om de inhoud ervan te extraheren en te uploaden (UnCompress).
 
 >[!NOTE]
 >
@@ -32,11 +35,11 @@ Instelling voor uploaden om ZIP- en TAR-bestanden te verwerken als hoofdelemente
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> proces</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> proces</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> <p>Bepaalt de verwerking van ZIP- en TAR-archiefbestanden. Biedt twee opties: 
      <ul id="ul_F34E2F3B9B74450CA7E76BD9FD7137C2">
-      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> Geen:</span> Verwerken als hoofdelementen. </li>
+      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> Geen:</span> Verwerk het als primaire elementen. </li>
       <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> Comprimeren ongedaan maken:</span> Inhoud extraheren en verwerken. </li>
      </ul><p>Opmerking: Tekenreeksconstanten zijn hoofdlettergevoelig. Gebruik <span class="codeph"> UnComprimeren</span>, niet <span class="codeph"> decomprimeren</span> of <span class="codeph"> decomprimeren</span>. </p></p> </td> 
   </tr> 
