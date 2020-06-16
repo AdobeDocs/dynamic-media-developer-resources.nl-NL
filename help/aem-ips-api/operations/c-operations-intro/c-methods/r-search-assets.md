@@ -7,7 +7,10 @@ title: searchAssets
 topic: Scene7 Image Production System API
 uuid: 125e9e0d-1856-4e80-9778-ca93cd04b766
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '637'
+ht-degree: 0%
 
 ---
 
@@ -63,169 +66,169 @@ Beperk de grootte van de gegevensset met de `responseFieldArray` of `excludField
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> bedrijfshandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> De handgreep aan het bedrijf met de activa u wilt zoeken. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> accessUserHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4"> Hiermee kunnen beheerders als een andere gebruiker werken. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> accessGroupHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> accessGroupHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4"> Laat beheerders als deel van een verschillende groep werken. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> map</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> map</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4"> Het hoofdpad voor het zoeken naar elementen. Als deze wordt weggelaten, wordt de hoofdmap van het bedrijf gebruikt. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> submappen</span> opnemen </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> includeSubfolders</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:Boolean</span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4">Ingesteld op <span class="codeph"> true</span> om te zoeken in submappen. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4"> De keuze van de publicatiestatus. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> prullenbakState</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> prullenbakState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4">Kies de status Prullenbak. De standaardwaarde is <span class="codeph"> NietInTrash</span>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> conditionMatchMode</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> conditionMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4"> <p>Keuze van Zoekmethoden om resultaten van <span class="codeph"> keywordArray</span>te combineren. </p> <p> <span class="codeph"> conditionMatchMode</span> </p> <p> <span class="codeph"> systemFieldConditionArray</span>en <span class="codeph"> metadataConditionArray</span>. Standaard is <span class="codeph"> MatchAll</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> keywordArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> keywordArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4"> <p> <p>Opmerking:  Vervangen parameter. Het wordt aanbevolen het niet te gebruiken. </p> </p> <p>Een tekenreeks met overeenkomende trefwoorden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> systemFieldMatchMode</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> systemFieldMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4"> <p>Keuze van Zoekmodi voor het combineren van overeenkomsten <span class="codeph"> systemFieldCondition</span> . Standaard is dit <span class="codeph"> MatchAll</span> </p>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> systemFieldConditionArray</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> systemFieldConditionArray</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> types:SystemFieldConditionArray</span> </p> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4"> De array van systeemveldomstandigheden. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> tagMatchMode</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> tagMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4">Zoekmodi tekenreeksconstanten. De standaardwaarde is <span class="codeph"> MatchAll</span>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> tagConditionArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> tagConditionArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:TagConditionArray</span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4"> <p>Een array met zoekvoorspelling van tagvelden. </p> <p>Voorspellen worden gecombineerd op basis van de instelling <span class="codeph"> tagMatchMode</span> en vervolgens gecombineerd met termen in <span class="codeph"> keywordArray</span>, <span class="codeph"> systemFieldConditionArray</span>en <span class="codeph"> metadataConditionArray</span> op basis van de instelling <span class="codeph"> MatchMode</span> . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> metadataMatchMode</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> metadataMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4">Zoekmodi voor het combineren van overeenkomsten met <span class="codeph"> metagegevens</span> . Standaard is <span class="codeph"> MatchAll</span>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> metadataConditionArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </td> 
    <td colname="col2"> <p> <span class="codeph"> types:MetadataConditionArray</span> </p> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4"> De array met zoekvoorwaarden voor metagegevensvelden. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetTypeArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4"> Array met elementtypen die in de zoekopdracht moet worden opgenomen. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4"> Array met elementtypen die moeten worden uitgesloten van zoekopdracht. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4"> Een lijst met subtypenamen waarop u wilt filteren. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:Boolean</span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4">Als <span class="codeph"> true</span> en <span class="codeph"> assetSubTypeArray</span> niet leeg is, worden alleen elementen geretourneerd waarvan de subtypen zich in <span class="codeph"> assetSubTypeArray</span> bevinden. Indien <span class="codeph"> false</span> (standaard), worden elementen zonder gedefinieerd subtype geretourneerd. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproducts</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproducts</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:Boolean</span> </td> 
    <td colname="col3"> Nee </td> 
-   <td colname="col4"> Indien waar (true), worden bijproducten die worden gegenereerd tijdens de opname van een hoofdelement, zoals bijgesneden PDF-paginaafbeeldingen, uitgesloten van zoekresultaten. De standaardwaarde is false. </td> 
+   <td colname="col4"> Indien waar (true), worden bijproducten die worden gegenereerd tijdens de opname van een primair element, zoals bijgesneden PDF-paginaafbeeldingen, uitgesloten van zoekresultaten. De standaardwaarde is false. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproductArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproductArray</span> </span> </td> 
    <td colname="col2"> <p> <span class="codeph"> types:ExcludeByproductArray</span> </p> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4"> Array met voorwaarden voor het genereren van byteproducten om elementen uit te sluiten van zoekresultaten. Indien aanwezig, treedt deze parameter de excludeByproducts die plaatsen met voeten. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> projectHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> projectHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:posten</span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4"> Handle van een project dat de activa bevat aan onderzoek. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4"> Maximumaantal resultaten dat moet worden geretourneerd. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> resultPage</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4">Hiermee geeft u de resultatenpagina op die u wilt retourneren, op basis van het paginaformaat <span class="codeph"> recordsPerPage</span> . </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> Sorteren op</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4"> Keuze van velden voor het sorteren van elementen. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> sorteerrichting</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> sortDirection</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4"> Keuze van sorteerrichting. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4"> Bevat een lijst met velden en subvelden voor opname in de reactie. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeFieldArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4"> Bevat een lijst met velden en subvelden die kunnen worden uitgesloten van de reactie. </td> 
