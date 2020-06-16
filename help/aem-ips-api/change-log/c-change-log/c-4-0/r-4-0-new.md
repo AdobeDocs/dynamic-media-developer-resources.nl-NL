@@ -7,7 +7,10 @@ title: Nieuwe toevoegingen en wijzigingen
 topic: Scene7 Image Production System API
 uuid: ca4bbe36-c1b7-471f-90a8-6b695d56ac7a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '1234'
+ht-degree: 0%
 
 ---
 
@@ -115,7 +118,7 @@ De skins van de viewer ondersteunen twee parameters: `skinFg` en `skinBg`. De ac
 
 Geïmplementeerde `getAssociatedAssets` bewerking.
 
-Toegevoegd `ReprocessAssets` taaktype voor het opnieuw verwerken van eerder geüploade hoofdbestanden, waaronder het terugzetten van PDF&#39;s en het opnieuw optimaliseren van afbeeldingen.
+Toegevoegd `ReprocessAssets` taaktype voor het opnieuw verwerken van eerder geüploade primaire bronbestanden, waaronder het terugzetten van PDF&#39;s en het opnieuw optimaliseren van afbeeldingen.
 
 Naam van `PropertySetType` veldtype gewijzigd in `propertyType`. Dit beïnvloedt de `createPropertySetType` parameter en de `getPropertySetType/getPropertySetTypes` reactie.
 
@@ -288,7 +291,7 @@ Extra opties toegevoegd aan `UploadDirectoryJob` `UploadUrlsJob` en toegevoegd o
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> kleurruimte </span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
-   <td colname="col4"> <p>Doelkleurruimte voor rendering. </p> </td> 
+   <td colname="col4"> <p>Target-kleurruimte voor renderen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> alpha </span> </p> <p>Optioneel. </p> </td> 
@@ -317,7 +320,7 @@ Extra opties toegevoegd aan `UploadDirectoryJob` `UploadUrlsJob` en toegevoegd o
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> kleurruimte </span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
-   <td colname="col4"> <p>Doelkleurruimte voor rendering. </p> </td> 
+   <td colname="col4"> <p>Target-kleurruimte voor renderen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> pdfCatalog </span> </p> </td> 
