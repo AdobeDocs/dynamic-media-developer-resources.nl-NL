@@ -7,7 +7,10 @@ title: Vignetconverter
 topic: Scene7 Image Serving - Image Rendering API
 uuid: b32a30d6-ae4a-406f-88a9-e8b0eec394c9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '363'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ De Vignet Converter (vntc) is een opdrachtregelprogramma waarmee u inhoud die is
 
 [!DNL vntc] bevindt zich in [!DNL *[!DNL install_root]*\ImageServing\bin]. Het heeft de volgende mogelijkheden:
 
-* Hiermee zet u hoofdvignetten om in één resolutie-, multiresolutie- of piramideproductievensters (zie [Vignetschalen](../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585)).
+* Hiermee zet u primaire vignetten om in vignetten met één resolutie, meerdere resoluties of piramideproductie (zie [Vignetschalen](../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585)).
 * Produceert productiebewaarkast en vensterbekleding stijldossiers (zie `-resolution` en `-jpegquality`).
 
 * Er kunnen verschillende bestandsversies van vignetten, kabinetten en vensteromslagen worden gemaakt voor gebruik met oudere versies van renderen van afbeeldingen.
