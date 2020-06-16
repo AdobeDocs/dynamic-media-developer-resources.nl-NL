@@ -7,7 +7,10 @@ title: Beperkingen en bekende problemen
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
 translation-type: tm+mt
-source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '1264'
+ht-degree: 0%
 
 ---
 
@@ -53,7 +56,7 @@ Er zijn sommige beperkingen en bekende kwesties die zouden moeten worden overwog
 
 ## Beperkingen die van toepassing zijn op bibliotheken van derden {#section-79768b96bf634e44ab672c5b893f343d}
 
-De Digimarc-bibliotheek weigert een Digimarc-watermerk toe te passen op een afbeelding als deze al is gedetecteerd. Als een hoofdafbeelding voldoende wordt bewerkt, is het mogelijk dat de Digimarc-bibliotheek nog steeds kan herkennen dat het watermerk is toegepast. Het kan echter zijn dat de informatie niet kan worden gelezen. Dit resulteert in een nieuwe afbeelding waarin de oorspronkelijke Digimarc-informatie die op de oorspronkelijke afbeelding is toegepast, niet kan worden verkregen. Met Beeldserver kunt u nu het Digimarc-watermerk toepassen dat is gedefinieerd in de catalogus van het bedrijf.
+De Digimarc-bibliotheek weigert een Digimarc-watermerk toe te passen op een afbeelding als deze al is gedetecteerd. Als een primaire afbeelding voldoende wordt bewerkt, is het mogelijk dat de Digimarc-bibliotheek nog steeds kan herkennen dat het watermerk is toegepast. Het kan echter zijn dat de informatie niet kan worden gelezen. Dit resulteert in een nieuwe afbeelding waarin de oorspronkelijke Digimarc-informatie die op de oorspronkelijke afbeelding is toegepast, niet kan worden verkregen. Met Beeldserver kunt u nu het Digimarc-watermerk toepassen dat is gedefinieerd in de catalogus van het bedrijf.
 
 ## Beperkingen die van toepassing zijn op zowel Beeldbewerking als Afbeeldingsweergave {#section-f836cb40ae2d4f32a9cf7ebda4d91bae}
 
