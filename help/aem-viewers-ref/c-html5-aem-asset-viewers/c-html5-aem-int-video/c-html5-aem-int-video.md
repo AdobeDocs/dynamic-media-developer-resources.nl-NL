@@ -7,7 +7,10 @@ title: Interactieve video
 topic: Dynamic media
 uuid: 116c6b40-2490-4f1a-9c76-e06082069cc8
 translation-type: tm+mt
-source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2243'
+ht-degree: 0%
 
 ---
 
@@ -74,7 +77,7 @@ De insluiting met een vaste grootte wordt gebruikt wanneer de viewer de grootte 
 
 Bij het insluiten van responsieve ontwerpen wordt ervan uitgegaan dat de viewer tijdens runtime mogelijk de grootte moet wijzigen als gevolg van de wijziging van de grootte van de container `DIV`. De meest gebruikte optie is het toevoegen van een viewer aan een webpagina die een flexibele pagina-indeling gebruikt.
 
-In de responsieve ontwerpinsluitingsmodus werkt de viewer anders, afhankelijk van de manier waarop de container van de webpagina wordt verkleind `DIV`. Als op de webpagina alleen de breedte van de container wordt ingesteld `DIV`en de hoogte onbeperkt blijft, kiest de viewer automatisch de hoogte op basis van de hoogte-breedteverhouding van het gebruikte element. Deze functionaliteit zorgt ervoor dat het element perfect in de weergave past zonder opvulling aan de zijkanten. Dit gebruiksgeval is het gemeenschappelijkst voor Web-pagina&#39;s die ontvankelijke kaders van de lay-out van het Webontwerp zoals Boek, Stichting, etc. gebruiken.
+In de responsieve ontwerpinsluitingsmodus werkt de viewer anders, afhankelijk van de manier waarop de container van de webpagina wordt verkleind `DIV`. Als op de webpagina alleen de breedte van de container wordt ingesteld `DIV`en de hoogte onbeperkt blijft, kiest de viewer automatisch de hoogte op basis van de hoogte-breedteverhouding van het gebruikte element. Deze functionaliteit zorgt ervoor dat het element perfect in de weergave past zonder opvulling aan de zijkanten. Dit gebruiksgeval komt het meest voor bij webpagina&#39;s die responsieve webontwerplay-outframeworks gebruiken, zoals Bootstrap, Foundation, enzovoort.
 
 Als de webpagina zowel de breedte als de hoogte voor de container van de viewer instelt, vult de viewer alleen dat gebied `DIV`en volgt deze het formaat dat de webpaginalay-out biedt. Een goed voorbeeld is het insluiten van de viewer in een modale overlay, waarbij de grootte van de overlay wordt aangepast aan de venstergrootte van de webbrowser.
 
@@ -93,7 +96,7 @@ U voegt de viewer als volgt toe aan een webpagina:
 
 [!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/InteractiveVideoViewer.js]
 
-U kunt een relatief pad gebruiken als de viewer wordt geïmplementeerd op een van de Adobe Dynamic Media Classic-servers en deze wordt aangeboden vanuit hetzelfde domein. Anders geeft u een volledig pad op naar een van de Adobe Dynamic Media Classic-servers waarop de IS-Viewers zijn geïnstalleerd.
+U kunt een relatief pad gebruiken als de viewer wordt geïmplementeerd op een van de Adobe Dynamic Media Classic-servers en vanuit hetzelfde domein wordt aangeboden. Anders geeft u een volledig pad op naar een van de Adobe Dynamic Media Classic-servers waarop de IS-Viewers zijn geïnstalleerd.
 
 Het relatieve pad ziet er als volgt uit:
 
@@ -126,7 +129,7 @@ Het relatieve pad ziet er als volgt uit:
 
    U kunt de statische grootte voor de kijker plaatsen door of het voor `.s7interactivevideoviewer` `stagesize` top-level CSS klasse in absolute eenheden te verklaren, of door bepaling te gebruiken.
 
-   U kunt de grootte in CSS rechtstreeks op de HTML-pagina plaatsen, of in een aangepast CSS-bestand van de viewer, dat later wordt toegewezen aan een viewer-voorinstellingsrecord in AEM Assets - op aanvraag of expliciet wordt doorgegeven met behulp van de `style` opdracht.
+   U kunt de grootte in CSS rechtstreeks op de HTML-pagina plaatsen, of in een aangepast CSS-bestand van de viewer, dat later wordt toegewezen aan een viewer-voorinstellingsrecord in AEM Assets, op aanvraag of expliciet wordt doorgegeven met behulp van de `style` opdracht.
 
    Zie Interactieve video-viewer [](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) aanpassen voor meer informatie over het opmaken van de viewer met CSS.
 
@@ -139,7 +142,7 @@ Het relatieve pad ziet er als volgt uit:
    }
    ```
 
-   U kunt de `stagesize` modifier in de vooraf ingestelde viewer instellen in AEM Assets, op aanvraag. Of u kunt het expliciet doorgeven met de initialisatiecode van de viewer met `params` verzameling of als een API-aanroep zoals beschreven in de sectie Opdrachtverwijzing, als volgt:
+   U kunt de `stagesize` modifier in het vooraf ingestelde verslag van de kijker in AEM Assets - op bestelling plaatsen. Of u kunt het expliciet doorgeven met de initialisatiecode van de viewer met `params` verzameling of als een API-aanroep zoals beschreven in de sectie Opdrachtverwijzing, als volgt:
 
    ```
    interactivevideoviewer.setParam("stagesize", "640,640");
@@ -278,7 +281,9 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
 
 De volgende voorbeeldpagina illustreert het levensechte gebruik van responsieve ontwerpinsluiting met onbeperkte hoogte:
 
-[https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)
+[Live demo&#39;s](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+
+<!-- OLD DEMO LOCATION-KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
 
 **Responsief insluiten met gedefinieerde breedte en hoogte**
 
