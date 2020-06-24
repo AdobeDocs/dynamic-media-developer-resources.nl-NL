@@ -7,7 +7,10 @@ title: ScheduledJob
 topic: Scene7 Image Production System API
 uuid: cf0db523-2138-48c6-abbd-460a961e7de1
 translation-type: tm+mt
-source-git-commit: 26fb6212c3106deb7b088020d9f2993e40dec20b
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '268'
+ht-degree: 0%
 
 ---
 
@@ -36,14 +39,14 @@ Syntaxis
 | ` *`triggerState`*` | `xsd:int` | Keuze van status voor taaktrigger. |
 | ` *`imageServingPublishJob`*` | `types:ImageServingPublishJob` | Taakdetails voor een afbeelding die publicatietaak aanbiedt. |
 | ` *`imageServingRenderJob`*` | `types:ImageServingRenderJob` | Taakdetails voor een renderingtaak voor afbeeldingen. |
-| ` *`videoPublishJob`*` | `types:VideoPublishJob` | Taakdetails voor een video-publicatietaak. Zie [VideoPublishJob](https://marketing.adobe.com/resources/help/en_US/s7/ips_api/types/r_scheduled_job.html). |
+| ` *`videoPublishJob`*` | `types:VideoPublishJob` | Taakdetails voor een video-publicatietaak. Zie [VideoPublishJob](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
 | ` *`serverDirectoryPublishJob`*` | `types:ServerDirectoryPublishJob` | Taakgegevens voor de publicatietaak van een servermap. |
 | ` *`uploadDirectoryJob`*` | `types:UploadDirectoryJob` | Taakgegevens voor een uploadmaptaak. |
 | ` *`uploadUrlsJob`*` | `types:UploadUrlsJob` | Taakgegevens voor een upload-URL&#39;s-taak. |
 | ` *`optimizeImagesJob`*` | `types:OptimizeImagesJob` |  |
 | ` *`ripPdfsJob`*` | `types:RipPdfsJob` |  |
 | ` *`reprocessAssetsJob`*` | `types:ReprocessAssetsJob` |  |
-| ` *`exportJob`*` | `types:ExportJob` | Toestaan dat eerder geüploade bestanden zijn geëxporteerd. Zie Taak [exporteren](https://marketing.adobe.com/resources/help/en_US/s7/ips_api/types/r_scheduled_job.html). |
+| ` *`exportJob`*` | `types:ExportJob` | Toestaan dat eerder geüploade bestanden zijn geëxporteerd. Zie Taak [exporteren](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
 
 ## Notities {#section-34ec157f281f412f9f0f6e861e6ed0cd}
 
