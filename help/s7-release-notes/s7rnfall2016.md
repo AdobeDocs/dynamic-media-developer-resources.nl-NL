@@ -1,20 +1,23 @@
 ---
-description: De meest recente release bevat een gedeelte van de Adobe Experience Manager-oplossing voor Adobe Scene7 Fall 2016 in de Adobe Marketing Cloud.
-seo-description: De meest recente release bevat een gedeelte van de Adobe Experience Manager-oplossing voor Adobe Scene7 Fall 2016 in de Adobe Marketing Cloud.
+description: De recentste versienota's voor de versie van Adobe Scene7 Fall 2016 - deel van de oplossing van de Adobe Experience Manager in de Adobe Marketing Cloud.
+seo-description: De recentste versienota's voor de versie van Adobe Scene7 Fall 2016 - deel van de oplossing van de Adobe Experience Manager in de Adobe Marketing Cloud.
 seo-title: Versie Scene7 herfst 2016
 solution: Experience Manager
 title: Versie Scene7 herfst 2016
 topic: Dynamic media
 uuid: 3fddda65-0c6e-48ec-bd60-7e0ca59421a8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2263'
+ht-degree: 0%
 
 ---
 
 
 # Versie Scene7 herfst 2016{#scene-fall-release}
 
-De meest recente release bevat een gedeelte van de Adobe Experience Manager-oplossing voor Adobe Scene7 Fall 2016 in de Adobe Marketing Cloud.
+De recentste versienota&#39;s voor de versie van Adobe Scene7 Fall 2016 - deel van de oplossing van de Adobe Experience Manager in de Adobe Marketing Cloud.
 
 ## Versie Scene7 herfst 2016 {#topic-791cdf80f91e457fbb63bfedf79f5a94}
 
@@ -53,12 +56,12 @@ Zie [https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.htm
 * De moeilijke situatie die met het Welkome die e-mail impliceert naar nieuwe gebruikers wordt verzonden Scene7 die geen authentificatie om bepaalde montages omvatte te controleren.
 * Opgeloste problemen waarbij een FTP-mappenlijst niet kan worden opgehaald als een map speciale tekens in de naam bevat.
 * Vorm OKTA dienstverleners voor milieu Scene7.
-* Toegevoegde ondersteuning voor Organizer-id voor marketingcloud voor vieweranalyse.
+* Toegevoegde ondersteuning voor Organizer-id voor Marketing Cloud voor Viewer Analytics.
 * Geïmplementeerde consument Scene7 SAML.
 
 ## Viewers (afbeeldingen met 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Voor volledige documentatie, zie de Gids [van de Verwijzing van](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/)Kijkers Scene7.
+Zie [Referentiehandleiding](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)voor viewers voor volledige documentatie.
 
 **Bugfixes voor afbeeldingen met 5.5.3**
 
@@ -68,7 +71,7 @@ Voor volledige documentatie, zie de Gids [van de Verwijzing van](https://marketi
 
 ## Viewers (afbeelding met 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Voor volledige documentatie, zie de Gids [van de Verwijzing van](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/)Kijkers Scene7.
+Zie [Referentiehandleiding](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)voor viewers voor volledige documentatie.
 
 **Bugfixes voor afbeeldingen in 5.5.2**
 
@@ -77,14 +80,14 @@ Voor volledige documentatie, zie de Gids [van de Verwijzing van](https://marketi
 
 ## Viewers (afbeelding met 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Voor volledige documentatie, zie de Gids [van de Verwijzing van](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/)Kijkers Scene7.
+Zie [Referentiehandleiding](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)voor viewers voor volledige documentatie.
 
 **Nieuwe functies, verbeteringen en foutoplossingen voor Image Serving 5.5.1**
 
 * HTML5 eCatalog-viewer met zoekfunctie.
 * Toegevoegde HLS-streaming video playback als standaardmethode voor het afspelen van video voor de meeste desktopsystemen. HDS-videostreaming op basis van Flash is nog steeds beschikbaar als alternatieve afspeeloptie.
 * Toegevoegde ondersteuning voor apparaten met zowel muis- als aanraakinvoer via Chrome-browser.
-* Ondersteuning voor Organizer-id voor Marketing Cloud toegevoegd aan de integratie met Analytics.
+* Ondersteuning voor Organizer-id voor Marketing Cloud toegevoegd aan de Analytics-integratie.
 * Werk de JavaScript-bibliotheek AppMeasurement bij naar versie 1.6.1.
 * Extra ondersteuning voor oriëntatie van rechts naar links in de eCatalog-viewer.
 * Probleem opgelost waarbij een fout buiten het bereik werd `tip=0,-1,0` veroorzaakt.
@@ -97,7 +100,7 @@ Voor volledige documentatie, zie de Gids [van de Verwijzing van](https://marketi
 
 * Algemeen
 
-   * Schalen aan de browserzijde kan de interface en afbeeldingen vervagen wanneer de gebruiker inzoomt op de pagina. UI-opmaak wordt mogelijk ook onjuist weergegeven, afhankelijk van zoomen. Dit gaat over op het volledige scherm.
+   * Schalen aan de browserzijde kan de interface en afbeeldingen vervagen als de gebruiker inzoomt op de pagina. UI-opmaak wordt mogelijk ook onjuist weergegeven, afhankelijk van zoomen. Dit gaat over op het volledige scherm.
    * Vanwege groottebeperkingen op mobiele apparaten gebruikt de gemengde Media Viewer een diabeweging om frames in ingesloten afbeeldingssets te wisselen in plaats van op de ingesloten stalenscomponent te tikken. De component is er als visuele indicator.
    * In Internet Explorer-browsers en sommige aanraakapparaten neemt de modus Volledig scherm niet het volledige apparaatscherm in beslag. In plaats daarvan wordt de grootte van de toepassing aangepast aan het browservenster.
    * De knop Sluiten werkt niet in iOS 8.0 en 8.1, maar komt niet meer voor in iOS 8.2
@@ -192,7 +195,7 @@ Voor volledige documentatie, zie de Gids [van de Verwijzing van](https://marketi
 
    * Er kan een fout met betrekking tot de maximale grootte optreden voor de posterafbeelding. Bedrijf moet mogelijk de limietinstelling voor het publiceren van Image Serving verhogen.
    * De video titels vereisen een bedrijfregels als het ontvangen van de HTML- pagina van een externe server (niet een server Scene7) wordt gediend. Neem contact op met de Technische Ondersteuning van Adobe voor hulp.
-   * Bij het bijhouden van analyses kan een onjuist afspeelpercentage worden gerapporteerd als gevolg van buffering
+   * Bij bijhouden van Analytics wordt mogelijk een onjuist afspeelpercentage gerapporteerd vanwege buffering
    * Zwart frame in plaats van posterafbeelding wordt mogelijk weergegeven op iPad- of Android-apparaten.
    * Het zwarte frame kan op het scherm opvlammen tijdens het laden van de viewer op iPad- of Android-apparaten.
    * Zwarte randen worden weergegeven aan de zijde van de component VideoPlayer wanneer de achtergrond op iPad-apparaten is ingesteld op wit/transparant.
