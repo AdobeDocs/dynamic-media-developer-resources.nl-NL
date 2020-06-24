@@ -8,7 +8,10 @@ title: Zoomen
 topic: Dynamic media
 uuid: ec2a91e2-ce2c-48b1-a2b2-8671524288c7
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2460'
+ht-degree: 0%
 
 ---
 
@@ -114,7 +117,7 @@ De insluiting met een vaste grootte wordt gebruikt wanneer de viewer de grootte 
 
 Bij de insluitingsmodus voor responsief ontwerp wordt ervan uitgegaan dat het formaat van de viewer tijdens de runtime moet worden aangepast vanwege de wijziging van de grootte van de container `DIV`. De meest gebruikte optie is het toevoegen van een viewer aan een webpagina die een flexibele indeling gebruikt.
 
-In de responsieve ontwerpinsluitingsmodus werkt de viewer anders, afhankelijk van de manier waarop de container van de webpagina wordt verkleind `DIV`. Als de webpagina alleen de breedte van de container instelt `DIV`en de hoogte onbeperkt laat, kiest de viewer automatisch de hoogte afhankelijk van de hoogte-breedteverhouding van het element dat wordt gebruikt. Deze logica zorgt ervoor dat het element perfect in de weergave past zonder opvulling aan de zijkanten. Dit gebruiksgeval is het gemeenschappelijkst voor Web-pagina&#39;s die ontvankelijke lay-outkaders zoals Boek, Stichting, etc. gebruiken.
+In de responsieve ontwerpinsluitingsmodus werkt de viewer anders, afhankelijk van de manier waarop de container van de webpagina wordt verkleind `DIV`. Als de webpagina alleen de breedte van de container instelt `DIV`en de hoogte onbeperkt laat, kiest de viewer automatisch de hoogte afhankelijk van de hoogte-breedteverhouding van het element dat wordt gebruikt. Deze logica zorgt ervoor dat het element perfect in de weergave past zonder opvulling aan de zijkanten. Dit gebruiksgeval komt het meest voor bij webpagina&#39;s die responsieve lay-outframeworks gebruiken, zoals Bootstrap, Foundation enzovoort.
 
 Als de webpagina zowel de breedte als de hoogte voor de container van de viewer instelt `DIV`, vult de viewer dat gebied en volgt deze het formaat dat de webpagina biedt. U kunt de viewer bijvoorbeeld insluiten in een modale overlay, waarbij de grootte van de overlay afhankelijk is van de venstergrootte van de webbrowser.
 
@@ -133,7 +136,7 @@ U voegt de viewer als volgt toe aan een webpagina:
 
 [!DNL <s7viewers_root>/html5/js/ZoomViewer.js]
 
-U kunt een relatief pad gebruiken als de viewer wordt geïmplementeerd op een van de Adobe Dynamic Media Classic-servers en deze wordt aangeboden vanuit hetzelfde domein. Anders geeft u een volledig pad op naar een van de Adobe Dynamic Media Classic-servers waarop de IS-Viewers zijn geïnstalleerd.
+U kunt een relatief pad gebruiken als de viewer wordt geïmplementeerd op een van de Adobe Dynamic Media Classic-servers en vanuit hetzelfde domein wordt aangeboden. Anders geeft u een volledig pad op naar een van de Adobe Dynamic Media Classic-servers waarop de IS-Viewers zijn geïnstalleerd.
 
 Het relatieve pad ziet er als volgt uit:
 
@@ -316,7 +319,7 @@ var zoomViewer = new s7viewers.ZoomViewer({
 
 De volgende voorbeeldpagina illustreert het levensechte gebruik van responsieve ontwerpinsluiting met onbeperkte hoogte:
 
-[https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)
+[Live demo&#39;s](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
 ## Flexibele insluiting op grootte met gedefinieerde breedte en hoogte {#section-3674e6c032594441a6576b7fb1de6e64}
 
