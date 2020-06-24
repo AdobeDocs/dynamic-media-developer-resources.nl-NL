@@ -1,21 +1,24 @@
 ---
-description: De Video Viewer is een videospeler die streaming en progressieve video afspeelt die in de H.264-indeling zijn gecodeerd. Het wordt geleverd van het Publiceren Scene7 Systeem of Dynamische Media AEM.
+description: De Video Viewer is een videospeler die streaming en progressieve video afspeelt die in de H.264-indeling zijn gecodeerd. Het wordt geleverd van het Publiceren Scene7 Systeem of Dynamic Media AEM.
 keywords: responsive
-seo-description: De Video Viewer is een videospeler die streaming en progressieve video afspeelt die in de H.264-indeling zijn gecodeerd. Het wordt geleverd van het Publiceren Scene7 Systeem of Dynamische Media AEM.
+seo-description: De Video Viewer is een videospeler die streaming en progressieve video afspeelt die in de H.264-indeling zijn gecodeerd. Het wordt geleverd van het Publiceren Scene7 Systeem of Dynamic Media AEM.
 seo-title: Video
 solution: Experience Manager
 title: Video
 topic: Dynamic media
 uuid: 961a9b99-5892-4ee3-a2df-13e299f5d086
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2402'
+ht-degree: 0%
 
 ---
 
 
 # Video{#video}
 
-De Video Viewer is een videospeler die streaming en progressieve video afspeelt die in de H.264-indeling zijn gecodeerd. Het wordt geleverd van het Publiceren Scene7 Systeem of Dynamische Media AEM.
+De Video Viewer is een videospeler die streaming en progressieve video afspeelt die in de H.264-indeling zijn gecodeerd. Het wordt geleverd van het Publiceren Scene7 Systeem of Dynamic Media AEM.
 
 Zie [Systeemvereisten en -vereisten](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
@@ -97,7 +100,7 @@ Insluiten met vaste grootte wordt gebruikt wanneer de viewer de grootte niet wij
 
 Bij het insluiten van responsieve ontwerpen wordt ervan uitgegaan dat de viewer tijdens runtime mogelijk de grootte moet wijzigen als gevolg van de wijziging van de grootte van de container `DIV`. De meest gebruikte optie is het toevoegen van de viewer aan een webpagina die een flexibele pagina-indeling gebruikt.
 
-In de responsieve ontwerpinsluitingsmodus werkt de viewer anders, afhankelijk van de manier waarop de container van de webpagina wordt verkleind `DIV`. Als op de webpagina alleen de breedte van de container wordt ingesteld `DIV`en de hoogte onbeperkt blijft, kiest de viewer automatisch de hoogte op basis van de hoogte-breedteverhouding van het gebruikte element. Deze methode zorgt ervoor dat het element perfect in de weergave past zonder opvulling aan de zijkanten. Dit gebruiksgeval is het gemeenschappelijkst voor Web-pagina&#39;s die een ontvankelijk kader van de ontwerplay-out zoals Boek, Stichting, etc. gebruiken.
+In de responsieve ontwerpinsluitingsmodus werkt de viewer anders, afhankelijk van de manier waarop de container van de webpagina wordt verkleind `DIV`. Als op de webpagina alleen de breedte van de container wordt ingesteld `DIV`en de hoogte onbeperkt blijft, kiest de viewer automatisch de hoogte op basis van de hoogte-breedteverhouding van het gebruikte element. Deze methode zorgt ervoor dat het element perfect in de weergave past zonder opvulling aan de zijkanten. Dit gebruiksgeval komt het meest voor bij webpagina&#39;s die een responsief ontwerplay-outframework gebruiken, zoals Bootstrap, Foundation, enzovoort.
 
 Als de webpagina zowel de breedte als de hoogte voor de container van de viewer instelt, vult de viewer alleen dat gebied `DIV`en volgt deze het formaat dat wordt aangegeven door de indeling van de webpagina. Een goed voorbeeld is het insluiten van de viewer in een modale overlay, waarbij de grootte van de overlay wordt aangepast aan de grootte van het venster van de webbrowser.
 
@@ -116,7 +119,7 @@ U voegt de viewer als volgt toe aan een webpagina:
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-U kunt een relatief pad gebruiken als de viewer wordt geïmplementeerd op een van de Adobe Dynamic Media Classic-servers en deze wordt aangeboden vanuit hetzelfde domein. Anders geeft u een volledig pad op naar een van de Adobe Dynamic Media Classic-servers waarop de IS-Viewers zijn geïnstalleerd.
+U kunt een relatief pad gebruiken als de viewer wordt geïmplementeerd op een van de Adobe Dynamic Media Classic-servers en vanuit hetzelfde domein wordt aangeboden. Anders geeft u een volledig pad op naar een van de Adobe Dynamic Media Classic-servers waarop de IS-Viewers zijn geïnstalleerd.
 
 Relatief pad ziet er als volgt uit:
 
@@ -282,7 +285,9 @@ var videoViewer = new s7viewers.VideoViewer({
 
 De volgende voorbeeldpagina illustreert het levensechte gebruik van responsieve ontwerpinsluiting met onbeperkte hoogte:
 
-[https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)
+[Live demo&#39;s](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+
+<!-- KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
 
 **Responsief ontwerpinsluiting met gedefinieerde breedte en hoogte**
 
