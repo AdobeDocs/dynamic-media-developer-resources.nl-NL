@@ -1,24 +1,27 @@
 ---
-description: JavaScript API-referentie voor Video Image Viewer.
-seo-description: JavaScript API-referentie voor Video Image Viewer.
+description: JavaScript API-referentie voor Interactive Image Viewer.
+seo-description: JavaScript API-referentie voor Interactive Image Viewer.
 seo-title: init
 solution: Experience Manager
 title: init
 topic: Dynamic media
 uuid: 915f15cf-152a-424d-b7ea-a083891bb954
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bea6e8f949a9ef0f3f56faac40092b5681a16ff6
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 0%
 
 ---
 
 
 # init{#init}
 
-JavaScript API-referentie voor Video Image Viewer.
+JavaScript API-referentie voor Interactive Image Viewer.
 
 `init()`
 
-Start de initialisatie van de Video Image Viewer. Tegen deze tijd moet het container-DOM-element worden gemaakt, zodat de viewercode het met zijn id kan vinden.
+Start de initialisatie van de Interactie Image Viewer. Tegen deze tijd moet het container-DOM-element worden gemaakt, zodat de viewercode het met zijn id kan vinden.
 
 Als het containerelement nog geen deel uitmaakt van de webpaginalay-out (het kan bijvoorbeeld worden verborgen met de eraan toegewezen `display:none` stijl), onderbreekt de viewer het initialisatieproces totdat de webpagina het containerelement terugbrengt naar de lay-out. Wanneer dit gebeurt, wordt het laden van de viewer automatisch hervat.
 
