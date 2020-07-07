@@ -7,7 +7,10 @@ title: TimeStamp
 topic: Scene7 Image Serving - Image Rendering API
 uuid: d2649e86-8a6f-4f63-ab6a-8b2d8c03f8c0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Tijdstempel voor wijziging. Hiermee geeft u de datum/tijd op waarop dit vignet v
 
 Als `attribute::UseLastModified` wordt geplaatst, zijn de meest recente `vignette::TimeStamp` en de `catalog::TimeStamp`waarde van vignet en alle materialen betrokken bij het verzoek teruggekeerd in de reactie van HTTP als laatste-gewijzigde kopbal.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >De werkelijke bestandstijd van het vignetbestand wordt hiervoor nooit gebruikt.
 
