@@ -7,9 +7,9 @@ title: Vignetconverter
 topic: Scene7 Image Serving - Image Rendering API
 uuid: b32a30d6-ae4a-406f-88a9-e8b0eec394c9
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Bij het genereren van productievignetten wordt de pixelbreedte van het uitvoervi
 
 [!DNL vntc] beperkt zichzelf standaard tot maximaal 3 GB geheugen. Wanneer Vntc deze limiet bereikt, wordt de verwerking gestopt en wordt een fout gegenereerd. U kunt deze limiet wijzigen met `-maxmem`.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Het gereedschap Vignet bijwerken in het ontwerpen van afbeeldingen kan ook worden gebruikt om vignetten voor te bereiden op het gebruik van Afbeelding renderen. Op dezelfde manier kan het gereedschap Inhoud ontwerpen ook bestanden in de kabinetsstijl genereren die kunnen worden gebruikt bij het renderen van afbeeldingen. Gebruik [!DNL vntc] als de verwerking moet worden geautomatiseerd. De hulpmiddelen in het Authoring van afbeeldingen omvatten een grafische gebruikersinterface en zijn daarom doorgaans gemakkelijker interactief te gebruiken.
 
