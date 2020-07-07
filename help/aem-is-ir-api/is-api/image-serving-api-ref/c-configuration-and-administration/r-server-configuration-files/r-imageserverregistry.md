@@ -7,7 +7,10 @@ title: ImageServerRegistry.xml
 topic: Scene7 Image Serving - Image Rendering API
 uuid: cc401f75-1eb1-40fe-8308-eaaf9e14f906
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '168'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ Wanneer u dit XML-bestand wijzigt, moet u ervoor zorgen dat geldige XML-syntaxis
 
 Start de afbeeldingsserver na het bewerken van dit bestand opnieuw om de wijzigingen door te voeren. Alleen de onderstaande elementwaarden worden ondersteund voor wijziging. Bewerk andere inhoud van dit bestand alleen als dit wordt aangeraden door de technische ondersteuning van Scene7.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Wijzig de structuur van de elementen niet, `<imageserverregistry>`inclusief de volgorde van de elementen. Wees voorzichtig als u dit bestand bewerkt, anders kan het zijn dat de Image Server niet kan worden gestart.
 
