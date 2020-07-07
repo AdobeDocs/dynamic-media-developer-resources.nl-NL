@@ -7,7 +7,10 @@ title: Aangepaste variabelen
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 933fba00-759c-4bd3-bada-eec751426d9e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '260'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +27,7 @@ Het querygedeelte van aanvragen en vignet::Modifier-tekenreeksen kunnen door de 
 
 Variabelen worden op dezelfde manier gedefinieerd als andere serveropdrachten, met behulp van de bovenstaande syntaxis. Variabelen moeten worden gedefinieerd voordat naar deze variabelen kan worden verwezen. Variabelen die in worden gedefinieerd, `vignette::Modifier` kunnen worden vermeld in de URL-aanvraag en andersom.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >*[!DNL value]* moet URL-gecodeerd voor één controle zijn voor veilige HTTP-verzending. Dubbele codering is vereist als de gegevens opnieuw via HTTP *[!DNL value]* worden verzonden. Dit is het geval wanneer *[!DNL value]* wordt vervangen in een geneste buitenlandse aanvraag.
 
