@@ -7,7 +7,10 @@ title: Omleiden bij fout
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 894babe9-9c3c-4972-ae8f-387d65b4167d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '327'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +36,7 @@ Wanneer toegelaten en wanneer zulk een fout tijdens de verwerking van het verzoe
 
 De omleiding van de fout wordt toegelaten door `PS::errorRedirect.rootUrl` aan de het domeinnaam en havenaantal van HTTP van de secundaire server te plaatsen. Bovendien wordt de verbindingstijd gevormd met `PS::errorRedirect.connectTimeout` en de maximumtijd de primaire server op een reactie van de secundaire server zal wachten alvorens een fout aan de cliënt terug te keren wordt gevormd met `PS::errorRedirect.socketTimeout`.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Als de secundaire server niet kan worden gecontacteerd, zal een reactie van de tekstfout aan de cliënt worden teruggekeerd, zelfs als een standaardbeeld of een foutenbeeld wordt gevormd.
 
