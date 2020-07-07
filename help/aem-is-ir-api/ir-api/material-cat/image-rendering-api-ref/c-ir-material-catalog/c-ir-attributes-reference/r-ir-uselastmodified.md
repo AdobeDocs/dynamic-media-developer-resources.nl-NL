@@ -7,7 +7,10 @@ title: UseLastModified
 topic: Scene7 Image Serving - Image Rendering API
 uuid: f2ce2e04-4133-40af-ac82-cae57b253fe9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ De server gebruikt de meest recente `vignette::TimeStamp` en `catalog::TimeStamp
 
 Deze optie moet alleen worden ingeschakeld als een gedistribueerd cachenetwerk, zoals Akamai, wordt gebruikt dat geen ondersteuning biedt voor etagkoppen.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Voorzichtigheid moet worden betracht wanneer het gebruiken van Laatst-Gewijzigde kopballen in een lading-evenwichtig milieu dat veelvoudige het Serven/Renderen van Beeld gastheren omvat. Het in cache plaatsen van clients kan worden overgeslagen en het laden van de server kan toenemen als de servers om een of andere reden verschillende tijdstempels voor dezelfde catalogusvermeldingen hebben. Een dergelijke situatie kan zich als volgt voordoen:
 
