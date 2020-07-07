@@ -7,7 +7,10 @@ title: Systeemvereisten en -vereisten
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 80196574-f5a2-4298-880a-cc36f90b6e21
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '411'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ Alvorens het Beeld te gebruiken Scene7 Serving, zorg ervoor uw systeem aan de sy
 
 Uw server moet voldoen aan de volgende hardwarevereisten.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Systemen met processors met AMD64 en Intel® EM64T worden doorgaans geconfigureerd als NUMA (Non-Uniform Memory Architecture)-platforms. Dit betekent dat de kernel veelvoudige geheugenknopen bij laars-tijd eerder dan het construeren van één enkele geheugenknoop bouwt. De meervoudige knoopaannemer kan in geheugenuitputting op één of meerdere knopen resulteren alvorens andere knopen worden uitgeput. Wanneer de geheugenuitputting gebeurt kan de pit besluiten om processen (bijvoorbeeld, de Server van het Beeld of de Server van het Platform) te doden alhoewel er beschikbaar geheugen is. Daarom raadt Adobe Systems u aan NUMA uit te schakelen als u een dergelijk systeem uitvoert. Gebruik de `numa=off` startoptie om te voorkomen dat de kernel deze processen tegenhoudt.
 
