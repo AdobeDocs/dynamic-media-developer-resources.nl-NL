@@ -7,7 +7,10 @@ title: Brongegevensbestanden verwijderen of vervangen
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 13dc0489-7ab0-481e-b213-214affe9819e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Vignetbestanden kunnen worden vervangen of verwijderd terwijl de server actief is door de opdracht req=release te gebruiken vlak voordat het bestand wordt overschreven.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Een gegevensbestand moet niet worden vervangen of worden geschrapt terwijl de Render Server tot het toegang heeft.
 
@@ -24,6 +27,6 @@ Houd er rekening mee dat als u een brongegevensbestand verwijdert of vervangt, d
 
 De renderserver moet worden gestopt om andere gegevensbestanden te vervangen.
 
-De het geheime voorgeheugeningangen van de Server van het platform worden automatisch ongeldig gemaakt wanneer de materiaaldossiers of de vignetten worden vervangen. Wanneer u ICC-profielbestanden vervangt, worden de cache niet ongeldig gemaakt.
+Cachingangen van de Server van het Platform worden automatisch ongeldig gemaakt wanneer de materiaaldossiers of de vignetten worden vervangen. Wanneer u ICC-profielbestanden vervangt, worden de cache niet ongeldig gemaakt.
 
 Om de complicaties bij het vervangen van bestanden te voorkomen, wordt aanbevolen een vervangend bestand een nieuwe naam te geven en de bijbehorende catalogusitems bij te werken. Hierdoor kan elk gegevensbestand worden vervangen terwijl de server actief is en worden vermeldingen in de servercache automatisch verouderd zonder extra tussenkomst. Deze benadering kan voor alle gegevensdossiers worden gebruikt die door beeldcatalogi worden beheerd.
