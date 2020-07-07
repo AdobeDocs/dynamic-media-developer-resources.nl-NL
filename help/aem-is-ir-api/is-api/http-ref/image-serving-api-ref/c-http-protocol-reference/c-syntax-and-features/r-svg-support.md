@@ -7,7 +7,10 @@ title: SVG-ondersteuning
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 30d7b37d-fdef-4518-a4b3-4baee56fa634
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '522'
+ht-degree: 0%
 
 ---
 
@@ -36,11 +39,11 @@ Afbeeldingen kunnen in SVG worden ingevoegd met behulp van het `<image>` element
 
 Geef een volledige aanvraag voor de afbeeldingsserver op, te beginnen met `http://`, of een relatieve URL, te beginnen met `/is/image`. Als een volledig HTTP-pad is opgegeven, wordt de domeinnaam uit het pad verwijderd en omgezet in de relatieve indeling. Het gebruik van een volledig HTTP-pad kan voordelen hebben, omdat het bestand dan kan worden voorvertoond met een externe SVG-renderer.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Er is slechts beperkte ondersteuning voor het renderen van afbeeldingen in deze versie van Image Serving. Verwijzen naar afbeeldingen vanuit SVG mag alleen worden gebruikt in situaties waarin traditionele lagen en sjabloonmechanismen voor beeldbewerking onvoldoende zijn om het gewenste resultaat te bereiken. SVG mag in geen geval worden gebruikt om composities met meerdere afbeeldingen te genereren.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Afbeeldingen die zijn ingesloten in SVG, worden momenteel niet automatisch aangepast. Zorg ervoor dat alle beeldverwijzingen de noodzakelijke bevelen van de Beeldserver van het Beeld omvatten om de gewenste beeldgrootte (b.v. `wid=`). Als de afbeeldingsgrootte niet expliciet wordt ingesteld, `attribute::DefaultPix` wordt deze toegepast.
 
