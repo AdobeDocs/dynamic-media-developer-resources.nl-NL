@@ -7,7 +7,10 @@ title: Waarschuwingsdrempels
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 032cb396-1a03-4ba9-82d6-ed2cb06e8cf2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '406'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ Gebruik deze servermontages om waakzame drempels te vormen.
 
 Er wordt een waarschuwing over de responstijd weergegeven wanneer de gemiddelde tijd die nodig is om een aanvraag tijdens het monsterinterval te verwerken, de hier vastgestelde drempelwaarde overschrijdt. uitgedrukt in msec; geheel getal 0 of groter. De typische waarden liggen tussen 100 en 1000 msec, afhankelijk van de ingewikkeldheid van verrichtingen.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Voor deze waarschuwing worden geen verzoeken in overweging genomen die resulteren in 4xx- of 5xx-reactiestatus.
 
