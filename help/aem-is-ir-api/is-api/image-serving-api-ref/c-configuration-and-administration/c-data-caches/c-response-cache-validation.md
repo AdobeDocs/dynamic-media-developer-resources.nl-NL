@@ -7,7 +7,10 @@ title: Validatie van responscache
 topic: Scene7 Image Serving - Image Rendering API
 uuid: d1aad5ae-f0fa-489b-a48b-b0ac8c8f43bb
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '330'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +27,7 @@ Voor gangbare toepassingen waarbij vooral afbeeldingen in afbeeldingscatalogi wo
 
 De ingangen van het geheime voorgeheugen worden ongeldig en zijn onderworpen aan re-generatie wanneer een catalogusingang betrokken bij het verzoek op een manier verandert die waarschijnlijk een verandering van het antwoordbeeld zou veroorzaken. Bijvoorbeeld de inhoud van `catalog::Modifier` wijzigingen.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Scene7 piramid TIFF (PTIFF) beelden handhaven intern de dossierdatum in de dossierkopbal voor bevestigingsdoeleinden. De wijzigingstijd van het bestand die door het bestandssysteem wordt aangehouden, wordt gebruikt om te controleren of een niet-PTIFF-bestand is gewijzigd.
 
