@@ -7,7 +7,10 @@ title: Server
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 50db98cc-8354-4884-9416-00808828061b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 0%
 
 ---
 
@@ -20,23 +23,23 @@ Gebruik deze serverinstellingen om uw server te configureren.
 
 Zowel zijn een versie met 32 en 64 bits van de Server van het Beeld beschikbaar voor Linux. Specificeer ImageServer64 wanneer geïnstalleerd op de servers van Linux met 64 bits, of ImageServer32 (gebrek) wanneer geïnstalleerd op servers met 32 bits.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >De 64-bits versie van de afbeeldingsserver ondersteunt geen FlashPix-bronbestanden.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >64-bits modus wordt niet ondersteund in Windows. Alleen `ImageServer32` kan worden opgegeven. Anders wordt het porteren van de afbeelding niet gestart.
 
-## SV::PsHeapSize - Grootte van heap voor platformserver {#section-fd83715948764aeda58d6b3a9f9f8be9}
+## SV::PsHeapSize - Grootte heap-server voor Platform {#section-fd83715948764aeda58d6b3a9f9f8be9}
 
-De Java-heapgrootte voor de platformserver. De standaardwaarde is &quot; `512m`&quot; (512 MB).
+De Java-heapgrootte voor de Platform Server. De standaardwaarde is &quot; `512m`&quot; (512 MB).
 
 ## IS::TcpPort, PS::isConnection.port - poort voor het luisteren van afbeeldingsservers {#section-5421bfd2ca2a4a979faf812b6fdb2887}
 
 Specificeert de haven die voor communicatie tussen de Server van het Platform en de Server van het Beeld wordt gebruikt. Zorg ervoor om een havenaantal te specificeren dat niet anders op het gastheersysteem wordt gebruikt.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Voor een correcte werking van de Beelddienst moet dezelfde waarde worden ingesteld voor `IS::TcpPort` en `PS::isConnection.port`.
 
