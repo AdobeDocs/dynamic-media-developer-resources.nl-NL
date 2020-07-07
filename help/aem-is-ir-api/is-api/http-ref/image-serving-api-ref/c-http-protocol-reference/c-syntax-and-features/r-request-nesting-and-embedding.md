@@ -7,7 +7,10 @@ title: Nesten en insluiten aanvragen
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 59031329-e65f-4631-bc7d-83f2540cc836
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '1075'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Image Serving ondersteunt het onbeperkt nesten van aanvragen voor beeldweergave, het insluiten van aanvragen voor het renderen van afbeeldingen en het insluiten van afbeeldingen die zijn opgehaald van externe servers. Deze mechanismen worden alleen ondersteund door laagafbeeldingen en laagmaskers.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Bepaalde e-mailclients en proxyservers kunnen de accolades coderen die worden gebruikt voor de syntaxis voor nesten en insluiten. Toepassingen waarvoor dit een probleem is, moeten haakjes gebruiken in plaats van accolades.
 
@@ -30,7 +33,7 @@ Het `is` token is hoofdlettergevoelig.
 
 Het geneste verzoek mag niet het hoofdpad van de server bevatten (doorgaans ` http:// *[!DNL server]*/is/image/'`).
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >De geneste tekens van het aanvraagscheidingsteken ( `'(',')'`) en het bevelscheidingsteken ( `'?'`, `'&'`, `'='`) binnen genestelde verzoeken moeten niet HTTP-gecodeerd zijn. Geneste aanvragen moeten feitelijk op dezelfde manier worden gecodeerd als de aanvraag voor buitenste (geneste) bestanden.
 
@@ -62,7 +65,7 @@ Het `ir` token is hoofdlettergevoelig.
 
 *[!DNL renderRequest]* Dit is de gebruikelijke aanvraag voor het renderen van afbeeldingen, exclusief het HTTP-hoofdpad ` http:// *[!DNL server]*/ir/render/`.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >De geneste tekens van het aanvraagscheidingsteken ( `'(',')'`) en het bevelscheidingsteken ( `'?'`, `'&'`, `'='`) binnen genestelde verzoeken moeten niet HTTP-gecodeerd zijn. Ingesloten aanvragen moeten feitelijk op dezelfde manier worden gecodeerd als de aanvraag voor buitenste insluiten.
 
@@ -87,13 +90,13 @@ Wanneer de FXG grafische renderer (ook bekend als [!DNL AGMServer]) is geïnstal
 
 Het `fxg` token is hoofdlettergevoelig.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >FXG grafisch teruggeven is beschikbaar slechts in Scene7 ontvangen milieu en kan extra vergunning vereisen. De Steun van Scene7 van het contact voor meer informatie.
 
 *[!DNL renderRequest]* is de gebruikelijke FXG-renderaanvraag, exclusief het HTTP-hoofdpad ` http:// *[!DNL server]*/agm/render/`.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >De scheidingstekens ( `'(',')'`) en de opdrachtscheidingstekens ( `'?'`, `'&'`, `'='`) binnen geneste aanvragen mogen niet via HTTP worden gecodeerd. Ingesloten aanvragen moeten feitelijk op dezelfde manier worden gecodeerd als de aanvraag voor buitenste insluiten.
 
@@ -119,7 +122,7 @@ Als u een externe URL voor een `src=` opdracht of een `mask=` opdracht wilt opge
 
 Belangrijk De scheidingstekens ( `'(',')'`) en de bevelafbakeningstekens ( `'?'`, `'&'`, `'='`) binnen genestelde verzoeken moeten niet HTTP-Gecodeerd zijn. Ingesloten aanvragen moeten feitelijk op dezelfde manier worden gecodeerd als de aanvraag voor buitenste insluiten.
 
-Volledige absolute URL&#39;s (indien `attribute::AllowDirectUrls` ingesteld) en URL&#39;s ten opzichte van `attribute::RootUrl` zijn toegestaan. Er treedt een fout op als een absolute URL is ingesloten en een kenmerk: 0 `AllowDirectUrls` is of als een relatieve URL is opgegeven en leeg `attribute::RootUrl` is.
+Volledige absolute URL&#39;s (indien `attribute::AllowDirectUrls` ingesteld) en URL&#39;s ten opzichte van `attribute::RootUrl` zijn toegestaan. Er treedt een fout op als een absolute URL is ingesloten en een kenmerk: `AllowDirectUrls` is 0 of als een relatieve URL is opgegeven en leeg `attribute::RootUrl` is.
 
 Hoewel externe URL&#39;s niet rechtstreeks in de padcomponent van de aanvraag-URL kunnen worden opgegeven, is het mogelijk een voorbewerkingsregel in te stellen om de conversie van relatieve paden naar absolute URL&#39;s toe te staan (zie het voorbeeld hieronder).
 
@@ -127,7 +130,7 @@ Externe afbeeldingen worden door de server in het cachegeheugen opgeslagen volge
 
 Dit mechanisme ondersteunt dezelfde indelingen voor afbeeldingsbestanden die worden ondersteund door het hulpprogramma Image Convert (IC), met uitzondering van bronafbeeldingen met 16 bits per component.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Bij Beeldserver wordt het hulpprogramma voor validatie automatisch uitgevoerd wanneer een extern image voor het eerst wordt gebruikt, om te controleren of het image geldig is en tijdens de overdracht niet is beschadigd. Dit kan een lichte vertraging bij eerste toegang veroorzaken. Voor de beste prestaties is het raadzaam de grootte van dergelijke afbeeldingen te beperken en/of een indeling voor afbeeldingsbestanden te gebruiken die goed comprimeert.
 
