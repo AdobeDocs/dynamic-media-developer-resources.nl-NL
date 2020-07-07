@@ -7,7 +7,10 @@ title: Algemeen
 topic: Scene7 Image Serving - Image Rendering API
 uuid: d7ec3dba-64b8-431b-b446-84ab6139ba8a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '230'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +39,7 @@ De tijd de Server van het Beeld zal op een verre server wachten om het gevraagde
 
 Ingesteld op false om aanvragen zonder geldige catalogus-id in het pad te weigeren. Standaard is dit `true`. Wanneer ingesteld op `false`, wordt een fout geretourneerd voor aanvragen zonder catalogus-id.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >`req=catalogprops` is niet onderworpen aan deze instelling.
 
