@@ -7,7 +7,10 @@ title: Bijwerken vanaf IS 4.7.4 of hoger
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 3d23f13a-a9be-45ff-9765-c71bdeb77c5f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '219'
+ht-degree: 0%
 
 ---
 
@@ -18,19 +21,19 @@ Gebruik deze procedure wanneer het bevorderen van de Serving van het Beeld Scene
 
 Als u een upgrade uitvoert van een oudere versie van Image Serving, neemt u contact op met de ondersteuning voor het juiste proces.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >De [!DNL webapps] map kan bij een upgrade worden verwijderd. Maak een back-up van de [!DNL webapps] map voordat u de upgrade uitvoert.
 
 1. Meld u met beheerdersrechten aan bij uw serverhost.
 1. Extraheer de inhoud van het ZIP-bestand van de Afbeeldingsserver.
 1. Voer setup/setup.exe uit om de installatiewizard te starten.
-1. Klik op **[!UICONTROL Volgende]** om naar de licentieovereenkomst voor eindgebruikers (EULA) te gaan, lees de licentieovereenkomst en klik op **[!UICONTROL Ja]**.
+1. Klik **[!UICONTROL Next]** om naar de licentieovereenkomst voor eindgebruikers (EULA) te gaan, lees de licentieovereenkomst en klik op **[!UICONTROL Yes]**.
 
    Op de volgende pagina worden de vorige configuratie-instellingen weergegeven.
-1. Klik op **[!UICONTROL Volgende]** om de installatie van de update te starten.
+1. Klik **[!UICONTROL Next]** om de update-installatie te starten.
 
-   >[!NOTE] {class=&quot;- topic/note &quot;}
+   >[!NOTE]
    >
    >Het installatieprogramma maakt een back-up van de oude configuratiebestanden van de server naar de [!DNL BACKUP/] map.
 
