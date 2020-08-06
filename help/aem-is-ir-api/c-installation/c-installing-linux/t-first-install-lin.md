@@ -7,7 +7,10 @@ title: Voor het eerst installeren
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 6a9a6dd2-2c69-447a-9628-eba08dc4f6c8
 translation-type: tm+mt
-source-git-commit: c5b68038fa5980c7051fae916520b40e17890a7f
+source-git-commit: edb21832b3e36a6498c6aad27813cd4b3032b48f
+workflow-type: tm+mt
+source-wordcount: '400'
+ht-degree: 0%
 
 ---
 
@@ -57,17 +60,18 @@ Deze procedure laat zien hoe u Image Serving voor het eerst in Linux kunt instal
  </tbody> 
 </table>
 
-1. Druk op **[!UICONTROL Enter]** om de standaardwaarde te accepteren of een andere waarde op te geven.
+1. Druk op **[!UICONTROL Enter]** om de standaardwaarde te accepteren of geef een andere waarde op.
 
    Zorg ervoor dat alle opgegeven poortnummers uniek zijn en niet op een andere manier op deze host worden gebruikt.
 
-   **Belangrijk: **Als een rekening buiten wortel wordt gespecificeerd, moet u ervoor zorgen dat de toegangstoestemmingen voor alle dossiers en omslagen de Server van het Beeld moet lezen en/of schrijven correct opstelling zijn wanneer deze omslagen in de configuratiedossiers worden opnieuw gevormd.
->Beeldserver is nu geïnstalleerd op [!DNL /usr/local/Scene7/ImageServing]. Bepaalde inhoud voor het renderen van afbeeldingen is geïnstalleerd op [!DNL /usr/local/Scene7/ImageRendering].
->
->Tegen het einde van de installatie probeert de installatiewizard Image Server te starten. Als er geen geldige licentiecode wordt gevonden, kan de imageserver niet worden gestart. Als er een geldige vergunning is en de Server van het Beeld niet opstelling is, raadpleeg de logboekdossiers.
->[!NOTE]
-Als de licentie na de installatie van Image Serving is geïnstalleerd, moet de Image Server handmatig worden gestart voordat u het image kunt gebruiken.
->
->
->
+   >[!IMPORTANT]
+   >
+   >Als een andere rekening dan wortel wordt gespecificeerd, moet u ervoor zorgen dat de toegangstoestemmingen voor alle dossiers en omslagen de Server van het Beeld moet lezen en/of schrijven correct opstelling zijn wanneer deze omslagen in de configuratiedossiers worden aangepast.
+   >
+   >Beeldserver is nu geïnstalleerd op [!DNL /usr/local/Scene7/ImageServing]. Bepaalde inhoud voor het renderen van afbeeldingen is geïnstalleerd op [!DNL /usr/local/Scene7/ImageRendering].
+   >
+   >Tegen het einde van de installatie probeert de installatiewizard Image Server te starten. Als er geen geldige licentiecode wordt gevonden, kan de imageserver niet worden gestart. Als er een geldige vergunning is en de Server van het Beeld niet opstelling is, raadpleeg de logboekdossiers.
 
+>[!NOTE]
+>
+>Als de licentie na de installatie van Image Serving is geïnstalleerd, moet de Image Server handmatig worden gestart voordat u het image kunt gebruiken.
