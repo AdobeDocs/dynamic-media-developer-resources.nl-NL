@@ -1,20 +1,23 @@
 ---
-description: Gebruik deze procedure wanneer het bevorderen van het Beeld Scene7 die op Linux dienen.
-seo-description: Gebruik deze procedure wanneer het bevorderen van het Beeld Scene7 die op Linux dienen.
+description: Gebruik deze procedure bij het upgraden van Scene7 Image Serving op Linux.
+seo-description: Gebruik deze procedure bij het upgraden van Scene7 Image Serving op Linux.
 seo-title: Bijwerken vanaf IS 4.7.4 of hoger
 solution: Experience Manager
 title: Bijwerken vanaf IS 4.7.4 of hoger
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 70beb1a3-71b9-4bd0-b048-13d88446a9d3
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 038f0f8f2c4f815e47749e0bab153c63e5396c91
+workflow-type: tm+mt
+source-wordcount: '219'
+ht-degree: 0%
 
 ---
 
 
 # Bijwerken vanaf IS 4.7.4 of hoger{#updating-from-is-or-later}
 
-Gebruik deze procedure wanneer het bevorderen van het Beeld Scene7 die op Linux dienen.
+Gebruik deze procedure bij het upgraden van Scene7 Image Serving op Linux.
 
 Als u een upgrade uitvoert van een oudere versie van Image Serving, neemt u contact op met de ondersteuning voor het juiste proces.
 
@@ -32,7 +35,7 @@ De [!DNL webapps] map kan bij een upgrade worden verwijderd. Maak een back-up va
    Wanneer de installatie is voltooid, wordt het volgende bericht getoond:
 
    `Image Server was started successfully`
->Tijdens een update wordt het [!DNL ImageServing/conf/server.xml] bestand bijgewerkt naar de meest recente instellingen. Als u waarden hebt gewijzigd of toegevoegd, slaat u uw bestaande wijzigingen op [!DNL server.xml] en implementeert u deze na de upgrade opnieuw.
->
->Na een update-installatie kunt u overwegen de HTTP-responscache op te warmen voordat u de server live gaat. Raadpleeg de beschrijving van het [!DNL playlog] hulpprogramma voor meer informatie.
 
+Tijdens een update wordt het [!DNL ImageServing/conf/server.xml] bestand bijgewerkt naar de meest recente instellingen. Als u waarden hebt gewijzigd of toegevoegd, slaat u uw bestaande wijzigingen op [!DNL server.xml] en implementeert u deze na de upgrade opnieuw.
+
+Na een update-installatie kunt u overwegen de HTTP-responscache op te warmen voordat u de server live gaat. Raadpleeg de beschrijving van het [!DNL playlog] hulpprogramma voor meer informatie.
