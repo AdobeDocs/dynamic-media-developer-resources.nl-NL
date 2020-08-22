@@ -7,7 +7,10 @@ title: fmt
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 7c589119-d1b3-460f-acbd-5e8d10d0d976
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '603'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Afbeeldingsindeling beantwoorden. Hiermee geeft u de indeling voor afbeeldingscodering op voor afbeeldingsgegevens die naar de client worden verzonden en het corresponderende MIME-type voor reactie op de HTTP-antwoordheader.
 
-` fmt= *``*[,[ *``*][, *`formatpixelTypetiffCompression`*`]]
+` fmt= *``*[,[ *``*][, *`formatpixelTypetiffCompression`*]]`
 
 <table id="simpletable_200779AA8D8D49A089A295AED5C98C8F"> 
  <tr class="strow"> 
@@ -52,12 +55,12 @@ Afbeeldingsindeling beantwoorden. Hiermee geeft u de indeling voor afbeeldingsco
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>swf </p> </td> 
-  <td class="stentry"> <p>JPEG met gegevensverlies is ingesloten in een SWF-bestand met macromedia. </p> </td> 
+  <td class="stentry"> <p>JPEG met verlies is ingesloten in een Macromedia SWF-bestand. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>swf-alpha </p> </td> 
-  <td class="stentry"> <p>JPEG met verlies en een gecomprimeerd masker zijn ingesloten in een SWF-bestand met macromedia. </p> </td> 
+  <td class="stentry"> <p>JPEG met verlies en een gecomprimeerd masker zijn ingesloten in een Macromedia SWF-bestand. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
@@ -169,7 +172,7 @@ De volgende tabel bevat een lijst met geldige combinaties van *`format`* en *`pi
    <td colname="col1"> <p>swf, swf-alpha </p> </td> 
    <td colname="col2"> <p>rgb, grijs </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
-   <td colname="col4"> <p>Nee </p> <p>(In Flash Player worden ingesloten ICC-profielen genegeerd.) </p> </td> 
+   <td colname="col4"> <p>Nee </p> <p>(De Flash Player negeert ingesloten ICC-profielen.) </p> </td> 
    <td colname="col5"> <p> <span class="codeph"> qlt= </span>, <span class="codeph"> kenmerk::TrustedDomains </span> </p> </td> 
   </tr> 
   <tr> 
