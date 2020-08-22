@@ -7,7 +7,10 @@ title: fmt
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 29151740-3bbc-4c5e-bbc7-4afe9064ff5f
 translation-type: tm+mt
-source-git-commit: f490c0b927679917d5fbf3553e60aa90952735c3
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '856'
+ht-degree: 0%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: f490c0b927679917d5fbf3553e60aa90952735c3
 
 Indeling reactieafbeelding.
 
-`fmt=format[,` `[`*`pixelType`*`]`,`[`*`compression`*]]
+`fmt=format[,` `[`*`pixelType`*`]`,`[`*`compression`*`]]`
 
-*`format`* — jpeg| jpg| pjpeg| png| png8| png-alpha| png8-alpha| tif| tif-alfa| SWF| swf-alpha| swf3| swf3-alfa| eps| gif| gif-alpha| m3u8| f4m| web| webp-alpha| jpeg2000| jpeg2000-alfa| jpegxr| jpegxr-alpha
+*`format`* — jpeg | jpg | pjpeg | png | png8 | png-alpha | png8-alpha | tif | tif-alfa | SWF | swf-alpha | swf3 | swf3-alfa | eps | gif | gif-alpha | m3u8 | f4m | web | webp-alpha | jpeg2000 | jpeg2000-alfa | jpegxr | jpegxr-alpha
 
 | *`format`* | Beschrijving |
 |---|---| 
@@ -36,9 +39,9 @@ Indeling reactieafbeelding.
 | `gif` | GIF met 2 tot 256 kleuren |
 | `gif-alpha` | GIF met 2 tot 255 kleuren plus transparantie van hoofdkleuren |
 | `swf` | JPEG met verlies ingesloten in een Adobe AS2 SWF-bestand |
-| `swf-alpha` | JPEG met verlies en een gecomprimeerd masker zijn ingesloten in een SWF-bestand van Adobe AS2 |
+| `swf-alpha` | JPEG met verlies en een gecomprimeerd masker zijn ingesloten in een SWF-bestand met Adobe AS2 |
 | `swf3` | JPEG met verlies ingesloten in een Adobe AS3 SWF-bestand |
-| `swf3-alpha` | JPEG met verlies en een gecomprimeerd masker zijn ingesloten in een Adobe AS3 SWF-bestand. **Opmerking**: SWF- en swf-alfa-indelingen kunnen het best worden gebruikt voor ActionScript 2-toepassingen (Flash Player 8 en lager). swf3 en swf3-alpha wordt aanbevolen voor gebruik in ActionScript3-toepassingen (Flash Player 9 en hoger) |
+| `swf3-alpha` | JPEG met verlies en een gecomprimeerd masker zijn ingesloten in een SWF-bestand met Adobe AS3. **Opmerking**: SWF- en swf-alfa-indelingen kunnen het best worden gebruikt voor ActionScript 2-toepassingen (Flash Player 8 en eerder). swf3 en swf3-alpha wordt aanbevolen voor gebruik bij ActionScript 3-toepassingen (Flash Player 9 en hoger) |
 | `m3u8` | Apple Streaming Server-manifestindeling |
 | `f4m` | Flash Streaming Server-manifest-indeling |
 | `webp` | WebP zonder gegevensverlies |
@@ -82,8 +85,8 @@ De volgende tabel bevat een lijst met geldige combinaties van *`format`*and *`pi
 <table id="table_12F897A34D1D47F3AA492D4F074F09D5"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> <i> formaat</i></b> </th> 
-   <th class="entry"> <b> <i> pixelType</i></b> </th> 
+   <th class="entry"> <b> <i> format</i> </b> </th> 
+   <th class="entry"> <b> <i> pixelType</i> </b> </th> 
    <th class="entry"> <b> Type Response MIME</b> </th> 
    <th class="entry"> <b>ICC-profiel insluiten</b> </th> 
    <th class="entry"> <b> Opties</b> </th> 
@@ -116,13 +119,13 @@ De volgende tabel bevat een lijst met geldige combinaties van *`format`*and *`pi
    <td colname="col2"> <p>rgb, grijs, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image/tiff&gt; </span> </p> </td> 
    <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> compressie </span></span> <p> ( <span class="codeph"> none|lzw|zip|jpeg </span>) </p> <p>alleen "tiff"; 'tiff-alpha' ondersteunt JPEG-compressie niet. </p> <p> <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> wordt genegeerd, tenzij <span class="varname"> compressie </span> is ingesteld op <span class="codeph"> jpeg </span>. </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
+   <td colname="col5"> <span class="codeph"> <span class="varname"> compressie </span> </span> <p> ( <span class="codeph"> none|lzw|zip|jpeg </span>) </p> <p>alleen "tiff"; 'tiff-alpha' ondersteunt JPEG-compressie niet. </p> <p> <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> wordt genegeerd, tenzij <span class="varname"> compressie </span> is ingesteld op <span class="codeph"> jpeg </span>. </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> swf,swf3, swf-alpha, swf-alpha3 </p> </td> 
    <td colname="col2"> <p>rgb, grijs </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
-   <td colname="col4"> <p>Nee </p> <p> <p>Opmerking:  Adobe Flash Player negeert ingesloten ICC-profielen. </p> </p> </td> 
+   <td colname="col4"> <p>Nee </p> <p> <p>Opmerking:  De Adobe-Flash Player negeert ingesloten ICC-profielen. </p> </p> </td> 
    <td colname="col5"> <p> <span class="codeph"> qlt= </span>, <span class="codeph"> kenmerk::TrustedDomains </span> </p> </td> 
   </tr> 
   <tr valign="top"> 
@@ -130,7 +133,7 @@ De volgende tabel bevat een lijst met geldige combinaties van *`format`*and *`pi
    <td colname="col2"> <p>rgb, grijs, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/pdf&gt; </span> </p> </td> 
    <td colname="col4"> <p>Ja </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> compressie </span></span> <p> ( <span class="codeph"> none|zip|jpeg </span>), <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> wordt genegeerd, tenzij <span class="codeph"><span class="varname"> compressie </span> is ingesteld op </span> jpeg <span class="codeph"> </span>. </p> </td> 
+   <td colname="col5"> <span class="codeph"> <span class="varname"> compressie </span> </span> <p> ( <span class="codeph"> none|zip|jpeg </span>), <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> wordt genegeerd, tenzij <span class="codeph"><span class="varname"> compressie </span> is ingesteld op </span> jpeg <span class="codeph"> </span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> reep </p> </td> 
@@ -151,7 +154,7 @@ De volgende tabel bevat een lijst met geldige combinaties van *`format`*and *`pi
    <td> <p>rgb </p> </td> 
    <td> <p> <span class="codeph"> &lt;image/webp&gt; </span> </p> </td> 
    <td> <p>Nee </p> </td> 
-   <td> <p> <span class="codeph"> <span class="varname"> compressie </span> ( </span> met verlies <span class="codeph"> , </span>zonder verlies <span class="codeph"> </span>) </p> <p> <span class="codeph"> qlt= </span> wordt genegeerd voor <span class="codeph"> verliesloos </span>. </p> <p>Omdat er geen concept van chrominantiedonsampling met het formaat WebP is, als u een tweede waarde met <span class="codeph"> qlt </span> (bijvoorbeeld, <span class="codeph"> qlt=80.1 </span>) gebruikt wordt de tweede waarde ( <span class="codeph"> 1 </span>) genegeerd. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> compressie </span> </span> ( <span class="codeph"> met verlies </span>, <span class="codeph"> zonder verlies </span>) </p> <p> <span class="codeph"> qlt= </span> wordt genegeerd voor <span class="codeph"> verliesloos </span>. </p> <p>Omdat er geen concept van chrominantiedonsampling met het formaat WebP is, als u een tweede waarde met <span class="codeph"> qlt </span> (bijvoorbeeld, <span class="codeph"> qlt=80.1 </span>) gebruikt wordt de tweede waarde ( <span class="codeph"> 1 </span>) genegeerd. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p>jpeg2000, jpeg2000-alpha </p> </td> 
