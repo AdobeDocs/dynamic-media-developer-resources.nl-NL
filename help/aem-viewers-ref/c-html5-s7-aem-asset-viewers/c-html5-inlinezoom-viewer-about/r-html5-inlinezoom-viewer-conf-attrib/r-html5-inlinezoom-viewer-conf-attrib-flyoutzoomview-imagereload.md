@@ -7,7 +7,10 @@ title: FlyoutZoomView.imagereload
 topic: Dynamic media
 uuid: 98a84ba1-4b89-424a-ac2e-4a59af33cec0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '123'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
    <td colname="col2"> <p> Vormt hoe de component nieuwe beelden voor de hoofd en vliegend mening tijdens resize haalt. </p> <p>Stel in op <span class="codeph"> 0 </span>, de component laadt geen nieuwe afbeeldingen tijdens het vergroten/verkleinen en de afbeeldingsresolutie in de vervolgweergave verandert niet. </p> <p>Met <span class="codeph"> 1 </span> kunt u een of meer breedteonderbrekingspunten opgeven voor de afbeelding die in de hoofdweergave wordt geladen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> breekpunt, <span class="varname"> breedte </span>[; <span class="varname"> breedte </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> breekpunt, <span class="varname"> breedte </span>; <span class="varname"> width </span> </span> </p> </td> 
    <td colname="col2"> <p>Breedteonderbrekingspunten voor de afbeelding die in de hoofdweergave is geladen. </p> <p>De component gebruikt altijd de beste maatgrootte voor de eerste belasting. Nadat het formaat is gewijzigd, zorgt u ervoor dat de afbeelding in de hoofdweergave altijd wordt gedownload met de breedte die gelijk is aan het dichtstbijzijnde grotere onderbrekingspunt en op de client wordt geschaald. </p> </td> 
   </tr> 
  </tbody> 
