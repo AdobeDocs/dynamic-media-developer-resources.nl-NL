@@ -7,7 +7,10 @@ title: src
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 52751bcc-a65d-4441-a3b5-802d27b54b54
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '483'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +36,7 @@ Materiaalbestand. Hiermee worden materiaalgegevens opgegeven, in de vorm van Ã©Ã
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> embeddedReq</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph">{'is{'<span class="varname"> isReq</span>'}'}|{'ir{'<span class="varname"> irReq</span>'}'|{'{'<span class="varname"> foreignReq</span>'}'</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&amp;Markeren;Marce;'is&amp;Marce;'<span class="varname"> isReq</span>'&amp;brace;'&amp;trace;|&amp;Marce;'ir&amp;Marce;'<span class="varname"> irReq</span>'&amp;Rbrace;'|&amp;Marce;'&amp;Marce;'&amp;Marce;'<span class="varname"> foreignReq</span>' amp;break;'</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p></td> 
@@ -91,9 +94,9 @@ Als *`catId`* niet is opgegeven, wordt de sessiecatalogus gebruikt.
 
 ## Ondersteunde bestandsindelingen {#section-f2186d3eef834fc8bbecb2bc68daacad}
 
-Het teruggeven van het beeld steunt de zelfde bronbeeldformaten zoals het Serven van het Beeld Scene7.
+Renderen van afbeeldingen ondersteunt dezelfde bronafbeeldingsindelingen als Scene7 Image Serving.
 
-Toepassingen die afbeeldingsgegevens in meerdere resoluties vereisen, presteren het best als de indeling voor meervoudige resolutie van de indeling Scene7 piramid TIFF (PTIFF) wordt gebruikt. De Beeldserver omvat het hulpmiddel van de Omzetter van het Beeld (IC) dat tot beelden PTIFF van om het even welk gesteund formaat leidt.
+Toepassingen waarvoor afbeeldingsgegevens in meerdere resoluties vereist zijn, presteren het beste als de indeling voor meerresolutie van de Scene7 piramid TIFF (PTIFF) wordt gebruikt. De Beeldserver omvat het hulpmiddel van de Omzetter van het Beeld (IC) dat tot beelden PTIFF van om het even welk gesteund formaat leidt.
 
 Raadpleeg de beschrijving van het IC-hulpprogramma in de documentatie van Image Serving voor een volledige lijst met ondersteunde bestandsindelingen.
 
