@@ -7,7 +7,10 @@ title: glossmap
 topic: Scene7 Image Serving - Image Rendering API
 uuid: f137d362-74a1-45b3-9274-a3a2d6cf5db0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 0%
 
 ---
 
@@ -20,19 +23,19 @@ Afbeelding met glans. Biedt pixelcontrole over de glanzen van een herhaalbare st
 
 <table id="simpletable_6AFC3DEB61D647339525C7CFFA052608"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> embeddedReq</span></span> </p></td> 
-  <td class="stentry"> <p><span class="codeph">{'is{'<span class="varname"> isReq</span>'}'}|{'{'<span class="varname"> foreignReq</span>'}' </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> embeddedReq</span> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&amp;Markeren;Markeren;'is&amp;Marce;'<span class="varname"> isReq</span>'&amp;brace;'&amp;trace;|&amp;Marce;'&amp;Marce;'&amp;Marce;'<span class="varname"> foreignReq</span>'&amp;Rbrace;' </span> </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> glossMapFile</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> glossMapFile</span> </span> </p></td> 
   <td class="stentry"> <p>Afbeeldingsbestand met glansafbeelding (grijswaarden). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> isReq</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> isReq</span> </span> </p></td> 
   <td class="stentry"> <p>Verzoek aan de Server van het Beeld. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> foreignReq </span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> foreignReq </span> </span> </p></td> 
   <td class="stentry"> <p>Verzoek aan een externe server. </p></td> 
  </tr> 
 </table>
