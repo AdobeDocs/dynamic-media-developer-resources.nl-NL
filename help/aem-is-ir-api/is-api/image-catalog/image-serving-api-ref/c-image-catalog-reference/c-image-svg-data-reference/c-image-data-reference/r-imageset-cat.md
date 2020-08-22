@@ -1,36 +1,39 @@
 ---
-description: Afbeeldingssetgegevens. Verstrekt een mechanisme om gesorteerde reeksen beelden en controleattributen te bepalen die door de kijkers Scene7 worden gebruikt.
-seo-description: Afbeeldingssetgegevens. Verstrekt een mechanisme om gesorteerde reeksen beelden en controleattributen te bepalen die door de kijkers Scene7 worden gebruikt.
+description: Afbeeldingssetgegevens. Biedt een mechanisme voor het definiëren van gesorteerde sets afbeeldingen en het beheren van kenmerken die door Scene7-viewers worden gebruikt.
+seo-description: Afbeeldingssetgegevens. Biedt een mechanisme voor het definiëren van gesorteerde sets afbeeldingen en het beheren van kenmerken die door Scene7-viewers worden gebruikt.
 seo-title: ImageSet
 solution: Experience Manager
 title: ImageSet
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 1a34aaef-4053-4474-abb8-794331898d88
 translation-type: tm+mt
-source-git-commit: 06f227705765e4173e1c4b49dd7d8202884f5e07
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '703'
+ht-degree: 0%
 
 ---
 
 
 # ImageSet{#imageset}
 
-Afbeeldingssetgegevens. Verstrekt een mechanisme om gesorteerde reeksen beelden en controleattributen te bepalen die door de kijkers Scene7 worden gebruikt.
+Afbeeldingssetgegevens. Biedt een mechanisme voor het definiëren van gesorteerde sets afbeeldingen en het beheren van kenmerken die door Scene7-viewers worden gebruikt.
 
 Een afbeeldingsset bestaat uit een gesorteerde, door komma&#39;s gescheiden lijst met items, waarbij elk item bestaat uit een of meer subitems (afbeeldings-id&#39;s, stalen, paden voor mediabestanden, labels, enz.), gescheiden door puntkomma&#39;s en/of dubbele punten.
 
-De accolades &#39;{ }&#39; en de haakjes &#39;( )&#39; kunnen worden gebruikt om bepaalde inhoud (zoals kleurwaarden) af te bakenen of om geneste sets aan te geven. Accolades of ronde haakjes die op deze manier worden gebruikt, mogen niet worden gecodeerd en moeten altijd als overeenkomende paren worden weergegeven. Als dit niet het geval is, treedt er een parseringsfout op.
+U `{ }` kunt accolades `( )` en haakjes gebruiken om bepaalde inhoud (zoals kleurwaarden) te scheiden of om geneste sets aan te geven. Accolades of ronde haakjes die op deze manier worden gebruikt, mogen niet worden gecodeerd en moeten altijd als overeenkomende paren worden weergegeven. Als dit niet het geval is, treedt er een parseringsfout op.
 
 >[!NOTE]
 >
 >De volgende tekens worden gebruikt als ingestelde scheidingstekens en moeten HTTP-gecodeerd zijn wanneer ze in de set voorkomen als onderdeel van id- of tekenreekswaarden:
 >
->* ,
->* ;
->* :
->* {
->* }
->* (
->* )
+>* `,`
+>* `;`
+>* `:`
+>* `{`
+>* `}`
+>* `(`
+>* `)`
 
 
 
