@@ -2,9 +2,12 @@
 cloud: experience-cloud
 product: adobe
 archtype: end-user
-user-guide-title: Dynamic Media Image Production System API
+user-guide-title: Dynamic Media Image Production System-API
 translation-type: tm+mt
-source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
+source-git-commit: 88d3a65852365d7fcd7631ff5b5f7215b7c48618
+workflow-type: tm+mt
+source-wordcount: '640'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +38,7 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
       + [cdnCacheInvalidation](operations/c-operations-intro/c-methods/r-cdn-cache-invalidation.md)
       + [checkAssetNames](operations/c-operations-intro/c-methods/r-check-asset-names.md)
       + [checkLogin](operations/c-operations-intro/c-methods/r-check-login.md)
-      + [copyImage](operations/c-operations-intro/c-methods/r-copy-image.md)
+      + [addImage](operations/c-operations-intro/c-methods/r-copy-image.md)
       + [createAssetSet](operations/c-operations-intro/c-methods/r-create-asset-set.md)
       + [createDerivedAsset](operations/c-operations-intro/c-methods/r-create-derived-asset.md)
       + [createFolder](operations/c-operations-intro/c-methods/r-create-folder.md)
@@ -354,7 +357,6 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
    + [SystemFieldConditionArray](types/c-data-types/r-system-field-condition-array.md)
    + [TagCondition](types/c-data-types/r-tag-condition.md)
    + [TagConditionArray](types/c-data-types/r-tag-condition-array.md)
-   + [TagConditionArray](types/c-data-types/r-tag-condition-array.md)
    + [TagFieldValues](types/c-data-types/r-tag-field-values.md)
    + [TagFieldValuesArray](types/c-data-types/r-tag-field-values-array.md)
    + [TagValueUpdate](types/c-data-types/r-tag-value-update.md)
@@ -423,7 +425,7 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
    + [PDF-processen](string-constants/c-string-constants/r-pdf-processes.md)
    + [Machtigingstypen](string-constants/c-string-constants/r-permission-types.md)
    + [Photoshop-ankermodi](string-constants/c-string-constants/r-photoshop-anchor-modes.md)
-   + [Photoshop-laagnaamgevingsmodi](string-constants/c-string-constants/r-photoshop-layer-naming-modes.md)
+   + [Naamgevingsmodi voor Photoshop-lagen](string-constants/c-string-constants/r-photoshop-layer-naming-modes.md)
    + [PostScript-kleurruimtemodi](string-constants/c-string-constants/r-postscript-colorspace-modes.md)
    + [Profielklassen](string-constants/c-string-constants/r-profile-classes.md)
    + [Status publiceren](string-constants/c-string-constants/r-publish-state.md)
@@ -438,8 +440,8 @@ source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
    + [Gebruikerskartelvelden](string-constants/c-string-constants/r-user-char-filter-fields.md)
    + [Gebruikersrollen](string-constants/c-string-constants/r-user-roles.md)
    + [Velden sorteren door gebruiker](string-constants/c-string-constants/r-user-sort-fields.md)
-   + [Type viewer](string-constants/c-string-constants/r-viewer-type.md)
-+ Standaardwaarden {#faults}
+   + [Zoeken](string-constants/c-string-constants/r-viewer-type.md)
++ Overeenkomst {#faults}
    + [Overzicht van fouten](faults/c-faults/c-faults.md)
    + [authenticationFault](faults/c-faults/r-authentication-fault.md)
    + [authenticationFault](faults/c-faults/r-authorization-fault.md)
