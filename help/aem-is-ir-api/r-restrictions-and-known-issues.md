@@ -1,15 +1,15 @@
 ---
-description: Er zijn sommige beperkingen en bekende kwesties die zouden moeten worden overwogen wanneer het gebruiken van het Serven van het Beeld Scene7.
-seo-description: Er zijn sommige beperkingen en bekende kwesties die zouden moeten worden overwogen wanneer het gebruiken van het Serven van het Beeld Scene7.
+description: Er zijn enkele beperkingen en bekende problemen die in overweging moeten worden genomen bij het gebruik van Scene7 Image Serving.
+seo-description: Er zijn enkele beperkingen en bekende problemen die in overweging moeten worden genomen bij het gebruik van Scene7 Image Serving.
 seo-title: Beperkingen en bekende problemen
 solution: Experience Manager
 title: Beperkingen en bekende problemen
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 0e9d6a0ccbb040b27cc89b933442d8530c60d5c8
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Beperkingen en bekende problemen{#restrictions-and-known-issues}
 
-Er zijn sommige beperkingen en bekende kwesties die zouden moeten worden overwogen wanneer het gebruiken van het Serven van het Beeld Scene7.
+Er zijn enkele beperkingen en bekende problemen die in overweging moeten worden genomen bij het gebruik van Scene7 Image Serving.
 
 ## Documentatierrata {#section-b1579410b11e41e488c7de9ecc7e8d5c}
 
@@ -37,9 +37,9 @@ Er zijn sommige beperkingen en bekende kwesties die zouden moeten worden overwog
 * Als de laatste tekstregel niet past, wordt de hele regel neergezet in plaats van als afboeking te worden weergegeven.
 * `\slmult` en `\sl` gedraagt zich anders dan MS Word en `text=`gelden ze alleen voor de huidige en volgende alinea&#39;s.
 
-* `\sb` is van toepassing op de eerste alinea voor zowel MS Word als `text=`Adobe InDesign en Photoshop doen dit niet.
+* `\sb` is van toepassing op de eerste alinea voor zowel MS Word als `text=`, Adobe InDesign en Photoshop doen dit niet.
 
-* `\sa` is van toepassing op de laatste alinea voor zowel MS Word als `text=`Adobe InDesign en Photoshop doen dit niet.
+* `\sa` is van toepassing op de laatste alinea voor zowel MS Word als `text=`, Adobe InDesign en Photoshop doen dit niet.
 
 ## Achterwaartse compatibiliteit {#section-a76842f751944f4fb664af296d064122}
 
@@ -89,11 +89,11 @@ De Digimarc-bibliotheek weigert een Digimarc-watermerk toe te passen op een afbe
 
    *Omgaan*:
 
-   Voor afbeeldingen die niet-gepiramideerde vignetten renderen, verhoogt u de eigenschapswaarde voor IrMaxNonPyrVignetteSize in het configuratiebestand [!DNL *[!DNL install_root]*/ImageServing/bin/ImageServerRegistry.xml].
+   Voor afbeeldingen die niet-gepiramideerde vignetten renderen, verhoogt u de eigenschapswaarde voor IrMaxNonPyrVignetteSize in het [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] configuratiebestand.
 
-   Voor Beeld dat niet-piramided TIFFs dient, verhoog de bezitswaarde voor `MaxNonDsfSize` in het [!DNL *[!DNL install_root]* /ImageServing/bin/ ImageServerRegistry.xml] configuratiedossier.
+   Verhoog de eigenschapswaarde voor afbeeldingen in het `MaxNonDsfSize` configuratiebestand voor afbeeldingen die niet-gepiramideerde TIFF&#39;s [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] in beslag nemen.
 
-* In Adobe Photoshop CS3 worden PSD-bestanden met lagen standaard niet opgeslagen als een samengestelde afbeelding.
+* Adobe Photoshop CS3 slaat gelaagde PSD-bestanden standaard niet op als een samengestelde afbeelding.
 
    *Symptomen*:
 
@@ -120,7 +120,7 @@ De Digimarc-bibliotheek weigert een Digimarc-watermerk toe te passen op een afbe
 * Voor kleurcorrecties voor PNG-afbeeldingen met ingesloten kleurprofielen worden opties met harde codes gebruikt. Render-intentie is relatief colorimetrisch en Blackpoint-compensatie is ingeschakeld voor PhotoFont-tekst.
 * Opzoeken op basis van bestanden wordt niet ondersteund wanneer vertaling van landinstellingen is ingeschakeld in [!DNL ini] het bedrijfsbestand.
 * Met Beeldserver worden niet-gesloten Photoshop-paden niet correct geschreven.
-* De afbeeldingsserver biedt momenteel geen ondersteuning voor het verwerken van TIFF-bestanden die zijn geëxporteerd met Adobe Media Encoder 4.0.1 of lager. Adobe Media Encoder wordt geleverd bij Premiere Pro CS4, After Effects CS4 en Creative Suite 4 Production Premium.
+* De afbeeldingsserver ondersteunt momenteel niet de verwerking van TIFF-bestanden die zijn geëxporteerd met Adobe Media Encoder 4.0.1 of eerder. Adobe Media Encoder is inbegrepen bij Premiere Pro CS4, After Effects CS4 en Creative Suite 4 Production Premium.
 * Het gebruik `text=` met lagen die zichzelf aanpassen ondersteunt geen RTF-tekenreeksen die meer dan één instelling gebruiken voor regeluitvulling.
 
    *Voorbeeld*
@@ -135,17 +135,17 @@ De Digimarc-bibliotheek weigert een Digimarc-watermerk toe te passen op een afbe
 
    *Workaround*
 
-   Stel de eigenschap in `svgProvider.fontRoot=` [!DNL *[!DNL install_root]* /ImageServing/conf/PlatformServer.conf].
+   Stel de eigenschap `svgProvider.fontRoot=` in [!DNL install_root/ImageServing/conf/PlatformServer.conf] .
 
 * Uitsnijden wordt momenteel gebruikt `bgColor=` in plaats van nieuw uitgebreid gebied `color=` te vullen.
 
 * Kleuromzetting is mogelijk niet correct als deze `bgColor=` niet overeenkomt met de basiskleurruimte met kleurprofielen.
-* Buitenlaageffecten worden niet gerenderd als de laag geen masker- of alpha-gegevens heeft.
+* De effecten van de buitenste laag worden niet gerenderd als de laag geen masker of alpha-gegevens heeft.
 
 ## Beperkingen die alleen van toepassing zijn op het renderen van afbeeldingen {#section-4c6949e797174607a3d1ab4d3d4a725a}
 
 * Decalen en wandmaterialen kunnen niet worden verwijderd.
-* De grootte van structuren is beperkt ten opzichte van de grootte van de vignetweergave. In zeldzame gevallen kan de standaardlimiet van 425% van de weergavegrootte problemen opleveren met een toepassing die zeer grote niet-herhaalbare structuren gebruikt. Als het niet mogelijk is de toepassing of inhoud te wijzigen om binnen de vooraf gedefinieerde beperkingen te werken, kan het percentage als volgt worden verhoogd. Open [!DNL *[!DNL install_root]*/ImageServing/conf/ImageServerRegistry.xml] met een teksteditor, zoek `IrMaxTextureSizeFactor` en voer een nieuw percentage in. De verandering treedt onmiddellijk in werking zonder de Server van het Beeld opnieuw te beginnen.
+* De grootte van structuren is beperkt ten opzichte van de grootte van de vignetweergave. In zeldzame gevallen kan de standaardlimiet van 425% van de weergavegrootte problemen opleveren met een toepassing die zeer grote niet-herhaalbare structuren gebruikt. Als het niet mogelijk is de toepassing of inhoud te wijzigen om binnen de vooraf gedefinieerde beperkingen te werken, kan het percentage als volgt worden verhoogd. Open een teksteditor, zoek [!DNL install_root/ImageServing/conf/ImageServerRegistry.xml]een nieuw percentage `IrMaxTextureSizeFactor` en voer een nieuw percentage in. De verandering treedt onmiddellijk in werking zonder de Server van het Beeld opnieuw te beginnen.
 
 * De JavaScript-engines in Netscape en Opera cache-responsgegevens, zelfs als de nocache-header is ingesteld. Dit interfereert met het correct functioneren van stateful verzoeken.
 
