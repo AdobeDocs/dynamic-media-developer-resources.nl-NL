@@ -7,7 +7,10 @@ title: Bronhoofdmappen (ir.resourceRootPaths)
 topic: Scene7 Image Serving - Image Rendering API
 uuid: a2a8ecd1-ddfe-46c5-bb70-4640e0992de8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 2bc6fe0369808990642cf7afdccff647c48260d9
+workflow-type: tm+mt
+source-wordcount: '100'
+ht-degree: 0%
 
 ---
 
@@ -16,4 +19,4 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Een lijst met paden, gescheiden door puntkomma&#39;s, fungeert als basis voor alle gegevensbestanden met relatieve bestandspaden.
 
-Dit kunnen absolute paden of paden zijn ten opzichte van [!DNL *[!DNL install_folder]*]. Wanneer meerdere paden zijn opgegeven, probeert de server elke hoofdmap in de gegeven volgorde uit tot het bestand is gevonden. Standaard is dit [!DNL ./ resources]het geval bij een standaardhoofdpad van [!DNL *[!DNL install_folder]*/resources].
+Dit kunnen absolute paden zijn of paden ten opzichte van *[!DNL install_folder]*. Wanneer meerdere paden zijn opgegeven, probeert de server elke hoofdmap in de gegeven volgorde uit tot het bestand is gevonden. Standaard is dit [!DNL ./resources]het geval bij een standaardhoofdpad van [!DNL install_folder/resources].
