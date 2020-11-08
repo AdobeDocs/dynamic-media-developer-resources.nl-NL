@@ -7,7 +7,10 @@ title: Vragen om verwarring
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 59b12a78-c4ba-4b6d-97bc-63150298ed73
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 80ae3a549340156bb74faa1793c43d3a8fa3853c
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 0%
 
 ---
 
@@ -17,6 +20,10 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 De inhoud van het volledige modifiers-gedeelte van de aanvraagtekenreeks, inclusief het optionele vergrendelingsachtervoegsel, kan worden verborgen door het toepassen van standaard base64-codering.
 
 De server probeert te decoderen als deze `attribute::RequestObfuscation` is ingesteld. Indien decodering mislukt, wordt het verzoek afgewezen. Als zowel de verzoekvergrendeling als de verzoekverwarring worden toegepast, moet het slotachtervoegsel worden geproduceerd en toegevoegd vóór base64 het coderen.
+
+>[!IMPORTANT]
+>
+>Als u deze functie inschakelt, dient u er rekening mee te houden dat er bepaalde gebruiksbeperkingen zijn, waaronder de volgende:<br>- De gebruikersinterface Dynamische media geeft mogelijk niet de juiste details voor het **[!UICONTROL Last Published]** veld weer. Dit heeft echter geen invloed op de uitgeverij.<br>- HLS-videostreaming werkt momenteel niet wanneer **[!UICONTROL Request obfuscation]** en **[!UICONTROL Request locking]** wordt ingeschakeld.
 
 ## Voorbeeld {#section-dd4bfab19aa040f8ba3f6e397c6b0941}
 
