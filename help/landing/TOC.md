@@ -1,10 +1,17 @@
 ---
 title: Bronnen voor Adobe Dynamic Media-ontwikkelaars
-seo-title: Adobe Dynamic Media-ontwikkelaarsgids voor viewers, beeldbewerking, rendering van afbeeldingen en afbeeldingsproductie
-description: Bronnen voor Adobe Dynamic Media-ontwikkelaars
-seo-description: Adobe Dynamic Media-ontwikkelaarsgids voor viewers, beeldbewerking, rendering van afbeeldingen en afbeeldingsproductie
+cloud: experience-cloud
+product: Adobe Dynamic Media Developer Resources
+audience: end-user
+user-guide-title: Bronnen voor Adobe Dynamic Media Developer
+breadcrumb-title: Dynamic Media Developer Resources
+user-guide-description: Toegang tot dynamische media-ontwikkelaarsbronnen, zoals de Viewers Reference Guide, Image Production System API, Image Serving and Rendering API en gearchiveerde Scene7-releaseopmerkingen.
+index: y
 translation-type: tm+mt
-source-git-commit: 48efa6eabf127265f24ec5986a46893cf431a07d
+source-git-commit: 901f0c3986715279e0c696db93be2048343d2bc5
+workflow-type: tm+mt
+source-wordcount: '44'
+ht-degree: 0%
 
 ---
 
