@@ -7,9 +7,9 @@ title: Vragen om verwarring
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 59b12a78-c4ba-4b6d-97bc-63150298ed73
 translation-type: tm+mt
-source-git-commit: 6b51248cdc6a6b9d36893545640dbbeb11a0c414
+source-git-commit: 021c1d1f975083af3950775e230d4f73cbf9e0ec
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ De server probeert te decoderen als deze `attribute::RequestObfuscation` is inge
 
 >[!IMPORTANT]
 >
->Als u deze functie inschakelt, dient u er rekening mee te houden dat er bepaalde gebruiksbeperkingen zijn, waaronder de volgende:<br>- De gebruikersinterface Dynamische media geeft mogelijk niet de juiste details voor het **[!UICONTROL Last Published]** veld weer. Dit heeft echter geen invloed op de uitgeverij.<br>- HLS-videostreaming werkt momenteel niet wanneer **[!UICONTROL Request obfuscation]** en **[!UICONTROL Request locking]** wordt ingeschakeld.
+>Als u deze functie inschakelt, dient u er rekening mee te houden dat er bepaalde gebruiksbeperkingen zijn, waaronder de volgende:<br>- De gebruikersinterface Dynamische media geeft mogelijk niet de juiste details voor het **[!UICONTROL Last Published]** veld weer. Dit heeft echter geen invloed op de uitgeverij.<br>- HLS-videostreaming werkt momenteel niet wanneer **[!UICONTROL Request obfuscation]** en **[!UICONTROL Request locking]** wordt ingeschakeld.<br>- Momenteel werken sommige Dynamic Media Viewers niet wanneer **[!UICONTROL Request obfuscation]** en **[!UICONTROL Request locking]** worden ingeschakeld.
 
 ## Voorbeeld {#section-dd4bfab19aa040f8ba3f6e397c6b0941}
 
