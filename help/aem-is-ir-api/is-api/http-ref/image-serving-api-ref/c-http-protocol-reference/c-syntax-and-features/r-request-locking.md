@@ -7,9 +7,9 @@ title: Verzoek vergrendelen
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 03239376-1e40-48d2-a396-c276802854ed
 translation-type: tm+mt
-source-git-commit: 6b51248cdc6a6b9d36893545640dbbeb11a0c414
+source-git-commit: 021c1d1f975083af3950775e230d4f73cbf9e0ec
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Als attribute::RequestLock wordt geplaatst, moet een slotwaarde aan het verzoek,
 
 >[!IMPORTANT]
 >
->Als u deze functie inschakelt, dient u er rekening mee te houden dat er bepaalde gebruiksbeperkingen zijn, waaronder de volgende:<br>- De gebruikersinterface Dynamische media geeft mogelijk niet de juiste details voor het **[!UICONTROL Last Published]** veld weer. Dit heeft echter geen invloed op de uitgeverij.<br>- HLS-videostreaming werkt momenteel niet wanneer **[!UICONTROL Request Obfuscation]** en **[!UICONTROL Request Locking]** wordt ingeschakeld.
+>Als u deze functie inschakelt, dient u er rekening mee te houden dat er bepaalde gebruiksbeperkingen zijn, waaronder de volgende:<br>- De gebruikersinterface Dynamische media geeft mogelijk niet de juiste details voor het **[!UICONTROL Last Published]** veld weer. Dit heeft echter geen invloed op de uitgeverij.<br>- HLS-videostreaming werkt momenteel niet wanneer **[!UICONTROL Request obfuscation]** en **[!UICONTROL Request locking]** wordt ingeschakeld.<br>- Momenteel werken sommige Dynamic Media Viewers niet wanneer **[!UICONTROL Request obfuscation]** en **[!UICONTROL Request locking]** worden ingeschakeld.
 
 C++ steekproefcode om de waarde van de verzoekslot te produceren:
 
