@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 2dd8b350-9006-4f0b-b710-0a331357daf3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 0%
 
 ---
 
@@ -20,8 +23,8 @@ Conversie browserindeling. Hiermee wordt aangegeven of de conversiefunctionalite
 
 <table id="simpletable_2D23B1B282CD4216AB5BE7E7430D1B3F"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> on|off </span> </p> </td> 
-  <td class="stentry"> <p>Hiermee wordt opgegeven of de conversie van JPEG- of PNG-afbeeldingen naar kleinere browserspecifieke bestandsindelingen waar ( <span class="codeph"> aan </span>) of onwaar ( <span class="codeph"> uit </span> voor geen browserspecifieke conversie) is. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> on|off  </span> </p> </td> 
+  <td class="stentry"> <p>Geeft aan of de conversie van JPEG- of PNG-afbeeldingen naar kleinere browserspecifieke bestandsindelingen true ( <span class="codeph"> op </span>) of false ( <span class="codeph"> uitgeschakeld </span> voor geen browserspecifieke conversie) is. </p> </td> 
  </tr> 
 </table>
 
