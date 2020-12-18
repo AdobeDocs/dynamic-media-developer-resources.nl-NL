@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 340b81e0-77df-4b44-a462-b98bcc96d707
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '913'
+ht-degree: 0%
 
 ---
 
@@ -31,33 +34,33 @@ De weergave van de container met miniaturen wordt bepaald door de volgende CSS-k
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p> De verticale verschuiving van de container met miniaturen vanaf de bovenkant van de viewer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
    <td colname="col2"> <p>De bovenmarge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
    <td colname="col2"> <p>De linkermarge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge-rechts </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge-rechts  </span> </p> </td> 
    <td colname="col2"> <p>De rechtermarge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-bottom  </span> </p> </td> 
    <td colname="col2"> <p>De ondermarge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>De achtergrondkleur van het gebied met miniaturen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voorbeeld: als u miniaturen wilt instellen met een verschuiving van 32 pixels ten opzichte van de bovenkant, met een marge van 5 pixels aan de linker- en rechterkant en met een marge van 8 pixels aan de onderkant, met `0xDDDDDD` achtergrond.
+Voorbeeld - als u miniaturen wilt instellen met een verschuiving van 32 pixels ten opzichte van de bovenkant, 5 pixels aan de linker- en rechterzijde en 8 pixels aan de onderzijde, met een achtergrond van `0xDDDDDD`.
 
 ```
 .s7ecatalogviewer .s7thumbnailgridview { 
@@ -82,7 +85,7 @@ De afstand tussen miniaturen wordt geregeld met de volgende CSS-klassenkiezer:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge  </span> </p> </td> 
    <td colname="col2"> <p> De grootte van de horizontale en verticale marge rond elke miniatuur. De werkelijke horizontale miniatuurafstand is gelijk aan de som van de linker- en rechtermarge die is ingesteld voor <span class="codeph"> .s7thumbcell </span>. De verticale miniatuurafstand is gelijk aan de som van de boven- en ondermarge. </p> </td> 
   </tr> 
  </tbody> 
@@ -113,15 +116,15 @@ De vormgeving van afzonderlijke miniaturen wordt bepaald door de volgende CSS-kl
    <td colname="col2"> <p>De breedte van de miniatuur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>De hoogte van de miniatuur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
    <td colname="col2"> <p>De rand van de miniatuur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>De achtergrondkleur van de miniatuur. </p> </td> 
   </tr> 
  </tbody> 
@@ -131,7 +134,7 @@ Als de gebruiker op aanraakapparaten wordt gedraaid in de staande modus, kan de 
 
 >[!NOTE]
 >
->De miniatuur ondersteunt de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende skins toe te passen op verschillende miniatuurtoestanden. Dit komt met name `state="selected"` overeen met de miniatuur van de afbeelding die momenteel wordt weergegeven in de hoofdweergave, `state="default"` komt overeen met de overige miniaturen en `state="over"` wordt gebruikt bij de muisaanwijzer.
+>Miniatuur ondersteunt de kenmerkenkiezer `state`, die kan worden gebruikt om verschillende skins toe te passen op verschillende miniatuurtoestanden. Met name `state="selected"` komt overeen met de miniatuur van de afbeelding die momenteel wordt weergegeven in de hoofdweergave, `state="default"` komt overeen met de rest van de miniaturen en `state="over"` wordt gebruikt bij de muisaanwijzer.
 
 Voorbeeld: als u miniaturen wilt instellen die 120 x 85 pixels zijn, hebt u een witte achtergrond, een lichtgrijze standaardrand en een donkergrijze geselecteerde rand.
 
@@ -160,11 +163,11 @@ De vormgeving van het label van de miniatuur wordt bepaald door de volgende CSS-
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Fontnaam. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekengrootte </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekengrootte  </span> </p> </td> 
    <td colname="col2"> <p>Tekengrootte. </p> </td> 
   </tr> 
  </tbody> 
@@ -192,19 +195,19 @@ Als er meer miniaturen zijn dan verticaal in de weergave passen, wordt met minia
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>De breedte van de schuifbalk. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p> De verticale verschuiving van de schuifbalk ten opzichte van de bovenkant van het gebied met miniaturen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
    <td colname="col2"> <p>De verticale verschuiving van de schuifbalk ten opzichte van de onderkant van het gebied met miniaturen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
    <td colname="col2"> <p> De verschuiving van de horizontale schuifbalk ten opzichte van de rechterrand van het gebied met miniaturen. </p> </td> 
   </tr> 
  </tbody> 
@@ -234,11 +237,11 @@ Het schuifbalkvak is het gebied tussen de bovenste en onderste schuifknop. De co
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>De breedte van het schuifbalkvak. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> De achtergrondkleur van het schuifbalkvak. </p> </td> 
   </tr> 
  </tbody> 
@@ -266,27 +269,27 @@ Het schuifbalkblokje beweegt verticaal binnen het gebied van het schuifvak. De v
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>De breedte van het schuifbalkblokje. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>De hoogte van de schuifbalkminiatuur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen boven </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen boven  </span> </p> </td> 
    <td colname="col2"> <p>De verticale opvulling tussen de bovenkant van het schuifbalkvak. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen-onder </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen-onder  </span> </p> </td> 
    <td colname="col2"> <p>De verticale opvulling tussen de onderkant van het schuifbalkvak. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
    <td colname="col2"> <p>De afbeelding die voor een bepaalde duimstatus wordt weergegeven. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie ook <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -294,7 +297,7 @@ Het schuifbalkblokje beweegt verticaal binnen het gebied van het schuifvak. De v
 
 >[!NOTE]
 >
->De duim steunt de `state` attributenselecteur, die kan worden gebruikt om verschillende huiden op de duimstaten toe te passen `up`, `down`, `over`, en `disabled`.
+>Miniatuur ondersteunt de `state`-kenmerkkiezer, die kan worden gebruikt om verschillende skins toe te passen op de duimstatussen `up`, `down`, `over` en `disabled`.
 
 Voorbeeld: als u een schuifbalkblokje van 28 x 45 pixels wilt instellen, hebt u bovenaan en onderaan een marge van 10 pixels en hebt u voor elk frame een andere illustratie.
 
@@ -327,7 +330,7 @@ De vormgeving van de bovenste en onderste schuifknoppen wordt bepaald door de vo
 
 `.s7ecatalogviewer .s7thumbnailgridview .s7scrollbar .s7scrolldownbutton`
 
-Het is niet mogelijk om de schuifknoppen te plaatsen met behulp van CSS `top`, `left`, `bottom`en `right` -eigenschappen. In plaats daarvan worden ze automatisch door de viewerlogica geplaatst.
+Het is niet mogelijk om de schuifknoppen te positioneren met de CSS-eigenschappen `top`, `left`, `bottom` en `right`. In plaats daarvan worden ze automatisch door de viewerlogica geplaatst.
 
 <table id="table_89E64A138ABF463F9650BB454F22D530"> 
  <thead> 
@@ -338,19 +341,19 @@ Het is niet mogelijk om de schuifknoppen te plaatsen met behulp van CSS `top`, `
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>De breedte van de knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>De hoogte van de knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
    <td colname="col2"> <p>De afbeelding die voor een bepaalde duimstatus wordt weergegeven. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie ook <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -358,7 +361,7 @@ Het is niet mogelijk om de schuifknoppen te plaatsen met behulp van CSS `top`, `
 
 >[!NOTE]
 >
->Deze knoppen ondersteunen de `state` kenmerkkiezer, die kan worden gebruikt om verschillende skins toe te passen op de verschillende knopstatussen `up`, `down`, `over`, en `disabled`.
+>Deze knoppen ondersteunen de `state`-kenmerkkiezer, die kan worden gebruikt om verschillende skins toe te passen op de verschillende knopstatussen `up`, `down`, `over` en `disabled`.
 
 De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie.
 
