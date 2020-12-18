@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: a63f0ed0-c689-43b0-9c3e-9500715d15a5
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 0%
 
 ---
 
@@ -26,5 +29,5 @@ Syntaxis
 | ` *`companyName`*` | `xsd:string` | Bedrijfsnaam. |
 | ` *`imageCount`*` | `xsd:int` | Aantal opgeslagen afbeeldingen. |
 | ` *`diskSpaceUsage`*` | `xsd:long` | Totale bestandszijde in kilobytes. |
-| ` *`lastModified`*` | `xsd:dateTime` | Datum, tijd en tijdzone waarop het `DiskUsage` type voor het laatst is gewijzigd. |
+| ` *`lastModified`*` | `xsd:dateTime` | Datum, tijd en tijdzone het type `DiskUsage` voor het laatst is gewijzigd. |
 
