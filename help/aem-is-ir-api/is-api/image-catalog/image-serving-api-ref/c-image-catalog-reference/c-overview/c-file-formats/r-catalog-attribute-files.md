@@ -8,15 +8,18 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 63985780-f032-4542-8d84-b8b608ceea4b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '223'
+ht-degree: 0%
 
 ---
 
 
-# Kenmerkbestanden van Catalog{#catalog-attribute-files}
+# Cataloguskenmerkbestanden{#catalog-attribute-files}
 
 Kenmerkbestanden van catalogus kunnen elke naam hebben, maar moeten het achtervoegsel .ini hebben. U kunt ze eenvoudig onderhouden met elke teksteditor.
 
-Kenmerkbestanden van de catalogus bestaan uit een set tekstrecords, gescheiden door één `<CR>` (ASCII-code `0xD`), één `<LF>` (ASCII-code `0xA`) of `<CR><LF>` paar. Elke record bestaat uit een kenmerknaam en een of meer door komma&#39;s gescheiden kenmerkwaarden:
+Cataloguskenmerkbestanden bestaan uit een set tekstrecords, gescheiden door één `<CR>` (ASCII-code `0xD`), één `<LF>` (ASCII-code `0xA`) of een `<CR><LF>`-paar. Elke record bestaat uit een kenmerknaam en een of meer door komma&#39;s gescheiden kenmerkwaarden:
 
 ` *``*= *`naamevaluatie`*{<CR>|<LF>|<CR><LF }`
 
