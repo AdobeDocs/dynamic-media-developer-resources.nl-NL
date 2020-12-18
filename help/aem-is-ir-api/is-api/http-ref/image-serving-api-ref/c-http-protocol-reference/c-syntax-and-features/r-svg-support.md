@@ -21,23 +21,23 @@ De server van het beeld steunt Scalable VectorGrafieken (SVG) dossiers als brong
 
 De Beeldserver herkent slechts statische inhoud SVG; animaties, scripts en andere interactieve inhoud worden niet ondersteund.
 
-SVG kan worden opgegeven wanneer afbeeldingsbestanden zijn toegestaan (URL-pad, `src=`en `mask=`). Nadat de inhoud van het SVG-bestand is gerasterd, wordt het net als een afbeelding verwerkt.
+SVG kan worden opgegeven wanneer afbeeldingsbestanden zijn toegestaan (URL-pad, `src=` en `mask=`). Nadat de inhoud van het SVG-bestand is gerasterd, wordt het net als een afbeelding verwerkt.
 
 SVG-bestanden kunnen net als afbeeldingen worden opgegeven als afbeeldingscatalogusitems of als relatieve bestandspaden.
 
 ## Vervangende variabelen {#section-83b149f13f244193901df39b204c975b}
 
-` $ *[!DNL var]*$` substitutievariabelen kunnen in het SVG-bestand worden opgenomen in de elementen van waardetekenreeksen en in elk elementkenmerk. `<text>`
+` $ *[!DNL var]*$` substitutievariabelen kunnen in het SVG-bestand worden opgenomen in de  `<text>` elementen van waardetekenreeksen en elk elementkenmerk.
 
 De belangrijke Variabelen in het vraaggedeelte van ingebedde Beeld die verzoeken dienen worden niet direct vervangen. In plaats daarvan, worden alle beschikbare veranderlijke definities toegevoegd aan het verzoek, dat Beeld dat variabelen toestaat om te vervangen wanneer het ontleden van het verzoek.
 
-Zie [Vervangende Variabelen](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md#reference-90dc01aba44940e4acdd0c6476e7aa5a) voor meer informatie.
+Zie [Vervangende variabelen](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md#reference-90dc01aba44940e4acdd0c6476e7aa5a) voor meer informatie.
 
-## Verwijzingen naar afbeeldingen {#section-a7680f9e6aca4b1a83560637cc9fac66}
+## Afbeeldingsreferenties {#section-a7680f9e6aca4b1a83560637cc9fac66}
 
-Afbeeldingen kunnen in SVG worden ingevoegd met behulp van het `<image>` element. Afbeeldingen waarnaar wordt verwezen door het `xlink::href` kenmerk van het `<image>` element, moeten geldige aanvragen voor afbeeldingsserving zijn. Externe URL&#39;s zijn niet toegestaan.
+Afbeeldingen kunnen in SVG worden ingevoegd met het element `<image>`. Afbeeldingen waarnaar wordt verwezen door het `xlink::href`-kenmerk van het `<image>`-element, moeten geldige aanvragen voor afbeeldingsweergave zijn. Externe URL&#39;s zijn niet toegestaan.
 
-Geef een volledige aanvraag voor de afbeeldingsserver op, te beginnen met `http://`, of een relatieve URL, te beginnen met `/is/image`. Als een volledig HTTP-pad is opgegeven, wordt de domeinnaam uit het pad verwijderd en omgezet in de relatieve indeling. Het gebruik van een volledig HTTP-pad kan voordelen hebben, omdat het bestand dan kan worden voorvertoond met een externe SVG-renderer.
+Geef een volledige aanvraag voor het leveren van afbeeldingen op, te beginnen met `http://`, of een relatieve URL, te beginnen met `/is/image`. Als een volledig HTTP-pad is opgegeven, wordt de domeinnaam uit het pad verwijderd en omgezet in de relatieve indeling. Het gebruik van een volledig HTTP-pad kan voordelen hebben, omdat het bestand dan kan worden voorvertoond met een externe SVG-renderer.
 
 >[!NOTE]
 >
@@ -45,13 +45,13 @@ Geef een volledige aanvraag voor de afbeeldingsserver op, te beginnen met `http:
 
 >[!NOTE]
 >
->Afbeeldingen die zijn ingesloten in SVG, worden momenteel niet automatisch aangepast. Zorg ervoor dat alle beeldverwijzingen de noodzakelijke bevelen van de Beeldserver van het Beeld omvatten om de gewenste beeldgrootte (b.v. `wid=`). Als de afbeeldingsgrootte niet expliciet wordt ingesteld, `attribute::DefaultPix` wordt deze toegepast.
+>Afbeeldingen die zijn ingesloten in SVG, worden momenteel niet automatisch aangepast. Zorg ervoor dat alle beeldverwijzingen de noodzakelijke bevelen van de Beeldserver van het Beeld omvatten om de gewenste beeldgrootte (b.v. `wid=`). Als de afbeeldingsgrootte niet expliciet wordt ingesteld, wordt `attribute::DefaultPix` toegepast.
 
 ## Kleurbeheer {#section-ea76e2bc4e1842638aa97a2d470c8a68}
 
-Alle kleurwaarden die zijn ingesloten in SVG-bestanden en via vervangingsvariabelen worden doorgegeven aan SVG-sjablonen, worden verondersteld te bestaan in de `sRgb` kleurruimte.
+Alle kleurwaarden die zijn ingesloten in SVG-bestanden en via vervangingsvariabelen worden doorgegeven aan SVG-sjablonen, worden verondersteld te bestaan in de kleurruimte `sRgb`.
 
-Er wordt geen kleuromzetting uitgevoerd wanneer afbeeldingen worden ingesloten in de SVG. Voor kleurgetrouwheid moet u alle aanvragen voor ingesloten afbeeldingen opgeven. `icc=sRgb`
+Er wordt geen kleuromzetting uitgevoerd wanneer afbeeldingen worden ingesloten in de SVG. Voor kleurgetrouwheid moet u `icc=sRgb` opgeven voor alle aanvragen voor ingesloten afbeeldingen.
 
 Na het rasteren neemt de SVG-afbeelding net als elke andere afbeelding deel aan kleurbeheer.
 
@@ -77,4 +77,4 @@ ICC-kleurspecificaties op basis van profielen worden momenteel niet ondersteund.
 
 ## Zie ook {#section-901dd1775fd24154a766dcfbe5032b67}
 
-[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) , [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), de Specificatie van [SVG 1.1](http://www.w3.org/TR/SVG11/)
+[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) ,  [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), de Specificatie van  [SVG 1.1](http://www.w3.org/TR/SVG11/)
