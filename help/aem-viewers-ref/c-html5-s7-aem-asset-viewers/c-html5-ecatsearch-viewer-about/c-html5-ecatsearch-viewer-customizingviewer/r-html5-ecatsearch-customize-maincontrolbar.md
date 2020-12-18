@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 21b6e6cd-115f-4c7b-a61e-34b307142045
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '691'
+ht-degree: 0%
 
 ---
 
@@ -31,25 +34,25 @@ De vormgeving van de hoofdbesturingsbalk wordt bepaald door de volgende CSS-klas
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p>Positie boven aan de viewer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
    <td colname="col2"> <p>Positie onder aan de viewer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>De hoogte van de hoofdbesturingsbalk. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>De achtergrondkleur van de hoofdbesturingsbalk. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Voorbeeld** - om een grijze hoofdbesturingsbalk in te stellen die 36 pixels hoog is en boven aan de viewercontainer wordt geplaatst.
+**Voorbeeld** : om een grijze hoofdbesturingsbalk in te stellen die 36 pixels hoog is en boven aan de viewercontainer wordt geplaatst.
 
 ```
 .s7ecatalogsearchviewer .s7controlbar { 
@@ -74,8 +77,8 @@ De schuiffunctie wordt ingeschakeld voor de hoofdbesturingsbalk en is uitgeschak
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> positie </span> </p> </td> 
-   <td colname="col2"> <p>Wanneer de waarde is ingesteld op <span class="codeph"> statisch, is </span> de schuiffunctie uitgeschakeld. </p> <p>Stel deze eigenschap in op <span class="codeph"> absoluut </span> om de schuiffunctie in te schakelen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> position </span> </p> </td> 
+   <td colname="col2"> <p>Wanneer ingesteld op <span class="codeph"> statisch </span>, is de schuiffunctie uitgeschakeld. </p> <p>Stel deze eigenschap in op <span class="codeph"> absoluut </span> om de schuiffunctie in te schakelen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -99,7 +102,7 @@ De vormgeving van deze schuifknopcontainer wordt bepaald door de volgende CSS-kl
    <td colname="col2"> <p>Normaal gesproken moet deze gelijk zijn aan of groter zijn dan de breedte van de schuifknop zelf. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Achtergrondkleur container. </p> </td> 
   </tr> 
  </tbody> 
@@ -120,19 +123,19 @@ De vormgeving van deze knop wordt bepaald door de volgende CSS-klassenkiezer:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Breedte van knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
    <td colname="col2"> <p>De afbeelding die voor een bepaalde knopstatus wordt weergegeven. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p>Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie ook <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -140,11 +143,11 @@ De vormgeving van deze knop wordt bepaald door de volgende CSS-klassenkiezer:
 
 >[!NOTE]
 >
->Deze knop ondersteunt de `state` en `selected` kenmerkkiezers, die kunnen worden gebruikt om verschillende skins toe te passen op verschillende knoptoestanden. komt met name overeen met de toestand van de eerste schuifknop wanneer het mogelijk is om de inhoud van de besturingsbalk naar links te schuiven; `state="selected"` komt overeen met de status wanneer de inhoud helemaal naar links wordt geschoven en de schuifknop stelt voor om de inhoud terug te brengen naar de begintoestand. `state="default"`
+>Deze knoop steunt `state` en `selected` attribuutselecteurs, die kunnen worden gebruikt om verschillende huiden op verschillende knoopstaten toe te passen. Met name `state="selected"` komt overeen met de oorspronkelijke toestand van de schuifknop wanneer het mogelijk is om de inhoud van de besturingsbalk naar links te schuiven. `state="default"` komt overeen met de status wanneer de inhoud helemaal naar links wordt geschoven en de schuifknop stelt voor om de inhoud terug te brengen naar de begintoestand.
 
 De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie.
 
-**Voorbeeld** - om de schuiffunctie in de hoofdbesturingsbalk voor mobiele telefoons in te schakelen en een schuifknop van 64 x 64 pixels in te stellen waarmee een andere afbeelding wordt weergegeven voor elk van de vier verschillende knopstatussen, indien geselecteerd of niet geselecteerd:
+**Voorbeeld** : om de schuiffunctie in de hoofdbesturingsbalk voor mobiele telefoons in te schakelen en een schuifknop van 64 x 64 pixels in te stellen die een andere afbeelding weergeeft voor elk van de vier verschillende knopstatussen, al dan niet geselecteerd:
 
 ```
 .s7ecatalogsearchviewer.s7size_small .s7controlbar .s7innercontrolbarcontainer { 
