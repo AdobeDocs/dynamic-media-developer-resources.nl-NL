@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: d83d866e-9243-479f-9b33-727aad8158e5
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Koppelt de configuratie-instellingen van de viewer aan een element. Dit kan een 
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-81c429ba9f4c4359986a30ea7ebea8d2}
+## Toegestane gebruikerstypen {#section-81c429ba9f4c4359986a30ea7ebea8d2}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -35,7 +38,7 @@ Syntaxis
 | ` *`assetHandle`*` | `xsd:string` | Ja | Asset handle. |
 | ` *`name`*` | `xsd:string` | Ja | Elementnaam. |
 | ` *`type`*` | `xsd:string` | Ja | Het type element waarop u de viewerconfiguratie wilt toepassen. |
-| ` *`configSettingArray`*` | `types:ConfigSettingArray` | Ja | De array van `ConfigSettings` toegepast op het element. |
+| ` *`configSettingArray`*` | `types:ConfigSettingArray` | Ja | De array van `ConfigSettings` die op het element wordt toegepast. |
 
 **Output (setViewerConfigSettingsParam)**
 
