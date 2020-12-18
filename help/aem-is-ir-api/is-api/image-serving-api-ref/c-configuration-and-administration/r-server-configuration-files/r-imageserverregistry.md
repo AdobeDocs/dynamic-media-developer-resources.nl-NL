@@ -21,11 +21,11 @@ Bevat de configuratiemontages van de Server van het Beeld.
 
 Wanneer u dit XML-bestand wijzigt, moet u ervoor zorgen dat geldige XML-syntaxis behouden blijft, anders start de Image Server mogelijk niet.
 
-Start de afbeeldingsserver na het bewerken van dit bestand opnieuw om de wijzigingen door te voeren. Alleen de onderstaande elementwaarden worden ondersteund voor wijziging. Bewerk andere inhoud van dit bestand alleen als dit wordt aangeraden door de technische ondersteuning van Scene7.
+Start de afbeeldingsserver na het bewerken van dit bestand opnieuw om de wijzigingen door te voeren. Alleen de onderstaande elementwaarden worden ondersteund voor wijziging. Bewerk de overige inhoud van dit bestand alleen op advies van Scene7 Technical Support.
 
 >[!NOTE]
 >
->Wijzig de structuur van de elementen niet, `<imageserverregistry>`inclusief de volgorde van de elementen. Wees voorzichtig als u dit bestand bewerkt, anders kan het zijn dat de Image Server niet kan worden gestart.
+>Wijzig de structuur van `<imageserverregistry>` niet, inclusief de volgorde van elementen. Wees voorzichtig als u dit bestand bewerkt, anders kan het zijn dat de Image Server niet kan worden gestart.
 
 In het volgende voorbeeld wordt aangegeven welke elementen kunnen worden gewijzigd. Er zijn andere elementen die niet mogen worden gewijzigd. De volgorde van de onderstaande elementen weerspiegelt niet de volgorde waarin deze in het bestand aanwezig moeten zijn.
 
@@ -55,4 +55,4 @@ In het volgende voorbeeld wordt aangegeven welke elementen kunnen worden gewijzi
 
 ## Notities {#section-7217f011f69f41e7af4f3983d7776d6f}
 
-Er kunnen meerdere `<RootPath>` elementen aanwezig zijn (één voor elke map met brongegevensbestanden). De Server van het beeld zoekt de wortelwegen in de orde die wordt gespecificeerd om een bepaald brondossier te vinden.
+Er kunnen meerdere `<RootPath>`-elementen aanwezig zijn (één voor elke brongegevensbestandsmap). De Server van het beeld zoekt de wortelwegen in de orde die wordt gespecificeerd om een bepaald brondossier te vinden.
