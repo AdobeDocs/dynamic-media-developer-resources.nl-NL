@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 688f3954-bc8f-4687-8d66-e064561cd4a0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '141'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Hiermee maakt u een afbeeldingsset.
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-58bf5027e6d24ab5a9fcba59776d15dc}
+## Toegestane gebruikerstypen {#section-58bf5027e6d24ab5a9fcba59776d15dc}
 
 * `IpsUser`
 * `IpsAdmin`
