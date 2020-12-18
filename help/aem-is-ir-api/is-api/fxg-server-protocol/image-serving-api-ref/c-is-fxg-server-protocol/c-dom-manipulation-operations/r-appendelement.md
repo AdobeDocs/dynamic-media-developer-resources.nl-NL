@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 062c8288-4517-42a1-9f9f-f3c7bbb4b63b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '64'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ XML toevoegen aan een s7:elementID.
 
 `appendElement.elementID=<XML>`
 
-Als voor een FXG-knooppuntelement een `s7:elementID` definitie is opgegeven, wordt de `<XML>` waarde toegevoegd als een onderliggend element. The `<XML>` must be encoded.
+Als voor een FXG-knooppuntelement een `s7:elementID` is gedefinieerd, wordt de waarde `<XML>` toegevoegd als een onderliggend element. De `<XML>` moet worden gecodeerd.
 
 ## Voorbeeld {#section-4368570aa198485d91b73b4d0741478f}
 
