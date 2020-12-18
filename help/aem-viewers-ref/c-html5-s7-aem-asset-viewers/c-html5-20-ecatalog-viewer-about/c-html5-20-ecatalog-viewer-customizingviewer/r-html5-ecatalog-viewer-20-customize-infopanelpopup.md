@@ -1,6 +1,6 @@
 ---
-description: Pop-up van deelvenster Info wordt in het midden van het viewergebied weergegeven wanneer een gebruiker een afbeeldingskaart activeert waarvoor een eigenschap rollover_key is gedefinieerd in Scene7 Publishing System en als de functie van het deelvenster Info correct is geconfigureerd voor de viewer.
-seo-description: Pop-up van deelvenster Info wordt in het midden van het viewergebied weergegeven wanneer een gebruiker een afbeeldingskaart activeert waarvoor een eigenschap rollover_key is gedefinieerd in Scene7 Publishing System en als de functie van het deelvenster Info correct is geconfigureerd voor de viewer.
+description: Pop-upmenu van deelvenster Info wordt midden in het viewergebied weergegeven wanneer een gebruiker een afbeeldingskaart activeert waarvoor een eigenschap rollover_key is gedefinieerd in het Scene7 Publishing System en als de functie van het deelvenster Info op de juiste wijze is geconfigureerd voor de viewer.
+seo-description: Pop-upmenu van deelvenster Info wordt midden in het viewergebied weergegeven wanneer een gebruiker een afbeeldingskaart activeert waarvoor een eigenschap rollover_key is gedefinieerd in het Scene7 Publishing System en als de functie van het deelvenster Info op de juiste wijze is geconfigureerd voor de viewer.
 seo-title: Pop-up deelvenster Info
 solution: Experience Manager
 title: Pop-up deelvenster Info
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: 4b44f48b-eabc-4a83-906a-dc7df13b2e74
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '501'
+ht-degree: 0%
 
 ---
 
 
-# Pop-up deelvenster Info{#info-panel-popup}
+# Pop-up van deelvenster Info{#info-panel-popup}
 
-Pop-up van deelvenster Info wordt in het midden van het viewergebied weergegeven wanneer een gebruiker een afbeeldingskaart activeert waarvoor een eigenschap rollover_key is gedefinieerd in Scene7 Publishing System en als de functie van het deelvenster Info correct is geconfigureerd voor de viewer.
+Pop-upmenu van deelvenster Info wordt midden in het viewergebied weergegeven wanneer een gebruiker een afbeeldingskaart activeert waarvoor een eigenschap rollover_key is gedefinieerd in het Scene7 Publishing System en als de functie van het deelvenster Info op de juiste wijze is geconfigureerd voor de viewer.
 
 De achtergrond van het deelvenster Info bedekt het gehele viewergebied en wordt beheerd met de volgende CSS-klassenkiezer:
 
@@ -29,11 +32,11 @@ De achtergrond van het deelvenster Info bedekt het gehele viewergebied en wordt 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
    <td colname="col2"> <p>Achtergrondvulling van het deelvenster Info. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie ook <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -60,11 +63,11 @@ Het dialoogvenster van het deelvenster Info wordt standaard weergegeven in het m
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
    <td colname="col2"> <p>Horizontale positie van het dialoogvenster van het deelvenster Info binnen de achtergrondvulling van het deelvenster Viewer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p>Verticale positie van het dialoogvenster van het deelvenster Info in het viewergebied. </p> </td> 
   </tr> 
   <tr> 
@@ -72,31 +75,31 @@ Het dialoogvenster van het deelvenster Info wordt standaard weergegeven in het m
    <td colname="col2"> <p>Breedte van dialoogvenster. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hoogte dialoogvenster. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
    <td colname="col2"> <p>Linkermarge van het dialoogvenster van het deelvenster Info, kan worden gebruikt voor gecentreerde doeleinden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
    <td colname="col2"> <p>De bovenste marge van het dialoogvenster van het deelvenster Info kan worden gebruikt voor gecentreerde doeleinden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
    <td colname="col2"> <p>Opvulling van intern dialoogvenster. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Achtergrondkleur dialoogvenster. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p>Dialoograndstraal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> box-shadow </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> box-shadow  </span> </p> </td> 
    <td colname="col2"> <p>Dialoogschaduw. </p> </td> 
   </tr> 
  </tbody> 
@@ -137,35 +140,35 @@ De vormgeving van deze knop wordt bepaald door de volgende CSS-klassenkiezer:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p>Positie vanaf de bovenrand van het dialoogvenster. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
    <td colname="col2"> <p>Positie vanaf de rechterrand van het dialoogvenster. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
    <td colname="col2"> <p>Positie vanaf de linkerrand van het dialoogvenster. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
    <td colname="col2"> <p>Positie vanaf de onderrand van het dialoogvenster. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Knopbreedte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
    <td colname="col2"> <p>De afbeelding die voor een bepaalde knopstatus wordt weergegeven. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie ook <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -173,7 +176,7 @@ De vormgeving van deze knop wordt bepaald door de volgende CSS-klassenkiezer:
 
 >[!NOTE]
 >
->Deze knop ondersteunt de `state` kenmerkkiezer, die u kunt gebruiken om verschillende skins toe te passen op verschillende knoptoestanden.
+>Deze knoop steunt `state` attributenselecteur, die u kunt gebruiken om verschillende huiden op verschillende knoopstaten toe te passen.
 
 De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie.
 
