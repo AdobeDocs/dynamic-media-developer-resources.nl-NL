@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 46824e33-265c-4425-9ab1-8ad6b7ac154d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Hiermee vervangt u afbeeldingsgegevens voor een afbeeldingselement.
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-e2aad71fb2a54612badc7b16f82ed544}
+## Toegestane gebruikerstypen {#section-e2aad71fb2a54612badc7b16f82ed544}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -45,7 +48,7 @@ Syntaxis
 
 ## Voorbeelden {#section-cebb93576bde4cb98cb27356ca66783b}
 
-Deze codesteekproef vervangt een beeld en past een `urlModifier` met een bevel toe dat specificeert dat de Server van het Beeld geen actie op vervanging zal nemen.
+Dit codevoorbeeld vervangt een beeld en past `urlModifier` met een bevel toe dat specificeert dat de Server van het Beeld geen actie op vervanging zal nemen.
 
 **Verzoek**
 
