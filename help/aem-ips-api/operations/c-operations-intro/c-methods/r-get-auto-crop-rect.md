@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: bb00d89a-5fc4-476f-aa47-3cf69ef99afe
 translation-type: tm+mt
 source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+workflow-type: tm+mt
+source-wordcount: '167'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Hiermee wordt een uitgesneden gebied voor een afbeelding geretourneerd op basis 
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-32dfe7bb68764b93ae01e05ff7a7bdd0}
+## Toegestane gebruikerstypen {#section-32dfe7bb68764b93ae01e05ff7a7bdd0}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
