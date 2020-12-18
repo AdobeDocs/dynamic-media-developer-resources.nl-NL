@@ -1,26 +1,29 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Stalen.direction
+seo-title: Swatches.direction
 solution: Experience Manager
-title: Stalen.direction
+title: Swatches.direction
 topic: Dynamic media
 uuid: ea7dc440-52a6-4601-809c-6c187c24eb91
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '59'
+ht-degree: 1%
 
 ---
 
 
-# Stalen.direction{#swatches-direction}
+# Swatches.direction{#swatches-direction}
 
 `[Swatches.|<containerId>_swatches.]direction=auto|left|right`
 
 <table id="table_B4B930A32C0742F4932BF071B9EEA9F4"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td> <p> Hiermee bepaalt u hoe stalen de weergave vullen. </p> <p> <span class="codeph"> links </span> stelt vulvolgorde van links naar rechts in; </p> <p> <span class="codeph"> Met de optie rechts </span> draait u de volgorde om, zodat de weergave van rechts naar links en van boven naar beneden wordt gevuld. </p> <p>Wanneer <span class="codeph"> auto </span> wordt geplaatst, past de component <span class="codeph"> juiste </span> wijze toe wanneer scène aan <span class="codeph"> ja wordt geplaatst </span>; anders wordt left gebruikt. </p> </td> 
+   <td> <p> <span class="codeph"> auto|left|right  </span> </p> </td> 
+   <td> <p> Hiermee bepaalt u hoe stalen de weergave vullen. </p> <p> <span class="codeph"> links  </span> stelt vulvolgorde van links naar rechts in; </p> <p> <span class="codeph"> Met de optie rechts  </span> draait u de volgorde om, zodat de weergave van rechts naar links en van boven naar beneden wordt gevuld. </p> <p>Wanneer <span class="codeph"> auto </span> wordt geplaatst, past de component <span class="codeph"> juiste </span> wijze toe wanneer scène aan <span class="codeph"> ja </span> wordt geplaatst; anders wordt left gebruikt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
