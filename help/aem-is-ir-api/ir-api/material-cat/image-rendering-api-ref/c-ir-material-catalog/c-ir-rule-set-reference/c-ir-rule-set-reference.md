@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: aeec7597-4d23-4cf8-8bdc-3a133152eadb
 translation-type: tm+mt
 source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+workflow-type: tm+mt
+source-wordcount: '654'
+ht-degree: 0%
 
 ---
 
 
-# Referentie voor regelset{#rule-set-reference}
+# Regelsetreferentie{#rule-set-reference}
 
 Rendering van afbeeldingen ondersteunt een eenvoudig voorbewerkingsmechanisme voor aanvragen dat is gebaseerd op regels voor het afstemmen van reguliere expressies en het vervangen van expressies.
 
@@ -47,9 +50,9 @@ Regelsets worden opgeslagen als XML-documentbestanden. Het relatieve of absolute
 </ruleset>
 ```
 
-De `<?xml>`, `<!DOCTYPE>` en de `<ruleset>` elementen worden altijd vereist in een geldig regel geplaatst dossier van XML, zelfs als geen daadwerkelijke regels worden bepaald.
+De elementen `<?xml>`, `<!DOCTYPE>` en `<ruleset>` worden altijd vereist in een geldig regel geplaatst dossier van XML, zelfs als geen daadwerkelijke regels worden bepaald.
 
-Eén `<ruleset>` element met een willekeurig aantal `<rule>` elementen is toegestaan.
+Eén `<ruleset>`-element met een willekeurig aantal `<rule>`-elementen is toegestaan.
 
 De inhoud van het voorbewerken van regelbestanden is hoofdlettergevoelig.
 
@@ -59,13 +62,13 @@ Vóór een andere verwerking, wordt een inkomende HTTP- verzoek gedeeltelijk ont
 
 De `<rule>` elementen worden gezocht in de orde die voor een gelijke met de inhoud van het `<expression>` element ( *`expression`*) wordt gespecificeerd.
 
-Als een `<rule>` gelijke, facultatief *`substitution`* wordt toegepast en het gewijzigde verzoekkoord wordt overgegaan tot de verzoekparser van de server voor normale verwerking.
+Als een `<rule>` wordt aangepast, wordt de optionele *`substitution`* toegepast en wordt de gewijzigde verzoektekenreeks doorgegeven aan de verzoekparser van de server voor normale verwerking.
 
-Als geen succesvolle gelijke wordt gemaakt wanneer het eind van het `<ruleset>` wordt bereikt, wordt het verzoek overgegaan tot parser zonder wijziging.
+Als geen succesvolle gelijke wordt gemaakt wanneer het eind van `<ruleset>` wordt bereikt, wordt het verzoek overgegaan tot de parser zonder wijziging.
 
-## Het kenmerk OnMatch {#section-7a8ad3597780486985af5e9a3b1c7b56}
+## Het OnMatch-kenmerk {#section-7a8ad3597780486985af5e9a3b1c7b56}
 
-Het standaardgedrag kan worden gewijzigd met het `OnMatch` kenmerk van de `<rule>` elementen. `OnMatch` kan worden ingesteld op `break` (standaard), `continue`of `error.`
+Het standaardgedrag kan worden gewijzigd met het `OnMatch`-kenmerk van de `<rule>`-elementen. `OnMatch` kan worden ingesteld op  `break` (standaard),  `continue`of  `error.`
 
 <table id="table_4CABF55B33854A128D5F326B31C6C397"> 
  <thead> 
@@ -90,23 +93,23 @@ Het standaardgedrag kan worden gewijzigd met het `OnMatch` kenmerk van de `<rule
  </tbody> 
 </table>
 
-## Cataloguskenmerken overschrijven {#section-1f59ce84234f4576ba8473b0e6ba22ee}
+## Cataloguskenmerken {#section-1f59ce84234f4576ba8473b0e6ba22ee} overschrijven
 
-`<rule>` elementen kunnen desgewenst kenmerken definiëren die de overeenkomende cataloguskenmerken overschrijven wanneer de regel correct wordt aangepast en `OnMatch="break"` is ingesteld. Er worden geen kenmerken toegepast als `OnMatch="continue"` deze is ingesteld. Zie de beschrijving van `<rule>` voor een lijst met kenmerken die met regels kunnen worden gecontroleerd.
+`<rule>` elementen kunnen desgewenst kenmerken definiëren die de overeenkomende cataloguskenmerken overschrijven wanneer de regel correct wordt aangepast en  `OnMatch="break"` is ingesteld. Er worden geen kenmerken toegepast wanneer `OnMatch="continue"` is ingesteld. Raadpleeg de beschrijving van `<rule>` voor een lijst met kenmerken die met regels kunnen worden beheerd.
 
 ## Reguliere expressies {#section-4d326507b52544b0960a9a5f303e3fe6}
 
 Eenvoudige tekenreeksovereenkomsten werken voor zeer eenvoudige toepassingen, maar in de meeste gevallen zijn reguliere expressies vereist. Reguliere expressies zijn industriestandaard, maar de specifieke implementatie verschilt per geval.
 
-[het pakket java.util.regex](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/) beschrijft de specifieke regelmatige uitdrukkingsimplementatie die door Beeld Serving wordt gebruikt.
+[pakket java.util.](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/) regexdescribes the specific Regular expression implementation used by Image Serving.
 
 ## Vastgelegde subtekenreeksen {#section-8057cd65d48949ffb6a50e929bd3688b}
 
-Om complexe URL-wijzigingen mogelijk te maken, kunnen subtekenreeksen worden vastgelegd in de expressie door de subtekenreeks tussen haakjes (...) te plaatsen. Vastgelegde subtekenreeksen worden opeenvolgend genummerd, beginnend met 1 op basis van de positie van het voorloophaakje. De vastgelegde subtekenreeksen kunnen in de vervanging worden ingevoegd met *`$n`* behulp van, waarbij *`n`* het volgnummer van de vastgelegde subtekenreeks is.
+Om complexe URL-wijzigingen mogelijk te maken, kunnen subtekenreeksen worden vastgelegd in de expressie door de subtekenreeks tussen haakjes (...) te plaatsen. Vastgelegde subtekenreeksen worden opeenvolgend genummerd, beginnend met 1 op basis van de positie van het voorloophaakje. De vastgelegde subtekenreeksen kunnen in de vervanging worden ingevoegd met *`$n`*, waarbij *`n`* het volgnummer van de vastgelegde subtekenreeks is.
 
-## Bestanden met regelsets beheren {#section-e8ce976b56404c009496426fd334d23d}
+## Bestanden {#section-e8ce976b56404c009496426fd334d23d} beheren met regelsets
 
-Met het kenmerk Catalogus kunt u één regelsetbestand aan elke materiaalcatalogus koppelen `attribute::RuleSetFile`. U kunt het regelsetbestand op elk gewenst moment bewerken, maar de afbeeldingsserver herkent de wijzigingen alleen wanneer de bijbehorende materiaalcatalogus opnieuw wordt geladen. Dit gebeurt wanneer de Platform Server wordt begonnen of opnieuw begonnen en wanneer het primaire catalogusdossier (dat een [!DNL .ini] dossierachtervoegsel heeft) wordt gewijzigd of &quot;aangeraakt&quot;(om de dossierdatum te veranderen).
+Eén regelsetbestand kan aan elke materiaalcatalogus worden gekoppeld met het cataloguskenmerk `attribute::RuleSetFile`. U kunt het regelsetbestand op elk gewenst moment bewerken, maar de afbeeldingsserver herkent de wijzigingen alleen wanneer de bijbehorende materiaalcatalogus opnieuw wordt geladen. Dit gebeurt wanneer de server van het Platform wordt begonnen of opnieuw begonnen en wanneer het primaire catalogusdossier (dat een [!DNL .ini] dossierachtervoegsel heeft) wordt gewijzigd of &quot;aangeraakt&quot;(om de dossierdatum te veranderen).
 
 ## Voorbeelden {#section-c4142a41f5cd4ff799a72fbc130c3700}
 
