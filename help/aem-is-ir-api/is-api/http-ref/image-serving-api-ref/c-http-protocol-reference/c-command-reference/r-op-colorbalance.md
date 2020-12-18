@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 177aa6e3-1b32-4254-85f1-d7fe14116e3c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '126'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +40,7 @@ Grijs- en CMYK-invoerafbeeldingsgegevens worden omgezet in RGB met behulp van na
 
 ## Eigenschappen {#section-dff9c934f7c1442bbd02379b688d82e2}
 
-Laag, opdracht. Is van toepassing op de huidige laag of op de samengestelde afbeelding, indien van toepassing `layer=comp`. Genegeerd door effectlagen. CMYK-afbeeldingen en -lagen worden omgezet in RGB voordat de bewerking wordt toegepast.
+Laag, opdracht. Wordt toegepast op de huidige laag of op de samengestelde afbeelding als `layer=comp`. Genegeerd door effectlagen. CMYK-afbeeldingen en -lagen worden omgezet in RGB voordat de bewerking wordt toegepast.
 
 ## Standaard {#section-08d84ef715964f7daea86f5ef237d199}
 
