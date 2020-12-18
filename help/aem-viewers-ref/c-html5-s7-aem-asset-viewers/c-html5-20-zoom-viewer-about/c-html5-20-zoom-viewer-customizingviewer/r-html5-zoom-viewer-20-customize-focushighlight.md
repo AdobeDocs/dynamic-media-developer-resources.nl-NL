@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 5ae9c445-4be2-467e-a268-9c56b7859d47
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +38,7 @@ De vormgeving wordt bepaald door de volgende CSS-klassenkiezer:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> overzicht </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> overzicht  </span> </p> </td> 
    <td colname="col2"> <p>Focus markeerstijl. </p> </td> 
   </tr> 
  </tbody> 
