@@ -1,9 +1,9 @@
 ---
-description: De recentste versienota's voor de versie van Adobe Scene7 Fall 2016 - deel van de oplossing van de Adobe Experience Manager in de Adobe Marketing Cloud.
-seo-description: De recentste versienota's voor de versie van Adobe Scene7 Fall 2016 - deel van de oplossing van de Adobe Experience Manager in de Adobe Marketing Cloud.
-seo-title: Versie Scene7 herfst 2016
+description: De meest recente release bevat de Adobe Scene7 Fall 2016-oplossing, die deel uitmaakt van de Adobe Experience Manager-oplossing in de Adobe Marketing Cloud.
+seo-description: De meest recente release bevat de Adobe Scene7 Fall 2016-oplossing, die deel uitmaakt van de Adobe Experience Manager-oplossing in de Adobe Marketing Cloud.
+seo-title: Scene7 Fall 2016 Release
 solution: Experience Manager
-title: Versie Scene7 herfst 2016
+title: Scene7 Fall 2016 Release
 topic: Dynamic media
 uuid: 3fddda65-0c6e-48ec-bd60-7e0ca59421a8
 translation-type: tm+mt
@@ -15,55 +15,55 @@ ht-degree: 0%
 ---
 
 
-# Versie Scene7 herfst 2016{#scene-fall-release}
+# Scene7 Fall 2016 Release{#scene-fall-release}
 
-De recentste versienota&#39;s voor de versie van Adobe Scene7 Fall 2016 - deel van de oplossing van de Adobe Experience Manager in de Adobe Marketing Cloud.
+De meest recente release bevat de Adobe Scene7 Fall 2016-oplossing, die deel uitmaakt van de Adobe Experience Manager-oplossing in de Adobe Marketing Cloud.
 
-## Versie Scene7 herfst 2016 {#topic-791cdf80f91e457fbb63bfedf79f5a94}
+## Scene7 Fall 2016 Release {#topic-791cdf80f91e457fbb63bfedf79f5a94}
 
-De meest recente release bevat informatie over de [!DNL Adobe Scene7] release van de [!DNL Adobe Experience Manager] oplossing in de [!DNL Adobe Marketing Cloud]herfst van 2016.
+De nieuwste releaseopmerkingen voor [!DNL Adobe Scene7] Fall 2016 release-part van de [!DNL Adobe Experience Manager] oplossing in [!DNL Adobe Marketing Cloud].
 
 * [Algemeen](s7rnfall2016.md#section-52afeb72ecb34c1585ea67a5051825a2)
-* [Scene7 het Publiceren Systeem](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
+* [Scene7 Publishing System](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
 * [Viewers (afbeeldingen met 5.5.3)](s7rnfall2016.md#section-1d59bcd5825d487b80b59a6d1a08ed30)
 * [Viewers (afbeelding met 5.5.2)](s7rnfall2016.md#section-9932c988cfee45749594af481dfc6476)
 * [Viewers (afbeelding met 5.5.1)](s7rnfall2016.md#section-833ab92c91c941d2bfdc27f233f582ad)
 * [Scene7 HTML5 Viewer SDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
-* [Scene7 Beeld Serend 6.3.2 en het Teruggeven van het Beeld 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
+* [Scene7 Image Serving 6.3.2 and Image Rendering 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
 
 ## Algemeen {#section-52afeb72ecb34c1585ea67a5051825a2}
 
-Adobe maakt het spannend om de beschikbaarheid van HTTP/2-levering van inhoud bekend te maken, wat de verbeterde prestaties ten goede komt.
+Adobe is opgetogen om de beschikbaarheid van HTTP/2 levering van inhoud aan te kondigen met het algemene voordeel van betere prestaties.
 
-Zie [HTTP2 Veelgestelde vragen](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html)over het leveren van inhoud.
+Zie [HTTP2 Levering van inhoud FAQ](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html).
 
-## Scene7 het Publiceren Systeem {#section-24487cb493444d808fb7193f0a00cdd4}
+## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
-Zie [https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html voor volledige documentatie](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html)
+Voor volledige documentatie, zie [https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html)
 
 **Nieuwe functies, verbeteringen en foutoplossingen**
 
-* Functie voor videorecut is verwijderd uit [!DNL Adobe Scene7 Publishing System] gebruikersinterface.
-* Toegevoegde authentificatie aan alle servers Scene7 waar nodig en mogelijk.
+* Functie voor videorecut is verwijderd uit de gebruikersinterface van [!DNL Adobe Scene7 Publishing System].
+* Waar nodig en mogelijk verificatie toegevoegd aan alle Scene7-servlets.
 * Opgeloste problemen in verband met de lijstweergave in de prullenbak.
-* Verwijderd **Create SPSAdmin** gebruikerseigenschap van het Beheer van de Gebruiker wegens veiligheidsoverwegingen.
+* Verwijderd **Create SPSAdmin** gebruikerseigenschap uit Gebruikersbeheer vanwege beveiligingsproblemen.
 * FTP WebAdmin ondersteunt nu OKTA-verificatie.
 * Verwijderd de eigenschap van het standaardwachtwoord dat voor nieuwe gebruikers van het Portaal van Media werd gecreeerd.
 * Bugfixatie die het tijdelijke wachtwoord impliceert dat werd geproduceerd toen een nieuwe gebruiker werd toegevoegd. Het wachtwoord voldoet niet aan de vereiste wachtwoordvereisten.
 * Opgeloste problemen met WebAdmin-hoofdschijf vol.
 * Bugfixatie waarbij een gebruiker wordt uitgeschakeld die niet onmiddellijk in de gebruikersinterface wordt weergegeven.
 * Opgeloste problemen waarbij een gebruiker is verwijderd en die u later niet opnieuw hebt gemaakt.
-* De moeilijke situatie die met het Welkome die e-mail impliceert naar nieuwe gebruikers wordt verzonden Scene7 die geen authentificatie om bepaalde montages omvatte te controleren.
+* Bugfixatie met betrekking tot het welkomstbericht dat naar nieuwe Scene7-gebruikers is verzonden en waarbij geen verificatie is opgenomen voor het beheren van bepaalde instellingen.
 * Opgeloste problemen waarbij een FTP-mappenlijst niet kan worden opgehaald als een map speciale tekens in de naam bevat.
-* Vorm OKTA dienstverleners voor milieu Scene7.
-* Toegevoegde ondersteuning voor Organizer-id voor Marketing Cloud voor Viewer Analytics.
-* Geïmplementeerde consument Scene7 SAML.
+* Configureer OKTA-serviceproviders voor Scene7-omgevingen.
+* Toegevoegde ondersteuning voor Marketing Cloud Org ID for Viewer Analytics.
+* Implementeerde Scene7 SAML-consument.
 
-## Viewers (afbeeldingen met 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
+## Viewers (afbeelding met 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Zie [Referentiehandleiding](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)voor viewers voor volledige documentatie.
+Zie [Referentiehandleiding voor viewers](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html) voor volledige documentatie.
 
-**Bugfixes voor afbeeldingen met 5.5.3**
+**Bugfixes voor afbeeldingen in 5.5.3**
 
 * Compatibiliteit met RequireJS- en DOJO-bibliotheken.
 
@@ -71,7 +71,7 @@ Zie [Referentiehandleiding](https://docs.adobe.com/content/help/en/dynamic-media
 
 ## Viewers (afbeelding met 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Zie [Referentiehandleiding](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)voor viewers voor volledige documentatie.
+Zie [Referentiehandleiding voor viewers](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html) voor volledige documentatie.
 
 **Bugfixes voor afbeeldingen in 5.5.2**
 
@@ -80,17 +80,17 @@ Zie [Referentiehandleiding](https://docs.adobe.com/content/help/en/dynamic-media
 
 ## Viewers (afbeelding met 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Zie [Referentiehandleiding](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)voor viewers voor volledige documentatie.
+Zie [Referentiehandleiding voor viewers](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html) voor volledige documentatie.
 
 **Nieuwe functies, verbeteringen en foutoplossingen voor Image Serving 5.5.1**
 
 * HTML5 eCatalog-viewer met zoekfunctie.
-* Toegevoegde HLS-streaming video playback als standaardmethode voor het afspelen van video voor de meeste desktopsystemen. HDS-videostreaming op basis van Flash is nog steeds beschikbaar als alternatieve afspeeloptie.
-* Toegevoegde ondersteuning voor apparaten met zowel muis- als aanraakinvoer via Chrome-browser.
-* Ondersteuning voor Organizer-id voor Marketing Cloud toegevoegd aan de Analytics-integratie.
+* Toegevoegde HLS-streaming video playback als standaardmethode voor het afspelen van video voor de meeste desktopsystemen. Op Flash gebaseerde HDS-videostreaming is nog steeds beschikbaar als alternatieve afspeeloptie.
+* Extra ondersteuning voor apparaten met zowel muis- als aanraakinvoer via Chrome-browser.
+* Toegevoegde ondersteuning voor Marketing Cloud-Org-id voor de integratie met Analytics.
 * Werk de JavaScript-bibliotheek AppMeasurement bij naar versie 1.6.1.
 * Extra ondersteuning voor oriëntatie van rechts naar links in de eCatalog-viewer.
-* Probleem opgelost waarbij een fout buiten het bereik werd `tip=0,-1,0` veroorzaakt.
+* `tip=0,-1,0` veroorzaakte een fout die buiten het bereik viel. Dit probleem is nu opgelost.
 
 **Compatibiliteitsnotities**
 
@@ -100,7 +100,7 @@ Zie [Referentiehandleiding](https://docs.adobe.com/content/help/en/dynamic-media
 
 * Algemeen
 
-   * Schalen aan de browserzijde kan de interface en afbeeldingen vervagen als de gebruiker inzoomt op de pagina. UI-opmaak wordt mogelijk ook onjuist weergegeven, afhankelijk van zoomen. Dit gaat over op het volledige scherm.
+   * Schalen aan de browserzijde kan de interface en afbeeldingen vervagen wanneer de gebruiker inzoomt op de pagina. UI-opmaak wordt mogelijk ook onjuist weergegeven, afhankelijk van zoomen. Dit gaat over op het volledige scherm.
    * Vanwege groottebeperkingen op mobiele apparaten gebruikt de gemengde Media Viewer een diabeweging om frames in ingesloten afbeeldingssets te wisselen in plaats van op de ingesloten stalenscomponent te tikken. De component is er als visuele indicator.
    * In Internet Explorer-browsers en sommige aanraakapparaten neemt de modus Volledig scherm niet het volledige apparaatscherm in beslag. In plaats daarvan wordt de grootte van de toepassing aangepast aan het browservenster.
    * De knop Sluiten werkt niet in iOS 8.0 en 8.1, maar komt niet meer voor in iOS 8.2
@@ -148,17 +148,17 @@ Zie [Referentiehandleiding](https://docs.adobe.com/content/help/en/dynamic-media
 
 * Safari
 
-   * Safari 6.1 of hoger: Instellingen voor Internet-plug-ins kunnen het afspelen van Flash-video voorkomen.
+   * Safari 6.1 of hoger: Instellingen voor Internet Plug-ins kunnen het afspelen van Flash-video voorkomen.
    * Video &#39;seek&#39; met gebruik van HLS-streaming op Safari kan inconsistent zijn.
    * Kan niet zoeken tot einde van video in Safari 6 met gebruik van HLS-streaming.
 
 **Bekende problemen en beperkingen**
 
-* De modifiers van de Beelddienst van `iscommands` worden niet toegevoegd aan het `req=set` verzoek door ontwerp. Modifiers die alleen van invloed zijn op de beeldweergave, werken prima. Modifiers die van invloed zijn op de grootte, moeten in een complex element worden gebruikt. Bijvoorbeeld:
+* De wijzigingstoetsen van de Beeldienst van `iscommands` worden niet toegevoegd aan `req=set` verzoek door ontwerp. Modifiers die alleen van invloed zijn op de beeldweergave, werken prima. Modifiers die van invloed zijn op de grootte, moeten in een complex element worden gebruikt. Bijvoorbeeld:
 
    `https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset= {Scene7SharedAssets/Backpack_B?extendn=0.5%252C0.5%252C0.5%252C0.5}`
 
-* [Flyout] IE9 blijft soms op het scherm nadat u de muis hebt uitgeschakeld.
+* [] FlyoutIE9 blijft soms op het scherm nadat u de muis hebt uitgeschakeld.
 * Schalen in de browser leidt tot een onjuiste formaatwijziging.
 * iPad 2: Big eCatalog asset crasht Safari op iOS.
 * Alle viewers
@@ -173,7 +173,7 @@ Zie [Referentiehandleiding](https://docs.adobe.com/content/help/en/dynamic-media
    * Parameters met expliciete instantienamen in de code schrijven voor dat instantienamen in de URL ook moeten worden overschreven (bijvoorbeeld `zoomView.iconfeffect=0`).
    * Uitsnijden van de opdracht Afbeeldingsserver wordt momenteel niet ondersteund.
    * De knop Sluiten werkt alleen als de viewer is geopend in het onderliggende venster.
-   * De `iscommands` optie biedt geen ondersteuning voor wijzigingstoetsen voor afbeeldingsservers die de afbeeldingsgrootte beïnvloeden.
+   * De optie `iscommands` biedt geen ondersteuning voor wijzigingstoetsen voor afbeeldingsservers die de afbeeldingsgrootte beïnvloeden.
 
 * HTML5 eCatalog
 
@@ -189,13 +189,13 @@ Zie [Referentiehandleiding](https://docs.adobe.com/content/help/en/dynamic-media
 
 * HTML5 Social
 
-   * Als u de miniaturen correct wilt weergeven in een uitgaande e-mail, moet de `serverurl` optie een absolute URL hebben.
+   * Als u de miniaturen op de juiste wijze wilt weergeven in de uitgaande e-mail, moet de `serverurl`-optie een absolute URL hebben.
 
 * HTML5-video
 
    * Er kan een fout met betrekking tot de maximale grootte optreden voor de posterafbeelding. Bedrijf moet mogelijk de limietinstelling voor het publiceren van Image Serving verhogen.
-   * De video titels vereisen een bedrijfregels als het ontvangen van de HTML- pagina van een externe server (niet een server Scene7) wordt gediend. Neem contact op met de Technische Ondersteuning van Adobe voor hulp.
-   * Bij bijhouden van Analytics wordt mogelijk een onjuist afspeelpercentage gerapporteerd vanwege buffering
+   * Voor videobijschriften is een bedrijfsregel vereist als de HTML-pagina wordt gehost vanaf een externe server (niet vanaf een Scene7-server). Neem contact op met de ondersteuning van Adobe.
+   * Bij het bijhouden van analyses kan een onjuist afspeelpercentage worden gerapporteerd als gevolg van buffering
    * Zwart frame in plaats van posterafbeelding wordt mogelijk weergegeven op iPad- of Android-apparaten.
    * Het zwarte frame kan op het scherm opvlammen tijdens het laden van de viewer op iPad- of Android-apparaten.
    * Zwarte randen worden weergegeven aan de zijde van de component VideoPlayer wanneer de achtergrond op iPad-apparaten is ingesteld op wit/transparant.
@@ -211,13 +211,13 @@ De gebruikershandleiding bevindt zich in de map Adobe HTML5 Viewer SDK van de cl
 **Bugfixes voor 3.0.2**
 
 * VideoPlayer - Video kan niet worden afgespeeld in Internet Explorer 11 in Windows 7
-* Inhoudsopgave - heeft geen invloed op de staande modus op mobiele apparaten voor de HTML5 eCatalog-viewer. `initialframe`
+* TableOfContents - `initialframe` had geen invloed op de staande modus op mobiele apparaten voor de HTML5 eCatalog-viewer.
 
 **Nieuwe functies, verbeteringen en foutoplossingen voor 3.0.1**
 
 * Algemeen
 
-   * Toegevoegde HLS-streaming video playback als standaardmethode voor het afspelen van video voor de meeste desktopsystemen. HDS-videostreaming op basis van Flash is nog steeds beschikbaar als alternatieve afspeeloptie.
+   * Toegevoegde HLS-streaming video playback als standaardmethode voor het afspelen van video voor de meeste desktopsystemen. Op Flash gebaseerde HDS-videostreaming is nog steeds beschikbaar als alternatieve afspeeloptie.
    * Toegevoegde componenten SearchManager, SearchPanel, SearchEffect, en SearchButton om nieuwe eigenschap van het Onderzoek in eCatalog kijkers te steunen.
    * Toegevoegde ondersteuning voor apparaten met zowel muis- als aanraakinvoer via de Chrome-browser.
    * De vernieuwde Android-versiedetectie ter ondersteuning van toekomstige versies van het besturingssysteem
@@ -229,7 +229,7 @@ De gebruikershandleiding bevindt zich in de map Adobe HTML5 Viewer SDK van de cl
 
 * FlyoutzoomView
 
-   * Probleem verholpen waarbij een fout buiten bereik werd `tip=0,-1,0` veroorzaakt.
+   * Probleem verholpen waarbij `tip=0,-1,0` een fout buiten het bereik veroorzaakte.
 
 **Compatibiliteitsnotities**
 
@@ -294,9 +294,9 @@ De gebruikershandleiding bevindt zich in de map Adobe HTML5 Viewer SDK van de cl
 
 * Alle componenten
 
-   * In versies 2.7.2 en eerdere versies zijn sommige componenten met behulp van `insertBefore()` API aan de DOM toegevoegd. Als gevolg hiervan worden deze componenten onder aan de stapelvolgorde geplaatst, ongeacht wanneer de componentinstantie wordt gemaakt ten opzichte van andere componenten. Met versie 2.8.1 gebruiken alle componenten nu `appendChild()` API, wat betekent dat de component stapelvolgorde zou overeenkomen met de volgorde waarin de instantie wordt gemaakt.
+   * In versies 2.7.2 en lager werden sommige componenten toegevoegd aan het DOM met behulp van `insertBefore()` API. Als gevolg hiervan worden deze componenten onder aan de stapelvolgorde geplaatst, ongeacht wanneer de componentinstantie wordt gemaakt ten opzichte van andere componenten. Met versie 2.8.1 gebruiken alle componenten nu `appendChild()` API, wat betekent dat de component stapelvolgorde zou overeenkomen met de volgorde waarin de instantie wordt gemaakt.
 
-   * Het gebruik van `iscommand` modifier voor het instellen van de indeling voor alfakanalen van de afbeelding wordt niet ondersteund. Gebruik in plaats `FMT` hiervan componentparameter.
+   * Het gebruik van de optie `iscommand` voor het instellen van de indeling voor alfakanalen van de afbeelding wordt niet ondersteund. Gebruik in plaats hiervan de parameter `FMT`.
    * Eigenschap voor CSS-transformatie wordt momenteel niet ondersteund.
 
 * Aanraakapparaten
@@ -305,7 +305,7 @@ De gebruikershandleiding bevindt zich in de map Adobe HTML5 Viewer SDK van de cl
 
 * Container
 
-   * Rand, opvulling en marges op de container worden niet ondersteund. Adobe raadt u aan stijlelementen toe te voegen aan het bovenliggende DIV-bestand.
+   * Rand, opvulling en marges op de container worden niet ondersteund. Adobe stelt voor stijlelementen toe te voegen aan bovenliggende DIV.
    * De behoefte om de containergrootte uitdrukkelijk te plaatsen of de componenten kunnen correct worden gerangschikt.
 
 * Afdrukcomponent
@@ -314,7 +314,7 @@ De gebruikershandleiding bevindt zich in de map Adobe HTML5 Viewer SDK van de cl
 
 * component IconEffect
 
-   * IconEffect genereert een scriptfout in Internet Explorer als deze `autohide` is uitgeschakeld (ingesteld op `0`).
+   * IconEffect genereert een scriptfout in Internet Explorer als `autohide` is uitgeschakeld (ingesteld op `0`).
 
 * Component ImageMapEffect
 
@@ -330,7 +330,7 @@ De gebruikershandleiding bevindt zich in de map Adobe HTML5 Viewer SDK van de cl
 
 * PageScrubber-component
 
-   * Op iPhone 5 wordt, wanneer de PageScrubber-ballon op tekst is ingesteld, artefacten weergegeven wanneer de knop langs de track wordt verplaatst. Het gebruik `-webkit-background-clip: content;` in de stijl werkt rond de uitgave.
+   * Op iPhone 5 wordt, wanneer de PageScrubber-ballon op tekst is ingesteld, artefacten weergegeven wanneer de knop langs de track wordt verplaatst. Het gebruik van `-webkit-background-clip: content;` in de stijl werkt rond het probleem.
 
 * Component SpinView
 
@@ -339,7 +339,7 @@ De gebruikershandleiding bevindt zich in de map Adobe HTML5 Viewer SDK van de cl
 * De component Stalen
 
    * Wanneer u een buiten-de-grenzenstaal selecteert, worden 2 markeringen weergegeven.
-   * Automatisch schuiven terwijl de `selectSwatch()` methode onjuist werkt.
+   * Automatisch schuiven terwijl de methode `selectSwatch()` onjuist werkt.
 
 * VideoPlayer
 
@@ -348,8 +348,8 @@ De gebruikershandleiding bevindt zich in de map Adobe HTML5 Viewer SDK van de cl
    * Posterafbeelding wordt mogelijk niet voor de eerste keer weergegeven in een Microsoft Edge-browser.
    * Posterafbeelding kan na het laden van de video in Internet Explorer 9 worden verborgen wanneer progressief afspelen wordt gebruikt.
 
-## Scene7 Beeld Serend 6.3.2 en het Teruggeven van het Beeld 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
+## Scene7 Image Serving 6.3.2 and Image Rendering 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
 
-* IC-hulpprogramma - markering wordt niet meer ondersteund. `downsample2x2` Deze vlag was een slechte kwaliteit 2x2 downsampler die niet meer door IPS wordt gebruikt.
-* CORS-header - Momenteel is de CORS-header geconfigureerd voor `/is/content/` aanvragen.
+* Hulpprogramma IC - `downsample2x2`-markering wordt niet meer ondersteund. Deze vlag was een slechte kwaliteit 2x2 downsampler die niet meer door IPS wordt gebruikt.
+* CORS-header - Momenteel is de CORS-header geconfigureerd voor `/is/content/`-aanvragen.
 
