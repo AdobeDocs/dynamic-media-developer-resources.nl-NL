@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 14cbb67e-56dc-4a25-b871-740be7ea7858
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '72'
+ht-degree: 0%
 
 ---
 
@@ -30,9 +33,9 @@ Syntaxis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> forceren</span> publiceren </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> forcePublish</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:Boolean</span> </td> 
-   <td colname="col3">Ingesteld op <span class="codeph"> True</span> om <i>alle</i> gegevens opnieuw naar de metagegevensserver te publiceren. <p>Opmerking:  Afhankelijk van de hoeveelheid gegevens kan dit enkele minuten tot enkele uren duren. </p><p>Stel deze parameter niet in als u alleen nieuwe of gewijzigde metagegevens wilt publiceren. </p></td> 
+   <td colname="col3">Stel in op <span class="codeph"> True</span> om <i>all</i> gegevens opnieuw naar de metagegevensserver te publiceren. <p>Opmerking:  Afhankelijk van de hoeveelheid gegevens kan dit enkele minuten tot enkele uren duren. </p><p>Stel deze parameter niet in als u alleen nieuwe of gewijzigde metagegevens wilt publiceren. </p></td> 
   </tr> 
  </tbody> 
 </table>
