@@ -21,7 +21,7 @@ Werkt de setdefinitie voor een bestaande elementenset bij.
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-9d4ca3a8cfe74934b89971de01a2143c}
+## Toegestane gebruikerstypen {#section-9d4ca3a8cfe74934b89971de01a2143c}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -48,11 +48,11 @@ IPS API keert geen reactie voor deze verrichting terug.
 
 **setDefinition-functies**
 
-Geef `setDefinition` vervangende functies online op. Deze worden opgelost tijdens het opzoeken van een catalogus of bij publicatie. Vervangende tekenreeksen hebben de indeling `${<substitution_func>}`en bevatten het volgende:
+Geef `setDefinition` substitutiefuncties op in line. Deze worden opgelost tijdens het opzoeken van een catalogus of bij publicatie. Vervangende tekenreeksen hebben de notatie `${<substitution_func>}` en bevatten de volgende notaties:
 
 >[!NOTE]
 >
->Handle-literals in de parameterlijsten moeten tussen haakjes staan `([])`. De tekst buiten een vervangende tekenreeks wordt tijdens de resolutie naar de uitvoertekenreeks gekopieerd.
+>Handle literals in de parameterlijsten moeten door haakjes `([])` worden omringd. De tekst buiten een vervangende tekenreeks wordt tijdens de resolutie naar de uitvoertekenreeks gekopieerd.
 
 <table id="table_A93D2C273B694C289208AA926B2597CD"> 
  <thead> 
@@ -63,19 +63,19 @@ Geef `setDefinition` vervangende functies online op. Deze worden opgelost tijden
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getFilePath([ <span class="varname"> asset_handle </span>]) </span> </td> 
+   <td colname="col1"> <span class="codeph"> getFilePath([  <span class="varname"> asset_handle  </span>])  </span> </td> 
    <td colname="col2"> Primair bestandspad. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getCatalogd([ <span class="varname"> asset_handle </span>]) </span> </td> 
+   <td colname="col1"> <span class="codeph"> getCatalogd([  <span class="varname"> asset_handle  </span>])  </span> </td> 
    <td colname="col2"> Catalogus-id. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getMetaData([ <span class="varname"> asset_handle </span>],[ <span class="varname"> metadata_field_handle </span>]) </span> </td> 
+   <td colname="col1"> <span class="codeph"> getMetaData([  <span class="varname"> asset_handle  </span>],[  <span class="varname"> metadata_field_handle  </span>])  </span> </td> 
    <td colname="col2"> Waarde van metagegevens. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getThumbCatalogId([ <span class="varname"> asset_handle </span>]) </span> </td> 
+   <td colname="col1"> <span class="codeph"> getThumbCatalogId([  <span class="varname"> asset_handle  </span>])  </span> </td> 
    <td colname="col2"> Catalogus-id. Is van toepassing op op op afbeeldingen gebaseerde elementen (Afbeelding, Aangepaste weergave, Laagweergave). <p>Retourneert de catalogus-id van het blokelement (indien aanwezig) voor andere elementen. Als er geen blokelement aan het element is gekoppeld, retourneert de functie een lege tekenreeks. </p> </td> 
   </tr> 
  </tbody> 
