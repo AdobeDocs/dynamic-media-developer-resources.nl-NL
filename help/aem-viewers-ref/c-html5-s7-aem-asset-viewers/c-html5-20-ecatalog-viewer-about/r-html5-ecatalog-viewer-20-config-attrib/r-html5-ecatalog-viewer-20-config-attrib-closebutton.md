@@ -8,19 +8,22 @@ topic: Dynamic media
 uuid: 018a18fe-4d74-4c68-a072-3aeaf823578d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '43'
+ht-degree: 4%
 
 ---
 
 
-# Knop{#closebutton}
+# Knop Sluiten{#closebutton}
 
 `closebutton=0|1`
 
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p>Stel in op <span class="codeph"> 1 </span> om weergave van de sluitknop in te schakelen. Of u stelt <span class="codeph"> 0 in </span> om de sluitknop te verbergen. </p> <p>De knop Sluiten wordt alleen ondersteund op aanraakapparaten. kan niet worden weergegeven op desktopsystemen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
+   <td colname="col2"> <p>Stel in op <span class="codeph"> 1 </span> om weergave van de sluitknop in te schakelen. Of u stelt de waarde <span class="codeph"> 0 </span> in om de sluitknop te verbergen. </p> <p>De knop Sluiten wordt alleen ondersteund op aanraakapparaten. kan niet worden weergegeven op desktopsystemen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
