@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e8c0401b-9161-4624-babb-6c7afb443e65
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 0%
 
 ---
 
@@ -29,8 +32,8 @@ Elke afbeeldingscatalogus bestaat uit een vereist kenmerkbestand voor de catalog
 
 De dossiers van de catalogusgegevens worden geassocieerd met beeldcatalogi door dossierverwijzingen in het dossier van de catalogusattributen. Hetzelfde bestand met catalogusgegevens kan worden gedeeld door meerdere afbeeldingscatalogi.
 
-Bestanden met cataloguskenmerken moeten een [!DNL .ini] achtervoegsel hebben en moeten zich in de catalogusmap ( `PlatformServer::catalog.rootPath`) van de platformserver bevinden. Catalogusgegevensbestanden kunnen zich in dezelfde map of in een andere map bevinden die toegankelijk is voor de platformserver.
+Bestanden met cataloguskenmerken moeten een [!DNL .ini]-achtervoegsel hebben en moeten zich in de catalogusmap van de server van het Platform ( `PlatformServer::catalog.rootPath`) bevinden. De dossiers van de catalogusgegevens kunnen in de zelfde omslag of een andere omslag worden gevestigd die voor de Server van het Platform toegankelijk is.
 
-Dit document beschrijft het het dossierformaat van de Catalogus van het Beeld van het Beeld Scene7 voor het Serven systeem van het Beeld. Het beoogde publiek is ervaren programmeurs en ontwikkelaars van websites die Scene7 Image Serving voor een Web of een douanetoepassing willen gebruiken.
+In dit document wordt de bestandsindeling Image Catalog beschreven voor het Scene7 Image Serving-systeem. Het beoogde publiek is ervaren programmeurs en ontwikkelaars van websites die Scene7 Image Serving willen gebruiken voor een web- of aangepaste toepassing.
 
-Men veronderstelt dat de lezer over het algemeen vertrouwd met het Beeld Scene7 die systeem, algemene het protocolnormen en overeenkomsten van HTTP, en basistafbeeldingsterminologie voert.
+Aangenomen wordt dat de lezer over het algemeen bekend is met het Scene7 Image Serving System, de algemene normen en conventies voor HTTP-protocollen en de basistechnologie voor beeldbewerking.
