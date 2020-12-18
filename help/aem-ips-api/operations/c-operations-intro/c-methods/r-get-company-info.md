@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 9218cba8-2873-46b7-90e3-7ab9d5018690
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Hiermee wordt informatie over het opgegeven bedrijf geretourneerd, inclusief de 
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-74f20fb8602e4f96810795bc4b6f7fdf}
+## Toegestane gebruikerstypen {#section-74f20fb8602e4f96810795bc4b6f7fdf}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -44,15 +47,15 @@ Syntaxis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> bedrijfshandle</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:tekenreeks</span> </p> </td> 
-   <td colname="col3"> <p>Of <span class="codeph"> bedrijfHandle <span class="varname"></span> of </span> <span class="codeph"> bedrijfName <span class="varname"></span> </span> wordt vereist. </p> </td> 
+   <td colname="col3"> <p>Of <span class="codeph"> <span class="varname"> companyHandle</span> </span> of <span class="codeph"> <span class="varname"> companyName</span> </span> is vereist. </p> </td> 
    <td colname="col4"> <p>De handgreep van het bedrijf waarvan informatie u wilt verkrijgen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> bedrijfsnaam</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:tekenreeks</span> </p> </td> 
-   <td colname="col3"> <p>Of <span class="codeph"> bedrijfHandle <span class="varname"></span> of </span> <span class="codeph"> bedrijfName <span class="varname"></span> </span> wordt vereist. </p> </td> 
+   <td colname="col3"> <p>Of <span class="codeph"> <span class="varname"> companyHandle</span> </span> of <span class="codeph"> <span class="varname"> companyName</span> </span> is vereist. </p> </td> 
    <td colname="col4"> <p>De naam van het bedrijf waarvan informatie u wilt verkrijgen. </p> </td> 
   </tr> 
  </tbody> 
@@ -71,7 +74,7 @@ Syntaxis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> bedrijfsinfo</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> typen:Bedrijf</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Handle en andere beschrijvende informatie over het bedrijf. </p> </td> 
