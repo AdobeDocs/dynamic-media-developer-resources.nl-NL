@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: d7b7e704-6f78-45f9-a82a-14dc6b01e230
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 0%
 
 ---
 
 
-# Sociaal aandeel{#social-share}
+# Sociaal delen{#social-share}
 
 Het gereedschap voor sociaal delen wordt standaard in de rechterbovenhoek weergegeven. Het bestaat uit een knop en een deelvenster dat groter wordt wanneer de gebruiker op een knop klikt of tikt en afzonderlijke gereedschappen voor delen bevat.
 
@@ -29,11 +32,11 @@ De positie en grootte van het gereedschap voor sociaal delen in de gebruikersint
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p> Verticale positie van het gereedschap voor sociaal delen ten opzichte van de viewercontainer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
    <td colname="col2"> <p> Horizontale positie van het gereedschap voor sociaal delen ten opzichte van de viewercontainer. </p> </td> 
   </tr> 
   <tr> 
@@ -41,13 +44,13 @@ De positie en grootte van het gereedschap voor sociaal delen in de gebruikersint
    <td colname="col2"> <p> De breedte van het gereedschap voor sociaal delen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>De hoogte van het gereedschap voor sociaal delen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Voorbeeld** - Een gereedschap voor sociaal delen instellen dat zich vier pixels van de bovenkant en vijf pixels van de rechterkant van de viewercontainer bevindt en een grootte van 28 x 28 pixels heeft.
+**Voorbeeld**  - Een gereedschap voor sociaal delen instellen dat zich vier pixels van de bovenkant en vijf pixels van de rechterkant van de viewercontainer bevindt en een grootte van 28 x 28 pixels heeft.
 
 ```
 .s7interactivevideoviewer .s7socialshare { 
@@ -69,11 +72,11 @@ De vormgeving van de knop voor het gereedschap Sociaal delen wordt bepaald door 
 <table id="table_A18B6978EC304C378F5FE92DD44D138D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
    <td colname="col2"> <p> De afbeelding die voor een bepaalde knopstatus wordt weergegeven. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -81,11 +84,11 @@ De vormgeving van de knop voor het gereedschap Sociaal delen wordt bepaald door 
 
 >[!NOTE]
 >
->Deze knop ondersteunt de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende skins toe te passen op verschillende knoptoestanden.
+>Deze knoop steunt `state` attributenselecteur, die kan worden gebruikt om verschillende huiden op verschillende knoopstaten toe te passen.
 
 De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Voorbeeld** - Een knop voor een gereedschap voor sociaal delen instellen waarmee een andere afbeelding wordt weergegeven voor elk van de vier verschillende knopstatussen.
+**Voorbeeld**  - Een knop voor een gereedschap voor sociaal delen instellen waarmee een andere afbeelding wordt weergegeven voor elk van de vier verschillende knopstatussen.
 
 ```
 .s7video360viewer .s7socialshare .s7socialbutton[state='up'] { 
@@ -113,13 +116,13 @@ De weergave van het deelvenster met de afzonderlijke pictogrammen voor sociaal d
 <table id="table_86E777A5851F47D6A49D966E24A9A6CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>De achtergrondkleur van het deelvenster. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Voorbeeld** - Een deelvenster instellen voor transparante kleuren:
+**Voorbeeld**  - Een deelvenster instellen voor transparante kleuren:
 
 ```
 .s7video360viewer .s7socialshare .s7socialsharepanel { 
