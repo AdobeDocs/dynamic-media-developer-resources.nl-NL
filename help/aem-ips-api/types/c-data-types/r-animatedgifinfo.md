@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: add69c62-1139-4993-acf7-2e11e734ea83
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '63'
+ht-degree: 0%
 
 ---
 
@@ -30,12 +33,12 @@ Syntaxis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> origineel pad</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> originalPath</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:tekenreeks</span> </p> </td> 
    <td colname="col3"> <p>Pad naar het GIF-bestand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> origineel bestand</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> originalFile</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:tekenreeks</span> </p> </td> 
    <td colname="col3"> <p>Bestandsnaam. </p> </td> 
   </tr> 
@@ -50,7 +53,7 @@ Syntaxis
    <td colname="col3"> <p>Het IPS-geoptimaliseerde afbeeldingsbestand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> bestandsgrootte</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> fileSize</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Bestandsgrootte. </p> </td> 
   </tr> 
