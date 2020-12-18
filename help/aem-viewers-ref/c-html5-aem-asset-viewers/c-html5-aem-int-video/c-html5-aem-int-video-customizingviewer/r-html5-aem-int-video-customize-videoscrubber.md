@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: cfd1055b-c4d6-42e4-ad24-a897e923e8e9
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '1042'
+ht-degree: 0%
 
 ---
 
 
-# Videoscrubber{#video-scrubber}
+# Video scrubber{#video-scrubber}
 
 De videoscrubber is de horizontale schuifregelaar waarmee een gebruiker dynamisch naar een willekeurige tijdpositie in de video kan zoeken die momenteel wordt afgespeeld.
 
@@ -33,19 +36,19 @@ De algemene weergave van de videoscrubber wordt beheerd met de volgende CSS-klas
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p>Positie vanaf de bovenrand, inclusief opvulling. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
    <td colname="col2"> <p> Positie vanaf de onderrand, inclusief opvulling. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van de videoscrubber. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>De kleur van de videoscrubber. </p> </td> 
   </tr> 
  </tbody> 
@@ -64,11 +67,11 @@ De volgende CSS-klassekiezers volgen de indicatoren voor achtergrond, afspelen e
 <table id="table_46903DCACF314426B67783167ADF7715"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van de desbetreffende track. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>De kleur van de bijbehorende track. </p> </td> 
   </tr> 
  </tbody> 
@@ -85,7 +88,7 @@ De volgende CSS-klassenkiezer bestuurt de knop:
 <table id="table_966826FB81114362A8D81D1EED38D512"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p>Verticale knopverschuiving. </p> </td> 
   </tr> 
   <tr> 
@@ -93,15 +96,15 @@ De volgende CSS-klassenkiezer bestuurt de knop:
    <td colname="col2"> <p>Breedte van knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
    <td colname="col2"> <p>Illustraties uitnemen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -118,39 +121,39 @@ De volgende CSS-klassenkiezer bestuurt de zeepbel waarin de tijd wordt afgespeel
 <table id="table_21E9AD3FBC8C4437BA02E5CD1BF7E831"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p> De lettertypefamilie die voor de tijdweergavetekst moet worden gebruikt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekengrootte </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekengrootte  </span> </p> </td> 
    <td colname="col2"> <p> De tekengrootte die voor de tijdweergavetekst moet worden gebruikt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> kleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kleur  </span> </p> </td> 
    <td colname="col2"> <p> De lettertypekleur die voor de tijdweergavetekst moet worden gebruikt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Breedte van ballongebied. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van ballongebied. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
    <td colname="col2"> <p>Opvulling van ballongebied. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
    <td colname="col2"> <p>Bubble artwork. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> text-align  </span> </p> </td> 
    <td colname="col2"> <p>De uitlijning van tekst met het bellengebied. </p> </td> 
   </tr> 
  </tbody> 
@@ -158,7 +161,7 @@ De volgende CSS-klassenkiezer bestuurt de zeepbel waarin de tijd wordt afgespeel
 
 De knopinfo voor het gereedschap Video scrubber kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie.
 
-**Voorbeeld** - Een videoviewer instellen met een videoscrubber met aangepaste trackkleuren die 10 pixels hoog zijn en die 10 pixels en 35 pixels van de boven- en linkerrand van de besturingsbalk zijn geplaatst.
+**Voorbeeld**  - Een videoviewer instellen met een videoscrubber met aangepaste trackkleuren die 10 pixels hoog zijn en die 10 pixels en 35 pixels van de boven- en linkerrand van de besturingsbalk zijn geplaatst.
 
 ```
 .s7interactivevideoviewer .s7videoscrubber  { 
@@ -181,7 +184,7 @@ background-color:#888888;
 }
 ```
 
-Wanneer videochaptering met de `navigation` parameter wordt toegelaten, worden de hoofdstukplaatsen getoond als tellers bovenop het videoscrubberspoor.
+Wanneer videochaptering met de parameter `navigation` wordt toegelaten, worden de hoofdstukplaatsen getoond als tellers bovenop het video scrubberspoor.
 
 De markering van het videohoofdstuk wordt beheerd door de volgende CSS-klassenkiezer:
 
@@ -194,19 +197,19 @@ De markering van het videohoofdstuk wordt beheerd door de volgende CSS-klassenki
 <table id="table_51F16E47BEF3430B919ABEEDBE543973"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Breedte markeerteken van videohoofdstuk. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hoogte markeerteken videohoofdstuk. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
    <td colname="col2"> <p>Illustraties markeren voor videohoofdstukken. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -214,9 +217,9 @@ De markering van het videohoofdstuk wordt beheerd door de volgende CSS-klassenki
 
 >[!NOTE]
 >
->Deze knop ondersteunt de `state` kenmerkkiezer, die u kunt gebruiken om verschillende skins toe te passen op verschillende knoptoestanden. Dit komt met name overeen met de standaardmarkeringsstatus van het videohoofdstuk en `selected='default'` `selected='over'` wordt gebruikt wanneer de markering van het videohoofdstuk wordt geactiveerd door een muisbeweging of aanraakbeweging.
+>Deze knoop steunt `state` attributenselecteur, die u kunt gebruiken om verschillende huiden op verschillende knoopstaten toe te passen. Met name `selected='default'` komt overeen met de standaardmarkeringsstatus van het videohoofdstuk en `selected='over'` wordt gebruikt wanneer de markering van het videohoofdstuk wordt geactiveerd door een muis boven of aanraakbeweging.
 
-**Voorbeeld** - Een hoofdstukmarkering voor video instellen van 5 x 8 pixels en een andere illustratie voor de status &quot;default&quot; en &quot;over&quot; gebruiken.
+**Voorbeeld**  - Een hoofdstukmarkering voor video instellen van 5 x 8 pixels en een andere illustratie voor de status &quot;default&quot; en &quot;over&quot; gebruiken.
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7navigation { 
@@ -244,17 +247,17 @@ De ballon van het videohoofdstuk wordt gecontroleerd door de volgende CSS klasse
 <table id="table_7F33738422F84978B9132495F67C2156"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> max. breedte </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> max. breedte  </span> </p> </td> 
    <td colname="col2"> <p>Maximale breedte van de ballon van het videohoofdstuk. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
    <td colname="col2"> <p>Verticale verschuiving van de videoscrubbertrack. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Voorbeeld** - Een ballon van een videohoofdstuk instellen die 235 pixels breed is en 8 pixels omhoog vanaf de onderkant van de videoscrubbertrack loopt.
+**Voorbeeld**  - Een ballon van een videohoofdstuk instellen die 235 pixels breed is en 8 pixels omhoog vanaf de onderkant van de videoscrubbertrack loopt.
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7chapter { 
@@ -276,25 +279,25 @@ De header wordt bestuurd door de volgende CSS-klassenkiezer:
 <table id="table_56FBC3BADDEA4E15924DD750CADC474F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van de ballonkoptekst van het videohoofdstuk. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
-   <td colname="col2"> <p>Binnenopvulling voor koptekst van videopunten met koptekst voor hoofdstukballonnen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
+   <td colname="col2"> <p>Binnenopvulling voor koptekst van videopunten met koptekst voor hoofdstukken. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Achtergrondkleur van bubbelkoptekst van videohoofdstuk. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> regelhoogte </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> regelhoogte  </span> </p> </td> 
    <td colname="col2"> <p>De regelhoogte van de ballontekst van het videohoofdstuk. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Voorbeeld** - Een bubbelkoptekst van een videohoofdstuk instellen van 22 pixels hoog, een lijnhoogte van 22 pixels, een horizontale marge van 12 pixels en een grijze achtergrond.
+**Voorbeeld**  - Een bubbelkoptekst van een videohoofdstuk instellen van 22 pixels hoog, een regelhoogte van 22 pixels, een horizontale marge van 12 pixels en een grijze achtergrond.
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7chapter .s7header { 
@@ -316,29 +319,29 @@ De begintijd van het videohoofdstuk wordt bepaald door de volgende CSS-klassenki
 <table id="table_D58D6B22BAEE4E26BAAB34783AE5A044"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> kleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kleur  </span> </p> </td> 
    <td colname="col2"> <p>Tekstkleur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
    <td colname="col2"> <p>Fontgewicht. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekengrootte </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekengrootte  </span> </p> </td> 
    <td colname="col2"> <p>Tekengrootte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Lettertypefamilie. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvulling rechts </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvulling rechts  </span> </p> </td> 
    <td colname="col2"> <p> Opvulling tussen de begintijd en de titel van het hoofdstuk. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Voorbeeld** - Als u de begintijd van het hoofdstuk wilt instellen met grijs 10 pixels, laat u het Verdana-lettertype en ziet u een opvulling van 10 pixels naar rechts.
+**Voorbeeld**  - Als u de begintijd van het hoofdstuk wilt instellen met grijs 10 pixels, laat u het Verdana-lettertype en hebt u een opvulling van 10 pixels rechts.
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7chapter .s7header .s7starttime { 
@@ -360,25 +363,25 @@ De titel van het videohoofdstuk wordt bestuurd door de volgende CSS-klassenkieze
 <table id="table_240DD3E119584DCC95FF480B60266603"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> kleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kleur  </span> </p> </td> 
    <td colname="col2"> <p>Tekstkleur van titel van videohoofdstuk. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
    <td colname="col2"> <p>Fontdikte van titel van videohoofdstuk. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekengrootte </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekengrootte  </span> </p> </td> 
    <td colname="col2"> <p>Fontgrootte van titel van videohoofdstuk. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Lettertypefamilie titel van videohoofdstuk. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Voorbeeld** - U stelt een titel van een videohoofdstuk in met een wit, vet en 10-pixel Verdana-lettertype.
+**Voorbeeld**  - U stelt een titel van een videohoofdstuk in met een wit, vet en 10-pixel Verdana-lettertype.
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7chapter .s7header .s7title { 
@@ -400,37 +403,37 @@ De beschrijving van het videohoofdstuk wordt beheerd door de volgende CSS-klasse
 <table id="table_780382ECB3D049118857DCA21D130326"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> kleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kleur  </span> </p> </td> 
    <td colname="col2"> <p>Tekstkleur van de beschrijving van het videohoofdstuk. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Achtergrondkleur van beschrijving van het videohoofdstuk. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
    <td colname="col2"> <p>Fontdikte van de beschrijving van het videohoofdstuk. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekengrootte </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekengrootte  </span> </p> </td> 
    <td colname="col2"> <p>Fontgrootte van de beschrijving van het videohoofdstuk. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Fontfamilie van de beschrijving van het videohoofdstuk. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> regelhoogte </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> regelhoogte  </span> </p> </td> 
    <td colname="col2"> <p>Lijnhoogte van de beschrijving van het videohoofdstuk. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
    <td colname="col2"> <p>Omschrijving binnenopvulling van het videohoofdstuk. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Voorbeeld** - Als u een beschrijving van een videohoofdstuk wilt instellen met een donkergrijs, 11-pixel Verdana-lettertype, met een lichtgrijze achtergrond; 5 pixels, lijnhoogte, 12 pixels, horizontale opvulling, 12 pixels opvulling boven en 9 pixels opvulling onder.
+**Voorbeeld**  - Als u een beschrijving van een videohoofdstuk wilt instellen met een donkergrijs, 11-pixel Verdana-lettertype, met een lichtgrijze achtergrond; 5 pixels, lijnhoogte, 12 pixels, horizontale opvulling, 12 pixels opvulling boven en 9 pixels opvulling onder.
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7chapter .s7description { 
@@ -454,21 +457,21 @@ De vastzetconnector onder aan de hoofdstukballon wordt bestuurd door de volgende
 <table id="table_BC6AFB57D9404A84A3AE657448C0EB06"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-color </span> </p> </td> 
-   <td colname="col2"> <p>Kleur van wedge-connector. </p> <p>Gedefinieerd als transparant <span class="codeph"> &lt;color&gt;, </span> zodat alleen de kleur van de bovenrand wordt gedefinieerd en de resterende randen transparant blijven. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-color  </span> </p> </td> 
+   <td colname="col2"> <p>Kleur van wedge-connector. </p> <p>Gedefinieerd als <span class="codeph"> &lt;color&gt; transparant </span>, zodat alleen de kleur van de bovenrand wordt gedefinieerd en de resterende randen transparant blijven. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-width </span> </p> </td> 
-   <td colname="col2"> <p> Breedte randaansluiting. </p> <p>Gedefinieerd als <span class="codeph"> &lt;width&gt; &lt;width&gt; 0, </span> zodat dezelfde breedte alleen voor de boven- en horizontale randen wordt gedefinieerd en de breedte van de onderrand <span class="codeph"> 0 </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-width  </span> </p> </td> 
+   <td colname="col2"> <p> Breedte randaansluiting. </p> <p>Gedefinieerd als <span class="codeph"> &lt;width&gt; 0 </span>, zodat dezelfde breedte alleen voor de boven- en horizontale randen wordt gedefinieerd en de breedte van de onderrand <span class="codeph"> 0 </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge </span> </p> </td> 
-   <td colname="col2"> <p> Hiermee definieert u alleen een negatieve ondermarge. De waarde moet gelijk zijn aan die van de breedte van de <span class="codeph"> rand </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge  </span> </p> </td> 
+   <td colname="col2"> <p> Hiermee definieert u alleen een negatieve ondermarge. Deze moet dezelfde waarde hebben als <span class="codeph"> border-width </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Voorbeeld** - Voor het instellen van een grijze wigge-aansluiting van zes pixels:
+**Voorbeeld**  - Voor het instellen van een grijze, zes-pixelvastzetconnector:
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7chapter .s7tail { 
