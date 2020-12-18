@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 7a6c5eda-3b47-4c23-8a33-7b7e39de29c9
 translation-type: tm+mt
 source-git-commit: 4169757880407b62addd0a70ef1807d8b195820b
+workflow-type: tm+mt
+source-wordcount: '130'
+ht-degree: 0%
 
 ---
 
 
 # Referentie lettertypetoewijzing{#font-map-reference}
 
-Als een lettertypetoewijzing vereist is voor een afbeeldingscatalogus, moet het relatieve of absolute pad van het bestand met lettertypetoewijzing worden opgegeven in het kenmerk::FontMapFile.
+Als een lettertypetoewijzing vereist is voor een afbeeldingscatalogus, moet het relatieve of absolute pad van het bestand met lettertypetoewijzing worden opgegeven in het kenmerk:FontMapFile.
 
 Items in de lettertypetoewijzing van een specifieke afbeeldingscatalogus overschrijven de items in de lettertypetoewijzing van de standaardcatalogus.
 
