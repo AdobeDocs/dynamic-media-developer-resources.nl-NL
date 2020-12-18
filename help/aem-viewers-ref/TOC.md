@@ -2,7 +2,7 @@
 cloud: experience-cloud
 product: adobe
 archtype: end-user
-user-guide-title: Naslaggids voor dynamische mediasviewers
+user-guide-title: Dynamic Media Viewers Reference Guide
 translation-type: tm+mt
 source-git-commit: 636edb2fe860a75af66ab5143ab91020a2eb47ec
 workflow-type: tm+mt
@@ -12,27 +12,27 @@ ht-degree: 1%
 ---
 
 
-# Naslaggids voor dynamische mediasviewers {#library}
+# Dynamic Media Viewers Reference Guide {#library}
 
-+ [Introductiepagina van Dynamic Media Developer](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
-+ [Naslaggids voor dynamische mediasviewers](/help/aem-viewers-ref/home.md)
++ [Dynamic Media Developer Resources Home](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
++ [Dynamic Media Viewers Reference Guide](/help/aem-viewers-ref/home.md)
 + [Voorbeelden van viewerbibliotheken](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 + [Systeemvereisten](c-system-requirements-and-prerequisites.md)
 + [Meerdere viewers op dezelfde server installeren](t-installing-the-viewers.md)
 + Opmerkingen bij de release van viewers {#viewers-release-notes}
    + [Opmerkingen bij de release van viewers (5.14.1)](c-release-notes/c-rn-06-03-20.md)
-   + Archief {#archive}
+   + Archiveren {#archive}
       + [Archief met opmerkingen vrijgeven](c-release-notes/c-archive/c-archive.md)
       + [Opmerkingen bij de release van viewers (5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
       + [Opmerkingen bij de release van viewers (5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
       + [Opmerkingen bij de release van viewers (5.10.1)](c-release-notes/c-archive/c-rn-07-17-18.md)
-      + [Opmerkingen bij de release Scene7 Viewers 5.8.2](c-release-notes/c-archive/c-rn-09-18-17.md)
+      + [Opmerkingen bij de release van Scene7 Viewers 5.8.2](c-release-notes/c-archive/c-rn-09-18-17.md)
       + [Opmerkingen bij de release Scene7 Viewers 5.5.2](c-release-notes/c-archive/c-rn-10-13-16.md)
       + [Opmerkingen bij de release Scene7 Viewers 5.4.2](c-release-notes/c-archive/c-rn-05-03-16.md)
-      + [Opmerkingen bij de release Scene7 Viewers 5.2.3](c-release-notes/c-archive/c-rn-05-20-15.md)
-      + [Opmerkingen bij de release Scene7 Viewers 5.2.2](c-release-notes/c-archive/c-rn-04-30-15.md)
-      + [Opmerkingen bij de release Scene7 Viewers 5.1.1](c-release-notes/c-archive/c-rn-09-19-14.md)
-      + [Opmerkingen bij de release Scene7 Viewers 5.0.1](c-release-notes/c-archive/c-rn-04-29-14.md)
+      + [Opmerkingen bij de release van Scene7 Viewers 5.2.3](c-release-notes/c-archive/c-rn-05-20-15.md)
+      + [Opmerkingen bij de release van Scene7 Viewers 5.2.2](c-release-notes/c-archive/c-rn-04-30-15.md)
+      + [Opmerkingen bij de release van Scene7 Viewers 5.1.1](c-release-notes/c-archive/c-rn-09-19-14.md)
+      + [Opmerkingen bij de release van Scene7 Viewers 5.0.1](c-release-notes/c-archive/c-rn-04-29-14.md)
       + [Opmerkingen bij de release Scene7 Viewers 4.9.2](c-release-notes/c-archive/c-rn-09-18-13.md)
 + [Compatibiliteitsnotities](c-compatibility-notes.md)
 + Viewers voor AEM Assets en Dynamic Media Classic {#viewers-aem-assets-dmc}
@@ -53,7 +53,7 @@ ht-degree: 1%
          + [ZoomView.singleclick](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/r-html5-basic-zoom-viewer-20-config-attrib/r-html5-basic-zoom-viewer-20-config-attrib-zoomview-singleclick.md)
          + [ZoomView.transition](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/r-html5-basic-zoom-viewer-20-config-attrib/r-html5-basic-zoom-viewer-20-config-attrib-zoomview-transition.md)
          + [ZoomView.zoomstep](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/r-html5-basic-zoom-viewer-20-config-attrib/r-html5-basic-zoom-viewer-20-config-attrib-zoomview-zoomstep.md)
-      + JavaScript API-referentie voor de Basic Zoom Viewer {#jsapi-basic-zoom}
+      + JavaScript API-referentie voor Basic Zoom Viewer {#jsapi-basic-zoom}
          + [JavaScript API-referentie voor de Basic Zoom Viewer](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/c-html5-20-basic-zoom-viewer-javascriptapiref.md)
          + [BasicZoomViewer](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-basiczoomviewer.md)
          + [weggooien](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-dispose.md)
@@ -66,7 +66,7 @@ ht-degree: 1%
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-setaram.md)
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-setparams.md)
       + [Gebeurteniscallbacks](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-event-callbacks.md)
-      + De standaardzoomviewer aanpassen {#customizing-basic-zoom}
+      + De standaardzoomviewer {#customizing-basic-zoom} aanpassen
          + [De standaardzoomviewer aanpassen](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/c-html5-20-basic-zoom-viewer-customizingviewer.md)
          + [Knop Sluiten](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/r-html5-basic-zoom-viewer-20-customize-closebutton.md)
          + [Focus markeren](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/r-html5-basic-zoom-viewer-20-customize-focushighlight.md)
@@ -78,7 +78,7 @@ ht-degree: 1%
          + [Knop Uitzoomen](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/r-html5-basic-zoom-viewer-20-customize-zoomoutbutton.md)
          + [Knop Zoomen opnieuw instellen](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/r-html5-basic-zoom-viewer-20-customize-zoomresetbutton.md)
          + [Zoomweergave](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/r-html5-basic-zoom-viewer-20-customize-zoomview.md)
-      + [Ondersteuning voor het bijhouden van Adobe Analytics](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-sitecatalyst.md)
+      + [Ondersteuning voor Adobe Analytics-tracking](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-sitecatalyst.md)
       + [Technische ondersteuning](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-assistive.md)
       + [Lokalisatie van gebruikersinterface-elementen](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-localization.md)
       + [Ondersteuning voor volledig scherm](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-full-screen-support.md)
@@ -143,7 +143,7 @@ ht-degree: 1%
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-setparam.md)
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-setparams.md)
       + [Gebeurteniscallbacks](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-event-callbacks.md)
-      + eCatalog-viewer aanpassen {#customizing-ecatalog}
+      + eCatalog-viewer {#customizing-ecatalog} aanpassen
          + [eCatalog-viewer aanpassen](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md)
          + [Knop Favoriet toevoegen](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-addfavorite.md)
          + [Knop Sluiten](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-closebutton.md)
@@ -183,7 +183,7 @@ ht-degree: 1%
          + [Knop Inzoomen](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-zoominbutton.md)
          + [Knop Uitzoomen](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-zoomoutbutton.md)
          + [Knop Zoomen opnieuw instellen](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-zoomresetbutton.md)
-      + [Ondersteuning voor het bijhouden van Adobe Analytics](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-sitecatalyst.md)
+      + [Ondersteuning voor Adobe Analytics-tracking](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-sitecatalyst.md)
       + [Technische ondersteuning](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-assistive.md)
       + [Lokalisatie van gebruikersinterface-elementen](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md)
       + [Ondersteuning voor afbeeldingen met hyperlinks](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-image-map-support.md)
@@ -259,7 +259,7 @@ ht-degree: 1%
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/r-html5-ecatsearch-javascriptapiref-setparam.md)
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/r-html5-ecatsearch-javascriptapiref-setparams.md)
       + [Gebeurteniscallbacks](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-event-callbacks.md)
-      + De eCatalog Search Viewer aanpassen {#customize-ecatalog-search}
+      + De zoekviewer voor eCatalog {#customize-ecatalog-search} aanpassen
          + [De eCatalog Search Viewer aanpassen](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md)
          + [Knop Favoriet toevoegen](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-addfavorite.md)
          + [Knop Sluiten](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-closebutton.md)
@@ -302,7 +302,7 @@ ht-degree: 1%
          + [Knop Inzoomen](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-zoominbutton.md)
          + [Knop Uitzoomen](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-zoomoutbutton.md)
          + [Knop Zoomen opnieuw instellen](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-zoomresetbutton.md)
-      + [Ondersteuning voor het bijhouden van Adobe Analytics](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-sitecatalyst.md)
+      + [Ondersteuning voor Adobe Analytics-tracking](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-sitecatalyst.md)
       + [Technische ondersteuning](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-assistive.md)
       + [Lokalisatie van gebruikersinterface-elementen](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md)
       + [Ondersteuning voor afbeeldingen met hyperlinks](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-image-map-support.md)
@@ -335,7 +335,7 @@ ht-degree: 1%
          + [Stalen.pagemode](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/r-html5-flyout-viewer-20-conf-attrib/r-html5-flyout-viewer-20-conf-attrib-swatches-pagemode.md)
          + [Stalen.partialswatches](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/r-html5-flyout-viewer-20-conf-attrib/r-html5-flyout-viewer-20-conf-attrib-swatches-partialswatches.md)
          + [Stalen.scrollstep](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/r-html5-flyout-viewer-20-conf-attrib/r-html5-flyout-viewer-20-conf-attrib-swatches-scrollstep.md)
-      + JavaScript API-referentie voor Flyout Viewer {#jsapi-flyout}
+      + JavaScript API-referentie voor Flyout-viewer {#jsapi-flyout}
          + [JavaScript API-referentie voor Flyout Viewer](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/c-html5-flyout-viewer-20-javascriptapiref.md)
          + [weggooien](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-dispose.md)
          + [FlyoutViewer](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-.flyoutviewer.md)
@@ -348,14 +348,14 @@ ht-degree: 1%
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-setparam.md)
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-setparams.md)
       + [Gebeurteniscallbacks](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-event-callbacks.md)
-      + Flyout-viewer aanpassen {#customize-flyout}
+      + Flyout-viewer {#customize-flyout} aanpassen
          + [Flyout-viewer aanpassen](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md)
          + [Zoomweergave flyout](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/r-html5-flyout-viewer-20-customize-flyoutzoomview.md)
          + [Focus markeren](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/r-html5-flyout-viewer-20-customize-focushighlight.md)
          + [Hoofdviewergebied](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/r-html5-flyout-viewer-20-customize-mainviewerarea.md)
          + [Stalen](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/r-html5-flyout-viewer-20-customize-swatches.md)
          + [Knopinfo](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/r-html5-flyout-viewer-20-customize-tooltips.md)
-      + [Ondersteuning voor het bijhouden van Adobe Analytics](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-sitecatalyst.md)
+      + [Ondersteuning voor Adobe Analytics-tracking](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-sitecatalyst.md)
       + [Technische ondersteuning](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-assistive.md)
       + [Lokalisatie van gebruikersinterface-elementen](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md)
       + [Viewer SDK-naamruimte](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-namespace.md)
@@ -393,14 +393,14 @@ ht-degree: 1%
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/r-html5-inlinezoom-viewer-javascriptapiref-setparam.md)
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/r-html5-inlinezoom-viewer-javascriptapiref-setparams.md)
       + [Gebeurteniscallbacks](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-event-callbacks.md)
-      + Inline zoomviewer aanpassen {#customing-inline-zoom}
+      + Inline zoomviewer {#customing-inline-zoom} aanpassen
          + [Inline zoomviewer aanpassen](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md)
          + [Hoofdviewergebied](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/r-html5-inlinezoom-viewer-customize-mainviewerarea.md)
          + [Zoomweergave flyout](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/r-html5-inlinezoom-viewer-customize-inlinezoomview.md)
          + [Focus markeren](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/r-html5-inlinezoom-viewer-customize-focushighlight.md)
          + [Stalen](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/r-html5-inlinezoom-viewer-customize-swatches.md)
          + [Knopinfo](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/r-html5-inlinezoom-viewer-customize-tooltips.md)
-      + [Ondersteuning voor het bijhouden van Adobe Analytics](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-sitecatalyst.md)
+      + [Ondersteuning voor Adobe Analytics-tracking](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-sitecatalyst.md)
       + [Technische ondersteuning](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-assistive.md)
       + [Lokalisatie van gebruikersinterface-elementen](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md)
       + [Viewer SDK-naamruimte](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-namespace.md)
@@ -477,7 +477,7 @@ ht-degree: 1%
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-setparam.md)
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-setparams.md)
       + [Gebeurteniscallbacks](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-event-callbacks.md)
-      + Gemengde Media Viewer aanpassen {#customing-mixed-media}
+      + Gemengde Media Viewer {#customing-mixed-media} aanpassen
          + [Gemengde Media Viewer aanpassen](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md)
          + [Knop Bijschrift](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-captionbutton.md)
          + [Knop Sluiten](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-closebutton.md)
@@ -506,13 +506,13 @@ ht-degree: 1%
          + [Knop Zoomen opnieuw instellen](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-zoomresetbutton.md)
          + [Zoomweergave](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-zoomview.md)
          + [Pictogramaffect Zoomweergave](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-zoomviewiconeffect.md)
-      + [Ondersteuning voor het bijhouden van Adobe Analytics](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-sitecatalyst.md)
+      + [Ondersteuning voor Adobe Analytics-tracking](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-sitecatalyst.md)
       + [Technische ondersteuning](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-assistive.md)
       + [HTTPS-video leveren](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-securevideodelivery.md)
       + [Lokalisatie van gebruikersinterface-elementen](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md)
       + [Ondersteuning voor volledig scherm](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-full-screen-support.md)
       + [Viewer SDK-naamruimte](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-namespace.md)
-   + Draaien {#spin}
+   + {#spin} draaien
       + [Spin Viewer](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-about.md)
       + Command reference - Configuration attributes {#command-reference-configuration-attributes-spin}
          + [Command reference - Configuration attributes](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/r-html5-spin-viewer-config-attrib/r-html5-spin-viewer-config-attrib.md)
@@ -529,7 +529,7 @@ ht-degree: 1%
          + [SpinView.transition](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/r-html5-spin-viewer-config-attrib/r-html5-spin-viewer-config-attrib-spinview-transition.md)
          + [SpinView.zoomstep](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/r-html5-spin-viewer-config-attrib/r-html5-spin-viewer-config-attrib-spinview-zoomstep.md)
          + [ZoomView.enableHD](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/r-html5-spin-viewer-config-attrib/r-html5-spin-viewer-config-attrib-zoomview-enablehd.md)
-      + JavaScript API-referentie voor de centrifuge-viewer {#jsapi-spin}
+      + JavaScript API-referentie voor de Spin Viewer {#jsapi-spin}
          + [JavaScript API-referentie voor de centrifuge-viewer](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/c-html5-spin-viewer-javascriptapiref.md)
          + [weggooien](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-dispose.md)
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-getcomponent.md)
@@ -542,7 +542,7 @@ ht-degree: 1%
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-setparams.md)
          + [SpinViewer](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-spinviewer.md)
       + [Gebeurteniscallbacks](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-event-callbacks.md)
-      + Spin Viewer aanpassen {#customizing-spin}
+      + Spin-viewer {#customizing-spin} aanpassen
          + [Spin Viewer aanpassen](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md)
          + [Knop Sluiten](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/r-html5-spin-viewer-customize-closebutton.md)
          + [Focus markeren](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/r-html5-spin-viewer-customize-focushighlight.md)
@@ -556,7 +556,7 @@ ht-degree: 1%
          + [Knop Inzoomen](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/r-html5-spin-viewer-customize-zoominbutton.md)
          + [Knop Uitzoomen](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/r-html5-spin-viewer-customize-zoomoutbutton.md)
          + [Knop Zoomen opnieuw instellen](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/r-html5-spin-viewer-customize-zoomresetbutton.md)
-      + [Ondersteuning voor het bijhouden van Adobe Analytics](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-sitecatalyst.md)
+      + [Ondersteuning voor Adobe Analytics-tracking](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-sitecatalyst.md)
       + [Technische ondersteuning](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-assistive.md)
       + [Lokalisatie van gebruikersinterface-elementen](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md)
       + [Ondersteuning voor volledig scherm](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-full-screen-support.md)
@@ -586,7 +586,7 @@ ht-degree: 1%
          + [VideoScrubber.showchaptertitle](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/r-html5-video-viewer-conf-attrib-videoscrubber-showchaptertitle.md)
          + [VideoScrubber.timepattern](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/r-html5-video-viewer-conf-attrib-videoscrubber-timepattern.md)
          + [VideoTime.timepattern](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/r-html5-video-viewer-conf-attrib-videotime-timepattern.md)
-      + Opdrachtverwijzing - URL {#command-reference-url-video}
+      + Command reference - URL {#command-reference-url-video}
          + [Opdrachtverwijzing - URL](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref-url/c-html5-video-cmdref-url.md)
          + [bijschrift](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref-url/r-html5-video-viewer-url-caption.md)
          + [navigatie](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref-url/r-html5-video-viewer-url-navigation.md)
@@ -606,7 +606,7 @@ ht-degree: 1%
          + [setVideo](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-setvideo.md)
          + [VideoViewer](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-videoviewer.md)
       + [Gebeurteniscallbacks](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-event-callbacks.md)
-      + Video-viewer aanpassen {#customizing-video-viewer}
+      + Video-viewer {#customizing-video-viewer} aanpassen
          + [Video-viewer aanpassen](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md)
          + [Knop Bijschrift](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-customize-captionbutton.md)
          + [Besturingsbalk](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-20-customize-controlbar.md)
@@ -626,7 +626,7 @@ ht-degree: 1%
          + [Videospeler](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-20-customize-videoplayer.md)
          + [Videoscrubber](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-20-customize-videoscrubber.md)
          + [Videotijd](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-20-customize-videotime.md)
-      + [Ondersteuning voor het bijhouden van Adobe Analytics](c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-sitecatalystracking.md)
+      + [Ondersteuning voor Adobe Analytics-tracking](c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-sitecatalystracking.md)
       + [Technische ondersteuning](c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-assistive.md)
       + [HTTP-videoboodsing](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-securevideodelivery.md)
       + [Lokalisatie van gebruikersinterface-elementen](c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md)
@@ -659,7 +659,7 @@ ht-degree: 1%
          + [ZoomView.singleclick](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-zoomview-singleclick.md)
          + [ZoomView.transition](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-zoomview-transition.md)
          + [ZoomView.zoomstep](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-zoomview-zoomstep.md)
-      + JavaScript API-referentie voor Zooom Viewer {#jsapi-zoom}
+      + JavaScript API-naslaggids voor zoomviewer {#jsapi-zoom}
          + [JavaScript API-referentie voor Zooom Viewer](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/c-html5-20-zoom-viewer-javascriptapiref.md)
          + [weggooien](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-dispose.md)
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-getcomponent.md)
@@ -672,7 +672,7 @@ ht-degree: 1%
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-setparams.md)
          + [ZoomViewer](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-zoomviewer.md)
       + [Gebeurteniscallbacks](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-event-callbacks.md)
-      + Zoomviewer aanpassen {#customizing-zoom}
+      + Zoomviewer {#customizing-zoom} aanpassen
          + [Zoomviewer aanpassen](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/c-html5-20-zoom-viewer-customizingviewer.md)
          + [Knop Sluiten](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/r-html5-zoom-viewer-20-customize-closebutton.md)
          + [Focus markeren](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/r-html5-zoom-viewer-20-customize-focushighlight.md)
@@ -686,13 +686,13 @@ ht-degree: 1%
          + [Knop Uitzoomen](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/r-html5-zoom-viewer-20-customize-zoomoutbutton.md)
          + [Knop Zoomen opnieuw instellen](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/r-html5-zoom-viewer-20-customize-zoomresetbutton.md)
          + [Zoomweergave](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/r-html5-zoom-viewer-20-customize-zoomview.md)
-      + [Ondersteuning voor het bijhouden van Adobe Analytics](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-sitecatalyst.md)
+      + [Ondersteuning voor Adobe Analytics-tracking](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-sitecatalyst.md)
       + [Technische ondersteuning](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-assistive.md)
       + [Lokalisatie van gebruikersinterface-elementen](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md)
       + [Ondersteuning voor volledig scherm](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-full-screen-support.md)
       + [Viewer SDK-naamruimte](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-namespace.md)
-+ Viewers voor alleen AEM-middelen {#viewers-for-aem-assets-only}
-   + [Viewers voor alleen AEM-middelen](c-html5-aem-asset-viewers/c-html5-aem-asset-viewers.md)
++ Alleen viewers voor AEM Assets {#viewers-for-aem-assets-only}
+   + [Alleen viewers voor AEM Assets](c-html5-aem-asset-viewers/c-html5-aem-asset-viewers.md)
    + Carousel {#carousel}
       + [Carousel](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel.md)
       + Command reference - Configuration attributes {#command-reference-configuration-attributes-carousel}
@@ -706,7 +706,7 @@ ht-degree: 1%
          + [SetIndicator.autohide](c-html5-aem-asset-viewers/c-html5-aem-carousel/r-html5-aem-carousel-conf-attrib/r-html5-aem-carousel-config-attrib-setindicator-autohide.md)
          + [SetIndicator.mode](c-html5-aem-asset-viewers/c-html5-aem-carousel/r-html5-aem-carousel-conf-attrib/r-html5-aem-carousel-config-attrib-setindicator-mode.md)
          + [ControlBar.transition](c-html5-aem-asset-viewers/c-html5-aem-carousel/r-html5-aem-carousel-conf-attrib/r-html5-aem-carousel-config-attrib-controlbar-transition.md)
-      + Opdrachtverwijzing - URL {#command-reference-url-carousel}
+      + Command reference - URL {#command-reference-url-carousel}
          + [Opdrachtverwijzing - URL](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-cmdref-url/c-html5-aem-carousel-cmdref-url.md)
          + [voorladen**](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-cmdref-url/r-html5-aem-carousel-cmdref-url-preloadimage.md)
       + JavaScript API-referentie voor Carousel Viewer {#jsapi-carousel}
@@ -722,7 +722,7 @@ ht-degree: 1%
          + [setParam](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-setparam.md)
          + [setParams](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-setparams.md)
       + [Gebeurteniscallbacks](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-event-callbacks.md)
-      + Carousel Viewer aanpassen {#customizing-carousel}
+      + Carousel-viewer {#customizing-carousel} aanpassen
          + [Carousel Viewer aanpassen](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md)
          + [Carousel-weergave](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-carouselview.md)
          + [Focus markeren](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-focushighlight.md)
@@ -733,7 +733,7 @@ ht-degree: 1%
          + [Vorige dia](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-previousslide.md)
          + [Indicator instellen](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-setindicator.md)
          + [Knopinfo](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-tooltips.md)
-      + [Ondersteuning voor het bijhouden van Adobe Analytics](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-analytics.md)
+      + [Ondersteuning voor Adobe Analytics-tracking](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-analytics.md)
       + [Technische ondersteuning](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-assistive.md)
       + [Lokalisatie van gebruikersinterface-elementen](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md)
       + [Ondersteuning voor hotspot en afbeeldingen met hyperlinks](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-hotspot--image-support.md)
@@ -746,7 +746,7 @@ ht-degree: 1%
          + [ZoomView.enableHD](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/r-html5-aem-interactive-image-conf-attrib/r-html5-aem-interactive-image-config-attrib-zoomview-enablehd.md)
          + [ZoomView.fmt](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/r-html5-aem-interactive-image-conf-attrib/r-html5-aem-interactive-image-config-attrib-zoomview-fmt.md)
          + [ZoomView.iscommand](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/r-html5-aem-interactive-image-conf-attrib/r-html5-aem-interactive-image-config-attrib-zoomview-iscommand.md)
-      + Opdrachtverwijzing - URL {#command-reference-interactive-images}
+      + Command reference - URL {#command-reference-interactive-images}
          + [Opdrachtverwijzing - URL](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-int-image-cmdref-url/c-html5-aem-int-image-cmdref-url.md)
          + [voorladen](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-int-image-cmdref-url/r-html5-aem-int-image-cmdref-url-preloadimage.md)
       + JavaScript API-referentie voor Interactive Image Viewer {#jsapi-interactive-image}
@@ -761,7 +761,7 @@ ht-degree: 1%
          + [setParam](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/r-html5-aem-int-image-viewer-javascriptapiref-setparam.md)
          + [setParams](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/r-html5-aem-int-image-viewer-javascriptapiref-setparams.md)
       + [Gebeurteniscallbacks](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-event-callbacks.md)
-      + Interactieve afbeeldingsviewer aanpassen {#customizing-interactive-image}
+      + Interactieve afbeeldingsviewer {#customizing-interactive-image} aanpassen
          + [Interactieve afbeeldingsviewer aanpassen](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md)
          + [Focus markeren](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/r-html5-aem-int-image-customize-focushighlight.md)
          + [Hotspots](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/r-html5-aem-int-image-customize-hotspots.md)
@@ -813,13 +813,13 @@ ht-degree: 1%
          + [VideoScrubber.showchaptertitle](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoscrubber-showchaptertitle.md)
          + [VideoScrubber.timepattern](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoscrubber-timepattern.md)
          + [VideoTime.timepattern](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videotime-timepattern.md)
-      + Opdrachtverwijzing - URL {#command-reference-url-interactive-video}
+      + Command reference - URL {#command-reference-url-interactive-video}
          + [Opdrachtverwijzing - URL](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-cmdref-url/c-html5-aem-int-video-cmdref-url.md)
          + [bijschrift](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-cmdref-url/r-html5-aem-int-video-cmdref-url-caption.md)
          + [interactivedata](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-cmdref-url/r-html5-aem-int-video-cmdref-url-interactivedata.md)
          + [navigatie](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-cmdref-url/r-html5-aem-int-video-cmdref-url-navigation.md)
          + [videoServerUrl](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-cmdref-url/r-html5-aem-int-video-cmdref-url-videoserverurl.md)
-      + JavaScript API-naslaggids voor interactieve video {#jsapi-interactive-video}
+      + JavaScript API-referentie voor interactieve video {#jsapi-interactive-video}
          + [JavaScript API-referentie voor Interactive Video Viewer](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/c-html5-aem-int-video-javascriptapiref.md)
          + [weggooien](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-dispose.md)
          + [getComponent](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-getcomponent.md)
@@ -832,7 +832,7 @@ ht-degree: 1%
          + [setParam](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-setparam.md)
          + [setParams](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-setparams.md)
       + [Gebeurteniscallbacks](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-event-callbacks.md)
-      + Interactieve video-viewer aanpassen {#customizing-interactive-video}
+      + Interactieve videoviewer {#customizing-interactive-video} aanpassen
          + [Interactieve video-viewer aanpassen](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md)
          + [Oproep tot actie](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-calltoaction.md)
          + [Knop Bijschrift](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-captionbutton.md)
@@ -852,7 +852,7 @@ ht-degree: 1%
          + [Videospeler](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-videoplayer.md)
          + [Videoscrubber](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-videoscrubber.md)
          + [Videotijd](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-videotime.md)
-      + [Ondersteuning voor het bijhouden van Adobe Analytics](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-sitecatalyst.md)
+      + [Ondersteuning voor Adobe Analytics-tracking](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-sitecatalyst.md)
       + [Technische ondersteuning](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-assistive.md)
       + [HTTPS-video leveren](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-securevideodelivery.md)
       + [Interactieve gegevensondersteuning](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-int-data-support.md)
@@ -881,7 +881,7 @@ ht-degree: 1%
          + [Video360Player.waiticon](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-waiticon.md)
          + [VideoScrubber.timepattern](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-conf-attrib-videoscrubber-timepattern.md)
          + [VideoTime.timepattern](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-conf-attrib-videotime-timepattern.md)
-      + Opdrachtverwijzing - URL {#command-reference-url-video360}
+      + Command reference - URL {#command-reference-url-video360}
          + [Opdrachtverwijzing - URL](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/c-html5-aem-video360-cmdref-url.md)
          + [video](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/r-html5-aem-video360-url-video.md)
          + [videoServerUrl](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/r-html5-aem-video360-url-videoserverurl.md)
@@ -899,7 +899,7 @@ ht-degree: 1%
          + [setVideo](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-setvideo.md)
          + [Video360Viewer](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-video360viewer.md)
       + [Gebeurteniscallbacks](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-event-callbacks.md)
-      + Video360 Viewer aanpassen {#customizing-video360}
+      + Video360-viewer {#customizing-video360} aanpassen
          + [Video360 Viewer aanpassen](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md)
          + [Besturingsbalk](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-controlbar.md)
          + [Delen insluiten](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-embedshare.md)
@@ -917,7 +917,7 @@ ht-degree: 1%
          + [Video360-speler](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-video360player.md)
          + [Videoscrubber](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-videoscrubber.md)
          + [Videotijd](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-videotime.md)
-      + [Ondersteuning voor het bijhouden van Adobe Analytics](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-sitecatalyst.md)
+      + [Ondersteuning voor Adobe Analytics-tracking](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-sitecatalyst.md)
       + [HTTPS-video leveren](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-securevideodelivery.md)
       + [Technische ondersteuning](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-assistive.md)
       + [Lokalisatie van gebruikersinterface-elementen](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md)
@@ -929,7 +929,7 @@ ht-degree: 1%
    + [stageSize](r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib-stagesize.md)
    + [stijl](r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib-style.md)
    + [titel](r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib-title.md)
-+ Opdrachtverwijzing algemeen voor alle viewers - URL {#command-reference-common-to-all-viewers-url}
++ Command reference common to all viewers - URL {#command-reference-common-to-all-viewers-url}
    + [Opdrachtverwijzing algemeen voor alle viewers - URL](c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md)
    + [element](c-html5-viewer-20-cmdref-url/r-html5-viewer-20-cmdref-url-asset.md)
    + [bijschrift](c-html5-viewer-20-cmdref-url/r-html5-viewer-20-cmdref-url-caption.md)
