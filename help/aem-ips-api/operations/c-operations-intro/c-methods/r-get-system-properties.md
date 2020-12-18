@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 08ea86ba-bde5-45a1-920a-04f784395e6a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '64'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Hiermee worden alle systeemeigenschappen in één aanvraag opgehaald.
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-fc311ce90a54400fa95b9dd36b756e23}
+## Toegestane gebruikerstypen {#section-fc311ce90a54400fa95b9dd36b756e23}
 
 * `IpsUser`
 * `IpsAdmin`
