@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 17fe8277-a164-4f91-af96-ea43d41bd4f2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '143'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Stelt metagegevenswaarden in voor een element. Werkt met een array van updates v
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-9dcacb0c924044648f8324bfed183dca}
+## Toegestane gebruikerstypen {#section-9dcacb0c924044648f8324bfed183dca}
 
 * `IpsUser`
 * `IpsAdmin`
