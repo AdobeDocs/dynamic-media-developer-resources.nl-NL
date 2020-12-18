@@ -1,18 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Stalen.tekstpos
+seo-title: Swatches.textpos
 solution: Experience Manager
-title: Stalen.tekstpos
+title: Swatches.textpos
 topic: Dynamic media
 uuid: 1ad94058-4dca-40b9-a694-a6c1452880c1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '50'
+ht-degree: 2%
 
 ---
 
 
-# Stalen.tekstpos{#swatches-textpos}
+# Swatches.textpos{#swatches-textpos}
 
 `[Swatches.|<containerId>_swatches.]textpos=bottom|top|left|right|none|tooltip`
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> onder|boven|links|rechts|geen|knopinfo</span> </p> </td> 
-   <td> <p> Hiermee geeft u aan waar het label wordt getekend ten opzichte van de miniatuurafbeelding van het staal. Het label wordt dus gecentreerd op de opgegeven locatie ten opzichte van de staalminiatuur. Wanneer <span class="codeph"> knopinfo</span> is opgegeven, wordt geen label getekend. </p> </td> 
+   <td> <p> Hiermee geeft u aan waar het label wordt getekend ten opzichte van de miniatuurafbeelding van het staal. Het label wordt dus gecentreerd op de opgegeven locatie ten opzichte van de staalminiatuur. Wanneer <span class="codeph"> tooltip</span> wordt gespecificeerd, wordt geen etiket getrokken. </p> </td> 
   </tr> 
  </tbody> 
 </table>
