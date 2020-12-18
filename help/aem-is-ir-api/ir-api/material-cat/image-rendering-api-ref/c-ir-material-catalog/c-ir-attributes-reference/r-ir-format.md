@@ -8,17 +8,20 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: d09b0a45-ea89-4c00-a6ac-065ffad51611
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '62'
+ht-degree: 0%
 
 ---
 
 
-# Indeling{#format}
+# Format{#format}
 
 Standaardindeling voor reactieafbeelding. Hiermee geeft u de standaardindeling voor antwoordafbeeldingen op.
 
 ## Eigenschappen {#section-3cbea775a174443aaf14e9e58a3c2300}
 
-Tekstreeks. Moet een van de opmaaktokens zijn die door de `fmt=` opdracht worden ondersteund:
+Tekstreeks. Moet een van de opmaaktokens zijn die door de opdracht `fmt=` worden ondersteund:
 
 `jpg | jpeg | png | png-alpha | tif | tif-alpha | swf | swf-alpha | pdf | eps | gif | gif-alpha`
 
