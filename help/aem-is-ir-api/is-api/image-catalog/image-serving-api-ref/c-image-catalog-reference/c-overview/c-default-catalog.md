@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 9f0c967e-a2fa-4ef0-bacb-3dcfb06a8027
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '230'
+ht-degree: 0%
 
 ---
 
@@ -20,9 +23,9 @@ Als een bepaald kenmerk niet in een specifieke afbeeldingscatalogus kan worden g
 
 Bovendien bevat de standaardcatalogus alle kenmerken en gegevensrecords (macro&#39;s, lettertypen, ICC-profielen, regels voor voorbewerking aanvragen) wanneer een bewerking geen specifieke afbeeldingscatalogus bevat.
 
-Voor een correcte werking van de Server van het Platform moet het dossier van catalogusattributen voor de standaardcatalogus worden genoemd [!DNL default.ini], altijd in de catalogusomslag bestaan, en volledig bevolkt met alle vereiste attributen, exclusief `attribute::RootId` en de verwijzingen naar de diverse dossiers van catalogusgegevens, die allen facultatief zijn.
+Voor een correcte werking van de Server van het Platform moet het dossier van catalogusattributen voor de standaardcatalogus [!DNL default.ini] worden genoemd, altijd in de catalogusomslag bestaan, en moet volledig met alle vereiste attributen, behalve `attribute::RootId` en de verwijzingen naar de diverse dossiers van catalogusgegevens, die allen facultatief zijn worden bevolkt.
 
 >[!NOTE]
 >
->Alle bestanden met cataloguskenmerken, behalve bestanden met cataloguskenmerken, [!DNL default.ini] moeten een unieke `attribute::RootId` waarde bevatten. `attribute::RootId` in [!DNL default.ini] moet leeg zijn.
+>Alle cataloguskenmerkbestanden behalve [!DNL default.ini] moeten een unieke `attribute::RootId`-waarde bevatten. `attribute::RootId` in  [!DNL default.ini] moet leeg zijn.
 
