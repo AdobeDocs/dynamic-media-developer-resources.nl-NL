@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 2f00a06d-40d1-4ba3-a317-6ea91e25beb3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '177'
+ht-degree: 0%
 
 ---
 
@@ -18,9 +21,9 @@ Voegt een bedrijf aan het systeem toe.
 
 Verzendt de naam van het bedrijf dat aan het systeem moet worden toegevoegd en naar keuze verzendt of het bedrijf verloopt.
 
-Wanneer deze verrichting wordt aangehaald, krijgt het systeem een ` *`bedrijfInfo`*` type dat een bedrijfshandvat en beschrijvende gebieden bevat. Als de gevraagde bedrijfsnaam al in het systeem bestaat, werpt het een `ipsApiFault`.
+Wanneer deze verrichting wordt aangehaald, krijgt het systeem een ` *`companyInfo`*` type dat een bedrijfshandvat en beschrijvende gebieden bevat. Als de aangevraagde bedrijfsnaam al in het systeem bestaat, wordt een `ipsApiFault` gegenereerd.
 
-## Geautoriseerde gebruikerstypen {#section-ae926c7672984be79f6102748accab72}
+## Toegestane gebruikerstypen {#section-ae926c7672984be79f6102748accab72}
 
 * `IpsAdmin`
 * `TrialSiteAdmin`
@@ -41,13 +44,13 @@ Wanneer deze verrichting wordt aangehaald, krijgt het systeem een ` *`bedrijfInf
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> bedrijfsnaam</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:tekenreeks</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>De naam van het bedrijf dat moet worden toegevoegd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> verloopt</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> verloopt</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:dateTime</span> </p> </td> 
    <td colname="col3"> <p>Nee </p> </td> 
    <td colname="col4"> <p>Vervaldatum van de onderneming. Geef de tijdzone het verzoek voor dit veld. Tijdzones worden aangepast aan de Central Time. </p> </td> 
@@ -68,7 +71,7 @@ Wanneer deze verrichting wordt aangehaald, krijgt het systeem een ` *`bedrijfInf
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> bedrijfsinfo</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:tekenreeks</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Handgreep aan en naam, wortelweg, vervaldatum, en tijd van het nieuwe bedrijf. </p> </td> 
