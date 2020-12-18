@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 3d526326-c8fa-4aef-95a9-93ccacf08f73
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '306'
+ht-degree: 0%
 
 ---
 
@@ -20,16 +23,16 @@ Versie afbeelding/metagegevens. Wanneer het werken met inhoud die regelmatig ver
 
 <table id="simpletable_3A6EBDA15B004636804E1ACEF952479A"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> val </span></span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> val  </span> </span> </p> </td> 
   <td class="stentry"> <p>Versietekenreeks. </p> </td> 
  </tr> 
 </table>
 
-De Server van het beeld omvat een versieringsmechanisme dat kan helpen de kans verminderen dat een verouderd geheim voorgeheugeningang door een toepassing wordt gebruikt. Dit mechanisme omvat het gebruik `req=props` om versie-id-tekenreeksen te verkrijgen voor afbeeldingsgegevens en metagegevens (zoals afbeeldingskaart of zoomdoelgegevens). De versie-id-tekenreeks wordt vervolgens toegevoegd aan cacheable Image Serving-aanvragen met de `id=` opdracht.
+De Server van het beeld omvat een versieringsmechanisme dat kan helpen de kans verminderen dat een verouderd geheim voorgeheugeningang door een toepassing wordt gebruikt. Dit mechanisme omvat het gebruik van `req=props` om versie-id-tekenreeksen te verkrijgen voor afbeeldingsgegevens en metagegevens (zoals afbeeldingskaart of zoomdoelgegevens). De versie-id-tekenreeks wordt vervolgens met de opdracht `id=` toegevoegd aan cacheable Image Serving-aanvragen.
 
-Wanneer een bronafbeelding of metagegevens worden gewijzigd, verandert ook de bijbehorende versie-id-waarde. Als u een bijgewerkte versie-id-waarde opneemt met de `id=` opdracht, hebt u geen toegang meer tot oude cachemarkeringen.
+Wanneer een bronafbeelding of metagegevens worden gewijzigd, verandert ook de bijbehorende versie-id-waarde. Als u een up-to-date versie-id-waarde opneemt met de opdracht `id=`, bent u ervan verzekerd dat oude cachemarkeringen niet langer worden geopend.
 
-In de volgende tabel worden de tekenreeks met de versie-id weergegeven die voor elk `req=` type moet worden gebruikt:
+In de volgende tabel worden de tekenreeks met de versie-id weergegeven die voor elk type `req=` moet worden gebruikt:
 
 <table id="table_AE39BEBE18864880BBBF1C4F16785E2D"> 
  <thead> 
@@ -70,7 +73,7 @@ In de volgende tabel worden de tekenreeks met de versie-id weergegeven die voor 
  </tbody> 
 </table>
 
-`req=` typen die niet hierboven zijn vermeld, hebben een korte TTL ( `attribute::NonImgExpiration`) of de reacties zijn helemaal niet in de cache te plaatsen; het heeft geen enkel voordeel dat dergelijke verzoeken `id=` worden opgenomen .
+`req=` typen die niet hierboven zijn vermeld, hebben een korte TTL (  `attribute::NonImgExpiration`) of de reacties zijn helemaal niet in de cache te plaatsen; het heeft geen enkel voordeel  `id=` bij dergelijke verzoeken te worden betrokken .
 
 ## Eigenschappen {#section-62e973d0d5884abebbb0679f9278ae2c}
 
@@ -82,8 +85,8 @@ Geen.
 
 ## Voorbeeld {#section-a5fb871e0ec8485c91c4fca78895d17f}
 
-Zie de beschrijving van [rect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rect.md#reference-520b90d30b4c4b4692a723e4df6adaf3) voor bijvoorbeeld gebruik.
+Zie de beschrijving van [rect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rect.md#reference-520b90d30b4c4b4692a723e4df6adaf3) bijvoorbeeld gebruik.
 
 ## Zie ook {#section-6b4befb47202415195a68516f60e9988}
 
-[req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76) , [rect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rect.md#reference-520b90d30b4c4b4692a723e4df6adaf3), [catalog::Expiration](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-expiration-cat.md#reference-a7afd668ecbb4d2da65d86259aa6a28a), [kenmerk::NonImgExpiration](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-nonimgexpiration.md#reference-a8066cd0d24b4ea98100ade4821f1f9d)
+[req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76) ,  [rect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rect.md#reference-520b90d30b4c4b4692a723e4df6adaf3),  [catalog::Expiration](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-expiration-cat.md#reference-a7afd668ecbb4d2da65d86259aa6a28a),  [kenmerk::NonImgExpiration](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-nonimgexpiration.md#reference-a8066cd0d24b4ea98100ade4821f1f9d)
