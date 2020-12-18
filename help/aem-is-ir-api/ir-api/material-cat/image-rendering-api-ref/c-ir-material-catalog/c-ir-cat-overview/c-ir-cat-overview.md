@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: f2128b64-8caf-4a59-b11f-604fe62bae69
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '438'
+ht-degree: 0%
 
 ---
 
 
-# Overzicht van de materiaalcatalogus *{#material-catalog-overview}
+# Overzicht materiaalcatalogus *{#material-catalog-overview}
 
 Materiaalcatalogi bieden informatie over vignetten, materialen en ondersteunende gegevens, zoals ICC-profielen, aan de server.
 
@@ -25,7 +28,7 @@ Elke materiaalcatalogus bestaat uit een vereist *cataloguskenmerkbestand* en een
 
 De dossiers van de catalogusgegevens worden geassocieerd met materiaalcatalogi door dossierverwijzingen in het dossier van de catalogusattributen. Hetzelfde bestand met catalogusgegevens kan door meerdere materiaalcatalogi worden gedeeld.
 
-Bestanden met cataloguskenmerken moeten een [!DNL .ini] achtervoegsel hebben en moeten zich in de *catalogusmap* voor het renderen van afbeeldingen [!DNL PlatformServer::ir.catalogRootPath]) bevinden. Catalogusgegevensbestanden kunnen zich in dezelfde map of in een andere map bevinden die toegankelijk is voor de renderserver.
+Bestanden met cataloguskenmerken moeten een [!DNL .ini]-achtervoegsel hebben en moeten zich in de map *Catalogusmap* ( [!DNL PlatformServer::ir.catalogRootPath]) bevinden. Catalogusgegevensbestanden kunnen zich in dezelfde map of in een andere map bevinden die toegankelijk is voor de renderserver.
 
 **Materiaalcatalogi bijwerken**
 
@@ -37,7 +40,7 @@ De standaardcatalogus bevat standaardwaarden voor alle cataloguskenmerken van al
 
 Bovendien bevat de standaardcatalogus alle kenmerken en gegevensrecords (ICC-profielen) wanneer een bewerking geen specifieke materiaalcatalogus bevat.
 
-Voor een correcte werking van de Render Server moet het bestand met cataloguskenmerken voor de standaardcatalogus een naam hebben [!DNL default.ini], altijd aanwezig zijn in de catalogusmap en moet het volledig zijn gevuld met alle vereiste kenmerken, exclusief `attribute::RootId` en de verwijzingen naar de verschillende bestanden met catalogusgegevens, die allemaal optioneel zijn.
+Voor een correcte werking van de Render-server moet het bestand met cataloguskenmerken voor de standaardcatalogus de naam [!DNL default.ini] hebben, altijd bestaan in de catalogusmap en moet het volledig zijn gevuld met alle vereiste kenmerken, met uitzondering van `attribute::RootId` en de verwijzingen naar de verschillende bestanden met catalogusgegevens, die allemaal optioneel zijn.
 
 **Zie ook**
 
