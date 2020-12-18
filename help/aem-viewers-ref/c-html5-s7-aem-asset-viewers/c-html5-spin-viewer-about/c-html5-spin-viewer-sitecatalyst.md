@@ -1,32 +1,35 @@
 ---
-description: De Centraal Viewer ondersteunt het bijhouden van Adobe-analysemogelijkheden vanuit het vak.
-seo-description: De Centraal Viewer ondersteunt het bijhouden van Adobe-analysemogelijkheden vanuit het vak.
-seo-title: Ondersteuning voor het bijhouden van Adobe Analytics
+description: De Draaiende Kijker steunt het volgen van Adobe Analytics uit de doos.
+seo-description: De Draaiende Kijker steunt het volgen van Adobe Analytics uit de doos.
+seo-title: Ondersteuning voor Adobe Analytics-tracking
 solution: Experience Manager
-title: Ondersteuning voor het bijhouden van Adobe Analytics
+title: Ondersteuning voor Adobe Analytics-tracking
 topic: Dynamic media
 uuid: 337671f0-22e8-4e3e-a0a9-ce49d271ea56
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '172'
+ht-degree: 0%
 
 ---
 
 
-# Ondersteuning voor het bijhouden van Adobe Analytics{#support-for-adobe-analytics-tracking}
+# Ondersteuning voor Adobe Analytics tracking{#support-for-adobe-analytics-tracking}
 
-De Centraal Viewer ondersteunt het bijhouden van Adobe-analysemogelijkheden vanuit het vak.
+De Draaiende Kijker steunt het volgen van Adobe Analytics uit de doos.
 
-## Buiten-de-box-tracking {#section-d06145cfa2b9491bb485b599368d466e}
+## Buiten-de-box tracking {#section-d06145cfa2b9491bb485b599368d466e}
 
-De centrifugerviewer ondersteunt het uit de verpakking bijhouden van Adobe Analytics.
+De Draaiende Viewer ondersteunt het uit-van-de-doos traceren van Adobe Analytics.
 
-Als u reeksspatiëring wilt inschakelen, geeft u de juiste naam van de bedrijfsvoorinstelling als `config2` parameter door.
+Als u reeksspatiëring wilt inschakelen, geeft u de juiste naam van de bedrijfsvoorinstelling door als `config2`-parameter.
 
 De kijker verzendt ook één enkele het volgen HTTP- verzoek naar de gevormde Server van het Beeld met het viewertype en versieinformatie.
 
-## Aangepaste reeksspatiëring {#section-47512156a1d64b338b50cfa39c84f4aa}
+## Aangepaste tekstspatiëring {#section-47512156a1d64b338b50cfa39c84f4aa}
 
-Om met derdeanalysesystemen te integreren, is het noodzakelijk om aan de kijker callback te luisteren en het `trackEvent` `eventInfo` argument van de callback functie, zonodig te verwerken. De volgende code is een voorbeeld van een dergelijke handlerfunctie:
+Om met derdeanalysesystemen te integreren, is het noodzakelijk om aan `trackEvent` kijkerscallback te luisteren en het `eventInfo` argument van de callback functie, zonodig te verwerken. De volgende code is een voorbeeld van een dergelijke handlerfunctie:
 
 ```
 var spinViewer = new s7viewers.SpinViewer({ 
@@ -61,23 +64,23 @@ De viewer houdt de volgende SDK-gebruikersgebeurtenissen bij:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LADEN </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LADEN  </span> </p> </td> 
    <td colname="col2"> <p>de viewer wordt eerst geladen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>een element wordt omgewisseld in de viewer met de <span class="codeph"> setAsset()- </span> API. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SWAP  </span> </p> </td> 
+   <td colname="col2"> <p>een element wordt in de viewer omgewisseld met de <span class="codeph"> setAsset() </span>-API. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ZOOMEN </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ZOOMEN  </span> </p> </td> 
    <td colname="col2"> <p> ingezoomd op een afbeelding. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PAN </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PAN  </span> </p> </td> 
    <td colname="col2"> <p>een afbeelding wordt gepand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SPIN </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SPIN  </span> </p> </td> 
    <td colname="col2"> <p> er wordt een centrifuge uitgevoerd. </p> </td> 
   </tr> 
  </tbody> 
