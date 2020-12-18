@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 9714fc99-2259-4766-96d7-fe2f9fd2f341
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '264'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Maak een nieuwe afbeeldingskaart of bewerk een bestaande kaart.
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-9ef194a67b3546fb82ed7bb294bc2714}
+## Toegestane gebruikerstypen {#section-9ef194a67b3546fb82ed7bb294bc2714}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -46,56 +49,56 @@ Syntaxis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> bedrijfshandleiding </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:tekenreeks </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:tekenreeks  </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> De handgreep van het bedrijf met de afbeeldingskaart die u wilt opslaan. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:tekenreeks </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:tekenreeks  </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> De handgreep van het afbeeldingselement waartoe de afbeelding met hyperlinks behoort. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> imageMapHandle </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:tekenreeks </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> imageMapHandle  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:tekenreeks  </span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4"> De handgreep van de afbeelding met hyperlinks. Maakt een afbeelding met hyperlinks als deze NULL is. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> naam </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:tekenreeks </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> name  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:tekenreeks  </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> De naam van de afbeeldingskaart die is gemaakt of opgeslagen. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> shapeType </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:tekenreeks </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> shapeType  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:tekenreeks  </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Keuze van regiovorm. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> regio </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:tekenreeks </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> regio  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:tekenreeks  </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Een door komma's gescheiden lijst met punten die het gebied definiëren. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> actie </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:tekenreeks </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> action  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:tekenreeks  </span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> <p>De <span class="codeph"> href- </span> waarde die aan de afbeelding met hyperlinks is gekoppeld, zoals opgegeven in de IPS-interface. </p> <p>Om de <span class="codeph"> href </span> waarde te verkrijgen, klik het beeld in de IPS interface, kopieer en plak URL in dit element, en formatteer dan IPS URL als juiste URL. Bijvoorbeeld, <span class="codeph"> &amp; </span> wordt <span class="codeph"> &amp;amp; </span>. </p> </td> 
+   <td colname="col4"> <p>De <span class="codeph"> href </span> waarde verbonden aan de beeldkaart zoals gespecificeerd in de IPS interface. </p> <p>Om de <span class="codeph"> href </span> waarde te verkrijgen, klik het beeld in de IPS interface, kopieer en plak URL in dit element, en formatteer dan IPS URL als juiste URL. <span class="codeph"> &amp; </span> wordt bijvoorbeeld <span class="codeph"> &amp;amp; </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> positie </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:int </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> positie  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:int  </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> De volgorde in de lijst met afbeeldingen met hyperlinks (de Z-as). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> ingeschakeld </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:Boolean </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> enabled  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:Boolean  </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"></td> 
   </tr> 
