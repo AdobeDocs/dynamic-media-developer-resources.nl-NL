@@ -8,11 +8,14 @@ topic: Scene7 Image Production System API
 uuid: e36f0d5c-0170-4a65-9347-c7fd3538726b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 0%
 
 ---
 
 
-# Bewerkingen: Nieuw en gewijzigd{#operations-new-and-modified}
+# Bewerkingen: Nieuw en Gewijzigd{#operations-new-and-modified}
 
 Beschrijft nieuwe en veranderde verrichtingsmethodes voor IPS API versie 6.
 
@@ -31,23 +34,25 @@ Syntaxis
 
 **Toegevoegd**
 
-* Toegevoegd `isHidden` en `initialTagValue` aan:
+* `isHidden` en `initialTagValue` toegevoegd aan:
 
    * `saveMetadataField`
    * ` `updateMetadataField&quot;
    * `createMetadataField`
 
-* Toegevoegd `thumbAssetHandle` aan:
+* `thumbAssetHandle` toegevoegd aan:
 
    * `createImageSet`
    * `createAssetSet`
-   Toegevoegd `companyHandle` aan:
+
+   `companyHandle` toegevoegd aan:
 
    * `getViewerConfigSettings`
    * `setViewerConfigSettings`
    * `updateViewerConfigSettings`
    * `getSearchStrings`
-   Toegevoegd `contextHandle` aan:
+
+   `contextHandle` toegevoegd aan:
 
    * `getImageServingPublishSettings`
    * `getImageRenderingPublishSettings`
@@ -61,28 +66,28 @@ Syntaxis
    * `getUsers`.
    * `getUserChars`.
 
-* Toegevoegd `permissionArray` aan `createPropertySet`.
+* `permissionArray` toegevoegd aan `createPropertySet`.
 
-* Toegevoegd `exportJob` aan `submitJob`.
+* `exportJob` toegevoegd aan `submitJob`.
 
 **Gewijzigd**
 
-* In `addUser` en `setUser`, gewijzigd `role` in `defaultRole`.
+* In `addUser` en `setUser` is `role` gewijzigd in `defaultRole`.
 
-* In `getCompanyMembers`, veranderd `userArray` in `memberArray`.
+* In `getCompanyMembers` is `userArray` gewijzigd in `memberArray`.
 
-* In `getCompanyMembership`, veranderd `companyArray` in `membershipArray`.
+* In `getCompanyMembership` is `companyArray` gewijzigd in `membershipArray`.
 
-* In `addUser`, `setCompanyMembership`, en `addCompanyMembership`, veranderd `membershipArray` in `companyHandleArray`.
+* In `addUser`, `setCompanyMembership`, en `addCompanyMembership`, veranderde `membershipArray` in `companyHandleArray`.
 
-* In `getCompanyMembership`, veranderd `companyArray` in `membershipArray`.
+* In `getCompanyMembership` is `companyArray` gewijzigd in `membershipArray`.
 
-* In `getUserChars`, `includeInvalid` is nu facultatief.
+* In `getUserChars` is `includeInvalid` nu optioneel.
 
 **Verwijderd**
 
-* Verwijderd `renameFiles` uit `renameAsset`.
+* `renameFiles` verwijderd uit `renameAsset`.
 
-* Verwijderd `getXMPPanelViewDefinition`.
-* Verwijderd `searchAssetsByFulltext` en `searchAssetsBySimilarity`.
+* `getXMPPanelViewDefinition` verwijderd.
+* `searchAssetsByFulltext` en `searchAssetsBySimilarity` zijn verwijderd.
 
