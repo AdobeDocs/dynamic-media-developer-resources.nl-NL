@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: c9fa7826-5174-4298-99e6-a0627e432567
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '187'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Hiermee wordt een lijst opgehaald met de tekens die in een bepaald veld worden g
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-7023871be4d2442daf51ff060ca06d9a}
+## Toegestane gebruikerstypen {#section-7023871be4d2442daf51ff060ca06d9a}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
