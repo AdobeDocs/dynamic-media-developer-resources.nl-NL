@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: c16ce881-e5d5-4864-bfad-69b4c9b51a21
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 0%
 
 ---
 
@@ -33,15 +36,15 @@ De weergave van de knop Delen via Twitter wordt bepaald door de volgende CSS-kla
    <td colname="col2"> <p>Knopbreedte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
    <td colname="col2"> <p> De afbeelding die voor een bepaalde knopstatus wordt weergegeven. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -49,13 +52,13 @@ De weergave van de knop Delen via Twitter wordt bepaald door de volgende CSS-kla
 
 >[!NOTE]
 >
->Deze knop ondersteunt de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende skins toe te passen op verschillende knoptoestanden.
+>Deze knoop steunt `state` attributenselecteur, die kan worden gebruikt om verschillende huiden op verschillende knoopstaten toe te passen.
 
-Het is mogelijk om de knop uit het deelvenster Sociaal delen te verwijderen door de `display:none` CSS-eigenschap in te stellen op de CSS-klasse.
+Het is mogelijk om de knop uit het deelvenster Sociaal delen te verwijderen door de CSS-eigenschap `display:none` in te stellen op de CSS-klasse.
 
 De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Voorbeeld** - Een gedeelde Twitter-knop van 28 x 28 pixels instellen en een andere afbeelding weergeven voor elk van de vier verschillende knopstatussen:
+**Voorbeeld**  - Een gedeelde Twitter-knop van 28 x 28 pixels instellen en een andere afbeelding weergeven voor elk van de vier verschillende knopstatussen:
 
 ```
 .s7video360viewer .s7twittershare { 
