@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: b36cf09d-dee2-4e8b-9500-e8fa4c5c112f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Kleurwaarde. Hexadecimale, verpakte RGB-waarde, optioneel voorafgegaan door 0x. 
 
 **Markering**
 
-`0`=false, `1`=true, elke andere waarde betekent onbekend of niet opgegeven.
+`0`=false,  `1`=true, elke andere waarde betekent onbekend of niet opgegeven.
 
 **Enum**
 
@@ -38,4 +41,4 @@ Waarde van ondertekend zwevend punt (bijvoorbeeld `0, 12.5, 245 , -2.34e4`). 0 o
 
 **Tekstreeks**
 
-Tekenreeksscheidingstekens zijn optioneel, tenzij de tekenreeks `<CR>`, `<LF>`of `<TAB>` tekens bevat. Enkelvoudige en dubbele aanhalingstekens kunnen als scheidingstekens worden gebruikt. Wanneer aanhalingstekens worden gebruikt, moet een dergelijk aanhalingsteken dat in de tekenreeks is ingesloten, worden omzeild door twee opeenvolgende aanhalingstekens te gebruiken (bijvoorbeeld &#39; `This month''s Special`&#39;).
+Tekenreeksscheidingstekens zijn optioneel, tenzij de tekenreeks `<CR>`, `<LF>` of `<TAB>` tekens bevat. Enkelvoudige en dubbele aanhalingstekens kunnen als scheidingstekens worden gebruikt. Wanneer aanhalingstekens worden gebruikt, moet een dergelijk aanhalingsteken dat in de tekenreeks is ingesloten, worden omzeild door twee opeenvolgende aanhalingstekens te gebruiken (bijvoorbeeld &quot; `This month''s Special`&quot;).
