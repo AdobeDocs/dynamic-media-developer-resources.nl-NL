@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: adea34ca-adbe-465e-8991-f39a7a81d611
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '126'
+ht-degree: 1%
 
 ---
 
@@ -19,8 +22,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_18D47E7C6A2D4D68B94225CB621D5F7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Geeft aan of een wijziging in de centrifugerichting wordt toegestaan in het geval van een 2D-centrifugeerset. </p> <p>Wanneer deze optie is ingesteld op <span class="codeph"> 1 </span>, identificeert de component de primaire (horizontale of verticale) sleep-richting aan het begin van de beweging. Daarna blijft deze richting behouden totdat de beweging stopt. Als de gebruiker bijvoorbeeld een horizontale draaibeweging start en vervolgens besluit om de sleepbeweging in verticale richting voort te zetten, voert de component geen verticale draaibeweging uit. in plaats daarvan wordt alleen gekeken naar de horizontale beweging van de muis of de veegbeweging. </p> <p>Met de waarde 0 <span class="codeph"> </span> kan de gebruiker de draairichting op elk gewenst moment tijdens de bewegingsvoortgang wijzigen. De instelling heeft geen invloed als de centrifugeset 1D is. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
+   <td colname="col2"> <p> Geeft aan of een wijziging in de centrifugerichting wordt toegestaan in het geval van een 2D-centrifugeerset. </p> <p>Wanneer deze wordt ingesteld op <span class="codeph"> 1 </span>, identificeert de component de primaire (horizontale of verticale) sleep richting aan het begin van de beweging. Daarna blijft deze richting behouden totdat de beweging stopt. Als de gebruiker bijvoorbeeld een horizontale draaibeweging start en vervolgens besluit om de sleepbeweging in verticale richting voort te zetten, voert de component geen verticale draaibeweging uit. in plaats daarvan wordt alleen gekeken naar de horizontale beweging van de muis of de veegbeweging. </p> <p>Met de waarde <span class="codeph"> 0 </span> kan een gebruiker de draairichting op elk gewenst moment tijdens de bewegingsvoortgang wijzigen. De instelling heeft geen invloed als de centrifugeset 1D is. </p> </td> 
   </tr> 
  </tbody> 
 </table>
