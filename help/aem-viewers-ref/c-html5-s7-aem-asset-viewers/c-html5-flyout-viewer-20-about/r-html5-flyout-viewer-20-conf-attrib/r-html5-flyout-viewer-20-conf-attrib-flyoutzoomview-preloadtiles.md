@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e73f9d5d-4b7a-4a6b-8d0f-a5e588dc00c9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '62'
+ht-degree: 3%
 
 ---
 
@@ -19,8 +22,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_8E44EC404A1A45C59EA1EF2766613930"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Stel dit in op <span class="codeph"> 1</span> om het vooraf laden van de ingezoomde afbeelding in te schakelen of op <span class="codeph"> 0</span> om de zoomafbeelding stapsgewijs te laden. </p> <p> <p>Opmerking:  Als u deze optie inschakelt, kan dit resulteren in aanzienlijk hoger bandbreedtegebruik. De ingezoomde afbeelding wordt volledig geladen, zelfs als de gebruiker geen zoomactie start. </p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
+   <td colname="col2"> <p> Stel in op <span class="codeph"> 1</span> om het vooraf laden van de ingezoomde afbeelding in te schakelen of op <span class="codeph"> 0</span> om de zoomafbeelding stapsgewijs te laden. </p> <p> <p>Opmerking:  Als u deze optie inschakelt, kan dit resulteren in aanzienlijk hoger bandbreedtegebruik. De ingezoomde afbeelding wordt volledig geladen, zelfs als de gebruiker geen zoomactie start. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
