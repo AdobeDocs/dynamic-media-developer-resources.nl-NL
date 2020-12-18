@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 92bd8ced-1c41-4147-96fa-5f77bdd6a316
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p>Hiermee geeft u aan wanneer het deelvenster Info moet worden weergegeven. </p> <p>Indien ingesteld op <span class="codeph"> 1</span>, wordt het deelvenster Info weergegeven wanneer de muis het gebied met afbeeldingskaart binnengaat (voor het geval de afbeelding met hyperlinks een niet-leeg kenmerk <span class="codeph"> rollover_key</span> heeft). </p> <p>Indien ingesteld op <span class="codeph"> 0</span> info wordt het deelvenster geactiveerd wanneer op de afbeelding met hyperlinks wordt geklikt (als de afbeelding met hyperlinks een niet-lege <span class="codeph"> rollover_key</span> en lege <span class="codeph"> href</span> -kenmerken heeft). </p> <p> Wordt genegeerd op aanraakapparaten, zoals desktopsystemen met aanraakbediening, en wordt automatisch ingesteld op <span class="codeph"> 0</span>. </p> </td> 
+   <td colname="col2"> <p>Hiermee geeft u aan wanneer het deelvenster Info moet worden weergegeven. </p> <p>Als ingesteld op <span class="codeph"> 1</span>, wordt het deelvenster Info weergegeven wanneer de muis het gebied met afbeeldingskaart binnengaat (als de afbeelding met hyperlinks niet leeg is, <span class="codeph"> rollover_key</span> kenmerk). </p> <p>Indien ingesteld op <span class="codeph"> 0</span> info panel wordt geactiveerd wanneer op de afbeeldingskaart wordt geklikt (als de afbeeldingskaart een niet-lege <span class="codeph"> rollover_key</span> en lege <span class="codeph"> href</span> kenmerken heeft). </p> <p> Genegeerd op aanraakapparaten, inclusief desktopsystemen met aanraakbediening, en wordt automatisch ingesteld op <span class="codeph"> 0</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
