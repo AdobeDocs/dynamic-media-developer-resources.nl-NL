@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8442a3d6-5f45-48d1-8e6e-71f0ed384227
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '77'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Bevat configuratie-instellingen voor servertoezicht.
 
 Zorg dat u bij het bewerken van dit XML-bestand een geldige XML-syntaxis behoudt, anders kan het zijn dat de Image Server niet kan worden gestart.
 
-Start de service Afbeelding opnieuw nadat u dit bestand hebt bewerkt om ervoor te zorgen dat de wijzigingen van kracht worden. Alleen de hieronder gemarkeerde element-/kenmerkwaarden worden ondersteund voor wijziging. Bewerk alle andere inhoud van dit bestand alleen als dit wordt aangeraden door de technische ondersteuning van Scene7.
+Start de service Afbeelding opnieuw nadat u dit bestand hebt bewerkt om ervoor te zorgen dat de wijzigingen van kracht worden. Alleen de hieronder gemarkeerde element-/kenmerkwaarden worden ondersteund voor wijziging. Bewerk alleen alle andere inhoud van dit bestand op advies van Scene7 Technical Support.
 
 ```
 <supervisor>
