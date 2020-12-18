@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: b0a6d252-4b9c-40c4-b321-eb71ebc3b276
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '108'
+ht-degree: 0%
 
 ---
 
@@ -21,13 +24,13 @@ JavaScript API-referentie voor de Spin Viewer.
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> actief</span></span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> String</span>} new asset id, single or multi-dimensional spin set with optional Image Serving modifiers added after <span class="codeph"> ?</span>. </p> <p> Afbeeldingen die gebruikmaken van IR (Image Rendering) of UGC (Door de gebruiker gegenereerde inhoud) worden niet ondersteund door deze viewer. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> element</span> </span> </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> Tekenreeks</span>} nieuwe element-id, enkeldimensionale of multidimensionale draaiing ingesteld met optionele Image Serving modifiers toegevoegd na <span class="codeph"> ?</span>. </p> <p> Afbeeldingen die gebruikmaken van IR (Image Rendering) of UGC (Door de gebruiker gegenereerde inhoud) worden niet ondersteund door deze viewer. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Hiermee stelt u het nieuwe element in. U kunt deze parameter op elk gewenst moment aanroepen, voor of na `init()`. Als deze functie na deze gebeurtenis wordt aangeroepen, wordt het element tijdens de runtime omgewisseld. `init()`
+Hiermee stelt u het nieuwe element in. U kunt deze parameter op elk ogenblik roepen, of vóór of na `init()`. Als deze wordt aangeroepen na `init()`, wisselt de viewer het element tijdens runtime om.
 
 Zie ook [init](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
 
