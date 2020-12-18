@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 56b0623b-46d7-4d11-8eea-6543ed364b53
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Hiermee worden taken opgehaald die zijn gepland voor uitvoering.
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-bd1835ab508a429f8143b3bdb811d6a4}
+## Toegestane gebruikerstypen {#section-bd1835ab508a429f8143b3bdb811d6a4}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -37,7 +40,7 @@ Syntaxis
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | Ja | De handgreep aan het bedrijf. |
 | ` *`jobHandle`*` | `xsd:string` | Nee | Taakgreep. |
-| ` *`originalName`*` | `xsd:string` | Nee | De naam die is opgegeven door `submitJob`. |
+| ` *`originalName`*` | `xsd:string` | Nee | De naam die wordt opgegeven door `submitJob`. |
 
 **Output (getScheduledJobsReturn)**
 
