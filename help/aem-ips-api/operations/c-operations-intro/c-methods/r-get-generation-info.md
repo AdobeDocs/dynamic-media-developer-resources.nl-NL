@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 4310a702-c08b-4479-9f57-9f2bc1d6b032
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '231'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Retourneert twee verschillende typen informatie op basis van de doorgegeven para
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-9cc2216b32c74107be07aeacecc11401}
+## Toegestane gebruikerstypen {#section-9cc2216b32c74107be07aeacecc11401}
 
 * `IpsUser`
 * `IpsAdmin`
