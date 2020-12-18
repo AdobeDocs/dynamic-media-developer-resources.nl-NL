@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 21a59c5a-7799-4af6-ab9f-b0311f5f7254
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Gebruikt een bezitsserie om een bezitsreeks bij te werken.
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-116693bbfb5d44219e62bbb1ba19de96}
+## Toegestane gebruikerstypen {#section-116693bbfb5d44219e62bbb1ba19de96}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -37,7 +40,7 @@ Syntaxis
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
 | ` *`setHandle`*` | `xsd:string` | Ja | Handgreep aan de bezitsreeks. |
-| ` *`replaceProperties`*` | `xsd:string` | Nee | Ingesteld op `true` om eigenschappen te vervangen. |
+| ` *`replaceProperties`*` | `xsd:string` | Nee | Stel in op `true` om eigenschappen te vervangen. |
 | ` *`propertyArray`*` | `types:PropertyArray` | Ja | Array met bijgewerkte eigenschappen voor de set eigenschappen. |
 
 **Output (updatePropertySetReturn)**
