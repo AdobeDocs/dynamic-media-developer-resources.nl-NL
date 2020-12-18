@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 2b004ebf-41e6-4895-a578-bb9094f40924
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '66'
+ht-degree: 3%
 
 ---
 
@@ -21,8 +24,8 @@ Configuration attribute for Mixed Media Video Viewer.
 <table id="table_2A4F898BBF88417DB0834B7F78637F5D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Hiermee stelt u de modus Gedempt in voor het afspelen van video bij het eerste laden. Indien ingesteld op <span class="codeph"> 1, wordt </span> het volume gedempt; anders wordt de video afgespeeld met geluid. Op bepaalde apparaten kan de video automatisch worden afgespeeld wanneer de video wordt geladen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
+   <td colname="col2"> <p> Hiermee stelt u de modus Gedempt in voor het afspelen van video bij het eerste laden. Indien ingesteld op <span class="codeph"> 1 </span> wordt het volume gedempt; anders wordt de video afgespeeld met geluid. Op bepaalde apparaten kan de video automatisch worden afgespeeld wanneer de video wordt geladen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
