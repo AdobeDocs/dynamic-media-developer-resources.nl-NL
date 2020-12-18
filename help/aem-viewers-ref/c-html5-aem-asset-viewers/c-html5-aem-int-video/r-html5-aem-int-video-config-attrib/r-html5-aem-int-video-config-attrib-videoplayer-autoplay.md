@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: f67ce333-2bc3-4e02-b714-ff493f19ae17
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 4%
 
 ---
 
@@ -21,7 +24,7 @@ Configuration attribute for Interactive Video Viewer.
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
    <td colname="col2"> <p> Geeft aan of de viewer de video tijdens het laden begint af te spelen. Merk op dat sommige systemen, zoals bepaalde mobiele apparaten, autoplay niet kunnen steunen. </p> </td> 
   </tr> 
  </tbody> 
