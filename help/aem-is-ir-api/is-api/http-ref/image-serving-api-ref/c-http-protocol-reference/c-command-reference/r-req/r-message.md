@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 38d6d0e7-55cf-43ea-85b7-8f4aade4208a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '69'
+ht-degree: 0%
 
 ---
 
@@ -25,4 +28,4 @@ Clientbericht. Verstrekt een mechanisme voor cliënten om korte tekstberichten i
  </tr> 
 </table>
 
-De HTTP-respons is niet cacheable. Er wordt een lege reactie geretourneerd met het MIME-type `text/plain`.
+De HTTP-respons is niet cacheable. Een lege reactie is teruggekeerd met MIME type `text/plain`.
