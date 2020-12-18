@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 91d073a8-7648-429b-aa5c-c7d595550299
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '137'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Controleert op IPS ID-conflicten door elementnamen te vergelijken met alle namen
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-8efcbb3f555f417a870219e4714374db}
+## Toegestane gebruikerstypen {#section-8efcbb3f555f417a870219e4714374db}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,7 +32,7 @@ Syntaxis
 * `TrialSiteAdmin`
 * `TrialSiteUser`
 
-## Parmaeters {#section-9c75b00f2072453abea0bdefc6ad7c99}
+## Parameters {#section-9c75b00f2072453abea0bdefc6ad7c99}
 
 **Input (checkAssetNamesParam)**
 
