@@ -2,7 +2,7 @@
 cloud: experience-cloud
 product: adobe
 archtype: end-user
-user-guide-title: Dynamic Media Image Production System-API
+user-guide-title: Dynamic Media Image Production System API
 translation-type: tm+mt
 source-git-commit: 88d3a65852365d7fcd7631ff5b5f7215b7c48618
 workflow-type: tm+mt
@@ -12,10 +12,10 @@ ht-degree: 0%
 ---
 
 
-# Dynamic Media Image Production System-API {#image-production-api}
+# Dynamic Media Image Production System API {#image-production-api}
 
-+ [Introductiepagina van Dynamic Media Developer](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
-+ [Info Dynamic Media Image Production System-API](c-overview.md)
++ [Dynamic Media Developer Resources Home](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
++ [Informatie over Dynamic Media Image Production System API](c-overview.md)
 + [Verouderde vraag](c-deprecated-calls.md)
 + [IPS Web Service WSDL-versies](c-wsdl-versions.md)
 + Bewerkingsmethoden {#operation-methods}
@@ -38,7 +38,7 @@ ht-degree: 0%
       + [cdnCacheInvalidation](operations/c-operations-intro/c-methods/r-cdn-cache-invalidation.md)
       + [checkAssetNames](operations/c-operations-intro/c-methods/r-check-asset-names.md)
       + [checkLogin](operations/c-operations-intro/c-methods/r-check-login.md)
-      + [addImage](operations/c-operations-intro/c-methods/r-copy-image.md)
+      + [copyImage](operations/c-operations-intro/c-methods/r-copy-image.md)
       + [createAssetSet](operations/c-operations-intro/c-methods/r-create-asset-set.md)
       + [createDerivedAsset](operations/c-operations-intro/c-methods/r-create-derived-asset.md)
       + [createFolder](operations/c-operations-intro/c-methods/r-create-folder.md)
@@ -440,13 +440,13 @@ ht-degree: 0%
    + [Gebruikerskartelvelden](string-constants/c-string-constants/r-user-char-filter-fields.md)
    + [Gebruikersrollen](string-constants/c-string-constants/r-user-roles.md)
    + [Velden sorteren door gebruiker](string-constants/c-string-constants/r-user-sort-fields.md)
-   + [Zoeken](string-constants/c-string-constants/r-viewer-type.md)
-+ Overeenkomst {#faults}
+   + [Type viewer](string-constants/c-string-constants/r-viewer-type.md)
++ Standaardwaarden {#faults}
    + [Overzicht van fouten](faults/c-faults/c-faults.md)
    + [authenticationFault](faults/c-faults/r-authentication-fault.md)
    + [authenticationFault](faults/c-faults/r-authorization-fault.md)
    + [ipsApiFault](faults/c-faults/r-ips-api-fault.md)
-+ Logbestand wijzigen {#change-log}
++ Logbestand {#change-log} wijzigen
    + [Logbestand wijzigen](change-log/c-change-log.md)
    + Versie 6.0 {#version-6-0}
       + [Versie 6.0](change-log/c-change-log/c-6/c-6.md)
