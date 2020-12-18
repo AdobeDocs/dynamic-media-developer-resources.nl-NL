@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: ef9870f9-599b-449d-b713-66abafb80311
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '69'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +28,7 @@ Parameter die alle viewers gemeen hebben.
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span> </span> </p> </td> 
    <td colname="col2"> <p> Het hoofdpad van de videoserver. Als geen domein wordt gespecificeerd, dan wordt het domein waarvan de pagina wordt gediend toegepast in plaats daarvan. De standaardresolutie voor URI-paden is van toepassing. </p> </td> 
   </tr> 
  </tbody> 
