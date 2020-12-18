@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 6508fdff-27cd-4038-b506-39b927f3526a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '166'
+ht-degree: 12%
 
 ---
 
 
-# herhalen{#repeat}
+# repeat{#repeat}
 
 Modus Structuur herhalen. Hiermee bepaalt u de herhalingsmodus voor herhaalbare structuurmaterialen.
 
@@ -24,7 +27,7 @@ Modus Structuur herhalen. Hiermee bepaalt u de herhalingsmodus voor herhaalbare 
   <td class="stentry"> <p>Rechte herhaling. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>1 </p> </td> 
+  <td class="stentry"> <p>3 </p> </td> 
   <td class="stentry"> <p>willekeurige verdeling in vier richtingen. </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -109,7 +112,7 @@ Materiaalkenmerk. Wordt genegeerd door effen kleuren, decal en kabinetsmateriale
 
 ## Standaard {#section-e5bbd7d9fbb74852849e605d20f550bb}
 
-`catalog::Repeat`, als het materiaal op een catalogusitem is gebaseerd, anders `0` (recht herhalen).
+`catalog::Repeat`, als het materiaal op een catalogusitem is gebaseerd, anders  `0` (recht herhalen).
 
 ## Zie ook {#section-ac99113b64654d75a3a86e41db546269}
 
