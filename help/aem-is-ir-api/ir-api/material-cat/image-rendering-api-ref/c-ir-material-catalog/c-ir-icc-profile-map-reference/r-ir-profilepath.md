@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 82fd2cee-ad15-4dd3-8864-9976470fc847
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '71'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Pad naar profielbestand. Pad en naam van het ICC-kleurprofielbestand, inclusief 
 
 ## Eigenschappen {#section-5b75d459083f49f3bbd89ce8458559f7}
 
-Tekstreeks. Vereist. Dit moet een geldig bestandspad voor de afbeeldingsserver zijn, absoluut of relatief ten opzichte van `attribute::RootPath`.
+Tekstreeks. Vereist. Dit moet een geldig bestandspad voor afbeeldingsserver zijn, absoluut of relatief ten opzichte van `attribute::RootPath`.
 
 ## Standaard {#section-67b79d62b3e24c62aff6844cc5e04251}
 
