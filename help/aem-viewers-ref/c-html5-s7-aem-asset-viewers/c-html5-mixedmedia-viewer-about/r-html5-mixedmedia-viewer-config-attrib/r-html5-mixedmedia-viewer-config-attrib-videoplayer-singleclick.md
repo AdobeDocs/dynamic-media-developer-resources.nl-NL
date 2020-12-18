@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 90664bad-10e4-47fb-a630-a5c25a5beb79
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '61'
+ht-degree: 1%
 
 ---
 
@@ -19,8 +22,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_53A26E1617CB411B9586203CB9AA1AB2"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|playPause</span></span> </p> </td> 
-   <td colname="col2"> <p> Vormt de afbeelding van een enkele klik/tik om afspelen/pauzeren in en uit te schakelen. Als u deze optie instelt op <span class="codeph"> Geen</span> , wordt het afspelen/pauzeren uitgeschakeld met één klik. Als deze optie is ingesteld op <span class="codeph"> Pauzeren</span>, kunt u schakelen tussen het afspelen en pauzeren van de video. Op sommige apparaten kunt u native besturingselementen gebruiken. In dat geval wordt <span class="codeph"> gedrag Single</span> uitgeschakeld. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|playPause</span> </span> </p> </td> 
+   <td colname="col2"> <p> Vormt de afbeelding van een enkele klik/tik om afspelen/pauzeren in en uit te schakelen. Als u instelt op <span class="codeph"> none</span>, wordt een enkele klik/tik uitgeschakeld om af te spelen/te pauzeren. Als ingesteld op <span class="codeph"> playPause</span>, klikt u op de videoschakeloptie tussen het afspelen en pauzeren van de video. Op sommige apparaten kunt u native besturingselementen gebruiken. In dat geval is het gedrag <span class="codeph"> singleclick</span> uitgeschakeld. </p> </td> 
   </tr> 
  </tbody> 
 </table>
