@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e1b9fa84-837c-465e-8d37-0b6867404cae
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +29,7 @@ Geeft het maximale aantal frames aan dat in elke richting vooraf wordt geladen w
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> highRes</span></span> </p> </td> 
-   <td colname="col2"> <p> Hiermee bepaalt u de kwaliteit van vooraf geladen frames. </p> <p>Wanneer de waarde is ingesteld op <span class="codeph"> 1</span> , worden de frames in hoge kwaliteit geladen, overeenkomstig de grootte van de component. </p> <p>Wanneer u deze optie instelt op <span class="codeph"> 0</span> , wordt alleen de voorvertoningstegel met lage resolutie geladen. </p> <p>Het vooraf laden in hoge resolutie verbetert de gebruikerservaring, vooral wanneer automatisch draaien is ingeschakeld. Tegelijkertijd, resulteert het in langzamere begintijd en hogere netwerkconsumptie, zodat zou het met zorg moeten worden gebruikt. Wanneer vooraf geladen frames met hoge resolutie wordt gebruikt, bevinden de vooraf geladen frames zich altijd in de oorspronkelijke resolutie waarin de component voor het eerst werd geladen. </p> </td> 
+   <td colname="col2"> <p> Hiermee bepaalt u de kwaliteit van vooraf geladen frames. </p> <p>Wanneer ingesteld op <span class="codeph"> 1</span>, worden de frames in hoge kwaliteit geladen, overeenkomend met de grootte van de component. </p> <p>Wanneer ingesteld op <span class="codeph"> 0</span> wordt alleen de voorvertoningstegel met lage resolutie geladen. </p> <p>Het vooraf laden in hoge resolutie verbetert de gebruikerservaring, vooral wanneer automatisch draaien is ingeschakeld. Tegelijkertijd, resulteert het in langzamere begintijd en hogere netwerkconsumptie, zodat zou het met zorg moeten worden gebruikt. Wanneer vooraf geladen frames met hoge resolutie wordt gebruikt, bevinden de vooraf geladen frames zich altijd in de oorspronkelijke resolutie waarin de component voor het eerst werd geladen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
