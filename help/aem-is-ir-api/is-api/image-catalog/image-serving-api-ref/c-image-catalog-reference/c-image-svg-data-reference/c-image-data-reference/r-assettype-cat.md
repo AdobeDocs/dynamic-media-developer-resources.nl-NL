@@ -8,15 +8,18 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e9e0d7e0-0429-4949-aafa-0ac7032fdfe5
 translation-type: tm+mt
 source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+workflow-type: tm+mt
+source-wordcount: '90'
+ht-degree: 2%
 
 ---
 
 
 # AssetType{#assettype}
 
-Elementtype. Wordt gebruikt om het type set te identificeren dat is gepubliceerd naar catalogus::ImageSet.
+Elementtype. Wordt gebruikt om het type set aan te duiden dat naar catalogus is gepubliceerd::ImageSet.
 
-Het elementtype bepaalt welk type reactie voor `req=set` aanvragen wordt gegenereerd. Als geen waarde wordt gespecificeerd, bepalen de auto-ontdekkingsregels `req=set` reactietype.
+Het elementtype bepaalt welk type reactie voor `req=set` verzoeken moet worden geproduceerd. Als een waarde niet wordt gespecificeerd, bepalen de auto-ontdekkingsregels `req=set` reactietype.
 
 ## Eigenschappen {#properties}
 
@@ -40,4 +43,4 @@ Geen.
 
 ## Zie ook {#section-235f9f5522024d3682ee7cc0101eb7ba}
 
-[catalogus::ImageSet](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md#reference-4764d347afd64afdaede9a74c7565256) , [req=set](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md), [Mediasetverzoeken](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-media-set-requests.md)
+[catalogus::ImageSet](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md#reference-4764d347afd64afdaede9a74c7565256) ,  [req=set](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md),  [Mediasetverzoeken](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-media-set-requests.md)
