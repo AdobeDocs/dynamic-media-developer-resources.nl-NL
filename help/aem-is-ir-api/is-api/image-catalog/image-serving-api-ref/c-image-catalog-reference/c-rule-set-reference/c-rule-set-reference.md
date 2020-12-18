@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 356e4939-c57d-459a-8e40-9b25e20fc0a3
 translation-type: tm+mt
 source-git-commit: b27327f940202b1883a654702aa386c7ae83c856
+workflow-type: tm+mt
+source-wordcount: '822'
+ht-degree: 0%
 
 ---
 
 
-# Referentie voor regelset{#rule-set-reference}
+# Regelsetreferentie{#rule-set-reference}
 
 De Server van het beeld steunt een eenvoudig verzoek preprocessing mechanisme dat op regelmatige-uitdrukkingsgelijke en substitutieregels gebaseerd is.
 
@@ -48,15 +51,15 @@ Regelsets worden opgeslagen als XML-documentbestanden. Het relatieve of absolute
 </ruleset>
 ```
 
-De `<?xml>` en `<ruleset>` elementen zijn altijd vereist in een geldig XML-bestand met regelsets, zelfs als er geen werkelijke regels zijn gedefinieerd.
+De elementen `<?xml>` en `<ruleset>` worden altijd vereist in een geldig regel geplaatst dossier van XML, zelfs als geen daadwerkelijke regels worden bepaald.
 
-Eén `<ruleset>` element met een willekeurig aantal `<rule>` elementen is toegestaan.
+Eén `<ruleset>`-element met een willekeurig aantal `<rule>`-elementen is toegestaan.
 
 De inhoud van regelbestanden voor voorbewerken is hoofdlettergevoelig.
 
 ## Validatie van regels {#section-d8d101a0b4d74580835e37d128d05567}
 
-Er [!DNL RuleSet.xsd] is een kopie van deze code beschikbaar in de catalogusmap en deze moet worden gebruikt om een bestand met regels te valideren voordat het in het [!DNL catalog.ini] bestand wordt geregistreerd. Merk op dat de Serving van het Beeld een interne exemplaar van [!DNL RuleSet.xsd] voor bevestiging gebruikt.
+Er wordt een kopie van [!DNL RuleSet.xsd] geleverd in de catalogusmap en deze moet worden gebruikt om een liniaalbestand te valideren voordat het in het [!DNL catalog.ini]-bestand wordt geregistreerd. Merk op dat de Serving van het Beeld een intern exemplaar van [!DNL RuleSet.xsd] voor bevestiging gebruikt.
 
 ## URL-voorbewerking {#section-2c09a2d79ada46b994857c6a7fb4c13a}
 
@@ -64,13 +67,13 @@ Voordat een nieuwe verwerking wordt uitgevoerd, wordt een inkomende HTTP-aanvraa
 
 De `<rule>` elementen worden gezocht in de orde die voor een gelijke met de inhoud van het `<expression>` element ( *`expression`*) wordt gespecificeerd.
 
-Als een `<rule>` gelijke, facultatief *`substitution`* wordt toegepast en het gewijzigde verzoekkoord wordt overgegaan tot de verzoekparser van de server voor normale verwerking.
+Als een `<rule>` wordt aangepast, wordt de optionele *`substitution`* toegepast en wordt de gewijzigde verzoektekenreeks doorgegeven aan de verzoekparser van de server voor normale verwerking.
 
-Als geen succesvolle gelijke wordt gemaakt wanneer het eind van het `<ruleset>` wordt bereikt, wordt het verzoek overgegaan tot parser zonder wijziging.
+Als geen succesvolle gelijke wordt gemaakt wanneer het eind van `<ruleset>` wordt bereikt, wordt het verzoek overgegaan tot de parser zonder wijziging.
 
-## Het kenmerk OnMatch {#section-ed952fa55d99422db0ee68a2b9d395d3}
+## Het OnMatch-kenmerk {#section-ed952fa55d99422db0ee68a2b9d395d3}
 
-Het standaardgedrag kan met het `OnMatch` attribuut van het `<rule>` element worden gewijzigd. `OnMatch` kan worden ingesteld op `break` (standaardwaarde), `continue`of `error`.
+Het standaardgedrag kan met het `OnMatch` attribuut van het `<rule>` element worden gewijzigd. `OnMatch` kan worden ingesteld op  `break` (standaardwaarde),  `continue`of  `error`.
 
 <table id="table_6680A81492B24CE593330DA7B0075E8F"> 
  <thead> 
@@ -95,27 +98,27 @@ Het standaardgedrag kan met het `OnMatch` attribuut van het `<rule>` element wor
  </tbody> 
 </table>
 
-## Cataloguskenmerken overschrijven {#section-3f1e33a65c5346d1b4a69958c61432f3}
+## Cataloguskenmerken {#section-3f1e33a65c5346d1b4a69958c61432f3} overschrijven
 
-`<rule>` elementen kunnen desgewenst kenmerken definiëren die de overeenkomende cataloguskenmerken overschrijven wanneer de regel correct wordt aangepast. Als meerdere overeenkomende regels hetzelfde kenmerk instellen, heeft de laatste voorrang. Raadpleeg de beschrijving van het ` [<rule>](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-rule-rule.md#reference-af76c0e2b8be48dabb52b71fe7e51ee9)` element voor een lijst met kenmerken die met regels kunnen worden beheerd.
+`<rule>` elementen kunnen desgewenst kenmerken definiëren die de overeenkomende cataloguskenmerken overschrijven wanneer de regel correct wordt aangepast. Als meerdere overeenkomende regels hetzelfde kenmerk instellen, heeft de laatste voorrang. Raadpleeg de beschrijving van het element ` [<rule>](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-rule-rule.md#reference-af76c0e2b8be48dabb52b71fe7e51ee9)` voor een lijst met kenmerken die met regels kunnen worden beheerd.
 
 ## Reguliere expressies {#section-3f77bb9a265147b38c645f63ab1bad8b}
 
 Eenvoudige tekenreeksovereenkomsten werken voor zeer eenvoudige toepassingen, maar in de meeste gevallen zijn reguliere expressies vereist. Reguliere expressies zijn industriestandaard, maar de specifieke implementatie verschilt per geval.
 
-[ [!DNL-pakket java.util.regex] ](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/) beschrijft de specifieke standaardimplementatie voor expressies die door Image Serving wordt gebruikt.
+[ [!DNL package java.util.regex] ](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/) beschrijft de specifieke regelmatige uitdrukkingsimplementatie die door Beeld Serving wordt gebruikt.
 
 ## Vastgelegde subtekenreeksen {#section-066e659406d5403599cd26ae35e80d68}
 
 Om complexe URL-wijzigingen mogelijk te maken, kunnen subtekenreeksen worden vastgelegd in de expressie door de subtekenreeks tussen haakjes (...) te plaatsen. Vastgelegde subtekenreeksen worden opeenvolgend genummerd, beginnend met 1 op basis van de positie van het voorloophaakje. De vastgelegde subtekenreeksen kunnen in de vervanging worden ingevoegd met ` $ *`n`*`, waarbij *`n`* het volgnummer van de vastgelegde subtekenreeks is.
 
-## Bestanden met regelsets beheren {#section-0598a608e4044bb4805fe93ceebe10a9}
+## Bestanden {#section-0598a608e4044bb4805fe93ceebe10a9} beheren met regelsets
 
-Met het kenmerk Catalog kunt u één bestand met een regelset koppelen aan elke afbeeldingscatalogus `attribute::RuleSetFile`. U kunt het regelsetbestand op elk gewenst moment bewerken, maar de afbeeldingsserver herkent de wijzigingen alleen wanneer de bijbehorende afbeeldingscatalogus opnieuw wordt geladen. Dit wordt opnieuw geladen wanneer de platformserver wordt gestart of opnieuw wordt gestart en wanneer het primaire catalogusbestand met het achtervoegsel [!DNL .ini] bestand wordt gewijzigd of &quot;aangeraakt&quot; om de bestandsdatum te wijzigen.
+Met het cataloguskenmerk `attribute::RuleSetFile` kunt u één regelsetbestand toevoegen aan elke afbeeldingscatalogus. U kunt het regelsetbestand op elk gewenst moment bewerken, maar de afbeeldingsserver herkent de wijzigingen alleen wanneer de bijbehorende afbeeldingscatalogus opnieuw wordt geladen. Dit wordt opnieuw geladen wanneer de platformserver wordt gestart of opnieuw wordt gestart en wanneer het primaire catalogusbestand met het achtervoegsel [!DNL .ini] bestand wordt gewijzigd of &quot;aangeraakt&quot; om de bestandsdatum te wijzigen.
 
 ## Voorbeelden {#section-aa769437d967459299b83a4bf34fe924}
 
-**Voorbeeld A.** Definieer een regel die de afbeeldingskwaliteitsinstellingen verhoogt als de afbeeldingsnaam het achtervoegsel &quot; [!DNL _hg]&quot; heeft:
+**Voorbeeld A.** Definieer een regel die de afbeeldingskwaliteitsinstellingen verhoogt als de naam van de afbeelding het achtervoegsel &quot;  [!DNL _hg]&quot; heeft:
 
 ```
 <rule> 
@@ -124,7 +127,7 @@ Met het kenmerk Catalog kunt u één bestand met een regelset koppelen aan elke 
 </rule>
 ```
 
-Met de regelexpressie wordt een niet-hoofdlettergevoelige overeenkomst van &quot; [!DNL _hg]&quot; opgegeven aan het einde van de URL-tekenreeks. Het achtervoegsel wordt vervangen door de opgegeven queryreeks waarmee de afbeeldingskwaliteitsinstellingen worden gewijzigd. Het `?` teken in de vervangende tekenreeks wordt genegeerd, omdat dit een speciaal teken in reguliere expressies is.
+De regeluitdrukking specificeert een case-insensitive gelijke van &quot; [!DNL _hg]&quot;aan het eind van het koord URL. Het achtervoegsel wordt vervangen door de opgegeven queryreeks waarmee de afbeeldingskwaliteitsinstellingen worden gewijzigd. Het `?`-teken in de vervangende tekenreeks wordt genegeerd, omdat dit een speciaal teken in reguliere expressies is.
 
 >[!NOTE]
 >
@@ -132,7 +135,7 @@ Met de regelexpressie wordt een niet-hoofdlettergevoelige overeenkomst van &quot
 
 `<substitution><![CDATA[&qlt=95,1&resmode=bicub]]></substitution>`
 
-**Voorbeeld B.** Een bepaalde webtoepassing staat geen querytekenreeksen toe. Definieer een regel die het navolgende padelement vertaalt `small`, `medium`of `large` naar een sjabloon, waarbij de rest van het pad als afbeeldingsnaam wordt gebruikt. Bijvoorbeeld, zou `myCat/myImage/small` vertalen naar `myCat/smallTemplate?src=myCat/myImage`.
+**Voorbeeld B.** Een bepaalde webtoepassing staat geen querytekenreeksen toe. Definieer een regel die het navolgende padelement `small`, `medium` of `large` omzet in een sjabloon, waarbij de rest van het pad als afbeeldingsnaam wordt gebruikt. `myCat/myImage/small` wordt bijvoorbeeld omgezet in `myCat/smallTemplate?src=myCat/myImage`.
 
 U kunt subtekenreeksen gebruiken om de aanvraag te herstructureren:
 
