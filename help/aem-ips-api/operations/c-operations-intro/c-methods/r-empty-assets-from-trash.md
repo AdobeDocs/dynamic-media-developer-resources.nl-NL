@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: de11a7b0-cd4b-4717-8596-d39afbcf7e9c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '251'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Legt activa van het IPS afval leeg.
 
 Activa worden in de prullenbak geplaatst totdat ze handmatig worden geleegd of totdat ze uit de prullenbak stappen. Als ze handmatig worden geleegd, leven ze in de prullenmand tot de volgende opschoontaak (normaal nij) wanneer ze definitief uit het systeem worden verwijderd. Als ze uit de prullenbak stappen, worden de middelen schoongemaakt als onderdeel van dezelfde schoonmaakactie. De time-out kan worden geconfigureerd (de standaardinstellingen zijn 7 dagen).
 
-## Geautoriseerde gebruikerstypen {#section-24dee2bf5f9f4714a64955c80f2803b4}
+## Toegestane gebruikerstypen {#section-24dee2bf5f9f4714a64955c80f2803b4}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -26,7 +29,7 @@ Activa worden in de prullenbak geplaatst totdat ze handmatig worden geleegd of t
 * `ImagePortalAdmin`
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
-* ``
+* &quot;
 
 ## Parameters {#section-8e1fb0ee3aae453581e99ef76e298569}
 
