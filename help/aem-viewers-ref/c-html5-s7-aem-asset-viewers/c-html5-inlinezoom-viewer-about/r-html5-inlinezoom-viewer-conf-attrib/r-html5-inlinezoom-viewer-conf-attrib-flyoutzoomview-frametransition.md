@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: c9cd5df1-fb7b-4acb-afc1-a62b563d8654
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '62'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|faden</span> </p> </td> 
-   <td colname="col2"> <p> </p> <p> Hiermee geeft u het type effect op dat wordt toegepast op de hoofdweergave bij het wijzigen van elementen. </p> <p><span class="codeph"> geen</span> staat voor geen overgang , de hoofdweergave verandert onmiddellijk . </p> <p><span class="codeph"> Met Vervagen</span> activeert u de overgang naar een vervagingsgebied waarbij de oude afbeelding vervaagt en de nieuwe afbeelding vervaagt. </p> <p> </p> </td> 
+   <td colname="col2"> <p> </p> <p> Hiermee geeft u het type effect op dat wordt toegepast op de hoofdweergave bij het wijzigen van elementen. </p> <p><span class="codeph"> Voor </span> niets vindt er een overgang plaats, maar de hoofdweergave verandert direct. </p> <p><span class="codeph"> Hiermee </span> wordt de overgang naar een vervagingsovergang geactiveerd waarbij de oude afbeelding vervaagt en de nieuwe afbeelding vervaagt </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> duur</span></span> </p> </td> 
