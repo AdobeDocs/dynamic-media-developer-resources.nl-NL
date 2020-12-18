@@ -8,29 +8,32 @@ topic: Dynamic media
 uuid: acda9c8f-e8f4-4855-9b14-82838ec5a1b9
 translation-type: tm+mt
 source-git-commit: 6cff4553307fe6cbda4b80ce3f39b58e615fa365
+workflow-type: tm+mt
+source-wordcount: '279'
+ht-degree: 0%
 
 ---
 
 
-# HTTPS-video leveren{#https-video-delivery}
+# HTTPS-video-levering{#https-video-delivery}
 
 >[!NOTE]
 >
->Beveiligde video-levering is alleen van toepassing op AEM 6.2 met de installatie van [Feature Pack-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) en op AEM 6.1 met de installatie van [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011).
+>Beveiligde videoverlevering is alleen van toepassing op AEM 6.2 met de installatie van [Feature Pack-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) en op AEM 6.1 met installatie van [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011).
 
-Op voorwaarde dat de viewer in configuratie werkt zoals aan het begin van deze sectie wordt beschreven, kan de gepubliceerde video zowel in de HTTPS-modus (beveiligd) als in de HTTP-modus (onveilig) worden geleverd. In een standaardconfiguratie, volgt het video leveringsprotocol strikt het leveringsprotocol van de het inbedden Web-pagina. Het is echter mogelijk om HTTPS-videoverzending te forceren zonder rekening te houden met het protocol dat wordt gebruikt door de webpagina in te sluiten met het configuratiekenmerk [VideoPlayer.ssl](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-ssl.md#reference-c28e1b700977493eadab5489458d7771) . (Videovoorvertoning in de modus Auteur wordt altijd veilig geleverd via HTTPS.)
+Op voorwaarde dat de viewer in configuratie werkt zoals aan het begin van deze sectie wordt beschreven, kan de gepubliceerde video zowel in de HTTPS-modus (beveiligd) als in de HTTP-modus (onveilig) worden geleverd. In een standaardconfiguratie, volgt het video leveringsprotocol strikt het leveringsprotocol van de het inbedden Web-pagina. Het is echter mogelijk om HTTPS-videoverzending te forceren zonder rekening te houden met het protocol dat wordt gebruikt door de webpagina in te sluiten met het configuratiekenmerk [VideoPlayer.ssl](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-ssl.md#reference-c28e1b700977493eadab5489458d7771). (Videovoorvertoning in de modus Auteur wordt altijd veilig geleverd via HTTPS.)
 
-Afhankelijk van de methode om de video van Dynamische Media te publiceren die u in AEM gebruikt, wordt het `VideoPlayer.ssl` configuratieattribuut toegepast verschillend zoals aangetoond in het volgende:
+Afhankelijk van de methode om de video van Dynamic Media te publiceren die u in AEM gebruikt, wordt `VideoPlayer.ssl` configuratieattributen toegepast verschillend zoals aangetoond in het volgende:
 
-* Als u een video van Dynamische Media met een URL publiceert, voegt u `VideoPlayer.ssl` aan URL toe. Als u bijvoorbeeld de beveiligde video wilt afspelen, voegt u `&VideoPlayer.ssl=on` aan het einde van het volgende URL-voorbeeld van de viewer toe:
+* Als u een Dynamic Media-video met een URL publiceert, voegt u `VideoPlayer.ssl` toe aan de URL. Als u bijvoorbeeld een beveiligde video wilt afspelen, voegt u `&VideoPlayer.ssl=on` toe aan het einde van het volgende URL-voorbeeld van de viewer:
 
    ```
    https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/InteractiveVideoViewer.html?asset=%2Fcontent%2Fdam%2Fmarketing%2Fshoppable-video%2Fadobe-axis-demo%2FAdobe_AXIS_V3_GRADED-HD.mp4&config=/etc/dam/presets/viewer/Shoppable_Video_light&serverUrl=https%3A%2F%2Fadobedemo62-h.assetsadobe.com%2Fis%2Fimage%2F&contenturl=%2F&config2=/etc/dam/presets/analytics&videoserverurl=https://gateway-na.assetsadobe.com/DMGateway/public/demoCo&interactivedata=content/dam/_VTT/marketing/shoppable-video/adobe-axis-demo/Adobe_AXIS_V3_GRADED-HD.mp4.svideo.vtt&VideoPlayer.contenturl=https://adobedemo62-h.assetsadobe.com/is/content&VideoPlayer.ssl=on
    ```
 
-   Zie ook URL&#39;s [koppelen aan uw webtoepassing](https://docs.adobe.com/content/help/en/experience-manager-64/assets/dynamic/linking-urls-to-yourwebapplication.html)
+   Zie ook [URL&#39;s koppelen aan uw webtoepassing](https://docs.adobe.com/content/help/en/experience-manager-64/assets/dynamic/linking-urls-to-yourwebapplication.html)
 
-* Als u een video van Dynamische Media met ingebedcode publiceert, voegt u `VideoPlayer.ssl` aan de lijst van andere parameters van de kijkersconfiguratie in het ingebed codefragment toe. Als u bijvoorbeeld de HTTPS-video wilt afspelen, voegt u dit toe `&VideoPlayer.ssl=on` zoals in het volgende voorbeeld:
+* Als u een Dynamic Media-video met ingesloten code publiceert, voegt u `VideoPlayer.ssl` toe aan de lijst met andere parameters voor viewerconfiguratie in het ingesloten codefragment. Als u bijvoorbeeld de HTTPS-video wilt afspelen, voegt u `&VideoPlayer.ssl=on` toe, zoals in het volgende voorbeeld:
 
    ```
    <style type="text/css"> 
@@ -77,5 +80,5 @@ Afhankelijk van de methode om de video van Dynamische Media te publiceren die u 
    </script>
    ```
 
-   Zie ook Video [insluiten op een webpagina](https://docs.adobe.com/content/help/en/experience-manager-64/assets/dynamic/linking-urls-to-yourwebapplication.html).
+   Zie ook [De video insluiten op een webpagina](https://docs.adobe.com/content/help/en/experience-manager-64/assets/dynamic/linking-urls-to-yourwebapplication.html).
 
