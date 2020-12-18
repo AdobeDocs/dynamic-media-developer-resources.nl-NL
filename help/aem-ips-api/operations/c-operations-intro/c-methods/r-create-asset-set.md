@@ -21,7 +21,7 @@ Creeert een generisch element dat met een ruwe reeks definitiekoord wordt geplaa
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-d670d3af552147199b65c7eb847544a3}
+## Toegestane gebruikerstypen {#section-d670d3af552147199b65c7eb847544a3}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -45,38 +45,38 @@ Syntaxis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:tekenreeks </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:tekenreeks  </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> De handgreep naar het bedrijf dat de set activa zal bevatten. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:tekenreeks </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:tekenreeks  </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> De handgreep naar de map waarin de nieuwe elementenset wordt gemaakt. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:tekenreeks </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> name  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:tekenreeks  </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Elementnaam. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> subType </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:tekenreeks </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> subType  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:tekenreeks  </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Een unieke id die door de client is gemaakt voor het type elementenset. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:tekenreeks </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:tekenreeks  </span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4"> De parameters in de reeks definitiereeks. <p>Deze moeten worden omgezet in de indeling die is opgegeven door de doelviewer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:tekenreeks </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:tekenreeks  </span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4"> Handgreep van het element dat fungeert als miniatuur voor de nieuwe afbeeldingsset. Als gespecificeerd niet, probeert IPS om het eerste beeldmiddel te gebruiken dat door de reeks van verwijzingen wordt voorzien. </td> 
   </tr> 
@@ -85,11 +85,11 @@ Syntaxis
 
 **Vervangende functies voor setDefinition**
 
-U kunt vervangende functies op regel opgeven die worden opgelost tijdens het opzoeken of publiceren van een catalogus. Vervangende tekenreeksen hebben de indeling `${<substitution_func>}`. Beschikbare functies worden hieronder opgesomd.
+U kunt vervangende functies op regel opgeven die worden opgelost tijdens het opzoeken of publiceren van een catalogus. Vervangende tekenreeksen hebben de notatie `${<substitution_func>}`. Beschikbare functies worden hieronder opgesomd.
 
 >[!NOTE]
 >
->De handvatliterals in parameterlijsten moeten door steunen worden omringd `([])`. Alle tekst die zich buiten een vervangende tekenreeks bevindt, wordt tijdens de resolutie letterlijk naar de uitvoertekenreeks gekopieerd.
+>De handvatliterals in parameterlijsten moeten door haakjes `([])` worden omringd. Alle tekst die zich buiten een vervangende tekenreeks bevindt, wordt tijdens de resolutie letterlijk naar de uitvoertekenreeks gekopieerd.
 
 | **Vervangende functie** | **Retourneert** |
 |---|---|
