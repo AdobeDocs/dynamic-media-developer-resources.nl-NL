@@ -8,11 +8,14 @@ topic: Scene7 Image Production System API
 uuid: 220d285c-2275-4ed4-b606-e832e89aa916
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 0%
 
 ---
 
 
-# XMPKeywords{#xmpkeywords}
+# XmpKeywords{#xmpkeywords}
 
 De uitbreidbare trefwoorden van het metagegevensplatform van een element.
 
@@ -30,9 +33,9 @@ Syntaxis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> items</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> items</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
-   <td colname="col3"> <p>Een door komma's gescheiden lijst met trefwoorden die worden samengevoegd in het knooppunt <span class="codeph"> dc:subject=</span> XMP-eigenschap. Als een komma in een van de afzonderlijke waarden voorkomt, moet er een backslash (\) als escape-teken worden gebruikt. Een letterlijke backslash is de gebruikelijke dubbele backslash (\\). </p> </td> 
+   <td colname="col3"> <p>Een door komma's gescheiden lijst van sleutelwoorden die in <span class="codeph"> dc:subject=</span> XMP bezitsknoop worden samengevoegd. Als een komma in een van de afzonderlijke waarden voorkomt, moet er een backslash (\) als escape-teken worden gebruikt. Een letterlijke backslash is de gebruikelijke dubbele backslash (\\). </p> </td> 
   </tr> 
  </tbody> 
 </table>
