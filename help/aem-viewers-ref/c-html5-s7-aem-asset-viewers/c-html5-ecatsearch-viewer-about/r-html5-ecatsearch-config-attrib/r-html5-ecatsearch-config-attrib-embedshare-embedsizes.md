@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: ffac9833-a048-4629-902f-832963431ae4
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '33'
+ht-degree: 6%
 
 ---
 
@@ -19,15 +22,15 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> breedte </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> width  </span> </span> </p> </td> 
    <td colname="col2"> <p>Breedte insluiten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> hoogte </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> height  </span> </span> </p> </td> 
    <td colname="col2"> <p>Hoogte insluiten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
    <td colname="col2"> <p> Hiermee wordt opgegeven of dit lijstitem in eerste instantie moet worden geselecteerd in het keuzemenu met invoervak. </p> </td> 
   </tr> 
  </tbody> 
