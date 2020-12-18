@@ -19,9 +19,9 @@ ht-degree: 0%
 
 IS biedt mechanismen om het gebruik van HTML-afbeeldingen met hyperlinks te vereenvoudigen. De op JAVA gebaseerde en op Flash gebaseerde viewers in IS bieden ook beperkte ondersteuning voor afbeeldingen met hyperlinks.
 
-De bronbeeldkaarten worden verstrekt aan IS of via `catalog::Map` of met het `map=` bevel, en de verwerkte kaarten worden teruggewonnen gebruikend het `req=map` bevel.
+De bronbeeldkaarten worden verstrekt aan IS of via `catalog::Map` of met `map=` bevel, en de verwerkte kaarten worden teruggewonnen gebruikend `req=map` bevel.
 
-Een afbeelding met hyperlinks bestaat uit een of meer HTML-GEBIEDEN-elementen, op de juiste wijze gescheiden met &#39;&lt;&#39; en &#39;>&#39;. Indien beschikbaar via catalog::Map, worden alle pixelcoördinaatwaarden verondersteld in de oorspronkelijke afbeeldingsresolutie te staan en relatief ten opzichte van de linkerbovenhoek van de (ongewijzigde) bronafbeelding. Wanneer de coördinaatwaarden via een `map=` opdracht worden opgegeven, worden deze als laagcoördinaten ten opzichte van de linkerbovenhoek van de laag (na `rotate=` en `extend=`) beschouwd.
+Een afbeelding met hyperlinks bestaat uit een of meer HTML-GEBIEDEN-elementen, op de juiste wijze gescheiden met &#39;&lt;&#39; en &#39;>&#39;. Indien beschikbaar via catalog::Map, worden alle pixelcoördinaatwaarden verondersteld in de oorspronkelijke afbeeldingsresolutie te staan en relatief ten opzichte van de linkerbovenhoek van de (ongewijzigde) bronafbeelding. Wanneer de coördinaatwaarden via de opdracht `map=` worden opgegeven, worden deze als laagcoördinaten ten opzichte van de linkerbovenhoek van de laag beschouwd (na `rotate=` en `extend=`).
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ Een afbeelding met hyperlinks bestaat uit een of meer HTML-GEBIEDEN-elementen, o
 
 IS produceert een samengestelde beeldkaart van de bronbeeldkaarten van elke samenstellende laag door de ruimtelijke transformaties (zoals schrapen en omwenteling) op de kaartcoördinaten toe te passen, en dan de verwerkte laagkaarten in de aangewezen z-orde (voor aan achter) en met het aangewezen plaatsen samen te stellen.
 
-De volgende opdrachten worden overwogen voor het verwerken van afbeeldingen met hyperlinks, mits deze opdrachten worden aangeboden in combinatie met `req=map` (rechtstreeks in de aanvraag, via catalogussjablonen of in `catalog::Modifier` tekenreeksen):
+De volgende opdrachten worden overwogen voor het verwerken van afbeeldingen met hyperlinks wanneer deze worden aangeboden in combinatie met `req=map` (rechtstreeks in de aanvraag, via catalogussjablonen of in `catalog::Modifier` tekenreeksen):
 
 * `align=`
 * `wid=`
@@ -50,12 +50,12 @@ De volgende opdrachten worden overwogen voor het verwerken van afbeeldingen met 
 
 Alle andere opdrachten worden genegeerd.
 
-De `SHAPE` en `COORDS` attributen van een `AREA` kunnen tijdens verwerking van een `req=map` verzoek worden gewijzigd, worden alle andere attributen van het `AREA` element overgegaan zonder wijziging. In de meeste gevallen gaat het hierbij om het wijzigen van de `SHAPE` waarde van `DEFAULT` naar `RECT` (dit zou ook het `COORDS` kenmerk toevoegen) of het wijzigen van de `COORDS` waarden.
+De `SHAPE` en `COORDS` attributen van een `AREA` kunnen tijdens verwerking van een `req=map` verzoek worden gewijzigd, worden alle andere attributen van het `AREA` element overgegaan zonder wijziging. In de meeste gevallen betekent dit dat de `SHAPE`-waarde wordt gewijzigd van `DEFAULT` in `RECT` (dit zou ook het `COORDS`-kenmerk toevoegen) of dat de `COORDS`-waarden worden gewijzigd.
 
-Alle `AREA` elementen die tijdens de verwerking leeg raken, worden volledig verwijderd. Als een kaart aan wordt geassocieerd `layer=comp` wordt het geplaatst achter alle andere kaarten. De gegevens worden als of meer HTML- `AREA` elementen in tekstvorm geretourneerd. Een lege antwoordtekenreeks geeft aan dat er geen afbeelding met hyperlinks bestaat voor de opgegeven objecten.
+`AREA` elementen die tijdens de verwerking leeg worden, worden volledig verwijderd. Als een kaart aan `layer=comp` wordt geassocieerd wordt het geplaatst achter alle andere kaarten. De gegevens worden als of meer HTML `AREA`-elementen in tekstvorm geretourneerd. Een lege antwoordtekenreeks geeft aan dat er geen afbeelding met hyperlinks bestaat voor de opgegeven objecten.
 
 Laagtransparantie wordt niet in overweging genomen bij kaartverwerking. Aan een volledig transparante laag kan nog steeds een afbeelding met hyperlinks zijn gekoppeld. De kaart van een gedeeltelijk transparante laag wordt niet geknipt naar de transparante gebieden.
 
 ## Zie ook {#see-also}
 
-[map=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-map.md#reference-8f96545f196b4b7caa616e15c2363f06) , [catalogus::Map](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-map-cat.md), [HTML 4.01-specificatie](http://www.w3.org/TR/html401/)
+[map=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-map.md#reference-8f96545f196b4b7caa616e15c2363f06) ,  [catalogus::Map](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-map-cat.md),  [HTML 4.01-specificatie](http://www.w3.org/TR/html401/)
