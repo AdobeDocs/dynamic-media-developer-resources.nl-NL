@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 497cd8ea-c6a4-45d2-b5e0-0898ac00913d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '134'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ Materiaalrotatiehoek. Hiermee definieert u de rotatiehoek voor materialen.
 
 <table id="simpletable_F1A87ECD86E8429788825374A6882CB9"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> hoek </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> hoek  </span> </p> </td> 
   <td class="stentry"> <p>Rotatiehoek in graden (reëel). </p> </td> 
  </tr> 
 </table>
@@ -31,7 +34,7 @@ Roteer herhaalbare structuurmaterialen met willekeurige hoeken wanneer deze word
 
 Decale materialen roteren met willekeurige hoeken.
 
-Positieve hoeken roteren rechtsom. De textuur of de decal wordt geroteerd rond het ankerpunt ( `anchor=`); het ankerpunt blijft uitgelijnd op de oorsprong van het doelobject.
+Positieve hoeken roteren rechtsom. De structuur of het decal wordt geroteerd rond het ankerpunt ( `anchor=`); het ankerpunt blijft uitgelijnd op de oorsprong van het doelobject.
 
 ## Eigenschappen {#section-ad4d07897ca24f63af1a4062f8618e36}
 
