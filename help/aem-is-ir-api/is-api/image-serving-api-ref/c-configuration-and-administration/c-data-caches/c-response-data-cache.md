@@ -15,17 +15,17 @@ ht-degree: 0%
 ---
 
 
-# Responsgegevenscache{#response-data-cache}
+# Cache van reactiegegevens{#response-data-cache}
 
 De server van het Platform plaatst al antwoordbeeld en bepaalde tekstgegevens in het voorgeheugen op schijf tenzij een verzoek als niet-cacheable wordt gemerkt.
 
-De plaats van het de schijfgeheime voorgeheugen van de Server van het Platform wordt geplaatst met `PS::cache.rootPaths`.
+De locatie van de schijfcache van de Platform Server wordt ingesteld met `PS::cache.rootPaths`.
 
-Voor toepassingen met hoge aanraaksnelheden in het cachegeheugen kunt u de serverprestaties en -capaciteit verhogen door de cache met responsgegevens over meerdere schijfapparaten te verdelen. U doet dit door op elke schijf een cachehoofdmap te maken en deze te registreren `PS::cache.rootPaths`.
+Voor toepassingen met hoge aanraaksnelheden in het cachegeheugen kunt u de serverprestaties en -capaciteit verhogen door de cache met responsgegevens over meerdere schijfapparaten te verdelen. U doet dit door een cachemaritrootmap op elke schijf te maken en deze te registreren in `PS::cache.rootPaths`.
 
 `PS::cache.maxSize` geeft de totale grootte van alle cachemarangen aan, zonder rekening te houden met overhead van het bestandssysteem. De werkelijk vereiste hoeveelheid schijfruimte is afhankelijk van de eigenschappen van het bestandssysteem, zoals de grootte van het schijfblok en het aantal cachemarangen. Het wordt aanbevolen tweemaal zoveel schijfruimte voor de HTTP-schijfcache te reserveren als de hoeveelheid die wordt opgegeven door `PS::cache.maxSize`. Er wordt een minst recent gebruikt algoritme gebruikt om de hoeveelheid gegevens in de cache binnen de limiet te houden.
 
-Naast `PS::cache.maxSize`, wordt het reactiecache ook beheerd door het maximumaantal geheim voorgeheugeningangen met te beperken `PS::cache.maxEntries`. Op Linux moet deze instelling een waarde opgeven die niet groter is dan het aantal beschikbare inodes op de cachepartitie.
+Naast `PS::cache.maxSize`, wordt het reactiecache ook beheerd door het maximumaantal geheim voorgeheugeningangen met `PS::cache.maxEntries` te beperken. Op Linux moet deze instelling een waarde opgeven die niet groter is dan het aantal beschikbare inodes op de cachepartitie.
 
 >[!NOTE]
 >
