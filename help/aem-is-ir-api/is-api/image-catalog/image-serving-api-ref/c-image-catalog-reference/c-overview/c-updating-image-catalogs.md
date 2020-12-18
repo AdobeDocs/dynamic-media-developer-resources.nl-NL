@@ -1,6 +1,6 @@
 ---
-description: De server bewaakt voortdurend de catalogusmap en laadt automatisch een afbeeldingscatalogus, inclusief de bijbehorende bestanden met catalogusgegevens, opnieuw wanneer wordt vastgesteld dat het kenmerkbestand van de hoofdcatalogus is gewijzigd.
-seo-description: De server bewaakt voortdurend de catalogusmap en laadt automatisch een afbeeldingscatalogus, inclusief de bijbehorende bestanden met catalogusgegevens, opnieuw wanneer wordt vastgesteld dat het kenmerkbestand van de hoofdcatalogus is gewijzigd.
+description: De server bewaakt voortdurend de catalogusmap en laadt automatisch een afbeeldingscatalogus, inclusief de bijbehorende bestanden met catalogusgegevens, opnieuw wanneer wordt vastgesteld dat het hoofdbestand met cataloguskenmerken is gewijzigd.
+seo-description: De server bewaakt voortdurend de catalogusmap en laadt automatisch een afbeeldingscatalogus, inclusief de bijbehorende bestanden met catalogusgegevens, opnieuw wanneer wordt vastgesteld dat het hoofdbestand met cataloguskenmerken is gewijzigd.
 seo-title: Afbeeldingscatalogi bijwerken
 solution: Experience Manager
 title: Afbeeldingscatalogi bijwerken
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 7e2557c4-1155-429b-a630-a2aff6725a3b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '340'
+ht-degree: 0%
 
 ---
 
 
 # Afbeeldingscatalogi bijwerken{#updating-image-catalogs}
 
-De server bewaakt voortdurend de catalogusmap en laadt automatisch een afbeeldingscatalogus, inclusief de bijbehorende bestanden met catalogusgegevens, opnieuw wanneer wordt vastgesteld dat het kenmerkbestand van de hoofdcatalogus is gewijzigd.
+De server bewaakt voortdurend de catalogusmap en laadt automatisch een afbeeldingscatalogus, inclusief de bijbehorende bestanden met catalogusgegevens, opnieuw wanneer wordt vastgesteld dat het hoofdbestand met cataloguskenmerken is gewijzigd.
 
 Als u afbeeldingscatalogi op de server wilt bijwerken, vervangt u eerst alle bestanden met catalogusgegevens die moeten worden gewijzigd en vervangt u het bestand met cataloguskenmerken (of &quot;tik&quot; om de bestandsdatum bij te werken) om de catalogus opnieuw te laden.
 
