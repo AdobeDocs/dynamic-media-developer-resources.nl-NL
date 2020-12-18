@@ -1,6 +1,6 @@
 ---
-description: Dit document beschrijft de materiaalcatalogus voor Scene7 het Teruggeven van het Beeld.
-seo-description: Dit document beschrijft de materiaalcatalogus voor Scene7 het Teruggeven van het Beeld.
+description: In dit document wordt de materiaalcatalogus voor Scene7 Image Rendering beschreven.
+seo-description: In dit document wordt de materiaalcatalogus voor Scene7 Image Rendering beschreven.
 seo-title: Inleiding
 solution: Experience Manager
 title: Inleiding
@@ -8,73 +8,76 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 38da0561-7730-4170-bf29-02de325b3ad9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '335'
+ht-degree: 0%
 
 ---
 
 
 # Inleiding{#introduction}
 
-Dit document beschrijft de materiaalcatalogus voor Scene7 het Teruggeven van het Beeld.
+In dit document wordt de materiaalcatalogus voor Scene7 Image Rendering beschreven.
 
 **Beoogd publiek**
 
-Dit gedocumenteerd is bedoeld voor ervaren programmeurs en websiteontwikkelaars die Scene7 het Teruggeven van het Beeld voor een website of een douanetoepassing willen gebruiken.
+Deze documentatie is bedoeld voor ervaren programmeurs en ontwikkelaars van websites die Scene7 Image Rendering willen gebruiken voor een website of een aangepaste toepassing.
 
-Men veronderstelt dat de lezer met het Authoring en het Teruggeven van het Beeld Scene7, algemene het protocolnormen en de overeenkomsten van HTTP, en basisimaging terminologie vertrouwd is.
+Aangenomen wordt dat de lezer bekend is met Scene7 Image Authoring and Image Rendering, algemene HTTP-protocolstandaarden en -conventies en basisterminologie voor beeldbewerking.
 
 **Documentconventies**
 
 <table id="simpletable_E96BA470B3CE4266A9E6ED0440A56C40"> 
  <tr class="strow"> 
   <td class="stentry"> <p>Letterlijk </p> </td> 
-  <td class="stentry"> <p>In syntaxissecties is niet-cursieve tekst letterlijk; dit geldt niet voor witruimte en de symbolen [ ] { }| *. </p> </td> 
+  <td class="stentry"> <p>In syntaxissecties is niet-cursieve tekst letterlijk; dit geldt niet voor witruimte en de symbolen [ ] { } | *. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>'letterlijk' </p> </td> 
   <td class="stentry"> <p>In beschrijvende gedeelten is niet-cursieve tekst tussen enkele aanhalingstekens letterlijk. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> parameter </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> parameter  </span> </p> </td> 
   <td class="stentry"> <p>Cursief verwijst naar een variabele of parameter, die moet worden vervangen door een werkelijke waarde. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> attribute::Item </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> attribute::Item  </span> </p> </td> 
   <td class="stentry"> <p>Een naam met het voorvoegsel 'attribute::' verwijst naar een afbeeldingscataloguskenmerk. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <span class="codeph"> catalogus::Item </span> </td> 
+  <td class="stentry"> <span class="codeph"> catalogus::Item  </span> </td> 
   <td class="stentry"> <p>Een naam vooraf voorzien van 'catalog::' verwijst naar een gegevensveld voor een materiaalcatalogus. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> icc::Item </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> icc::Item  </span> </p> </td> 
   <td class="stentry"> <p>Een naam met de voorvoegsel 'icc::' verwijst naar een veld in de ICC-kleurenprofielkaart. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> macro::Item </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> macro::Item  </span> </p> </td> 
   <td class="stentry"> <p>Een naam met het voorvoegsel 'macro::' verwijst naar een veld in de macrodefinitietabel. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> regels:Item </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> regels:Item  </span> </p> </td> 
   <td class="stentry"> <p>Een naam met een voorvoegsel 'ruleset::' verwijst naar een element in een URL-voorverwerkingsregelset. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> default::Item </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> default::Item  </span> </p> </td> 
   <td class="stentry"> <p>Een naam met de voorvoegsel 'default:' verwijst naar een kenmerk van de standaardafbeeldingscatalogus. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> vignet::Item </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> vignet::Item  </span> </p> </td> 
   <td class="stentry"> <p>Een naam met de voorvoegsel 'vignet::' verwijst naar een veld in de vignetkaart. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>[ <span class="varname"> optional </span> ] </p> </td> 
+  <td class="stentry"> <p>[ <span class="varname"> optioneel </span> ] </p> </td> 
   <td class="stentry"> <p>Optionele syntaxiselementen staan tussen vierkante haakjes. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>*[ <span class="varname"> optional </span> ] </p> </td> 
+  <td class="stentry"> <p>*[ <span class="varname"> optioneel </span> ] </p> </td> 
   <td class="stentry"> <p>Het optionele syntaxiselement mag nooit of vaker worden herhaald. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> item1 </span>| <span class="varname"> post 2 </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> item1  </span>|  <span class="varname"> post 2  </span> </p> </td> 
   <td class="stentry"> <p>Een verticale balk geeft aan dat het enige syntaxisitem links of het item rechts kan worden gebruikt. Er moet precies één item zijn geselecteerd. </p> </td> 
  </tr> 
  <tr class="strow"> 
