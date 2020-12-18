@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: e62fac7c-28b6-40bf-83cc-8bcfbaa0dfa3
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '297'
+ht-degree: 0%
 
 ---
 
 
-# Indicator instellen{#set-indicator}
+# Indicator{#set-indicator} instellen
 
 De indicator Set is een reeks punten die boven op hoofdstalen worden weergegeven wanneer een viewer wordt gebruikt op een aanraakapparaat. Met de puntjes kunnen gebruikers door pagina&#39;s met miniaturen navigeren wanneer er geen schuifknoppen beschikbaar zijn.
 
@@ -35,7 +38,7 @@ De vormgeving van de setindicatorcontainer wordt beheerd met de volgende CSS-kla
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>De achtergrondkleur in hexadecimale notatie van de setindicator. </p> </td> 
   </tr> 
  </tbody> 
@@ -66,31 +69,31 @@ De vormgeving van een individuele set-indicator punt wordt bepaald door de CSS-k
    <td colname="col2"> <p>Breedte van punt van indicator instellen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van punt van de ingestelde indicator. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
    <td colname="col2"> <p>Linkermarge in pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
    <td colname="col2"> <p>Bovenmarge in pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge-rechts </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge-rechts  </span> </p> </td> 
    <td colname="col2"> <p>Rechtermarge in pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-bottom  </span> </p> </td> 
    <td colname="col2"> <p>Ondermarge in pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p>Randstraal in pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Achtergrondkleur in hexadecimale notatie. </p> </td> 
   </tr> 
  </tbody> 
@@ -98,7 +101,7 @@ De vormgeving van een individuele set-indicator punt wordt bepaald door de CSS-k
 
 >[!NOTE]
 >
->De vastgestelde indicatorpunt steunt de `state` attributenselecteur, die kan worden gebruikt om verschillende huiden op verschillende duimnagelstaten toe te passen. Komt met name overeen `state="selected"` `state="unselected"` met de huidige pagina met miniaturen, wat overeenkomt met de standaardpuntstatus.
+>De vastgestelde indicatorpunt steunt de `state` attributenselecteur, die kan worden gebruikt om verschillende huiden op verschillende duimnagelstaten toe te passen. Met name `state="selected"` komt overeen met de huidige pagina met miniaturen. `state="unselected"` komt overeen met de standaardpuntstatus.
 
 Voorbeeld - als u een indicatorpunt wilt instellen op 15 x 15 pixels, met twee pixels horizontale marge, vijf pixels bovenmarge, één pixel ondermarge, twaalf pixels straal, de standaardkleur #D5D3D3 en de actieve kleur #939393:
 
