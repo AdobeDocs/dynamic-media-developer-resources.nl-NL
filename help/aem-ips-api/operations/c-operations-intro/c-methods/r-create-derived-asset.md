@@ -23,11 +23,11 @@ Syntaxis
 
 <!--<a id="section_FE43FF204ED644C2AC901AF45982E942"></a>-->
 
-Afgeleide activa specificeren het protocolbevelen van de Server van het Beeld die de vertegenwoordiging van het eigenaarbeeld wijzigen. Met het `AdjustedView` afgeleide type kunt u eenvoudige wijzigingen toepassen op één afbeelding (bijvoorbeeld door een uitsnijdrechthoek op te geven), terwijl u `LayerView` een weergave met meerdere lagen maakt die tekst of extra afbeeldingen kan bevatten.
+Afgeleide activa specificeren het protocolbevelen van de Server van het Beeld die de vertegenwoordiging van het eigenaarbeeld wijzigen. Met het afgeleide type `AdjustedView` kunt u eenvoudige wijzigingen toepassen op één afbeelding (bijvoorbeeld door een uitsnijdrechthoek op te geven), terwijl de `LayerView` helpt een weergave met meerdere lagen te maken die tekst of extra afbeeldingen kan bevatten.
 
 In tegenstelling tot een afbeeldingskopie (zie [copyImage](../../../operations/c-operations-intro/c-methods/r-copy-image.md#reference-0785131e690b4ad08be69172023f35d0)), wordt een afgeleide afbeelding gekoppeld aan de eigen afbeelding. Door wijzigingen in de afbeelding van de eigenaar worden gekoppelde afgeleide elementen gewijzigd. Als u de afbeelding van de eigenaar verwijdert, worden alle gekoppelde afgeleide afbeeldingen verwijderd.
 
-## Geautoriseerde gebruikerstypen {#authorized-user-types}
+## Toegestane gebruikerstypen {#authorized-user-types}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -47,8 +47,8 @@ In tegenstelling tot een afbeeldingskopie (zie [copyImage](../../../operations/c
 | ` *`folderHandle`*` | `xsd:string` | Ja | De handgreep naar de map waarin het nieuwe afgeleide element wordt gemaakt. |
 | ` *`name`*` | `xsd:string` | Ja | De naam van het afgeleide element. |
 | ` *`type`*` | `xsd:string` | Ja | Het type actief van het nieuwe afgeleide actief: `AdjustedView` of `LayerView`. |
-| ` *`urlModifier`*` | `xsd:string` | Nee | Opdrachten van het protocol voor het renderen van afbeeldingen die worden uitgevoerd *vóór* de aanvraag of `urlPostApplyModifier` opdrachten. |
-| ` *`urlPostApplyModifier`*` | `xsd:string` | Nee | Opdrachten van het protocol voor het renderen van afbeeldingen die worden uitgevoerd *na* de aanvraag of `urlPostApplyModifier` opdrachten. |
+| ` *`urlModifier`*` | `xsd:string` | Nee | Opdrachten van het protocol voor het renderen van afbeeldingen die *voor* de aanvraag of `urlPostApplyModifier` opdrachten zijn toegepast. |
+| ` *`urlPostApplyModifier`*` | `xsd:string` | Nee | Opdrachten van het protocol voor het renderen van afbeeldingen die *after* op de aanvraag of `urlPostApplyModifier`-opdrachten zijn toegepast. |
 
 **Output (createDerivedAssetParam)**
 
@@ -58,7 +58,7 @@ In tegenstelling tot een afbeeldingskopie (zie [copyImage](../../../operations/c
 
 ## Voorbeelden {#section-5d5ea893a1ef4edc8b3a396f1936e8c9}
 
-De voorbeeldcode maakt een afgeleid element met een aangepaste weergave en `urlModifier` `urlPostApplyModifier` met willekeurige waarden. De reactie keert de handvat op het onlangs afgeleide activa terug.
+De voorbeeldcode maakt een afgeleid element met een aangepaste weergave en `urlModifier` en `urlPostApplyModifier` met willekeurige waarden. De reactie keert de handvat op het onlangs afgeleide activa terug.
 
 **Verzoek**
 
