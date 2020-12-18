@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: ec8a5f86-be10-494e-bc06-5c81520696f9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '71'
+ht-degree: 1%
 
 ---
 
@@ -23,6 +26,6 @@ Tekst in een PDF-bestand converteren naar contouren.
  </tr> 
 </table>
 
-Met de opdracht URL wijzigt u alle tekst in een PDF-bestand in een pad met omtrekken. `convertTextToOutlines=1`
+Met de URL-opdracht `convertTextToOutlines=1` kunt u alle tekst in een PDF-bestand wijzigen in padomtrekken.
 
 Wanneer een effect wordt toegepast op tekst in een PDF-bestand, zoals tekst converteren naar contouren, wordt de uiteindelijke gerenderde afbeelding verkleind of &#39;afgevlakt&#39;.
