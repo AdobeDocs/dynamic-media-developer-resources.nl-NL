@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 3285fab0-92e4-4b88-9a3c-88cbb97d48c9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '103'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Hiermee stelt u het groepslidmaatschap voor een gebruiker in.
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-3d6308a8a5694ed085e04d1c37982b9e}
+## Toegestane gebruikerstypen {#section-3d6308a8a5694ed085e04d1c37982b9e}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
