@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8800a9b2-e9c0-498b-b4e1-37952ba7c842
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '141'
+ht-degree: 0%
 
 ---
 
@@ -16,15 +19,15 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Modifier-tekenreeks voor postfix-verzoek. Geen of meer opdrachten Afbeeldingsservice gescheiden door &#39;&amp;&#39; tekens.
 
-Opdrachten in dit veld overschrijven opdrachten in de HTTP-aanvraag en in `catalog::Modifier`.
+Opdrachten in dit veld overschrijven altijd opdrachten in de HTTP-aanvraag en in `catalog::Modifier`.
 
-`catalog::PostModifier` Dit is handig als bepaalde afbeeldingen speciale instellingen vereisen die normaal gesproken via de URL worden beheerd, zoals `qlt=` of `resmode=`. `catalog::Modifier` moet worden gebruikt voor het instellen van de meeste IS-opdrachten in de afbeeldingscatalogus.
+`catalog::PostModifier` Dit is handig als bepaalde afbeeldingen speciale instellingen vereisen die normaal gesproken via de URL worden beheerd, zoals  `qlt=` of  `resmode=`. `catalog::Modifier` moet worden gebruikt voor het instellen van de meeste IS-opdrachten in de afbeeldingscatalogus.
 
-Macro&#39;s zijn toegestaan in, `catalog::PostModifier`zolang ze in dezelfde catalogus of in de standaardcatalogus zijn gedefinieerd. Ook aangepaste variabelen kunnen worden gebruikt.
+Macro&#39;s zijn toegestaan in `catalog::PostModifier`, zolang ze in dezelfde catalogus of in de standaardcatalogus zijn gedefinieerd. Ook aangepaste variabelen kunnen worden gebruikt.
 
 >[!NOTE]
 >
->Als een verzoek meerdere lagen betreft, wordt alleen de inhoud van laag 0 toegepast. `catalog::PostModifier` `catalog::PostModifier` van alle andere lagen wordt genegeerd.
+>Als een verzoek meerdere lagen betreft, wordt alleen de inhoud van `catalog::PostModifier` van laag 0 toegepast. `catalog::PostModifier` van alle andere lagen wordt genegeerd.
 
 ## Eigenschappen {#section-6d5b0462ba1245b8ac3ddfd15c059f42}
 
