@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: a4062f3f-5dba-4514-acde-e1b7d608a2e9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '147'
+ht-degree: 0%
 
 ---
 
@@ -22,11 +25,11 @@ Omgekeerd pad voor laagclip. Hiermee geeft u een pad voor de uitsluitingsclip op
 
 <table id="simpletable_27AFC3A694874CF8B673460820EFD90D"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> pathDefinition</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> pathDefinition</span> </span> </p> </td> 
   <td class="stentry"> <p>Padgegevens. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> pathName</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> pathName</span> </span> </p> </td> 
   <td class="stentry"> <p>Naam van pad dat is ingesloten in bronafbeelding van laag (alleen ASCII). </p></td> 
  </tr> 
 </table>
@@ -35,7 +38,7 @@ Zie [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-prot
 
 ## Eigenschappen {#section-acf7272ba93a4bbba818b8e6aa4dcea5}
 
-Laagkenmerk. Is van toepassing op de huidige laag of op de samengestelde afbeelding, indien van toepassing `layer=comp`. Genegeerd als `clipPath=` niet opgegeven. Genegeerd door effectlagen.
+Laagkenmerk. Wordt toegepast op de huidige laag of op de samengestelde afbeelding als `layer=comp`. Wordt genegeerd als `clipPath=` niet is opgegeven. Genegeerd door effectlagen.
 
 ## Standaard {#section-d1986aa31af14767aeb1b4a57add67f4}
 
