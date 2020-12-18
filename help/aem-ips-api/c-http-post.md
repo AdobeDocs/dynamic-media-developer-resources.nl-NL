@@ -1,6 +1,6 @@
 ---
-description: Het uploaden van activa in het Systeem van de Productie Scene7 impliceert één of meerdere POST van HTTP- verzoeken die opstelling een baan om alle logboekactiviteit te coördineren verbonden aan de geuploade dossiers.
-seo-description: Het uploaden van activa in het Systeem van de Productie Scene7 impliceert één of meerdere POST van HTTP- verzoeken die opstelling een baan om alle logboekactiviteit te coördineren verbonden aan de geuploade dossiers.
+description: Bij het uploaden van elementen naar Scene7 Production System worden een of meer HTTP-POSTEN gevraagd die een taak hebben ingesteld om alle logactiviteiten te coördineren die aan de geüploade bestanden zijn gekoppeld.
+seo-description: Bij het uploaden van elementen naar Scene7 Production System worden een of meer HTTP-POSTEN gevraagd die een taak hebben ingesteld om alle logactiviteiten te coördineren die aan de geüploade bestanden zijn gekoppeld.
 seo-title: Elementen uploaden via HTTP POST's naar de UploadFile-server
 solution: Experience Manager
 title: Elementen uploaden via HTTP POST's naar de UploadFile-server
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 8d562316-0849-4b95-a974-29732d453dc8
 translation-type: tm+mt
 source-git-commit: dac273f51703fd63f1d427fbb7713fcc79bfa2c4
+workflow-type: tm+mt
+source-wordcount: '766'
+ht-degree: 0%
 
 ---
 
 
 # Elementen uploaden via HTTP POST&#39;s naar de UploadFile-server{#uploading-assets-by-way-of-http-posts-to-the-uploadfile-servlet}
 
-Het uploaden van activa in het Systeem van de Productie Scene7 impliceert één of meerdere POST van HTTP- verzoeken die opstelling een baan om alle logboekactiviteit te coördineren verbonden aan de geuploade dossiers.
+Bij het uploaden van elementen naar Scene7 Production System worden een of meer HTTP-POSTEN gevraagd die een taak hebben ingesteld om alle logactiviteiten te coördineren die aan de geüploade bestanden zijn gekoppeld.
 
 Gebruik de volgende URL om toegang te krijgen tot de UploadFile-server:
 
@@ -24,9 +27,9 @@ https://<server>/scene7/UploadFile
 
 >[!NOTE]
 >
->Alle POST-aanvragen voor een uploadtaak moeten afkomstig zijn van hetzelfde IP-adres.
+>Alle verzoeken van de POST om een uploadbaan moeten van het zelfde IP adres voortkomen.
 
-**Toegang tot URL&#39;s voor Scene7-gebieden**
+**Toegang tot URL&#39;s voor Scene7-regio&#39;s**
 
 <table id="table_45BB314ABCDA49F38DF7BECF95CC984A"> 
  <thead> 
@@ -57,30 +60,42 @@ https://<server>/scene7/UploadFile
 
 ## Workflow van de uploadtaak {#section-873625b9512f477c992f5cdd77267094}
 
-De uploadtaak bestaat uit een of meer HTTP POST&#39;s die een gemeenschappelijke functie gebruiken `jobHandle` om de verwerking in dezelfde taak te correleren. Elk verzoek wordt `multipart/form-data` gecodeerd en bestaat uit de volgende formulieronderdelen:
+De uploadtaak bestaat uit een of meer HTTP POST&#39;s die een gemeenschappelijke `jobHandle` gebruiken om de verwerking in dezelfde taak te correleren. Elk verzoek is `multipart/form-data` gecodeerd en bestaat uit de volgende formulieronderdelen:
 
 >[!NOTE]
 >
->Alle POST-aanvragen voor een uploadtaak moeten afkomstig zijn van hetzelfde IP-adres.
+>Alle verzoeken van de POST om een uploadbaan moeten van het zelfde IP adres voortkomen.
 
-| HTTP POST-onderdeel | Beschrijving ||-|-||`auth`| Vereist. Een XML authHeader-document waarin verificatie- en clientgegevens zijn opgegeven. Zie **Autorisatie** aanvragen onder [SOAP](/help/aem-ips-api/c-wsdl-versions.md). |
-|`file params` |  Optioneel. Bij elke POST-aanvraag kunt u een of meer bestanden opnemen die u wilt uploaden. Elk dossierdeel kan filename parameter in de inhoud-plaats kopbal omvatten die als doelfilename in IPS wordt gebruikt als geen parameter wordt gespecificeerd. `uploadPostParams/fileName` |
+| HTTP-POST maakt deel uit van | Beschrijving |
+|-|-|
+|`auth` |  Vereist. Een XML authHeader-document waarin verificatie- en clientgegevens zijn opgegeven. Zie **Verificatie aanvragen** onder [SOAP](/help/aem-ips-api/c-wsdl-versions.md). |
+|`file params` |  Optioneel. U kunt een of meer bestanden opnemen om te uploaden bij elke aanvraag van een POST. Elk dossierdeel kan filename parameter in de inhoud-plaats kopbal omvatten die als doelfilename in IPS wordt gebruikt als geen `uploadPostParams/fileName` parameter wordt gespecificeerd. |
 
-| HTTP POST-onderdeel | uploadPostParams-elementnaam | Type | Beschrijving ||-|-|-|-|-|-|`uploadParams` (Vereist. Een XML- `uploadParams` document met de uploadparameters) | `companyHandle`|`xsd:string`| Vereist. Verwerk het bedrijf waarnaar het bestand wordt geüpload. ||`uploadParams` (Vereist. Een XML- `uploadParams` document waarin de uploadparameters worden opgegeven)|`jobName`|`xsd:string`| `jobName` of `jobHandle` is vereist. Naam van de uploadtaak. ||`uploadParams` (Vereist. Een XML- `uploadParams` document waarin de uploadparameters worden opgegeven)|`jobHandle`|`xsd:string`| `jobName` of `jobHandle` is vereist. Afhandeling van een uploadtaak die in een vorige aanvraag is gestart. ||`uploadParams` (Vereist. Een XML- `uploadParams` document waarin de uploadparameters worden opgegeven)|`locale`|`xsd:string`| Optioneel. Taal- en landcode voor lokalisatie. ||`uploadParams` (Vereist. Een XML- `uploadParams` document waarin de uploadparameters worden opgegeven)|`description`|`xsd:string`| Optioneel. Beschrijving van de taak. ||`uploadParams` (Vereist. Een XML- `uploadParams` document waarin de uploadparameters worden opgegeven)|`destFolder`|`xsd:string`| Optioneel. Doelmappad naar voorvoegsel voor een bestandseigenschap, met name voor browsers en andere clients die mogelijk geen volledige paden in een bestandsnaam ondersteunen. ||`uploadParams` (Vereist. Een XML- `uploadParams` document waarin de uploadparameters worden opgegeven)|`fileName`|`xsd:string`| Optioneel. Naam van het doelbestand. Hiermee wordt de eigenschap filename genegeerd. ||`uploadParams` (Vereist. Een XML- `uploadParams` document waarin de uploadparameters worden opgegeven)|`endJob`|`xsd:boolean`| Optioneel. De standaardwaarde is false. ||`uploadParams` (Vereist. Een XML- `uploadParams` document waarin de uploadparameters worden opgegeven)|`uploadParams`|`types:UploadPostJob`| Optioneel als dit een volgende aanvraag voor een bestaande actieve taak is. Als er een bestaande taak is, `uploadParams` wordt deze genegeerd en worden de bestaande taakuploadparameters gebruikt. Zie [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) |
+| HTTP-POST maakt deel uit  | naam van uploadPostParams-element  | Type  | Beschrijving  |
+|-|-|-|-|-|-
+|`uploadParams` (Vereist. Een XML `uploadParams`-document dat de uploadparameters opgeeft)  |  `companyHandle` | `xsd:string` | Vereist. Verwerk het bedrijf waarnaar het bestand wordt geüpload. |
+|`uploadParams` (Vereist. Een XML `uploadParams`-document dat de uploadparameters opgeeft)|`jobName` | `xsd:string` | Of `jobName` of `jobHandle` is vereist. Naam van de uploadtaak. |
+|`uploadParams` (Vereist. Een XML `uploadParams`-document dat de uploadparameters opgeeft)|`jobHandle` | `xsd:string` | Of `jobName` of `jobHandle` is vereist. Afhandeling van een uploadtaak die in een vorige aanvraag is gestart. |
+|`uploadParams` (Vereist. Een XML `uploadParams`-document dat de uploadparameters opgeeft)|`locale` | `xsd:string` | Optioneel. Taal- en landcode voor lokalisatie. |
+|`uploadParams` (Vereist. Een XML `uploadParams`-document dat de uploadparameters opgeeft)|`description` | `xsd:string` | Optioneel. Beschrijving van de taak. |
+|`uploadParams` (Vereist. Een XML `uploadParams`-document dat de uploadparameters opgeeft)|`destFolder` | `xsd:string` | Optioneel. Doelmappad naar voorvoegsel voor een bestandseigenschap, met name voor browsers en andere clients die mogelijk geen volledige paden in een bestandsnaam ondersteunen. |
+|`uploadParams` (Vereist. Een XML `uploadParams`-document dat de uploadparameters opgeeft)|`fileName` | `xsd:string` | Optioneel. Naam van het doelbestand. Hiermee wordt de eigenschap filename genegeerd. |
+|`uploadParams` (Vereist. Een XML `uploadParams`-document dat de uploadparameters opgeeft)|`endJob` | `xsd:boolean` | Optioneel. De standaardwaarde is false. |
+|`uploadParams` (Vereist. Een XML `uploadParams`-document dat de uploadparameters opgeeft)|`uploadParams` | `types:UploadPostJob` | Optioneel als dit een volgende aanvraag voor een bestaande actieve taak is. Als er een bestaande taak is, wordt `uploadParams` genegeerd en worden de bestaande taakuploadparameters gebruikt. Zie [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) |
 
-Binnen het `<uploadPostParams>` blok bevindt zich het `<uploadParams>` blok dat de verwerking van de opgenomen bestanden aangeeft.
+Binnen het `<uploadPostParams>` blok is het `<uploadParams>` blok dat de verwerking van de inbegrepen dossiers aanwijst.
 
 Zie [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4).
 
-Hoewel u zou kunnen veronderstellen dat de `uploadParams` parameter voor individuele dossiers als deel van de zelfde baan kan veranderen, is dat niet het geval. Gebruik dezelfde `uploadParams` parameters voor de gehele taak.
+Hoewel u zou kunnen veronderstellen dat de `uploadParams` parameter voor individuele dossiers als deel van de zelfde baan kan veranderen, is dat niet het geval. Gebruik dezelfde parameters `uploadParams` voor de gehele taak.
 
-In de eerste POST-aanvraag voor een nieuwe uploadtaak moet de `jobName` parameter worden opgegeven, bij voorkeur met een unieke taaknaam om de opiniepeiling van de taakstatus en query&#39;s voor het taaklogboek te vereenvoudigen. De extra POST- verzoeken voor de zelfde uploadbaan zouden de `jobHandle` parameter in plaats van `jobName`, gebruikend de `jobHandle` waarde moeten specificeren die van het aanvankelijke verzoek is teruggekeerd.
+In het initiële verzoek van de POST voor een nieuwe uploadtaak moet de parameter `jobName` worden opgegeven, bij voorkeur met een unieke taaknaam om de opiniepeiling van de taakstatus en query&#39;s voor het taaklogboek te vereenvoudigen. Aanvullende aanvragen voor POSTEN voor dezelfde uploadtaak moeten de `jobHandle`-parameter opgeven in plaats van `jobName`, waarbij de `jobHandle`-waarde wordt gebruikt die door de oorspronkelijke aanvraag is geretourneerd.
 
-De laatste POST-aanvraag voor een uploadtaak moet de `endJob` parameter instellen op true, zodat er voor deze taak geen toekomstige bestanden POSTed worden. Hierdoor kan de taak direct worden voltooid nadat alle POST-bestanden zijn ingepakt. Anders loopt de taak uit als er binnen 30 minuten geen aanvullende POST-aanvragen zijn ontvangen.
+De laatste aanvraag voor een POST voor een uploadtaak moet de parameter `endJob` op true instellen, zodat er geen toekomstige bestanden voor deze taak worden gePOST. Hierdoor kan de taak direct worden voltooid nadat alle POST-bestanden zijn ingepakt. Anders wordt de taak beëindigd als er binnen 30 minuten geen verzoeken om extra POSTEN zijn ontvangen.
 
 ## UploadPOST-reactie {#section-421df5cc04d44e23a464059aad86d64e}
 
-Voor een succesvol POST-verzoek is de hoofdtekst van de reactie een XML- `uploadPostReturn` document, zoals de XSD in het volgende specificeert:
+Voor een succesvol verzoek van de POST, zal het antwoordlichaam een document van XML `uploadPostReturn` zijn, zoals XSD in het volgende specificeert:
 
 ```
 <element name="uploadPostReturn"> 
@@ -92,11 +107,11 @@ Voor een succesvol POST-verzoek is de hoofdtekst van de reactie een XML- `upload
     </element>
 ```
 
-De `jobHandle` geretourneerde waarde wordt doorgegeven in de parameter `uploadPostParams`/ `jobHandle` voor alle volgende POST-aanvragen voor dezelfde taak. U kunt deze ook gebruiken om de taakstatus met de `getActiveJobs` bewerking te opiniepeilen of om de taaklogbestanden met de `getJobLogDetails` bewerking op te vragen.
+De geretourneerde `jobHandle` wordt doorgegeven in de parameter `uploadPostParams`/ `jobHandle` voor alle volgende aanvragen voor POSTEN voor dezelfde taak. U kunt deze ook gebruiken om de taakstatus te opiniepeilen met de bewerking `getActiveJobs` of om de taaklogbestanden op te vragen met de bewerking `getJobLogDetails`.
 
-Als er een fout optreedt bij het verwerken van de POST-aanvraag, bestaat de responstekst uit een van de API-fouttypen zoals beschreven in [Fouten](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b).
+Als er een fout is die het verzoek van de POST verwerkt, bestaat de reactiekarakter uit één van de API foutentypes zoals die in [Faults](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b) worden beschreven.
 
-## Voorbeeld POST-aanvraag {#section-810fe32abdb9426ba0fea488dffadd1e}
+## Voorbeeld POST request {#section-810fe32abdb9426ba0fea488dffadd1e}
 
 ```
 POST /scene7/UploadFile HTTP/1.1 
@@ -166,7 +181,7 @@ Content-Transfer-Encoding: binary
 --O9-ba7tieRtqA4QRSaVk-eDq6658SPrYfvUcJ--
 ```
 
-## Voorbeeld van POST-respons - geslaagd {#section-0d515ba14c454ed0b5196ac8d1bb156e}
+## Respons van de POST van het voorbeeld - succes {#section-0d515ba14c454ed0b5196ac8d1bb156e}
 
 ```
 HTTP/1.1 200 OK 
@@ -180,7 +195,7 @@ Server: Unknown
 </uploadPostReturn>
 ```
 
-## Voorbeeld POST-reactie - fout {#section-efc32bb371554982858b8690b05090ec}
+## Respons POST voorbeeld - fout {#section-efc32bb371554982858b8690b05090ec}
 
 ```
 HTTP/1.1 200 OK 
