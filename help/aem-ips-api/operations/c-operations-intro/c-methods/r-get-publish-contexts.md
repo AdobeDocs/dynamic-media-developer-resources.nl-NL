@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 7eb90f2c-2bfc-4d61-8a24-831964ed9182
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '87'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-1a3a50349b5640dd8e498ff9e9c37340}
+## Toegestane gebruikerstypen {#section-1a3a50349b5640dd8e498ff9e9c37340}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -32,6 +35,7 @@ Syntaxis
 >
 >* De gebruiker moet lees toegang hebben om de activa terug te keren.
 >* Alle gebruikers hebben toegang tot het gedeelde bedrijf.
+
 >
 
 
@@ -51,13 +55,13 @@ Syntaxis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> bedrijfshandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Handgreep aan het bedrijf. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> contextType</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> contextType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4">Het type publicatiecontext dat u wilt retourneren. Omvat: 
