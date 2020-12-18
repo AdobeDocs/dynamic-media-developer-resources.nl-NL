@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 8f475fa8-92d1-4663-bc12-1e65b76076ba
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '136'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> highRes</span></span> </p> </td> 
-   <td colname="col2"> <p> Hiermee bepaalt u de kwaliteit van vooraf geladen frames. Wanneer u de waarde instelt op <span class="codeph"> 1</span> frames, worden deze geladen in hoge kwaliteit, overeenkomstig de grootte van de component. Wanneer u deze optie instelt op <span class="codeph"> 0</span> , wordt alleen de voorvertoningstegel met lage resolutie geladen. </p> <p>Het vooraf laden in hoge resolutie verbetert de gebruikerservaring, vooral wanneer auto-spin wordt toegelaten. Tegelijkertijd, resulteert het in langzamere begintijd en hogere netwerkconsumptie, zo gebruik met voorzichtigheid. Wanneer een voorgeladen hoge resolutie wordt gebruikt, bevinden de voorgeladen frames zich altijd met de oorspronkelijke resolutie waarin de component aanvankelijk werd geladen. </p> </td> 
+   <td colname="col2"> <p> Hiermee bepaalt u de kwaliteit van vooraf geladen frames. Wanneer ingesteld op <span class="codeph"> 1</span> worden frames in hoge kwaliteit geladen, overeenkomend met de grootte van de component. Wanneer ingesteld op <span class="codeph"> 0</span> wordt alleen de voorvertoningstegel met lage resolutie geladen. </p> <p>Het vooraf laden in hoge resolutie verbetert de gebruikerservaring, vooral wanneer auto-spin wordt toegelaten. Tegelijkertijd, resulteert het in langzamere begintijd en hogere netwerkconsumptie, zo gebruik met voorzichtigheid. Wanneer een voorgeladen hoge resolutie wordt gebruikt, bevinden de voorgeladen frames zich altijd met de oorspronkelijke resolutie waarin de component aanvankelijk werd geladen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
