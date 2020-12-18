@@ -27,13 +27,13 @@ Syntaxis
 
 **Responsgrootte**
 
-`searchAssets` keert tot 1000 activa in één enkele vraag terug. Om tot 10.000 activa per vraag terug te keren, beperk de reactiegegevens tot een ondergroep van `totalRows`, `name`, `handle`, `type`, en `subType` gebieden. Als u grotere sets wilt retourneren, stelt u paginering in met de `resultPage` parameter.
+`searchAssets` keert tot 1000 activa in één enkele vraag terug. Om maximaal 10.000 activa per vraag terug te keren, beperk de reactiegegevens tot een ondergroep van `totalRows`, `name`, `handle`, `type`, en `subType` gebieden. Als u grotere sets wilt retourneren, stelt u paginering in met de parameter `resultPage`.
 
 **Resultaatbestandsgrootte beperken met responseFieldArray of excludeFieldArray**
 
-Beperk de grootte van de gegevensset met de `responseFieldArray` of `excludFieldArray` parameters. Deze parameters helpen geheugengebruik en bandbreedte te verminderen en kunnen de tijden van de serverreactie verbeteren.
+Beperk de grootte van uw gegevensset met de parameters `responseFieldArray` of `excludFieldArray`. Deze parameters helpen geheugengebruik en bandbreedte te verminderen en kunnen de tijden van de serverreactie verbeteren.
 
-## Geautoriseerde gebruikerstypen {#section-9c4bc41bb8b4493982197eb13c7cdc55}
+## Toegestane gebruikerstypen {#section-9c4bc41bb8b4493982197eb13c7cdc55}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -93,7 +93,7 @@ Beperk de grootte van de gegevensset met de `responseFieldArray` of `excludField
    <td colname="col1"> <span class="codeph"> <span class="varname"> includeSubfolders</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:Boolean</span> </td> 
    <td colname="col3"> Nee </td> 
-   <td colname="col4">Ingesteld op <span class="codeph"> true</span> om te zoeken in submappen. </td> 
+   <td colname="col4">Stel in op <span class="codeph"> true</span> om naar submappen te zoeken. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
@@ -105,13 +105,13 @@ Beperk de grootte van de gegevensset met de `responseFieldArray` of `excludField
    <td colname="col1"> <span class="codeph"> <span class="varname"> prullenbakState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Nee </td> 
-   <td colname="col4">Kies de status Prullenbak. De standaardwaarde is <span class="codeph"> NietInTrash</span>. </td> 
+   <td colname="col4">Kies de status Prullenbak. De standaardwaarde is <span class="codeph"> NotInTrash</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> conditionMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Nee </td> 
-   <td colname="col4"> <p>Keuze van Zoekmethoden om resultaten van <span class="codeph"> keywordArray</span>te combineren. </p> <p> <span class="codeph"> conditionMatchMode</span> </p> <p> <span class="codeph"> systemFieldConditionArray</span>en <span class="codeph"> metadataConditionArray</span>. Standaard is <span class="codeph"> MatchAll</span>. </p> </td> 
+   <td colname="col4"> <p>Keuze van de Wijzen van de Gelijke van het Onderzoek voor het combineren van resultaten van <span class="codeph"> keywordArray</span>, </p> <p> <span class="codeph"> conditionMatchMode</span> </p> <p> <span class="codeph"> systemFieldConditionArray</span> en  <span class="codeph"> metadataConditionArray</span>. Standaard is <span class="codeph"> MatchAll</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> keywordArray</span> </span> </td> 
@@ -123,7 +123,7 @@ Beperk de grootte van de gegevensset met de `responseFieldArray` of `excludField
    <td colname="col1"> <span class="codeph"> <span class="varname"> systemFieldMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Nee </td> 
-   <td colname="col4"> <p>Keuze van Zoekmodi voor het combineren van overeenkomsten <span class="codeph"> systemFieldCondition</span> . Standaard is dit <span class="codeph"> MatchAll</span> </p>. </td> 
+   <td colname="col4"> <p>Keuze van Zoekmodi om overeenkomsten met <span class="codeph"> systemFieldCondition</span> te combineren. Standaard is <span class="codeph"> MatchAll</span> </p>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> systemFieldConditionArray</span> </span> </p> </td> 
@@ -141,13 +141,13 @@ Beperk de grootte van de gegevensset met de `responseFieldArray` of `excludField
    <td colname="col1"> <span class="codeph"> <span class="varname"> tagConditionArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:TagConditionArray</span> </td> 
    <td colname="col3"> Nee </td> 
-   <td colname="col4"> <p>Een array met zoekvoorspelling van tagvelden. </p> <p>Voorspellen worden gecombineerd op basis van de instelling <span class="codeph"> tagMatchMode</span> en vervolgens gecombineerd met termen in <span class="codeph"> keywordArray</span>, <span class="codeph"> systemFieldConditionArray</span>en <span class="codeph"> metadataConditionArray</span> op basis van de instelling <span class="codeph"> MatchMode</span> . </p> </td> 
+   <td colname="col4"> <p>Een array met zoekvoorspelling van tagvelden. </p> <p>Voorspellen worden gecombineerd op basis van de instelling <span class="codeph"> tagMatchMode</span> en vervolgens gecombineerd met termen in <span class="codeph"> keywordArray</span>, <span class="codeph"> systemFieldConditionArray</span> en <span class="codeph"> metadataConditionArray</span> volgens de voorwaarde <span class="codeph"> conditionMatcha9/&gt; instellen.</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> metadataMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Nee </td> 
-   <td colname="col4">Zoekmodi voor het combineren van overeenkomsten met <span class="codeph"> metagegevens</span> . Standaard is <span class="codeph"> MatchAll</span>. </td> 
+   <td colname="col4">Zoekmodi voor het combineren van <span class="codeph"> metadataCondition</span> overeenkomsten. Standaard is <span class="codeph"> MatchAll</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </td> 
@@ -177,7 +177,7 @@ Beperk de grootte van de gegevensset met de `responseFieldArray` of `excludField
    <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:Boolean</span> </td> 
    <td colname="col3"> Nee </td> 
-   <td colname="col4">Als <span class="codeph"> true</span> en <span class="codeph"> assetSubTypeArray</span> niet leeg is, worden alleen elementen geretourneerd waarvan de subtypen zich in <span class="codeph"> assetSubTypeArray</span> bevinden. Indien <span class="codeph"> false</span> (standaard), worden elementen zonder gedefinieerd subtype geretourneerd. </td> 
+   <td colname="col4">Als <span class="codeph"> true</span> en <span class="codeph"> assetSubTypeArray</span> niet leeg is, worden alleen elementen geretourneerd waarvan de subtypen zich in <span class="codeph"> assetSubTypeArray</span> bevinden. Als <span class="codeph"> false</span> (standaardwaarde), worden elementen zonder gedefinieerd subtype geretourneerd. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproducts</span> </span> </td> 
@@ -207,7 +207,7 @@ Beperk de grootte van de gegevensset met de `responseFieldArray` of `excludField
    <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Nee </td> 
-   <td colname="col4">Hiermee geeft u de resultatenpagina op die u wilt retourneren, op basis van het paginaformaat <span class="codeph"> recordsPerPage</span> . </td> 
+   <td colname="col4">Geeft de pagina met resultaten op die moet worden geretourneerd op basis van het paginaformaat <span class="codeph"> recordsPerPage</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
