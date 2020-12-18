@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 10a365dc-9fc1-4236-9528-4aca04a4ca19
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '141'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +30,7 @@ Schaalweergave. Hiermee wordt de samengestelde afbeelding geschaald met de inver
 
 Er wordt geen schaling toegepast wanneer `scl=1`. *`invFactor`* Als de afbeelding groter is dan 1,0 en kleiner dan 1,0, wordt de samengestelde afbeelding vergroot.
 
-Als `scl=` wordt opgegeven en `wid=` en/of `hei=` ook aanwezig zijn, wordt de afbeelding uitgesneden tot `wid=` en/of `hei=` na het schalen.
+Als `scl=` is opgegeven en `wid=` en/of `hei=` ook aanwezig zijn, wordt de afbeelding na het schalen uitgesneden tot `wid=` en/of `hei=`.
 
 >[!NOTE]
 >
@@ -39,7 +42,7 @@ Kenmerk weergeven. Ongeacht de huidige laaginstelling.
 
 ## Standaard {#section-32502fa218a24e1f9c65f41c0260b56a}
 
-Als noch `wid=`, `hei=`noch `scl=` worden gespecificeerd, zal het antwoordbeeld of de grootte van het samengestelde beeld of `attribute::DefaultPix`, welke kleiner is hebben.
+Als noch `wid=`, `hei=`, noch `scl=` worden gespecificeerd, zal het antwoordbeeld of de grootte van het samengestelde beeld of `attribute::DefaultPix` hebben, welke kleiner is.
 
 ## Voorbeeld {#section-a33f6239476a4b438d939656ad99aa76}
 
@@ -47,4 +50,4 @@ Zie het voorbeeld in [rotate=](../../../../../is-api/http-ref/image-serving-api-
 
 ## Zie ook {#section-ccefd5de59924059903d66d4974ce317}
 
-[wid=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47) , [hei=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96), [kenmerk::DefaultPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultpix.md#reference-996b2c22b30f4fd9b970c84063306df1)
+[wid=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47) ,  [hei=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96),  [kenmerk::DefaultPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultpix.md#reference-996b2c22b30f4fd9b970c84063306df1)
