@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: b0226d21-87ba-4e07-9819-79c9df3df13c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '118'
+ht-degree: 0%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Binnen dit type is het pageReset-veld relevant voor de renderset- en catalogusafbeeldingselementtypen:
 
-* Hiermee geeft u `RenderSet`bijvoorbeeld `pageReset` het begin van een nieuwe renderweergave/staalgroep aan.
+* Voor `RenderSet` geeft `pageReset` het begin van een nieuwe renderweergave/staalgroep aan.
 
-* Voor Catalog, `pageReset` wijst op het begin van een nieuwe paginamening. Doorgaans zijn er afbeeldingen van 2 pagina&#39;s per paginaweergave, maar u kunt er meer of minder van hebben.
+* Voor Catalogus, `pageReset` wijst op het begin van een nieuwe paginamening. Doorgaans zijn er afbeeldingen van 2 pagina&#39;s per paginaweergave, maar u kunt er meer of minder van hebben.
 
 ## Parameters {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -32,14 +35,14 @@ Binnen dit type is het pageReset-veld relevant voor de renderset- en catalogusaf
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Asset handle in de image set member array. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> pagina herstellen</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> pageReset</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:Boolean</span> </td> 
-   <td colname="col3">Hiermee wordt de pagina opnieuw ingesteld. <p>Instelling wordt genegeerd en waarde wordt geforceerd naar waar voor <span class="codeph"> Afbeeldingsset</span> en <span class="codeph"> SpinSet</span>. </p></td> 
+   <td colname="col3">Hiermee wordt de pagina opnieuw ingesteld. <p>Instelling wordt genegeerd en waarde wordt geforceerd naar true voor <span class="codeph"> ImageSet</span> en <span class="codeph"> SpinSet</span>. </p></td> 
   </tr> 
  </tbody> 
 </table>
