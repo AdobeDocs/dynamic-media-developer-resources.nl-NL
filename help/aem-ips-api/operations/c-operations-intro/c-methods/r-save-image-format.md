@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: b11ea668-7a82-439c-b16b-909dc86c00a2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 0%
 
 ---
 
@@ -18,9 +21,9 @@ Hiermee maakt u een afbeeldingsindeling.
 
 >[!NOTE]
 >
->De `urlModifier` veldwaarde moet bestaan uit geldige XML. Wijzig bijvoorbeeld `&` in `&`. Krijg de `urlModfier` waarde van het IPS gebruikersinterface.
+>De veldwaarde `urlModifier` moet uit geldige XML bestaan. Wijzig bijvoorbeeld `&` in `&`. Krijg de `urlModfier` waarde van het IPS gebruikersinterface.
 
-## Geautoriseerde gebruikerstypen {#section-12c9d8d5933f4692bafb194060b4f882}
+## Toegestane gebruikerstypen {#section-12c9d8d5933f4692bafb194060b4f882}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -46,7 +49,7 @@ Hiermee maakt u een afbeeldingsindeling.
 
 ## Voorbeelden {#section-c7bd733212ef494297a97093f3af193f}
 
-In dit codevoorbeeld wordt een afbeeldingsindeling gemaakt. In dit voorbeeld, `urlModifier` werd bepaald door zijn waarde in het IPS gebruikersinterface met een geldig formaat van HTML.
+In dit codevoorbeeld wordt een afbeeldingsindeling gemaakt. In dit voorbeeld werd `urlModifier` bepaald door zijn waarde in het IPS gebruikersinterface met een geldig formaat van HTML.
 
 **Verzoek**
 
