@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: f16ccd1b-0f00-4d9a-b6e1-6abc3bde1af9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '235'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Hiermee wordt een array met gebruikers opgehaald, zoals is opgegeven door het bedrijf, de groep en de handgrepen voor de gebruikersrol. Met deze bewerking kunt u geretourneerde gebruikers sorteren en filteren op teken.
 
-## Geautoriseerde gebruikerstypen {#section-6a8f23cc6b22442d8776f701016971ed}
+## Toegestane gebruikerstypen {#section-6a8f23cc6b22442d8776f701016971ed}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,7 +34,7 @@ Hiermee wordt een array met gebruikers opgehaald, zoals is opgegeven door het be
 | ` *`companyHandleArray`*` | `types:HandleArray` | Nee | Filterresultaten per bedrijf. |
 | ` *`groupHandleArray`*` | `types:HandleArray` | Nee | Filterresultaten per groep. |
 | ` *`userRoleArray`*` | `types:StringArray` | Nee | De resultaten van de filter door gebruikersrol. |
-| ` *`charFilterField`*` | `xsd:string` | Nee | Filterresultaten op tekenreeksvoorvoegsel van veld (zie [!DNL Trash State).] |
+| ` *`charFilterField`*` | `xsd:string` | Nee | De resultaten van de filter door de koordprefix van het gebied (zie [!DNL Trash State).] |
 | ` *`charFilter`*` | `xsd:string` | Nee | Filterresultaten met een specifiek teken. |
 | ` *`sortBy`*` | `xsd:string` | Nee | Keuze van sorteervelden voor gebruikers. |
 | ` *`recordsPerPage`*` | `xsd:int` | Nee | Retourneert het opgegeven aantal records per pagina. |
