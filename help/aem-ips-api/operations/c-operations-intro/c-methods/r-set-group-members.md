@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: fe6585ef-a4b3-4b3c-95d0-624017650497
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '139'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Hiermee stelt u het groepslidmaatschap in van gebruikers die tot een specifiek b
 
 De bewerking genereert een verificatiefout als u geen rechten hebt om deze bewerking uit te voeren. Dit is ook waar als om het even welke gebruikers in de gebruikershandvatserie niet tot het bedrijf behoren dat in het bedrijfshandvat wordt gespecificeerd,
 
-## Geautoriseerde gebruikerstypen {#section-4523594039c24aa29c8d0d5c9c415391}
+## Toegestane gebruikerstypen {#section-4523594039c24aa29c8d0d5c9c415391}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
