@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 37ce59fe-f1f5-4226-af2e-5183ea8b7647
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '156'
+ht-degree: 0%
 
 ---
 
@@ -35,27 +38,27 @@ De vormgeving van knopinfo wordt bepaald door de volgende CSS-klassenkiezer:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p> Straal achtergrondrand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-color  </span> </p> </td> 
    <td colname="col2"> <p> Achtergrondrandkleur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Achtergrondkleur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> kleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kleur  </span> </p> </td> 
    <td colname="col2"> <p>Tekstkleur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Naam tekstlettertype. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekengrootte </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekengrootte  </span> </p> </td> 
    <td colname="col2"> <p>Tekengrootte tekst. </p> </td> 
   </tr> 
  </tbody> 
@@ -63,7 +66,7 @@ De vormgeving van knopinfo wordt bepaald door de volgende CSS-klassenkiezer:
 
 >[!NOTE]
 >
->Als knopinfo-stijlen worden aangepast vanuit de ingesloten webpagina, moeten alle eigenschappen de `!IMPORTANT` regel bevatten. Dit is niet nodig als knopinfo wordt aangepast in het CSS-bestand van de viewer.
+>Als knopinfo-stijlen worden aangepast vanuit de ingesloten webpagina, moeten alle eigenschappen de `!IMPORTANT`-regel bevatten. Dit is niet nodig als knopinfo wordt aangepast in het CSS-bestand van de viewer.
 
 Voorbeeld - Voor het instellen van knopinfo met een grijze rand met een straal van drie pixels voor hoeken, een zwarte achtergrond en witte tekst in Arial, 11 pixels:
 
