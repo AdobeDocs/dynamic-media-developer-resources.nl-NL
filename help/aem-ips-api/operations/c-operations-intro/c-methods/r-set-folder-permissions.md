@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 3a33034e-df2c-48ab-8ade-b76bea444388
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Stelt mapmachtigingen in.
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-d3eb923fcf5741b99967634db809e09e}
+## Toegestane gebruikerstypen {#section-d3eb923fcf5741b99967634db809e09e}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
