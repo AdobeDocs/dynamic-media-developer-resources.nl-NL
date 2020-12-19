@@ -8,20 +8,23 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 22c271f7-e9dc-4f3e-af7b-1efe89df983e
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '59'
+ht-degree: 0%
 
 ---
 
 
 # Eigenschappen{#properties}
 
-Eigenschapsgegevens worden geretourneerd als reactie op de volgende `req=` typen:
+Eigenschapsgegevens worden geretourneerd als reactie op de volgende typen `req=`:
 
 * `catalogprops`
 * `imageprops`
 * `props`
 * `userdata`
 
-`userdata` reacties worden alleen opgemaakt als eigenschappen als de inhoud van de eigenschappen de indeling `catalog::UserData` volgt.
+`userdata` reacties worden alleen opgemaakt als eigenschappen als de inhoud van de eigenschappen de indeling  `catalog::UserData` volgt.
 
 * [Eigenschappen van Text (Java)](r-text-java-properties.md)
 * [JavaScript-eigenschappen](r-javascript-properties.md)
