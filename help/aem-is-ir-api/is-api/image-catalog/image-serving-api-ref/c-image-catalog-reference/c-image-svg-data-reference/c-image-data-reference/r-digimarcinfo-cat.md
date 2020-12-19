@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8371880e-47df-4333-b8a6-91feaf16c409
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '248'
+ht-degree: 7%
 
 ---
 
@@ -22,12 +25,12 @@ Vier gehele getallen, gescheiden door komma&#39;s.
 
 ` *``*, *``*, *`typeflagsval1`*, *`val2`*`
 
-` *`Met type`*` schakelt u Digimarc-insluiting in en geeft u het type watermerk op:
+` *`Met `*` type schakelt u Digimarc-insluiting in en geeft u het type watermerk op:
 
 <table id="table_3648951F14D94C5BAD097CFB783F1EE7"> 
  <thead> 
   <tr> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> type</span></span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> type</span> </span> </p> </th> 
    <th class="entry"> <p><b>Type watermerk</b> </p> </th> 
   </tr> 
  </thead>
@@ -37,7 +40,7 @@ Vier gehele getallen, gescheiden door komma&#39;s.
    <td> <p>Geen. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>Basis. </p> </td> 
   </tr> 
   <tr> 
@@ -55,12 +58,12 @@ Vier gehele getallen, gescheiden door komma&#39;s.
  </tbody> 
 </table>
 
-` *`flags`*` is een bitveld met drie waarden. Stel bit 0 in om te verwijzen naar inhoud die is beveiligd tegen kopiëren, bit 1 om beperkte inhoud aan te geven en bit 2 om de inhoud van volwassenen aan te geven:
+` *`Hiermee `*` markeert u een bitveld met drie waarden. Stel bit 0 in om te verwijzen naar inhoud die is beveiligd tegen kopiëren, bit 1 om beperkte inhoud aan te geven en bit 2 om de inhoud van volwassenen aan te geven:
 
 <table id="table_00F218515FBE484F9D05CBAF14F9D045"> 
  <thead> 
   <tr> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> markeringen</span></span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> vlaggen</span> </span> </p> </th> 
    <th class="entry"> <p><b>Beschrijving</b> </p> </th> 
   </tr> 
  </thead>
@@ -70,7 +73,7 @@ Vier gehele getallen, gescheiden door komma&#39;s.
    <td> <p>- </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>Met kopiëren beveiligd. </p> </td> 
   </tr> 
   <tr> 
@@ -100,14 +103,14 @@ Vier gehele getallen, gescheiden door komma&#39;s.
  </tbody> 
 </table>
 
-De interpretatie van ` *`val1`*` en ` *`val2`*` hangt af van het ` *`type`*`:
+De interpretatie van ` *`val1`*` en ` *`val2`*` hangt af van ` *`type`*`:
 
 <table id="table_6B29F76BC1974C12AB7124BF84B29EC2"> 
  <thead> 
   <tr> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> type</span></span> </p> </th> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> val1 </span></span> </p> </th> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> val2 </span></span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> type</span> </span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> val1  </span> </span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> val2  </span> </span> </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -117,7 +120,7 @@ De interpretatie van ` *`val1`*` en ` *`val2`*` hangt af van het ` *`type`*`:
    <td> <p>Niet gebruikt. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>Niet gebruikt. </p> </td> 
    <td> <p>Niet gebruikt. </p> </td> 
   </tr> 
@@ -157,4 +160,4 @@ Met &quot;1,5,0,0&quot; wordt een elementair watermerk opgegeven met de markerin
 
 ## Zie ook {#section-4bd3e7272c5c4b8cb8c5ca1ac7ed1012}
 
-[kenmerk::DigimarcInfo](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcinfo.md#reference-de88636cb9b4435a94e3d0a80f072667) , [kenmerk::DigimarcId](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcid.md#reference-33e3eca7f1874510904e5c8645cecd68)
+[kenmerk::DigimarcInfo](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcinfo.md#reference-de88636cb9b4435a94e3d0a80f072667) ,  [kenmerk::DigimarcId](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcid.md#reference-33e3eca7f1874510904e5c8645cecd68)
