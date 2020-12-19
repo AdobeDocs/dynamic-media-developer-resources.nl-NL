@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 7be047d8-d1be-4bda-90ca-6b55c749cc64
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '1493'
+ht-degree: 0%
 
 ---
 
@@ -29,11 +32,11 @@ De weergave van de knop Afdrukken wordt bepaald door de volgende CSS-klassenkiez
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
    <td colname="col2"> <p> De verschuiving vanaf de bovenkant van de besturingsbalk. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
    <td colname="col2"> <p> De afstand aan de volgende knoop op de linkerzijde, of de linkerkant van de controlebar als dit de eerste knoop in een rij is. </p> </td> 
   </tr> 
   <tr> 
@@ -41,15 +44,15 @@ De weergave van de knop Afdrukken wordt bepaald door de volgende CSS-klassenkiez
    <td colname="col2"> <p>Breedte van de knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van de knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
    <td colname="col2"> <p> De afbeelding die voor een bepaalde knopstatus wordt weergegeven. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie ook <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -57,7 +60,7 @@ De weergave van de knop Afdrukken wordt bepaald door de volgende CSS-klassenkiez
 
 >[!NOTE]
 >
->Deze knop ondersteunt de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende skins toe te passen op verschillende knoptoestanden.
+>Deze knoop steunt `state` attributenselecteur, die kan worden gebruikt om verschillende huiden op verschillende knoopstaten toe te passen.
 
 De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie.
 
@@ -95,11 +98,11 @@ De achtergrondoverlay die de webpagina bedekt wanneer het dialoogvenster actief 
 <table id="table_1A0C28D8C81D413C83D73DEAC53057C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> dekking </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> dekking  </span> </p> </td> 
    <td colname="col2"> <p> Dekking van achtergrondbedekking. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Kleur van achtergrondbedekking. </p> </td> 
   </tr> 
  </tbody> 
@@ -125,11 +128,11 @@ Standaard wordt het modale dialoogvenster gecentreerd weergegeven op het scherm 
 <table id="table_5272BC8EF9124018B4290356B95B5559"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p> Straal rand dialoogvenster. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Achtergrondkleur van dialoogvenster; </p> </td> 
   </tr> 
  </tbody> 
@@ -154,7 +157,7 @@ De koptekst van het dialoogvenster bestaat uit een pictogram, een titeltekst en 
 <table id="table_E407E844C9BD4B5DA8B5BBDE0554F9CA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
    <td colname="col2"> <p> Opvulling binnen voor koptekstinhoud. </p> </td> 
   </tr> 
  </tbody> 
@@ -171,7 +174,7 @@ Het pictogram en de titeltekst worden verpakt in een extra container die met het
 <table id="table_5B03CF843F0D4B1295A3FC1EB50C56F1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
    <td colname="col2"> <p> Opvulling binnen voor het koptekstpictogram en de titel. </p> </td> 
   </tr> 
  </tbody> 
@@ -188,19 +191,19 @@ Koptekstpictogram wordt bestuurd met de volgende CSS-klassenkiezer:
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Pictogrambreedte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hoogte pictogram. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
    <td colname="col2"> <p>Pictogramafbeelding. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie ook <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -217,19 +220,19 @@ De titel van de koptekst wordt bestuurd met de volgende CSS-klassenkiezer:
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
    <td colname="col2"> <p>Fontgewicht. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekengrootte </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekengrootte  </span> </p> </td> 
    <td colname="col2"> <p>Hoogte lettertype. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Lettertypefamilie. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
    <td colname="col2"> <p>Opvulling van interne tekst. </p> </td> 
   </tr> 
  </tbody> 
@@ -246,31 +249,31 @@ Knop Sluiten wordt beheerd met de volgende CSS-klassenkiezer:
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p> Verticale knoppositie ten opzichte van koptekstcontainer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
    <td colname="col2"> <p> Horizontale knoppositie ten opzichte van koptekstcontainer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Knopbreedte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
    <td colname="col2"> <p>Opvulling binnen van knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
    <td colname="col2"> <p>Knopafbeelding voor elk frame. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie ook <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -278,7 +281,7 @@ Knop Sluiten wordt beheerd met de volgende CSS-klassenkiezer:
 
 >[!NOTE]
 >
->Deze knop ondersteunt de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende skins toe te passen op verschillende knoptoestanden.
+>Deze knoop steunt `state` attributenselecteur, die kan worden gebruikt om verschillende huiden op verschillende knoopstaten toe te passen.
 
 De knopinfo Sluiten en de titel van het dialoogvenster kunnen worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie.
 
@@ -333,7 +336,7 @@ De voettekst van het dialoogvenster bestaat uit de knoppen Annuleren en Verzende
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
    <td colname="col2"> <p> Rand die u kunt gebruiken om de voettekst visueel te scheiden van de rest van het dialoogvenster. </p> </td> 
   </tr> 
  </tbody> 
@@ -350,7 +353,7 @@ De voettekst heeft een binnencontainer die beide knoppen bevat. De klasse wordt 
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
    <td colname="col2"> <p> Opvulling binnen tussen de voettekst en de knoppen. </p> </td> 
   </tr> 
  </tbody> 
@@ -367,19 +370,19 @@ De knop Annuleren wordt beheerd met de volgende CSS-klassenkiezer:
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Knopbreedte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> kleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kleur  </span> </p> </td> 
    <td colname="col2"> <p> De tekstkleur van de knoop voor elke staat. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Achtergrondkleur van knop voor elk frame. </p> </td> 
   </tr> 
  </tbody> 
@@ -387,7 +390,7 @@ De knop Annuleren wordt beheerd met de volgende CSS-klassenkiezer:
 
 >[!NOTE]
 >
->Deze knop ondersteunt de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende skins toe te passen op verschillende knoptoestanden.
+>Deze knoop steunt `state` attributenselecteur, die kan worden gebruikt om verschillende huiden op verschillende knoopstaten toe te passen.
 
 De knop Verzenden naar afdrukken wordt beheerd met de volgende CSS-klassenkiezer:
 
@@ -400,19 +403,19 @@ De knop Verzenden naar afdrukken wordt beheerd met de volgende CSS-klassenkiezer
 <table id="table_91C75B2470A24DC2AD3973A91FA8B325"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Knopbreedte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> kleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kleur  </span> </p> </td> 
    <td colname="col2"> <p> De tekstkleur van de knoop voor elke staat. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Achtergrondkleur van knop voor elk frame. </p> </td> 
   </tr> 
  </tbody> 
@@ -420,7 +423,7 @@ De knop Verzenden naar afdrukken wordt beheerd met de volgende CSS-klassenkiezer
 
 >[!NOTE]
 >
->Deze knop ondersteunt de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende skins toe te passen op verschillende knoptoestanden.
+>Deze knoop steunt `state` attributenselecteur, die kan worden gebruikt om verschillende huiden op verschillende knoopstaten toe te passen.
 
 Bovendien hebben beide knoppen dezelfde algemene CSS-klasse die CSS-instellingen kan bevatten die hetzelfde zijn voor andere knoppen in dialoogvensters:
 
@@ -433,27 +436,27 @@ Bovendien hebben beide knoppen dezelfde algemene CSS-klasse die CSS-instellingen
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
    <td colname="col2"> <p>Dikte van lettertype knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekengrootte </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekengrootte  </span> </p> </td> 
    <td colname="col2"> <p>Tekengrootte van knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Lettertypefamilie knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> regelhoogte </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> regelhoogte  </span> </p> </td> 
    <td colname="col2"> <p> Teksthoogte in de knop. Heeft invloed op de verticale uitlijning. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> box-shadow </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> box-shadow  </span> </p> </td> 
    <td colname="col2"> <p>Slagschaduw. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge-rechts </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge-rechts  </span> </p> </td> 
    <td colname="col2"> <p>Marge rechterknop. </p> </td> 
   </tr> 
  </tbody> 
@@ -532,15 +535,15 @@ Het hoofddialoogvenster (tussen de kop- en voettekst) bevat inhoud van het dialo
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p> De hoogte van het gebied van het hoofddialoogvenster. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>De achtergrondkleur van het gebied van het hoofddialoogvenster. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge  </span> </p> </td> 
    <td colname="col2"> <p>Buitenmarge. </p> </td> 
   </tr> 
  </tbody> 
@@ -567,7 +570,7 @@ Alle formulierinhoud (zoals labels en invoervelden) bevindt zich in een containe
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
    <td colname="col2"> <p>Opvulling binnen. </p> </td> 
   </tr> 
  </tbody> 
@@ -592,7 +595,7 @@ Het formulier in het dialoogvenster wordt regel voor regel ingevuld, waarbij elk
 <table id="table_2CCCC71B45B444A8B9CE2894129C9C02"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
    <td colname="col2"> <p>Opvulling binnenlijn. </p> </td> 
   </tr> 
  </tbody> 
@@ -617,11 +620,11 @@ De grootte van het blok met dialoogvenster-inhoud wordt beheerd met de volgende 
 <table id="table_FFF0B02B564C443CA8713103D723C733"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Blokbreedte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
    <td colname="col2"> <p>Opvulling binnenlijn. </p> </td> 
   </tr> 
  </tbody> 
@@ -649,19 +652,19 @@ Deze klasse is niet geschikt voor het bepalen van de grootte of positie van het 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
    <td colname="col2"> <p>Breedte van lettertype label. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekengrootte </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekengrootte  </span> </p> </td> 
    <td colname="col2"> <p>Tekengrootte label. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Lettertypefamilie label. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> kleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kleur  </span> </p> </td> 
    <td colname="col2"> <p>Labeltekstkleur. </p> </td> 
   </tr> 
  </tbody> 
@@ -690,7 +693,7 @@ De controles van de input worden verpakt in de container en met de volgende CSS 
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen-links </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen-links  </span> </p> </td> 
    <td colname="col2"> <p>Opvulling binnen. </p> </td> 
   </tr> 
  </tbody> 
@@ -715,11 +718,11 @@ Keuzerondjes en de bijschrifttekst worden bestuurd met de volgende CSS-klassenki
 <table id="table_3B4D85C5A0254A17A34D57F84F8200F7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p> De totale breedte van het keuzerondje met een bijschrift. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> kleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kleur  </span> </p> </td> 
    <td colname="col2"> <p>Kleur van bijschrifttekst. </p> </td> 
   </tr> 
  </tbody> 
@@ -736,7 +739,7 @@ De afstand tussen het keuzerondje en het bijschrift wordt geregeld met de volgen
 <table id="table_BDD03247E594416D93CDF8604DCE937B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge-rechts </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge-rechts  </span> </p> </td> 
    <td colname="col2"> <p> Tussenruimte tussen het keuzerondje en het bijschrift. </p> </td> 
   </tr> 
  </tbody> 
@@ -753,11 +756,11 @@ Numerieke kiezers voor het selecteren van het afdrukbereik worden beheerd met de
 <table id="table_35413C16F6B840EBBEEA17890F2A0490"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p> Breedte van de numerieke kiezer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge  </span> </p> </td> 
    <td colname="col2"> <p> De ruimte rondom de numerieke kiezer. </p> </td> 
   </tr> 
  </tbody> 
@@ -792,19 +795,19 @@ De horizontale scheidingslijn tussen de selectie van het paginabereik en de gede
 <table id="table_AB42F1DC92BB4946868F0A9FE86ABAA6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
    <td colname="col2"> <p> Rand rond scheidingslijn. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
    <td colname="col2"> <p>Opvulling binnen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Scheidingsbreedte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge  </span> </p> </td> 
    <td colname="col2"> <p>Buitenmarge </p> </td> 
   </tr> 
  </tbody> 
