@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 13120562-9201-4733-bd9d-4a54eac913e9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '197'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +30,7 @@ Vergelijkbare vereisten als Voorbeeld A, maar gebruik een achtergrond met een ef
  </tr> 
 </table>
 
-De afbeelding wordt in laag 0 geplaatst en de hoogtewaarde van `size=` is ingesteld op 0. Hierdoor wordt de werkelijke hoogte bepaald door de hoogte van de afbeelding nadat deze is geschaald naar 800 pixels breed.
+De afbeelding wordt in laag 0 geplaatst en de hoogtewaarde `size=` wordt ingesteld op 0, waardoor de werkelijke hoogte wordt bepaald door de hoogte van de afbeelding nadat deze is geschaald naar 800 pixels breed.
 
 `extend=` Hiermee voegt u 100 pixels boven en onder en 200 pixels rechts toe.
 
