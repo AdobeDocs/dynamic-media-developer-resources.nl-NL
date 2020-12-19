@@ -1,6 +1,6 @@
 ---
-description: Stelt een XMP-metagegevenspakket voor een element in of werkt dit bij.
-seo-description: Stelt een XMP-metagegevenspakket voor een element in of werkt dit bij.
+description: Stelt een pakket met XMP metagegevens voor een element in of werkt dit bij.
+seo-description: Stelt een pakket met XMP metagegevens voor een element in of werkt dit bij.
 seo-title: updateXMPPacket
 solution: Experience Manager
 title: updateXMPPacket
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: 97a40261-8f85-4e8c-8aa5-ed4fec297f33
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 0%
 
 ---
 
 
 # updateXMPPacket{#updatexmppacket}
 
-Stelt een XMP-metagegevenspakket voor een element in of werkt dit bij.
+Stelt een pakket met XMP metagegevens voor een element in of werkt dit bij.
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-ee88a759f4774482a4734201a971f610}
+## Toegestane gebruikerstypen {#section-ee88a759f4774482a4734201a971f610}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,13 +39,13 @@ Syntaxis
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | Ja | Bedrijfshandgreep. |
 | ` *`assetHandle`*` | `xsd:string` | Ja | Asset handle. |
-| ` *`compressedPacket`*` | `xsd:Base 64 binary` | Ja | [!DNL zlib-compressed] XMP-pakket dat u wilt instellen of bijwerken. |
+| ` *`compressedPacket`*` | `xsd:Base 64 binary` | Ja | [!DNL zlib-compressed] XMP pakket wilt u plaatsen of bijwerken. |
 
 **Uitvoer (updateXMPPacketReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`succes`*` | `xsd:boolean` | Ja | Keert terug `true` als het pakket werd bijgewerkt. |
+| ` *`succes`*` | `xsd:boolean` | Ja | Keert `true` terug als het pakket werd bijgewerkt. |
 
 ## Voorbeelden {#section-38b556b94e5044bf97a954519ff6c212}
 
