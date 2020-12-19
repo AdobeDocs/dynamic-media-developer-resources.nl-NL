@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: a8e25f27-c300-424d-83ac-e41bb4cb7964
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '103'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Voegt een gebruiker aan een serie van groepen toe.
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-fe950150718a474d8df30d0f4453c022}
+## Toegestane gebruikerstypen {#section-fe950150718a474d8df30d0f4453c022}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -39,13 +42,13 @@ Syntaxis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> gebruikershandgreep</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> <p>Nee </p> </td> 
    <td colname="col4"> <p>Handgreep aan de gebruiker van wie groepslidmaatschap u wilt toevoegen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> groupHandleArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> groupHandleArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:HandleArray</span> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Serie van handvatten aan de groepen u het bedrijf tot wilt behoren. </p> </td> 
