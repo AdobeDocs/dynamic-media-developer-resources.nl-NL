@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: f264154b-eb4d-4dcb-b8c0-e06c383198ae
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '384'
+ht-degree: 0%
 
 ---
 
 
-# Knop Video volledig scherm{#video-full-screen-button}
+# Video volledig-schermknoop{#video-full-screen-button}
 
 De knop Volledig scherm zorgt ervoor dat de viewer de modus Volledig scherm opent of verlaat wanneer de gebruiker hierop klikt. Het wordt gebruikt wanneer de kijker video toont en in de controlebar wordt gevestigd. Deze knop wordt niet weergegeven als de viewer werkt in de pop-upmodus en het systeem geen native volledig scherm ondersteunt.
 
@@ -31,19 +34,19 @@ De weergave van de knop Volledig scherm wordt bepaald door de CSS-klassenkiezer:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p> Positie vanaf de bovenrand, inclusief opvulling. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
    <td colname="col2"> <p> Positie vanaf de rechterrand, inclusief opvulling. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
    <td colname="col2"> <p> Positie vanaf de linkerrand, inclusief opvulling. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
    <td colname="col2"> <p>Positie vanaf de onderrand, inclusief opvulling. </p> </td> 
   </tr> 
   <tr> 
@@ -51,15 +54,15 @@ De weergave van de knop Volledig scherm wordt bepaald door de CSS-klassenkiezer:
    <td colname="col2"> <p> De breedte van de knop Volledig scherm. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>De hoogte van de knop Volledig scherm. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
    <td colname="col2"> <p> De weergegeven afbeelding voor een bepaalde knopstatus. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -67,7 +70,7 @@ De weergave van de knop Volledig scherm wordt bepaald door de CSS-klassenkiezer:
 
 >[!NOTE]
 >
->Deze knop ondersteunt zowel de selectors `state` als `selected` kenmerken, die kunnen worden gebruikt om verschillende skins toe te passen op verschillende knoptoestanden. Dit komt met name overeen met `selected='true'` de toestand &quot;Volledig scherm&quot; en `selected='false'` komt overeen met de toestand &quot;Normaal&quot;.
+>Deze knoop steunt zowel `state` als `selected` attribuutselecteurs, die kunnen worden gebruikt om verschillende huiden op verschillende knoopstaten toe te passen. Met name `selected='true'` komt overeen met de status &quot;volledig scherm&quot; en `selected='false'` komt overeen met de status &quot;normaal&quot;.
 
 De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) voor meer informatie.
 
