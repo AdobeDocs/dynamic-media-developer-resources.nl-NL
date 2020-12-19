@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 3c8148d5-dec6-4ffa-8ab8-2cd70811ada6
 translation-type: tm+mt
 source-git-commit: d3766bba78cd1051538ff6a94f61ba61e989f1a5
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: d3766bba78cd1051538ff6a94f61ba61e989f1a5
 
 Hiermee verwijdert u een vignetpublicatie-indeling.
 
-## Geautoriseerde gebruikerstypen {#section-a127680d6b53462daaf2579d6f6fe5a8}
+## Toegestane gebruikerstypen {#section-a127680d6b53462daaf2579d6f6fe5a8}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
