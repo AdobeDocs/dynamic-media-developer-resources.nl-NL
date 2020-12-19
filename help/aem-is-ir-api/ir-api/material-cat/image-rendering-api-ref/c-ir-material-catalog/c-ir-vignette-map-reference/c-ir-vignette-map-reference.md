@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: a7056c16-1d05-44c8-9dd5-8969f64d3383
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 0%
 
 ---
 
 
-# Verwijzing naar vignet met hyperlinks{#vignette-map-reference}
+# Referentie vignetmap{#vignette-map-reference}
 
 Als een vignetkaart voor een materiaalcatalogus wordt vereist, moet het relatieve of absolute pad van het bestand met vignettoewijzing worden opgegeven in het kenmerk:VignetteMapFile.
 
