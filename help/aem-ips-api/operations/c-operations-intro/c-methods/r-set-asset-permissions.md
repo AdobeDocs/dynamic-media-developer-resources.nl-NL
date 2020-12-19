@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 38f26482-bce9-4d2c-9714-e8c3ae40c2d1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '138'
+ht-degree: 0%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Plaatst de toestemmingen van één enkel middel door een toestemmingsactiva te gebruiken.
 
-Elementen nemen standaard de machtigingen van hun bovenliggende map over. Nadat u machtigingen voor een element hebt ingesteld, worden de machtigingen van het bovenliggende element niet meer overgeërfd, tenzij u deze aanroept `removeAssetPermissions`.
+Elementen nemen standaard de machtigingen van hun bovenliggende map over. Zodra u toestemmingen op een activa plaatst, erft het niet meer de toestemmingen van zijn ouder tenzij u `removeAssetPermissions` roept.
 
-## Geautoriseerde gebruikerstypen {#section-91fafc170c734ed2a77beafda9221768}
+## Toegestane gebruikerstypen {#section-91fafc170c734ed2a77beafda9221768}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
