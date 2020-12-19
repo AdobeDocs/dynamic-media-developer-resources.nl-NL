@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 2cc2fb9f-ad32-4ac6-8e58-c8a11b786d65
 translation-type: tm+mt
 source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +40,7 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 * [PDF-processen](r-pdf-processes.md)
 * [Machtigingstypen](r-permission-types.md)
 * [Photoshop-ankermodi](r-photoshop-anchor-modes.md)
-* [Photoshop-laagnaamgevingsmodi](r-photoshop-layer-naming-modes.md)
+* [Naamgevingsmodi voor Photoshop-lagen](r-photoshop-layer-naming-modes.md)
 * [PostScript-kleurruimtemodi](r-postscript-colorspace-modes.md)
 * [Profielklassen](r-profile-classes.md)
 * [Status publiceren](r-publish-state.md)
