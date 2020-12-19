@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 71cdec4e-c1d6-4518-87ed-5c47a5112b15
 translation-type: tm+mt
 source-git-commit: b5eaefb375fbd0d0786619fa6d84b4f6fc17a77f
+workflow-type: tm+mt
+source-wordcount: '99'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: b5eaefb375fbd0d0786619fa6d84b4f6fc17a77f
 
 Hiermee verwijdert u waarden van tagvelden uit het woordenboek van een tagveld.
 
-## Geautoriseerde gebruikerstypen {#section-e6f97c875c2a4cf0a7bc22096b649497}
+## Toegestane gebruikerstypen {#section-e6f97c875c2a4cf0a7bc22096b649497}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
