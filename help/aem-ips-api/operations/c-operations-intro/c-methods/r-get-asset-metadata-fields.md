@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 01d5076f-f187-4069-b2f2-806fb1d8be84
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '72'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Retourneert alle metagegevensvelden, gegroepeerd op elementtype.
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-e19a9d21cc2b45469c233d4ae55ebfc2}
+## Toegestane gebruikerstypen {#section-e19a9d21cc2b45469c233d4ae55ebfc2}
 
 * `IpsUser`
 * `IpsAdmin`
