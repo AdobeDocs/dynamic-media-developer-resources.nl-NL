@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: b660b9fd-592b-4072-83c9-f70330ee19ab
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 0%
 
 ---
 
@@ -29,11 +32,11 @@ De vormgeving van het pictogram Favoriet wordt bepaald door de volgende CSS-klas
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
    <td colname="col2"> <p> De afbeelding die voor het pictogram wordt weergegeven. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie ook <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -41,7 +44,7 @@ De vormgeving van het pictogram Favoriet wordt bepaald door de volgende CSS-klas
    <td colname="col2"> <p>Breedte van het pictogram. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van het pictogram. </p> </td> 
   </tr> 
  </tbody> 
@@ -57,20 +60,20 @@ Voorbeeld - stel een pictogram Favorieten van 36 x 36 pixels in.
 }
 ```
 
-Op desktopsystemen ondersteunt de component de `cursortype` kenmerkkiezer die u op de `.s7favoriteseffect` klasse kunt toepassen en het type cursor op basis van de geselecteerde gebruikersactie. De volgende `cursortype` waarden worden ondersteund:
+Op desktopsystemen ondersteunt de component de `cursortype`-kenmerkkiezer die u kunt toepassen op de klasse `.s7favoriteseffect` en bepaalt het type cursor op basis van de geselecteerde gebruikershandeling. De volgende `cursortype` waarden worden ondersteund:
 
 <table id="table_71F8F333909247E4ACFEBDE3A1370EAB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mode_add </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mode_add  </span> </p> </td> 
    <td colname="col2"> <p>Weergegeven gebruiker voegt een nieuw pictogram Favoriet toe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mode_remove </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mode_remove  </span> </p> </td> 
    <td colname="col2"> <p>Weergegeven gebruiker verwijdert een bestaand pictogram Favoriet. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mode_view </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mode_view  </span> </p> </td> 
    <td colname="col2"> <p>Wordt weergegeven in de normale bewerkingsmodus wanneer Favorieten bewerken niet actief is. </p> </td> 
   </tr> 
  </tbody> 
