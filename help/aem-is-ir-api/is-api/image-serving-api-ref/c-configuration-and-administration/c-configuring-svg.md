@@ -8,17 +8,20 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: f6e131af-283e-4649-b349-123489c0838d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 0%
 
 ---
 
 
-# SVG configureren{#configuring-svg}
+# SVG{#configuring-svg} configureren
 
 De component SvgRender is een onafhankelijke Java-toepassing.
 
-De de configuratiemontages van SVG worden gevestigd in [!DNL PlatformServer.conf], [!DNL SVG.conf], [!DNL ImageServerRegistry.xml], en [!DNL ServerSupervisorRegistry.xml].
+SVG-configuratie-instellingen bevinden zich in [!DNL PlatformServer.conf], [!DNL SVG.conf], [!DNL ImageServerRegistry.xml] en [!DNL ServerSupervisorRegistry.xml].
 
-Een contactdoosverbinding wordt gebruikt om tussen SvgRender en de Server van het Beeld te communiceren. Het poortnummer is 27346. Indien nodig kunt u de waarde wijzigen door `SVGRender.port` in [!DNL svg.conf] en `<SVGTcpPort>` in [!DNL ImageServerRegistry.xml] te stellen op een nieuwe waarde.
+Een contactdoosverbinding wordt gebruikt om tussen SvgRender en de Server van het Beeld te communiceren. Het poortnummer is 27346. Indien nodig, kan het worden veranderd door `SVGRender.port` in [!DNL svg.conf] en `<SVGTcpPort>` in [!DNL ImageServerRegistry.xml] in een nieuwe waarde te plaatsen.
 
 ## Zie ook {#section-c085b47d54d44059bdaa67fd5e226e91}
 
