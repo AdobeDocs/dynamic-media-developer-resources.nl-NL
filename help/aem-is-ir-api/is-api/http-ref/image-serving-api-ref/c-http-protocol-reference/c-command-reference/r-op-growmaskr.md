@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: b81968e7-ebaf-426c-9230-1afcf4b5cf24
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '112'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +24,7 @@ Afbeelding vervagen/eroderen. Past een morfologische dilaat (straal > 0) of erod
 <table id="simpletable_3BAA4523D29E447FA7A4C9009B3E8344"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> radiusR</span></span> </p> </td> 
-  <td class="stentry"> <p>Straal verwateren/eroderen in pixels waar <span class="codeph"><span class="varname"> straalR</span></span> ongewijzigd wordt toegepast, ongeacht of het masker is gedownsampled (int -100..100). </p></td> 
+  <td class="stentry"> <p>Straal verwateren/eroderen in pixels waarin <span class="codeph"><span class="varname"> radiusR</span></span> ongewijzigd wordt toegepast, ongeacht of het masker is gedownsampled (int -100..100). </p></td> 
  </tr> 
 </table>
 
