@@ -1,6 +1,6 @@
 ---
 description: Kenmerkbestanden van catalogi herkennen deze algemene miniatuurkenmerken.
-seo-description: Catalog attribute files recognize these common thumbnail attributes.
+seo-description: Kenmerkbestanden van catalogi herkennen deze algemene miniatuurkenmerken.
 seo-title: Algemene miniatuurkenmerken
 solution: Experience Manager
 title: Algemene miniatuurkenmerken
@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 937988ba-43c3-4542-8e48-9f94cf3f61ad
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '48'
+ht-degree: 0%
 
 ---
 
