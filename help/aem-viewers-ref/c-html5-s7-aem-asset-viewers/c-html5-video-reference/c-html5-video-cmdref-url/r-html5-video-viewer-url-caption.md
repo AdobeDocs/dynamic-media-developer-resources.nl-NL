@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 670d83c2-bfc5-411a-8581-5103a62aa8cf
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 1%
 
 ---
 
 
-# bijschrift{#caption}
+# caption{#caption}
 
 URL-opdracht voor video-viewer.
 
@@ -34,7 +37,7 @@ De viewer ondersteunt ondertiteling via gehoste WebVTT-bestanden. Overlappende c
    <td colname="col1"> <p> A </p> </td> 
    <td colname="col2"> <p>tekst uitlijnen </p> </td> 
    <td colname="col3"> <p><span class="codeph"> left|right|middle|start|end</span> </p> </td> 
-   <td colname="col4"> <p> Tekstuitlijning bepalen. </p> <p>De standaardwaarde is <span class="codeph"> midden</span>. </p> </td> 
+   <td colname="col4"> <p> Tekstuitlijning bepalen. </p> <p>Standaard is <span class="codeph"> midden</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>T </p> </td> 
