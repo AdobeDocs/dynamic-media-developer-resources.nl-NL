@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 791c47e9-daab-4500-9cd0-e56ee6fc830e
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 0%
 
 ---
 
 
-# weggooien{#dispose}
+# dispose{#dispose}
 
 JavaScript API-referentie voor eCatalog Viewer.
 
@@ -22,9 +25,9 @@ Hiermee wordt deze viewerinstantie verwijderd door alle bronnen die door de view
 
 De webpaginacode moet ook de viewerinstantievariabele verwijderen om de viewer volledig uit het webbrowsergeheugen te verwijderen.
 
-Als de webpaginacode gebeurtenislisteners rechtstreeks heeft geregistreerd in Viewer SDK-componenten die worden gebruikt door de viewer of opgeslagen externe referenties naar dergelijke componenten, moeten deze listeners expliciet niet zijn geregistreerd door de webpaginacode en moeten deze externe componentverwijzingen worden verwijderd voordat ze worden aangeroepen [!DNL `dispose()`].
+Als de webpaginacode gebeurtenislisteners rechtstreeks heeft geregistreerd in Viewer SDK-componenten die worden gebruikt door de viewer of opgeslagen externe referenties naar dergelijke componenten, moeten deze listeners expliciet niet zijn geregistreerd door de webpaginacode en moeten deze externe componentverwijzingen worden verwijderd voordat [!DNL `dispose()`] wordt aangeroepen.
 
-Open de viewer-API niet meer nadat deze [!DNL `dispose()`] is aangeroepen.
+Open de viewer-API niet meer nadat [!DNL `dispose()`] is aangeroepen.
 
 ## Parameters {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 
