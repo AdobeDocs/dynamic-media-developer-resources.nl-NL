@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 06e9d745-b711-43e3-8dc6-93da66b981b1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +24,7 @@ Retourneert alle mappen en submappen, te beginnen bij het mappad. De reactie get
 Met een map kunt u submappen en elementen ordenen. Alle map- en elementnamen moeten uniek zijn. Mappen en elementen met dezelfde naam veroorzaken een naamruimteconflict, zelfs als ze zich in verschillende maphiërarchieën bevinden.
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-0dc7e17cb60f4cf7bcdb76648e5d2f8e}
+## Toegestane gebruikerstypen {#section-0dc7e17cb60f4cf7bcdb76648e5d2f8e}
 
 * `IpsUser`
 * `IpsAdmin`
