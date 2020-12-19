@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: eb17d115-22ec-4b1b-9039-9bd2bc256f48
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '114'
+ht-degree: 0%
 
 ---
 
@@ -18,9 +21,9 @@ Modifier-tekenreeks voor voorvoegselverzoek. Geen of meer opdrachten Afbeeldings
 
 Wordt gebruikt om afbeeldingen permanent te wijzigen en de tekst van sjablonen op te slaan.
 
-Opdrachten in dit veld worden overschreven door dezelfde opdrachten in de aanvraag of sjabloon waarnaar wordt verwezen in deze record, en door opdrachten in `catalog::PostModifier`
+Opdrachten in dit veld worden overschreven door dezelfde opdrachten in de aanvraag of sjabloon waar naar deze record wordt verwezen, en door opdrachten in `catalog::PostModifier`
 
-Macro&#39;s zijn toegestaan in, `catalog::Modifier`zolang ze in dezelfde catalogus of in de standaardcatalogus zijn gedefinieerd. Ook aangepaste variabelen kunnen worden gebruikt.
+Macro&#39;s zijn toegestaan in `catalog::Modifier`, zolang ze in dezelfde catalogus of in de standaardcatalogus zijn gedefinieerd. Ook aangepaste variabelen kunnen worden gebruikt.
 
 ## Eigenschappen {#section-6674388f77d644469371a17e8809c45f}
 
