@@ -31,7 +31,7 @@ Syntaxis
 | ` *`originalName`*` | `xsd:string` | Oorspronkelijke naam van de geplande taak. |
 | ` *`type`*` | `xsd:string` | Taaktype. |
 | ` *`submitUserEmail`*` | `xsd:string` | Het e-mailadres van de gebruiker die de taak heeft gepland. |
-| ` *`landinstelling`*` | `xsd:string` | De landinstelling die moet worden gebruikt voor loggegevens van taken en e-maillokalisatie. Landinstellingen worden opgegeven als `<language_code>[- <country_code>]`, waarbij de taalcode een code van twee kleine letters is, zoals gespecificeerd in ISO-639, en de optionele landcode een code van twee letters in hoofdletters is, zoals gespecificeerd in ISO-3166. De landinstelling voor Engels (Verenigde Staten) zou bijvoorbeeld als volgt zijn: `en-US`. |
+| ` *`landinstelling`*` | `xsd:string` | De landinstelling die moet worden gebruikt voor loggegevens van taken en e-maillokalisatie. Landinstellingen worden opgegeven als `<language_code>[- <country_code>]`, waarbij de taalcode een code van twee kleine letters is zoals gespecificeerd in ISO-639, en de optionele landcode een code van twee letters in hoofdletters is zoals gespecificeerd in ISO-3166. De landinstelling voor Engels (Verenigde Staten) zou bijvoorbeeld als volgt zijn: `en-US`. |
 | ` *`beschrijving`*` | `xsd:string` | Een beschrijving van de taak zoals oorspronkelijk opgegeven in `submitJob`. |
 | ` *`execSchedule`*` | `xsd:string` | Wanneer de taak volgens planning moet worden uitgevoerd. |
 | ` *`nextFireTime`*` | `xsd:dateTime` | De datum, tijd en tijdzone waarop de taak wordt gestart. |
@@ -46,11 +46,11 @@ Syntaxis
 | ` *`optimizeImagesJob`*` | `types:OptimizeImagesJob` |  |
 | ` *`ripPdfsJob`*` | `types:RipPdfsJob` |  |
 | ` *`reprocessAssetsJob`*` | `types:ReprocessAssetsJob` |  |
-| ` *`exportJob`*` | `types:ExportJob` | Toestaan dat eerder geüploade bestanden zijn geëxporteerd. Zie Taak [exporteren](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
+| ` *`exportJob`*` | `types:ExportJob` | Toestaan dat eerder geüploade bestanden zijn geëxporteerd. Zie [Taak exporteren](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
 
 ## Notities {#section-34ec157f281f412f9f0f6e861e6ed0cd}
 
-Wanneer u een taaktypewaarde opgeeft in, `submitJob`retourneert het systeem een taak op basis van dat type. De volgende taken kunnen worden geretourneerd:
+Wanneer u een taaktypewaarde opgeeft in `submitJob`, retourneert het systeem een taak op basis van dat type. De volgende taken kunnen worden geretourneerd:
 
 * `imageServingPublishJob`
 * `imageRenderingPublishJob`
