@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 52e3a21e-1dd5-4f9d-b460-506d280fff47
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '116'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Hiermee stelt u gebruikerskenmerken in (bijvoorbeeld naam, e-mail, rol, enz.)
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-6c28db5d15b3449492a73749e4f981ac}
+## Toegestane gebruikerstypen {#section-6c28db5d15b3449492a73749e4f981ac}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -35,7 +38,7 @@ Syntaxis
 | ` *`firstName`*` | `xsd:string` | Ja | Voornaam. |
 | ` *`lastName`*` | `xsd:string` | Ja | Achternaam. |
 | ` *`email`*` | `xsd:string` | Ja | E-mailadres gebruiker. |
-| ` *`defaultRole`*` | `xsd:string` | Ja | Plaatst de rol voor een gebruiker in elk bedrijf zij tot behoren. Nota, echter, treedt de `IpsAdmin` rol andere per-bedrijfmontages met voeten. |
+| ` *`defaultRole`*` | `xsd:string` | Ja | Plaatst de rol voor een gebruiker in elk bedrijf zij tot behoren. De rol `IpsAdmin` negeert echter andere instellingen per bedrijf. |
 | ` *`passwordExpires`*` | `xsd:dateTime` | Nee | Vervaldatum wachtwoord van set. |
 | ` *`isValid`*` | `xsd:boolean` | Ja | Hiermee wordt bepaald of de gebruiker een geldige IPS-gebruiker is. |
 | ` *`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Ja | Een array met bedrijfshandgrepen. |
