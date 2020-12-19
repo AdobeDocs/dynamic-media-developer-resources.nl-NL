@@ -21,7 +21,7 @@ Wordt gebruikt door ActiveJob/type en ScheduledJob/type.
 
 Syntaxis
 
-## Values {#section-5a623c905fb24fcd8d2dd655968aa666}
+## Waarden {#section-5a623c905fb24fcd8d2dd655968aa666}
 
 * `ImageServingPublish`
 * `ImageRenderingPublish`
