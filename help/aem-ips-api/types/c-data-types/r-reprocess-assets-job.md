@@ -55,7 +55,7 @@ Syntaxis
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> preserveCrop</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:Boolean</span> </p> </td> 
-   <td colname="col3"> <p>Hiermee regelt u het behoud van bestaande uitsnijddefinities. De standaardwaarde is true.</p> <p>Als u de parameter manualCropOptions en de bijbehorende waarden opgeeft, worden de nieuwe waarden (behalve 0,0,0,0) toegepast op het element, ongeacht de waarde preserveCrop.</p><p>Als u de parameter manualCropOptions <i>niet</i> verschaft, blijft de waarde van preserveCrop behouden. En in het geval van true blijven de bestaande preserveCrop-waarden behouden. in het geval van false worden de waarden preserveCrop verwijderd.</p><p>Voorbeeld:</p><p><p>&lt;preserveCrop&gt;false&lt;/preserveCrop&gt;<br />&lt;manualCropOptions&gt;<br />&lt;left&gt;190&lt;/left&gt;<br />&lt;right&gt;310&lt;/right&gt;<br />&lt;top&gt;160&lt;/top&gt;<br />&lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualCropOptions&gt;</p> </td> 
+   <td colname="col3"> <p>Hiermee regelt u het behoud van bestaande uitsnijddefinities. De standaardwaarde is true.</p> <p>Als u de parameter manualCropOptions en de bijbehorende waarden opgeeft, worden de nieuwe waarden (behalve 0,0,0,0) toegepast op het element, ongeacht de waarde preserveCrop.</p><p>Als u <i>not</i> de parameter manualCropOptions verstrekt, wordt de waarde van preserveCrop gehandhaafd. En in het geval van true blijven de bestaande preserveCrop-waarden behouden. in het geval van false worden de waarden preserveCrop verwijderd.</p><p>Voorbeeld:</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />    &lt;left&gt;190&lt;/left&gt;<br />    &lt;right&gt;310&lt;/right&gt;<br />    &lt;top&gt;160&lt;/top&gt;<br />    &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 
@@ -150,7 +150,7 @@ Syntaxis
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> types:KnockoutBackgroundOptions</span> </p> </td> 
-   <td colname="col3"> <p>Masker de achtergrond voor geselecteerde afbeeldingen. Hierdoor kunt u ze in andere lagen bedekken met transparantie buiten de afbeelding van het onderwerp. </p> <p>Optioneel. </p> <p>Zie<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> AfdekoptiesAchtergrond</a> </p> </td> 
+   <td colname="col3"> <p>Masker de achtergrond voor geselecteerde afbeeldingen. Hierdoor kunt u ze in andere lagen bedekken met transparantie buiten de afbeelding van het onderwerp. </p> <p>Optioneel. </p> <p>Zie<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </p> </td> 
@@ -162,13 +162,13 @@ Syntaxis
 
 **Notities**
 
-Keuzen voor `*CropOptions` zijn:
+De opties voor `*CropOptions` omvatten:
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-Keuzen voor `*PublishJob` zijn:
+De opties voor `*PublishJob` omvatten:
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`
