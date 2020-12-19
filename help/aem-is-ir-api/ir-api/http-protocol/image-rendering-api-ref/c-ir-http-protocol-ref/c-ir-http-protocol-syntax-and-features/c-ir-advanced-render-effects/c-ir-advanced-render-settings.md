@@ -1,6 +1,6 @@
 ---
-description: Het hulpmiddel van de Authoring van Vignet (een deel van het Scene7 pakket van de Authoring) verstrekt mechanismen om laag-vlakke aspecten van de vignet terug te geven motor te controleren.
-seo-description: Het hulpmiddel van de Authoring van Vignet (een deel van het Scene7 pakket van de Authoring) verstrekt mechanismen om laag-vlakke aspecten van de vignet terug te geven motor te controleren.
+description: Het hulpprogramma Vignet Authoring (onderdeel van het Scene7-pakket voor het maken van afbeeldingen) biedt mechanismen voor de besturing van aspecten op laag niveau van de engine voor het renderen van vignetten.
+seo-description: Het hulpprogramma Vignet Authoring (onderdeel van het Scene7-pakket voor het maken van afbeeldingen) biedt mechanismen voor de besturing van aspecten op laag niveau van de engine voor het renderen van vignetten.
 seo-title: Geavanceerde renderinstellingen
 solution: Experience Manager
 title: Geavanceerde renderinstellingen
@@ -8,21 +8,24 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 18e7f3cf-4d30-445c-813c-546a91987b99
 translation-type: tm+mt
 source-git-commit: e3b096b97419a86de244b97876439ad9c491b950
+workflow-type: tm+mt
+source-wordcount: '630'
+ht-degree: 17%
 
 ---
 
 
 # Geavanceerde renderinstellingen{#advanced-render-settings}
 
-Het hulpmiddel van de Authoring van Vignet (een deel van het Scene7 pakket van de Authoring) verstrekt mechanismen om laag-vlakke aspecten van de vignet terug te geven motor te controleren.
+Het hulpprogramma Vignet Authoring (onderdeel van het Scene7-pakket voor het maken van afbeeldingen) biedt mechanismen voor de besturing van aspecten op laag niveau van de engine voor het renderen van vignetten.
 
 >[!NOTE]
 >
 >Renderinstellingen zijn een geavanceerde functie voor het renderen van afbeeldingen en het ontwerpen van afbeeldingen. Neem contact op met de technische ondersteuning van Adobe of uw Adobe-consultant voor training, overleg of beide over het gebruik van Render-instellingen.
 
-Deze instellingen worden op interactieve wijze beheerd in het ontwerpen van afbeeldingen. Het is mogelijk dezelfde instellingen toe te passen bij Rendering afbeelding met de `rs=` opdracht (of met de `catalog::RenderSettings` waarde). Dit mechanisme wordt gebruikt om verschillende verscherpingsopties voor elk materiaal te selecteren en het gedrag van de belichtingsrenderingalgoritmen te wijzigen, zoals het variëren van de verzadiging van hooglichten of het contrast in schaduwen.
+Deze instellingen worden op interactieve wijze beheerd in het ontwerpen van afbeeldingen. Het is mogelijk dezelfde instellingen toe te passen bij het renderen van afbeeldingen met de opdracht `rs=` (of met de waarde `catalog::RenderSettings`). Dit mechanisme wordt gebruikt om verschillende verscherpingsopties voor elk materiaal te selecteren en het gedrag van de belichtingsrenderingalgoritmen te wijzigen, zoals het variëren van de verzadiging van hooglichten of het contrast in schaduwen.
 
-## Geavanceerde renderinstellingen (rs=) waarden {#section-d9e7f341ebd44f07a4e90f1f5910726b}
+## Geavanceerde renderinstellingen (rs=) {#section-d9e7f341ebd44f07a4e90f1f5910726b}
 
 <table id="table_1517FC39C7344EBB9F17BE20415DB057"> 
  <thead> 
@@ -39,7 +42,7 @@ Deze instellingen worden op interactieve wijze beheerd in het ontwerpen van afbe
    <td colname="col1"> <p>A </p> </td> 
    <td colname="col2"> <p>Effecten renderen/Alternatieve arcering heeft voorrang op de instelling in het vignet. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
-   <td colname="col4"> <p>1 </p> </td> 
+   <td colname="col4"> <p>3 </p> </td> 
    <td colname="col5"> <p>A0=Effecten renderen </p> <p>A1=Alternatieve arcering </p> </td> 
   </tr> 
   <tr> 
@@ -52,14 +55,14 @@ Deze instellingen worden op interactieve wijze beheerd in het ontwerpen van afbe
   <tr> 
    <td colname="col1"> <p>W </p> </td> 
    <td colname="col2"> <p>USM-hoeveelheid (%). </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>500 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>V </p> </td> 
    <td colname="col2"> <p>USM-straal (pixels). </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>100 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
@@ -73,7 +76,7 @@ Deze instellingen worden op interactieve wijze beheerd in het ontwerpen van afbe
   <tr> 
    <td colname="col1"> <p>Q </p> </td> 
    <td colname="col2"> <p>Modus voor vergroten/verkleinen. </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>5 </p> </td> 
    <td colname="col5"> <p> 
      <ul id="ul_87184BB93E7F46D59BA1AAAFA8455512"> 
@@ -109,7 +112,7 @@ Deze instellingen worden op interactieve wijze beheerd in het ontwerpen van afbe
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
    <td colname="col2"> <p>Supersampling: Willekeurige snelheid. </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>20 </p> </td> 
    <td colname="col5"> <p>De standaardwaarde is 5. </p> </td> 
   </tr> 
@@ -130,7 +133,7 @@ Deze instellingen worden op interactieve wijze beheerd in het ontwerpen van afbe
   <tr> 
    <td colname="col1"> <p>P </p> </td> 
    <td colname="col2"> <p>Poisson: Samples/Pixel. </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>4 </p> </td> 
    <td colname="col5"> <p>De standaardwaarde is 1. </p> </td> 
   </tr> 
@@ -138,7 +141,7 @@ Deze instellingen worden op interactieve wijze beheerd in het ontwerpen van afbe
    <td colname="col1"> <p>Y </p> </td> 
    <td colname="col2"> <p>Poisson: Schakelen. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
-   <td colname="col4"> <p>1 </p> </td> 
+   <td colname="col4"> <p>3 </p> </td> 
    <td colname="col5"> <p>De standaardwaarde is 1. </p> </td> 
   </tr> 
   <tr> 
@@ -309,7 +312,7 @@ Deze instellingen worden op interactieve wijze beheerd in het ontwerpen van afbe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>H60I30J10K200L400U1V10W100X0 </p> </td> 
+   <td colname="col1"> <p>H60i30J10K200L400U1V10W100X0 </p> </td> 
    <td colname="col2"> <p>Standaardwaarden in Afbeeldingsontwerpomgeving. 
      <ul id="ul_AA7CF1A3E6984B318265BBE8FFFBB4EE">
       <li> USM1
