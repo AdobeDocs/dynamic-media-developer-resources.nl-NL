@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: d38c614b-01ed-4fad-a510-30386ac9a63d
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '65'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> onder|boven|links|rechts|geen|knopinfo</span> </p> </td> 
-   <td> <p> Hiermee geeft u op waar het label wordt getekend ten opzichte van de miniatuurafbeelding. Het label wordt dus gecentreerd op de opgegeven locatie ten opzichte van de miniatuur. </p> <p>Wanneer <span class="codeph"> knopinfo</span> is opgegeven, wordt de labeltekst weergegeven als zwevende knopinfo boven de miniatuurafbeelding. Stel in op <span class="codeph"> Geen</span> om label uit te schakelen. </p> </td> 
+   <td> <p> Hiermee geeft u op waar het label wordt getekend ten opzichte van de miniatuurafbeelding. Het label wordt dus gecentreerd op de opgegeven locatie ten opzichte van de miniatuur. </p> <p>Wanneer <span class="codeph"> tooltip</span> wordt gespecificeerd, wordt de etikettekst getoond als het drijven hulpmiddeluiteinde over het duimnagelbeeld. Stel in op <span class="codeph"> none</span> om label uit te schakelen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
