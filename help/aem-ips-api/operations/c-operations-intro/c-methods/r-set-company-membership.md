@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 34c9d457-bc2e-4186-8a8f-50388410640a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '86'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Hiermee stelt u het lidmaatschap van een gebruiker in een of meer bedrijven in.
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-0cbcc78cfee64c2baf66f29cce6d0a65}
+## Toegestane gebruikerstypen {#section-0cbcc78cfee64c2baf66f29cce6d0a65}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
