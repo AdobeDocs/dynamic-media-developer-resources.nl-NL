@@ -1,6 +1,6 @@
 ---
-description: Geeft een array met padnamen van Photoshop voor de opgegeven afbeelding.
-seo-description: Geeft een array met padnamen van Photoshop voor de opgegeven afbeelding.
+description: Geeft als resultaat een array met Photoshop-padnamen voor de opgegeven afbeelding.
+seo-description: Geeft als resultaat een array met Photoshop-padnamen voor de opgegeven afbeelding.
 seo-title: getPhotoshopPathNames
 solution: Experience Manager
 title: getPhotoshopPathNames
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: d3f1dea5-393b-498e-963d-37a4e38068a2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '89'
+ht-degree: 0%
 
 ---
 
 
 # getPhotoshopPathNames{#getphotoshoppathnames}
 
-Geeft een array met padnamen van Photoshop voor de opgegeven afbeelding.
+Geeft als resultaat een array met Photoshop-padnamen voor de opgegeven afbeelding.
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-baa0fd4b92bc4ad89809efd659b3a629}
+## Toegestane gebruikerstypen {#section-baa0fd4b92bc4ad89809efd659b3a629}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -41,7 +44,7 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`pathNameArray`*` | `types:StringArray` | Ja | Een array met padnamen van Photoshop in een afbeelding. |
+| ` *`pathNameArray`*` | `types:StringArray` | Ja | Een array met Photoshop-padnamen in een afbeelding. |
 
 ## Voorbeelden {#section-6d316f14b4184d42af4ca3f717b042dd}
 
