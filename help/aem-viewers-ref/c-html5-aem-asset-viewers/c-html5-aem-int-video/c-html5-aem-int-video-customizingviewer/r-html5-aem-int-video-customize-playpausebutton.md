@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: d6dd795d-f608-4304-8221-251d0a082421
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '284'
+ht-degree: 0%
 
 ---
 
@@ -26,24 +29,24 @@ De volgende CSS-klassenkiezer bepaalt de vormgeving van de knop:
 .s7interactivevideoviewer .s7playpausebutton
 ```
 
-## CSS-eigenschappen van de knop Afspelen/Onderbreken {#css-properties-of-the-play-pause-button}
+## CSS-eigenschappen van de knop voor afspelen/pauzeren {#css-properties-of-the-play-pause-button}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p>Positie vanaf de bovenrand, inclusief opvulling. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
    <td colname="col2"> <p>Positie vanaf de rechterrand, inclusief opvulling. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
    <td colname="col2"> <p>Positie vanaf de linkerrand, inclusief opvulling. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
    <td colname="col2"> <p> Positie vanaf de onderrand, inclusief opvulling. </p> </td> 
   </tr> 
   <tr> 
@@ -51,15 +54,15 @@ De volgende CSS-klassenkiezer bepaalt de vormgeving van de knop:
    <td colname="col2"> <p>Breedte van de knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van de knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
    <td colname="col2"> <p>De afbeelding die voor een bepaalde knopstatus wordt weergegeven. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -67,7 +70,7 @@ De volgende CSS-klassenkiezer bepaalt de vormgeving van de knop:
 
 >[!NOTE]
 >
->Deze knop ondersteunt zowel de selectors `state`, `selected`als `replay` kenmerken, die kunnen worden gebruikt om verschillende skins toe te passen op verschillende knoptoestanden. komt met name overeen met `selected='true'` de staat &quot;play&quot; en `selected='false'` komt overeen met de staat &quot;pause&quot;;
+>Deze knoop steunt zowel `state`, `selected`, als `replay` attribuutselecteurs, die kunnen worden gebruikt om verschillende huiden op verschillende knoopstaten toe te passen. Met name `selected='true'` komt overeen met de status &quot;play&quot; en `selected='false'` komt overeen met de status &quot;pause&quot;;
 >
 >`replay='true'` wordt ingesteld wanneer de video het einde heeft bereikt en wanneer u op de knop klikt, wordt het afspelen vanaf het begin opnieuw gestart.
 
