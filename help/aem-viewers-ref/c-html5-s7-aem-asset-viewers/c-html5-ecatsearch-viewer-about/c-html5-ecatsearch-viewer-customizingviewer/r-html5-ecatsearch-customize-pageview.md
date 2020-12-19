@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: f585bf57-c66a-4213-a2af-d9625beb5bed
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '401'
+ht-degree: 0%
 
 ---
 
@@ -35,11 +38,11 @@ De vormgeving van het weergavegebied wordt bepaald door de volgende CSS-klassenk
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Achtergrondkleur van de hoofdweergave in hexadecimale notatie. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cursor </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cursor  </span> </p> </td> 
    <td colname="col2"> <p>De cursor die over de hoofdweergave wordt weergegeven. </p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +56,7 @@ Voorbeeld - om de hoofdweergave transparant te maken.
 }
 ```
 
-Op desktopsystemen ondersteunt de component de `cursortype` kenmerkenkiezer die op de `.s7pageview` klasse kan worden toegepast en bestuurt het type cursor op basis van componentstatus en gebruikersactie. De volgende `cursortype` waarden worden ondersteund:
+Op desktopsystemen ondersteunt de component de `cursortype`-kenmerkkiezer die op de klasse `.s7pageview` kan worden toegepast en bepaalt het type cursor op basis van componentstatus en gebruikersactie. De volgende `cursortype` waarden worden ondersteund:
 
 <table id="table_45B83F6CCDE84C36B0E087CA9144BFE6"> 
  <thead> 
@@ -64,23 +67,23 @@ Op desktopsystemen ondersteunt de component de `cursortype` kenmerkenkiezer die 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> default </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> default  </span> </p> </td> 
    <td colname="col2"> <p>Wordt weergegeven wanneer op de afbeelding niet kan worden ingezoomd vanwege een kleine afbeeldingsresolutie, componentinstellingen of beide. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomine </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomine  </span> </p> </td> 
    <td colname="col2"> <p>Wordt weergegeven wanneer op de afbeelding kan worden ingezoomd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> reset </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> reset  </span> </p> </td> 
    <td colname="col2"> <p>Wordt weergegeven wanneer de afbeelding zich op het maximale zoomniveau bevindt en kan worden teruggezet op de begintoestand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> slepen </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> slepen  </span> </p> </td> 
    <td colname="col2"> <p>Wordt weergegeven wanneer de gebruiker de afbeelding pant waarop is ingezoomd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> dia </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> dia  </span> </p> </td> 
    <td colname="col2"> <p>Wordt weergegeven wanneer de gebruiker een afbeeldingswisseling uitvoert door een horizontale veegbeweging of tikken uit te voeren. </p> </td> 
   </tr> 
  </tbody> 
@@ -100,10 +103,10 @@ De paginascheidingslijn die de linker- en rechterpagina van de catalogusspread v
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> De breedte van de paginascheiding. Stel dit in op <span class="codeph"> 0 </span> px om de scheidingslijn volledig te verbergen. </p> </td> 
+   <td colname="col2"> <p> De breedte van de paginascheiding. Stel in op <span class="codeph"> 0 </span> px om de scheidingslijn volledig te verbergen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
    <td colname="col2"> <p>De afbeelding die u als scheidingsteken voor de pagina wilt gebruiken. </p> </td> 
   </tr> 
  </tbody> 
@@ -120,9 +123,9 @@ Voorbeeld - voor een scheidingslijn van 40 pixels breed met een halftransparante
 
 >[!NOTE]
 >
->Wanneer de `frametransition` modifier op `turn` of `auto` (op desktopsystemen) is ingesteld, wordt de weergave van de paginascheiding bepaald met de `pageturnstyle` modifier en wordt de `.s7pagedivider` CSS-klasse genegeerd.
+>Wanneer de `frametransition` bepaling aan `turn` of `auto` (op Desktopsystemen) wordt geplaatst, wordt de verschijning van de paginaverdeler gecontroleerd met de `pageturnstyle` bepaling en de `.s7pagedivider` CSS klasse wordt genegeerd.
 
-Het is mogelijk om de weergave van aangepaste muiscursors te configureren over het hoofdviewergebied. Dit wordt beheerd met de extra kenmerkkiezers die op `.s7ecatalogsearchviewer .s7pageview` CSS-klasse worden toegepast:
+Het is mogelijk om de weergave van aangepaste muiscursors te configureren over het hoofdviewergebied. Dit wordt gecontroleerd met de extra kenmerkenselecteurs die op `.s7ecatalogsearchviewer .s7pageview` CSS klasse worden toegepast:
 
 <table id="table_908164DECF9347A19A9696A23BBDB1A2"> 
  <thead> 
@@ -133,23 +136,23 @@ Het is mogelijk om de weergave van aangepaste muiscursors te configureren over h
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> default </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> default  </span> </p> </td> 
    <td colname="col2"> <p> Normaal gesproken wordt een pijl weergegeven voor een afbeelding waarop niet kan worden ingezoomd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomine </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomine  </span> </p> </td> 
    <td colname="col2"> <p> Hiermee kunt u zien wanneer op een afbeelding kan worden ingezoomd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> reset </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> reset  </span> </p> </td> 
    <td colname="col2"> <p>Toont wanneer een beeld bij maximumgezoem is en kan worden teruggesteld. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> slepen </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> slepen  </span> </p> </td> 
    <td colname="col2"> <p>Hiermee wordt getoond wanneer de gebruiker een sleepbewerking uitvoert op ingezoomde afbeeldingen </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> dia </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> dia  </span> </p> </td> 
    <td colname="col2"> <p>Hiermee wordt getoond wanneer de gebruiker een afbeelding omwisselt met gebruik van diabeweging </p> </td> 
   </tr> 
  </tbody> 
