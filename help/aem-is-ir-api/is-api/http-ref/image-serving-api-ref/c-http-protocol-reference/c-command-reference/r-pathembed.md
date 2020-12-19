@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 93e63c7c-c091-4bb1-baff-45706fd611ea
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '165'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Paden insluiten. Hiermee geeft u op of Photoshop-paden uit het bronafbeeldingsbe
 
 Request-kenmerk. Wordt genegeerd als de bronafbeelding geen padgegevens bevat. De padgegevens worden net als de afbeeldingsgegevens geschaald en geroteerd. Alleen paden uit de bronafbeelding van `layer=0` worden verwerkt; paden van andere laagafbeeldingen worden genegeerd.
 
-Genegeerd als de indeling van de uitvoerafbeelding het insluiten van paden niet ondersteunt. Zie de beschrijving van `fmt=` voor een lijst met uitvoerafbeeldingsindelingen die paden insluiten ondersteunen.
+Genegeerd als de indeling van de uitvoerafbeelding het insluiten van paden niet ondersteunt. Raadpleeg de beschrijving van `fmt=` voor een lijst met uitvoerafbeeldingsindelingen die paden insluiten ondersteunen.
 
 ## Beperkingen {#section-697cddb79a1542bc8457d2f4f59eec69}
 
