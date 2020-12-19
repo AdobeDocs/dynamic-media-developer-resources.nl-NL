@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 6f8b7047-6de6-4a56-96b7-58c481150e32
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '89'
+ht-degree: 0%
 
 ---
 
@@ -16,11 +19,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Bevat instellingen voor platformservers.
 
-Wanneer u dit XML-bestand wijzigt, moet u ervoor zorgen dat de geldige XML-syntaxis behouden blijft, anders start de Platform Server mogelijk niet.
+Wanneer u dit XML-bestand wijzigt, moet u ervoor zorgen dat een geldige XML-syntaxis behouden blijft, anders start de Server van het Platform mogelijk niet.
 
-De wijzigingen worden pas van kracht nadat de platformserver opnieuw is gestart nadat u dit bestand hebt bewerkt.
+Wijzigingen worden pas van kracht nadat de server met het Platform opnieuw is gestart nadat u dit bestand hebt bewerkt.
 
-In het volgende diagram ziet u welke instellingen in dit bestand kunnen worden gewijzigd. Raadpleeg de desbetreffende secties eerder in dit document voor een beschrijving van deze instellingen. Merk op dat dit diagram geen volledige vertegenwoordiging van is [!DNL server.xml].
+In het volgende diagram ziet u welke instellingen in dit bestand kunnen worden gewijzigd. Raadpleeg de desbetreffende secties eerder in dit document voor een beschrijving van deze instellingen. Merk op dat dit diagram geen volledige vertegenwoordiging van [!DNL server.xml] is.
 
 ```
 <Server>
