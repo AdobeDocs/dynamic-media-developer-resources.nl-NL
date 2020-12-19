@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: aab11640-95d7-427d-b79f-c477b2c9047e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '180'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +29,7 @@ De volgende waarden zijn toegestaan:
   <td class="stentry"> <p>Alleen titel. Geeft een korte algemene beschrijving van de fout. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>1 </p></td> 
+  <td class="stentry"> <p>3 </p></td> 
   <td class="stentry"> <p>Korte boodschap. Gereserveerd voor toekomstig gebruik. Retourneert momenteel dezelfde informatie als 0. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -41,7 +44,7 @@ De volgende waarden zijn toegestaan:
 
 * Niveau 0 wordt geadviseerd voor levende servers die openbaar kunnen worden betreden.
 * Niveau 2 wordt aanbevolen voor testservers, kwaliteitsborgingsservers en toepassingsontwikkelingsservers.
-* Niveau 3 informatie kan nuttig zijn wanneer het melden van problemen aan de Steun van de Tech Scene7.
+* Informatie van niveau 3 kan nuttig zijn bij het melden van problemen aan de Technische Steun van Scene7.
 
 ## Eigenschappen {#section-f03f9a8edd6a4d99aff38fbec41c4b80}
 
