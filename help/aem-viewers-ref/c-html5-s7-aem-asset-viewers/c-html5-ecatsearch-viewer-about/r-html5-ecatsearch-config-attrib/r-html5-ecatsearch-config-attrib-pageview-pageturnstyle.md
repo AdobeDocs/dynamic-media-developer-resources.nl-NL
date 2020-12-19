@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 748adb73-bfb6-4fce-aa6a-4216184edabb
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '122'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
 
 [!DNL `[PageView.|<containerId>_pageView.]pageturnstyle= *``*, *``*, *``*, *``*, *``*, *`dividerWidthdividerColordividerOpacityborderOnOffborderColorfillColor`*`]
 
-Hiermee bepaalt u de vormgeving van de component wanneer een element [!DNL `PageView.frametransition`] is ingesteld op [!DNL `turn`] of is ingesteld op [!DNL `auto`] desktopsystemen.
+Hiermee bepaalt u de vormgeving van de component wanneer een [!DNL `PageView.frametransition`] op [!DNL `turn`] of [!DNL `auto`] op desktopsystemen is ingesteld.
 
 <table id="table_A8CDA1AE2680402A99BCD5DD371B225F"> 
  <tbody> 
@@ -30,11 +33,11 @@ Hiermee bepaalt u de vormgeving van de component wanneer een element [!DNL `Page
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> dividerOpacity</span></span> </p> </td> 
-   <td colname="col2"> <p>De schaduwdekking in het bereik van <span class="codeph"> 0</span> tot en met <span class="codeph"> 1</span>. </p> </td> 
+   <td colname="col2"> <p>De schaduwdekking in het bereik van <span class="codeph"> 0</span> tot <span class="codeph"> 1</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderOnOff</span></span> </p> </td> 
-   <td colname="col2"> <p> De markering ( <span class="codeph"> 0</span> of <span class="codeph"> 1</span>) waarmee de rand om de pagina voor uitzetten wordt in- en uitgeschakeld. </p> </td> 
+   <td colname="col2"> <p> De vlag (of <span class="codeph"> 0</span> of <span class="codeph"> 1</span>) die de grens rond de het draaien pagina in en uit draait. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderColor</span></span> </p> </td> 
