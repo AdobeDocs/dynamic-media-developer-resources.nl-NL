@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 04a042d8-7329-4f1d-b3b9-312d620b1f29
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '1298'
+ht-degree: 0%
 
 ---
 
@@ -30,12 +33,12 @@ Met de volgende CSS-klassenkiezer bepaalt u de weergave van de achtergrondkleur 
 .s7interactivevideoviewer .s7calltoaction
 ```
 
-## CSS-eigenschappen van de achtergrondkleur van de aanroep van het deelvenster Handelingen {#css-properties-of-the-background-color-of-the-call-to-action-panel}
+## CSS-eigenschappen van de achtergrondkleur van de aanroep naar actiepaneel {#css-properties-of-the-background-color-of-the-call-to-action-panel}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Achtergrondkleur van de aanroep van het deelvenster Handelingen. </p> </td> 
   </tr> 
  </tbody> 
@@ -59,20 +62,20 @@ Met de volgende CSS-klassenkiezer bepaalt u de weergave van de koptekst in het a
 .s7interactivevideoviewer .s7calltoaction .s7header
 ```
 
-## CSS-eigenschappen van de aanroep naar de koptekst van het deelvenster Handelingen {#css-properties-of-the-call-to-action-panel-header}
+## CSS-eigenschappen van de aanroep van de koptekst van het deelvenster Handelingen {#css-properties-of-the-call-to-action-panel-header}
 
 <table id="table_DAA1770AB3074845B5E1B700CD6FC18A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Achtergrondkleur van de koptekst. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van de koptekst. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-bottom  </span> </p> </td> 
    <td colname="col2"> <p>Onderrand van de koptekst. </p> </td> 
   </tr> 
  </tbody> 
@@ -103,31 +106,31 @@ De volgende CSS-klassenkiezer bepaalt de weergave van de koptekst in de aanroep 
 <table id="table_A5E36A5C4C664346B6DAE9A02B36C3D2"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> kleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kleur  </span> </p> </td> 
    <td colname="col2"> <p> Tekstkleur in de banner. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekengrootte </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekengrootte  </span> </p> </td> 
    <td colname="col2"> <p>Tekengrootte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> regelhoogte </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> regelhoogte  </span> </p> </td> 
    <td colname="col2"> <p>Lijnhoogte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p> Lettertypefamilie. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> text-align  </span> </p> </td> 
    <td colname="col2"> <p>De uitlijning van tekst in de banner. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen-links </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen-links  </span> </p> </td> 
    <td colname="col2"> <p>Opvulling links. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvulling rechts </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvulling rechts  </span> </p> </td> 
    <td colname="col2"> <p> Opvulling rechts om ruimte toe te staan voor de knop Opnieuw afspelen. </p> </td> 
   </tr> 
  </tbody> 
@@ -159,11 +162,11 @@ De volgende CSS-klassenkiezer bepaalt de vormgeving van de sluitknop in de aanro
 <table id="table_CB0BCBE70DB447BC8D31034A96308924"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p>Positie vanaf de bovenkant van de koptekst, inclusief opvulling. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
    <td colname="col2"> <p>Positie rechts van de koptekst, inclusief opvulling. </p> </td> 
   </tr> 
   <tr> 
@@ -171,15 +174,15 @@ De volgende CSS-klassenkiezer bepaalt de vormgeving van de sluitknop in de aanro
    <td colname="col2"> <p>Knopbreedte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p> Hoogte van knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
    <td colname="col2"> <p>Afbeelding weergegeven voor een bepaalde knopstatus. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p>Plaats binnen de illustratie-sprite als CSS-sprites worden gebruikt. </p> <p>Zie <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -187,7 +190,7 @@ De volgende CSS-klassenkiezer bepaalt de vormgeving van de sluitknop in de aanro
 
 >[!NOTE]
 >
->Deze knop ondersteunt de `state` kenmerkkiezer, die kan worden gebruikt om verschillende skins toe te passen op verschillende knoptoestanden.
+>Deze knoop steunt `state` attributenselecteur, die kan worden gebruikt om verschillende huiden op verschillende knoopstaten toe te passen.
 
 ## Voorbeeld {#example-3}
 
@@ -231,7 +234,7 @@ Met de volgende CSS-klassenkiezer bepaalt u de weergave van het miniatuurraster 
 <table id="table_A0DDD21C84944D48A639F51FCC8DF065"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Achtergrondkleur van het gebied met miniaturen. </p> </td> 
   </tr> 
  </tbody> 
@@ -260,8 +263,8 @@ Met de volgende CSS-klassenkiezer bepaalt u de vormgeving van de blokcel in de a
 <table id="table_9CEBEF6FC7024F02840A581AEEF612B4"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge </span> </p> </td> 
-   <td colname="col2"> <p> Grootte van de horizontale en verticale marge rond elke miniatuur. </p> <p>De werkelijke horizontale miniatuurafstand is gelijk aan de som van de linker- en rechtermarge die is ingesteld voor de miniatuur <span class="codeph"> .s7 </span>. Dezelfde regel geldt ook, maar voor verticale afstand. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge  </span> </p> </td> 
+   <td colname="col2"> <p> Grootte van de horizontale en verticale marge rond elke miniatuur. </p> <p>De werkelijke horizontale miniatuurafstand is gelijk aan de som van de linker- en rechtermarge die is ingesteld voor <span class="codeph"> .s7thumbcell </span>. Dezelfde regel geldt ook, maar voor verticale afstand. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -292,15 +295,15 @@ De volgende CSS-klassenkiezer bepaalt de weergave van de miniatuur in het aanroe
 <table id="table_ECD7477F4BE94BA8943210FA8B6B8D01"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Breedte van de miniatuur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van de miniatuur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
    <td colname="col2"> <p>Rand van de miniatuur. </p> </td> 
   </tr> 
  </tbody> 
@@ -308,7 +311,7 @@ De volgende CSS-klassenkiezer bepaalt de weergave van de miniatuur in het aanroe
 
 >[!NOTE]
 >
->De miniatuur ondersteunt de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende skins toe te passen op verschillende miniatuurtoestanden. komt met name overeen met `state="selected"` de miniatuur van de momenteel geselecteerde afbeelding; komt overeen `state="default"` met de overige miniaturen; wordt `state="over"` gebruikt bij de muisaanwijzer.
+>Miniatuur ondersteunt de kenmerkenkiezer `state`, die kan worden gebruikt om verschillende skins toe te passen op verschillende miniatuurtoestanden. Met name `state="selected"` komt overeen met de miniatuur voor de momenteel geselecteerde afbeelding; `state="default"` komt overeen met de overige miniaturen; `state="over"` wordt gebruikt bij de muisaanwijzer.
 
 ## Voorbeeld {#example-6}
 
@@ -334,19 +337,19 @@ De volgende CSS-klassenkiezer bepaalt de vormgeving van het miniatuurlabel in he
 <table id="table_E2C9F21EBD9140FD9D20A4BBAD117E2F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> kleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kleur  </span> </p> </td> 
    <td colname="col2"> <p> Tekstkleur van label. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> text-align  </span> </p> </td> 
    <td colname="col2"> <p>Horizontale uitlijning van label. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Fontnaam. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekengrootte </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekengrootte  </span> </p> </td> 
    <td colname="col2"> <p>Lettertypefamilie. </p> </td> 
   </tr> 
  </tbody> 
@@ -380,19 +383,19 @@ De volgende CSS-klassenkiezer bepaalt de vormgeving van het gebied van de schuif
 <table id="table_6D3A4A68BFDB44259A6E2E632B9195F3"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p> Breedte van schuifbalk. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p>Verticale verschuiving van de schuifbalk ten opzichte van de bovenkant van het gebied met miniaturen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
    <td colname="col2"> <p>Verticale verschuiving van de schuifbalk ten opzichte van de onderkant van het gebied met miniaturen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
    <td colname="col2"> <p> De horizontale verschuiving van de schuifbalk ten opzichte van de rechterrand van het gebied met miniaturen. </p> </td> 
   </tr> 
  </tbody> 
@@ -426,11 +429,11 @@ De volgende CSS-klassenkiezer bepaalt de weergave van het schuifbalkvak in het a
 <table id="table_7A7D40C332F4461FAAC623196C00D5A8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Breedte van schuifbalk in track. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Achtergrondkleur van de trackbalk. </p> </td> 
   </tr> 
  </tbody> 
@@ -462,35 +465,35 @@ De volgende CSS-klassenkiezer bepaalt de vormgeving van de duimhoogte en andere 
 <table id="table_1F39948FC3924FA4B7F851B65B2D860B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Breedte van duim. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van duim. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen boven </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen boven  </span> </p> </td> 
    <td colname="col2"> <p>Verticale opvulling tussen de bovenkant van de track. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen-onder </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen-onder  </span> </p> </td> 
    <td colname="col2"> <p>Verticale opvulling tussen de onderkant van de track. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p>Straal van de rand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Kleur van duim. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
    <td colname="col2"> <p> Afbeelding die wordt weergegeven voor een bepaalde blokje. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -498,7 +501,7 @@ De volgende CSS-klassenkiezer bepaalt de vormgeving van de duimhoogte en andere 
 
 >[!NOTE]
 >
->De duim steunt de `state` attributenselecteur, die kan worden gebruikt om verschillende huiden op de volgende verschillende duimstaten toe te passen: `"up"`, `"down"`, `"over"`en `"disabled"`.
+>De duim steunt de `state` attributenselecteur, die kan worden gebruikt om verschillende huiden op de volgende verschillende duimstaten toe te passen: `"up"`, `"down"`, `"over"` en `"disabled"`.
 
 ## Voorbeeld {#example-10}
 
@@ -531,19 +534,19 @@ Het is niet mogelijk om schuifknoppen te positioneren met de CSS-eigenschappen t
 <table id="table_FE17D19E0545424EADB0256524361359"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p> Breedte van knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
    <td colname="col2"> <p>Afbeelding weergegeven voor een bepaalde knopstatus. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -551,7 +554,7 @@ Het is niet mogelijk om schuifknoppen te positioneren met de CSS-eigenschappen t
 
 >[!NOTE]
 >
->Deze knoppen ondersteunen de `state` kenmerkkiezer, die kan worden gebruikt om verschillende skins toe te passen op de volgende verschillende blokstatussen: `"up"`, `"down"`, `"over"`en `"disabled"`.
+>Deze knoppen ondersteunen de kenmerkenkiezer `state`, die kan worden gebruikt om verschillende skins toe te passen op de volgende verschillende blokstatussen: `"up"`, `"down"`, `"over"` en `"disabled"`.
 
 De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
