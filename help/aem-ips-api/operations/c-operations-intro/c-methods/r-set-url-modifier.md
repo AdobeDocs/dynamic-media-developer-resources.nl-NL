@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: ec423e57-338b-4a32-be5a-a73fa96712ce
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 0%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Stelt de opdrachten in van het protocol voor het renderen van afbeeldingen of de service voor het opgegeven element. Met deze opdrachten wijzigt u de weergave van het element zonder dat dit wordt vernietigd.
 
-Voor Beeldserver worden de opdrachten in de `urlModifier` parameter gepubliceerd in het catalogusveld Modifier en toegepast voorafgaand aan de opdrachten die op de aanvraag-URL zijn opgegeven. Opdrachten in `urlPostApplyModifier` worden gepubliceerd naar het `PostModifier` catalogusveld en overschrijven alle opdrachten in de aanvraag-URL of in `urlModifier`. Bij Afbeelding renderen worden de opdrachten in `urlModifier` en `urlPostApplyModifier` samengevoegd en gepubliceerd naar het catalogusveld Modifier.
+Voor Beeldserver worden opdrachten in de parameter `urlModifier` gepubliceerd in het catalogusveld Modifier en toegepast voorafgaand aan de opdrachten die op de aanvraag-URL zijn opgegeven. Opdrachten in `urlPostApplyModifier` worden gepubliceerd naar het catalogusveld `PostModifier` en overschrijven alle opdrachten in de aanvraag-URL of in `urlModifier`. Voor Afbeelding renderen worden de opdrachten in `urlModifier` en `urlPostApplyModifier` samengevoegd en gepubliceerd naar het catalogusveld Modifier.
 
-## Geautoriseerde gebruikerstypen {#section-fefcd732ccf64c78956606538f96c73d}
+## Toegestane gebruikerstypen {#section-fefcd732ccf64c78956606538f96c73d}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,8 +38,8 @@ Voor Beeldserver worden de opdrachten in de `urlModifier` parameter gepubliceerd
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | Ja | Bedrijfshandgreep. |
 | ` *`assetHandle`*` | `xsd:string` | Ja | Asset handle. |
-| ` *`urlModifier`*` | `xsd:string` | Nee | Opdrachten van het protocol voor het renderen van afbeeldingen of het renderen van afbeeldingen die moeten worden toegepast voorafgaand aan een aanvraag of `urlPostApplyModifier` opdracht. |
-| ` *`urlPostApplyModifier`*` | `xsd:string` | Nee | Opdrachten in het protocol voor het renderen van afbeeldingen die moeten worden toegepast na opdrachten `urlModifier` en aanvragen. |
+| ` *`urlModifier`*` | `xsd:string` | Nee | Opdrachten van het protocol voor het renderen van afbeeldingen die moeten worden toegepast vóór de aanvraag of `urlPostApplyModifier`-opdrachten. |
+| ` *`urlPostApplyModifier`*` | `xsd:string` | Nee | Opdrachten van het protocol voor het renderen van afbeeldingen die moeten worden toegepast na `urlModifier` en opdrachten voor aanvragen. |
 
 **Output (setUrlModifierReturn)**
 
