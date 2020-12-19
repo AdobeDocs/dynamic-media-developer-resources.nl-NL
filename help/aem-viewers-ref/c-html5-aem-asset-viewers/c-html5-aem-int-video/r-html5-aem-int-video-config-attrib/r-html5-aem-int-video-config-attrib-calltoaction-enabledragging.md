@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: efb272b5-e30e-44d5-9dec-0529b1074ed2
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '90'
+ht-degree: 2%
 
 ---
 
@@ -21,12 +24,12 @@ Configuration attribute for Interactive Video Viewer.
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
    <td colname="col2"> <p> Hiermee schakelt u de mogelijkheid in of uit dat een gebruiker de miniaturen met de muis of met aanraakbewegingen kan schuiven. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> overdragvalue </span></span> </p> </td> 
-   <td colname="col2"> <p> Is in <span class="codeph"> 0-1 </span> waaier en het is een percentagewaarde voor de beweging in de verkeerde richting van de daadwerkelijke snelheid. </p> <p>Indien ingesteld op <span class="codeph"> 1, wordt </span> het met de muis verplaatst. </p> <p>Als deze op <span class="codeph"> 0 is ingesteld, kunt u </span> niet in de verkeerde richting bewegen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> overdragvalue  </span> </span> </p> </td> 
+   <td colname="col2"> <p> Is in <span class="codeph"> 0-1 </span> waaier en het is een percentagewaarde voor de beweging in de verkeerde richting van de daadwerkelijke snelheid. </p> <p>Indien ingesteld op <span class="codeph"> 1 </span>, wordt het met de muis verplaatst. </p> <p>Als dit op <span class="codeph"> 0 </span> wordt ingesteld, kunt u niet in de verkeerde richting bewegen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
