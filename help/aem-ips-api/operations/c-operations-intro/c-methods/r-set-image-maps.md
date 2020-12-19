@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 1dd7e032-34b4-464d-8ec6-7ad282d12891
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '141'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Hiermee stelt u de afbeelding met hyperlinks in voor een element.
 
 U moet de afbeeldingen met hyperlinks al hebben gemaakt. Afbeeldingen met hyperlinks worden toegepast in volgorde van opvraging uit de array. Dit betekent dat de tweede afbeelding met hyperlinks het eerste bedekt, de derde de tweede, enzovoort.
 
-## Geautoriseerde gebruikerstypen {#section-adb21c5b679249939dd83816e4a0ee97}
+## Toegestane gebruikerstypen {#section-adb21c5b679249939dd83816e4a0ee97}
 
 * `IpsUser`
 * `IpsAdmin`
