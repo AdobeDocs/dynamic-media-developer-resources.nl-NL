@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 23da539e-0192-4dc4-a19b-41aa94a82730
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '113'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +32,7 @@ Gebaseerd op een kleurtoonbereik van 360 graden.
 
 ## Eigenschappen {#section-55779644700b4c808a624cdf5a04447e}
 
-Laag, opdracht. Is van toepassing op de huidige laag of op de samengestelde afbeelding, indien van toepassing `layer=comp`. Genegeerd door effectlagen. CMYK-afbeeldingen of -lagen worden omgezet in RGB voordat de bewerking wordt toegepast.
+Laag, opdracht. Wordt toegepast op de huidige laag of op de samengestelde afbeelding als `layer=comp`. Genegeerd door effectlagen. CMYK-afbeeldingen of -lagen worden omgezet in RGB voordat de bewerking wordt toegepast.
 
 ## Standaard {#section-7314580251f5456fa1f381ec9e99e0bb}
 
