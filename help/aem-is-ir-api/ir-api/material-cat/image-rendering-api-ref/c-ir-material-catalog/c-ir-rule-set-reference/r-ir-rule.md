@@ -8,49 +8,52 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: f7071681-e97e-4081-aeb1-093d2b23041c
 translation-type: tm+mt
 source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+workflow-type: tm+mt
+source-wordcount: '205'
+ht-degree: 1%
 
 ---
 
 
-# regel{#rule}
+# rule{#rule}
 
-Regel-element aanvragen. Een of meer elementen zijn optioneel in het `<ruleset>` element.
+Regel-element aanvragen. Een of meer zijn optioneel in het element `<ruleset>`.
 
-## Attributen {#section-aa23349645434db99d46957a96f2e1e1}
+## Kenmerken {#section-aa23349645434db99d46957a96f2e1e1}
 
 `OnMatch="break"|"continue"|"error"` Optioneel. De standaardwaarde is &quot;break&quot;.
 
-` Name=" *`tekst`*"` optioneel. Gebruikt om het `<rule>` element in te identificeren zuivert logboeken en foutenmeldingen.
+` Name=" *``*"` textOptional. Wordt gebruikt om het element `<rule>` in foutopsporingslogboeken en foutberichten te identificeren.
 
-Bovendien kunnen `<rule>` elementen elk van de volgende kenmerken in elke combinatie definiëren. Als deze optie is opgegeven en de regel correct wordt toegepast, worden de overeenkomende cataloguskenmerken voor deze aanvraag genegeerd.
+Daarnaast kunnen `<rule>`-elementen elk van de volgende kenmerken definiëren in een willekeurige combinatie. Als deze optie is opgegeven en de regel correct wordt toegepast, worden de overeenkomende cataloguskenmerken voor deze aanvraag genegeerd.
 
 <table id="table_AFEFDE61C9ED40019C10D8FE5B16CA23"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>&lt;rule&gt;, kenmerk </p> </th> 
+   <th colname="col1" class="entry"> <p>&lt;rule&gt; attribute </p> </th> 
    <th colname="col2" class="entry"> <p>Overeenkomende afbeeldingscataloguskenmerken </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> DefaultPix </span> </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-defaultpix.md#reference-102c98f9b5d24d2aaaeb756653fb0e6f" type="reference" format="dita" scope="local"> attribute::DefaultPix </a> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> DefaultPix  </span> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-defaultpix.md#reference-102c98f9b5d24d2aaaeb756653fb0e6f" type="reference" format="dita" scope="local"> attribute::DefaultPix  </a> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ErrorImage </span> </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errorimage.md#reference-b58bdaba96074c52802ca8dc54bfe2f0" type="reference" format="dita" scope="local"> attribute::ErrorImage </a> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ErrorImage  </span> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errorimage.md#reference-b58bdaba96074c52802ca8dc54bfe2f0" type="reference" format="dita" scope="local"> attribute::ErrorImage  </a> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Verlopen </span> </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-expiration.md#reference-0f68ad8199c64bd4bc8d27dd78b7d996" type="reference" format="dita" scope="local"> kenmerk::Expiration </a> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Verlopen  </span> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-expiration.md#reference-0f68ad8199c64bd4bc8d27dd78b7d996" type="reference" format="dita" scope="local"> kenmerk::Expiration  </a> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> MaxPix </span> </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-maxpix.md#reference-569f186bbc2840a6bd3cffa8ff3e7657" type="reference" format="dita" scope="local"> kenmerk::MaxPix </a> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> MaxPix  </span> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-maxpix.md#reference-569f186bbc2840a6bd3cffa8ff3e7657" type="reference" format="dita" scope="local"> kenmerk::MaxPix  </a> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> RootUrl </span> </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402" type="reference" format="dita" scope="local"> kenmerk:RootUrl </a> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> RootUrl  </span> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402" type="reference" format="dita" scope="local"> kenmerk:RootUrl  </a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,8 +83,8 @@ Het kenmerk Expiration overschrijft alleen de standaardwaarde voor het kenmerk; 
 
 Wanneer zowel `<expression>` als `<substitution>` worden opgegeven en vastgelegde subtekenreeksen niet worden gebruikt, wordt de eerste overeenkomende subtekenreeks vervangen door `<substitution>`.
 
-Als `<expression>` deze optie niet is opgegeven, komen alle paden overeen en `<substitution>` worden deze aan het einde van het pad toegevoegd.
+Als `<expression>` niet wordt gespecificeerd, zal om het even welk weg aanpassen en `<substitution>` wordt toegevoegd aan het eind van de weg.
 
-Als `<substitution>` niet is opgegeven, wordt de overeenkomende subtekenreeks verwijderd.
+Wanneer `<substitution>` niet is opgegeven, wordt de overeenkomende subtekenreeks verwijderd.
 
-Het `<addressfilter>` wordt toegepast slechts wanneer een gelijke voorkomt, en alvorens de vraagregels worden toegepast.
+`<addressfilter>` wordt toegepast slechts wanneer een gelijke voorkomt, en vóór vraagregels worden toegepast.
