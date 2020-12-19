@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 2af1f501-4236-4b95-8e90-31a5e7f26bc3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '116'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ Typisch een kort en uniek herkenningsteken, zoals een aantal SKU. Dit kan ook ee
 
 ## Eigenschappen {#section-267bbf34677e4401abbaf6fdce52191b}
 
-Tekstreeks. Vereist. Primaire indexsleutel voor de tabel met vignetkaarten. Elke `vignette::Id` waarde moet uniek zijn in de tabel en mag geen &#39;,&#39;-tekens bevatten.
+Tekstreeks. Vereist. Primaire indexsleutel voor de tabel met vignetkaarten. Elke `vignette::Id`-waarde moet uniek zijn in de tabel en mag geen &#39;,&#39;-tekens bevatten.
 
 ## Standaard {#section-736d3419b19045efa00887cb595b0337}
 
