@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 7ea81baf-769b-4c73-bbc6-f52c89c98d50
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '193'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Hiermee worden de taaklogbestanden voor een element opgehaald. Items die in de a
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-72b98cdb0f6f47f5aabdc183a45ea577}
+## Toegestane gebruikerstypen {#section-72b98cdb0f6f47f5aabdc183a45ea577}
 
 * `IpsUser`
 * `IpsAdmin`
