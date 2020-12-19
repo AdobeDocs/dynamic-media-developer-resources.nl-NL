@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 2975b957-e06f-42c6-8c0a-0d2757a0025a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '182'
+ht-degree: 0%
 
 ---
 
@@ -31,23 +34,23 @@ Beeldserver, besturingsscript. Dit manuscript wordt gebruikt om, het Beeld te be
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> start </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> start  </span> </p> </td> 
    <td colname="col2"> <p> Begin de Supervisor van de Server en al ander Beeld Servend componenten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> stoppen </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> stoppen  </span> </p> </td> 
    <td colname="col2"> <p> Stop al Beeld Servend componenten, met inbegrip van de Supervisor van de Server. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opnieuw opstarten </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opnieuw opstarten  </span> </p> </td> 
    <td colname="col2"> <p>Begin alle Beeld Serend componenten, met inbegrip van de Supervisor van de Server opnieuw. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> starten, { ps| is| svg } </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> starten, { ps | is | svg }  </span> </p> </td> 
    <td colname="col2"> <p> Start Tomcat/Platform Server, de Image Server of SVG opnieuw. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> status [ ps| is| svg ] </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> status [ ps | is | svg ]  </span> </p> </td> 
    <td colname="col2"> <p>Keert uptime en huidige informatie van het geheugengebruik voor de Server van het Beeld, de Server van Tomcat/van het Platform, en de server SVG, of status voor enkel de gespecificeerde server terug; een informatiebericht in plaats daarvan is teruggekeerd als de Supervisor van de Server niet loopt. </p> </td> 
   </tr> 
  </tbody> 
