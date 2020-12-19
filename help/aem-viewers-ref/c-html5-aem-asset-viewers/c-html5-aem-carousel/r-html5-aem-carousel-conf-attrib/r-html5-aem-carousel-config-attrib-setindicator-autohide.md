@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: eb93ad7a-6176-47ed-92c6-2eb1afcac0eb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '80'
+ht-degree: 1%
 
 ---
 
@@ -20,11 +23,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">0|1[,<span class="varname"> limiet</span>]</span> </p> </td> 
-   <td colname="col2"> <p> Vormt gedrag voor automatisch verbergen afhankelijk van het aantal pagina's en de grootte van de uitvoeringscomponent. </p> <p> <span class="codeph"> 0</span> schakelt automatisch verbergen uit. </p> <p> <span class="codeph"> 1</span> schakelt de functie voor automatisch verbergen in. De component verbergt de punten als ten minste een van de volgende voorwaarden wordt toegepast: </p> <p> 
+   <td colname="col2"> <p> Vormt gedrag voor automatisch verbergen afhankelijk van het aantal pagina's en de grootte van de uitvoeringscomponent. </p> <p> <span class="codeph"> 0</span> schakelt automatisch verbergen uit. </p> <p> <span class="codeph"> 1</span> schakelt automatisch verbergen in. De component verbergt de punten als ten minste een van de volgende voorwaarden wordt toegepast: </p> <p> 
      <ul id="ul_A7F9C1DDC6AE44BAA348B3AD440A4EDD"> 
       <li id="li_39332158806445DF874C5A52F1331B8B">de rij met punten breder wordt dan de breedte van de uitvoeringscomponent, of </li> 
       <li id="li_E30BAC8B609147ADB8824000F5729B21">Het aantal pagina's dat voor deze component wordt ingesteld, overschrijdt de limiet die door de parameter <span class="codeph"><span class="varname"> limit</span></span> wordt geconfigureerd. </li> 
-     </ul> </p> <p> Als u <span class="codeph"><span class="varname"> beperking</span></span> instelt op <span class="codeph"> -1</span> , wordt de tweede voorwaarde voor automatisch verbergen uitgeschakeld. </p> </td> 
+     </ul> </p> <p> Als u <span class="codeph"><span class="varname"> limit</span></span> instelt op <span class="codeph"> -1</span>, wordt de tweede voorwaarde voor automatisch verbergen uitgeschakeld. </p> </td> 
   </tr> 
  </tbody> 
 </table>
