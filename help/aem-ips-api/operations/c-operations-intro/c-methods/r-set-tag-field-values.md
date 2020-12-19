@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 56666c00-3694-4a43-a0ff-97af45c8df9f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Hiermee stelt u woordenboekwaarden in voor een bestaand tagveld.
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-8b1413654bab44cfb2b1fffbb88aa385}
+## Toegestane gebruikerstypen {#section-8b1413654bab44cfb2b1fffbb88aa385}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
