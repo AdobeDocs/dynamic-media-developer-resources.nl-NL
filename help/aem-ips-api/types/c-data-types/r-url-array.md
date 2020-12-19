@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 59568d38-6e05-45ca-8054-cec2c5ea8c02
 translation-type: tm+mt
 source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+workflow-type: tm+mt
+source-wordcount: '52'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +35,7 @@ Een array van URLS voor het ongeldig maken van CDN-cache.
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> <span class="varname"> items</span></span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> items</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> xsd:tekenreeks</span> </p> </td> 
    <td> <p> De lijst met URL's die ongeldig moeten worden gemaakt. Beperkt tot maximaal 1000 URL's door de WSDL-definitie. </p> </td> 
   </tr> 
