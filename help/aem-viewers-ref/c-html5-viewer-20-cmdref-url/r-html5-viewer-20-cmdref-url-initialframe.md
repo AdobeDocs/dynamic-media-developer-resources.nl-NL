@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 5d1c3a8a-8598-47c9-a106-36e8c6fcafb0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '101'
+ht-degree: 0%
 
 ---
 
@@ -25,12 +28,12 @@ Parameter die alle viewers gemeen hebben.
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> frameIdx</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> frameIdx</span> </span> </p> </td> 
    <td colname="col2"> <p> Geeft een op nul gebaseerde frame-index op die de viewer tijdens het laden weergeeft. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> pageIdx</span></span> </p> </td> 
-   <td colname="col2"> <p>Een op nul gebaseerde index van de pagina binnen de spread wanneer het apparaat staand is. In een "links-naar-rechts"-omgeving betekent <span class="codeph"> 0</span> "linkerpagina" en <span class="codeph"> 1</span> betekent "rechterpagina". In "van rechts naar links" is het tegenovergestelde: 0 <span class="codeph"> betekent "rechterpagina" en</span> 1 <span class="codeph"></span> betekent "linkerpagina". </p> <p>Indien niet opgegeven, wordt standaard <span class="codeph"> 0</span> gebruikt. Wordt genegeerd wanneer het apparaat liggend is. </p> </td> 
+   <td colname="col2"> <p>Een op nul gebaseerde index van de pagina binnen de spread wanneer het apparaat staand is. In een "links-naar-rechts"milieu <span class="codeph"> 0</span> betekent "linkerpagina"en <span class="codeph"> 1</span> betekent "juiste pagina". In "van rechts naar links" is het tegenovergestelde: <span class="codeph"> 0</span> betekent "rechterpagina" en <span class="codeph"> 1</span> betekent "linkerpagina". </p> <p>Indien niet gespecificeerd, <span class="codeph"> 0</span> wordt verondersteld door gebrek. Wordt genegeerd wanneer het apparaat liggend is. </p> </td> 
   </tr> 
  </tbody> 
 </table>
