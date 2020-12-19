@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 347165d6-a9e7-406e-81a8-8a91f745ce27
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '350'
+ht-degree: 0%
 
 ---
 
 
-# Cache-clustering{#cache-clustering}
+# Cache clustering{#cache-clustering}
 
 Het groeperen van het geheime voorgeheugen staat veelvoudige lading-evenwichtige servers toe om geheim voorgeheugeningangen in het primaire reactiecache en het secundaire gegevensgeheime voorgeheugen (voor genestelde/ingebedde verzoeken) uit te wisselen, met het potentieel om serverontvankelijkheid beduidend te verhogen door de behoefte te elimineren om de zelfde geheim voorgeheugeningang op veelvoudige servers te produceren.
 
@@ -24,11 +27,11 @@ De onderbrekingen en andere waarborgen zorgen ervoor dat het systeem bij volledi
 
 De geheim voorgeheugencluster kan in één van twee basisconfiguraties werken:
 
-* Wanneer `PS::cacheCluster.updateLocalCache` deze optie is ingeschakeld (standaard), wordt alle cachevermelding die op een peer-server wordt gevonden, naar de lokale cache gekopieerd.
+* Wanneer `PS::cacheCluster.updateLocalCache` is ingeschakeld (standaard), wordt alle cachevermelding die op een peer-server wordt gevonden, naar de lokale cache gekopieerd.
 
    Deze configuratie vermindert verkeer tussen de peer servers. Het biedt ook de snelste responstijden ten koste van het repliceren van alle cachemarkeringen naar alle servers in de cluster. Dit is de aanbevolen configuratie.
 
-* Wanneer `PS::cacheCluster.updateLocalCache` deze optie is uitgeschakeld, worden gegevens van andere servers niet naar de lokale cache gekopieerd.
+* Wanneer `PS::cacheCluster.updateLocalCache` is uitgeschakeld, worden gegevens van andere servers niet naar de lokale cache gekopieerd.
 
    Hiermee wordt de beschikbare schijfruimte voor cachegegevens vermenigvuldigd. Nochtans, verhoogt het het verkeer tussen de peer servers en vermindert de algemene reactietijden. Gebruik deze configuratie slechts wanneer u lage geheim voorgeheugenklaptarieven ziet.
 
