@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 74d660a1-95b3-4009-92f3-228cbe6aedc7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '127'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ JavaScript API-referentie voor Video Viewer.
 
 Start de initialisatie van de Video Viewer. Tegen deze tijd moet het container-DOM-element worden gemaakt, zodat de viewercode het met zijn id kan vinden.
 
-Als het containerelement nog geen deel uitmaakt van de webpaginalay-out (het kan bijvoorbeeld worden verborgen met de eraan toegewezen `display:none` stijl), onderbreekt de viewer het initialisatieproces totdat de webpagina het containerelement weer in de layout plaatst. Wanneer dit gebeurt, wordt het laden van de viewer automatisch hervat.
+Als het containerelement nog geen deel uitmaakt van de webpaginalay-out (het kan bijvoorbeeld worden verborgen met de eraan toegewezen stijl `display:none`, onderbreekt de viewer het initialisatieproces totdat de webpagina het containerelement terugbrengt naar de lay-out. Wanneer dit gebeurt, wordt het laden van de viewer automatisch hervat.
 
 Roep deze methode slechts eenmaal aan tijdens de levenscyclus van de viewer; volgende aanroepen worden genegeerd.
 
