@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 0f107d50-b363-4670-bb02-873677e7bbea
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '167'
+ht-degree: 11%
 
 ---
 
@@ -24,7 +27,7 @@ Type materiaaloppervlak. Hiermee geeft u het oppervlaktype van het materiaal op.
   <td class="stentry"> <p>Onbekend, server gebruikt standaard </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>1 </p></td> 
+  <td class="stentry"> <p>3 </p></td> 
   <td class="stentry"> <p>Overige </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -101,7 +104,7 @@ Type materiaaloppervlak. Hiermee geeft u het oppervlaktype van het materiaal op.
  </tr> 
 </table>
 
-Wordt gebruikt in combinatie met `gloss=` en `rough=` om het gedrag van reflectie- en glanseffecten te bepalen. Verschillende materialen zullen verschillende effecten hebben, ook al `gloss=` en `rough=` zijn ze hetzelfde.
+Wordt gebruikt in combinatie met `gloss=` en `rough=` om het gedrag van reflectie- en glanseffecten te bepalen. Verschillende materialen produceren verschillende effecten, zelfs als `gloss=` en `rough=` hetzelfde zijn.
 
 ## Eigenschappen {#section-2345b2508273426295ce8ac46182ea64}
 
@@ -109,8 +112,8 @@ Materiaalkenmerk. Genegeerd als het vignet geen 3-D reflectiegegevens bevat of a
 
 ## Standaard {#section-0989055fb74a41a3b2f2a47fe7d90a42}
 
-`catalog::Type` als het materiaal op een catalogusitem is gebaseerd. Anders `type=0`. Indien niet opgegeven, of indien `type=0`, selecteert de server een geschikte standaardinstelling afhankelijk van het doelobject en de andere materiaalkenmerken.
+`catalog::Type` als het materiaal op een catalogusitem is gebaseerd. Anders `type=0`. Indien niet opgegeven of `type=0`, selecteert de server een geschikte standaardinstelling afhankelijk van het doelobject en de andere materiaalkenmerken.
 
 ## Zie ook {#section-7cf808b0bb3d4b4fbb7b9a850d5a038b}
 
-[gloss=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) , [rough=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)
+[gloss=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) ,  [rough=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)
