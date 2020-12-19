@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 1ee3789d-a3eb-42f7-a0f4-71f62a54cab9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '286'
+ht-degree: 0%
 
 ---
 
@@ -20,10 +23,10 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> always|never|limit</span> </p> </td> 
-   <td colname="col2"> <p> Optimalisatie in-, beperken of uitschakelen voor apparaten met een <span class="codeph"> PixelRatio</span> van meer dan <span class="codeph"> 1</span>, dat wil zeggen apparaten met een hoge dichtheid zoals iPhone4 en soortgelijke apparaten. Als actief dan beperkt de component de grootte van het de beeldverzoek van IS alsof het apparaat slechts een pixelverhouding van <span class="codeph"> 1</span> had en die manier de bandbreedte vermindert. </p> <p>Zie het onderstaande voorbeeld. </p> </td> 
+   <td colname="col2"> <p> Optimalisatie in-, beperken of uitschakelen voor apparaten waarbij <span class="codeph"> devicePixelRatio</span> groter is dan <span class="codeph"> 1</span>, dat wil zeggen apparaten met een hoge dichtheid, zoals iPhone4 en soortgelijke apparaten. Als actief dan beperkt de component de grootte van het de beeldverzoek van IS alsof het apparaat slechts een pixelverhouding van <span class="codeph"> 1 </span> had en die manier de bandbreedte vermindert. </p> <p>Zie het onderstaande voorbeeld. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> getal</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> getal</span> </span> </p> </td> 
    <td colname="col2"> <p> Als u de limietinstelling gebruikt, schakelt de component hoge pixeldichtheid alleen in tot de opgegeven limiet. </p> <p>Zie het onderstaande voorbeeld. </p> </td> 
   </tr> 
  </tbody> 
@@ -63,7 +66,7 @@ De volgende resultaten worden verwacht wanneer u dit configuratiekenmerk in de v
    <td colname="col2"> <p>Deze gebruikt altijd een pixeldichtheid van 1 en negeert de HD-mogelijkheden van het apparaat. De gevraagde afbeelding is daarom altijd 1000 x 1000. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> limit&lt;number&gt;</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> limiet&lt;number&gt;</span> </p> </td> 
    <td colname="col2"> <p>Een pixeldichtheid van het apparaat wordt alleen opgevraagd en weergegeven als de resulterende afbeelding onder de opgegeven limiet ligt. </p> <p>Het limietnummer wordt toegepast op de breedte of de hoogte. </p> <p> 
      <ul id="ul_CEC06B2280164951BA1A0ADED99E8050"> 
       <li id="li_CA7A0980ACC54690A4F212DF53E2DC8A"> <p>Als het maximale getal 1600 is en de pixeldichtheid 1,5 is, wordt de afbeelding van 1500 x 1500 weergegeven. </p> </li> 
