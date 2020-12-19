@@ -3,9 +3,9 @@ title: Bronnen voor Adobe Dynamic Media-ontwikkelaars
 cloud: experience-cloud
 product: Adobe Dynamic Media Developer Resources
 audience: end-user
-user-guide-title: Bronnen voor Adobe Dynamic Media Developer
+user-guide-title: Adobe Dynamic Media Developer Resources
 breadcrumb-title: Dynamic Media Developer Resources
-user-guide-description: Toegang tot dynamische media-ontwikkelaarsbronnen, zoals de Viewers Reference Guide, Image Production System API, Image Serving and Rendering API en gearchiveerde Scene7-releaseopmerkingen.
+user-guide-description: Toegang tot Dynamic Media-bronnen voor ontwikkelaars, zoals de Viewers Reference Guide, Image Production System API, Image Serving and Rendering API en gearchiveerde Scene7-releaseopmerkingen.
 index: y
 translation-type: tm+mt
 source-git-commit: 901f0c3986715279e0c696db93be2048343d2bc5
