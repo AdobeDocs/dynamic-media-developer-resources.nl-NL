@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 19e9599e-800b-4c22-9325-fc47b9e5e19a
 translation-type: tm+mt
 source-git-commit: 5717550d2dea8ec086875e770ff8f200aaa75ff3
+workflow-type: tm+mt
+source-wordcount: '127'
+ht-degree: 0%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 5717550d2dea8ec086875e770ff8f200aaa75ff3
 
 U moet Image Serving installeren alvorens u het kunt gebruiken.
 
-De Beeldserver omvat twee belangrijke componenten: de Server van het Beeld, die een stand-alone, inheems-code uitvoerbaar, en de Server van het Platform is, die een stand-alone Webtoepassing en toepassingsserver van Java is. Renderen van afbeeldingen maakt deel uit van deze servercomponenten.
+De Beeldserver omvat twee belangrijke componenten: de Server van het Beeld, die een stand-alone, inheems-code uitvoerbaar is, en de Server van het Platform, die een stand-alone Webtoepassing en toepassingsserver van Java is. Renderen van afbeeldingen maakt deel uit van deze servercomponenten.
 
-In de verdere instructies, verwijst `install_root` naar de wortelomslag waarin het Beeld Serven en het Teruggeven van het Beeld geïnstalleerd zijn, en `server:port` verwijst naar de gastheernaam of IP adres en havenaantal dat als belangrijkste het luisteren haven voor de Server van het Platform wordt gevormd.
+In de verdere instructies, `install_root` verwijst naar de wortelomslag waarin de Serving van het Beeld en het Teruggeven van het Beeld geïnstalleerd zijn, en `server:port` verwijst naar de gastheernaam of IP adres en havenaantal dat als belangrijkste luisterhaven voor de Server van het Platform wordt gevormd.
 
 * [Licentie](c-licensing.md)
 * [Inhoud](c-contents.md)
