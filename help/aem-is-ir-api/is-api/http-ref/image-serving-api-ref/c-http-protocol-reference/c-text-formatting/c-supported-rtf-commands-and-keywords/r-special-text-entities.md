@@ -34,27 +34,27 @@ Gebruik de volgende speciale entiteiten bij het opmaken van tekst.
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \line </span> </td> 
+   <td> <span class="codeph"> \line  </span> </td> 
    <td> <p>Regeleinde. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \\ </span> </td> 
+   <td> <span class="codeph"> \\  </span> </td> 
    <td> <p>backslash. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;accolade; </span> </td> 
+   <td> <span class="codeph"> &amp;accolade;  </span> </td> 
    <td> <p>Accolade krullen openen. </p> </td> 
    <td> <p>De accolade moet HTTP-gecodeerd zijn. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;trace; </span> </td> 
+   <td> <span class="codeph"> &amp;Bron;  </span> </td> 
    <td> <p>Accolade krullen sluiten. </p> </td> 
    <td> <p>De accolade moet HTTP-gecodeerd zijn. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \~ </span> </td> 
+   <td> <span class="codeph"> \~  </span> </td> 
    <td> <p>Vaste spatie. </p> </td> 
    <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
   </tr> 
@@ -64,7 +64,7 @@ Gebruik de volgende speciale entiteiten bij het opmaken van tekst.
    <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \- </span> </td> 
+   <td> <span class="codeph"> \-  </span> </td> 
    <td> <p>Optioneel afbreekstreepje. </p> </td> 
    <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
   </tr> 
