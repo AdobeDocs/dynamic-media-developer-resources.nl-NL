@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 35c60228-3044-442b-a8e2-e13d0bd306a5
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '659'
+ht-degree: 0%
 
 ---
 
 
-# Zoomweergave flyout{#flyout-zoom-view}
+# Zoomweergave in flyout{#flyout-zoom-view}
 
 De hoofdweergave bestaat uit de statische afbeelding, de ingezoomde afbeelding in de vervolgweergave, het hooglichtnavigatiegebied dat boven op de statische afbeelding wordt weergegeven en het uiteindebericht dat boven op de statische afbeelding wordt weergegeven.
 
@@ -37,7 +40,7 @@ De vormgeving van de hoofdweergave wordt bepaald door de volgende CSS-klassenkie
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> De achtergrondkleur van de hoofdweergave. </p> </td> 
   </tr> 
  </tbody> 
@@ -68,11 +71,11 @@ De weergave van de flyout-weergave wordt bepaald door de volgende CSS-klassenkie
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
    <td colname="col2"> <p> De horizontale positie van de uitvliegweergave ten opzichte van de linkerbovenhoek van de hoofdweergave. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p> De verticale positie van de uitvliegweergave ten opzichte van de linkerbovenhoek van de hoofdweergave. </p> </td> 
   </tr> 
   <tr> 
@@ -80,11 +83,11 @@ De weergave van de flyout-weergave wordt bepaald door de volgende CSS-klassenkie
    <td colname="col2"> <p> De breedte van de vervolgweergave. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>De hoogte van de vervolgweergave. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
    <td colname="col2"> <p>De rand van de uitvliegweergave. </p> </td> 
   </tr> 
  </tbody> 
@@ -120,15 +123,15 @@ Het is mogelijk om achtergrond-, rand-, transparantie- en vergelijkbare kenmerke
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> De kleur van de markering. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> dekking </span> </p> </td> 
-   <td colname="col2"> <p> Hooglichtdekking. </p> <p>Gebruik voor Internet Explorer 8 <span class="codeph"> filter:alpha(opacity-...)); </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> dekking  </span> </p> </td> 
+   <td colname="col2"> <p> Hooglichtdekking. </p> <p>Gebruik voor Internet Explorer 8 <span class="codeph"> filter:alpha(opacity-...); </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
    <td colname="col2"> <p>De markering van de rand. </p> </td> 
   </tr> 
  </tbody> 
@@ -147,7 +150,7 @@ Voorbeeld: groen markeren instellen met een transparantie van 40% en een rode ra
 
 **CSS-eigenschappen van de cursor**
 
-Wanneer de `highlightmode` parameter wordt geplaatst aan `cursor`, zijn de hoogtepunten in de belangrijkste mening vervangen met het vaste grootte curseurkunstwerk, dat met de CSS klassenselecteur wordt bestuurd:
+Wanneer de parameter `highlightmode` op `cursor` wordt geplaatst, zijn de hoogtepunten in de belangrijkste mening wordt vervangen met vast-grootte curseurkunstwerk, dat met de CSS klassenselecteur wordt bestuurd:
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
@@ -167,15 +170,15 @@ Toepasselijke CSS-eigenschappen zijn onder andere:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
    <td colname="col2"> <p>Cursorillustratie. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Cursorbreedte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van cursor. </p> </td> 
   </tr> 
  </tbody> 
@@ -183,11 +186,11 @@ Toepasselijke CSS-eigenschappen zijn onder andere:
 
 >[!NOTE]
 >
->De cursor ondersteunt de `input` kenmerkenkiezer, die kan worden gebruikt om verschillende cursorillustraties en -grootte toe te passen op verschillende apparaten. Dit komt met name overeen met `input="mouse"` de desktopsystemen en `input="touch"` komt overeen met de aanraakapparaten.
+>De curseur steunt `input` attributenselecteur, die kan worden gebruikt om verschillende curseurkunstwerk en grootte voor verschillende apparaten toe te passen. Met name `input="mouse"` komt overeen met de desktopsystemen en `input="touch"` komt overeen met de aanraakapparaten.
 
 **CSS-eigenschappen van de overlay**
 
-Wanneer de `overlay` parameter wordt ingesteld op `1`, wordt het gebied rondom het markeringsframe of de cursorafbeelding beheerd met de CSS-klassenkiezer:
+Wanneer de parameter `overlay` is ingesteld op `1`, wordt het gebied rond het markeringsframe of de cursorafbeelding beheerd met de CSS-klassenkiezer:
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
@@ -203,11 +206,11 @@ Wanneer de `overlay` parameter wordt ingesteld op `1`, wordt het gebied rondom h
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Bedekkingskleur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> dekking </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> dekking  </span> </p> </td> 
    <td colname="col2"> <p>Dekking bedekking. </p> </td> 
   </tr> 
  </tbody> 
@@ -221,7 +224,7 @@ De vormgeving van het tip-bericht wordt bepaald door de volgende CSS-klassenkiez
 .s7flyoutviewer .s7flyoutzoomview .s7tip
 ```
 
-Het is mogelijk lettertypestijl, vormgeving van grootte en verticale verschuiving te configureren via CSS. De horizontale uitlijning wordt echter beheerd door de viewerlogica. Het overschrijven van de eigenschap via CSS met behulp `left` van eigenschappen of `right` eigenschappen wordt niet ondersteund.
+Het is mogelijk lettertypestijl, vormgeving van grootte en verticale verschuiving te configureren via CSS. De horizontale uitlijning wordt echter beheerd door de viewerlogica. Het overschrijven van een item via CSS met de eigenschappen `left` of `right` wordt niet ondersteund.
 
 <table id="table_DCF6B69A9D8C4DB7A10C4572F7484799"> 
  <thead> 
@@ -232,36 +235,36 @@ Het is mogelijk lettertypestijl, vormgeving van grootte en verticale verschuivin
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
    <td colname="col2"> <p>Verschuiving vanaf de onderkant van de hoofdweergave. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> kleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kleur  </span> </p> </td> 
    <td colname="col2"> <p>Tekstkleur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Fontnaam. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekengrootte </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekengrootte  </span> </p> </td> 
    <td colname="col2"> <p>Tekengrootte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
    <td colname="col2"> <p>Opvulling rond de berichttekst. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>De achtergrondvulkleur van berichttekst. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p>Straal achtergrondrand van berichttekst. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> dekking </span> </p> </td> 
-   <td colname="col2"> <p>Achtergronddekking van berichttekst. </p> <p>Gebruik voor Internet Explorer 8 <span class="codeph"> filter:alpha(opacity-...)) </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> dekking  </span> </p> </td> 
+   <td colname="col2"> <p>Achtergronddekking van berichttekst. </p> <p>Gebruik voor Internet Explorer 8 <span class="codeph"> filter:alpha(opacity-...) ) </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
