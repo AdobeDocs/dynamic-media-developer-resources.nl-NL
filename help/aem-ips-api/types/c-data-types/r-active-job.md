@@ -63,7 +63,7 @@ Geef een waarde voor het taaktype op om het taaktype te retourneren. U kunt de v
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
-   <td colname="col3">Oorspronkelijke naam van het <span class="codeph"> ActiveJob</span> -type dat samen met de taak is verzonden. </td> 
+   <td colname="col3">Oorspronkelijke naam van het type <span class="codeph"> ActiveJob</span> dat met de taak is ingediend. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
@@ -83,12 +83,12 @@ Geef een waarde voor het taaktype op om het taaktype te retourneren. U kunt de v
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> landinstelling</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
-   <td colname="col3">De landinstelling voor de gegevens van het taaklogboek en de e-maillokalisatie. <p>Geef landinstellingen op als <span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span>, waarbij de taalcode een code van twee kleine letters is, zoals gespecificeerd in ISO-639, en de optionele landcode een code van twee letters in hoofdletters is, zoals gespecificeerd in ISO-3166. De landinstelling voor Engels (Verenigde Staten) zou bijvoorbeeld als volgt zijn: <span class="codeph"> en-US</span>. </p></td> 
+   <td colname="col3">De landinstelling voor de gegevens van het taaklogboek en de e-maillokalisatie. <p>Geef landinstellingen op als <span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span>, waarbij de taalcode een code van twee letters in kleine letters is zoals gespecificeerd in ISO-639, en de optionele landcode een code van twee letters in hoofdletters is zoals gespecificeerd in ISO-3166. De landinstelling voor Engels (Verenigde Staten) zou bijvoorbeeld als volgt zijn: <span class="codeph"> nl-NL</span>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> beschrijving</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
-   <td colname="col3">Functiebeschrijving die oorspronkelijk is opgegeven in <span class="codeph"> submitJob</span>. </td> 
+   <td colname="col3">Functiebeschrijving oorspronkelijk opgegeven in <span class="codeph"> submitJob</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverName</span> </span> </td> 
@@ -173,7 +173,7 @@ Geef een waarde voor het taaktype op om het taaktype te retourneren. U kunt de v
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typen:ExportJob</span> </td> 
-   <td colname="col3">Toestaan dat eerder geüploade bestanden zijn geëxporteerd. Zie Taak <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"></a>exporteren. </td> 
+   <td colname="col3">Toestaan dat eerder geüploade bestanden zijn geëxporteerd. Zie <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> Taak exporteren</a>. </td> 
   </tr> 
  </tbody> 
 </table>
