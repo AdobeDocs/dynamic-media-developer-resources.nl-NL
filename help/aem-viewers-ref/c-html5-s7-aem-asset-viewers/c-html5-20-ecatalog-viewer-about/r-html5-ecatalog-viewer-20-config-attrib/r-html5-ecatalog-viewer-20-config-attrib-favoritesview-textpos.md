@@ -1,18 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: FavorietenWeergave.textpos
+seo-title: FavoritesView.textpos
 solution: Experience Manager
-title: FavorietenWeergave.textpos
+title: FavoritesView.textpos
 topic: Dynamic media
 uuid: e3e5f0c8-8a20-4e9c-8018-156af2a3ca3b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '66'
+ht-degree: 1%
 
 ---
 
 
-# FavorietenWeergave.textpos{#favoritesview-textpos}
+# FavoritesView.textpos{#favoritesview-textpos}
 
 `[FavoritesView.|<containerId>_favoritesView.]textpos=bottom|top|left|right|none|tooltip`
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> onder|boven|links|rechts|geen|knopinfo</span> </p> </td> 
-   <td colname="col2"> <p> Hiermee geeft u op waar het label wordt getekend ten opzichte van de miniatuurafbeelding. Het label wordt dus gecentreerd op de opgegeven locatie ten opzichte van de miniatuur. </p> <p>Wanneer <span class="codeph"> knopinfo</span> is opgegeven, wordt de labeltekst weergegeven als zwevende knopinfo boven de miniatuurafbeelding. </p> <p>Wanneer ingesteld op <span class="codeph"> none</span>, wordt de labelweergave uitgeschakeld. </p> </td> 
+   <td colname="col2"> <p> Hiermee geeft u op waar het label wordt getekend ten opzichte van de miniatuurafbeelding. Het label wordt dus gecentreerd op de opgegeven locatie ten opzichte van de miniatuur. </p> <p>Wanneer <span class="codeph"> tooltip</span> wordt gespecificeerd, wordt de etikettekst getoond als het drijven tooltip over het duimnagelbeeld. </p> <p>Wanneer ingesteld op <span class="codeph"> none</span>, schakelt deze de labelweergave uit. </p> </td> 
   </tr> 
  </tbody> 
 </table>
