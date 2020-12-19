@@ -1,6 +1,6 @@
 ---
-description: Afhankelijk van de waarde van de wijzeparameter, toont de kijker de pictogrammen van de beeldkaart over de belangrijkste mening op plaatsen waar de kaarten oorspronkelijk in het Publiceren Scene7 Systeem worden ontworpen of geeft nauwkeurige gebieden terug die de vorm van originele beeldkaarten aanpassen.
-seo-description: Afhankelijk van de waarde van de wijzeparameter, toont de kijker de pictogrammen van de beeldkaart over de belangrijkste mening op plaatsen waar de kaarten oorspronkelijk in het Publiceren Scene7 Systeem worden ontworpen of geeft nauwkeurige gebieden terug die de vorm van originele beeldkaarten aanpassen.
+description: Afhankelijk van de waarde van de parameter mode worden in de viewer pictogrammen voor afbeeldingen met hyperlinks in de hoofdweergave weergegeven op plaatsen waar kaarten oorspronkelijk zijn gemaakt in het Scene7 Publishing System of worden exacte gebieden weergegeven die overeenkomen met de vorm van de oorspronkelijke afbeeldingen met hyperlinks.
+seo-description: Afhankelijk van de waarde van de parameter mode worden in de viewer pictogrammen voor afbeeldingen met hyperlinks in de hoofdweergave weergegeven op plaatsen waar kaarten oorspronkelijk zijn gemaakt in het Scene7 Publishing System of worden exacte gebieden weergegeven die overeenkomen met de vorm van de oorspronkelijke afbeeldingen met hyperlinks.
 seo-title: Afbeeldingskaart, effect
 solution: Experience Manager
 title: Afbeeldingskaart, effect
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: 193d2f4e-77a2-4741-bf36-90ca31c600c6
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '358'
+ht-degree: 0%
 
 ---
 
 
-# Afbeeldingskaart, effect{#image-map-effect}
+# Afbeeldingskaarteffect{#image-map-effect}
 
-Afhankelijk van de waarde van de wijzeparameter, toont de kijker de pictogrammen van de beeldkaart over de belangrijkste mening op plaatsen waar de kaarten oorspronkelijk in het Publiceren Scene7 Systeem worden ontworpen of geeft nauwkeurige gebieden terug die de vorm van originele beeldkaarten aanpassen.
+Afhankelijk van de waarde van de parameter mode worden in de viewer pictogrammen voor afbeeldingen met hyperlinks in de hoofdweergave weergegeven op plaatsen waar kaarten oorspronkelijk zijn gemaakt in het Scene7 Publishing System of worden exacte gebieden weergegeven die overeenkomen met de vorm van de oorspronkelijke afbeeldingen met hyperlinks.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -28,7 +31,7 @@ De vormgeving van het afbeeldingskaartpictogram wordt bepaald door de volgende C
 
 >[!NOTE]
 >
->De `s7mapoverlay` CSS-klasse die in het verleden is gebruikt om afbeeldingskaartpictogrammen op te maken, is nu afgekeurd. in `s7icon` plaats daarvan gebruiken.
+>De klasse `s7mapoverlay` CSS die in het verleden is gebruikt om afbeeldingskaartpictogrammen op te maken, is nu afgekeurd. gebruik in plaats hiervan `s7icon`.
 
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
@@ -39,11 +42,11 @@ De vormgeving van het afbeeldingskaartpictogram wordt bepaald door de volgende C
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
    <td colname="col2"> <p>Pictogramafbeeldingskaart, illustraties. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie ook <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -51,7 +54,7 @@ De vormgeving van het afbeeldingskaartpictogram wordt bepaald door de volgende C
    <td colname="col2"> <p>Breedte van afbeeldingskaart in pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hoogte afbeeldingskaart in pixels. </p> </td> 
   </tr> 
  </tbody> 
@@ -59,7 +62,7 @@ De vormgeving van het afbeeldingskaartpictogram wordt bepaald door de volgende C
 
 >[!NOTE]
 >
->Het pictogram Afbeeldingskaart ondersteunt de `state` kenmerkkiezer, die u kunt gebruiken om verschillende skins toe te passen op de pictogramstatussen `default` en `active`.
+>Het pictogram Afbeeldingskaart ondersteunt de kenmerkenkiezer `state`, die u kunt gebruiken om verschillende skins toe te passen op de pictogramstatussen `default` en `active`.
 
 Voorbeeld: stel een pictogram voor een afbeelding met hyperlinks van 28 x 28 pixels in en geef een andere afbeelding weer voor elk van de twee verschillende pictogramstaten.
 
@@ -77,7 +80,7 @@ opacity: 1;
 }
 ```
 
-Zie ook Ondersteuning voor [afbeeldingen met hyperlinks](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-image-map-support.md#concept-28759efae5014a1fa8b0fb14dc26812a).
+Zie ook [Ondersteuning voor afbeeldingen met hyperlinks](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-image-map-support.md#concept-28759efae5014a1fa8b0fb14dc26812a).
 
 De vormgeving van het gebied met afbeeldingskaart wordt bepaald door de volgende CSS-klassenkiezer:
 
@@ -94,21 +97,21 @@ De vormgeving van het gebied met afbeeldingskaart wordt bepaald door de volgende
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background  </span> </p> </td> 
    <td colname="col2"> <p> Vulkleur van gebied Afbeeldingskaart. </p> <p>Opgegeven in de indeling #RRGGBB, RGB(R,G,B) of RGBA(R,G,B,A). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Vulkleur van gebied Afbeeldingskaart. </p> <p>Opgegeven in de indeling #RRGGBB, RGB(R,G,B) of RGBA(R,G,B,A). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
-   <td colname="col2"> <p> Randstijl van afbeeldingskaart. </p> <p>Opgegeven als <span class="codeph"><span class="varname"> effen </span> kleur <span class="varname"> </span> , waarbij de </span><span class="codeph"> <span class="varname"> </span> </span> <span class="codeph"> <span class="varname"> </span> </span> breedte wordt uitgedrukt in pixels en  kleur wordt ingesteld als #RRGGBB, RGB(R,G,B) of RGBA(R,G,B,A). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col2"> <p> Randstijl van afbeeldingskaart. </p> <p>Opgegeven als <span class="codeph"> <span class="varname"> breedte </span> effen <span class="varname"> kleur </span> </span>, waarbij <span class="codeph"> <span class="varname"> breedte </span> </span> wordt uitgedrukt in pixels en <span class="codeph"> <span class="varname"> kleur </span> </span> is ingesteld als ingesteld #RRGGBB, RGB(R,G,B) of RGBA(R,G,B,A). </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voorbeeld - stel een transparant gebied voor een afbeeldingskaart in met een zwarte pixelrand: `1`
+Voorbeeld - stel een transparant gebied voor een afbeelding met een zwarte pixelrand van `1` in:
 
 ```
 .s7ecatalogviewer .s7imagemapeffect .s7region { 
