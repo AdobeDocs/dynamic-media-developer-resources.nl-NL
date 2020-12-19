@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 50b2ecee-8396-4323-83e1-1f5060bec6c4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '113'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +33,7 @@ Syntaxis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> miniatuurTime</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> miniatuurTime</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
    <td colname="col3"> <p>Hiermee stelt u de tijd (in milliseconden vanaf het begin van de video) in voor het frame dat u wilt gebruiken voor de videominiatuur. Waarden kunnen variëren van 0 tot het einde van de video. <p>Opmerking: Het systeem gebruikt het eerste frame van de video voor de miniatuur als u de tijd onjuist opgeeft. Zie <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>. </p></p> </td> 
   </tr> 
