@@ -23,7 +23,7 @@ Instellingen die de scherpte van afbeeldingen voor geoptimaliseerde TIF-piramide
 
 ## Parameters {#section-c3f0d03136ba4422819cb463bd393885}
 
-Geef een waarde op voor `unsharpMaskOptions` opties met `minOccurs=" *`n`*".`
+Geef een waarde op voor `unsharpMaskOptions`-opties met `minOccurs=" *`n`*".`
 
 <table id="table_D1392963C5694969A9D546F82DB6F45C">
  <thead>
@@ -56,7 +56,7 @@ Geef een waarde op voor `unsharpMaskOptions` opties met `minOccurs=" *`n`*".`
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> drempel</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:int</span></td>
-   <td colname="col3"><p>Hiermee bepaalt u hoe verschillende pixels moeten zijn van het omliggende gebied voordat deze worden beschouwd als randpixels en kunnen worden verscherpt. 
+   <td colname="col3"><p>Hiermee bepaalt u hoe verschillende pixels moeten zijn afkomstig uit het omringende gebied voordat deze worden beschouwd als randpixels en kunnen worden verscherpt. 
      <ul id="ul_117E556E3ECF42CC878DD80D338D19CA">
       <li id="li_CFEE76DB78BF437E8463C9089486F8A6">Bereik: 0 - 255 (alleen gehele getallen). </li>
       <li id="li_77113DC2698A4D48B11288718766E6A2">Standaard: 6 </li>
@@ -65,7 +65,7 @@ Geef een waarde op voor `unsharpMaskOptions` opties met `minOccurs=" *`n`*".`
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> monochroom</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:int</span></td>
-   <td colname="col3"><p>Waarden zijn alleen <span class="codeph"> 0</span> of <span class="codeph"> 1</span> . </p><p>Ingesteld op <span class="codeph"> 0</span> om afzonderlijk op elke kleurcomponent toe te passen of op <span class="codeph"> 1</span> om alleen op de helderheid (intensiteit) van de afbeelding toe te passen. Het laagmasker of het samengestelde masker wordt ook verscherpt. </p><p><span class="codeph"><span class="varname"> monochroom</span></span> wordt genegeerd voor grijswaardenafbeeldingen. </p></td>
+   <td colname="col3"><p>Waarden zijn alleen <span class="codeph"> 0</span> of <span class="codeph"> 1</span>. </p><p>Stel in op <span class="codeph"> 0</span> om toe te passen op elke kleurcomponent afzonderlijk of op <span class="codeph"> 1</span> om alleen toe te passen op helderheid (intensiteit) van afbeelding. Het laagmasker of het samengestelde masker wordt ook verscherpt. </p><p><span class="codeph"><span class="varname"> </span></span> monochrome afbeeldingen worden genegeerd. </p></td>
   </tr>
  </tbody>
 </table>
@@ -84,9 +84,9 @@ Geef een waarde op voor `unsharpMaskOptions` opties met `minOccurs=" *`n`*".`
     </complexType>
 ```
 
-## Gebruikt door {#section-db8124a5468b498694a780f8a56a4560}
+## Wordt gebruikt door {#section-db8124a5468b498694a780f8a56a4560}
 
-Het `unsharpMaskOptions` type wordt gebruikt door:
+Het type `unsharpMaskOptions` wordt gebruikt door:
 
 * [ReprocessAssetsJob](../../types/c-data-types/r-reprocess-assets-job.md#reference-a303f7832ae44fdab1dca7cc8bef3fa3)
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
