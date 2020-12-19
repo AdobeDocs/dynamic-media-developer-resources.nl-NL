@@ -8,11 +8,14 @@ topic: Scene7 Image Production System API
 uuid: 3c163157-cd0d-4887-a1f0-7941d96c36f9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '63'
+ht-degree: 0%
 
 ---
 
 
-# Bewerkingen: Nieuw en gewijzigd{#operations-new-and-modified}
+# Bewerkingen: Nieuw en Gewijzigd{#operations-new-and-modified}
 
 Beschrijft nieuwe en veranderde verrichtingsmethodes voor IPS API versie 3.7.
 
@@ -40,7 +43,7 @@ Syntaxis
 
 **searchAsset**
 
-* Verwijderd `name` parameter.
+* `name` parameter verwijderd.
 * Toegevoegd `excludeFieldArray`.
 
 **getFolders**
@@ -50,5 +53,5 @@ Syntaxis
 **getFolderTree**
 
 * Toegevoegd `excludeFieldArray` en `getUniqueMetadataValues`.
-* Een `fieldHandle` vereiste parameter gemaakt.
+* `fieldHandle` is een vereiste parameter.
 
