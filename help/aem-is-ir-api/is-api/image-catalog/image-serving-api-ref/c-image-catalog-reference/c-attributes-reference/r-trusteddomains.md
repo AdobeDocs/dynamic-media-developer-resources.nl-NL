@@ -1,6 +1,6 @@
 ---
-description: Webdomeinen van Flash-toepassingen. Adobe Flash-toepassingen hebben mogelijk toegang nodig tot de eigenschappen van afbeeldingen die worden geleverd met fmt=swf of fmt=swf3.
-seo-description: Webdomeinen van Flash-toepassingen. Adobe Flash-toepassingen hebben mogelijk toegang nodig tot de eigenschappen van afbeeldingen die worden geleverd met fmt=swf of fmt=swf3.
+description: Webdomeinen van de Flash-toepassing. Voor Adobe Flash-toepassingen is mogelijk toegang vereist tot de eigenschappen van afbeeldingen die worden geleverd met fmt=swf of fmt=swf3.
+seo-description: Webdomeinen van de Flash-toepassing. Voor Adobe Flash-toepassingen is mogelijk toegang vereist tot de eigenschappen van afbeeldingen die worden geleverd met fmt=swf of fmt=swf3.
 seo-title: TrustedDomains
 solution: Experience Manager
 title: TrustedDomains
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 1d056d68-b699-413c-897c-8612444735c5
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '128'
+ht-degree: 0%
 
 ---
 
 
 # TrustedDomains{#trusteddomains}
 
-Webdomeinen van Flash-toepassingen. Adobe Flash-toepassingen hebben mogelijk toegang nodig tot de eigenschappen van afbeeldingen die worden geleverd met fmt=swf of fmt=swf3.
+Webdomeinen van de Flash-toepassing. Voor Adobe Flash-toepassingen is mogelijk toegang vereist tot de eigenschappen van afbeeldingen die worden geleverd met fmt=swf of fmt=swf3.
 
 Het SWF-bestand moet expliciet toegang verlenen door de naam te registreren van de toepassingsdomeinen die het vertrouwt.
 
