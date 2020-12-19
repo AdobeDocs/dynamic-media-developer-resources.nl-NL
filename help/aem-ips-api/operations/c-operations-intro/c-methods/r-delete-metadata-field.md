@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 06ec434a-2793-4227-ac93-ae3871c38ab9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Hiermee verwijdert u het metagegevensveld van een bedrijf.
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-63e7d17f4b434995a872838bfff7f9ff}
+## Toegestane gebruikerstypen {#section-63e7d17f4b434995a872838bfff7f9ff}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -39,7 +42,7 @@ IPS API keert geen reactie voor deze verrichting terug.
 
 ## Voorbeelden {#section-e1c474ea91a040609ecd7c2400f4fa3c}
 
-In dit codevoorbeeld wordt het metagegevensveld van een bedrijf verwijderd. Het gebruikt het bedrijfshandvat en meta-gegevenshandvat als gebieden in de `deleteMetadataFieldParam` binnen overgegaan tot de IPS de dienstenserver van het Web om deze actie uit te voeren.
+In dit codevoorbeeld wordt het metagegevensveld van een bedrijf verwijderd. Het gebruikt het bedrijfs handvat en meta-gegevenshandvat als gebieden in `deleteMetadataFieldParam` die binnen aan de IPS de dienstenserver van het Web worden overgegaan om deze actie uit te voeren.
 
 **Verzoek**
 
