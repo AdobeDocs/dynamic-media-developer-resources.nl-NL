@@ -32,7 +32,7 @@ ht-degree: 0%
       ]&gt;</code> </p> <p>De werkelijke syntaxis voor de inhoudssjabloon is als volgt: </p> <p> <code>&lt;info&gt;
       &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]&gt;
       &lt;![CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]&gt;
-      &lt;/info&gt;</code> </p> <p>De sjabloon moet dus beginnen met het element <span class="codeph"> &lt;info&gt;</span> dat optionele standaardelementen <span class="codeph"> &lt;var&gt;</span> kan bevatten. De sjablooninhoud zelf, <span class="codeph"> TEMPLATE_CONTENT</span> , is HTML-tekst. Bovendien kan de inhoudssjabloon namen van variabelen bevatten die zijn ingesloten in <span class="codeph"> $</span> tekens. Deze tekens worden vervangen door de waarden van de variabelen die door de infoserver worden geretourneerd of door de standaardwaarden. </p> <p>Standaardvariabelen die in de sjabloon zijn gedefinieerd, kunnen globaal zijn (als het rollover-kenmerk niet is ingesteld) of specifiek zijn voor een bepaalde rollover-sleutel (als het rollover-kenmerk aanwezig is). </p> <p>Tijdens sjabloonverwerkingsvariabelen die specifiek zijn voor rollover-sleutels hebben voorrang op algemene variabelen. </p> </td> 
+      &lt;/info&gt;</code> </p> <p>Dat wil zeggen dat de sjabloon moet beginnen met het <span class="codeph"> &lt;info&gt;</span>-element dat optionele standaard <span class="codeph"> &lt;var&gt;</span>-elementen kan bevatten. De sjablooninhoud zelf, <span class="codeph"> TEMPLATE_CONTENT</span> is HTML-tekst. Daarnaast kan de inhoudssjabloon namen van variabelen bevatten die zijn opgenomen in <span class="codeph"> $</span> tekens. Deze tekens worden vervangen door de waarden van de variabelen die door de infoserver worden geretourneerd of door de standaardwaarden. </p> <p>Standaardvariabelen die in de sjabloon zijn gedefinieerd, kunnen globaal zijn (als het rollover-kenmerk niet is ingesteld) of specifiek zijn voor een bepaalde rollover-sleutel (als het rollover-kenmerk aanwezig is). </p> <p>Tijdens sjabloonverwerkingsvariabelen die specifiek zijn voor rollover-sleutels hebben voorrang op algemene variabelen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,6 +51,6 @@ Geen.
 
 ## Voorbeeld {#section-16d184665c484964af9a22f79ff3f840}
 
-Ervan uitgaande dat de reactie van de infoserver de productnaam als variabele retourneert `$1$` en dat de URL van de productafbeelding als variabele wordt geretourneerd `$2$`.
+Ervan uitgaande dat de infoserver-reactie de productnaam als variabele `$1$` retourneert en de URL van de productafbeelding als variabele `$2$` wordt geretourneerd.
 
 `template=<info><![CDATA[Product description:$1$<br>Product image:<img src="$2$">]]></info>`
