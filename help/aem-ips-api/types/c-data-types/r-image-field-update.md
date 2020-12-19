@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 0262be3e-f840-41cd-bedc-cc37d9982235
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '71'
+ht-degree: 0%
 
 ---
 
@@ -26,5 +29,5 @@ Syntaxis
 | ` *`resolutie`*` | `xsd:double` | Afbeeldingsresolutie in pixels per inch. |
 | ` *`anchorX`*` | `xsd:int` | Anker voor afbeelding langs de X-as. |
 | ` *`anchorY`*` | `xsd:int` | Anker afbeelding op Y-as. |
-| ` *`userData`*` | `xsd:string` | De waarde van het `userData` meta-gegevensgebied, dat aan het beeld wordt gepubliceerd die de catalogusgebied van gebruikersgegevens dienen. |
+| ` *`userData`*` | `xsd:string` | Waarde van `userData` meta-gegevensgebied, dat aan het beeld wordt gepubliceerd die de catalogusgebied van gebruikersgegevens dienen. |
 
