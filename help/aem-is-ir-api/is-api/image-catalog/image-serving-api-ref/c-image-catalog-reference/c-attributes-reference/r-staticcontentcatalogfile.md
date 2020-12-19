@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 82d2a68a-255a-4e65-a29f-7022e7f0f5ec
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Statische gegevenspaden van inhoudscatalogus. Hiermee geeft u de bestanden op die de statische inhoudsgegevens voor deze catalogus bevatten.
 
-De statische gegevensdossiers van de inhoudscatalogus worden geladen in de gespecificeerde orde. Als dezelfde `static::Id` waarde voorkomt in meer dan één record (in dezelfde of verschillende catalogusbestanden), heeft de laatste instantie voorrang.
+De statische gegevensdossiers van de inhoudscatalogus worden geladen in de gespecificeerde orde. Als dezelfde `static::Id`-waarde voorkomt in meer dan één record (in dezelfde of in verschillende catalogusbestanden), heeft de laatste instantie voorrang.
 
 ## Eigenschappen {#section-3f8dc8d21fa84fbeb71db6ca1ecbdd8c}
 
