@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 15c01750-958a-497d-a999-cacf359bb985
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 0%
 
 ---
 
 
-# verbergen{#hide}
+# hide{#hide}
 
 Overlappend object verbergen. Hiermee verbergt u alle overlappende objecten of vensterbekledingen die zijn toegepast op kaders met vensterbekleding in de huidige selectie.
 
