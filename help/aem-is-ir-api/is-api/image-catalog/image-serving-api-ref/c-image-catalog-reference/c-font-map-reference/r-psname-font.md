@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8c7624c5-7f34-4128-abb7-94c007669b80
 translation-type: tm+mt
 source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +23,7 @@ Op dit moment kan alleen de FXG-renderer naar lettertypen verwijzen op basis van
 
 ## Eigenschappen {#section-a560f8bfc69a4d88aeb0b53c1625153b}
 
-Tekstreeks. Optioneel. Secundaire indexsleutel voor de lettertypetoewijzing. Dezelfde `font::PsName` waarde kan slechts eenmaal voorkomen in hetzelfde fonttoewijzingsbestand.
+Tekstreeks. Optioneel. Secundaire indexsleutel voor de lettertypetoewijzing. Dezelfde `font::PsName`-waarde kan slechts eenmaal voorkomen in hetzelfde fonttoewijzingsbestand.
 
 ## Standaard {#section-c5903d5340e740b69ec0150d2303a893}
 
