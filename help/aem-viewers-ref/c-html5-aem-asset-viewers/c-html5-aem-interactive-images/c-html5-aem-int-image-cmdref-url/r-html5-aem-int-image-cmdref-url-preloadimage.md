@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 3b45dc86-8963-465f-b23f-519d54c2ce85
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '36'
+ht-degree: 5%
 
 ---
 
 
-# voorladen{#preloadimage}
+# voorladimage{#preloadimage}
 
 URL-opdracht voor Video Image Viewer.
 
@@ -22,7 +25,7 @@ URL-opdracht voor Video Image Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Schakel (1) of (0) de functie Afbeelding vooraf laden in. </p> <p>Zie Afbeelding <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-preload-image.md#concept-d9528ead78ca4d1dae7904bf2520b1e3" format="dita" scope="local"></a>vooraf laden. </p> </td> 
+   <td colname="col2"> <p> Schakel (1) of (0) de functie Afbeelding vooraf laden in. </p> <p>Zie <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-preload-image.md#concept-d9528ead78ca4d1dae7904bf2520b1e3" format="dita" scope="local"> Afbeelding vooraf laden</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
