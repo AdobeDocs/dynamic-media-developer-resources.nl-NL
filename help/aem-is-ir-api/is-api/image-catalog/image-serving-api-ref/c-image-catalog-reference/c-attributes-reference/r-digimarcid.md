@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 23f1952f-71b7-4b2a-917d-8161ea855ac9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Vijf of zes door komma&#39;s gescheiden gehele getallen. Het derde en vierde get
 
 `creator-id, creator-pin, durability [ , chroma ]`
 
-De service `creator-id` en `creator-pin` worden geleverd door Digimarc wanneer de service wordt aangeschaft. De ongebruikte waarden moeten leeg blijven.
+De `creator-id` en `creator-pin` worden geleverd door Digimarc wanneer de service wordt aangeschaft. De ongebruikte waarden moeten leeg blijven.
 
 `durability` Hiermee geeft u de insluitingssterkte van het Digimarc-watermerk op. Het kan 1, 2, 3, of 4 zijn, met 1 die op zwakste en 4 sterkste duurzaamheid wijst.
 
