@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 572ad63b-e3b1-478a-b3b3-2cba0b3413d6
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '97'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Kleur dominante afbeelding. Subtractieve kleur, gebruikt voor het inkleuren van structuren. Dit moet de gemiddelde dominante kleur in de structuurafbeelding zijn.
 
-U kunt ook `BaseColor`als vulkleur gebruiken als een structuurmateriaal zonder structuur `catalog::Color` wordt toegepast op een niet-tekentabel vignetobject.
+U kunt `BaseColor`ook als vulkleur gebruiken als een textuurmateriaal dat geen `catalog::Color` heeft op een niet-tekentabel vignetvoorwerp wordt toegepast.
 
 ## Eigenschappen {#section-d9aec235f28b402581cf2277f5fc6fbb}
 
