@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 2d1be69a-661e-494a-9748-3a6525b19b1b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '171'
+ht-degree: 0%
 
 ---
 
 
-# Gemeenschappelijke operaties{#common-operations}
+# Algemene bewerkingen{#common-operations}
 
 Deze opdrachten zijn van toepassing op afbeeldings-, tekst- en effen-kleurlagen. Ze zijn over het algemeen ook handig voor samengestelde afbeeldingen en eenvoudige, niet-gelaagde afbeeldingsaanvragen.
 
