@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 89138f10-c80b-49b8-886f-45b0960038b8
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '196'
+ht-degree: 0%
 
 ---
 
@@ -30,107 +33,107 @@ Syntaxis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> origineel pad</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> originalPath</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> <p>Relatief pad naar het oorspronkelijke bestand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> originalFile</span></span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> originalFile</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> <p>Bestandsnaam. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> optimizedPath</span></span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> optimizedPath</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> <p>Pad naar het IPS-geoptimaliseerde afbeeldingsbestand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> geoptimaliseerd bestand</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> optimizedFile</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> <p>Het IPS-geoptimaliseerde afbeeldingsbestand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> maskPath</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> maskPath</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> <p>Pad van het masker van de afbeelding. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> maskFile</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> maskFile</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> <p>Bestandsnaam van het masker. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> breedte</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> width</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> <p>Afbeeldingsbreedte in pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> hoogte</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> height</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> <p>Hoogte van afbeelding in pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> bestandsgrootte</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fileSize</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> <p>Afbeeldingsgrootte in bytes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> resolutie</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> resolutie</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dubbel</span> </td> 
    <td colname="col3"> <p>Pixels per inch. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> sku</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> sku</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> <p>Product-id. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> beschrijving</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> beschrijving</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> <p>Beschrijving van afbeelding. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> opmerkingen</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> opmerkingen</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> <p>Opmerkingen (afgekeurd). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> userData</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> userData</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> <p>Gebruikersinfo die aan de afbeelding is gekoppeld (afgekeurd). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> anchorX</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> anchorX</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> <p>Horizontaal ankerpunt in pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> ankerY</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> anchorY</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> <p>Verticaal ankerpunt in pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> urlModifier</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> urlModifier</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> <p>URL-parameter van afbeeldingsserver. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> urlPostApplyModifier</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> urlPostApplyModifier</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
-   <td colname="col3"> <p>Parameters samengevoegd tot het einde van de <span class="codeph"> urlModifier</span>. Lijst met opmaakparameters van queryreeksen die opdrachten zijn voor de afbeeldingsserver. Waarden vindt u in de handleiding voor het protocol van de afbeeldingsserver. </p> </td> 
+   <td colname="col3"> <p>Parameters samengevoegd tot het einde van <span class="codeph"> urlModifier</span>. Lijst met opmaakparameters van queryreeksen die opdrachten zijn voor de afbeeldingsserver. Waarden vindt u in de handleiding voor het protocol van de afbeeldingsserver. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> zoomdoelen</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> zoomTargets</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:ZoomTargetArray</span> </td> 
    <td colname="col3"> <p>Array met zoomdoelen (max. 5). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> maskers</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> maskers</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:MaskArray</span> </td> 
    <td colname="col3"> <p>Maskerarray. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> afbeeldingen met hyperlinks</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> imageMaps</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:ImageMapsArray</span> </td> 
    <td colname="col3"> <p>Afbeelding met hyperlinks, array. </p> </td> 
   </tr> 
