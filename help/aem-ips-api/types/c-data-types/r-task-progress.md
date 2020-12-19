@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: b3b67803-147a-48a3-acc3-d608e01e0800
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '142'
+ht-degree: 0%
 
 ---
 
@@ -30,47 +33,47 @@ Syntaxis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> taskType</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> taskType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Beschrijving van taaktype. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> numVerwerkt</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> numVerwerkt</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Aantal reeds verwerkte taakpunten. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> numProcessing</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> numProcessing</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Aantal taakitems dat momenteel wordt uitgevoerd. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> numPending</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> numPending</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Aantal hangende taakonderdelen (nog niet verwerkt). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> voortgang</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> vordering</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dubbel</span> </td> 
    <td colname="col3"> % voortgang (bereik 0,0 - 1,0). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> progressMessage</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> progressMessage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Voortgangsbericht. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> lastProgressUpdate</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> lastProgressUpdate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
    <td colname="col3"> Tijd waarop de laatste voortgangsinformatie voor het laatst is bijgewerkt. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> taskItemProgressArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> taskItemProgressArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:TaskItemProgressArray</span> </td> 
    <td colname="col3"> Array met taakitems. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> taakstatus</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> taskState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3">Waarden zijn: 
     <ul id="ul_BD00DC855B1D42748204E8BCA81FD4BF">
