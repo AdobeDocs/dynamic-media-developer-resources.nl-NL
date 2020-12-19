@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 1e8af0a9-bc08-4e7f-bab2-344ec644e873
 translation-type: tm+mt
 source-git-commit: 4169757880407b62addd0a70ef1807d8b195820b
+workflow-type: tm+mt
+source-wordcount: '40'
+ht-degree: 0%
 
 ---
 
 
-# Statische inhoudsgegevensverwijzing{#static-content-data-reference}
+# Statische inhoudsgegevensreferentie{#static-content-data-reference}
 
 In deze sectie worden de kenmerken van de statische inhoudsgegevens beschreven.
 
