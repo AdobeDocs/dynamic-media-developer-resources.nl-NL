@@ -8,11 +8,14 @@ topic: Scene7 Image Production System API
 uuid: ef7c43ee-467f-46b9-bd82-05e8359bd829
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '84'
+ht-degree: 0%
 
 ---
 
 
-# Gegevenstypen: Nieuw en gewijzigd{#data-types-new-and-modified}
+# Gegevenstypen: Nieuw en Gewijzigd{#data-types-new-and-modified}
 
 Beschrijft nieuwe en veranderde types voor IPS API versie 6.
 
@@ -40,19 +43,19 @@ Syntaxis
 
 **Toegevoegd**
 
-* Toegevoegd `numUrls` aan `UploadUrlsJob`.
+* `numUrls` toegevoegd aan `UploadUrlsJob`.
 
-* Toegevoegd `fileName` aan `Asset.`
+* `fileName` toegevoegd aan `Asset.`
 
-* Toegevoegd `isHidden` aan `MetadataField`.
+* `isHidden` toegevoegd aan `MetadataField`.
 
-* Toegevoegd `taskState` aan `TaskProgress`.
+* `taskState` toegevoegd aan `TaskProgress`.
 
-* Toegevoegd `exportJob` aan `ActiveJob` en `ScheduledJob`.
+* `exportJob` toegevoegd aan `ActiveJob` en `ScheduledJob`.
 
-* Toegevoegd `optmizedPath` en `optimizedFile` aan `PsdInfo`.
+* `optmizedPath` en `optimizedFile` toegevoegd aan `PsdInfo`.
 
-* Toegevoegd `contextHandle` aan:
+* `contextHandle` toegevoegd aan:
 
    * `ImageRenderingPublishJob`
    * `VideoPublishJob`
@@ -66,9 +69,9 @@ Syntaxis
 
 **Gewijzigd**
 
-* In `User`, veranderd `role` in `defaultRole`.
+* In `User` is `role` gewijzigd in `defaultRole`.
 
-* In `Folder`, veranderd `permissions` in `permissionsSetHandle`.
+* In `Folder` is `permissions` gewijzigd in `permissionsSetHandle`.
 
-* In `AssetSummary`, `type` en `name` zijn nu facultatief.
+* In `AssetSummary` zijn `type` en `name` nu optioneel.
 
