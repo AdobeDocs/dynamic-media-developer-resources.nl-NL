@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 0479c371-487a-4e05-b009-9036ea464abf
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '58'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> voorlader</span></span> </p> </td> 
-   <td colname="col2"> <p> Geeft het gedrag voor het vooraf laden van de component op. </p> <p>Wanneer ingesteld op <span class="codeph"> -1</span>, worden alle miniaturen tegelijkertijd geladen wanneer de component wordt geïnitialiseerd of het element wordt gewijzigd. </p> <p>Wanneer ingesteld op <span class="codeph"> 0</span>, worden alleen zichtbare miniaturen geladen. </p> <p> Wanneer u deze optie instelt op <span class="codeph"><span class="varname"> vooraf laden</span></span>, kunt u opgeven hoeveel onzichtbare rijen rondom het zichtbare gebied worden voorgeladen. </p> </td> 
+   <td colname="col2"> <p> Geeft het gedrag voor het vooraf laden van de component op. </p> <p>Wanneer ingesteld op <span class="codeph"> -1</span>, worden alle miniaturen tegelijkertijd geladen wanneer de component wordt geïnitialiseerd of het element wordt gewijzigd. </p> <p>Wanneer ingesteld op <span class="codeph"> 0</span>, worden alleen zichtbare miniaturen geladen. </p> <p> Wanneer ingesteld op <span class="codeph"><span class="varname"> voorlader</span></span>, kunt u opgeven hoeveel onzichtbare rijen rondom het zichtbare gebied worden voorgeladen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
