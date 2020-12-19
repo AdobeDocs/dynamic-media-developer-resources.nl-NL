@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 2c37d217-8d49-478e-88d1-7121d0f0419b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '98'
+ht-degree: 0%
 
 ---
 
 
-# Materiaalresolutie{#material-resolution}
+# Materiële resolutie{#material-resolution}
 
 De resolutiewaarde van een herhaalbare structuur of ander materiaal definieert de grootte van de materiaalafbeelding in de coördinaatruimte van de scène.
 
