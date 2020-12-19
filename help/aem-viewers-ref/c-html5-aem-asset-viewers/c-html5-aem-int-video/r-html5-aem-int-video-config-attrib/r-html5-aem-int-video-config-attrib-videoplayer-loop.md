@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 6cc91f08-fff1-4b93-9807-5435335c8df5
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '37'
+ht-degree: 5%
 
 ---
 
@@ -21,7 +24,7 @@ Configuration attribute for Interactive Video Viewer.
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
    <td colname="col2"> <p> Geeft aan of de video opnieuw moet worden afgespeeld nadat het afspelen is voltooid. </p> </td> 
   </tr> 
  </tbody> 
