@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 3443bb91-1663-4686-b20a-94c372f0026e
 translation-type: tm+mt
 source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+workflow-type: tm+mt
+source-wordcount: '1021'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ De IPS Dienst van het Web wordt gesteund door een reeks documenten van WSDL (de 
 
 ## WSDL-toegang {#section-62e69fa2c87f4dc9bca72f10ba028f6c}
 
-Heb toegang tot Scene7 WSDLs zoals hieronder getoond.
+Open de Scene7 WSDL&#39;s zoals hieronder wordt weergegeven.
 
 ```
 https://<IPS_hostname:<IPS_port>/<IPS_webapp>/ 
@@ -36,7 +39,7 @@ https://<IPS_hostname>:<IPS_port>/<IPS_webapp>/
 services/IpsApiService 
 ```
 
-**Toegang tot URL&#39;s voor Scene7-gebieden**
+**Toegang tot URL&#39;s voor Scene7-regio&#39;s**
 
 <table id="table_45BB314ABCDA49F38DF7BECF95CC984A"> 
  <thead> 
@@ -80,43 +83,43 @@ Herinner me, kunt u uw code moeten wijzigen als u eigenschappen in de recentste 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>6.8/2014R1 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IPpsApi-2014-04-03.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2014-04-03 </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> IPpsApi-2014-04-03.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2014-04-03  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>6.6/2013R1 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IPpsApi-2013-02-15.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2013-02-15 </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> IPpsApi-2013-02-15.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2013-02-15  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>6.0/2012R1 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IPpsApi-2012-02-14.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2012-02-14 </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> IPpsApi-2012-02-14.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2012-02-14  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4.5 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IPpsApi-2010-01-31.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2010-01-31 </span> </p> </td> 
+   <td colname="col1"> <p>4,5 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> IPpsApi-2010-01-31.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2010-01-31  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4.4 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IPpsApi-2009-07-31.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2009-07-31 </span> </p> </td> 
+   <td colname="col1"> <p>4,4 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> IPpsApi-2009-07-31.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2009-07-31  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4.2 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IPpsApi-2008-09-10.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2008-09-10 </span> </p> </td> 
+   <td colname="col1"> <p>4,2 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> IPpsApi-2008-09-10.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2008-09-10  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4.0 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IPpsApi-2008-01-15.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2008-01-15 </span> </p> </td> 
+   <td colname="col1"> <p>4,0 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> IPpsApi-2008-01-15.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2008-01-15  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Pre-4.0 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IpsApi.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> IpsApi.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd  </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -131,7 +134,7 @@ De IPS API Dienst van het Web steunt slechts een band van de ZEEP.
 
 **Ondersteunde transporten**
 
-De IPS API band van de ZEEP steunt slechts het vervoer van HTTP. Maak alle verzoeken van de ZEEP gebruikend de methode HTTPS POST.
+De IPS API band van de ZEEP steunt slechts het vervoer van HTTP. Maak alle verzoeken van de ZEEP gebruikend de methode van de POST HTTPS.
 
 **Koptekst van SOAP-actie**
 
@@ -139,11 +142,11 @@ Als u een aanvraag wilt verwerken, stelt u de HTTP-header van SOAPAction in op d
 
 **Berichtindeling**
 
-De document/letterlijke stijl wordt gebruikt voor alle invoer- en uitvoerberichten met typen die zijn gebaseerd op de definitietaal van het XML-schema ( [http://www.w3.org/TR/xmlschema-0/](http://www.w3.org/TR/xmlschema-0/)) en die zijn opgegeven in het WSDL-bestand. Alle typen vereisen gekwalificeerde namen met gebruik van de naamruimtewaarde van het doel die in het WSDL-bestand is opgegeven.
+De document/letterlijke stijl wordt gebruikt voor alle input en outputberichten met types die op de definitietaal van het Schema van XML ( [http://www.w3.org/TR/xmlschema-0/](http://www.w3.org/TR/xmlschema-0/)) worden gebaseerd en in het dossier van WSDL worden gespecificeerd. Alle typen vereisen gekwalificeerde namen met gebruik van de naamruimtewaarde van het doel die in het WSDL-bestand is opgegeven.
 
 **Verificatie aanvragen**
 
-De aangewezen methode om authentificatiegeloofsbrieven in API verzoeken over te gaan is het `authHeader` element te gebruiken zoals die in IPS API WSDL wordt bepaald.
+De aangewezen methode om authentificatiegeloofsbrieven in API verzoeken over te gaan is het `authHeader` element zoals die in IPS API WSDL wordt bepaald te gebruiken.
 
 ```
 <element name="authHeader"> 
@@ -172,39 +175,39 @@ De aangewezen methode om authentificatiegeloofsbrieven in API verzoeken over te 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> user </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> user  </span> </p> </td> 
    <td colname="col2"> <p> Geldige IPS-gebruikers-e-mail. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> password </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> password  </span> </p> </td> 
    <td colname="col2"> <p>Wachtwoord voor gebruikersaccount. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> landinstelling </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> landinstelling  </span> </p> </td> 
    <td colname="col2"> <p> Optionele landinstelling voor aanvraag. Zie <b>Landinstelling</b> voor meer informatie. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> appName </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> appName  </span> </p> </td> 
    <td colname="col2"> <p> Toepassingsnaam aanroepen. Deze parameter is optioneel, maar u wordt aangeraden deze in alle aanvragen op te nemen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> appVersion </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> appVersion  </span> </p> </td> 
    <td colname="col2"> <p> Toepassingsversie aanroepen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> gzipResponse </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> gzipResponse  </span> </p> </td> 
    <td colname="col2"> <p> Optionele markering om gzip-compressie van XML-reactie in of uit te schakelen. Standaard worden de reacties gecomprimeerd met gzip als de HTTP-header voor acceptatie en codering ondersteuning voor gzip aangeeft. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> errorHttpStatusCode </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> errorHttpStatusCode  </span> </p> </td> 
    <td colname="col2"> <p> Optionele parameter om de HTTP-statuscode voor foutreacties te negeren. Standaard retourneren de foutreacties HTTP-statuscode 500 (Interne serverfout). Sommige clientplatforms, waaronder Adobe Flash, kunnen de hoofdtekst van de reactie niet lezen, tenzij de statuscode 200 (OK) wordt geretourneerd. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Het `authHeader` element wordt altijd gedefinieerd in de naamruimte `http://www.scene7.com/IpsApi/xsd`, ongeacht de API-versie.
+Het element `authHeader` wordt altijd gedefinieerd in de naamruimte `http://www.scene7.com/IpsApi/xsd`, ongeacht de API-versie.
 
-Hieronder ziet u een voorbeeld van het gebruik van het `authHeader` element in een SOAP-aanvraagkoptekst:
+Hieronder ziet u een voorbeeld van het gebruik van het element `authHeader` in een SOAP-koptekst voor een aanvraag:
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -219,17 +222,17 @@ Hieronder ziet u een voorbeeld van het gebruik van het `authHeader` element in e
 
 **Andere methoden voor aanvraagverificatie**
 
-Als het om wat voor reden dan ook niet mogelijk is voor uw cliënttoepassing om de kopbal van de `authHeader` ZEEP over te gaan, kunnen de API verzoeken geloofsbrieven ook specificeren gebruikend de Basisauthentificatie van HTTP (zoals gespecificeerd in RFC 2617).
+Als het om wat voor reden dan ook niet mogelijk is voor uw cliënttoepassing om de `authHeader` kopbal van de ZEEP over te gaan, kunnen de API verzoeken geloofsbrieven ook specificeren gebruikend de Basisauthentificatie van HTTP (zoals gespecificeerd in RFC 2617).
 
-Voor HTTP Basic-verificatie moet de HTTP-headersectie van elke SOAP POST-aanvraag een header van het formulier bevatten:
+Voor HTTP Basic-verificatie moet de HTTP-headersectie van elke SOAP-POST-aanvraag een header van het formulier bevatten:
 
 `Authorization: Basic base64(<IPS_user_email>:<password>)`
 
-Waar `base64()` het standaardBase64 coderen toepast, `<IPS_user_email>` is het e-mailadres van een geldige IPS gebruiker, en `<password>` is het wachtwoord van de gebruiker.
+Waar `base64()` standaardBase64 het coderen toepast, `<IPS_user_email>` is het e-mailadres van een geldige IPS gebruiker, en `<password>` is het wachtwoord van de gebruiker.
 
-Verzend de koptekst voor autorisatie op voorhand met het eerste verzoek. Als de aanvraag geen verificatiereferenties bevat, wordt `IpsApiService` niet gereageerd met een statuscode van `401 (Unauthorized)`. In plaats daarvan, `500 (Internal Server Error)` wordt een statuscode van teruggekeerd met een de foutenlichaam die van de ZEEP verklaren dat het verzoek niet kon worden voor authentiek verklaard.
+Verzend de koptekst voor autorisatie op voorhand met het eerste verzoek. Als de aanvraag geen verificatiereferenties bevat, reageert `IpsApiService` niet met een statuscode van `401 (Unauthorized)`. In plaats daarvan, is een statuscode van `500 (Internal Server Error)` teruggekeerd met een de foutenlichaam die van de ZEEP dat verklaart dat het verzoek niet kon worden voor authentiek verklaard.
 
-Vóór IPS 3.8, werd de authentificatie via de kopbal van de ZEEP uitgevoerd gebruikend de `AuthUser` en `AuthPassword` elementen in namespace `http://www.scene7.com/IpsApi`. Bijvoorbeeld:
+Vóór IPS 3.8, werd de authentificatie via de kopbal van de ZEEP uitgevoerd gebruikend `AuthUser` en `AuthPassword` elementen in namespace `http://www.scene7.com/IpsApi`. Bijvoorbeeld:
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -238,7 +241,7 @@ Vóór IPS 3.8, werd de authentificatie via de kopbal van de ZEEP uitgevoerd geb
 </soap:Header>
 ```
 
-Deze stijl wordt nog steeds ondersteund voor achterwaartse compatibiliteit, maar is vervangen door het `authHeader` element.
+Deze stijl wordt nog steeds ondersteund voor achterwaartse compatibiliteit, maar is vervangen door het element `authHeader`.
 
 **Verzoek om toestemming**
 
@@ -246,7 +249,7 @@ Nadat de geloofsbrieven van de bezoeker voor authentiek worden verklaard, wordt 
 
 **Voorbeeld van SOAP-verzoek en -antwoord**
 
-In het volgende voorbeeld wordt een volledige `addCompany` bewerking getoond, inclusief HTTP-headers:
+In het volgende voorbeeld wordt een volledige `addCompany`-bewerking getoond, inclusief HTTP-headers:
 
 ```
 POST /scene7/services/IpsApiService HTTP/1.1 
@@ -300,7 +303,7 @@ xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
 
 **SOAP-fouten**
 
-Wanneer een verrichting een uitzonderingsvoorwaarde ontmoet, is een fout van de ZEEP teruggekeerd als lichaam van het bericht van de ZEEP in plaats van de normale reactie. Als een gebruiker die geen beheerder is, bijvoorbeeld de vorige `addCompany` aanvraag probeert te verzenden, wordt de volgende reactie gegeven:
+Wanneer een verrichting een uitzonderingsvoorwaarde ontmoet, is een fout van de ZEEP teruggekeerd als lichaam van het bericht van de ZEEP in plaats van de normale reactie. Bijvoorbeeld, als een niet-admin gebruiker probeert om het vorige `addCompany` verzoek te verzenden, is de volgende reactie teruggekeerd:
 
 ```
 HTTP/1.1 500 Internal Server Error 
