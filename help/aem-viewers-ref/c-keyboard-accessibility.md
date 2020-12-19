@@ -15,21 +15,21 @@ ht-degree: 0%
 ---
 
 
-# Toetsenbordtoegankelijkheid en -navigatie{#keyboard-accessibility-and-navigation}
+# Toetsenbordtoegankelijkheid en navigatie{#keyboard-accessibility-and-navigation}
 
 Alle functies die beschikbaar worden gesteld in de viewerinterface Standaardzoom, eCatalog, Zoeken in eCatalog, Flyout, Inline zoom, Gemengde media, Centrifugeren, Video, Zoomen, Carrousel, Dimensionaal (3D), Interactieve afbeelding, Interactieve video en Video360 zijn toegankelijk via het toetsenbord.
 
 <!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
-## Toetsenbordtoegankelijkheid en -navigatie {#topic-f5650e9493404e55a3627c8d1366b861}
+## Toetsenbordtoegankelijkheid en navigatie {#topic-f5650e9493404e55a3627c8d1366b861}
 
 Alle functies die beschikbaar worden gesteld in de viewerinterface Standaardzoom, eCatalog, Zoeken in eCatalog, Flyout, Inline zoom, Gemengde media, Centrifugeren, Video, Zoomen, Carrousel, Dimensionaal (3D), Interactieve afbeelding, Interactieve video en Video360 zijn toegankelijk via het toetsenbord.
 
-Een eindgebruiker kan navigeren tussen gebruikersinterface-elementen van de viewer door middel van **[!UICONTROL Tab]** toetsaanslagen en **[!UICONTROL Shift+Tab]** toetsaanslagen. Door de invoerfocus naar het volgende gebruikersinterface-element in de tabvolgorde te **[!UICONTROL Tab]** verplaatsen, het gebruiken **[!UICONTROL Shift+Tab]** brengt inputnadruk terug naar het vorige gebruikersinterface element. Het focustraversal volgt de natuurlijke locatie van het interface-element op het scherm en beweegt van links naar rechts en vervolgens van boven naar beneden.
+Een eindgebruiker kan met behulp van **[!UICONTROL Tab]**- en **[!UICONTROL Shift+Tab]**-toetsaanslagen navigeren tussen gebruikersinterface-elementen van de viewer. Wanneer u **[!UICONTROL Tab]** gebruikt, wordt de invoerfocus naar het volgende interface-element in de tabvolgorde verplaatst. wanneer u **[!UICONTROL Shift+Tab]** gebruikt, krijgt het vorige gebruikersinterface-element weer focus. Het focustraversal volgt de natuurlijke locatie van het interface-element op het scherm en beweegt van links naar rechts en vervolgens van boven naar beneden.
 
 Afhankelijk van het besturingssysteem en de instellingen van de webbrowser kan het interface-element met invoerfocus een visuele focusindicatie krijgen. De visuele indicator kan bijvoorbeeld een dunne rand zijn die rondom het interface-element wordt weergegeven.
 
-Het is mogelijk een dergelijke focusmarkering uit te schakelen of aan te passen in de CSS van de viewer. Klik in de inhoudsopgave van dit Help-systeem onder een specifieke viewernaam (bijvoorbeeld Standaardzoom of Interactieve video) op ***Naam van viewer ***aanpassen >**Focusmarkering **.
+Het is mogelijk een dergelijke focusmarkering uit te schakelen of aan te passen in de CSS van de viewer. Klik in de inhoudsopgave van dit Help-systeem onder een specifieke viewernaam (bijvoorbeeld Standaard zoomen of Interactieve video) op **Naam van viewer *Naam van viewer*** >** Focusmarkering **.
 
 Toetsen die door afzonderlijke gebruikersinterface-elementen van de viewer worden ondersteund, zijn meestal duidelijk en gemakkelijk te vinden.
 
@@ -47,7 +47,7 @@ Toetsen die door afzonderlijke gebruikersinterface-elementen van de viewer worde
   </tr> 
   <tr> 
    <td colname="col1"> <p>In- of uitzoomen </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> respectievelijk + </span> of <span class="uicontrol"> - </span>. </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> respectievelijk +  </span> of  <span class="uicontrol"> -  </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Zoomen opnieuw instellen </p> </td> 
