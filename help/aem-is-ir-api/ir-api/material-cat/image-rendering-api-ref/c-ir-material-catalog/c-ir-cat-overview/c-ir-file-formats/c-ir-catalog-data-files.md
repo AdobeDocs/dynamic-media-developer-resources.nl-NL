@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 33d991d6-5aa7-4cc6-88d4-10c4bb83d786
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '321'
+ht-degree: 0%
 
 ---
 
@@ -18,15 +21,15 @@ Gegevensbestanden van catalogi kunnen elke naam en elk achtervoegsel van het bes
 
 U kunt catalogusgegevensbestanden eenvoudig onderhouden met toepassingen die door tabs gescheiden tekstgegevensbestanden, zoals Microsoft Excel en Access, ondersteunen.
 
-In wezen bestaat een catalogusgegevensbestand uit een koptekstrecord waarin de gegevenskolommen en een willekeurig aantal gegevensrecords (rijen) worden geïdentificeerd. Velden in zowel koptekst- als gegevensrecords worden gescheiden door enkele `<TAB>` tekens. Records worden gescheiden door één `<CR>` (ASCII-code 0xD), één `<LF>` (ASCII-code 0xA) of `<CR><LF>` paar.
+In wezen bestaat een catalogusgegevensbestand uit een koptekstrecord waarin de gegevenskolommen en een willekeurig aantal gegevensrecords (rijen) worden geïdentificeerd. De gebieden in zowel kopbal als gegevensverslagen worden gescheiden door enige `<TAB>` karakters. Records worden gescheiden door één `<CR>` (ASCII-code 0xD), één `<LF>` (ASCII-code 0xA) of een `<CR><LF>`-paar.
 
 De headerrecord moet de exacte namen voor elk gegevensveld bevatten. Lege velden zijn niet toegestaan in de koptekstrij. Namen van gegevensvelden zijn niet hoofdlettergevoelig. Alle veldnamen moeten uniek zijn.
 
-In koptekst- en gegevensrecords is geen andere witruimte dan de `<TAB>` veldscheidingstekens toegestaan.
+In koptekst- en gegevensrecords is geen andere witruimte dan de `<TAB>`-veldscheidingstekens toegestaan.
 
-In de gegevensrecords geven twee aangrenzende `<TAB>` tekens een leeg veld aan. Lege velden nemen de standaardwaarden over van de cataloguskenmerken of van de standaardinstellingen van de server.
+In de gegevensrecords geven twee naast elkaar gelegen `<TAB>` tekens een leeg veld aan. Lege velden nemen de standaardwaarden over van de cataloguskenmerken of van de standaardinstellingen van de server.
 
-Gegevensvelden mogen geen `<CR>`, `<LF>`of `<TAB>` tekens bevatten, tenzij de gegevenswaarde van het type tekst is en door enkele of dubbele aanhalingstekens wordt ingesloten. Gegevensvelden mogen niet via HTTP zijn gecodeerd.
+Gegevensvelden mogen geen `<CR>`-, `<LF>`- of `<TAB>`-tekens bevatten, tenzij de gegevenswaarde van het type tekst is en door enkele of dubbele aanhalingstekens wordt ingesloten. Gegevensvelden mogen niet via HTTP zijn gecodeerd.
 
 Meerdere gegevenswaarden in hetzelfde veld worden gescheiden door komma&#39;s (&#39;,&#39;), tenzij anders aangegeven.
 
