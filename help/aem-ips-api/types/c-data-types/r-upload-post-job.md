@@ -19,11 +19,11 @@ ht-degree: 0%
 
 Gebruikt getActiveJobs om bureaubladuploads bij te houden.
 
-Zie ook Elementen [uploaden via HTTP POST&#39;s naar Upload...](../../c-http-post.md#concept-457855c0cdc943339ca1f1bed356991d).
+Zie ook [Elementen uploaden via HTTP POST&#39;s naar Upload..](../../c-http-post.md#concept-457855c0cdc943339ca1f1bed356991d).
 
 >[!NOTE]
 >
->Alle POST-aanvragen voor een uploadtaak moeten afkomstig zijn van hetzelfde IP-adres.
+>Alle verzoeken van de POST om een uploadbaan moeten van het zelfde IP adres voortkomen.
 
 ## Parameters {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -137,7 +137,7 @@ Zie ook Elementen [uploaden via HTTP POST&#39;s naar Upload...](../../c-http-pos
    <td colname="col1"> <span class="codeph"> <span class="varname"> preserveCrop</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:Boolean</span> </td> 
    <td colname="col3"> <p>Nee </p> </td> 
-   <td colname="col4"> <p>Hiermee regelt u het behoud van bestaande uitsnijddefinities. De standaardwaarde is true.</p> <p>Als u de parameter manualCropOptions en de bijbehorende waarden opgeeft, worden de nieuwe waarden (behalve 0,0,0,0) toegepast op het element, ongeacht de waarde preserveCrop.</p><p>Als u de parameter manualCropOptions <i>niet</i> verschaft, blijft de waarde van preserveCrop behouden. En in het geval van true blijven de bestaande preserveCrop-waarden behouden. in het geval van false worden de waarden preserveCrop verwijderd.</p><p>Voorbeeld:</p><p><p>&lt;preserveCrop&gt;false&lt;/preserveCrop&gt;<br />&lt;manualCropOptions&gt;<br />&lt;left&gt;190&lt;/left&gt;<br />&lt;right&gt;310&lt;/right&gt;<br />&lt;top&gt;160&lt;/top&gt;<br />&lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualCropOptions&gt;</p></td> 
+   <td colname="col4"> <p>Hiermee regelt u het behoud van bestaande uitsnijddefinities. De standaardwaarde is true.</p> <p>Als u de parameter manualCropOptions en de bijbehorende waarden opgeeft, worden de nieuwe waarden (behalve 0,0,0,0) toegepast op het element, ongeacht de waarde preserveCrop.</p><p>Als u <i>not</i> de parameter manualCropOptions verstrekt, wordt de waarde van preserveCrop gehandhaafd. En in het geval van true blijven de bestaande preserveCrop-waarden behouden. in het geval van false worden de waarden preserveCrop verwijderd.</p><p>Voorbeeld:</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />    &lt;left&gt;190&lt;/left&gt;<br />    &lt;right&gt;310&lt;/right&gt;<br />    &lt;top&gt;160&lt;/top&gt;<br />    &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> preservePublishState</span> </span> </td> 
