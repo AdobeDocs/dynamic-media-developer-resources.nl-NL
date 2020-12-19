@@ -36,11 +36,11 @@ Materiaalbestand. Hiermee worden materiaalgegevens opgegeven, in de vorm van é�
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> embeddedReq</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph">&amp;Markeren;Marce;'is&amp;Marce;'<span class="varname"> isReq</span>'&amp;brace;'&amp;trace;|&amp;Marce;'ir&amp;Marce;'<span class="varname"> irReq</span>'&amp;Rbrace;'|&amp;Marce;'&amp;Marce;'&amp;Marce;'<span class="varname"> foreignReq</span>' amp;break;'</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&amp;Broce;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'&amp;rbrace;|&amp;lbrace;'ir&amp;lbrace;'<span class="varname"> irReq</span>'&amp;rbrace;'|&amp;lbrace;'&amp;lbrace;'<span class="varname"> foreignReq</span>'&amp;rbrace;'</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p></td> 
-  <td class="stentry"> <p>Materiaalcatalogus-id (<span class="codeph"> kenmerk::RootId</span>). </p></td> 
+  <td class="stentry"> <p>Identiteitskaart van de materiaalcatalogus (<span class="codeph"> attribuut::RootId</span>). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> recId</span> </p></td> 
@@ -80,17 +80,17 @@ Voor herhaalbare Texture-, Decal- en Wallpaper-materialen is één afbeelding ve
 
 Voor kabinetsmateriaal is een bestand met een kabinetstijl ( [!DNL .vnc]) vereist, dat niet kan worden opgegeven als een geneste aanvraag. Een bestand met een structuurafbeelding is optioneel voor kabinetten en kan, indien opgegeven, een bestand of een ingesloten aanvraag zijn.
 
-Voor materiaal voor vensterbekledingen is een stijlbestand ( [!DNL .vnw]) voor vensterbekledingen vereist, dat niet kan worden opgegeven als een geneste aanvraag. Een structuurbestand is optioneel en kan, indien opgegeven, een bestand of een ingesloten aanvraag zijn.
+Voor materiaal voor vensterbekledingen is een stijlbestand voor vensterbekledingen ( [!DNL .vnw]) vereist, dat niet kan worden opgegeven als een geneste aanvraag. Een structuurbestand is optioneel en kan, indien opgegeven, een bestand of een ingesloten aanvraag zijn.
 
-Voor het renderen van afbeeldingen worden dezelfde regels gebruikt als voor het weergeven van afbeeldingen, zodat u materiaalcatalogi, catalogusitems en gegevensbestanden kunt opzoeken. Raadpleeg de beschrijving van het *`object`* gegevenstype in de documentatie bij Image Serving voor meer informatie.
+Voor het renderen van afbeeldingen worden dezelfde regels gebruikt als voor het weergeven van afbeeldingen, zodat u materiaalcatalogi, catalogusitems en gegevensbestanden kunt opzoeken. Raadpleeg de beschrijving van het gegevenstype *`object`* in de documentatie bij Image Serving voor meer informatie.
 
-*`materialFile`* is een pad ten opzichte van `attribute::RootPath`.
+*`materialFile`* is een pad ten opzichte van  `attribute::RootPath`.
 
-*`foreignReq`* Dit kan een URL zijn ten opzichte van `attribute::RootUrl`of een absolute URL als deze `attribute::AllowDirectUrls` is ingesteld.
+*`foreignReq`* Dit kan een URL zijn ten opzichte van  `attribute::RootUrl`of een absolute URL als deze  `attribute::AllowDirectUrls` is ingesteld.
 
-Als *`catId`* niet is opgegeven, wordt de sessiecatalogus gebruikt.
+Als *`catId`* niet wordt gespecificeerd, wordt de zittingscatalogus gebruikt.
 
-`srcE=` en toegang `srcN=` bieden tot materialen die zijn ingesloten in het vignet.
+`srcE=` en toegang  `srcN=` bieden tot materialen die zijn ingesloten in het vignet.
 
 ## Ondersteunde bestandsindelingen {#section-f2186d3eef834fc8bbecb2bc68daacad}
 
@@ -124,4 +124,4 @@ Een geneste aanvraag voor een afbeelding in de afbeeldingsserver om een structuu
 
 ## Zie ook {#section-d01d25b8903e4f5ca6aef4a084fca6b7}
 
-[Materiële catalogi](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/c-ir-http-material-catalogs.md#concept-772742c1688f420a88a56f5136ad1db2), [kenmerk::RootUrl](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402), [kenmerk::AllowDirectUrls](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-allowdirecturls.md#reference-02000c0f3c494292bad8425d06268882)
+[Materiële catalogi](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/c-ir-http-material-catalogs.md#concept-772742c1688f420a88a56f5136ad1db2),  [kenmerk::RootUrl](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402),  [kenmerk::AllowDirectUrls](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-allowdirecturls.md#reference-02000c0f3c494292bad8425d06268882)
