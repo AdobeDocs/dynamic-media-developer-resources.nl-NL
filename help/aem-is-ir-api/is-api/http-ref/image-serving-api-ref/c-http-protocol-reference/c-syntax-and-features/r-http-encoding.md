@@ -15,11 +15,11 @@ ht-degree: 19%
 ---
 
 
-# HTTP-codering van afbeeldingsserver{#image-serving-http-encoding}
+# Beeld dat HTTP-codering{#image-serving-http-encoding} rendert
 
 Opdrachtwaarden moeten http-gecodeerd zijn met gebruik van %xx escape-reeksen, zodat de waardetekenreeksen de gereserveerde tekens &#39;=&#39;, &#39;&amp;&#39; en &#39;%&#39; niet bevatten.
 
-Anders zijn de standaard HTTP-coderingsregels van toepassing. De HTTP-specificatie vereist codering van de onveilige tekens, evenals van eventuele besturingstekens, zoals `<return>` en `<tab>`. De URL-codering van een teken bestaat uit een symbool &quot;%&quot;, gevolgd door de hexadecimale representatie (hoofdlettergevoelig) van twee cijfers van het ISO-Latijnse codepunt voor het teken. De onveilige tekens en codepunten zijn:
+Anders zijn de standaard HTTP-coderingsregels van toepassing. De HTTP-specificatie vereist codering van de onveilige tekens en van eventuele besturingstekens, zoals `<return>` en `<tab>`. De URL-codering van een teken bestaat uit een symbool &quot;%&quot;, gevolgd door de hexadecimale representatie (hoofdlettergevoelig) van twee cijfers van het ISO-Latijnse codepunt voor het teken. De onveilige tekens en codepunten zijn:
 
 <table id="table_D2C01CADB35E477D82D4C27586424625"> 
  <thead> 
@@ -36,7 +36,7 @@ Anders zijn de standaard HTTP-coderingsregels van toepassing. De HTTP-specificat
    <td colname="col3"> <p>32 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&lt; </p> </td> 
+   <td colname="col1"> <p>&lt;&gt; </p> </td> 
    <td colname="col2"> <p>3C </p> </td> 
    <td colname="col3"> <p>60 </p> </td> 
   </tr> 
@@ -51,7 +51,7 @@ Anders zijn de standaard HTTP-coderingsregels van toepassing. De HTTP-specificat
    <td colname="col3"> <p>34 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p># </p> </td> 
+   <td colname="col1"> <p>Aantal </p> </td> 
    <td colname="col2"> <p>23 </p> </td> 
    <td colname="col3"> <p>35 </p> </td> 
   </tr> 
@@ -62,7 +62,7 @@ Anders zijn de standaard HTTP-coderingsregels van toepassing. De HTTP-specificat
   </tr> 
   <tr> 
    <td colname="col1"> <p>&amp;accolade; </p> </td> 
-   <td colname="col2"> <p>7B </p> </td> 
+   <td colname="col2"> <p>7 ter </p> </td> 
    <td colname="col3"> <p>123 </p> </td> 
   </tr> 
   <tr> 
@@ -72,7 +72,7 @@ Anders zijn de standaard HTTP-coderingsregels van toepassing. De HTTP-specificat
   </tr> 
   <tr> 
    <td colname="col1"> <p>| </p> </td> 
-   <td colname="col2"> <p>7C </p> </td> 
+   <td colname="col2"> <p>7 C </p> </td> 
    <td colname="col3"> <p>124 </p> </td> 
   </tr> 
   <tr> 
@@ -87,7 +87,7 @@ Anders zijn de standaard HTTP-coderingsregels van toepassing. De HTTP-specificat
   </tr> 
   <tr> 
    <td colname="col1"> <p>~ </p> </td> 
-   <td colname="col2"> <p>7E </p> </td> 
+   <td colname="col2"> <p>7 E </p> </td> 
    <td colname="col3"> <p>126 </p> </td> 
   </tr> 
   <tr> 
@@ -146,7 +146,7 @@ Gereserveerde tekens moeten ook worden gecodeerd.
   </tr> 
   <tr> 
    <td colname="col1"> <p>: </p> </td> 
-   <td colname="col2"> <p>3A </p> </td> 
+   <td colname="col2"> <p>3 bis. </p> </td> 
    <td colname="col3"> <p>58 </p> </td> 
   </tr> 
   <tr> 
@@ -186,4 +186,4 @@ Als er verduistering is toegepast, kan de codering worden beperkt tot het verwij
 
 ## Zie ook {#section-295476ec34c74973962d07dfa9eb2180}
 
-[Request Obfuscation](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d), [HTTP/1.1 Specification (RFC 2616)](http://www.w3.org/Protocols/rfc2616/rfc2616.html)
+[Request Obfuscation](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d),  [HTTP/1.1 Specification (RFC 2616)](http://www.w3.org/Protocols/rfc2616/rfc2616.html)
