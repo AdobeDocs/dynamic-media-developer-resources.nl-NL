@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 4b94f9ea-3f7b-45ee-9381-6434f2bc4e31
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '183'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Stel de publicatiestatus voor een of meer elementen in of werk deze bij. U kunt afzonderlijke publicatiestatussen instellen voor elke publicatiecontext in een bedrijf.
 
-## Geautoriseerde gebruikerstypen {#section-815eb031f85143278c1560c18c5e3431}
+## Toegestane gebruikerstypen {#section-815eb031f85143278c1560c18c5e3431}
 
 * `IpsUser`
 * `IpsAdmin`
