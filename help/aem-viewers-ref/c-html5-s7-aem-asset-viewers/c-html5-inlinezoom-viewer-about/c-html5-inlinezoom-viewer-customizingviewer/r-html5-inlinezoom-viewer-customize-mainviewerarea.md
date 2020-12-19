@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 828ee8e5-8e5f-47cf-a566-2e997a5e3926
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '109'
+ht-degree: 0%
 
 ---
 
@@ -39,17 +42,17 @@ De vormgeving van het weergavegebied wordt bepaald door de volgende CSS-klassenk
    <td colname="col2"> <p>De breedte van de viewer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>De hoogte van de viewer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Achtergrondkleur in hexadecimale notatie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voorbeeld: een vervolgviewer met witte achtergrond ( `#FFFFFF`) instellen en een grootte van 260 x 500 pixels instellen.
+Voorbeeld: een vervolgviewer instellen met een witte achtergrond ( `#FFFFFF`) en de grootte 260 x 500 pixels instellen.
 
 ```
 .s7flyoutviewer { 
