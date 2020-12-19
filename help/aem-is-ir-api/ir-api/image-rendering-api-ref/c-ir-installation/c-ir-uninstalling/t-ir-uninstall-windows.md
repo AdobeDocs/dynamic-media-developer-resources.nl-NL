@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 7b20bf37-4147-4169-ac5e-42e7b330ca51
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '53'
+ht-degree: 0%
 
 ---
 
@@ -16,4 +19,4 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Volg deze instructies om het teruggeven van het Beeld op een systeem van Vensters te desinstalleren.
 
-1. Start het verwijderprogramma door ` *[!DNL install_folder]*\_uninst\uninstaller.exe`het uit te voeren of selecteer in het menu Start **[!UICONTROL Programma&#39;s]** > **[!UICONTROL Scene7]** > **[!UICONTROL Afbeeldingen renderen]** > **[!UICONTROL Verwijderen]**.
+1. Start het deïnstallatieprogramma met ` *[!DNL install_folder]*\_uninst\uninstaller.exe` of selecteer **[!UICONTROL Programs]** > **[!UICONTROL Scene7]** > **[!UICONTROL Image Rendering]** > **[!UICONTROL Uninstall]**.
