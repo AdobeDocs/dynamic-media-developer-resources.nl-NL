@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 1fd27847-f00f-431f-8f4b-85817c4c3ac6
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +25,7 @@ Configuration attribute for Interactive Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> onder|boven|links|rechts|geen|knopinfo</span> </p> </td> 
-   <td colname="col2"> <p> Hiermee geeft u aan waar het label wordt getekend ten opzichte van de staalafbeelding. Het label wordt dus gecentreerd op de opgegeven locatie ten opzichte van de miniatuur. </p> <p>Wanneer <span class="codeph"> knopinfo</span> is opgegeven, wordt de labeltekst weergegeven als zwevende knopinfo boven de miniatuurafbeelding. </p> <p>Stel in op <span class="codeph"> Geen</span> om het label uit te schakelen. </p> </td> 
+   <td colname="col2"> <p> Hiermee geeft u aan waar het label wordt getekend ten opzichte van de staalafbeelding. Het label wordt dus gecentreerd op de opgegeven locatie ten opzichte van de miniatuur. </p> <p>Wanneer <span class="codeph"> tooltip</span> wordt gespecificeerd, wordt de etikettekst getoond als het drijven tooltip over het duimnagelbeeld. </p> <p>Stel in op <span class="codeph"> none</span> om het label uit te schakelen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
