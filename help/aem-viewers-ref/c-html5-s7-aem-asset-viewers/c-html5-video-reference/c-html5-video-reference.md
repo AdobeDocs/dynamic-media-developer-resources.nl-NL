@@ -1,7 +1,7 @@
 ---
-description: De Video Viewer is een videospeler die streaming en progressieve video afspeelt die in de H.264-indeling zijn gecodeerd. Het wordt geleverd van het Publiceren Scene7 Systeem of Dynamic Media AEM.
+description: De Video Viewer is een videospeler die streaming en progressieve video afspeelt die in H.264-indeling is gecodeerd. Het wordt geleverd via Scene7 Publishing System of AEM Dynamic Media.
 keywords: responsive
-seo-description: De Video Viewer is een videospeler die streaming en progressieve video afspeelt die in de H.264-indeling zijn gecodeerd. Het wordt geleverd van het Publiceren Scene7 Systeem of Dynamic Media AEM.
+seo-description: De Video Viewer is een videospeler die streaming en progressieve video afspeelt die in H.264-indeling is gecodeerd. Het wordt geleverd via Scene7 Publishing System of AEM Dynamic Media.
 seo-title: Video
 solution: Experience Manager
 title: Video
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Video{#video}
 
-De Video Viewer is een videospeler die streaming en progressieve video afspeelt die in de H.264-indeling zijn gecodeerd. Het wordt geleverd van het Publiceren Scene7 Systeem of Dynamic Media AEM.
+De Video Viewer is een videospeler die streaming en progressieve video afspeelt die in H.264-indeling is gecodeerd. Het wordt geleverd via Scene7 Publishing System of AEM Dynamic Media.
 
 Zie [Systeemvereisten en -vereisten](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
@@ -32,7 +32,7 @@ Viewer type 506.
 
 [https://s7d9.scene7.com/s7viewers/html5/VideoViewer.html?asset=Scene7SharedAssets/Glacier_Climber_MP4](https://s7d9.scene7.com/s7viewers/html5/VideoViewer.html?asset=Scene7SharedAssets/Glacier_Climber_MP4)
 
-## Video-viewer gebruiken {#section-f21ac23d3f6449ad9765588d69584772}
+## Video-viewer {#section-f21ac23d3f6449ad9765588d69584772} gebruiken
 
 De video-viewer vertegenwoordigt een hoofd-JavaScript-bestand en een set hulplijnbestanden, één JavaScript-bestand met alle Viewer SDK-componenten die door deze viewer worden gebruikt, elementen en CSS-gedownload door de viewer in runtime.
 
@@ -40,9 +40,9 @@ U kunt de Video-viewer in de pop-upmodus gebruiken met de voor productie geschik
 
 Het configureren en toewijzen van een skin aan de viewer is vergelijkbaar met die van andere viewers. Alle skins worden gemaakt door middel van aangepaste CSS.
 
-Zie de verwijzing van het [Bevel gemeenschappelijk voor alle kijkers - de attributen](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) van de Configuratie en de verwijzing van het [Bevel gemeenschappelijk voor alle Kijkers - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+Zie [De verwijzing van het Bevel gemeenschappelijk voor alle kijkers - de attributen van de Configuratie](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) en [De verwijzing van het Bevel gemeenschappelijk voor alle Kijkers - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## Interactie met Video Viewer {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
+## Interactie met de videoviewer {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
 De video Viewer biedt een set standaardbesturingselementen voor de gebruikersinterface voor het afspelen van video, zoals een afspeel-/pauzeknop, een videobubbel met scrubber, een indicator voor de afspeeltijd/totale tijd, volumeregeling, een knop voor volledig scherm en een schakelknop voor een gesloten bijschrift. Al deze controles worden gegroepeerd in een controlebar bij de bodem van het gebruikersinterface van de kijker.
 
@@ -56,9 +56,9 @@ De viewer ondersteunt zowel aanraakinvoer als muisinvoer op Windows-apparaten me
 
 Deze viewer is volledig toegankelijk via het toetsenbord.
 
-Zie [Toetsenbordtoegankelijkheid en navigatie](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
+Zie [Toegankelijkheid en navigatie op toetsenbord](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
-## Gereedschappen voor sociale media delen met Video Viewer {#section-907d316fe1da4b87abb9775f02464704}
+## Gereedschappen voor het delen van sociale media met Video-viewer {#section-907d316fe1da4b87abb9775f02464704}
 
 De video-viewer ondersteunt gereedschappen voor het delen van sociale media Deze knoppen zijn beschikbaar als één knop in de gebruikersinterface die wordt uitgebreid naar een werkbalk voor delen wanneer de gebruiker erop klikt of tikt.
 
@@ -66,7 +66,7 @@ De werkbalk voor delen bevat een pictogram voor elk type kanaal dat wordt onders
 
 Delen van gereedschappen is niet beschikbaar in de modus Volledig scherm vanwege beveiligingsbeperkingen van de webbrowser.
 
-## Video-viewer insluiten {#section-6bb5d3c502544ad18a58eafe12a13435}
+## Video-viewer {#section-6bb5d3c502544ad18a58eafe12a13435} insluiten
 
 Verschillende webpagina&#39;s hebben verschillende vereisten voor viewergedrag. Soms biedt een webpagina een koppeling die de viewer in een apart browservenster opent wanneer erop wordt geklikt. In andere gevallen moet u de viewer rechtstreeks insluiten op de hostpagina. In het laatste geval heeft de webpagina mogelijk een statische paginalay-out of wordt een responsief ontwerp gebruikt dat op verschillende apparaten of voor verschillende venstergrootten van de browser anders wordt weergegeven. Om aan deze behoeften tegemoet te komen, ondersteunt de viewer drie primaire bewerkingsmodi: popup, insluiting van vaste grootte en responsieve ontwerpinsluiting.
 
@@ -78,7 +78,7 @@ In de pop-upmodus wordt de viewer geopend in een apart venster of tabblad van ee
 
 Deze modus wordt het meest gebruikt voor mobiele apparaten. De webpagina laadt de viewer met behulp van `window.open()` JavaScript-aanroep, correct geconfigureerd `A` HTML-element of een andere geschikte methode.
 
-Het wordt aanbevolen een HTML-pagina uit de doos te gebruiken voor de pop-upbewerkingsmodus. Het wordt geroepen [!DNL VideoViewer.html] en het wordt gevestigd onder [!DNL html5/] subfolder van uw standaard plaatsing IS-Viewers:
+Het wordt aanbevolen een HTML-pagina uit de doos te gebruiken voor de pop-upbewerkingsmodus. Het wordt genoemd [!DNL VideoViewer.html] en het wordt gevestigd onder [!DNL html5/] subfolder van uw standaard plaatsing IS-Viewers:
 
 [!DNL <s7viewers_root>/html5/VideoViewer.html]
 
@@ -100,26 +100,26 @@ Insluiten met vaste grootte wordt gebruikt wanneer de viewer de grootte niet wij
 
 Bij het insluiten van responsieve ontwerpen wordt ervan uitgegaan dat de viewer tijdens runtime mogelijk de grootte moet wijzigen als gevolg van de wijziging van de grootte van de container `DIV`. De meest gebruikte optie is het toevoegen van de viewer aan een webpagina die een flexibele pagina-indeling gebruikt.
 
-In de responsieve ontwerpinsluitingsmodus werkt de viewer anders, afhankelijk van de manier waarop de container van de webpagina wordt verkleind `DIV`. Als op de webpagina alleen de breedte van de container wordt ingesteld `DIV`en de hoogte onbeperkt blijft, kiest de viewer automatisch de hoogte op basis van de hoogte-breedteverhouding van het gebruikte element. Deze methode zorgt ervoor dat het element perfect in de weergave past zonder opvulling aan de zijkanten. Dit gebruiksgeval komt het meest voor bij webpagina&#39;s die een responsief ontwerplay-outframework gebruiken, zoals Bootstrap, Foundation, enzovoort.
+In de responsieve ontwerpinsluitingsmodus werkt de viewer anders, afhankelijk van de manier waarop de container `DIV` van de webpagina wordt verkleind. Als de webpagina alleen de breedte van de container `DIV` instelt en de hoogte onbeperkt laat, kiest de viewer automatisch de hoogte op basis van de hoogte-breedteverhouding van het element dat wordt gebruikt. Deze methode zorgt ervoor dat het element perfect in de weergave past zonder opvulling aan de zijkanten. Dit gebruiksgeval komt het meest voor bij webpagina&#39;s die een responsief ontwerplay-outframework gebruiken, zoals Bootstrap, Foundation enzovoort.
 
-Als de webpagina zowel de breedte als de hoogte voor de container van de viewer instelt, vult de viewer alleen dat gebied `DIV`en volgt deze het formaat dat wordt aangegeven door de indeling van de webpagina. Een goed voorbeeld is het insluiten van de viewer in een modale overlay, waarbij de grootte van de overlay wordt aangepast aan de grootte van het venster van de webbrowser.
+Als de webpagina de breedte en de hoogte voor de container `DIV` van de viewer instelt, vult de viewer alleen dat gebied en volgt deze het formaat dat wordt aangegeven door de indeling van de webpagina. Een goed voorbeeld is het insluiten van de viewer in een modale overlay, waarbij de grootte van de overlay wordt aangepast aan de grootte van het venster van de webbrowser.
 
 **Insluiten met vaste grootte**
 
 U voegt de viewer als volgt toe aan een webpagina:
 
 1. Het JavaScript-bestand van de viewer toevoegen aan uw webpagina.
-1. De container definiëren `DIV`.
+1. De container `DIV` definiëren.
 1. De viewergrootte instellen.
 1. De viewer maken en initialiseren.
 
 1. Het JavaScript-bestand van de viewer toevoegen aan uw webpagina.
 
-   Voor het maken van een viewer moet u een scripttag aan de HTML-kop toevoegen. Zorg ervoor dat u de viewer-API opneemt voordat u deze kunt gebruiken [!DNL FlyoutViewer.js]. Het [!DNL FlyoutViewer.js] bestand bevindt zich in de [!DNL html5/js/] submap van uw standaard IS-Viewers-implementatie:
+   Voor het maken van een viewer moet u een scripttag aan de HTML-kop toevoegen. Voordat u de viewer-API kunt gebruiken, moet u [!DNL FlyoutViewer.js] opnemen. Het [!DNL FlyoutViewer.js]-bestand bevindt zich in de submap [!DNL html5/js/] van uw standaard IS-Viewers-implementatie:
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-U kunt een relatief pad gebruiken als de viewer wordt geïmplementeerd op een van de Adobe Dynamic Media Classic-servers en vanuit hetzelfde domein wordt aangeboden. Anders geeft u een volledig pad op naar een van de Adobe Dynamic Media Classic-servers waarop de IS-Viewers zijn geïnstalleerd.
+U kunt een relatief pad gebruiken als de viewer wordt geïmplementeerd op een van de Klassieke Adobe Dynamic Media-servers en vanuit hetzelfde domein wordt aangeboden. Anders geeft u een volledig pad op naar een van de Adobe Dynamic Media Classic-servers waarop de IS-Viewers zijn geïnstalleerd.
 
 Relatief pad ziet er als volgt uit:
 
@@ -129,16 +129,16 @@ Relatief pad ziet er als volgt uit:
 
 >[!NOTE]
 >
->U moet alleen verwijzen naar het JavaScript- `include` hoofdviewerbestand op uw pagina. U moet niet verwijzen naar extra JavaScript-bestanden in de webpaginacode die door de logica van de viewer in runtime kunnen worden gedownload. Verwijs met name niet rechtstreeks naar de HTML5 SDK- `Utils.js` bibliotheek die door de viewer is geladen vanuit het `/s7viewers` contextpad (de zogenaamde geconsolideerde SDK `include`). De reden hiervoor is dat de locatie van `Utils.js` of vergelijkbare runtimeviewerbibliotheken volledig wordt beheerd door de logica van de viewer en dat de locatie verandert tussen de viewerreleases. Adobe houdt oudere versies van de secundaire viewer niet `includes` op de server.
+>Verwijs alleen naar het JavaScript-bestand `include` van de hoofdviewer op de pagina. U moet niet verwijzen naar extra JavaScript-bestanden in de webpaginacode die door de logica van de viewer in runtime kunnen worden gedownload. Verwijs met name niet rechtstreeks naar de HTML5 SDK `Utils.js`-bibliotheek die door de viewer is geladen vanaf het contextpad `/s7viewers` (de zogeheten geconsolideerde SDK `include`). De reden hiervoor is dat de locatie van `Utils.js` of vergelijkbare runtimeviewerbibliotheken volledig wordt beheerd door de logica van de viewer en dat de locatie verandert tussen de viewerreleases. Adobe houdt oudere versies van de secundaire viewer `includes` niet op de server.
 >
 >
->Als u dus een directe verwijzing naar een secundair JavaScript dat door de viewer op de pagina wordt `include` gebruikt, maakt u de viewerfunctionaliteit in de toekomst verbroken wanneer een nieuwe productversie wordt geïmplementeerd.
+>Als u dus een directe verwijzing naar een secundair JavaScript `include` op de pagina plaatst, wordt de viewerfunctionaliteit in de toekomst verbroken wanneer een nieuwe productversie wordt geïmplementeerd.
 
 1. De container DIV definiëren.
 
    Voeg een leeg DIV-element toe aan de pagina waarop u de viewer wilt weergeven. Voor het DIV-element moet de id zijn gedefinieerd, omdat deze id later wordt doorgegeven aan de viewer-API. De grootte van het DIV-bestand wordt bepaald door CSS.
 
-   De plaatsaanduiding DIV is een gepositioneerd element, wat betekent dat de `position` CSS-eigenschap is ingesteld op `relative` of `absolute`.
+   De plaatsaanduiding DIV is een gepositioneerd element, wat betekent dat de CSS-eigenschap `position` is ingesteld op `relative` of `absolute`.
 
    Controleer of de functie Volledig scherm goed werkt in Internet Explorer. Controleer of het DOM geen andere elementen bevat die een hogere stapelvolgorde hebben dan het DIV-bestand voor de plaatsaanduiding.
 
@@ -150,11 +150,11 @@ Relatief pad ziet er als volgt uit:
 
 1. De viewergrootte instellen
 
-   U kunt de statische grootte voor de kijker plaatsen door of het voor `.s7videoviewer` top-level CSS klasse in absolute eenheden te verklaren, of door de bepaling te gebruiken `stagesize`.
+   U kunt de statische grootte voor de kijker plaatsen door of het voor `.s7videoviewer` top-level CSS klasse in absolute eenheden te verklaren, of door de bepaling `stagesize` te gebruiken.
 
-   De grootte in CSS kan op de HTML- pagina, of in een douaneCSS dossier van de kijker worden gezet, dat later aan een kijker vooraf ingesteld verslag in het Publiceren Scene7 Systeem wordt toegewezen of uitdrukkelijk gebruikend een stijlbevel wordt overgegaan.
+   Grootte in CSS kan rechts worden geplaatst op de HTML-pagina of in een aangepast CSS-bestand van de viewer, dat later wordt toegewezen aan een viewer-voorinstellingsrecord in Scene7 Publishing System of expliciet wordt doorgegeven met behulp van een stijlopdracht.
 
-   Zie Video-viewer [](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e) aanpassen voor meer informatie over het opmaken van de viewer met CSS.
+   Zie [Video-viewer aanpassen](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e) voor meer informatie over het opmaken van de viewer met CSS.
 
    Hieronder ziet u een voorbeeld van het definiëren van een statische viewergrootte in een HTML-pagina:
 
@@ -165,7 +165,7 @@ Relatief pad ziet er als volgt uit:
    }
    ```
 
-   U kunt bepaling of in de kijker vooraf ingestelde verslag in Scene7 het Publiceren Systeem plaatsen, of het uitdrukkelijk overgaan met de kijker initialisatiecode met `stagesize` `params` inzameling, of als API vraag zoals die in de de verwijzingssectie van het Bevel wordt beschreven, zoals in het volgende:
+   U kunt `stagesize` bepaling of in de kijker vooraf ingestelde verslag in het Uitgeven van Scene7 Systeem plaatsen, of het uitdrukkelijk met de kijker initialisatiecode met `params` inzameling, of als API vraag zoals die in de de verwijzingssectie van het Bevel wordt beschreven, zoals in het volgende overgaan:
 
    ```
    videoViewer.setParam("stagesize", "640,480");
@@ -175,13 +175,13 @@ Relatief pad ziet er als volgt uit:
 
 1. De viewer maken en initialiseren.
 
-   Wanneer u de bovenstaande stappen hebt uitgevoerd, maakt u een instantie van een `s7viewers.VideoViewer` klasse, geeft u alle configuratiegegevens door aan de constructor en roept u `init()` de methode aan voor een viewerinstantie. De informatie van de configuratie wordt overgegaan tot de aannemer als voorwerp JSON. Dit object moet minimaal een `containerId` veld hebben met de naam van de viewercontainer-id en het geneste `params` JSON-object met configuratieparameters die door de viewer worden ondersteund. In dit geval moet ten minste de URL van de afbeeldingsserver worden doorgegeven als `params` eigenschap, de URL van de videoserver als `serverUrl` eigenschap en het eerste element als `videoserverurl` `asset` parameter. Met de op JSON gebaseerde initialisatie-API kunt u de viewer maken en starten met één coderegel.
+   Wanneer u de bovenstaande stappen hebt voltooid, maakt u een instantie van de klasse `s7viewers.VideoViewer`, geeft u alle configuratiegegevens door aan de constructor ervan en roept u `init()` methode aan voor een viewerinstantie. De informatie van de configuratie wordt overgegaan tot de aannemer als voorwerp JSON. Dit object moet minstens `containerId` veld hebben met de naam van de viewercontainer-id en het geneste `params` JSON-object met configuratieparameters die door de viewer worden ondersteund. In dit geval moet voor `params`-object ten minste de URL van de afbeeldingsserver worden doorgegeven als `serverUrl`-eigenschap, de URL van de videoserver als `videoserverurl`-eigenschap en het eerste element als `asset`-parameter. Met de op JSON gebaseerde initialisatie-API kunt u de viewer maken en starten met één coderegel.
 
-   Het is belangrijk dat de viewercontainer aan het DOM wordt toegevoegd, zodat de viewercode het containerelement op basis van de id kan vinden. Sommige browsers stellen het samenstellen van DOM tot het einde van de webpagina uit. Roep voor maximale compatibiliteit de `init()` methode aan vlak voor de afsluitende `BODY` tag of voor de body- `onload()` gebeurtenis.
+   Het is belangrijk dat de viewercontainer aan het DOM wordt toegevoegd, zodat de viewercode het containerelement op basis van de id kan vinden. Sommige browsers stellen het samenstellen van DOM tot het einde van de webpagina uit. Voor maximale compatibiliteit roept u de methode `init()` aan vlak voor de afsluitingstag `BODY` of op de hoofdgebeurtenis `onload()`.
 
-   Tegelijkertijd mag het containerelement niet noodzakelijkerwijs deel uitmaken van de webpaginalay-out. Het kan bijvoorbeeld verborgen zijn met een `display:none` stijl die eraan is toegewezen. In dit geval vertraagt de viewer het initialisatieproces totdat de webpagina het containerelement weer in de layout plaatst. Wanneer dit gebeurt, wordt het laden van de viewer automatisch hervat.
+   Tegelijkertijd mag het containerelement niet noodzakelijkerwijs deel uitmaken van de webpaginalay-out. Het kan bijvoorbeeld worden verborgen met de stijl `display:none` die eraan is toegewezen. In dit geval vertraagt de viewer het initialisatieproces totdat de webpagina het containerelement weer in de layout plaatst. Wanneer dit gebeurt, wordt het laden van de viewer automatisch hervat.
 
-   Hieronder ziet u een voorbeeld van het maken van een viewer-instantie, het doorgeven van minimaal noodzakelijke configuratieopties aan de constructor en het aanroepen van de `init()` methode. In dit voorbeeld `videoViewer` wordt ervan uitgegaan dat dit de viewerinstantie is, `s7viewer` de naam van de plaatsaanduiding is `DIV`, [!DNL http://s7d1.scene7.com/is/image/] de URL van de afbeeldingsserver is, de URL van de videoserver [!DNL http://s7d1.scene7.com/is/content/] en [!DNL Scene7SharedAssets/Glacier_Climber_MP4] het element is.
+   Hieronder ziet u een voorbeeld van het maken van een viewer-instantie, het doorgeven van minimaal noodzakelijke configuratieopties aan de constructor en het aanroepen van de methode `init()`. In dit voorbeeld wordt ervan uitgegaan dat `videoViewer` de viewerinstantie is, `s7viewer` de naam van de plaatsaanduiding `DIV` is, [!DNL http://s7d1.scene7.com/is/image/] de URL van de afbeeldingsserver is, [!DNL http://s7d1.scene7.com/is/content/] de URL van de videoserver en [!DNL Scene7SharedAssets/Glacier_Climber_MP4] het element.
 
    ```
    <script type="text/javascript"> 
@@ -228,7 +228,7 @@ Relatief pad ziet er als volgt uit:
 
 **Responsief ontwerpinsluiting met onbeperkte hoogte**
 
-Met responsieve ontwerpinsluiting heeft de webpagina normaal gesproken een of andere flexibele indeling die de runtimegrootte van de container van de viewer bepaalt `DIV`. In dit voorbeeld wordt ervan uitgegaan dat de webpagina de container van de viewer 40% van de venstergrootte van de webbrowser laat `DIV` innemen, zodat de hoogte onbeperkt blijft. De HTML-code van de webpagina ziet er als volgt uit:
+Met responsieve ontwerpinsluiting heeft de webpagina normaal gesproken een of andere flexibele indeling die de runtimegrootte van de container van de viewer `DIV` bepaalt. In dit voorbeeld wordt ervan uitgegaan dat de webpagina de container `DIV` van de viewer toestaat 40% van de venstergrootte van de webbrowser in beslag te nemen, zodat de hoogte onbeperkt blijft. De HTML-code van de webpagina ziet er als volgt uit:
 
 ```
 <!DOCTYPE html> 
@@ -252,7 +252,7 @@ Het toevoegen van de viewer aan een dergelijke pagina lijkt sterk op het insluit
 1. De container DIV definiëren.
 1. De viewer maken en initialiseren.
 
-Alle bovenstaande stappen zijn gelijk aan die bij het insluiten van de vaste grootte. Voeg container toe `DIV` aan de bestaande &quot;houder&quot; `DIV`. De volgende code is een volledig voorbeeld. U kunt zien hoe de grootte van de viewer verandert wanneer de browser wordt aangepast en hoe de hoogte-breedteverhouding van de viewer overeenkomt met het element.
+Alle bovenstaande stappen zijn gelijk aan die bij het insluiten van de vaste grootte. Voeg container `DIV` aan de bestaande &quot; houder&quot; `DIV` toe. De volgende code is een volledig voorbeeld. U kunt zien hoe de grootte van de viewer verandert wanneer de browser wordt aangepast en hoe de hoogte-breedteverhouding van de viewer overeenkomt met het element.
 
 ```
 <!DOCTYPE html> 
@@ -291,7 +291,7 @@ De volgende voorbeeldpagina illustreert het levensechte gebruik van responsieve 
 
 **Responsief ontwerpinsluiting met gedefinieerde breedte en hoogte**
 
-Bij responsieve ontwerpinsluiting met gedefinieerde breedte en hoogte, is de opmaak van de webpagina anders. het verstrekt zowel grootte aan de &quot;houder&quot; `DIV` en centreert het in het browser venster. Bovendien stelt de webpagina de grootte van het element `HTML` en het `BODY` element in op 100%:
+Bij responsieve ontwerpinsluiting met gedefinieerde breedte en hoogte, is de opmaak van de webpagina anders. het verstrekt zowel grootte aan &quot; houder &quot; `DIV` en het centreert het in het browser venster. Bovendien stelt de webpagina de grootte van het element `HTML` en `BODY` in op 100%:
 
 ```
 <!DOCTYPE html> 
@@ -358,7 +358,7 @@ var videoViewer = new s7viewers.VideoViewer({
 
 **Insluiten met behulp van op Setter gebaseerde API**
 
-In plaats van JSON-gebaseerde initialisatie, is het mogelijk om op setter-gebaseerde API en no-args aannemer te gebruiken. Met die API neemt constructor geen parameters en worden configuratieparameters opgegeven met behulp van `setContainerId()`, `setParam()`en `setAsset()` API-methoden met afzonderlijke JavaScript-aanroepen.
+In plaats van JSON-gebaseerde initialisatie, is het mogelijk om op setter-gebaseerde API en no-args aannemer te gebruiken. Met die API neemt constructor geen parameters en worden configuratieparameters opgegeven met de API-methoden `setContainerId()`, `setParam()` en `setAsset()` met afzonderlijke JavaScript-aanroepen.
 
 In het volgende voorbeeld wordt het insluiten van een vaste grootte met een setter-API geïllustreerd:
 
