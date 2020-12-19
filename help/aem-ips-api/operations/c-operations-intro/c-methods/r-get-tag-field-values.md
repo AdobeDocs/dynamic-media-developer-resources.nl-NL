@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 92d84dfc-6a6c-4876-9670-1152adb6317c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '98'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Hiermee worden alle gedefinieerde tagwoordenboekwaarden opgehaald voor een of me
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-cc36a437394c491594e704a08a161c87}
+## Toegestane gebruikerstypen {#section-cc36a437394c491594e704a08a161c87}
 
 * `IpsUser`
 * `IpsAdmin`
