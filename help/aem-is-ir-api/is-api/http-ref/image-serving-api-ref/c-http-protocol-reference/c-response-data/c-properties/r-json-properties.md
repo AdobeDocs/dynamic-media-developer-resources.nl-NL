@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e53d75f2-9b43-4e8f-8191-66f69f344cdd
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '230'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +40,7 @@ De client kan een optionele unieke aanvraag-id ( *`reqId`*) opgeven, die in de r
 </varname>" );
 ```
 
-De `s7jsonResponse` JavaScript-functie moet door de client worden gedefinieerd. In zijn eenvoudigste vorm kan de functie er als volgt uitzien:
+De JavaScript-functie `s7jsonResponse` moet door de client worden gedefinieerd. In zijn eenvoudigste vorm kan de functie er als volgt uitzien:
 
 ```
 var responseData; 
@@ -51,12 +54,12 @@ Verzoeken die JSONP reactieformaat steunen laten u de naam van de callback manag
 
 `req=...,json [&handler = reqHandler]`
 
-`<reqHandler>` is de naam van de manager JS die in de reactie JSONP aanwezig is. Alleen a-z, A-Z en 0-9 tekens zijn toegestaan. Optioneel. Standaard is dit `s7jsonResponse`.
+`<reqHandler>` is de naam van de manager JS die in de reactie JSONP aanwezig is. Alleen a-z, A-Z en 0-9 tekens zijn toegestaan. Optioneel. De standaardwaarde is `s7jsonResponse`.
 
-Het pakket van Kijkers die van het Beeld Scene7 Beeld Dient omvat een nut om JSONP-Geformatteerde gegevens van het Serven van het Beeld te verzoeken en te ontleden.
+Het Scene7 Image Serving Viewers-pakket bevat een hulpprogramma voor het aanvragen en parseren van gegevens met de JSONP-indeling van Image Serving.
 
 Zie [http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP) voor meer informatie over het formaat JSONP.
 
-Surf naar [www.json.org](http://www.json.org) voor meer informatie over de JSON-indeling.
+Zie [www.json.org](http://www.json.org) voor meer informatie over de JSON-indeling.
 
 Zie ook [req](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76).
