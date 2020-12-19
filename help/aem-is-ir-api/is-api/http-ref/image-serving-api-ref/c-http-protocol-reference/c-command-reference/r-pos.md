@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e9872ce9-5c47-49c5-9c87-4fa8441c4770
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '160'
+ht-degree: 0%
 
 ---
 
@@ -31,9 +34,9 @@ posN= *`coordN`*
  </tr> 
 </table>
 
-In het geval van afbeeldings-, tekst- en effen-kleurlagen `pos=` geeft u de positie van een laaganker op ten opzichte van het anker van laag 0. `posN=` coördinaatwaarden worden genormaliseerd ten opzichte van de werkelijke grootte van de laag 0 rect.
+In het geval van afbeeldings-, tekst- en effen-kleurlagen geeft `pos=` de positie van een laaganker op ten opzichte van het anker van laag 0. `posN=` coördinaatwaarden worden genormaliseerd ten opzichte van de werkelijke grootte van de laag 0 rect.
 
-In het geval van effectlagen `pos=` verschuift de effectlaag ten opzichte van de bovenliggende laag.
+Bij effectlagen verschuift `pos=` de effectlaag ten opzichte van de bovenliggende laag.
 
 Bij een positieve waarde wordt de laag naar rechts/onder verplaatst en naar links/boven negatief. `posN=0.5,0.5` Hiermee verplaatst u de laag met de helft van de breedte en hoogte van de laag naar beneden en naar rechts.
 
@@ -47,7 +50,7 @@ Laagkenmerk. Genegeerd als `layer=0` of `layer=comp`.
 
 ## Voorbeeld {#section-a89a02c22f6b4260bfcf7c842cd6069d}
 
-Zie voorbeeld A in [sjablonen](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e).
+Zie voorbeeld A in [Sjablonen](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e).
 
 ## Zie ook {#section-812d95575ba542808e8387d0a8650606}
 
