@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 076e98de-cbbb-457b-984a-367a935b4356
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '512'
+ht-degree: 0%
 
 ---
 
@@ -22,11 +25,11 @@ Een willekeurig aantal laageffecten kan aan één bovenliggende laag worden geko
 
 ## Binnenste en buitenste effecten {#section-2dade7ee98e041d1b4d1725e6f98a515}
 
-*Binneneffecten* worden boven op de bovenliggende laag weergegeven en zijn alleen zichtbaar in dekkende gebieden van de bovenliggende laag. *Buitenste effecten* worden achter de bovenliggende laag gerenderd (zodat ze nooit zichtbaar zijn binnen dekkende gebieden van de bovenliggende laag) en kunnen op een willekeurige positie in het samengestelde canvas worden geplaatst. Een binnen- of buiteneffect wordt gekozen door een positief of negatief effect laagaantal met het `effect=` bevel toe te wijzen. De `effect=` opdracht bestuurt ook de z-volgorde onder meerdere effectlagen die aan dezelfde bovenliggende laag zijn gekoppeld.
+*Binneneffecten* worden boven op de bovenliggende laag weergegeven en zijn alleen zichtbaar in dekkende gebieden van de bovenliggende laag. *Buitenste* effecten worden achter de bovenliggende laag gerenderd (zodat ze nooit zichtbaar zijn binnen ondoorzichtige gebieden van de bovenliggende laag) en kunnen op een willekeurige positie in het samengestelde canvas worden geplaatst. Een binnen- of buiteneffect wordt gekozen door een positief of negatief effect laagaantal met het `effect=` bevel toe te wijzen. Met de opdracht `effect=` bepaalt u ook de z-volgorde tussen meerdere effectlagen die aan dezelfde bovenliggende laag zijn gekoppeld.
 
 ## Verhouding tot bovenliggende laag {#section-eb8bfc4f754a42fc973b562821d6f2d3}
 
-De lagen van het effect worden automatisch gerangschikt en geplaatst om met de ouderlaag (d.w.z. de effect laag erft de `size=` `origin=` en de waarden van de ouderlaag) te samenvallen. `pos=` U kunt de effectlaag ook buiten de bovenliggende laag plaatsen, zoals gewoonlijk is vereist voor slagschaduwen en binnenschaduweffecten. Terwijl voor standaardlagen een verschuiving `pos=` is opgegeven tussen de oorsprong van deze laag en laag 0, `pos=` geeft voor effectlagen de verschuiving aan tussen de oorsprong van de effectlaag en de bovenliggende laag.
+De lagen van het effect worden automatisch gerangschikt en geplaatst om met de ouderlaag (d.w.z. de effect laag erft `size=` en `origin=` waarden van de ouderlaag) te samenvallen. `pos=` U kunt de effectlaag ook buiten de bovenliggende laag plaatsen, zoals gewoonlijk is vereist voor slagschaduwen en binnenschaduweffecten. Terwijl voor standaardlagen `pos=` een compensatie tussen de oorsprong van deze laag en laag 0 specificeert, voor effect lagen `pos=` specificeert de compensatie tussen de oorsprong van de effect laag en de ouderlaag.
 
 ## Ondersteunde opdrachten en kenmerken {#section-035fc6bcba7d4e7ab4bd46687c1d8879}
 
@@ -81,7 +84,7 @@ Voeg een drie pixels brede, rode rand met een dekking van 50% toe aan een laag:
 
 `…&effect=-1&op_grow=3&color=255,0,0,128&…`
 
-De rand volgt de contouren van het alfakanaal of masker van de afbeelding. Als u dit instelt, `effect=1` wordt de rand op de binnenrand geplaatst.
+De rand volgt de contouren van het alfakanaal of masker van de afbeelding. Als u `effect=1` instelt, wordt de rand aan de binnenrand geplaatst.
 
 Voeg een schaduw voor een vervaging toe aan een afbeelding met de standaardeffectinstellingen (behalve de kleur):
 
@@ -91,4 +94,4 @@ Voeg een schaduw voor een vervaging toe aan een afbeelding met de standaardeffec
 
 ## Zie ook {#section-1acccccf534549aea23d4c008c17e7c0}
 
-[effect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effect.md#reference-b1296c4afed047fb921bbc1e33752135), [opdrachtmacro&#39;s%l94560](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-command-macros.md#reference-ea2a9571c65a46da83eca27d0013cbf9)
+[effect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effect.md#reference-b1296c4afed047fb921bbc1e33752135),  [Command Macros%l94560](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-command-macros.md#reference-ea2a9571c65a46da83eca27d0013cbf9)
