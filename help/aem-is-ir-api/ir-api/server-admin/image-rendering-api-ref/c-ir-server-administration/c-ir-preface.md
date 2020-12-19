@@ -1,6 +1,6 @@
 ---
-description: Deze documentatie bespreekt de kwesties van het serverbeleid en beschrijft configuratiemontages voor het Teruggeven van het Beeld Scene7.
-seo-description: Deze documentatie bespreekt de kwesties van het serverbeleid en beschrijft configuratiemontages voor het Teruggeven van het Beeld Scene7.
+description: In deze documentatie worden problemen met serverbeheer besproken en worden de configuratie-instellingen voor Scene7 Image Rendering beschreven.
+seo-description: In deze documentatie worden problemen met serverbeheer besproken en worden de configuratie-instellingen voor Scene7 Image Rendering beschreven.
 seo-title: Voorkeur voor serverbeheer
 solution: Experience Manager
 title: Voorkeur voor serverbeheer
@@ -8,17 +8,20 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 182782f1-44a8-421d-bacc-f08dcf95f58b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '181'
+ht-degree: 0%
 
 ---
 
 
-# Voorkeur voor serverbeheer{#server-administration-preface}
+# Serverbeheervoorkeuren{#server-administration-preface}
 
-Deze documentatie bespreekt de kwesties van het serverbeleid en beschrijft configuratiemontages voor het Teruggeven van het Beeld Scene7.
+In deze documentatie worden problemen met serverbeheer besproken en worden de configuratie-instellingen voor Scene7 Image Rendering beschreven.
 
 **Beoogd publiek**
 
-Deze documentatie is voorgenomen voor systeembeheerders en Webmeesters die, beeld Scene7 het Teruggeven van moeten installeren vormen en beheren.
+Deze documentatie is bedoeld voor systeembeheerders en webmeesters die Scene7 Image Rendering moeten installeren, configureren en beheren.
 
 **Documentconventies**
 
