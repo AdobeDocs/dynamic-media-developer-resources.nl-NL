@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 2fdd8920-433b-405e-bf93-dbef5735be3f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 0%
 
 ---
 
@@ -19,8 +22,8 @@ Deze release—Afbeelding met 6.6.1 en Afbeelding weergeven 6.6.1—vervangt de 
 ## Bekende problemen en gedragswijzigingen {#section-9dbc05206187477f926a78e8108a34e1}
 
 * Het gebruik van het vraagteken in element-id&#39;s wordt niet meer ondersteund, zelfs niet als het teken URL-gecodeerd is.
-* Dynamische banneraanvragen worden niet meer ondersteund en retourneren nu een http 404-foutcode. `/xfl/flash/`
-* W2P- `/is/agm/` aanvragen worden niet meer ondersteund.
+* Dynamische bannerverzoeken `/xfl/flash/` worden niet meer ondersteund en retourneren nu een http 404-foutcode.
+* W2P `/is/agm/`-verzoeken worden niet meer ondersteund.
 * Sommige foutberichten worden niet meer naar de browser gerenderd. Als dusdanig, moet u het spoorlogboek herzien om te zuiveren.
 
 ## Nieuwe functies {#section-b1386e36cb4544ebb79766a06b16842d}
@@ -28,7 +31,7 @@ Deze release—Afbeelding met 6.6.1 en Afbeelding weergeven 6.6.1—vervangt de 
 * Slim staal
 * Slim uitsnijden
 
-## Bug Fix {#section-58dff74d56f64edeadf8f8b97b7a4161}
+## Opgeloste problemen {#section-58dff74d56f64edeadf8f8b97b7a4161}
 
-* De `\qc` RTF-optie gevolgd door een spatie leidde tot een verzoek om niet te renderen. Dit probleem is nu opgelost.
+* Correctie van het probleem waarbij de optie `\qc` RTF gevolgd door een spatie een verzoek deed om niet te renderen.
 
