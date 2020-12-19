@@ -1,6 +1,6 @@
 ---
-description: Deze sectie beschrijft de het protocolsyntaxis van HTTP en kenmerkend voor het Teruggeven van het Beeld Scene7.
-seo-description: Deze sectie beschrijft de het protocolsyntaxis van HTTP en kenmerkend voor het Teruggeven van het Beeld Scene7.
+description: In deze sectie worden de syntaxis en functies van het HTTP-protocol beschreven voor Scene7 Image Rendering.
+seo-description: In deze sectie worden de syntaxis en functies van het HTTP-protocol beschreven voor Scene7 Image Rendering.
 seo-title: Syntaxis en functies van HTTP-protocol
 solution: Experience Manager
 title: Syntaxis en functies van HTTP-protocol
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 5badae8e-0874-43b1-b019-bd7445e6c2ce
 translation-type: tm+mt
 source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 0%
 
 ---
 
 
-# Syntaxis en functies van HTTP-protocol{#http-protocol-syntax-and-features}
+# Syntaxis en kenmerken van HTTP-protocol{#http-protocol-syntax-and-features}
 
-Deze sectie beschrijft de het protocolsyntaxis van HTTP en kenmerkend voor het Teruggeven van het Beeld Scene7.
+In deze sectie worden de syntaxis en functies van het HTTP-protocol beschreven voor Scene7 Image Rendering.
 
 * [Basissyntaxis van HTTP-protocol voor het renderen van afbeeldingen](r-ir-basic-syntax.md)
 * [Overzicht van de opdracht HTTP-protocol voor afbeeldingen renderen](c-ir-command-overview/c-ir-command-overview.md)
