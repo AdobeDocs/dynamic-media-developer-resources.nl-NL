@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: feeb02c0-f3f9-4559-acd9-cad30788b70b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '128'
+ht-degree: 0%
 
 ---
 
@@ -22,14 +25,14 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
    <td colname="col1"> <p> <span class="codeph"> dia|draaien|auto</span> </p> </td> 
    <td colname="col2"> <p> Hiermee geeft u het type effect op dat wordt toegepast op de framewijziging. </p> <p> 
      <ul id="ul_4224B7C2722A4185A8BD48703D019AA1"> 
-      <li id="li_8482037F8E1C4F11A84DF51790A073FE"> <p><span class="codeph"> dia</span> activeert een overgang waar het oude kader uit mening glijdt en het nieuwe kader binnen aan mening glijdt. </p> </li> 
-      <li id="li_CE9A99564DF348D0A76AB2A5945155A5"> <p><span class="codeph"> draai</span> maakt het mogelijk om een pagina om te draaien wanneer een gebruiker een van de vier spreadhoeken kan slepen en een interactieve pagina omdraait. </p> <p>Wanneer <span class="codeph"> draai</span> wordt gebruikt, wordt de vormgeving van de component gecontroleerd met de <span class="codeph"> pageturnstyle</span> modifier en wordt de CSS-klasse <span class="codeph"> .s7pagedivider</span> genegeerd. </p> <p>Opmerking:  <p><span class="codeph"> draai</span> animatie wordt niet ondersteund op Motorola Xoom. </p> </p> </li> 
-      <li id="li_79F85B0429CD4B389399FB3823FE767F"> <p> <span class="codeph"> auto</span> stelt de omwentelingsframeovergang in op desktopsystemen en de diaovergang op aanraakapparaten. </p> </li> 
+      <li id="li_8482037F8E1C4F11A84DF51790A073FE"> <p><span class="codeph"> Hiermee </span> deactiveert u een overgang waarin het oude frame uit beeld schuift en het nieuwe frame naar buiten schuift. </p> </li> 
+      <li id="li_CE9A99564DF348D0A76AB2A5945155A5"> <p><span class="codeph"> Hiermee </span> schakelt u een pagina-spiegeleffect in wanneer een gebruiker een van de vier spreadhoeken kan slepen en een interactieve pagina-omdraaiing kan uitvoeren. </p> <p>Wanneer <span class="codeph"> draai</span> wordt gebruikt, wordt de vormgeving van de component bepaald met de <span class="codeph"> pageturnstyle</span> modifier en wordt de CSS-klasse <span class="codeph"> .s7pagedivider</span> genegeerd. </p> <p>Opmerking:  <p><span class="codeph"> Omdraaianimatie wordt niet ondersteund op Motorola Xoom. </span>  </p> </p> </li> 
+      <li id="li_79F85B0429CD4B389399FB3823FE767F"> <p> <span class="codeph"> Hiermee </span> wordt de overgang van het draaiframe op desktopsystemen en de diaovergang op aanraakapparaten automatisch ingesteld. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> duur</span></span> </p> </td> 
-   <td colname="col2"> <p>Hiermee bepaalt u de duur in seconden van een overgangseffect voor een <span class="codeph"> dia</span> of <span class="codeph"> draai</span> . </p> </td> 
+   <td colname="col2"> <p>Geeft de duur in seconden aan van een <span class="codeph"> dia</span> of <span class="codeph"> draai</span> overgangseffect. </p> </td> 
   </tr> 
  </tbody> 
 </table>
