@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: ccd84366-732a-4caf-914d-3bc5fe499e7a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '235'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ Maak of bewerk een metagegevensveld. Laat de optionele veldgreep weg om een nieu
 >
 >Deze methode is afgekeurd.
 
-## Geautoriseerde gebruikerstypen {#section-0c1cbde0863346f8a31b32fd06ab2926}
+## Toegestane gebruikerstypen {#section-0c1cbde0863346f8a31b32fd06ab2926}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -42,43 +45,43 @@ Maak of bewerk een metagegevensveld. Laat de optionele veldgreep weg om een nieu
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> bedrijfshandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> De handgreep aan het bedrijf. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4"> Veldgreep. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> Elementtype</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Keuze van elementtypen waaruit metagegevens moeten worden opgeslagen. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> naam</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Veldnaam. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldType</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Keuze van veldtypen voor metagegevens. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Standaardwaarde van de velden voor alle elementen. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> is <span class="varname"> verborgen</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:Boolean</span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4"> De huid of stelt IPS systeem-specifieke meta-gegevens bloot. </td> 
@@ -100,7 +103,7 @@ Maak of bewerk een metagegevensveld. Laat de optionele veldgreep weg om een nieu
 
 ## Voorbeelden {#section-4441c26d1f41466ba972b43dd5189e89}
 
-In dit codevoorbeeld wordt een nieuw metagegevensveld gemaakt dat wordt beperkt door de tekenreeksconstanten voor elementtype en metagegevenstypen. Als het `fieldHandle` element een geldige waarde voor de veldgreep heeft, worden de metagegevenswaarden gewijzigd en wordt dezelfde veldgreep opgehaald die u in de aanvraag hebt opgegeven.
+In dit codevoorbeeld wordt een nieuw metagegevensveld gemaakt dat wordt beperkt door de tekenreeksconstanten voor elementtype en metagegevenstypen. Als het element `fieldHandle` een geldige waarde voor de veldgreep heeft, worden de metagegevenswaarden gewijzigd en wordt dezelfde veldgreep opgehaald die u in de aanvraag hebt opgegeven.
 
 **Verzoek**
 
