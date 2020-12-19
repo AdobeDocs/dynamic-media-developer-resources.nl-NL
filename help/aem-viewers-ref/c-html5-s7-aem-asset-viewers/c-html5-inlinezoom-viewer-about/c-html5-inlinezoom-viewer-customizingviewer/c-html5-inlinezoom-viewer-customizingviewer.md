@@ -9,15 +9,18 @@ topic: Dynamic media
 uuid: c9203ea7-47dc-40f6-add8-04e4258da7c9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '1283'
+ht-degree: 0%
 
 ---
 
 
-# Inline zoomviewer aanpassen{#customizing-inline-zoom-viewer}
+# Inline zoomviewer{#customizing-inline-zoom-viewer} aanpassen
 
 Alle visuele aanpassingen en de meeste gedragsaanpassingen worden gedaan door een aangepaste CSS te creëren.
 
-De voorgestelde workflow is om het standaard CSS-bestand voor de juiste viewer te gebruiken, het naar een andere locatie te kopiëren, het aan te passen en de locatie van het aangepaste bestand in de `style=` opdracht op te geven.
+De voorgestelde workflow is om het standaard CSS-bestand voor de juiste viewer te gebruiken, het naar een andere locatie te kopiëren, het aan te passen en de locatie van het aangepaste bestand op te geven in de opdracht `style=`.
 
 Standaard CSS-bestanden vindt u op de volgende locatie:
 
@@ -40,13 +43,13 @@ Het is ook belangrijk om de volgende CSS-declaratie van de standaard viewer-CSS 
 
 Een andere manier om aangepaste CSS-regels te bieden, is door ingesloten stijlen rechtstreeks op de webpagina of in een van gekoppelde externe CSS-regels te gebruiken.
 
-Wanneer u aangepaste CSS maakt, moet u er rekening mee houden dat de viewer `.s7flyoutviewer` klasse toewijst aan het container DOM-element. Als u extern CSS-bestand gebruikt dat met `style=` de opdracht is doorgegeven, gebruikt u `.s7flyoutviewer` klasse als bovenliggende klasse in de onderliggende kiezer voor uw CSS-regels. Als u ingesloten stijlen op de webpagina uitvoert, kwalificeert u deze kiezer als volgt aanvullend met een id van het DOM-containerelement:
+Wanneer u aangepaste CSS maakt, moet u niet vergeten dat de viewer de klasse `.s7flyoutviewer` toewijst aan het DOM-containerelement. Als u extern CSS dossier gebruikt dat met `style=` bevel wordt overgegaan, gebruik `.s7flyoutviewer` klasse als ouderklasse in afstammende selecteur voor uw CSS regels. Als u ingesloten stijlen op de webpagina uitvoert, kwalificeert u deze kiezer als volgt aanvullend met een id van het DOM-containerelement:
 
 `#<containerId>.s7flyoutviewer`
 
-## Responsieve CSS maken {#section-c1e74f5114ad418884ca1c95f5ea5b63}
+## Responsieve ontworpen CSS maken {#section-c1e74f5114ad418884ca1c95f5ea5b63}
 
-Het is mogelijk om verschillende apparaten en insluitingsgrootten in CSS als doel in te stellen om de weergave van uw inhoud te wijzigen, afhankelijk van het apparaat van de gebruiker of een bepaalde webpaginalay-out. Dit geldt onder andere voor verschillende webpaginalay-outs, de grootte van gebruikersinterface-elementen en de resolutie van illustraties.
+Het is mogelijk om verschillende apparaten en insluitingsgrootten in CSS als doel in te stellen om de weergave van uw inhoud anders te maken, afhankelijk van het apparaat van de gebruiker of een bepaalde webpaginalay-out. Dit geldt onder andere voor verschillende webpaginalay-outs, de grootte van gebruikersinterface-elementen en de resolutie van illustraties.
 
 De viewer ondersteunt twee methoden voor het maken van responsieve, ontworpen CSS: CSS-markeringen en standaard CSS-mediaquery&#39;s. U kunt deze methoden afzonderlijk of samen gebruiken.
 
@@ -54,9 +57,9 @@ De viewer ondersteunt twee methoden voor het maken van responsieve, ontworpen CS
 
 Voor hulp bij het maken van responsieve, ontworpen CSS, ondersteunt de viewer CSS-markeringen die speciale CSS-klassen dynamisch worden toegewezen aan het containerelement op het hoogste niveau, gebaseerd op de viewergrootte tijdens runtime en het invoertype dat op het huidige apparaat wordt gebruikt.
 
-De eerste groep CSS-markeertekens bevat `.s7size_large`, `.s7size_medium`en `.s7size_small` klassen. Ze worden toegepast op basis van het runtimegebied van de viewercontainer. Dat wil zeggen dat het viewergebied gelijk is aan of groter is dan het formaat van een algemene desktopmonitor `.s7size_large` wordt gebruikt; als de grootte van het gebied dicht bij die van een gebruikelijke tabletapparaat `.s7size_medium` ligt. Voor gebieden die vergelijkbaar zijn met mobiele-telefoonschermen `.s7size_small` wordt ingesteld. Het belangrijkste doel van deze CSS-markeringen is het maken van verschillende lay-outs voor de gebruikersinterface voor verschillende schermen en viewerformaten.
+De eerste groep CSS-markeertekens bevat de klassen `.s7size_large`, `.s7size_medium` en `.s7size_small`. Ze worden toegepast op basis van het runtimegebied van de viewercontainer. Dat wil zeggen dat het viewergebied gelijk is aan of groter is dan het formaat van een algemene desktopmonitor `.s7size_large` wordt gebruikt; als het gebied zich in de buurt van een gebruikelijke tabletapparaat bevindt, `.s7size_medium` wordt toegewezen. Voor gebieden die vergelijkbaar zijn met mobiele-telefoonschermen wordt `.s7size_small` ingesteld. Het belangrijkste doel van deze CSS-markeringen is het maken van verschillende lay-outs voor de gebruikersinterface voor verschillende schermen en viewerformaten.
 
-De tweede groep CSS-markeertekens bevat `.s7mouseinput` en `.s7touchinput`. `.s7touchinput` wordt ingesteld als het huidige apparaat aanraakinvoermogelijkheden heeft; anders, `.s7mouseinput` wordt gebruikt. Deze markeringen zijn bedoeld om invoerelementen voor de gebruikersinterface te maken met verschillende schermgrootten voor verschillende invoertypen, omdat aanraakinvoer doorgaans grotere elementen vereist. Wanneer het apparaat zowel muisinvoer- als aanraakmogelijkheden heeft, `.s7touchinput` wordt dit ingesteld en wordt een aanraakvriendelijke gebruikersinterface weergegeven.
+De tweede groep CSS-markeertekens bestaat uit `.s7mouseinput` en `.s7touchinput`. `.s7touchinput` wordt ingesteld als het huidige apparaat aanraakinvoermogelijkheden heeft; anders,  `.s7mouseinput` wordt gebruikt. Deze markeringen zijn bedoeld om invoerelementen voor de gebruikersinterface te maken met verschillende schermgrootten voor verschillende invoertypen, omdat aanraakinvoer doorgaans grotere elementen vereist. Als het apparaat zowel muisinvoer- als aanraakmogelijkheden heeft, wordt `.s7touchinput` ingesteld en wordt een aanraakvriendelijke gebruikersinterface weergegeven.
 
 In het volgende voorbeeld-CSS wordt de inzoomknopgrootte ingesteld op 28 x 28 pixels op systemen met muisinvoer en op 56 x 56 pixels op aanraakapparaten. Bovendien wordt de knop volledig verborgen als de viewergrootte erg klein wordt:
 
@@ -176,17 +179,17 @@ background-position: -0px -448px;
 }
 ```
 
-## Algemene opmaakopmerkingen en advies {#section-95855dccbbc444e79970f1aaa3260b7b}
+## Algemene opmaaknotities en advies {#section-95855dccbbc444e79970f1aaa3260b7b}
 
-* Wanneer u de gebruikersinterface van de viewer aanpast met CSS, wordt het gebruik van de `!IMPORTANT` regel niet ondersteund voor het opmaken van viewerelementen. De regel `!IMPORTANT` mag met name niet worden gebruikt om standaardstijlen of runtimestijlen die door de viewer of Viewer SDK worden geboden, te negeren. De reden hiervoor is dat het het gedrag van juiste componenten kan beïnvloeden. Gebruik in plaats daarvan CSS-kiezers met de juiste specificiteit om CSS-eigenschappen in te stellen die in deze naslaggids worden beschreven.
+* Wanneer u de gebruikersinterface van de viewer aanpast met CSS, wordt het gebruik van de regel `!IMPORTANT` niet ondersteund voor het opmaken van viewerelementen. Met name `!IMPORTANT`-regel mag niet worden gebruikt om standaardstijlen of runtimestijlen van de viewer of Viewer SDK te negeren. De reden hiervoor is dat het het gedrag van juiste componenten kan beïnvloeden. Gebruik in plaats daarvan CSS-kiezers met de juiste specificiteit om CSS-eigenschappen in te stellen die in deze naslaggids worden beschreven.
 * Alle paden naar externe elementen in CSS worden omgezet op de CSS-locatie, niet op de locatie van de HTML-pagina van de viewer. Houd rekening met deze regel wanneer u de standaard-CSS naar een andere locatie kopieert. Kopieer de standaardelementen of werk paden bij in de aangepaste CSS.
 * De voorkeursindeling voor bitmapillustraties is PNG.
-* Bitmapillustraties worden aan de elementen van de gebruikersinterface toegewezen met behulp van de `background-image` eigenschap.
-* De `width` en `height` eigenschappen van een gebruikersinterface-element definiëren de logische grootte ervan. De grootte van de doorgegeven bitmap heeft `background-image` geen invloed op de logische grootte.
-* Als u de hoge pixeldichtheid van schermen met hoge resolutie, zoals Retina, wilt gebruiken, geeft u bitmapillustraties twee keer zo groot op als de logische grootte van de gebruikersinterface-elementen. Pas vervolgens de `-webkit-background-size:contain` eigenschap toe om de achtergrond omlaag te schalen naar de logische grootte van het gebruikersinterface-element.
-* Als u een knop uit de gebruikersinterface wilt verwijderen, voegt u deze toe `display:none` aan de CSS-klasse.
-* U kunt verschillende indelingen gebruiken voor kleurwaarden die door CSS worden ondersteund. Gebruik de indeling als u transparantie nodig hebt `rgba(R,G,B,A)`. Anders kunt u de indeling gebruiken `#RRGGBB`.
+* Bitmapillustraties worden met de eigenschap `background-image` toegewezen aan elementen van de gebruikersinterface.
+* De `width` en `height` eigenschappen van een gebruikersinterface-element bepalen zijn logische grootte. De grootte van de bitmap die wordt doorgegeven aan `background-image` heeft geen invloed op de logische grootte.
+* Als u de hoge pixeldichtheid van schermen met hoge resolutie, zoals Retina, wilt gebruiken, geeft u bitmapillustraties twee keer zo groot op als de logische grootte van de gebruikersinterface-elementen. Pas vervolgens de eigenschap `-webkit-background-size:contain` toe om de achtergrond omlaag te schalen naar de logische grootte van het interface-element.
+* Als u een knop uit de gebruikersinterface wilt verwijderen, voegt u `display:none` toe aan de CSS-klasse.
+* U kunt verschillende indelingen gebruiken voor kleurwaarden die door CSS worden ondersteund. Als u transparantie nodig hebt, gebruikt u de notatie `rgba(R,G,B,A)`. Anders kunt u de notatie `#RRGGBB` gebruiken.
 
-## Algemene gebruikersinterface-elementen {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
+## Elementen van de gemeenschappelijke gebruikersinterface {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
 
 Hieronder vindt u de referentiedocumentatie voor gebruikersinterface-elementen die van toepassing is op de Flyout-viewer:
