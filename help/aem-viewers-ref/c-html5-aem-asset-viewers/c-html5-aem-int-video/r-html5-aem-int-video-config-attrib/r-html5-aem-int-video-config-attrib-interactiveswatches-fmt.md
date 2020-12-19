@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 0a30c913-39d1-4521-b65c-f2b3879f6928
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +25,7 @@ Configuration attribute for Interactive Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> Specificeert het beeldformaat dat de component voor het laden van beelden van de Server van het Beeld gebruikt. </p> <p>Als de opgegeven indeling eindigt met "<span class="codeph"> -alpha</span>", rendert de component de afbeeldingen als transparante inhoud. Voor alle andere afbeeldingsindelingen behandelt de component de afbeeldingen als dekkend. De component heeft standaard een witte achtergrond. Om deze volledig transparant te maken, stelt u de CSS-eigenschap voor de <span class="codeph"> achtergrondkleur</span> in op <span class="codeph"> transparant</span>. </p> </td> 
+   <td colname="col2"> <p> Specificeert het beeldformaat dat de component voor het laden van beelden van de Server van het Beeld gebruikt. </p> <p>Als de opgegeven indeling eindigt met "<span class="codeph"> -alpha</span>", geeft de component de afbeeldingen weer als transparante inhoud. Voor alle andere afbeeldingsindelingen behandelt de component de afbeeldingen als dekkend. De component heeft standaard een witte achtergrond. Daarom stelt u de CSS-eigenschap <span class="codeph"> background-color</span> in op <span class="codeph"> transparent</span> om deze volledig transparant te maken. </p> </td> 
   </tr> 
  </tbody> 
 </table>
