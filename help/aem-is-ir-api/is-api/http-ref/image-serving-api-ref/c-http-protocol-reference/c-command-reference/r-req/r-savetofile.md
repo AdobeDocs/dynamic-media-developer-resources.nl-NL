@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 32a56d77-89e2-4f78-9fab-1b528e9a024a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 0%
 
 ---
 
@@ -55,15 +58,15 @@ Wanneer de opslagaanvraag met succes is voltooid, retourneert de aanvraag versch
   <tr valign="top"> 
    <td> <p> <span class="codeph"> status</span> </p> </td> 
    <td> <p> enum </p> </td> 
-   <td> <p> <span class="codeph"> gedaan</span> als succesvol. </p> </td> 
+   <td> <p> <span class="codeph"> </span> Doneif successfully. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Retourneert HTTP-antwoordstatus 200 als de bewerking succesvol was en 403 als de aanvraag mislukt of de tijd uit is. De reactie heeft het type MIME `text/plain` en is niet cacheable.
+Retourneert HTTP-antwoordstatus 200 als de bewerking succesvol was en 403 als de aanvraag mislukt of de tijd uit is. De reactie heeft MIME type `text/plain` en is niet cacheable.
 
-Belangrijk opslaan naar bestanden moet zijn ingeschakeld door het pad naar een bestaande schrijfbare map op te geven in `attribute::SavePath`. `saveToFile=` mislukt als `attribute::SavePath` het leeg is.
+Belangrijk het Opslaan aan dossiers moet worden toegelaten door de weg aan een bestaande schrijfbare omslag in `attribute::SavePath` te specificeren. `saveToFile=` mislukt als  `attribute::SavePath` het leeg is.
 
-*`file`* is vereist en moet een relatief pad zijn dat wordt gecombineerd met `attribute::SavePath`. Er worden geen mappen gemaakt met Beeldserver. De doelmap moet op de server aanwezig zijn en de juiste machtigingsinstellingen voor Image Serving hebben om bestanden te maken.
+*`file`* is vereist en moet een relatief pad zijn dat wordt gecombineerd met  `attribute::SavePath`. Er worden geen mappen gemaakt met Beeldserver. De doelmap moet op de server aanwezig zijn en de juiste machtigingsinstellingen voor Image Serving hebben om bestanden te maken.
 
-`timeout=` is optioneel. De standaardonderbreking is 60.000 msec, of welke waarde met wordt gevormd `PS::SaveTimeout`.
+`timeout=` is optioneel. De standaardonderbreking is 60.000 msec, of welke waarde met `PS::SaveTimeout` wordt gevormd.
