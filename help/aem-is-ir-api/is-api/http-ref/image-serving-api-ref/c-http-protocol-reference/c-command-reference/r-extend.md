@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 7ca69994-e788-41a9-93ac-f22b6b9920d0
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '248'
+ht-degree: 0%
 
 ---
 
 
-# uitbreiden{#extend}
+# extend{#extend}
 
 Laag uitbreiden. Hiermee voegt u marges toe aan een laag of snijdt u de laagrechthoek bij.
 
@@ -31,15 +34,15 @@ Laag uitbreiden. Hiermee voegt u marges toe aan een laag of snijdt u de laagrech
  </tr> 
 </table>
 
-`extend=` wordt toegepast op de laag *nadat* de afbeelding is uitgesneden ( `crop=`) en alle laagtransformaties, inclusief `rotate=`, zijn toegepast.
+`extend=` wordt toegepast op de laag  ** nadat de afbeelding is uitgesneden (  `crop=`) en alle laagtransformaties, inclusief  `rotate=`, zijn toegepast.
 
-Het uitgebreide gebied wordt gevuld met `bgColor=`, of blijft transparant als dit niet is opgegeven.
+Het uitgebreide gebied wordt gevuld met `bgColor=` of blijft transparant als dit niet is opgegeven.
 
-De argumentwaarden voor `extendN=` worden genormaliseerd ten opzichte van de grootte van de laagrechthoek nadat de laagtransformaties, inclusief `rotate=` zijn toegepast.
+De argumentwaarden voor `extendN=` worden genormaliseerd met betrekking tot de grootte van de laagrect nadat laagtransformaties, met inbegrip van `rotate=` zijn toegepast.
 
 ## Eigenschappen {#section-8fc94de871f841f3bf5e1df135972ca9}
 
-Laagkenmerk. Is van toepassing op laag 0 als `layer=comp`. Genegeerd door effectlagen.
+Laagkenmerk. Is op laag 0 van toepassing als `layer=comp`. Genegeerd door effectlagen.
 
 ## Standaard {#section-de7473649cb9406b8d99028c74c4b8dc}
 
@@ -59,4 +62,4 @@ De hoogte van de samengestelde afbeelding hangt af van de hoogte-breedteverhoudi
 
 ## Zie ook {#section-2d9572be32ca4602b60920b3810f3638}
 
-[crop=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab) , [color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md), [size=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-size.md#reference-04d383f32c7b4003bed9978cb854747b), [origin=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md#reference-e11c7ac06e2240cc884c3fec98f05138), [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)
+[crop=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab) ,  [color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md),  [size=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-size.md#reference-04d383f32c7b4003bed9978cb854747b),  [origin=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md#reference-e11c7ac06e2240cc884c3fec98f05138),  [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)
