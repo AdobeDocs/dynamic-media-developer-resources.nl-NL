@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: ad6dbcd8-f4a4-4439-b51a-2aca30d198e0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '130'
+ht-degree: 0%
 
 ---
 
 
-# Bronafbeeldingsbewerkingen{#source-image-operations}
+# Bewerkingen voor bronafbeeldingen{#source-image-operations}
 
 Deze opdrachten zijn van toepassing op bronafbeeldingen die worden gebruikt in eenvoudige aanvragen of in afbeeldingslagen, en op maskers die zijn gekoppeld aan effen kleurlagen.
 
