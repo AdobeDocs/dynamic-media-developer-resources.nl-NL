@@ -118,7 +118,7 @@ Syntaxis
    <td colname="col3"> <p>De URL van de bestemming voor het uploaden van het bestand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> postImageRenderingPublish</span> </span>Job </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> </span> </span>postImageRenderingPublishJob </td> 
    <td colname="col2"> <span class="codeph"> typen:ImageRendingPublishJob</span> </td> 
    <td colname="col3"> <p>Details voor een publicatietaak voor het renderen van afbeeldingen die wordt uitgevoerd nadat het uploaden is voltooid. </p> </td> 
   </tr> 
@@ -192,13 +192,13 @@ Syntaxis
 
 ## Notities {#section-637405ff7e0b4a71b83fd359b92fa0c2}
 
-U kunt bijvoorbeeld slechts een van de volgende opties kiezen: `CropOptions`
+Voor `CropOptions` kunt u slechts een van de volgende opties kiezen:
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-U kunt bijvoorbeeld slechts een van de volgende opties kiezen: `PublishJob`
+Voor `PublishJob` kunt u slechts een van de volgende opties kiezen:
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`
