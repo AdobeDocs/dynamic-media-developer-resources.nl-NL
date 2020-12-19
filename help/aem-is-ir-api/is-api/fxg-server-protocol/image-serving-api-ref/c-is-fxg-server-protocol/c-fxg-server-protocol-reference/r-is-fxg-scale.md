@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: db5bab94-e5c1-41fe-ab1b-5c62b6a798d0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '55'
+ht-degree: 0%
 
 ---
 
 
-# schalen{#scale}
+# scale{#scale}
 
 Afbeelding schalen. Hiermee schaalt u een afbeelding met factor ten opzichte van de afbeelding met volledige resolutie.
 
