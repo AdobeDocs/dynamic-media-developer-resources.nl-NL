@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 46ebb8c7-930e-4844-8664-ec6a63691523
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +27,7 @@ De volgende waarden zijn toegestaan:
   <td class="stentry"> <p>Alleen titel. Geeft een korte algemene beschrijving van de fout. Aanbevolen voor live servers die openbaar toegankelijk zijn. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>1 </p></td> 
+  <td class="stentry"> <p>3 </p></td> 
   <td class="stentry"> <p>Korte boodschap. Gereserveerd voor toekomstig gebruik. Retourneert momenteel dezelfde informatie als 0. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -33,7 +36,7 @@ De volgende waarden zijn toegestaan:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>Volledige foutopsporingsinformatie. Voegt Java-stacktraceringen toe, indien van toepassing. Foutafbeeldingen bevatten nooit stacktraces en retourneren in plaats daarvan niveau 2-informatie in <span class="codeph"> $error.message</span>. Deze informatie kan nuttig zijn wanneer het melden van problemen aan de Technische Steun Scene7. </p></td> 
+  <td class="stentry"> <p>Volledige foutopsporingsinformatie. Voegt Java-stacktraceringen toe, indien van toepassing. Foutafbeeldingen bevatten nooit stacktraces en retourneren in plaats daarvan niveau 2-informatie in <span class="codeph"> $error.message</span>. Deze informatie kan nuttig zijn wanneer het melden van problemen aan de Technische Steun van Scene7. </p></td> 
  </tr> 
 </table>
 
