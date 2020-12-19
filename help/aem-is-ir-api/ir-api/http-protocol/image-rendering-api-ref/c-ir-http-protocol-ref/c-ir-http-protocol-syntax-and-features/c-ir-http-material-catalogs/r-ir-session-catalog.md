@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 69c0f6cd-dfaf-47bf-bdd9-7abb4e6f7465
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '270'
+ht-degree: 0%
 
 ---
 
@@ -42,7 +45,7 @@ De sessiecatalogus bevat de volgende standaardwaarden voor sessies:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> kenmerk:RootUrl</span> </p> </td> 
-   <td> <p> URL van hoofdmap voor relatieve HTTP-bestandspaden in <span class="codeph"> src=</span> opdrachten </p> </td> 
+   <td> <p> URL van hoofdmap voor relatieve HTTP-bestandspaden in <span class="codeph"> src=</span>-opdrachten </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> kenmerk::ShowOverlapObjs</span> </p> </td> 
@@ -74,15 +77,15 @@ De sessiecatalogus bevat de volgende standaardwaarden voor sessies:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> kenmerk:Verscherpen</span> </p> </td> 
-   <td> <p> Standaardwaarde voor <span class="codeph"> verscherpen=</span> </p> </td> 
+   <td> <p> Standaardwaarde voor <span class="codeph"> scherpen=</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> kenmerk::OnFailSel</span> </p> </td> 
-   <td> <p> Hiermee wordt gedrag opgegeven wanneer een <span class="codeph"> sel=</span> -opdracht mislukt </p> </td> 
+   <td> <p> Hiermee wordt gedrag opgegeven wanneer een <span class="codeph"> sel=</span>-opdracht mislukt </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> kenmerk::OnFailObj</span> </p> </td> 
-   <td> <p> Hiermee wordt gedrag opgegeven wanneer een <span class="codeph"> obj=</span> -opdracht mislukt </p> </td> 
+   <td> <p> Hiermee wordt gedrag opgegeven wanneer een <span class="codeph"> obj=</span>-opdracht mislukt </p> </td> 
   </tr> 
  </tbody> 
 </table>
