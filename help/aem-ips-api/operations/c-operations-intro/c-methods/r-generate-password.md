@@ -21,7 +21,7 @@ Hiermee genereert u een nieuw wachtwoord.
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-88f7dc11e5c74be281399d8f2e3c9555}
+## Toegestane gebruikerstypen {#section-88f7dc11e5c74be281399d8f2e3c9555}
 
 * `IpsUser`
 * `IpsAdmin`
