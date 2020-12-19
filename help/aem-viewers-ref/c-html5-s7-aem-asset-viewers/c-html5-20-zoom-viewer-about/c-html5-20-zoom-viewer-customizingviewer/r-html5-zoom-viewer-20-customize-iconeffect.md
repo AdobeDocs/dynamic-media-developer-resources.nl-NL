@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 5daf15ec-fcc5-4e37-924e-9a2cd6c0d167
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '194'
+ht-degree: 0%
 
 ---
 
 
-# Pictogram, effect{#icon-effect}
+# Pictogrameffect{#icon-effect}
 
 De zoomindicator wordt bedekt op het hoofdweergavegebied. De afbeelding wordt weergegeven wanneer de voorinstelling van de afbeelding is ingeschakeld en is ook afhankelijk van de parameter iconeffect.
 
@@ -35,11 +38,11 @@ De vormgeving van het weergavegebied wordt bepaald door de volgende CSS-klassenk
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
    <td colname="col2"> <p> Illustraties van zoomindicatoren. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -47,7 +50,7 @@ De vormgeving van het weergavegebied wordt bepaald door de volgende CSS-klassenk
    <td colname="col2"> <p>Breedte van zoomindicator. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van zoomindicator. </p> </td> 
   </tr> 
  </tbody> 
@@ -55,7 +58,7 @@ De vormgeving van het weergavegebied wordt bepaald door de volgende CSS-klassenk
 
 >[!NOTE]
 >
->Het effect Icon ondersteunt de `media-type` kenmerkenkiezer, die u kunt gebruiken om verschillende pictogrameffecten toe te passen op verschillende apparaten. Dit komt met name `media-type='standard'` overeen met desktopsystemen waarbij de muisinvoer normaal wordt gebruikt en `media-type='multitouch'` overeenkomt met apparaten met aanraakinvoer.
+>Het effect Icon ondersteunt de kenmerkenkiezer `media-type`, die u kunt gebruiken om verschillende pictogrameffecten toe te passen op verschillende apparaten. Met name `media-type='standard'` komt overeen met desktopsystemen waar de muisinvoer normaal wordt gebruikt en `media-type='multitouch'` overeenkomt met apparaten met aanraakinvoer.
 
 Voorbeeld: een zoomindicator van 100 x 100 pixels instellen met verschillende illustraties voor desktopsystemen en aanraakapparaten.
 
