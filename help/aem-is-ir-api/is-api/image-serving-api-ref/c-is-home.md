@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: a90088a8-94f4-4e36-aaa2-03c07e8522b0
 translation-type: tm+mt
 source-git-commit: 5717550d2dea8ec086875e770ff8f200aaa75ff3
+workflow-type: tm+mt
+source-wordcount: '65'
+ht-degree: 0%
 
 ---
 
 
-# API voor afbeeldingsservice{#image-serving-api}
+# Beeldserver-API{#image-serving-api}
 
 De handleiding voor de API voor beeldbewerking bevat informatie over het instellen en gebruiken van de API voor beeldbewerking.
 
