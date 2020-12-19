@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: b707344d-5571-45eb-9e37-cf0894ee81a0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '134'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Haalt de types van bezitsreeks verbonden aan het gespecificeerde bedrijf, of glo
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-9c7c0d2cd2c94dfca3f96774b3a9a2c6}
+## Toegestane gebruikerstypen {#section-9c7c0d2cd2c94dfca3f96774b3a9a2c6}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -45,7 +48,7 @@ Syntaxis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> bedrijfshandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4">De handgreep aan het bedrijf waaraan de types van bezitsreeks worden geassocieerd. <p>Laat weg als u globale bezitsvastgestelde types wilt terugkeren. </p> </td> 
