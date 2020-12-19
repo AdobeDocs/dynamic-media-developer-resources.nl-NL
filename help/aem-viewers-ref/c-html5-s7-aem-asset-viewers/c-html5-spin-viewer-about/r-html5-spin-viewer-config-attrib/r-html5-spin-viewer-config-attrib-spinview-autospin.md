@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 9d24ed39-e4b9-442b-bc64-c77707ff69d8
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '100'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Schakelt de automatische centrifugeanimatie in of uit. Voor de beste ervaring met automatisch draaien wordt aangeraden alle frames vooraf te laden door de <span class="codeph"> maxloadradius</span> in te stellen op <span class="codeph"> -1</span>. Merk op, echter, dat dit in verhoogde ladingstijd en hoger bandbreedtegebruik resulteert. </p> </td> 
+   <td colname="col2"> <p> Schakelt de automatische centrifugeanimatie in of uit. Voor de beste ervaring met automatisch draaien wordt aanbevolen om alle frames vooraf te laden door <span class="codeph"> maxloadradius</span> in te stellen op <span class="codeph"> -1</span>. Merk op, echter, dat dit in verhoogde ladingstijd en hoger bandbreedtegebruik resulteert. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> duur</span></span> </p> </td> 
@@ -28,11 +31,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> richting</span></span> </p> </td> 
-   <td colname="col2"> <p> De centrifugeerrichting die <span class="codeph"> 0</span> is voor het draaiende oosten en <span class="codeph"> 1</span> voor het draaiende westen. </p> </td> 
+   <td colname="col2"> <p> De centrifugeerrichting die <span class="codeph"> 0</span> is voor het spinnen oost en <span class="codeph"> 1</span> voor het spinnen west. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> spin_number</span></span> </p> </td> 
-   <td colname="col2"> <p> Het aantal volledige rotaties dat is uitgevoerd voordat het automatisch centrifugeren wordt gestopt. Het getal is een drijvende-kommagetal. Stel dit in op <span class="codeph"> -1</span> voor een oneindige automatische centrifuge. </p> </td> 
+   <td colname="col2"> <p> Het aantal volledige rotaties dat is uitgevoerd voordat het automatisch centrifugeren wordt gestopt. Het getal is een drijvende-kommagetal. Stel in op <span class="codeph"> -1</span> voor een oneindige automatische centrifuge. </p> </td> 
   </tr> 
  </tbody> 
 </table>
