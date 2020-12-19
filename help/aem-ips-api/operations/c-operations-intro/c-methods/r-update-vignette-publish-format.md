@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Hiermee werkt u de instellingen voor de vignetpublicatie-indeling bij.
 
-## Geautoriseerde gebruikerstypen {#section-2f2ad136d2884dc9bfef6da008196ed0}
+## Toegestane gebruikerstypen {#section-2f2ad136d2884dc9bfef6da008196ed0}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -37,7 +37,7 @@ Hiermee werkt u de instellingen voor de vignetpublicatie-indeling bij.
 | ` *`name`*` | `xsd:string` | Nee | Naam van publicatie-indeling. |
 | ` *`targetWidth`*` | `xsd:int` | Ja | Geeft de doelbreedte van de resulterende vignetweergave op in pixels. Gebruik nul, zodat het uitvoervignet dezelfde grootte heeft als het primaire vignet. |
 | ` *`targetHeight`*` | `xsd:int` | Ja | Hiermee stelt u de doelhoogte van de resulterende vignetweergave in pixels in. Gebruik nul, zodat het uitvoervignet dezelfde grootte heeft als het primaire vignet. |
-| ` *`createPyramid`*` | `xsd:boolean` | Ja | Hiermee maakt u een piramidevignet dat is geoptimaliseerd voor zoomen op de server voor het renderen van afbeeldingen. Vanaf de maximale grootte, ingesteld door de velden Vignetgrootte van Target, worden meerdere grootten weergegeven in één vignetuitvoerbestand. Elke volgende weergavegrootte wordt gehalveerd totdat de breedte en hoogte binnen 128 x 128 pixels liggen. |
+| ` *`createPyramid`*` | `xsd:boolean` | Ja | Hiermee maakt u een piramidevignet dat is geoptimaliseerd voor zoomen op de server voor het renderen van afbeeldingen. Vanaf de maximale grootte, ingesteld door de velden Doelgrootte vignet, maakt dit meerdere grootteweergaven in één vignetuitvoerbestand. Elke volgende weergavegrootte wordt gehalveerd totdat de breedte en hoogte binnen 128 x 128 pixels liggen. |
 | ` *`thumbWidth`*` | `xsd:int` | Ja | Geeft de breedte van elke resulterende miniatuur in pixels aan. Deze instelling is optioneel. Geen miniatuurbestand gebruiken als nul. |
 | ` *`saveAsVersion`*` | `xsd:int` | Ja | Hier geeft u de bestandsindeling voor de gepubliceerde vignetten op. Op basis van een nieuwe versie van Image Authoring en een oudere versie van Image Rendering Server moet u een vignetversie opgeven die uw ImageRendering Server kan lezen. Als u een hogere versie opgeeft, kan de server voor het renderen van afbeeldingen de gepubliceerde vignetten niet lezen. Stel dit in op nul om vignetten te publiceren in de meest recente versie. |
 | ` *`sizeSuffixSeparator`*` | `xsd:string` | Ja | Hiermee geeft u het teken op dat de naam van het vignet scheidt van het achtervoegsel dat de breedte aangeeft. |
