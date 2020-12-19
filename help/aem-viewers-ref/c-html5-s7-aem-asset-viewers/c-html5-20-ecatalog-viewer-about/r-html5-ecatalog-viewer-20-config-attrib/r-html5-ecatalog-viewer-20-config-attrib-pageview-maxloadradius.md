@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 425624c5-3cbe-4b63-8c6b-eff31f2ed919
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '67'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>Geeft het gedrag voor het vooraf laden van de component op. </p> <p>Wanneer ingesteld op <span class="codeph"> -1</span> , laadt de component alle catalogusframes vooraf wanneer de status niet actief is. </p> <p> Wanneer ingesteld op <span class="codeph"> 0</span> , laadt de component alleen het frame dat momenteel zichtbaar is, het vorige en volgende frame. </p> <p>Stel <span class="codeph"><span class="varname"> voorlader</span></span> in om te bepalen hoeveel onzichtbare frames rond het momenteel weergegeven frame bij inactiviteit worden voorgeladen. </p> </td> 
+   <td colname="col2"> <p>Geeft het gedrag voor het vooraf laden van de component op. </p> <p>Wanneer ingesteld op <span class="codeph"> -1</span>, laadt de component alle catalogusframes wanneer deze niet worden gebruikt. </p> <p> Wanneer ingesteld op <span class="codeph"> 0</span> laadt de component alleen het frame dat momenteel zichtbaar is, het vorige en volgende frame. </p> <p>Stel <span class="codeph"><span class="varname"> voorlader</span></span> in om te bepalen hoeveel onzichtbare frames rondom het momenteel weergegeven frame bij inactiviteit worden voorgeladen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
