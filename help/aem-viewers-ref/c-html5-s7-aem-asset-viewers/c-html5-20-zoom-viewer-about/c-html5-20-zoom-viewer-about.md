@@ -32,7 +32,7 @@ Zie [Systeemvereisten en -vereisten](../../c-system-requirements-and-prerequisit
 
 [https://s7d9.scene7.com/s7viewers/html5/ZoomViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample](https://s7d9.scene7.com/s7viewers/html5/ZoomViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample)
 
-## Zoomviewer gebruiken {#section-e6c68406ecdc4de781df182bbd8088b4}
+## Zoomviewer {#section-e6c68406ecdc4de781df182bbd8088b4} gebruiken
 
 Zoom Viewer vertegenwoordigt een hoofd-JavaScript-bestand en een set hulplijnbestanden (één JavaScript-bestand met alle Viewer SDK-componenten die door deze viewer worden gebruikt, elementen, CSS) die door de viewer in runtime zijn gedownload.
 
@@ -40,7 +40,7 @@ U kunt Zoomviewer in pop-upmodus gebruiken met behulp van een voor productie ges
 
 Configuratie en skins zijn vergelijkbaar met die van de andere viewers. Alle skins worden gemaakt door middel van aangepaste CSS.
 
-Zie de verwijzing van het [Bevel gemeenschappelijk voor alle kijkers - de attributen](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) van de Configuratie en de verwijzing van het [Bevel gemeenschappelijk voor alle Kijkers - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+Zie [De verwijzing van het Bevel gemeenschappelijk voor alle kijkers - de attributen van de Configuratie](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) en [De verwijzing van het Bevel gemeenschappelijk voor alle Kijkers - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
 ## Interactie met Zoomviewer {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
@@ -68,7 +68,7 @@ De zoomviewer ondersteunt de volgende aanraakbewegingen die ook in andere mobiel
   </tr> 
   <tr> 
    <td colname="col1"> <p>Horizontaal vegen of tikken </p> </td> 
-   <td colname="col2"> <p> Hiermee bladert u door de lijst met stalen in de staalbalk. </p> <p> Als de afbeelding is hersteld en de <span class="codeph"> </span> frametransformatieparameter is ingesteld op schuiven, wordt het element gewijzigd met de diaanimatie. Voor andere <span class="codeph"> frameomzettingsmodi </span> voert de beweging native paginaschuiven uit. </p> <p> Als in de afbeelding wordt ingezoomd, wordt de afbeelding horizontaal verplaatst. Als de afbeelding naar de weergavegrens wordt verplaatst en een veegbeweging in dezelfde richting wordt uitgevoerd, wordt native paginaschuiven uitgevoerd. </p> </td> 
+   <td colname="col2"> <p> Hiermee bladert u door de lijst met stalen in de staalbalk. </p> <p> Als de afbeelding in een herstelstatus staat en de <span class="codeph">-parameter voor de frametransitie </span> is ingesteld op schuiven, wordt het element gewijzigd met de diaanimatie. Voor andere <span class="codeph">-framemodi </span> voert de beweging native paginaschuiven uit. </p> <p> Als in de afbeelding wordt ingezoomd, wordt de afbeelding horizontaal verplaatst. Als de afbeelding naar de weergavegrens wordt verplaatst en een veegbeweging in dezelfde richting wordt uitgevoerd, wordt native paginaschuiven uitgevoerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verticaal veeggebaar </p> </td> 
@@ -81,9 +81,9 @@ De viewer ondersteunt zowel aanraakinvoer als muisinvoer op Windows-apparaten me
 
 Deze viewer is volledig toegankelijk via het toetsenbord.
 
-Zie [Toetsenbordtoegankelijkheid en navigatie](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
+Zie [Toegankelijkheid en navigatie op toetsenbord](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
-## Zoomviewer insluiten {#section-6bb5d3c502544ad18a58eafe12a13435}
+## Zoomviewer {#section-6bb5d3c502544ad18a58eafe12a13435} insluiten
 
 Verschillende webpagina&#39;s hebben verschillende vereisten voor viewergedrag. Soms biedt een webpagina een koppeling die de viewer in een apart browservenster opent wanneer erop wordt geklikt. In andere gevallen moet u de viewer rechtstreeks insluiten op de hostpagina. In het laatste geval kan de webpagina een statische indeling hebben of een responsief ontwerp gebruiken dat op verschillende apparaten of voor verschillende venstergrootten van de browser anders wordt weergegeven. Om aan deze behoeften tegemoet te komen, ondersteunt de viewer drie primaire bewerkingsmodi: pop-up, vaste grootte het inbedden, en ontvankelijk ontwerp het inbedden.
 
@@ -93,7 +93,7 @@ In de pop-upmodus wordt de viewer geopend in een apart venster of tabblad van ee
 
 Deze modus wordt het meest gebruikt voor mobiele apparaten. De webpagina laadt de viewer met behulp van `window.open()` JavaScript-aanroep, correct geconfigureerd `A` HTML-element of een andere geschikte methode.
 
-Het wordt aanbevolen een HTML-pagina uit de doos te gebruiken voor de pop-upbewerkingsmodus. De uit-van-de-doos HTML- pagina wordt geroepen `ZoomViewer.html` en het wordt gevestigd onder `html5/` subfolder van uw standaard plaatsing IS-Viewers zoals in het volgende:
+Het wordt aanbevolen een HTML-pagina uit de doos te gebruiken voor de pop-upbewerkingsmodus. De uit-van-de-doos HTML- pagina wordt genoemd `ZoomViewer.html` en het wordt gevestigd onder `html5/` subfolder van uw standaard plaatsing IS-Viewers zoals in het volgende:
 
 `<s7viewers_root>/html5/ZoomViewer.html`
 
@@ -117,11 +117,11 @@ De insluiting met een vaste grootte wordt gebruikt wanneer de viewer de grootte 
 
 Bij de insluitingsmodus voor responsief ontwerp wordt ervan uitgegaan dat het formaat van de viewer tijdens de runtime moet worden aangepast vanwege de wijziging van de grootte van de container `DIV`. De meest gebruikte optie is het toevoegen van een viewer aan een webpagina die een flexibele indeling gebruikt.
 
-In de responsieve ontwerpinsluitingsmodus werkt de viewer anders, afhankelijk van de manier waarop de container van de webpagina wordt verkleind `DIV`. Als de webpagina alleen de breedte van de container instelt `DIV`en de hoogte onbeperkt laat, kiest de viewer automatisch de hoogte afhankelijk van de hoogte-breedteverhouding van het element dat wordt gebruikt. Deze logica zorgt ervoor dat het element perfect in de weergave past zonder opvulling aan de zijkanten. Dit gebruiksgeval komt het meest voor bij webpagina&#39;s die responsieve lay-outframeworks gebruiken, zoals Bootstrap, Foundation enzovoort.
+In de responsieve ontwerpinsluitingsmodus werkt de viewer anders, afhankelijk van de manier waarop de container `DIV` door de webpagina wordt verkleind. Als de webpagina alleen de breedte van de container `DIV` instelt en de hoogte onbeperkt laat, kiest de viewer automatisch de hoogte op basis van de hoogte-breedteverhouding van het element dat wordt gebruikt. Deze logica zorgt ervoor dat het element perfect in de weergave past zonder opvulling aan de zijkanten. Dit gebruiksgeval is het gemeenschappelijkst voor Web-pagina&#39;s die ontvankelijke lay-outkaders zoals Bootstrap, Stichting, etc. gebruiken.
 
-Als de webpagina zowel de breedte als de hoogte voor de container van de viewer instelt `DIV`, vult de viewer dat gebied en volgt deze het formaat dat de webpagina biedt. U kunt de viewer bijvoorbeeld insluiten in een modale overlay, waarbij de grootte van de overlay afhankelijk is van de venstergrootte van de webbrowser.
+Als de webpagina zowel de breedte als de hoogte voor de container `DIV` van de viewer instelt, vult de viewer dat gebied en volgt deze de grootte die de webpagina biedt. U kunt de viewer bijvoorbeeld insluiten in een modale overlay, waarbij de grootte van de overlay afhankelijk is van de venstergrootte van de webbrowser.
 
-## Insluiten met vaste grootte {#section-44f365e6c0dd40709467a459afa82a7f}
+## Insluiten van vaste grootte {#section-44f365e6c0dd40709467a459afa82a7f}
 
 U voegt de viewer als volgt toe aan een webpagina:
 
@@ -132,11 +132,11 @@ U voegt de viewer als volgt toe aan een webpagina:
 
 1. Het JavaScript-bestand van de viewer toevoegen aan uw webpagina.
 
-   Voor het maken van een viewer moet u een scripttag aan de HTML-kop toevoegen. Zorg ervoor dat u de viewer-API opneemt voordat u deze kunt gebruiken [!DNL ZoomViewer.js]. Het [!DNL ZoomViewer.js] bestand bevindt zich in de [!DNL html5/js/] submap van uw standaard IS-Viewers-implementatie:
+   Voor het maken van een viewer moet u een scripttag aan de HTML-kop toevoegen. Voordat u de viewer-API kunt gebruiken, moet u [!DNL ZoomViewer.js] opnemen. Het [!DNL ZoomViewer.js]-bestand bevindt zich in de submap [!DNL html5/js/] van uw standaard IS-Viewers-implementatie:
 
 [!DNL <s7viewers_root>/html5/js/ZoomViewer.js]
 
-U kunt een relatief pad gebruiken als de viewer wordt geïmplementeerd op een van de Adobe Dynamic Media Classic-servers en vanuit hetzelfde domein wordt aangeboden. Anders geeft u een volledig pad op naar een van de Adobe Dynamic Media Classic-servers waarop de IS-Viewers zijn geïnstalleerd.
+U kunt een relatief pad gebruiken als de viewer wordt geïmplementeerd op een van de Klassieke Adobe Dynamic Media-servers en vanuit hetzelfde domein wordt aangeboden. Anders geeft u een volledig pad op naar een van de Adobe Dynamic Media Classic-servers waarop de IS-Viewers zijn geïnstalleerd.
 
 Het relatieve pad ziet er als volgt uit:
 
@@ -146,16 +146,16 @@ Het relatieve pad ziet er als volgt uit:
 
 >[!NOTE]
 >
->U moet alleen verwijzen naar het JavaScript- `include` hoofdviewerbestand op uw pagina. U moet niet verwijzen naar extra JavaScript-bestanden in de webpaginacode die door de logica van de viewer in runtime kunnen worden gedownload. Verwijs met name niet rechtstreeks naar de HTML5 SDK- `Utils.js` bibliotheek die door de viewer is geladen vanuit het `/s7viewers` contextpad (de zogenaamde geconsolideerde SDK `include`). De reden hiervoor is dat de locatie van `Utils.js` of vergelijkbare runtimeviewerbibliotheken volledig wordt beheerd door de logica van de viewer en dat de locatie verandert tussen de viewerreleases. Adobe houdt oudere versies van de secundaire viewer niet `includes` op de server.
+>Verwijs alleen naar het JavaScript-bestand `include` van de hoofdviewer op de pagina. U moet niet verwijzen naar extra JavaScript-bestanden in de webpaginacode die door de logica van de viewer in runtime kunnen worden gedownload. Verwijs met name niet rechtstreeks naar de HTML5 SDK `Utils.js`-bibliotheek die door de viewer is geladen vanaf het contextpad `/s7viewers` (de zogeheten geconsolideerde SDK `include`). De reden hiervoor is dat de locatie van `Utils.js` of vergelijkbare runtimeviewerbibliotheken volledig wordt beheerd door de logica van de viewer en dat de locatie verandert tussen de viewerreleases. Adobe houdt oudere versies van de secundaire viewer `includes` niet op de server.
 >
 >
->Als u dus een directe verwijzing naar een secundair JavaScript dat door de viewer op de pagina wordt `include` gebruikt, maakt u de viewerfunctionaliteit in de toekomst verbroken wanneer een nieuwe productversie wordt geïmplementeerd.
+>Als u dus een directe verwijzing naar een secundair JavaScript `include` op de pagina plaatst, wordt de viewerfunctionaliteit in de toekomst verbroken wanneer een nieuwe productversie wordt geïmplementeerd.
 
 1. De container DIV definiëren.
 
    Voeg een leeg DIV-element toe aan de pagina waarop u de viewer wilt weergeven. Voor het DIV-element moet de id zijn gedefinieerd, omdat deze id later wordt doorgegeven aan de viewer-API.
 
-   De plaatsaanduiding DIV is een gepositioneerd element, wat betekent dat de `position` CSS-eigenschap is ingesteld op `relative` of `absolute`.
+   De plaatsaanduiding DIV is een gepositioneerd element, wat betekent dat de CSS-eigenschap `position` is ingesteld op `relative` of `absolute`.
 
    Hieronder ziet u een voorbeeld van een gedefinieerd plaatsaanduiding DIV-element:
 
@@ -165,11 +165,11 @@ Het relatieve pad ziet er als volgt uit:
 
 1. De viewergrootte instellen.
 
-   In deze viewer worden miniaturen weergegeven wanneer u werkt met sets met meerdere items. Op desktopsystemen worden miniaturen onder de hoofdweergave geplaatst. Tegelijkertijd kan de viewer het hoofdmiddel in runtime wisselen met behulp van de `setAsset()` API. Als ontwikkelaar hebt u controle over de manier waarop de viewer het miniatuurgebied onderaan beheert wanneer het nieuwe element slechts één item bevat. Het is mogelijk om de grootte van de buitenste viewer ongewijzigd te laten en de hoofdweergave de hoogte te laten verhogen en het gebied met miniaturen te laten beslaan. U kunt ook de grootte van de hoofdweergave statisch houden en het buitenste viewergebied samenvouwen, de inhoud van de webpagina omhoog laten verplaatsen en de ruimte in de ruimte met vrije schermruimte uit de miniaturen gebruiken.
+   In deze viewer worden miniaturen weergegeven wanneer u werkt met sets met meerdere items. Op desktopsystemen worden miniaturen onder de hoofdweergave geplaatst. Tegelijkertijd kan de viewer het hoofdelement in runtime wisselen met de API `setAsset()`. Als ontwikkelaar hebt u controle over de manier waarop de viewer het miniatuurgebied onderaan beheert wanneer het nieuwe element slechts één item bevat. Het is mogelijk om de grootte van de buitenste viewer ongewijzigd te laten en de hoofdweergave de hoogte te laten verhogen en het gebied met miniaturen te laten beslaan. U kunt ook de grootte van de hoofdweergave statisch houden en het buitenste viewergebied samenvouwen, de inhoud van de webpagina omhoog laten verplaatsen en de ruimte in de ruimte met vrije schermruimte uit de miniaturen gebruiken.
 
-   Als u de buitenste grenzen van de viewer ongewijzigd wilt laten, definieert u de grootte van de CSS-klasse op het `.s7zoomviewer` hoogste niveau in absolute eenheden. De grootte in CSS kan op de HTML- pagina, of in een douaneCSS dossier van de kijker worden gezet, dat later aan een kijker vooraf ingesteld verslag in het Publiceren Scene7 Systeem wordt toegewezen of uitdrukkelijk gebruikend een stijlbevel wordt overgegaan.
+   Als u de buitenste grenzen van de viewer ongewijzigd wilt laten, definieert u de grootte voor de CSS-klasse op hoofdniveau in absolute eenheden. `.s7zoomviewer` Grootte in CSS kan rechts worden geplaatst op de HTML-pagina of in een aangepast CSS-bestand van de viewer, dat later wordt toegewezen aan een viewer-voorinstellingsrecord in Scene7 Publishing System of expliciet wordt doorgegeven met behulp van een stijlopdracht.
 
-   Zie [Zoomviewer](../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/c-html5-20-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) aanpassen voor meer informatie over het opmaken van de viewer met CSS.
+   Zie [Zoomviewer aanpassen](../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/c-html5-20-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) voor meer informatie over het opmaken van de viewer met CSS.
 
    Hieronder ziet u een voorbeeld van het definiëren van een statische buitenste viewergrootte in HTML-pagina:
 
@@ -184,9 +184,9 @@ Het relatieve pad ziet er als volgt uit:
 
    [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/ZoomViewer-fixed-outer-area.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/ZoomViewer-fixed-outer-area.html)
 
-   Als u de afmetingen van de hoofdweergave statisch wilt maken, definieert u de viewergrootte in absolute eenheden voor de binnenste `Container` SDK-component met behulp van de `.s7zoomviewer` CSS-kiezer of met behulp van de `.s7container` `stagesize` optie.
+   Als u de afmetingen van de hoofdweergave statisch wilt maken, definieert u de viewergrootte in absolute eenheden voor de binnenste SDK-component met de CSS-kiezer `Container` `.s7zoomviewer` of met de optie `.s7container`.`stagesize`
 
-   Hieronder ziet u een voorbeeld van het definiëren van de viewergrootte voor de binnenste `Container` SDK-component, zodat de grootte van het hoofdweergavegebied niet verandert wanneer u van element verandert:
+   Hieronder ziet u een voorbeeld van het definiëren van de viewergrootte voor de binnenste SDK-component `Container`, zodat de grootte van het hoofdweergavegebied niet wordt gewijzigd wanneer u van element verandert:
 
    ```
    #s7viewer.s7zoomviewer .s7container { 
@@ -199,7 +199,7 @@ Het relatieve pad ziet er als volgt uit:
 
    [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/ZoomViewer-fixed-main-view.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/ZoomViewer-fixed-main-view.html)
 
-   U kunt de bepaling of in het vooraf ingestelde verslag van de kijker in het Publiceren Scene7 Systeem plaatsen, of u kunt het uitdrukkelijk met de de initialisatiecode van de kijker met de `stagesize` `params` inzameling of als API vraag overgaan zoals die in de sectie van de Verwijzing van het Bevel van deze Hulp wordt beschreven, zoals in het volgende:
+   U kunt de bepaling `stagesize` of in het vooraf ingestelde verslag van de kijker in het Publiceren van Scene7 Systeem plaatsen, of u kunt het uitdrukkelijk met de de initialisatiecode van de kijker met de `params` inzameling of als API vraag overgaan zoals die in de sectie van de Verwijzing van het Bevel van deze Hulp wordt beschreven, zoals in het volgende:
 
    ```
     zoomViewer.setParam("stagesize", 
@@ -210,15 +210,15 @@ Het relatieve pad ziet er als volgt uit:
 
 1. De viewer maken en initialiseren.
 
-   Wanneer u de bovenstaande stappen hebt uitgevoerd, maakt u een instantie van een `s7viewers.ZoomViewer` klasse, geeft u alle configuratiegegevens door aan de constructor en roept u `init()` de methode aan voor een viewerinstantie.
+   Wanneer u de bovenstaande stappen hebt uitgevoerd, maakt u een instantie van de klasse `s7viewers.ZoomViewer`, geeft u alle configuratiegegevens door aan de constructor en roept u `init()` methode aan voor een viewerinstantie.
 
-   De informatie van de configuratie wordt overgegaan tot de aannemer als voorwerp JSON. Dit object moet minimaal een `containerId` veld hebben met de naam van de viewercontainer-id en het geneste `params` JSON-object met configuratieparameters die de viewer ondersteunt. In dit geval moet voor het `params` object ten minste de URL van de afbeeldingsserver worden doorgegeven als `serverUrl` eigenschap en het eerste element als `asset` parameter. Met de op JSON gebaseerde initialisatie-API kunt u de viewer maken en starten met één coderegel.
+   De informatie van de configuratie wordt overgegaan tot de aannemer als voorwerp JSON. Dit object moet minstens `containerId` veld hebben met de naam van de viewercontainer-id en het geneste `params` JSON-object met configuratieparameters die de viewer ondersteunt. In dit geval moet voor het `params`-object ten minste de URL van de afbeeldingsserver worden doorgegeven als `serverUrl`-eigenschap en het eerste element als `asset`-parameter. Met de op JSON gebaseerde initialisatie-API kunt u de viewer maken en starten met één coderegel.
 
-   Het is belangrijk dat de viewercontainer aan het DOM wordt toegevoegd, zodat de viewercode het containerelement op basis van de id kan vinden. Sommige browsers stellen het samenstellen van DOM tot het einde van de webpagina uit. Roep voor maximale compatibiliteit de `init()` methode aan vlak voor de afsluitende `BODY` tag of voor de body- `onload()` gebeurtenis.
+   Het is belangrijk dat de viewercontainer aan het DOM wordt toegevoegd, zodat de viewercode het containerelement op basis van de id kan vinden. Sommige browsers stellen het samenstellen van DOM tot het einde van de webpagina uit. Voor maximale compatibiliteit roept u de methode `init()` aan vlak voor de afsluitingstag `BODY` of op de hoofdgebeurtenis `onload()`.
 
-   Tegelijkertijd mag het containerelement niet noodzakelijkerwijs deel uitmaken van de webpaginalay-out. Het kan bijvoorbeeld verborgen zijn met een `display:none` stijl die eraan is toegewezen. In dit geval vertraagt de viewer het initialisatieproces totdat de webpagina het containerelement weer in de layout plaatst. Wanneer dit gebeurt, wordt het laden van de viewer automatisch hervat.
+   Tegelijkertijd mag het containerelement niet noodzakelijkerwijs deel uitmaken van de webpaginalay-out. Het kan bijvoorbeeld worden verborgen met de stijl `display:none` die eraan is toegewezen. In dit geval vertraagt de viewer het initialisatieproces totdat de webpagina het containerelement weer in de layout plaatst. Wanneer dit gebeurt, wordt het laden van de viewer automatisch hervat.
 
-   Hieronder ziet u een voorbeeld van het maken van een viewer-instantie, het doorgeven van de minimaal benodigde configuratieopties aan de constructor en het aanroepen van de `init()` methode. In dit voorbeeld `zoomViewer` wordt ervan uitgegaan dat dit de viewerinstantie is, `s7viewer` de naam van plaatsaanduiding DIV is, de URL van de afbeeldingsserver `http://s7d1.scene7.com/is/image/` is en het element `Scene7SharedAssets/ImageSet-Views-Sample` is.
+   Hieronder ziet u een voorbeeld van het maken van een viewer-instantie, het doorgeven van de minimaal benodigde configuratieopties aan de constructor en het aanroepen van de methode `init()`. In dit voorbeeld wordt ervan uitgegaan dat `zoomViewer` de viewerinstantie is, dat `s7viewer` de naam van plaatsaanduiding DIV is, dat `http://s7d1.scene7.com/is/image/` de URL van de afbeeldingsserver is en dat `Scene7SharedAssets/ImageSet-Views-Sample` het element is.
 
    ```
    <script type="text/javascript"> 
@@ -263,7 +263,7 @@ Het relatieve pad ziet er als volgt uit:
 
 ## Responsief ontwerpinsluiting met onbeperkte hoogte {#section-b9ca11a7e7aa4f74ab43244cbca37ae0}
 
-Bij responsieve ontwerpinsluiting heeft de webpagina normaal gesproken een flexibele indeling die de runtimegrootte van de container van de viewer bepaalt `DIV`. In het volgende voorbeeld wordt ervan uitgegaan dat de webpagina de container van de viewer 40% van de venstergrootte van de webbrowser laat `DIV` afnemen, waarbij de hoogte onbeperkt blijft. De HTML-code van de webpagina ziet er als volgt uit:
+Bij responsieve ontwerpinsluiting heeft de webpagina normaal gesproken een flexibele indeling die de runtimegrootte van de container van de viewer `DIV` bepaalt. In het volgende voorbeeld gaat u ervan uit dat de webpagina de container `DIV` van de viewer 40% van de venstergrootte van de webbrowser laat nemen, zodat de hoogte onbeperkt blijft. De HTML-code van de webpagina ziet er als volgt uit:
 
 ```
 <!DOCTYPE html> 
@@ -323,7 +323,7 @@ De volgende voorbeeldpagina illustreert het levensechte gebruik van responsieve 
 
 ## Flexibele insluiting op grootte met gedefinieerde breedte en hoogte {#section-3674e6c032594441a6576b7fb1de6e64}
 
-In het geval van insluiting van flexibele grootte met gedefinieerde breedte en hoogte, is de opmaak van de webpagina anders. Het verstrekt zowel grootte aan `"holder"` DIV als centrum het in het browser venster. Bovendien stelt de webpagina de grootte van het element `HTML` en het `BODY` element in op 100 procent.
+In het geval van insluiting van flexibele grootte met gedefinieerde breedte en hoogte, is de opmaak van de webpagina anders. Het verstrekt beide grootte aan `"holder"` DIV en centreert het in het browser venster. Bovendien stelt de webpagina de grootte van het element `HTML` en `BODY` in op 100 procent.
 
 ```
 <!DOCTYPE html> 
@@ -387,9 +387,9 @@ var zoomViewer = new s7viewers.ZoomViewer({
 </html> 
 ```
 
-## Insluiten met behulp van setter-API {#section-44e014925f24418b900696003855c0a9}
+## Insluiten met setter-API {#section-44e014925f24418b900696003855c0a9}
 
-In plaats van JSON-gebaseerde initialisatie, is het mogelijk om op setter-gebaseerde API en no-args aannemer te gebruiken. Wanneer u deze API-constructor gebruikt, worden er geen parameters gebruikt en worden configuratieparameters opgegeven met behulp van `setContainerId()`, `setParam()`en `setAsset()` API-methoden met aparte JavaScript-aanroepen.
+In plaats van JSON-gebaseerde initialisatie, is het mogelijk om op setter-gebaseerde API en no-args aannemer te gebruiken. Wanneer u deze API-constructor gebruikt, worden geen parameters gebruikt en worden configuratieparameters opgegeven met de API-methoden `setContainerId()`, `setParam()` en `setAsset()` met afzonderlijke JavaScript-aanroepen.
 
 In het volgende voorbeeld wordt het gebruik van insluiting op vaste grootte met een setter-API geïllustreerd:
 
