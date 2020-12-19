@@ -8,19 +8,22 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 89ec0f27-fc12-47c2-b9dd-e0ee768587b5
 translation-type: tm+mt
 source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+workflow-type: tm+mt
+source-wordcount: '146'
+ht-degree: 0%
 
 ---
 
 
 # header{#header}
 
-HTTP-responsheader-element. Optioneel in `<rule>` elementen.
+HTTP-responsheader-element. Optioneel in `<rule>`-elementen.
 
-## Attributen {#section-6e903ab4c64f4b1488b8ae74274f50a6}
+## Kenmerken {#section-6e903ab4c64f4b1488b8ae74274f50a6}
 
-**`Name`= &quot;*text*&quot;**: Vereist. Geeft de naam van de HTTP-header op.
+**`Name`= &quot;*tekst*&quot;** : Vereist. Geeft de naam van de HTTP-header op.
 
-**`Action`= &quot;set&quot;|`"add"`**: Optioneel. Standaard is dit`"set"`de vervanging van de huidige headerwaarde. Geef`"add"`op of u de koptekstwaarde wilt toevoegen, gescheiden door een komma.
+**`Action`= &quot;set&quot; |`"add"`**: Optioneel. De standaardwaarde is `"set"`, die de huidige headerwaarde vervangt. Geef `"add"` op om de koptekstwaarde toe te voegen, gescheiden met een komma.
 
 ## Gegevens {#section-a387f541396c49d99c29692a38032914}
 
@@ -43,6 +46,6 @@ De volgende regel past een aangepaste koptekst toe wanneer de koptekstwaarde in 
 </rule>
 ```
 
-Deze regel wordt geactiveerd door de volgende aanvraag, die de HTTP-antwoordheader instelt `Edge-Control::no-store`:
+Deze regel wordt teweeggebracht door het volgende verzoek, die de HTTP- reactiekop `Edge-Control::no-store` plaatsen:
 
 `http://server/is/image/cat/id?$Edge-Control=no-store`
