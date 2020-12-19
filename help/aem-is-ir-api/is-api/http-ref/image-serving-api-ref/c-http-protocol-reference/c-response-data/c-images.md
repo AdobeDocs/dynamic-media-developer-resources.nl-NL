@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 715154b6-f9ac-459e-a566-f78a4ca4580d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '139'
+ht-degree: 0%
 
 ---
 
@@ -16,8 +19,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 De gegevens van het beeld zijn teruggekeerd als een verzoek met succes voltooit, en als het verzoek of geen req= bevel omvat, of als req=img of req=tmb.
 
-Het MIME-type van de HTTP-respons wordt bepaald door `fmt=`, of als `fmt=` dit niet is opgegeven, wordt het bepaald `<image/jpeg>`.
+Het MIME-type van de HTTP-respons wordt bepaald door `fmt=`, of als `fmt=` niet is opgegeven, is het `<image/jpeg>`.
 
-De HTTP-antwoordstatus is &#39;200 OK&#39; als de aanvraagmethode onvoorwaardelijk `GET` of `HEAD`.
+De status van de HTTP-reactie is &#39;200 OK&#39; als de aanvraagmethode een onvoorwaardelijke `GET` of `HEAD` was.
 
-De server kan reageren met status &#39;304&#39; (niet gewijzigd) en geen afbeeldingsgegevens retourneren als reactie op een voorwaardelijk `GET` verzoek (dat een geldige `If-Modified-Since` of `If-None-Match` koptekst bevat).
+De server kan reageren met status &#39;304&#39; (niet gewijzigd) en geen afbeeldingsgegevens retourneren als reactie op een voorwaardelijk `GET` verzoek (dat een geldige `If-Modified-Since` of `If-None-Match` header bevat).
