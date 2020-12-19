@@ -1,6 +1,6 @@
 ---
-description: Retourneert de gebruikers van een bedrijf dat is opgegeven door een bedrijvengreep.
-seo-description: Retourneert de gebruikers van een bedrijf dat is opgegeven door een bedrijvengreep.
+description: Retourneert de gebruikers van een bedrijf dat is opgegeven door een greep van het bedrijf.
+seo-description: Retourneert de gebruikers van een bedrijf dat is opgegeven door een greep van het bedrijf.
 seo-title: getCompanyMember
 solution: Experience Manager
 title: getCompanyMember
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: 45e2d040-a70a-46f4-863a-633ddabcbcf6
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '101'
+ht-degree: 0%
 
 ---
 
 
-# getCompanyMember{#getcompanymembers}
+# getCompanymembers{#getcompanymembers}
 
-Retourneert de gebruikers van een bedrijf dat is opgegeven door een bedrijvengreep.
+Retourneert de gebruikers van een bedrijf dat is opgegeven door een greep van het bedrijf.
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-b2bc2fa0cc944cea8be82524838307cc}
+## Toegestane gebruikerstypen {#section-b2bc2fa0cc944cea8be82524838307cc}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
