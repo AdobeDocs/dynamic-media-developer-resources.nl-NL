@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e029173b-c004-4be8-b304-d6e2183314ad
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '120'
+ht-degree: 0%
 
 ---
 
@@ -19,15 +22,15 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_F71AA834FE494949A2D4B569EA5E721F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> none|faden </span> </p> </td> 
-   <td colname="col2"> <p> Geeft het effecttype aan dat wordt gebruikt om de besturingsbalk en de inhoud ervan weer te geven of te verbergen. Gebruik <span class="codeph"> niets </span> voor onmiddellijke show en huids; Met Vervagen <span class="codeph"> </span> wordt een geleidelijk in- en uitfade-effect geboden (niet ondersteund in Internet Explorer 8). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> none|faden  </span> </p> </td> 
+   <td colname="col2"> <p> Geeft het effecttype aan dat wordt gebruikt om de besturingsbalk en de inhoud ervan weer te geven of te verbergen. <span class="codeph"> geen </span> gebruiken voor onmiddellijke weergave en verbergen; <span class="codeph"> vervagen </span> biedt een geleidelijk in- en uitfade-effect (niet ondersteund in Internet Explorer 8). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide </span></span> </p> </td> 
-   <td colname="col2"> <p> Hiermee bepaalt u de tijd in seconden tussen de laatste muis-/aanraakgebeurtenis die door de besturingsbalk wordt geregistreerd en de tijdbalk. </p> <p> Indien ingesteld op <span class="codeph"> -1 </span> activeert de component nooit het effect Automatisch verbergen en blijft deze altijd zichtbaar op het scherm. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide  </span> </span> </p> </td> 
+   <td colname="col2"> <p> Hiermee bepaalt u de tijd in seconden tussen de laatste muis-/aanraakgebeurtenis die door de besturingsbalk wordt geregistreerd en de tijdbalk. </p> <p> Indien ingesteld op <span class="codeph"> -1 </span>, activeert de component nooit het automatisch verbergen-effect en blijft deze altijd zichtbaar op het scherm. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duur </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duur  </span> </span> </p> </td> 
    <td colname="col2"> <p> Hiermee stelt u de duur in seconden in van de animatie voor in- en uitfaden. </p> </td> 
   </tr> 
  </tbody> 
