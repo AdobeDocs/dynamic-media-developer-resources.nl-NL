@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 3e5699ce-3ccd-4f85-91dd-c40c252a758d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '126'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Drukkermarkeringen weergeven. Hiermee geeft u op hoe de drukkermarkeringen moeten worden weergegeven.
 
-` printerMark= *`verkleinde`*, *`markeringsaflooptekens`*, *`markeringsmarkering`*, *`voor`*, *`streepjesinformatie`*, *``*, *`voor`*, *`streepjesregistratie;stijllijnwegingslaagingesloten`*`
+` printerMark= *`verkleinde `*, *`markeringsaflooptekens `*, *`markeringsmarkering `*, *`voor `*, *`streepjesinformatie `*, *``*, *`voor `*, *`streepjesregistratie;stijllijnwegingslaagingesloten`*`
 
 De verschillende markeringen kunnen worden uit- of ingeschakeld. U kunt ook de stijl van de drukkermarkeringen bepalen.
 
