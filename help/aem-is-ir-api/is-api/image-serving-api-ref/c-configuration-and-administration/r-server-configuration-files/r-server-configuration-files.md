@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 02905b23-bbf3-4ae7-828d-915b22d8f167
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Alle configuratiebestanden bevinden zich in install_folder/conf en kunnen worden
 
 >[!NOTE]
 >
->De meeste serverconfiguratiebestanden bevatten aanvullende eigenschappen en waarden die niet in dit document worden beschreven. Dergelijke eigenschappen zijn voor intern servergebruik en moeten niet worden gewijzigd tenzij specifiek geïnstrueerd door de Technische Steun Scene7.
+>De meeste serverconfiguratiebestanden bevatten aanvullende eigenschappen en waarden die niet in dit document worden beschreven. Dergelijke eigenschappen zijn bedoeld voor intern servergebruik en mogen alleen worden gewijzigd als ze specifiek zijn geïnstrueerd door technische ondersteuning van Scene7.
 
 In dit document worden instellingen voor de volgende configuratiebestanden besproken:
 
@@ -40,7 +43,7 @@ In dit document worden instellingen voor de volgende configuratiebestanden bespr
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> PlatformServer.conf</span> </p> </td> 
-   <td> <p>Platformserverconfiguratie. </p> </td> 
+   <td> <p>Configuratie van Platform Server. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> catalog-service.conf</span> </p> </td> 
