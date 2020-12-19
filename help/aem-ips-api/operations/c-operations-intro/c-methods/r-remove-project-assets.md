@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: bae09dc3-4328-4264-8fb2-e4f0c53546eb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '189'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Hiermee verwijdert u elementen uit een project. De activa worden niet vernietigd
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-b0b333a1f3b648ac8cd6bb3d135d2c6f}
+## Toegestane gebruikerstypen {#section-b0b333a1f3b648ac8cd6bb3d135d2c6f}
 
 * `IpsUser`
 * `IpsCompanyAdmin`
