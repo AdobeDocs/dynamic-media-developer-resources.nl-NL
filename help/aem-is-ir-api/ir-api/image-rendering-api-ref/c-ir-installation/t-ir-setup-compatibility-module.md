@@ -8,21 +8,24 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 609a6ac9-1a4e-4cca-ab08-aa0f957b0e31
 translation-type: tm+mt
 source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
+workflow-type: tm+mt
+source-wordcount: '121'
+ht-degree: 0%
 
 ---
 
 
-# De opstelling en vormt IR 3.x verenigbaarheidsmodule{#setup-and-configure-ir-x-compatibility-module}
+# Instellen en configureren van IR 3.x-compatibiliteitsmodule{#setup-and-configure-ir-x-compatibility-module}
 
 U moet opstelling en de IRL 3.x verenigbaarheidsmodule vormen.
 
 1. Stop `<cmdname class="+ topic/keyword sw-d/cmdname ">  PlatformServer</cmdname>`.
 1. Schakel over naar de map ImageServer voor webapps.
-1. Kopieer de inhoud van de [!DNL ir] map naar de [!DNL ROOT] map.
-1. Openen [!DNL ROOT/WEB-INF/web.xml] in een teksteditor.
+1. Kopieer de inhoud van de map [!DNL ir] naar de map [!DNL ROOT].
+1. Open [!DNL ROOT/WEB-INF/web.xml] in een teksteditor.
 1. Zoeken naar de regel `<!-- Uncomment this to enable the Image Rendering 3.x protocol emulation. Only do this when you unpack ir.war in the ROOT webapp. -->`
-1. Verwijder de commentaarmarkering van de `<servlet>` tags en de `<servlet-mapping>` tags.
-1. Start opnieuw `<cmdname class="+ topic/keyword sw-d/cmdname ">  PlatformServer</cmdname>`.
+1. Verwijder de commentaarmarkeringen `<servlet>` en `<servlet-mapping>`.
+1. Start `<cmdname class="+ topic/keyword sw-d/cmdname ">  PlatformServer</cmdname>` opnieuw.
 
 **Linux-voorbeeld**
 
@@ -32,12 +35,12 @@ U moet opstelling en de IRL 3.x verenigbaarheidsmodule vormen.
 
 `cd WEB-INF`
 
-Vervolgens bewerkt u de opmerkingen van de tags [!DNL web.xml]en `<servlet>` de `<servlet-mapping>` tags met behulp van uw favoriete editor.
+Vervolgens bewerkt u [!DNL web.xml]met uw favoriete editor om de commentaarmarkeringen `<servlet>` en `<servlet-mapping>` te verwijderen.
 
 **Windows-voorbeeld**
 
-Open Verkenner en ga naar `C:\Program Files\Scene7\ImageServing\webapps\ir`.
+Open Explorer en ga naar `C:\Program Files\Scene7\ImageServing\webapps\ir`.
 
-Selecteer alle bestanden en mappen en kopieer deze naar binnen `C:\Program Files\Scene7\ImageServing\webapps\ROOT`.
+Selecteer alle bestanden en mappen en kopieer deze binnen `C:\Program Files\Scene7\ImageServing\webapps\ROOT`.
 
-Vervolgens bewerkt u het bestand `c:\Program Files\Scene7\ImageServing\webapps\ROOT\WEB-INF\web.xml`en verwijdert u de opmerkingen `<servlet>` en `<servlet-mapping>` tags.
+Vervolgens bewerkt u het bestand `c:\Program Files\Scene7\ImageServing\webapps\ROOT\WEB-INF\web.xml` en verwijdert u de commentaarmarkeringen `<servlet>` en `<servlet-mapping>`.
