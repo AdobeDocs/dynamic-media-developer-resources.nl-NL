@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 7af5e3d3-40c2-4f02-94e2-0314b698905d
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '194'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> infoserverurl</span></span> </p> </td> 
-   <td> <p>De serverURL malplaatje van Info wordt gebruikt om sleutel/waardeparen voor de veranderlijke vervanging in het infopaneelinhoudsmalplaatje te halen. De opgegeven sjabloon bevat doorgaans macroplaatsaanduidingen die worden vervangen door de werkelijke gegevens voordat het verzoek naar de server wordt verzonden. </p> <p><span class="codeph"> $1$</span> wordt vervangen door de het omvergooienwaarde die de activering <span class="codeph"> InfoPanelPopup</span> teweegbracht. </p> <p><span class="codeph"> $2$</span> wordt vervangen door het volgnummer van het huidige frame in de afbeeldingsset. </p> <p><span class="codeph"> $3$</span> wordt vervangen door het eerste wegelement dat in de naam van de ouderreeks van het huidige punt wordt gespecificeerd. Deze komt meestal overeen met de catalogus-id. </p> <p><span class="codeph"> $4$</span> wordt vervangen door het volgende element in het pad en komt overeen met de element-id. De eigenlijke aanvraagsyntaxis van de infoserver is afhankelijk van de infoserver en verschilt van server tot server. Bijvoorbeeld, is het volgende een typisch malplaatje van het de infoserver van Scene7 verzoek: </p> <p><span class="codeph"> http://server_domain/s7info/s7/$3$/$4$/$1$</span> </p> </td> 
+   <td> <p>De serverURL malplaatje van Info wordt gebruikt om sleutel/waardeparen voor de veranderlijke vervanging in het infopaneelinhoudsmalplaatje te halen. De opgegeven sjabloon bevat doorgaans macroplaatsaanduidingen die worden vervangen door de werkelijke gegevens voordat het verzoek naar de server wordt verzonden. </p> <p><span class="codeph"> $1$</span> is vervangen door de het omvergooienwaarde die  <span class="codeph"> </span> InfoPanelPopupactivation teweegbracht. </p> <p><span class="codeph"> $2$</span> wordt vervangen door het volgnummer van het huidige frame in de afbeeldingsset. </p> <p><span class="codeph"> $3$</span> is vervangen door het eerste wegelement dat in de naam van de ouderreeks van het huidige punt wordt gespecificeerd. Deze komt meestal overeen met de catalogus-id. </p> <p><span class="codeph"> $4$</span> is vervangen door het volgende element in de weg en beantwoordt aan activa identiteitskaart De eigenlijke aanvraagsyntaxis van de infoserver is afhankelijk van de infoserver en verschilt van server tot server. Hier volgt bijvoorbeeld een standaardaanvraagsjabloon voor een Scene7 info-server: </p> <p><span class="codeph"> http://server_domain/s7info/s7/$3$/$4$/$1$</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
