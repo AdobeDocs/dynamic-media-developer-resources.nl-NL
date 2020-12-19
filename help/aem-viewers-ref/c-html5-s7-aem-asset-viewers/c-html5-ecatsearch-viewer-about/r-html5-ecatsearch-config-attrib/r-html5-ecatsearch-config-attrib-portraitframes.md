@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: b915df14-62cf-4ff2-8336-dac4b3dd605f
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '48'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> splitsen|effen</span> </p> </td> 
-   <td colname="col2"> <p>Ingesteld op <span class="codeph"> splitsen</span> zodat de viewer spreads met twee pagina's als een afzonderlijke pagina kan weergeven als deze staand op een mobiel apparaat worden gebruikt. Ingesteld op <span class="codeph"> effen</span> om spreads met twee pagina's altijd als een effen afbeelding weer te geven, ongeacht de oriëntatie van het apparaat. </p> </td> 
+   <td colname="col2"> <p>Stel in op <span class="codeph"> split</span> om de viewer toe te staan spreads met twee pagina's als een afzonderlijke pagina weer te geven wanneer deze worden gebruikt op een mobiel apparaat met de oriëntatie Staand. Stel in op <span class="codeph"> effen</span> om spreads met twee pagina's altijd als effen afbeelding weer te geven, ongeacht de oriëntatie van het apparaat. </p> </td> 
   </tr> 
  </tbody> 
 </table>
