@@ -19,4 +19,4 @@ ht-degree: 0%
 
 Een lijst met paden, gescheiden door puntkomma&#39;s, fungeert als basis voor alle gegevensbestanden met relatieve bestandspaden.
 
-Dit kunnen absolute paden zijn of paden ten opzichte van *[!DNL install_folder]*. Wanneer meerdere paden zijn opgegeven, probeert de server elke hoofdmap in de gegeven volgorde uit tot het bestand is gevonden. Standaard is dit [!DNL ./resources]het geval bij een standaardhoofdpad van [!DNL install_folder/resources].
+Dit kunnen absolute paden of paden zijn ten opzichte van *[!DNL install_folder]*. Wanneer meerdere paden zijn opgegeven, probeert de server elke hoofdmap in de gegeven volgorde uit tot het bestand is gevonden. De standaardwaarde is [!DNL ./resources], voor een standaardwortelweg van [!DNL install_folder/resources].
