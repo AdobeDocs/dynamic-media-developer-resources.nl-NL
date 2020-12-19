@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 371dadbf-d58e-4214-8050-7e8907b436e3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Beleid voor validatie van servercache. Hiermee geeft u aan wanneer cachemaringangen op de server worden gevalideerd.
 
-Bij validatie op basis van vervaldatum worden bronafbeeldingen periodiek gecontroleerd of ze zijn gewijzigd. Bij validatie op basis van een catalogus worden bronafbeeldingen pas gecontroleerd nadat de `catalog::TimeStamp` waarde is gewijzigd.
+Bij validatie op basis van vervaldatum worden bronafbeeldingen periodiek gecontroleerd of ze zijn gewijzigd. Bij validatie op basis van een catalogus worden bronafbeeldingen alleen gecontroleerd nadat de waarde `catalog::TimeStamp` is gewijzigd.
 
 Validatie op basis van catalogi wordt aanbevolen bij gebruik van afbeeldingscatalogi. Validatie op basis van verlopen moet worden gebruikt wanneer rechtstreeks naar afbeeldingen wordt verwezen, zonder dat een afbeeldingscatalogus wordt gebruikt.
 
