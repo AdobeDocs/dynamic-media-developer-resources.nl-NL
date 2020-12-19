@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: ef69ea23-753c-40c8-9edd-eab9c8820c98
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '226'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ De pre-verwerkingsregels van het verzoek kunnen de weg en vraaggedeelten verzoek
 
 Voorverwerkingsregels voor aanvragen zijn geschikt voor diverse toepassingen, waarvan sommige hieronder worden vermeld:
 
-* Implementeer een *virtueel padmechanisme* waarmee het aanvraagpad opnieuw kan worden toegewezen aan bestands-, FTP- en HTTP-paden.
+* Implementeer een *virtueel paden* mechanisme, waarmee het aanvraagpad opnieuw kan worden toegewezen aan bestands-, FTP- en HTTP-paden.
 * Het gebruik van CPU-intensieve opdrachten wordt niet toegestaan om servermisbruik te voorkomen.
 * De kwaliteitsinstellingen voor afbeeldingen bepalen (zoals JPEG-kwaliteit of verscherpen), afhankelijk van het aanvraagpad of de naam van de afbeelding.
 
