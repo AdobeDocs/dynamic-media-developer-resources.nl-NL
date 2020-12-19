@@ -1,6 +1,6 @@
 ---
-description: De Viewer SDK bevat een set JavaScript-componenten voor de ontwikkeling van aangepaste viewers. De viewers zijn webtoepassingen waarmee rijke media-inhoud van Adobe Scene7 kan worden ingesloten in webpagina's.
-seo-description: De Viewer SDK bevat een set JavaScript-componenten voor de ontwikkeling van aangepaste viewers. De viewers zijn webtoepassingen waarmee rijke media-inhoud van Adobe Scene7 kan worden ingesloten in webpagina's.
+description: De Viewer SDK bevat een set JavaScript-componenten voor de ontwikkeling van aangepaste viewers. De viewers zijn webtoepassingen waarmee rijke media-inhoud die door Adobe Scene7 wordt aangeboden, kan worden ingesloten in webpagina's.
+seo-description: De Viewer SDK bevat een set JavaScript-componenten voor de ontwikkeling van aangepaste viewers. De viewers zijn webtoepassingen waarmee rijke media-inhoud die door Adobe Scene7 wordt aangeboden, kan worden ingesloten in webpagina's.
 seo-title: Zelfstudie voor viewer-SDK
 solution: Experience Manager
 title: Zelfstudie voor viewer-SDK
@@ -8,23 +8,26 @@ topic: Dynamic media
 uuid: ea331f05-0c58-4e6b-b5a1-d9b8372d8e94
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '999'
+ht-degree: 0%
 
 ---
 
 
-# Zelfstudie voor viewer-SDK{#viewer-sdk-tutorial}
+# Lesbestand voor viewer-SDK{#viewer-sdk-tutorial}
 
-De Viewer SDK bevat een set JavaScript-componenten voor de ontwikkeling van aangepaste viewers. De viewers zijn webtoepassingen waarmee rijke media-inhoud van Adobe Scene7 kan worden ingesloten in webpagina&#39;s.
+De Viewer SDK bevat een set JavaScript-componenten voor de ontwikkeling van aangepaste viewers. De viewers zijn webtoepassingen waarmee rijke media-inhoud die door Adobe Scene7 wordt aangeboden, kan worden ingesloten in webpagina&#39;s.
 
-De SDK biedt bijvoorbeeld interactief zoomen en pannen. Het verstrekt ook mening 360° en videoplayback van activa die aan Adobe Scene7 door de achterste toepassing genoemd SPS (het Publiceren Scene7 Systeem) werden geupload.
+De SDK biedt bijvoorbeeld interactief zoomen en pannen. Het biedt ook een weergave van 360° en het afspelen van video&#39;s van elementen die naar Adobe Scene7 zijn geüpload via de back-endtoepassing met de naam SPS (Scene7 Publishing System).
 
 Hoewel de componenten afhankelijk zijn van HTML5-functionaliteit, zijn ze ontworpen voor gebruik op Android- en Apple iOS-apparaten en desktops, waaronder Internet Explorer en hoger. Dit soort ervaring betekent dat u één workflow kunt bieden voor alle ondersteunde platforms.
 
-De SDK bestaat uit UI-componenten waaruit viewerinhoud bestaat. U kunt deze componenten opmaken via CSS en niet-UI-componenten die een ondersteunende rol hebben, zoals het ophalen en parseren of bijhouden van definities. Alle componentgedragingen zijn aanpasbaar via wijzigingstoetsen die u op verschillende manieren kunt opgeven, bijvoorbeeld als `name=value` paren in de URL.
+De SDK bestaat uit UI-componenten waaruit viewerinhoud bestaat. U kunt deze componenten opmaken via CSS en niet-UI-componenten die een ondersteunende rol hebben, zoals het ophalen en parseren of bijhouden van definities. Alle componentgedrag is aanpasbaar via wijzigingstoetsen die u op een aantal manieren kunt opgeven, bijvoorbeeld als `name=value` paren in de URL.
 
 Deze zelfstudie bevat de volgende taakvolgorde om u te helpen een standaardzoomviewer te maken:
 
-* [Download de nieuwste Viewer SDK via Adobe Developer Connection](c-tutorial.md#section-84dc74c9d8e24a2380b6cf8fc28d7127)
+* [Download de nieuwste Viewer SDK van Adobe Developer Connection](c-tutorial.md#section-84dc74c9d8e24a2380b6cf8fc28d7127)
 * [De SDK van de viewer laden](c-tutorial.md#section-98596c276faf4cf79ccf558a9f4432c6)
 * [Stijl toevoegen aan uw viewer](c-tutorial.md#section-3783125360a1425eae5a5a334867cc32)
 * [Inclusief container en ZoomView](c-tutorial.md#section-1a01730663154a508b88cc40c6f35539)
@@ -32,7 +35,7 @@ Deze zelfstudie bevat de volgende taakvolgorde om u te helpen een standaardzoomv
 * [Knoppen toevoegen aan uw viewer](c-tutorial.md#section-1fc334fa0d2b47eb9cdad461725c07be)
 * [De stalen verticaal configureren](c-tutorial.md#section-91a8829d5b5a4d45a35b7faeb097fcc9)
 
-## Download de nieuwste Viewer SDK via Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
+## Download de nieuwste viewer-SDK van Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
 
 1. Download de nieuwste Viewer SDK van Adobe Developer Connection [hier](https://marketing.adobe.com/developer/devcenter/scene7/show).
 
@@ -40,7 +43,7 @@ Deze zelfstudie bevat de volgende taakvolgorde om u te helpen een standaardzoomv
    >
    >U kunt deze zelfstudie voltooien zonder dat u het pakket met de Viewer SDK hoeft te downloaden omdat de SDK daadwerkelijk op afstand is geladen. Het Viewer-pakket bevat echter aanvullende voorbeelden en een API-naslaggids die u kunt gebruiken wanneer u uw eigen viewers maakt.
 
-## De SDK van de viewer laden {#section-98596c276faf4cf79ccf558a9f4432c6}
+## De SDK van de viewer {#section-98596c276faf4cf79ccf558a9f4432c6} laden
 
 1. Maak eerst een nieuwe pagina voor de ontwikkeling van de standaardzoomviewer die u gaat maken.
 
@@ -79,7 +82,7 @@ Deze zelfstudie bevat de volgende taakvolgorde om u te helpen een standaardzoomv
    </html>
    ```
 
-   Voeg de volgende JavaScript-code in de `script` tag toe om de `ParameterManager`tag te initialiseren. Dit helpt u zich voorbereiden om componenten van SDK binnen de `initViewer` functie tot stand te brengen en te concretiseren:
+   Voeg de volgende JavaScript-code toe in de `script`-tag om de `ParameterManager` te initialiseren. Dit helpt u zich voorbereiden om componenten van SDK binnen de `initViewer` functie tot stand te brengen en te concretiseren:
 
    ```
    /* We create a self-running anonymous function to encapsulate variable scope. Placing code inside such 
@@ -123,7 +126,7 @@ U voegt nu stijl toe aan uw viewer.
 
 1. Voor deze viewer voor volledige pagina&#39;s die u maakt, kunt u enkele basisstijlen toevoegen.
 
-   Voeg het volgende `style` blok aan de bodem van toe `head`:
+   Voeg het volgende `style` blok aan de bodem van `head` toe:
 
    ```
    <style> 
@@ -142,13 +145,13 @@ U voegt nu stijl toe aan uw viewer.
    </style>
    ```
 
-U neemt nu de componenten `Container` en `ZoomView`.
+U neemt nu de componenten `Container` en `ZoomView` op.
 
 ## Inclusief container en ZoomView {#section-1a01730663154a508b88cc40c6f35539}
 
-1. Maak een werkelijke viewer door de componenten `Container` en `ZoomView`.
+1. Maak een werkelijke viewer door de componenten `Container` en `ZoomView` op te nemen.
 
-   Voeg de volgende `include` instructies onder aan het `<head>` element in, nadat het [!DNL Utils.js] script is geladen:
+   Voeg de volgende `include` instructies toe onder aan het element `<head>`—nadat het script [!DNL Utils.js] is geladen:
 
    ```
    <!-- 
@@ -163,13 +166,13 @@ U neemt nu de componenten `Container` en `ZoomView`.
 
 1. Maak nu variabelen om te verwijzen naar de verschillende SDK-componenten.
 
-   Voeg de volgende variabelen aan de bovenkant van de belangrijkste anonieme functie, enkel hierboven toe `s7sdk.Util.init()`:
+   Voeg de volgende variabelen aan de bovenkant van de belangrijkste anonieme functie, enkel boven `s7sdk.Util.init()` toe:
 
    ```
    var container, zoomView;
    ```
 
-1. Voeg het volgende in de `initViewer` functie in om sommige modifiers te definiëren en de respectievelijke componenten te instantiëren:
+1. Voeg het volgende in de functie `initViewer` in om enkele modifiers te definiëren en de respectievelijke componenten te instantiëren:
 
    ```
    /* Modifiers can be added directly to ParameterManager instance */ 
@@ -190,7 +193,7 @@ U neemt nu de componenten `Container` en `ZoomView`.
    resizeViewer(container.getWidth(), container.getHeight());
    ```
 
-1. Voeg een `containerResize` gebeurtenishandler en een hulplijnfunctie toe voor een correcte uitvoering van de bovenstaande code:
+1. Voeg een gebeurtenishandler `containerResize` en een hulplijnfunctie toe voor een correcte uitvoering van de bovenstaande code:
 
    ```
    /* Event handler for s7sdk.event.ResizeEvent.COMPONENT_RESIZE events dispatched by Container to resize 
@@ -209,11 +212,11 @@ U neemt nu de componenten `Container` en `ZoomView`.
 
    ![](assets/viewer-1.jpg)
 
-U voegt nu de componenten `MediaSet` en `Swatches` aan uw viewer toe.
+U voegt nu de componenten `MediaSet` en `Swatches` aan uw kijker toe.
 
 ## Componenten MediaSet en Stalen toevoegen aan uw viewer {#section-02b8c21dd842400e83eae2a48ec265b7}
 
-1. Als u gebruikers de mogelijkheid wilt geven om afbeeldingen uit een set te selecteren, kunt u de componenten `MediaSet` en `Swatches`componenten toevoegen.
+1. Als u gebruikers de mogelijkheid wilt geven afbeeldingen uit een set te selecteren, kunt u de componenten `MediaSet` en `Swatches` toevoegen.
 
    Voeg de volgende SDK toe:
 
@@ -228,9 +231,9 @@ U voegt nu de componenten `MediaSet` en `Swatches` aan uw viewer toe.
    var mediaSet, container, zoomView, swatches;
    ```
 
-1. Instantiëren `MediaSet` en `Swatches` componenten binnen de `initViewer` functie.
+1. Instantiëren van `MediaSet`- en `Swatches`-componenten binnen de functie `initViewer`.
 
-   Instantieer de `Swatches` instantie na de `ZoomView` en `Container` componenten, anders verbergt de stapelvolgorde het `Swatches`:
+   Instantieer de `Swatches`-instantie na de componenten `ZoomView` en `Container`, anders verbergt de stapelvolgorde `Swatches`:
 
    ```
    // Create MediaSet to manage assets and add event listener to the NOTF_SET_PARSED event 
@@ -266,7 +269,7 @@ U voegt nu de componenten `MediaSet` en `Swatches` aan uw viewer toe.
    }
    ```
 
-1. Plaats de stalen onder aan de viewer door de volgende CSS aan het `style` element toe te voegen:
+1. Plaats de stalen onder aan de viewer door de volgende CSS toe te voegen aan het element `style`:
 
    ```
    /* Align swatches to bottom of viewer */ 
@@ -280,7 +283,7 @@ U voegt nu de componenten `MediaSet` en `Swatches` aan uw viewer toe.
 
 1. Geef een voorvertoning van uw viewer weer.
 
-   De stalen bevinden zich linksonder in de viewer. Als u wilt dat de stalen de volledige viewerbreedte beslaan, voegt u een aanroep toe om de stalen handmatig te vergroten of te verkleinen wanneer de gebruiker de grootte van de browser wijzigt. Voeg het volgende toe aan de `resizeViewer` functie:
+   De stalen bevinden zich linksonder in de viewer. Als u wilt dat de stalen de volledige viewerbreedte beslaan, voegt u een aanroep toe om de stalen handmatig te vergroten of te verkleinen wanneer de gebruiker de grootte van de browser wijzigt. Voeg het volgende toe aan de functie `resizeViewer`:
 
    ```
    swatches.resize(width, swatches.getHeight());
@@ -308,9 +311,9 @@ U voegt nu knoppen voor inzoomen, uitzoomen en het opnieuw instellen van zoomen 
    var mediaSet, container, zoomView, swatches, zoomInButton, zoomOutButton, zoomResetButton;
    ```
 
-1. Instantiëren van knoppen onder aan `initViewer` functie.
+1. Instantiëren van knoppen onder aan de functie `initViewer`.
 
-   Onthoud dat de volgorde van belang is, tenzij u de volgorde opgeeft `z-index` in CSS:
+   Onthoud dat de volgorde van belang is, tenzij u `z-index` opgeeft in CSS:
 
    ```
    /* Create Zoom In, Zoom Out and Zoom Reset buttons */ 
@@ -324,7 +327,7 @@ U voegt nu knoppen voor inzoomen, uitzoomen en het opnieuw instellen van zoomen 
    zoomResetButton.addEventListener("click", function() { zoomView.zoomReset(); });
    ```
 
-1. Definieer nu enkele basisstijlen voor de knoppen door het volgende toe te voegen aan het `style` blok boven aan het bestand:
+1. Definieer nu enkele basisstijlen voor de knoppen door het volgende toe te voegen aan het `style`-blok boven aan het bestand:
 
    ```
    /* define styles common to all button components and their sub-classes */ 
@@ -356,23 +359,23 @@ U voegt nu knoppen voor inzoomen, uitzoomen en het opnieuw instellen van zoomen 
 
    U configureert de stalen nu zodanig dat deze verticaal aan de rechterkant worden uitgelijnd.
 
-## De stalen verticaal configureren {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
+## De stalen verticaal {#section-91a8829d5b5a4d45a35b7faeb097fcc9} configureren
 
-1. U kunt modifiers direct op de `ParameterManager` instantie vormen.
+1. U kunt modifiers op de `ParameterManager` instantie direct vormen.
 
-   Voeg het volgende aan de bovenkant van de `initViewer` functie toe om de `Swatches` duimlay-out als één enkele rij te vormen:
+   Voeg het volgende toe boven aan de functie `initViewer` om de `Swatches` duimlay-out als één enkele rij te vormen:
 
    ```
    params.push("Swatches.tmblayout", "1,0");
    ```
 
-1. Werk volgende resize vraag binnen bij `resizeViewer`:
+1. Werk volgende resize vraag binnen `resizeViewer` bij:
 
    ```
    swatches.resize(swatches.getWidth(), height);
    ```
 
-1. Bewerk de volgende `s7swatches` regel in `ZoomViewer.css`:
+1. Bewerk de volgende `s7swatches`-regel in `ZoomViewer.css`:
 
    ```
    .s7swatches { 
@@ -389,5 +392,5 @@ U voegt nu knoppen voor inzoomen, uitzoomen en het opnieuw instellen van zoomen 
 
    Uw standaardzoomviewer is nu voltooid.
 
-   Deze viewerzelfstudie raakt de grondbeginselen van wat de Scene7 Viewer SDK biedt. Terwijl u met de SDK werkt, kunt u de verschillende standaardcomponenten gebruiken om eenvoudig rijke kijkervaringen voor uw doelpubliek te maken en te stijlaliseren.
+   Deze viewerzelfstudie behandelt de grondbeginselen van wat de Scene7 Viewer SDK biedt. Terwijl u met de SDK werkt, kunt u de verschillende standaardcomponenten gebruiken om eenvoudig rijke kijkervaringen voor uw doelpubliek te maken en te stijlaliseren.
 
