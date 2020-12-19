@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 1486d646-f42a-4ed4-9450-313950969c39
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '198'
+ht-degree: 0%
 
 ---
 
@@ -30,9 +33,9 @@ Hiermee maskeert u de achtergrond voor geselecteerde afbeeldingen (neemt u af). 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> hoek</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> hoek</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
-   <td colname="col3">Hiermee selecteert u de hoek waarmee u wilt werken. <span class="codeph"> corner</span> accepteert de volgende waarden: 
+   <td colname="col3">Hiermee selecteert u de hoek waarmee u wilt werken. <span class="codeph"> Deze waarden worden </span> geaccepteerd: 
     <ul id="ul_36C2F07706764A7081010D5521BF3096">
      <li id="li_CBACE5C6AA8C48D3BEE033D3AE03AF3C"><span class="codeph"> BovenkantLinks</span></li>
      <li id="li_49AC53536B4B4D2CA3DD89E2A2B2E95D"><span class="codeph"> BottomLeft</span></li>
@@ -41,7 +44,7 @@ Hiermee maskeert u de achtergrond voor geselecteerde afbeeldingen (neemt u af). 
     </ul></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> tolerantie</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> tolerantie</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dubbel</span> </td> 
    <td colname="col3">Een optionele instelling die witruimte verwijdert van afbeeldingsranden op basis van transparantie. Accepteert een reeks waarden van 0,0 tot en met 1,0. Opgeven: 
     <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
@@ -50,9 +53,9 @@ Hiermee maskeert u de achtergrond voor geselecteerde afbeeldingen (neemt u af). 
     </ul></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fillMethod</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fillMethod</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
-   <td colname="col3"> <p>Pixeltransparantie bepalen op de locatie die wordt opgegeven door de variabele <span class="codeph"><span class="varname"> corner</span></span> . De <span class="codeph"> vulmethode</span> accepteert de volgende waarden: </p> 
+   <td colname="col3"> <p>Pixeltransparantie bepalen op de locatie die wordt aangegeven door de variabele <span class="codeph"><span class="varname"> corner</span></span>. De <span class="codeph"> fillMethod</span> keurt deze waarden goed: </p> 
     <ul id="ul_D95F3B613D344BB89487ED09D83F9217"> 
      <li id="li_3D7B7CA1B9094D16A98E0BA3D962E97F"> <span class="codeph"> FloodFill</span>: Hiermee worden alle pixels in de opgegeven hoek transparant gemaakt. </li> 
      <li id="li_F97343C3DA7644BCBD1748AD8F9DCE2E"> <span class="codeph"> MatchPixel</span>: Hiermee worden alle overeenkomende pixels transparant gemaakt, ongeacht de locatie. </li> 
@@ -78,7 +81,7 @@ Hiermee maskeert u de achtergrond voor geselecteerde afbeeldingen (neemt u af). 
 
 ## Gebruikt door {#section-28c43baafe85434a9ee9e303ed10569a}
 
-Het `KnockoutBackgroundOptions` type wordt gebruikt door:
+Het type `KnockoutBackgroundOptions` wordt gebruikt door:
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
