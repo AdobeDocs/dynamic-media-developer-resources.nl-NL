@@ -8,15 +8,18 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: a1994598-9e51-4c56-9314-c01c9303c175
 translation-type: tm+mt
 source-git-commit: 4169757880407b62addd0a70ef1807d8b195820b
+workflow-type: tm+mt
+source-wordcount: '109'
+ht-degree: 0%
 
 ---
 
 
-# Kenmerken{#attributes-reference}
+# Kenmerkverwijzing{#attributes-reference}
 
 Alle cataloguskenmerken zijn optioneel, behalve catalogus::RootId.
 
-Alle kenmerken zijn vereist in het standaard cataloguskenmerkbestand ( [!DNL default.ini]).
+Alle kenmerken zijn vereist in het standaardbestand voor cataloguskenmerken ( [!DNL default.ini]).
 
 * [AllowDirectAccess](r-allowdirectaccess.md)
 * [AllowDirectUrls](r-allowdirecturls.md)
