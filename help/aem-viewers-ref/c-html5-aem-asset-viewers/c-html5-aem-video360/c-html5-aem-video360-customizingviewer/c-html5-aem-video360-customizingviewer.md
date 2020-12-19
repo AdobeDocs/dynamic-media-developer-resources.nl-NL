@@ -9,15 +9,18 @@ topic: Dynamic media
 uuid: 1f021a11-856e-4bbc-a2ee-454ab0a60adb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '1313'
+ht-degree: 0%
 
 ---
 
 
-# Video360 Viewer aanpassen{#customizing-video-viewer}
+# Video360 Viewer{#customizing-video-viewer} aanpassen
 
 Alle visuele aanpassingen en de meeste gedragsaanpassingen voor de Video360 Viewer worden uitgevoerd door een aangepaste CSS te maken.
 
-De voorgestelde workflow is om het standaard CSS-bestand voor de juiste viewer te gebruiken, het naar een andere locatie te kopiëren, het aan te passen en de locatie van het aangepaste bestand in de `style=` opdracht op te geven.
+De voorgestelde workflow is om het standaard CSS-bestand voor de juiste viewer te gebruiken, het naar een andere locatie te kopiëren, het aan te passen en de locatie van het aangepaste bestand op te geven in de opdracht `style=`.
 
 Standaard CSS-bestanden vindt u op de volgende locatie:
 
@@ -27,13 +30,13 @@ Het aangepaste CSS-bestand moet dezelfde klassedeclaraties bevatten als de stand
 
 Een andere manier om aangepaste CSS-regels te bieden, is door ingesloten stijlen rechtstreeks op de webpagina of in een van gekoppelde externe CSS-regels te gebruiken.
 
-Wanneer u aangepaste CSS maakt, moet u er rekening mee houden dat de viewer `.s7video360viewer` klasse toewijst aan het container DOM-element. Als u extern CSS-bestand gebruikt dat met `style=` de opdracht is doorgegeven, gebruikt u `.s7video360viewer` klasse als bovenliggende klasse in de onderliggende kiezer voor uw CSS-regels. Als u ingesloten stijlen op de webpagina uitvoert, kwalificeert u deze kiezer als volgt aanvullend met een id van het DOM-containerelement:
+Wanneer u aangepaste CSS maakt, moet u er rekening mee houden dat de viewer de klasse `.s7video360viewer` toewijst aan het DOM-containerelement. Als u extern CSS dossier gebruikt dat met `style=` bevel wordt overgegaan, gebruik `.s7video360viewer` klasse als ouderklasse in afstammende selecteur voor uw CSS regels. Als u ingesloten stijlen op de webpagina uitvoert, kwalificeert u deze kiezer als volgt aanvullend met een id van het DOM-containerelement:
 
 `#<containerId>.s7video360viewer`
 
-## Responsieve CSS maken {#section-0bb49aca42d242d9b01879d5ba59d33b}
+## Responsieve ontworpen CSS maken {#section-0bb49aca42d242d9b01879d5ba59d33b}
 
-Het is mogelijk om verschillende apparaten en insluitingsgrootten in CSS als doel in te stellen om uw inhoudsweergave te wijzigen, afhankelijk van het apparaat van de gebruiker of een bepaalde webpagina-indeling. Dit omvat onder andere, maar is niet beperkt tot, verschillende lay-outs, de grootte van gebruikersinterface-elementen en de resolutie van illustraties.
+Het is mogelijk om verschillende apparaten en insluitingsgrootten in CSS als doel in te stellen om uw inhoudsweergave te wijzigen, afhankelijk van het apparaat van de gebruiker of een bepaalde webpaginalay-out. Dit omvat onder andere, maar is niet beperkt tot, verschillende lay-outs, de grootte van gebruikersinterface-elementen en de resolutie van illustraties.
 
 De viewer ondersteunt twee mechanismen voor het maken van responsieve, ontworpen CSS: CSS-markeringen en standaard CSS-mediaquery&#39;s. U kunt deze onafhankelijk of samen gebruiken.
 
@@ -41,9 +44,9 @@ De viewer ondersteunt twee mechanismen voor het maken van responsieve, ontworpen
 
 Voor hulp bij het maken van responsieve, ontworpen CSS, ondersteunt de viewer CSS-markeringen. Dit zijn speciale CSS-klassen die dynamisch worden toegewezen aan het viewercontainerelement op het hoogste niveau op basis van de viewergrootte tijdens runtime en het invoertype dat op het huidige apparaat wordt gebruikt.
 
-De eerste groep CSS-markeringen bevat `.s7size_large`, `.s7size_medium`en `.s7size_small` klassen. Ze worden toegepast op basis van het runtimegebied van de viewercontainer. Als het viewergebied gelijk is aan of groter is dan het formaat van een algemene desktopmonitor, `.s7size_large` wordt dit gebruikt. Als het gebied dicht bij een gebruikelijke tabletapparaat ligt, `.s7size_medium` wordt het toegewezen. Voor gebieden die vergelijkbaar zijn met mobiele-telefoonschermen `.s7size_small` wordt deze instelling ingesteld. Het belangrijkste doel van deze CSS-markeringen is het maken van verschillende lay-outs voor de gebruikersinterface voor verschillende schermen en viewerformaten.
+De eerste groep CSS-markeertekens bevat de klassen `.s7size_large`, `.s7size_medium` en `.s7size_small`. Ze worden toegepast op basis van het runtimegebied van de viewercontainer. Als het viewergebied gelijk is aan of groter is dan het formaat van een algemene desktopmonitor, wordt `.s7size_large` gebruikt; Als het gebied dicht bij een gebruikelijke tabletapparaat ligt, wordt `.s7size_medium` toegewezen. Voor gebieden die vergelijkbaar zijn met mobiele-telefoonschermen wordt `.s7size_small` ingesteld. Het belangrijkste doel van deze CSS-markeringen is het maken van verschillende lay-outs voor de gebruikersinterface voor verschillende schermen en viewerformaten.
 
-De tweede groep CSS-markeertekens bevat `.s7mouseinput` en `.s7touchinput`. `.s7touchinput` wordt ingesteld als het huidige apparaat aanraakinvoermogelijkheden heeft; anders, `.s7mouseinput` wordt gebruikt. Deze markeringen zijn vooral bedoeld om invoerelementen in de gebruikersinterface te maken met verschillende schermgrootten voor verschillende invoertypen, omdat aanraakinvoer doorgaans grotere elementen vereist. Let op: als het apparaat zowel muisinvoer als aanraakmogelijkheden heeft, `.s7touchinput` wordt dit ingesteld en geeft de viewer een aanraakvriendelijke gebruikersinterface weer.
+De tweede groep CSS-markeertekens bevat `.s7mouseinput` en `.s7touchinput`. `.s7touchinput` wordt ingesteld als het huidige apparaat aanraakinvoermogelijkheden heeft; anders,  `.s7mouseinput` wordt gebruikt. Deze markeringen zijn vooral bedoeld om invoerelementen in de gebruikersinterface te maken met verschillende schermgrootten voor verschillende invoertypen, omdat aanraakinvoer doorgaans grotere elementen vereist. Als het apparaat zowel muisinvoer als aanraakmogelijkheden heeft, wordt `.s7touchinput` ingesteld en wordt een aanraakvriendelijke gebruikersinterface weergegeven.
 
 In het volgende voorbeeld-CSS wordt de grootte van de afspeel-/pauzeknop ingesteld op 28x28 pixels op systemen met muisinvoer en 56x56 pixels op aanraakapparaten. Bovendien wordt de knop volledig verborgen als de viewergrootte aanzienlijk wordt verkleind:
 
@@ -77,7 +80,7 @@ U kunt het CSS-bestand voor de standaardviewer gebruiken als voorbeeld van een C
 
 U kunt apparaatdetectie ook uitvoeren door alleen CSS-mediaquery&#39;s te gebruiken. Alles wat in een bepaald mediaqueryblok is ingesloten, wordt alleen toegepast wanneer dit op een overeenkomstig apparaat wordt uitgevoerd.
 
-Wanneer deze worden toegepast op mobiele HTML5-viewers, gebruiken deze vier CSS-mediaquery&#39;s, die in uw CSS zijn gedefinieerd, in de onderstaande volgorde:
+Wanneer toegepast op mobiele HTML5-viewers, gebruikt u vier CSS-mediaquery&#39;s, die in uw CSS zijn gedefinieerd, in de onderstaande volgorde:
 
 1. Bevat alleen regels die specifiek zijn voor alle aanraakapparaten.
 
@@ -203,19 +206,19 @@ background-position: -0px -1120px;
 }
 ```
 
-## Algemene opmaakopmerkingen en advies {#section-95855dccbbc444e79970f1aaa3260b7b}
+## Algemene opmaaknotities en advies {#section-95855dccbbc444e79970f1aaa3260b7b}
 
 * Alle paden naar externe elementen in CSS worden omgezet op de CSS-locatie, niet op de locatie van de HTML-pagina van de viewer. Houd rekening met deze regel wanneer u de standaard-CSS naar een andere locatie kopieert. Kopieer de standaardelementen of werk paden bij in de aangepaste CSS.
 * De voorkeursindeling voor bitmapillustraties is PNG.
-* Bitmapillustraties worden aan de elementen van de gebruikersinterface toegewezen met behulp van de `background-image` eigenschap.
-* De `width` en `height` eigenschappen van een gebruikersinterface-element definiëren de logische grootte ervan. De grootte van de doorgegeven bitmap heeft `background-image` geen invloed op de logische grootte.
+* Bitmapillustraties worden met de eigenschap `background-image` toegewezen aan elementen van de gebruikersinterface.
+* De `width` en `height` eigenschappen van een gebruikersinterface-element bepalen zijn logische grootte. De grootte van de bitmap die wordt doorgegeven aan `background-image` heeft geen invloed op de logische grootte.
 
-* Als u de hoge pixeldichtheid van schermen met hoge resolutie, zoals Retina, wilt gebruiken, geeft u bitmapillustraties twee keer zo groot op als de logische grootte van de gebruikersinterface-elementen. Pas vervolgens de `-webkit-background-size:contain` eigenschap toe om de achtergrond omlaag te schalen naar de logische grootte van het gebruikersinterface-element.
-* Als u een knop uit de gebruikersinterface wilt verwijderen, voegt u deze toe `display:none` aan de CSS-klasse.
-* U kunt verschillende indelingen gebruiken voor kleurwaarden die door CSS worden ondersteund. Gebruik de indeling als u transparantie nodig hebt `rgba(R,G,B,A)`. Anders kunt u de indeling gebruiken `#RRGGBB`.
+* Als u de hoge pixeldichtheid van schermen met hoge resolutie, zoals Retina, wilt gebruiken, geeft u bitmapillustraties twee keer zo groot op als de logische grootte van de gebruikersinterface-elementen. Pas vervolgens de eigenschap `-webkit-background-size:contain` toe om de achtergrond omlaag te schalen naar de logische grootte van het interface-element.
+* Als u een knop uit de gebruikersinterface wilt verwijderen, voegt u `display:none` toe aan de CSS-klasse.
+* U kunt verschillende indelingen gebruiken voor kleurwaarden die door CSS worden ondersteund. Als u transparantie nodig hebt, gebruikt u de notatie `rgba(R,G,B,A)`. Anders kunt u de notatie `#RRGGBB` gebruiken.
 
-* Wanneer u de gebruikersinterface van de viewer aanpast met CSS, wordt het gebruik van de `!IMPORTANT` regel niet ondersteund voor het opmaken van viewerelementen. De regel `!IMPORTANT` mag met name niet worden gebruikt om standaardstijlen of runtimestijlen die door de viewer of Viewer SDK worden geboden, te negeren. De reden hiervoor is dat het het gedrag van juiste componenten kan beïnvloeden. Gebruik in plaats daarvan CSS-kiezers met de juiste specificiteit om CSS-eigenschappen in te stellen die in deze naslaggids worden beschreven.
+* Wanneer u de gebruikersinterface van de viewer aanpast met CSS, wordt het gebruik van de regel `!IMPORTANT` niet ondersteund voor het opmaken van viewerelementen. Met name `!IMPORTANT`-regel mag niet worden gebruikt om standaardstijlen of runtimestijlen van de viewer of Viewer SDK te negeren. De reden hiervoor is dat het het gedrag van juiste componenten kan beïnvloeden. Gebruik in plaats daarvan CSS-kiezers met de juiste specificiteit om CSS-eigenschappen in te stellen die in deze naslaggids worden beschreven.
 
-## Algemene gebruikersinterface-elementen {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
+## Elementen van de gemeenschappelijke gebruikersinterface {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
 
 Hieronder vindt u de referentiedocumentatie voor gebruikersinterface-elementen die van toepassing is op Video360 Viewer:
