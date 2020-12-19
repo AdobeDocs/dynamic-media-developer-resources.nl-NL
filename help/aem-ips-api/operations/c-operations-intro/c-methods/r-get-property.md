@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 38ea08a6-c948-4a01-bc9a-d1609197224e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '143'
+ht-degree: 0%
 
 ---
 
@@ -23,11 +26,11 @@ Tot de ondersteunde systeemeigenschappen behoren:
 * `VideoRootUrl`
 * `swfRootUrl`
 * `SvgRenderRootUrl`: URL-voorvoegsel voor het renderen van SVG-elementen.
-* `SvgRenderEnabled`: True if SVG assets can be rendered by `SvgRenderRootUrl`.
+* `SvgRenderEnabled`: True if SVG assets can be rendered by  `SvgRenderRootUrl`.
 
-* `UploadPostMaxFileSize`: Maximale grootte (in bytes) van bestandsgegevens die is toegestaan tijdens het uploaden [!DNL POST]. Het systeem wijst bestanden af die groter zijn dan de maximale limiet.
+* `UploadPostMaxFileSize`: Maximale grootte (in bytes) van bestandsgegevens die is toegestaan tijdens het uploaden  [!DNL POST]. Het systeem wijst bestanden af die groter zijn dan de maximale limiet.
 
-## Geautoriseerde gebruikerstypen {#section-2cd36bbd46ed414b8753569d5895530e}
+## Toegestane gebruikerstypen {#section-2cd36bbd46ed414b8753569d5895530e}
 
 * `IpsUser`
 * `IpsAdmin`
