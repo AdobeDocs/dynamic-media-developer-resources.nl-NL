@@ -27,7 +27,7 @@ Compatibiliteitsnotities voor besturingssystemen, browsers en mobiele apparaten.
 
 ## Algemeen {#section-7b9a9fcba85148d1802b7b3016b48e02}
 
-* Schalen aan de browserzijde kan de interface en afbeeldingen vervagen als de gebruiker inzoomt op de pagina. UI-opmaak wordt mogelijk ook onjuist weergegeven, afhankelijk van zoomen. Dit gaat over op het volledige scherm.
+* Schalen aan de browserzijde kan de interface en afbeeldingen vervagen wanneer de gebruiker inzoomt op de pagina. UI-opmaak wordt mogelijk ook onjuist weergegeven, afhankelijk van zoomen. Dit gaat over op het volledige scherm.
 * Vanwege de groottebeperking op mobiele apparaten gebruikt de gemengde Media Viewer een diabeweging om frames in ingesloten afbeeldingssets te wisselen in plaats van te tikken op de ingesloten staalcomponent. De component is er als visuele indicator.
 * In Internet Explorer-browsers en sommige aanraakapparaten neemt de modus Volledig scherm niet het volledige apparaatscherm in beslag. In plaats daarvan wordt de grootte van de toepassing aangepast aan het browservenster.
 * De knop Sluiten werkt niet onder iOS 8.0 en iOS 8.1, maar onder iOS 8.2.
