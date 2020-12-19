@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 69f9e5f6-50c2-403d-93b2-b84a01f512a9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ Controleert of een gebruiker met een specifiek bedrijf (geïdentificeerd door gr
 >
 >Als het bedrijfshandvat wordt weggelaten, controleert deze methode login van de standaardgebruiker.
 
-## Geautoriseerde gebruikerstypen {#section-df8b26b550854f899948276adaca083a}
+## Toegestane gebruikerstypen {#section-df8b26b550854f899948276adaca083a}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -50,7 +53,7 @@ Controleert of een gebruiker met een specifiek bedrijf (geïdentificeerd door gr
 
 ## Voorbeelden {#section-23f90100a9d94bc7b4045634cccd1b98}
 
-Deze steekproefcode gebruikt een parameter van het bedrijfshandvat, e-mailadres, en een wachtwoord om te bepalen als een gebruiker aan IPS kan login. Als de gebruiker zich *kan* aanmelden, retourneert deze methode de tekenreeks `ValidLogin`. Als de gebruiker zich *niet kan* aanmelden, retourneert deze methode de tekenreeks `InvalidLogin`.
+Deze steekproefcode gebruikt een parameter van het bedrijfshandvat, e-mailadres, en een wachtwoord om te bepalen als een gebruiker aan IPS kan login. Als de gebruiker *can* login, deze methode het koord, `ValidLogin` terugkeert. Als de gebruiker *niet* login kan, keert deze methode het koord, `InvalidLogin` terug.
 
 **Verzoek**
 
