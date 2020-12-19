@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 4a484a3f-18b9-4fa7-bcbb-2dee947e9c2a
 translation-type: tm+mt
 source-git-commit: b58b25ff4b2f6258a010097eb0a254105b0d912e
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: b58b25ff4b2f6258a010097eb0a254105b0d912e
 
 Cursieve markering.
 
-Geeft aan of het lettertypebestand waarnaar wordt verwezen door deze lettertypekaartrecord moet worden gebruikt wanneer hierom wordt gevraagd door de RTF-opdracht italics ( `\i`).
+Geeft aan of het lettertypebestand waarnaar wordt verwezen door deze lettertypetoewijzingsrecord moet worden gebruikt op verzoek van de RTF-opdracht italics ( `\i`).
 
 ## Eigenschappen {#section-607e76490e87418496d1c6763018a14f}
 
