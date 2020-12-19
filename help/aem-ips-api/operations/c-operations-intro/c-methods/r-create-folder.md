@@ -21,11 +21,11 @@ Maakt een map.
 
 >[!NOTE]
 >
->De nieuwe map is ondergeschikt aan de map Images, zelfs als u een optie opgeeft `/` om de hoofdmap van het bedrijf aan te geven.
+>De nieuwe map is ondergeschikt aan de map Images, zelfs als u een `/` opgeeft om de hoofdmap van het bedrijf aan te geven.
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-14ef6368056b4e8f96198c20b6d93b9b}
+## Toegestane gebruikerstypen {#section-14ef6368056b4e8f96198c20b6d93b9b}
 
 * `IpsUser`
 * `IpsAdmin`
