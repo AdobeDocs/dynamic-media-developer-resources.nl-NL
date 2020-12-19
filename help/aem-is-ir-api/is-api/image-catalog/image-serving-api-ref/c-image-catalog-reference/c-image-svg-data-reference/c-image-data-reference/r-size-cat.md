@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 6fe2aeb6-0dd7-4631-955f-ad74d11b613d
 translation-type: tm+mt
 source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+workflow-type: tm+mt
+source-wordcount: '117'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ Als deze waarde is opgegeven, gebruikt Image Serving deze optie om te voorkomen 
 
 >[!NOTE]
 >
->Als deze optie `catalog::Size`is opgegeven en niet dezelfde is als de werkelijke afbeeldingsgrootte met volledige resolutie, kan ongedefinieerd gedrag optreden.
+>Als `catalog::Size`niet dezelfde is als de werkelijke afbeeldingsgrootte met volledige resolutie, kan ongedefinieerd gedrag optreden.
 
 ## Eigenschappen {#section-5c914ec8b1444a8e99d811b647cd42a3}
 
@@ -32,4 +35,4 @@ Als het veld niet aanwezig is of als het veld leeg is, wordt de werkelijke groot
 
 ## Zie ook {#section-e63797357d5a4119a10db1e6e088f6e9}
 
-[catalogus::Path](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md#reference-306afcaff172440ca81b85da8d78213c) , [res=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-res.md)
+[catalogus::Pad](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md#reference-306afcaff172440ca81b85da8d78213c) ,  [res=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-res.md)
