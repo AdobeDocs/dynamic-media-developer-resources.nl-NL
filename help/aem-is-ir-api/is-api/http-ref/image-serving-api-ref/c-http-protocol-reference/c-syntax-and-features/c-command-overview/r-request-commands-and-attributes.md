@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 5566bbcd-baf8-4003-b61d-df4e414df781
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '155'
+ht-degree: 0%
 
 ---
 
 
-# Aanvraagopdrachten{#request-commands}
+# Verzoek om opdrachten{#request-commands}
 
 Deze opdrachten zijn van toepassing, ongeacht de plaats in het verzoek waar ze staan.
 
@@ -39,11 +42,11 @@ Deze opdrachten zijn van toepassing, ongeacht de plaats in het verzoek waar ze s
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pathembed.md#reference-9ccf0771d6634cf68c1c9c33cd428301" type="reference" format="dita" scope="local"> pathEmbed</a> </p></td> 
-  <td class="stentry"> <p>Hiermee sluit u Photoshop-padgegevens in de antwoordafbeelding in. </p></td> 
+  <td class="stentry"> <p>Hiermee worden Photoshop-padgegevens ingesloten in de antwoordafbeelding. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-xmpembed.md#reference-46ecf40a40a0442fa62de3a85dcb03e8" type="reference" format="dita" scope="local"> xmpEmbed</a> </p></td> 
-  <td class="stentry"> <p>Hiermee worden XMP-metagegevens ingesloten in de antwoordafbeelding. </p></td> 
+  <td class="stentry"> <p>Hiermee worden XMP metagegevens ingesloten in de antwoordafbeelding. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-printres.md#reference-84f52afff4704c4b9d58e4bbbaea1491" type="reference" format="dita" scope="local"> printRes</a> </p> </td> 
