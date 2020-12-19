@@ -8,11 +8,14 @@ topic: Scene7 Image Production System API
 uuid: 5172190d-514f-4197-b8df-abb530d85d7a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '56'
+ht-degree: 0%
 
 ---
 
 
-# Tekenreeksconstanten: Nieuw en gewijzigd{#string-constants-new-and-modified}
+# Tekenreeksconstanten: Nieuw en Gewijzigd{#string-constants-new-and-modified}
 
 Beschrijft nieuwe en veranderde koordconstanten voor IPS API versie 3.7.
 
