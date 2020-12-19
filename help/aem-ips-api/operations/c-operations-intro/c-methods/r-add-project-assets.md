@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 48abea17-058e-4469-bb16-0abee8ef5214
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '187'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Hiermee voegt u een of meer elementen aan een project toe.
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-c67e7422921047f4ab4d4e9ba5a7aafe}
+## Toegestane gebruikerstypen {#section-c67e7422921047f4ab4d4e9ba5a7aafe}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -49,7 +52,7 @@ Syntaxis
 
 ## Voorbeelden {#section-bee5be2402f54cb9a3a02cc07def4135}
 
-In dit voorbeeld wordt één element (waarnaar wordt verwezen door de greep ervan) toegevoegd aan een element handle array aan een project dat in de aanvraag is opgegeven. De bewerking is voltooid wanneer de reactie `successCount` terugkeert `1`.
+In dit voorbeeld wordt één element (waarnaar wordt verwezen door de greep ervan) toegevoegd aan een element handle array aan een project dat in de aanvraag is opgegeven. De bewerking is voltooid wanneer de reactie `successCount` `1` retourneert.
 
 **Verzoek**
 
