@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: e0ad7da4-cb28-4402-8b47-a600916d23b3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Hiermee stelt u afbeeldingsspecifieke velden in voor een of meer afbeeldingselem
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-6b087bdcb7874c13acf76e113a093054}
+## Toegestane gebruikerstypen {#section-6b087bdcb7874c13acf76e113a093054}
 
 * `IpsUser`
 * `IpsAdmin`
