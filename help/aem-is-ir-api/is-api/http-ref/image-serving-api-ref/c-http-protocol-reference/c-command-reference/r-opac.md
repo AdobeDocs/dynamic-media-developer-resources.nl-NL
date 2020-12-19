@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 268279bd-d777-4afe-b175-841af7e55406
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '228'
+ht-degree: 0%
 
 ---
 
@@ -29,17 +32,17 @@ Pas de afbeeldingsdekking aan. Hiermee kunt u de voorgronddekking van een afbeel
  </tr> 
 </table>
 
-De voorgronddekking voor een afbeeldingslaag wordt bepaald door het laagmasker of het alfakanaal van de afbeelding, of als geen van beide aanwezig zijn, is de dekking 100%. De voorgronddekking van een tekstlaag is 100% en die van een effen kleurlaag wordt ingesteld door `color=`.
+De voorgronddekking voor een afbeeldingslaag wordt bepaald door het laagmasker of het alfakanaal van de afbeelding, of als geen van beide aanwezig zijn, is de dekking 100%. De voorgronddekking van een tekstlaag is 100% en die van een effen kleurlaag wordt ingesteld op `color=`.
 
-`opac=` wijzigt nooit de dekking van gebieden gevuld met `color=` of `bgColor=`, behalve de voorgrondgebieden van effen kleuren en effectlagen (ingesteld met `color=`).
+`opac=` Hiermee wijzigt u nooit de dekking van gebieden die zijn gevuld met  `color=` of  `bgColor=`, behalve de voorgrondgebieden van effen kleuren en effectlagen (ingesteld met  `color=`).
 
-Wanneer opgegeven in een afbeelding, tekst of een laag met een effen kleur, *`opacity`* wordt de gehele laag toegepast, inclusief alle bijbehorende effectlagen, terwijl alleen de inhoud van de primaire laag wordt *`fillOpacity`* toegepast. Wanneer opgegeven in een effectlaag, wordt deze toegepast *`opacity`* op de effectlaag, terwijl deze laag *`fillOpacity`* wordt genegeerd.
+Als *`opacity`* wordt opgegeven in een afbeelding, tekst of effen kleurlaag, wordt de gehele laag toegepast, inclusief alle bijbehorende effectlagen, terwijl *`fillOpacity`* alleen van toepassing is op de inhoud van de primaire laag. Wanneer opgegeven in een effectlaag, wordt *`opacity`* toegepast op de effectlaag, terwijl *`fillOpacity`* wordt genegeerd.
 
-De effectieve dekking voor de inhoud van de hoofdlaag is ( *`opacity`* * *`fillOpacity`* / 100). De effectieve dekking voor effectlagen is (hoofd *`opacity`* * effect *`opacity`* / 100).
+De effectieve dekking voor de inhoud van de hoofdlaag is ( *`opacity`* * *`fillOpacity`* / 100). De effectieve dekking voor effectlagen is (main *`opacity`* * effect *`opacity`* / 100).
 
 ## Eigenschappen {#section-ac3f136ff1584a2eab87500b7164f7fa}
 
-Laagkenmerk. Is van toepassing op de huidige laag of op de samengestelde afbeelding, indien van toepassing `layer=comp`.
+Laagkenmerk. Wordt toegepast op de huidige laag of op de samengestelde afbeelding als `layer=comp`.
 
 ## Standaard {#section-abba67ed028049048ae43405ea69b164}
 
@@ -53,4 +56,4 @@ De tekstdekking in dit voorbeeld is 90*70/100=63% en de dekking van de effectlaa
 
 ## Zie ook {#section-dbdad35ccd544590b4b11d31a9ab062e}
 
-[color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) , [bgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab)
+[color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) ,  [bgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab)
