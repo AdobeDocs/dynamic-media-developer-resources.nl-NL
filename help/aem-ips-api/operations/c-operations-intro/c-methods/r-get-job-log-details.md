@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: e4314348-2160-4775-a02f-b4892924f064
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '224'
+ht-degree: 0%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Haalt de details van een bedrijfsbaanlogboek op.
 
-Het `logMessage` reactieveld wordt gelokaliseerd op basis van het `authHeader``locale` veld.
+Het reactieveld `logMessage` is gelokaliseerd op basis van het veld `authHeader` `locale`.
 
-## Geautoriseerde gebruikerstypen {#section-6f720a7baad64eb3805868c88af9a960}
+## Toegestane gebruikerstypen {#section-6f720a7baad64eb3805868c88af9a960}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -44,49 +47,49 @@ Het `logMessage` reactieveld wordt gelokaliseerd op basis van het `authHeader``l
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> bedrijfshandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> De handgreep van het bedrijf waartoe het taaklogboek behoort. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> taakhandgreep</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4"> Een greep naar een actieve of voltooide taak. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4"> Oorspronkelijke naam van het taaklogboek. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> logTypeArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> logTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4"> Een of meer constanten voor logbestandstypen. Indien aanwezig, slechts zullen de gespecificeerde logboektypes worden teruggekeerd. Standaard worden alle logbestandstypen geretourneerd. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Nee </td> 
-   <td colname="col4">Maximumaantal <span class="codeph"> detailArray</span> -items dat moet worden geretourneerd. De maximum- en standaardwaarde is 1000. </td> 
+   <td colname="col4">Maximum aantal <span class="codeph"> detailArray</span> punten om terug te keren. De maximum- en standaardwaarde is 1000. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> resultPage</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Nee </td> 
-   <td colname="col4">Paginanummer van <span class="codeph"> recordsPerPage</span>-resultaten die moeten worden geretourneerd. De standaardwaarde is 1. </td> 
+   <td colname="col4">Paginanummer van <span class="codeph"> recordsPerPage</span>-results om te retourneren. De standaardwaarde is 1. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> Sorteren op</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4"> <p>Een van de constante waarden van het veld Soort taakdetail (Date of LogType). De standaardwaarde is Datum. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> sorteerrichting</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> sortDirection</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4"> <p>Een van de tekenreeksconstanten voor Sorteerrichting. De standaardwaarde is oplopend. </p> </td> 
