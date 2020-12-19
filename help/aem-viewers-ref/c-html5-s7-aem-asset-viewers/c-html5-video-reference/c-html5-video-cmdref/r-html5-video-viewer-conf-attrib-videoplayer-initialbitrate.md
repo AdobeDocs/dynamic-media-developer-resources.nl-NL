@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: b2dde5f4-0449-4cad-a1f2-e336027f92c6
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 0%
 
 ---
 
@@ -21,8 +24,8 @@ Configuration attribute for Video Viewer.
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> value </span> </p> </td> 
-   <td colname="col2"> <p>Stelt de videobitsnelheid in kbits per seconde of kbps in die wordt gebruikt voor de eerste weergave van video op desktops. </p> <p>Als deze bitsnelheidwaarde niet bestaat in de adaptieve videoset, start de videospeler de video met de eerstvolgende laagste bitsnelheid. </p> <p>Wanneer ingesteld op <span class="codeph"> 0, begint </span> de videospeler met de laagst mogelijke bitsnelheid. Alleen van toepassing op systemen die geen native ondersteuning bieden voor HTML5 HLS-video (Firefox-, Chrome- en Internet Explorer 11-browsers in Windows 10) en wanneer de afspeelmodus is ingesteld op <span class="codeph"> auto </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> value  </span> </p> </td> 
+   <td colname="col2"> <p>Stelt de videobitsnelheid in kbits per seconde of kbps in die wordt gebruikt voor de eerste weergave van video op desktops. </p> <p>Als deze bitsnelheidwaarde niet bestaat in de adaptieve videoset, start de videospeler de video met de eerstvolgende laagste bitsnelheid. </p> <p>Wanneer ingesteld op <span class="codeph"> 0 </span>, start de videospeler bij de laagst mogelijke bitsnelheid. Alleen van toepassing op systemen die geen native ondersteuning bieden voor HTML5 HLS-video (Firefox-, Chrome- en Internet Explorer 11-browsers in Windows 10) en wanneer de afspeelmodus is ingesteld op <span class="codeph"> auto </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
