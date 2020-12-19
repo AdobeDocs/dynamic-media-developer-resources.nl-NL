@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: d3eea508-fb1e-4147-b853-a16f51725dd7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '63'
+ht-degree: 3%
 
 ---
 
@@ -23,15 +26,15 @@ Hiermee geeft u een lijst op met insluitgrootten voor de combinatievak Grootte i
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> breedte </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> width  </span> </span> </p> </td> 
    <td colname="col2"> <p> Breedte insluiten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> hoogte </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> height  </span> </span> </p> </td> 
    <td colname="col2"> <p>Hoogte insluiten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
    <td colname="col2"> <p> Hiermee wordt opgegeven of dit lijstitem in eerste instantie moet worden geselecteerd in het keuzemenu met invoervak. </p> </td> 
   </tr> 
  </tbody> 
