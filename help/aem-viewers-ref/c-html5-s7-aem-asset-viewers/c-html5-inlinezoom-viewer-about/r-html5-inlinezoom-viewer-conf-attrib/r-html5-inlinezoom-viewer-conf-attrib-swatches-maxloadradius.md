@@ -1,18 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Stalen.maxloadradius
+seo-title: Swatches.maxloadradius
 solution: Experience Manager
-title: Stalen.maxloadradius
+title: Swatches.maxloadradius
 topic: Dynamic media
 uuid: 15d555bc-f9f7-4d0e-809e-7a51358e5c03
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '54'
+ht-degree: 1%
 
 ---
 
 
-# Stalen.maxloadradius{#swatches-maxloadradius}
+# Swatches.maxloadradius{#swatches-maxloadradius}
 
 ` [Swatches.|<containerId>_swatches.]maxloadradius=-1|0| *`voorlader`*`
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> -1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> Geeft het gedrag voor het vooraf laden van de component op. Wanneer ingesteld op <span class="codeph"> -1</span> , worden alle stalen tegelijkertijd geladen wanneer een component wordt geïnitialiseerd of een element wordt gewijzigd. Wanneer ingesteld op <span class="codeph"> 0</span> , worden alleen zichtbare stalen geladen. </p> <p><span class="codeph"> Met <span class="varname"> voorladen</span></span> bepaalt u hoeveel onzichtbare rijen/kolommen rondom het zichtbare gebied worden voorgeladen. </p> </td> 
+   <td colname="col2"> <p> Geeft het gedrag voor het vooraf laden van de component op. Wanneer ingesteld op <span class="codeph"> -1</span>, worden alle stalen tegelijk geladen wanneer een component wordt geïnitialiseerd of een element wordt gewijzigd. Wanneer ingesteld op <span class="codeph"> 0</span>, worden alleen zichtbare stalen geladen. </p> <p><span class="codeph"> <span class="varname"> Met </span></span> voorladen bepaalt u hoeveel onzichtbare rijen/kolommen rondom het zichtbare gebied worden voorgeladen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
