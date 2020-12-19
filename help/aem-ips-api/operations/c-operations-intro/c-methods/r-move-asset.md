@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: cabeb7b7-ab0b-44d0-ad90-623f76e4323d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '84'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Verplaatst middelen naar een specifieke omslag.
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-e4f2d2a58132450aa36da6377134211e}
+## Toegestane gebruikerstypen {#section-e4f2d2a58132450aa36da6377134211e}
 
 * `IpsUser`
 * `IpsAdmin`
