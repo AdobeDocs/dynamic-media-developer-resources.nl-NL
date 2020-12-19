@@ -21,7 +21,7 @@ Afbeeldingssetgegevens. Biedt een mechanisme voor het definiëren van gesorteerd
 
 Een afbeeldingsset bestaat uit een gesorteerde, door komma&#39;s gescheiden lijst met items, waarbij elk item bestaat uit een of meer subitems (afbeeldings-id&#39;s, stalen, paden voor mediabestanden, labels, enz.), gescheiden door puntkomma&#39;s en/of dubbele punten.
 
-U `{ }` kunt accolades `( )` en haakjes gebruiken om bepaalde inhoud (zoals kleurwaarden) te scheiden of om geneste sets aan te geven. Accolades of ronde haakjes die op deze manier worden gebruikt, mogen niet worden gecodeerd en moeten altijd als overeenkomende paren worden weergegeven. Als dit niet het geval is, treedt er een parseringsfout op.
+De accolades `{ }` en haakjes `( )` kunnen worden gebruikt om bepaalde inhoud (zoals kleurwaarden) te begrenzen of op geneste sets te wijzen. Accolades of ronde haakjes die op deze manier worden gebruikt, mogen niet worden gecodeerd en moeten altijd als overeenkomende paren worden weergegeven. Als dit niet het geval is, treedt er een parseringsfout op.
 
 >[!NOTE]
 >
@@ -39,11 +39,11 @@ U `{ }` kunt accolades `( )` en haakjes gebruiken om bepaalde inhoud (zoals kleu
 
 Raadpleeg de documentatie van de Image Serving Viewers voor meer informatie over de structuur en het gebruik van afbeeldingssets.
 
-De server retourneert de inhoud van dit veld zonder wijzigingen in reactie op een `req=imageset` aanvraag.
+De server retourneert de inhoud van dit veld zonder wijzigingen in reactie op een `req=imageset`-verzoek.
 
 ## Standaardsets {#section-5ecc8ffee7224668b63f601383665564}
 
-De volgende vastgestelde definities worden native ondersteund door Image Serving en toegang met bepaalde viewers omvat parseren, valideren en verwerken van de set op de server. Elk settype kan worden geïdentificeerd door de corresponderende waarde in op te geven `catalog::AssetType`.
+De volgende vastgestelde definities worden native ondersteund door Image Serving en toegang met bepaalde viewers omvat parseren, valideren en verwerken van de set op de server. Elk settype kan worden geïdentificeerd door de corresponderende waarde op te geven in `catalog::AssetType`.
 
 **Standaardstaalsets**
 
@@ -119,9 +119,9 @@ Een videoset bestaat uit een eenvoudige lijst met video-id&#39;s waarin elke id 
 
 ## Eigenschappen {#section-17c731e5c46646aa90ac21f39bb693ca}
 
-Tekstreeks. Lijst met door komma&#39;s gescheiden `catalog::Id` waarden, absolute bestandspaden van afbeeldingsserver of bestandspaden ten opzichte van `attribute::RootPath`. In de set kan meerdere keren naar dezelfde afbeelding worden verwezen. De definiërende catalogusrecord kan op elke gewenste locatie in de set worden weergegeven.
+Tekstreeks. Lijst met door komma&#39;s gescheiden waarden, absolute bestandspaden voor afbeeldingsserver of bestandspaden ten opzichte van `catalog::Id`. `attribute::RootPath` In de set kan meerdere keren naar dezelfde afbeelding worden verwezen. De definiërende catalogusrecord kan op elke gewenste locatie in de set worden weergegeven.
 
-Dit veld neemt deel aan de lokalisatie van tekstreeksen. Naast *`label`* tekenreeksen (onderdeel van het *`solidColorSpecifier`*) worden alle gescheiden velden gelokaliseerd als deze minstens één lokalisatietoken `^loc=…^`&#39; bevatten. Zie Tekstreeks lokaliseren [in de](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) HTTP-protocolreferentie ** voor meer informatie.
+Dit veld neemt deel aan de lokalisatie van tekstreeksen. Naast *`label`*-tekenreeksen (onderdeel van *`solidColorSpecifier`*) worden alle gescheiden velden gelokaliseerd als deze minstens één lokalisatietoken &#39; `^loc=…^`&#39; bevatten. Raadpleeg [Tekstreeks lokalisatie](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) in de *HTTP-protocolreferentie* voor meer informatie.
 
 ## Standaard {#section-c3a60e360393478284f0f2d2da5b963b}
 
@@ -129,4 +129,4 @@ Geen.
 
 ## Zie ook {#section-4c99c44f99074aa0a4ed90ba183bbc25}
 
-[req=imageset](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md) , [attribute::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md), [Object Id Translation](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md) , [Text String Localization](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) , Image Serving Viewers Documentation
+[req=imageset](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md) ,  [attribute::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md),  [Object Id Translation](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md) ,  [Text String Localization](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) , Image Serving Viewers Documentation
