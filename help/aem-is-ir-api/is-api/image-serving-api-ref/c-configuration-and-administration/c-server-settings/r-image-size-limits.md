@@ -27,9 +27,9 @@ Beperkt de grootte van gegevens de Server van het Beeld wordt toegestaan om naar
 
 Hiermee beperkt u de grootte van afbeeldingen die de afbeeldingsserver kan maken (met uitzondering van afbeeldingen die zijn opgeslagen in het bestand). Geheel getal groter dan 0 in miljoenen pixels. Er wordt een fout geretourneerd als een renderbewerking de maximale grootte zou overschrijden. De standaardwaarde is 16.
 
-## IS:MaxSavePixels - Limiet voor grootte voor opslaan naar bestanden {#section-d1547c4afa88467080ab08356f775e06}
+## IS::MaxSavePixels - Limiet voor grootte voor opslaan naar bestanden {#section-d1547c4afa88467080ab08356f775e06}
 
-Beperkt de grootte van beelden de Server van het Beeld aan dossiers met het `req=saveToFile` bevel zal schrijven. Geheel getal groter dan 0 in miljoenen pixels. Er wordt een fout geretourneerd als het bestand tijdens het opslaan deze limiet zou overschrijden. De standaardwaarde is 100 miljoen pixels.
+Beperkt de grootte van beelden de Server van het Beeld aan dossiers met `req=saveToFile` bevel zal schrijven. Geheel getal groter dan 0 in miljoenen pixels. Er wordt een fout geretourneerd als het bestand tijdens het opslaan deze limiet zou overschrijden. De standaardwaarde is 100 miljoen pixels.
 
 ## IS::MaxNonDsfSize - formaatlimiet voor niet-PTIFF-invoerafbeeldingen {#section-50de28a7158a436393cce5da0d1e4d46}
 
