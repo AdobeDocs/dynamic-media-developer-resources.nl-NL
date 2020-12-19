@@ -1,18 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Inhoudsopgave.draaiend
+seo-title: TableOfContents.bearing
 solution: Experience Manager
-title: Inhoudsopgave.draaiend
+title: TableOfContents.bearing
 topic: Dynamic media
 uuid: 791aaaa5-3777-4f68-a445-caa3d975d883
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '159'
+ht-degree: 0%
 
 ---
 
 
-# Inhoudsopgave.draaiend{#tableofcontents-bearing}
+# TableOfContents.bearing{#tableofcontents-bearing}
 
 ` [TableOfContents.|<containerId>_tableOfContents.]bearing=[fit-lateral|fit-vertical][, *`autoHideDelay`*]`
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> lateraal|verticaal passend</span> </p> </td> 
-   <td> <p> Hiermee bepaalt u de richting van de vormgeving van het vervolgkeuzepaneel. </p> <p>Wanneer ingesteld op <span class="codeph"> passend maken-verticaal</span>, verschuift de component eerst de positie van het basisdeelvenster naar de onderkant van de knop en wordt geprobeerd het deelvenster naar rechts of naar links uit te rollen vanaf de basislocatie. Bij elke poging controleert de component of het deelvenster is bijgesneden door een buitencontainer. Als alle pogingen mislukken, probeert de component om de positie van het basispaneel naar de bovenkant te verschuiven en rollopouten in de juiste en linkerrichting te herhalen. </p> <p>Wanneer ingesteld op <span class="codeph"> fit-lateraal</span>, gebruikt de component een gelijkaardige logica, maar verschuift de basis eerst naar rechts, waarbij naar beneden en naar boven richting uitrollen wordt geprobeerd. Vervolgens verschuift het de basis naar links en probeert het de richting omlaag en omhoog. </p> </td> 
+   <td> <p> Hiermee bepaalt u de richting van de vormgeving van het vervolgkeuzepaneel. </p> <p>Wanneer ingesteld op <span class="codeph"> fit-vertical</span>, verplaatst de component eerst de positie van het basispaneel naar de bodem van zijn knoop en probeert om het paneel of aan het recht of aan de linkerkant van de basisplaats uit te rollen. Bij elke poging controleert de component of het deelvenster is bijgesneden door een buitencontainer. Als alle pogingen mislukken, probeert de component om de positie van het basispaneel naar de bovenkant te verschuiven en rollopouten in de juiste en linkerrichting te herhalen. </p> <p>Wanneer ingesteld op <span class="codeph"> fit-lateraal</span>, gebruikt de component een gelijkaardige logica, maar verschuift de basis eerst naar rechts, waarbij de rolrichtingen omlaag en omhoog worden geprobeerd. Vervolgens verschuift het de basis naar links en probeert het de richting omlaag en omhoog. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> autoHideDelay</span></span> </p> </td> 
