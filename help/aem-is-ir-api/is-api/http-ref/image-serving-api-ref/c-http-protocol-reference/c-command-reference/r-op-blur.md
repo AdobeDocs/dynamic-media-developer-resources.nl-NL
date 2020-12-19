@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8405bbb5-fe09-412e-9b52-0af2c01f48b9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +32,7 @@ Afbeelding vervagen. Hiermee past u een vervagend filter toe op de afbeeldingsge
 
 ## Eigenschappen {#section-92573fe2c07746a7bab93a81fc3d208d}
 
-Laag, opdracht. Is van toepassing op de huidige laag of op de samengestelde afbeelding, indien van toepassing `layer=comp`.
+Laag, opdracht. Wordt toegepast op de huidige laag of op de samengestelde afbeelding als `layer=comp`.
 
 ## Standaard {#section-a976cb86620d489085a8fc9bae2626c0}
 
@@ -37,6 +40,6 @@ Laag, opdracht. Is van toepassing op de huidige laag of op de samengestelde afbe
 
 ## Voorbeeld {#section-1ebacde68388492eb108ae0fcd7424db}
 
-Vervaag de achtergrond van een afbeelding. Er wordt naar een aparte maskerafbeelding verwezen door `catalog::MaskPath`. Let op: dit `layer=0`moet expliciet worden opgegeven, anders `op_blur` wordt dit toegepast op de volledige samengestelde afbeelding.
+Vervaag de achtergrond van een afbeelding. Naar een afzonderlijke maskerafbeelding wordt verwezen door `catalog::MaskPath`. `layer=0`moet expliciet worden opgegeven, anders zou `op_blur` worden toegepast op de volledige samengestelde afbeelding.
 
 `http://server/myRootId/myImageId?wid=500&layer=0&maskUse=invert&op_blur=20&layer=1&src=myRootId/myImageId`
