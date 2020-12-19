@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: c4830fc5-d102-4789-8753-0a660d4a557e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '398'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +24,7 @@ Eindweergaverechthoek. Hiermee kunt u de uiteindelijke afbeelding van de weergav
 <table id="simpletable_69D112F85FA24EFCA727B398DC8ED699"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> coord</span> </p> </td> 
-  <td class="stentry"> <p>De pixelverschuiving van de linkerbovenhoek van de weergaveafbeelding naar de linkerbovenhoek van de weergaverechthoek (int, int), uitgedrukt in pixels, nadat de <span class="varname"> schaal</span> is toegepast. </p></td> 
+  <td class="stentry"> <p>De pixelverschuiving van de linkerbovenhoek van de weergaveafbeelding naar de linkerbovenhoek van de weergaverechthoek (int, int), uitgedrukt in pixels, nadat <span class="varname"> scale</span> is toegepast. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> size</span> </p></td> 
@@ -33,7 +36,7 @@ Eindweergaverechthoek. Hiermee kunt u de uiteindelijke afbeelding van de weergav
  </tr> 
 </table>
 
-Met deze opdracht kunnen via HTTP grote afbeeldingen worden geleverd die anders de groottelimiet zouden overschrijden die is geconfigureerd met `attribute::MaxPix`.
+Met deze opdracht kunnen via HTTP grote afbeeldingen worden geleverd die anders de maximale grootte overschrijden die is geconfigureerd met `attribute::MaxPix`.
 
 >[!NOTE]
 >
@@ -53,9 +56,9 @@ De tekstreactie bevat de volgende eigenschappen:
 
 `image.width=2000 image.height=2400 image.version=37JK6NTvpvC42F5gOuLEVY`
 
-Op basis van deze informatie kiezen we voor vier stroken van 600 x 2000 pixels. De `rect=` opdracht wordt gebruikt om de stripgrootten en -posities te beschrijven.
+Op basis van deze informatie kiezen we voor vier stroken van 600 x 2000 pixels. De opdracht `rect=` wordt gebruikt om de stripgrootten en -posities te beschrijven.
 
-Aangezien dit beeld vaak wordt veranderd, zullen wij het `id=` bevel omvatten om de kans te minimaliseren dat wij omhoog met één of meerdere stroken van een oudere versie van het beeld belanden die in een CDN of volmachtsserver in het voorgeheugen kunnen zijn opgeslagen. De waarde van de `image.version` eigenschap wordt hiervoor gebruikt.
+Aangezien deze afbeelding regelmatig wordt gewijzigd, gebruiken we de opdracht `id=` om de kans te minimaliseren dat we terechtkomen met een of meer stroken van een oudere versie van de afbeelding die mogelijk in de cache zijn geplaatst op een CDN- of proxyserver. De waarde van het `image.version` bezit wordt gebruikt voor dit doel.
 
 `http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,0,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,600,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,1200,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,1800,2000,600`
 
@@ -63,9 +66,9 @@ Aangezien dit beeld vaak wordt veranderd, zullen wij het `id=` bevel omvatten om
 
 Kenmerk weergeven. Is van toepassing ongeacht de huidige laaginstelling.
 
-Om het even welke gebieden van het ROI die zich buiten het meningsbeeld uitbreiden worden opgevuld met `bgc=`.
+Om het even welke gebieden van ROI die buiten het meningsbeeld uitbreiden worden opgevuld met `bgc=`.
 
-Belangrijk `rect=` wordt toegepast *na* het definitieve schalen en aanpassen met `scl=`, `wid=`, `hei=`, `fit=`, `rgn=`en `align=`.
+Belangrijk `rect=` wordt toegepast *na* definitieve schaling en aanpassing met `scl=`, `wid=`, `hei=`, `fit=`, `rgn=` en `align=`.
 
 ## Standaard {#section-b296d3bbfb19441f87137a452b70f19a}
 
@@ -73,4 +76,4 @@ Gehele, ongewijzigde weergaveafbeelding ( `rect=0,0,width,height,1.0`).
 
 ## Zie ook {#section-74015202c0c545ec82aec614d74b4bbd}
 
-[crop=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab) , [extend=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac), [wid=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47), [hei=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96), [scl=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-scl.md#reference-b2a74e493d0d407e98fe350551ba3fcc), [](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-align.md#reference-b7d6b87c75124d78884f916dd6544bc7)[](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md#reference-f11bff6d93d143d6b135de3a923bc989)[](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rgn.md#reference-daa9b80e0d8c4b1aa67d116b578d592f)[](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-maxpix.md#reference-e167d396ac794079ba8b5e6eb16eeda5)[align=, fit=,rgn=,attribute:MaxPix,id=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-id.md#reference-60661184deb3420998779724244fcfa0)
+[crop=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab) ,  [extend=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac),  [wid=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47),  [hei=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96),  [scl=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-scl.md#reference-b2a74e493d0d407e98fe350551ba3fcc),  [ ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-align.md#reference-b7d6b87c75124d78884f916dd6544bc7)  [ ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md#reference-f11bff6d93d143d6b135de3a923bc989)  [ ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rgn.md#reference-daa9b80e0d8c4b1aa67d116b578d592f)  [ ](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-maxpix.md#reference-e167d396ac794079ba8b5e6eb16eeda5)  [align=, fit=,rgn=,attribute:MaxPix,id=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-id.md#reference-60661184deb3420998779724244fcfa0)
