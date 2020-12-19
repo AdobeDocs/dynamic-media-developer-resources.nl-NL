@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 92103806-59da-444f-b69c-d045d0ebf42e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '155'
+ht-degree: 0%
 
 ---
 
@@ -16,10 +19,10 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Hiermee worden de activa en het aantal activa opgehaald die aan een bepaalde onderneming zijn gekoppeld.
 
-De `countArray` geretourneerde waarde bestaat uit een array van `assetTypes` (gegevenstype `xsd:string`), elk met een eigen telveld (gegevenstype `xsd:int`), waarmee meerdere elementtypen per element van de array kunnen worden vertegenwoordigd.
+De geretourneerde `countArray` bestaat uit een array van `assetTypes` (gegevenstype `xsd:string`), elk met een eigen telveld (gegevenstype `xsd:int`), waardoor meerdere elementtypen per element van de array kunnen worden weergegeven.
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-6234754722184e828352f10eb18fbce9}
+## Toegestane gebruikerstypen {#section-6234754722184e828352f10eb18fbce9}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -47,7 +50,7 @@ Syntaxis
 
 ## Voorbeelden {#section-6052a503eb3843f6adb99e200fdba280}
 
-Deze codesteekproef gebruikt het handvat van het bedrijf als gebied in de `getAssetCountsParam` verzonden naar de IPS de dienstenserver van het Web om de activa tellingen te krijgen.
+Deze codesteekproef gebruikt het handvat van het bedrijf als gebied in `getAssetCountsParam` die naar de IPS de dienstenserver van het Web wordt verzonden om de activa tellingen te krijgen.
 
 **Verzoek**
 
