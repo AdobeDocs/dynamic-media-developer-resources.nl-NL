@@ -21,15 +21,15 @@ JavaScript API-referentie voor Interactive Image Viewer
 
 `setHandlers(handlers)`
 
-Geeft nul of meer callback-handlers aan. Een vraag aan deze methode beschrijft volledig gebeurtenismanagers die eerder voor die kijkersinstantie werden toegewezen. Moet eerder worden opgeroepen `init()`.
+Geeft nul of meer callback-handlers aan. Een vraag aan deze methode beschrijft volledig gebeurtenismanagers die eerder voor die kijkersinstantie werden toegewezen. Moet worden aangeroepen vóór `init()`.
 
 ## Parameter {#section-b60f082cca1542748b605689b1d43f8a}
 
 <table id="table_98A620DAE2C340FA97BF7204AE023CC8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> handlers </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {Object} </span> JSON-object met callbacks voor viewergebeurtenissen. De eigenschapnaam is de naam van de ondersteunde viewergebeurtenis. De eigenschapswaarde is een JavaScript-functieverwijzing naar een geschikte callback. </p> <p>Zie <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local"> Gebeurteniscallbacks </a> voor meer informatie over viewergebeurtenissen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> handlers  </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {Object}  </span> JSON-object met callbacks voor viewergebeurtenissen. De eigenschapnaam is de naam van de ondersteunde viewergebeurtenis. De eigenschapswaarde is een JavaScript-functieverwijzing naar een geschikte callback. </p> <p>Zie <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local"> Gebeurteniscallbacks </a> voor meer informatie over viewergebeurtenissen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
