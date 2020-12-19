@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 0f5b11f0-af65-4abd-947e-7a28cb8de263
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '109'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ Dekking. Hiermee bepaalt u de dekking van het materiaal.
 
 <table id="simpletable_6AB8CD75F526469FBC9FEAE049792EF2"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> val </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> val  </span> </p> </td> 
   <td class="stentry"> <p>materiaaldekking (in procenten); 0...100 </p> </td> 
  </tr> 
 </table>
@@ -31,7 +34,7 @@ De volgende materiaal/objectcombinaties ondersteunen een variabele dekking:
 * Venster dat materialen bedekt die op venster dat kadervoorwerpen bedekt worden toegepast.
 * Decalen die zijn toegepast op tekstuele objecten of wandobjecten.
 
-Als het materiaal een afbeelding met een alfakanaal bevat, `opac=` kunt u de afbeelding transparanter maken, maar niet ondoorzichtiger.
+Als het materiaal een afbeelding met een alfakanaal bevat, kan `opac=` worden gebruikt om de afbeelding transparanter te maken, maar niet meer dekkend.
 
 ## Eigenschappen {#section-352f7b82ede54159b6afb90ae4b559ec}
 
