@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 7f442019-37a9-4473-be92-a952a7a67664
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '107'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Retourneert de publicatiecontext voor elementen die zijn gemarkeerd voor publica
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-d5362ca8a6ab42949cd648ba38dbf2f8}
+## Toegestane gebruikerstypen {#section-d5362ca8a6ab42949cd648ba38dbf2f8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,6 +37,7 @@ Syntaxis
 >
 >* De gebruiker moet lees toegang hebben om de activa terug te keren.
 >* Alle gebruikers hebben toegang tot het gedeelde bedrijf.
+
 >
 
 
