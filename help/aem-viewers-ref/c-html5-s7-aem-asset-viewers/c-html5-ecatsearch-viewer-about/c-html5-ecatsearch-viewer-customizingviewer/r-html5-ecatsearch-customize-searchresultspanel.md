@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 43d8e003-79f7-4e41-98d7-b362ab7180ea
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '952'
+ht-degree: 0%
 
 ---
 
@@ -35,11 +38,11 @@ Wanneer het deelvenster actief is, wordt de gebruikersinterface van de viewer be
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Kleur van de bedekking. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> dekking </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> dekking  </span> </p> </td> 
    <td colname="col2"> <p>Dekking van de kleur. </p> </td> 
   </tr> 
  </tbody> 
@@ -84,7 +87,7 @@ De bovenkant van het paneel van onderzoeksresultaten wordt gewijd aan het vakje 
 <table id="table_A1B96108542742DC8DCBCC9064F9E90B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
    <td colname="col2"> <p> Opvulling rond het invoervak. </p> </td> 
   </tr> 
  </tbody> 
@@ -101,23 +104,23 @@ Het veld voor zoekinvoer wordt bestuurd door de volgende CSS-klassenkiezer:
 <table id="table_9FB5E89847BF4C889DC22AD7E842C0F7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van invoerveld voor zoekopdracht. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen-links </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen-links  </span> </p> </td> 
    <td colname="col2"> <p> De binnenste opvulling tussen de grenzen van het invoerveld en de invoertekst. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
    <td colname="col2"> <p>Rand van het veld voor zoekinvoer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge  </span> </p> </td> 
    <td colname="col2"> <p>Marge van het veld voor zoekinvoer </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekengrootte </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekengrootte  </span> </p> </td> 
    <td colname="col2"> <p>Grootte van het tekstlettertype. </p> </td> 
   </tr> 
  </tbody> 
@@ -144,27 +147,27 @@ De zoekknop links van het invoerveld voor zoekopdrachten in de vorm van het stan
 <table id="table_CDD818B40BB1416CB47B7C52F799DE0C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Breedte van de knop voor zoekinvoer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van de knop voor zoekinvoer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
    <td colname="col2"> <p>De URL naar de pictogramafbeelding van het "kijkglas". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-size  </span> </p> </td> 
    <td colname="col2"> <p>De grootte van het "kijkglazen"-pictogram. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
    <td colname="col2"> <p>Rand van de knop voor zoekinvoer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge  </span> </p> </td> 
    <td colname="col2"> <p>Marge van de knop voor zoekinvoer. </p> </td> 
   </tr> 
  </tbody> 
@@ -194,19 +197,19 @@ Het deelvenster met zoekresultaten kan een tekstprompt weergeven wanneer de func
 <table id="table_1DF5A12A21584FCC8C25F170078FEFE6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> kleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kleur  </span> </p> </td> 
    <td colname="col2"> <p> Kleur van tekst. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Naam van tekstlettertype. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-align  </span> </p> </td> 
    <td colname="col2"> <p>Horizontale tekstuitlijning. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekengrootte </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekengrootte  </span> </p> </td> 
    <td colname="col2"> <p>Grootte van lettertypetekst. </p> </td> 
   </tr> 
  </tbody> 
@@ -214,7 +217,7 @@ Het deelvenster met zoekresultaten kan een tekstprompt weergeven wanneer de func
 
 >[!NOTE]
 >
->Dit tekstdeelvenster ondersteunt de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende stijlen toe te passen op verschillende tekstberichten. komt met name overeen met de `state='prompt'` tekstprompt die wordt weergegeven wanneer het panel voor het eerst wordt opgeroepen; komt overeen met de tekst met informatie over zoekresultaten; `state='results'` en komt overeen `state='no_results'` met de tekst die wordt weergegeven wanneer de zoekopdracht geen resultaten heeft opgeleverd.
+>Dit tekstpaneel steunt `state` attributenselecteur, die kan worden gebruikt om verschillende stijlen op verschillende tekstberichten toe te passen. Met name `state='prompt'` komt overeen met de tekstprompt die wordt weergegeven wanneer het deelvenster voor de eerste keer wordt aangeroepen; `state='results'` komt overeen met de tekst met informatie over zoekresultaten; en `state='no_results'` komt overeen met de tekst die wordt weergegeven wanneer de zoekopdracht geen resultaten heeft opgeleverd.
 
 De berichttekst kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie.
 
@@ -238,8 +241,8 @@ Zoekresultaten worden weergegeven als één kolom of één rij miniaturen voor p
 <table id="table_26974E509F6943BB98CBC1E4BAE62D68"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge </span> </p> </td> 
-   <td colname="col2"> <p> De grootte van de verticale marge rond elke miniatuur. De werkelijke miniatuurafstand is gelijk aan de som van de bovenste en onderste marges die zijn ingesteld voor <span class="codeph"> .s7minicel </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge  </span> </p> </td> 
+   <td colname="col2"> <p> De grootte van de verticale marge rond elke miniatuur. De werkelijke miniatuurafstand is gelijk aan de som van de boven- en ondermarge die is ingesteld voor <span class="codeph"> .s7minicel </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -263,15 +266,15 @@ De vormgeving van afzonderlijke miniaturen wordt bepaald door de volgende CSS-kl
 <table id="table_00829E44F75040A4B2AE19ACD550DA1E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Breedte van de miniatuur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van de miniatuur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
    <td colname="col2"> <p>Rand van de miniatuur. </p> </td> 
   </tr> 
  </tbody> 
@@ -298,15 +301,15 @@ De vormgeving van het label van de miniatuur wordt bepaald door de volgende CSS-
 <table id="table_CA669F6AE7574FF389BF725B3F768E5E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> kleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kleur  </span> </p> </td> 
    <td colname="col2"> <p> Tekstkleur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Naam van tekstlettertype. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekengrootte </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekengrootte  </span> </p> </td> 
    <td colname="col2"> <p>Grootte van tekstlettertype. </p> </td> 
   </tr> 
  </tbody> 
@@ -336,19 +339,19 @@ Het is niet mogelijk om schuifknoppen te positioneren met de CSS-eigenschappen t
 <table id="table_11063C7F428D4707A8138F17650F8F5F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Breedte van de schuifknop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van de schuifknop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
    <td colname="col2"> <p> De afbeelding die voor een bepaalde knopstatus wordt weergegeven. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie ook <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -356,7 +359,7 @@ Het is niet mogelijk om schuifknoppen te positioneren met de CSS-eigenschappen t
 
 >[!NOTE]
 >
->Deze knop ondersteunt de `state` kenmerkkiezer, die kan worden gebruikt om verschillende skins toe te passen op `"up"`, `"down"`, `"over"`, en `"disabled"` knopstaten.
+>Deze knoop steunt `state` attributenselecteur, die kan worden gebruikt om verschillende huiden op `"up"`, `"down"`, `"over"`, en `"disabled"` knoopstaten toe te passen.
 
 De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie.
 
