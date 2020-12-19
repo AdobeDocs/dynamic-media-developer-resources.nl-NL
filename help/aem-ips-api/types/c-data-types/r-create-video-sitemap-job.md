@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 85db2e47-ee15-4fdd-a8e2-bb45078f814a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '56'
+ht-degree: 0%
 
 ---
 
@@ -30,9 +33,9 @@ Syntaxis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> forceUpdate</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> forceUpdate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:Boolean</span> </td> 
-   <td colname="col3">Hiermee wordt het site-overzicht gegenereerd wanneer dit is ingesteld op <span class="codeph"> true</span>. <p><p>Opmerking: Als de Configuratie van de Generatie van de Sitemap aan hand wordt geplaatst en de <span class="codeph"> krachtUpdate</span> niet wordt geplaatst, zal het plaatskaart niet worden geproduceerd. </p></p></td> 
+   <td colname="col3">Genereert het site-overzicht wanneer ingesteld op <span class="codeph"> true</span>. <p><p>Opmerking: Als de Configuratie van de Generatie van de Sitemap aan hand wordt geplaatst en <span class="codeph"> forceUpdate</span> niet wordt geplaatst, zal het plaatskaart niet worden geproduceerd. </p></p></td> 
   </tr> 
  </tbody> 
 </table>
