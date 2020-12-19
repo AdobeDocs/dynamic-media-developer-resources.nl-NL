@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 5badee0b-3bbc-4306-bc60-a606775db2bd
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '78'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> always|never|limit</span> </p> </td> 
-   <td colname="col2"> <p> Optimalisatie in-, beperken of uitschakelen voor apparaten waarbij de <span class="codeph"> PixelRatio</span> van het apparaat groter is dan <span class="codeph"> 1</span>. Heeft invloed op apparaten met een hoge dichtheid, zoals iPhone4 en soortgelijke apparaten. Indien actief, beperkt de component de grootte van het verzoek van het beeld IS alsof het apparaat een pixelverhouding van <span class="codeph"> 1</span>had, daardoor verminderend de bandbreedte. </p> </td> 
+   <td colname="col2"> <p> Optimalisatie in-, beperken of uitschakelen voor apparaten waarbij <span class="codeph"> devicePixelRatio</span> groter is dan <span class="codeph"> 1</span>. Heeft invloed op apparaten met een hoge dichtheid, zoals iPhone4 en soortgelijke apparaten. Indien actief, beperkt de component de grootte van het de beeldverzoek van IS alsof het apparaat een pixelverhouding van <span class="codeph"> 1 </span> had, daardoor verminderend de bandbreedte. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> getal</span></span> </p> </td> 
