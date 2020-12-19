@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: a700472c-e1eb-4eb0-95ff-7afd4ce27931
 translation-type: tm+mt
 source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
+workflow-type: tm+mt
+source-wordcount: '165'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Gewoonlijk is dit een korte en unieke id, zoals een SKU-nummer, mogelijk met een
 
 ## Eigenschappen {#section-874a6853f67b4b229341ca76682884ae}
 
-Tekstreeks. Vereist. Record-id voor de tabel met afbeeldings-/SVG- of statische inhoudsgegevens. Elke `catalog::Id` waarde in deze afbeeldingscatalogus/SVG-catalogus of in deze statische inhoudscatalogus moet uniek zijn en mag geen &#39;,&#39;-tekens bevatten.
+Tekstreeks. Vereist. Record-id voor de tabel met afbeeldings-/SVG- of statische inhoudsgegevens. Elke `catalog::Id`-waarde in deze afbeeldingscatalogus/SVG-catalogus of in deze statische inhoudscatalogus moet uniek zijn en mag geen &#39;,&#39;-tekens bevatten.
 
 ## Standaard {#section-a26e7d83a5ee44b5918baef82ee48e14}
 
