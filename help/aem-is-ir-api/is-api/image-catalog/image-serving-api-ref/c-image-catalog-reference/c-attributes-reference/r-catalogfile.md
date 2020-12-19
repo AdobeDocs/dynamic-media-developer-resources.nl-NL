@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 3599c8d3-dc4b-434e-8b11-775ea6f155ee
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Paden voor afbeeldingsgegevensbestanden. Hier geeft u de bestanden op die de afbeeldingsgegevens voor deze catalogus bevatten.
 
-Afbeeldingsgegevensbestanden worden in de opgegeven volgorde geladen. Als dezelfde `catalog::Id` waarde voorkomt in meer dan één record (in dezelfde of verschillende catalogusbestanden), heeft de laatste instantie voorrang.
+Afbeeldingsgegevensbestanden worden in de opgegeven volgorde geladen. Als dezelfde `catalog::Id`-waarde voorkomt in meer dan één record (in dezelfde of in verschillende catalogusbestanden), heeft de laatste instantie voorrang.
 
 ## Eigenschappen {#section-6da55f145ecd4e31a5de52637a436983}
 
