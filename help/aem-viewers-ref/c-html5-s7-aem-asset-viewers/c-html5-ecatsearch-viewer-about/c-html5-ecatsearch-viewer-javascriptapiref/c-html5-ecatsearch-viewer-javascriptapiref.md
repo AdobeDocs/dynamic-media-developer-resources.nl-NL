@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: b65dec1e-567a-450f-9e24-e7841dc6f701
 translation-type: tm+mt
 source-git-commit: 8d7fdab78c5d23d0e541effa9b9c470921bd144b
+workflow-type: tm+mt
+source-wordcount: '142'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 8d7fdab78c5d23d0e541effa9b9c470921bd144b
 
 De hoofdklasse van de eCatalog Search Viewer is eCatalogSearchViewer. Deze wordt gedeclareerd in de naamruimte s7viewers. Deze JavaScript API behandelt constructor, methoden en callbacks van deze specifieke klasse.
 
-In alle volgende voorbeelden staat `<instance>` voor de werkelijke naam van het JavaScript-viewerobject dat van de `s7viewers.eCatalogSearchViewer` klasse is geïnstantieerd.
+In alle volgende voorbeelden staat `<instance>` voor de werkelijke naam van het JavaScript-viewerobject dat is geïnstantieerd vanuit de klasse `s7viewers.eCatalogSearchViewer`.
 
 * [weggooien](r-html5-ecatsearch-javascriptapiref-dispose.md)
 * [eCatalogSearchViewer](r-html5-ecatsearch-javascriptapiref-ecatalogsearchviewer.md)
