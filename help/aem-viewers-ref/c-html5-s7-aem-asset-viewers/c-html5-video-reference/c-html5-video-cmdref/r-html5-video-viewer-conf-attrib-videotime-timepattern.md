@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 211e0107-b6d1-43d6-b79d-34ed54383f80
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '121'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Configuration attribute for Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> [h:]m|mm:s|ss</span> </p> </td> 
-   <td colname="col2"> <p> Hiermee stelt u het patroon in voor de tijd die wordt weergegeven op de besturingsbalk, waarbij <span class="codeph"> h</span> uren is, <span class="codeph"> m</span> minuten en <span class="codeph"> s</span> seconden. </p> <p>Het aantal letters dat voor elke tijdeenheid wordt gebruikt, bepaalt het aantal cijfers dat voor de eenheid moet worden weergegeven. Als het getal niet in de opgegeven cijfers past, wordt de equivalente waarde weergegeven in de volgende eenheid. </p> <p>Als de huidige filmtijd bijvoorbeeld 67 minuten en 5 seconden is, wordt het tijdpatroon <span class="codeph"> m:ss</span> weergegeven als 67:05. Dezelfde tijd wordt weergegeven als 1:07:5 als het opgegeven tijdpatroon <span class="codeph"> h:mm:s</span>is. </p> </td> 
+   <td colname="col2"> <p> Plaatst het patroon voor de tijd die in de controlebar wordt getoond, waar <span class="codeph"> h</span> uren is, <span class="codeph"> m</span> minuten is, en <span class="codeph"> s</span> seconden is. </p> <p>Het aantal letters dat voor elke tijdeenheid wordt gebruikt, bepaalt het aantal cijfers dat voor de eenheid moet worden weergegeven. Als het getal niet in de opgegeven cijfers past, wordt de equivalente waarde weergegeven in de volgende eenheid. </p> <p>Als de huidige filmtijd bijvoorbeeld 67 minuten en 5 seconden is, wordt het tijdpatroon <span class="codeph"> m:ss</span> weergegeven als 67:05. Dezelfde tijd wordt weergegeven als 1:07:5 als het opgegeven tijdpatroon <span class="codeph"> h:mm:s</span> is. </p> </td> 
   </tr> 
  </tbody> 
 </table>
