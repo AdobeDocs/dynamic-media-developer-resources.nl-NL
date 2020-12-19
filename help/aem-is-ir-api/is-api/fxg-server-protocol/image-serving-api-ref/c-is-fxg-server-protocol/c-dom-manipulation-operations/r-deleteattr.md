@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: b1176c1a-9ec3-4a95-9f91-97f9f168c252
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '58'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Schrap om het even welk attribuut voor bepaalde s7:elementID.
 
 `deleteAttr.elementID={attributeName%26attributeName}`
 
-Als er voor een FXG-knooppuntelement een `s7:elementID` definitie is opgegeven, kunnen de kenmerken voor dat knooppunt met deze opdracht worden verwijderd.
+Als een FXG knoopelement `s7:elementID` bepaald heeft, kunnen de attributen voor die knoop met dit bevel worden geschrapt.
 
 ## Voorbeeld {#section-dece7192384a412c9afdfbda6f08bc97}
 
