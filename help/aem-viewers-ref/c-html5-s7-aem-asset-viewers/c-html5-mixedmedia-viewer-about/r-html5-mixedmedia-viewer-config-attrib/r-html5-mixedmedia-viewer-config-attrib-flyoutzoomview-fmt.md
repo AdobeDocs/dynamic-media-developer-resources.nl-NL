@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 6f6a69b4-d581-44ff-b089-ce9d0d0170bf
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '103'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Specificeert het beeldformaat dat de component voor het laden van beelden van de
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> Als de opgegeven indeling eindigt met <span class="codeph"> -alpha</span>, rendert de component afbeeldingen als transparante inhoud. Voor alle andere afbeeldingsindelingen behandelt de component afbeeldingen als dekkend. </p> <p>De component heeft standaard een witte achtergrond. Daarom, om het volledig transparant te maken, plaats het achtergrond-kleur <span class="codeph"> CSS bezit aan</span> transparant <span class="codeph"></span>. </p> </td> 
+   <td colname="col2"> <p> Als de opgegeven indeling eindigt met <span class="codeph"> -alpha</span>, rendert de component afbeeldingen als transparante inhoud. Voor alle andere afbeeldingsindelingen behandelt de component afbeeldingen als dekkend. </p> <p>De component heeft standaard een witte achtergrond. Om de klasse volledig transparant te maken, stelt u de CSS-eigenschap <span class="codeph"> background-color</span> daarom in op <span class="codeph"> transparent</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
