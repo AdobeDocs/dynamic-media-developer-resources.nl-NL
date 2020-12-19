@@ -2,8 +2,8 @@
 cloud: experience-cloud
 product: adobe
 archtype: end-user
-user-guide-title: Dynamic Media Image Serving and Rendering API
-breadcrumb-title: Dynamic Media Image Serving and Rendering API
+user-guide-title: Dynamic Media-API voor beeldbeheer en renderen
+breadcrumb-title: Dynamic Media-API voor beeldbeheer en renderen
 translation-type: tm+mt
 source-git-commit: 901f0c3986715279e0c696db93be2048343d2bc5
 workflow-type: tm+mt
@@ -13,10 +13,10 @@ ht-degree: 0%
 ---
 
 
-# Dynamic Media Image Serving and Rendering API {#image-serving-api}
+# API voor Dynamic Media Image Serving and Rendering {#image-serving-api}
 
-+ [Introductiepagina van Dynamic Media Developer](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
-+ [Start van API voor dynamisch mediabeeldbeheer en het renderen van afbeeldingen](home.md)
++ [Dynamic Media Developer Resources Home](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
++ [Start Dynamic Media Image Serving and Image Rendering API](home.md)
 + [Over deze release](r-about-this-release.md)
 + [Systeemvereisten en -vereisten](r-requirements-and-prerequisites.md)
 + [Vereisten en aanbevelingen voor schijfruimte](r-disk-space-reqs.md)
@@ -34,16 +34,16 @@ ht-degree: 0%
       + [Installeren onder een andere gebruikersaccount dan beheerder](c-installation/t-installing-on-windows/t-diff-account-win.md)
       + [Bijwerken vanaf IS 4.7.4 of hoger](c-installation/t-installing-on-windows/t-update-win.md)
       + [De installatie controleren](c-installation/t-installing-on-windows/t-verify-win.md)
-   + Installeren in Linux {#linux-install}
+   + Installeren op Linux {#linux-install}
       + [Installeren in Linux](c-installation/c-installing-linux/c-installing-linux.md)
       + [Voor het eerst installeren](c-installation/c-installing-linux/t-first-install-lin.md)
       + [Bijwerken vanaf IS 4.7.4 of hoger](c-installation/c-installing-linux/t-update-lin.md)
       + [De installatie controleren](c-installation/c-installing-linux/t-verify-install-lin.md)
-   + Beeldservice starten en stoppen {#start-stop-image-servicing}
+   + Beeldserver {#start-stop-image-servicing} starten en stoppen
       + [Beeldservice starten en stoppen](c-installation/t-starting-and-stopping/t-starting-and-stopping.md)
       + [Starten of stoppen in Windows](c-installation/t-starting-and-stopping/t-startstop-windows.md)
       + [Starten of stoppen in Linux](c-installation/t-starting-and-stopping/t-startstop-linux.md)
-+ API voor afbeeldingsservice {#image-serving-api}
++ API {#image-serving-api} voor beeldbewerking
    + [API voor afbeeldingsservice](is-api/image-serving-api-ref/c-is-home.md)
    + [Beoogd publiek](is-api/image-serving-api-ref/c-intended-audience.md)
    + [Onderdelen van Image Serving](is-api/image-serving-api-ref/r-components.md)
@@ -90,11 +90,11 @@ ht-degree: 0%
          + [Toegangslogboek](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-logging/c-access-log.md)
          + [Traceerlogboek](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-logging/c-trace-log.md)
          + [Logboek van afbeeldingsserver](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-logging/c-image-server-log.md)
-      + Servercontrole {#server-monitoring}
+      + Serverbewaking {#server-monitoring}
          + [Servercontrole](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-monitoring/c-server-monitoring.md)
          + [Standaardwaarschuwingen](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-monitoring/r-standard-alerts.md)
          + [Prioriteitswaarschuwing voor heapruimte](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-monitoring/c-heap-space-priority-alert.md)
-      + Inhoud beheren {#manage-content}
+      + Inhoud {#manage-content} beheren
          + [Inhoud beheren](is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/c-managing-content.md)
          + [Afbeeldingscatalogi](is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/c-image-catalogs.md)
          + [Brongegevens](is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/r-source-data.md)
@@ -102,16 +102,16 @@ ht-degree: 0%
          + [Gegevensbestanden verwijderen of vervangen](is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/c-deleting-or-replacing-data-files.md)
    + [Statische (niet-afbeeldings) inhoud bedienen](is-api/image-serving-api-ref/c-serving-static-nonimage-contents.md)
    + [Problemen oplossen](is-api/image-serving-api-ref/r-troubleshooting.md)
-   + HTTP-protocolverwijzing {#http-protocol-reference}
+   + HTTP-protocolreferentie {#http-protocol-reference}
       + [Overzicht van HTTP-protocolverwijzing](is-api/image-serving-api-ref/c-http-protocol-reference/c-http-protocol-reference.md)
-      + HTTP-protocolintroductie {#http-protocol-introduction}
+      + Introductie van HTTP-protocol {#http-protocol-introduction}
          + [Inleiding](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md)
          + [Beoogd publiek](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-intended-audience.md)
          + [Documentconventies](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/r-document-conventions.md)
       + Syntaxis en kenmerken {#syntax-and-features}
          + [Syntaxis en kenmerken](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-syntax-and-features.md)
          + [Basissyntaxis van HTTP-protocol voor afbeeldingen](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-basic-syntax.md)
-         + Beeld dat HTTP-protocol serveert, opdracht {#image-serving-http}
+         + Afbeelding die HTTP-protocolopdracht {#image-serving-http} levert
             + [Overzicht van de opdracht HTTP-protocol voor Image Serving](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/c-command-overview.md)
             + [Aanvraagopdrachten](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-request-commands-and-attributes.md)
             + [Opdrachten weergeven](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-view-commands-and-attributes.md)
@@ -172,7 +172,7 @@ ht-degree: 0%
          + [object](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md)
          + [size](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-size.md)
          + [sizeN](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-sizen.md)
-      + Opdrachtverwijzing {#command-reference}
+      + Command reference {#command-reference}
          + [Overzicht van de opdrachtverwijzing](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/c-command-reference.md)
          + [align](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-align.md)
          + [anker](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md)
@@ -321,10 +321,10 @@ ht-degree: 0%
             + [trimMargin](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol-reference/r-trimmargin.md)
             + [winderig](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol-reference/r-is-fxg-wid.md)
          + [Substitutievariabelen](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/r-is-fxg-substitution-variables.md)
-         + Opdrachtmacro&#39;s {#command-macros}
+         + Command macros {#command-macros}
             + [Overzicht van opdrachtmacro&#39;s](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/r-is-fxg-command-macros/r-is-fxg-command-macros.md)
             + [name](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/r-is-fxg-command-macros/r-name.md)
-         + FXG DOM-bewerkingen {#fxg-dom-ops}
+         + FXG DOM-manipulatiebewerkingen {#fxg-dom-ops}
             + [FXG DOM-bewerkingen](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-dom-manipulation-operations/c-dom-manipulation-operations.md)
             + [appendElement](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-dom-manipulation-operations/r-appendelement.md)
             + [deleteAttr](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-dom-manipulation-operations/r-deleteattr.md)
@@ -333,7 +333,7 @@ ht-degree: 0%
             + [setAttr.rootElement](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-dom-manipulation-operations/r-setattr-rootelement.md)
             + [setElement](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-dom-manipulation-operations/r-setelement.md)
             + [setVal](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-dom-manipulation-operations/r-setval.md)
-         + Opdrachten voor batchverwerking {#batch-process-commands}
+         + Batchverwerkingsopdrachten {#batch-process-commands}
             + [Opdrachten voor batchverwerking](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-batch-processing-commands/c-batch-processing-commands.md)
             + [batchjobbriefstatus](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-batch-processing-commands/r-batchjobbriefstatus.md)
             + [batchjobdelete](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-batch-processing-commands/r-batchjobdelete.md)
@@ -378,7 +378,7 @@ ht-degree: 0%
          + [Reëel nummer](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-real-number.md)
          + [Tekstreeks](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-text-string.md)
          + [Eigenschapsgegevens](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-property-data.md)
-   + Attributen {#attributes}
+   + Kenmerken {#attributes}
       + [Kenmerken](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/c-attributes-reference.md)
       + [AllowDirectAccess](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-allowdirectaccess.md)
       + [AllowDirectUrls](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-allowdirecturls.md)
@@ -451,7 +451,7 @@ ht-degree: 0%
       + [Watermerk](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-watermark.md)
    + Afbeelding/SVG-gegevensverwijzing {#image-svg-ref}
       + [Afbeelding/SVG-gegevensverwijzing](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-svg-data-reference.md)
-      + Referentie afbeeldingsgegevens {#image-data-reference}
+      + Referentie voor afbeeldingsgegevens {#image-data-reference}
          + [Referentie afbeeldingsgegevens](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/c-image-data-reference.md)
          + [Anker](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-anchor-cat.md)
          + [AssetType](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-assettype-cat.md)
@@ -473,7 +473,7 @@ ht-degree: 0%
          + [TimeStamp](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-timestamp-cat.md)
          + [UserData](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md)
          + [UserType](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-usertype-cat.md)
-      + Verwijzing naar SVG-gegevens {#svg-data-reference}
+      + SVG-gegevensverwijzing {#svg-data-reference}
          + [Verwijzing naar SVG-gegevens](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-svg-data-reference/c-svg-data-reference.md)
          + [Verlopen](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-svg-data-reference/r-expiration-svg.md)
          + [Id](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-svg-data-reference/r-id-svg.md)
@@ -497,7 +497,7 @@ ht-degree: 0%
       + [MetricsPath](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-metricspath-font.md)
       + [Naam](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-name-font.md)
       + [PsName](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-psname-font.md)
-   + ICC-profieltoewijzingsverwijzing {#icc-profile-map-reference}
+   + ICC profiel map reference {#icc-profile-map-reference}
       + [ICC-profieltoewijzingsverwijzing](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md)
       + [Naam](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/r-name-icc.md)
       + [ProfilePath](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/r-profilepath-icc.md)
@@ -522,7 +522,7 @@ ht-degree: 0%
       + [Licentie](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-licensing.md)
       + [De opstelling en vormt IR 3.x verenigbaarheidsmodule](ir-api/image-rendering-api-ref/c-ir-installation/t-ir-setup-compatibility-module.md)
       + [Afbeeldingen renderen instellen en configureren](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-setup-ir.md)
-      + Rendering afbeelding verwijderen {#uninstalling-image-rendering}
+      + Beeldrendering {#uninstalling-image-rendering} verwijderen
          + [Rendering afbeelding verwijderen](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-uninstalling/c-ir-uninstalling.md)
          + [Verwijderen op Linux en Solaris](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-uninstalling/t-ir-uninstall-linux-solaris.md)
          + [Verwijderen in Windows](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-uninstalling/t-ir-uninstall-windows.md)
@@ -530,7 +530,7 @@ ht-degree: 0%
       + [Serverbeheer](ir-api/image-rendering-api-ref/c-ir-server-administration/c-ir-server-administration.md)
       + [Voorkeur voor serverbeheer](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-preface.md)
       + [Overzicht van serverbeheer](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-server-overview.md)
-      + De server configureren en beheren {#configuring-and-managing-the-server}
+      + De server {#configuring-and-managing-the-server} configureren en beheren
          + [Het serveroverzicht configureren en beheren](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-configuring-and-managing-the-server.md)
          + [Configuratiebestanden](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-config-files.md)
          + [De server starten en stoppen](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-starting-and-stopping-the-server.md)
@@ -539,7 +539,7 @@ ht-degree: 0%
          + [Geheugenoverwegingen](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-memory-considerations.md)
          + [Overwegingen voor dynamische schijfruimte](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-dynamic-disk-space-considerations.md)
          + [Limiet voor vignetgrootte](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-vignette-size-limitation.md)
-         + Inhoud beheren {#managing-content}
+         + Inhoud {#managing-content} beheren
             + [Inhoud beheren](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-managing-content/c-ir-managing-content.md)
             + [Materiaalcatalogi](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-managing-content/c-ir-server-material-catalogs.md)
             + [Brongegevens](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-managing-content/c-ir-source-data.md)
@@ -549,13 +549,13 @@ ht-degree: 0%
          + [Catalogusmap (ir.catalogRootPath)](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-catalog-folder.md)
          + [Cachemap voor catalogus (ir.catalogCacheRoot)](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-catalog-cache-folder.md)
          + [Bronhoofdmappen (ir.resourceRootPaths)](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-resource-root-folders.md)
-   + HTTP-protocolverwijzing {#http-protocol-reference}
+   + HTTP-protocolreferentie {#http-protocol-reference}
       + [HTTP-protocolverwijzing](ir-api/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-ref.md)
       + [Inleiding](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-introduction.md)
-      + Syntaxis en functies van HTTP-protocol {#http-protocol-syntax}
+      + Syntaxis en kenmerken van HTTP-protocol {#http-protocol-syntax}
          + [Syntaxis en functies van HTTP-protocol](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-protocol-syntax-and-features.md)
          + [Basissyntaxis van HTTP-protocol voor het renderen van afbeeldingen](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/r-ir-basic-syntax.md)
-         + Overzicht van de opdracht HTTP-protocol voor afbeeldingen renderen {#image-rendering-http-protocol-command-overview}
+         + Overzicht van de opdracht HTTP-protocol voor het renderen van afbeeldingen{#image-rendering-http-protocol-command-overview}
             + [Overzicht van de opdracht HTTP-protocol voor afbeeldingen renderen](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-command-overview/c-ir-command-overview.md)
             + [Kenmerken weergeven](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-command-overview/r-ir-view-attributes.md)
             + [Selectie, opdrachten](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-command-overview/r-ir-selection-commands.md)
@@ -643,7 +643,7 @@ ht-degree: 0%
          + [type](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-type.md)
          + [vignet](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-vignette.md)
          + [winderig](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-wid.md)
-      + HTTP-protocolresponsgegevens {#http-protocol-response-data}
+      + Gegevens van HTTP-protocolreactie {#http-protocol-response-data}
          + [HTTP-protocolresponsgegevens](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-http-protocol-response-data.md)
          + [Afbeeldingen](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-images.md)
          + [Eigenschappen](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md)
@@ -651,7 +651,7 @@ ht-degree: 0%
    + Materiaalcatalogus {#material-catalog}
       + [Materiaalcatalogus](ir-api/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-catalog.md)
       + [Inleiding](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-cat-ref-intro.md)
-      + Overzicht van de materiaalcatalogus {#material-catalog-overview}
+      + Overzicht materiaalcatalogus {#material-catalog-overview}
          + [Overzicht van de materiaalcatalogus *](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-cat-overview/c-ir-cat-overview.md)
          + [Materialen](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-cat-overview/c-ir-cat-materials.md)
          + [Cataloguskenmerken](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-cat-overview/r-ir-catalog-attributes.md)
@@ -662,7 +662,7 @@ ht-degree: 0%
             + [Catalogusgegevensbestanden](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-cat-overview/c-ir-file-formats/c-ir-catalog-data-files.md)
             + [Tekencodering](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-cat-overview/c-ir-file-formats/c-ir-character-encoding.md)
          + [Algemene gegevenstypen](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-cat-overview/r-ir-common-data-types.md)
-      + Kenmerken {#attributes-reference}
+      + Kenmerkverwijzing {#attributes-reference}
          + [Kenmerken](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/c-ir-attributes-reference.md)
          + [AllowDirectURLs](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-allowdirecturls.md)
          + [CacheValidationPolicy](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md)
@@ -703,7 +703,7 @@ ht-degree: 0%
          + [TrustedDomains *](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-trusteddomains.md)
          + [UseLastModified](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-uselastmodified.md)
          + [VignetteMapFile](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-vignettemapfile.md)
-      + Verwijzing naar materiaalgegevens {#material-data-reference}
+      + Materiaalgegevensverwijzing {#material-data-reference}
          + [Verwijzing naar materiaalgegevens](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/c-ir-material-data-reference.md)
          + [Uitlijning](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-alignment.md)
          + [Anker](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-anchor.md)
@@ -723,7 +723,7 @@ ht-degree: 0%
          + [Grootte](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-size.md)
          + [TimeStamp](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-timestamp-dataref.md)
          + [Type](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-type.md)
-      + Verwijzing naar vignet met hyperlinks {#vignette-map-reference}
+      + Verwijzing naar vignetmap {#vignette-map-reference}
          + [Verwijzing naar vignet met hyperlinks](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/c-ir-vignette-map-reference.md)
          + [Verlopen](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-expiration-vignette.md)
          + [Id](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-id-vignette.md)
@@ -735,7 +735,7 @@ ht-degree: 0%
          + [Referentie macrodefinitie](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-macro-definition-reference/c-ir-macro-definition-reference.md)
          + [Naam](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-macro-definition-reference/r-ir-name.md)
          + [Definitie](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-macro-definition-reference/r-ir-definition.md)
-      + ICC-profieltoewijzingsverwijzing {#icc-profile-map-reference}
+      + ICC profiel map reference {#icc-profile-map-reference}
          + [ICC-profieltoewijzingsverwijzing](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-icc-profile-map-reference/c-ir-icc-profile-map-reference.md)
          + [Naam](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-icc-profile-map-reference/r-ir-name-icc.md)
          + [ProfilePath](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-icc-profile-map-reference/r-ir-profilepath.md)
@@ -748,14 +748,14 @@ ht-degree: 0%
          + [vervanging](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-substitution.md)
 + Hulpmiddelen {#utilites}
    + [Overzicht van hulpprogramma&#39;s](utilities/utilities.md)
-   + Hulpprogramma&#39;s voor afbeeldingsservices {#image-serving-utilities}
+   + Hulpprogramma {#image-serving-utilities} voor afbeeldingsservices
       + [Hulpprogramma&#39;s voor beeldservers](is-api/is-utils/utilities/c-utils-home.md)
       + [Locatie van nutsvoorzieningen](is-api/is-utils/utilities/c-location-of-utilities.md)
       + [ic](is-api/is-utils/utilities/r-ic.md)
       + [ImageServing](is-api/is-utils/utilities/r-imageserving.md)
       + [validate](is-api/is-utils/utilities/r-is-utils-validate.md)
       + [Het hulpprogramma &#39;playlog&#39;](is-api/is-utils/utilities/c-playlog.md)
-   + Vignetomzetter (vntc){#vignette-converter-vntc}
+   + Vignetconverter (vntc){#vignette-converter-vntc}
       + [Vignetomzetter (vntc)](utilities/c-ir-vignette-converter-vntc/c-ir-vignette-converter-vntc.md)
       + [Vignetconverter](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-converter.md)
       + [Vignet schalen](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md)
