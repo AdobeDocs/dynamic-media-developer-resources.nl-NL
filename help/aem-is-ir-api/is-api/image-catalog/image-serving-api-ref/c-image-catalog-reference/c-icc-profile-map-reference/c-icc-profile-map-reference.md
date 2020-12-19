@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: eee1e8d5-cf16-4e73-9b44-4ec032cf3553
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '126'
+ht-degree: 0%
 
 ---
 
 
-# ICC-profieltoewijzingsverwijzing{#icc-profile-map-reference}
+# ICC profiel map reference{#icc-profile-map-reference}
 
 Als een ICC-profielkaart is vereist voor een afbeeldingscatalogus, moet het relatieve of absolute pad van het profieltoewijzingsbestand worden opgegeven in het attribuut::IccProfileMapFile.
 
