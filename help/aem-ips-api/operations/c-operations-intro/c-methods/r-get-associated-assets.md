@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 70c2f8aa-9104-42b0-b85b-14f90f1ead52
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '420'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Hiermee worden elementen opgehaald die zijn gekoppeld aan een opgegeven element 
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-453cc706400345778713cda249bfac16}
+## Toegestane gebruikerstypen {#section-453cc706400345778713cda249bfac16}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -45,25 +48,25 @@ Syntaxis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> bedrijfshandle</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:tekenreeks</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Verwerking naar het bedrijf dat eigenaar is van het actief. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:tekenreeks</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Asset handle. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> types:StringArray</span> </p> </td> 
    <td colname="col3"> <p>Nee </p> </td> 
    <td colname="col4"> <p>De array met responsvelden die u wilt. Zie response- FieldArray/excludeFieldArray in de Inleiding. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> excludeFieldArray</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> types:StringArray</span> </p> </td> 
    <td colname="col3"> <p>Nee </p> </td> 
    <td colname="col4"> <p>De array van uitgesloten responsvelden. Zie response- FieldArray/excludeFieldArray in de Inleiding. </p> </td> 
@@ -84,49 +87,49 @@ Syntaxis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> containerArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> containerArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:AssetArray</span> </td> 
    <td colname="col3"> <p>Nee </p> </td> 
    <td colname="col4"> <p>Array van set- en sjabloonelementen die het opgegeven element bevatten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:AssetArray</span> </td> 
    <td colname="col3"> <p>Nee </p> </td> 
    <td colname="col4"> <p>Array met elementen die deel uitmaken van de opgegeven set of het sjabloonelement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> layerReferenceArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> layerReferenceArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:AssetArray</span> </td> 
    <td colname="col3"> <p>Nee </p> </td> 
    <td colname="col4"> <p>Array met elementen waarnaar wordt verwezen in een laag of sjabloon-URL. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> ownerArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> ownerArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:AssetArray</span> </td> 
    <td colname="col3"> <p>Nee </p> </td> 
    <td colname="col4"> <p>Array met elementen die eigenaar zijn van het opgegeven element. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> derivedArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> derivedArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:AssetArray</span> </td> 
    <td colname="col3"> <p>Nee </p> </td> 
    <td colname="col4"> <p>Array met elementen die zijn gebruikt om het opgegeven element te genereren. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> generatorArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> generatorArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>Nee </p> </td> 
-   <td colname="col4"> <p>De <span class="codeph"> generatorArray</span> geeft aan hoe dit element is gemaakt. Als <span class="codeph"> assetHandler</span> bijvoorbeeld een afbeeldingspagina van een PDF was, bevat dit het gereedschap PDF-processor en verwijst het naar het PDF-bestand. </p> </td> 
+   <td colname="col4"> <p>De <span class="codeph"> generatorArray</span> maakt een lijst van de manier dit element werd gecreeerd. Als <span class="codeph"> assetHandler</span> bijvoorbeeld een afbeeldingspagina van een PDF was, bevat dit het gereedschap PDF-processor en verwijst het naar het PDFFile-element. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> generatedArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> generateArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>Nee </p> </td> 
-   <td colname="col4"> <p>De <span class="codeph"> gegenereerde array</span> keert de manier om waarop dit element is gemaakt. De <span class="codeph"> generatedArray</span> kan bijvoorbeeld een lijst met afbeeldingen bevatten die zijn gegenereerd op basis van deze <span class="codeph"> assetHandler</span> als dit een PDFFile-element is. </p> </td> 
+   <td colname="col4"> <p>De <span class="codeph"> generatedArray</span> keert de manier om dit middel werd gecreeerd. De <span class="codeph"> generatedArray</span> kan bijvoorbeeld een lijst bevatten met afbeeldingen die zijn gegenereerd op basis van deze <span class="codeph"> assetHandler</span> als dit een PDFFile-element is. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAsset</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAsset</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typen:element</span> </td> 
    <td colname="col3"> <p>Nee </p> </td> 
    <td colname="col4"> <p>De informatie over het blokelement dat aan het aanvraagelement is gekoppeld. Als er geen blokelement is toegewezen, wordt het veld weggelaten in het antwoord. </p> </td> 
@@ -134,11 +137,11 @@ Syntaxis
  </tbody> 
 </table>
 
-U kunt de parameters gebruiken `responseFieldArray` `excludeFieldArray` of de reactiegrootte beperken. Met name de in `GenerationInfo` of `generatorArray` `generatedArray` wanbetaling geretourneerde items omvatten zowel de initiator als de gegenereerde elementenrecords. Voor een PDF-elementtype resulteert dit in ongewenste meervoudige kopieën van de PDF-elementrecord &quot;originator&quot; in de reactie. U kunt dit probleem verhelpen door het toe te voegen `generatedArray/items/originator` aan `excludeFieldArray`. U kunt ook een expliciete lijst opgeven met responsvelden die u wilt opnemen in `responseFieldArray`.
+U kunt de parameters `responseFieldArray` of `excludeFieldArray` gebruiken om de reactiegrootte te beperken. Met name de `GenerationInfo` items die in `generatorArray` of `generatedArray` standaard worden geretourneerd, omvatten zowel de initiator als de gegenereerde elementenrecords. Voor een PDF-elementtype resulteert dit in ongewenste meervoudige kopieën van de PDF-elementrecord &quot;originator&quot; in de reactie. U kunt dit probleem verhelpen door `generatedArray/items/originator` toe te voegen aan `excludeFieldArray`. U kunt ook een expliciete lijst opgeven met responsvelden die u wilt opnemen in `responseFieldArray`.
 
 ## Voorbeelden {#section-8946ea4b9cb94912a8408249c897f192}
 
-Het volgende eenvoudige voorbeeld is een verzoek om de handgreep van de generator voor een afbeelding die uit een PDF is geëxtraheerd. Het bevat een lengte `containerArray` `assetHandle` van één met een item inclusief de PDF.
+Het volgende eenvoudige voorbeeld is een verzoek om de handgreep van de generator voor een afbeelding die uit een PDF is geëxtraheerd. Het omvat een `containerArray` lengte één met een punt met inbegrip van `assetHandle` van PDF.
 
 **Verzoek**
 
