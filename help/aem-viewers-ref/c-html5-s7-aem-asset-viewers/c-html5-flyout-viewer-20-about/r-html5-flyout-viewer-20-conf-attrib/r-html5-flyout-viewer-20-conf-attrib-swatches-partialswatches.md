@@ -1,18 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Stalen.partialswatches
+seo-title: Swatches.partialswatches
 solution: Experience Manager
-title: Stalen.partialswatches
+title: Swatches.partialswatches
 topic: Dynamic media
 uuid: 5b15b367-a643-4a4a-9ed5-91c1da3169be
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '36'
+ht-degree: 5%
 
 ---
 
 
-# Stalen.partialswatches{#swatches-partialswatches}
+# Swatches.partialswatches{#swatches-partialswatches}
 
 `[Swatches.|<containerId>_swatches.]partialswatches=0|1`
 
