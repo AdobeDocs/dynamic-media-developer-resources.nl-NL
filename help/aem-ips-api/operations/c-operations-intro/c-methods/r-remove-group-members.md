@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: dd0ea335-bbd0-43b1-830b-77f32dc39b12
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '125'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +24,7 @@ Hiermee verwijdert u bedrijfgebruikers uit een specifieke groep.
 * `removeGroupMembers`: Hiermee verwijdert u meerdere gebruikers uit een groep.
 * `removeGroupMembership`: Verwijdert een individuele gebruiker uit een serie van groepen.
 
-## Geautoriseerde gebruikerstypen {#section-2c64cdac15184fbba6c7b2945b5d87f7}
+## Toegestane gebruikerstypen {#section-2c64cdac15184fbba6c7b2945b5d87f7}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -43,7 +46,7 @@ IPS API keert geen reactie voor deze verrichting terug.
 
 ## Voorbeelden {#section-9eedac852cea46ec80de6a6928bf97ac}
 
-Deze codesteekproef verwijdert een gebruiker uit het gespecificeerde bedrijf. Verwijder meerdere gebruikers uit een groep met de gebruikersgreep-array.
+Deze codesteekproef verwijdert een gebruiker uit het gespecificeerde bedrijf. Verwijder meerdere gebruikers uit een groep met de gebruikershandle-array.
 
 **Verzoek**
 
