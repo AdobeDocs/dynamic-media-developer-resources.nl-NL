@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: c9989916-d0f3-4268-932a-e12c693f5b74
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '65'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Stel in op <span class="codeph"> 1</span> om het vooraf laden van de ingezoomde afbeelding in te schakelen. </p> <p>Stel de waarde in op <span class="codeph"> 0</span> om de zoomafbeelding stapsgewijs te laden. </p> <p> <p>Opmerking:  Houd er rekening mee dat als u deze optie inschakelt, dit tot aanzienlijk meer bandbreedtegebruik kan leiden omdat de afbeelding waarop is ingezoomd volledig moet worden geladen, zelfs als de gebruiker geen zoomactie uitvoert. </p> </p> </td> 
+   <td colname="col2"> <p> Stel in op <span class="codeph"> 1</span> om het vooraf laden van de ingezoomde afbeelding in te schakelen. </p> <p>Stel dit in op <span class="codeph"> 0</span> om de zoomafbeelding stapsgewijs te laden. </p> <p> <p>Opmerking:  Houd er rekening mee dat als u deze optie inschakelt, dit tot aanzienlijk meer bandbreedtegebruik kan leiden omdat de afbeelding waarop is ingezoomd volledig moet worden geladen, zelfs als de gebruiker geen zoomactie uitvoert. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
