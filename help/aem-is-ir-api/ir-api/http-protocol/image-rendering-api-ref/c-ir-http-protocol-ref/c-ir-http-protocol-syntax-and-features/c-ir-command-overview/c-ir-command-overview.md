@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 3278c781-968a-4bde-b469-84e8dcfb0e9a
 translation-type: tm+mt
 source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
+workflow-type: tm+mt
+source-wordcount: '62'
+ht-degree: 0%
 
 ---
 
 
-# Overzicht van de opdracht HTTP-protocol voor afbeeldingen renderen{#image-rendering-http-protocol-command-overview}
+# Overzicht van de opdracht HTTP-protocol voor het renderen van afbeeldingen{#image-rendering-http-protocol-command-overview}
 
 De opdrachten die worden ondersteund door Renderen van afbeelding worden hieronder weergegeven, gegroepeerd op categorie.
 
