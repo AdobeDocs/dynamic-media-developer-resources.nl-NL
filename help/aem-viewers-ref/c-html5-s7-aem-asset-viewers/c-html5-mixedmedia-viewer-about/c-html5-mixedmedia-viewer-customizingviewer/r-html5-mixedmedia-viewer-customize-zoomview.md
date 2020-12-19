@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: c9113275-eec6-4014-b7ad-3ae9f2cf01d9
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '215'
+ht-degree: 0%
 
 ---
 
@@ -35,11 +38,11 @@ De vormgeving van het weergavegebied wordt bepaald door de volgende CSS-klassenk
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Achtergrondkleur in hexadecimale notatie van de hoofdweergave. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cursor </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cursor  </span> </p> </td> 
    <td colname="col2"> <p>De cursor wordt weergegeven over de hoofdweergave. </p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +56,7 @@ Voorbeeld - om de zoomweergave transparant te maken.
 }
 ```
 
-Op desktopsystemen ondersteunt de component `cursortype` kenmerkkiezer die op de `.s7zoomview` klasse kan worden toegepast. Het controleert het type van de curseur die op componentenstaat en gebruikersactie wordt gebaseerd. De volgende `cursortype` waarden worden ondersteund:
+Op desktopsystemen ondersteunt de component `cursortype`-kenmerkkiezer die op de `.s7zoomview`-klasse kan worden toegepast. Het controleert het type van de curseur die op componentenstaat en gebruikersactie wordt gebaseerd. De volgende `cursortype` waarden worden ondersteund:
 
 * `default`
 
