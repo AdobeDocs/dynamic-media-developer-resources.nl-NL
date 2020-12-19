@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 02b88e83-7fee-40d4-95ea-daba9a608e8e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ Hoofdpad voor saveToFile=. Relatief pad voor de hoofdmap waarnaar afbeeldingen d
 
 ## Eigenschappen {#section-343d1371e966491c92854a8df14c3c50}
 
-Tekstreeks. Moet leeg zijn of een geldig relatief mappad. Altijd gecombineerd met het absolute hoofdpad dat is geconfigureerd met `ImageServer::SaveDirectory`.
+Tekstreeks. Moet leeg zijn of een geldig relatief mappad. Altijd gecombineerd met de absolute wortelweg die met `ImageServer::SaveDirectory` wordt gevormd.
 
 ## Standaard {#section-ae751eea97654f399c6aaee3f3252cbb}
 
