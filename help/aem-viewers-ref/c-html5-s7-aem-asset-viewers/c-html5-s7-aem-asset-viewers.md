@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: 52f744df-8eee-45fe-8246-6f497d9feb66
 translation-type: tm+mt
 source-git-commit: 6cff4553307fe6cbda4b80ce3f39b58e615fa365
+workflow-type: tm+mt
+source-wordcount: '54'
+ht-degree: 0%
 
 ---
 
 
 # Viewers voor AEM Assets en Dynamic Media Classic{#viewers-for-aem-assets-and-dynamic-media-classic}
 
-De volgende viewers werken onder Adobe Experience Manager-middelen en ook onder Dynamic Media Classic.
+De volgende viewers werken onder Adobe Experience Manager Assets en ook onder Dynamic Media Classic.
 
 * [Standaardzoom](c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-about.md)
 * [eCatalog](c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-about.md)
