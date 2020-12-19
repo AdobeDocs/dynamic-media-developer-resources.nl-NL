@@ -15,35 +15,35 @@ ht-degree: 0%
 ---
 
 
-# Foutopsporing_tracering vastleggen{#debug-trace-logging}
+# Debug_trace registreren{#debug-trace-logging}
 
 Gebruik deze serverinstellingen om fouten in het logbestand met overtrekken op te sporen.
 
 >[!NOTE]
 >
->Het wordt aanbevolen alle logbestanden te configureren die naar dezelfde map als `TC::directory`moeten worden geschreven. Dit zorgt ervoor dat alle dossiers van het Logboek van het Beeld deel aan de automatische omwenteling van het logboekdossier gevormd met `TC::maxDays`, die potentiële serverinstabiliteit wegens uit-van-schijf-ruimtevoorwaarden zal verhinderen.
+>Het wordt aanbevolen alle logbestanden te configureren die naar dezelfde map moeten worden geschreven als `TC::directory`. Dit zorgt ervoor dat alle Logbestanden van Image Serving deelnemen aan de automatische rotatie van het logbestand die is geconfigureerd met `TC::maxDays`, waardoor potentiële serverinstabiliteit als gevolg van onvoldoende schijfruimte wordt voorkomen.
 
-## SV::log - pad naar logboekbestand voor tracering van servertoezichthouder {#section-3697bc480ff646e79cacc2812c55ef26}
+## SV::log - Server Supervisor Trace Log File Path {#section-3697bc480ff646e79cacc2812c55ef26}
 
-De omslag en de naam van het basisdossier voor het logboekdossiers van de Supervisor van de Server. Het pad kan absoluut of relatief ten opzichte van *[!DNL install_folder]* zijn. De servertoezichthouder voegt een afbreekstreepje en de huidige datum ( *[!DNL -yyyy-mm-dd]*) toe aan de bestandsnaam (vóór het eventuele achtervoegsel). Het wordt geadviseerd om alle logboekdossiers naar de zelfde omslag te verzenden zoals het logboekdossiers van de Server van het Platform ( `PS::LogFolder`) aan hefboomwerking het beheer van het logboekdossier dat door de Server van het Platform ( `PS::LogDays`) wordt uitgevoerd. Standaard is dit [!DNL logs/Supervisor.log].
+De omslag en de naam van het basisdossier voor het logboekdossiers van de Supervisor van de Server. Het pad kan absoluut of relatief ten opzichte van *[!DNL install_folder]* zijn. De servertoezichthouder voegt een afbreekstreepje en de huidige datum ( *[!DNL -yyyy-mm-dd]*) toe aan de bestandsnaam (vóór het eventuele achtervoegsel van het bestand). Het wordt aanbevolen alle logbestanden naar dezelfde map als de logbestanden van de Platform-server ( `PS::LogFolder`) te verzenden om het beheer van logbestanden dat door de Platform-server ( `PS::LogDays`) is geïmplementeerd, te benutten. De standaardwaarde is [!DNL logs/Supervisor.log].
 
 >[!NOTE]
 >
 >U moet de nieuwe map maken voordat u deze instelling wijzigt. Zorg ervoor de toegangstoestemmingen worden geplaatst zodat de Supervisor van de Server noodzakelijk creeert, leest, en schrijft voorrechten.
 
-## SV::traclevel - het Niveau van het Logboek van het Spoor van de Supervisor van de Server {#section-36f8634741da4c618d67aa628b5fe474}
+## SV::tracelevel - het Niveau van het Logboek van het Spoor van de Supervisor van de Server {#section-36f8634741da4c618d67aa628b5fe474}
 
 Logniveau kan 1, 2, 3 of 4 zijn. De standaardwaarde is 2.
 
-## IS::Logboek - Pad naar foutopsporingslogbestand van afbeeldingsserver {#section-73a3f09b77f2446c9f82207b7d8aec39}
+## IS::Log - Foutopsporingspad voor foutopsporingslogbestand van afbeeldingsserver {#section-73a3f09b77f2446c9f82207b7d8aec39}
 
-De omslag en de basisdossier - naam voor de dossiers van het het spoorlogboek van de Server van het Beeld. Het pad kan absoluut of relatief ten opzichte van *[!DNL install_folder]* zijn. De ImageServer voegt een afbreekstreepje en de huidige datum ( *[!DNL -yyyy-mm-dd]*) aan het dossier toe - noem (vóór het dossierachtervoegsel, als om het even welk). Het wordt geadviseerd om het logboekdossiers van de Server van het Beeld naar de zelfde omslag te verzenden zoals het logboekdossiers van de Server van het Platform ( `PS::LogFolder`) aan hefboomwerking het beheer van het logboekdossier dat door de Server van het Platform wordt uitgevoerd (zie `PS::LogDays`).
+De omslag en de basisdossier - naam voor de dossiers van het het spoorlogboek van de Server van het Beeld. Het pad kan absoluut of relatief ten opzichte van *[!DNL install_folder]* zijn. De ImageServer voegt een afbreekstreepje en de huidige datum ( *[!DNL -yyyy-mm-dd]*) aan het dossier toe - noem (vóór het dossierachtervoegsel, als om het even welk). Het wordt aanbevolen om logbestanden van afbeeldingsservers naar dezelfde map als logbestanden van Platforms Server ( `PS::LogFolder`) te verzenden om het beheer van logbestanden dat door de server van het Platform is geïmplementeerd, te benutten (zie `PS::LogDays`).
 
 >[!NOTE]
 >
 >U moet de nieuwe map maken voordat u deze instelling wijzigt. Zorg ervoor de toegangstoestemmingen worden geplaatst zodat het Serven van het Beeld de noodzakelijke creeer, lees, en schrijf voorrechten heeft.
 
-## IS:TraceClient - Logniveau foutopsporing van imageserver {#section-3851f1f68e404430985c629ac80534db}
+## IS:TraceClient - Foutopsporingslogniveau voor imageserver {#section-3851f1f68e404430985c629ac80534db}
 
 Logniveau kan 1, 2, 3 of 4 zijn (standaardwaarde is 2)
 
