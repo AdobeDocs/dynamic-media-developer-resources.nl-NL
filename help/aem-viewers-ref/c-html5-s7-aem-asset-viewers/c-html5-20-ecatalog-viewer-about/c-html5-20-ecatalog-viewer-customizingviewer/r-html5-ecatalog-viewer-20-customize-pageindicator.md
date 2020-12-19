@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 5e33c149-fdc7-419a-b5ff-b9be3f342d9f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '297'
+ht-degree: 0%
 
 ---
 
@@ -29,19 +32,19 @@ De weergave van de pagina-indicator wordt bepaald door de volgende CSS-klassenki
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p>Plaats vanaf de bovenrand van de hoofdbesturingsbalk (op desktopsystemen en tablets) of de secundaire besturingsbalk (op mobiele telefoons), inclusief opvulling. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
    <td colname="col2"> <p>Positie vanaf de rechterrand van de hoofdbesturingsbalk (op desktopsystemen en tablets) of de secundaire besturingsbalk (op mobiele telefoons), inclusief opvulling. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
    <td colname="col2"> <p>Positie vanaf de linkerrand van de hoofdbesturingsbalk (op desktopsystemen en tablets) of de secundaire besturingsbalk (op mobiele telefoons), inclusief opvulling. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
    <td colname="col2"> <p>Plaats vanaf de onderrand van de hoofdbesturingsbalk (op desktopsystemen en tablets) of de secundaire besturingsbalk (op mobiele telefoons), inclusief opvulling. </p> </td> 
   </tr> 
   <tr> 
@@ -49,19 +52,19 @@ De weergave van de pagina-indicator wordt bepaald door de volgende CSS-klassenki
    <td colname="col2"> <p>Breedte van de pagina-indicator. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van de pagina-indicator. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> kleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kleur  </span> </p> </td> 
    <td colname="col2"> <p>Fontkleur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Fontnaam. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekengrootte </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekengrootte  </span> </p> </td> 
    <td colname="col2"> <p>Tekengrootte. </p> </td> 
   </tr> 
  </tbody> 
