@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 07d41f71-e18d-4559-afc7-75dc1c45be93
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '224'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +23,7 @@ Decal size. Breedte, hoogte en dikte van een decaal materiaalobject.
 
 Drie echte getallen, gescheiden door komma&#39;s. Mag niet negatief zijn. Ongebruikte waarden instellen op 0. volgnullen mogen worden weggelaten.
 
-Geef alleen de breedte en de hoogte op als de afbeelding moet worden uitgerekt zodat deze binnen de opgegeven grootte past (de hoogte-breedteverhouding kan veranderen). Stel de breedte of hoogte in om de afbeelding proportioneel te schalen. Stel zowel de breedte als de hoogte in op 0 om de objectgrootte `catalog::Resolution`te bepalen.
+Geef alleen de breedte en de hoogte op als de afbeelding moet worden uitgerekt zodat deze binnen de opgegeven grootte past (de hoogte-breedteverhouding kan veranderen). Stel de breedte of hoogte in om de afbeelding proportioneel te schalen. Stel zowel de breedte als de hoogte in op 0 om `catalog::Resolution`de objectgrootte te bepalen.
 
 Geef een waarde voor de dikte op om een slagschaduw toe te voegen aan het decimale object. Facultatief voor decal materialen, genegeerd door alle andere materialen.
 
@@ -40,7 +43,7 @@ Geef een waarde voor de dikte op om een slagschaduw toe te voegen aan het decima
   <td class="stentry"> <p>Het decal is 5 duim breed, de hoogte wordt bepaald door de aspectverhouding van het beeld, en een slagschaduw wordt teruggegeven gebaseerd op een dikte van 1 duim. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>0,0,.5 </p></td> 
+  <td class="stentry"> <p>0,0, 0,5 </p></td> 
   <td class="stentry"> <p>De breedte en hoogte van het decal worden bepaald door de catalogus::Resolutie, en dat deze 1,5 cm dik is. </p></td> 
  </tr> 
 </table>
