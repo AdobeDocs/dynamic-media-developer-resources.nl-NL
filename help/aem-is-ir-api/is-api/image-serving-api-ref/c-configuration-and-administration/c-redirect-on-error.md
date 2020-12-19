@@ -32,9 +32,9 @@ De volgende typen verzoeken worden omgeleid:
 
 De omleiding van de fout zal in geen ander geval gebeuren.
 
-Wanneer toegelaten en wanneer zulk een fout tijdens de verwerking van het verzoek voorkomt, zal de primaire server het verzoek naar de secundaire server voor verwerking verzenden. De reactie, ongeacht of het op succes of mislukking wijst, wordt dan door:sturen direct aan de cliënt. De primaire servermarkeringen registreren ingangen van dergelijke door:sturen verzoeken met geheim voorgeheugengebruik `REMOTE`. De reactiegegevens worden niet lokaal door de primaire server in de cache geplaatst.
+Wanneer toegelaten en wanneer zulk een fout tijdens de verwerking van het verzoek voorkomt, zal de primaire server het verzoek naar de secundaire server voor verwerking verzenden. De reactie, ongeacht of het op succes of mislukking wijst, wordt dan door:sturen direct aan de cliënt. De primaire server markeert logboekingangen van dergelijke door:sturen verzoeken met geheim voorgeheugengebruik `REMOTE`. De reactiegegevens worden niet lokaal door de primaire server in de cache geplaatst.
 
-De omleiding van de fout wordt toegelaten door `PS::errorRedirect.rootUrl` aan de het domeinnaam en havenaantal van HTTP van de secundaire server te plaatsen. Bovendien wordt de verbindingstijd gevormd met `PS::errorRedirect.connectTimeout` en de maximumtijd de primaire server op een reactie van de secundaire server zal wachten alvorens een fout aan de cliënt terug te keren wordt gevormd met `PS::errorRedirect.socketTimeout`.
+De omleiding van de fout wordt toegelaten door `PS::errorRedirect.rootUrl` aan de het domeinnaam en havenaantal van HTTP van de secundaire server te plaatsen. Daarnaast wordt de time-out van de verbinding geconfigureerd met `PS::errorRedirect.connectTimeout` en wordt de maximale tijd die de primaire server wacht op een reactie van de secundaire server voordat een fout naar de client wordt geretourneerd, geconfigureerd met `PS::errorRedirect.socketTimeout`.
 
 >[!NOTE]
 >
