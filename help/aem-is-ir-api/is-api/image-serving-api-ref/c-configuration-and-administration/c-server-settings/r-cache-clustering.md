@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: ed6335d7-26c9-45d8-95f6-6c05e788e449
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '210'
+ht-degree: 0%
 
 ---
 
 
-# Cache-clustering{#cache-clustering}
+# Cache clustering{#cache-clustering}
 
 Gebruik deze serverinstellingen voor cacheclustering.
 
@@ -24,7 +27,7 @@ Lijst met IP-adressen, gescheiden door puntkomma&#39;s. Omvat de IP adressen van
 
 Stel dit in op Ja als een cacheitem dat door een peer-server wordt aangeboden, moet worden gekopieerd naar de lokale responscache.
 
-## PS::cacheCluster.queryTimeout - Time-out voor query {#section-8d2b10e15b3e44078d2d9bdb7c25bde0}
+## PS::cacheCluster.queryTimeout - Time-out query {#section-8d2b10e15b3e44078d2d9bdb7c25bde0}
 
 Wanneer een server een cachevermelding aanvraagt van peer-servers, wacht de server tot één server reageert op dit specifieke gegevensitem of totdat alle peer-servers hebben gereageerd dat ze het gegevensitem niet hebben of totdat de tijd die met deze instelling is opgegeven (in msec) is verlopen.
 
