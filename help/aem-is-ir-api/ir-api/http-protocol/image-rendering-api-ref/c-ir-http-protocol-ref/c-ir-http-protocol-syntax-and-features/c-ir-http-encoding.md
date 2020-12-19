@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 37bd0040-7bad-4548-ab39-7f598a217732
 translation-type: tm+mt
 source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Opdrachtwaarden moeten http-gecodeerd zijn met gebruik van %xx escape-reeksen, z
 
 Anders zijn de standaard HTTP-coderingsregels van toepassing. De HTTP-specificatie vereist codering van de onveilige tekens zoals &#39; &#39; (space), &#39;&#39;&#39; (dubbel aanhalingsteken), &#39;#&#39;, &#39;%&#39;, &#39;&lt;&#39; en &#39;>&#39;, en van alle besturingstekens, zoals `<return>` en `<tab>`.
 
-**Let op:** accolades { } die worden gebruikt als scheidingstekens voor het nesten van aanvragen, mogen niet worden gecodeerd. Bepaalde e-mailclients coderen helaas accolades in ingesloten HTTP-aanvraag. Mocht dit een probleem zijn, dan is bij het renderen van afbeeldingen het gebruik van haakjes ( ) in plaats van accolades toegestaan.
+**Let op:** accolades { } die als scheidingstekens voor nesten van aanvragen worden gebruikt, mogen niet worden gecodeerd. Bepaalde e-mailclients coderen helaas accolades in ingesloten HTTP-aanvraag. Mocht dit een probleem zijn, dan is bij het renderen van afbeeldingen het gebruik van haakjes ( ) in plaats van accolades toegestaan.
 
 ## Voorbeeld {#section-3edc5b8ee2354220a281b01722ad337a}
 
