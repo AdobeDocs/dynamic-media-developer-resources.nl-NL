@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: d19ed1c8-e13b-4da4-90e3-6bb0dcce2a12
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '85'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +32,7 @@ Deze parameter:
 
 Retourneert:
 
-Status van de taak op het moment dat de aanvraag voor verwijderen is ontvangen, fout als deze ongeldig `jobid` is of de taak al is verwijderd.
+Status van taak op het moment dat het verwijderingsverzoek werd ontvangen, fout als `jobid` ongeldig is of de taak al was verwijderd.
 
 ## Voorbeeld {#section-e0df8fc8e6554ba58e1fa937b8241ecf}
 
