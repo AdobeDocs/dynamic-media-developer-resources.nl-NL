@@ -8,11 +8,14 @@ topic: Scene7 Image Production System API
 uuid: f94637d2-84a2-4dcb-9158-e6a33728e505
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '53'
+ht-degree: 0%
 
 ---
 
 
-# Bewerkingen: Nieuw en gewijzigd{#operations-new-and-modified}
+# Bewerkingen: Nieuw en Gewijzigd{#operations-new-and-modified}
 
 Beschrijft nieuwe en veranderde verrichtingsmethodes voor IPS API versie 4.4.
 
