@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: eb8e79fa-893b-402c-a937-6d7121c95821
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 0%
 
 ---
 
 
 # Zoekfunctie{#search-feature}
 
-De viewer ondersteunt tekst die over de inhoud van de catalogus zoekt. De zoekfunctie werkt alleen als de functie Zoekwoorden uitnemen is ingeschakeld wanneer het bron-PDF-bestand naar Scene7 Publishing System wordt geüpload.
+De viewer ondersteunt tekst die over de inhoud van de catalogus zoekt. De zoekfunctie werkt alleen als de functie Zoekwoorden uitnemen is ingeschakeld wanneer het PDF-bronbestand naar het Scene7 Publishing System wordt geüpload.
 
 De zoekfunctie wordt geactiveerd door een zoekknop in de hoofdwerkbalk te activeren. Met deze handeling wordt een deelvenster met zoekresultaten weergegeven met een tekstinvoerveld. Een gebruiker kan een zoekopdracht uitvoeren met behulp van trefwoorden die van elkaar zijn gescheiden met spaties of met behulp van zinnen die tussen dubbele aanhalingstekens staan.
 
