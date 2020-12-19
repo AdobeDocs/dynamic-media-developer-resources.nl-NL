@@ -8,15 +8,18 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 72c4ed61-3436-4df5-b586-77808fb1903a
 translation-type: tm+mt
 source-git-commit: c5bac2c6e3f3a05bf69924072c4305dbd7ba1f4f
+workflow-type: tm+mt
+source-wordcount: '224'
+ht-degree: 0%
 
 ---
 
 
-# Opdrachtverwijzing{#command-reference}
+# Command reference{#command-reference}
 
 In deze sectie worden de HTTP-protocolopdrachten beschreven.
 
-**Alleen** voor dynamische media in AEM: Naast de basisafbeeldingsinstellingen die beschikbaar zijn in de gebruikersinterface, ondersteunt [!DNL Dynamic Media] AEM ( [!DNL Adobe Experience Manager]) tal van geavanceerde afbeeldingswijzigingen die u kunt opgeven in het veld **Afbeeldingswijzigingstoetsen** . Deze parameters worden hieronder gedefinieerd. Houd er echter rekening mee dat de volgende functionaliteit niet wordt ondersteund in Dynamic Media in AEM.
+**Alleen** voor Dynamic Media in AEM: Naast de basisafbeeldingsinstellingen die beschikbaar zijn in de gebruikersinterface, ondersteunt  [!DNL Dynamic Media] in AEM (  [!DNL Adobe Experience Manager]) tal van geavanceerde afbeeldingswijzigingen die u kunt opgeven in het veld  **Afbeeldingsaanpassingen** . Deze parameters worden hieronder gedefinieerd. Houd er echter rekening mee dat de volgende functionaliteit niet in Dynamic Media in AEM wordt ondersteund.
 
 * Opdrachten voor kleurcorrectie: `icc=` en `iccEmbed=`.
 * Standaardopdrachten voor sjablonen en tekstrendering: `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` en `textPs=`.
@@ -26,11 +29,11 @@ In deze sectie worden de HTTP-protocolopdrachten beschreven.
 * `req=saveToFile`
 * `req=targets`
 * `template=`
-* Niet-kernservices voor dynamische media: SVG, Afbeelding renderen en Web-to-Print.
+* Niet-kernservices van Dynamic Media: SVG, Afbeelding renderen en Web-to-Print.
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-Zie ook de Dynamische [Vooraf ingestelde Opties](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/managing-image-presets.html#image-preset-options) van het Beeld van Media in de documentatie AEM 6.5.
+Zie ook de Dynamic Media [Voorinstellingsopties voor afbeeldingen](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/managing-image-presets.html#image-preset-options) in de AEM 6.5-documentatie.
 
 * [align](r-align.md)
 * [anker](r-anchor.md)
