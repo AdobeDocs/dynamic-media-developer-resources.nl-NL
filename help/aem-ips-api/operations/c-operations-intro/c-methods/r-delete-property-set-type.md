@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 7a5232cc-fa3a-4dac-bf88-8b954dd37c87
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Verwijdert een type eigenschapset en de bijbehorende eigenschapset en eigenschap
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-16a17b4ebf9a4639bdb2784a2e9fe00d}
+## Toegestane gebruikerstypen {#section-16a17b4ebf9a4639bdb2784a2e9fe00d}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -39,7 +42,7 @@ IPS API keert geen reactie voor deze verrichting terug.
 
 ## Voorbeelden {#section-85faa2e3411a4e23aa6489037f7ce078}
 
-Deze codesteekproef gebruikt het handvat van het type als gebied in de `deletePropertySetTypeParam` verzonden naar de IPS de dienstenserver van het Web om het type van bezitsreeks te schrappen.
+Deze codesteekproef gebruikt het handvat van het type als gebied in `deletePropertySetTypeParam` die naar de IPS de dienstenserver van het Web wordt verzonden om het type van bezitsreeks te schrappen.
 
 **Verzoek**
 
