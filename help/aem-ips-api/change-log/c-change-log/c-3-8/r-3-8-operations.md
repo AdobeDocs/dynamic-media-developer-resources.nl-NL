@@ -8,11 +8,14 @@ topic: Scene7 Image Production System API
 uuid: e836c5af-53b8-4bfa-a93a-98750cca9745
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 0%
 
 ---
 
 
-# Bewerkingen: Nieuw en gewijzigd{#operations-new-and-modified}
+# Bewerkingen: Nieuw en Gewijzigd{#operations-new-and-modified}
 
 Beschrijft nieuwe en veranderde verrichtingsmethodes voor IPS API versie 3.8.
 
@@ -32,9 +35,9 @@ Syntaxis
 
 **searchAssets**
 
-* Met de optionele `publishState` parameter kunt u zoeken naar de status van het `MarkedForPublish/NotMarkedForPublish` element.
+* Met de optionele parameter `publishState` kunt u zoeken naar de elementstatus `MarkedForPublish/NotMarkedForPublish`.
 
 **getJobLogs**
 
-* Met de optionele `userHandle` parameter kunt u taaklogboeken ophalen die door een specifieke gebruiker zijn ingediend.
+* Met de optionele parameter `userHandle` kunt u taaklogboeken ophalen die door een specifieke gebruiker zijn ingediend.
 
