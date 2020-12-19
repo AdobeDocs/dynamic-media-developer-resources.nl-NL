@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 84a73ff4-e93f-4764-80e8-e15f1fec1aeb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 0%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Hiermee stelt u de lijst in met elementen die aan een afbeeldingsset zijn gekoppeld.
 
-Deze bewerking negeert de `pageReset` parameter voor `ImageSets` en `SpinSets` en dwingt de waarde tot true.
+Met deze bewerking wordt de parameter `pageReset` voor `ImageSets` en `SpinSets` genegeerd en wordt de waarde op true ingesteld.
 
-## Geautoriseerde gebruikerstypen {#section-8968d6a39a344cfc8521020d92ae8916}
+## Toegestane gebruikerstypen {#section-8968d6a39a344cfc8521020d92ae8916}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -46,19 +49,19 @@ Deze bewerking negeert de `pageReset` parameter voor `ImageSets` en `SpinSets` e
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> bedrijfshandle</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:tekenreeks</span> </p> </td> 
    <td colname="col3"> <p>Ja </p> </td> 
    <td colname="col4"> <p>Bedrijfshandgreep. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Afbeeldingssethandgreep. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:ImageSetMemberUpdateArray</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Array met elementleden die bij de afbeeldingsset horen. </td> 
