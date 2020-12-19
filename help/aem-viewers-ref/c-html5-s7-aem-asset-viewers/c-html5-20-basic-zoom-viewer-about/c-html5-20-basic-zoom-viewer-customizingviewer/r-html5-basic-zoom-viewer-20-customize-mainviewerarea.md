@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: f37b8d25-4bd6-481e-88e7-98192186b177
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '144'
+ht-degree: 0%
 
 ---
 
@@ -39,17 +42,17 @@ De vormgeving van het weergavegebied wordt bepaald door de volgende CSS-klassenk
    <td colname="col2"> <p>De breedte van de viewer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>De hoogte van de viewer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> Achtergrondkleur in hexadecimale notatie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voorbeeld: een viewer instellen met een witte achtergrond ( `#FFFFFF`) en de grootte instellen op 512 x 288 pixels.
+Voorbeeld - om een viewer met witte achtergrond ( `#FFFFFF`) in te stellen en zijn grootte 512 x 288 pixels te maken.
 
 ```
 .s7basiczoomviewer{ 
