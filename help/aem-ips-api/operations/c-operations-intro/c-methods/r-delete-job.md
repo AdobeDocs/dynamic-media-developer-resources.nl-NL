@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: c1109cae-a3ca-40db-b641-9a6fc116c964
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '97'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Hiermee wordt een huidige of geplande taak verwijderd.
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-1b959679dc8147c291126ddf7e061742}
+## Toegestane gebruikerstypen {#section-1b959679dc8147c291126ddf7e061742}
 
 * `IpsUser`
 * `IpsAdmin`
