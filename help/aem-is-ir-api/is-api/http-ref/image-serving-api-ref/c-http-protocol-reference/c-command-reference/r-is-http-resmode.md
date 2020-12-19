@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8e12aa06-072c-4e7a-84e6-01437c43c57b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '250'
+ht-degree: 0%
 
 ---
 
@@ -21,20 +24,20 @@ Modus Nieuwe pixels berekenen. Kies het algoritme voor resampling en/of interpol
 <table id="table_FD658AC521E24EB9ADBB87F98549BC3B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bilin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bilin  </span> </p> </td> 
    <td colname="col2"> <p>Hiermee selecteert u de standaard bi-lineaire interpolatie. Snelste methode voor het berekenen van nieuwe monsters; sommige aliasingartefacten kunnen waarneembaar zijn. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bicub </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bicub  </span> </p> </td> 
    <td colname="col2"> <p>Selecteert bi-cubische interpolatie. Meer CPU-intensief dan bi-lineaire interpolatie, maar levert scherpere beelden op met minder merkbare aliasing-artefacten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> sharp2 </span> </p> </td> 
-   <td colname="col2"> <p>Selecteert een gewijzigde functie van het Venster Lanczos als interpolatiealgoritme. Dit levert mogelijk iets scherpere resultaten op dan bi-cubisch tegen hogere CPU-kosten. <span class="codeph"> scherp </span> is vervangen door <span class="codeph"> shark2 </span>, waardoor het minder waarschijnlijk is dat aliasing artefacten (Moiré) wordt veroorzaakt. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sharp2  </span> </p> </td> 
+   <td colname="col2"> <p>Selecteert een gewijzigde functie van het Venster Lanczos als interpolatiealgoritme. Dit levert mogelijk iets scherpere resultaten op dan bi-cubisch tegen hogere CPU-kosten. <span class="codeph"> scherp  </span> is vervangen door  <span class="codeph"> shark2  </span>, waardoor het minder waarschijnlijk is dat aliasing artefacten (Moiré) wordt veroorzaakt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bisharp </span> </p> </td> 
-   <td colname="col2"> <p>Hiermee selecteert u standaardresampler voor Photoshop voor het reduceren van de afbeeldingsgrootte. Dit wordt 'bicubische scherper' genoemd in Adobe Photoshop. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bisharp  </span> </p> </td> 
+   <td colname="col2"> <p>Hiermee selecteert u Photoshop standaardreampler voor het reduceren van de afbeeldingsgrootte, de zogenaamde 'bicubische scherper' in Adobe Photoshop. </p> </td> 
   </tr> 
  </tbody> 
 </table>
