@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 7fe6ee2a-986d-464d-bc15-1e6444bcf13b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '77'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Hiermee worden alle gebruikers in een array opgehaald.
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-68ed5f5fcc5348308dfe074c590caeaa}
+## Toegestane gebruikerstypen {#section-68ed5f5fcc5348308dfe074c590caeaa}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -40,13 +43,13 @@ Syntaxis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> includeInvalid</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> includeInvalid</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:Boolean</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4">Instellen op: 
     <ul id="ul_FB9F59A8293B4CCA98E42EBF8412C77B"> 
-     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> true</span> om ongeldige gebruikers op te nemen. </li> 
-     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> false</span> om ongeldige gebruikers weg te laten. </li> 
+     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> Geef </span> aan dat u ongeldige gebruikers wilt opnemen. </li> 
+     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> Ongeldige gebruikers </span> weglaten. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
