@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 203fa949-a81e-455a-a83e-576b6f65e3af
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '190'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Haalt een type eigenschapset op met een greep naar een bedrijf en de naam van he
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-2b291d32f95b4a3d854429124cbae24c}
+## Toegestane gebruikerstypen {#section-2b291d32f95b4a3d854429124cbae24c}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -52,7 +55,7 @@ Syntaxis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> type</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:PropertySetType</span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4">De typestructuur die a bevat: 
