@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 0a5b9798-0e3f-4310-9b6e-0214a420951b
 translation-type: tm+mt
 source-git-commit: 94b8dde58cda2670f3e2f22f217599c23601e450
+workflow-type: tm+mt
+source-wordcount: '107'
+ht-degree: 0%
 
 ---
 
@@ -18,9 +21,9 @@ JavaScript API-referentie voor Interactive Video Viewer.
 
 ` setParams( *`param`*)`
 
-Stelt een of meer parameters in op een bepaalde waarde. De syntaxis van het methodeargument is identiek aan een URL vraagkoord. Namelijk vertegenwoordigt het naam=waarde paren die met worden gescheiden `&`. Net als in een queryreeks zijn de namen en waarden procentueel gecodeerd met UTF8. Voordat u aanroept `init()`, moet deze parameter worden aangeroepen.
+Stelt een of meer parameters in op een bepaalde waarde. De syntaxis van het methodeargument is identiek aan een URL vraagkoord. Namelijk vertegenwoordigt het naam=waarde paren die met `&` worden gescheiden. Net als in een queryreeks zijn de namen en waarden procentueel gecodeerd met UTF8. Voordat u `init()` aanroept, moet deze parameter worden aangeroepen.
 
-Deze methode is optioneel als de configuratiegegevens van de viewer samen met het JSON-object aan de constructor zijn doorgegeven. `config`
+Deze methode is optioneel als de configuratiegegevens van de viewer samen met het JSON-object `config` zijn doorgegeven aan de constructor.
 
 Zie ook [init](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
@@ -30,8 +33,8 @@ Zie ook [init](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> params</span></span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value parameterparen gescheiden met <span class="codeph"> &amp;</span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> param</span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value parameterparen gescheiden met  <span class="codeph"> &amp;</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
