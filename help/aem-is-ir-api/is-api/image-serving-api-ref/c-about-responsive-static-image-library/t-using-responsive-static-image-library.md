@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 325cdc8d-2bfa-4f9b-bf88-51d1dcc6c495
 translation-type: tm+mt
 source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+workflow-type: tm+mt
+source-wordcount: '580'
+ht-degree: 0%
 
 ---
 
@@ -18,31 +21,31 @@ Voer de volgende stappen uit om een bibliotheek met responsieve afbeeldingen aan
 
 **De bibliotheek met responsieve afbeeldingen gebruiken**
 
-1. In SPS, [creeer een Vooraf ingesteld](http://help.adobe.com/en_US/scene7/using/WS2F6A1049-B41F-447d-A520-91227F9CDABF.html) Beeld voor het geval u de Responsieve bibliotheek van het Beeld met vooraf instelt van plan bent te gebruiken.
+1. In SPS, [creeer een Vooraf ingesteld Beeld ](http://help.adobe.com/en_US/scene7/using/WS2F6A1049-B41F-447d-A520-91227F9CDABF.html) voor het geval u van plan bent om de Responsieve bibliotheek van het Beeld met vooraf instelt te gebruiken.
 
-   Als u voorinstellingen voor afbeeldingen definieert die worden gebruikt met de bibliotheek met responsieve afbeeldingen, gebruikt u geen instellingen die de afbeeldingsgrootte beïnvloeden, zoals `wid=`, `hei=`of `scl=`. Geef geen velden voor de grootte op in de voorinstelling Afbeelding. Laat ze in plaats daarvan leeg.
+   Wanneer u Voorinstellingen voor afbeeldingen definieert die worden gebruikt in de bibliotheek met responsieve afbeeldingen, mag u geen instellingen gebruiken die van invloed zijn op de afbeeldingsgrootte, zoals `wid=`, `hei=` of `scl=`. Geef geen velden voor de grootte op in de voorinstelling Afbeelding. Laat ze in plaats daarvan leeg.
 1. Voeg het JavaScript-bibliotheekbestand toe aan uw webpagina.
 
-   Voordat u de bibliotheek-API kunt gebruiken, moet u controleren of u deze invoegt `responsive_image.js`. Dit JavaScript-bestand bevindt zich in de `libs/` submap van uw standaard IS-Viewers-implementatie:
+   Voordat u bibliotheek-API kunt gebruiken, moet u `responsive_image.js` opnemen. Dit JavaScript-bestand bevindt zich in de submap `libs/` van uw standaard IS-Viewers-implementatie:
 
    `<s7viewers_root>/libs/responsive_image.js`
 1. Bestaande afbeeldingen instellen.
 
-   De bibliotheek leest bepaalde configuratiekenmerken van een afbeeldingsinstantie waarmee het werkt. Definieer kenmerken voordat de API-functie voor een dergelijke afbeelding wordt aangeroepen. `s7responsiveImage`
+   De bibliotheek leest bepaalde configuratiekenmerken van een afbeeldingsinstantie waarmee het werkt. Definieer kenmerken voordat de API-functie `s7responsiveImage` voor een dergelijke afbeelding wordt aangeroepen.
 
-   U kunt ook de bestaande afbeeldings-URL in het `data-src` kenmerk plaatsen. Stel vervolgens het bestaande `src` kenmerk zo in dat een 1x1 GIF-afbeelding wordt gecodeerd als Data URI. Hiermee vermindert u het aantal HTTP-aanvragen dat door de webpagina tijdens het laden wordt verzonden. Als SEO (zoekmachine optimaliseren) nodig is, is het echter beter om een `title` kenmerk voor de afbeeldingsinstantie in te stellen.
+   Het wordt ook geadviseerd dat u het bestaande beeld URL in het `data-src` attribuut plaatst. Stel vervolgens het bestaande `src`-kenmerk zo in dat een 1x1 GIF-afbeelding wordt gecodeerd als Data URI. Hiermee vermindert u het aantal HTTP-aanvragen dat door de webpagina tijdens het laden wordt verzonden. Als SEO (zoekmachine optimaliseren) nodig is, is het echter beter om een `title`-kenmerk in te stellen voor de afbeeldingsinstantie.
 
-   Hieronder ziet u een voorbeeld van het definiëren van een `data-breakpoints` kenmerk voor de afbeelding en het gebruik van een GIF-code van 1 x 1 die is gecodeerd als Data URI:
+   Hieronder ziet u een voorbeeld van het definiëren van `data-breakpoints`-kenmerk voor de afbeelding en het gebruik van een 1x1 GIF-code die is gecodeerd als Data URI:
 
    ```
    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
    ```
 
-1. Roep de `s7responsiveImage` API-functie aan voor elke afbeeldingsinstantie die in de bibliotheek wordt beheerd.
+1. Roep de API-functie `s7responsiveImage` aan voor elke afbeeldingsinstantie die in de bibliotheek wordt beheerd.
 
-   Roep de `s7responsiveImage` API-functie aan voor elke afbeeldingsinstantie die in de bibliotheek wordt beheerd. Na een dergelijke aanroep vervangt de bibliotheek de oorspronkelijke afbeelding door de afbeelding die is gedownload van Image Serving, afhankelijk van de runtimegrootte van het `IMG` element in de webpaginalay-out en de schermdichtheid van het apparaat.
+   Roep de API-functie `s7responsiveImage` aan voor elke afbeeldingsinstantie die in de bibliotheek wordt beheerd. Na een dergelijke aanroep vervangt de bibliotheek de oorspronkelijke afbeelding door de afbeelding die is gedownload van Image Serving, afhankelijk van de runtimegrootte van het element `IMG` in de webpaginalay-out en de schermdichtheid van het apparaat.
 
-   De volgende code is een voorbeeld van het aanroepen van `s7responsiveImage` API-functie op een afbeelding, ervan uitgaande dat dit een id van die afbeelding `responsiveImage` is:
+   De volgende code is een voorbeeld van het aanroepen van de API-functie `s7responsiveImage` op een afbeelding, ervan uitgaande dat `responsiveImage` een id van die afbeelding is:
 
    ```
    <script type="text/javascript"> 
@@ -85,12 +88,12 @@ De volgende code is een volledig voorbeeld van een triviale webpagina met één 
 
 **Slim uitsnijden gebruiken**
 
-Er zijn twee Slimme wijzen van het Gewas beschikbaar in AEM 6.4 en Kijkers Scene7 5.9:
+Er zijn twee modi voor slim uitsnijden beschikbaar in AEM 6.4 en Scene7 Viewers 5.9:
 
-* **Handmatig** - door de gebruiker gedefinieerde onderbrekingspunten en de bijbehorende opdrachten in de Image Service worden gedefinieerd binnen een kenmerk in het afbeeldingselement.
-* **Slim uitsnijden** - berekende slimme uitsnijduitvoeringen worden automatisch opgehaald van de leveringsserver. De beste vertoning wordt geselecteerd gebruikend de runtime grootte van het beeldelement.
+* **Handmatig**  door de gebruiker gedefinieerde onderbrekingspunten en de bijbehorende opdrachten voor Image Service worden gedefinieerd binnen een kenmerk in het afbeeldingselement.
+* **Smart Crop**  - berekende Smart Crop-uitvoeringen worden automatisch opgehaald van de leveringsserver. De beste vertoning wordt geselecteerd gebruikend de runtime grootte van het beeldelement.
 
-Als u de modus Slim uitsnijden wilt gebruiken, stelt u het `data-mode` kenmerk in op `smart crop`. Bijvoorbeeld:
+Als u de modus Slim uitsnijden wilt gebruiken, stelt u het kenmerk `data-mode` in op `smart crop`. Bijvoorbeeld:
 
 ```
 <img 
@@ -99,7 +102,7 @@ data-src="https://imageserver.com/is/image/ExampleCo/SmartCropAsset"
 data-mode="smartcrop">
 ```
 
-Het gekoppelde afbeeldingselement verzendt een `s7responsiveViewer` gebeurtenis tijdens runtime wanneer het onderbrekingspunt verandert.
+Het gekoppelde afbeeldingselement verzendt een `s7responsiveViewer`-gebeurtenis tijdens runtime wanneer het onderbrekingspunt verandert.
 
 ```
          responsiveImage.addEventListener("s7responsiveViewer", function (event) { 
