@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: 46ec9a5d-4414-4c9c-aaf2-0db654204b61
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 0%
 
 ---
 
 
-# getprojects{#getprojects}
+# getProjecten{#getprojects}
 
 Hiermee worden projecten opgehaald voor een groep gerelateerde activa.
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-337649866b1f4098844d1974ed7ab5d0}
+## Toegestane gebruikerstypen {#section-337649866b1f4098844d1974ed7ab5d0}
 
 * `IpsUser`
 * `IpsAdmin`
