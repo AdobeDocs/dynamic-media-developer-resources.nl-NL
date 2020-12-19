@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: cfc45f83-1cf9-4c50-9aac-5a731e62a839
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 0%
 
 ---
 
 
-# getZipEntry{#getzipentries}
+# getZipEnapters{#getzipentries}
 
 Retourneert Zip-bestandsgegevens.
 
 Syntaxis
 
-## Geautoriseerde gebruikerstypen {#section-33a3f03ba8a14086922397619ce12ab8}
+## Toegestane gebruikerstypen {#section-33a3f03ba8a14086922397619ce12ab8}
 
 * `IpsUser`
 * `IpsAdmin`
