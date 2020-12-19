@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: a918c775-a36a-44e8-9ca4-90cb8f5c3a5e
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '291'
+ht-degree: 0%
 
 ---
 
 
-# Zoomweergave flyout{#flyout-zoom-view}
+# Zoomweergave in flyout{#flyout-zoom-view}
 
 De hoofdweergave bestaat uit de statische afbeelding, de ingezoomde afbeelding die boven op de statische afbeelding wordt weergegeven in de vervolgweergave en het uiteindebericht dat boven op de statische afbeelding wordt weergegeven.
 
@@ -35,7 +38,7 @@ De vormgeving van de hoofdweergave wordt bepaald door de volgende CSS-klassenkie
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> De achtergrondkleur van de hoofdweergave. </p> </td> 
   </tr> 
  </tbody> 
@@ -57,7 +60,7 @@ De vormgeving van het tip-bericht wordt bepaald door de volgende CSS-klassenkiez
 .s7flyoutviewer .s7flyoutzoomview .s7tip
 ```
 
-Het is mogelijk lettertypestijl, vormgeving van grootte en verticale verschuiving te configureren via CSS. De horizontale uitlijning wordt echter beheerd door de viewerlogica. Het overschrijven van de eigenschap via CSS met behulp `left` van eigenschappen of `right` eigenschappen wordt niet ondersteund.
+Het is mogelijk lettertypestijl, vormgeving van grootte en verticale verschuiving te configureren via CSS. De horizontale uitlijning wordt echter beheerd door de viewerlogica. Het overschrijven van een item via CSS met de eigenschappen `left` of `right` wordt niet ondersteund.
 
 <table id="table_DCF6B69A9D8C4DB7A10C4572F7484799"> 
  <thead> 
@@ -68,36 +71,36 @@ Het is mogelijk lettertypestijl, vormgeving van grootte en verticale verschuivin
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
    <td colname="col2"> <p>Verschuiving vanaf de onderkant van de hoofdweergave. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> kleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kleur  </span> </p> </td> 
    <td colname="col2"> <p>Tekstkleur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Fontnaam. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekengrootte </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekengrootte  </span> </p> </td> 
    <td colname="col2"> <p>Tekengrootte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
    <td colname="col2"> <p>Opvulling rond de berichttekst. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>De achtergrondvulkleur van berichttekst. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p>Straal achtergrondrand van berichttekst. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> dekking </span> </p> </td> 
-   <td colname="col2"> <p>Achtergronddekking van berichttekst. </p> <p>Gebruik voor Internet Explorer 8 <span class="codeph"> filter:alpha(opacity-...)) </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> dekking  </span> </p> </td> 
+   <td colname="col2"> <p>Achtergronddekking van berichttekst. </p> <p>Gebruik voor Internet Explorer 8 <span class="codeph"> filter:alpha(opacity-...) ) </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
