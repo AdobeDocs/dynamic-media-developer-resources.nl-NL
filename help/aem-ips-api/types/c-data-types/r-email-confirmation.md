@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: c3b7aada-a03a-418d-80b2-31a86a1af786
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '90'
+ht-degree: 0%
 
 ---
 
@@ -22,6 +25,6 @@ Syntaxis
 
 | Naam | Type | Beschrijving |
 |---|---|---|
-| ` *`ccOriginator`*` | `xsd:boolean` | Indien waar, omvat de rekening van de de Webdienst van de gebruiker, die een lijst van e-mails is die wordt aangewezen om een e-mailbevestiging van CDN te ontvangen Scene7. |
-| ` *`ccOthersArray`*` | `types:EmailArray` | Een serie van e-mailadressen (maximaal 5) die wordt aangewezen om het bevestigingsbericht van Scene7 CDN te ontvangen. |
+| ` *`ccOriginator`*` | `xsd:boolean` | Indien waar (true), wordt de gebruikersaccount voor de webservice van de gebruiker opgenomen. Dit is een lijst met e-mailberichten die zijn toegewezen voor het ontvangen van een e-mailbevestiging van de Scene7 CDN. |
+| ` *`ccOthersArray`*` | `types:EmailArray` | Een array met e-mailadressen (maximaal 5) die is opgegeven voor het ontvangen van het bevestigingsbericht van de Scene7 CDN. |
 
