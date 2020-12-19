@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: af4d5c28-f7c1-4f89-943e-386a5f83474f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Syntaxis
 
 | Naam | Type | Beschrijving |
 |---|---|---|
-| ` *`layerNaming`*` | `xsd:string` | Keuze uit laagnaamgevingsmodi in Photoshop. |
+| ` *`layerNaming`*` | `xsd:string` | Keuze uit Photoshop-laagnaamgevingsmodi. |
 | ` *`anker`*` | `xsd:string` | Keuze uit Photoshop-ankermodi. |
 | ` *`createTemplate`*` | `xsd:boolean` | Of u een sjabloon maakt op basis van Photoshop-lagen. |
 | ` *`extractText`*` | `xsd:boolean` | Of tekst moet worden geëxtraheerd als tekstlagen. |
