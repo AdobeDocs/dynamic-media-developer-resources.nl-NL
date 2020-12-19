@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 553d91a3-73d6-4323-9436-a3ba13260a6c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +24,7 @@ Hiermee worden gebruikers verwijderd uit een array van groepen.
 * `removeGroupMembers`: Hiermee verwijdert u meerdere gebruikers uit een groep.
 * `removeGroupMembership`: Verwijdert een individuele gebruiker uit een serie van groepen.
 
-## Geautoriseerde gebruikerstypen {#section-83f3048bbe5a4f62b7b14dc9efdd951a}
+## Toegestane gebruikerstypen {#section-83f3048bbe5a4f62b7b14dc9efdd951a}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
