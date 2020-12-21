@@ -72,7 +72,7 @@ De uploadtaak bestaat uit een of meer HTTP POST&#39;s die een gemeenschappelijke
 |`file params` |  Optioneel. U kunt een of meer bestanden opnemen om te uploaden bij elke aanvraag van een POST. Elk dossierdeel kan filename parameter in de inhoud-plaats kopbal omvatten die als doelfilename in IPS wordt gebruikt als geen `uploadPostParams/fileName` parameter wordt gespecificeerd. |
 
 | HTTP-POST maakt deel uit  | naam van uploadPostParams-element  | Type  | Beschrijving  |
-|-|-|-|-|-|-
+|-|-|-|-|-|-|
 |`uploadParams` (Vereist. Een XML `uploadParams`-document dat de uploadparameters opgeeft)  |  `companyHandle` | `xsd:string` | Vereist. Verwerk het bedrijf waarnaar het bestand wordt geüpload. |
 |`uploadParams` (Vereist. Een XML `uploadParams`-document dat de uploadparameters opgeeft)|`jobName` | `xsd:string` | Of `jobName` of `jobHandle` is vereist. Naam van de uploadtaak. |
 |`uploadParams` (Vereist. Een XML `uploadParams`-document dat de uploadparameters opgeeft)|`jobHandle` | `xsd:string` | Of `jobName` of `jobHandle` is vereist. Afhandeling van een uploadtaak die in een vorige aanvraag is gestart. |
