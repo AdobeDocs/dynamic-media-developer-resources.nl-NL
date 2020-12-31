@@ -7,7 +7,7 @@ title: Elementen uploaden via HTTP POST's naar de UploadFile-server
 topic: Scene7 Image Production System API
 uuid: 8d562316-0849-4b95-a974-29732d453dc8
 translation-type: tm+mt
-source-git-commit: dac273f51703fd63f1d427fbb7713fcc79bfa2c4
+source-git-commit: 5d738b675975251dc3491ac7ae533eda082df134
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 0%
@@ -66,22 +66,22 @@ De uploadtaak bestaat uit een of meer HTTP POST&#39;s die een gemeenschappelijke
 >
 >Alle verzoeken van de POST om een uploadbaan moeten van het zelfde IP adres voortkomen.
 
-| HTTP-POST maakt deel uit van | Beschrijving |
-|-|-|
-|`auth` |  Vereist. Een XML authHeader-document waarin verificatie- en clientgegevens zijn opgegeven. Zie **Verificatie aanvragen** onder [SOAP](/help/aem-ips-api/c-wsdl-versions.md). |
-|`file params` |  Optioneel. U kunt een of meer bestanden opnemen om te uploaden bij elke aanvraag van een POST. Elk dossierdeel kan filename parameter in de inhoud-plaats kopbal omvatten die als doelfilename in IPS wordt gebruikt als geen `uploadPostParams/fileName` parameter wordt gespecificeerd. |
+|  HTTP-POST maakt deel uit van  |  Beschrijving  |
+|---|---|
+| `auth`  |   Vereist. Een XML authHeader-document waarin verificatie- en clientgegevens zijn opgegeven. Zie **Verificatie aanvragen** onder [SOAP](/help/aem-ips-api/c-wsdl-versions.md). |
+| `file params`  |   Optioneel. U kunt een of meer bestanden opnemen om te uploaden bij elke aanvraag van een POST. Elk dossierdeel kan filename parameter in de inhoud-plaats kopbal omvatten die als doelfilename in IPS wordt gebruikt als geen `uploadPostParams/fileName` parameter wordt gespecificeerd. |
 
-| HTTP-POST maakt deel uit  | naam van uploadPostParams-element  | Type  | Beschrijving  |
-|-|-|-|-|-|-|
-|`uploadParams` (Vereist. Een XML `uploadParams`-document dat de uploadparameters opgeeft)  |  `companyHandle` | `xsd:string` | Vereist. Verwerk het bedrijf waarnaar het bestand wordt geüpload. |
-|`uploadParams` (Vereist. Een XML `uploadParams`-document dat de uploadparameters opgeeft)|`jobName` | `xsd:string` | Of `jobName` of `jobHandle` is vereist. Naam van de uploadtaak. |
-|`uploadParams` (Vereist. Een XML `uploadParams`-document dat de uploadparameters opgeeft)|`jobHandle` | `xsd:string` | Of `jobName` of `jobHandle` is vereist. Afhandeling van een uploadtaak die in een vorige aanvraag is gestart. |
-|`uploadParams` (Vereist. Een XML `uploadParams`-document dat de uploadparameters opgeeft)|`locale` | `xsd:string` | Optioneel. Taal- en landcode voor lokalisatie. |
-|`uploadParams` (Vereist. Een XML `uploadParams`-document dat de uploadparameters opgeeft)|`description` | `xsd:string` | Optioneel. Beschrijving van de taak. |
-|`uploadParams` (Vereist. Een XML `uploadParams`-document dat de uploadparameters opgeeft)|`destFolder` | `xsd:string` | Optioneel. Doelmappad naar voorvoegsel voor een bestandseigenschap, met name voor browsers en andere clients die mogelijk geen volledige paden in een bestandsnaam ondersteunen. |
-|`uploadParams` (Vereist. Een XML `uploadParams`-document dat de uploadparameters opgeeft)|`fileName` | `xsd:string` | Optioneel. Naam van het doelbestand. Hiermee wordt de eigenschap filename genegeerd. |
-|`uploadParams` (Vereist. Een XML `uploadParams`-document dat de uploadparameters opgeeft)|`endJob` | `xsd:boolean` | Optioneel. De standaardwaarde is false. |
-|`uploadParams` (Vereist. Een XML `uploadParams`-document dat de uploadparameters opgeeft)|`uploadParams` | `types:UploadPostJob` | Optioneel als dit een volgende aanvraag voor een bestaande actieve taak is. Als er een bestaande taak is, wordt `uploadParams` genegeerd en worden de bestaande taakuploadparameters gebruikt. Zie [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) |
+|  HTTP-POST maakt deel uit van   |  uploadPostParams, elementnaam   |  Type   |  Beschrijving   |
+|---|---|---|---|
+| `uploadParams` (Vereist. Een XML `uploadParams`-document dat de uploadparameters opgeeft)   |   `companyHandle`  |  `xsd:string`  | Vereist. Verwerk het bedrijf waarnaar het bestand wordt geüpload.  |
+| `uploadParams` (Vereist. Een XML `uploadParams`-document dat de uploadparameters opgeeft) | `jobName`  |  `xsd:string`  | Ofwel `jobName` of `jobHandle` is vereist. Naam van de uploadtaak.  |
+| `uploadParams` (Vereist. Een XML `uploadParams`-document dat de uploadparameters opgeeft) | `jobHandle`  |  `xsd:string`  | Ofwel `jobName` of `jobHandle` is vereist. Afhandeling van een uploadtaak die in een vorige aanvraag is gestart.  |
+| `uploadParams` (Vereist. Een XML `uploadParams`-document dat de uploadparameters opgeeft) | `locale`  |  `xsd:string`  | Optioneel. Taal- en landcode voor lokalisatie.  |
+| `uploadParams` (Vereist. Een XML `uploadParams`-document dat de uploadparameters opgeeft) | `description`  |  `xsd:string`  | Optioneel. Beschrijving van de taak.  |
+| `uploadParams` (Vereist. Een XML `uploadParams`-document dat de uploadparameters opgeeft) | `destFolder`  |  `xsd:string`  | Optioneel. Doelmappad naar voorvoegsel voor een bestandseigenschap, met name voor browsers en andere clients die mogelijk geen volledige paden in een bestandsnaam ondersteunen.  |
+| `uploadParams` (Vereist. Een XML `uploadParams`-document dat de uploadparameters opgeeft) | `fileName`  |  `xsd:string`  | Optioneel. Naam van het doelbestand. Hiermee wordt de eigenschap filename genegeerd. |
+| `uploadParams` (Vereist. Een XML `uploadParams`-document dat de uploadparameters opgeeft) | `endJob`  |  `xsd:boolean`  | Optioneel. De standaardwaarde is false. |
+| `uploadParams` (Vereist. Een XML `uploadParams`-document dat de uploadparameters opgeeft) | `uploadParams`  |  `types:UploadPostJob`  | Optioneel als dit een volgende aanvraag voor een bestaande actieve taak is. Als er een bestaande taak is, wordt `uploadParams` genegeerd en worden de bestaande taakuploadparameters gebruikt. Zie [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) |
 
 Binnen het `<uploadPostParams>` blok is het `<uploadParams>` blok dat de verwerking van de inbegrepen dossiers aanwijst.
 
