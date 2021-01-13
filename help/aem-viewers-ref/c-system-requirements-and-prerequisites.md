@@ -1,32 +1,29 @@
 ---
-description: Systeemvereisten voor HTML5-viewers.
-seo-description: Systeemvereisten voor HTML5-viewers.
-seo-title: Systeemvereisten
+title: Systeemvereisten voor Dynamic Media HTML5-viewers
+description: Systeemvereisten voor Dynamic Media HTML5-viewers.
 solution: Experience Manager
-title: Systeemvereisten
 topic: Dynamic media
 contentOwner: Rick Brough
-uuid: d282af6a-112e-48d6-b3ad-bec0648f4654
 translation-type: tm+mt
-source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
+source-git-commit: 07eb6cf84a46753b41307187d5c5b2a077fa9009
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
 
 
-# Systeemvereisten{#system-requirements}
+# Systeemvereisten voor Dynamic Media HTML5-viewers{#system-requirements}
 
-Systeemvereisten voor HTML5-viewers.
+Systeemvereisten voor Dynamic Media HTML5-viewers.
 
-<!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
+<!-- Updated January 13, 2021 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
 ## Serverhardware en -software {#section-05099146f1f0418988c196635110bee6}
 
-* Dynamic Media Classic Image Serving 6.7.1 of hoger.
-* Voor HTML5-viewers zijn SDK JavaScript Server-side bibliotheken 3.9.1 of hoger vereist.
-* Voor sociale functies van &quot;Email a Friend&quot; is s7ondemand 5.0.7 of hoger vereist.
+* Dynamic Media Classic (voorheen Scene7) Image Serving 6.7.1 of hoger.
+* Voor HTML5-viewers zijn SDK JavaScript Server-side bibliotheken 3.10.2 of hoger vereist.
+* Voor sociale functies van &quot;Email a Friend&quot; is s7ondemand 5.0.9 of hoger vereist.
 * eCatalog Viewer - Ondersteuning voor het deelvenster Info vereist Infoserver 2.1.8 of hoger.
 * Componenten van zoekfuncties vereisen s7search 2.3.0 of hoger.
 
@@ -35,17 +32,15 @@ Systeemvereisten voor HTML5-viewers.
 **Minimumeisen voor de clientbrowser voor componentviewers**
 
 * Microsoft® Windows® 7 of hoger; macOS X 10.12 of hoger.
-* Firefox 69, Safari 11 (alleen macOS), Chrome 75 (of de nieuwste versie; Chrome wordt automatisch bijgewerkt naar de nieuwste versie), Internet Explorer 11, Microsoft Edge.
+* Firefox 74, Safari 11 (alleen macOS), Chrome 78 (of de nieuwste versie; Chrome wordt automatisch bijgewerkt naar de nieuwste versie), Internet Explorer 11, Microsoft Edge.
 * iOS6 of hoger.
 * Gecertificeerd op iPhone 3GS of hoger en iPad 2 of hoger (alleen voor Safari- en Chrome-browsers).
 * Android OS 4.x of hoger.
 * BlackBerry 10 of hoger; alleen native browsers. Het afspelen van video&#39;s wordt momenteel alleen ondersteund.
 * Internet Explorer op mobiele apparaten wordt momenteel niet ondersteund.
-* Panoramische viewer wordt ondersteund in iOS 10 of hoger, Firefox 69, Chrome 75, Safari 11 of hoger, Internet Explorer 11 of hoger, Microsoft Edge, Android 4.4 of hoger (alleen voor telefoonapparaten).
-* Video 360-viewer en DIMM-viewer worden ondersteund in iOS 12 of hoger, Firefox 69, Chrome 75, Safari 12 of hoger, Microsoft Edge, Android 5 of hoger (alleen voor telefoonapparaten).
-* Verticale zoomviewer wordt ondersteund in iOS 10 of hoger, Firefox 69, Chrome 75, Safari 11 of hoger, Internet Explorer 11, Microsoft Edge, Android 4.x of hoger.
-
-<!--<a id="section_1486A48CD38F42E3956E022A48207727"></a>-->
+* Panoramische viewer wordt ondersteund in iOS 10 of hoger, Firefox 74, Chrome 78, Safari 11 of hoger, Internet Explorer 11 of hoger, Microsoft Edge, Android 4.4 of hoger (alleen voor telefoonapparaten).
+* Video360Viewer en DimensionalViewer worden ondersteund in iOS12 of hoger, Firefox 74, Chrome 78, Safari 12 of hoger, Microsoft Edge, Android 5 of hoger (alleen voor telefoonapparaten).
+* ZoomVerticalViewer wordt ondersteund in iOS 10 of hoger, Firefox 74, Chrome 78, Safari 11 of hoger, Internet Explorer 11, Microsoft Edge, Android 4.x of hoger.
 
 >[!NOTE]
 >
@@ -67,10 +62,12 @@ Systeemvereisten voor HTML5-viewers.
 * OpenSSL 0.9.8y
 * Baidu Januari 2015
 
-<!--<a id="section_CF857D27B09D4B09999D79DA2628DDEE"></a>-->
+<!-- 
 
 >[!NOTE]
 >
->FLASH VIEWERS EIND-VAN-LEVEND-Inwerkingtreding 31 Januari, 2017, beëindigde het Uitgeven van Adobe Scene7 Systeem officieel steun voor het de kijkersplatform van Flash. Raadpleeg de volgende website met veelgestelde vragen voor meer informatie over deze belangrijke wijziging:
+>FLASH VIEWERS END-OF-LIFE—Effective January 31, 2017, Adobe Scene7 Publishing System officially ended support for the Flash viewer platform. For more information about this important change, see the following FAQ website:
 
-[https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
+[https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).  
+
+-->
