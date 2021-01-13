@@ -4,7 +4,7 @@ product: adobe
 archtype: end-user
 user-guide-title: Dynamic Media Viewers Reference Guide
 translation-type: tm+mt
-source-git-commit: 07eb6cf84a46753b41307187d5c5b2a077fa9009
+source-git-commit: 68497a2779c5a1fc6bd42d03f38c3ac104460709
 workflow-type: tm+mt
 source-wordcount: '1901'
 ht-degree: 1%
@@ -36,6 +36,8 @@ ht-degree: 1%
       + [Opmerkingen bij de release van Scene7 Viewers 5.0.1](c-release-notes/c-archive/c-rn-04-29-14.md)
       + [Opmerkingen bij de release Scene7 Viewers 4.9.2](c-release-notes/c-archive/c-rn-09-18-13.md)
 + [Compatibiliteitsnotities](c-compatibility-notes.md)
++ [Toetsenbordtoegankelijkheid en -navigatie](c-keyboard-accessibility.md)
++ [Zelfstudie voor viewer-SDK](c-tutorial.md)
 + Viewers voor AEM Assets en Dynamic Media Classic {#viewers-aem-assets-dmc}
    + [Viewers voor AEM Assets en Dynamic Media Classic](c-html5-s7-aem-asset-viewers/c-html5-s7-aem-asset-viewers.md)
    + Standaardzoom {#basic-zoom}
@@ -791,12 +793,12 @@ ht-degree: 1%
          + [InteractiveSwatches.autoscroll](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-interactiveswatches-autoscroll.md)
          + [InteractiveSwatches.direction](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-interactiveswatches-direction.md)
          + [InteractiveSwatches.displayMode](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-interactiveswatches-displaymode.md)
-         + [InteractiveSwatches.enableDrag](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-interactiveswatches-enabledragging.md)
+         + [InteractiveSwatches.enabledragging](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-interactiveswatches-enabledragging.md)
          + [InteractiveSwatches.fmt](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-interactiveswatches-fmt.md)
          + [InteractiveSwatches.maxloadradius](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-interactiveswatches-maxloadradius.md)
          + [InteractiveSwatches.scrollstep](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-interactiveswatches-scrollstep.md)
          + [InteractiveSwatches.textpos](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-interactiveswatches-textpos.md)
-         + [SociaalDelen.delen](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-socialshare-bearing.md)
+         + [SocialShare.iling](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-socialshare-bearing.md)
          + [VideoPlayer.autoplay](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-autoplay.md)
          + [VideoPlayer.iconeffect](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-iconeffect.md)
          + [VideoPlayer.initialbitrate](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-initialbitrate.md)
@@ -806,7 +808,7 @@ ht-degree: 1%
          + [VideoPlayer.posterimage](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-posterimage.md)
          + [VideoPlayer.preload](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-preload.md)
          + [VideoPlayer.progressivebitrate](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-progressivebitrate.md)
-         + [VideoPlayer.singleClick](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-singleclick.md)
+         + [VideoPlayer.singleclick](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-singleclick.md)
          + [VideoPlayer.ssl](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-ssl.md)
          + [VideoPlayer.waiticon](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-waiticon.md)
          + [VideoScrubber.chaptertimepattern](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoscrubber-chaptertimepattern.md)
@@ -814,7 +816,7 @@ ht-degree: 1%
          + [VideoScrubber.showchaptertitle](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoscrubber-showchaptertitle.md)
          + [VideoScrubber.timepattern](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoscrubber-timepattern.md)
          + [VideoTime.timepattern](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videotime-timepattern.md)
-      + Opdrachtverwijzing - URL {#command-reference-url-interactive-video}
+      + Command reference - URL {#command-reference-url-interactive-video}
          + [Opdrachtverwijzing - URL](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-cmdref-url/c-html5-aem-int-video-cmdref-url.md)
          + [bijschrift](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-cmdref-url/r-html5-aem-int-video-cmdref-url-caption.md)
          + [interactivedata](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-cmdref-url/r-html5-aem-int-video-cmdref-url-interactivedata.md)
@@ -822,7 +824,7 @@ ht-degree: 1%
          + [videoServerUrl](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-cmdref-url/r-html5-aem-int-video-cmdref-url-videoserverurl.md)
       + JavaScript API-referentie voor interactieve video {#jsapi-interactive-video}
          + [JavaScript API-referentie voor Interactive Video Viewer](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/c-html5-aem-int-video-javascriptapiref.md)
-         + [afvoeren](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-dispose.md)
+         + [weggooien](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-dispose.md)
          + [getComponent](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-getcomponent.md)
          + [init](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-init.md)
          + [InteractiveVideoViewer](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-interactivevideo.md)
@@ -833,21 +835,21 @@ ht-degree: 1%
          + [setParam](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-setparam.md)
          + [setParams](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-setparams.md)
       + [Gebeurteniscallbacks](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-event-callbacks.md)
-      + Interactieve video-viewer {#customizing-interactive-video} aanpassen
+      + Interactieve videoviewer {#customizing-interactive-video} aanpassen
          + [Interactieve video-viewer aanpassen](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md)
          + [Oproep tot actie](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-calltoaction.md)
          + [Knop Bijschrift](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-captionbutton.md)
          + [Besturingsbalk](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-controlbar.md)
-         + [Delen via Facebook](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-facebookshare.md)
-         + [Focusmarkering](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-focushighlight.md)
+         + [Facebook-share](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-facebookshare.md)
+         + [Focus markeren](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-focushighlight.md)
          + [Knop Volledig scherm](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-fullscreenbutton.md)
          + [Pictogram, effect](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-iconeffect.md)
          + [Interactieve stalen](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-intswatches.md)
-         + [Delen via koppeling](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-linkshare.md)
+         + [Delen van koppeling](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-linkshare.md)
          + [Hoofdviewergebied](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-mainviewerarea.md)
          + [Meerbaar volume](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-mutablevolume.md)
          + [Knop Afspelen/Pauzeren](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-playpausebutton.md)
-         + [Sociaal delen](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-socialshare.md)
+         + [Sociaal aandeel](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-socialshare.md)
          + [Knopinfo](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-tooltips.md)
          + [Twitter delen](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-twittershare.md)
          + [Videospeler](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-videoplayer.md)
@@ -855,18 +857,18 @@ ht-degree: 1%
          + [Videotijd](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-videotime.md)
       + [Ondersteuning voor Adobe Analytics-tracking](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-sitecatalyst.md)
       + [Technische ondersteuning](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-assistive.md)
-      + [HTTPS-video-levering](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-securevideodelivery.md)
+      + [HTTPS-video leveren](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-securevideodelivery.md)
       + [Interactieve gegevensondersteuning](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-int-data-support.md)
       + [Lokalisatie van gebruikersinterface-elementen](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md)
       + [Ondersteuning voor volledig scherm](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-full-screen-support.md)
       + [Viewer SDK-naamruimte](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-html5-viewer-sdk-namespace.md)
    + Video360 {#video360}
       + [Video360](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360.md)
-      + Opdrachtverwijzing - Configuratiekenmerken {#command-reference-configuration-attributes-video360}
-         + [Opdrachtverwijzing - Configuratiekenmerken](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib.md)
+      + Command reference - Configuration attributes {#command-reference-configuration-attributes-video360}
+         + [Command reference - Configuration attributes](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib.md)
          + [ControlBar.transition](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-conf-attrib-controlbar-transition.md)
          + [EmbedShare.embedsizes](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-conf-attrib-embedshare-embedsizes.md)
-         + [SociaalDelen.delen](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-conf-attrib-socialshare-bearing.md)
+         + [SocialShare.iling](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-conf-attrib-socialshare-bearing.md)
          + [Video360Player.autoplay](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-autoplay.md)
          + [Video360Player.iconeffect](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-iconeffect.md)
          + [Video360Player.initialbitrate](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-initialbitrate.md)
@@ -882,13 +884,13 @@ ht-degree: 1%
          + [Video360Player.waiticon](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-waiticon.md)
          + [VideoScrubber.timepattern](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-conf-attrib-videoscrubber-timepattern.md)
          + [VideoTime.timepattern](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-conf-attrib-videotime-timepattern.md)
-      + Opdrachtverwijzing - URL {#command-reference-url-video360}
+      + Command reference - URL {#command-reference-url-video360}
          + [Opdrachtverwijzing - URL](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/c-html5-aem-video360-cmdref-url.md)
          + [video](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/r-html5-aem-video360-url-video.md)
          + [videoServerUrl](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/r-html5-aem-video360-url-videoserverurl.md)
       + JavaScript API-referentie voor Video360 Viewer {#jsapi-video360}
          + [JavaScript API-referentie voor Video360 Viewer](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/c-html5-aem-video360-javascriptapiref.md)
-         + [afvoeren](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-dispose.md)
+         + [weggooien](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-dispose.md)
          + [getComponent](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-getcomponent.md)
          + [init](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-init.md)
          + [setAsset](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-setasset.md)
@@ -900,38 +902,38 @@ ht-degree: 1%
          + [setVideo](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-setvideo.md)
          + [Video360Viewer](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-video360viewer.md)
       + [Gebeurteniscallbacks](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-event-callbacks.md)
-      + Video360-viewer aanpassen {#customizing-video360}
-         + [Video360-viewer aanpassen](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md)
+      + Video360-viewer {#customizing-video360} aanpassen
+         + [Video360 Viewer aanpassen](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md)
          + [Besturingsbalk](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-controlbar.md)
          + [Delen insluiten](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-embedshare.md)
-         + [Delen via Facebook](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-facebookshare.md)
-         + [Focusmarkering](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-focushighlight.md)
+         + [Facebook-share](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-facebookshare.md)
+         + [Focus markeren](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-focushighlight.md)
          + [Knop Volledig scherm](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-fullscreenbutton.md)
          + [Pictogram, effect](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-iconeffect.md)
-         + [Delen via koppeling](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-int-video-customize-linkshare.md)
+         + [Delen van koppeling](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-int-video-customize-linkshare.md)
          + [Hoofdviewergebied](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-mainviewerarea.md)
          + [Meerbaar volume](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-mutablevolume.md)
          + [Knop Afspelen/Pauzeren](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-playpausebutton.md)
-         + [Sociaal delen](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-socialshare.md)
+         + [Sociaal aandeel](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-socialshare.md)
          + [Knopinfo](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-tooltips.md)
          + [Twitter delen](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-twittershare.md)
          + [Video360-speler](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-video360player.md)
          + [Videoscrubber](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-videoscrubber.md)
          + [Videotijd](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-videotime.md)
       + [Ondersteuning voor Adobe Analytics-tracking](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-sitecatalyst.md)
-      + [HTTPS-video-levering](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-securevideodelivery.md)
+      + [HTTPS-video leveren](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-securevideodelivery.md)
       + [Technische ondersteuning](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-assistive.md)
       + [Lokalisatie van gebruikersinterface-elementen](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md)
       + [Ondersteuning voor volledig scherm](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-full-screen-support.md)
-      + [Externe video-ondersteuning](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md)
+      + [Externe videoondersteuning](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md)
       + [Viewer SDK-naamruimte](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-viewer-sdk-namespace.md)
-+ Command reference common of all viewers - Configuration attributes {#command-reference-common-to-all-viewers-config-attrib}
++ Command reference common to all viewers - Configuration attributes {#command-reference-common-to-all-viewers-config-attrib}
    + [Command reference common to all viewers - Configuration attributes](r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md)
    + [stageSize](r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib-stagesize.md)
    + [stijl](r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib-style.md)
    + [titel](r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib-title.md)
 + Command reference common to all viewers - URL {#command-reference-common-to-all-viewers-url}
-   + [Command reference common to all viewers - URL](c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md)
+   + [Opdrachtverwijzing algemeen voor alle viewers - URL](c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md)
    + [element](c-html5-viewer-20-cmdref-url/r-html5-viewer-20-cmdref-url-asset.md)
    + [bijschrift](c-html5-viewer-20-cmdref-url/r-html5-viewer-20-cmdref-url-caption.md)
    + [config](c-html5-viewer-20-cmdref-url/r-html5-viewer-20-cmdref-url-config.md)
@@ -940,5 +942,4 @@ ht-degree: 1%
    + [initialFrame](c-html5-viewer-20-cmdref-url/r-html5-viewer-20-cmdref-url-initialframe.md)
    + [serverUrl](c-html5-viewer-20-cmdref-url/r-html5-viewer-20-cmdref-url-serverurl.md)
    + [videoServerUrl](c-html5-viewer-20-cmdref-url/r-html5-viewer-cmdref-url-videoserverurl.md)
-+ [Toegankelijkheid en navigatie op toetsenbord](c-keyboard-accessibility.md)
-+ [Lesbestand Viewer SDK](c-tutorial.md)
+
