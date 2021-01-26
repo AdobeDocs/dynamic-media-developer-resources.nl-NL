@@ -4,10 +4,10 @@ seo-description: Stel de publicatiestatus voor een of meer elementen in of werk 
 seo-title: setAssetsContextState
 solution: Experience Manager
 title: setAssetsContextState
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 4b94f9ea-3f7b-45ee-9381-6434f2bc4e31
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -41,17 +41,17 @@ Stel de publicatiestatus voor een of meer elementen in of werk deze bij. U kunt 
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Handgreep aan het bedrijf. |
-| ` *`assetsContextHandle`*` | `types:AssetsContextStateUpdateArray` | Ja | Een array met elementen en de bijbehorende nieuwe publicatiestatus. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Handgreep aan het bedrijf. |
+| `*`assetsContextHandle`*` | `types:AssetsContextStateUpdateArray` | Ja | Een array met elementen en de bijbehorende nieuwe publicatiestatus. |
 
 **Output (setAssetsContextStateReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Ja | Het aantal elementen is gewijzigd. |
-| ` *`warningCount`*` | `xsd:int` | Ja | Het aantal waarschuwingen dat wordt gegenereerd wanneer de bewerking heeft geprobeerd elementen te wijzigen. |
-| ` *`errorCount`*` | `xsd:int` | Ja | Het aantal fouten dat is gegenereerd toen de bewerking probeerde elementen te wijzigen. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nee | Array met fouten die door elementen worden gegenereerd wanneer de bewerking probeerde deze te wijzigen. |
+| `*`successCount`*` | `xsd:int` | Ja | Het aantal elementen is gewijzigd. |
+| `*`warningCount`*` | `xsd:int` | Ja | Het aantal waarschuwingen dat wordt gegenereerd wanneer de bewerking heeft geprobeerd elementen te wijzigen. |
+| `*`errorCount`*` | `xsd:int` | Ja | Het aantal fouten dat is gegenereerd toen de bewerking probeerde elementen te wijzigen. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nee | Array met fouten die door elementen worden gegenereerd wanneer de bewerking probeerde deze te wijzigen. |
 
 ## Voorbeelden {#section-283a073f3cb14bcda5abed863c538aa4}
 
