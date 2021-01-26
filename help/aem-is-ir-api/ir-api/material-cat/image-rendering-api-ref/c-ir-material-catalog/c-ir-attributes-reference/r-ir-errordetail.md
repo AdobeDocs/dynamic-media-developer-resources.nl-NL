@@ -4,12 +4,12 @@ seo-description: Foutbericht met details. Geeft het detailniveau voor foutberich
 seo-title: ErrorDetail
 solution: Experience Manager
 title: ErrorDetail
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: aab11640-95d7-427d-b79f-c477b2c9047e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '181'
 ht-degree: 2%
 
 ---
@@ -37,14 +37,14 @@ De volgende waarden zijn toegestaan:
   <td class="stentry"> <p>Gedetailleerd bericht. Verstrekt gebruiker-vlakke details over de fout. Kan vertrouwelijke informatie bevatten, zoals bestandspaden. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p></td> 
+  <td class="stentry"> <p>1 </p></td> 
   <td class="stentry"> <p>Volledige foutopsporingsinformatie. Voegt Java-stacktraceringen toe, indien van toepassing. Foutafbeeldingen bevatten nooit stacktraces en retourneren in plaats daarvan niveau 2-informatie in <span class="codeph"> $error.message</span>. </p></td> 
  </tr> 
 </table>
 
 * Niveau 0 wordt geadviseerd voor levende servers die openbaar kunnen worden betreden.
 * Niveau 2 wordt aanbevolen voor testservers, kwaliteitsborgingsservers en toepassingsontwikkelingsservers.
-* Informatie van niveau 3 kan nuttig zijn bij het melden van problemen aan de Technische Steun van Scene7.
+* Informatie van niveau 3 kan nuttig zijn bij het melden van problemen aan technische ondersteuning van Dynamic Media.
 
 ## Eigenschappen {#section-f03f9a8edd6a4d99aff38fbec41c4b80}
 
