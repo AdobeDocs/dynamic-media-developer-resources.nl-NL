@@ -4,12 +4,12 @@ seo-description: 'Scène 7 Beeldserver bestaat uit de volgende componenten '
 seo-title: Onderdelen van Image Serving
 solution: Experience Manager
 title: Onderdelen van Image Serving
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 84e04972-32ce-4aca-aae6-d5b8bbe761e6
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Scène 7 Beeldserver bestaat uit de volgende componenten:
    <td colname="col2"> <p>Zelfstandige Java-toepassing (niet gehost door Tomcat). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Scene7 Image Rendering (ook bekend als) Server renderen) </p> </td> 
+   <td colname="col1"> <p>Dynamic Media Image Rendering (ook bekend als) Server renderen) </p> </td> 
    <td colname="col2"> <p>Hiervoor is een aparte licentie vereist. HTTP-toegang op <span class="filepath"> /ir/render</span>. Alle het Teruggeven van het Beeld functionaliteit is geïntegreerd in de Server van het Platform en de Server van het Beeld, zonder afzonderlijke uitvoerbare componenten. </p> </td> 
   </tr> 
  </tbody> 
