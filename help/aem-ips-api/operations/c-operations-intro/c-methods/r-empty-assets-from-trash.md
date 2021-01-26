@@ -4,10 +4,10 @@ seo-description: Legt activa van het IPS afval leeg.
 seo-title: emptyAssetsFromTrash
 solution: Experience Manager
 title: emptyAssetsFromTrash
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: de11a7b0-cd4b-4717-8596-d39afbcf7e9c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%
@@ -37,18 +37,18 @@ Activa worden in de prullenbak geplaatst totdat ze handmatig worden geleegd of t
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | De handgreep naar het bedrijf dat eigenaar is van de activa. |
-| ` *`assetHandleArray`*` | `types:HandleArray` | Ja | De array van handgrepen die de items vertegenwoordigen die uit de prullenbak moeten worden verwijderd. |
+| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep naar het bedrijf dat eigenaar is van de activa. |
+| `*`assetHandleArray`*` | `types:HandleArray` | Ja | De array van handgrepen die de items vertegenwoordigen die uit de prullenbak moeten worden verwijderd. |
 
 **Output (emptyAssetsFromTrashParam)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:Int` | Ja | Het aantal elementen dat met succes uit de prullenbak is verwijderd. |
-| ` *`warningCount`*` | `xsd:Int` | Ja | Het aantal waarschuwingen dat wordt gegenereerd wanneer de bewerking heeft geprobeerd elementen uit de prullenbak te verwijderen. |
-| ` *`errorCount`*` | `xsd:Int` | Ja | Het aantal fouten dat is gegenereerd toen de bewerking probeerde elementen uit de prullenbak te verwijderen. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nee | De array met details die zijn gekoppeld aan de elementen die waarschuwingen hebben gegenereerd toen de bewerking probeerde deze uit de prullenbak te verwijderen. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nee | De array met details die zijn gekoppeld aan de elementen die fouten genereerden toen de bewerking probeerde deze uit de prullenbak te verwijderen. |
+| `*`successCount`*` | `xsd:Int` | Ja | Het aantal elementen dat met succes uit de prullenbak is verwijderd. |
+| `*`warningCount`*` | `xsd:Int` | Ja | Het aantal waarschuwingen dat wordt gegenereerd wanneer de bewerking heeft geprobeerd elementen uit de prullenbak te verwijderen. |
+| `*`errorCount`*` | `xsd:Int` | Ja | Het aantal fouten dat is gegenereerd toen de bewerking probeerde elementen uit de prullenbak te verwijderen. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nee | De array met details die zijn gekoppeld aan de elementen die waarschuwingen hebben gegenereerd toen de bewerking probeerde deze uit de prullenbak te verwijderen. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nee | De array met details die zijn gekoppeld aan de elementen die fouten genereerden toen de bewerking probeerde deze uit de prullenbak te verwijderen. |
 
 ## Voorbeelden {#section-6154a873b6c342bf92e2036280cafdcf}
 
