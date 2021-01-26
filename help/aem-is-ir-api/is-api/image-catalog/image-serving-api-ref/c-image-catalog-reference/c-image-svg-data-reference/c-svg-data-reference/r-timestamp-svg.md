@@ -2,10 +2,10 @@
 description: TimeStamp
 solution: Experience Manager
 title: TimeStamp
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9ce5e42e-573a-4e1c-97d4-98888e16ca56
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Datum-/tijdwaarde in Java-indeling. Kan het gehele getal van milliseconden zijn 
 
 *`offset`* is een verschuiving van de tijdzone in uren of  `hours:minutes`, ten opzichte van GMT. &#39;PDT&#39; is bijvoorbeeld gelijk aan &#39;GMT -7&#39;.
 
-Alle elementen van tekenreeksopgemaakte datum-/tijdwaarden moeten aanwezig zijn. Als de datum-/tijdwaarde niet correct is opgemaakt, wordt deze genegeerd en wordt in plaats daarvan de wijzigingstijd van het bestand ` *`catalog`*.ini` gebruikt.
+Alle elementen van tekenreeksopgemaakte datum-/tijdwaarden moeten aanwezig zijn. Als de datum-/tijdwaarde niet correct is opgemaakt, wordt deze genegeerd en wordt in plaats daarvan de wijzigingstijd van het bestand `*`catalog`*.ini` gebruikt.
 
 ## Standaard {#section-0cbf801401ff4857bdda168fd12358af}
 
