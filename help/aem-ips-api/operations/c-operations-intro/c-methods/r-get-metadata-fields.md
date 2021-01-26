@@ -4,10 +4,10 @@ seo-description: Hiermee worden de door de gebruiker gedefinieerde metagegevensv
 seo-title: getMetadataFields
 solution: Experience Manager
 title: getMetadataFields
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: bf891bae-53c8-4e3d-90df-caca9a7e022b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
@@ -37,14 +37,14 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | De handgreep van het bedrijf. |
-| ` *`assetType`*` | `xsd:string` | Ja | Elementen waarvan metagegevens kunnen worden opgehaald. |
+| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep van het bedrijf. |
+| `*`assetType`*` | `xsd:string` | Ja | Elementen waarvan metagegevens kunnen worden opgehaald. |
 
 **Output (getMetadataFieldsParam)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`Codewoordgroep`*` | `Code Phrase` |  |  |
+| `*`Codewoordgroep`*` | `Code Phrase` |  |  |
 
 ## Voorbeelden {#section-dbfde1483d614b5aac2b491cb32115d7}
 
