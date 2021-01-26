@@ -4,10 +4,10 @@ seo-description: Als u op deze knop klikt of erop tikt, gaat de gebruiker naar d
 seo-title: Grote knop Volgende pagina
 solution: Experience Manager
 title: Grote knop Volgende pagina
-topic: Dynamic media
+topic: Dynamic Media
 uuid: b68332b1-7b6b-46d8-8a0a-aa5a78fca5fb
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
