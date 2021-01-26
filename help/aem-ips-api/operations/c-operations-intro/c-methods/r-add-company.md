@@ -1,15 +1,12 @@
 ---
 description: Voegt een bedrijf aan het systeem toe.
-seo-description: Voegt een bedrijf aan het systeem toe.
-seo-title: addCompany
 solution: Experience Manager
 title: addCompany
-topic: Scene7 Image Production System API
-uuid: 2f00a06d-40d1-4ba3-a317-6ea91e25beb3
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
@@ -21,7 +18,7 @@ Voegt een bedrijf aan het systeem toe.
 
 Verzendt de naam van het bedrijf dat aan het systeem moet worden toegevoegd en naar keuze verzendt of het bedrijf verloopt.
 
-Wanneer deze verrichting wordt aangehaald, krijgt het systeem een ` *`companyInfo`*` type dat een bedrijfshandvat en beschrijvende gebieden bevat. Als de aangevraagde bedrijfsnaam al in het systeem bestaat, wordt een `ipsApiFault` gegenereerd.
+Wanneer deze verrichting wordt aangehaald, krijgt het systeem een `*`companyInfo`*` type dat een bedrijfshandvat en beschrijvende gebieden bevat. Als de aangevraagde bedrijfsnaam al in het systeem bestaat, wordt een `ipsApiFault` gegenereerd.
 
 ## Toegestane gebruikerstypen {#section-ae926c7672984be79f6102748accab72}
 
