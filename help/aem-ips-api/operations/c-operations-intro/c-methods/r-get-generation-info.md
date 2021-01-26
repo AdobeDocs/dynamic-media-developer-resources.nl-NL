@@ -4,10 +4,10 @@ seo-description: Retourneert twee verschillende typen informatie op basis van de
 seo-title: getGenerationInfo
 solution: Experience Manager
 title: getGenerationInfo
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 4310a702-c08b-4479-9f57-9f2bc1d6b032
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 0%
@@ -39,18 +39,18 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`Codewoordgroep`*` | `xsd:string` | Ja | De handgreep aan het bedrijf. |
-| ` *`Codewoordgroep`*` | `xsd:string` | Nee | De motor die in de productie werd gebruikt. Zie Lettertypestijlen. |
-| ` *`Codewoordgroep`*` | `xsd:string` | Nee | De greep van het element waarnaar moet worden gezocht voor gegenereerde elementen. |
-| ` *`Codewoordgroep`*` | `xsd:string` | Nee | De greep van het element die moet worden gezocht naar elementen en engines die worden gebruikt bij het genereren van het element. |
-| ` *`Codewoordgroep`*` | `xsd:StringArray` | Nee | Eigenschappen die in de bewerking zijn opgenomen. |
-| ` *`Codewoordgroep`*` | `xsd:StringArray` | Nee | Eigenschappen die van de bewerking zijn uitgesloten. |
+| `*`Codewoordgroep`*` | `xsd:string` | Ja | De handgreep aan het bedrijf. |
+| `*`Codewoordgroep`*` | `xsd:string` | Nee | De motor die in de productie werd gebruikt. Zie Lettertypestijlen. |
+| `*`Codewoordgroep`*` | `xsd:string` | Nee | De greep van het element waarnaar moet worden gezocht voor gegenereerde elementen. |
+| `*`Codewoordgroep`*` | `xsd:string` | Nee | De greep van het element die moet worden gezocht naar elementen en engines die worden gebruikt bij het genereren van het element. |
+| `*`Codewoordgroep`*` | `xsd:StringArray` | Nee | Eigenschappen die in de bewerking zijn opgenomen. |
+| `*`Codewoordgroep`*` | `xsd:StringArray` | Nee | Eigenschappen die van de bewerking zijn uitgesloten. |
 
 **Output (getGenerationInfoReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`generationArray`*` | `types:GenerationInfoArray` | Ja | Array met generatiegegevens. |
+| `*`generationArray`*` | `types:GenerationInfoArray` | Ja | Array met generatiegegevens. |
 
 ## Voorbeelden {#section-fdffe6ed82d94c7aa90e47f7ce889403}
 
