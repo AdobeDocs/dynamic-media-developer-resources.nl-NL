@@ -4,12 +4,12 @@ seo-description: Doelgegevens zoomen. Geen of meer zoomeigenschappen, die samen 
 seo-title: Doelen
 solution: Experience Manager
 title: Doelen
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ca02483a-9aa0-4b54-b6f0-4fd10d8b2b4c
 translation-type: tm+mt
-source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Doel. *`num`*.rect is vereist voor elk gezoemdoel en moet een rechthoek volledig
 
 Voor toepassingen waarbij de viewerclients voor spin- en brochure worden gebruikt, moeten de zoomdoelen worden gedefinieerd in dezelfde catalogusrecord die de afbeeldingsset definieert. Alle zoomdoeldefinities in de catalogusrecords van de leden van de afbeeldingsset worden door de viewer genegeerd.
 
-De Scene7-viewers verwachten zoomdoelen in de coördinaten van de afbeelding met volledige resolutie die al zijn aangepast met de opdrachten van `catalog::Modifier`.
+De Dynamic Media-viewers verwachten zoomdoelen in de coördinaten van de afbeelding met volledige resolutie die al zijn aangepast met de opdrachten van `catalog::Modifier`.
 
 ## Eigenschappen {#section-b3f8eba4985f4b00bb935d592fe770f9}
 
