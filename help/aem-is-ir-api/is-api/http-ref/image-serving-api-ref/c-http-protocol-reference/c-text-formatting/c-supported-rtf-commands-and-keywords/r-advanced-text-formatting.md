@@ -4,12 +4,12 @@ seo-description: Gebruik de volgende opdrachten voor geavanceerde tekstopmaak.
 seo-title: Geavanceerde tekstopmaak
 solution: Experience Manager
 title: Geavanceerde tekstopmaak
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 340166a5-5aef-4081-9114-a715cde68891
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Gebruik de volgende opdrachten voor geavanceerde tekstopmaak.
   <tr> 
    <td> <span class="codeph"> \charscaley  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Verticale tekenschaling. </p> </td> 
-   <td> <p>positief of negatief percentage; de standaardwaarde is 100; Scene7-extensie. </p> <p> <span class="codeph"> \charscaley schaalt  </span> ook de regelafstand bij toepassing met  <span class="codeph"> text=  </span>. <span class="codeph"> textPs= behoudt  </span> altijd de regelafstand, ongeacht de mate van verticale tekenschaling. </p> </td> 
+   <td> <p>positief of negatief percentage; de standaardwaarde is 100; Dynamic Media-extensie. </p> <p> <span class="codeph"> \charscaley schaalt  </span> ook de regelafstand bij toepassing met  <span class="codeph"> text=  </span>. <span class="codeph"> textPs= behoudt  </span> altijd de regelafstand, ongeacht de mate van verticale tekenschaling. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ltrch  </span> </td> 
@@ -86,17 +86,17 @@ Gebruik de volgende opdrachten voor geavanceerde tekstopmaak.
   <tr> 
    <td> <span class="codeph"> \copyfit  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Enable copy-fitting and set maximum allowed font size. </p> </td> 
-   <td> <p>Tekengrootte in halve punten; <span class="codeph"> textPs= alleen </span>; Scene7-extensie. </p> </td> 
+   <td> <p>Tekengrootte in halve punten; <span class="codeph"> textPs= alleen </span>; Dynamic Media-extensie. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfitlines  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Maximale aantal regels voor passend maken van kopieën (zachte beperkingen). </p> </td> 
-   <td> <p>0 voor geen regelbeperking; <span class="codeph"> textPs= alleen </span>; Scene7-extensie. </p> </td> 
+   <td> <p>0 voor geen regelbeperking; <span class="codeph"> textPs= alleen </span>; Dynamic Media-extensie. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfitmaxlines  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Maximale aantal regels voor passend maken van tekst (afkappen). </p> </td> 
-   <td> <p> <span class="codeph"> textPs=  </span> only; Scene7-extensie. </p> </td> 
+   <td> <p> <span class="codeph"> textPs=  </span> only; Dynamic Media-extensie. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \baselinedir  <span class="varname"> N  </span> </span> </td> 
