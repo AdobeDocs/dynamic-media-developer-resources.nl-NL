@@ -1,15 +1,15 @@
 ---
-description: Beeld dat componenten serveert wordt beheerd door de Supervisor van de Server, die een Linux daemon of Dienst van Vensters (S7Supervisor.exe is, die als "Beeld van Scene7 Servend"in het Controlebord van de Diensten wordt vermeld).
-seo-description: Beeld dat componenten serveert wordt beheerd door de Supervisor van de Server, die een Linux daemon of Dienst van Vensters (S7Supervisor.exe is, die als "Beeld van Scene7 Servend"in het Controlebord van de Diensten wordt vermeld).
+description: Beeld dat componenten serveert wordt beheerd door de Supervisor van de Server, die een Linux daemon of Dienst van Vensters (S7Supervisor.exe is, die als "Beeld van Dynamic Media Servend"in het Controlebord van de Diensten wordt vermeld).
+seo-description: Beeld dat componenten serveert wordt beheerd door de Supervisor van de Server, die een Linux daemon of Dienst van Vensters (S7Supervisor.exe is, die als "Beeld van Dynamic Media Servend"in het Controlebord van de Diensten wordt vermeld).
 seo-title: Servertoezichthouder
 solution: Experience Manager
 title: Servertoezichthouder
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6ac38d90-00ed-4d49-84f0-2e77e7a86d47
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Servertoezichthouder{#server-supervisor}
 
-Beeld dat componenten serveert wordt beheerd door de Supervisor van de Server, die een Linux daemon of Dienst van Vensters (S7Supervisor.exe is, die als &quot;Beeld van Scene7 Servend&quot;in het Controlebord van de Diensten wordt vermeld).
+Beeld dat componenten serveert wordt beheerd door de Supervisor van de Server, die een Linux daemon of Dienst van Vensters (S7Supervisor.exe is, die als &quot;Beeld van Dynamic Media Servend&quot;in het Controlebord van de Diensten wordt vermeld).
 
 Naast het beginnen en het tegenhouden van andere Beeld die componenten dienen, is de Supervisor van de Server verantwoordelijk voor het verzekeren van de gezondheid van deze andere componenten. Als een component vastloopt, wordt het automatisch opnieuw begonnen om om het even welke de dienstonderbrekingen te minimaliseren.
 
