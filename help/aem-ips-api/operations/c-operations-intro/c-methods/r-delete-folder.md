@@ -4,10 +4,10 @@ seo-description: Hiermee wordt een map verwijderd.
 seo-title: deleteFolder
 solution: Experience Manager
 title: deleteFolder
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 76af65fb-86ef-43e2-bfec-3682acf0afe6
 translation-type: tm+mt
-source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 0%
@@ -40,8 +40,8 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | De handgreep van het bedrijf waartoe de map behoort. |
-| ` *`folderHandle`*` | `xsd:string` | Ja | De handgreep van de map die moet worden verwijderd. |
+| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep van het bedrijf waartoe de map behoort. |
+| `*`folderHandle`*` | `xsd:string` | Ja | De handgreep van de map die moet worden verwijderd. |
 
 **Output (deleteFolderParam)**
 
