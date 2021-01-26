@@ -4,12 +4,12 @@ seo-description: Laagafbeelding.
 seo-title: src
 solution: Experience Manager
 title: src
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b4396848-b992-4371-a8ae-4ff1781ae1be
 translation-type: tm+mt
-source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -43,10 +43,6 @@ Zie [object](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protoco
 Geneste of ingesloten aanvragen worden ingesloten door accolades. Plaats een voorvoegsel voor een ingesloten aanvraag voor het renderen van afbeeldingen met `is`, een ingesloten aanvraag voor het renderen van afbeeldingen met `ir` en een aanvraag voor het renderen van FXG-afbeeldingen met `fxg`. Een verzoek aan een buitenlandse server wordt verondersteld als geen prefix wordt gespecificeerd.
 
 Zie [Nesten en insluiten aanvragen](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b).
-
->[!NOTE]
->
->FXG-rendering van afbeeldingen is alleen beschikbaar in de door Scene7 gehoste omgeving en vereist mogelijk extra licenties. Neem contact op met Scene7 Support voor meer informatie.
 
 ## Eigenschappen {#section-2c22bb89a35d470f833df8ba898efd93}
 
