@@ -4,10 +4,10 @@ seo-description: Als u op deze knop klikt of erop tikt, wordt een afbeelding in 
 seo-title: Knop Zoomen opnieuw instellen
 solution: Experience Manager
 title: Knop Zoomen opnieuw instellen
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 27f6eacd-2922-4ddb-98e4-ee10d3b72b0c
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 0%
