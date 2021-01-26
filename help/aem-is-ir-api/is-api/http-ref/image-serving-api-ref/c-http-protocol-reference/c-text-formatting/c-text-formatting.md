@@ -4,12 +4,12 @@ seo-description: De Server van het beeld verstrekt verscheidene alternatieven om
 seo-title: Tekstopmaak
 solution: Experience Manager
 title: Tekstopmaak
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e67b6dd2-2a78-4014-9525-816d91c9e783
 translation-type: tm+mt
-source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -152,7 +152,7 @@ In de volgende tabel worden de belangrijkste functies weergegeven die beschikbaa
 
 RTF-compatibele tekenreeksen kunnen handmatig worden samengesteld of door de gewenste tekst op te maken in een teksteditor of tekstverwerker die RTF-bestanden kan opslaan. Het RTF-bestand kan vervolgens worden geopend in een teksteditor zonder opmaak en de relevante Raw RTF-inhoud van het bestand wordt gekopieerd naar de aanvraag-URL.
 
-Sommige tekstverwerkers genereren vrij grote bestanden, die aanzienlijke preambles bevatten die niet door Scene7 Image Serving worden gebruikt. Het wordt aanbevolen de ongebruikte RTF-elementen uit de tekenreeks te verwijderen voordat u de tekenreeks doorgeeft aan de tekstopdrachten.
+Sommige tekstverwerkers genereren vrij grote bestanden, die aanzienlijke preambles bevatten die niet door Dynamic Media Image Serving worden gebruikt. Het wordt aanbevolen de ongebruikte RTF-elementen uit de tekenreeks te verwijderen voordat u de tekenreeks doorgeeft aan de tekstopdrachten.
 
 Taalcodering op basis van UTF-8- en ISO-standaarden wordt ondersteund in RTF-tekenreeksen als alternatief voor de standaardcoderingsmechanismen voor RTF-tekens. Hierdoor kunnen toepassingen niet-Engelse tekst zonder RTF-codering naar de server verzenden.
 
