@@ -4,10 +4,10 @@ seo-description: Retourneert mappen en submappen in een hiërarchische boomstruc
 seo-title: getFolderTree
 solution: Experience Manager
 title: getFolderTree
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 93fda0d6-c656-4254-b07b-7a448e164f28
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -41,21 +41,21 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | De handgreep aan het bedrijf. |
-| ` *`accessUserHandle`*` | `xsd:string` | Nee | Wordt alleen door beheerders gebruikt om zich voor te doen als een specifieke gebruiker. |
-| ` *`accessGroupHandle`*` | `xsd:string` | Nee | Wordt gebruikt om te filteren op een specifieke groep, inclusief een groep waartoe het bedrijf behoort. |
-| ` *`folderPath`*` | `xsd:string` | Nee | De hoofdmap om mappen en alle submappen op te halen naar bladniveau. Indien uitgesloten, wordt de bedrijfwortel gebruikt. |
-| ` *`diepte`*` | `xsd:int` | Ja | Bij de waarde nul wordt de map op hoofdniveau opgehaald. Elke andere waarde geeft de diepte aan die in de boomstructuur moet afnemen. |
-| ` *`assetTypeArray`*` | `types:StringArray` | Nee | Retourneert mappen die alleen opgegeven elementtypen bevatten. |
-| ` *`responseFieldArray`*` | `types:StringArray` | Nee | Bevat een lijst met velden die u wilt opnemen in het antwoord. |
-| ` *`excludeFieldArray`*` | `types:StringArray` | Nee | Bevat een lijst met velden die u wilt uitsluiten in het antwoord. |
+| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep aan het bedrijf. |
+| `*`accessUserHandle`*` | `xsd:string` | Nee | Wordt alleen door beheerders gebruikt om zich voor te doen als een specifieke gebruiker. |
+| `*`accessGroupHandle`*` | `xsd:string` | Nee | Wordt gebruikt om te filteren op een specifieke groep, inclusief een groep waartoe het bedrijf behoort. |
+| `*`folderPath`*` | `xsd:string` | Nee | De hoofdmap om mappen en alle submappen op te halen naar bladniveau. Indien uitgesloten, wordt de bedrijfwortel gebruikt. |
+| `*`diepte`*` | `xsd:int` | Ja | Bij de waarde nul wordt de map op hoofdniveau opgehaald. Elke andere waarde geeft de diepte aan die in de boomstructuur moet afnemen. |
+| `*`assetTypeArray`*` | `types:StringArray` | Nee | Retourneert mappen die alleen opgegeven elementtypen bevatten. |
+| `*`responseFieldArray`*` | `types:StringArray` | Nee | Bevat een lijst met velden die u wilt opnemen in het antwoord. |
+| `*`excludeFieldArray`*` | `types:StringArray` | Nee | Bevat een lijst met velden die u wilt uitsluiten in het antwoord. |
 
 **Output (getFolderTreeReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`mappen`*` | `types:folders` | Nee | De hiërarchie van mappen in een boomstructuur. De reactie is beperkt tot maximaal 100.000 mappen. |
-| ` *`permissionSetArray`*` | `types:PermissionSetArray` |  |  |
+| `*`mappen`*` | `types:folders` | Nee | De hiërarchie van mappen in een boomstructuur. De reactie is beperkt tot maximaal 100.000 mappen. |
+| `*`permissionSetArray`*` | `types:PermissionSetArray` |  |  |
 
 ## Voorbeelden {#section-a9fd2edb56574dd9bf8b0f2fd89367e4}
 
