@@ -4,12 +4,12 @@ seo-description: De volgende documenteigenschappen worden ondersteund in tekstva
 seo-title: Documenteigenschappen (tekstvak)
 solution: Experience Manager
 title: Documenteigenschappen (tekstvak)
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 743a773a-83b0-4667-9c67-4cefbfe77bbd
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -46,12 +46,12 @@ De volgende documenteigenschappen worden ondersteund in tekstvakken.
   <tr> 
    <td> <span class="codeph"> \cmykcolortbl  </span> </td> 
    <td> <p>CMYK-kleurentabel. </p> </td> 
-   <td> <p>Scene7-extensie. </p> </td> 
+   <td> <p>Dynamic Media-extensie. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \*\iscolortbl  </span> </td> 
    <td> <p>Kleurentabel voor kleuren die dienen als afbeelding. </p> </td> 
-   <td> <p>Scene7-extensie; <span class="codeph"> textPs= alleen </span> </p> </td> 
+   <td> <p>Dynamic Media-extensie; <span class="codeph"> textPs= alleen </span> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \red  <span class="varname"> N  </span> </span> </td> 
@@ -71,22 +71,22 @@ De volgende documenteigenschappen worden ondersteund in tekstvakken.
   <tr> 
    <td> <span class="codeph"> \cyaan  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Cyaan kleurcomponent. </p> </td> 
-   <td> <p>Scene7-extensie; mag alleen voorkomen in <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
+   <td> <p>Dynamic Media-extensie; mag alleen voorkomen in <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \magenta  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Magenta kleurcomponent. </p> </td> 
-   <td> <p>Scene7-extensie; mag alleen voorkomen in <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
+   <td> <p>Dynamic Media-extensie; mag alleen voorkomen in <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \yellow  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Gele kleurcomponent. </p> </td> 
-   <td> <p>Scene7-extensie; mag alleen voorkomen in <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
+   <td> <p>Dynamic Media-extensie; mag alleen voorkomen in <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \black  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Zwarte kleurcomponent. </p> </td> 
-   <td> <p>Scene7-extensie; mag alleen voorkomen in <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
+   <td> <p>Dynamic Media-extensie; mag alleen voorkomen in <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \margl  <span class="varname"> N  </span> </span> </td> 
