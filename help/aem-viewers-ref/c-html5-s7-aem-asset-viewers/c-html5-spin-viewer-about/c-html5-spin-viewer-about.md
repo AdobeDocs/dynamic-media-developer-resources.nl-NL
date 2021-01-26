@@ -5,10 +5,10 @@ seo-description: Spin Viewer is een beeldviewer die een weergave van 360 graden 
 seo-title: Draaien
 solution: Experience Manager
 title: Draaien
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 5d5cdf83-cfe8-48cd-af74-b270f7400b14
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '2166'
 ht-degree: 0%
@@ -165,7 +165,7 @@ U voegt de Spin Viewer als volgt toe aan een webpagina:
 
    U kunt de statische grootte voor de kijker plaatsen door of het voor `.s7spinviewer` top-level CSS klasse in absolute eenheden te verklaren, of door `stagesize` bepaling te gebruiken.
 
-   U kunt de grootte in CSS rechtstreeks op de HTML-pagina plaatsen, of in een aangepast CSS-bestand van de viewer, dat later wordt toegewezen aan een viewer-voorinstellingsrecord in het Scene7 Publishing System, of expliciet wordt doorgegeven met behulp van een stijlopdracht.
+   U kunt de grootte in CSS rechtstreeks op de HTML-pagina plaatsen, of in een aangepast CSS-bestand van de viewer, dat later wordt toegewezen aan een viewer-voorinstellingsrecord in het Scene7 Publishing System of expliciet wordt doorgegeven met behulp van een stijlopdracht.
 
    Zie [Spin Viewer aanpassen](../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#concept-464f3bfa55764bc09c92d8c7480b0b55) voor meer informatie over het opmaken van de viewer met CSS.
 
