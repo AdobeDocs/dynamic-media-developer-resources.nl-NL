@@ -4,10 +4,10 @@ seo-description: Interactive Video Viewer is een videospeler die streaming en pr
 seo-title: Interactieve video
 solution: Experience Manager
 title: Interactieve video
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 116c6b40-2490-4f1a-9c76-e06082069cc8
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '2243'
 ht-degree: 0%
