@@ -4,10 +4,10 @@ seo-description: Hiermee maakt u een gelaagde afbeelding die meerdere tekst- en 
 seo-title: createTemplate
 solution: Experience Manager
 title: createTemplate
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: c54bd47c-13e1-4b0d-a24c-9829b0a6d5bf
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 0%
@@ -35,18 +35,18 @@ De `urlModifier` parameter specificeert de het protocolbevelen van de Server van
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Het bedrijf waartoe de sjabloon behoort. |
-| ` *`folderHandle`*` | `xsd:string` | Ja | De maphandgreep die staat voor de map waarin de sjabloon zich bevindt. |
-| ` *`name`*` | `xsd:string` | Ja | Sjabloonnaam. |
-| ` *`type`*` | `xsd:string` | Ja | Sjabloontype. |
-| ` *`urlModifier`*` | `xsd:string` | Ja | Specificeert de bevelen van de Server van het Beeld die in de catalogus worden opgeslagen IS die voorafgaand aan om het even welke user-provided bevelen op URL worden toegepast. |
-| ` *`urlPostApplyModifier`*` | `xsd:string` | Nee | Hiermee geeft u protocolopdrachten op die worden toegepast na URL-opdrachten. Deze overschrijven eventuele conflicterende door de gebruiker opgegeven instellingen. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Het bedrijf waartoe de sjabloon behoort. |
+| `*`folderHandle`*` | `xsd:string` | Ja | De maphandgreep die staat voor de map waarin de sjabloon zich bevindt. |
+| `*`name`*` | `xsd:string` | Ja | Sjabloonnaam. |
+| `*`type`*` | `xsd:string` | Ja | Sjabloontype. |
+| `*`urlModifier`*` | `xsd:string` | Ja | Specificeert de bevelen van de Server van het Beeld die in de catalogus worden opgeslagen IS die voorafgaand aan om het even welke user-provided bevelen op URL worden toegepast. |
+| `*`urlPostApplyModifier`*` | `xsd:string` | Nee | Hiermee geeft u protocolopdrachten op die worden toegepast na URL-opdrachten. Deze overschrijven eventuele conflicterende door de gebruiker opgegeven instellingen. |
 
 **Uitvoer (createTemplateParam)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | Ja | De greep naar de sjabloon. |
+| `*`assetHandle`*` | `xsd:string` | Ja | De greep naar de sjabloon. |
 
 ## Voorbeelden {#section-09adb4d2f0c944af875c4463a461f55d}
 
