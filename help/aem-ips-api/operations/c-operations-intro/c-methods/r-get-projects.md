@@ -4,10 +4,10 @@ seo-description: Hiermee worden projecten opgehaald voor een groep gerelateerde 
 seo-title: getprojects
 solution: Experience Manager
 title: getprojects
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 46ec9a5d-4414-4c9c-aaf2-0db654204b61
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 0%
@@ -36,13 +36,13 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | De handgreep aan het bedrijf. |
+| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep aan het bedrijf. |
 
 **Output (getprojectsReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`projectArray`*` | `types:ProjectArray` | Ja | De serie van projecten verbonden aan het bedrijf. |
+| `*`projectArray`*` | `types:ProjectArray` | Ja | De serie van projecten verbonden aan het bedrijf. |
 
 ## Voorbeelden {#section-8b12d0b948f644f68bf9a16060d3849a}
 
