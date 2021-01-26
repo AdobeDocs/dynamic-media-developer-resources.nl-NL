@@ -1,15 +1,12 @@
 ---
 description: Alle logbestanden worden naar dezelfde logmap geschreven die in de TC-map is opgegeven.
-seo-description: Alle logbestanden worden naar dezelfde logmap geschreven die in de TC-map is opgegeven.
-seo-title: Serverregistratie
 solution: Experience Manager
 title: Serverregistratie
-topic: Scene7 Image Serving - Image Rendering API
-uuid: f6145737-e4c3-4533-9be5-5b5a0202fe33
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 5717550d2dea8ec086875e770ff8f200aaa75ff3
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
@@ -25,7 +22,7 @@ Belangrijk Er moet voldoende schijfruimte worden gereserveerd voor logbestanden 
 
 De Server van het Platform en de Server van het Beeld leiden tot de drie types van hieronder beschreven logboekdossiers.
 
-Met andere onderdelen van de afbeeldingsserver en bepaalde andere Scene7-pakketten, zoals de Scene7 Viewers, kunt u ook logbestanden maken in dezelfde map. Deze logbestanden zijn bedoeld voor intern gebruik door Scene7 en kunnen worden aangevraagd door Scene7 Support voor probleemoplossing.
+Met andere onderdelen van de afbeeldingsserver en bepaalde andere Dynamic Media-pakketten, zoals de Dynamic Media Viewers, kunt u ook logbestanden maken in dezelfde map. Deze logbestanden zijn bedoeld voor intern gebruik door Dynamic Media en kunnen worden aangevraagd door technische ondersteuning van Dynamic Media voor probleemoplossing.
 
 * [Toegangslogboek](c-access-log.md)
 * [Traceerlogboek](c-trace-log.md)
