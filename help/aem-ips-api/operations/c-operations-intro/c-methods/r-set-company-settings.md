@@ -4,10 +4,10 @@ seo-description: Hiermee stelt u verschillende bedrijfsspecifieke configuratiewa
 seo-title: setCompanySettings
 solution: Experience Manager
 title: setCompanySettings
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 5908082f-6743-4444-ba73-757ad4664890
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%
@@ -34,15 +34,15 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Bedrijfshandgreep. |
-| ` *`overwriteMode`*` | `xsd:string` | Nee | De modus voor het overschrijven van elementen. |
-| ` *`preservePublishState`*` | `xsd:boolean` | Nee | Stel in op `true` om de publicatiestatus te behouden wanneer een element opnieuw wordt geüpload. |
-| ` *`defaultSourceProfileHandle`*` | `xsd:string` | Nee | IccProfile-element dat als standaardbronkleurprofiel moet worden gebruikt. |
-| ` *`defaultDisplayProfileHandle`*` | `xsd:string` | Nee | IccProfile-element om als standaardkleurprofiel voor de weergave te gebruiken. |
-| ` *`iptcExifMappingXsltHandle`*` | `xsd:string` | Nee | XSL-element dat wordt gebruikt voor het toewijzen van IPTC- en EXIF-metagegevens aan IPS-metagegevensvelden. |
-| ` *`xmpMappingXsltHandle`*` | `xsd:string` | Nee | XSL-element dat wordt gebruikt om XMP metagegevens toe te wijzen aan IPS-metagegevensvelden. |
-| ` *`diskSpaceWarningMin`*` | `xsd:int` | Nee | Minimale vrije schijfruimte (in kB) beschikbaar voordat een waarschuwingsbericht wordt verzonden. |
-| ` *`emailTrashCleanupWarning`*` | `xsd:boolean` | Nee | Stel in op `true` om bedrijfsbeheerders een melding te sturen wanneer middelen uit de prullenbak worden verwijderd. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Bedrijfshandgreep. |
+| `*`overwriteMode`*` | `xsd:string` | Nee | De modus voor het overschrijven van elementen. |
+| `*`preservePublishState`*` | `xsd:boolean` | Nee | Stel in op `true` om de publicatiestatus te behouden wanneer een element opnieuw wordt geüpload. |
+| `*`defaultSourceProfileHandle`*` | `xsd:string` | Nee | IccProfile-element dat als standaardbronkleurprofiel moet worden gebruikt. |
+| `*`defaultDisplayProfileHandle`*` | `xsd:string` | Nee | IccProfile-element om als standaardkleurprofiel voor de weergave te gebruiken. |
+| `*`iptcExifMappingXsltHandle`*` | `xsd:string` | Nee | XSL-element dat wordt gebruikt voor het toewijzen van IPTC- en EXIF-metagegevens aan IPS-metagegevensvelden. |
+| `*`xmpMappingXsltHandle`*` | `xsd:string` | Nee | XSL-element dat wordt gebruikt om XMP metagegevens toe te wijzen aan IPS-metagegevensvelden. |
+| `*`diskSpaceWarningMin`*` | `xsd:int` | Nee | Minimale vrije schijfruimte (in kB) beschikbaar voordat een waarschuwingsbericht wordt verzonden. |
+| `*`emailTrashCleanupWarning`*` | `xsd:boolean` | Nee | Stel in op `true` om bedrijfsbeheerders een melding te sturen wanneer middelen uit de prullenbak worden verwijderd. |
 
 **Output (setCompanySettingsReturn)**
 
