@@ -1,15 +1,12 @@
 ---
-description: De HTML5 Video360 Viewer is een videospeler van 360 graden die streaming en progressieve 360 video die in het formaat H.264 wordt gecodeerd speelt, van het Uitgevers Systeem van Scene7 of van AEM Dynamic Media wordt geleverd.
-seo-description: De HTML5 Video360 Viewer is een videospeler van 360 graden die streaming en progressieve 360 video die in het formaat H.264 wordt gecodeerd speelt, van het Uitgevers Systeem van Scene7 of van AEM Dynamic Media wordt geleverd.
-seo-title: Video360
+description: De HTML5 Video360 Viewer is een videospeler van 360 graden die streaming en progressieve 360 video die in het formaat H.264 wordt gecodeerd, van Dynamic Media Classic of van AEM Dynamic Media wordt geleverd.
 solution: Experience Manager
 title: Video360
-topic: Dynamic media
-uuid: b03e6289-e012-4c62-835f-814463a27774
+topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '2613'
+source-wordcount: '2582'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # Video360{#video}
 
-De HTML5 Video360 Viewer is een videospeler van 360 graden die streaming en progressieve 360 video die in het formaat H.264 wordt gecodeerd speelt, van het Uitgevers Systeem van Scene7 of van AEM Dynamic Media wordt geleverd.
+De HTML5 Video360 Viewer is een videospeler van 360 graden die streaming en progressieve 360 video die in het formaat H.264 wordt gecodeerd, van Dynmaic Media Classic of van AEM Dynamic Media wordt geleverd.
 
 Video&#39;s van 360 graden, ook wel overweldigende video&#39;s of sferische video&#39;s genoemd, zijn video-opnamen waarbij een weergave in elke richting tegelijkertijd wordt opgenomen en opgenomen met een omnidirectionele camera of een verzameling camera&#39;s. Zowel enkelvoudige video als Adaptieve videosets worden ondersteund. De viewer biedt daarnaast ondersteuning voor het werken met progressieve video- en HLS-streams op externe locaties.
 
