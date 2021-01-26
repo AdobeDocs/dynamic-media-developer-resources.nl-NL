@@ -4,10 +4,10 @@ seo-description: Hiermee stelt u de afbeelding met hyperlinks in voor een elemen
 seo-title: setImageMaps
 solution: Experience Manager
 title: setImageMaps
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 1dd7e032-34b4-464d-8ec6-7ad282d12891
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
@@ -36,15 +36,15 @@ U moet de afbeeldingen met hyperlinks al hebben gemaakt. Afbeeldingen met hyperl
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Bedrijfshandgreep. |
-| ` *`assetHandle`*` | `xsd:string` | Ja | Asset handle. |
-| ` *`imageMapArray`*` | `types:ImageMapDefinitionArray` | Ja | Array met vooraf gedefinieerde afbeeldingen met hyperlinks. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Bedrijfshandgreep. |
+| `*`assetHandle`*` | `xsd:string` | Ja | Asset handle. |
+| `*`imageMapArray`*` | `types:ImageMapDefinitionArray` | Ja | Array met vooraf gedefinieerde afbeeldingen met hyperlinks. |
 
 **Output (setImageMapsReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`imageMapHandleArray`*` | `types:HandleArray` | Ja | Een array met grepen voor afbeeldingen met hyperlinks die op het element zijn toegepast. |
+| `*`imageMapHandleArray`*` | `types:HandleArray` | Ja | Een array met grepen voor afbeeldingen met hyperlinks die op het element zijn toegepast. |
 
 ## Voorbeelden {#section-fe2e35662a6a4ee29cf250c9fd180371}
 
