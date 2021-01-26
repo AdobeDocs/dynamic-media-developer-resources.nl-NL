@@ -1,15 +1,15 @@
 ---
-description: In dit document wordt de materiaalcatalogus voor Scene7 Image Rendering beschreven.
-seo-description: In dit document wordt de materiaalcatalogus voor Scene7 Image Rendering beschreven.
+description: In dit document wordt de materiaalcatalogus voor Dynamic Media Image Rendering beschreven.
+seo-description: In dit document wordt de materiaalcatalogus voor Dynamic Media Image Rendering beschreven.
 seo-title: Inleiding
 solution: Experience Manager
 title: Inleiding
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 38da0561-7730-4170-bf29-02de325b3ad9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 0%
 
 # Inleiding{#introduction}
 
-In dit document wordt de materiaalcatalogus voor Scene7 Image Rendering beschreven.
+In dit document wordt de materiaalcatalogus voor Dynamic Media Image Rendering beschreven.
 
 **Beoogd publiek**
 
-Deze documentatie is bedoeld voor ervaren programmeurs en ontwikkelaars van websites die Scene7 Image Rendering willen gebruiken voor een website of een aangepaste toepassing.
+Deze documentatie is bedoeld voor ervaren programmeurs en ontwikkelaars van websites die Dynamic Media Image Rendering willen gebruiken voor een website of een aangepaste toepassing.
 
-Aangenomen wordt dat de lezer bekend is met Scene7 Image Authoring and Image Rendering, algemene HTTP-protocolstandaarden en -conventies en basisterminologie voor beeldbewerking.
+Aangenomen wordt dat de lezer bekend is met Dynamic Media Image Authoring and Image Rendering, algemene HTTP-protocolstandaarden en -conventies en basisterminologie voor beeldbewerking.
 
 **Documentconventies**
 
