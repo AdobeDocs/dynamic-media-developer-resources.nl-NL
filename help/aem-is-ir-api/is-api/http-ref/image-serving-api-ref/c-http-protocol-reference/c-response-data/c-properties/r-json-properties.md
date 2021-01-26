@@ -4,12 +4,12 @@ seo-description: Als jsonp wordt gespecificeerd als reactie formaat, worden de a
 seo-title: JSONP-eigenschappen
 solution: Experience Manager
 title: JSONP-eigenschappen
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e53d75f2-9b43-4e8f-8191-66f69f344cdd
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Verzoeken die JSONP reactieformaat steunen laten u de naam van de callback manag
 
 `<reqHandler>` is de naam van de manager JS die in de reactie JSONP aanwezig is. Alleen a-z, A-Z en 0-9 tekens zijn toegestaan. Optioneel. De standaardwaarde is `s7jsonResponse`.
 
-Het Scene7 Image Serving Viewers-pakket bevat een hulpprogramma voor het aanvragen en parseren van gegevens met de JSONP-indeling van Image Serving.
+Het Dynamic Media Image Serving Viewers-pakket bevat een hulpprogramma voor het aanvragen en parseren van gegevens met de JSONP-indeling van Image Serving.
 
 Zie [http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP) voor meer informatie over het formaat JSONP.
 
