@@ -4,10 +4,10 @@ seo-description: Hiermee worden eigenschapssets opgehaald die aan een tekstgreep
 seo-title: getPropertySets
 solution: Experience Manager
 title: getPropertySets
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: fa3cadb3-92b3-4ffb-ac1e-87a01b98bcb2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -39,15 +39,15 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`typeHandle`*` | `xsd:string` | Ja | De greep naar het type eigenschapset. |
-| ` *`primaryOwnerHandle`*` | `xsd:string` | Ja | De primaire eigenaar van de gegevens die aan het databaseobject zijn gebonden. |
-| ` *`secundairOwnerHandle`*` | `xsd:string` | Nee | Een optionele secundaire eigenaar van de gegevens. |
+| `*`typeHandle`*` | `xsd:string` | Ja | De greep naar het type eigenschapset. |
+| `*`primaryOwnerHandle`*` | `xsd:string` | Ja | De primaire eigenaar van de gegevens die aan het databaseobject zijn gebonden. |
+| `*`secundairOwnerHandle`*` | `xsd:string` | Nee | Een optionele secundaire eigenaar van de gegevens. |
 
 **Output (getPropertySetsReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`setArray`*` | `types:PropertySetArray` | Ja | Array met eigenschapssets. |
+| `*`setArray`*` | `types:PropertySetArray` | Ja | Array met eigenschapssets. |
 
 ## Voorbeelden {#section-1358af974eab4259864910337a6f0bd2}
 
