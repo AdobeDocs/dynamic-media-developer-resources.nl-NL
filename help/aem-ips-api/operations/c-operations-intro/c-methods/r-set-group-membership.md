@@ -4,10 +4,10 @@ seo-description: Hiermee stelt u het groepslidmaatschap voor een gebruiker in.
 seo-title: setGroupMembership
 solution: Experience Manager
 title: setGroupMembership
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 3285fab0-92e4-4b88-9a3c-88cbb97d48c9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%
@@ -33,9 +33,9 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | Nee | De handgreep voor de gebruiker wiens groepslidmaatschap u wilt instellen. |
-| ` *`companyHandle`*` | `xsd:string` | Nee | Bedrijfshandgreep. |
-| ` *`groupHandleArray`*` | `types:HandleArray` | Ja | De array van handgrepen naar groepen waartoe de gebruiker behoort. |
+| `*`userHandle`*` | `xsd:string` | Nee | De handgreep voor de gebruiker wiens groepslidmaatschap u wilt instellen. |
+| `*`companyHandle`*` | `xsd:string` | Nee | Bedrijfshandgreep. |
+| `*`groupHandleArray`*` | `types:HandleArray` | Ja | De array van handgrepen naar groepen waartoe de gebruiker behoort. |
 
 **Output (setGroupMembershipReturn)**
 
