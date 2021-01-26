@@ -1,15 +1,15 @@
 ---
-description: Het hulpprogramma Vignet Authoring (onderdeel van het Scene7-pakket voor het maken van afbeeldingen) biedt mechanismen voor de besturing van aspecten op laag niveau van de engine voor het renderen van vignetten.
-seo-description: Het hulpprogramma Vignet Authoring (onderdeel van het Scene7-pakket voor het maken van afbeeldingen) biedt mechanismen voor de besturing van aspecten op laag niveau van de engine voor het renderen van vignetten.
+description: Het hulpprogramma Vignet Authoring (onderdeel van het Dynamic Media-pakket voor het maken van afbeeldingen) biedt mechanismen voor de besturing van aspecten op laag niveau van de engine voor het renderen van vignetten.
+seo-description: Het hulpprogramma Vignet Authoring (onderdeel van het Dynamic Media-pakket voor het maken van afbeeldingen) biedt mechanismen voor de besturing van aspecten op laag niveau van de engine voor het renderen van vignetten.
 seo-title: Geavanceerde renderinstellingen
 solution: Experience Manager
 title: Geavanceerde renderinstellingen
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 18e7f3cf-4d30-445c-813c-546a91987b99
 translation-type: tm+mt
-source-git-commit: e3b096b97419a86de244b97876439ad9c491b950
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '633'
 ht-degree: 17%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 17%
 
 # Geavanceerde renderinstellingen{#advanced-render-settings}
 
-Het hulpprogramma Vignet Authoring (onderdeel van het Scene7-pakket voor het maken van afbeeldingen) biedt mechanismen voor de besturing van aspecten op laag niveau van de engine voor het renderen van vignetten.
+Het hulpprogramma Vignet Authoring (onderdeel van het Dynamic Media-pakket voor het maken van afbeeldingen) biedt mechanismen voor de besturing van aspecten op laag niveau van de engine voor het renderen van vignetten.
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ Deze instellingen worden op interactieve wijze beheerd in het ontwerpen van afbe
   <tr> 
    <td colname="col1"> <p>W </p> </td> 
    <td colname="col2"> <p>USM-hoeveelheid (%). </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>500 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
@@ -141,7 +141,7 @@ Deze instellingen worden op interactieve wijze beheerd in het ontwerpen van afbe
    <td colname="col1"> <p>Y </p> </td> 
    <td colname="col2"> <p>Poisson: Schakelen. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
-   <td colname="col4"> <p>3 </p> </td> 
+   <td colname="col4"> <p>1 </p> </td> 
    <td colname="col5"> <p>De standaardwaarde is 1. </p> </td> 
   </tr> 
   <tr> 
