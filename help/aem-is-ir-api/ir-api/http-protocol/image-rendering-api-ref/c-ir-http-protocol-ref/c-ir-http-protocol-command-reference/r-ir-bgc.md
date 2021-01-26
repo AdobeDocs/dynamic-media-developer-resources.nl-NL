@@ -4,12 +4,12 @@ seo-description: Achtergrondkleur. Hiermee geeft u de subtractieve kleur op voor
 seo-title: bgc
 solution: Experience Manager
 title: bgc
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 551a0da8-dd1f-484a-bf7e-f4896370340a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Achtergrondkleur. Hiermee geeft u de subtractieve kleur op voor verkleurbare str
 
 Het inkleuringsalgoritme voor het renderen van afbeeldingen is heel eenvoudig: de componentwaarden van `bgc=` worden afgetrokken van die van de structuurpixels, `color=` wordt toegevoegd en ten slotte wordt het resultaat bijgesneden tot `0,0,0` en `255,255,255`.
 
-Voor het typische gebruik van textuurkleuring, zou de waarde voor `bgc=` de belangrijkste of dominante kleur in het textuurbeeld kunnen zijn. Scene7 Image Authoring biedt halfautomatische gereedschappen waarmee u redelijke `bgc=` kleurwaarden uit structuurafbeeldingen kunt extraheren.
+Voor het typische gebruik van textuurkleuring, zou de waarde voor `bgc=` de belangrijkste of dominante kleur in het textuurbeeld kunnen zijn. Dynamic Media Image Authoring biedt halfautomatische gereedschappen waarmee u redelijke `bgc=` kleurwaarden uit structuurafbeeldingen kunt extraheren.
 
 Wanneer een structuurmateriaal wordt toegepast op een niet-tekentabel vignetobject, wordt `bgc=` toegepast als de voorgrondkleur als `color=` niet is opgegeven.
 
