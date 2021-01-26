@@ -4,10 +4,10 @@ seo-description: Digimarc-afbeeldingsgegevens. Hiermee schakelt u Digimarc-inslu
 seo-title: DigimarcInfo
 solution: Experience Manager
 title: DigimarcInfo
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8371880e-47df-4333-b8a6-91feaf16c409
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 7%
@@ -23,9 +23,9 @@ Digimarc-afbeeldingsgegevens. Hiermee schakelt u Digimarc-insluiting in en geeft
 
 Vier gehele getallen, gescheiden door komma&#39;s.
 
-` *``*, *``*, *`typeflagsval1`*, *`val2`*`
+`*``*, *``*, *`typeflagsval1`*, *`val2`*`
 
-` *`Met `*` type schakelt u Digimarc-insluiting in en geeft u het type watermerk op:
+`*`Met `*` type schakelt u Digimarc-insluiting in en geeft u het type watermerk op:
 
 <table id="table_3648951F14D94C5BAD097CFB783F1EE7"> 
  <thead> 
@@ -40,7 +40,7 @@ Vier gehele getallen, gescheiden door komma&#39;s.
    <td> <p>Geen. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>Basis. </p> </td> 
   </tr> 
   <tr> 
@@ -58,7 +58,7 @@ Vier gehele getallen, gescheiden door komma&#39;s.
  </tbody> 
 </table>
 
-` *`Hiermee `*` markeert u een bitveld met drie waarden. Stel bit 0 in om te verwijzen naar inhoud die is beveiligd tegen kopiëren, bit 1 om beperkte inhoud aan te geven en bit 2 om de inhoud van volwassenen aan te geven:
+`*`Hiermee `*` markeert u een bitveld met drie waarden. Stel bit 0 in om te verwijzen naar inhoud die is beveiligd tegen kopiëren, bit 1 om beperkte inhoud aan te geven en bit 2 om de inhoud van volwassenen aan te geven:
 
 <table id="table_00F218515FBE484F9D05CBAF14F9D045"> 
  <thead> 
@@ -81,7 +81,7 @@ Vier gehele getallen, gescheiden door komma&#39;s.
    <td> <p>Beperkt. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>Met kopiëren beveiligd, beperkt. </p> </td> 
   </tr> 
   <tr> 
@@ -103,7 +103,7 @@ Vier gehele getallen, gescheiden door komma&#39;s.
  </tbody> 
 </table>
 
-De interpretatie van ` *`val1`*` en ` *`val2`*` hangt af van ` *`type`*`:
+De interpretatie van `*`val1`*` en `*`val2`*` hangt af van `*`type`*`:
 
 <table id="table_6B29F76BC1974C12AB7124BF84B29EC2"> 
  <thead> 
@@ -130,7 +130,7 @@ De interpretatie van ` *`val1`*` en ` *`val2`*` hangt af van ` *`type`*`:
    <td> <p>Niet gebruikt. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>Transactie-id. </p> </td> 
    <td> <p>Niet gebruikt. </p> </td> 
   </tr> 
