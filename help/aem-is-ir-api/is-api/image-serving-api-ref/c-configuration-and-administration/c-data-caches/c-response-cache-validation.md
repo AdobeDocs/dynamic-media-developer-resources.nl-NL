@@ -4,12 +4,12 @@ seo-description: De ingangen van het geheime voorgeheugen worden automatisch ver
 seo-title: Validatie van responscache
 solution: Experience Manager
 title: Validatie van responscache
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d1aad5ae-f0fa-489b-a48b-b0ac8c8f43bb
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,6 @@ De ingangen van het geheime voorgeheugen worden ongeldig en zijn onderworpen aan
 
 >[!NOTE]
 >
->In Scene7 piramid TIFF-afbeeldingen (PTIFF) wordt de bestandsdatum intern in de bestandsheader bewaard voor validatiedoeleinden. De wijzigingstijd van het bestand die door het bestandssysteem wordt aangehouden, wordt gebruikt om te controleren of een niet-PTIFF-bestand is gewijzigd.
+>In Dynamic Media piramid TIFF-afbeeldingen (PTIFF) wordt de bestandsdatum intern in de bestandsheader bewaard voor validatiedoeleinden. De wijzigingstijd van het bestand die door het bestandssysteem wordt aangehouden, wordt gebruikt om te controleren of een niet-PTIFF-bestand is gewijzigd.
 
 Alleen afbeeldingsbestanden nemen deel aan het validatieproces van de cache. Wijzigingen in lettertypebestanden of ICC-profielbestanden leiden niet tot automatische ongeldigmaking van cachegegevens.
