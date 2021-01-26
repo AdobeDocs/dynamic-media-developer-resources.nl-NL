@@ -4,10 +4,10 @@ seo-description: Stelt een pakket met XMP metagegevens voor een element in of we
 seo-title: updateXMPPacket
 solution: Experience Manager
 title: updateXMPPacket
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 97a40261-8f85-4e8c-8aa5-ed4fec297f33
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 0%
@@ -37,15 +37,15 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Bedrijfshandgreep. |
-| ` *`assetHandle`*` | `xsd:string` | Ja | Asset handle. |
-| ` *`compressedPacket`*` | `xsd:Base 64 binary` | Ja | [!DNL zlib-compressed] XMP pakket wilt u plaatsen of bijwerken. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Bedrijfshandgreep. |
+| `*`assetHandle`*` | `xsd:string` | Ja | Asset handle. |
+| `*`compressedPacket`*` | `xsd:Base 64 binary` | Ja | [!DNL zlib-compressed] XMP pakket wilt u plaatsen of bijwerken. |
 
 **Uitvoer (updateXMPPacketReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`succes`*` | `xsd:boolean` | Ja | Keert `true` terug als het pakket werd bijgewerkt. |
+| `*`succes`*` | `xsd:boolean` | Ja | Keert `true` terug als het pakket werd bijgewerkt. |
 
 ## Voorbeelden {#section-38b556b94e5044bf97a954519ff6c212}
 
