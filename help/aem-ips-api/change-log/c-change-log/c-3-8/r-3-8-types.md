@@ -4,10 +4,10 @@ seo-description: Beschrijft nieuwe en veranderde gegevenstypes voor IPS API vers
 seo-title: Nieuwe en gewijzigde gegevenstypen
 solution: Experience Manager
 title: Nieuwe en gewijzigde gegevenstypen
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 099349dd-aaf9-4e25-9557-c3a196ef531f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 0%
