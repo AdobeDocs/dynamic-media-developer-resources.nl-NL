@@ -1,15 +1,12 @@
 ---
 description: Voer de volgende stappen uit om een bibliotheek met responsieve afbeeldingen aan een webpagina toe te voegen en bestaande afbeeldingen met de bibliotheek te beheren.
-seo-description: Voer de volgende stappen uit om een bibliotheek met responsieve afbeeldingen aan een webpagina toe te voegen en bestaande afbeeldingen met de bibliotheek te beheren.
-seo-title: De bibliotheek met responsieve afbeeldingen gebruiken
 solution: Experience Manager
 title: De bibliotheek met responsieve afbeeldingen gebruiken
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 325cdc8d-2bfa-4f9b-bf88-51d1dcc6c495
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -88,7 +85,7 @@ De volgende code is een volledig voorbeeld van een triviale webpagina met één 
 
 **Slim uitsnijden gebruiken**
 
-Er zijn twee modi voor slim uitsnijden beschikbaar in AEM 6.4 en Scene7 Viewers 5.9:
+Er zijn twee modi voor slim uitsnijden beschikbaar in AEM 6.4 en Dynamic Media Viewers 5.9:
 
 * **Handmatig**  door de gebruiker gedefinieerde onderbrekingspunten en de bijbehorende opdrachten voor Image Service worden gedefinieerd binnen een kenmerk in het afbeeldingselement.
 * **Smart Crop**  - berekende Smart Crop-uitvoeringen worden automatisch opgehaald van de leveringsserver. De beste vertoning wordt geselecteerd gebruikend de runtime grootte van het beeldelement.
