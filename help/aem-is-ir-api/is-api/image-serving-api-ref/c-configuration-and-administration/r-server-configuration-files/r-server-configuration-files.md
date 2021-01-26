@@ -1,15 +1,12 @@
 ---
 description: Alle configuratiebestanden bevinden zich in install_folder/conf en kunnen worden bewerkt met de meeste teksteditors. Het is mogelijk dat de wijzigingen opnieuw moeten worden gestart voordat de server van kracht wordt.
-seo-description: Alle configuratiebestanden bevinden zich in install_folder/conf en kunnen worden bewerkt met de meeste teksteditors. Het is mogelijk dat de wijzigingen opnieuw moeten worden gestart voordat de server van kracht wordt.
-seo-title: Serverconfiguratiebestanden
 solution: Experience Manager
 title: Serverconfiguratiebestanden
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 02905b23-bbf3-4ae7-828d-915b22d8f167
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
@@ -21,7 +18,7 @@ Alle configuratiebestanden bevinden zich in install_folder/conf en kunnen worden
 
 >[!NOTE]
 >
->De meeste serverconfiguratiebestanden bevatten aanvullende eigenschappen en waarden die niet in dit document worden beschreven. Dergelijke eigenschappen zijn bedoeld voor intern servergebruik en mogen alleen worden gewijzigd als ze specifiek zijn geïnstrueerd door technische ondersteuning van Scene7.
+>De meeste serverconfiguratiebestanden bevatten aanvullende eigenschappen en waarden die niet in dit document worden beschreven. Dergelijke eigenschappen zijn bedoeld voor intern servergebruik en mogen alleen worden gewijzigd als hiervoor specifieke instructies zijn gegeven door de technische ondersteuning van Dynamic Media.
 
 In dit document worden instellingen voor de volgende configuratiebestanden besproken:
 
