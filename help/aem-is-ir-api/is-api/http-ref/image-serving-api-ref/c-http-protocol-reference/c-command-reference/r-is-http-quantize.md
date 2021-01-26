@@ -4,10 +4,10 @@ seo-description: Kleurkwantiteit. Geeft kleurkwantiseringskenmerken voor GIF-uit
 seo-title: kwantificeren
 solution: Experience Manager
 title: kwantificeren
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4e9c4807-59bc-4eb9-bcab-0bf0cfdf56d4
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Kleurkwantiteit. Geeft kleurkwantiseringskenmerken voor GIF-uitvoerconversie op.
 
 Request-kenmerk. Ongeacht de huidige laaginstelling. Wordt alleen gebruikt als `fmt=gif`, `fmt=gif-alpha`, `fmt=png8` of `fmt=png8-alpha`. Anders genegeerd.
 
-De kleuren die worden opgegeven met ` *`colorList`*` moeten bestaan uit RGB-waarden in hex6-indeling (zie ` [color](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md#reference-b044954ec6184253b8831579466b4423)`) zonder voorvoegsel &#39; `0x`&#39;. Andere kleurspecificaties zijn niet toegestaan. *`numColors`* moet tussen 2 en 256 liggen.
+De kleuren die worden opgegeven met `*`colorList`*` moeten bestaan uit RGB-waarden in hex6-indeling (zie ` [color](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md#reference-b044954ec6184253b8831579466b4423)`) zonder voorvoegsel &#39; `0x`&#39;. Andere kleurspecificaties zijn niet toegestaan. *`numColors`* moet tussen 2 en 256 liggen.
 
 ## Standaard {#section-ca3e817617244e8798ccff67b2023a32}
 
