@@ -1,15 +1,12 @@
 ---
 description: Image Serving implementeert een eenvoudige visuele watermerkingsfaciliteit.
-seo-description: Image Serving implementeert een eenvoudige visuele watermerkingsfaciliteit.
-seo-title: Watermerken
 solution: Experience Manager
 title: Watermerken
-topic: Scene7 Image Serving - Image Rendering API
-uuid: b2bbaa59-dad9-4be3-bb92-142ed44f6d65
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -23,7 +20,7 @@ Een watermerk is doorgaans een halftransparante afbeelding, maar het kan tekst z
 
 Watermerken wordt ingeschakeld door `attribute::Watermark` in te stellen op een geldig catalogusitem dat de watermerkafbeelding of sjabloon zou bevatten. Als `attribute::Watermark` is ingesteld in een benoemde catalogus, voegt de server het watermerk toe aan alle afbeeldingsaanvragen die verwijzen naar de catalogus-id in de aanvraag-URL. Als `default::Watermark` is ingesteld (in de standaardcatalogus [!DNL default.ini]), wordt het watermerk toegepast op alle afbeeldingsaanvragen, ongeacht of ze naar een catalogus verwijzen of niet.
 
-Watermerken worden niet toegepast op afbeeldingen die worden geretourneerd als reactie op miniatuurverzoeken ( `req=tmb`) en bepaalde verzoeken van Scene7-viewers.
+Watermerken worden niet toegepast op afbeeldingen die worden geretourneerd als reactie op miniatuurverzoeken ( `req=tmb`) en bepaalde verzoeken van Dynamic Media-viewers.
 
 ## Schalen en uitlijnen {#section-89ef9e5926ae438abbd8e70332749b76}
 
