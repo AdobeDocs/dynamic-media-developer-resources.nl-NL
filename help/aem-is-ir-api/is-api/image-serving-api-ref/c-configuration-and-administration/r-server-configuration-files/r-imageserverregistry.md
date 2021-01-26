@@ -4,12 +4,12 @@ seo-description: Bevat de configuratiemontages van de Server van het Beeld.
 seo-title: ImageServerRegistry.xml
 solution: Experience Manager
 title: ImageServerRegistry.xml
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: cc401f75-1eb1-40fe-8308-eaaf9e14f906
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Bevat de configuratiemontages van de Server van het Beeld.
 
 Wanneer u dit XML-bestand wijzigt, moet u ervoor zorgen dat geldige XML-syntaxis behouden blijft, anders start de Image Server mogelijk niet.
 
-Start de afbeeldingsserver na het bewerken van dit bestand opnieuw om de wijzigingen door te voeren. Alleen de onderstaande elementwaarden worden ondersteund voor wijziging. Bewerk de overige inhoud van dit bestand alleen op advies van Scene7 Technical Support.
+Start de afbeeldingsserver na het bewerken van dit bestand opnieuw om de wijzigingen door te voeren. Alleen de onderstaande elementwaarden worden ondersteund voor wijziging. Bewerk de overige inhoud van dit bestand alleen op advies van de technische ondersteuning van Dynamic Media.
 
 >[!NOTE]
 >
