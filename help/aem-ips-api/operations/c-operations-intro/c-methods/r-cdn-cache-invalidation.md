@@ -1,15 +1,12 @@
 ---
-description: Hiermee wordt de opgegeven lijst met URL's doorgestuurd naar de Scene7 CDN-provider (Content Distribution Network) om de bestaande cache met HTTP-reacties ongeldig te maken.
-seo-description: Hiermee wordt de opgegeven lijst met URL's doorgestuurd naar de Scene7 CDN-provider (Content Distribution Network) om de bestaande cache met HTTP-reacties ongeldig te maken.
-seo-title: cdnCacheInvalidation
+description: Hiermee wordt de opgegeven lijst met URL's doorgestuurd naar de Dynamic Media CDN-provider (Content Distribution Network) om de bestaande cache met HTTP-reacties ongeldig te maken.
 solution: Experience Manager
 title: cdnCacheInvalidation
-topic: Scene7 Image Production System API
-uuid: 16cf53d4-4101-405c-b008-009b6ac62169
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -17,19 +14,19 @@ ht-degree: 0%
 
 # cdnCacheInvalidation{#cdncacheinvalidation}
 
-Hiermee wordt de opgegeven lijst met URL&#39;s doorgestuurd naar de Scene7 CDN-provider (Content Distribution Network) om de bestaande cache met HTTP-reacties ongeldig te maken.
+Hiermee wordt de opgegeven lijst met URL&#39;s doorgestuurd naar de Dynamic Media CDN-provider (Content Distribution Network) om de bestaande cache met HTTP-reacties ongeldig te maken.
 
 ## cdnCacheInvalidation: Info {#section-4f70d2bc79d64288b961836ab17e9690}
 
-De CDN geheim voorgeheugenongeldigverklaring dwingt alle HTTP- verzoeken om deze URLs tegen de huidige gepubliceerde gegevens op het netwerk van Scene7 opnieuw te worden bevestigd zodra dit ongeldigingsverzoek door het netwerk CDN wordt verwerkt. URL&#39;s die niet zijn verbonden met de URL-structuur van de Scene7-service en die direct overeenkomen met de hoofdid van het Scene7-bedrijf die is toegewezen op het moment dat het bedrijf wordt gemaakt, resulteren in een API-fout voor de gehele aanvraag. Eventuele ongeldige URL&#39;s die de CDN niet ondersteunt en die als ongeldig worden beschouwd, resulteren ook in een API-fout voor de gehele aanvraag.
+De CDN geheim voorgeheugenongeldigverklaring dwingt alle HTTP- verzoeken om deze URLs tegen de huidige gepubliceerde gegevens op het netwerk van Dynamic Media opnieuw te worden bevestigd nadat dit ongeldigingsverzoek door het netwerk CDN wordt verwerkt. URL&#39;s die niet zijn verbonden met de URL-structuur van de Dynamic Media-service en die direct overeenkomen met de hoofdid van het Dynamic Media-bedrijf die is toegewezen op het moment dat het bedrijf wordt gemaakt, resulteren in een API-fout voor de gehele aanvraag. Eventuele ongeldige URL&#39;s die de CDN niet ondersteunt en die als ongeldig worden beschouwd, resulteren ook in een API-fout voor de gehele aanvraag.
 
 **Gebruiksfrequentie: Regels**
 
-De regels die de frequentie van het gebruik van deze eigenschap bepalen worden gecontroleerd door de partners CDN van Scene7. CDN behoudt de discretie om de ontvankelijkheid van deze ongeldig wordingen te degraderen om optimale prestaties van zijn dienst aan zijn gebruikers te handhaven. Mocht Scene7 op de hoogte worden gesteld van het overgebruik van deze functie, dan moeten we de functie uitschakelen, per bedrijf of volledig in de service.
+De regels die de frequentie van het gebruik van deze eigenschap bepalen worden gecontroleerd door de partners CDN van Dynamische Media. CDN behoudt de discretie om de ontvankelijkheid van deze ongeldig wordingen te degraderen om optimale prestaties van zijn dienst aan zijn gebruikers te handhaven. Mocht Dynamic Media op de hoogte worden gesteld van het overgebruik van deze functie, dan moeten we de functie uitschakelen, per bedrijf of volledig in de service.
 
 **Bevestigingse-mails**
 
-Bevestigingse-mails van de Scene7 CDN-partner kunnen worden verzonden naar de maker van de lijst of naar maximaal vijf andere e-mailadressen. De API verzendt de bevestiging wanneer het volledige CDN-netwerk op de hoogte is gebracht van het feit dat de URL&#39;s waarnaar in de e-mail wordt verwezen, zijn gewist. Één enkele vraag aan `cdnCacheInvalidation` kan veelvoudige e-mail verzenden als het aantal geleverde URLs het aantal overschrijdt dat Scene7 aan de partner CDN op één enkel bericht kan leveren. Momenteel, zou dat zijn als het verzoek 100 URLs overschrijdt, maar is onderworpen aan verandering die op verzoek van de partner CDN wordt gebaseerd.
+Bevestigingse-mails van de Dynamic Media CDN-partner kunnen worden verzonden naar de maker van de lijst of naar maximaal vijf andere e-mailadressen. De API verzendt de bevestiging wanneer het volledige CDN-netwerk op de hoogte is gebracht van het feit dat de URL&#39;s waarnaar in de e-mail wordt verwezen, zijn gewist. Één enkele vraag aan `cdnCacheInvalidation` kan veelvoudige e-mail verzenden als het aantal geleverde URLs het aantal overschrijdt dat Dynamic Media aan de partner CDN op één enkel bericht kan leveren. Momenteel, zou dat zijn als het verzoek 100 URLs overschrijdt, maar is onderworpen aan verandering die op verzoek van de partner CDN wordt gebaseerd.
 
 **Ondersteund sinds**
 
@@ -64,7 +61,7 @@ Bevestigingse-mails van de Scene7 CDN-partner kunnen worden verzonden naar de ma
    <td> <p> <span class="codeph"> <span class="varname"> urlArray</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> types:UrlArray</span> </p> </td> 
    <td> <p> Ja </p> </td> 
-   <td> <p> Lijst met maximaal 1000 URL's die ongeldig moeten worden gemaakt in de CDN-cache. Alle URL's moeten de hoofdmapid van het Scene7-bedrijf bevatten om ongeldig te worden gemaakt. </p> </td> 
+   <td> <p> Lijst met maximaal 1000 URL's die ongeldig moeten worden gemaakt in de CDN-cache. Alle URL's moeten de hoofdmapid van het Dynamic Media-bedrijf bevatten om ongeldig te worden gemaakt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
