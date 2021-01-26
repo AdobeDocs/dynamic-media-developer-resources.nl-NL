@@ -4,10 +4,10 @@ seo-description: Omgekeerd pad voor laagclip. Hiermee geeft u een pad voor de ui
 seo-title: clipXPath
 solution: Experience Manager
 title: clipXPath
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a4062f3f-5dba-4514-acde-e1b7d608a2e9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Omgekeerd pad voor laagclip. Hiermee geeft u een pad voor de uitsluitingsclip op
  </tr> 
 </table>
 
-Zie [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) voor extra informatie, met inbegrip van een beschrijving van ` *`pathName`*` en ` *`pathDefinition`*`.
+Zie [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) voor extra informatie, met inbegrip van een beschrijving van `*`pathName`*` en `*`pathDefinition`*`.
 
 ## Eigenschappen {#section-acf7272ba93a4bbba818b8e6aa4dcea5}
 
