@@ -4,10 +4,10 @@ seo-description: Als u op deze knop klikt of erop tikt, wordt uitgezoomd op een 
 seo-title: Knop Uitzoomen
 solution: Experience Manager
 title: Knop Uitzoomen
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 2e95855a-c3af-4a79-a33a-f27d88dc14a4
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 0%
