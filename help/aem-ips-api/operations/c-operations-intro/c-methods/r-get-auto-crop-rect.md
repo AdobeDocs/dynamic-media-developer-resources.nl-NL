@@ -4,10 +4,10 @@ seo-description: Hiermee wordt een uitgesneden gebied voor een afbeelding gereto
 seo-title: getAutoCropRect
 solution: Experience Manager
 title: getAutoCropRect
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: bb00d89a-5fc4-476f-aa47-3cf69ef99afe
 translation-type: tm+mt
-source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 0%
@@ -37,23 +37,23 @@ Syntaxis
 
 >[!NOTE]
 >
->Geef ` *`autoColorCropOptions`*` of ` *`autoTransparentCropOptions`*` op wanneer u deze methode aanroept.
+>Geef `*`autoColorCropOptions`*` of `*`autoTransparentCropOptions`*` op wanneer u deze methode aanroept.
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | De handgreep aan het bedrijf met de activa u wilt werken met. |
-| ` *`assetHandle`*` | `xsd:string` | Ja | De handgreep naar het element waarmee u wilt werken. |
-| ` *`autoColorCropOptions`*` | `types:AutoColorCropOptions` | Nee | De snijrechthoek berekenen op basis van kleur. Zie [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6). |
-| ` *`autoTransparentCropOptions`*` | `types:AutoTransparentCropOptions` | Nee | Snijrechthoek berekenen op basis van transparantie. Zie [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b). |
+| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep aan het bedrijf met de activa u wilt werken met. |
+| `*`assetHandle`*` | `xsd:string` | Ja | De handgreep naar het element waarmee u wilt werken. |
+| `*`autoColorCropOptions`*` | `types:AutoColorCropOptions` | Nee | De snijrechthoek berekenen op basis van kleur. Zie [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6). |
+| `*`autoTransparentCropOptions`*` | `types:AutoTransparentCropOptions` | Nee | Snijrechthoek berekenen op basis van transparantie. Zie [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b). |
 
 **Output (getAutoCropRectReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`xOffset`*` | `xsd:int` | Ja | De coördinaat van de beginpixels van het berekende uitsnijdgebied. |
-| ` *`yOffset`*` | `xsd:int` | Ja | De eerste pixelcoördinaat van het berekende uitsnijdgebied. |
-| ` *`width`*` | `xsd:int` | Ja | Breedte van het berekende uitsnijdgebied (in pixels). |
-| ` *`height`*` | `xsd:int` | Ja | Hoogte van het berekende uitsnijdgebied (in pixels). |
+| `*`xOffset`*` | `xsd:int` | Ja | De coördinaat van de beginpixels van het berekende uitsnijdgebied. |
+| `*`yOffset`*` | `xsd:int` | Ja | De eerste pixelcoördinaat van het berekende uitsnijdgebied. |
+| `*`width`*` | `xsd:int` | Ja | Breedte van het berekende uitsnijdgebied (in pixels). |
+| `*`height`*` | `xsd:int` | Ja | Hoogte van het berekende uitsnijdgebied (in pixels). |
 
 ## Voorbeelden {#section-ba65bd66086d491cad1cea535954ee1f}
 
