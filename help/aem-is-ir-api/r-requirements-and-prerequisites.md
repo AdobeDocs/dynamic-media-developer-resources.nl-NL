@@ -1,15 +1,15 @@
 ---
-description: Controleer voordat u Scene7 Image Serving gebruikt of uw systeem voldoet aan de systeemvereisten.
-seo-description: Controleer voordat u Scene7 Image Serving gebruikt of uw systeem voldoet aan de systeemvereisten.
+description: Controleer voordat u Dynamic Media Image Serving gebruikt of uw systeem voldoet aan de systeemvereisten.
+seo-description: Controleer voordat u Dynamic Media Image Serving gebruikt of uw systeem voldoet aan de systeemvereisten.
 seo-title: Systeemvereisten en -vereisten
 solution: Experience Manager
 title: Systeemvereisten en -vereisten
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 80196574-f5a2-4298-880a-cc36f90b6e21
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Systeemvereisten en -vereisten{#system-requirements-and-prerequisites}
 
-Controleer voordat u Scene7 Image Serving gebruikt of uw systeem voldoet aan de systeemvereisten.
+Controleer voordat u Dynamic Media Image Serving gebruikt of uw systeem voldoet aan de systeemvereisten.
 
 ## Serverhardware {#section-f3c14a7bc1b745118602659628df779f}
 
@@ -57,7 +57,7 @@ tot
 
 ## Serversoftware {#section-5c9aad2e6b8a4bca989e17a2c8476fc4}
 
-Voor Scene7 Image Serving is de volgende serversoftware vereist.
+Voor Dynamic Media Image Serving is de volgende serversoftware vereist.
 
 **Windows**
 
