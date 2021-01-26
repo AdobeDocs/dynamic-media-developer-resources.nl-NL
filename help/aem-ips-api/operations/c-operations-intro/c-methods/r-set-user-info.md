@@ -4,10 +4,10 @@ seo-description: Hiermee stelt u gebruikerskenmerken in (bijvoorbeeld naam, e-ma
 seo-title: setUserInfo
 solution: Experience Manager
 title: setUserInfo
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 52e3a21e-1dd5-4f9d-b460-506d280fff47
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%
@@ -34,14 +34,14 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | Nee | Gebruikershandgreep. |
-| ` *`firstName`*` | `xsd:string` | Ja | Voornaam. |
-| ` *`lastName`*` | `xsd:string` | Ja | Achternaam. |
-| ` *`email`*` | `xsd:string` | Ja | E-mailadres gebruiker. |
-| ` *`defaultRole`*` | `xsd:string` | Ja | Plaatst de rol voor een gebruiker in elk bedrijf zij tot behoren. De rol `IpsAdmin` negeert echter andere instellingen per bedrijf. |
-| ` *`passwordExpires`*` | `xsd:dateTime` | Nee | Vervaldatum wachtwoord van set. |
-| ` *`isValid`*` | `xsd:boolean` | Ja | Hiermee wordt bepaald of de gebruiker een geldige IPS-gebruiker is. |
-| ` *`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Ja | Een array met bedrijfshandgrepen. |
+| `*`userHandle`*` | `xsd:string` | Nee | Gebruikershandgreep. |
+| `*`firstName`*` | `xsd:string` | Ja | Voornaam. |
+| `*`lastName`*` | `xsd:string` | Ja | Achternaam. |
+| `*`email`*` | `xsd:string` | Ja | E-mailadres gebruiker. |
+| `*`defaultRole`*` | `xsd:string` | Ja | Plaatst de rol voor een gebruiker in elk bedrijf zij tot behoren. De rol `IpsAdmin` negeert echter andere instellingen per bedrijf. |
+| `*`passwordExpires`*` | `xsd:dateTime` | Nee | Vervaldatum wachtwoord van set. |
+| `*`isValid`*` | `xsd:boolean` | Ja | Hiermee wordt bepaald of de gebruiker een geldige IPS-gebruiker is. |
+| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Ja | Een array met bedrijfshandgrepen. |
 
 **Output (setUserInfoReturn)**
 
