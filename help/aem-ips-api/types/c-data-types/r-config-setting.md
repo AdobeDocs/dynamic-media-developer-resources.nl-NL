@@ -1,23 +1,20 @@
 ---
-description: Wordt alleen gebruikt door Scene7-ontwikkelaars.
-seo-description: Wordt alleen gebruikt door Scene7-ontwikkelaars.
-seo-title: ConfigSetting
+description: Wordt alleen gebruikt door Dynamic Media-ontwikkelaars.
 solution: Experience Manager
 title: ConfigSetting
-topic: Scene7 Image Production System API
-uuid: cbce1b2b-d4da-4f35-a9a8-85422a094a2e
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 2%
+source-wordcount: '31'
+ht-degree: 3%
 
 ---
 
 
 # ConfigSetting{#configsetting}
 
-Wordt alleen gebruikt door Scene7-ontwikkelaars.
+Wordt alleen gebruikt door Dynamic Media-ontwikkelaars.
 
 Syntaxis
 
@@ -25,7 +22,7 @@ Syntaxis
 
 | Naam | Type | Beschrijving |
 |---|---|---|
-| ` *`name`*` | `xsd:string` | Configuratienaam. |
-| ` *`value`*` | `xsd:string` | Configuratiewaarde. |
-| ` *`handgreep`*` | `xsd:string` | Handgreep aan de opgeslagen configuratie. |
+| `*`name`*` | `xsd:string` | Configuratienaam. |
+| `*`value`*` | `xsd:string` | Configuratiewaarde. |
+| `*`handgreep`*` | `xsd:string` | Handgreep aan de opgeslagen configuratie. |
 
