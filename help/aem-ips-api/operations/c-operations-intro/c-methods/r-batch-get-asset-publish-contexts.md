@@ -1,15 +1,12 @@
 ---
 description: Retourneert de publicatiecontext voor elementen die zijn gemarkeerd voor publicatie.
-seo-description: Retourneert de publicatiecontext voor elementen die zijn gemarkeerd voor publicatie.
-seo-title: batchGetAssetPublishContext
 solution: Experience Manager
 title: batchGetAssetPublishContext
-topic: Scene7 Image Production System API
-uuid: 7f442019-37a9-4473-be92-a952a7a67664
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
@@ -48,14 +45,14 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Handgreep aan het bedrijf. |
-| ` *`assetHandleArray`*` | ` `types:HandleArray&quot; | Ja | Een lijst met elementen die u wilt opvragen voor actieve (gemarkeerde voor publicatie) contexten. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Handgreep aan het bedrijf. |
+| `*`assetHandleArray`*` | ` `types:HandleArray&quot; | Ja | Een lijst met elementen die u wilt opvragen voor actieve (gemarkeerde voor publicatie) contexten. |
 
 **Output (batchGetAssetPublishContextReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`assetPublishContextArray`*` | `types:assetPublishContextsArray` | Ja | Een array van publicatiecontexten waarin elk element is gemarkeerd voor publicatie. |
+| `*`assetPublishContextArray`*` | `types:assetPublishContextsArray` | Ja | Een array van publicatiecontexten waarin elk element is gemarkeerd voor publicatie. |
 
 ## Voorbeelden {#section-457f6809ccfa425b9a0976313d613f4e}
 
