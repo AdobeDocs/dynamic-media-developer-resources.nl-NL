@@ -2,10 +2,10 @@
 description: Trefwoorden
 solution: Experience Manager
 title: Trefwoorden
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 147b7dcd-dd6d-4530-b046-18925e851eb1
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '41'
 ht-degree: 2%
@@ -21,10 +21,10 @@ Syntaxis
 
 | Naam | Type | Beschrijving |
 |---|---|---|
-| ` *`trefwoord`*` | `xsd:string` | Trefwoord. |
-| ` *`status`*` | `xsd:boolean` | Geldigheid trefwoord. |
-| ` *`x`*` | `xsd:int` | Trefwoordpositie op de x-as (in pixels). |
-| ` *`y`*` | `xsd:int` | Trefwoordpositie op de y-as (in pixels). |
-| ` *`width`*` | `xsd:int` | Trefwoordbreedte in pixels. |
-| ` *`height`*` | `xsd:int` | Trefwoordhoogte in pixels. |
+| `*`trefwoord`*` | `xsd:string` | Trefwoord. |
+| `*`status`*` | `xsd:boolean` | Geldigheid trefwoord. |
+| `*`x`*` | `xsd:int` | Trefwoordpositie op de x-as (in pixels). |
+| `*`y`*` | `xsd:int` | Trefwoordpositie op de y-as (in pixels). |
+| `*`width`*` | `xsd:int` | Trefwoordbreedte in pixels. |
+| `*`height`*` | `xsd:int` | Trefwoordhoogte in pixels. |
 
