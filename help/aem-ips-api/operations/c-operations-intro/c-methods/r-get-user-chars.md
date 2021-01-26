@@ -4,10 +4,10 @@ seo-description: Hiermee wordt een lijst opgehaald met de tekens die in een bepa
 seo-title: getUserChars
 solution: Experience Manager
 title: getUserChars
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: c9fa7826-5174-4298-99e6-a0627e432567
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 0%
@@ -34,19 +34,19 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`charField`*` | `xsd:string` | Ja | Hiermee bepaalt u de status van de prullenbak waarnaar u wilt zoeken. |
-| ` *`includeInactive`*` | `xsd:boolean` | Ja | Inactieve gebruikers opnemen of uitsluiten. De niet-IPS gebruikers Admin moeten een actief lid van minstens één bedrijf zijn om worden gemachtigd om het even welke API vraag te maken. Een vergunningsfout zal zijn teruggekeerd als de gebruiker geen actief bedrijflidmaatschap heeft. |
-| ` *`includeInvalid`*` | `xsd:boolean` | Nee | Ongeldige gebruikers opnemen of uitsluiten. |
-| ` *`companyHandleArray`*` | `types:HandleArray` | Nee | De resultaten van de filter die op bedrijf worden gebaseerd. |
-| ` *`groupHandleArray`*` | `types:HandleArray` | Nee | Hiermee filtert u resultaten op basis van groepen. |
-| ` *`userRoleArray`*` | `types:StringArray` | Nee | Hiermee filtert u resultaten op basis van gebruikersrol. |
-| ` *`numChars`*` | `xsd:int` | Nee | >1 teken inschakelen. |
+| `*`charField`*` | `xsd:string` | Ja | Hiermee bepaalt u de status van de prullenbak waarnaar u wilt zoeken. |
+| `*`includeInactive`*` | `xsd:boolean` | Ja | Inactieve gebruikers opnemen of uitsluiten. De niet-IPS gebruikers Admin moeten een actief lid van minstens één bedrijf zijn om worden gemachtigd om het even welke API vraag te maken. Een vergunningsfout zal zijn teruggekeerd als de gebruiker geen actief bedrijflidmaatschap heeft. |
+| `*`includeInvalid`*` | `xsd:boolean` | Nee | Ongeldige gebruikers opnemen of uitsluiten. |
+| `*`companyHandleArray`*` | `types:HandleArray` | Nee | De resultaten van de filter die op bedrijf worden gebaseerd. |
+| `*`groupHandleArray`*` | `types:HandleArray` | Nee | Hiermee filtert u resultaten op basis van groepen. |
+| `*`userRoleArray`*` | `types:StringArray` | Nee | Hiermee filtert u resultaten op basis van gebruikersrol. |
+| `*`numChars`*` | `xsd:int` | Nee | >1 teken inschakelen. |
 
 **Output (getUserCharsReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`userCharsArray`*` | `types:StringArray` | Ja | Een array met tekenvoorvoegsels. |
+| `*`userCharsArray`*` | `types:StringArray` | Ja | Een array met tekenvoorvoegsels. |
 
 ## Voorbeelden {#section-3702f165e8b041139a6144f4a76ca25f}
 
