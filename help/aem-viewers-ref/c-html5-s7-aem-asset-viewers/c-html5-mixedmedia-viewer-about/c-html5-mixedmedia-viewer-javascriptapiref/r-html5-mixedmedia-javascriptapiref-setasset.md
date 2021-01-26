@@ -7,7 +7,7 @@ title: setAsset
 topic: Dynamic media
 uuid: 8c341a8a-25b5-4db9-ad1a-919ded79f2ed
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
@@ -27,11 +27,11 @@ Zie ook [init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-a
 
 ## Parameters {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-` *`element`*` - { `String`} nieuwe element-id of expliciete gemengde mediaset, met optionele Image Serving-modifiers toegevoegd na  `?`.
+`*`element`*` - { `String`} nieuwe element-id of expliciete gemengde mediaset, met optionele Image Serving-modifiers toegevoegd na  `?`.
 
 Afbeeldingen die gebruikmaken van IR (Image Rendering) of UGC (Door de gebruiker gegenereerde inhoud) worden niet ondersteund door deze viewer.
 
-` *`de locatie van het nieuwe bijschriftbestand`*`  ( { `JSON`} dataLocatie).
+`*`de locatie van het nieuwe bijschriftbestand`*`  ( { `JSON`} dataLocatie).
 
 Als deze optie niet is opgegeven, is de bijschriftknop niet zichtbaar in de gebruikersinterface. Bijschriften die met deze parameter worden opgegeven, gelden voor de video die als eerste in de gemengde mediaset wordt geplaatst. volgende video&#39;s worden zonder bijschriften afgespeeld. Deze viewer ondersteunt de volgende component-id&#39;s:
 
