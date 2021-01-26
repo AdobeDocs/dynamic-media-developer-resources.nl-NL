@@ -4,10 +4,10 @@ seo-description: Retourneert de publicatiegeschiedenis voor een element.
 seo-title: getAssetPublishHistory
 solution: Experience Manager
 title: getAssetPublishHistory
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 15025c3d-eac3-4cb8-9a2a-fd80bd67478f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 0%
@@ -39,14 +39,14 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | De handgreep aan het bedrijf met de activa publicatiegeschiedenis. |
-| ` *`assetHandle`*` | `xsd:string` | Ja | Het element met de publicatiegeschiedenis die u wilt onderzoeken. |
+| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep aan het bedrijf met de activa publicatiegeschiedenis. |
+| `*`assetHandle`*` | `xsd:string` | Ja | Het element met de publicatiegeschiedenis die u wilt onderzoeken. |
 
 **Output (getAssetPublishHistoryReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`pubHistoryArray`*` | `types:PublishHistoryArray` | Ja | De publicatiegeschiedenis van het element. |
+| `*`pubHistoryArray`*` | `types:PublishHistoryArray` | Ja | De publicatiegeschiedenis van het element. |
 
 ## Voorbeelden {#section-53897c51e5a047c5bd5ea5a6efb2d114}
 
