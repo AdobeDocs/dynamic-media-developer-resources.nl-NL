@@ -4,10 +4,10 @@ seo-description: Verwijdert een project van een bedrijf. De verbindingen tussen 
 seo-title: deleteProject
 solution: Experience Manager
 title: deleteProject
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 0915066f-2106-4cbc-a68a-f149810c24f8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 0%
@@ -36,8 +36,8 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`companyName`*` | `xsd:string` | Ja | De naam van het bedrijf dat aan het project is gekoppeld. |
-| ` *`projectHandle`*` | `xsd:string` | Ja | De handgreep van het te verwijderen project. |
+| `*`companyName`*` | `xsd:string` | Ja | De naam van het bedrijf dat aan het project is gekoppeld. |
+| `*`projectHandle`*` | `xsd:string` | Ja | De handgreep van het te verwijderen project. |
 
 **Output (deleteProjectReturn)**
 
