@@ -4,10 +4,10 @@ seo-description: Vervangende variabelen worden gebruikt om waarden van verzoekUR
 seo-title: Vervangende variabelen
 solution: Experience Manager
 title: Vervangende variabelen
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e369f2c3-8d89-4169-8869-f1d7ab89aab9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 0%
@@ -82,7 +82,7 @@ De veranderlijke waarden die in buitenlandse verzoeken moeten worden vervangen m
 
 ## Vooraf gedefinieerde padvariabele {#section-930d0dd12e8f49499becc9fe8df24092}
 
-*`object`* in de verzoekweg wordt gespecificeerd toegewezen aan de vooraf bepaalde variabele ` *`$object`*`. &#39; ` $ *`object`*$`&#39; kan ergens in de aanvraag worden geplaatst, in de sjabloon waarnaar door de aanvraag wordt verwezen, of in een geneste/ingesloten aanvraag waar een dergelijk object is toegestaan, inclusief de waarde van `src=` en `mask=`, en het pad van een geneste/ingesloten aanvraag.
+*`object`* in de verzoekweg wordt gespecificeerd toegewezen aan de vooraf bepaalde variabele `*`$object`*`. &#39; ` $ *`object`*$`&#39; kan ergens in de aanvraag worden geplaatst, in de sjabloon waarnaar door de aanvraag wordt verwezen, of in een geneste/ingesloten aanvraag waar een dergelijk object is toegestaan, inclusief de waarde van `src=` en `mask=`, en het pad van een geneste/ingesloten aanvraag.
 
 De volgende aanvraag gebruikt bijvoorbeeld de afbeelding die in het pad is opgegeven als bron van een laag in een geneste aanvraag:
 
@@ -92,13 +92,13 @@ Dit is gelijk aan
 
 `/is/image/a/b?…&layer=3&src=is{…&src=a/b}&…`
 
-De definitie van ` *`$object`*` kan worden met voeten getreden door ` $ *`object`*=` met de gewenste waarde uitdrukkelijk te specificeren.
+De definitie van `*`$object`*` kan worden met voeten getreden door ` $ *`object`*=` met de gewenste waarde uitdrukkelijk te specificeren.
 
 De vooraf gedefinieerde padvariabele wordt doorgaans gebruikt in combinatie met `template=`.
 
 ## Standaard {#section-b02483d15529444586a2e9504805b155}
 
-Geen. Alleen variabelen die zijn gedefinieerd, worden vervangen door de server (behalve de vooraf gedefinieerde padvariabele $object, die altijd wordt vervangen). Voorvallen van ` $ *`var`*$` blijven letterlijk als ` *`var`*`niet met een bestaande veranderlijke definitie kan worden aangepast.
+Geen. Alleen variabelen die zijn gedefinieerd, worden vervangen door de server (behalve de vooraf gedefinieerde padvariabele $object, die altijd wordt vervangen). Voorvallen van ` $ *`var`*$` blijven letterlijk als `*`var`*`niet met een bestaande veranderlijke definitie kan worden aangepast.
 
 ## Voorbeelden {#section-fba9393df6984247b7e30b3f93992e86}
 
