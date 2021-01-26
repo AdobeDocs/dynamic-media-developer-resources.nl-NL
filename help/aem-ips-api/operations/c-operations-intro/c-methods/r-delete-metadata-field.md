@@ -4,10 +4,10 @@ seo-description: Hiermee verwijdert u het metagegevensveld van een bedrijf.
 seo-title: deleteMetadataField
 solution: Experience Manager
 title: deleteMetadataField
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 06ec434a-2793-4227-ac93-ae3871c38ab9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%
@@ -33,8 +33,8 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | De greep naar het bedrijf dat het metagegevensveld bevat dat moet worden verwijderd. |
-| ` *`fieldHandle`*` | `xsd:string` | Ja | De greep naar het metagegevensveld dat moet worden verwijderd. |
+| `*`companyHandle`*` | `xsd:string` | Ja | De greep naar het bedrijf dat het metagegevensveld bevat dat moet worden verwijderd. |
+| `*`fieldHandle`*` | `xsd:string` | Ja | De greep naar het metagegevensveld dat moet worden verwijderd. |
 
 **Output (deleteMetadataFieldParam)**
 
