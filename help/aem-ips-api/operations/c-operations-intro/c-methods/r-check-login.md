@@ -4,10 +4,10 @@ seo-description: Controleert of een gebruiker met een specifiek bedrijf (geïden
 seo-title: checkLogin
 solution: Experience Manager
 title: checkLogin
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 69f9e5f6-50c2-403d-93b2-b84a01f512a9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 0%
@@ -41,15 +41,15 @@ Controleert of een gebruiker met een specifiek bedrijf (geïdentificeerd door gr
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Nee | De handgreep aan het bedrijf dat de gebruiker bevat. |
-| ` *`email`*` | `xsd:string` | Ja | Het e-mailadres van de gebruiker. |
-| ` *`password`*` | `xsd:string` | Ja | Het wachtwoord van de gebruiker. |
+| `*`companyHandle`*` | `xsd:string` | Nee | De handgreep aan het bedrijf dat de gebruiker bevat. |
+| `*`email`*` | `xsd:string` | Ja | Het e-mailadres van de gebruiker. |
+| `*`password`*` | `xsd:string` | Ja | Het wachtwoord van de gebruiker. |
 
 **Uitvoer (checkLoginParam)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`status`*` | `xsd:string` | Ja | Aanmeldingsstatus van gebruiker. |
+| `*`status`*` | `xsd:string` | Ja | Aanmeldingsstatus van gebruiker. |
 
 ## Voorbeelden {#section-23f90100a9d94bc7b4045634cccd1b98}
 
