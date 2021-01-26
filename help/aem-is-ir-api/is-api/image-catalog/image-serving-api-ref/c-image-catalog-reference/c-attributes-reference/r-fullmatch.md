@@ -4,10 +4,10 @@ seo-description: Overeenkomende optie voor catalogi.
 seo-title: FullMatch
 solution: Experience Manager
 title: FullMatch
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0c69ba92-1411-4cb7-ac28-d26fe035222f
 translation-type: tm+mt
-source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 Overeenkomende optie voor catalogi.
 
-Een catalogusitem wordt opgegeven als een ` *`rootId`*/ *`imageId`*`-paar in HTTP-aanvragen. Bij het parseren wordt een catalogus geselecteerd als ` *`rootId`*` de `attribute::RootId` waarde van de catalogus aanpast, en het catalogusverslag wordt geïdentificeerd door ` *`imageId`*` met een `catalog::Id` waarde aan te passen. Als een catalogus wordt gevonden, maar er geen catalogusitem aanwezig is dat overeenkomt met ` *`imageId`*`, kan de server een van de volgende twee dingen doen:
+Een catalogusitem wordt opgegeven als een `*`rootId`*/ *`imageId`*`-paar in HTTP-aanvragen. Bij het parseren wordt een catalogus geselecteerd als `*`rootId`*` de `attribute::RootId` waarde van de catalogus aanpast, en het catalogusverslag wordt geïdentificeerd door `*`imageId`*` met een `catalog::Id` waarde aan te passen. Als een catalogus wordt gevonden, maar er geen catalogusitem aanwezig is dat overeenkomt met `*`imageId`*`, kan de server een van de volgende twee dingen doen:
 
-Als `attribute::FullMatch` niet is ingesteld, gebruikt de server de kenmerken van de overeenkomende catalogus. In dit geval wordt ` *`rootId`*` vervangen door `attribute::RootPath` (of `default::RootPath`, indien niet opgegeven in deze catalogus).
+Als `attribute::FullMatch` niet is ingesteld, gebruikt de server de kenmerken van de overeenkomende catalogus. In dit geval wordt `*`rootId`*` vervangen door `attribute::RootPath` (of `default::RootPath`, indien niet opgegeven in deze catalogus).
 
-Als `attribute::FullMatch` is ingesteld, negeert de server de catalogus volledig, alsof er geen overeenkomende catalogus is gevonden, en gaat u verder met de standaardcataloguskenmerken. In dit geval blijft ` *`rootId`*` deel uitmaken van het pad (dat wordt voorafgegaan door `default::RootPath`).
+Als `attribute::FullMatch` is ingesteld, negeert de server de catalogus volledig, alsof er geen overeenkomende catalogus is gevonden, en gaat u verder met de standaardcataloguskenmerken. In dit geval blijft `*`rootId`*` deel uitmaken van het pad (dat wordt voorafgegaan door `default::RootPath`).
 
 ## Eigenschappen {#section-25e021dbe6574d00aadd08a7fa0b6e81}
 
