@@ -1,15 +1,15 @@
 ---
-description: Nadat u Scene7 Image Serving hebt geïnstalleerd, moet u de installatie controleren.
-seo-description: Nadat u Scene7 Image Serving hebt geïnstalleerd, moet u de installatie controleren.
+description: Nadat u Dynamic Media Image Serving hebt geïnstalleerd, moet u de installatie controleren.
+seo-description: Nadat u Dynamic Media Image Serving hebt geïnstalleerd, moet u de installatie controleren.
 seo-title: De installatie controleren
 solution: Experience Manager
 title: De installatie controleren
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ccc7688d-3d7f-4066-a19e-8a36ca56d711
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 # De installatie controleren{#verifying-the-installation}
 
-Nadat u Scene7 Image Serving hebt geïnstalleerd, moet u de installatie controleren.
+Nadat u Dynamic Media Image Serving hebt geïnstalleerd, moet u de installatie controleren.
 
 De server van het Beeld is geïnstalleerd als Dienst van Vensters.
 
-1. Open het configuratiescherm Services en controleer of &quot;Scene7 Image Serving&quot; aanwezig is met de status &quot;Started&quot;.
+1. Open het configuratiescherm Services en controleer of &quot;Dynamic Media Image Serving&quot; aanwezig is met de status &quot;Started&quot;.
 1. Open een internetbrowser op dezelfde of op een andere host en controleer de standaardreacties van de server:
 
    `http:// server:port /is/image`
