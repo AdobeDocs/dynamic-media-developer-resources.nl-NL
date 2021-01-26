@@ -4,9 +4,9 @@ product: adobe
 archtype: end-user
 user-guide-title: Dynamic Media Viewers Reference Guide
 translation-type: tm+mt
-source-git-commit: 68497a2779c5a1fc6bd42d03f38c3ac104460709
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '1893'
 ht-degree: 1%
 
 ---
@@ -27,14 +27,14 @@ ht-degree: 1%
       + [Opmerkingen bij de release van viewers (5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
       + [Opmerkingen bij de release van viewers (5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
       + [Opmerkingen bij de release van viewers (5.10.1)](c-release-notes/c-archive/c-rn-07-17-18.md)
-      + [Opmerkingen bij de release van Scene7 Viewers 5.8.2](c-release-notes/c-archive/c-rn-09-18-17.md)
-      + [Opmerkingen bij de release Scene7 Viewers 5.5.2](c-release-notes/c-archive/c-rn-10-13-16.md)
-      + [Opmerkingen bij de release Scene7 Viewers 5.4.2](c-release-notes/c-archive/c-rn-05-03-16.md)
-      + [Opmerkingen bij de release van Scene7 Viewers 5.2.3](c-release-notes/c-archive/c-rn-05-20-15.md)
-      + [Opmerkingen bij de release van Scene7 Viewers 5.2.2](c-release-notes/c-archive/c-rn-04-30-15.md)
-      + [Opmerkingen bij de release van Scene7 Viewers 5.1.1](c-release-notes/c-archive/c-rn-09-19-14.md)
-      + [Opmerkingen bij de release van Scene7 Viewers 5.0.1](c-release-notes/c-archive/c-rn-04-29-14.md)
-      + [Opmerkingen bij de release Scene7 Viewers 4.9.2](c-release-notes/c-archive/c-rn-09-18-13.md)
+      + [Opmerkingen bij de release van Viewers 5.8.2](c-release-notes/c-archive/c-rn-09-18-17.md)
+      + [Opmerkingen bij de release van viewers 5.5.2](c-release-notes/c-archive/c-rn-10-13-16.md)
+      + [Opmerkingen bij de release van Viewers 5.4.2](c-release-notes/c-archive/c-rn-05-03-16.md)
+      + [Opmerkingen bij de release van Viewers 5.2.3](c-release-notes/c-archive/c-rn-05-20-15.md)
+      + [Opmerkingen bij de release van Viewers 5.2.2](c-release-notes/c-archive/c-rn-04-30-15.md)
+      + [Opmerkingen bij de release van Viewers 5.1.1](c-release-notes/c-archive/c-rn-09-19-14.md)
+      + [Opmerkingen bij de release van Viewers 5.0.1](c-release-notes/c-archive/c-rn-04-29-14.md)
+      + [Opmerkingen bij de release van Viewers 4.9.2](c-release-notes/c-archive/c-rn-09-18-13.md)
 + [Compatibiliteitsnotities](c-compatibility-notes.md)
 + [Toetsenbordtoegankelijkheid en -navigatie](c-keyboard-accessibility.md)
 + [Zelfstudie voor viewer-SDK](c-tutorial.md)
