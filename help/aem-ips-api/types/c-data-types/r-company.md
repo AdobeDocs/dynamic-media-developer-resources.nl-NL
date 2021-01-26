@@ -4,10 +4,10 @@ seo-description: Vertegenwoordigt een bedrijf.
 seo-title: Bedrijf
 solution: Experience Manager
 title: Bedrijf
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 8160af47-d639-4ef2-9d26-952de006ca9e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '36'
 ht-degree: 2%
@@ -25,8 +25,8 @@ Syntaxis
 
 | Naam | Type | Beschrijving |
 |---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Bedrijfshandgreep. |
-| ` *`name`*` | `xsd:string` | Bedrijfsnaam. |
-| ` *`rootPath`*` | `xsd:string` | Hoofdpad van het bedrijf. |
-| ` *`verloopt`*` | `xsd:dateTime` | Datum en tijd waarop het bedrijf vervalt. |
+| `*`companyHandle`*` | `xsd:string` | Bedrijfshandgreep. |
+| `*`name`*` | `xsd:string` | Bedrijfsnaam. |
+| `*`rootPath`*` | `xsd:string` | Hoofdpad van het bedrijf. |
+| `*`verloopt`*` | `xsd:dateTime` | Datum en tijd waarop het bedrijf vervalt. |
 
