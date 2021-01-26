@@ -4,10 +4,10 @@ seo-description: De eigenschappen en syntaxis van afbeeldingscatalogi worden in 
 seo-title: Afbeeldingscatalogi
 solution: Experience Manager
 title: Afbeeldingscatalogi
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d329807a-22b0-42a3-9297-8dad7a1dce43
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -23,13 +23,13 @@ Afbeeldingscatalogi bieden de volgende functies:
 
 * Een blijvende koppeling van afbeeldingen met bepaalde metagegevens en wijzigingopdrachten toestaan.
 
-   Er wordt verwezen naar items in afbeeldingcatalogi met een sneltoetsnotatie ` *`rootId/objId`*`, waarbij ` *`rootId`*` de afbeeldingscatalogus identificeert en ` *`objId`*` een gegevensrecord in de catalogus identificeert.
+   Er wordt verwezen naar items in afbeeldingcatalogi met een sneltoetsnotatie `*`rootId/objId`*`, waarbij `*`rootId`*` de afbeeldingscatalogus identificeert en `*`objId`*` een gegevensrecord in de catalogus identificeert.
 * Geef standaardwaarden op voor bepaalde aanvraagkenmerken, zoals de JPEG-kwaliteit of het feit of een watermerk moet worden toegepast.
 * Lettertypen, ICC-profielen, macrodefinities en aanvraagsjablonen beheren
 
 Zelfs als er geen specifieke afbeeldingscatalogi zijn gedefinieerd, zijn alle functies van afbeeldingscatalogi beschikbaar via de standaardcatalogus ( [!DNL default.ini]).
 
-Als ` *`rootId`*` in de weg van URL van het verzoek `attribute::RootId` van een specifieke beeldcatalogus aanpast, zal die catalogus de belangrijkste catalogus voor dit verzoek worden. De hoofdcatalogus bevat de standaardkenmerken en -instellingen voor de gehele aanvraag. Als er geen overeenkomende catalogus wordt gevonden, wordt in plaats daarvan de standaardcatalogus gebruikt.
+Als `*`rootId`*` in de weg van URL van het verzoek `attribute::RootId` van een specifieke beeldcatalogus aanpast, zal die catalogus de belangrijkste catalogus voor dit verzoek worden. De hoofdcatalogus bevat de standaardkenmerken en -instellingen voor de gehele aanvraag. Als er geen overeenkomende catalogus wordt gevonden, wordt in plaats daarvan de standaardcatalogus gebruikt.
 
 Een catalogus die is geïdentificeerd in de opdracht `src=` of `mask=` biedt de volgende cataloguskenmerken en -gegevens aan de huidige laag:
 
@@ -104,7 +104,7 @@ Binnen dezelfde laag moeten `src=` en `mask=` naar dezelfde (eventuele) afbeeldi
 
 Een catalogus die wordt geïdentificeerd in een `icc=` bevel wordt slechts gebruikt om een ingang van de ICC profiellijst van de catalogus op te zoeken. Er zijn geen andere cataloguskenmerken of -gegevens bij betrokken.
 
-Als ` *`rootId`*` wordt omgezet in een catalogus, en ` *`objId`*` wordt aangepast met een `catalog::Id` in deze catalogus, dan wordt ` *`rootId/objId`*` effectief vervangen door de catalogusvermelding als volgt:
+Als `*`rootId`*` wordt omgezet in een catalogus, en `*`objId`*` wordt aangepast met een `catalog::Id` in deze catalogus, dan wordt `*`rootId/objId`*` effectief vervangen door de catalogusvermelding als volgt:
 
 `src=attribute::RootPath/catalog::Path& mask=attribute::RootPath/catalog::MaskPath& anchor=catalog::Anchor& catalog::Modifier& catalog::PostModifier`
 
