@@ -4,10 +4,10 @@ seo-description: Opties voor handmatig uitsnijden voor afbeeldingen.
 seo-title: ManualCropOptions
 solution: Experience Manager
 title: ManualCropOptions
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: ac3710d9-14b0-4e2f-90a5-f66fe37851ab
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 0%
@@ -25,8 +25,8 @@ Syntaxis
 
 | Naam | Type | Beschrijving |
 |---|---|---|
-| ` *`left`*` | `xsd:int` | De linkerpositie van de handmatige uitsnijding in pixels. |
-| ` *`right`*` | `xsd:int` | De rechterpositie van de handmatige uitsnijding in pixels. |
-| ` *`top`*` | `xsd:int` | De bovenste positie van de handmatige uitsnijding in pixels. |
-| ` *`bottom`*` | `xsd:int` | De onderste positie van de handmatige uitsnijding in pixels. |
+| `*`left`*` | `xsd:int` | De linkerpositie van de handmatige uitsnijding in pixels. |
+| `*`right`*` | `xsd:int` | De rechterpositie van de handmatige uitsnijding in pixels. |
+| `*`top`*` | `xsd:int` | De bovenste positie van de handmatige uitsnijding in pixels. |
+| `*`bottom`*` | `xsd:int` | De onderste positie van de handmatige uitsnijding in pixels. |
 
