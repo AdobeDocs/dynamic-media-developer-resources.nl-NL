@@ -4,10 +4,10 @@ seo-description: Met deze knop schakelt u de weergave van een gesloten bijschrif
 seo-title: Knop Bijschrift
 solution: Experience Manager
 title: Knop Bijschrift
-topic: Dynamic media
+topic: Dynamic Media
 uuid: a3895a9a-972a-4259-9418-b78f7c904bd4
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 0%
