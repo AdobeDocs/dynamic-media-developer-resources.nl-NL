@@ -4,10 +4,10 @@ seo-description: Bij lokalisatie van tekstreeksen kunnen afbeeldingscatalogi mee
 seo-title: Tekstreeks lokaliseren
 solution: Experience Manager
 title: Tekstreeks lokaliseren
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bdff2403-e3bb-4b3f-a8d7-bb108c1fbee8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 0%
@@ -124,7 +124,7 @@ In het voorbeeld van de vertaalkaart wordt aangegeven dat in een dergelijk geval
 
 Er kunnen meerdere *`locId`* waarden worden gekoppeld aan elke *`locale`* in de vertaalkaart. Hierdoor kunnen landspecifieke of regiospecifieke variaties (bijvoorbeeld Engels in de VS versus Engels in het Verenigd Koninkrijk) voor het selecteren van *`stringElements`* worden ondersteund, terwijl de meeste inhoud wordt afgehandeld met algemene basislandinstellingen (bijvoorbeeld internationaal Engels).
 
-Voor ons voorbeeld, willen wij steun voor V.S.-specifiek Engels ( ` *`locId`* EUS`) en UK-specifiek Engels ( ` *`locId`* EUK`) toevoegen, om de af en toe alternatieve spelling te steunen. Als EUK of EUS niet bestaat, zouden we terugvallen op E. Op dezelfde manier zouden Oostenrijkse specifieke Duitse varianten ( `DAT`) waar nodig beschikbaar kunnen worden gesteld terwijl het terugkeren van gemeenschappelijk Duits *`localizedStrings`* (gemerkt met `D`) meestal.
+Voor ons voorbeeld, willen wij steun voor V.S.-specifiek Engels ( `*`locId`* EUS`) en UK-specifiek Engels ( `*`locId`* EUK`) toevoegen, om de af en toe alternatieve spelling te steunen. Als EUK of EUS niet bestaat, zouden we terugvallen op E. Op dezelfde manier zouden Oostenrijkse specifieke Duitse varianten ( `DAT`) waar nodig beschikbaar kunnen worden gesteld terwijl het terugkeren van gemeenschappelijk Duits *`localizedStrings`* (gemerkt met `D`) meestal.
 
 `attribute::LocaleStrMap` zou er als volgt uitzien:
 
