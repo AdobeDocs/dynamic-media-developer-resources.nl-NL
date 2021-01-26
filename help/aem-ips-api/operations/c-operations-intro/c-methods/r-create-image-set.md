@@ -4,10 +4,10 @@ seo-description: Hiermee maakt u een afbeeldingsset.
 seo-title: createImageSet
 solution: Experience Manager
 title: createImageSet
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 688f3954-bc8f-4687-8d66-e064561cd4a0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
@@ -40,17 +40,17 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | De handgreep van het bedrijf waartoe de afbeeldingsset behoort. |
-| ` *`folderHandle`*` | `xsd:string` | Ja | De greep naar de map. |
-| ` *`name`*` | `xsd:string` | Ja | Naam van afbeeldingsset. |
-| ` *`type`*` | `xsd:string` | Ja | Type afbeeldingsset. |
-| ` *`thumbAssetHandle`*` | `xsd:string` | Nee | Handgreep van het element dat fungeert als miniatuur voor de nieuwe afbeeldingsset. Als gespecificeerd niet, probeert IPS om het eerste beeldmiddel te gebruiken dat door de reeks van verwijzingen wordt voorzien. |
+| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep van het bedrijf waartoe de afbeeldingsset behoort. |
+| `*`folderHandle`*` | `xsd:string` | Ja | De greep naar de map. |
+| `*`name`*` | `xsd:string` | Ja | Naam van afbeeldingsset. |
+| `*`type`*` | `xsd:string` | Ja | Type afbeeldingsset. |
+| `*`thumbAssetHandle`*` | `xsd:string` | Nee | Handgreep van het element dat fungeert als miniatuur voor de nieuwe afbeeldingsset. Als gespecificeerd niet, probeert IPS om het eerste beeldmiddel te gebruiken dat door de reeks van verwijzingen wordt voorzien. |
 
 **Uitvoer**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | Ja | De handgreep van de nieuwe afbeeldingsset. |
+| `*`assetHandle`*` | `xsd:string` | Ja | De handgreep van de nieuwe afbeeldingsset. |
 
 ## Voorbeelden {#section-385fe3b0af8044b0a2451336ec137fc5}
 
