@@ -4,12 +4,12 @@ seo-description: Materiaalbestand. Hiermee worden materiaalgegevens opgegeven, i
 seo-title: src
 solution: Experience Manager
 title: src
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 52751bcc-a65d-4441-a3b5-802d27b54b54
 translation-type: tm+mt
-source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Als *`catId`* niet wordt gespecificeerd, wordt de zittingscatalogus gebruikt.
 
 ## Ondersteunde bestandsindelingen {#section-f2186d3eef834fc8bbecb2bc68daacad}
 
-Renderen van afbeeldingen ondersteunt dezelfde bronafbeeldingsindelingen als Scene7 Image Serving.
+Renderen van afbeeldingen ondersteunt dezelfde bronafbeeldingsindelingen als Dynamic Media Image Serving.
 
 Toepassingen waarvoor afbeeldingsgegevens in meerdere resoluties vereist zijn, presteren het beste als de indeling voor meerresolutie van de Scene7 piramid TIFF (PTIFF) wordt gebruikt. De Beeldserver omvat het hulpmiddel van de Omzetter van het Beeld (IC) dat tot beelden PTIFF van om het even welk gesteund formaat leidt.
 
