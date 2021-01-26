@@ -4,12 +4,12 @@ seo-description: Er worden vier algemene typen productivignetten ondersteund.
 seo-title: Vignet schalen
 solution: Experience Manager
 title: Vignet schalen
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 08c8f826-7dce-4bcb-9323-4892262eb578
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Er worden vier algemene typen productivignetten ondersteund.
    Aanbevolen wanneer alle gewenste grootten van de renderafbeelding bekend zijn. Biedt een betere kwaliteit en snellere rendering dan bij vignetten met één resolutie en piramidevignetten, omdat de afbeelding na het renderen niet hoeft te worden geschaald.
 * Piramide
 
-   Dit is het meest geschikt. Dit wordt aanbevolen wanneer meerdere afbeeldingsgrootten nodig zijn en de exacte grootten niet vooraf zijn bepaald en wanneer een van de Scene7 Flash-zoomviewers wordt gebruikt.
+   Dit is het meest geschikt. Dit wordt aanbevolen wanneer meerdere afbeeldingsgrootten nodig zijn en de exacte grootten niet vooraf zijn bepaald en wanneer de Dynamic Media Zoom-viewer wordt gebruikt.
 * Piramide met een of meer aanvullende resoluties
 
    Biedt een hoge kwaliteit voor specifieke grootten en biedt tegelijkertijd nog steeds ondersteuning voor de flexibiliteit en zoomviewer.
