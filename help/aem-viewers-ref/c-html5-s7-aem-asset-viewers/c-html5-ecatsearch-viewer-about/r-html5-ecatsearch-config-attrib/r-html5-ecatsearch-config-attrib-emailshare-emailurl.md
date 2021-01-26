@@ -2,12 +2,11 @@
 description: EmailShare.emailurl
 solution: Experience Manager
 title: EmailShare.emailurl
-topic: Dynamic media
-uuid: 27e3b0fb-0503-4993-a858-3f29d8d3bfb0
+topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '18'
+source-wordcount: '19'
 ht-degree: 5%
 
 ---
@@ -21,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> emailurl</span></span> </p> </td> 
-   <td colname="col2"> <p> Hier geeft u de basis-URL op voor de e-mailservice Scene7 OnDemand. </p> </td> 
+   <td colname="col2"> <p> Hier geeft u de basis-URL op voor de Dynamic Media OnDemand-e-mailservice. </p> </td> 
   </tr> 
  </tbody> 
 </table>
