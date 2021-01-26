@@ -1,15 +1,15 @@
 ---
-description: Er zijn enkele beperkingen en bekende problemen die in overweging moeten worden genomen bij het gebruik van Scene7 Image Serving.
-seo-description: Er zijn enkele beperkingen en bekende problemen die in overweging moeten worden genomen bij het gebruik van Scene7 Image Serving.
+description: Er zijn enkele beperkingen en bekende problemen die in overweging moeten worden genomen bij het gebruik van Dynamic Media Image Serving.
+seo-description: Er zijn enkele beperkingen en bekende problemen die in overweging moeten worden genomen bij het gebruik van Dynamic Media Image Serving.
 seo-title: Beperkingen en bekende problemen
 solution: Experience Manager
 title: Beperkingen en bekende problemen
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
 translation-type: tm+mt
-source-git-commit: 0e9d6a0ccbb040b27cc89b933442d8530c60d5c8
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1251'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Beperkingen en bekende problemen{#restrictions-and-known-issues}
 
-Er zijn enkele beperkingen en bekende problemen die in overweging moeten worden genomen bij het gebruik van Scene7 Image Serving.
+Er zijn enkele beperkingen en bekende problemen die in overweging moeten worden genomen bij het gebruik van Dynamic Media Image Serving.
 
 ## Documentatieferrata {#section-b1579410b11e41e488c7de9ecc7e8d5c}
 
