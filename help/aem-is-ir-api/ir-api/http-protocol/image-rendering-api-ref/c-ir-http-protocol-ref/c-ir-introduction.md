@@ -1,15 +1,12 @@
 ---
-description: In dit document wordt het HTTP-protocol voor Scene7 Image Rendering beschreven.
-seo-description: In dit document wordt het HTTP-protocol voor Scene7 Image Rendering beschreven.
-seo-title: Inleiding
+description: In dit document wordt het HTTP-protocol voor Dynamic Media Image Rendering beschreven.
 solution: Experience Manager
 title: Inleiding
-topic: Scene7 Image Serving - Image Rendering API
-uuid: d709f1d2-e7cc-4e9f-b039-aa333e517cbb
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -17,15 +14,15 @@ ht-degree: 0%
 
 # Inleiding{#introduction}
 
-In dit document wordt het HTTP-protocol voor Scene7 Image Rendering beschreven.
+In dit document wordt het HTTP-protocol voor Dynamic Media Image Rendering beschreven.
 
-Alleen de openbaar beschikbare aspecten van het protocol worden beschreven. De server ondersteunt mogelijk aanvullende opdrachten die zijn gereserveerd voor gebruik door Scene7-clientsoftware.
+Alleen de openbaar beschikbare aspecten van het protocol worden beschreven. De server ondersteunt mogelijk aanvullende opdrachten die zijn gereserveerd voor gebruik door Dynamic Media-clientsoftware.
 
 **Beoogd publiek**
 
-Deze documentatie is bedoeld voor ervaren programmeurs en ontwikkelaars van websites die Scene7 Image Rendering willen gebruiken voor een website of een aangepaste toepassing.
+Deze documentatie is bedoeld voor ervaren programmeurs en ontwikkelaars van websites die Dynamic Media Image Rendering willen gebruiken voor een website of een aangepaste toepassing.
 
-Aangenomen wordt dat de lezer bekend is met Scene7 Image Authoring and Image Rendering, algemene HTTP-protocolstandaarden en -conventies en basisterminologie voor beeldbewerking.
+Aangenomen wordt dat de lezer bekend is met Dynamic Media Image Authoring and Image Rendering, algemene HTTP-protocolstandaarden en -conventies en basisterminologie voor beeldbewerking.
 
 **Documentconventies**
 
@@ -100,4 +97,4 @@ Aangenomen wordt dat de lezer bekend is met Scene7 Image Authoring and Image Ren
 
 ** *`MSS`* ** Segment Materiaalspecificatie: een reeks materiaalkenmerken tussen twee selectieopdrachten in de aanvraag.
 
-** *`vignette`* ** Een afbeelding die is voorbereid in Scene7 Image Authoring voor gebruik met behulp van Image Rendering.
+** *`vignette`* ** Een afbeelding die is voorbereid in Dynamic Media Image Authoring voor gebruik met behulp van Image Rendering.
