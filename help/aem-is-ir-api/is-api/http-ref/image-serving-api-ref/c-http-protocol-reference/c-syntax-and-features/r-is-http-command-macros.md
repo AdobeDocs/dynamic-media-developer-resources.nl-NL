@@ -4,10 +4,10 @@ seo-description: De macro's van het bevel verstrekken genoemde kortere weg voor 
 seo-title: Opdrachtmacro's
 solution: Experience Manager
 title: Opdrachtmacro's
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a6ff5642-6716-484f-b37e-066994362a9b
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
@@ -28,7 +28,7 @@ De macro&#39;s van het bevel verstrekken genoemde kortere weg voor reeksen bevel
  </tr> 
 </table>
 
-` *`De `*` naam is niet hoofdlettergevoelig en kan bestaan uit een combinatie van ASCII-letters, getallen, &#39;-&#39;, &#39;_&#39; en &#39;.&#39; tekens.
+`*`De `*` naam is niet hoofdlettergevoelig en kan bestaan uit een combinatie van ASCII-letters, getallen, &#39;-&#39;, &#39;_&#39; en &#39;.&#39; tekens.
 
 Macro&#39;s kunnen overal in een verzoek na &quot;?&quot;worden aangehaald, evenals overal binnen een `catalog::Modifier` of `catalog::PostModifier` gebied. Macro&#39;s kunnen slechts een of meer volledige opdrachten in de afbeeldingsserver vertegenwoordigen en moeten van andere opdrachten worden gescheiden met scheidingstekens &#39;&amp;&#39;.
 
