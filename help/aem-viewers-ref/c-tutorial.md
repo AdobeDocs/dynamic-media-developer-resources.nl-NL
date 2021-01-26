@@ -1,15 +1,12 @@
 ---
-description: De Viewer SDK bevat een set JavaScript-componenten voor de ontwikkeling van aangepaste viewers. De viewers zijn webtoepassingen waarmee rijke media-inhoud die door Adobe Scene7 wordt aangeboden, kan worden ingesloten in webpagina's.
-seo-description: De Viewer SDK bevat een set JavaScript-componenten voor de ontwikkeling van aangepaste viewers. De viewers zijn webtoepassingen waarmee rijke media-inhoud die door Adobe Scene7 wordt aangeboden, kan worden ingesloten in webpagina's.
-seo-title: Zelfstudie voor viewer-SDK
+description: De Viewer SDK bevat een set JavaScript-componenten voor de ontwikkeling van aangepaste viewers. De viewers zijn webtoepassingen waarmee rich media-inhoud van Adobe Dynamic Media kan worden ingesloten in webpagina's.
 solution: Experience Manager
 title: Zelfstudie voor viewer-SDK
 topic: Dynamic media
-uuid: ea331f05-0c58-4e6b-b5a1-d9b8372d8e94
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
@@ -17,9 +14,9 @@ ht-degree: 0%
 
 # Lesbestand voor viewer-SDK{#viewer-sdk-tutorial}
 
-De Viewer SDK bevat een set JavaScript-componenten voor de ontwikkeling van aangepaste viewers. De viewers zijn webtoepassingen waarmee rijke media-inhoud die door Adobe Scene7 wordt aangeboden, kan worden ingesloten in webpagina&#39;s.
+De Viewer SDK bevat een set JavaScript-componenten voor de ontwikkeling van aangepaste viewers. De viewers zijn webtoepassingen waarmee rich media-inhoud van Adobe Dynamic Media kan worden ingesloten in webpagina&#39;s.
 
-De SDK biedt bijvoorbeeld interactief zoomen en pannen. Het biedt ook een weergave van 360° en het afspelen van video&#39;s van elementen die naar Adobe Scene7 zijn geüpload via de back-endtoepassing met de naam SPS (Scene7 Publishing System).
+De SDK biedt bijvoorbeeld interactief zoomen en pannen. Het biedt ook een weergave van 360° en het afspelen van video&#39;s van elementen die naar Adobe Dynamic Media zijn geüpload via de back-endtoepassing SPS (Scene7 Publishing System).
 
 Hoewel de componenten afhankelijk zijn van HTML5-functionaliteit, zijn ze ontworpen voor gebruik op Android- en Apple iOS-apparaten en desktops, waaronder Internet Explorer en hoger. Dit soort ervaring betekent dat u één workflow kunt bieden voor alle ondersteunde platforms.
 
@@ -67,8 +64,8 @@ Deze zelfstudie bevat de volgende taakvolgorde om u te helpen een standaardzoomv
                Include Utils.js before you use any of the SDK components. This file  
                contains SDK utilities and global functions that are used to initialize the viewer and load viewer  
                components. The path to the Utils.js determines which version of the SDK that the viewer uses. You  
-               can use a relative path if the viewer is deployed on one of the Adobe Scene7 servers and it is served  
-               from the same domain. Otherwise, specify a full path to one of Adobe Scene7 servers that have the SDK  
+               can use a relative path if the viewer is deployed on one of the Adobe Dynamic Media servers and it is served  
+               from the same domain. Otherwise, specify a full path to one of Adobe Dynamic Media servers that have the SDK  
                installed.  
            --> 
            <script language="javascript" type="text/javascript"      
@@ -392,5 +389,5 @@ U voegt nu knoppen voor inzoomen, uitzoomen en het opnieuw instellen van zoomen 
 
    Uw standaardzoomviewer is nu voltooid.
 
-   Deze viewerzelfstudie behandelt de grondbeginselen van wat de Scene7 Viewer SDK biedt. Terwijl u met de SDK werkt, kunt u de verschillende standaardcomponenten gebruiken om eenvoudig rijke kijkervaringen voor uw doelpubliek te maken en te stijlaliseren.
+   Deze viewerzelfstudie behandelt de grondbeginselen van wat de Dynamic Media Viewer SDK biedt. Terwijl u met de SDK werkt, kunt u de verschillende standaardcomponenten gebruiken om eenvoudig rijke kijkervaringen voor uw doelpubliek te maken en te stijlaliseren.
 
