@@ -1,15 +1,12 @@
 ---
-description: De vraag van het Systeem API van de Productie van het beeld en hun bijbehorende parameters die niet meer worden gebruikt.
-seo-description: De vraag van het Systeem API van de Productie van het beeld en hun bijbehorende parameters die niet meer worden gebruikt.
-seo-title: Verouderde vraag
-solution: Experience Manager
 title: Verouderde vraag
-topic: Scene7 Image Production System API
-uuid: 03925728-f011-45f0-84a6-808dff0fd529
+description: API-aanroepen van het systeem voor afbeeldingsproductie en de bijbehorende parameters die niet meer in Dynamic Media worden gebruikt.
+solution: Experience Manager
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
@@ -21,7 +18,7 @@ De vraag van het Systeem API van de Productie van het beeld en hun bijbehorende 
 
 ## Vervangen aanroepen {#topic-654c0466e6434fe4a95953322255b08c}
 
-De vraag van het Systeem API van de Productie van het beeld en hun bijbehorende parameters die niet meer worden gebruikt.
+API-aanroepen van het systeem voor afbeeldingsproductie en de bijbehorende parameters die niet meer in Dynamic Media worden gebruikt.
 
 * `addMediaPortalEvent` - Vervangen van activiteiten. Deze vraag laat u een Poortgebeurtenis van Media aan IPS toevoegen.
 * `getMediaPortalEvent` - Vervangen van activiteiten. Met deze aanroep kunt u mediaportaalgebeurtenissen ophalen die aan bepaalde criteria voldoen.
