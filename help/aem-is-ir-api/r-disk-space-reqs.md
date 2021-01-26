@@ -1,15 +1,12 @@
 ---
 description: 'Naast de ruimte die nodig is om de software te installeren, heeft Image Serving de volgende vereisten voor schijfruimte '
-seo-description: 'Naast de ruimte die nodig is om de software te installeren, heeft Image Serving de volgende vereisten voor schijfruimte '
-seo-title: Vereisten en aanbevelingen voor schijfruimte
 solution: Experience Manager
 title: Vereisten en aanbevelingen voor schijfruimte
-topic: Scene7 Image Serving - Image Rendering API
-uuid: a6a21886-94d6-45b3-af68-497e039bdbac
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -58,7 +55,7 @@ Naast de ruimte die nodig is om de software te installeren, gelden voor Image Se
 
 ## Vereisten voor schijfruimte voor bronafbeeldingen {#section-317da75099ad480d9a461c7e706d4f1c}
 
-Het wordt aanbevolen alle bronafbeeldingen om te zetten in de piramidebestandsindeling TIFF (PTIFF) met het opdrachtregelprogramma voor het omzetten van afbeeldingen (IC). Deze conversie zorgt voor optimale runtimeprestaties van Image Serving voor alle toepassingen. Hoewel de server van het Beeld alle brondossierformaten kan verwerken die door IC worden goedgekeurd, verleent Scene7 geen steun voor dergelijk gebruik.
+Het wordt aanbevolen alle bronafbeeldingen om te zetten in de piramidebestandsindeling TIFF (PTIFF) met het opdrachtregelprogramma voor het omzetten van afbeeldingen (IC). Deze conversie zorgt voor optimale runtimeprestaties van Image Serving voor alle toepassingen. Hoewel de server van het Beeld alle brondossierformaten kan verwerken die door IC worden goedgekeurd, verleent Dynamic Media geen steun voor dergelijk gebruik.
 
 Als u PTIFF-bestanden gebruikt, kunt u aan de hand van de volgende regels met duim bepalen welke ruimte vereist is.
 
