@@ -4,10 +4,10 @@ seo-description: De Beeldserver biedt een mechanisme om externe objecten-id's te
 seo-title: Omzetten van object-id
 solution: Experience Manager
 title: Omzetten van object-id
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8b4c2f44-033a-428a-b505-af389865c70a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Alle verwijzingen naar items in afbeeldings-, SVG- en statische inhoudcatalogi w
 
 `attribute::LocaleMap` bepaalt de regels die door de server worden gebruikt om identiteitskaart van de gelokaliseerde inhoud te bepalen, gegeven als input generische objecten identiteitskaart en de  `locale=` waarde.
 
-`attribute::LocaleMap` bestaat uit een lijst met invoerlandinstellingen *(die overeenkomen met de waarden die met* ) zijn opgegeven, elk met geen of meer achtervoegsels voor de uitvoerlandinstelling (  `locale=`locSuffixes ` *` `*`).
+`attribute::LocaleMap` bestaat uit een lijst met invoerlandinstellingen *(die overeenkomen met de waarden die met* ) zijn opgegeven, elk met geen of meer achtervoegsels voor de uitvoerlandinstelling (  `locale=`locSuffixes `*` `*`).
 
 `attribute::LocaleMap` kan er bijvoorbeeld als volgt uitzien:
 
