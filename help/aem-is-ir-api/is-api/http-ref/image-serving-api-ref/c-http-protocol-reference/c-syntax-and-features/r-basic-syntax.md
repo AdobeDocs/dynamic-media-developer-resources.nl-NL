@@ -4,10 +4,10 @@ seo-description: De basissyntaxis van het HTTP-protocol ziet er als volgt uit.
 seo-title: Basissyntaxis van HTTP-protocol voor afbeeldingen
 solution: Experience Manager
 title: Basissyntaxis van HTTP-protocol voor afbeeldingen
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3269c2f2-df0f-4b62-ae9c-a267acae8071
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 0%
