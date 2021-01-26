@@ -4,10 +4,10 @@ seo-description: Kleurkwantiteit. Geeft kleurkwantiseringskenmerken voor GIF-uit
 seo-title: kwantificeren
 solution: Experience Manager
 title: kwantificeren
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 624cdc45-51f2-4b18-a658-311770974521
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%
@@ -32,11 +32,11 @@ Kleurkwantiteit. Geeft kleurkwantiseringskenmerken voor GIF-uitvoerconversie op.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> numColors  </span> </span> </p> </td> 
-  <td class="stentry"> <p>Aantal uitvoerkleuren (geheel getal) in het adaptieve <span class="codeph">-palet.</span> </p> <p> <span class="codeph"> <span class="varname"> numColors  </span> </span> moet tussen 2 en 256 liggen. </p> </td> 
+  <td class="stentry"> <p>Aantal uitvoerkleuren (geheel getal) in het adaptieve </span>-palet.<span class="codeph"> </span></p> <p> <span class="codeph"> <span class="varname"> numColors  </span> </span> moet tussen 2 en 256 liggen. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> colorList  </span> </span> </p> </td> 
-  <td class="stentry"> <p>Lijst met door komma's gescheiden geforceerde RGB-kleuren in hexadecimale 6-indeling. Hiermee kunt u geforceerde kleuren opgeven die moeten worden opgenomen in een adaptief <span class="codeph">-palet. </span> Als het opgegeven aantal kleuren kleiner is dan <span class="codeph"> numColors </span>, worden extra kleuren berekend op basis van de inhoud van de afbeelding. </p> <p>Wordt alleen gebruikt als <span class="codeph"> fmt=gif </span> of <span class="codeph"> fmt=gif-alpha </span>. Anders genegeerd. De kleuren die worden opgegeven met <span class="codeph"> <span class="varname"> colorList </span> </span> moeten RGB-waarden zijn in hex6-indeling (zie <span class="codeph"> kleur </span>); er zijn geen andere kleurspecificaties toegestaan . </p> </td> 
+  <td class="stentry"> <p>Lijst met door komma's gescheiden geforceerde RGB-kleuren in hexadecimale 6-indeling. Hiermee kunt u geforceerde kleuren opgeven die moeten worden opgenomen in een adaptief </span>-palet. <span class="codeph"> Als het opgegeven aantal kleuren kleiner is dan <span class="codeph"> numColors </span>, worden extra kleuren berekend op basis van de inhoud van de afbeelding. </span></p> <p>Wordt alleen gebruikt als <span class="codeph"> fmt=gif </span> of <span class="codeph"> fmt=gif-alpha </span>. Anders genegeerd. De kleuren die worden opgegeven met <span class="codeph"> <span class="varname"> colorList </span> </span> moeten RGB-waarden zijn in hex6-indeling (zie <span class="codeph"> kleur </span>); er zijn geen andere kleurspecificaties toegestaan . </p> </td> 
  </tr> 
 </table>
 
