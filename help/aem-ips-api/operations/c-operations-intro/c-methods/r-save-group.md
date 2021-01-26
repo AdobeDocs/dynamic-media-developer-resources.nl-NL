@@ -4,10 +4,10 @@ seo-description: Maak of bewerk een groep.
 seo-title: saveGroup
 solution: Experience Manager
 title: saveGroup
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: d1631a55-7f1d-48b4-8b35-fd5a05277219
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 1%
@@ -33,16 +33,16 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | De handgreep aan het bedrijf met de groep u wilt bewaren. |
-| ` *`groupHandle`*` | `xsd:string` | Nee | De greep naar de groep. |
-| ` *`name`*` | `xsd:string` | Ja | Groepsnaam. |
-| ` *`isSystemDefined`*` | `xsd:boolean` | Ja | `false` is standaard. |
+| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep aan het bedrijf met de groep u wilt bewaren. |
+| `*`groupHandle`*` | `xsd:string` | Nee | De greep naar de groep. |
+| `*`name`*` | `xsd:string` | Ja | Groepsnaam. |
+| `*`isSystemDefined`*` | `xsd:boolean` | Ja | `false` is standaard. |
 
 **Output (saveGroupReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`groupHandle`*` | `xsd:string` | Ja | Groepshandgreep. |
+| `*`groupHandle`*` | `xsd:string` | Ja | Groepshandgreep. |
 
 ## Voorbeelden {#section-26eee227ff1f4edabb7fa1240b4d9999}
 
