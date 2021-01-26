@@ -5,10 +5,10 @@ seo-description: De gemengde Kijker van Media is een media kijker. De klasse bie
 seo-title: Gemengde media
 solution: Experience Manager
 title: Gemengde media
-topic: Dynamic media
+topic: Dynamic Media
 uuid: b6028c54-7a3c-41eb-89f8-7b86bb0d0deb
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '2681'
 ht-degree: 0%
@@ -138,7 +138,7 @@ U voegt de viewer als volgt toe aan een webpagina:
 
 1. Het JavaScript-bestand van de viewer toevoegen aan uw webpagina.
 
-   Voor het maken van een viewer moet u een scripttag aan de HTML-kop toevoegen. Voordat u de viewer-API kunt gebruiken, moet u [!DNL MixedMediaViewer.js] opnemen. Het [!DNL MixedMediaViewer.js]-bestand bevindt zich in de submap [!DNL html5/js/] van uw standaard IS-Viewers-implementatie:
+   Voor het maken van een viewer moet u een scripttag aan de HTML-kop toevoegen. Voordat u de viewer-API kunt gebruiken, moet u [!DNL MixedMediaViewer.js] opnemen. Het [!DNL MixedMediaViewer.js] dossier wordt gevestigd onder [!DNL html5/js/] subfolder van uw standaard plaatsing IS-Viewers:
 
 [!DNL <s7viewers_root>/html5/js/MixedMediaViewer.js]
 
@@ -192,7 +192,7 @@ Het relatieve pad ziet er als volgt uit:
 
    [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/MixedMediaViewer-fixed-outer-area.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/MixedMediaViewer-fixed-outer-area.html)
 
-   Als u de afmetingen van de hoofdweergave statisch wilt maken, definieert u de viewergrootte in absolute eenheden voor de binnenste SDK-component met behulp van `Container` CSS-kiezer of met de optie `.s7mixedmediaviewer .s7container`.`stagesize`
+   Als u de afmetingen van de hoofdweergave statisch wilt maken, definieert u de viewergrootte in absolute eenheden voor de binnenste SDK-component met behulp van `.s7mixedmediaviewer .s7container` CSS-kiezer of met de optie `stagesize`.`Container`
 
    Hieronder ziet u een voorbeeld van het definiëren van de viewergrootte voor de binnenste SDK-component `Container`, zodat de grootte van het hoofdweergavegebied niet wordt gewijzigd wanneer u van element verandert:
 
