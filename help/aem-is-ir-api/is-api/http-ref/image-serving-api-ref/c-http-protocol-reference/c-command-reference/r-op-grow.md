@@ -4,10 +4,10 @@ seo-description: Afbeelding vervagen/eroderen. Hiermee past u een morfologische 
 seo-title: op_kweken
 solution: Experience Manager
 title: op_kweken
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bc9bf889-f7e1-4a65-b6d6-7e1257ef8c11
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Afbeelding vervagen/eroderen. Hiermee past u een morfologische dilaat (straal > 
  </tr> 
 </table>
 
-` *`De `*` stralen worden uitgedrukt in pixels ten opzichte van de samengestelde afbeelding. Als de afbeelding een gekleurde afbeelding is, wordt elke component afzonderlijk verwerkt.
+`*`De `*` stralen worden uitgedrukt in pixels ten opzichte van de samengestelde afbeelding. Als de afbeelding een gekleurde afbeelding is, wordt elke component afzonderlijk verwerkt.
 
 Wordt voornamelijk gebruikt om de grootte van laageffecten te wijzigen. Dit is ook handig voor speciale effecten op tekstlagen of effen kleurlagen met maskers.
 
