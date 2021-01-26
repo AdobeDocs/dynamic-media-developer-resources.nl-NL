@@ -1,16 +1,13 @@
 ---
 description: Inline Zoom Viewer is een beeldviewer. Er wordt een statische afbeelding weergegeven met de ingezoomde versie die boven die statische afbeelding wordt weergegeven wanneer een gebruiker de hoofdweergave beweegt of aanraakt. Deze viewer werkt met afbeeldingssets en de navigatie wordt uitgevoerd met stalen. Het is ontworpen voor gebruik op desktops en mobiele apparaten.
 keywords: responsive
-seo-description: Inline Zoom Viewer is een beeldviewer. Er wordt een statische afbeelding weergegeven met de ingezoomde versie die boven die statische afbeelding wordt weergegeven wanneer een gebruiker de hoofdweergave beweegt of aanraakt. Deze viewer werkt met afbeeldingssets en de navigatie wordt uitgevoerd met stalen. Het is ontworpen voor gebruik op desktops en mobiele apparaten.
-seo-title: Inline zoomen
 solution: Experience Manager
 title: Inline zoomen
-topic: Dynamic media
-uuid: 2287aef0-79ba-4d63-911a-969fa1c63385
+topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '2457'
+source-wordcount: '2403'
 ht-degree: 0%
 
 ---
@@ -128,7 +125,7 @@ U voegt de viewer als volgt toe aan een webpagina:
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-U kunt een relatief pad gebruiken als de viewer wordt geïmplementeerd op een van de Adobe Scene7-servers en vanuit hetzelfde domein wordt aangeboden. Anders geeft u een volledig pad op naar een van de Adobe Scene7-servers waarop IS-Viewers zijn geïnstalleerd.
+U kunt een relatief pad gebruiken als de viewer wordt geïmplementeerd op een van de Adobe Dynamic Media-servers en vanuit hetzelfde domein wordt aangeboden. Anders geeft u een volledig pad op naar een van de Adobe Dynamic Media-servers waarop IS-Viewers zijn geïnstalleerd.
 
 Een relatief pad ziet er als volgt uit:
 
@@ -178,7 +175,7 @@ Een relatief pad ziet er als volgt uit:
 
    [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/InlineZoom-fixed-outer-area.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/InlineZoom-fixed-outer-area.html)
 
-   Als u de afmetingen van de hoofdweergave statisch wilt maken, definieert u de viewergrootte in absolute eenheden voor de binnenste SDK-component met behulp van `Container` CSS-kiezer. `.s7flyoutviewer .s7container` Daarnaast moet u de vaste grootte die is gedefinieerd voor de CSS-klasse op hoofdniveau in de standaard viewer-CSS negeren door deze in te stellen op `.s7flyoutviewer`.`auto`
+   Als u de afmetingen van de hoofdweergave statisch wilt maken, definieert u de viewergrootte in absolute eenheden voor de binnenste SDK-component met behulp van `.s7flyoutviewer .s7container` CSS-kiezer. `Container` Daarnaast moet u de vaste grootte die is gedefinieerd voor de CSS-klasse op hoofdniveau in de standaard viewer-CSS negeren door deze in te stellen op `auto`.`.s7flyoutviewer`
 
    Hieronder ziet u een voorbeeld van het definiëren van de viewergrootte voor de binnenste SDK-component `Container`, zodat de grootte van het hoofdweergavegebied niet wordt gewijzigd wanneer u van element verandert:
 
