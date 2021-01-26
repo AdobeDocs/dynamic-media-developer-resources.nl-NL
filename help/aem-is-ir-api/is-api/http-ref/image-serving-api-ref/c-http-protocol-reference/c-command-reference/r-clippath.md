@@ -4,10 +4,10 @@ seo-description: Laaguitknippad. Hiermee geeft u een clippad voor de huidige laa
 seo-title: clipPath
 solution: Experience Manager
 title: clipPath
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: fe84cf7a-63af-47d3-ae4f-2122f2f0a262
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 0%
@@ -36,13 +36,13 @@ Laaguitknippad. Hiermee geeft u een clippad voor de huidige laag op.
 
 Alle delen van de laag die buiten het gebied vallen dat wordt gedefinieerd door `clipPath=`, worden transparant gemaakt.
 
-` *``*` pathName is de naam van een pad dat is ingesloten in de bronafbeelding van de laag. Het pad wordt automatisch getransformeerd om de relatieve uitlijning met de inhoud van de afbeelding te behouden. Als meer dan één ` *`pathName`*` wordt gespecificeerd, klemt de server het beeld aan de doorsnede van deze wegen. ` *`pathName`*` niet gevonden in de bronafbeelding wordt genegeerd.
+`*``*` pathName is de naam van een pad dat is ingesloten in de bronafbeelding van de laag. Het pad wordt automatisch getransformeerd om de relatieve uitlijning met de inhoud van de afbeelding te behouden. Als meer dan één `*`pathName`*` wordt gespecificeerd, klemt de server het beeld aan de doorsnede van deze wegen. `*`pathName`*` niet gevonden in de bronafbeelding wordt genegeerd.
 
 >[!NOTE]
 >
->Alleen ASCII-tekenreeksen worden ondersteund voor ` *`pathName`*`.
+>Alleen ASCII-tekenreeksen worden ondersteund voor `*`pathName`*`.
 
-` *`Met `*` pathDefinition kunnen expliciete padgegevens worden opgegeven in pixelcoördinaten van lagen.
+`*`Met `*` pathDefinition kunnen expliciete padgegevens worden opgegeven in pixelcoördinaten van lagen.
 
 Als `size=` wordt gespecificeerd en niet 0.0, is de laag presized. In dit geval zijn padcoördinaten relatief ten opzichte van de linkerbovenhoek van de laagrechthoek en wordt de laag geplaatst op basis van `origin=` of de standaardinstelling ervan. Eventuele gebieden van het pad buiten de laagrechthoek blijven transparant.
 
@@ -52,9 +52,9 @@ Wanneer `size=` niet is opgegeven voor een effen kleur of een tekstlaag, wordt d
 >
 >`scale=`,  `rotate=`en  `anchor=` opdrachten zijn niet toegestaan voor lagen met effen kleuren waarvan het formaat automatisch wordt aangepast.
 
-` *``*` pathDefinition accepteert een tekenreeks die lijkt op de waarde van het  `d=` kenmerk van het SVG- `<path>` element, behalve dat komma&#39;s worden gebruikt in plaats van spaties om waarden te scheiden. ` *``*` pathDefinition kan een of meer subpaden met gesloten lus bevatten.
+`*``*` pathDefinition accepteert een tekenreeks die lijkt op de waarde van het  `d=` kenmerk van het SVG- `<path>` element, behalve dat komma&#39;s worden gebruikt in plaats van spaties om waarden te scheiden. `*``*` pathDefinition kan een of meer subpaden met gesloten lus bevatten.
 
-De volgende padopdrachten worden ondersteund in ` *`pathDefinition`*`:
+De volgende padopdrachten worden ondersteund in `*`pathDefinition`*`:
 
 <table id="table_A74DD7A48B1C417D9D4BA46BECEAB981"> 
  <thead> 
