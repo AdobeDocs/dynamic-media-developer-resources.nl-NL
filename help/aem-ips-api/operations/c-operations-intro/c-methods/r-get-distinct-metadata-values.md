@@ -4,10 +4,10 @@ seo-description: Retourneert alle waarden voor een metagegevensveld.
 seo-title: getDistinctMetadataValues
 solution: Experience Manager
 title: getDistinctMetadataValues
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 47c1d3a3-9f33-4c36-828a-e858370997d1
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 0%
@@ -37,14 +37,14 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | De handgreep naar het bedrijf waarvoor u gegevens wilt ophalen. |
-| ` *`metadataKey`*` | `xsd:string` | Ja | Metagegevenssleutel in puntnotatie. |
+| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep naar het bedrijf waarvoor u gegevens wilt ophalen. |
+| `*`metadataKey`*` | `xsd:string` | Ja | Metagegevenssleutel in puntnotatie. |
 
 **Output (getDistinctMetadataValuesReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`valueArray`*` | `types:ValueArray` | Ja | Waarden van het gewenste metagegevensveld. |
+| `*`valueArray`*` | `types:ValueArray` | Ja | Waarden van het gewenste metagegevensveld. |
 
 ## Voorbeelden {#section-0189fa6fb31646cda5ce1b0bc4fcdf46}
 
