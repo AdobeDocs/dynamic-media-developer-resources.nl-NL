@@ -4,10 +4,10 @@ seo-description: Hiermee verplaatst u meerdere elementen onafhankelijk van elkaa
 seo-title: moveAssets
 solution: Experience Manager
 title: moveAssets
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 178f9979-fff5-45ce-a001-1263d1770ea8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 0%
@@ -36,8 +36,8 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | De handgreep aan het bedrijf met activa om worden bewogen. |
-| ` *`assetMoveArray`*` | `types:AssetMoveArray` | Ja | Een array met elementen verplaatsen. Het bevat een middel en een omslag van de middelenbestemming. |
+| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep aan het bedrijf met activa om worden bewogen. |
+| `*`assetMoveArray`*` | `types:AssetMoveArray` | Ja | Een array met elementen verplaatsen. Het bevat een middel en een omslag van de middelenbestemming. |
 
 **Output (moveAssetsReturn)**
 
