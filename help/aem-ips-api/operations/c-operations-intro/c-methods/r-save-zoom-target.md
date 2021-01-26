@@ -4,10 +4,10 @@ seo-description: Maak of bewerk een zoomdoel.
 seo-title: saveZoomTarget
 solution: Experience Manager
 title: saveZoomTarget
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 197f7a2a-39ea-41cc-8e3a-76f9fe1b37d0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 1%
@@ -36,21 +36,21 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | De handgreep naar het bedrijf met het zoomdoel dat u wilt opslaan. |
-| ` *`assetHandle`*` | `xsd:string` | Ja | De handgreep van het zoomdoel. |
-| ` *`zoomTargetHandle`*` | `xsd:string` | Nee | Hiermee bewerkt of maakt u een zoomdoel. |
-| ` *`name`*` | `xsd:string` | Ja | Naam van zoomdoel. |
-| ` *`xPosition`*` | `xsd:int` | Ja | Locatie van linkerpixel. |
-| ` *`yPosition`*` | `xsd:int` | Ja | Bovenste pixellocatie. |
-| ` *`width`*` | `xsd:int` | Ja | Breedte van zoomdoel. |
-| ` *`height`*` | `xsd:int` | Ja | Hoogte doel zoomen. |
-| ` *`userData`*` | `xsd:string` | Ja | Voor klantspecifieke informatie. Kan elk type gegevens bevatten. |
+| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep naar het bedrijf met het zoomdoel dat u wilt opslaan. |
+| `*`assetHandle`*` | `xsd:string` | Ja | De handgreep van het zoomdoel. |
+| `*`zoomTargetHandle`*` | `xsd:string` | Nee | Hiermee bewerkt of maakt u een zoomdoel. |
+| `*`name`*` | `xsd:string` | Ja | Naam van zoomdoel. |
+| `*`xPosition`*` | `xsd:int` | Ja | Locatie van linkerpixel. |
+| `*`yPosition`*` | `xsd:int` | Ja | Bovenste pixellocatie. |
+| `*`width`*` | `xsd:int` | Ja | Breedte van zoomdoel. |
+| `*`height`*` | `xsd:int` | Ja | Hoogte doel zoomen. |
+| `*`userData`*` | `xsd:string` | Ja | Voor klantspecifieke informatie. Kan elk type gegevens bevatten. |
 
 **Output (saveZoomTargetReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`zoomTargetHandle`*` | `xsd:string` | Ja | Verwerk het nieuwe zoomdoel. |
+| `*`zoomTargetHandle`*` | `xsd:string` | Ja | Verwerk het nieuwe zoomdoel. |
 
 ## Voorbeelden {#section-509c472c316549cdb228d7e1cfa8400a}
 
