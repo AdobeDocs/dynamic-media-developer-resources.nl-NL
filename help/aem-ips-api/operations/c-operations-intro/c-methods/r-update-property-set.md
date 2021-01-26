@@ -4,10 +4,10 @@ seo-description: Gebruikt een bezitsserie om een bezitsreeks bij te werken.
 seo-title: updatePropertySet
 solution: Experience Manager
 title: updatePropertySet
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 21a59c5a-7799-4af6-ab9f-b0311f5f7254
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 0%
@@ -39,9 +39,9 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`setHandle`*` | `xsd:string` | Ja | Handgreep aan de bezitsreeks. |
-| ` *`replaceProperties`*` | `xsd:string` | Nee | Stel in op `true` om eigenschappen te vervangen. |
-| ` *`propertyArray`*` | `types:PropertyArray` | Ja | Array met bijgewerkte eigenschappen voor de set eigenschappen. |
+| `*`setHandle`*` | `xsd:string` | Ja | Handgreep aan de bezitsreeks. |
+| `*`replaceProperties`*` | `xsd:string` | Nee | Stel in op `true` om eigenschappen te vervangen. |
+| `*`propertyArray`*` | `types:PropertyArray` | Ja | Array met bijgewerkte eigenschappen voor de set eigenschappen. |
 
 **Output (updatePropertySetReturn)**
 
