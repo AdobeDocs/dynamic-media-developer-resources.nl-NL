@@ -4,10 +4,10 @@ seo-description: Bijwerken miniatuurafbeelding.
 seo-title: ThumbAssetUpdate
 solution: Experience Manager
 title: ThumbAssetUpdate
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 08330bf7-4d92-4301-afe9-69925747e36a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '24'
 ht-degree: 0%
@@ -25,6 +25,6 @@ Syntaxis
 
 | Naam | Type | Beschrijving |
 |---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | Asset handle. |
-| ` *`thumbAssetHandle`*` | `xsd:string` | Miniatuur greep. |
+| `*`assetHandle`*` | `xsd:string` | Asset handle. |
+| `*`thumbAssetHandle`*` | `xsd:string` | Miniatuur greep. |
 
