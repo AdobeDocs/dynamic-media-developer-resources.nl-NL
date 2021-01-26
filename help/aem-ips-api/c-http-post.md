@@ -1,15 +1,12 @@
 ---
 description: Bij het uploaden van elementen naar Scene7 Production System worden een of meer HTTP-POSTEN gevraagd die een taak hebben ingesteld om alle logactiviteiten te coördineren die aan de geüploade bestanden zijn gekoppeld.
-seo-description: Bij het uploaden van elementen naar Scene7 Production System worden een of meer HTTP-POSTEN gevraagd die een taak hebben ingesteld om alle logactiviteiten te coördineren die aan de geüploade bestanden zijn gekoppeld.
-seo-title: Elementen uploaden via HTTP POST's naar de UploadFile-server
 solution: Experience Manager
 title: Elementen uploaden via HTTP POST's naar de UploadFile-server
-topic: Scene7 Image Production System API
-uuid: 8d562316-0849-4b95-a974-29732d453dc8
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 5d738b675975251dc3491ac7ae533eda082df134
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
@@ -29,7 +26,7 @@ https://<server>/scene7/UploadFile
 >
 >Alle verzoeken van de POST om een uploadbaan moeten van het zelfde IP adres voortkomen.
 
-**Toegang tot URL&#39;s voor Scene7-regio&#39;s**
+**Toegang tot URL&#39;s voor Dynamic Media-regio&#39;s**
 
 <table id="table_45BB314ABCDA49F38DF7BECF95CC984A"> 
  <thead> 
