@@ -4,10 +4,10 @@ seo-description: Hiermee wordt een pakket met XMP metagegevens voor het opgegeve
 seo-title: getXMPPacket
 solution: Experience Manager
 title: getXMPPacket
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: c4b40e76-a459-4036-ace2-8df202305bf9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 0%
@@ -37,14 +37,14 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | De bedrijfshandgreep met het pakket dat u wilt retourneren (bijvoorbeeld `c|656`). |
-| ` *`assetHandle`*` | `xsd:string` | Ja | Het middel waarvoor het XMP pakket zou moeten worden teruggewonnen. |
+| `*`companyHandle`*` | `xsd:string` | Ja | De bedrijfshandgreep met het pakket dat u wilt retourneren (bijvoorbeeld `c|656`). |
+| `*`assetHandle`*` | `xsd:string` | Ja | Het middel waarvoor het XMP pakket zou moeten worden teruggewonnen. |
 
 **Output (getXMPPacketReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`compressedPacket`*` | `xsd:Base 64 binary` | Ja | [!DNL zlib-compressed] XMP pakket. |
+| `*`compressedPacket`*` | `xsd:Base 64 binary` | Ja | [!DNL zlib-compressed] XMP pakket. |
 
 ## Voorbeelden {#section-d681af49122e4ca9bcd04110a2e98e6f}
 
