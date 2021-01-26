@@ -4,10 +4,10 @@ seo-description: Wijzigt de naam van een element.
 seo-title: renameAsset
 solution: Experience Manager
 title: renameAsset
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: f285d7e4-00df-4d90-a05a-71747a4c54cc
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 0%
@@ -42,10 +42,10 @@ Wijzigt de naam van een element.
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | De handgreep van de onderneming waartoe het actief behoort. |
-| ` *`assetHandle`*` | `xsd:string` | Ja | De greep naar het element waarvan u de naam wilt wijzigen. |
-| ` *`newName`*` | `xsd:string` | Ja | Nieuwe naam van element. |
-| ` *`validateName`*` | `xsd:boolean` | Ja | Als `validateName` `true` is en het elementtype een unieke IPS identiteitskaart vereist, dan wordt de nieuwe naam gecontroleerd globale uniciteit en `renameAsset` werpt een fout als het niet uniek is. |
+| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep van de onderneming waartoe het actief behoort. |
+| `*`assetHandle`*` | `xsd:string` | Ja | De greep naar het element waarvan u de naam wilt wijzigen. |
+| `*`newName`*` | `xsd:string` | Ja | Nieuwe naam van element. |
+| `*`validateName`*` | `xsd:boolean` | Ja | Als `validateName` `true` is en het elementtype een unieke IPS identiteitskaart vereist, dan wordt de nieuwe naam gecontroleerd globale uniciteit en `renameAsset` werpt een fout als het niet uniek is. |
 
 **Uitvoer (naamAssetReturn wijzigen)**
 
