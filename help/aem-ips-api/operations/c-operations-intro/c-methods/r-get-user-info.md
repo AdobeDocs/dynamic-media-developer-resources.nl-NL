@@ -4,10 +4,10 @@ seo-description: Hiermee wordt informatie over een gebruiker opgehaald. Gebruik 
 seo-title: getUserInfo
 solution: Experience Manager
 title: getUserInfo
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: b305c108-22e9-4268-a5b3-25fddd844c24
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -39,14 +39,14 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | Nee | Verwerk de gebruiker van wie u de gegevens wilt retourneren. |
-| ` *`email`*` | `xsd:string` | Nee | E-mailadres van gebruiker. |
+| `*`userHandle`*` | `xsd:string` | Nee | Verwerk de gebruiker van wie u de gegevens wilt retourneren. |
+| `*`email`*` | `xsd:string` | Nee | E-mailadres van gebruiker. |
 
 **Output (getUserInfoReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`userInfo`*` | `types:User` | Ja | De voornaam, achternaam, het e-mailadres en de rol van een gebruiker, evenals of de gebruiker geldig is en wanneer het wachtwoord van de gebruiker verloopt. |
+| `*`userInfo`*` | `types:User` | Ja | De voornaam, achternaam, het e-mailadres en de rol van een gebruiker, evenals of de gebruiker geldig is en wanneer het wachtwoord van de gebruiker verloopt. |
 
 ## Voorbeelden {#section-98d77a2e360a438dbe240099bea26a65}
 
