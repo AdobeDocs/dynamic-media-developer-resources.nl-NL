@@ -4,10 +4,10 @@ seo-description: Het gereedschap voor delen van koppeling bestaat uit een knop d
 seo-title: Delen van koppeling
 solution: Experience Manager
 title: Delen van koppeling
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 699ddab2-8cfd-4edf-bb1b-5ff91fe63c1a
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '1415'
 ht-degree: 0%
