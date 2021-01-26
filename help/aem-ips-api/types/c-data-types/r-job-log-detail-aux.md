@@ -4,10 +4,10 @@ seo-description: Bevat aanvullende berichten die zijn gekoppeld aan het hoofdber
 seo-title: JobLogDetailAux
 solution: Experience Manager
 title: JobLogDetailAux
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: df6f61f2-54f1-4996-938c-c3ea8c27551a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Syntaxis
 
 | Naam | Type | Beschrijving |
 |---|---|---|
-| ` *`logMessage`*` | `xsd:string` | Een hulpbericht. |
-| ` *`logType`*` | `xsd:string` | Logbestandstype: `IPSJobLog.gcUploadWarning` of `IPSJobLog.gcUploadError`. |
-| ` *`dateCreated`*` | `xsd:dateTime` | Aanmaakdatum van extra taaklog. |
+| `*`logMessage`*` | `xsd:string` | Een hulpbericht. |
+| `*`logType`*` | `xsd:string` | Logbestandstype: `IPSJobLog.gcUploadWarning` of `IPSJobLog.gcUploadError`. |
+| `*`dateCreated`*` | `xsd:dateTime` | Aanmaakdatum van extra taaklog. |
 
