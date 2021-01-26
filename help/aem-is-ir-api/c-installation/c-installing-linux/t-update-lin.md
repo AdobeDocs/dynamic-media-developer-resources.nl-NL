@@ -1,15 +1,15 @@
 ---
-description: Gebruik deze procedure bij het upgraden van Scene7 Image Serving op Linux.
-seo-description: Gebruik deze procedure bij het upgraden van Scene7 Image Serving op Linux.
+description: Gebruik deze procedure bij het upgraden van Dynamic Media Image Serving op Linux.
+seo-description: Gebruik deze procedure bij het upgraden van Dynamic Media Image Serving op Linux.
 seo-title: Bijwerken vanaf IS 4.7.4 of hoger
 solution: Experience Manager
 title: Bijwerken vanaf IS 4.7.4 of hoger
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 70beb1a3-71b9-4bd0-b048-13d88446a9d3
 translation-type: tm+mt
-source-git-commit: 038f0f8f2c4f815e47749e0bab153c63e5396c91
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Bijwerken vanaf IS 4.7.4 of hoger{#updating-from-is-or-later}
 
-Gebruik deze procedure bij het upgraden van Scene7 Image Serving op Linux.
+Gebruik deze procedure bij het upgraden van Dynamic Media Image Serving op Linux.
 
 Als u een upgrade uitvoert van een oudere versie van Image Serving, neemt u contact op met de ondersteuning voor het juiste proces.
 
