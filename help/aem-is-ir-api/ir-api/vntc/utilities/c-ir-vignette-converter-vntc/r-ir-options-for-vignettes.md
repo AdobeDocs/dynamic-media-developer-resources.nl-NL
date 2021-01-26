@@ -4,12 +4,12 @@ seo-description: De volgende opties bepalen de verwerking van vignetbestanden. Z
 seo-title: Opties voor vignetten
 solution: Experience Manager
 title: Opties voor vignetten
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0cb40314-07ce-496b-a27b-560d7bb4fa8e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ De volgende opties bepalen de verwerking van vignetbestanden. Ze worden genegeer
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> -piramide</span> </p></td> 
-  <td class="stentry"> <p>Hiermee maakt u een piramidevignet. Vereist wanneer gerenderde afbeeldingen worden weergegeven met Scene7-zoomviewers. Zie <a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585" type="concept" format="dita" scope="local"> Vignetschaling</a> voor aanvullende informatie. </p></td> 
+  <td class="stentry"> <p>Hiermee maakt u een piramidevignet. Vereist wanneer gerenderde afbeeldingen worden weergegeven met Dynamic Media-zoomviewers. Zie <a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585" type="concept" format="dita" scope="local"> Vignetschaling</a> voor aanvullende informatie. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">-thumbwidth  <span class="varname"> ival</span></span> </p></td> 
