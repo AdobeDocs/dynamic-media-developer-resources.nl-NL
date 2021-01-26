@@ -4,10 +4,10 @@ seo-description: Als u op deze knop klikt of erop tikt, draait u de afbeelding r
 seo-title: Rechterkant draaien, knop
 solution: Experience Manager
 title: Rechterkant draaien, knop
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 3af363bd-3de3-42c7-80cc-4512ffc1f10d
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 0%
