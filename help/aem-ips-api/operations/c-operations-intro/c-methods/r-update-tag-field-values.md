@@ -4,10 +4,10 @@ seo-description: Hiermee werkt u de tagwoordenboekwaarden voor een tagveld bij.
 seo-title: updateTagFieldValues
 solution: Experience Manager
 title: updateTagFieldValues
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 21689469-a0dd-480b-82ba-ebd12956ff8f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
@@ -66,11 +66,11 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Ja | Het aantal correct bijgewerkte tagvelden. |
-| ` *`warningCount`*` | `xsd:int` | Ja | Het aantal waarschuwingen dat wordt gegenereerd wanneer de bewerking probeerde tagvelden bij te werken. |
-| ` *`errorCount`*` | `xsd:int` | Ja | Het aantal fouten dat is gegenereerd toen de bewerking probeerde tagvelden bij te werken. |
-| ` *`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | Nee | De array met details die zijn gekoppeld aan de elementen die waarschuwingen hebben gegenereerd toen de bewerking probeerde tagvelden bij te werken. |
-| ` *`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | Nee | De array met details die zijn gekoppeld aan de elementen die fouten genereerden toen de bewerking probeerde tagvelden bij te werken. |
+| `*`successCount`*` | `xsd:int` | Ja | Het aantal correct bijgewerkte tagvelden. |
+| `*`warningCount`*` | `xsd:int` | Ja | Het aantal waarschuwingen dat wordt gegenereerd wanneer de bewerking probeerde tagvelden bij te werken. |
+| `*`errorCount`*` | `xsd:int` | Ja | Het aantal fouten dat is gegenereerd toen de bewerking probeerde tagvelden bij te werken. |
+| `*`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | Nee | De array met details die zijn gekoppeld aan de elementen die waarschuwingen hebben gegenereerd toen de bewerking probeerde tagvelden bij te werken. |
+| `*`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | Nee | De array met details die zijn gekoppeld aan de elementen die fouten genereerden toen de bewerking probeerde tagvelden bij te werken. |
 
 ## Voorbeelden {#section-bb4dcf97044c4675974c9b8d27674001}
 
