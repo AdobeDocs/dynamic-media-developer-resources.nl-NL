@@ -4,10 +4,10 @@ seo-description: Hiermee worden opgegeven taaklogbestanden voor het geselecteerd
 seo-title: getJobLogs
 solution: Experience Manager
 title: getJobLogs
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 850ccfad-6cdb-4eda-a20a-762fadadf8b2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 0%
@@ -39,19 +39,19 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Nee | De handgreep van het bedrijf. |
-| ` *`userHandle`*` | `xsd:string` | Nee | Hiermee worden logs opgehaald voor taken die door een specifieke gebruiker zijn ingediend. |
-| ` *`sortBy`*` | `xsd:string` | Nee | Hiermee kunt u sorteervelden selecteren. |
-| ` *`sortDirection`*` | `xsd:string` | Nee | Sorteervolgorde (oplopend of aflopend). |
-| ` *`startDate`*` | `xsd:dateTime` | Nee | De datum en tijd van het begin van het taaklogboek. Geef de tijdzone het verzoek voor dit veld. |
-| ` *`endDate`*` | `xsd:dateTime` | Nee | De datum en tijd van het einde van het taaklogboek. Geef de tijdzone het verzoek voor dit veld. |
-| ` *`numRows`*` | `xsd:int` | Nee | Maximumaantal rijen dat moet worden geretourneerd. |
+| `*`companyHandle`*` | `xsd:string` | Nee | De handgreep van het bedrijf. |
+| `*`userHandle`*` | `xsd:string` | Nee | Hiermee worden logs opgehaald voor taken die door een specifieke gebruiker zijn ingediend. |
+| `*`sortBy`*` | `xsd:string` | Nee | Hiermee kunt u sorteervelden selecteren. |
+| `*`sortDirection`*` | `xsd:string` | Nee | Sorteervolgorde (oplopend of aflopend). |
+| `*`startDate`*` | `xsd:dateTime` | Nee | De datum en tijd van het begin van het taaklogboek. Geef de tijdzone het verzoek voor dit veld. |
+| `*`endDate`*` | `xsd:dateTime` | Nee | De datum en tijd van het einde van het taaklogboek. Geef de tijdzone het verzoek voor dit veld. |
+| `*`numRows`*` | `xsd:int` | Nee | Maximumaantal rijen dat moet worden geretourneerd. |
 
 **Output (getJobLogsReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`jobLogArray`*` | `types: JobLogArray` | Ja | Array met taaklogbestanden. |
+| `*`jobLogArray`*` | `types: JobLogArray` | Ja | Array met taaklogbestanden. |
 
 ## Voorbeelden {#section-35871c94b4a44559912577efddbc46a6}
 
