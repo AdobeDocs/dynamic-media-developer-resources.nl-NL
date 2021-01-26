@@ -4,12 +4,12 @@ seo-description: Image Serving ondersteunt het onbeperkt nesten van aanvragen vo
 seo-title: Nesten en insluiten aanvragen
 solution: Experience Manager
 title: Nesten en insluiten aanvragen
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 59031329-e65f-4631-bc7d-83f2540cc836
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1081'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Het afbeeldingsresultaat van een genest IS-verzoek kan optioneel in de cache wor
 
 ## Aanvragen voor het renderen van ingesloten afbeelding {#section-69c5548db930412b9b90d9b2951a6969}
 
-Wanneer Scene7 Image Rendering is ingeschakeld op de server, kunnen renderverzoeken worden gebruikt als laagbronnen door deze op te geven in de opdracht src= (of mask=). Gebruik de volgende syntaxis:
+Wanneer Dynamic Media Image Rendering is ingeschakeld op de server, kunnen renderverzoeken worden gebruikt als laagbronnen door deze op te geven in de opdracht src= (of mask=). Gebruik de volgende syntaxis:
 
 ` …&src=ir( *[!DNL renderRequest]*)&…`
 
@@ -92,7 +92,7 @@ De token `fxg` is hoofdlettergevoelig.
 
 >[!NOTE]
 >
->FXG-rendering van afbeeldingen is alleen beschikbaar in de door Scene7 gehoste omgeving en vereist mogelijk extra licenties. Neem contact op met Scene7 Support voor meer informatie.
+>FXG-rendering van afbeeldingen is alleen beschikbaar in de door Dynamic Media gehoste omgeving en vereist mogelijk extra licenties. Neem contact op met de technische ondersteuning van Dynamic Media voor meer informatie.
 
 *[!DNL renderRequest]* is de gebruikelijke FXG-renderaanvraag, exclusief het HTTP-hoofdpad  ` http:// *[!DNL server]*/agm/render/`.
 
@@ -152,9 +152,9 @@ Met kleine wijzigingen kunnen we de afbeelding met laag 0 vooraf schalen en deze
 
 `layer=0&src=is(?src=$img$&size=300,300&cache=on)&layer=1&text=$txt$`
 
-**Aanvragen voor Scene7-beeldweergave insluiten**
+**Aanvragen voor Dynamic Media-beeldweergave insluiten**
 
-Een sjabloon gebruiken die is opgeslagen in [!DNL myCatalog/myTemplate]; de afbeelding voor laag2 van de sjabloon genereren met Scene7 Image Rendering:
+Een sjabloon gebruiken die is opgeslagen in [!DNL myCatalog/myTemplate]; de afbeelding voor laag2 van de sjabloon genereren met Dynamic Media Image Rendering:
 
 `http://server/is/image/myCatalog/myTemplate?layer=2&src=ir(myRenderCatalog/myRenderObject?id=myIdValue&sel=group&src=is(myCatalog/myTexture1?res=30)&res=30)&wid=300`
 
