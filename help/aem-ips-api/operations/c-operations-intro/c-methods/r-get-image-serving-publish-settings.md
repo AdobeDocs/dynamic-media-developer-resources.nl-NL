@@ -4,10 +4,10 @@ seo-description: Uitsluitend voor intern gebruik. Gebruikers moeten naar de sect
 seo-title: getImageServingPublishSettings
 solution: Experience Manager
 title: getImageServingPublishSettings
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 2f00198d-0262-430b-8ac5-80f52adcff67
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 0%
@@ -34,12 +34,12 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | De handgreep van het bedrijf met de afbeelding die de publicatie-instellingen voedt. |
-| ` *`contextHandle`*` | `xsd:string` | Ja | Verwerk de publicatiecontext. |
+| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep van het bedrijf met de afbeelding die de publicatie-instellingen voedt. |
+| `*`contextHandle`*` | `xsd:string` | Ja | Verwerk de publicatiecontext. |
 
 **Uitvoer**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`publishSettingArray`*` | `xsd:string` | Ja | Array met publicatie-instellingen van afbeeldingsserver. |
+| `*`publishSettingArray`*` | `xsd:string` | Ja | Array met publicatie-instellingen van afbeeldingsserver. |
 
