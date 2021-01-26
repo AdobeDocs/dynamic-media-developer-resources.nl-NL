@@ -4,10 +4,10 @@ seo-description: Hiermee vervangt u afbeeldingsgegevens voor een afbeeldingselem
 seo-title: replaceImage
 solution: Experience Manager
 title: replaceImage
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 46824e33-265c-4425-9ab1-8ad6b7ac154d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
@@ -36,15 +36,15 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`companyName`*` | `xsd:string` | Ja | De handgreep van het bedrijf met de afbeelding die u wilt vervangen. |
-| ` *`assetHandle`*` | `xsd:string` | Ja | De handgreep van het element dat u wilt vervangen. |
-| ` *`urlModifier`*` | `xsd:string` | Ja | De bevelen van de Server van het beeld die nieuwe beeldgegevens produceren. |
+| `*`companyName`*` | `xsd:string` | Ja | De handgreep van het bedrijf met de afbeelding die u wilt vervangen. |
+| `*`assetHandle`*` | `xsd:string` | Ja | De handgreep van het element dat u wilt vervangen. |
+| `*`urlModifier`*` | `xsd:string` | Ja | De bevelen van de Server van het beeld die nieuwe beeldgegevens produceren. |
 
 **Uitvoer (replaceImageReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | Ja | Verwerk het nieuwe element. |
+| `*`assetHandle`*` | `xsd:string` | Ja | Verwerk het nieuwe element. |
 
 ## Voorbeelden {#section-cebb93576bde4cb98cb27356ca66783b}
 
