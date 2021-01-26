@@ -2,9 +2,9 @@
 description: De Viewer SDK bevat een set JavaScript-componenten voor de ontwikkeling van aangepaste viewers. De viewers zijn webtoepassingen waarmee rich media-inhoud van Adobe Dynamic Media kan worden ingesloten in webpagina's.
 solution: Experience Manager
 title: Zelfstudie voor viewer-SDK
-topic: Dynamic media
+topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 0%
