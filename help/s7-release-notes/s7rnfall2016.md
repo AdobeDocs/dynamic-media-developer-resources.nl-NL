@@ -7,9 +7,9 @@ title: Scene7 Fall 2016 Release
 topic: Dynamic media
 uuid: 3fddda65-0c6e-48ec-bd60-7e0ca59421a8
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '2263'
+source-wordcount: '2264'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,8 @@ De nieuwste releaseopmerkingen voor [!DNL Adobe Scene7] Fall 2016 release-part v
 * [Viewers (afbeeldingen met 5.5.3)](s7rnfall2016.md#section-1d59bcd5825d487b80b59a6d1a08ed30)
 * [Viewers (afbeelding met 5.5.2)](s7rnfall2016.md#section-9932c988cfee45749594af481dfc6476)
 * [Viewers (afbeelding met 5.5.1)](s7rnfall2016.md#section-833ab92c91c941d2bfdc27f233f582ad)
-* [Scene7 HTML5 Viewer SDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
-* [Scene7 Image Serving 6.3.2 and Image Rendering 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
+* [HTML5 Viewer SDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
+* [Dynamic Media Image Serving 6.3.2 and Image Rendering 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
 
 ## Algemeen {#section-52afeb72ecb34c1585ea67a5051825a2}
 
@@ -201,8 +201,8 @@ Zie [Referentiehandleiding voor viewers](https://docs.adobe.com/content/help/en/
    * Zwarte randen worden weergegeven aan de zijde van de component VideoPlayer wanneer de achtergrond op iPad-apparaten is ingesteld op wit/transparant.
    * Het laatste videoframe kan op iPad worden vervormd met iOS 7.
    * Soms treedt macroblokkering op tijdens het zoeken naar video&#39;s in de streamingmodus HLS in Chrome-, Firefox- en Internet Explorer-browsers.
-   * Posterafbeelding wordt mogelijk niet voor de eerste keer weergegeven in een Microsoft Edge-browser.
-   * Posterafbeelding kan na het laden van de video in Internet Explorer 9 worden verborgen wanneer progressief afspelen wordt gebruikt.
+      * Posterafbeelding wordt mogelijk niet voor de eerste keer weergegeven in een Microsoft Edge-browser.
+      * Posterafbeelding kan na het laden van de video in Internet Explorer 9 worden verborgen wanneer progressief afspelen wordt gebruikt.
 
 ## Scene7 HTML5 Viewer SDK 3.0.2 {#section-30e2392859c442d1aab2766d0f1d1580}
 
@@ -348,7 +348,7 @@ De gebruikershandleiding bevindt zich in de map Adobe HTML5 Viewer SDK van de cl
    * Posterafbeelding wordt mogelijk niet voor de eerste keer weergegeven in een Microsoft Edge-browser.
    * Posterafbeelding kan na het laden van de video in Internet Explorer 9 worden verborgen wanneer progressief afspelen wordt gebruikt.
 
-## Scene7 Image Serving 6.3.2 and Image Rendering 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
+## Dynamic Media Image Serving 6.3.2 and Image Rendering 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
 
 * Hulpprogramma IC - `downsample2x2`-markering wordt niet meer ondersteund. Deze vlag was een slechte kwaliteit 2x2 downsampler die niet meer door IPS wordt gebruikt.
 * CORS-header - Momenteel is de CORS-header geconfigureerd voor `/is/content/`-aanvragen.
