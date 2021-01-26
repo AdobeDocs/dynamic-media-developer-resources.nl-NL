@@ -4,10 +4,10 @@ seo-description: Geeft informatie over de structuur van een bedrijf (aantal best
 seo-title: getDiskUsage
 solution: Experience Manager
 title: getDiskUsage
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 29190200-8f49-4689-9782-1df665dca1b7
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -32,13 +32,13 @@ Geeft informatie over de structuur van een bedrijf (aantal bestanden, enz.).
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | De handgreep aan het bedrijf waarvan schijfgebruik u wilt verkrijgen. |
+| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep aan het bedrijf waarvan schijfgebruik u wilt verkrijgen. |
 
 **Output (getDiskUsageReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`diskUsageArray`*` | `types:DiskUsageArray` | Ja | Array van schijfgebruik van bedrijf. |
+| `*`diskUsageArray`*` | `types:DiskUsageArray` | Ja | Array van schijfgebruik van bedrijf. |
 
 ## Voorbeelden {#section-cb16a97badc94076ad5da277db5ed16a}
 
