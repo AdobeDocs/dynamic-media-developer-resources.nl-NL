@@ -4,10 +4,10 @@ seo-description: Stelt de opdrachten in van het protocol voor het renderen van a
 seo-title: setUrlModifier
 solution: Experience Manager
 title: setUrlModifier
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: ec423e57-338b-4a32-be5a-a73fa96712ce
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
@@ -36,10 +36,10 @@ Voor Beeldserver worden opdrachten in de parameter `urlModifier` gepubliceerd in
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Bedrijfshandgreep. |
-| ` *`assetHandle`*` | `xsd:string` | Ja | Asset handle. |
-| ` *`urlModifier`*` | `xsd:string` | Nee | Opdrachten van het protocol voor het renderen van afbeeldingen die moeten worden toegepast vóór de aanvraag of `urlPostApplyModifier`-opdrachten. |
-| ` *`urlPostApplyModifier`*` | `xsd:string` | Nee | Opdrachten van het protocol voor het renderen van afbeeldingen die moeten worden toegepast na `urlModifier` en opdrachten voor aanvragen. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Bedrijfshandgreep. |
+| `*`assetHandle`*` | `xsd:string` | Ja | Asset handle. |
+| `*`urlModifier`*` | `xsd:string` | Nee | Opdrachten van het protocol voor het renderen van afbeeldingen die moeten worden toegepast vóór de aanvraag of `urlPostApplyModifier`-opdrachten. |
+| `*`urlPostApplyModifier`*` | `xsd:string` | Nee | Opdrachten van het protocol voor het renderen van afbeeldingen die moeten worden toegepast na `urlModifier` en opdrachten voor aanvragen. |
 
 **Output (setUrlModifierReturn)**
 
