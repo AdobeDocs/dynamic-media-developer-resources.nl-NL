@@ -4,10 +4,10 @@ seo-description: Hiermee stelt u woordenboekwaarden in voor een bestaand tagveld
 seo-title: setTagFieldValues
 solution: Experience Manager
 title: setTagFieldValues
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 56666c00-3694-4a43-a0ff-97af45c8df9f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 0%
@@ -33,9 +33,9 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Bedrijfshandgreep. |
-| ` *`fieldHandle`*` | `xsd:string` | Ja | Handgreep van tagveld. |
-| ` *`valueArray`*` | `types:StringArray` | Ja | Een array met tagwaarden die het bestaande woordenboek van het veld vervangen. Middelenkoppelingen blijven behouden wanneer een nieuwe waarde overeenkomt met een bestaande waarde. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Bedrijfshandgreep. |
+| `*`fieldHandle`*` | `xsd:string` | Ja | Handgreep van tagveld. |
+| `*`valueArray`*` | `types:StringArray` | Ja | Een array met tagwaarden die het bestaande woordenboek van het veld vervangen. Middelenkoppelingen blijven behouden wanneer een nieuwe waarde overeenkomt met een bestaande waarde. |
 
 **Output (setTagFieldValuesReturn)**
 
