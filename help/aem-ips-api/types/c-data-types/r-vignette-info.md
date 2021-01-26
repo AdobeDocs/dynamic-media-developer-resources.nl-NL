@@ -4,10 +4,10 @@ seo-description: Eigenschappen van een vignetelement.
 seo-title: VignetteInfo
 solution: Experience Manager
 title: VignetteInfo
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 86406541-f117-49a3-909b-bde63d8e9eef
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 0%
@@ -25,11 +25,11 @@ Syntaxis
 
 | Naam | Type | Beschrijving |
 |---|---|---|
-| ` *`originalPath`*` | `xsd:string` | Pad naar het bestand. |
-| ` *`originalFile`*` | `xsd:string` | Bestandsnaam. |
-| ` *`fileSize`*` | `xsd:int` | Bestandsgrootte. |
-| ` *`imagePath`*` | `xsd:string` | Pad naar de afbeelding. |
-| ` *`imageFile`*` | `xsd:string` |  |
-| ` *`optimizedPath`*` | `xsd:string` | Geoptimaliseerd pad naar het bestand. |
-| ` *`optimizedFile`*` | `xsd:string` | Geoptimaliseerde bestandsnaam. |
+| `*`originalPath`*` | `xsd:string` | Pad naar het bestand. |
+| `*`originalFile`*` | `xsd:string` | Bestandsnaam. |
+| `*`fileSize`*` | `xsd:int` | Bestandsgrootte. |
+| `*`imagePath`*` | `xsd:string` | Pad naar de afbeelding. |
+| `*`imageFile`*` | `xsd:string` |  |
+| `*`optimizedPath`*` | `xsd:string` | Geoptimaliseerd pad naar het bestand. |
+| `*`optimizedFile`*` | `xsd:string` | Geoptimaliseerde bestandsnaam. |
 
