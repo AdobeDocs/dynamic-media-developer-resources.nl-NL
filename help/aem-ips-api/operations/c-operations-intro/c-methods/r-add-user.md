@@ -1,15 +1,12 @@
 ---
 description: Maakt een gebruikersaccount en voegt die account toe aan een of meer bedrijven.
-seo-description: Maakt een gebruikersaccount en voegt die account toe aan een of meer bedrijven.
-seo-title: addUser
 solution: Experience Manager
 title: addUser
-topic: Scene7 Image Production System API
-uuid: b8c5ada6-470e-4795-a4f3-20750da709a9
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -34,20 +31,20 @@ Wanneer het toevoegen van een gebruiker aan veelvoudige bedrijven, specificeer d
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`firstName`*` | `xsd:string` | Ja | De voornaam van de gebruiker. |
-| ` *`lastName`*` | `xsd:string` | Ja | De achternaam van de gebruiker. |
-| ` *`email`*` | `xsd:string` | Ja | Het e-mailadres van de gebruiker. |
-| ` *`defaultRole`*` | `xsd:string` | Ja | Plaatst de rol voor een gebruiker in elk bedrijf zij tot behoren. De rol `IpsAdmin` negeert echter andere instellingen per bedrijf. |
-| ` *`password`*` | `xsd:string` | Ja | Hiermee wordt het wachtwoord van de gebruiker ingesteld |
-| ` *`passwordExpires`*` | `xsd:dateTime` | Nee | Hiermee stelt u de verloopperiode voor het wachtwoord in. Geef de tijdzone op wanneer u het verzoek doorgeeft. Tijdzones worden aangepast aan de Central Time. |
-| ` *`isValid`*` | `xsd:boolean` | Ja | Hiermee wordt bepaald of de gebruiker geldig is. |
-| ` *`membershipArray`*` | `xsd:CompanyMembershipUpdateArray` | Ja | Een array met bedrijfshandgrepen. |
+| `*`firstName`*` | `xsd:string` | Ja | De voornaam van de gebruiker. |
+| `*`lastName`*` | `xsd:string` | Ja | De achternaam van de gebruiker. |
+| `*`email`*` | `xsd:string` | Ja | Het e-mailadres van de gebruiker. |
+| `*`defaultRole`*` | `xsd:string` | Ja | Plaatst de rol voor een gebruiker in elk bedrijf zij tot behoren. De rol `IpsAdmin` negeert echter andere instellingen per bedrijf. |
+| `*`password`*` | `xsd:string` | Ja | Hiermee wordt het wachtwoord van de gebruiker ingesteld |
+| `*`passwordExpires`*` | `xsd:dateTime` | Nee | Hiermee stelt u de verloopperiode voor het wachtwoord in. Geef de tijdzone op wanneer u het verzoek doorgeeft. Tijdzones worden aangepast aan de Central Time. |
+| `*`isValid`*` | `xsd:boolean` | Ja | Hiermee wordt bepaald of de gebruiker geldig is. |
+| `*`membershipArray`*` | `xsd:CompanyMembershipUpdateArray` | Ja | Een array met bedrijfshandgrepen. |
 
 **Output (addUserParam)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | Ja | De greep voor de gebruiker. |
+| `*`userHandle`*` | `xsd:string` | Ja | De greep voor de gebruiker. |
 
 ## Voorbeelden {#section-2547cef622734b71919eef849960b5cb}
 
