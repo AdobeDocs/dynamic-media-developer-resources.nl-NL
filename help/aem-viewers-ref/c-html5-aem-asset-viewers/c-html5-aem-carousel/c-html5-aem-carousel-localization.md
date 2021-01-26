@@ -4,10 +4,10 @@ seo-description: Bepaalde inhoud die in de Carousel Viewer wordt weergegeven, mo
 seo-title: Lokalisatie van gebruikersinterface-elementen
 solution: Experience Manager
 title: Lokalisatie van gebruikersinterface-elementen
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 82e4dc72-cc12-4ab5-8370-6270f9a3d45f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 0%
