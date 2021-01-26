@@ -4,10 +4,10 @@ seo-description: Hiermee maakt u een nieuw element dat is afgeleid van een besta
 seo-title: createDerivedAsset
 solution: Experience Manager
 title: createDerivedAsset
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e1f9b690-af34-4da5-a534-c3a8c6b0a8fc
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 0%
@@ -42,19 +42,19 @@ In tegenstelling tot een afbeeldingskopie (zie [copyImage](../../../operations/c
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | De handgreep naar het bedrijf dat het element bevat waaruit u het nieuwe element wilt afleiden. |
-| ` *`ownerHandle`*` | `xsd:string` | Ja | De handgreep van het primaire afbeeldingselement waaruit de nieuwe afbeelding wordt afgeleid. |
-| ` *`folderHandle`*` | `xsd:string` | Ja | De handgreep naar de map waarin het nieuwe afgeleide element wordt gemaakt. |
-| ` *`name`*` | `xsd:string` | Ja | De naam van het afgeleide element. |
-| ` *`type`*` | `xsd:string` | Ja | Het type actief van het nieuwe afgeleide actief: `AdjustedView` of `LayerView`. |
-| ` *`urlModifier`*` | `xsd:string` | Nee | Opdrachten van het protocol voor het renderen van afbeeldingen die *voor* de aanvraag of `urlPostApplyModifier` opdrachten zijn toegepast. |
-| ` *`urlPostApplyModifier`*` | `xsd:string` | Nee | Opdrachten van het protocol voor het renderen van afbeeldingen die *after* op de aanvraag of `urlPostApplyModifier`-opdrachten zijn toegepast. |
+| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep naar het bedrijf dat het element bevat waaruit u het nieuwe element wilt afleiden. |
+| `*`ownerHandle`*` | `xsd:string` | Ja | De handgreep van het primaire afbeeldingselement waaruit de nieuwe afbeelding wordt afgeleid. |
+| `*`folderHandle`*` | `xsd:string` | Ja | De handgreep naar de map waarin het nieuwe afgeleide element wordt gemaakt. |
+| `*`name`*` | `xsd:string` | Ja | De naam van het afgeleide element. |
+| `*`type`*` | `xsd:string` | Ja | Het type actief van het nieuwe afgeleide actief: `AdjustedView` of `LayerView`. |
+| `*`urlModifier`*` | `xsd:string` | Nee | Opdrachten van het protocol voor het renderen van afbeeldingen die *voor* de aanvraag of `urlPostApplyModifier` opdrachten zijn toegepast. |
+| `*`urlPostApplyModifier`*` | `xsd:string` | Nee | Opdrachten van het protocol voor het renderen van afbeeldingen die *after* op de aanvraag of `urlPostApplyModifier`-opdrachten zijn toegepast. |
 
 **Output (createDerivedAssetParam)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | Ja | De handgreep van het afgeleide element. |
+| `*`assetHandle`*` | `xsd:string` | Ja | De handgreep van het afgeleide element. |
 
 ## Voorbeelden {#section-5d5ea893a1ef4edc8b3a396f1936e8c9}
 
