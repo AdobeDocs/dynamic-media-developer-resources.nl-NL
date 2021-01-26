@@ -4,10 +4,10 @@ seo-description: Als u op deze knop klikt of erop tikt, komt de gebruiker op de 
 seo-title: Knop Laatste pagina
 solution: Experience Manager
 title: Knop Laatste pagina
-topic: Dynamic media
+topic: Dynamic Media
 uuid: f77b9ac5-4f00-41d4-9495-c4805d4a41f9
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
