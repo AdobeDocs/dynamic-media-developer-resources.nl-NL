@@ -4,10 +4,10 @@ seo-description: Uitsluitend voor intern gebruik. Zie het gedeelte Kenmerken van
 seo-title: getImageRenderingPublishSettings
 solution: Experience Manager
 title: getImageRenderingPublishSettings
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: b1c253b5-febe-4dc7-95a1-a5f4789030e7
 translation-type: tm+mt
-source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 0%
@@ -34,12 +34,12 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | De handgreep voor het bedrijf waarvan u publicatie-instellingen voor het renderen van afbeeldingen wilt ophalen. |
-| ` *`contextHandle`*` | `xsd:string` | Ja | Verwerk de publicatiecontext. |
+| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep voor het bedrijf waarvan u publicatie-instellingen voor het renderen van afbeeldingen wilt ophalen. |
+| `*`contextHandle`*` | `xsd:string` | Ja | Verwerk de publicatiecontext. |
 
 **Output (getImageRenderingPublishSettingsReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`publishSettingsArray`*` | `type:ConfigSettingArray` | Ja | Publicatie-instellingen voor het renderen van afbeeldingen. |
+| `*`publishSettingsArray`*` | `type:ConfigSettingArray` | Ja | Publicatie-instellingen voor het renderen van afbeeldingen. |
 
