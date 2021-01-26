@@ -4,10 +4,10 @@ seo-description: Hiermee werkt u de instellingen voor de vignetpublicatie-indeli
 seo-title: updateVignetPublishFormat
 solution: Experience Manager
 title: updateVignetPublishFormat
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: ef8ae609-56e8-4ed6-906b-0668c5873946
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
@@ -32,25 +32,25 @@ Hiermee werkt u de instellingen voor de vignetpublicatie-indeling bij.
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | Bedrijfshandgreep. |
-| ` *`vignetteFormatHandle`*` | `xsd:string` | Ja | Handgreep voor publicatie-indeling. |
-| ` *`name`*` | `xsd:string` | Nee | Naam van publicatie-indeling. |
-| ` *`targetWidth`*` | `xsd:int` | Ja | Geeft de doelbreedte van de resulterende vignetweergave op in pixels. Gebruik nul, zodat het uitvoervignet dezelfde grootte heeft als het primaire vignet. |
-| ` *`targetHeight`*` | `xsd:int` | Ja | Hiermee stelt u de doelhoogte van de resulterende vignetweergave in pixels in. Gebruik nul, zodat het uitvoervignet dezelfde grootte heeft als het primaire vignet. |
-| ` *`createPyramid`*` | `xsd:boolean` | Ja | Hiermee maakt u een piramidevignet dat is geoptimaliseerd voor zoomen op de server voor het renderen van afbeeldingen. Vanaf de maximale grootte, ingesteld door de velden Doelgrootte vignet, maakt dit meerdere grootteweergaven in één vignetuitvoerbestand. Elke volgende weergavegrootte wordt gehalveerd totdat de breedte en hoogte binnen 128 x 128 pixels liggen. |
-| ` *`thumbWidth`*` | `xsd:int` | Ja | Geeft de breedte van elke resulterende miniatuur in pixels aan. Deze instelling is optioneel. Geen miniatuurbestand gebruiken als nul. |
-| ` *`saveAsVersion`*` | `xsd:int` | Ja | Hier geeft u de bestandsindeling voor de gepubliceerde vignetten op. Op basis van een nieuwe versie van Image Authoring en een oudere versie van Image Rendering Server moet u een vignetversie opgeven die uw ImageRendering Server kan lezen. Als u een hogere versie opgeeft, kan de server voor het renderen van afbeeldingen de gepubliceerde vignetten niet lezen. Stel dit in op nul om vignetten te publiceren in de meest recente versie. |
-| ` *`sizeSuffixSeparator`*` | `xsd:string` | Ja | Hiermee geeft u het teken op dat de naam van het vignet scheidt van het achtervoegsel dat de breedte aangeeft. |
-| ` *`verscherpen`*` | `xsd:int` | Nee | Hiermee past u verscherping toe op de hoofdafbeelding van de weergave voor elke grootte van het publicatievenster. Verscherpen kan vervaging compenseren wanneer de vignetten worden geschaald. |
-| ` *`usmAmount`*` | `xsd:double` | Ja | Digitaal onscherp maskeren is een flexibele en krachtige manier om de scherpte te verhogen, vooral in gescande afbeeldingen. Hiermee bepaalt u de grootte van elke overschrijding (hoe veel donkerder en lichter de randen worden). |
-| ` *`usmRadius`*` | `xsd:double` | Ja | Heeft invloed op de grootte van de randen die worden vergroot of op de breedte van de randranden. Hierdoor wordt de gedetailleerdheid van de randen vergroot door een kleinere straal. Hogere straalwaarden kunnen halo&#39;s aan de randen veroorzaken. Voor fijne details is een kleinere straal nodig, omdat kleine details van dezelfde grootte of kleiner dan de straal verloren gaan. |
-| ` *`usmThreshold`*` | `xsd:int` | Ja | Hiermee bepaalt u de minimale helderheidswijziging die moet worden verscherpt of de afstand tussen aangrenzende toonwaarden voordat het filter werkt. Met deze instelling kunt u scherpere randen verscherpen terwijl u subtielere randen ongewijzigd laat. Het toegestane bereik van de drempel is 0 tot en met 255. |
+| `*`companyHandle`*` | `xsd:string` | Ja | Bedrijfshandgreep. |
+| `*`vignetteFormatHandle`*` | `xsd:string` | Ja | Handgreep voor publicatie-indeling. |
+| `*`name`*` | `xsd:string` | Nee | Naam van publicatie-indeling. |
+| `*`targetWidth`*` | `xsd:int` | Ja | Geeft de doelbreedte van de resulterende vignetweergave op in pixels. Gebruik nul, zodat het uitvoervignet dezelfde grootte heeft als het primaire vignet. |
+| `*`targetHeight`*` | `xsd:int` | Ja | Hiermee stelt u de doelhoogte van de resulterende vignetweergave in pixels in. Gebruik nul, zodat het uitvoervignet dezelfde grootte heeft als het primaire vignet. |
+| `*`createPyramid`*` | `xsd:boolean` | Ja | Hiermee maakt u een piramidevignet dat is geoptimaliseerd voor zoomen op de server voor het renderen van afbeeldingen. Vanaf de maximale grootte, ingesteld door de velden Doelgrootte vignet, maakt dit meerdere grootteweergaven in één vignetuitvoerbestand. Elke volgende weergavegrootte wordt gehalveerd totdat de breedte en hoogte binnen 128 x 128 pixels liggen. |
+| `*`thumbWidth`*` | `xsd:int` | Ja | Geeft de breedte van elke resulterende miniatuur in pixels aan. Deze instelling is optioneel. Geen miniatuurbestand gebruiken als nul. |
+| `*`saveAsVersion`*` | `xsd:int` | Ja | Hier geeft u de bestandsindeling voor de gepubliceerde vignetten op. Op basis van een nieuwe versie van Image Authoring en een oudere versie van Image Rendering Server moet u een vignetversie opgeven die uw ImageRendering Server kan lezen. Als u een hogere versie opgeeft, kan de server voor het renderen van afbeeldingen de gepubliceerde vignetten niet lezen. Stel dit in op nul om vignetten te publiceren in de meest recente versie. |
+| `*`sizeSuffixSeparator`*` | `xsd:string` | Ja | Hiermee geeft u het teken op dat de naam van het vignet scheidt van het achtervoegsel dat de breedte aangeeft. |
+| `*`verscherpen`*` | `xsd:int` | Nee | Hiermee past u verscherping toe op de hoofdafbeelding van de weergave voor elke grootte van het publicatievenster. Verscherpen kan vervaging compenseren wanneer de vignetten worden geschaald. |
+| `*`usmAmount`*` | `xsd:double` | Ja | Digitaal onscherp maskeren is een flexibele en krachtige manier om de scherpte te verhogen, vooral in gescande afbeeldingen. Hiermee bepaalt u de grootte van elke overschrijding (hoe veel donkerder en lichter de randen worden). |
+| `*`usmRadius`*` | `xsd:double` | Ja | Heeft invloed op de grootte van de randen die worden vergroot of op de breedte van de randranden. Hierdoor wordt de gedetailleerdheid van de randen vergroot door een kleinere straal. Hogere straalwaarden kunnen halo&#39;s aan de randen veroorzaken. Voor fijne details is een kleinere straal nodig, omdat kleine details van dezelfde grootte of kleiner dan de straal verloren gaan. |
+| `*`usmThreshold`*` | `xsd:int` | Ja | Hiermee bepaalt u de minimale helderheidswijziging die moet worden verscherpt of de afstand tussen aangrenzende toonwaarden voordat het filter werkt. Met deze instelling kunt u scherpere randen verscherpen terwijl u subtielere randen ongewijzigd laat. Het toegestane bereik van de drempel is 0 tot en met 255. |
 
 **Output (updateVignetPublishFormatReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`vignetteFormatHandle`*` | `xsd:string` | Ja | Verwerk de bijgewerkte publicatie-indeling van het vignet. |
+| `*`vignetteFormatHandle`*` | `xsd:string` | Ja | Verwerk de bijgewerkte publicatie-indeling van het vignet. |
 
 ## Voorbeeld {#section-fcba4bf2b7264786a676e315a35dbe43}
 
