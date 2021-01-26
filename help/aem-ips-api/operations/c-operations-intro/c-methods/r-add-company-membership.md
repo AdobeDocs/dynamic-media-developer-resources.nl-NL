@@ -1,15 +1,12 @@
 ---
 description: Hiermee voegt u een gebruiker toe aan een of meer bedrijven.
-seo-description: Hiermee voegt u een gebruiker toe aan een of meer bedrijven.
-seo-title: addCompanyMembership
 solution: Experience Manager
 title: addCompanyMembership
-topic: Scene7 Image Production System API
-uuid: be55041c-fc4e-46e8-bd2c-81b5931406f5
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
@@ -34,8 +31,8 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | Nee | De handgreep voor de gebruiker wiens lidmaatschap u wilt toevoegen. |
-| ` *`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Ja | Een array van bedrijven waaraan u de gebruiker toevoegt. |
+| `*`userHandle`*` | `xsd:string` | Nee | De handgreep voor de gebruiker wiens lidmaatschap u wilt toevoegen. |
+| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Ja | Een array van bedrijven waaraan u de gebruiker toevoegt. |
 
 **Output (addCompanyMembershipReturn)**
 
@@ -43,7 +40,7 @@ IPS API keert geen reactie voor deze verrichting terug.
 
 ## Voorbeelden {#section-5469f88bac7047cca131faa6b021e437}
 
-In dit voorbeeld wordt ` *`companyHandleArray`*` gebruikt om een gebruiker aan één bedrijf toe te voegen.
+In dit voorbeeld wordt `*`companyHandleArray`*` gebruikt om een gebruiker aan één bedrijf toe te voegen.
 
 **Verzoek**
 
