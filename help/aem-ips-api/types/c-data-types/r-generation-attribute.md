@@ -4,10 +4,10 @@ seo-description: Een naam-waarde paar dat informatie over een stap van de activa
 seo-title: GenerationAttribute
 solution: Experience Manager
 title: GenerationAttribute
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: fe387eba-a30d-49d5-9e53-2083f42a5dd0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 1%
@@ -25,6 +25,6 @@ Syntaxis
 
 | Naam | Type | Beschrijving |
 |---|---|---|
-| ` *`name`*` | `xsd:string` | Kenmerknaam. |
-| ` *`value`*` | `xsd:string` | Kenmerkwaarde. |
+| `*`name`*` | `xsd:string` | Kenmerknaam. |
+| `*`value`*` | `xsd:string` | Kenmerkwaarde. |
 
