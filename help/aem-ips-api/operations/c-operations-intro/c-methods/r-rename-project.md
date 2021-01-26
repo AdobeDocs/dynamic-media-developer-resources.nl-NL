@@ -4,10 +4,10 @@ seo-description: Wijzigt de naam van een project.
 seo-title: renameProject
 solution: Experience Manager
 title: renameProject
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 6303c493-a6fe-4b32-80c3-947aba4190f7
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 0%
@@ -36,15 +36,15 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`companyName`*` | `xsd:string` | Ja | Handvat aan het bedrijf met het project u wilt anders noemen. |
-| ` *`projectHandle`*` | `xsd:string` | Ja | Handgreep aan het project. |
-| ` *`projectName`*` | `xsd:string` | Ja | Nieuwe projectnaam. |
+| `*`companyName`*` | `xsd:string` | Ja | Handvat aan het bedrijf met het project u wilt anders noemen. |
+| `*`projectHandle`*` | `xsd:string` | Ja | Handgreep aan het project. |
+| `*`projectName`*` | `xsd:string` | Ja | Nieuwe projectnaam. |
 
 **Uitvoer (naamProjectParam wijzigen)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`projectHandle`*` | `xsd:string` | Ja | De greep van het anders genoemde project. |
+| `*`projectHandle`*` | `xsd:string` | Ja | De greep van het anders genoemde project. |
 
 ## Voorbeelden {#section-a0a06d9244774795b695a10b92b2a5e7}
 
