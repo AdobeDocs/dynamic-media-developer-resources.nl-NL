@@ -4,10 +4,10 @@ seo-description: Hiermee maakt u een voorinstellingsweergave die bepaalt wat een
 seo-title: createViewerPreset
 solution: Experience Manager
 title: createViewerPreset
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 4160d2b0-6147-459f-830a-43c99b8dc196
 translation-type: tm+mt
-source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 0%
@@ -34,17 +34,17 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | De handgreep van het bedrijf dat de voorinstellingen en elementen van de viewer bevat. |
-| ` *`folderHandle`*` | `xsd:string` | Ja | De greep van de map die de elementen bevat. |
-| ` *`name`*` | `xsd:string` | Ja | Naam van viewer. |
-| ` *`type`*` | `xsd:string` | Ja | Type viewer. |
-| ` *`configSettingArray`*` | `types:ConfigSettingArray` | Nee | Een array met namen, waarden en grepen van afbeeldingen waarop u voorinstellingen toepast. |
+| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep van het bedrijf dat de voorinstellingen en elementen van de viewer bevat. |
+| `*`folderHandle`*` | `xsd:string` | Ja | De greep van de map die de elementen bevat. |
+| `*`name`*` | `xsd:string` | Ja | Naam van viewer. |
+| `*`type`*` | `xsd:string` | Ja | Type viewer. |
+| `*`configSettingArray`*` | `types:ConfigSettingArray` | Nee | Een array met namen, waarden en grepen van afbeeldingen waarop u voorinstellingen toepast. |
 
 **Uitvoer (createViewerPresetReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`viewerPresetHandle`*` | `xsd:string` | Ja | Verwerk de voorinstelling aan de viewer. |
+| `*`viewerPresetHandle`*` | `xsd:string` | Ja | Verwerk de voorinstelling aan de viewer. |
 
 ## Voorbeelden {#section-c88ea63536f3461cbe4677ba53f875dd}
 
