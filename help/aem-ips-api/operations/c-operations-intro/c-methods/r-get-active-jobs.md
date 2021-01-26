@@ -4,10 +4,10 @@ seo-description: Hiermee worden alle momenteel actieve taken opgehaald.
 seo-title: getActiveJobs
 solution: Experience Manager
 title: getActiveJobs
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 3231d349-b254-4dd0-804d-8beaab116b56
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 0%
@@ -38,15 +38,15 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Nee | De handgreep aan het bedrijf. |
-| ` *`jobHandle`*` | `xsd:string` | Nee | De handgreep van de taak. |
-| ` *`originalName`*` | `xsd:string` | Nee | Oorspronkelijke taaknaam. |
+| `*`companyHandle`*` | `xsd:string` | Nee | De handgreep aan het bedrijf. |
+| `*`jobHandle`*` | `xsd:string` | Nee | De handgreep van de taak. |
+| `*`originalName`*` | `xsd:string` | Nee | Oorspronkelijke taaknaam. |
 
 **Output (getActiveJobsReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`jobArray`*` | `xsd:string` | Ja | Array van actieve taken. |
+| `*`jobArray`*` | `xsd:string` | Ja | Array van actieve taken. |
 
 ## Voorbeelden {#section-4ac5dbbf9cd94fdeb013d055f8ee7add}
 
