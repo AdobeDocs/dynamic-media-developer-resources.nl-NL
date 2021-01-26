@@ -5,10 +5,10 @@ seo-description: Zoomviewer is een afbeeldingsviewer waarin een afbeelding wordt
 seo-title: Zoomen
 solution: Experience Manager
 title: Zoomen
-topic: Dynamic media
+topic: Dynamic Media
 uuid: ec2a91e2-ce2c-48b1-a2b2-8671524288c7
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '2460'
 ht-degree: 0%
@@ -184,7 +184,7 @@ Het relatieve pad ziet er als volgt uit:
 
    [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/ZoomViewer-fixed-outer-area.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/ZoomViewer-fixed-outer-area.html)
 
-   Als u de afmetingen van de hoofdweergave statisch wilt maken, definieert u de viewergrootte in absolute eenheden voor de binnenste SDK-component met de CSS-kiezer `Container` `.s7zoomviewer` of met de optie `.s7container`.`stagesize`
+   Als u de afmetingen van de hoofdweergave statisch wilt maken, definieert u de viewergrootte in absolute eenheden voor de binnenste SDK-component met de CSS-kiezer `.s7zoomviewer` `.s7container` of met de optie `stagesize`.`Container`
 
    Hieronder ziet u een voorbeeld van het definiëren van de viewergrootte voor de binnenste SDK-component `Container`, zodat de grootte van het hoofdweergavegebied niet wordt gewijzigd wanneer u van element verandert:
 
