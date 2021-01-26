@@ -4,10 +4,10 @@ seo-description: Maakt een map.
 seo-title: createFolder
 solution: Experience Manager
 title: createFolder
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e3a4eed3-966d-4435-bfeb-3ead4bf523cd
 translation-type: tm+mt
-source-git-commit: d64337d3ed7bd78c681c3022cda20012726d7ccc
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -44,14 +44,14 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Ja | De handgreep aan het bedrijf |
-| ` *`folderPath`*` | `xsd:string` | Ja | De hoofdmap die wordt gebruikt om mappen en alle submappen op bladniveau op te halen. Indien uitgesloten, wordt de bedrijfwortel gebruikt. |
+| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep aan het bedrijf |
+| `*`folderPath`*` | `xsd:string` | Ja | De hoofdmap die wordt gebruikt om mappen en alle submappen op bladniveau op te halen. Indien uitgesloten, wordt de bedrijfwortel gebruikt. |
 
 **Uitvoer (createFolderParam)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| ` *`folderHandle`*` | `xsd:string` | Ja | Handgreep van de nieuwe map. |
+| `*`folderHandle`*` | `xsd:string` | Ja | Handgreep van de nieuwe map. |
 
 ## Voorbeelden {#section-e596fbdb44fd43c8b30005cb2a2fdf26}
 
