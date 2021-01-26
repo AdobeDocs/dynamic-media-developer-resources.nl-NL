@@ -4,12 +4,12 @@ seo-description: Algemene serverinstellingen
 seo-title: Algemeen
 solution: Experience Manager
 title: Algemeen
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d7ec3dba-64b8-431b-b446-84ab6139ba8a
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Algemene serverinstellingen
 
 ## TC::PsPort - Hoofd-luisterpoort {#section-d31d3051aa994a76b60b70c3d9f7e89f}
 
-Specificeert de belangrijkste luisterhaven voor de Server van het Platform. Deze poort wordt ook gebruikt voor toegang tot de documentatie en voorbeeldpagina&#39;s voor beeldbewerking, beeldweergave en Scene7 Viewers (indien geïnstalleerd).
+Specificeert de belangrijkste luisterhaven voor de Server van het Platform. Deze poort wordt ook gebruikt voor toegang tot de documentatie en voorbeeldpagina&#39;s voor beeldbewerking, beeldweergave en Dynamic Media Viewers (indien geïnstalleerd).
 
 ## IS::CacheServerUrl - Hoofdmap {#section-bcca227a1f91453b834db4ea050968e2} voor service-caching
 
