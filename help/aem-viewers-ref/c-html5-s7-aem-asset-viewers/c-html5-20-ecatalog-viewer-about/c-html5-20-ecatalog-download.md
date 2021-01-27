@@ -5,9 +5,9 @@ title: Downloaden
 topic: Dynamic Media
 uuid: 84c1c9f5-ad96-447e-be78-bae2b7095a29
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '76'
 ht-degree: 0%
 
 ---
@@ -21,5 +21,5 @@ De knop &quot;Downloaden&quot; is automatisch beschikbaar in de gebruikersinterf
 
 * Er is een feitelijk PDF-bestand aanwezig in het bedrijf van de klant.
 * De naam komt overeen met de naam van het element uit de e-catalogus dat is doorgegeven aan de viewer en bevat de extensie `.pdf`.
-* Het PDF-bestand wordt gepubliceerd in SPS.
+* Het PDF-bestand wordt gepubliceerd in Dynamic Media Classic.
 
