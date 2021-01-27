@@ -1,16 +1,13 @@
 ---
-description: De Video Viewer is een videospeler die streaming en progressieve video afspeelt die in H.264-indeling is gecodeerd. Het wordt geleverd via Scene7 Publishing System of AEM Dynamic Media.
+description: De Video Viewer is een videospeler die streaming en progressieve video afspeelt die in H.264-indeling is gecodeerd. Het wordt geleverd vanuit Dynamic Media Classic of AEM Dynamic Media.
 keywords: responsive
-seo-description: De Video Viewer is een videospeler die streaming en progressieve video afspeelt die in H.264-indeling is gecodeerd. Het wordt geleverd via Scene7 Publishing System of AEM Dynamic Media.
-seo-title: Video
 solution: Experience Manager
 title: Video
 topic: Dynamic Media
-uuid: 961a9b99-5892-4ee3-a2df-13e299f5d086
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2402'
+source-wordcount: '2372'
 ht-degree: 0%
 
 ---
@@ -18,7 +15,7 @@ ht-degree: 0%
 
 # Video{#video}
 
-De Video Viewer is een videospeler die streaming en progressieve video afspeelt die in H.264-indeling is gecodeerd. Het wordt geleverd via Scene7 Publishing System of AEM Dynamic Media.
+De Video Viewer is een videospeler die streaming en progressieve video afspeelt die in H.264-indeling is gecodeerd. Het wordt geleverd vanuit Dynamic Media Classic of AEM Dynamic Media.
 
 Zie [Systeemvereisten en -vereisten](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
@@ -115,7 +112,7 @@ U voegt de viewer als volgt toe aan een webpagina:
 
 1. Het JavaScript-bestand van de viewer toevoegen aan uw webpagina.
 
-   Voor het maken van een viewer moet u een scripttag aan de HTML-kop toevoegen. Voordat u de viewer-API kunt gebruiken, moet u [!DNL FlyoutViewer.js] opnemen. Het [!DNL FlyoutViewer.js] dossier wordt gevestigd onder [!DNL html5/js/] subfolder van uw standaard plaatsing IS-Viewers:
+   Voor het maken van een viewer moet u een scripttag aan de HTML-kop toevoegen. Voordat u de viewer-API kunt gebruiken, moet u [!DNL FlyoutViewer.js] opnemen. Het [!DNL FlyoutViewer.js]-bestand bevindt zich in de submap [!DNL html5/js/] van uw standaard IS-Viewers-implementatie:
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
@@ -152,7 +149,7 @@ Relatief pad ziet er als volgt uit:
 
    U kunt de statische grootte voor de kijker plaatsen door of het voor `.s7videoviewer` top-level CSS klasse in absolute eenheden te verklaren, of door de bepaling `stagesize` te gebruiken.
 
-   Grootte in CSS kan rechts worden geplaatst op de HTML-pagina of in een aangepast CSS-bestand van de viewer, dat later wordt toegewezen aan een viewer-voorinstellingsrecord in Scene7 Publishing System of expliciet wordt doorgegeven met behulp van een stijlopdracht.
+   Grootte in CSS kan rechts op de HTML-pagina worden geplaatst, of in een aangepast CSS-bestand van de viewer, dat later wordt toegewezen aan een viewer-voorinstellingsrecord in Dynamic Media Classic of expliciet wordt doorgegeven met behulp van een stijlopdracht.
 
    Zie [Video-viewer aanpassen](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e) voor meer informatie over het opmaken van de viewer met CSS.
 
@@ -165,7 +162,7 @@ Relatief pad ziet er als volgt uit:
    }
    ```
 
-   U kunt `stagesize` bepaling of in de kijker vooraf ingestelde verslag in het Uitgeven van Scene7 Systeem plaatsen, of het uitdrukkelijk met de kijker initialisatiecode met `params` inzameling, of als API vraag zoals die in de de verwijzingssectie van het Bevel wordt beschreven, zoals in het volgende overgaan:
+   U kunt `stagesize` bepaling of in de kijker vooraf ingestelde verslag in de Klassiek van Dynamic Media plaatsen, of het uitdrukkelijk met de kijker- initialisatiecode met `params` inzameling, of als API vraag zoals die in de de verwijzingssectie van het Bevel wordt beschreven, zoals in het volgende: overgaan:
 
    ```
    videoViewer.setParam("stagesize", "640,480");
