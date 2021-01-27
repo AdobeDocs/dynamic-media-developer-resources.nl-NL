@@ -8,7 +8,7 @@ title: Zoomen
 topic: Dynamic Media
 uuid: ec2a91e2-ce2c-48b1-a2b2-8671524288c7
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '2460'
 ht-degree: 0%
@@ -132,7 +132,7 @@ U voegt de viewer als volgt toe aan een webpagina:
 
 1. Het JavaScript-bestand van de viewer toevoegen aan uw webpagina.
 
-   Voor het maken van een viewer moet u een scripttag aan de HTML-kop toevoegen. Voordat u de viewer-API kunt gebruiken, moet u [!DNL ZoomViewer.js] opnemen. Het [!DNL ZoomViewer.js]-bestand bevindt zich in de submap [!DNL html5/js/] van uw standaard IS-Viewers-implementatie:
+   Voor het maken van een viewer moet u een scripttag aan de HTML-kop toevoegen. Voordat u de viewer-API kunt gebruiken, moet u [!DNL ZoomViewer.js] opnemen. Het [!DNL ZoomViewer.js] dossier wordt gevestigd onder [!DNL html5/js/] subfolder van uw standaard plaatsing IS-Viewers:
 
 [!DNL <s7viewers_root>/html5/js/ZoomViewer.js]
 
@@ -167,7 +167,7 @@ Het relatieve pad ziet er als volgt uit:
 
    In deze viewer worden miniaturen weergegeven wanneer u werkt met sets met meerdere items. Op desktopsystemen worden miniaturen onder de hoofdweergave geplaatst. Tegelijkertijd kan de viewer het hoofdelement in runtime wisselen met de API `setAsset()`. Als ontwikkelaar hebt u controle over de manier waarop de viewer het miniatuurgebied onderaan beheert wanneer het nieuwe element slechts één item bevat. Het is mogelijk om de grootte van de buitenste viewer ongewijzigd te laten en de hoofdweergave de hoogte te laten verhogen en het gebied met miniaturen te laten beslaan. U kunt ook de grootte van de hoofdweergave statisch houden en het buitenste viewergebied samenvouwen, de inhoud van de webpagina omhoog laten verplaatsen en de ruimte in de ruimte met vrije schermruimte uit de miniaturen gebruiken.
 
-   Als u de buitenste grenzen van de viewer ongewijzigd wilt laten, definieert u de grootte voor de CSS-klasse op hoofdniveau in absolute eenheden. `.s7zoomviewer` Grootte in CSS kan rechts worden geplaatst op de HTML-pagina of in een aangepast CSS-bestand van de viewer, dat later wordt toegewezen aan een viewer-voorinstellingsrecord in Scene7 Publishing System of expliciet wordt doorgegeven met behulp van een stijlopdracht.
+   Als u de buitenste grenzen van de viewer ongewijzigd wilt laten, definieert u de grootte voor de CSS-klasse op hoofdniveau in absolute eenheden. `.s7zoomviewer` Grootte in CSS kan rechts op de HTML-pagina worden geplaatst, of in een aangepast CSS-bestand van de viewer, dat later wordt toegewezen aan een viewer-voorinstellingsrecord in Dynamic Media Classic of expliciet wordt doorgegeven met behulp van een stijlopdracht.
 
    Zie [Zoomviewer aanpassen](../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/c-html5-20-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) voor meer informatie over het opmaken van de viewer met CSS.
 
@@ -199,7 +199,7 @@ Het relatieve pad ziet er als volgt uit:
 
    [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/ZoomViewer-fixed-main-view.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/ZoomViewer-fixed-main-view.html)
 
-   U kunt de bepaling `stagesize` of in het vooraf ingestelde verslag van de kijker in het Publiceren van Scene7 Systeem plaatsen, of u kunt het uitdrukkelijk met de de initialisatiecode van de kijker met de `params` inzameling of als API vraag overgaan zoals die in de sectie van de Verwijzing van het Bevel van deze Hulp wordt beschreven, zoals in het volgende:
+   U kunt de `stagesize` bepaling of in het vooraf ingestelde verslag van de kijker in Classic van Dynamic Media plaatsen, of u kunt het uitdrukkelijk met de de initialisatiecode van de kijker met de `params` inzameling of als API vraag overgaan zoals die in de sectie van de Verwijzing van het Bevel van deze Hulp wordt beschreven, zoals in het volgende:
 
    ```
     zoomViewer.setParam("stagesize", 
