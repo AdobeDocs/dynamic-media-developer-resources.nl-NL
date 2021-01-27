@@ -1,15 +1,12 @@
 ---
 description: Image Serving ondersteunt kleurruimteconversies op basis van kleurruimteprofielen die voldoen aan de ICC-specificatie (International Color Consortium).
-seo-description: Image Serving ondersteunt kleurruimteconversies op basis van kleurruimteprofielen die voldoen aan de ICC-specificatie (International Color Consortium).
-seo-title: Kleurbeheer van afbeeldingsserver
 solution: Experience Manager
 title: Kleurbeheer van afbeeldingsserver
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 6291372e-ec4c-4fbd-bffc-b55b1bf2f8cf
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '1219'
+source-wordcount: '1196'
 ht-degree: 0%
 
 ---
@@ -93,8 +90,8 @@ Er kunnen aanvullende profielen worden toegevoegd aan de standaardprofielen, het
 |`ProPhoto`|ProPhoto RGB|ProPhoto.icm|
 |`SMPTE`|SMPTE-C|SMPTE-C.icc|
 |`sRGB`|sRGB IEC61966-2.1|sRgb Kleurruimteprofiel.icm|
-|`WideGamutRGB`|Breedgamut RGB|BreedgamutRGB.icc|
-|**CMYK**|||
+|`WideGamutRGB`|BreedbeeldRGB|WideGamutRGB.icc|
+|**CMYK**||
 |`CoatedFogra27`|Coated FOGRA27 (ISO 12647-2:2004)|CoatedFOGRA27.icc|
 |`CoatedFogra39`|Coated FOGRA39 (ISO 12647-2:2004)|CoatedFOGRA39.icc|
 |`CoatedGraCol`|Coated GRACoL 2006 (ISO 12647-2:2004)|CoatedGRACoL2006.icc|
@@ -110,7 +107,7 @@ Er kunnen aanvullende profielen worden toegevoegd aan de standaardprofielen, het
 |`PS4Default`|Photoshop 4 Default CMYK|Photoshop4DefaultCMYK.icc|
 |`PS5Default`|Photoshop 5 Default CMYK|Photoshop5DefaultCMYK.icc|
 |`SheetfedCoated`|V.S. Sheetfed Coated v2|USSheetfedCoated.icc|
-|`SheetfedUncoated`|U.S. Sheetfed Uncoated v2|USSheetfedUncoated.icc|
+|`SheetfedUncoated`|V.S. Sheetfed Uncoated v2|USSheetfedUncoated.icc|
 |`UncoatedFogra29`|Uncoated FOGRA29 (ISO 12647-2:2004)|UncoatedFOGRA29.icc|
 |`WebCoated`|V.S. Web Coated (SWOP) v2|USWebCoatedSWOP.icc|
 |`WebCoatedFogra28`|Web Coated FOGRA28 (ISO 12647-2:2004)|WebCoatedFOGRA28.icc|
@@ -132,12 +129,12 @@ De volgende tabel is van toepassing op *Dynamic Media Classic (Scene7) Image Ser
 |`ProPhoto RGB`|ProPhoto RGB|ProPhoto RGB.icm|
 |`SMPTE`|SMPTE-C|SMPTE-C.icc|
 |`sRGB`|sRGB IEC61966-2.1|sRgb Kleurruimteprofiel.icm|
-|`WideGamutRGB`|Breedgamut RGB|BreedgamutRGB.icc|
-|**CMYK**|||
+|`WideGamutRGB`|BreedbeeldRGB|WideGamutRGB.icc|
+|**CMYK**||
 |`CoatedFogra27`|Coated FOGRA27 (ISO 12647-2:2004)|CoatedFOGRA27.icc|
 |`CoatedFogra39`|Coated FOGRA39 (ISO 12647-2:2004)|CoatedFOGRA39.icc|
 |`Coated GRACoL 2006 (ISO 12647-2:2004)`|Coated GRACoL 2006 (ISO 12647-2:2004)|CoatedGRACoL2006.icc|
-|`EuropeISOCoated`|Europa ISO Coated FOGRA27|EuropeISOCoatedFOGRA27.icc|
+|`EuropeISOCoated`|Europe ISO Coated FOGRA27|EuropeISOCoatedFOGRA27.icc|
 |`Euroscale Coated v2`|Euroscale Coated v2|EuroscaleCoated.icc|
 |`EuroscaleUncoated`|Euroscale Uncoated v2|EuroscaleUncoated.icc|
 |`JapanColorCoated`|Japan Color 2001 Coated|JapanColor2001Coated.icc|
