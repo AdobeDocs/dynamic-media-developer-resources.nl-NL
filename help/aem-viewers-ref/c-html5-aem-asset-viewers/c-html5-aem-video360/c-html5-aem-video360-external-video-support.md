@@ -1,15 +1,12 @@
 ---
-description: De viewer ondersteunt het afspelen van video die buiten de SPS of AEM Dynamic Media wordt gehost.
-seo-description: De viewer ondersteunt het afspelen van video die buiten de SPS of AEM Dynamic Media wordt gehost.
-seo-title: Externe videoondersteuning
+description: De viewer ondersteunt het afspelen van video die buiten Dynamic Media Classic of AEM Dynamic Media wordt gehost.
 solution: Experience Manager
 title: Externe videoondersteuning
 topic: Dynamic Media
-uuid: 2e9f1c54-627f-4462-ae85-8a5ca1d09762
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # Externe videoondersteuning{#external-video-support}
 
-De viewer ondersteunt het afspelen van video die buiten de SPS of AEM Dynamic Media wordt gehost.
+De viewer ondersteunt het afspelen van video die buiten Dynamic Media Classic of AEM Dynamic Media wordt gehost.
 
 Ondersteunde indelingen voor de externe video zijn MP4 in H.264-indeling of M3U8-manifest voor de HLS-stream.
 
