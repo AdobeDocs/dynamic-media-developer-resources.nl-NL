@@ -8,9 +8,9 @@ title: Draaien
 topic: Dynamic Media
 uuid: 5d5cdf83-cfe8-48cd-af74-b270f7400b14
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2168'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Zie [De verwijzing van het Bevel gemeenschappelijk voor alle kijkers - de attrib
 
 ## Interactie met de Draaiende Kijker {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
-De Draai Viewer ondersteunt de volgende aanraakbewegingen die ook in andere mobiele toepassingen worden gebruikt. Wanneer de viewer de veegbeweging van een gebruiker niet kan verwerken, stuurt deze de gebeurtenis door naar de webbrowser om een native paginaschuiving uit te voeren. Hierdoor kan de gebruiker door de pagina navigeren, zelfs als de viewer het grootste gedeelte van het apparaatschermgebied in beslag neemt.
+De Draai Viewer ondersteunt de volgende aanraakbewegingen die veel voorkomen in andere mobiele toepassingen. Wanneer de viewer de veegbeweging van een gebruiker niet kan verwerken, stuurt deze de gebeurtenis door naar de webbrowser om een native paginaschuiving uit te voeren. Hierdoor kan de gebruiker door de pagina navigeren, zelfs als de viewer het grootste gedeelte van het apparaatschermgebied in beslag neemt.
 
 <table id="table_ED747CC7178448919C34A4FCD18922D0"> 
  <thead> 
@@ -134,7 +134,7 @@ U voegt de Spin Viewer als volgt toe aan een webpagina:
 
    `<s7viewers_root>/html5/js/SpinViewer.js`
 
-   U kunt een relatief pad gebruiken als de viewer wordt geïmplementeerd op een van de Adobe Scene7-servers en vanuit hetzelfde domein wordt aangeboden. Anders geeft u een volledig pad op naar een van de Adobe Scene7-servers waarop IS-Viewers zijn geïnstalleerd.
+   U kunt een relatief pad gebruiken als de viewer wordt geïmplementeerd op een van de Adobe Dynamic Media-servers en vanuit hetzelfde domein wordt aangeboden. Anders geeft u een volledig pad op naar een van de Adobe Dynamic Media-servers waarop IS-Viewers zijn geïnstalleerd.
 
    Het relatieve pad ziet er als volgt uit:
 
@@ -165,7 +165,7 @@ U voegt de Spin Viewer als volgt toe aan een webpagina:
 
    U kunt de statische grootte voor de kijker plaatsen door of het voor `.s7spinviewer` top-level CSS klasse in absolute eenheden te verklaren, of door `stagesize` bepaling te gebruiken.
 
-   U kunt de grootte in CSS rechtstreeks op de HTML-pagina plaatsen, of in een aangepast CSS-bestand van de viewer, dat later wordt toegewezen aan een viewer-voorinstellingsrecord in het Scene7 Publishing System of expliciet wordt doorgegeven met behulp van een stijlopdracht.
+   U kunt de grootte in CSS rechtstreeks op de HTML-pagina plaatsen, of in een aangepast CSS-bestand van de viewer, dat later wordt toegewezen aan een viewer-voorinstellingsrecord in Dynamic Media Classic, of expliciet wordt doorgegeven met behulp van een stijlopdracht.
 
    Zie [Spin Viewer aanpassen](../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#concept-464f3bfa55764bc09c92d8c7480b0b55) voor meer informatie over het opmaken van de viewer met CSS.
 
@@ -178,7 +178,7 @@ U voegt de Spin Viewer als volgt toe aan een webpagina:
    }
    ```
 
-   U kunt de bepaling `stagesize` of in het vooraf ingestelde verslag van de kijker in het Publiceren van Scene7 Systeem plaatsen, of het uitdrukkelijk met de de initialisatiecode van de kijker met `params` inzameling overgaan, of als API vraag zoals die in de sectie van de Verwijzing van het Bevel wordt beschreven, als het volgende:
+   U kunt de `stagesize` bepaling of in de kijker vooraf ingestelde verslag in Classic van Dynamic Media plaatsen, of het uitdrukkelijk met de kijker- initialisatiecode met `params` inzameling, of als API vraag zoals die in de sectie van de Verwijzing van het Bevel wordt beschreven, als het volgende overgaan:
 
    ```
     spinViewer.setParam("stagesize", 
