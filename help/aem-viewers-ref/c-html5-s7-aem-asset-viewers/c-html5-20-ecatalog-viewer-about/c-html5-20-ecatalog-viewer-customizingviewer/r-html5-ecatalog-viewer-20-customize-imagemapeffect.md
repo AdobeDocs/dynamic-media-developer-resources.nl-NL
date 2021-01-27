@@ -1,15 +1,12 @@
 ---
-description: Afhankelijk van de waarde van de parameter mode worden in de viewer pictogrammen voor afbeeldingen met hyperlinks in de hoofdweergave weergegeven op plaatsen waar kaarten oorspronkelijk zijn gemaakt in het Scene7 Publishing System of worden exacte gebieden weergegeven die overeenkomen met de vorm van de oorspronkelijke afbeeldingen met hyperlinks.
-seo-description: Afhankelijk van de waarde van de parameter mode worden in de viewer pictogrammen voor afbeeldingen met hyperlinks in de hoofdweergave weergegeven op plaatsen waar kaarten oorspronkelijk zijn gemaakt in het Scene7 Publishing System of worden exacte gebieden weergegeven die overeenkomen met de vorm van de oorspronkelijke afbeeldingen met hyperlinks.
-seo-title: Afbeeldingskaart, effect
+description: Afhankelijk van de waarde van de modusparameter worden in de viewer pictogrammen voor afbeeldingen met hyperlinks in de hoofdweergave weergegeven op plaatsen waar kaarten oorspronkelijk zijn gemaakt in Dynamic Media Classic of worden exacte gebieden weergegeven die overeenkomen met de vorm van de oorspronkelijke afbeeldingen met hyperlinks.
 solution: Experience Manager
 title: Afbeeldingskaart, effect
 topic: Dynamic Media
-uuid: 193d2f4e-77a2-4741-bf36-90ca31c600c6
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # Afbeeldingskaarteffect{#image-map-effect}
 
-Afhankelijk van de waarde van de parameter mode worden in de viewer pictogrammen voor afbeeldingen met hyperlinks in de hoofdweergave weergegeven op plaatsen waar kaarten oorspronkelijk zijn gemaakt in het Scene7 Publishing System of worden exacte gebieden weergegeven die overeenkomen met de vorm van de oorspronkelijke afbeeldingen met hyperlinks.
+Afhankelijk van de waarde van de modusparameter worden in de viewer pictogrammen voor afbeeldingen met hyperlinks in de hoofdweergave weergegeven op plaatsen waar kaarten oorspronkelijk zijn gemaakt in Dynamic Media Classic of worden exacte gebieden weergegeven die overeenkomen met de vorm van de oorspronkelijke afbeeldingen met hyperlinks.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
