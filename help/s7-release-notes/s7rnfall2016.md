@@ -1,15 +1,12 @@
 ---
 description: De meest recente release bevat de Adobe Scene7 Fall 2016-oplossing, die deel uitmaakt van de Adobe Experience Manager-oplossing in de Adobe Marketing Cloud.
-seo-description: De meest recente release bevat de Adobe Scene7 Fall 2016-oplossing, die deel uitmaakt van de Adobe Experience Manager-oplossing in de Adobe Marketing Cloud.
-seo-title: Scene7 Fall 2016 Release
 solution: Experience Manager
 title: Scene7 Fall 2016 Release
 topic: Dynamic Media
-uuid: 3fddda65-0c6e-48ec-bd60-7e0ca59421a8
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2264'
+source-wordcount: '2244'
 ht-degree: 0%
 
 ---
@@ -24,12 +21,12 @@ De meest recente release bevat de Adobe Scene7 Fall 2016-oplossing, die deel uit
 De nieuwste releaseopmerkingen voor [!DNL Adobe Scene7] Fall 2016 release-part van de [!DNL Adobe Experience Manager] oplossing in [!DNL Adobe Marketing Cloud].
 
 * [Algemeen](s7rnfall2016.md#section-52afeb72ecb34c1585ea67a5051825a2)
-* [Scene7 Publishing System](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
+* [Scene7](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
 * [Viewers (afbeeldingen met 5.5.3)](s7rnfall2016.md#section-1d59bcd5825d487b80b59a6d1a08ed30)
 * [Viewers (afbeelding met 5.5.2)](s7rnfall2016.md#section-9932c988cfee45749594af481dfc6476)
 * [Viewers (afbeelding met 5.5.1)](s7rnfall2016.md#section-833ab92c91c941d2bfdc27f233f582ad)
 * [HTML5 Viewer SDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
-* [Dynamic Media Image Serving 6.3.2 and Image Rendering 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
+* [Dynamic Media Classic Image Serving 6.3.2 and Image Rendering 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
 
 ## Algemeen {#section-52afeb72ecb34c1585ea67a5051825a2}
 
@@ -46,7 +43,7 @@ Voor volledige documentatie, zie [https://docs.adobe.com/content/help/en/dynamic
 * Functie voor videorecut is verwijderd uit de gebruikersinterface van [!DNL Adobe Scene7 Publishing System].
 * Waar nodig en mogelijk verificatie toegevoegd aan alle Scene7-servlets.
 * Opgeloste problemen in verband met de lijstweergave in de prullenbak.
-* Verwijderd **Create SPSAdmin** gebruikerseigenschap uit Gebruikersbeheer vanwege beveiligingsproblemen.
+* **Create Dynamic Media Classic (Scene7) Admin** user feature from User Management Vanwege beveiligingsproblemen.
 * FTP WebAdmin ondersteunt nu OKTA-verificatie.
 * Verwijderd de eigenschap van het standaardwachtwoord dat voor nieuwe gebruikers van het Portaal van Media werd gecreeerd.
 * Bugfixatie die het tijdelijke wachtwoord impliceert dat werd geproduceerd toen een nieuwe gebruiker werd toegevoegd. Het wachtwoord voldoet niet aan de vereiste wachtwoordvereisten.
