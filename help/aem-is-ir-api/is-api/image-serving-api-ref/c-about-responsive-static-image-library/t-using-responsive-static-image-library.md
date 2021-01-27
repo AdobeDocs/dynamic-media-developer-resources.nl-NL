@@ -4,9 +4,9 @@ solution: Experience Manager
 title: De bibliotheek met responsieve afbeeldingen gebruiken
 topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Voer de volgende stappen uit om een bibliotheek met responsieve afbeeldingen aan
 
 **De bibliotheek met responsieve afbeeldingen gebruiken**
 
-1. In SPS, [creeer een Vooraf ingesteld Beeld ](http://help.adobe.com/en_US/scene7/using/WS2F6A1049-B41F-447d-A520-91227F9CDABF.html) voor het geval u van plan bent om de Responsieve bibliotheek van het Beeld met vooraf instelt te gebruiken.
+1. In Dynamic Media Classic maakt [een voorinstelling voor afbeeldingen](http://help.adobe.com/en_US/scene7/using/WS2F6A1049-B41F-447d-A520-91227F9CDABF.html) voor het geval u de bibliotheek met responsieve afbeeldingen wilt gebruiken met voorinstellingen.
 
    Wanneer u Voorinstellingen voor afbeeldingen definieert die worden gebruikt in de bibliotheek met responsieve afbeeldingen, mag u geen instellingen gebruiken die van invloed zijn op de afbeeldingsgrootte, zoals `wid=`, `hei=` of `scl=`. Geef geen velden voor de grootte op in de voorinstelling Afbeelding. Laat ze in plaats daarvan leeg.
 1. Voeg het JavaScript-bibliotheekbestand toe aan uw webpagina.
