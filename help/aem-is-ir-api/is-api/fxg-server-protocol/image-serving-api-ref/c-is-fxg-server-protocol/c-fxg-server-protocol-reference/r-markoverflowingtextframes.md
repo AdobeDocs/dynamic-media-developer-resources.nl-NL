@@ -7,9 +7,9 @@ title: markOverflowsTextFrames
 topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 90237128-8d29-45cc-90e8-7fe46c1dae38
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,6 @@ Overlopende tekstkaders met plusteken weergeven. Een indicator van de tekstoverl
  </tr> 
 </table>
 
-Als u de optie `markOverflowingTextFrames=1` via een URL-aanroep instelt, worden alle tekstkaders gemarkeerd waarin tekst overloopt met een plusteken. In de SPS-voorvertoning is de indicator voor tekstoverloop standaard ingesteld op &quot; `TRUE`&quot;.
+Als u de optie `markOverflowingTextFrames=1` via een URL-aanroep instelt, worden alle tekstkaders gemarkeerd waarin tekst overloopt met een plusteken. In Dynamic Media Classic previewer is de indicator voor tekstoverloop standaard ingesteld op &quot; `TRUE`&quot;.
 
 De standaardwaarde is 0.
