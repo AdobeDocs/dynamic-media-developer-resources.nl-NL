@@ -8,9 +8,9 @@ title: Standaardzoom
 topic: Dynamic Media
 uuid: 5466d647-af70-4503-9898-bb712ba6a007
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2072'
+source-wordcount: '2076'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ U voegt de viewer als volgt toe aan een webpagina:
 
 1. Het JavaScript-bestand van de viewer toevoegen aan uw webpagina.
 
-   Voor het maken van een viewer moet u een scripttag aan de HTML-kop toevoegen. Voordat u de viewer-API kunt gebruiken, moet u [!DNL BasicZoomViewer.js] opnemen. Het [!DNL BasicZoomViewer.js]-bestand bevindt zich in de submap [!DNL html5/js/] van uw standaard IS-Viewers-implementatie:
+   Voor het maken van een viewer moet u een scripttag aan de HTML-kop toevoegen. Voordat u de viewer-API kunt gebruiken, moet u [!DNL BasicZoomViewer.js] opnemen. Het [!DNL BasicZoomViewer.js] dossier wordt gevestigd onder [!DNL html5/js/] subfolder van uw standaard plaatsing IS-Viewers:
 
 [!DNL <s7viewers_root>/html5/js/BasicZoomViewer.js]
 
@@ -163,7 +163,7 @@ Het relatieve pad ziet er als volgt uit:
 
    U kunt de statische grootte voor de kijker plaatsen door of het voor `.s7basiczoomviewer` top-level CSS klasse in absolute eenheden te verklaren, of door `stagesize` bepaling te gebruiken.
 
-   U kunt de grootte in CSS rechtstreeks op de HTML-pagina plaatsen, of in een aangepast CSS-bestand van de viewer, dat later wordt toegewezen aan een viewer-voorinstellingsrecord in SPS, of expliciet wordt doorgegeven met behulp van een stijlopdracht.
+   U kunt de grootte in CSS rechtstreeks op de HTML-pagina plaatsen, of in een aangepast CSS-bestand van de viewer, dat later wordt toegewezen aan een viewer-voorinstellingsrecord in Dynamic Media Classic, of expliciet wordt doorgegeven met behulp van een stijlopdracht.
 
    Zie [De standaardzoomviewer aanpassen](../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/c-html5-20-basic-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) voor meer informatie over het opmaken van de viewer met CSS.
 
@@ -176,7 +176,7 @@ Het relatieve pad ziet er als volgt uit:
    }
    ```
 
-   U kunt de bepaling `stagesize` of in het vooraf ingestelde verslag van de kijker in SPS plaatsen, of het uitdrukkelijk met de de initialisatiecode van de kijker met `params` inzameling overgaan, of als API vraag zoals die in de sectie van de Verwijzing van het Bevel wordt beschreven, als het volgende:
+   U kunt de `stagesize` bepaling of in de kijker vooraf ingestelde verslag in Classic van Dynamic Media plaatsen, of het uitdrukkelijk met de kijker- initialisatiecode met `params` inzameling, of als API vraag zoals die in de sectie van de Verwijzing van het Bevel wordt beschreven, als het volgende overgaan:
 
    ```
    basicZoomViewer.setParam("stagesize", "640,480");
