@@ -1,15 +1,12 @@
 ---
-description: Pop-upmenu van deelvenster Info wordt midden in het viewergebied weergegeven wanneer een gebruiker een afbeeldingskaart activeert waarvoor een eigenschap rollover_key is gedefinieerd in het Scene7 Publishing System en als de functie van het deelvenster Info op de juiste wijze is geconfigureerd voor de viewer.
-seo-description: Pop-upmenu van deelvenster Info wordt midden in het viewergebied weergegeven wanneer een gebruiker een afbeeldingskaart activeert waarvoor een eigenschap rollover_key is gedefinieerd in het Scene7 Publishing System en als de functie van het deelvenster Info op de juiste wijze is geconfigureerd voor de viewer.
-seo-title: Pop-up deelvenster Info
+description: Pop-upmenu van deelvenster Info wordt midden in het viewergebied weergegeven wanneer een gebruiker een afbeeldingskaart activeert waarvoor een eigenschap rollover_key is gedefinieerd in Dynamic Media Classic, en als de functie van het deelvenster Info correct is geconfigureerd voor de viewer.
 solution: Experience Manager
 title: Pop-up deelvenster Info
 topic: Dynamic Media
-uuid: a5c50e54-1ea7-4908-a8a5-dbeea5c8eabb
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # Pop-up van deelvenster Info{#info-panel-popup}
 
-Pop-upmenu van deelvenster Info wordt midden in het viewergebied weergegeven wanneer een gebruiker een afbeeldingskaart activeert waarvoor een eigenschap rollover_key is gedefinieerd in het Scene7 Publishing System en als de functie van het deelvenster Info op de juiste wijze is geconfigureerd voor de viewer.
+Pop-upmenu van deelvenster Info wordt midden in het viewergebied weergegeven wanneer een gebruiker een afbeeldingskaart activeert waarvoor een eigenschap rollover_key is gedefinieerd in Dynamic Media Classic, en als de functie van het deelvenster Info correct is geconfigureerd voor de viewer.
 
 De achtergrond van het deelvenster Info bedekt het gehele viewergebied en wordt beheerd met de volgende CSS-klassenkiezer:
 
