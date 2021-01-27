@@ -1,10 +1,10 @@
 ---
-description: Bij het uploaden van elementen naar Scene7 Production System worden een of meer HTTP-POSTEN gevraagd die een taak hebben ingesteld om alle logactiviteiten te coördineren die aan de geüploade bestanden zijn gekoppeld.
+description: Bij het uploaden van elementen naar Dynamic Media Classic worden een of meer HTTP-POSTEN gevraagd die een taak instellen om alle logactiviteiten te coördineren die aan de geüploade bestanden zijn gekoppeld.
 solution: Experience Manager
 title: Elementen uploaden via HTTP POST's naar de UploadFile-server
 topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Elementen uploaden via HTTP POST&#39;s naar de UploadFile-server{#uploading-assets-by-way-of-http-posts-to-the-uploadfile-servlet}
 
-Bij het uploaden van elementen naar Scene7 Production System worden een of meer HTTP-POSTEN gevraagd die een taak hebben ingesteld om alle logactiviteiten te coördineren die aan de geüploade bestanden zijn gekoppeld.
+Bij het uploaden van elementen naar Dynamic Media Classic worden een of meer HTTP-POSTEN gevraagd die een taak instellen om alle logactiviteiten te coördineren die aan de geüploade bestanden zijn gekoppeld.
 
 Gebruik de volgende URL om toegang te krijgen tot de UploadFile-server:
 
