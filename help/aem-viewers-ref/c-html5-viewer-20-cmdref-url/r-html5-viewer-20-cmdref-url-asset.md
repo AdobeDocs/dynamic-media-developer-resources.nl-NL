@@ -7,7 +7,7 @@ title: element
 topic: Dynamic Media
 uuid: 6a72257f-d204-4258-b6f8-de6f7b00fd54
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 0%
@@ -57,15 +57,15 @@ of
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> imageList  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Hiermee geeft u een expliciete afbeeldingsset op, bestaande uit een gesorteerde reeks items of frames, gescheiden door komma's. </p> <p> <p>Opmerking:  Deze functie wordt ondersteund in Adobe Scene7 Publishing System. wordt niet ondersteund in Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p> Hiermee geeft u een expliciete afbeeldingsset op, bestaande uit een gesorteerde reeks items of frames, gescheiden door komma's. </p> <p> <p>Opmerking:  Deze functie wordt ondersteund in Adobe Dynamic Media Classic. wordt niet ondersteund in Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> imageListWithModifiers  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Hiermee geeft u een expliciete afbeeldingsset op waarin elk frame zijn eigen wijzigingstoetsen voor afbeeldingsservers heeft. In dit geval wordt de lijst met kaders tussen haakjes geplaatst. Zorg ervoor dat u dubbele HTTP-codering toepast op elke komma die aanwezig is in de frame-specifieke Image Serving-modifier. </p> <p> <p>Opmerking:  Deze functie wordt ondersteund in Adobe Scene7 Publishing System. wordt niet ondersteund in Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p> Hiermee geeft u een expliciete afbeeldingsset op waarin elk frame zijn eigen wijzigingstoetsen voor afbeeldingsservers heeft. In dit geval wordt de lijst met kaders tussen haakjes geplaatst. Zorg ervoor dat u dubbele HTTP-codering toepast op elke komma die aanwezig is in de frame-specifieke Image Serving-modifier. </p> <p> <p>Opmerking:  Deze functie wordt ondersteund in Adobe Dynamic Media Classic. wordt niet ondersteund in Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> multiDimensionalSpinSet  </span> </span> </p> </td> 
-   <td colname="col2"> <p>Hiermee wordt een expliciete multidimensionale spin-set opgegeven met de volgende syntaxis: </p> <p> <span class="codeph"> ((  <span class="varname"> horizontalSpinSet  </span>)[,(  <span class="varname"> horizontalSpinSet  </span>)]  </span> </p> <p> waarbij <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> een door komma's gescheiden lijst met frames voor een bepaalde horizontale as is. Alle <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> moet hetzelfde aantal frames hebben. </p> <p> <p>Opmerking:  Deze functie wordt ondersteund in Adobe Scene7 Publishing System. wordt niet ondersteund in Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p>Hiermee wordt een expliciete multidimensionale spin-set opgegeven met de volgende syntaxis: </p> <p> <span class="codeph"> ((  <span class="varname"> horizontalSpinSet  </span>)[,(  <span class="varname"> horizontalSpinSet  </span>)]  </span> </p> <p> waarbij <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> een door komma's gescheiden lijst met frames voor een bepaalde horizontale as is. Alle <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> moet hetzelfde aantal frames hebben. </p> <p> <p>Opmerking:  Deze functie wordt ondersteund in Adobe Dynamic Media Classic. wordt niet ondersteund in Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> modifiers  </span> </span> </p> </td> 
@@ -86,19 +86,19 @@ of
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> video  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Eén video of Adaptieve videoset. </p> <p> <p>Opmerking:  Deze functie wordt ondersteund in Adobe Scene7 Publishing System. wordt niet ondersteund in Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p> Eén video of Adaptieve videoset. </p> <p> <p>Opmerking:  Deze functie wordt ondersteund in Adobe Dynamic Media Classic. wordt niet ondersteund in Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> image  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Eén afbeelding. </p> <p> <p>Opmerking:  Deze functie wordt ondersteund in Adobe Scene7 Publishing System. wordt niet ondersteund in Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p> Eén afbeelding. </p> <p> <p>Opmerking:  Deze functie wordt ondersteund in Adobe Dynamic Media Classic. wordt niet ondersteund in Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> setId  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Staalset. </p> <p> <p>Opmerking:  Deze functie wordt ondersteund in Adobe Scene7 Publishing System. wordt niet ondersteund in Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p> Staalset. </p> <p> <p>Opmerking:  Deze functie wordt ondersteund in Adobe Dynamic Media Classic. wordt niet ondersteund in Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> staalId  </span> </span> </p> </td> 
-   <td colname="col2"> <p>Staalafbeelding. </p> <p> <p>Opmerking:  Deze functie wordt ondersteund in Adobe Scene7 Publishing System. wordt niet ondersteund in Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p>Staalafbeelding. </p> <p> <p>Opmerking:  Deze functie wordt ondersteund in Adobe Dynamic Media Classic. wordt niet ondersteund in Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ID  </span> </span> </p> </td> 
@@ -109,7 +109,7 @@ of
       <li id="li_C942CED779B54110BCDC74188995FD5B"> <p> <span class="codeph"> draaien  </span> </p> <p>Voor centrifugeerset. </p> </li> 
       <li id="li_6EA5C54F078D4B24B44F1588BF083842"> <p> <span class="codeph"> video  </span> </p> <p>Voor één video. </p> </li> 
       <li id="li_8110FA7E0CAB4681A2D8C15F2A656E69"> <p> <span class="codeph"> video_set  </span> </p> <p>Voor adaptieve videosets. </p> </li> 
-     </ul> </p> <p> <p>Opmerking:  Deze functie wordt ondersteund in Adobe Scene7 Publishing System. wordt niet ondersteund in Adobe Experience Manager Assets. </p> </p> </td> 
+     </ul> </p> <p> <p>Opmerking:  Deze functie wordt ondersteund in Adobe Dynamic Media Classic. wordt niet ondersteund in Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> modifiers  </span> </span> </p> </td> 
