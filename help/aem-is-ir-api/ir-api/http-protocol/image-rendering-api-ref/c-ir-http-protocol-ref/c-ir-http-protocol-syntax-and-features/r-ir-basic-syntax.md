@@ -1,15 +1,15 @@
 ---
-description: Deze sectie beschrijft de basissyntaxis van het Scene7 Image Rendering HTTP protocol.
-seo-description: Deze sectie beschrijft de basissyntaxis van het Scene7 Image Rendering HTTP protocol.
+description: Deze sectie beschrijft de basissyntaxis van het Dynamic Media Image Rendering HTTP protocol.
+seo-description: Deze sectie beschrijft de basissyntaxis van het Dynamic Media Image Rendering HTTP protocol.
 seo-title: Basissyntaxis van HTTP-protocol voor het renderen van afbeeldingen
 solution: Experience Manager
 title: Basissyntaxis van HTTP-protocol voor het renderen van afbeeldingen
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e01314f0-6aaa-41ca-8c05-d5db3148a071
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Afbeeldingen renderen HTTP protocol basissyntaxis{#image-rendering-http-protocol-basic-syntax}
 
-Deze sectie beschrijft de basissyntaxis van het Scene7 Image Rendering HTTP protocol.
+Deze sectie beschrijft de basissyntaxis van het Dynamic Media Image Rendering HTTP protocol.
 
 <table id="table_0A7D7207EE6D4B08B62BE8620EBE0B25"> 
  <thead> 
