@@ -5,9 +5,9 @@ solution: Experience Manager
 topic: Dynamic Media
 contentOwner: Rick Brough
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Systeemvereisten voor Dynamic Media HTML5-viewers.
 
 ## Serverhardware en -software {#section-05099146f1f0418988c196635110bee6}
 
-* Dynamic Media Classic (voorheen Scene7) Image Serving 6.7.1 of hoger.
+* Dynamic Media Classic Image Serving 6.7.1 of hoger.
 * Voor HTML5-viewers zijn SDK JavaScript Server-side bibliotheken 3.10.2 of hoger vereist.
 * Voor sociale functies van &quot;Email a Friend&quot; is s7ondemand 5.0.9 of hoger vereist.
 * eCatalog Viewer - Ondersteuning voor het deelvenster Info vereist Infoserver 2.1.8 of hoger.
