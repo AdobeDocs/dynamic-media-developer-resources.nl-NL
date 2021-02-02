@@ -4,9 +4,9 @@ solution: Experience Manager
 title: Kleurbeheer van afbeeldingsserver
 topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1195'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ Er kunnen aanvullende profielen worden toegevoegd aan de standaardprofielen, het
 |`WebCoatedGrade5`|Web Coated SWOP 2006 Grade 5 Paper|WebCoatedSWOP2006Grade5.icc|
 |`WebUncoated`|V.S. Web Uncoated v2|USWebUncoated.icc|
 
-De volgende tabel is van toepassing op *Dynamic Media Classic (Scene7) Image Serving* en *Dynamic Media* (wordt uitgevoerd in `dynamicmedia_scene7` uitvoeringsmodus).
+De volgende tabel is van toepassing op *Dynamic Media Classic Image Serving* en *Dynamic Media* (in de uitvoeringsmodus `dynamicmedia_scene7`).
 
 |Id|Algemene naam|Bestandsnaam|
 |— |— |— |
