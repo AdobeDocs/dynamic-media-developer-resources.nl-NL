@@ -1,17 +1,15 @@
 ---
 title: Opmerkingen bij de release Adobe Dynamic Media Classic
-seo-title: Opmerkingen bij de release Adobe Dynamic Media Classic
-description: Release-aantekeningen voor Adobe Dynamic Media Classic
-seo-description: Release-aantekeningen voor Adobe Dynamic Media Classic-onderdeel van de Adobe Experience Manager-oplossing in de Adobe Experience Cloud.
+description: Release-aantekeningen voor Adobe Dynamic Media Classic-onderdeel van de Adobe Experience Manager-oplossing in de Adobe Experience Cloud.
 author: Rick Brough
 cloud: experience-cloud
 product: Dynamic Media Classic
 archtype: end-user
 user-guide: null
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
@@ -19,7 +17,7 @@ ht-degree: 0%
 
 # Opmerkingen bij de release van Dynamic Media {#release-notes}
 
-+ [Dynamic Media Developer Resources Home](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
++ [Dynamic Media Developer Resources Home](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html)
 + [Opmerkingen bij de laatste release](s7rn2017.md)
 + Archiveren {#archive-release-notes}
    + [Scene7 Fall 2016-release](s7rnfall2016.md)
