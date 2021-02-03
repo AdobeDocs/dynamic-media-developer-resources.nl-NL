@@ -5,7 +5,7 @@ title: HTTPS-video leveren
 topic: Dynamic Media
 uuid: acda9c8f-e8f4-4855-9b14-82838ec5a1b9
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Afhankelijk van de methode om de video van Dynamic Media te publiceren die u in 
    https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/InteractiveVideoViewer.html?asset=%2Fcontent%2Fdam%2Fmarketing%2Fshoppable-video%2Fadobe-axis-demo%2FAdobe_AXIS_V3_GRADED-HD.mp4&config=/etc/dam/presets/viewer/Shoppable_Video_light&serverUrl=https%3A%2F%2Fadobedemo62-h.assetsadobe.com%2Fis%2Fimage%2F&contenturl=%2F&config2=/etc/dam/presets/analytics&videoserverurl=https://gateway-na.assetsadobe.com/DMGateway/public/demoCo&interactivedata=content/dam/_VTT/marketing/shoppable-video/adobe-axis-demo/Adobe_AXIS_V3_GRADED-HD.mp4.svideo.vtt&VideoPlayer.contenturl=https://adobedemo62-h.assetsadobe.com/is/content&VideoPlayer.ssl=on
    ```
 
-   Zie ook [URL&#39;s koppelen aan uw webtoepassing](https://docs.adobe.com/content/help/en/experience-manager-64/assets/dynamic/linking-urls-to-yourwebapplication.html)
+   Zie ook [URL&#39;s koppelen aan uw webtoepassing](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic)
 
 * Als u een Dynamic Media-video met ingesloten code publiceert, voegt u `VideoPlayer.ssl` toe aan de lijst met andere parameters voor viewerconfiguratie in het ingesloten codefragment. Als u bijvoorbeeld de HTTPS-video wilt afspelen, voegt u `&VideoPlayer.ssl=on` toe, zoals in het volgende voorbeeld:
 
@@ -78,5 +78,5 @@ Afhankelijk van de methode om de video van Dynamic Media te publiceren die u in 
    </script>
    ```
 
-   Zie ook [De video insluiten op een webpagina](https://docs.adobe.com/content/help/en/experience-manager-64/assets/dynamic/linking-urls-to-yourwebapplication.html).
+   Zie ook [De video insluiten op een webpagina](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic).
 
