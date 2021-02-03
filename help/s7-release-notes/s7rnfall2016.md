@@ -4,9 +4,9 @@ solution: Experience Manager
 title: Scene7 Fall 2016 Release
 topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '2244'
+source-wordcount: '2231'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,11 @@ De nieuwste releaseopmerkingen voor [!DNL Adobe Scene7] Fall 2016 release-part v
 
 Adobe is opgetogen om de beschikbaarheid van HTTP/2 levering van inhoud aan te kondigen met het algemene voordeel van betere prestaties.
 
-Zie [HTTP2 Levering van inhoud FAQ](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html).
+Zie [HTTP2 Levering van inhoud FAQ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
 
 ## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
-Voor volledige documentatie, zie [https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html)
+Voor volledige documentatie, zie [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
 
 **Nieuwe functies, verbeteringen en foutoplossingen**
 
@@ -58,7 +58,7 @@ Voor volledige documentatie, zie [https://docs.adobe.com/content/help/en/dynamic
 
 ## Viewers (afbeelding met 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Zie [Referentiehandleiding voor viewers](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html) voor volledige documentatie.
+Zie [Referentiehandleiding voor viewers](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html) voor volledige documentatie.
 
 **Bugfixes voor afbeeldingen in 5.5.3**
 
@@ -68,7 +68,7 @@ Zie [Referentiehandleiding voor viewers](https://docs.adobe.com/content/help/en/
 
 ## Viewers (afbeelding met 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Zie [Referentiehandleiding voor viewers](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html) voor volledige documentatie.
+Zie [Referentiehandleiding voor viewers](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html) voor volledige documentatie.
 
 **Bugfixes voor afbeeldingen in 5.5.2**
 
@@ -77,7 +77,7 @@ Zie [Referentiehandleiding voor viewers](https://docs.adobe.com/content/help/en/
 
 ## Viewers (afbeelding met 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Zie [Referentiehandleiding voor viewers](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html) voor volledige documentatie.
+Zie [Referentiehandleiding voor viewers](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html) voor volledige documentatie.
 
 **Nieuwe functies, verbeteringen en foutoplossingen voor Image Serving 5.5.1**
 
