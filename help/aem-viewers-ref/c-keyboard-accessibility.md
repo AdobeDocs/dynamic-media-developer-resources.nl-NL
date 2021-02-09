@@ -1,15 +1,12 @@
 ---
 description: Alle functies die beschikbaar worden gesteld in de viewerinterface Basic Zoom, eCatalog, eCatalog Search, Flyout, Inline Zoom, Mixed Media, Spin, Video, Zoom, Dimensional (3D), Carousel, Interactive Image, Interactive Video, en Video360 zijn toegankelijk via het toetsenbord.
-seo-description: Alle functies die beschikbaar worden gesteld in de viewerinterface Basic Zoom, eCatalog, eCatalog Search, Flyout, Inline Zoom, Mixed Media, Spin, Video, Zoom, Dimensional (3D), Carousel, Interactive Image, Interactive Video, en Video360 zijn toegankelijk via het toetsenbord.
-seo-title: Toetsenbordtoegankelijkheid en -navigatie
 solution: Experience Manager
 title: Toetsenbordtoegankelijkheid en -navigatie
 topic: Dynamic Media
-uuid: 9d7df3b0-2d77-4a2f-9ef1-210ccbd7a1a6
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: e85ff41d20e7b39e023cba9bff58236e8b49d4f2
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
