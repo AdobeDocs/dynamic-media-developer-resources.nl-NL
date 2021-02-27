@@ -7,9 +7,9 @@ product: Dynamic Media Classic
 archtype: end-user
 user-guide: null
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 5112b4633b5e0fdf18e4d89d02af69c71978a110
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Opmerkingen bij de release van Dynamic Media {#release-notes}
 
-+ [Dynamic Media Developer Resources Home](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html)
++ [Dynamic Media Developer Resources Home](/help/landing/home.md)
 + [Opmerkingen bij de laatste release](s7rn2017.md)
 + Archiveren {#archive-release-notes}
    + [Scene7 Fall 2016-release](s7rnfall2016.md)
