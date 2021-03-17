@@ -4,9 +4,9 @@ product: adobe
 archtype: end-user
 user-guide-title: Dynamic Media Viewers Reference Guide
 translation-type: tm+mt
-source-git-commit: 69a21374f1128eb7ae1d03776b1b80647bdf9fea
+source-git-commit: 192b5624945b08e438a65e3e9fd25aca503857fc
 workflow-type: tm+mt
-source-wordcount: '1905'
+source-wordcount: '1897'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 # Dynamic Media Viewers Reference Guide {#library}
 
 + [Dynamic Media Developer Resources Home](/help/landing/home.md)
-+ [Dynamic Media Viewers Reference Guide](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en)
++ [Dynamic Media Viewers Reference Guide](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en) -->
 + [Voorbeelden van viewerbibliotheken](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 + [Systeemvereisten](c-system-requirements-and-prerequisites.md)
 + [Meerdere viewers op dezelfde server installeren](t-installing-the-viewers.md)
