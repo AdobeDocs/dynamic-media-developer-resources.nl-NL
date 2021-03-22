@@ -4,12 +4,13 @@ seo-description: gebruikt door PhotoshopOptions/anchor.
 seo-title: Photoshop-ankermodi
 solution: Experience Manager
 title: Photoshop-ankermodi
-topic: Dynamic Media Image Production System API
 uuid: 7dd313ce-7e09-4b31-9005-4c2c319e42f8
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,beheerder
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '23'
+source-wordcount: '30'
 ht-degree: 0%
 
 ---
