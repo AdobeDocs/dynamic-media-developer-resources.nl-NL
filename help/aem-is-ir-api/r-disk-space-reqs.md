@@ -2,11 +2,12 @@
 description: 'Naast de ruimte die nodig is om de software te installeren, heeft Image Serving de volgende vereisten voor schijfruimte '
 solution: Experience Manager
 title: Vereisten en aanbevelingen voor schijfruimte
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
