@@ -4,12 +4,13 @@ seo-description: Het playlognut kan worden gebruikt om inhoud voor het de reacti
 seo-title: Het hulpprogramma 'playlog'
 solution: Experience Manager
 title: Het hulpprogramma 'playlog'
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9044515e-7cfb-4e86-9ac4-e071b60f38d1
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
