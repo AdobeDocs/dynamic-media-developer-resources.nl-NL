@@ -4,12 +4,13 @@ seo-description: Bij het renderen van afbeeldingen kunt u aanvragen voor afbeeld
 seo-title: Nesten en insluiten aanvragen *
 solution: Experience Manager
 title: Nesten en insluiten aanvragen *
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 1884ae71-6ff5-4945-9411-a7183c32b772
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
