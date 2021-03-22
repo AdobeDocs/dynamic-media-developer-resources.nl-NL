@@ -4,12 +4,13 @@ seo-description: Plaats om het even welk attribuut voor bepaalde s7 elementID.
 seo-title: setAttr
 solution: Experience Manager
 title: setAttr
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 968f7496-3cd4-4670-96fc-53127bba9a83
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
