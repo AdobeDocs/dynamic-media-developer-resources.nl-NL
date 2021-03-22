@@ -2,12 +2,13 @@
 description: title, opdracht
 solution: Experience Manager
 title: titel
-topic: Dynamic Media
 uuid: ff6c0e2e-ac59-4bcf-9ab9-227ba686914e
+feature: Dynamic Media Classic,Viewers,SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '39'
+source-wordcount: '48'
 ht-degree: 2%
 
 ---
