@@ -4,12 +4,13 @@ seo-description: De secundaire besturingsbalk is het rechthoekige gebied met de 
 seo-title: Secundaire besturingsbalk
 solution: Experience Manager
 title: Secundaire besturingsbalk
-topic: Dynamic Media
 uuid: 38217d2a-8668-46e1-9df1-f29c1c7e0798
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
