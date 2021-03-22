@@ -4,12 +4,13 @@ seo-description: JavaScript API-referentie voor Video360 Viewer
 seo-title: setVideo
 solution: Experience Manager
 title: setVideo
-topic: Dynamic Media
 uuid: 749aa32c-c27f-476c-954b-d4524528bccc
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '73'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ JavaScript API-referentie voor Video360 Viewer
 
 `setVideo(videoUrl)`
 
-Hiermee stelt u nieuwe externe video in. Kan op elk moment worden aangeroepen, zowel voor als na `init()`. Als de video wordt aangeroepen na `init()`, wordt de video tijdens runtime omgewisseld.
+Hiermee stelt u nieuwe externe video in. Kan op elk moment worden aangeroepen, zowel voor als na `init()`. Als de video wordt aangeroepen na `init()`, wisselt de viewer de video in runtime.
 
 Zie ook [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6).
 
