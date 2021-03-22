@@ -4,12 +4,13 @@ seo-description: De volgende opties kunnen worden toegepast, ongeacht het type s
 seo-title: Algemene opties
 solution: Experience Manager
 title: Algemene opties
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: fdf09873-4102-4ed6-a315-a87cba5c44c7
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
