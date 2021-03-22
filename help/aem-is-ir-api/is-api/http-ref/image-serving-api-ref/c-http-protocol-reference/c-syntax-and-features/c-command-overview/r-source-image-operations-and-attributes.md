@@ -4,12 +4,13 @@ seo-description: Deze opdrachten zijn van toepassing op bronafbeeldingen die wor
 seo-title: Bronafbeeldingsbewerkingen
 solution: Experience Manager
 title: Bronafbeeldingsbewerkingen
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ad6dbcd8-f4a4-4439-b51a-2aca30d198e0
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
