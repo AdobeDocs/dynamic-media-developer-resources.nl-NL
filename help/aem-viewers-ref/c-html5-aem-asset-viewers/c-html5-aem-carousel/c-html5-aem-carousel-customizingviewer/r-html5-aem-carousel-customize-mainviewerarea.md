@@ -4,12 +4,13 @@ seo-description: Het hoofdweergavegebied is het gebied dat wordt ingenomen door 
 seo-title: Hoofdviewergebied
 solution: Experience Manager
 title: Hoofdviewergebied
-topic: Dynamic Media
 uuid: 0e796f75-36a6-4961-9980-b634ab50c7ff
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
