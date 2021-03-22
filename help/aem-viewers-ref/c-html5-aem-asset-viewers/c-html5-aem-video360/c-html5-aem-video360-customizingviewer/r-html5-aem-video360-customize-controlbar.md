@@ -4,12 +4,13 @@ seo-description: De besturingsbalk is het rechthoekige gebied dat alle besturing
 seo-title: Besturingsbalk
 solution: Experience Manager
 title: Besturingsbalk
-topic: Dynamic Media
 uuid: 328e34f1-9e60-4056-9a8a-e9292fb65605
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
