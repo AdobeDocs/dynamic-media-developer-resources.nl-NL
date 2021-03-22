@@ -4,12 +4,13 @@ seo-description: Er zijn enkele beperkingen en bekende problemen die in overwegi
 seo-title: Beperkingen en bekende problemen
 solution: Experience Manager
 title: Beperkingen en bekende problemen
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: '1259'
 ht-degree: 0%
 
 ---
@@ -60,7 +61,7 @@ De Digimarc-bibliotheek weigert een Digimarc-watermerk toe te passen op een afbe
 
 ## Beperkingen die van toepassing zijn op zowel het renderen van afbeeldingen als het renderen van afbeeldingen {#section-f836cb40ae2d4f32a9cf7ebda4d91bae}
 
-* Het is mogelijk dat imageservers en het renderen van afbeeldingen niet alle CPU&#39;s ten volle benutten wanneer er meer dan vier CPU&#39;s beschikbaar zijn. Simuleer uw verkeer op deze machines om te zien hoe voordelig het met meer dan 4 cpu&#39;s is.
+* Het is mogelijk dat beeldservers en het renderen van afbeeldingen niet alle CPU&#39;s ten volle benutten wanneer er meer dan vier CPU&#39;s beschikbaar zijn. Simuleer uw verkeer op deze machines om te zien hoe voordelig het met meer dan 4 cpu&#39;s is.
 * Externe URL&#39;s die een omleiding retourneren (HTTP-status 301, 302 of 303) worden afgewezen.
 * Bij het configureren van `errorRedirect.rootUrl` moet het IP-adres dat in deze eigenschap is gedefinieerd, worden opgenomen in de `<addressfilter>`-tagwaarde op die server.
 
