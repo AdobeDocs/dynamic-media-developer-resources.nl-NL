@@ -4,12 +4,13 @@ seo-description: Invoerfocusmarkering die wordt weergegeven rond het interface-e
 seo-title: Focus markeren
 solution: Experience Manager
 title: Focus markeren
-topic: Dynamic Media
 uuid: 04358471-537d-4904-9775-db6a6ada2204
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
