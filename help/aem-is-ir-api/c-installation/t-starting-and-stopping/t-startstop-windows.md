@@ -2,11 +2,12 @@
 description: Er bestaan verschillende mechanismen om de server van het Beeld en de Server van het Platform op Vensters te beginnen/tegen te houden
 solution: Experience Manager
 title: Starten of stoppen in Windows
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
