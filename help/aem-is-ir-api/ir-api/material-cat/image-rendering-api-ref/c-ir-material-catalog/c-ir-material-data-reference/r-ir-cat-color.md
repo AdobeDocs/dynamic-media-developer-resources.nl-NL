@@ -4,12 +4,13 @@ seo-description: Materiaalkleur. De hoofdkleur voor vaste kleurstoffen en de add
 seo-title: Kleur
 solution: Experience Manager
 title: Kleur
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5bf6c586-8165-4a2b-97a3-ba88bb9f72df
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
