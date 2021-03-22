@@ -4,12 +4,13 @@ seo-description: In deze documentatie worden problemen met serverbeheer besproke
 seo-title: Voorkeur voor serverbeheer
 solution: Experience Manager
 title: Voorkeur voor serverbeheer
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 182782f1-44a8-421d-bacc-f08dcf95f58b
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,beheerder,praktijkgericht
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ In deze documentatie worden problemen met serverbeheer besproken en worden de co
 
 **Beoogd publiek**
 
-Deze documentatie is bedoeld voor systeembeheerders en webmeesters die Dynamic Media Image Rendering moeten installeren, configureren en beheren.
+Deze documentatie is bedoeld voor systeembeheerders en webstramienen die Dynamic Media Image Rendering moeten installeren, configureren en beheren.
 
 **Documentconventies**
 
