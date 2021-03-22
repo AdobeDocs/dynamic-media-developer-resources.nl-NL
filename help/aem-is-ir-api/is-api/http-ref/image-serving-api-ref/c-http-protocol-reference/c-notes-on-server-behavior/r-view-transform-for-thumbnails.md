@@ -4,12 +4,13 @@ seo-description: De afbeelding die naar de client wordt geretourneerd als reacti
 seo-title: Transformatie weergeven voor miniaturen
 solution: Experience Manager
 title: Transformatie weergeven voor miniaturen
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 29924bc1-ada1-420f-aef7-bf9a7db7065b
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
