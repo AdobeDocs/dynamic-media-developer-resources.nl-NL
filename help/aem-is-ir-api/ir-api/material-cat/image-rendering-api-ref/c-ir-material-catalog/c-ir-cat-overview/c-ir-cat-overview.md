@@ -4,12 +4,13 @@ seo-description: Materiaalcatalogi bieden informatie over vignetten, materialen 
 seo-title: Overzicht van de materiaalcatalogus *
 solution: Experience Manager
 title: Overzicht van de materiaalcatalogus *
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f2128b64-8caf-4a59-b11f-604fe62bae69
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
