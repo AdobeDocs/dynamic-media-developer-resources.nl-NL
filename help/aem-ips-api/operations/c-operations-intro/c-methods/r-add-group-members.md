@@ -2,11 +2,12 @@
 description: Voegt gebruikers van een specifiek bedrijf aan een specifieke groep toe.
 solution: Experience Manager
 title: addGroupMember
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,beheerder
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '108'
 ht-degree: 0%
 
 ---
