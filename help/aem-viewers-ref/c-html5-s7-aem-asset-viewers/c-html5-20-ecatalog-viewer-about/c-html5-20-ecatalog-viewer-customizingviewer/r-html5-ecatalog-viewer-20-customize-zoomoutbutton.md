@@ -4,12 +4,13 @@ seo-description: Als u op deze knop klikt of erop tikt, wordt uitgezoomd op een 
 seo-title: Knop Uitzoomen
 solution: Experience Manager
 title: Knop Uitzoomen
-topic: Dynamic Media
 uuid: 5c373f5e-c25c-4a87-a78a-3b35e70de92f
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -76,7 +77,7 @@ De vormgeving van de knop wordt bepaald door de volgende CSS-klassenkiezer:
 
 De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie.
 
-Voorbeeld - om een uitzoomknop in te stellen die 28 x 28 pixels lang is, 4 pixels van de onderkant en 75 pixels van de rechterrand van de hoofdbesturingsbalk verwijderd is en een andere afbeelding weergeeft voor elk van de vier verschillende knopstatussen.
+Voorbeeld - om een uitzoomknop in te stellen die 28 x 28 pixels lang is, 4 pixels van de onderkant en 75 pixels van de rechterrand van de hoofdbesturingsbalk verwijderd is en een andere afbeelding voor elk van de vier verschillende knopstatussen weergeeft.
 
 ```
 .s7ecatalogviewer .s7zoomoutbutton { 
