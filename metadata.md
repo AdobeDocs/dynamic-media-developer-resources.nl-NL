@@ -2,20 +2,13 @@
 cloud: experience-cloud
 description: Dynamic Media Classic
 solution: Dynamic Media Classic
-type: Documentation
-solution-title: Meer informatie en ondersteuning
-solution-hub-url: https://helpx.adobe.com/support/experience-manager.html
-solution-image: null
-getting-started-title: Aan de slag
-getting-started-url: https://helpx.adobe.com/experience-manager/scene7/topics/getting-started.html
-tutorials-title: Tutorials
-tutorials-url: https://marketing.adobe.com/resources/help/en_US/s7/training-videos/
+type: Documentatie
 git-repo: https://git.corp.adobe.com/AdobeDocs/dynamic-media-developer-resources.nl-NL
 index: true
 translation-type: tm+mt
-source-git-commit: dfb2f1d5ab4d84e78938264b19b5aaf55238c99f
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
