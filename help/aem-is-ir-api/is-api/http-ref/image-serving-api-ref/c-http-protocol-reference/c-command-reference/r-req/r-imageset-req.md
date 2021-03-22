@@ -4,12 +4,13 @@ seo-description: Afbeeldingssetgegevens uit afbeeldingscatalogus. Hiermee worden
 seo-title: imageset
 solution: Experience Manager
 title: imageset
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8854e903-a85f-403a-ae3d-b7281a236262
+feature: Dynamic Media Classic,SDK/API,Afbeeldingssets
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
