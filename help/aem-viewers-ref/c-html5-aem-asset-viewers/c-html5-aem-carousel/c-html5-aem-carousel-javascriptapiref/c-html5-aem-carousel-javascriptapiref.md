@@ -4,12 +4,13 @@ seo-description: De hoofdklasse van de Carousel Viewer is CarouselViewer. Deze w
 seo-title: JavaScript API-referentie voor Carousel Viewer
 solution: Experience Manager
 title: JavaScript API-referentie voor Carousel Viewer
-topic: Dynamic Media
 uuid: d235ca5e-9c5b-44e2-84b1-2704bf8c6ca5
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
