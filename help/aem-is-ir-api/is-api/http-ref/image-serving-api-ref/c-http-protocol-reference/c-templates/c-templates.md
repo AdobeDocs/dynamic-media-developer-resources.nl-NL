@@ -4,12 +4,13 @@ seo-description: Sjablonen kunnen worden gebruikt om de lengte en complexiteit t
 seo-title: Sjablonen
 solution: Experience Manager
 title: Sjablonen
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 54830d1f-40ad-4bf2-8e3d-d3e4d4ab57b9
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
