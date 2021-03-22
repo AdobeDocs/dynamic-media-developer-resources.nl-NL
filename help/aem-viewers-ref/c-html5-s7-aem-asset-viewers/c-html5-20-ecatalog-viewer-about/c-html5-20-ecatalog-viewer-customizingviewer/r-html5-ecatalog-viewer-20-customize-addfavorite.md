@@ -4,12 +4,13 @@ seo-description: De positie van de Add knoop van de Favorieten wordt volledig be
 seo-title: Knop Favoriet toevoegen
 solution: Experience Manager
 title: Knop Favoriet toevoegen
-topic: Dynamic Media
 uuid: 0e2f7187-d5a9-42a4-b918-e4782d62be6c
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
