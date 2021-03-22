@@ -4,12 +4,13 @@ seo-description: Zoomen is gericht op gegevens uit afbeeldingscatalogus. Hiermee
 seo-title: streefdoelen
 solution: Experience Manager
 title: streefdoelen
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e20dcd2c-913a-4153-97c7-dfb190763e39
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
