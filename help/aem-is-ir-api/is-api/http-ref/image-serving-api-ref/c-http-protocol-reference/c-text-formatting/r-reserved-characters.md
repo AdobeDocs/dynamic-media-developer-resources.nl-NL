@@ -4,12 +4,13 @@ seo-description: Deze sectie bevat een lijst met tekens die zijn gereserveerd vo
 seo-title: Gereserveerde tekens
 solution: Experience Manager
 title: Gereserveerde tekens
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3b18da2e-5399-49d0-83c9-66dbf6e7807b
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
