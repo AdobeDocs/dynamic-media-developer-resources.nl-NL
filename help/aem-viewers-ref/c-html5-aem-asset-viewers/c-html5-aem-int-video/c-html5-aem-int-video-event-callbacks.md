@@ -2,12 +2,13 @@
 description: Gebeurteniscallbacks
 solution: Experience Manager
 title: Gebeurteniscallbacks
-topic: Dynamic Media
 uuid: b9252d4b-cff1-42eb-9e56-553091f854b5
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
@@ -32,7 +33,7 @@ Tot de ondersteunde viewergebeurtenissen behoren:
 
 * `quickViewActivate` - wordt geactiveerd wanneer een gebruiker klikt of tikt op een interactief staal binnen de interactieve staalcomponent of in het scherm &quot;oproepen naar actie&quot; dat wordt weergegeven aan het einde van het afspelen van de video. Callback-handler gebruikt het enige argument dat een JSON-object met de volgende velden is:
 
-   * `sku` { `String`} SKU-waarde die is gekoppeld aan het interactieve staal.
+   * `sku` { `String`} SKU-waarde die aan het interactieve staal is gekoppeld.
    * `<additionalVariable>` { `String`} nul of meer aanvullende variabelen die aan het interactieve staal zijn gekoppeld.
 
 Zie ook [InteractiveVideoViewer](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-interactivevideo.md#reference-bd16cadc0c054fafb0db4994741d47cd) en [setHandlers](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-sethandlers.md#reference-d76f126ac4354dc282e56afd49a0c643).
