@@ -4,12 +4,13 @@ seo-description: Geeft aan of de viewer begint met het laden van video-inhoud vo
 seo-title: VideoPlayer.preload
 solution: Experience Manager
 title: VideoPlayer.preload
-topic: Dynamic Media
 uuid: 7fd801cf-8307-4b4e-a338-aa4d62b86d2f
+feature: Dynamic Media Classic,Viewers,SDK/API,Mediasets mixen
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '144'
 ht-degree: 1%
 
 ---
