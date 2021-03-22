@@ -4,12 +4,13 @@ seo-description: Het interactieve deelvenster Stalen wordt naast de video-inhoud
 seo-title: Interactieve stalen
 solution: Experience Manager
 title: Interactieve stalen
-topic: Dynamic Media
 uuid: 9f9df764-3dd0-414e-a0db-4287f0019313
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
