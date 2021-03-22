@@ -4,12 +4,13 @@ seo-description: De hoofdklasse van de Inline Zoom Viewer is FlyoutViewer. Deze 
 seo-title: JavaScript API-referentie voor Inline Zoom Viewer
 solution: Experience Manager
 title: JavaScript API-referentie voor Inline Zoom Viewer
-topic: Dynamic Media
 uuid: ed0fb9e4-8a65-4791-a428-4e950c492198
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
