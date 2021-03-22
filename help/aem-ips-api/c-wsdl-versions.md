@@ -2,11 +2,12 @@
 description: De IPS Dienst van het Web wordt gesteund door een reeks documenten van WSDL (de Taal van de Beschrijving van de Diensten van het Web) die van om het even welke IPS installatie worden betreden waarop de IPS component van de Dienst van het Web geïnstalleerd is. Elke IPS API-release bevat een nieuw WSDL-bestand dat verwijst naar een versioned doel-XML-naamruimte. Eerdere WSDL-naamruimteversies worden ook ondersteund voor achterwaartse compatibiliteit met bestaande toepassingen.
 solution: Experience Manager
 title: IPS Web Service WSDL-versies
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,beheerder
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '961'
 ht-degree: 0%
 
 ---
@@ -204,7 +205,7 @@ De aangewezen methode om authentificatiegeloofsbrieven in API verzoeken over te 
 
 Het element `authHeader` wordt altijd gedefinieerd in de naamruimte `http://www.scene7.com/IpsApi/xsd`, ongeacht de API-versie.
 
-Hieronder ziet u een voorbeeld van het gebruik van het element `authHeader` in een SOAP-koptekst voor een aanvraag:
+Hieronder ziet u een voorbeeld van het gebruik van het element `authHeader` in een SOAP-koptekst voor aanvragen:
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
