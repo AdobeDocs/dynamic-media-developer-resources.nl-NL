@@ -4,12 +4,13 @@ seo-description: Het gereedschap Delen insluiten bestaat uit een knop die wordt 
 seo-title: Delen insluiten
 solution: Experience Manager
 title: Delen insluiten
-topic: Dynamic Media
 uuid: 73d259fe-0978-4f47-95f6-bbfcd3b7bad1
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2640'
+source-wordcount: '2651'
 ht-degree: 0%
 
 ---
@@ -287,7 +288,7 @@ Knop Sluiten wordt beheerd met de volgende CSS-klassenkiezer:
 
 De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie.
 
-Voorbeeld - om een dialoogkoptekst in te stellen met opvulling, een pictogram van 24 x 14 pixels, een vette titel van 16 punten en een knop die 28 x 28 pixels sluit, twee pixels van de bovenkant en twee pixels van de rechterkant van de dialoogcontainer:
+Voorbeeld - om een dialoogkoptekst in te stellen met opvulling, een pictogram van 24 x 14 pixels, een vette titel van 16 punten en een knop die 28 x 28 pixels sluit, op twee pixels van de bovenkant en op twee pixels van de rechterkant van de dialoogcontainer:
 
 ```
 .s7ecatalogsearchviewer .s7embeddialog .s7dialogheader { 
