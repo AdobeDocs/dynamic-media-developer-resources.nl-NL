@@ -2,12 +2,13 @@
 description: Ondersteuning voor hotspot en afbeeldingen met hyperlinks
 solution: Experience Manager
 title: Ondersteuning voor hotspot en afbeeldingen met hyperlinks
-topic: Dynamic Media
 uuid: 839b6a7f-4f6f-43ad-8eb8-254959c7fbac
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
