@@ -4,12 +4,13 @@ seo-description: Hulpprogramma voor afbeeldingsomzetting.
 seo-title: ic
 solution: Experience Manager
 title: ic
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 08fabcc9-d0b5-4136-81fc-ac896c341e1d
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1216'
 ht-degree: 0%
 
 ---
@@ -256,7 +257,7 @@ In de volgende tabel worden de bestandsindelingen en indelingsopties voor afbeel
   <tr> 
    <td> <b> BMP</b> <p> (Windows Bitmap) </p> </td> 
    <td> <p> RGB | geïndexeerd </p> </td> 
-   <td> <p> 1 | 5/6 | 8 </p> </td> 
+   <td> <p> 3 | 5/6 | 8 </p> </td> 
    <td> <p> ongecomprimeerd | RLE </p> </td> 
    <td> <p> 5/6 bits/kanaal geeft ondersteuning aan voor 16-bits RGB (5-5-5 en 5-6-5 bits/kanaal). </p> </td> 
   </tr> 
@@ -312,7 +313,7 @@ In de volgende tabel worden de bestandsindelingen en indelingsopties voor afbeel
   <tr> 
    <td> <b> TIFF</b> </td> 
    <td> <p> CMYK | CMYKA | RGB | RGBA | grijs | grijsA | geïndexeerd </p> </td> 
-   <td> <p> 3 | 8 | 16 </p> </td> 
+   <td> <p> 1 | 8 | 16 </p> </td> 
    <td> <p> ongecomprimeerd | ZIP | LZW | JPEG | CCITT RLE | CCITT G3 | CCITT G4 | Pakketten </p> </td> 
    <td> <p> Met uitzondering van het eerste gekoppelde alfakanaal worden extra kanalen genegeerd. </p> </td> 
   </tr> 
