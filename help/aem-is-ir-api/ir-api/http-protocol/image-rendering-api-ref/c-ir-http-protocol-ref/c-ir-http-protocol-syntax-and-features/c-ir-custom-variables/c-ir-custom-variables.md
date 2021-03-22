@@ -4,12 +4,13 @@ seo-description: Het vraaggedeelte van verzoeken en de koorden van de Modifier v
 seo-title: Aangepaste variabelen
 solution: Experience Manager
 title: Aangepaste variabelen
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 933fba00-759c-4bd3-bada-eec751426d9e
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
