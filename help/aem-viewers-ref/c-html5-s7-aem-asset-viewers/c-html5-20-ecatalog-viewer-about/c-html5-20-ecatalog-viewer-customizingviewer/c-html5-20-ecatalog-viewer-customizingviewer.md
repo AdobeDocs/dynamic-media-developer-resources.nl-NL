@@ -1,16 +1,17 @@
 ---
 description: Alle visuele aanpassingen en de meeste gedragsaanpassingen voor de eCatalog Viewer worden uitgevoerd door een aangepaste CSS te maken.
-keywords: responsive
+keywords: responsief
 seo-description: Alle visuele aanpassingen en de meeste gedragsaanpassingen voor de eCatalog Viewer worden uitgevoerd door een aangepaste CSS te maken.
 seo-title: eCatalog-viewer aanpassen
 solution: Experience Manager
 title: eCatalog-viewer aanpassen
-topic: Dynamic Media
 uuid: 20d0d342-acb8-421f-9ec1-447edeafda86
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1323'
 ht-degree: 0%
 
 ---
@@ -36,7 +37,7 @@ Houd er bij het maken van aangepaste CSS rekening mee dat de viewer de klasse `.
 
 ## Responsieve ontworpen CSS maken {#section-c1e74f5114ad418884ca1c95f5ea5b63}
 
-Het is mogelijk om verschillende apparaten en insluitingsgrootten in CSS als doel in te stellen om de weergave van uw inhoud anders te maken, afhankelijk van het apparaat van de gebruiker of een bepaalde webpaginalay-out. Dit geldt onder andere voor verschillende webpaginalay-outs, de grootte van gebruikersinterface-elementen en de resolutie van illustraties.
+Het is mogelijk om verschillende apparaten en insluitingsgrootten in CSS als doel in te stellen om de weergave van uw inhoud te wijzigen, afhankelijk van het apparaat van de gebruiker of een bepaalde webpaginalay-out. Dit geldt onder andere voor verschillende webpaginalay-outs, de grootte van gebruikersinterface-elementen en de resolutie van illustraties.
 
 De viewer ondersteunt twee methoden voor het maken van responsieve, ontworpen CSS: CSS-markeringen en standaard CSS-mediaquery&#39;s. U kunt deze methoden afzonderlijk of samen gebruiken.
 
