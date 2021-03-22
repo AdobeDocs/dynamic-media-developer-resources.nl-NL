@@ -4,12 +4,13 @@ seo-description: Hiermee maakt u een nieuwe publicatie-indeling voor een vignet.
 seo-title: createVignetPublishFormat
 solution: Experience Manager
 title: createVignetPublishFormat
-topic: Dynamic Media Image Production System API
 uuid: 834ebe6a-e105-4075-8004-172237980933
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,beheerder
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '534'
 ht-degree: 0%
 
 ---
