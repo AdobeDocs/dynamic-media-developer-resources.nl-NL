@@ -4,12 +4,13 @@ seo-description: De hoofdweergave bestaat uit de catalogusafbeelding. U kunt een
 seo-title: Paginaweergave
 solution: Experience Manager
 title: Paginaweergave
-topic: Dynamic Media
 uuid: f585bf57-c66a-4213-a2af-d9625beb5bed
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
