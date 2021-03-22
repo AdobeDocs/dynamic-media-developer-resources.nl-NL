@@ -4,12 +4,13 @@ seo-description: Als u op deze knop klikt of erop tikt, wordt de bijbehorende we
 seo-title: Knop Sluiten
 solution: Experience Manager
 title: Knop Sluiten
-topic: Dynamic Media
 uuid: 58da2850-4abe-4d24-af30-0e79d9c904e9
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoomen
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
