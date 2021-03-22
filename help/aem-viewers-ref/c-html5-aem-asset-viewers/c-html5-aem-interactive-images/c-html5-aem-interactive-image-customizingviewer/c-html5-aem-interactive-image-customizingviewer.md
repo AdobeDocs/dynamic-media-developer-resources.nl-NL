@@ -1,16 +1,17 @@
 ---
 description: Alle visuele aanpassingen en de meeste gedragsaanpassingen voor de Interactive Image Viewer worden uitgevoerd door een aangepaste CSS te maken.
-keywords: responsive
+keywords: responsief
 seo-description: Alle visuele aanpassingen en de meeste gedragsaanpassingen voor de Interactive Image Viewer worden uitgevoerd door een aangepaste CSS te maken.
 seo-title: Interactieve afbeeldingsviewer aanpassen
 solution: Experience Manager
 title: Interactieve afbeeldingsviewer aanpassen
-topic: Dynamic Media
 uuid: 19868e4e-c2c9-41e0-82a6-20884a9454a4
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve afbeeldingen
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1314'
 ht-degree: 0%
 
 ---
@@ -36,7 +37,7 @@ Houd er bij het maken van aangepaste CSS rekening mee dat de viewer de klasse `.
 
 ## Responsieve ontworpen CSS maken {#section-0bb49aca42d242d9b01879d5ba59d33b}
 
-Het is mogelijk om verschillende apparaten en insluitingsgrootten in CSS als doel in te stellen om de weergave van uw inhoud anders te maken, afhankelijk van het apparaat van de gebruiker of een bepaalde webpaginalay-out. Dit omvat onder andere, maar is niet beperkt tot, verschillende lay-outs, de grootte van gebruikersinterface-elementen en de resolutie van illustraties.
+Het is mogelijk om verschillende apparaten en insluitingsgrootten in CSS als doel in te stellen om de weergave van uw inhoud te wijzigen, afhankelijk van het apparaat van de gebruiker of een bepaalde webpaginalay-out. Dit omvat onder andere, maar is niet beperkt tot, verschillende lay-outs, de grootte van gebruikersinterface-elementen en de resolutie van illustraties.
 
 De viewer ondersteunt twee mechanismen voor het maken van responsieve, ontworpen CSS: CSS-markeringen en standaard CSS-mediaquery&#39;s. U kunt deze onafhankelijk of samen gebruiken.
 
