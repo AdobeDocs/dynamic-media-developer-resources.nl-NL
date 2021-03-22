@@ -1,12 +1,13 @@
 ---
-description: De meest recente release bevat de Adobe Scene7 Fall 2016-oplossing, die deel uitmaakt van de Adobe Experience Manager-oplossing in de Adobe Marketing Cloud.
+description: '"De nieuwste release bevat informatie over de Adobe Scene7 Fall 2016, een onderdeel van de Adobe Experience Manager-oplossing in de Adobe Marketing Cloud."'
 solution: Experience Manager
 title: Scene7 Fall 2016 Release
-topic: Dynamic Media
+feature: Dynamic Media Classic
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2231'
+source-wordcount: '2238'
 ht-degree: 0%
 
 ---
@@ -32,7 +33,7 @@ De nieuwste releaseopmerkingen voor [!DNL Adobe Scene7] Fall 2016 release-part v
 
 Adobe is opgetogen om de beschikbaarheid van HTTP/2 levering van inhoud aan te kondigen met het algemene voordeel van betere prestaties.
 
-Zie [HTTP2 Levering van inhoud FAQ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
+Zie [HTTP2 Veelgestelde vragen over het leveren van inhoud](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
 
 ## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
