@@ -4,12 +4,13 @@ seo-description: De zoomindicator wordt bedekt op het hoofdweergavegebied. De af
 seo-title: Pictogram, effect
 solution: Experience Manager
 title: Pictogram, effect
-topic: Dynamic Media
 uuid: 113b2502-395d-4fd1-ab28-4995e8248593
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoomen
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
