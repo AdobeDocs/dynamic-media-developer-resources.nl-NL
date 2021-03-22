@@ -4,12 +4,13 @@ seo-description: Kenmerkbestanden van catalogi herkennen deze algemene miniatuur
 seo-title: Algemene miniatuurkenmerken
 solution: Experience Manager
 title: Algemene miniatuurkenmerken
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 937988ba-43c3-4542-8e48-9f94cf3f61ad
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---
