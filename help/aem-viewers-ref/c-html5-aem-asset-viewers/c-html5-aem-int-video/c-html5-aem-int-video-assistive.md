@@ -4,12 +4,13 @@ seo-description: Alle viewercomponenten ondersteunen de rollen en kenmerken van 
 seo-title: Technische ondersteuning
 solution: Experience Manager
 title: Technische ondersteuning
-topic: Dynamic Media
 uuid: 0abed8d4-9754-47b1-9de7-cce665de03b4
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's,Toegankelijkheid
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
