@@ -2,11 +2,12 @@
 description: Afbeeldingssetgegevens. Biedt een mechanisme voor het definiëren van gesorteerde sets afbeeldingen en het beheren van kenmerken die door Dynamic Media-viewers worden gebruikt.
 solution: Experience Manager
 title: ImageSet
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media Classic,SDK/API,Afbeeldingssets
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -105,7 +106,7 @@ Elk item in een mediaset kan bestaan uit een afbeelding, een standaardstalenset,
 | `*`recept`*` | XML-bestandspad van definitie recut of statische catalogus-id |
 | `*`imageId`*` | IS-afbeeldings-id |
 | `*`setId`*` | IS verwijzing naar beeld, spin, of catalogusreeks |
-| `*`inlineSet`*` | Een gealigneerde afbeelding, spin- of catalogusset |
+| `*`inlineSet`*` | Gepineerde afbeelding, spin- of catalogusset |
 | `*`gereserveerd`*` | Gereserveerd voor toekomstig gebruik |
 
 **Videosets**
