@@ -4,12 +4,13 @@ seo-description: Gebruik deze stappen om Image Serving voor het eerst op Venster
 seo-title: Voor het eerst installeren
 solution: Experience Manager
 title: Voor het eerst installeren
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3b28fbc7-6bc9-4619-8f92-c0ae610b8b30
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
