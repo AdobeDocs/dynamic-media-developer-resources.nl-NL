@@ -4,12 +4,13 @@ seo-description: Patroonelement voor reguliere expressie. Optioneel in elementen
 seo-title: expression
 solution: Experience Manager
 title: expression
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f2036015-a2c7-4392-86f6-4cdf3152839a
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
