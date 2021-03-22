@@ -1,16 +1,17 @@
 ---
 description: De standaardzoomviewer is een afbeeldingsviewer die één zoombare afbeelding weergeeft. Deze heeft zoomgereedschappen, ondersteuning voor volledig scherm en een optionele knop Sluiten. Deze viewer is de lichtste. Het is ontworpen voor gebruik op desktops en mobiele apparaten.
-keywords: responsive
+keywords: responsief
 seo-description: De standaardzoomviewer is een afbeeldingsviewer die één zoombare afbeelding weergeeft. Deze heeft zoomgereedschappen, ondersteuning voor volledig scherm en een optionele knop Sluiten. Deze viewer is de lichtste. Het is ontworpen voor gebruik op desktops en mobiele apparaten.
 seo-title: Standaardzoom
 solution: Experience Manager
 title: Standaardzoom
-topic: Dynamic Media
 uuid: 5466d647-af70-4503-9898-bb712ba6a007
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoomen
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2076'
+source-wordcount: '2087'
 ht-degree: 0%
 
 ---
@@ -142,7 +143,7 @@ Het relatieve pad ziet er als volgt uit:
 
 >[!NOTE]
 >
->Verwijs alleen naar het JavaScript-bestand `include` van de hoofdviewer op de pagina. U moet niet verwijzen naar extra JavaScript-bestanden in de webpaginacode die door de logica van de viewer in runtime kunnen worden gedownload. Verwijs met name niet rechtstreeks naar de HTML5 SDK `Utils.js`-bibliotheek die door de viewer is geladen vanaf het contextpad `/s7viewers` (de zogeheten geconsolideerde SDK `include`). De reden hiervoor is dat de locatie van `Utils.js` of vergelijkbare runtimeviewerbibliotheken volledig wordt beheerd door de logica van de viewer en dat de locatie verandert tussen de viewerreleases. Adobe houdt oudere versies van de secundaire viewer `includes` niet op de server.
+>U moet alleen verwijzen naar het JavaScript-bestand `include` van de hoofdviewer op uw pagina. U moet niet verwijzen naar extra JavaScript-bestanden in de webpaginacode die door de logica van de viewer in runtime kunnen worden gedownload. Verwijs met name niet rechtstreeks naar de HTML5 SDK `Utils.js`-bibliotheek die door de viewer is geladen vanaf het contextpad `/s7viewers` (de zogeheten geconsolideerde SDK `include`). De reden hiervoor is dat de locatie van `Utils.js` of vergelijkbare runtimeviewerbibliotheken volledig wordt beheerd door de logica van de viewer en dat de locatie verandert tussen de viewerreleases. Adobe houdt oudere versies van de secundaire viewer `includes` niet op de server.
 >
 >
 >Als u dus een directe verwijzing naar een secundair JavaScript `include` op de pagina plaatst, wordt de viewerfunctionaliteit in de toekomst verbroken wanneer een nieuwe productversie wordt geïmplementeerd.
