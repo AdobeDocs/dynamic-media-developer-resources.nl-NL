@@ -4,12 +4,13 @@ seo-description: Afbeelding roteren. Hiermee roteert u de afbeelding, tekst of e
 seo-title: roteren
 solution: Experience Manager
 title: roteren
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 160d3c4b-3871-43bd-a17d-96198c7ea839
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
