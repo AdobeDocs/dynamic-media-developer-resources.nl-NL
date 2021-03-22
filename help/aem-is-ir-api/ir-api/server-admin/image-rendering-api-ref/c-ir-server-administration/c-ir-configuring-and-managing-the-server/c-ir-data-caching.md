@@ -4,12 +4,13 @@ seo-description: Bij het renderen van afbeeldingen worden de functies voor het i
 seo-title: Gegevens in cache plaatsen
 solution: Experience Manager
 title: Gegevens in cache plaatsen
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 630ed3f4-3a0d-4de4-828f-45ffc14e6bb7
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,beheerder,praktijkgericht
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
