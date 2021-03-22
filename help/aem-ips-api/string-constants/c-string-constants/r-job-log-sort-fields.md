@@ -4,18 +4,19 @@ seo-description: Gebruikt door getJobLogsParam/sortBy
 seo-title: Taaklogbestanden sorteren
 solution: Experience Manager
 title: Taaklogbestanden sorteren
-topic: Dynamic Media Image Production System API
 uuid: 20f870da-421b-4cb0-8287-0220ad9b9cb5
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,beheerder
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '26'
+source-wordcount: '33'
 ht-degree: 0%
 
 ---
 
 
-# Velden met taaklogbestanden sorteren{#job-log-sort-fields}
+# Velden voor het sorteren van taaklogbestanden{#job-log-sort-fields}
 
 Gebruikt door getJobLogsParam/sortBy
 
