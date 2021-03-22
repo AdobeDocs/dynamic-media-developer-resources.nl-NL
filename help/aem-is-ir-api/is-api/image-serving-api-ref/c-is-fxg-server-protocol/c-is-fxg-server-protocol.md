@@ -4,12 +4,13 @@ seo-description: Dit document bevat informatie over FXG-serverprotocollen en de 
 seo-title: Verwijzing naar FXG-serverprotocol
 solution: Experience Manager
 title: Verwijzing naar FXG-serverprotocol
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 368cef00-3009-4694-a014-746e4aa7df20
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '53'
 ht-degree: 0%
 
 ---
