@@ -4,12 +4,13 @@ seo-description: De viewer ondersteunt de bewerkingsmodus Volledig scherm.
 seo-title: Ondersteuning voor volledig scherm
 solution: Experience Manager
 title: Ondersteuning voor volledig scherm
-topic: Dynamic Media
 uuid: 124e78b2-3364-44c5-99fd-cbd2c97f16dc
+feature: Dynamic Media Classic,Viewers,SDK/API,Draaiensets
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
