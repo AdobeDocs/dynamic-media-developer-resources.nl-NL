@@ -1,16 +1,17 @@
 ---
 description: Zoomviewer is een afbeeldingsviewer waarin een afbeelding wordt weergegeven waarop kan worden ingezoomd. Deze viewer werkt met afbeeldingssets en de navigatie wordt uitgevoerd met stalen. Deze heeft zoomgereedschappen, ondersteuning voor volledig scherm, stalen en een optionele knop Sluiten. Het is ontworpen voor gebruik op desktops en mobiele apparaten.
-keywords: responsive
+keywords: responsief
 seo-description: Zoomviewer is een afbeeldingsviewer waarin een afbeelding wordt weergegeven waarop kan worden ingezoomd. Deze viewer werkt met afbeeldingssets en de navigatie wordt uitgevoerd met stalen. Deze heeft zoomgereedschappen, ondersteuning voor volledig scherm, stalen en een optionele knop Sluiten. Het is ontworpen voor gebruik op desktops en mobiele apparaten.
 seo-title: Zoomen
 solution: Experience Manager
 title: Zoomen
-topic: Dynamic Media
 uuid: ec2a91e2-ce2c-48b1-a2b2-8671524288c7
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoomen
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2460'
+source-wordcount: '2471'
 ht-degree: 0%
 
 ---
@@ -68,7 +69,7 @@ De zoomviewer ondersteunt de volgende aanraakbewegingen die ook in andere mobiel
   </tr> 
   <tr> 
    <td colname="col1"> <p>Horizontaal vegen of tikken </p> </td> 
-   <td colname="col2"> <p> Hiermee bladert u door de lijst met stalen in de staalbalk. </p> <p> Als de afbeelding in een herstelstatus staat en de <span class="codeph">-parameter voor de frametransitie </span> is ingesteld op schuiven, wordt het element gewijzigd met de diaanimatie. Voor andere <span class="codeph">-framemodi </span> voert de beweging native paginaschuiven uit. </p> <p> Als in de afbeelding wordt ingezoomd, wordt de afbeelding horizontaal verplaatst. Als de afbeelding naar de weergavegrens wordt verplaatst en een veegbeweging in dezelfde richting wordt uitgevoerd, wordt native paginaschuiven uitgevoerd. </p> </td> 
+   <td colname="col2"> <p> Hiermee bladert u door de lijst met stalen in de staalbalk. </p> <p> Als de afbeelding in een herstelstatus staat en de <span class="codeph">-parameter voor de frametransitie </span> is ingesteld op diavoorstelling, wordt het element gewijzigd met de diaanimatie. Voor andere <span class="codeph">-framemodi </span> voert de beweging native paginaschuiven uit. </p> <p> Als in de afbeelding wordt ingezoomd, wordt de afbeelding horizontaal verplaatst. Als de afbeelding naar de weergavegrens wordt verplaatst en een veegbeweging in dezelfde richting wordt uitgevoerd, wordt native paginaschuiven uitgevoerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verticaal veeggebaar </p> </td> 
@@ -146,7 +147,7 @@ Het relatieve pad ziet er als volgt uit:
 
 >[!NOTE]
 >
->Verwijs alleen naar het JavaScript-bestand `include` van de hoofdviewer op de pagina. U moet niet verwijzen naar extra JavaScript-bestanden in de webpaginacode die door de logica van de viewer in runtime kunnen worden gedownload. Verwijs met name niet rechtstreeks naar de HTML5 SDK `Utils.js`-bibliotheek die door de viewer is geladen vanaf het contextpad `/s7viewers` (de zogeheten geconsolideerde SDK `include`). De reden hiervoor is dat de locatie van `Utils.js` of vergelijkbare runtimeviewerbibliotheken volledig wordt beheerd door de logica van de viewer en dat de locatie verandert tussen de viewerreleases. Adobe houdt oudere versies van de secundaire viewer `includes` niet op de server.
+>U moet alleen verwijzen naar het JavaScript-bestand `include` van de hoofdviewer op uw pagina. U moet niet verwijzen naar extra JavaScript-bestanden in de webpaginacode die door de logica van de viewer in runtime kunnen worden gedownload. Verwijs met name niet rechtstreeks naar de HTML5 SDK `Utils.js`-bibliotheek die door de viewer is geladen vanaf het contextpad `/s7viewers` (de zogeheten geconsolideerde SDK `include`). De reden hiervoor is dat de locatie van `Utils.js` of vergelijkbare runtimeviewerbibliotheken volledig wordt beheerd door de logica van de viewer en dat de locatie verandert tussen de viewerreleases. Adobe houdt oudere versies van de secundaire viewer `includes` niet op de server.
 >
 >
 >Als u dus een directe verwijzing naar een secundair JavaScript `include` op de pagina plaatst, wordt de viewerfunctionaliteit in de toekomst verbroken wanneer een nieuwe productversie wordt geïmplementeerd.
