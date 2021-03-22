@@ -4,12 +4,13 @@ seo-description: Bepaalde inhoud die in de Basic Zoom Viewer wordt weergegeven, 
 seo-title: Lokalisatie van gebruikersinterface-elementen
 solution: Experience Manager
 title: Lokalisatie van gebruikersinterface-elementen
-topic: Dynamic Media
 uuid: 842970d9-0882-4163-8c49-3ea35d372d35
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoomen
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
