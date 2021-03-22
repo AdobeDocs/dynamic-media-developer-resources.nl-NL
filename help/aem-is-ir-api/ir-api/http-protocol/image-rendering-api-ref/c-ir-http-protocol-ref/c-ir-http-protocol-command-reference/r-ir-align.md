@@ -4,13 +4,14 @@ seo-description: Uitlijning van structuurrenderen. Hiermee geeft u op welke oors
 seo-title: align
 solution: Experience Manager
 title: align
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0b24cd82-f9b2-48f4-9052-8c2026370ff7
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 2%
+source-wordcount: '205'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +28,7 @@ Uitlijning van structuurrenderen. Hiermee geeft u op welke oorsprongpunten door 
   <td class="stentry"> <p>Standaard oorsprong (midden-overeenkomst). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p></td> 
+  <td class="stentry"> <p>1 </p></td> 
   <td class="stentry"> <p>Continu overeenkomende oorsprong. </p></td> 
  </tr> 
  <tr class="strow"> 
