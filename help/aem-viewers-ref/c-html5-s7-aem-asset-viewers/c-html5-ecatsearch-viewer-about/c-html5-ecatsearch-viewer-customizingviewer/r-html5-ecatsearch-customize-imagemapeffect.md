@@ -2,11 +2,12 @@
 description: Afhankelijk van de waarde van de modusparameter worden in de viewer pictogrammen voor afbeeldingen met hyperlinks in de hoofdweergave weergegeven op plaatsen waar kaarten oorspronkelijk zijn gemaakt in Dynamic Media Classic of worden exacte gebieden weergegeven die overeenkomen met de vorm van de oorspronkelijke afbeeldingen met hyperlinks.
 solution: Experience Manager
 title: Afbeeldingskaart, effect
-topic: Dynamic Media
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
