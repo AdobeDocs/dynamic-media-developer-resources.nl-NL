@@ -4,12 +4,13 @@ seo-description: Als u op deze knop klikt of erop tikt, wordt de afbeelding in d
 seo-title: Linkerkant draaien, knop
 solution: Experience Manager
 title: Linkerkant draaien, knop
-topic: Dynamic Media
 uuid: 742a912b-7ca1-43d4-aae6-a809e01d34b9
+feature: Dynamic Media Classic,Viewers,SDK/API,Mediasets mixen
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
