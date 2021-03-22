@@ -4,12 +4,13 @@ seo-description: Afbeelding uitsnijden. Hiermee geeft u een rechthoekig uitsnijd
 seo-title: uitsnijden
 solution: Experience Manager
 title: uitsnijden
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c8eca467-7564-48a6-82d7-17f68a1399e1
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
