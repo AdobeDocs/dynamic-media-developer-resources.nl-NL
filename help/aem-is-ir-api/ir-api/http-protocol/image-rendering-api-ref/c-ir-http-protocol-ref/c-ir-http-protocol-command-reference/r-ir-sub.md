@@ -4,12 +4,13 @@ seo-description: Subselectie. Hiermee kunt u verschillende materialen toepassen 
 seo-title: sub
 solution: Experience Manager
 title: sub
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: cb9f4dc5-9d89-483a-ae72-b9076b27c57e
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '185'
 ht-degree: 3%
 
 ---
@@ -27,7 +28,7 @@ Subselectie. Hiermee kunt u verschillende materialen toepassen op verschillende 
   <td class="stentry"> <p>Selecteer de hele muur. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>1 </p> </td> 
+  <td class="stentry"> <p>3 </p> </td> 
   <td class="stentry"> <p>Selecteer de bovenste helft van de muur. </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -35,7 +36,7 @@ Subselectie. Hiermee kunt u verschillende materialen toepassen op verschillende 
   <td class="stentry"> <p>Selecteer de onderste helft van de muur. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>1 </p> </td> 
+  <td class="stentry"> <p>3 </p> </td> 
   <td class="stentry"> <p>Selecteer het bovenste randgebied van de muur. </p> </td> 
  </tr> 
  <tr class="strow"> 
