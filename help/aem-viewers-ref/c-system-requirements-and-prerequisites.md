@@ -2,12 +2,13 @@
 title: Systeemvereisten voor Dynamic Media HTML5-viewers
 description: Systeemvereisten voor Dynamic Media HTML5-viewers.
 solution: Experience Manager
-topic: Dynamic Media
 contentOwner: Rick Brough
+feature: Dynamic Media Classic,Viewers,SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: da9f05a51ff8abd88f16024bccd1c7170a36d40f
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -64,4 +65,4 @@ Systeemvereisten voor Dynamic Media HTML5-viewers.
 
 >[!NOTE]
 >
->FLASH VIEWERS EINDE-LEVENSDUUR — Vanaf 31 januari 2017 heeft het Adobe Scene7 Publishing System officieel de ondersteuning voor het Flash-viewerplatform beëindigd.
+>Flash VIEWERS EINDE-LEVENSDUUR — Vanaf 31 januari 2017 heeft het Adobe Scene7 Publishing System officieel de ondersteuning voor het Flash-viewerplatform beëindigd.
