@@ -1,14 +1,15 @@
 ---
 description: eCatalog Search Viewer is een catalogusviewer die elektronische brochures in een spread per spread of pagina per pagina weergeeft. Met de eCatalog kunnen gebruikers door de catalogus navigeren met behulp van aanvullende gebruikersinterface-elementen of toegewijde miniatuurmodus. Gebruikers kunnen ook op elke pagina inzoomen voor meer informatie.
-keywords: responsive
+keywords: responsief
 solution: Experience Manager
 title: Zoeken in eCatalog
-topic: Dynamic Media
 uuid: f5ec33bf-e827-4709-9780-6f17096bf306
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2179'
+source-wordcount: '2191'
 ht-degree: 0%
 
 ---
@@ -138,11 +139,11 @@ U voegt de viewer als volgt toe aan een webpagina:
 
 1. Het JavaScript-bestand van de viewer toevoegen aan uw webpagina.
 
-   Voor het maken van een viewer moet u een scripttag aan de HTML-kop toevoegen. Voordat u de viewer-API kunt gebruiken, moet u [!DNL eCatalogSearchViewer.js] opnemen. Het [!DNL eCatalogSearchViewer.js]-bestand bevindt zich in de submap [!DNL html5/js/] van uw standaard IS-Viewers-implementatie:
+   Voor het maken van een viewer moet u een scripttag aan de HTML-kop toevoegen. Voordat u de viewer-API kunt gebruiken, moet u [!DNL eCatalogSearchViewer.js] opnemen. Het [!DNL eCatalogSearchViewer.js] dossier wordt gevestigd onder [!DNL html5/js/] subfolder van uw standaard plaatsing IS-Viewers:
 
 [!DNL <s7viewers_root>/html5/js/eCatalogSearchViewer.js]
 
-U kunt een relatief pad gebruiken als de viewer wordt geïmplementeerd op een van de Adobe Dynamic Media-servers en vanuit hetzelfde domein wordt aangeboden. Anders geeft u een volledig pad op naar een van de Adobe Dynamic Media-servers waarop IS-Viewers zijn geïnstalleerd.
+U kunt een relatief pad gebruiken als de viewer wordt geïmplementeerd op een van de Adobe Dynamic Media-servers en vanuit hetzelfde domein wordt aangeboden. Anders geeft u een volledig pad op naar een van de Adobe Dynamic Media-servers waarop de IS-Viewers zijn geïnstalleerd.
 
 Het relatieve pad ziet er als volgt uit:
 
