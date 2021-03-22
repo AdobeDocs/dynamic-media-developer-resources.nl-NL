@@ -4,12 +4,13 @@ seo-description: In de hoofdweergave van de inline zoommodus bestaat de ingezoom
 seo-title: Zoomweergave flyout
 solution: Experience Manager
 title: Zoomweergave flyout
-topic: Dynamic Media
 uuid: c4c94432-7b6f-40a8-ae5f-9423234f3656
+feature: Dynamic Media Classic,Viewers,SDK/API,Mediasets mixen
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
