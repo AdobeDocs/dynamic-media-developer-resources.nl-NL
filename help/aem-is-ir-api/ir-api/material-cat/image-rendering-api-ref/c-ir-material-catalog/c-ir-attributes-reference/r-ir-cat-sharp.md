@@ -4,12 +4,13 @@ seo-description: Standaardmateriaalverscherping. Hiermee stelt u de standaardmat
 seo-title: Scherp
 solution: Experience Manager
 title: Scherp
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f6a6101c-3d9e-4557-892b-be7943b4fdca
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '122'
 ht-degree: 3%
 
 ---
@@ -29,7 +30,7 @@ Enum.
   <td class="stentry"> <p>Geen verscherping. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p></td> 
+  <td class="stentry"> <p>1 </p></td> 
   <td class="stentry"> <p>Normale verscherping (na de transformatie). </p></td> 
  </tr> 
  <tr class="strow"> 
