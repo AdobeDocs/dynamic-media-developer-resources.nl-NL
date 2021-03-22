@@ -4,12 +4,13 @@ seo-description: Met deze knop activeert de viewer de modus Volledig scherm of w
 seo-title: Knop Volledig scherm
 solution: Experience Manager
 title: Knop Volledig scherm
-topic: Dynamic Media
 uuid: ef3a0c21-88e0-4a10-9b89-da862b579b17
+feature: Dynamic Media Classic,Viewers,SDK/API,Mediasets mixen
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
