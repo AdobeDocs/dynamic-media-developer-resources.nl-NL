@@ -4,12 +4,13 @@ seo-description: Eindweergaverechthoek. Hiermee kunt u de uiteindelijke afbeeldi
 seo-title: rect
 solution: Experience Manager
 title: rect
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c4830fc5-d102-4789-8753-0a660d4a557e
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
