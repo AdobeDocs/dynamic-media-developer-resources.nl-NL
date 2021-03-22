@@ -4,12 +4,13 @@ seo-description: Het gereedschap voor sociaal delen wordt standaard in de rechte
 seo-title: Sociaal aandeel
 solution: Experience Manager
 title: Sociaal aandeel
-topic: Dynamic Media
 uuid: 1123e96a-581f-4c1c-ad95-9804e3235002
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
