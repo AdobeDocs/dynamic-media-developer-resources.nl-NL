@@ -1,15 +1,16 @@
 ---
-description: Met de knop Afspelen/Pauzeren kan een gebruiker het automatisch afspelen van carrousels pauzeren of hervatten.
-seo-description: Met de knop Afspelen/Pauzeren kan een gebruiker het automatisch afspelen van carrousels pauzeren of hervatten.
+description: Met de knop Afspelen/Pauzeren kan een gebruiker het automatisch afspelen van carrousels onderbreken of hervatten.
+seo-description: Met de knop Afspelen/Pauzeren kan een gebruiker het automatisch afspelen van carrousels onderbreken of hervatten.
 seo-title: Knop PlayPause
 solution: Experience Manager
 title: Knop PlayPause
-topic: Dynamic Media
 uuid: 342def36-9dfb-487c-bed5-b0f301ce8430
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # PlayPause-knop{#playpause-button}
 
-Met de knop Afspelen/Pauzeren kan een gebruiker het automatisch afspelen van carrousels pauzeren of hervatten.
+Met de knop Afspelen/Pauzeren kan een gebruiker het automatisch afspelen van carrousels onderbreken of hervatten.
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
