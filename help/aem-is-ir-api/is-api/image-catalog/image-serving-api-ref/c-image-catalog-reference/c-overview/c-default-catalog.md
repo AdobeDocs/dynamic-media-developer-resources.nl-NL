@@ -4,12 +4,13 @@ seo-description: De standaardcatalogus bevat standaardwaarden voor alle catalogu
 seo-title: Standaardcatalogus
 solution: Experience Manager
 title: Standaardcatalogus
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9f0c967e-a2fa-4ef0-bacb-3dcfb06a8027
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 De standaardcatalogus bevat standaardwaarden voor alle cataloguskenmerken van alle afbeeldingscatalogi.
 
-Als een bepaald kenmerk niet in een specifieke afbeeldingscatalogus kan worden gevonden, gebruikt de server in plaats daarvan de bijbehorende waarde uit de standaardcatalogus. Op dezelfde manier kan de standaardcatalogus worden gebruikt om standaardwaarden te bieden voor specifieke records met catalogusgegevens (afbeeldingen, macrodefinities, lettertypen en ICC-profielen). Als een bepaalde gegevensrecord niet kan worden gevonden in een specifieke afbeeldingscatalogus, probeert de server deze in plaats daarvan te vinden in de standaardcatalogus. Hierdoor kunnen afbeeldingscatalogi dunbevolkt worden en wordt het beheer van algemene kenmerken en gegevens, zoals gedeelde sjablonen, macro&#39;s, lettertypen enzovoort, vereenvoudigd.
+Als een bepaald kenmerk niet in een specifieke afbeeldingscatalogus kan worden gevonden, gebruikt de server in plaats daarvan de corresponderende waarde uit de standaardcatalogus. Op dezelfde manier kan de standaardcatalogus worden gebruikt om standaardwaarden te bieden voor specifieke records met catalogusgegevens (afbeeldingen, macrodefinities, lettertypen en ICC-profielen). Als een bepaalde gegevensrecord niet kan worden gevonden in een specifieke afbeeldingscatalogus, probeert de server deze in plaats daarvan te vinden in de standaardcatalogus. Hierdoor kunnen afbeeldingscatalogi dunbevolkt worden en wordt het beheer van algemene kenmerken en gegevens, zoals gedeelde sjablonen, macro&#39;s, lettertypen enzovoort, vereenvoudigd.
 
 Bovendien bevat de standaardcatalogus alle kenmerken en gegevensrecords (macro&#39;s, lettertypen, ICC-profielen, regels voor voorbewerking aanvragen) wanneer een bewerking geen specifieke afbeeldingscatalogus bevat.
 
