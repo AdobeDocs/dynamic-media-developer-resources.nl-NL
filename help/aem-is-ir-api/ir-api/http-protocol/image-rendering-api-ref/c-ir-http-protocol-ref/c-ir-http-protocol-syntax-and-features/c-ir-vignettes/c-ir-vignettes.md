@@ -2,11 +2,12 @@
 description: Vignetten zijn afbeeldingen die zijn ontworpen met Dynamic Media Image Authoring voor gebruik met behulp van Image Rendering.
 solution: Experience Manager
 title: Vignetten
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
@@ -43,7 +44,7 @@ Naast de basisobjecttypen worden twee speciale soorten overlappende objecten ond
 * **Statische overlappende** objecten zijn objecten die geen materialen accepteren. Ze zijn toegestaan in zowel 2D- als 3D-vignetten. Ze zijn handig voor verwijderbare accessoires in een kamerscène, voor slagschaduwen achter renderbare overlappende objecten en vergelijkbare toepassingen.
 * **Venster dat frameobjecten bedekt,** biedt plaatsingsinformatie voor het toepassen van Window coverings-stijlbestanden, die onafhankelijk van het vignet zijn ontworpen en onder vignetten kunnen worden gedeeld.
 
-Objecten worden verzameld in *objectgroepen*, vergelijkbaar met een bestandssysteem. Groepering is gewoonlijk gebaseerd op de structuur van de fysieke objecten die zij vertegenwoordigen (een groep &quot;Alle kasten&quot; kan bijvoorbeeld &quot;Basiskasten&quot; en &quot;Muurkasten&quot; bevatten). Een willekeurig aantal groepsniveaus is toegestaan. Groeperen ondersteunt de toepassing van materialen op meerdere, vergelijkbare objecten.
+Objecten worden verzameld in *objectgroepen*, vergelijkbaar met een bestandssysteem. Groepering is gewoonlijk gebaseerd op de structuur van de fysieke objecten die zij vertegenwoordigen (een groep &#39;Alle kasten&#39; kan bijvoorbeeld &#39;Basiskasten&#39; en &#39;Muurkasten&#39; bevatten). Een willekeurig aantal groepsniveaus is toegestaan. Groeperen ondersteunt de toepassing van materialen op meerdere, vergelijkbare objecten.
 
 * [Scènecoördinaten](c-ir-scene-coordinates.md)
 * [Materiaalresolutie](c-ir-material-resolution.md)
