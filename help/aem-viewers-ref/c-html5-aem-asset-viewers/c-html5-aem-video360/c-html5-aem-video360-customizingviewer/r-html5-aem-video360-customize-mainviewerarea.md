@@ -4,12 +4,13 @@ seo-description: Het belangrijkste weergavegebied is het gebied dat wordt ingeno
 seo-title: Hoofdviewergebied
 solution: Experience Manager
 title: Hoofdviewergebied
-topic: Dynamic Media
 uuid: ec321901-f077-4f71-a48c-20cae11c41d1
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
