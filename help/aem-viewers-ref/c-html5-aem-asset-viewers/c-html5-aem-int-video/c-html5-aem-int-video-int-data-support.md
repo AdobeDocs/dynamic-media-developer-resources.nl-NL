@@ -4,12 +4,13 @@ seo-description: De Interactive Video Viewer ondersteunt het renderen van intera
 seo-title: Interactieve gegevensondersteuning
 solution: Experience Manager
 title: Interactieve gegevensondersteuning
-topic: Dynamic Media
 uuid: 70b2ec2e-0ea7-461d-a185-731fb0ef8f3e
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
