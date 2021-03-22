@@ -4,12 +4,13 @@ seo-description: De positie van de Remove knoop van de Favoriet wordt volledig b
 seo-title: Knop Favoriet verwijderen
 solution: Experience Manager
 title: Knop Favoriet verwijderen
-topic: Dynamic Media
 uuid: c2e1929d-d859-49d5-8bdc-13507e25d02c
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
