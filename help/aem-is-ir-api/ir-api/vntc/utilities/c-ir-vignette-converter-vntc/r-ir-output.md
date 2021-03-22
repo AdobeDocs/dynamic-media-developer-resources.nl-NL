@@ -4,12 +4,13 @@ seo-description: vntc genereert tekstgegevens die naar stderr of het logbestand 
 seo-title: Uitvoer
 solution: Experience Manager
 title: Uitvoer
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f2041600-408f-481c-95fc-3c112def7b8a
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
@@ -138,7 +139,7 @@ De volgende eigenschappen worden gegenereerd:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">texturable=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p><span class="varname"> </span> ivalis 1 als de kabinetstijl tekentabel is, 0 anders. Niet aanwezig voor vignetten en vensterbekledingsstijldossiers. </p></td> 
+  <td class="stentry"> <p><span class="varname"> </span> ivalis 1 als de stijl van het kabinet tekentabel is, 0 anders. Niet aanwezig voor vignetten en vensterbekledingsstijldossiers. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">waarschuwing.<span class="varname"> n</span>=<span class="varname"> string</span></span> </p></td> 
