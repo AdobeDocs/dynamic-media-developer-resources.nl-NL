@@ -4,12 +4,13 @@ seo-description: Cachebeheer. Staat selectief toe onbruikbaar makend cliënt-zij
 seo-title: cachegeheugen
 solution: Experience Manager
 title: cachegeheugen
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 08f4e4d0-0f7d-48fe-956c-284af97c902e
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -44,7 +45,7 @@ Met het trefwoord `validate` kunt u cachemaringangen bijwerken nadat afbeeldings
 
 Met het trefwoord `update` kunt u het bijwerken van cachemarkeringen op de server forceren. Dit is handig nadat bronnen zijn gewijzigd die niet rechtstreeks worden bijgehouden door het mechanisme voor cachevalidatie, bijvoorbeeld wanneer een lettertypebestand wordt gewijzigd zonder de bestandsnaam of de bijbehorende lettertype-id te wijzigen.
 
-Als `cache=on` in een geneste aanvraag wordt opgegeven, wordt de afbeelding die door de geneste aanvraag wordt gegenereerd, permanent in cache op de server geplaatst. Zorg ervoor dat caching alleen mogelijk is voor geneste aanvragen wanneer hetzelfde geneste verzoek herhaaldelijk moet worden aangeroepen met exact dezelfde parameters.
+Als `cache=on` in een geneste aanvraag is opgegeven, wordt de afbeelding die door de geneste aanvraag wordt gegenereerd, permanent in cache op de server geplaatst. Zorg ervoor dat caching alleen mogelijk is voor geneste aanvragen wanneer hetzelfde geneste verzoek herhaaldelijk moet worden aangeroepen met exact dezelfde parameters.
 
 ## Eigenschappen {#section-dfd0b2f92b3743fc8b9d2c35a786eb81}
 
