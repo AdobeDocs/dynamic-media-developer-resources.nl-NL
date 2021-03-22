@@ -4,12 +4,13 @@ seo-description: Markeringen toepassen. Geeft aanvullende renderopties aan.
 seo-title: vlaggen
 solution: Experience Manager
 title: vlaggen
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 43ed24fe-461e-4973-aa44-8fba66668e6f
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
