@@ -4,12 +4,13 @@ seo-description: De het menudrop-down lijst van Favorieten verschijnt in de cont
 seo-title: Menu Favorieten
 solution: Experience Manager
 title: Menu Favorieten
-topic: Dynamic Media
 uuid: 46de2a74-690e-4010-8a71-54206dd02fd0
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
