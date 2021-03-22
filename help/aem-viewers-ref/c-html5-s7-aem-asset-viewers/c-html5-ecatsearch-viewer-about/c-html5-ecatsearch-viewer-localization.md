@@ -4,12 +4,13 @@ seo-description: Bepaalde inhoud die in de eCatalog Viewer wordt weergegeven, is
 seo-title: Lokalisatie van gebruikersinterface-elementen
 solution: Experience Manager
 title: Lokalisatie van gebruikersinterface-elementen
-topic: Dynamic Media
 uuid: 836cb874-2ce6-4737-9c10-f41af003a285
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
