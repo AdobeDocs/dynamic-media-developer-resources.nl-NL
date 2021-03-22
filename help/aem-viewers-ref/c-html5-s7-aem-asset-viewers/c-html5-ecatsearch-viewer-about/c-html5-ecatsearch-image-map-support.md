@@ -4,12 +4,13 @@ seo-description: De zoekviewer voor eCatalog ondersteunt het renderen van pictog
 seo-title: Ondersteuning voor afbeeldingen met hyperlinks
 solution: Experience Manager
 title: Ondersteuning voor afbeeldingen met hyperlinks
-topic: Dynamic Media
 uuid: 22ba8168-b384-4eda-a147-ce8172cfed11
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
