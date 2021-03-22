@@ -4,12 +4,13 @@ seo-description: De installatiemap voor Image Serving (install_folder) is instal
 seo-title: Map installeren
 solution: Experience Manager
 title: Map installeren
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3e3a5077-f165-42e0-806b-c2cc97aa4f9a
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
