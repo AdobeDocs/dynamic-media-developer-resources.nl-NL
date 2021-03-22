@@ -2,11 +2,12 @@
 description: Image Serving ondersteunt kleurruimteconversies op basis van kleurruimteprofielen die voldoen aan de ICC-specificatie (International Color Consortium).
 solution: Experience Manager
 title: Kleurbeheer van afbeeldingsserver
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1203'
 ht-degree: 0%
 
 ---
@@ -70,7 +71,7 @@ Momenteel worden alleen CMYK-, RGB- en grijswaardenkleurruimten ondersteund.
 
 ## Opgenomen ICC-kleurprofielen {#section-98b4a7d9f9814e8ba27d6dcf3dcf850c}
 
-De meeste standaard Adobe ICC-profielen worden opgenomen in de standaardafbeeldingscatalogus. Deze profielen kunnen worden benaderd door hun algemene namen (bijvoorbeeld zoals in Photoshop) of met een iets kortere id. In de volgende tabel worden alle standaard-ICC-profielen weergegeven. Wanneer u met de algemene naam naar een profiel in de opdracht `icc=` verwijst, moeten de spaties als `%20` worden gecodeerd.
+De meeste standaard Adobe ICC-profielen worden opgenomen in de standaardafbeeldingscatalogus. Deze profielen kunnen worden benaderd door hun algemene namen (bijvoorbeeld zoals in Photoshop) of met een iets kortere id. In de volgende tabel worden alle standaard-ICC-profielen weergegeven. Wanneer u naar een profiel in de opdracht `icc=` verwijst met de algemene naam, moeten spaties worden gecodeerd als `%20`.
 
 Er kunnen aanvullende profielen worden toegevoegd aan de standaardprofielen, hetzij aan de standaardcatalogus, hetzij aan een specifieke afbeeldingscatalogus. Raadpleeg de [ICC Profile Map Reference](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c) voor meer informatie.
 
