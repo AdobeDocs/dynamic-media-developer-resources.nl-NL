@@ -4,12 +4,13 @@ seo-description: Brongegevensbestanden voor het renderen van afbeeldingen zijn o
 seo-title: Brongegevens
 solution: Experience Manager
 title: Brongegevens
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 76c6419c-613e-4eff-b30f-9fea2a7daf5b
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,beheerder,praktijkgericht
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -29,7 +30,7 @@ Als er een materiaalcatalogus is, wordt het bestand dat is opgegeven in de mater
 * Als het pad absoluut is, wordt het gebruikt; anders, combineert de server het met de weg die in [ir.resourceRootPaths](../../../../../../ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-resource-root-folders.md#concept-39a34d2239934079bb396e1bf568a9c2) wordt gespecificeerd.
 * Als het pad nu absoluut is, wordt het gebruikt; anders, wordt het verondersteld om met betrekking tot [!DNL *[!DNL install_folder]*] te zijn.
 
-Als er geen afbeeldingscatalogus bij betrokken is, wordt het pad gecombineerd met `default::RootPath` en vervolgens verwerkt zoals hierboven.
+Als er geen afbeeldingscatalogus bij betrokken is, wordt het pad gecombineerd met `default::RootPath` en vervolgens verwerkt zoals hierboven beschreven.
 
 De fysieke locatie van brongegevensbestanden wordt doorgaans opgegeven met [ir.resourceRootPaths](../../../../../../ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-resource-root-folders.md#concept-39a34d2239934079bb396e1bf568a9c2). U kunt meerdere waarden opgeven om brongegevensbestanden over meerdere bestandssystemen te kunnen verspreiden. De renderserver probeert elk pad in de opgegeven volgorde totdat het gegevensbestand wordt gevonden.
 
