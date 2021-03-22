@@ -4,12 +4,13 @@ seo-description: De indicator Set is een reeks punten die boven op hoofdstalen w
 seo-title: Indicator instellen
 solution: Experience Manager
 title: Indicator instellen
-topic: Dynamic Media
 uuid: e62fac7c-28b6-40bf-83cc-8bcfbaa0dfa3
+feature: Dynamic Media Classic,Viewers,SDK/API,Mediasets mixen
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
