@@ -4,12 +4,13 @@ seo-description: De Server van het beeld verstrekt verscheidene alternatieven om
 seo-title: Tekstopmaak
 solution: Experience Manager
 title: Tekstopmaak
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e67b6dd2-2a78-4014-9525-816d91c9e783
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -27,7 +28,7 @@ De Server van het beeld verstrekt verscheidene alternatieven om tekst terug te g
 
 Alle tekstopdrachten accepteren opgemaakte tekst die is gebaseerd op een subset van de RTF-specificatie (Rich Text Format). Elke tekstlaag kan een andere tekstopdracht opgeven.
 
-In de volgende tabel worden de belangrijkste functies weergegeven die beschikbaar zijn voor elke tekstopdracht:
+In de volgende tabel staan de belangrijkste functies die beschikbaar zijn voor elke tekstopdracht:
 
 <table id="table_9C41CBDA94C24805B538E5049B0137C6"> 
  <thead> 
