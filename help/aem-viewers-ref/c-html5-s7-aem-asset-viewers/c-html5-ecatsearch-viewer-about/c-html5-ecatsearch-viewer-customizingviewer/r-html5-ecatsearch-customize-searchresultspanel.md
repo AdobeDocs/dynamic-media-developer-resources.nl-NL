@@ -4,12 +4,13 @@ seo-description: Het deelvenster met zoekresultaten bestaat uit het invoervak vo
 seo-title: Deelvenster Zoekresultaten
 solution: Experience Manager
 title: Deelvenster Zoekresultaten
-topic: Dynamic Media
 uuid: 43d8e003-79f7-4e41-98d7-b362ab7180ea
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '963'
 ht-degree: 0%
 
 ---
