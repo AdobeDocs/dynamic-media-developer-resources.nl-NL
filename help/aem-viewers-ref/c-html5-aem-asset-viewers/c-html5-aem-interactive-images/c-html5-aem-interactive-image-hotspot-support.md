@@ -2,12 +2,13 @@
 description: Ondersteuning voor hotspots
 solution: Experience Manager
 title: Ondersteuning voor hotspots
-topic: Dynamic Media
 uuid: 62e0e55a-55a3-417d-ad51-ec77a7c16ac3
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve afbeeldingen
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
