@@ -1,12 +1,12 @@
 ---
 cloud: experience-cloud
-product: adobe
-archtype: end-user
 user-guide-title: Dynamic Media Viewers Reference Guide
+feature-set: Experience Manager Assets
+user-guide-description: Pas Dynamic Media-viewers aan voor gebruik op desktop- en touchscreen-apparaten. Inclusief interactieve afbeeldingen en video's, carrousels, centrifuges en nog veel meer.
 translation-type: tm+mt
-source-git-commit: 192b5624945b08e438a65e3e9fd25aca503857fc
+source-git-commit: 0f6386196be7cf0ad45371d6017e2e71b9048b14
 workflow-type: tm+mt
-source-wordcount: '1897'
+source-wordcount: '1913'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,6 @@ ht-degree: 1%
 
 # Dynamic Media Viewers Reference Guide {#library}
 
-+ [Dynamic Media Developer Resources Home](/help/landing/home.md)
 + [Dynamic Media Viewers Reference Guide](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en) -->
 + [Voorbeelden van viewerbibliotheken](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 + [Systeemvereisten](c-system-requirements-and-prerequisites.md)
