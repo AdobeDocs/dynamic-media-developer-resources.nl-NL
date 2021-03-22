@@ -4,12 +4,13 @@ seo-description: De videoscrubber is de horizontale schuifregelaar waarmee een g
 seo-title: Videoscrubber
 solution: Experience Manager
 title: Videoscrubber
-topic: Dynamic Media
 uuid: b5574de1-7fb1-4fda-bfe7-a58ea2a8389d
+feature: Dynamic Media Classic,Viewers,SDK/API,Mediasets mixen
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
