@@ -1,13 +1,13 @@
 ---
 cloud: experience-cloud
-product: adobe
-archtype: end-user
 user-guide-title: Dynamic Media-API voor beeldbeheer en renderen
 breadcrumb-title: Dynamic Media-API voor beeldbeheer en renderen
+feature-set: Experience Manager Assets
+user-guide-description: Documentatie weergeven over API's van het type IS (Image Serving) en AIR (Image Rendering) en verwante technologieën.
 translation-type: tm+mt
-source-git-commit: 192b5624945b08e438a65e3e9fd25aca503857fc
+source-git-commit: 0f6386196be7cf0ad45371d6017e2e71b9048b14
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1466'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,6 @@ ht-degree: 0%
 
 # API voor Dynamic Media Image Serving and Rendering {#image-serving-api}
 
-+ [Dynamic Media Developer Resources Home](/help/landing/home.md)
 + [Start Dynamic Media Image Serving and Image Rendering API](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html?lang=en) -->
 + [Over deze release](r-about-this-release.md)
 + [Systeemvereisten en -vereisten](r-requirements-and-prerequisites.md)
