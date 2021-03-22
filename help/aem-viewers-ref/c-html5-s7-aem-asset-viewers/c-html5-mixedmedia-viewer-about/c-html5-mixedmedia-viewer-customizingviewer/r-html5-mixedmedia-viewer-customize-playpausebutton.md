@@ -4,12 +4,13 @@ seo-description: Met de knop Afspelen/Pauzeren wordt de video-inhoud afgespeeld 
 seo-title: Knop Afspelen/Pauzeren
 solution: Experience Manager
 title: Knop Afspelen/Pauzeren
-topic: Dynamic Media
 uuid: a02499da-e2d9-465f-b198-4b2221f3502b
+feature: Dynamic Media Classic,Viewers,SDK/API,Mediasets mixen
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
