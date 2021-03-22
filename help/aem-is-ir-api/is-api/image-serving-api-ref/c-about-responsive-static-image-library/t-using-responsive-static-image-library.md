@@ -2,11 +2,12 @@
 description: Voer de volgende stappen uit om een bibliotheek met responsieve afbeeldingen aan een webpagina toe te voegen en bestaande afbeeldingen met de bibliotheek te beheren.
 solution: Experience Manager
 title: De bibliotheek met responsieve afbeeldingen gebruiken
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
