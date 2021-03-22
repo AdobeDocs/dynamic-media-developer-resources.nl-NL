@@ -4,12 +4,13 @@ seo-description: Laaggrootte. Geeft de grootte of maximale laaggrootte voor een 
 seo-title: size
 solution: Experience Manager
 title: size
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c9c13062-7974-4dd9-aff4-f9502bcf442e
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -30,7 +31,7 @@ Laaggrootte. Geeft de grootte of maximale laaggrootte voor een laag op, voordat 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> widthN  </span>,  <span class="varname"> heightN  </span> </span> </p> </td> 
-  <td class="stentry"> <p>Beperking voor laaggrootte is genormaliseerd ten opzichte van de grootte 0 van de laag (reëel, reëel, 0.0...1.0). </p> </td> 
+  <td class="stentry"> <p>Beperking voor laaggrootte is genormaliseerd ten opzichte van de grootte van laag 0 (reëel, reëel, 0.0...1.0). </p> </td> 
  </tr> 
 </table>
 
