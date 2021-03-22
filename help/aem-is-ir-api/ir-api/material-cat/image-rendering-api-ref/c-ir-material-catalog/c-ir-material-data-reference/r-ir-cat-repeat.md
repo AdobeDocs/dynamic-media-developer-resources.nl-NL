@@ -4,13 +4,14 @@ seo-description: Modus Structuur herhalen. Hiermee geeft u op hoe structuurafbee
 seo-title: Herhalen
 solution: Experience Manager
 title: Herhalen
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bd15a573-9902-4672-992d-90d171160a46
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 14%
+source-wordcount: '150'
+ht-degree: 13%
 
 ---
 
@@ -39,7 +40,7 @@ De volgende waarden zijn toegestaan voor herhaalbare structuurmaterialen:
   <td class="- topic/stentry stentry"> <p>willekeurige verdeling in acht richtingen. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
-  <td class="- topic/stentry stentry"> <p>1 </p></td> 
+  <td class="- topic/stentry stentry"> <p>3 </p></td> 
   <td class="- topic/stentry stentry"> <p>Ruitvormige betegeling. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
