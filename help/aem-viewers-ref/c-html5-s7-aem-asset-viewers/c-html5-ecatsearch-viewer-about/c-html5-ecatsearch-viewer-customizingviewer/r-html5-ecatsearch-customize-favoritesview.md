@@ -4,12 +4,13 @@ seo-description: De weergave Favorieten bestaat uit een kolom met miniatuurafbee
 seo-title: Weergave Favorieten
 solution: Experience Manager
 title: Weergave Favorieten
-topic: Dynamic Media
 uuid: e9d0380e-3b08-45e4-8419-447df2e8de37
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
