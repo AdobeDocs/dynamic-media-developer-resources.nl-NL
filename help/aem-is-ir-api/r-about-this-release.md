@@ -4,12 +4,13 @@ seo-description: Deze release—Afbeelding met 6.6.1 en Afbeelding weergeven 6.6
 seo-title: Over deze release
 solution: Experience Manager
 title: Over deze release
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2fdd8920-433b-405e-bf93-dbef5735be3f
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
