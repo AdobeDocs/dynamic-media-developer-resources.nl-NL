@@ -4,12 +4,13 @@ seo-description: Als u op deze knop klikt of erop tikt, wordt de viewer tussen d
 seo-title: Knop Miniaturen
 solution: Experience Manager
 title: Knop Miniaturen
-topic: Dynamic Media
 uuid: a84fd01b-95a5-41bc-ac9f-f1de485f4da6
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
