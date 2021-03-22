@@ -4,12 +4,13 @@ seo-description: Documentatie met configuratiekenmerken voor gemengde Media View
 seo-title: Command reference - Configuration attributes
 solution: Experience Manager
 title: Command reference - Configuration attributes
-topic: Dynamic Media
 uuid: c0f09a05-f024-4cf0-a65f-0bfee015f635
+feature: Dynamic Media Classic,Viewers,SDK/API,Mediasets mixen
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
