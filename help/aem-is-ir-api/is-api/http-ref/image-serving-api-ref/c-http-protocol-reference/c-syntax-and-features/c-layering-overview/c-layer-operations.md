@@ -4,12 +4,13 @@ seo-description: Naast het rangschikken (grootte=) en het plaatsen (pos=) lagen 
 seo-title: Laagbewerkingen
 solution: Experience Manager
 title: Laagbewerkingen
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a9ef4199-cfa2-480e-a4de-8a0b9064a649
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
@@ -23,4 +24,4 @@ De kenmerken `origin=` en `anchor=` kunnen worden gebruikt om de gewenste uitlij
 
 De opdracht `maskUse=` is beschikbaar voor afbeeldingslagen voor toegang tot het achtergrondgebied van afbeeldingen met aparte maskers.
 
-`opac=` U kunt de dekking van de laag variëren en de laag weergeven of verbergen.  `hide=` 
+`opac=` U kunt de dekking van de laag variëren en de laag tonen of  `hide=` verbergen.
