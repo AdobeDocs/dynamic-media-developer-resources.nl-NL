@@ -4,12 +4,13 @@ seo-description: Om de kans op het knoeien met verzoeken te verminderen, wordt e
 seo-title: Verzoek vergrendelen
 solution: Experience Manager
 title: Verzoek vergrendelen
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 03239376-1e40-48d2-a396-c276802854ed
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
