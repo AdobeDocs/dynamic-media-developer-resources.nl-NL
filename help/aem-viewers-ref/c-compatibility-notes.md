@@ -4,12 +4,13 @@ seo-description: Compatibiliteitsnotities voor besturingssystemen, browsers en m
 seo-title: Compatibiliteitsnotities
 solution: Experience Manager
 title: Compatibiliteitsnotities
-topic: Dynamic Media
 uuid: cf732a03-bfaa-4838-862f-73343cefbd67
+feature: Dynamic Media Classic,Viewers,SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
