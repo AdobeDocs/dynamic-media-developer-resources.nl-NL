@@ -4,12 +4,13 @@ seo-description: De hoofdklasse van de gemengde Kijker van Media is MixedMediaVi
 seo-title: JavaScript API-referentie voor gemengde media-viewer
 solution: Experience Manager
 title: JavaScript API-referentie voor gemengde media-viewer
-topic: Dynamic Media
 uuid: 8a416e62-3ae1-4539-8757-d68f99ea1d1a
+feature: Dynamic Media Classic,Viewers,SDK/API,Mediasets mixen
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
