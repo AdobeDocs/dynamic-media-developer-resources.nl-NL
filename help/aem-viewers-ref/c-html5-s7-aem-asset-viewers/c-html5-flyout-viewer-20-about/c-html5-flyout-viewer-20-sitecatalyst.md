@@ -4,12 +4,13 @@ seo-description: De Flyout-viewer biedt ondersteuning voor het uit de verpakking
 seo-title: Ondersteuning voor Adobe Analytics-tracking
 solution: Experience Manager
 title: Ondersteuning voor Adobe Analytics-tracking
-topic: Dynamic Media
 uuid: 204857d3-744a-4c11-90db-1b18ff5ea5df
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+role: Ontwikkelaar, Business Practice, Data Engineer, Data Architect
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
