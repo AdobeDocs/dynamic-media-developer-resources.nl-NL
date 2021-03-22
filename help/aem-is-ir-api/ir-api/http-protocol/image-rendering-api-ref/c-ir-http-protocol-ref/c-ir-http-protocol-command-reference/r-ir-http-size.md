@@ -4,12 +4,13 @@ seo-description: Decal size. Hiermee geeft u de grootte van een decal-materiaal 
 seo-title: size
 solution: Experience Manager
 title: size
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b82f3429-3d84-4707-8126-d390239df9a2
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
@@ -34,7 +35,7 @@ Decal size. Hiermee geeft u de grootte van een decal-materiaal op.
 
 Als noch de breedte, noch de hoogte 0 is, wordt de afbeelding geschaald tot de exacte opgegeven afmetingen en blijft de hoogte-breedteverhouding van de afbeelding niet behouden. Als u een van beide waarden instelt op 0, blijft de hoogte-breedteverhouding van de afbeelding behouden.
 
-Wanneer *`thickness`* is opgegeven, wordt een slagschaduw weergegeven als het vignetobject een geschikte lichtvector definieert. Stel *`thickness`* in op 0 om slagschaduwrendering uit te schakelen.
+Wanneer *`thickness`* is opgegeven, wordt een slagschaduw gerenderd als het vignetobject een geschikte lichtvector definieert. Stel *`thickness`* in op 0 om slagschaduwrendering uit te schakelen.
 
 ## Eigenschappen {#section-818e01e91fed4015951189c818ef28d8}
 
