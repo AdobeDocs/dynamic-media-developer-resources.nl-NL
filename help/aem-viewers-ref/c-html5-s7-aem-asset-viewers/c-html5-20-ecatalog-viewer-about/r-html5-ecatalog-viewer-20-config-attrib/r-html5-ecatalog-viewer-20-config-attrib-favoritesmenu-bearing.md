@@ -4,12 +4,13 @@ seo-description: Hiermee bepaalt u de richting van de dianavigatie voor de knopp
 seo-title: FavoritesMenu.bearing
 solution: Experience Manager
 title: FavoritesMenu.bearing
-topic: Dynamic Media
 uuid: badc02ef-2724-41bb-9b00-c65966be8577
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
