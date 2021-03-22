@@ -4,12 +4,13 @@ seo-description: Type aanvraag. Hier geeft u het type aanvraag op.
 seo-title: req
 solution: Experience Manager
 title: req
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 1c8ff9c3-9f39-46a8-bd38-8e0c5ab0f548
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -39,7 +40,7 @@ Type aanvraag. Hier geeft u het type aanvraag op.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> oversetstatus</span> </p> </td> 
-   <td colname="col2"> <p>Keert de lijst van XML terug waarvan <span class="codeph"> &lt;RichText/&gt;</span> elementen overlopende zijn. </p> <p>Retourneert een XML-lijst met <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> elementen die overlopen voor verwerking op de client. Alleen <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> elementen die overlopen worden geretourneerd. <span class="+ topic/ph pr-d/codeph codeph"> s7:</span> element is een vereist  <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> kenmerk bij gebruik van  <span class="+ topic/ph pr-d/codeph codeph"> req=oversetstatus</span>. Elke overlopende <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> elementen zonder een <span class="+ topic/ph pr-d/codeph codeph"> s7:element</span> wordt niet vermeld. Elk <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> element in de lijst heeft <span class="+ topic/ph pr-d/codeph codeph"> s7:element</span>, <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span>, en het bounding vakje van het overlopende tekstkader. Het <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span> attribuut geeft de tekstindex in het artikel aan tot welke tekst in het kader kon passen. <span class="+ topic/ph pr-d/codeph codeph"> Req=</span> oversetstatus is alleen van toepassing op  <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> elementen in de gevraagde FXG. Er worden geen <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span>-elementen van ingesloten FXG's vermeld. </p> </td> 
+   <td colname="col2"> <p>Keert de lijst van XML terug waarvan <span class="codeph"> &lt;RichText/&gt;</span> elementen overlopende zijn. </p> <p>Retourneert een XML-lijst met <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> elementen die overlopend zijn voor verwerking op de client. Alleen <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> elementen die overlopen worden geretourneerd. <span class="+ topic/ph pr-d/codeph codeph"> s7:</span> element is een vereist  <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> kenmerk bij gebruik van  <span class="+ topic/ph pr-d/codeph codeph"> req=oversetstatus</span>. Elke overlopende <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> elementen zonder een <span class="+ topic/ph pr-d/codeph codeph"> s7:element</span> wordt niet vermeld. Elk <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> element in de lijst heeft <span class="+ topic/ph pr-d/codeph codeph"> s7:element</span>, <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span>, en het bounding vakje van het overlopende tekstkader. Het <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span> attribuut geeft de tekstindex in het artikel aan tot welke tekst in het kader kon passen. <span class="+ topic/ph pr-d/codeph codeph"> Req=</span> oversetstatus is alleen van toepassing op  <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> elementen in de gevraagde FXG. Er worden geen <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span>-elementen van ingesloten FXG's vermeld. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> exists</span> </p> </td> 
