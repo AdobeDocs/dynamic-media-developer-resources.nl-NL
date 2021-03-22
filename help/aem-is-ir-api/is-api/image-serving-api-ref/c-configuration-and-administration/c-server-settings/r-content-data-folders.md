@@ -4,12 +4,13 @@ seo-description: Gebruik deze serverinstellingen voor inhoudsgegevensmappen.
 seo-title: Inhoudsgegevensmappen
 solution: Experience Manager
 title: Inhoudsgegevensmappen
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7c4d60ca-8a8b-453c-887d-a6a16eacc883
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,beheerder,praktijkgericht
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
@@ -27,7 +28,7 @@ De locatie van alle brongegevens, inclusief afbeeldingen, lettertypen en ICC-pro
 
 De locatie van statische inhoudsbrongegevens die via de context [!DNL /is/static] moeten worden geleverd. Kan een of meer absolute bestandspaden of paden zijn ten opzichte van *[!DNL install_folder]*, gescheiden met puntkomma&#39;s. Indien leeg, *[!DNL install_folder]* is de standaardwortel.
 
-Meerdere waarden kunnen worden opgegeven, gescheiden door puntkomma&#39;s, om statische inhoud over meerdere bestandssystemen te distribueren. Wordt meestal ingesteld op dezelfde waarden als `IS::RootPath`.
+Meerdere waarden kunnen worden opgegeven, gescheiden door puntkomma&#39;s, om statische inhoud over meerdere bestandssystemen te verdelen. Wordt meestal ingesteld op dezelfde waarden als `IS::RootPath`.
 
 De server van het Platform probeert de wortelwegen in de gespecificeerde orde tot het gevraagde dossier wordt gevonden.
 
