@@ -4,12 +4,13 @@ seo-description: Stalen bestaan uit een rij miniatuurafbeeldingen met optionele 
 seo-title: Stalen
 solution: Experience Manager
 title: Stalen
-topic: Dynamic Media
 uuid: d44e775d-5253-4990-98a4-84ff50db09b9
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoomen
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
