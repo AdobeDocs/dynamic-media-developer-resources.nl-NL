@@ -4,12 +4,13 @@ seo-description: In de viewer worden gebieden met zoekresultaten in de hoofdweer
 seo-title: Zoeken, effect
 solution: Experience Manager
 title: Zoeken, effect
-topic: Dynamic Media
 uuid: 3a076ff8-2da5-4020-8a77-8f5a256afefe
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
