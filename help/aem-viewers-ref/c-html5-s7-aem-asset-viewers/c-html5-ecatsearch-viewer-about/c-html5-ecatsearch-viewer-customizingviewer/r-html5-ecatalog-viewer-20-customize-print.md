@@ -4,12 +4,13 @@ seo-description: Het gereedschap Afdrukken bestaat uit een knop die wordt toegev
 seo-title: Afdrukken
 solution: Experience Manager
 title: Afdrukken
-topic: Dynamic Media
 uuid: 7be047d8-d1be-4bda-90ca-6b55c749cc64
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1504'
 ht-degree: 0%
 
 ---
