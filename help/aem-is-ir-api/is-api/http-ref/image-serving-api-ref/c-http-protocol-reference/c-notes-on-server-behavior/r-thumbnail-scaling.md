@@ -4,12 +4,13 @@ seo-description: Stap 2 van de transformaties van de afbeeldingslaag wordt als v
 seo-title: Miniatuurschaling
 solution: Experience Manager
 title: Miniatuurschaling
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: df935d40-84c6-4018-9e41-faef4653ff1f
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
