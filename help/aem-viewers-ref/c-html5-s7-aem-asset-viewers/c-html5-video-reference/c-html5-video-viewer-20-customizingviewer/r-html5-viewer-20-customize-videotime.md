@@ -4,12 +4,13 @@ seo-description: De videotijd is de numerieke weergave waarin de huidige tijd en
 seo-title: Videotijd
 solution: Experience Manager
 title: Videotijd
-topic: Dynamic Media
 uuid: a15b069a-18c8-428f-ac6f-ab5aeda65f4d
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
