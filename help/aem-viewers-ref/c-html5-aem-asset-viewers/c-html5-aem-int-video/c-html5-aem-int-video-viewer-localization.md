@@ -4,12 +4,13 @@ seo-description: Bepaalde inhoud die in de Interactive Video Viewer wordt weerge
 seo-title: Lokalisatie van gebruikersinterface-elementen
 solution: Experience Manager
 title: Lokalisatie van gebruikersinterface-elementen
-topic: Dynamic Media
 uuid: 7c880e25-76dc-43d3-83fc-12de92afd35f
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
