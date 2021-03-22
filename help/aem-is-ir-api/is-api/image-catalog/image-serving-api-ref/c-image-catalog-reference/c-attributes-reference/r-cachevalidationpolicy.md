@@ -1,15 +1,16 @@
 ---
-description: Beleid voor validatie van servercache. Hiermee geeft u aan wanneer cachemaringangen op de server worden gevalideerd.
-seo-description: Beleid voor validatie van servercache. Hiermee geeft u aan wanneer cachemaringangen op de server worden gevalideerd.
+description: Beleid voor validatie van servercache. Hiermee geeft u op wanneer cachemaringangen op de server worden gevalideerd.
+seo-description: Beleid voor validatie van servercache. Hiermee geeft u op wanneer cachemaringangen op de server worden gevalideerd.
 seo-title: CacheValidationPolicy
 solution: Experience Manager
 title: CacheValidationPolicy
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 371dadbf-d58e-4214-8050-7e8907b436e3
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # CacheValidationPolicy{#cachevalidationpolicy}
 
-Beleid voor validatie van servercache. Hiermee geeft u aan wanneer cachemaringangen op de server worden gevalideerd.
+Beleid voor validatie van servercache. Hiermee geeft u op wanneer cachemaringangen op de server worden gevalideerd.
 
 Bij validatie op basis van vervaldatum worden bronafbeeldingen periodiek gecontroleerd of ze zijn gewijzigd. Bij validatie op basis van een catalogus worden bronafbeeldingen alleen gecontroleerd nadat de waarde `catalog::TimeStamp` is gewijzigd.
 
