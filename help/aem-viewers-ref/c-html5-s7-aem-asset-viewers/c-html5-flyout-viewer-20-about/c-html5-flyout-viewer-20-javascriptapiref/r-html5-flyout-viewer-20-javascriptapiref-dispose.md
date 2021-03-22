@@ -4,12 +4,13 @@ seo-description: JavaScript API-referentie voor Flyout Viewer.
 seo-title: weggooien
 solution: Experience Manager
 title: weggooien
-topic: Dynamic Media
 uuid: 08720384-1520-4a5d-bd26-a043ba708774
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
