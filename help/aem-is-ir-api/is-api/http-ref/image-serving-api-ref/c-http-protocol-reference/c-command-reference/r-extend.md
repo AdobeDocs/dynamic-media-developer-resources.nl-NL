@@ -4,12 +4,13 @@ seo-description: Laag uitbreiden. Hiermee voegt u marges toe aan een laag of sni
 seo-title: uitbreiden
 solution: Experience Manager
 title: uitbreiden
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7ca69994-e788-41a9-93ac-f22b6b9920d0
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '256'
 ht-degree: 0%
 
 ---
