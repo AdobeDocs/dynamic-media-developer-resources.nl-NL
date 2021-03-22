@@ -4,12 +4,13 @@ seo-description: Beschrijft nieuwe en veranderde gegevenstypes voor IPS API vers
 seo-title: Nieuwe en gewijzigde gegevenstypen
 solution: Experience Manager
 title: Nieuwe en gewijzigde gegevenstypen
-topic: Dynamic Media Image Production System API
 uuid: 099349dd-aaf9-4e25-9557-c3a196ef531f
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,beheerder
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '63'
 ht-degree: 0%
 
 ---
