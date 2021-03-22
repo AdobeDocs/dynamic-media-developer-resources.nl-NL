@@ -4,12 +4,13 @@ seo-description: textPs= steunt een aantal verschillende gebruiksmodellen die in
 seo-title: Tekstlagen
 solution: Experience Manager
 title: Tekstlagen
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9ccef969-7c54-49ce-b6ff-ae4eabfcf99b
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '908'
 ht-degree: 0%
 
 ---
