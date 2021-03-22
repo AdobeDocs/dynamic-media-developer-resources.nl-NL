@@ -1,13 +1,14 @@
 ---
 description: Inline Zoom Viewer is een beeldviewer. Er wordt een statische afbeelding weergegeven met de ingezoomde versie die boven die statische afbeelding wordt weergegeven wanneer een gebruiker de hoofdweergave beweegt of aanraakt. Deze viewer werkt met afbeeldingssets en de navigatie wordt uitgevoerd met stalen. Het is ontworpen voor gebruik op desktops en mobiele apparaten.
-keywords: responsive
+keywords: responsief
 solution: Experience Manager
 title: Inline zoomen
-topic: Dynamic Media
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2403'
+source-wordcount: '2415'
 ht-degree: 0%
 
 ---
@@ -125,7 +126,7 @@ U voegt de viewer als volgt toe aan een webpagina:
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-U kunt een relatief pad gebruiken als de viewer wordt geïmplementeerd op een van de Adobe Dynamic Media-servers en vanuit hetzelfde domein wordt aangeboden. Anders geeft u een volledig pad op naar een van de Adobe Dynamic Media-servers waarop IS-Viewers zijn geïnstalleerd.
+U kunt een relatief pad gebruiken als de viewer wordt geïmplementeerd op een van de Adobe Dynamic Media-servers en vanuit hetzelfde domein wordt aangeboden. Anders geeft u een volledig pad op naar een van de Adobe Dynamic Media-servers waarop de IS-Viewers zijn geïnstalleerd.
 
 Een relatief pad ziet er als volgt uit:
 
@@ -135,7 +136,7 @@ Een relatief pad ziet er als volgt uit:
 
 >[!NOTE]
 >
->Verwijs alleen naar het JavaScript-bestand `include` van de hoofdviewer op de pagina. U moet niet verwijzen naar extra JavaScript-bestanden in de webpaginacode die door de logica van de viewer in runtime kunnen worden gedownload. Verwijs met name niet rechtstreeks naar de HTML5 SDK `Utils.js`-bibliotheek die door de viewer is geladen vanaf het contextpad `/s7viewers` (de zogeheten geconsolideerde SDK `include`). De reden hiervoor is dat de locatie van `Utils.js` of vergelijkbare runtimeviewerbibliotheken volledig wordt beheerd door de logica van de viewer en dat de locatie verandert tussen de viewerreleases. Adobe houdt oudere versies van de secundaire viewer `includes` niet op de server.
+>U moet alleen verwijzen naar het JavaScript-bestand `include` van de hoofdviewer op uw pagina. U moet niet verwijzen naar extra JavaScript-bestanden in de webpaginacode die door de logica van de viewer in runtime kunnen worden gedownload. Verwijs met name niet rechtstreeks naar de HTML5 SDK `Utils.js`-bibliotheek die door de viewer is geladen vanaf het contextpad `/s7viewers` (de zogeheten geconsolideerde SDK `include`). De reden hiervoor is dat de locatie van `Utils.js` of vergelijkbare runtimeviewerbibliotheken volledig wordt beheerd door de logica van de viewer en dat de locatie verandert tussen de viewerreleases. Adobe houdt oudere versies van de secundaire viewer `includes` niet op de server.
 >
 >
 >Als u dus een directe verwijzing naar een secundair JavaScript `include` op de pagina plaatst, wordt de viewerfunctionaliteit in de toekomst verbroken wanneer een nieuwe productversie wordt geïmplementeerd.
@@ -146,7 +147,7 @@ Een relatief pad ziet er als volgt uit:
 
    De plaatsaanduiding DIV is een gepositioneerd element, wat betekent dat de CSS-eigenschap `position` is ingesteld op `relative` of `absolute`.
 
-   Het is de verantwoordelijkheid van de webpagina om het juiste `z-index` voor het plaatsaanduidingselement DIV op te geven. Zo zorgt u ervoor dat het vervolggedeelte van de viewer boven op de andere webpagina-elementen wordt weergegeven.
+   Het is de verantwoordelijkheid van de webpagina om de juiste `z-index` voor het plaatsaanduidingselement DIV op te geven. Zo zorgt u ervoor dat het vervolggedeelte van de viewer boven op de andere webpagina-elementen wordt weergegeven.
 
    Hieronder ziet u een voorbeeld van een gedefinieerd plaatsaanduiding DIV-element:
 
