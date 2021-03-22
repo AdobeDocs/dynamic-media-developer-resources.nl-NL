@@ -4,12 +4,13 @@ seo-description: Miniatuurtype. Beschrijft hoe een duimnagel voor dit beeld moet
 seo-title: ThumbType
 solution: Experience Manager
 title: ThumbType
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b737b5a4-ad6d-4a9c-b48f-81cf170dd210
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -32,7 +33,7 @@ De volgende miniatuurtypen worden ondersteund:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Structuur (3) </p></td> 
-  <td class="stentry"> <p>Snijd de afbeelding uit op basis van resolutie. De afbeelding wordt geschaald naar de verhouding van de catalogus <span class="codeph">::ThumbRes</span> tot <span class="codeph">::Resolution</span>. Als de resulterende afbeelding groter is dan de miniatuur, wordt deze bijgesneden en passend gemaakt. Als de geschaalde afbeelding kleiner is dan de miniatuur, wordt het resterende gebied gevuld met het kenmerk <span class="codeph">::ThumbBkgColor</span>. <span class="codeph"> kenmerk::</span> ThumbHorizAlignand- <span class="codeph"> kenmerk::</span> ThumbVertAlignment wordt gebruikt om de positie van de uitsnijdrechthoek binnen een grotere afbeelding of positie van een kleinere afbeelding binnen de miniatuur te bepalen. </p></td> 
+  <td class="stentry"> <p>Snijd de afbeelding uit op basis van resolutie. De afbeelding wordt geschaald naar de verhouding van de catalogus <span class="codeph">::ThumbRes</span> tot <span class="codeph">::Resolution</span>. Als de resulterende afbeelding groter is dan de miniatuur, wordt deze bijgesneden om passend te maken. Als de geschaalde afbeelding kleiner is dan de miniatuur, wordt het resterende gebied gevuld met het kenmerk <span class="codeph">::ThumbBkgColor</span>. <span class="codeph"> kenmerk::</span> ThumbHorizAlignand- <span class="codeph"> kenmerk::</span> ThumbVertAlignment wordt gebruikt om de positie van de uitsnijdrechthoek binnen een grotere afbeelding of positie van een kleinere afbeelding binnen de miniatuur te bepalen. </p></td> 
  </tr> 
 </table>
 
