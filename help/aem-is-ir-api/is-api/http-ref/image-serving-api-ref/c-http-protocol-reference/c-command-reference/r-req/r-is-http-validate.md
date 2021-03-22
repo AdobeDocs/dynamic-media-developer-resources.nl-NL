@@ -4,12 +4,13 @@ seo-description: Validatie aanvragen.
 seo-title: validate
 solution: Experience Manager
 title: validate
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5322c484-2cf5-4022-9863-73fc525beb56
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
