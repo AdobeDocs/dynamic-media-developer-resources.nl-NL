@@ -4,12 +4,13 @@ seo-description: De hoofdweergave bestaat uit de bannerafbeelding.
 seo-title: Carousel-weergave
 solution: Experience Manager
 title: Carousel-weergave
-topic: Dynamic Media
 uuid: bf2065cc-fef2-4d4e-ab2a-a533fa063a80
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
