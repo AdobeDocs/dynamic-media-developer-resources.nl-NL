@@ -1,15 +1,16 @@
 ---
-description: De server bewaakt voortdurend de catalogusmap en laadt automatisch een afbeeldingscatalogus, inclusief de bijbehorende bestanden met catalogusgegevens, opnieuw wanneer wordt vastgesteld dat het hoofdbestand met cataloguskenmerken is gewijzigd.
-seo-description: De server bewaakt voortdurend de catalogusmap en laadt automatisch een afbeeldingscatalogus, inclusief de bijbehorende bestanden met catalogusgegevens, opnieuw wanneer wordt vastgesteld dat het hoofdbestand met cataloguskenmerken is gewijzigd.
+description: De server bewaakt voortdurend de catalogusmap en laadt automatisch een afbeeldingscatalogus, inclusief de bijbehorende bestanden met catalogusgegevens, opnieuw wanneer wordt vastgesteld dat het kenmerkbestand van de hoofdcatalogus is gewijzigd.
+seo-description: De server bewaakt voortdurend de catalogusmap en laadt automatisch een afbeeldingscatalogus, inclusief de bijbehorende bestanden met catalogusgegevens, opnieuw wanneer wordt vastgesteld dat het kenmerkbestand van de hoofdcatalogus is gewijzigd.
 seo-title: Afbeeldingscatalogi bijwerken
 solution: Experience Manager
 title: Afbeeldingscatalogi bijwerken
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7e2557c4-1155-429b-a630-a2aff6725a3b
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 0%
 
 # Afbeeldingscatalogi bijwerken{#updating-image-catalogs}
 
-De server bewaakt voortdurend de catalogusmap en laadt automatisch een afbeeldingscatalogus, inclusief de bijbehorende bestanden met catalogusgegevens, opnieuw wanneer wordt vastgesteld dat het hoofdbestand met cataloguskenmerken is gewijzigd.
+De server bewaakt voortdurend de catalogusmap en laadt automatisch een afbeeldingscatalogus, inclusief de bijbehorende bestanden met catalogusgegevens, opnieuw wanneer wordt vastgesteld dat het kenmerkbestand van de hoofdcatalogus is gewijzigd.
 
 Als u afbeeldingscatalogi op de server wilt bijwerken, vervangt u eerst alle bestanden met catalogusgegevens die moeten worden gewijzigd en vervangt u het bestand met cataloguskenmerken (of &quot;tik&quot; om de bestandsdatum bij te werken) om de catalogus opnieuw te laden.
 
 ## Incrementele updates {#section-2c0f2c1b8480486d86920b5f2cfe72d2}
 
-Het laden en verwerken van grote afbeeldingscatalogi kan een aanzienlijke belasting voor de server betekenen en kan een negatief effect hebben op bewerkingen waarbij live wordt uitgevoerd. Om dit effect te minimaliseren, wordt aanbevolen een mechanisme voor incrementele catalogusupdate te implementeren dat als volgt werkt:
+Het laden en verwerken van grote afbeeldingscatalogi kan een aanzienlijke belasting voor de server betekenen en kan een negatief effect hebben op bewerkingen met live serving. Om dit effect te minimaliseren, wordt aanbevolen een mechanisme voor incrementele catalogusupdate te implementeren dat als volgt werkt:
 
 Een primair catalogusbestand dat alle afbeeldingen bevat, wordt elke avond tijdens een lage verkeersduur geladen. Als het tijdens de dag nodig is om records in de afbeeldingscatalogus toe te voegen of te wijzigen, wordt een ander afbeeldingsgegevensbestand gemaakt dat alleen de nieuwe of gewijzigde records bevat. Dit bestand wordt geregistreerd als een bestand met secundaire afbeeldingsgegevens in `attribute::CatalogFile`. De server detecteert dat het bestand met cataloguskenmerken is gewijzigd en controleert vervolgens welke bestanden met catalogusgegevens zijn gewijzigd. Als het bestand met de hoofdafbeeldingsgegevens niet is gewijzigd, wordt alleen het incrementele gegevensbestand geladen of opnieuw geladen. Omdat dit bestand doorgaans veel kleiner is dan het hoofdcatalogusbestand, is het effect op de server veel kleiner dan wanneer u de hoofdcatalogus opnieuw laadt.
 
