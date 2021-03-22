@@ -4,12 +4,13 @@ seo-description: Vignetten kunnen worden ontworpen om gegevens van de bijna 3D-r
 seo-title: Reflecties
 solution: Experience Manager
 title: Reflecties
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6d86f566-0f02-4304-8a6c-08b1a2e9c72e
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
