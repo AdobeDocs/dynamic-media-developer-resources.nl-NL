@@ -4,12 +4,13 @@ seo-description: Het gereedschap Twitter delen bestaat uit een knop die is toege
 seo-title: Twitter delen
 solution: Experience Manager
 title: Twitter delen
-topic: Dynamic Media
 uuid: 75b8eab1-74fd-4c18-8556-c3cb17011cde
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
