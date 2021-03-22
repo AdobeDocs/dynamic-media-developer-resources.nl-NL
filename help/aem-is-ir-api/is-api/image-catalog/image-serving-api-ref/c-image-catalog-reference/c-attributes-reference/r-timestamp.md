@@ -4,12 +4,13 @@ seo-description: Standaardtijdstempel voor aanpassing van afbeelding. Geeft een 
 seo-title: TimeStamp
 solution: Experience Manager
 title: TimeStamp
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0670e53a-ad7d-46cf-8e18-4c52a766df6f
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
