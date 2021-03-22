@@ -4,13 +4,14 @@ seo-description: Configuration attribute for Video360 Viewer.
 seo-title: Video360Player.mutevolume
 solution: Experience Manager
 title: Video360Player.mutevolume
-topic: Dynamic Media
 uuid: 02c5a8d9-c382-4762-84a6-120255a97840
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 12%
+source-wordcount: '74'
+ht-degree: 10%
 
 ---
 
