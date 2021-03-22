@@ -4,12 +4,13 @@ seo-description: Als u op deze knop klikt of erop tikt, wordt de vorige dia in d
 seo-title: Vorige dia
 solution: Experience Manager
 title: Vorige dia
-topic: Dynamic Media
 uuid: 733fa270-ce95-4493-9d31-f7f638d8368d
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -80,7 +81,7 @@ De vormgeving van de knop wordt bepaald door de volgende CSS-klassenkiezer:
 
 De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) voor meer informatie.
 
-Voorbeeld - om een vorige diaknop in te stellen die 60 x 60 pixel is, 10 pixel van de linkerkijkergrens en verticaal gecentreerd wordt geplaatst, en een verschillend beeld voor elk van de vier verschillende knoopstaten toont.
+Voorbeeld: om een vorige diaknop in te stellen die 60 x 60 pixels is, 10 pixels van de linkerviewerrand en verticaal gecentreerd is en een andere afbeelding voor elk van de vier verschillende knopstatussen weergeeft.
 
 ```
 .s7carouselviewer .s7panleftbutton { 
