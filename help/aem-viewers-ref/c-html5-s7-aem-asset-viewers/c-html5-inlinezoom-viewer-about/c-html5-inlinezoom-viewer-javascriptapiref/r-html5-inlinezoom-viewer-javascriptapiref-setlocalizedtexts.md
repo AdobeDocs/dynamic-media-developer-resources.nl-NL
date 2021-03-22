@@ -4,12 +4,13 @@ seo-description: JavaScript API-referentie voor Inline Zoom Viewer.
 seo-title: setLocalizedText
 solution: Experience Manager
 title: setLocalizedText
-topic: Dynamic Media
 uuid: 3e02e20f-2e81-4b4d-bf2a-cee8998faafb
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
