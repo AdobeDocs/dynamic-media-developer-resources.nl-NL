@@ -2,12 +2,13 @@
 description: Ondersteuning voor het bijhouden van analyses
 solution: Experience Manager
 title: Ondersteuning voor het bijhouden van analyses
-topic: Dynamic Media
 uuid: ae870d2e-2a09-4551-935a-916d0e657653
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve afbeeldingen
+role: Ontwikkelaar, Business Practice, Data Engineer, Data Architect
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
