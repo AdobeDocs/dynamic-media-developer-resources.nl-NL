@@ -4,12 +4,13 @@ seo-description: Het Facebook-gereedschap Delen bestaat uit een knop die is toeg
 seo-title: Facebook-share
 solution: Experience Manager
 title: Facebook-share
-topic: Dynamic Media
 uuid: 8575fde4-4d03-4b87-a628-ff06ff8c91c9
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
