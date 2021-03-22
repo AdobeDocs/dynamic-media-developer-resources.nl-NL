@@ -4,12 +4,13 @@ seo-description: Bepaalde inhoud die in de Flyout Viewer wordt weergegeven, is a
 seo-title: Lokalisatie van gebruikersinterface-elementen
 solution: Experience Manager
 title: Lokalisatie van gebruikersinterface-elementen
-topic: Dynamic Media
 uuid: d824c0c3-3606-4903-96f7-de26a61a8f65
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -43,7 +44,7 @@ defaultLocale:"en"
 
 In het bovenstaande voorbeeld definieert het lokalisatieobject twee landinstellingen ( `"en"` en `"fr"`) en biedt het lokalisatie voor twee gebruikersinterface-elementen in elke landinstelling.
 
-De code van de webpagina moet een dergelijk lokalisatieobject doorgeven aan de viewerconstructor, als een waarde van het veld `localizedTexts` van het configuratieobject. Een andere optie is het doorgeven van het lokalisatieobject door de methode `setLocalizedTexts(localizationInfo)` aan te roepen.
+De code van de webpagina moet een dergelijk lokalisatieobject doorgeven aan de viewerconstructor als een waarde van het veld `localizedTexts` van het configuratieobject. Een andere optie is het doorgeven van het lokalisatieobject door de methode `setLocalizedTexts(localizationInfo)` aan te roepen.
 
 De volgende SYMBOL&#39;s worden ondersteund:
 
