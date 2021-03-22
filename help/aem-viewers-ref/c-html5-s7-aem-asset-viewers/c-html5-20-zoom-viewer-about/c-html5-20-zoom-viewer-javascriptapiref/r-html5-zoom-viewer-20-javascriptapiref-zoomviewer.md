@@ -4,12 +4,13 @@ seo-description: JavaScript API-naslaggids voor Zoom Viewer.
 seo-title: ZoomViewer
 solution: Experience Manager
 title: ZoomViewer
-topic: Dynamic Media
 uuid: 4c2acfaf-cc42-4bb7-a830-7226a8007117
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoomen
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '217'
 ht-degree: 0%
 
 ---
@@ -33,7 +34,7 @@ Constructor: maakt een nieuwe zoomviewerinstantie.
      <ul id="ul_789DBD5B72ED4C80B685455B0D59494D"> 
       <li id="li_28FDCB53E4AD4097A51F21B876C18FB1"> <span class="codeph"> containerId  </span> -  <span class="codeph"> {String}- </span> id van de DOM-container (normaal gesproken een  <span class="codeph"> DIV  </span>) waarin de viewer wordt ingevoegd. Tegen de tijd dat deze methode wordt geroepen, is het niet noodzakelijk om het containerelement te hebben gecreeerd. De container moet echter bestaan wanneer <span class="codeph"> init() </span> wordt uitgevoerd. Vereist. </li> 
       <li id="li_FDE00392DC1544ABBDD75F81EF814EF2"> <span class="codeph"> params  </span> -  <span class="codeph"> {Object}  </span> JSON-object met viewerconfiguratieparameters waarbij de naam van de eigenschap viewer-specifieke configuratieoptie of SDK-modifier is en de waarde van die eigenschap een corresponderende instellingswaarde is. Vereist. </li> 
-      <li id="li_C534D5091CDA4717BCC48E3EBBF09AB8"> <span class="codeph"> handlers  </span> -  <span class="codeph"> {Object}  </span> JSON-object met callbacks voor viewergebeurtenissen, waarbij de naam van de eigenschap de naam van de ondersteunde viewergebeurtenis is en de waarde van de eigenschap een JavaScript-functieverwijzing naar de juiste callback is. Optioneel. <p>Zie <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local"> Gebeurteniscallbacks </a> voor meer informatie over viewergebeurtenissen. </p> </li> 
+      <li id="li_C534D5091CDA4717BCC48E3EBBF09AB8"> <span class="codeph"> handlers  </span> -  <span class="codeph"> {Object}  </span> JSON-object met callbacks voor viewergebeurtenissen, waarbij de naam van de eigenschap de naam van de ondersteunde viewergebeurtenis is en de waarde van de eigenschap een JavaScript-functieverwijzing naar de juiste callback. Optioneel. <p>Zie <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local"> Gebeurteniscallbacks </a> voor meer informatie over viewergebeurtenissen. </p> </li> 
       <li id="li_1D181A6B1D434B29B09AFD3F4BE059BD"> <span class="codeph"> gelokaliseerdText  </span> -  <span class="codeph"> {Object}  </span> JSON-object met lokalisatiegegevens. Optioneel. <p>Zie <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74" format="dita" scope="local"> Lokalisatie van gebruikersinterface-elementen </a> voor meer informatie. </p> <p>Zie ook <i>Handboek SDK van viewer</i> en het voorbeeld voor meer informatie over de inhoud van het object. </p> </li> 
      </ul> </p> </td> 
   </tr> 
