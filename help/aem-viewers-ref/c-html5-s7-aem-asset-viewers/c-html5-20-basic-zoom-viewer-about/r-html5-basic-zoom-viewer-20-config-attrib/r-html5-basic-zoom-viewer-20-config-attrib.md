@@ -4,12 +4,13 @@ seo-description: Documentatie over configuratiekenmerken voor de standaardzoomvi
 seo-title: Command reference - Configuration attributes
 solution: Experience Manager
 title: Command reference - Configuration attributes
-topic: Dynamic Media
 uuid: 6a96ed89-5ef3-4efd-82ed-08f3ad8c73cf
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoomen
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '43'
+source-wordcount: '53'
 ht-degree: 0%
 
 ---
