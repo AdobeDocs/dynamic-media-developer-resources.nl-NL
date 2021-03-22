@@ -4,12 +4,13 @@ seo-description: Het afspeelpictogram wordt bedekt door het weergavegebied van d
 seo-title: Pictogram van videospeler, effect
 solution: Experience Manager
 title: Pictogram van videospeler, effect
-topic: Dynamic Media
 uuid: 5d59c4b2-a7a1-49e1-84c7-0e127a571c4f
+feature: Dynamic Media Classic,Viewers,SDK/API,Mediasets mixen
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
