@@ -4,12 +4,13 @@ seo-description: Het gereedschap Delen insluiten bestaat uit een knop die wordt 
 seo-title: Delen insluiten
 solution: Experience Manager
 title: Delen insluiten
-topic: Dynamic Media
 uuid: 768e8eb5-ec35-4028-be96-268f8220fe07
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2635'
+source-wordcount: '2646'
 ht-degree: 0%
 
 ---
@@ -769,7 +770,7 @@ De grootte en uitlijning van het label voor de insluitgrootte worden bepaald met
  </tbody> 
 </table>
 
-**Voorbeeld** - om het label voor de insluitgrootte in te stellen op uitgelijnd bovenaan en 80 pixels breed:
+**Voorbeeld** - om het label voor de insluitgrootte in te stellen op top-align en 80 pixels breed:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogembedsizelabel { 
