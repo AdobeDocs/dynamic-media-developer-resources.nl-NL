@@ -4,12 +4,13 @@ seo-description: IS servers kunnen worden gevormd om over te slaan aan afwissele
 seo-title: Omleiden bij fout
 solution: Experience Manager
 title: Omleiden bij fout
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 894babe9-9c3c-4972-ae8f-387d65b4167d
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,beheerder,praktijkgericht
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
