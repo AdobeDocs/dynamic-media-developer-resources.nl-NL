@@ -2,12 +2,13 @@
 description: Pad
 solution: Experience Manager
 title: Pad
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 455b6186-969a-49d9-a392-35660ec12213
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ Tekstreeks. Vereist voor afbeeldings- en SVG-records is mogelijk leeg voor sjabl
 
 Raadpleeg de beschrijving van het hulpprogramma Image Converter (IC) voor een volledige lijst met ondersteunde bestandsindelingen voor afbeeldingen.
 
-Toepassingen waarvoor afbeeldingsgegevens in meerdere resoluties vereist zijn, presteren het beste als de indeling voor meerresolutie van de Dynamic Media piramid TIFF (PTIFF) wordt gebruikt. Het hulpprogramma IC wordt gebruikt om PTIFF-afbeeldingen te maken in elke ondersteunde afbeeldingsindeling.
+Toepassingen waarvoor afbeeldingsgegevens in meerdere resoluties nodig zijn, presteren het beste als de indeling voor meerresolutie van de Dynamic Media piramid TIFF (PTIFF) wordt gebruikt. Het hulpprogramma IC wordt gebruikt om PTIFF-afbeeldingen te maken in elke ondersteunde afbeeldingsindeling.
 
 ## Standaard {#section-82dad83ec3f84ae8bf2f850b4139f63e}
 
