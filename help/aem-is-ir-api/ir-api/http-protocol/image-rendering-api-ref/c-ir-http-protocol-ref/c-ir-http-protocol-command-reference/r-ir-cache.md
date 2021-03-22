@@ -4,12 +4,13 @@ seo-description: Cachebeheer. Staat selectief toe onbruikbaar makend cliënt-zij
 seo-title: cachegeheugen
 solution: Experience Manager
 title: cachegeheugen
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8af89b67-39d5-43e5-a58d-2cd509a1e373
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -42,7 +43,7 @@ Als slechts één *`cacheControl`* waarde wordt gespecificeerd, wordt het toegep
 
 Met het trefwoord &#39; `validate`&#39; kunnen vermeldingen in de servercache worden bijgewerkt nadat de structuur- of vignetbestanden zijn gewijzigd, zonder dat de cachegegevens automatisch hoeven te worden verlopen. Het in cache plaatsen van clients wordt niet beïnvloed door deze opdracht.
 
-Als `cache=on` in een geneste aanvraag wordt opgegeven, wordt de afbeelding die door de geneste aanvraag wordt gegenereerd, permanent in cache op de server geplaatst. Zorg ervoor dat caching alleen mogelijk is voor geneste aanvragen wanneer hetzelfde geneste verzoek herhaaldelijk moet worden aangeroepen met exact dezelfde parameters.
+Als `cache=on` in een geneste aanvraag is opgegeven, wordt de afbeelding die door de geneste aanvraag wordt gegenereerd, permanent in cache op de server geplaatst. Zorg ervoor dat caching alleen mogelijk is voor geneste aanvragen wanneer hetzelfde geneste verzoek herhaaldelijk moet worden aangeroepen met exact dezelfde parameters.
 
 ## Eigenschappen {#section-0dcbd62e1122400e8c347f408f2d937e}
 
