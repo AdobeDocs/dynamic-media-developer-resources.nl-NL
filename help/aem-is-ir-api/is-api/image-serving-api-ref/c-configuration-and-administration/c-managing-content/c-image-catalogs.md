@@ -4,12 +4,13 @@ seo-description: De catalogi van het beeld verstrekken vele montages van de serv
 seo-title: Afbeeldingscatalogi
 solution: Experience Manager
 title: Afbeeldingscatalogi
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7d7285e2-ee9c-4e88-b270-b686d1984d82
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,beheerder,praktijkgericht
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
