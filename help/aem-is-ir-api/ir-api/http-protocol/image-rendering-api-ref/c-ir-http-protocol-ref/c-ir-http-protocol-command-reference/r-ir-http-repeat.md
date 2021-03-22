@@ -4,13 +4,14 @@ seo-description: Modus Structuur herhalen. Hiermee bepaalt u de herhalingsmodus 
 seo-title: herhalen
 solution: Experience Manager
 title: herhalen
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6508fdff-27cd-4038-b506-39b927f3526a
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 12%
+source-wordcount: '174'
+ht-degree: 11%
 
 ---
 
@@ -27,7 +28,7 @@ Modus Structuur herhalen. Hiermee bepaalt u de herhalingsmodus voor herhaalbare 
   <td class="stentry"> <p>Rechte herhaling. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p> </td> 
+  <td class="stentry"> <p>1 </p> </td> 
   <td class="stentry"> <p>willekeurige verdeling in vier richtingen. </p> </td> 
  </tr> 
  <tr class="strow"> 
