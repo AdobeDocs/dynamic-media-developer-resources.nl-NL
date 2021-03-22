@@ -4,12 +4,13 @@ seo-description: De gegevens van het beeld zijn teruggekeerd als een verzoek met
 seo-title: Afbeeldingen
 solution: Experience Manager
 title: Afbeeldingen
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 715154b6-f9ac-459e-a566-f78a4ca4580d
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
