@@ -4,12 +4,13 @@ seo-description: Afbeelding vervagen. Hiermee past u een vervagend filter toe op
 seo-title: op_vervagen
 solution: Experience Manager
 title: op_vervagen
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8405bbb5-fe09-412e-9b52-0af2c01f48b9
+feature: Dynamic Media Classic, SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
