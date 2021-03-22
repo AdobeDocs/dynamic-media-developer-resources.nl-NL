@@ -4,12 +4,13 @@ seo-description: Parameter die alle viewers gemeen hebben.
 seo-title: contentUrl
 solution: Experience Manager
 title: contentUrl
-topic: Dynamic Media
 uuid: 85b00c4e-b382-4970-b780-e4ef59108cb7
+feature: Dynamic Media Classic,Viewers,SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '100'
 ht-degree: 1%
 
 ---
