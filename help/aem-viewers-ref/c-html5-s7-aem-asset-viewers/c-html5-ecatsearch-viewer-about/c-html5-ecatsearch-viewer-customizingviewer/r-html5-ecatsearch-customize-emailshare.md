@@ -4,12 +4,13 @@ seo-description: Het gereedschap E-mail delen bestaat uit een knop die wordt toe
 seo-title: E-mailshare
 solution: Experience Manager
 title: E-mailshare
-topic: Dynamic Media
 uuid: fc60dd7b-651e-458c-9057-693ca1c0afdc
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '3073'
+source-wordcount: '3084'
 ht-degree: 0%
 
 ---
