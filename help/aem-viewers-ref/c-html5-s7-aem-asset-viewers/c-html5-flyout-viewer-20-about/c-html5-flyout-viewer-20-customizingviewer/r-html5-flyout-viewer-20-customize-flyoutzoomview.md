@@ -4,12 +4,13 @@ seo-description: De hoofdweergave bestaat uit de statische afbeelding, de ingezo
 seo-title: Zoomweergave flyout
 solution: Experience Manager
 title: Zoomweergave flyout
-topic: Dynamic Media
 uuid: 35c60228-3044-442b-a8e2-e13d0bd306a5
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
