@@ -4,12 +4,13 @@ seo-description: De inhoudsopgave is een knop in de hoofdbesturingsbalk. Als u d
 seo-title: Inhoudsopgave
 solution: Experience Manager
 title: Inhoudsopgave
-topic: Dynamic Media
 uuid: 3513dd02-6c51-42fc-a1a8-afca378aabc6
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---
