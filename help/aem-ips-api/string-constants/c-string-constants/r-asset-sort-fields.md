@@ -4,12 +4,13 @@ seo-description: Wordt gebruikt door searchAssetsParam/sortBy.
 seo-title: Velden voor het sorteren van middelen
 solution: Experience Manager
 title: Velden voor het sorteren van middelen
-topic: Dynamic Media Image Production System API
 uuid: d7db11e4-3acf-457d-9708-64167fbea899
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Ontwikkelaar,beheerder
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '23'
+source-wordcount: '32'
 ht-degree: 0%
 
 ---
