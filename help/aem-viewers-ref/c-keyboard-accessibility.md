@@ -2,11 +2,12 @@
 description: Alle functies die beschikbaar worden gesteld in de viewerinterface Basic Zoom, eCatalog, eCatalog Search, Flyout, Inline Zoom, Mixed Media, Spin, Video, Zoom, Dimensional (3D), Carousel, Interactive Image, Interactive Video, en Video360 zijn toegankelijk via het toetsenbord.
 solution: Experience Manager
 title: Toetsenbordtoegankelijkheid en -navigatie
-topic: Dynamic Media
+feature: Dynamic Media Classic,Viewers,SDK/API
+role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: e85ff41d20e7b39e023cba9bff58236e8b49d4f2
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
