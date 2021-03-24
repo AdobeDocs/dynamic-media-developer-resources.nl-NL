@@ -1,16 +1,13 @@
 ---
 description: Deze materiaalcategorie omvat verven voor muren, houtwerk en trim, automobielindustrie en alle andere toepassingen waarbij geen texturen vereist zijn.
-seo-description: Deze materiaalcategorie omvat verven voor muren, houtwerk en trim, automobielindustrie en alle andere toepassingen waarbij geen texturen vereist zijn.
-seo-title: Effen kleuren
 solution: Experience Manager
 title: Effen kleuren
-uuid: 75b60e44-1727-4f3e-a186-df66fabeec0d
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
