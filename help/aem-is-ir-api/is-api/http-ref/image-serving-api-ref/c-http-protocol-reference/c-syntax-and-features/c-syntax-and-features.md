@@ -1,16 +1,13 @@
 ---
 description: De onderwerpen in deze sectie beschrijven de syntaxis en de eigenschappen van de protocollen van HTTP.
-seo-description: De onderwerpen in deze sectie beschrijven de syntaxis en de eigenschappen van de protocollen van HTTP.
-seo-title: Syntaxis en kenmerken
 solution: Experience Manager
 title: Syntaxis en kenmerken
-uuid: 5f8df6a2-a8f9-4582-9e1e-8f26acf61df4
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
