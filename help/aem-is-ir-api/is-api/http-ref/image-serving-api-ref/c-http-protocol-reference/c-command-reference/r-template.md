@@ -1,16 +1,13 @@
 ---
 description: Samenstellingsjabloon. Hiermee kunt u een samenstellende sjabloon opgeven die zich in een andere catalogus dan de hoofdcatalogus bevindt.
-seo-description: Samenstellingsjabloon. Hiermee kunt u een samenstellende sjabloon opgeven die zich in een andere catalogus dan de hoofdcatalogus bevindt.
-seo-title: template
 solution: Experience Manager
 title: template
-uuid: 59b37d60-1d0c-4d0b-a5a0-98d8bf9e9064
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -18,7 +15,7 @@ ht-degree: 0%
 
 # template{#template}
 
-Samenstellingsjabloon. Hiermee kunt u een samenstellende sjabloon opgeven die zich in een andere catalogus dan de hoofdcatalogus bevindt.
+Samenstellingsjabloon. Hiermee kunt u een samenstellende sjabloon opgeven in een andere catalogus dan de hoofdcatalogus.
 
 `template= *`template`*`
 
@@ -31,7 +28,7 @@ Samenstellingsjabloon. Hiermee kunt u een samenstellende sjabloon opgeven die zi
 
 *`template`* moet een item in een afbeeldingscatalogus zijn met de hoofdtekst van de sjabloon in  `catalog::Modifier`.
 
-Wanneer `template=` aanwezig is, zal het voorwerp in de verzoekweg wordt gespecificeerd niet als bron voor laag 0 worden toegepast, maar kan als `src=` of `mask=` overal in het malplaatje worden van verwijzingen voorzien door de vooraf bepaalde wegvariabele `$object$` als &lt;a4 te gebruiken/> waarde. `src=` `catalog::Modifier` van het object dat is opgegeven in het aanvraagpad, wordt alleen toegepast in verband met de vervanging van het object  `$object$` binnen de sjabloon, terwijl dit altijd  `catalog::PostModifier` wordt toegepast.
+Wanneer `template=` aanwezig is, wordt het voorwerp dat in de verzoekweg wordt gespecificeerd niet toegepast als bron voor laag 0. Nochtans, kan het als `src=` of `mask=` overal in het malplaatje worden van verwijzingen voorzien door de vooraf bepaalde wegvariabele `$object$` als `src=` waarde te gebruiken. `catalog::Modifier` van het object dat is opgegeven in het aanvraagpad, wordt alleen toegepast met de vervanging van het object  `$object$` binnen de sjabloon, terwijl dit altijd  `catalog::PostModifier` wordt toegepast.
 
 Laag 0 wordt bepaald in het malplaatjelichaam en kan een beeld, stevige kleur, tekst, of genestelde of ingebedde verzoeklaag zijn.
 
