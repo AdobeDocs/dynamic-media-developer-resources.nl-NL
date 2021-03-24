@@ -1,16 +1,13 @@
 ---
 description: Type aanvraag. Hier geeft u het type aanvraag op.
-seo-description: Type aanvraag. Hier geeft u het type aanvraag op.
-seo-title: req
 solution: Experience Manager
 title: req
-uuid: b888be10-89e5-4b41-a2bd-f83533ea2481
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
@@ -43,7 +40,7 @@ Type aanvraag. Hier geeft u het type aanvraag op.
 * [xlate](r-xlate.md)
 * [xmp](r-xmp.md)
 
-Tenzij anders vermeld in de gedetailleerde beschrijvingen, zal de server `text` reacties met MIME type `text/plain` terugkeren. Bij veel aanvraagtypen kunt u een type reactie opgeven, zoals `text`. Dit is doorgaans de standaardinstelling `javascript`, `xml` of `json`. De bijbehorende MIME-typen voor reacties zijn respectievelijk `text/plain`, `text/javascript`, `text/xml` en `text/javascript`.
+Tenzij anders vermeld in de gedetailleerde beschrijvingen, retourneert de server `text` reacties met het MIME-type `text/plain`. Bij veel aanvraagtypen kunt u een type reactie opgeven, zoals `text`. Dit is doorgaans de standaardinstelling `javascript`, `xml` of `json`. De bijbehorende MIME-typen voor reacties zijn respectievelijk `text/plain`, `text/javascript`, `text/xml` en `text/javascript`.
 
 Tenzij anders vermeld, formatteren de reacties de reactie als reeks van `name=value` paren.
 
