@@ -1,16 +1,13 @@
 ---
 description: Opties voor het automatisch uitsnijden van afbeeldingen op basis van transparantie.
-seo-description: Opties voor het automatisch uitsnijden van afbeeldingen op basis van transparantie.
-seo-title: AutoTransparentCropOptions
 solution: Experience Manager
 title: AutoTransparentCropOptions
-uuid: 4c3d365d-e011-4f38-bea7-68cf0cba7893
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,beheerder
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '55'
 ht-degree: 0%
 
 ---
@@ -36,7 +33,7 @@ Syntaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> tolerantie</span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dubbel</span> </td> 
-   <td colname="col3">Hiermee verwijdert u op basis van transparantie witruimte uit afbeeldingsranden. Gebruikt: 
+   <td colname="col3">Hiermee verwijdert u witruimte aan de randen van de afbeelding op basis van transparantie. Gebruikt: 
     <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
      <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0 om de kleuren exact overeen te laten komen. </li>
      <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1 om de meeste kleurverschillen mogelijk te maken. </li>
