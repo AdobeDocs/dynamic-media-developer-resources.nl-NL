@@ -1,16 +1,13 @@
 ---
 description: JavaScript API-referentie voor Interactive Video Viewer.
-seo-description: JavaScript API-referentie voor Interactive Video Viewer.
-seo-title: setParam
 solution: Experience Manager
 title: setParam
-uuid: c8c40e88-530f-4af8-be9a-2e88addd6907
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
