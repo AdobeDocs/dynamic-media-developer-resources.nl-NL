@@ -1,16 +1,13 @@
 ---
 description: Gebruik deze serverinstellingen om fouten in het logbestand met overtrekken op te sporen.
-seo-description: Gebruik deze serverinstellingen om fouten in het logbestand met overtrekken op te sporen.
-seo-title: Foutopsporing_tracering vastleggen
 solution: Experience Manager
 title: Foutopsporing_tracering vastleggen
-uuid: 33f1d093-007d-453b-965a-9d701a845954
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,beheerder,praktijkgericht
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
