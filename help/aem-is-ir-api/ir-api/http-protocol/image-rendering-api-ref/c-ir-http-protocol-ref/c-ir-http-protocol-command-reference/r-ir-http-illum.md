@@ -1,16 +1,13 @@
 ---
 description: Selector van belichtingskaart. Hiermee geeft u de belichtingsafbeelding op waarmee dit materiaal liever wordt gerenderd.
-seo-description: Selector van belichtingskaart. Hiermee geeft u de belichtingsafbeelding op waarmee dit materiaal liever wordt gerenderd.
-seo-title: illusie
 solution: Experience Manager
 title: illusie
-uuid: 16c7144f-7f16-47d1-8140-fd679e702660
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
