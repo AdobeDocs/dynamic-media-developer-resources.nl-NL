@@ -1,16 +1,13 @@
 ---
 description: De basissyntaxis van het HTTP-protocol ziet er als volgt uit.
-seo-description: De basissyntaxis van het HTTP-protocol ziet er als volgt uit.
-seo-title: Basissyntaxis van HTTP-protocol voor afbeeldingen
 solution: Experience Manager
 title: Basissyntaxis van HTTP-protocol voor afbeeldingen
-uuid: 3269c2f2-df0f-4b62-ae9c-a267acae8071
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -18,7 +15,7 @@ ht-degree: 0%
 
 # Beeld dat het protocol van HTTP basissyntaxis{#image-serving-http-protocol-basic-syntax} dient
 
-De basissyntaxis van het HTTP-protocol ziet er als volgt uit.
+De basissyntaxis van het HTTP-protocol ziet er als volgt uit:
 
 <table id="simpletable_854C20D4C42247B99D9F123543C17E7C"> 
  <tr class="strow"> 
@@ -47,19 +44,19 @@ De basissyntaxis van het HTTP-protocol ziet er als volgt uit.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> macro</span> </span> </p> </td> 
-  <td class="stentry"> <p>Naam van een opdrachtmacro. </p></td> 
+  <td class="stentry"> <p>Naam van een opdrachtmacro.</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> opmerking</span> </span> </p></td> 
-  <td class="stentry"> <p>Opmerkingtekenreeks (genegeerd door server). </p></td> 
+  <td class="stentry"> <p>Opmerkingtekenreeks (genegeerd door server).</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> cmdName</span> </span> </p></td> 
-  <td class="stentry"> <p>Een van de ondersteunde opdrachten- of kenmerknamen. </p></td> 
+  <td class="stentry"> <p>Een van de ondersteunde opdrachten- of kenmerknamen.</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> var</span> </span> </p> </td> 
-  <td class="stentry"> <p>Naam van een aangepaste variabele. </p></td> 
+  <td class="stentry"> <p>Naam van een aangepaste variabele.</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> value</span> </span> </p></td> 
@@ -85,7 +82,7 @@ Beeldserver extraheert eerst *`object`* en *`modifiers`* uit de binnenkomende aa
 
 ## Opmerkingen {#section-69ef0be0f17a418c87a0eba21c2ddb00}
 
-Opmerkingen kunnen overal in aanvraagtekenreeksen worden ingesloten en worden geïdentificeerd door een punt(.) onmiddellijk na het opdrachtscheidingsteken (&amp;). De opmerking wordt beëindigd door het volgende exemplaar van een (niet-gecodeerde) opdrachtscheidingsteken. Deze functie kan worden gebruikt om informatie aan de aanvraag toe te voegen die niet voor gebruik in de afbeeldingsserver is, zoals tijdstempels, database-id&#39;s, enz.
+Opmerkingen kunnen overal in aanvraagtekenreeksen worden ingesloten en worden geïdentificeerd door een punt(.) onmiddellijk na het opdrachtscheidingsteken (&amp;). De opmerking wordt beëindigd door het volgende exemplaar van een (niet-gecodeerde) opdrachtscheidingsteken. Deze eigenschap kan worden gebruikt om informatie aan het verzoek toe te voegen die niet voor het Dienende gebruik van het Beeld, zoals tijdstempels, en gegevensbestand IDs is.
 
 ## Zie ook {#section-d0b836568c31454b8dbeb136e6bbe0f0}
 
