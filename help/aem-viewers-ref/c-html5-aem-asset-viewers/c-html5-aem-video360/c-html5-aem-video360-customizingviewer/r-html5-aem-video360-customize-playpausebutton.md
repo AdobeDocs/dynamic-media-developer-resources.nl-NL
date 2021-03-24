@@ -1,16 +1,13 @@
 ---
 description: Met de knop Afspelen/Pauzeren wordt de video-inhoud afgespeeld of gepauzeerd wanneer de gebruiker erop klikt.
-seo-description: Met de knop Afspelen/Pauzeren wordt de video-inhoud afgespeeld of gepauzeerd wanneer de gebruiker erop klikt.
-seo-title: Knop Afspelen/Pauzeren
 solution: Experience Manager
 title: Knop Afspelen/Pauzeren
-uuid: 25bc5185-e1cc-489f-bff5-996795e9b14f
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
