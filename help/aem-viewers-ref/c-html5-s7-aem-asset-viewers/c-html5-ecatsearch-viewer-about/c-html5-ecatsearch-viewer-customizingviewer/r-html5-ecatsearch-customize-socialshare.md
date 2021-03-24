@@ -1,16 +1,13 @@
 ---
 description: Het gereedschap voor sociaal delen wordt standaard in de linkerbovenhoek weergegeven. Het bestaat uit een knop en een deelvenster dat groter wordt wanneer de gebruiker op een knop klikt of tikt en dat afzonderlijke gereedschappen voor delen bevat.
-seo-description: Het gereedschap voor sociaal delen wordt standaard in de linkerbovenhoek weergegeven. Het bestaat uit een knop en een deelvenster dat groter wordt wanneer de gebruiker op een knop klikt of tikt en dat afzonderlijke gereedschappen voor delen bevat.
-seo-title: Sociaal aandeel
 solution: Experience Manager
 title: Sociaal aandeel
-uuid: 6d463eb1-c6bf-4f1c-90e4-b5ef1e5a1538
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
