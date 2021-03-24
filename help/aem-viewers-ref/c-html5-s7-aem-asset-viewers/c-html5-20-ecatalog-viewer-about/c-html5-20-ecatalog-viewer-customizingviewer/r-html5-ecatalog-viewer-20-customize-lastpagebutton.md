@@ -1,16 +1,13 @@
 ---
 description: Als u op deze knop klikt of erop tikt, komt de gebruiker op de laatste pagina in de catalogus te staan. Deze knop wordt weergegeven in de hoofdbesturingsbalk op desktopsystemen en tablets. op mobiele telefoons wordt het toegevoegd aan een secundaire besturingsbalk. U kunt deze knop vergroten, verkleinen, verkleinen en plaatsen met CSS.
-seo-description: Als u op deze knop klikt of erop tikt, komt de gebruiker op de laatste pagina in de catalogus te staan. Deze knop wordt weergegeven in de hoofdbesturingsbalk op desktopsystemen en tablets. op mobiele telefoons wordt het toegevoegd aan een secundaire besturingsbalk. U kunt deze knop vergroten, verkleinen, verkleinen en plaatsen met CSS.
-seo-title: Knop Laatste pagina
 solution: Experience Manager
 title: Knop Laatste pagina
-uuid: f77b9ac5-4f00-41d4-9495-c4805d4a41f9
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
