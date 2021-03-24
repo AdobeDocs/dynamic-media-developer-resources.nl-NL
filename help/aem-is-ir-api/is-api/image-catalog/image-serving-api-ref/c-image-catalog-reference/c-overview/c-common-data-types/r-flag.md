@@ -1,16 +1,13 @@
 ---
 description: Gegevenstype vlag.
-seo-description: Gegevenstype vlag.
-seo-title: Markering
 solution: Experience Manager
 title: Markering
-uuid: 85c60ef4-4509-41e0-b846-3cfc54689272
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '29'
+source-wordcount: '25'
 ht-degree: 0%
 
 ---
