@@ -1,16 +1,13 @@
 ---
 description: vntc genereert tekstgegevens die naar stderr of het logbestand worden verzonden.
-seo-description: vntc genereert tekstgegevens die naar stderr of het logbestand worden verzonden.
-seo-title: Uitvoer
 solution: Experience Manager
 title: Uitvoer
-uuid: f2041600-408f-481c-95fc-3c112def7b8a
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
