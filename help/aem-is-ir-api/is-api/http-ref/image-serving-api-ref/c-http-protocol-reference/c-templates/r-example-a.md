@@ -1,16 +1,13 @@
 ---
 description: Maak een sjabloon met een vaste grootte met een statische achtergrondafbeelding, een variabele afbeelding die links op de achtergrond wordt uitgelijnd en wordt geschaald tot maximaal 80% van de breedte en hoogte van de achtergrond, en een tekstlaag met verticale tekst gecentreerd op de rechterrand van het canvas.
-seo-description: Maak een sjabloon met een vaste grootte met een statische achtergrondafbeelding, een variabele afbeelding die links op de achtergrond wordt uitgelijnd en wordt geschaald tot maximaal 80% van de breedte en hoogte van de achtergrond, en een tekstlaag met verticale tekst gecentreerd op de rechterrand van het canvas.
-seo-title: Voorbeeld A
 solution: Experience Manager
 title: Voorbeeld A
-uuid: c250dbc8-1e32-46b8-ba55-c1fb0ae62695
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
