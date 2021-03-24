@@ -1,16 +1,13 @@
 ---
 description: Hiermee worden alle configuratie-instellingen voor de viewer opgehaald die aan het opgegeven element zijn gekoppeld.
-seo-description: Hiermee worden alle configuratie-instellingen voor de viewer opgehaald die aan het opgegeven element zijn gekoppeld.
-seo-title: getViewerConfigSettings
 solution: Experience Manager
 title: getViewerConfigSettings
-uuid: 61fe16de-ac72-472b-8945-f1ebe8b4d11c
 feature: Dynamic Media Classic,SDK/API,Viewer-voorinstellingen
 role: Ontwikkelaar,beheerder
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
