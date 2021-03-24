@@ -1,17 +1,14 @@
 ---
 description: Kleurwaarden. U kunt kleurwaarden opgeven met hexadecimale notatie, een door komma's gescheiden lijst met componentwaarden of decimalen.
-seo-description: Kleurwaarden. U kunt kleurwaarden opgeven met hexadecimale notatie, een door komma's gescheiden lijst met componentwaarden of decimalen.
-seo-title: kleur
 solution: Experience Manager
 title: kleur
-uuid: 61308b8e-eaac-4b2e-8500-2f9efa8a6ce8
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 11%
+source-wordcount: '439'
+ht-degree: 12%
 
 ---
 
@@ -39,7 +36,7 @@ Kleurwaarden. U kunt kleurwaarden opgeven met hexadecimale notatie, een door kom
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex2</span> </span> </p></td> 
-  <td class="stentry"> <p>gecomprimeerde hexadecimale grijskleurwaarde van twee cijfers (GG) </p></td> 
+  <td class="stentry"> <p>gecomprimeerde hexadecimale grijskleurwaarde (GG) van twee cijfers </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex4</span> </span> </p> </td> 
@@ -47,7 +44,7 @@ Kleurwaarden. U kunt kleurwaarden opgeven met hexadecimale notatie, een door kom
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex6</span> </span> </p> </td> 
-  <td class="stentry"> <p>gecomprimeerde hexadecimale RGB-kleurwaarde (RRGGBB) van zes cijfers </p></td> 
+  <td class="stentry"> <p>gecomprimeerde zescijferige hexadecimale RGB-kleurwaarde (RRGGBB) </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex8</span> </span> </p> </td> 
@@ -63,7 +60,7 @@ Decimale componentwaarden voor RGB-kleuren liggen in het bereik 0...255. Decimal
 
 Waarden van kleurcomponenten worden verondersteld onafhankelijk te zijn van de alfawaarde (niet vooraf vermenigvuldigd).
 
-Niet alle kleurwaarden, voorvoegsels en achtervoegsels zijn hoofdlettergevoelig.
+Alle kleurwaarden, voorvoegsels en achtervoegsels zijn niet hoofdlettergevoelig.
 
 Het achtervoegsel &#39;k&#39; is vereist voor CMYK-kleurwaarden. U kunt desgewenst een achtervoegsel voor het type RGB en grijswaarden opgeven.
 
