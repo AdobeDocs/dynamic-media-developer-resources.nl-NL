@@ -1,16 +1,13 @@
 ---
 description: Naam macro.
-seo-description: Naam macro.
-seo-title: Naam
 solution: Experience Manager
 title: Naam
-uuid: 3db05758-b013-47f1-b94b-8b594429581d
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '47'
 ht-degree: 0%
 
 ---
