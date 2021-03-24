@@ -1,16 +1,13 @@
 ---
 description: Standaardafbeeldingsgrootte renderen. De server beperkt antwoordafbeeldingen tot maximaal deze breedte en hoogte als in de aanvraag niet expliciet de weergavegrootte wordt opgegeven met wid= of hei=.
-seo-description: Standaardafbeeldingsgrootte renderen. De server beperkt antwoordafbeeldingen tot maximaal deze breedte en hoogte als in de aanvraag niet expliciet de weergavegrootte wordt opgegeven met wid= of hei=.
-seo-title: DefaultPix
 solution: Experience Manager
 title: DefaultPix
-uuid: 27574811-a920-4e54-8635-5a643b8655ef
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
