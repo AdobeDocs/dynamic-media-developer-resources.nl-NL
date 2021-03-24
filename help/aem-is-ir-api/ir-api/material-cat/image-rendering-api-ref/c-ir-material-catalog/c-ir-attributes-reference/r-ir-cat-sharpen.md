@@ -1,16 +1,13 @@
 ---
 description: Verscherpen van standaardantwoordafbeelding. Hiermee geeft u aan of antwoordafbeeldingen moeten worden verscherpt als ze vóór het coderen worden geschaald.
-seo-description: Verscherpen van standaardantwoordafbeelding. Hiermee geeft u aan of antwoordafbeeldingen moeten worden verscherpt als ze vóór het coderen worden geschaald.
-seo-title: Verscherpen
 solution: Experience Manager
 title: Verscherpen
-uuid: d93aacf4-d4e7-4cf5-aa9e-e7a82630d4c0
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---
