@@ -1,16 +1,13 @@
 ---
 description: De hoofdweergave bestaat uit de catalogusafbeelding. U kunt een veeggebaar maken om naar een andere pagina te gaan of door te zoomen.
-seo-description: De hoofdweergave bestaat uit de catalogusafbeelding. U kunt een veeggebaar maken om naar een andere pagina te gaan of door te zoomen.
-seo-title: Paginaweergave
 solution: Experience Manager
 title: Paginaweergave
-uuid: f585bf57-c66a-4213-a2af-d9625beb5bed
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
