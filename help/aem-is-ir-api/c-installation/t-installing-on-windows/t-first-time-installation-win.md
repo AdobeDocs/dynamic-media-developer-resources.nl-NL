@@ -1,16 +1,13 @@
 ---
 description: Gebruik deze stappen om Image Serving voor het eerst op Vensters te installeren.
-seo-description: Gebruik deze stappen om Image Serving voor het eerst op Vensters te installeren.
-seo-title: Voor het eerst installeren
 solution: Experience Manager
 title: Voor het eerst installeren
-uuid: 3b28fbc7-6bc9-4619-8f92-c0ae610b8b30
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
