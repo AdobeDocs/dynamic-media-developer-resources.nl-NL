@@ -1,16 +1,13 @@
 ---
 description: Bij het renderen van afbeeldingen wordt een formaatbeperking van twee megapixels toegepast voor niet-piramidevignetten.
-seo-description: Bij het renderen van afbeeldingen wordt een formaatbeperking van twee megapixels toegepast voor niet-piramidevignetten.
-seo-title: Limiet voor vignetgrootte
 solution: Experience Manager
 title: Limiet voor vignetgrootte
-uuid: 218e8c7e-f313-47cb-af42-30c585d4ec12
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,beheerder,praktijkgericht
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
