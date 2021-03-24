@@ -1,16 +1,13 @@
 ---
 description: Parameter die alle viewers gemeen hebben.
-seo-description: Parameter die alle viewers gemeen hebben.
-seo-title: config
 solution: Experience Manager
 title: config
-uuid: 9e9bb580-a33a-4405-b05c-56962d702145
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -120,7 +117,7 @@ Dit is gelijk aan de volgende opdrachten die expliciet in de URL worden opgegeve
 style=etc/dam/presets/css/html5_interactivevideo_dark.css
 ```
 
-## Voorbeeld 5 {#section-19b988551d1d492a9079948e0b04b38f}
+## Voorbeeld 4 {#section-19b988551d1d492a9079948e0b04b38f}
 
 Een viewervoorinstelling met de naam `Carousel_Dotted_light` bevat de volgende gegevens:
 
