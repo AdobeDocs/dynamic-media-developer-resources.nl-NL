@@ -1,16 +1,13 @@
 ---
 description: Hiermee gaat de viewer naar de modus Volledig scherm of wordt deze afgesloten wanneer de gebruiker hierop klikt. Deze knop wordt weergegeven in de hoofdbesturingsbalk. Deze knop wordt niet weergegeven als de viewer werkt in de pop-upmodus en het systeem geen native volledig scherm ondersteunt. U kunt de grootte, de huid, en de plaats van de knoop door CSS.
-seo-description: Hiermee gaat de viewer naar de modus Volledig scherm of wordt deze afgesloten wanneer de gebruiker hierop klikt. Deze knop wordt weergegeven in de hoofdbesturingsbalk. Deze knop wordt niet weergegeven als de viewer werkt in de pop-upmodus en het systeem geen native volledig scherm ondersteunt. U kunt de grootte, de huid, en de plaats van de knoop door CSS.
-seo-title: Knop Volledig scherm
 solution: Experience Manager
 title: Knop Volledig scherm
-uuid: 1ee32e71-78bc-4cb2-858c-083c750ff1c6
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
