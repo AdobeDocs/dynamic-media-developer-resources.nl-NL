@@ -1,16 +1,13 @@
 ---
 description: Pas de afbeeldingsdekking aan. Hiermee kunt u de voorgronddekking van een afbeeldings-, tekst-, effen kleur- of effectlaag verlagen.
-seo-description: Pas de afbeeldingsdekking aan. Hiermee kunt u de voorgronddekking van een afbeeldings-, tekst-, effen kleur- of effectlaag verlagen.
-seo-title: opac
 solution: Experience Manager
 title: opac
-uuid: 268279bd-d777-4afe-b175-841af7e55406
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
