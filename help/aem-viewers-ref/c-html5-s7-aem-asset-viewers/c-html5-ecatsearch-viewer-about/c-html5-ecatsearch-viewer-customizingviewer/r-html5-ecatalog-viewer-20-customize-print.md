@@ -1,16 +1,13 @@
 ---
 description: Het gereedschap Afdrukken bestaat uit een knop die wordt toegevoegd aan de besturingsbalk en het modale dialoogvenster dat wordt weergegeven wanneer het gereedschap wordt geactiveerd.
-seo-description: Het gereedschap Afdrukken bestaat uit een knop die wordt toegevoegd aan de besturingsbalk en het modale dialoogvenster dat wordt weergegeven wanneer het gereedschap wordt geactiveerd.
-seo-title: Afdrukken
 solution: Experience Manager
 title: Afdrukken
-uuid: 7be047d8-d1be-4bda-90ca-6b55c749cc64
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1480'
 ht-degree: 0%
 
 ---
