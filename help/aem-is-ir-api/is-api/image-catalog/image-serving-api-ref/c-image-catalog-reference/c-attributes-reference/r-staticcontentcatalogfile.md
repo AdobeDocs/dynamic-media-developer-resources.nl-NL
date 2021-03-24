@@ -1,16 +1,13 @@
 ---
 description: Statische gegevenspaden van inhoudscatalogus. Hiermee geeft u de bestanden op die de statische inhoudsgegevens voor deze catalogus bevatten.
-seo-description: Statische gegevenspaden van inhoudscatalogus. Hiermee geeft u de bestanden op die de statische inhoudsgegevens voor deze catalogus bevatten.
-seo-title: StaticContentCatalogFile
 solution: Experience Manager
 title: StaticContentCatalogFile
-uuid: 82d2a68a-255a-4e65-a29f-7022e7f0f5ec
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
