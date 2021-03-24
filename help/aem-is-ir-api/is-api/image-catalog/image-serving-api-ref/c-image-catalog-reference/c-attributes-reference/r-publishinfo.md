@@ -1,16 +1,13 @@
 ---
 description: Annotatietekenreeks van catalogus. Tekstreeks die kan worden gebruikt om de versie van de catalogus, de publicatiedatum enz. te identificeren.
-seo-description: Annotatietekenreeks van catalogus. Tekstreeks die kan worden gebruikt om de versie van de catalogus, de publicatiedatum enz. te identificeren.
-seo-title: PublishInfo
 solution: Experience Manager
 title: PublishInfo
-uuid: 2bcd65b8-2f3e-4652-b346-a850900e8c7b
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '74'
 ht-degree: 0%
 
 ---
