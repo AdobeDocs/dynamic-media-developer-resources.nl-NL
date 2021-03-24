@@ -1,16 +1,13 @@
 ---
 description: Alle viewercomponenten ondersteunen de rollen en kenmerken van ARIA (Accessible Rich Internet Applications) om de integratie met ondersteunende hulpmiddelen, zoals schermlezers, te verbeteren.
-seo-description: Alle viewercomponenten ondersteunen de rollen en kenmerken van ARIA (Accessible Rich Internet Applications) om de integratie met ondersteunende hulpmiddelen, zoals schermlezers, te verbeteren.
-seo-title: Technische ondersteuning
 solution: Experience Manager
 title: Technische ondersteuning
-uuid: 525ab400-c022-4f33-a0e3-bafb6019f1a7
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search,Toegankelijkheid
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
