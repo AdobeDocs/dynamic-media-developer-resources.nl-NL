@@ -1,17 +1,14 @@
 ---
 description: Alle visuele aanpassingen en de meeste gedragsaanpassingen voor de Gemengde Kijker van Media worden gedaan door een douaneCSS te creëren.
 keywords: responsief
-seo-description: Alle visuele aanpassingen en de meeste gedragsaanpassingen voor de Gemengde Kijker van Media worden gedaan door een douaneCSS te creëren.
-seo-title: Gemengde Media Viewer aanpassen
 solution: Experience Manager
 title: Gemengde Media Viewer aanpassen
-uuid: 039462a7-2915-48f3-8d4b-0c527801b85a
 feature: Dynamic Media Classic,Viewers,SDK/API,Mediasets mixen
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1340'
 ht-degree: 0%
 
 ---
@@ -41,7 +38,7 @@ Houd er bij het maken van aangepaste CSS rekening mee dat de viewer de klasse `.
 
 ## Responsieve ontworpen CSS maken {#section-0bb49aca42d242d9b01879d5ba59d33b}
 
-Het is mogelijk om verschillende apparaten en insluitingsgrootten in CSS als doel in te stellen om de weergave van uw inhoud anders te maken, afhankelijk van het apparaat van de gebruiker of een bepaalde webpaginalay-out. Dit geldt onder andere voor verschillende webpaginalay-outs, de grootte van gebruikersinterface-elementen en de resolutie van illustraties.
+Het is mogelijk om verschillende apparaten en insluitingsgrootten in CSS als doel in te stellen om de weergave van uw inhoud te wijzigen, afhankelijk van het apparaat van de gebruiker of een bepaalde webpaginalay-out. Dit geldt onder andere voor verschillende webpaginalay-outs, de grootte van gebruikersinterface-elementen en de resolutie van illustraties.
 
 De viewer ondersteunt twee methoden voor het maken van responsieve, ontworpen CSS: CSS-markeringen en standaard CSS-mediaquery&#39;s. U kunt deze methoden afzonderlijk of samen gebruiken.
 
