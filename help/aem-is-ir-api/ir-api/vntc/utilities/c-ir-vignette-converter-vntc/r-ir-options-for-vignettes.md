@@ -1,16 +1,13 @@
 ---
 description: De volgende opties bepalen de verwerking van vignetbestanden. Ze worden genegeerd als sourceFile geen vignet is.
-seo-description: De volgende opties bepalen de verwerking van vignetbestanden. Ze worden genegeerd als sourceFile geen vignet is.
-seo-title: Opties voor vignetten
 solution: Experience Manager
 title: Opties voor vignetten
-uuid: 0cb40314-07ce-496b-a27b-560d7bb4fa8e
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
