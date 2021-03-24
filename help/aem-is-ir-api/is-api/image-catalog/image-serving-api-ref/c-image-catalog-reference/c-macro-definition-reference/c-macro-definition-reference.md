@@ -1,16 +1,13 @@
 ---
 description: Informatie over de macronaam- en definitieparameters.
-seo-description: Informatie over de macronaam- en definitieparameters.
-seo-title: Referentie macrodefinitie
 solution: Experience Manager
 title: Referentie macrodefinitie
-uuid: 66e9d7e7-bb1e-4f76-abdd-43679abd443b
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '43'
+source-wordcount: '32'
 ht-degree: 0%
 
 ---
