@@ -1,16 +1,13 @@
 ---
 description: Vignetbestand. Geeft het vignet op dat voor deze aanvraag moet worden gebruikt.
-seo-description: Vignetbestand. Geeft het vignet op dat voor deze aanvraag moet worden gebruikt.
-seo-title: vignet
 solution: Experience Manager
 title: vignet
-uuid: 8bba4ad4-bd55-4c55-8ebf-585371cf33f1
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
