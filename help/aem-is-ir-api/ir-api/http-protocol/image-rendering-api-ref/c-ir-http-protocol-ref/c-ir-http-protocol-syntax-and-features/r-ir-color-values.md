@@ -1,17 +1,14 @@
 ---
 description: Kleurwaarden voor de kenmerken color= en bgc= kunnen worden opgegeven met behulp van een lijst met decimale waarden, met komma's als scheidingsteken, of een hexadecimale notatie, vergelijkbaar met HTML.
-seo-description: Kleurwaarden voor de kenmerken color= en bgc= kunnen worden opgegeven met behulp van een lijst met decimale waarden, met komma's als scheidingsteken, of een hexadecimale notatie, vergelijkbaar met HTML.
-seo-title: Kleurwaarden
 solution: Experience Manager
 title: Kleurwaarden
-uuid: f8e3a8e7-3e0c-4ee6-8434-caba1f2bea1f
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 7%
+source-wordcount: '127'
+ht-degree: 8%
 
 ---
 
