@@ -1,16 +1,13 @@
 ---
 description: Selecteer object op naam. Hiermee wordt de opgegeven groep vignetten op naam geselecteerd en wordt een nieuw MSS gestart.
-seo-description: Selecteer object op naam. Hiermee wordt de opgegeven groep vignetten op naam geselecteerd en wordt een nieuw MSS gestart.
-seo-title: obj
 solution: Experience Manager
 title: obj
-uuid: 2fede992-6759-45bd-b2f1-36e2c791d536
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
