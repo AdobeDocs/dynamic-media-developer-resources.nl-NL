@@ -1,16 +1,13 @@
 ---
 description: Stalen bestaan uit een rij miniatuurafbeeldingen met optionele schuifknoppen aan de linker- en rechterzijde.
-seo-description: Stalen bestaan uit een rij miniatuurafbeeldingen met optionele schuifknoppen aan de linker- en rechterzijde.
-seo-title: Stalen
 solution: Experience Manager
 title: Stalen
-uuid: ee91385d-a0ff-4419-8a86-e2b106030f98
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
