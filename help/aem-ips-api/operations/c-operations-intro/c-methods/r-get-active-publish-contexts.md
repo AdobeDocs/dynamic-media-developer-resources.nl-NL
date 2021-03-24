@@ -1,16 +1,13 @@
 ---
 description: Hiermee wordt een lijst met actieve publicatiecontexten voor het opgegeven bedrijf opgehaald. Een publicatiecontext wordt als actief beschouwd als er ten minste één actieve server voor de context is gedefinieerd.
-seo-description: Hiermee wordt een lijst met actieve publicatiecontexten voor het opgegeven bedrijf opgehaald. Een publicatiecontext wordt als actief beschouwd als er ten minste één actieve server voor de context is gedefinieerd.
-seo-title: getActivePublishContext
 solution: Experience Manager
 title: getActivePublishContext
-uuid: 856704d1-e97b-4d2d-b80c-620450b78432
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,beheerder
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
