@@ -1,16 +1,13 @@
 ---
 description: De Basic Zoom Viewer biedt ondersteuning voor het uit de verpakking bijhouden van Adobe Analytics.
-seo-description: De Basic Zoom Viewer biedt ondersteuning voor het uit de verpakking bijhouden van Adobe Analytics.
-seo-title: Ondersteuning voor Adobe Analytics-tracking
 solution: Experience Manager
 title: Ondersteuning voor Adobe Analytics-tracking
-uuid: f48fde77-7e48-4d56-b5c5-079a484e6d9c
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoomen
 role: Ontwikkelaar, Business Practice, Data Engineer, Data Architect
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
