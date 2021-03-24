@@ -1,16 +1,13 @@
 ---
 description: Beeld dat componenten serveert wordt beheerd door de Supervisor van de Server, die een Linux daemon of Dienst van Vensters (S7Supervisor.exe is, die als "Beeld van Dynamic Media Servend"in het Controlebord van de Diensten wordt vermeld).
-seo-description: Beeld dat componenten serveert wordt beheerd door de Supervisor van de Server, die een Linux daemon of Dienst van Vensters (S7Supervisor.exe is, die als "Beeld van Dynamic Media Servend"in het Controlebord van de Diensten wordt vermeld).
-seo-title: Servertoezichthouder
 solution: Experience Manager
 title: Servertoezichthouder
-uuid: 6ac38d90-00ed-4d49-84f0-2e77e7a86d47
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,beheerder,praktijkgericht
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
