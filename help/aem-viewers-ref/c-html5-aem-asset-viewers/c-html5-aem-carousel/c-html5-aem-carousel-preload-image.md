@@ -1,16 +1,13 @@
 ---
 description: Afbeelding vooraf laden is een voorbeeldafbeelding van statische elementen die direct wordt geladen nadat de methode init() is aangeroepen en die wordt weergegeven terwijl de SDK-bibliotheken van de viewer, de elementen en de voorinstellingen worden gedownload. Het doel van de vooraf geladen afbeelding is om de laadtijd van de viewer visueel te verbeteren en inhoud snel aan de gebruiker voor te stellen.
-seo-description: Afbeelding vooraf laden is een voorbeeldafbeelding van statische elementen die direct wordt geladen nadat de methode init() is aangeroepen en die wordt weergegeven terwijl de SDK-bibliotheken van de viewer, de elementen en de voorinstellingen worden gedownload. Het doel van de vooraf geladen afbeelding is om de laadtijd van de viewer visueel te verbeteren en inhoud snel aan de gebruiker voor te stellen.
-seo-title: Afbeelding vooraf laden
 solution: Experience Manager
 title: Afbeelding vooraf laden
-uuid: bae99269-fd55-485e-b78e-873b77541d91
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
