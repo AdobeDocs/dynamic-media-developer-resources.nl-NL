@@ -1,16 +1,13 @@
 ---
 description: Configuration attribute for Interactive Video Viewer.
-seo-description: Configuration attribute for Interactive Video Viewer.
-seo-title: SocialShare.bearing
 solution: Experience Manager
 title: SocialShare.bearing
-uuid: b3978280-7826-44c0-bd25-357e145121f8
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
