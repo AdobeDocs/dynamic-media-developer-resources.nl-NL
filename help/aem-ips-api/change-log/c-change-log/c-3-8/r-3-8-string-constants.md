@@ -1,16 +1,13 @@
 ---
 description: Beschrijft nieuwe en veranderde koordconstanten voor IPS API versie 3.8.
-seo-description: Beschrijft nieuwe en veranderde koordconstanten voor IPS API versie 3.8.
-seo-title: Tekenreeksconstanten nieuw en gewijzigd
 solution: Experience Manager
 title: Tekenreeksconstanten nieuw en gewijzigd
-uuid: 4cdfdff7-9cea-4ae1-925b-ce6cfc51c151
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,beheerder
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '63'
 ht-degree: 0%
 
 ---
