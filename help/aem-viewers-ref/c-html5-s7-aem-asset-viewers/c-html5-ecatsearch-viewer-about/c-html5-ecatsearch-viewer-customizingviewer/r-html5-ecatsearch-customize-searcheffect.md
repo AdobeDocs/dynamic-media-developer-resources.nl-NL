@@ -1,16 +1,13 @@
 ---
 description: In de viewer worden gebieden met zoekresultaten in de hoofdweergave weergegeven om woorden of woordgroepen in de catalogus te markeren.
-seo-description: In de viewer worden gebieden met zoekresultaten in de hoofdweergave weergegeven om woorden of woordgroepen in de catalogus te markeren.
-seo-title: Zoeken, effect
 solution: Experience Manager
 title: Zoeken, effect
-uuid: 3a076ff8-2da5-4020-8a77-8f5a256afefe
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
