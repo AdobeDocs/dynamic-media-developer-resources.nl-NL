@@ -1,16 +1,13 @@
 ---
 description: Als req=img, wordt de grootte van het samengestelde canvas volledig bepaald door de grootte van laag 0.
-seo-description: Als req=img, wordt de grootte van het samengestelde canvas volledig bepaald door de grootte van laag 0.
-seo-title: Het samengestelde canvas
 solution: Experience Manager
 title: Het samengestelde canvas
-uuid: 7ec2f1b3-61fc-4bfe-96d2-a5946a238e74
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
