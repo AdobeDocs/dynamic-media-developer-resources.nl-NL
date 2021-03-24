@@ -1,16 +1,13 @@
 ---
 description: Lagen worden samengesteld in de volgorde die is opgegeven met de opdracht layer=, waarbij hoger genummerde lagen lager genummerde lagen verbergen.
-seo-description: Lagen worden samengesteld in de volgorde die is opgegeven met de opdracht layer=, waarbij hoger genummerde lagen lager genummerde lagen verbergen.
-seo-title: Het samengestelde canvas
 solution: Experience Manager
 title: Het samengestelde canvas
-uuid: 057b11cb-36f3-40f8-b095-9ad05da858a9
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
