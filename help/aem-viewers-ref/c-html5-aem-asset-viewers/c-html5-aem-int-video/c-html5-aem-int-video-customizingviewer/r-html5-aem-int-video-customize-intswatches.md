@@ -1,16 +1,13 @@
 ---
 description: Het interactieve deelvenster Stalen wordt naast de video-inhoud weergegeven als interactieve gegevens in configuratie zijn doorgegeven aan de viewer. Het bestaat uit een banner bovenaan die tekst zoals "Klik om te bekijken", een kolom van één of meerdere interactieve monsters en twee rolknopen (beschikbaar slechts op Desktopsystemen) teruggeeft.
-seo-description: Het interactieve deelvenster Stalen wordt naast de video-inhoud weergegeven als interactieve gegevens in configuratie zijn doorgegeven aan de viewer. Het bestaat uit een banner bovenaan die tekst zoals "Klik om te bekijken", een kolom van één of meerdere interactieve monsters en twee rolknopen (beschikbaar slechts op Desktopsystemen) teruggeeft.
-seo-title: Interactieve stalen
 solution: Experience Manager
 title: Interactieve stalen
-uuid: 9f9df764-3dd0-414e-a0db-4287f0019313
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '895'
 ht-degree: 0%
 
 ---
