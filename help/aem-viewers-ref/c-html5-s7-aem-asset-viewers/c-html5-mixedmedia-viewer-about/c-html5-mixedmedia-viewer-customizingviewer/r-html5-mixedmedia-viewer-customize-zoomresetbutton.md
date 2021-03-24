@@ -1,16 +1,13 @@
 ---
 description: Als u op deze knop klikt of erop tikt, wordt een afbeelding in de hoofdweergave opnieuw ingesteld. U kunt deze knop vergroten, verkleinen, verkleinen en plaatsen met CSS.
-seo-description: Als u op deze knop klikt of erop tikt, wordt een afbeelding in de hoofdweergave opnieuw ingesteld. U kunt deze knop vergroten, verkleinen, verkleinen en plaatsen met CSS.
-seo-title: Knop Zoomen opnieuw instellen
 solution: Experience Manager
 title: Knop Zoomen opnieuw instellen
-uuid: 29b46f4e-cda6-4dfc-92bb-722882235e13
 feature: Dynamic Media Classic,Viewers,SDK/API,Mediasets mixen
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
