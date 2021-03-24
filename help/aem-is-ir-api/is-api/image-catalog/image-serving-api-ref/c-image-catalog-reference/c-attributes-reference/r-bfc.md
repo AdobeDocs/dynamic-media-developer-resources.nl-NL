@@ -1,16 +1,13 @@
 ---
 description: Conversie browserindeling. Hiermee wordt aangegeven of de conversiefunctionaliteit van de browserindeling is in- of uitgeschakeld.
-seo-description: Conversie browserindeling. Hiermee wordt aangegeven of de conversiefunctionaliteit van de browserindeling is in- of uitgeschakeld.
-seo-title: Bfc
 solution: Experience Manager
 title: Bfc
-uuid: ea27f001-6d7d-4df4-b88c-60859a92e096
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '62'
 ht-degree: 0%
 
 ---
