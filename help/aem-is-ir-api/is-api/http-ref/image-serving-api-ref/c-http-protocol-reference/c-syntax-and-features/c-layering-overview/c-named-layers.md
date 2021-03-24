@@ -1,16 +1,13 @@
 ---
 description: Met de opdracht layer= kunt u een naam toewijzen aan een laag en later verwijzen naar dezelfde laag op naam in plaats van op laagnummer.
-seo-description: Met de opdracht layer= kunt u een naam toewijzen aan een laag en later verwijzen naar dezelfde laag op naam in plaats van op laagnummer.
-seo-title: Benoemde lagen
 solution: Experience Manager
 title: Benoemde lagen
-uuid: dad30027-338b-4387-9a14-b26c1b925b18
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
