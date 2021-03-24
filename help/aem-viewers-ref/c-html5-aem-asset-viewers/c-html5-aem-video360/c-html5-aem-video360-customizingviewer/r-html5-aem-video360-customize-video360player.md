@@ -1,16 +1,13 @@
 ---
 description: De videospeler is het rechthoekige gebied waar de video-inhoud wordt weergegeven in de viewer.
-seo-description: De videospeler is het rechthoekige gebied waar de video-inhoud wordt weergegeven in de viewer.
-seo-title: Video360-speler
 solution: Experience Manager
 title: Video360-speler
-uuid: e78a9c22-4217-42cc-ba47-3acb4130a4fd
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
