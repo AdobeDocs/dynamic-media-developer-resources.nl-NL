@@ -1,16 +1,13 @@
 ---
 description: Voor sommige toepassingen is mogelijk een andere verlichtingskaart voor verschillende soorten materialen vereist.
-seo-description: Voor sommige toepassingen is mogelijk een andere verlichtingskaart voor verschillende soorten materialen vereist.
-seo-title: Meerdere verlichtingstoewijzingen gebruiken
 solution: Experience Manager
 title: Meerdere verlichtingstoewijzingen gebruiken
-uuid: 24d86229-6e88-4fe2-80ef-30461aee3db5
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
