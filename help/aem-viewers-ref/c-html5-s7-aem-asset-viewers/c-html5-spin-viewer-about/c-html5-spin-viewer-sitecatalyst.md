@@ -1,16 +1,13 @@
 ---
 description: De Draaiende Kijker steunt het volgen van Adobe Analytics uit de doos.
-seo-description: De Draaiende Kijker steunt het volgen van Adobe Analytics uit de doos.
-seo-title: Ondersteuning voor Adobe Analytics-tracking
 solution: Experience Manager
 title: Ondersteuning voor Adobe Analytics-tracking
-uuid: 337671f0-22e8-4e3e-a0a9-ce49d271ea56
 feature: Dynamic Media Classic,Viewers,SDK/API,Draaiensets
 role: Ontwikkelaar, Business Practice, Data Engineer, Data Architect
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
