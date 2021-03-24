@@ -1,16 +1,13 @@
 ---
 description: Pas de kleurtoon aan. Hiermee verschuift u de kleurtoon van elke zichtbare pixel van de laag of samengestelde afbeelding met de opgegeven hoeveelheid.
-seo-description: Pas de kleurtoon aan. Hiermee verschuift u de kleurtoon van elke zichtbare pixel van de laag of samengestelde afbeelding met de opgegeven hoeveelheid.
-seo-title: op_hue
 solution: Experience Manager
 title: op_hue
-uuid: 23da539e-0192-4dc4-a19b-41aa94a82730
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
