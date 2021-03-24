@@ -1,16 +1,13 @@
 ---
 description: De macro's van het bevel verstrekken genoemde kortere weg voor reeksen bevelen. Macro's worden gedefinieerd in afzonderlijke macrodefinitiebestanden, die kunnen worden gekoppeld aan afbeeldingscatalogi of de standaardcatalogus.
-seo-description: De macro's van het bevel verstrekken genoemde kortere weg voor reeksen bevelen. Macro's worden gedefinieerd in afzonderlijke macrodefinitiebestanden, die kunnen worden gekoppeld aan afbeeldingscatalogi of de standaardcatalogus.
-seo-title: Opdrachtmacro's
 solution: Experience Manager
 title: Opdrachtmacro's
-uuid: a6ff5642-6716-484f-b37e-066994362a9b
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
