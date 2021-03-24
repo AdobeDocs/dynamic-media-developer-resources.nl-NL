@@ -1,16 +1,13 @@
 ---
 description: Modus Nieuwe pixels berekenen. Standaard voor resMode=. Hiermee geeft u de kenmerken voor resampling en interpolatie op die worden gebruikt voor het schalen van de gerenderde afbeelding naar de uiteindelijke grootte.
-seo-description: Modus Nieuwe pixels berekenen. Standaard voor resMode=. Hiermee geeft u de kenmerken voor resampling en interpolatie op die worden gebruikt voor het schalen van de gerenderde afbeelding naar de uiteindelijke grootte.
-seo-title: ResMode
 solution: Experience Manager
 title: ResMode
-uuid: 91d83274-b3e1-4233-bd01-21936726e1db
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
