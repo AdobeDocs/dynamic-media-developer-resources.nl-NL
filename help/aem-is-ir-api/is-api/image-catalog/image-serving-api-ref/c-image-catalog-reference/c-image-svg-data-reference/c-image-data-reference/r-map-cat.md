@@ -1,16 +1,13 @@
 ---
 description: Afbeeldingskaartgegevens. Geen of meer volledige HTML <AREA>-elementen, gesorteerd van voor naar achter.
-seo-description: Afbeeldingskaartgegevens. Geen of meer volledige HTML <AREA>-elementen, gesorteerd van voor naar achter.
-seo-title: Kaart
 solution: Experience Manager
 title: Kaart
-uuid: 674a7a74-91bf-41c4-ab74-a5cb4f8abe1d
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
