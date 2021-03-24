@@ -1,16 +1,13 @@
 ---
 description: Gebruik het volgende om contact op te nemen met technische ondersteuning.
-seo-description: Gebruik het volgende om contact op te nemen met technische ondersteuning.
-seo-title: Technische ondersteuning
 solution: Experience Manager
 title: Technische ondersteuning
-uuid: bab5aab4-b5a3-4c8f-80bd-d9e3289b9bff
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---
