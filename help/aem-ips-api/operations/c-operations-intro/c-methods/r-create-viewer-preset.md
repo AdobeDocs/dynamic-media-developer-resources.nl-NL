@@ -1,16 +1,13 @@
 ---
 description: Hiermee maakt u een voorinstellingsweergave die bepaalt wat een gebruiker kan zien. De kijker kan van om het even welk type beschikbaar in IPS zijn. De voorinstellingsweergave wordt toegepast wanneer de elementen worden gepubliceerd.
-seo-description: Hiermee maakt u een voorinstellingsweergave die bepaalt wat een gebruiker kan zien. De kijker kan van om het even welk type beschikbaar in IPS zijn. De voorinstellingsweergave wordt toegepast wanneer de elementen worden gepubliceerd.
-seo-title: createViewerPreset
 solution: Experience Manager
 title: createViewerPreset
-uuid: 4160d2b0-6147-459f-830a-43c99b8dc196
 feature: Dynamic Media Classic,SDK/API,Viewer-voorinstellingen
 role: Ontwikkelaar,beheerder
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
