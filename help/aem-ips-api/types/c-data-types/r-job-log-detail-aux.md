@@ -1,16 +1,13 @@
 ---
 description: Bevat aanvullende berichten die zijn gekoppeld aan het hoofdbericht van het taaklog (JobDetail). Bevat waarschuwingen en andere details die aan het momenteel verwerkte element zijn gekoppeld.
-seo-description: Bevat aanvullende berichten die zijn gekoppeld aan het hoofdbericht van het taaklog (JobDetail). Bevat waarschuwingen en andere details die aan het momenteel verwerkte element zijn gekoppeld.
-seo-title: JobLogDetailAux
 solution: Experience Manager
 title: JobLogDetailAux
-uuid: df6f61f2-54f1-4996-938c-c3ea8c27551a
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,beheerder
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
