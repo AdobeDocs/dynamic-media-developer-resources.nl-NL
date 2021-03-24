@@ -1,16 +1,13 @@
 ---
 description: Tot vensterbekledingsmaterialen behoren zowel zachte vensterbekledingen (lakens, valanties, cafégordijnen) als harde vensterbekledingen (tinten en jaloezieën).
-seo-description: Tot vensterbekledingsmaterialen behoren zowel zachte vensterbekledingen (lakens, valanties, cafégordijnen) als harde vensterbekledingen (tinten en jaloezieën).
-seo-title: Vensterbedekkingen
 solution: Experience Manager
 title: Vensterbedekkingen
-uuid: 3d74466a-b7c3-43b0-9b0b-f8bb809e2773
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
