@@ -1,16 +1,13 @@
 ---
 description: Als tekst wordt opgegeven als de indeling voor reacties, worden de antwoordgegevens opgemaakt om leesbaar te zijn als Java-eigenschappen.
-seo-description: Als tekst wordt opgegeven als de indeling voor reacties, worden de antwoordgegevens opgemaakt om leesbaar te zijn als Java-eigenschappen.
-seo-title: Eigenschappen van Text (Java)
 solution: Experience Manager
 title: Eigenschappen van Text (Java)
-uuid: 5dba4cf7-9172-4195-968e-9ef76c25e90c
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
