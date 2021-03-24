@@ -1,16 +1,13 @@
 ---
 description: Landinstellings-id voor vertaling. Geeft de landinstellings-id voor de aanvraag op.
-seo-description: Landinstellings-id voor vertaling. Geeft de landinstellings-id voor de aanvraag op.
-seo-title: landinstelling
 solution: Experience Manager
 title: landinstelling
-uuid: 82acc0bb-fd94-44c9-8ff9-3b9cefab4627
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
