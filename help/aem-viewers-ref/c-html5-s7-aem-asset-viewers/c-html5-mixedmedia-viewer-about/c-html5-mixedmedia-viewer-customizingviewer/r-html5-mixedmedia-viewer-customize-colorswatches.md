@@ -1,16 +1,13 @@
 ---
 description: Kleurstalen bestaan uit een rij miniatuurafbeeldingen met optionele schuifknoppen aan de linker- en rechterkant. Kleurstalen zijn alleen zichtbaar op het bureaublad als alle miniaturen niet in de breedte van de container passen. Op mobiele apparaten, of als de duimnagels in de containerbreedte kunnen passen, worden de rolknopen niet getoond.
-seo-description: Kleurstalen bestaan uit een rij miniatuurafbeeldingen met optionele schuifknoppen aan de linker- en rechterkant. Kleurstalen zijn alleen zichtbaar op het bureaublad als alle miniaturen niet in de breedte van de container passen. Op mobiele apparaten, of als de duimnagels in de containerbreedte kunnen passen, worden de rolknopen niet getoond.
-seo-title: Kleurstalen
 solution: Experience Manager
 title: Kleurstalen
-uuid: 868d938f-578a-4ecf-8a71-9569450492fb
 feature: Dynamic Media Classic,Viewers,SDK/API,Mediasets mixen
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
