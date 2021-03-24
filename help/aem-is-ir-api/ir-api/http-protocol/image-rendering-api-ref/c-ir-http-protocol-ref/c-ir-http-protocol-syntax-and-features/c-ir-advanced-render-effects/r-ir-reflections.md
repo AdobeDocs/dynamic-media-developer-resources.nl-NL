@@ -1,16 +1,13 @@
 ---
 description: Vignetten kunnen worden ontworpen om gegevens van de bijna 3D-reflectie op te nemen.
-seo-description: Vignetten kunnen worden ontworpen om gegevens van de bijna 3D-reflectie op te nemen.
-seo-title: Reflecties
 solution: Experience Manager
 title: Reflecties
-uuid: 6d86f566-0f02-4304-8a6c-08b1a2e9c72e
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
@@ -44,7 +41,7 @@ Indien dit is ontworpen, worden de volgende materiaalkenmerken gebruikt om de re
   <tr> 
    <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180" type="reference" format="dita" scope="local"> <span class="codeph"> hard=  </span> </a> </p> </td> 
    <td> <p>Oppervlakteruwheid </p> </td> 
-   <td> <p>40% </p> </td> 
+   <td> <p>20% </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-type.md#reference-128c7de89e2d46838019b560f3f84a35" type="reference" format="dita" scope="local"> <span class="codeph"> type=</span> </a> </p> </td> 
