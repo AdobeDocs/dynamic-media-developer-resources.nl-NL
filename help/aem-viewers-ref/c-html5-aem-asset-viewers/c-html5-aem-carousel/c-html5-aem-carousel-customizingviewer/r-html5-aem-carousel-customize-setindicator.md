@@ -1,16 +1,13 @@
 ---
 description: De indicator Set is een reeks punten die onder aan de viewer worden weergegeven. De huidige positie in de set wordt weergegeven.
-seo-description: De indicator Set is een reeks punten die onder aan de viewer worden weergegeven. De huidige positie in de set wordt weergegeven.
-seo-title: Indicator instellen
 solution: Experience Manager
 title: Indicator instellen
-uuid: 3f90a216-654f-44a9-947d-592bd5f342d4
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
