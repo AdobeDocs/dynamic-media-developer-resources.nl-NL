@@ -1,16 +1,13 @@
 ---
 description: De videotijd is de numerieke weergave waarin de huidige tijd en duur van de video die momenteel wordt afgespeeld, worden weergegeven.
-seo-description: De videotijd is de numerieke weergave waarin de huidige tijd en duur van de video die momenteel wordt afgespeeld, worden weergegeven.
-seo-title: Videotijd
 solution: Experience Manager
 title: Videotijd
-uuid: 8cec89b9-b3e8-4c58-90d9-7ab56698e35d
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
