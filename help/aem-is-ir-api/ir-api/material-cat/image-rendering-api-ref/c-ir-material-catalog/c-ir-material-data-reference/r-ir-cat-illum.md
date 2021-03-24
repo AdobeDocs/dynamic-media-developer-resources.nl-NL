@@ -1,16 +1,13 @@
 ---
 description: Selector van belichtingskaart. Hiermee kunt u de belichtingsafbeelding expliciet selecteren en gebruiken bij het renderen van dit materiaal.
-seo-description: Selector van belichtingskaart. Hiermee kunt u de belichtingsafbeelding expliciet selecteren en gebruiken bij het renderen van dit materiaal.
-seo-title: Illum
 solution: Experience Manager
 title: Illum
-uuid: 2df0abbb-0d54-41b7-80c4-b914c18cd1b1
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
