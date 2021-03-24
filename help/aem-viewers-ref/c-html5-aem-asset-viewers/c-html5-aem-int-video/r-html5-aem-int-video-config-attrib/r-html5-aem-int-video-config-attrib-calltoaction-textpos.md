@@ -1,16 +1,13 @@
 ---
 description: Configuration attribute for Interactive Video Viewer.
-seo-description: Configuration attribute for Interactive Video Viewer.
-seo-title: CallToAction.textpos
 solution: Experience Manager
 title: CallToAction.textpos
-uuid: 3592daf7-6222-4c42-b6bb-ab3ef5b8ae70
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '85'
 ht-degree: 1%
 
 ---
