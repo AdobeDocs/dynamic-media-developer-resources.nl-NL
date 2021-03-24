@@ -1,16 +1,13 @@
 ---
 description: In deze sectie worden de kenmerken van de afbeeldingsgegevens beschreven.
-seo-description: In deze sectie worden de kenmerken van de afbeeldingsgegevens beschreven.
-seo-title: Referentie afbeeldingsgegevens
 solution: Experience Manager
 title: Referentie afbeeldingsgegevens
-uuid: 18f9efe1-5d31-4f39-8f0a-7c0a5b7f75b0
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '48'
 ht-degree: 0%
 
 ---
