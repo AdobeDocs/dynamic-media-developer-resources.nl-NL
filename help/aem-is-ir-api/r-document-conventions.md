@@ -1,16 +1,13 @@
 ---
 description: In dit document worden de volgende conventies gebruikt.
-seo-description: In dit document worden de volgende conventies gebruikt.
-seo-title: Documentconventies
 solution: Experience Manager
 title: Documentconventies
-uuid: 049c4d1b-b363-43bd-9597-168c97884ab7
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
