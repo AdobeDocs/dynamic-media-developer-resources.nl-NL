@@ -1,16 +1,13 @@
 ---
 description: Sjablonen kunnen worden gebruikt om de lengte en complexiteit te verminderen van aanvragen die meerdere afbeeldingslagen samenstellen of die tekst met RTF-indeling bevatten.
-seo-description: Sjablonen kunnen worden gebruikt om de lengte en complexiteit te verminderen van aanvragen die meerdere afbeeldingslagen samenstellen of die tekst met RTF-indeling bevatten.
-seo-title: Sjablonen
 solution: Experience Manager
 title: Sjablonen
-uuid: 54830d1f-40ad-4bf2-8e3d-d3e4d4ab57b9
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
