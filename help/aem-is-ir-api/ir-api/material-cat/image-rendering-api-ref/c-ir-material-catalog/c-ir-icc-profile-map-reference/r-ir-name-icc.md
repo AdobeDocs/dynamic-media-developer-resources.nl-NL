@@ -1,16 +1,13 @@
 ---
 description: Naam van profielsneltoets. Een naam van een sneltoets voor het kleurprofiel.
-seo-description: Naam van profielsneltoets. Een naam van een sneltoets voor het kleurprofiel.
-seo-title: Naam
 solution: Experience Manager
 title: Naam
-uuid: f293ceb0-65dc-414c-8ff7-21e70f0315a4
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '61'
 ht-degree: 0%
 
 ---
