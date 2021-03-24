@@ -1,16 +1,13 @@
 ---
-description: Controleert op IPS ID-conflicten door elementnamen te vergelijken met alle namen van de naamruimte van de catalogus Afbeelding weergeven/Afbeelding renderen van een bedrijf.
-seo-description: Controleert op IPS ID-conflicten door elementnamen te vergelijken met alle namen van de naamruimte van de catalogus Afbeelding weergeven/Afbeelding renderen van een bedrijf.
-seo-title: checkAssetNames
+description: Controleert op IPS ID-conflicten door elementnamen te vergelijken met alle namen in de naamruimte van de catalogus Afbeelding weergeven/Afbeelding renderen van een bedrijf.
 solution: Experience Manager
 title: checkAssetNames
-uuid: 91d073a8-7648-429b-aa5c-c7d595550299
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,beheerder
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -18,7 +15,7 @@ ht-degree: 0%
 
 # checkAssetNames{#checkassetnames}
 
-Controleert op IPS ID-conflicten door elementnamen te vergelijken met alle namen van de naamruimte van de catalogus Afbeelding weergeven/Afbeelding renderen van een bedrijf.
+Controleert op IPS ID-conflicten door elementnamen te vergelijken met alle namen in de naamruimte van de catalogus Afbeelding weergeven/Afbeelding renderen van een bedrijf.
 
 Syntaxis
 
