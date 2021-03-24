@@ -1,16 +1,13 @@
 ---
 description: Met deze knop schakelt u de weergave van een gesloten bijschrift in of uit. De eigenschap is niet zichtbaar als de parameter caption niet is opgegeven.
-seo-description: Met deze knop schakelt u de weergave van een gesloten bijschrift in of uit. De eigenschap is niet zichtbaar als de parameter caption niet is opgegeven.
-seo-title: Knop Bijschrift
 solution: Experience Manager
 title: Knop Bijschrift
-uuid: a3895a9a-972a-4259-9418-b78f7c904bd4
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
