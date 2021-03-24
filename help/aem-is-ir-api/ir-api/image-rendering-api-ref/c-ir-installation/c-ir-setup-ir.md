@@ -1,16 +1,13 @@
 ---
 description: Rendering van afbeelding wordt geconfigureerd met de map fileinstall_folder/conf/ImageRendering.conf.
-seo-description: Rendering van afbeelding wordt geconfigureerd met de map fileinstall_folder/conf/ImageRendering.conf.
-seo-title: Afbeeldingen renderen instellen en configureren
 solution: Experience Manager
 title: Afbeeldingen renderen instellen en configureren
-uuid: ce76282d-d942-4378-b083-41c95ba97980
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
