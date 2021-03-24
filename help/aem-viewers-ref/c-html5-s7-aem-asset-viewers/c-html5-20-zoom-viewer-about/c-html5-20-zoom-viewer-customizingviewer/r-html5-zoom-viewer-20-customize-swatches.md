@@ -1,16 +1,13 @@
 ---
 description: Stalen bestaan uit een rij miniatuurafbeeldingen met optionele schuifknoppen aan de linker- en rechterzijde. Schuifknoppen zijn alleen zichtbaar op het bureaublad als alle miniaturen niet in de containerbreedte passen. Op mobiele apparaten, of als de duimnagels in de containerbreedte kunnen passen, worden de rolknopen niet getoond.
-seo-description: Stalen bestaan uit een rij miniatuurafbeeldingen met optionele schuifknoppen aan de linker- en rechterzijde. Schuifknoppen zijn alleen zichtbaar op het bureaublad als alle miniaturen niet in de containerbreedte passen. Op mobiele apparaten, of als de duimnagels in de containerbreedte kunnen passen, worden de rolknopen niet getoond.
-seo-title: Stalen
 solution: Experience Manager
 title: Stalen
-uuid: d44e775d-5253-4990-98a4-84ff50db09b9
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoomen
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
