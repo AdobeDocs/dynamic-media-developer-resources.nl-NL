@@ -1,16 +1,13 @@
 ---
 description: Gebruik deze procedure bij het upgraden van Dynamic Media Image Serving op Linux.
-seo-description: Gebruik deze procedure bij het upgraden van Dynamic Media Image Serving op Linux.
-seo-title: Bijwerken vanaf IS 4.7.4 of hoger
 solution: Experience Manager
 title: Bijwerken vanaf IS 4.7.4 of hoger
-uuid: 70beb1a3-71b9-4bd0-b048-13d88446a9d3
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
