@@ -1,16 +1,13 @@
 ---
 description: Weergavebreedte. Hiermee geeft u de breedte van de antwoordafbeelding (weergaveafbeelding) op.
-seo-description: Weergavebreedte. Hiermee geeft u de breedte van de antwoordafbeelding (weergaveafbeelding) op.
-seo-title: winderig
 solution: Experience Manager
 title: winderig
-uuid: b59b936c-abab-4f9d-95ca-0a09743ba0fb
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
