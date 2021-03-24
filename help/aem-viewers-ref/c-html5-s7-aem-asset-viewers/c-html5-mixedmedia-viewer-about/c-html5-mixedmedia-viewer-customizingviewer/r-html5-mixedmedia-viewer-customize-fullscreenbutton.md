@@ -1,16 +1,13 @@
 ---
 description: Met deze knop activeert de viewer de modus Volledig scherm of wordt deze afgesloten wanneer de gebruiker hierop klikt. Deze wordt gebruikt wanneer de viewer afbeeldingen of centrifuges weergeeft. Deze knop wordt niet weergegeven als de viewer werkt in de pop-upmodus en het systeem geen native volledig scherm ondersteunt. U kunt deze knop vergroten, verkleinen, verkleinen en plaatsen met CSS.
-seo-description: Met deze knop activeert de viewer de modus Volledig scherm of wordt deze afgesloten wanneer de gebruiker hierop klikt. Deze wordt gebruikt wanneer de viewer afbeeldingen of centrifuges weergeeft. Deze knop wordt niet weergegeven als de viewer werkt in de pop-upmodus en het systeem geen native volledig scherm ondersteunt. U kunt deze knop vergroten, verkleinen, verkleinen en plaatsen met CSS.
-seo-title: Knop Volledig scherm
 solution: Experience Manager
 title: Knop Volledig scherm
-uuid: ef3a0c21-88e0-4a10-9b89-da862b579b17
 feature: Dynamic Media Classic,Viewers,SDK/API,Mediasets mixen
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
