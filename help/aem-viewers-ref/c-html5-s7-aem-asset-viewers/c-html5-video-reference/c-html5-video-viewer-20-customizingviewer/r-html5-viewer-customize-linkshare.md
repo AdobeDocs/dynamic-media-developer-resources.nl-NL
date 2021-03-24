@@ -1,16 +1,13 @@
 ---
 description: Het gereedschap voor delen van koppeling bestaat uit een knop die wordt toegevoegd aan het deelvenster Sociaal delen en het modale dialoogvenster dat wordt weergegeven wanneer het gereedschap wordt geactiveerd. De positie van de knop wordt volledig beheerd met het gereedschap Sociaal delen.
-seo-description: Het gereedschap voor delen van koppeling bestaat uit een knop die wordt toegevoegd aan het deelvenster Sociaal delen en het modale dialoogvenster dat wordt weergegeven wanneer het gereedschap wordt geactiveerd. De positie van de knop wordt volledig beheerd met het gereedschap Sociaal delen.
-seo-title: Delen van koppeling
 solution: Experience Manager
 title: Delen van koppeling
-uuid: 699ddab2-8cfd-4edf-bb1b-5ff91fe63c1a
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1385'
 ht-degree: 0%
 
 ---
