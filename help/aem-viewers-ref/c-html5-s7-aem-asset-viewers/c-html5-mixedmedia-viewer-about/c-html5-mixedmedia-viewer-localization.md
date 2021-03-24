@@ -1,16 +1,13 @@
 ---
 description: Bepaalde inhoud die in de gemengde Media Viewer wordt weergegeven, is afhankelijk van lokalisatie. Dit zijn onder andere zoomknoppen, centrifugeknoppen, videoknoppen, knop voor volledig scherm sluiten en schuifknoppen voor stalen.
-seo-description: Bepaalde inhoud die in de gemengde Media Viewer wordt weergegeven, is afhankelijk van lokalisatie. Dit zijn onder andere zoomknoppen, centrifugeknoppen, videoknoppen, knop voor volledig scherm sluiten en schuifknoppen voor stalen.
-seo-title: Lokalisatie van gebruikersinterface-elementen
 solution: Experience Manager
 title: Lokalisatie van gebruikersinterface-elementen
-uuid: 4da776f4-e370-444b-b31c-6b032483861d
 feature: Dynamic Media Classic,Viewers,SDK/API,Mediasets mixen
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
