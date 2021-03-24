@@ -5,9 +5,9 @@ title: fmt
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: 4f9ce78007cb6ad8def15397aa2224cd7675bb0e
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '585'
 ht-degree: 0%
 
 ---
@@ -123,7 +123,7 @@ Afbeeldingsindeling beantwoorden. Hiermee geeft u de indeling voor afbeeldingsco
 
 `qlt-` Hiermee stelt u de JPEG-coderingsopties in voor deze indelingen: JPEG, TIFF met JPEG-compressie, PDF met JPEG-compressie en SWF-bestand. Gebruik `quantize=` als `fmt=gif` of `fmt=gif-alpha`. Raadpleeg de opdrachtbeschrijvingen voor meer informatie. De andere indelingen hebben geen settable-opties.
 
-8 bits per pixelcomponent worden geretourneerd voor alle indelingen en pixeltypen.
+Acht bits per pixelcomponent worden geretourneerd voor alle indelingen en pixeltypen.
 
 De volgende tabel bevat een lijst met geldige combinaties van *`format`* en *`pixelType`*, de corresponderende MIME-typen voor HTTP-respons, of ICC-profielen kunnen worden ingesloten (zie [iccEmbed=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f)) en welke indelingsspecifieke optieopdrachten kunnen worden toegepast.
 
@@ -199,7 +199,7 @@ De volgende tabel bevat een lijst met geldige combinaties van *`format`* en *`pi
 
 Hiermee geeft u de coderingsindeling op voor de gegevens van de antwoordafbeelding die naar de client worden verzonden en het corresponderende MIME-type voor de antwoordheader van HTTP.
 
-`png-alpha` geeft niet-gekoppelde alfa (oftewel alpha vermenigvuldigt de pixelwaarden niet vooraf), terwijl  `tif-alpha`en  `swf-alpha` daaraan gekoppelde alfa (de alpha-waarden worden dus vooraf vermenigvuldigd met de alpha-waarden) retourneert. Het alfakanaal komt overeen met het omgekeerde van het achtergrondmasker van het vignet voor `req=img` en met de groep of het objectmasker in het geval van `req=object`. Om alpha toe te passen wanneer het gebruiken van een genest verzoek van IRL, voeg `fmt=` met het aangewezen alpha- dossierformaat aan het ingebedde verzoek van IRL en het belangrijkste verzoek toe. Er worden geen alpha-gegevens geretourneerd als een ICC-profiel met CMYK of grijswaarden wordt opgegeven met `icc=`.
+`png-alpha` geeft niet-gekoppelde alfa (oftewel alpha vermenigvuldigt de pixelwaarden niet vooraf), terwijl  `tif-alpha`en  `swf-alpha` daaraan gekoppelde alfa (de alpha-waarden worden dus vooraf vermenigvuldigd met de alpha-waarden) retourneert. Het alfakanaal komt overeen met het omgekeerde van het achtergrondmasker van het vignet voor `req=img` en met de groep of het objectmasker als er `req=object` is. Om alpha toe te passen wanneer het gebruiken van een genest verzoek van IRL, voeg `fmt=` met het aangewezen alpha- dossierformaat aan het ingebedde verzoek van IRL en het belangrijkste verzoek toe. Er worden geen alpha-gegevens geretourneerd als een ICC-profiel met CMYK of grijswaarden wordt opgegeven met `icc=`.
 
 ## Eigenschappen {#section-eb12a82c69d84622bcea153dd84d95b3}
 
