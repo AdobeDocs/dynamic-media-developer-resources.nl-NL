@@ -1,16 +1,13 @@
 ---
 description: Digimarc-afbeeldingsgegevens. Hiermee schakelt u Digimarc-insluiting in en geeft u het type watermerk en de bijbehorende afbeeldingsspecifieke gegevens op.
-seo-description: Digimarc-afbeeldingsgegevens. Hiermee schakelt u Digimarc-insluiting in en geeft u het type watermerk en de bijbehorende afbeeldingsspecifieke gegevens op.
-seo-title: DigimarcInfo
 solution: Experience Manager
 title: DigimarcInfo
-uuid: 8371880e-47df-4333-b8a6-91feaf16c409
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '238'
 ht-degree: 7%
 
 ---
@@ -41,7 +38,7 @@ Vier gehele getallen, gescheiden door komma&#39;s.
    <td> <p>Geen. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>Basis. </p> </td> 
   </tr> 
   <tr> 
@@ -74,7 +71,7 @@ Vier gehele getallen, gescheiden door komma&#39;s.
    <td> <p>- </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>Met kopiëren beveiligd. </p> </td> 
   </tr> 
   <tr> 
@@ -131,7 +128,7 @@ De interpretatie van `*`val1`*` en `*`val2`*` hangt af van `*`type`*`:
    <td> <p>Niet gebruikt. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>Transactie-id. </p> </td> 
    <td> <p>Niet gebruikt. </p> </td> 
   </tr> 
