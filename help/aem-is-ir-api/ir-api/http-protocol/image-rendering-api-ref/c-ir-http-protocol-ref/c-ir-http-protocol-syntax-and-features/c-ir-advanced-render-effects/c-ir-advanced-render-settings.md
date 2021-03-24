@@ -1,16 +1,13 @@
 ---
 description: Het hulpprogramma Vignet Authoring (onderdeel van het Dynamic Media-pakket voor het maken van afbeeldingen) biedt mechanismen voor de besturing van aspecten op laag niveau van de engine voor het renderen van vignetten.
-seo-description: Het hulpprogramma Vignet Authoring (onderdeel van het Dynamic Media-pakket voor het maken van afbeeldingen) biedt mechanismen voor de besturing van aspecten op laag niveau van de engine voor het renderen van vignetten.
-seo-title: Geavanceerde renderinstellingen
 solution: Experience Manager
 title: Geavanceerde renderinstellingen
-uuid: 18e7f3cf-4d30-445c-813c-546a91987b99
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '615'
 ht-degree: 17%
 
 ---
@@ -63,7 +60,7 @@ Deze instellingen worden op interactieve wijze beheerd in het ontwerpen van afbe
   <tr> 
    <td colname="col1"> <p>V </p> </td> 
    <td colname="col2"> <p>USM-straal (pixels). </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>100 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
@@ -77,7 +74,7 @@ Deze instellingen worden op interactieve wijze beheerd in het ontwerpen van afbe
   <tr> 
    <td colname="col1"> <p>Q </p> </td> 
    <td colname="col2"> <p>Modus voor vergroten/verkleinen. </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>5 </p> </td> 
    <td colname="col5"> <p> 
      <ul id="ul_87184BB93E7F46D59BA1AAAFA8455512"> 
@@ -113,7 +110,7 @@ Deze instellingen worden op interactieve wijze beheerd in het ontwerpen van afbe
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
    <td colname="col2"> <p>Supersampling: Willekeurige snelheid. </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>20 </p> </td> 
    <td colname="col5"> <p>De standaardwaarde is 5. </p> </td> 
   </tr> 
@@ -134,7 +131,7 @@ Deze instellingen worden op interactieve wijze beheerd in het ontwerpen van afbe
   <tr> 
    <td colname="col1"> <p>P </p> </td> 
    <td colname="col2"> <p>Poisson: Samples/Pixel. </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>4 </p> </td> 
    <td colname="col5"> <p>De standaardwaarde is 1. </p> </td> 
   </tr> 
