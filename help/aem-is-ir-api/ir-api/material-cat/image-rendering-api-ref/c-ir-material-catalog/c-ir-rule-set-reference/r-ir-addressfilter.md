@@ -1,16 +1,13 @@
 ---
 description: Adresfilterelement. Optioneel in elementen <rule>. Hiermee wordt het kenmerk ClientAddressFilter genegeerd wanneer de regel wordt toegepast.
-seo-description: Adresfilterelement. Optioneel in elementen <rule>. Hiermee wordt het kenmerk ClientAddressFilter genegeerd wanneer de regel wordt toegepast.
-seo-title: addressfilter
 solution: Experience Manager
 title: addressfilter
-uuid: e5702c6e-a49c-4da6-a29c-26e16bfdcad1
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
