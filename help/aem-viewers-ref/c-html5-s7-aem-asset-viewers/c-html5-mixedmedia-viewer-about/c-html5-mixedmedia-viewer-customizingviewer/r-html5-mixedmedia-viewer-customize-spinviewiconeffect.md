@@ -1,16 +1,13 @@
 ---
 description: De centrifuge-indicator wordt bedekt door het weergavegebied van de centrifuge. De afbeelding wordt weergegeven wanneer de voorinstelling van de afbeelding is ingeschakeld en is ook afhankelijk van de parameter iconeffect.
-seo-description: De centrifuge-indicator wordt bedekt door het weergavegebied van de centrifuge. De afbeelding wordt weergegeven wanneer de voorinstelling van de afbeelding is ingeschakeld en is ook afhankelijk van de parameter iconeffect.
-seo-title: Pictogram voor weergave draaien, effect
 solution: Experience Manager
 title: Pictogram voor weergave draaien, effect
-uuid: 33445a3d-51dc-47a4-a8d1-87d25ea001e1
 feature: Dynamic Media Classic,Viewers,SDK/API,Mediasets mixen
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
