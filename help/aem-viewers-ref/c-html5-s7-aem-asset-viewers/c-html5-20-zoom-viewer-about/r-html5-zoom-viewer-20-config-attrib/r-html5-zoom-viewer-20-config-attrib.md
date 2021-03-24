@@ -1,16 +1,13 @@
 ---
 description: Documentatie over configuratiekenmerken voor Zoomviewer.
-seo-description: Documentatie over configuratiekenmerken voor Zoomviewer.
-seo-title: Command reference - Configuration attributes
 solution: Experience Manager
 title: Command reference - Configuration attributes
-uuid: 1bcc879a-12ec-4924-ac05-2e4c1d6e4597
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoomen
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
