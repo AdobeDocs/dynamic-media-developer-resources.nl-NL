@@ -1,16 +1,13 @@
 ---
 description: De statische dossiers van inhoudsbrongegevens worden betreden slechts door de Server van het Platform.
-seo-description: De statische dossiers van inhoudsbrongegevens worden betreden slechts door de Server van het Platform.
-seo-title: Statische brongegevens van inhoud
 solution: Experience Manager
 title: Statische brongegevens van inhoud
-uuid: a3280ce7-20d7-4f4b-bf3e-e77cc7aca35f
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,beheerder,praktijkgericht
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
