@@ -1,16 +1,13 @@
 ---
 description: Volg deze instructies om het renderen van afbeeldingen op een Linux- of Solaris-systeem te verwijderen.
-seo-description: Volg deze instructies om het renderen van afbeeldingen op een Linux- of Solaris-systeem te verwijderen.
-seo-title: Verwijderen op Linux en Solaris
 solution: Experience Manager
 title: Verwijderen op Linux en Solaris
-uuid: 80c0d6ec-985b-4596-bd67-22e5029f7b37
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
