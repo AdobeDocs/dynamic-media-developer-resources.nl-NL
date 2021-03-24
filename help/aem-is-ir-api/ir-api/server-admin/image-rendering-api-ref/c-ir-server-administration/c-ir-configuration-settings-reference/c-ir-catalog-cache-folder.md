@@ -1,16 +1,13 @@
 ---
 description: De hoofdmap voor de cache van het catalogussysteem.
-seo-description: De hoofdmap voor de cache van het catalogussysteem.
-seo-title: Cachemap voor catalogus (ir.catalogCacheRoot)
 solution: Experience Manager
 title: Cachemap voor catalogus (ir.catalogCacheRoot)
-uuid: 18d400f4-7827-44a1-b09b-2292b97cd6cb
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,beheerder,praktijkgericht
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '52'
 ht-degree: 0%
 
 ---
