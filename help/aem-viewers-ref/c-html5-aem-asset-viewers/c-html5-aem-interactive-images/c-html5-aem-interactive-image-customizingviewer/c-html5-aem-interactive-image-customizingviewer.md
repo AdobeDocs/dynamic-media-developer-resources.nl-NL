@@ -1,17 +1,14 @@
 ---
 description: Alle visuele aanpassingen en de meeste gedragsaanpassingen voor de Interactive Image Viewer worden uitgevoerd door een aangepaste CSS te maken.
 keywords: responsief
-seo-description: Alle visuele aanpassingen en de meeste gedragsaanpassingen voor de Interactive Image Viewer worden uitgevoerd door een aangepaste CSS te maken.
-seo-title: Interactieve afbeeldingsviewer aanpassen
 solution: Experience Manager
 title: Interactieve afbeeldingsviewer aanpassen
-uuid: 19868e4e-c2c9-41e0-82a6-20884a9454a4
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve afbeeldingen
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1291'
 ht-degree: 0%
 
 ---
