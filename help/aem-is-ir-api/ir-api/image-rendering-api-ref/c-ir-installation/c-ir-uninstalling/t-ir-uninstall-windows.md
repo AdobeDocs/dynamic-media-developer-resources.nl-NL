@@ -1,16 +1,13 @@
 ---
 description: Volg deze instructies om het teruggeven van het Beeld op een systeem van Vensters te desinstalleren.
-seo-description: Volg deze instructies om het teruggeven van het Beeld op een systeem van Vensters te desinstalleren.
-seo-title: Verwijderen in Windows
 solution: Experience Manager
 title: Verwijderen in Windows
-uuid: 7b20bf37-4147-4169-ac5e-42e7b330ca51
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '47'
 ht-degree: 0%
 
 ---
