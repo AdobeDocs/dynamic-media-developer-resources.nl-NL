@@ -1,16 +1,13 @@
 ---
 description: De gegevens van het beeld zijn teruggekeerd als een verzoek met succes voltooit, en als het verzoek of geen req= bevel omvat, of als req=img of req=tmb.
-seo-description: De gegevens van het beeld zijn teruggekeerd als een verzoek met succes voltooit, en als het verzoek of geen req= bevel omvat, of als req=img of req=tmb.
-seo-title: Afbeeldingen
 solution: Experience Manager
 title: Afbeeldingen
-uuid: 715154b6-f9ac-459e-a566-f78a4ca4580d
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
