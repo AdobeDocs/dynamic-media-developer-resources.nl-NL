@@ -1,16 +1,13 @@
 ---
 description: Als u op deze knop klikt of erop tikt, gaat de gebruiker naar de vorige pagina in de catalogus. Deze knop wordt weergegeven in de hoofdbesturingsbalk. Deze knop wordt niet weergegeven op mobiele telefoons om de schermruimte op te slaan. U kunt deze knop vergroten, verkleinen, verkleinen en plaatsen met CSS.
-seo-description: Als u op deze knop klikt of erop tikt, gaat de gebruiker naar de vorige pagina in de catalogus. Deze knop wordt weergegeven in de hoofdbesturingsbalk. Deze knop wordt niet weergegeven op mobiele telefoons om de schermruimte op te slaan. U kunt deze knop vergroten, verkleinen, verkleinen en plaatsen met CSS.
-seo-title: Knop Vorige pagina
 solution: Experience Manager
 title: Knop Vorige pagina
-uuid: 0e7dfa50-0af5-4af9-b57c-5a01e73c03a0
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
