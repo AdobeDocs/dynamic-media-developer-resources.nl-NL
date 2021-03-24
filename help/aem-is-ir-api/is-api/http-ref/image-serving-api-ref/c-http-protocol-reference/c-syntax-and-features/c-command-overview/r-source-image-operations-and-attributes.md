@@ -1,16 +1,13 @@
 ---
 description: Deze opdrachten zijn van toepassing op bronafbeeldingen die worden gebruikt in eenvoudige aanvragen of in afbeeldingslagen, en op maskers die zijn gekoppeld aan effen kleurlagen.
-seo-description: Deze opdrachten zijn van toepassing op bronafbeeldingen die worden gebruikt in eenvoudige aanvragen of in afbeeldingslagen, en op maskers die zijn gekoppeld aan effen kleurlagen.
-seo-title: Bronafbeeldingsbewerkingen
 solution: Experience Manager
 title: Bronafbeeldingsbewerkingen
-uuid: ad6dbcd8-f4a4-4439-b51a-2aca30d198e0
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
