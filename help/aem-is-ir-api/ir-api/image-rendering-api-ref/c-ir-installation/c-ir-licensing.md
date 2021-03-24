@@ -1,16 +1,13 @@
 ---
 description: Een Dynamic Media Image Rendering-licentiecode is vereist en moet worden geïnstalleerd op elk systeem waarop Image Rendering is geïnstalleerd.
-seo-description: Een Dynamic Media Image Rendering-licentiecode is vereist en moet worden geïnstalleerd op elk systeem waarop Image Rendering is geïnstalleerd.
-seo-title: Licentie
 solution: Experience Manager
 title: Licentie
-uuid: dbc4eddc-a518-4337-9e09-ba40c02de797
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
