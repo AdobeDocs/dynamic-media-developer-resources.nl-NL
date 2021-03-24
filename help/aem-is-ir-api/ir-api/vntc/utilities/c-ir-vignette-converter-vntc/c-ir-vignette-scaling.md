@@ -1,16 +1,13 @@
 ---
 description: Er worden vier algemene typen productivignetten ondersteund.
-seo-description: Er worden vier algemene typen productivignetten ondersteund.
-seo-title: Vignet schalen
 solution: Experience Manager
 title: Vignet schalen
-uuid: 08c8f826-7dce-4bcb-9323-4892262eb578
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
