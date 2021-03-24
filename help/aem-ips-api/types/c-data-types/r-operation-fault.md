@@ -1,16 +1,13 @@
 ---
 description: Gedetailleerd bericht dat reageert op een van de URL's die in de CDN-validatieaanvraag zijn opgegeven.
-seo-description: Gedetailleerd bericht dat reageert op een van de URL's die in de CDN-validatieaanvraag zijn opgegeven.
-seo-title: OperationFault
 solution: Experience Manager
 title: OperationFault
-uuid: 879d025b-3269-4f87-b8bd-b7916509d077
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,beheerder
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---
