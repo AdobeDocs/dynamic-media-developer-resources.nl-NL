@@ -3,9 +3,8 @@ description: startpagina Adobe Dynamic Media Image Serving and Image Rendering A
 solution: Experience Manager
 title: startpagina Adobe Dynamic Media Image Serving and Image Rendering API
 topic: Dynamic Media Image Serving - API voor het renderen van afbeeldingen
-uuid: 37d90173-2e56-47fa-b0ef-2b99b521502c
 translation-type: tm+mt
-source-git-commit: 192b5624945b08e438a65e3e9fd25aca503857fc
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 0%
