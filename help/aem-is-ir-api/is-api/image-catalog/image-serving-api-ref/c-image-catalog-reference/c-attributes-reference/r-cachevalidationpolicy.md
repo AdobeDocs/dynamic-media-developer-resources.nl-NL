@@ -1,16 +1,13 @@
 ---
 description: Beleid voor validatie van servercache. Hiermee geeft u op wanneer cachemaringangen op de server worden gevalideerd.
-seo-description: Beleid voor validatie van servercache. Hiermee geeft u op wanneer cachemaringangen op de server worden gevalideerd.
-seo-title: CacheValidationPolicy
 solution: Experience Manager
 title: CacheValidationPolicy
-uuid: 371dadbf-d58e-4214-8050-7e8907b436e3
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
