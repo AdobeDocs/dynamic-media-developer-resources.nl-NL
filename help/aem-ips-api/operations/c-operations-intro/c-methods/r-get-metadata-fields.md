@@ -1,16 +1,13 @@
 ---
 description: Hiermee worden de door de gebruiker gedefinieerde metagegevensvelden opgehaald die aan een element zijn gekoppeld.
-seo-description: Hiermee worden de door de gebruiker gedefinieerde metagegevensvelden opgehaald die aan een element zijn gekoppeld.
-seo-title: getMetadataFields
 solution: Experience Manager
 title: getMetadataFields
-uuid: bf891bae-53c8-4e3d-90df-caca9a7e022b
 feature: Dynamic Media Classic,SDK/API,metagegevens
 role: Ontwikkelaar,beheerder
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
