@@ -1,16 +1,13 @@
 ---
 description: Geeft als resultaat een array met Photoshop-padnamen voor de opgegeven afbeelding.
-seo-description: Geeft als resultaat een array met Photoshop-padnamen voor de opgegeven afbeelding.
-seo-title: getPhotoshopPathNames
 solution: Experience Manager
 title: getPhotoshopPathNames
-uuid: d3f1dea5-393b-498e-963d-37a4e38068a2
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,beheerder
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
