@@ -1,16 +1,13 @@
 ---
 description: De hoofdklasse van de Flyout-viewer is FlyoutViewer. Deze wordt gedeclareerd in de naamruimte s7viewers. Deze JavaScript API behandelt constructor, methoden en callbacks van deze specifieke klasse.
-seo-description: De hoofdklasse van de Flyout-viewer is FlyoutViewer. Deze wordt gedeclareerd in de naamruimte s7viewers. Deze JavaScript API behandelt constructor, methoden en callbacks van deze specifieke klasse.
-seo-title: JavaScript API-referentie voor Flyout Viewer
 solution: Experience Manager
 title: JavaScript API-referentie voor Flyout Viewer
-uuid: 45621805-8aa5-4ced-a36a-ebecb2a606a0
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
