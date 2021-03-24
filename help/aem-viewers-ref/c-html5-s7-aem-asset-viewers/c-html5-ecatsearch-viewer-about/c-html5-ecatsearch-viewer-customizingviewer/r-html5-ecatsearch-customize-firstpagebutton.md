@@ -1,16 +1,13 @@
 ---
 description: Als u op deze knop klikt of erop tikt, gaat de gebruiker naar de eerste pagina in de catalogus. Deze knop wordt weergegeven in de hoofdbesturingsbalk op desktopsystemen en tablets. op mobiele telefoons wordt het toegevoegd aan een secundaire besturingsbalk. U kunt deze knop vergroten, verkleinen, verkleinen en plaatsen met CSS.
-seo-description: Als u op deze knop klikt of erop tikt, gaat de gebruiker naar de eerste pagina in de catalogus. Deze knop wordt weergegeven in de hoofdbesturingsbalk op desktopsystemen en tablets. op mobiele telefoons wordt het toegevoegd aan een secundaire besturingsbalk. U kunt deze knop vergroten, verkleinen, verkleinen en plaatsen met CSS.
-seo-title: Knop Eerste pagina
 solution: Experience Manager
 title: Knop Eerste pagina
-uuid: 10097f10-d53b-409c-baad-d21a04d6b418
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
