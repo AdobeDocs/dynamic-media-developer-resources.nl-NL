@@ -1,16 +1,13 @@
 ---
 description: Modus Nieuwe pixels berekenen. Hiermee selecteert u het algoritme voor resampling en/of interpolatie dat moet worden gebruikt om de gerenderde afbeelding te schalen naar de grootte die met wid=, hei= of scl= is opgegeven.
-seo-description: Modus Nieuwe pixels berekenen. Hiermee selecteert u het algoritme voor resampling en/of interpolatie dat moet worden gebruikt om de gerenderde afbeelding te schalen naar de grootte die met wid=, hei= of scl= is opgegeven.
-seo-title: resMode
 solution: Experience Manager
 title: resMode
-uuid: 106da74a-d7da-4998-a719-c4c69ae36f6b
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
