@@ -1,16 +1,13 @@
 ---
 description: Beschrijft nieuwe en veranderde gegevenstypes voor IPS API versie 3.8.
-seo-description: Beschrijft nieuwe en veranderde gegevenstypes voor IPS API versie 3.8.
-seo-title: Nieuwe en gewijzigde gegevenstypen
 solution: Experience Manager
 title: Nieuwe en gewijzigde gegevenstypen
-uuid: 099349dd-aaf9-4e25-9557-c3a196ef531f
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,beheerder
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '47'
 ht-degree: 0%
 
 ---
