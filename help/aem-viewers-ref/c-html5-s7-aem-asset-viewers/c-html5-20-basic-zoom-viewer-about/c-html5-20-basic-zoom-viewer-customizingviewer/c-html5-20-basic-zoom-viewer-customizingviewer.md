@@ -1,17 +1,14 @@
 ---
 description: Alle visuele aanpassingen en de meeste gedragsaanpassingen voor de Basic Zoom Viewer worden uitgevoerd door een aangepaste CSS te maken.
 keywords: responsief
-seo-description: Alle visuele aanpassingen en de meeste gedragsaanpassingen voor de Basic Zoom Viewer worden uitgevoerd door een aangepaste CSS te maken.
-seo-title: De standaardzoomviewer aanpassen
 solution: Experience Manager
 title: De standaardzoomviewer aanpassen
-uuid: 9f3c203e-ff6f-4bf1-a1dc-26495412af45
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoomen
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1364'
+source-wordcount: '1341'
 ht-degree: 0%
 
 ---
