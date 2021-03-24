@@ -1,16 +1,13 @@
 ---
 description: De macro's van het bevel verstrekken genoemde kortere weg voor reeksen bevelen.
-seo-description: De macro's van het bevel verstrekken genoemde kortere weg voor reeksen bevelen.
-seo-title: Command macros *
 solution: Experience Manager
 title: Command macros *
-uuid: 0a131488-6296-4c7f-9bc7-3053df908899
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
