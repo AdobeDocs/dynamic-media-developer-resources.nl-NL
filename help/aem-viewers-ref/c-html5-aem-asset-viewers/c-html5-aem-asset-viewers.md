@@ -2,11 +2,10 @@
 description: Alleen viewers voor AEM Assets
 solution: Experience Manager
 title: Alleen viewers voor AEM Assets
-uuid: ad815ca0-834c-404e-8baa-744a9d57dbd6
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoomen
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '41'
 ht-degree: 2%
