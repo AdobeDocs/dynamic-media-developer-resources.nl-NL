@@ -1,16 +1,13 @@
 ---
 description: Horizontale uitlijning voor miniaturen. Geeft de horizontale uitlijning aan van de miniatuurafbeelding in de rechthoek van de antwoordafbeelding die wordt opgegeven door wid= en hei= of door kenmerk DefaultThumbPix.
-seo-description: Horizontale uitlijning voor miniaturen. Geeft de horizontale uitlijning aan van de miniatuurafbeelding in de rechthoek van de antwoordafbeelding die wordt opgegeven door wid= en hei= of door kenmerk DefaultThumbPix.
-seo-title: ThumbHorizAlign
 solution: Experience Manager
 title: ThumbHorizAlign
-uuid: 2fbe71e2-1227-415b-ad4c-0d0752f8f729
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
