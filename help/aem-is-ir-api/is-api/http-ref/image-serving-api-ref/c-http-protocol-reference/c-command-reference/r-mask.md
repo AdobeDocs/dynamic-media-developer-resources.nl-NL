@@ -1,16 +1,13 @@
 ---
 description: Afbeeldingsmasker. Hiermee geeft u een aparte maskerafbeelding op die als een niet-gekoppeld masker moet worden gebruikt.
-seo-description: Afbeeldingsmasker. Hiermee geeft u een aparte maskerafbeelding op die als een niet-gekoppeld masker moet worden gebruikt.
-seo-title: masker
 solution: Experience Manager
 title: masker
-uuid: 2dc14d20-f02a-4a77-9b73-0c01e10d448d
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
