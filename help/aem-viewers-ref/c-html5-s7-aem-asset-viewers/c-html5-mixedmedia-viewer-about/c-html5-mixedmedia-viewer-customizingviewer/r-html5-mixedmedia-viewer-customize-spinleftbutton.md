@@ -1,16 +1,13 @@
 ---
 description: Als u op deze knop klikt of erop tikt, wordt de afbeelding in de hoofdweergave links gecentreerd. Deze knop wordt niet weergegeven op mobiele telefoons om de schermruimte op te slaan. De knop is ook verborgen wanneer een multidimensionale centrifugeset wordt gebruikt. U kunt de grootte, de huid, en de positie van de knoop gebruikend CSS.
-seo-description: Als u op deze knop klikt of erop tikt, wordt de afbeelding in de hoofdweergave links gecentreerd. Deze knop wordt niet weergegeven op mobiele telefoons om de schermruimte op te slaan. De knop is ook verborgen wanneer een multidimensionale centrifugeset wordt gebruikt. U kunt de grootte, de huid, en de positie van de knoop gebruikend CSS.
-seo-title: Linkerkant draaien, knop
 solution: Experience Manager
 title: Linkerkant draaien, knop
-uuid: 742a912b-7ca1-43d4-aae6-a809e01d34b9
 feature: Dynamic Media Classic,Viewers,SDK/API,Mediasets mixen
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
