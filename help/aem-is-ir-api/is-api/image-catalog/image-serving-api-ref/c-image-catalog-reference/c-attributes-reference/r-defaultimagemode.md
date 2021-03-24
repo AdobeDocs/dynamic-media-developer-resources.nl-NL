@@ -1,16 +1,13 @@
 ---
 description: Standaardafbeeldingsmodus. Hiermee selecteert u hoe de standaardafbeelding wordt toegepast wanneer er geen afbeeldingen worden gevonden die in de aanvraag zijn opgegeven.
-seo-description: Standaardafbeeldingsmodus. Hiermee selecteert u hoe de standaardafbeelding wordt toegepast wanneer er geen afbeeldingen worden gevonden die in de aanvraag zijn opgegeven.
-seo-title: DefaultImageMode
 solution: Experience Manager
 title: DefaultImageMode
-uuid: e5640f09-e1e3-473b-8fbc-84c6bfce2460
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
