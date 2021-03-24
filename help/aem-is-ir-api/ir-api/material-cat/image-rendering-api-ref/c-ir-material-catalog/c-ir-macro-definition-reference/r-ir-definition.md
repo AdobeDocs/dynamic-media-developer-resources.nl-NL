@@ -1,16 +1,13 @@
 ---
 description: Macrodefinitie. A Render Serving protocolfragment bestaande uit één of meerdere volledige bevelen, die door "&"karakters worden gescheiden.
-seo-description: Macrodefinitie. A Render Serving protocolfragment bestaande uit één of meerdere volledige bevelen, die door "&"karakters worden gescheiden.
-seo-title: Definitie
 solution: Experience Manager
 title: Definitie
-uuid: 3860cf79-de70-4fcc-a4e8-6d9c53d32396
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '64'
 ht-degree: 0%
 
 ---
