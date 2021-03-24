@@ -1,16 +1,13 @@
 ---
 description: Genormaliseerde grootte. Wordt gebruikt om afbeeldingsgrootten of rechthoekgrootten op te geven, genormaliseerd ten opzichte van de grootte van laag 0 of een andere afbeelding.
-seo-description: Genormaliseerde grootte. Wordt gebruikt om afbeeldingsgrootten of rechthoekgrootten op te geven, genormaliseerd ten opzichte van de grootte van laag 0 of een andere afbeelding.
-seo-title: sizeN
 solution: Experience Manager
 title: sizeN
-uuid: 6fc05654-6f0d-499f-97bc-6b7134024e1f
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
