@@ -1,16 +1,13 @@
 ---
 description: Het gereedschap Delen insluiten bestaat uit een knop die wordt toegevoegd aan het deelvenster Delen via sociale media en het modale dialoogvenster dat wordt weergegeven wanneer het gereedschap wordt geactiveerd. De positie van de knop wordt volledig beheerd met het gereedschap Sociaal delen.
-seo-description: Het gereedschap Delen insluiten bestaat uit een knop die wordt toegevoegd aan het deelvenster Delen via sociale media en het modale dialoogvenster dat wordt weergegeven wanneer het gereedschap wordt geactiveerd. De positie van de knop wordt volledig beheerd met het gereedschap Sociaal delen.
-seo-title: Delen insluiten
 solution: Experience Manager
 title: Delen insluiten
-uuid: 59a21a90-5f34-4e1f-90e7-cce18aed5e6b
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '2650'
+source-wordcount: '2610'
 ht-degree: 0%
 
 ---
