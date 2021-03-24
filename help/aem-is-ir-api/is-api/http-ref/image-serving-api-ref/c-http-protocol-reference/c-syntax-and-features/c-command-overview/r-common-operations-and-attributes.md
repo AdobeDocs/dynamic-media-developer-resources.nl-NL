@@ -1,16 +1,13 @@
 ---
 description: Deze opdrachten zijn van toepassing op afbeeldings-, tekst- en effen-kleurlagen. Ze zijn over het algemeen ook handig voor samengestelde afbeeldingen en eenvoudige, niet-gelaagde afbeeldingsaanvragen.
-seo-description: Deze opdrachten zijn van toepassing op afbeeldings-, tekst- en effen-kleurlagen. Ze zijn over het algemeen ook handig voor samengestelde afbeeldingen en eenvoudige, niet-gelaagde afbeeldingsaanvragen.
-seo-title: Gemeenschappelijke operaties
 solution: Experience Manager
 title: Gemeenschappelijke operaties
-uuid: 2d1be69a-661e-494a-9748-3a6525b19b1b
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
