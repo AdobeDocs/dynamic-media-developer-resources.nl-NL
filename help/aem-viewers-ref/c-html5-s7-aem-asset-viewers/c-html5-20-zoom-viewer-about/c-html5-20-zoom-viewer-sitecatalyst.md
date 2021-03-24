@@ -2,11 +2,10 @@
 description: Ondersteuning voor Adobe Analytics-tracking
 solution: Experience Manager
 title: Ondersteuning voor Adobe Analytics-tracking
-uuid: d5399638-3fc5-4f95-841d-5c6d4d35bda2
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoomen
 role: Ontwikkelaar, Business Practice, Data Engineer, Data Architect
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 0%
