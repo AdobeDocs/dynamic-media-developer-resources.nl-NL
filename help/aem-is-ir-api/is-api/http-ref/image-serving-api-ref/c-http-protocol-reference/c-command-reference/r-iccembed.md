@@ -1,16 +1,13 @@
 ---
 description: Kleurprofiel insluiten. Geeft aan of het werkende ICC-kleurprofiel of het profiel dat met icc= is opgegeven, moet worden ingesloten in de antwoordafbeelding.
-seo-description: Kleurprofiel insluiten. Geeft aan of het werkende ICC-kleurprofiel of het profiel dat met icc= is opgegeven, moet worden ingesloten in de antwoordafbeelding.
-seo-title: iccEmbed
 solution: Experience Manager
 title: iccEmbed
-uuid: ccd3fd2f-6f73-4725-a51a-9daf643d71af
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
