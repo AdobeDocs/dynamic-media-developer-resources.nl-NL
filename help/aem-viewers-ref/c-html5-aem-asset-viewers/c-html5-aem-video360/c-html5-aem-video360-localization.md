@@ -1,16 +1,13 @@
 ---
 description: Bepaalde inhoud die door de viewer wordt weergegeven, is afhankelijk van lokalisatie. Dit omvat knopinfo voor gebruikersinterface-elementen en een foutbericht die wordt weergegeven wanneer de video niet kan worden afgespeeld.
-seo-description: Bepaalde inhoud die door de viewer wordt weergegeven, is afhankelijk van lokalisatie. Dit omvat knopinfo voor gebruikersinterface-elementen en een foutbericht die wordt weergegeven wanneer de video niet kan worden afgespeeld.
-seo-title: Lokalisatie van gebruikersinterface-elementen
 solution: Experience Manager
 title: Lokalisatie van gebruikersinterface-elementen
-uuid: d5e75af0-03d6-4357-a540-4094313ed026
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
