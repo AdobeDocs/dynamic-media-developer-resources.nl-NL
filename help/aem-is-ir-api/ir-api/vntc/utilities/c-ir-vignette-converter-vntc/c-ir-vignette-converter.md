@@ -1,16 +1,13 @@
 ---
 description: De Vignet Converter (vntc) is een opdrachtregelprogramma waarmee u inhoud die is gemaakt met het ontwerpen van afbeeldingen, kunt voorbereiden op implementatie met behulp van Image Rendering.
-seo-description: De Vignet Converter (vntc) is een opdrachtregelprogramma waarmee u inhoud die is gemaakt met het ontwerpen van afbeeldingen, kunt voorbereiden op implementatie met behulp van Image Rendering.
-seo-title: Vignetconverter
 solution: Experience Manager
 title: Vignetconverter
-uuid: b32a30d6-ae4a-406f-88a9-e8b0eec394c9
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
