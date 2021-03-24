@@ -1,16 +1,13 @@
 ---
 description: Genormaliseerde coördinaten. Wordt gebruikt om relatieve posities binnen een afbeelding op te geven, zoals afbeeldingsverschuivingen of uitsnijdparameters, die genormaliseerd zijn voor de grootte van de afbeelding.
-seo-description: Genormaliseerde coördinaten. Wordt gebruikt om relatieve posities binnen een afbeelding op te geven, zoals afbeeldingsverschuivingen of uitsnijdparameters, die genormaliseerd zijn voor de grootte van de afbeelding.
-seo-title: coordN
 solution: Experience Manager
 title: coordN
-uuid: e182650b-aff6-4dd2-8edb-cd0d361865fd
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
