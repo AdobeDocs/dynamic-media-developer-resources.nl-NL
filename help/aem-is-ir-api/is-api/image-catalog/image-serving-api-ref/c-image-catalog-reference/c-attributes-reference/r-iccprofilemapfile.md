@@ -1,16 +1,13 @@
 ---
 description: ICC-bestandspad voor profieltoewijzing. Hier geeft u het bestand op dat de ICC-profielkaart voor deze afbeeldingscatalogus bevat.
-seo-description: ICC-bestandspad voor profieltoewijzing. Hier geeft u het bestand op dat de ICC-profielkaart voor deze afbeeldingscatalogus bevat.
-seo-title: IccProfileMapFile
 solution: Experience Manager
 title: IccProfileMapFile
-uuid: da7e6b02-8fe6-4045-b4c5-b46d7bdd6ee2
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
