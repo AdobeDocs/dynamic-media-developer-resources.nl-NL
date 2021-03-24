@@ -1,16 +1,13 @@
 ---
 description: Gebruik de volgende opdrachten voor elementaire tekenopmaak.
-seo-description: Gebruik de volgende opdrachten voor elementaire tekenopmaak.
-seo-title: Basisopmaak van tekens
 solution: Experience Manager
 title: Basisopmaak van tekens
-uuid: cc8f276a-ebcc-479b-bd86-7ac0dc755f11
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
