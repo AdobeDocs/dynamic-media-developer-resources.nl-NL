@@ -5,7 +5,7 @@ title: type
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 12%
@@ -25,7 +25,7 @@ Type materiaaloppervlak. Hiermee geeft u het oppervlaktype van het materiaal op.
   <td class="stentry"> <p>Onbekend, server gebruikt standaard </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p></td> 
+  <td class="stentry"> <p>1 </p></td> 
   <td class="stentry"> <p>Overige </p> </td> 
  </tr> 
  <tr class="strow"> 
