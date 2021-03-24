@@ -1,16 +1,13 @@
 ---
 description: Er zijn enkele beperkingen en bekende problemen die in overweging moeten worden genomen bij het gebruik van Dynamic Media Image Serving.
-seo-description: Er zijn enkele beperkingen en bekende problemen die in overweging moeten worden genomen bij het gebruik van Dynamic Media Image Serving.
-seo-title: Beperkingen en bekende problemen
 solution: Experience Manager
 title: Beperkingen en bekende problemen
-uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1238'
 ht-degree: 0%
 
 ---
