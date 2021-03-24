@@ -1,16 +1,13 @@
 ---
 description: In deze sectie worden alle bewerkbare configuratie-instellingen beschreven, gegroepeerd op aandachtsgebieden.
-seo-description: In deze sectie worden alle bewerkbare configuratie-instellingen beschreven, gegroepeerd op aandachtsgebieden.
-seo-title: Serverinstellingen
 solution: Experience Manager
 title: Serverinstellingen
-uuid: dc4deefe-c354-4d01-a1d2-815597994adc
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,beheerder,praktijkgericht
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
