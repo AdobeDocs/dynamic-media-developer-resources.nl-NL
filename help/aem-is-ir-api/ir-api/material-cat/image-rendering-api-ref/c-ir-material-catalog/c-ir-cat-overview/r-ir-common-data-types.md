@@ -1,16 +1,13 @@
 ---
 description: Cataloguskenmerken en -velden kunnen gegevens van een van de volgende typen bevatten.
-seo-description: Cataloguskenmerken en -velden kunnen gegevens van een van de volgende typen bevatten.
-seo-title: Algemene gegevenstypen
 solution: Experience Manager
 title: Algemene gegevenstypen
-uuid: b36cf09d-dee2-4e8b-9500-e8fa4c5c112f
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
