@@ -1,16 +1,13 @@
 ---
 description: Het groeperen van het geheime voorgeheugen staat veelvoudige lading-evenwichtige servers toe om geheim voorgeheugeningangen in het primaire reactiecache en het secundaire gegevensgeheime voorgeheugen (voor genestelde/ingebedde verzoeken) uit te wisselen, met het potentieel om serverontvankelijkheid beduidend te verhogen door de behoefte te elimineren om de zelfde geheim voorgeheugeningang op veelvoudige servers te produceren.
-seo-description: Het groeperen van het geheime voorgeheugen staat veelvoudige lading-evenwichtige servers toe om geheim voorgeheugeningangen in het primaire reactiecache en het secundaire gegevensgeheime voorgeheugen (voor genestelde/ingebedde verzoeken) uit te wisselen, met het potentieel om serverontvankelijkheid beduidend te verhogen door de behoefte te elimineren om de zelfde geheim voorgeheugeningang op veelvoudige servers te produceren.
-seo-title: Cache-clustering
 solution: Experience Manager
 title: Cache-clustering
-uuid: 347165d6-a9e7-406e-81a8-8a91f745ce27
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,beheerder,praktijkgericht
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
