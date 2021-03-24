@@ -1,16 +1,13 @@
 ---
 description: Pad naar brongegevenstramien. Tekstreeks. Absoluut pad of relatief padsegment voor de hoofdmap voor alle vignet-, structuur-, afbeeldings- en ICC-gegevensbestanden waarnaar in deze afbeeldingscatalogus wordt verwezen.
-seo-description: Pad naar brongegevenstramien. Tekstreeks. Absoluut pad of relatief padsegment voor de hoofdmap voor alle vignet-, structuur-, afbeeldings- en ICC-gegevensbestanden waarnaar in deze afbeeldingscatalogus wordt verwezen.
-seo-title: RootPath *
 solution: Experience Manager
 title: RootPath *
-uuid: a23ea524-8ca4-47c4-83a5-64a174d8767e
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
