@@ -1,16 +1,13 @@
 ---
 description: Deze opdrachten zijn niet alleen van toepassing op algemene laagopdrachten, maar ook op tekstlagen.
-seo-description: Deze opdrachten zijn niet alleen van toepassing op algemene laagopdrachten, maar ook op tekstlagen.
-seo-title: Opdrachten tekstlaag
 solution: Experience Manager
 title: Opdrachten tekstlaag
-uuid: 00d2643c-1a74-4542-bd72-e6dc22d402b0
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
