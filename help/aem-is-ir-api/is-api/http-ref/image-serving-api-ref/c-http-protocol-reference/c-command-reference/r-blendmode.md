@@ -1,16 +1,13 @@
 ---
 description: Overvloeimodus. Hiermee geeft u het type overvloeiing op dat wordt gebruikt wanneer de laag wordt samengesteld. Hiermee simuleert u veelgebruikte overvloeimodi die beschikbaar zijn in Photoshop. Raadpleeg de documentatie bij Photoshop voor meer informatie.
-seo-description: Overvloeimodus. Hiermee geeft u het type overvloeiing op dat wordt gebruikt wanneer de laag wordt samengesteld. Hiermee simuleert u veelgebruikte overvloeimodi die beschikbaar zijn in Photoshop. Raadpleeg de documentatie bij Photoshop voor meer informatie.
-seo-title: blendMode
 solution: Experience Manager
 title: blendMode
-uuid: 9ae30495-c10b-4c55-968e-effb602a0857
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
