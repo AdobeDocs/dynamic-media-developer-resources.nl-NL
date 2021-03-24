@@ -1,16 +1,13 @@
 ---
 description: De Server van het beeld steunt een eenvoudig verzoek preprocessing mechanisme dat op regelmatige-uitdrukkingsgelijke en substitutieregels gebaseerd is.
-seo-description: De Server van het beeld steunt een eenvoudig verzoek preprocessing mechanisme dat op regelmatige-uitdrukkingsgelijke en substitutieregels gebaseerd is.
-seo-title: Referentie voor regelset
 solution: Experience Manager
 title: Referentie voor regelset
-uuid: 356e4939-c57d-459a-8e40-9b25e20fc0a3
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
