@@ -1,16 +1,13 @@
 ---
 description: Het vraaggedeelte van verzoeken en de koorden van de Modifier van het vignet kunnen user-defined variabelen omvatten.
-seo-description: Het vraaggedeelte van verzoeken en de koorden van de Modifier van het vignet kunnen user-defined variabelen omvatten.
-seo-title: Aangepaste variabelen
 solution: Experience Manager
 title: Aangepaste variabelen
-uuid: 933fba00-759c-4bd3-bada-eec751426d9e
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
