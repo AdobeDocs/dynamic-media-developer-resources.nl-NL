@@ -1,16 +1,13 @@
 ---
 description: Bepaalde inhoud die in de eCatalog Viewer wordt weergegeven, is afhankelijk van een lokalisatie, zoals zoomknoppen, knoppen voor het wijzigen van de pagina, miniatuurknop, knop Volledig scherm, knop Sluiten en schuifbalkknoppen.
-seo-description: Bepaalde inhoud die in de eCatalog Viewer wordt weergegeven, is afhankelijk van een lokalisatie, zoals zoomknoppen, knoppen voor het wijzigen van de pagina, miniatuurknop, knop Volledig scherm, knop Sluiten en schuifbalkknoppen.
-seo-title: Lokalisatie van gebruikersinterface-elementen
 solution: Experience Manager
 title: Lokalisatie van gebruikersinterface-elementen
-uuid: bd95c7dc-3158-4cca-81d4-f5efd57c0124
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
