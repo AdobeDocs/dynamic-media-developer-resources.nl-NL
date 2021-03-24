@@ -1,16 +1,13 @@
 ---
 description: Parameter die alle viewers gemeen hebben.
-seo-description: Parameter die alle viewers gemeen hebben.
-seo-title: initialFrame
 solution: Experience Manager
 title: initialFrame
-uuid: 5d1c3a8a-8598-47c9-a106-36e8c6fcafb0
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
