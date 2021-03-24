@@ -1,16 +1,13 @@
 ---
 description: Hiermee werkt u metagegevens bij in de batchmodus.
-seo-description: Hiermee werkt u metagegevens bij in de batchmodus.
-seo-title: BatchMetadataUpdate
 solution: Experience Manager
 title: BatchMetadataUpdate
-uuid: 306e0349-64d6-4b70-9748-9431f1c799a7
 feature: Dynamic Media Classic,SDK/API,metagegevens
 role: Ontwikkelaar,beheerder
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '42'
+source-wordcount: '36'
 ht-degree: 0%
 
 ---
