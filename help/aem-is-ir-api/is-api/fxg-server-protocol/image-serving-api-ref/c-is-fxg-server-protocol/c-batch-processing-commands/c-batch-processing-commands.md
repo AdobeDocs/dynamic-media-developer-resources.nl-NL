@@ -1,16 +1,13 @@
 ---
 description: De volgende bevelen omvatten de batch-verwerking API die door PlatformServer wordt blootgesteld.
-seo-description: De volgende bevelen omvatten de batch-verwerking API die door PlatformServer wordt blootgesteld.
-seo-title: Opdrachten voor batchverwerking
 solution: Experience Manager
 title: Opdrachten voor batchverwerking
-uuid: e82c8106-8ea5-42c6-8ca9-ee9b8d9deb57
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '74'
 ht-degree: 0%
 
 ---
