@@ -1,17 +1,14 @@
 ---
 description: Standaardmateriaalverscherping. Hiermee stelt u de standaardmateriaalverscherpingsmodus in voor het geval een bepaalde catalogusrecord geen geldige waarde voor Verscherpen van catalogus bevat.
-seo-description: Standaardmateriaalverscherping. Hiermee stelt u de standaardmateriaalverscherpingsmodus in voor het geval een bepaalde catalogusrecord geen geldige waarde voor Verscherpen van catalogus bevat.
-seo-title: Scherp
 solution: Experience Manager
 title: Scherp
-uuid: f6a6101c-3d9e-4557-892b-be7943b4fdca
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 3%
+source-wordcount: '98'
+ht-degree: 4%
 
 ---
 
@@ -30,7 +27,7 @@ Enum.
   <td class="stentry"> <p>Geen verscherping. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>1 </p></td> 
+  <td class="stentry"> <p>3 </p></td> 
   <td class="stentry"> <p>Normale verscherping (na de transformatie). </p></td> 
  </tr> 
  <tr class="strow"> 
