@@ -1,16 +1,13 @@
 ---
 description: Retourneert Zip-bestandsgegevens.
-seo-description: Retourneert Zip-bestandsgegevens.
-seo-title: getZipEntry
 solution: Experience Manager
 title: getZipEntry
-uuid: cfc45f83-1cf9-4c50-9aac-5a731e62a839
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,beheerder
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
