@@ -1,16 +1,13 @@
 ---
 description: Het hoofdweergavegebied is het gebied dat wordt ingenomen door de catalogusafbeelding. Deze wordt meestal ingesteld op het beschikbare apparaatscherm wanneer geen grootte is opgegeven.
-seo-description: Het hoofdweergavegebied is het gebied dat wordt ingenomen door de catalogusafbeelding. Deze wordt meestal ingesteld op het beschikbare apparaatscherm wanneer geen grootte is opgegeven.
-seo-title: Hoofdviewergebied
 solution: Experience Manager
 title: Hoofdviewergebied
-uuid: 2ad21319-7a0e-44fd-8866-3055e8ff8913
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
