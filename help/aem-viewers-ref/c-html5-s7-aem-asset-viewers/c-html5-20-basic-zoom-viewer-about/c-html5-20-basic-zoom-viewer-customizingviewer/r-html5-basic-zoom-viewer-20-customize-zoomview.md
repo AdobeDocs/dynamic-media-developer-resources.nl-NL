@@ -1,16 +1,13 @@
 ---
 description: De hoofdweergave bestaat uit de afbeelding waarop kan worden ingezoomd.
-seo-description: De hoofdweergave bestaat uit de afbeelding waarop kan worden ingezoomd.
-seo-title: Zoomweergave
 solution: Experience Manager
 title: Zoomweergave
-uuid: 06464e36-8c9c-4d3c-b4e5-5911f002568c
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoomen
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
