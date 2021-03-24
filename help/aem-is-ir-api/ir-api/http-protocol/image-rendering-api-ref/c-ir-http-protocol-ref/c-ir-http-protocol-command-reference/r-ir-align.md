@@ -5,7 +5,7 @@ title: align
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 2%
@@ -25,7 +25,7 @@ Uitlijning van structuurrenderen. Hiermee geeft u op welke oorsprongpunten door 
   <td class="stentry"> <p>Standaard oorsprong (midden-overeenkomst). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>1 </p></td> 
+  <td class="stentry"> <p>3 </p></td> 
   <td class="stentry"> <p>Continu overeenkomende oorsprong. </p></td> 
  </tr> 
  <tr class="strow"> 
