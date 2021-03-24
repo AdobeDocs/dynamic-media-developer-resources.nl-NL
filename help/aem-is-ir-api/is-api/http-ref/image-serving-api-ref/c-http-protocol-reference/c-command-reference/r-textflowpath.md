@@ -1,16 +1,13 @@
 ---
 description: Tekststroomgebied. Geeft een of meer gebieden op waarin tekst die met textPs= is opgegeven, moet worden doorlopen.
-seo-description: Tekststroomgebied. Geeft een of meer gebieden op waarin tekst die met textPs= is opgegeven, moet worden doorlopen.
-seo-title: textFlowPath
 solution: Experience Manager
 title: textFlowPath
-uuid: 5449d78f-e56b-4afb-a05a-7cf8f1f37278
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
