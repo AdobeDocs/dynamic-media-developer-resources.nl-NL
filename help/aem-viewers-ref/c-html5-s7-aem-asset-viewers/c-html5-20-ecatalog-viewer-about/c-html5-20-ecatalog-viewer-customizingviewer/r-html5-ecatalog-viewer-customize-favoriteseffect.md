@@ -1,16 +1,13 @@
 ---
 description: In de viewer worden pictogrammen voor favorieten weergegeven in de hoofdweergave op plaatsen waar deze oorspronkelijk door de gebruiker zijn toegevoegd.
-seo-description: In de viewer worden pictogrammen voor favorieten weergegeven in de hoofdweergave op plaatsen waar deze oorspronkelijk door de gebruiker zijn toegevoegd.
-seo-title: Favorieten, effect
 solution: Experience Manager
 title: Favorieten, effect
-uuid: b660b9fd-592b-4072-83c9-f70330ee19ab
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
