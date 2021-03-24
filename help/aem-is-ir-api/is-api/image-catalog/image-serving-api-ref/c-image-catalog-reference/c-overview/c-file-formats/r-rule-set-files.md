@@ -1,16 +1,13 @@
 ---
 description: Bestanden met regelsets zijn tekstbestanden met XML-indeling en moeten voldoen aan de toepasselijke standaarden en conventies.
-seo-description: Bestanden met regelsets zijn tekstbestanden met XML-indeling en moeten voldoen aan de toepasselijke standaarden en conventies.
-seo-title: Bestanden met regelsets
 solution: Experience Manager
 title: Bestanden met regelsets
-uuid: c0c7ec7b-547b-4007-864b-bf551f041aff
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
