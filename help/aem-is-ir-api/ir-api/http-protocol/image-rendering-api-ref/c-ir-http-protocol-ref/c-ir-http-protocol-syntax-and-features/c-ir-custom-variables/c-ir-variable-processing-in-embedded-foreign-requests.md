@@ -1,16 +1,13 @@
 ---
 description: $var$ verwijzingen die zich ergens binnen de accolades van een ingesloten extern verzoek voordoen, worden vervangen door overeenkomstige waarden voor de definitie van variabelen.
-seo-description: $var$ verwijzingen die zich ergens binnen de accolades van een ingesloten extern verzoek voordoen, worden vervangen door overeenkomstige waarden voor de definitie van variabelen.
-seo-title: Variabele verwerking in ingesloten externe verzoeken
 solution: Experience Manager
 title: Variabele verwerking in ingesloten externe verzoeken
-uuid: b4334a2e-dab1-4458-ab3d-bb79d2c4fdd4
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
