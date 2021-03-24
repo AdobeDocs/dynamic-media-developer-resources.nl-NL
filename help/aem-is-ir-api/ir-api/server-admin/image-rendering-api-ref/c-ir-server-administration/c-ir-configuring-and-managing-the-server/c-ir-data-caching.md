@@ -1,16 +1,13 @@
 ---
 description: Bij het renderen van afbeeldingen worden de functies voor het in cache plaatsen van afbeeldingen gebruikt voor het opslaan van gegevens van responsafbeeldingen, tussentijdse gegevens voor geneste/ingesloten aanvragen en bronafbeeldingsgegevens (zoals structuren) die uit een externe bron zijn verkregen.
-seo-description: Bij het renderen van afbeeldingen worden de functies voor het in cache plaatsen van afbeeldingen gebruikt voor het opslaan van gegevens van responsafbeeldingen, tussentijdse gegevens voor geneste/ingesloten aanvragen en bronafbeeldingsgegevens (zoals structuren) die uit een externe bron zijn verkregen.
-seo-title: Gegevens in cache plaatsen
 solution: Experience Manager
 title: Gegevens in cache plaatsen
-uuid: 630ed3f4-3a0d-4de4-828f-45ffc14e6bb7
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,beheerder,praktijkgericht
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
