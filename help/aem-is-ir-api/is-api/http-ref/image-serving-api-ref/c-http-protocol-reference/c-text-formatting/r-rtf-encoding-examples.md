@@ -1,16 +1,13 @@
 ---
 description: In de volgende voorbeelden ziet u een voorbeeld van tekstopdrachten en hoe deze van invloed zijn op tekst.
-seo-description: In de volgende voorbeelden ziet u een voorbeeld van tekstopdrachten en hoe deze van invloed zijn op tekst.
-seo-title: Voorbeelden van RTF-codering
 solution: Experience Manager
 title: Voorbeelden van RTF-codering
-uuid: 29fb4f59-b4bf-4768-a6e1-cc50926da936
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '58'
 ht-degree: 0%
 
 ---
