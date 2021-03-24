@@ -1,16 +1,13 @@
 ---
 description: De het menudrop-down lijst van Favorieten verschijnt in de controlebar. Het bestaat uit een knop en een deelvenster dat groter wordt wanneer een gebruiker op een knop klikt of tikt. Het deelvenster bevat afzonderlijke gereedschappen voor Favorieten.
-seo-description: De het menudrop-down lijst van Favorieten verschijnt in de controlebar. Het bestaat uit een knop en een deelvenster dat groter wordt wanneer een gebruiker op een knop klikt of tikt. Het deelvenster bevat afzonderlijke gereedschappen voor Favorieten.
-seo-title: Menu Favorieten
 solution: Experience Manager
 title: Menu Favorieten
-uuid: 46de2a74-690e-4010-8a71-54206dd02fd0
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
