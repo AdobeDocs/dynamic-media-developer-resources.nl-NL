@@ -1,16 +1,13 @@
 ---
 description: Als u op deze knop klikt of erop tikt, zoomt u in op een afbeelding in de hoofdweergave. Deze knop wordt niet weergegeven op mobiele telefoons om de schermruimte op te slaan. U kunt deze knop vergroten, verkleinen, verkleinen en plaatsen met CSS.
-seo-description: Als u op deze knop klikt of erop tikt, zoomt u in op een afbeelding in de hoofdweergave. Deze knop wordt niet weergegeven op mobiele telefoons om de schermruimte op te slaan. U kunt deze knop vergroten, verkleinen, verkleinen en plaatsen met CSS.
-seo-title: Knop Inzoomen
 solution: Experience Manager
 title: Knop Inzoomen
-uuid: 61a4f008-1d95-48dd-9e06-7d30be44a893
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoomen
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '256'
 ht-degree: 0%
 
 ---
