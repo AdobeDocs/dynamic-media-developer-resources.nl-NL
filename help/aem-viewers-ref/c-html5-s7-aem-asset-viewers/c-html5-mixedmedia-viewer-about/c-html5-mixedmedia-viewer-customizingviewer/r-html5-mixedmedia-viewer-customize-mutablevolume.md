@@ -1,16 +1,13 @@
 ---
 description: Het veranderbare volumeregelaar verschijnt aanvankelijk als knoop die een gebruiker het geluid van de videospeler laat dempen of dempen.
-seo-description: Het veranderbare volumeregelaar verschijnt aanvankelijk als knoop die een gebruiker het geluid van de videospeler laat dempen of dempen.
-seo-title: Meerbaar volume
 solution: Experience Manager
 title: Meerbaar volume
-uuid: 0199c35b-e223-4c5b-8978-9e65554e64e0
 feature: Dynamic Media Classic,Viewers,SDK/API,Mediasets mixen
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
