@@ -5,7 +5,7 @@ title: opac
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: 7910228217db2c97dccd306ce464c69da53ee576
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%
@@ -28,9 +28,9 @@ Dekking. Hiermee bepaalt u de dekking van het materiaal.
 
 De volgende materiaal/objectcombinaties ondersteunen een variabele dekking:
 
-* Effen kleuren en herhaalbare structuren die zijn toegepast op overlappende objecten die structuur kunnen bevatten.
+* Effen kleuren en herhaalbare structuren die zijn toegepast op overlappende objecten met structuur.
 * Venster dat materialen bedekt die op venster dat kadervoorwerpen bedekt worden toegepast.
-* Decalen die zijn toegepast op tekstuele objecten of wandobjecten.
+* Decalen die zijn toegepast op structuurobjecten of wandobjecten.
 
 Als het materiaal een afbeelding met een alfakanaal bevat, kan `opac=` worden gebruikt om de afbeelding transparanter te maken, maar niet meer dekkend.
 
