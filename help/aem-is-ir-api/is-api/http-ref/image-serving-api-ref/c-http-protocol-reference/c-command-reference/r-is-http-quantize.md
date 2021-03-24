@@ -1,16 +1,13 @@
 ---
 description: Kleurkwantiteit. Geeft kleurkwantiseringskenmerken voor GIF-uitvoerconversie op.
-seo-description: Kleurkwantiteit. Geeft kleurkwantiseringskenmerken voor GIF-uitvoerconversie op.
-seo-title: kwantificeren
 solution: Experience Manager
 title: kwantificeren
-uuid: 4e9c4807-59bc-4eb9-bcab-0bf0cfdf56d4
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
