@@ -1,16 +1,13 @@
 ---
 description: Verwijdert een project van een bedrijf. De verbindingen tussen de activa en het project zijn gebroken, maar de activa worden niet geschrapt van IPS.
-seo-description: Verwijdert een project van een bedrijf. De verbindingen tussen de activa en het project zijn gebroken, maar de activa worden niet geschrapt van IPS.
-seo-title: deleteProject
 solution: Experience Manager
 title: deleteProject
-uuid: 0915066f-2106-4cbc-a68a-f149810c24f8
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,beheerder
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
