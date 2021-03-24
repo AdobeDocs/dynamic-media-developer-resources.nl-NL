@@ -1,16 +1,13 @@
 ---
 description: URL van hoofdmap voor relatieve afbeeldings-URL's. Hiermee geeft u de basis-URL op voor relatieve afbeeldings-URL's. kenmerk RootUrl wordt gebruikt in plaats van kenmerk RootPath wanneer een src= waarde wordt ingesloten door { accolades }.
-seo-description: URL van hoofdmap voor relatieve afbeeldings-URL's. Hiermee geeft u de basis-URL op voor relatieve afbeeldings-URL's. kenmerk RootUrl wordt gebruikt in plaats van kenmerk RootPath wanneer een src= waarde wordt ingesloten door { accolades }.
-seo-title: RootUrl *
 solution: Experience Manager
 title: RootUrl *
-uuid: aa10f210-4765-4b0e-9ce1-812b00cd8cf5
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
