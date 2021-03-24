@@ -1,16 +1,13 @@
 ---
 description: Bepaalde inhoud die in de Flyout Viewer wordt weergegeven, is afhankelijk van lokalisatie. Deze inhoud bevat knopinfo voor gebruikersinterface-elementen en informatieberichten die tijdens het laden worden weergegeven in de zoomweergave voor vervolgmenu's.
-seo-description: Bepaalde inhoud die in de Flyout Viewer wordt weergegeven, is afhankelijk van lokalisatie. Deze inhoud bevat knopinfo voor gebruikersinterface-elementen en informatieberichten die tijdens het laden worden weergegeven in de zoomweergave voor vervolgmenu's.
-seo-title: Lokalisatie van gebruikersinterface-elementen
 solution: Experience Manager
 title: Lokalisatie van gebruikersinterface-elementen
-uuid: d824c0c3-3606-4903-96f7-de26a61a8f65
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
