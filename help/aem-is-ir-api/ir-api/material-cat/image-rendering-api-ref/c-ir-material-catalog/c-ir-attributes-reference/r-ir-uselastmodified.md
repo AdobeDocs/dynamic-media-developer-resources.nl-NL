@@ -1,16 +1,13 @@
 ---
 description: Schakel laatst gewijzigde reactiekoppen in. Schakelt het opnemen van de header met laatste wijziging in of uit in cacheable HTTP responses die worden gegenereerd door Afbeelding renderen.
-seo-description: Schakel laatst gewijzigde reactiekoppen in. Schakelt het opnemen van de header met laatste wijziging in of uit in cacheable HTTP responses die worden gegenereerd door Afbeelding renderen.
-seo-title: UseLastModified
 solution: Experience Manager
 title: UseLastModified
-uuid: f2ce2e04-4133-40af-ac82-cae57b253fe9
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
