@@ -1,16 +1,13 @@
 ---
 description: IS servers kunnen worden gevormd om over te slaan aan afwisselende servers voor verzoeken die een bronbeeld impliceren dat niet kan worden geopend of met succes kunnen worden gelezen.
-seo-description: IS servers kunnen worden gevormd om over te slaan aan afwisselende servers voor verzoeken die een bronbeeld impliceren dat niet kan worden geopend of met succes kunnen worden gelezen.
-seo-title: Omleiden bij fout
 solution: Experience Manager
 title: Omleiden bij fout
-uuid: 894babe9-9c3c-4972-ae8f-387d65b4167d
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,beheerder,praktijkgericht
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
