@@ -1,15 +1,12 @@
 ---
 description: Bepaalde inhoud die in de Interactive Image Viewer wordt weergegeven, is afhankelijk van lokalisatie. Dit omvat knopinfo voor gebruikersinterface-elementen en een informatiebericht dat tijdens het laden wordt weergegeven in de zoomweergave voor vervolgmenu's.
-seo-description: Bepaalde inhoud die in de Interactive Image Viewer wordt weergegeven, is afhankelijk van lokalisatie. Dit omvat knopinfo voor gebruikersinterface-elementen en een informatiebericht dat tijdens het laden wordt weergegeven in de zoomweergave voor vervolgmenu's.
-seo-title: Lokalisatie van gebruikersinterface-elementen
 title: Lokalisatie van gebruikersinterface-elementen
-uuid: 1a22570b-8435-4e57-a022-34428bddc7f7
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve afbeeldingen
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
