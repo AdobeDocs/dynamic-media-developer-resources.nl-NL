@@ -1,16 +1,13 @@
 ---
 description: Documentatie over configuratiekenmerken voor Video360 Viewer.
-seo-description: Documentatie over configuratiekenmerken voor Video360 Viewer.
-seo-title: Command reference - Configuration attributes
 solution: Experience Manager
 title: Command reference - Configuration attributes
-uuid: 645bba87-3d84-46e9-97fc-7019c5dd87ca
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
