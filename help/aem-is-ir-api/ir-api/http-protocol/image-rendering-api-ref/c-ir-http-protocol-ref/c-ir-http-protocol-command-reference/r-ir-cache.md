@@ -5,7 +5,7 @@ title: cachegeheugen
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Als slechts één *`cacheControl`* waarde wordt gespecificeerd, wordt het toegep
 
 Met het trefwoord &#39; `validate`&#39; kunnen vermeldingen in de servercache worden bijgewerkt nadat de structuur- of vignetbestanden zijn gewijzigd, zonder dat de cachegegevens automatisch hoeven te worden verlopen. Het in cache plaatsen van clients wordt niet beïnvloed door deze opdracht.
 
-Als `cache=on` in een geneste aanvraag is opgegeven, wordt de afbeelding die door de geneste aanvraag wordt gegenereerd, permanent in cache op de server geplaatst. Zorg ervoor dat caching alleen mogelijk is voor geneste aanvragen wanneer hetzelfde geneste verzoek herhaaldelijk moet worden aangeroepen met exact dezelfde parameters.
+Als `cache=on` in een geneste aanvraag wordt opgegeven, wordt de afbeelding die door de geneste aanvraag wordt gegenereerd, permanent in cache op de server geplaatst. Zorg ervoor dat caching alleen mogelijk is voor geneste aanvragen wanneer hetzelfde geneste verzoek herhaaldelijk moet worden aangeroepen met exact dezelfde parameters.
 
 ## Eigenschappen {#section-0dcbd62e1122400e8c347f408f2d937e}
 
