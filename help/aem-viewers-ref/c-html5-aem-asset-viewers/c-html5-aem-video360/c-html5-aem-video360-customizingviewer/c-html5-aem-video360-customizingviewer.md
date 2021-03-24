@@ -1,17 +1,14 @@
 ---
 description: Alle visuele aanpassingen en de meeste gedragsaanpassingen voor de Video360 Viewer worden uitgevoerd door een aangepaste CSS te maken.
 keywords: responsief
-seo-description: Alle visuele aanpassingen en de meeste gedragsaanpassingen voor de Video360 Viewer worden uitgevoerd door een aangepaste CSS te maken.
-seo-title: Video360 Viewer aanpassen
 solution: Experience Manager
 title: Video360 Viewer aanpassen
-uuid: 1f021a11-856e-4bbc-a2ee-454ab0a60adb
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1304'
 ht-degree: 0%
 
 ---
