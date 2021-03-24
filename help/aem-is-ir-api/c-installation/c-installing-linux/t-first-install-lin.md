@@ -1,16 +1,13 @@
 ---
 description: Deze procedure laat zien hoe u Image Serving voor het eerst in Linux kunt installeren.
-seo-description: Deze procedure laat zien hoe u Image Serving voor het eerst in Linux kunt installeren.
-seo-title: Voor het eerst installeren
 solution: Experience Manager
 title: Voor het eerst installeren
-uuid: 6a9a6dd2-2c69-447a-9628-eba08dc4f6c8
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
