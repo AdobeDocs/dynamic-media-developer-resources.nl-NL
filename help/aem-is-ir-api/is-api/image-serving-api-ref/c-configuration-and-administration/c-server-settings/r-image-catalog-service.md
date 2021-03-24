@@ -1,16 +1,13 @@
 ---
 description: Gebruik deze serverinstellingen voor de afbeeldingscatalogusservice.
-seo-description: Gebruik deze serverinstellingen voor de afbeeldingscatalogusservice.
-seo-title: Afbeeldingscatalogusservice
 solution: Experience Manager
 title: Afbeeldingscatalogusservice
-uuid: 601b1c30-7d51-448b-97b5-5ad9cb383975
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,beheerder,praktijkgericht
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
