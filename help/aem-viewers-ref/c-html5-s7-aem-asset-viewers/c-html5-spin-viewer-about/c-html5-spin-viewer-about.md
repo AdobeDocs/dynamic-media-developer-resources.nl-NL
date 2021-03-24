@@ -1,17 +1,14 @@
 ---
 description: Spin Viewer is een beeldviewer die een weergave van 360 graden van de afbeelding biedt, of zelfs een multidimensionale weergave als de juiste centrifugeset wordt gebruikt. Deze heeft zoomen- en centrifugegereedschappen, ondersteuning voor volledig scherm en een optionele knop Sluiten. Het is ontworpen voor gebruik op desktops en mobiele apparaten.
 keywords: responsief
-seo-description: Spin Viewer is een beeldviewer die een weergave van 360 graden van de afbeelding biedt, of zelfs een multidimensionale weergave als de juiste centrifugeset wordt gebruikt. Deze heeft zoomen- en centrifugegereedschappen, ondersteuning voor volledig scherm en een optionele knop Sluiten. Het is ontworpen voor gebruik op desktops en mobiele apparaten.
-seo-title: Draaien
 solution: Experience Manager
 title: Draaien
-uuid: 5d5cdf83-cfe8-48cd-af74-b270f7400b14
 feature: Dynamic Media Classic,Viewers,SDK/API,Draaiensets
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '2180'
+source-wordcount: '2130'
 ht-degree: 0%
 
 ---
@@ -45,7 +42,7 @@ Zie [De verwijzing van het Bevel gemeenschappelijk voor alle kijkers - de attrib
 
 ## Interactie met de Draaiende Kijker {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
-De Draai Viewer ondersteunt de volgende aanraakbewegingen die veel voorkomen in andere mobiele toepassingen. Wanneer de viewer de veegbeweging van een gebruiker niet kan verwerken, stuurt deze de gebeurtenis door naar de webbrowser om een native paginaschuiving uit te voeren. Hierdoor kan de gebruiker door de pagina navigeren, zelfs als de viewer het grootste gedeelte van het apparaatschermgebied in beslag neemt.
+De Draai Viewer ondersteunt de volgende aanraakbewegingen die ook in andere mobiele toepassingen worden gebruikt. Wanneer de viewer de veegbeweging van een gebruiker niet kan verwerken, stuurt deze de gebeurtenis door naar de webbrowser om een native paginaschuiving uit te voeren. Hierdoor kan de gebruiker door de pagina navigeren, zelfs als de viewer het grootste gedeelte van het apparaatschermgebied in beslag neemt.
 
 <table id="table_ED747CC7178448919C34A4FCD18922D0"> 
  <thead> 
