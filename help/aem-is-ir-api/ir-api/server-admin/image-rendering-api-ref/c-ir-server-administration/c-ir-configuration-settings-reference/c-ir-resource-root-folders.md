@@ -1,16 +1,13 @@
 ---
 description: Een lijst met paden, gescheiden door puntkomma's, fungeert als basis voor alle gegevensbestanden met relatieve bestandspaden.
-seo-description: Een lijst met paden, gescheiden door puntkomma's, fungeert als basis voor alle gegevensbestanden met relatieve bestandspaden.
-seo-title: Bronhoofdmappen (ir.resourceRootPaths)
 solution: Experience Manager
 title: Bronhoofdmappen (ir.resourceRootPaths)
-uuid: a2a8ecd1-ddfe-46c5-bb70-4640e0992de8
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,beheerder,praktijkgericht
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
