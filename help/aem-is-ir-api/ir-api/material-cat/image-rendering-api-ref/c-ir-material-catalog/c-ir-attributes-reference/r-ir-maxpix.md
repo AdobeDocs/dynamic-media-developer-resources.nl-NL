@@ -1,16 +1,13 @@
 ---
 description: Limiet voor afbeeldingsgrootte beantwoorden. Maximale breedte en hoogte van reactieafbeelding die aan de client kunnen worden geretourneerd.
-seo-description: Limiet voor afbeeldingsgrootte beantwoorden. Maximale breedte en hoogte van reactieafbeelding die aan de client kunnen worden geretourneerd.
-seo-title: MaxPix
 solution: Experience Manager
 title: MaxPix
-uuid: 8fc5e032-cfbb-40b5-9c3a-a2ec1bc4c3e2
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
