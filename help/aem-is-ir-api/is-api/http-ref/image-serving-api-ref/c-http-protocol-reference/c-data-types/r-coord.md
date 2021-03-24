@@ -1,16 +1,13 @@
 ---
 description: Pixelcoördinaten. Wordt gebruikt om afbeeldingscoördinaten op te geven, zoals afbeeldingsverschuivingen of uitsnijdparameters, in de vorm van een pixelverschuiving ten opzichte van de linkerbovenhoek van een afbeelding of laagrechthoek.
-seo-description: Pixelcoördinaten. Wordt gebruikt om afbeeldingscoördinaten op te geven, zoals afbeeldingsverschuivingen of uitsnijdparameters, in de vorm van een pixelverschuiving ten opzichte van de linkerbovenhoek van een afbeelding of laagrechthoek.
-seo-title: coord
 solution: Experience Manager
 title: coord
-uuid: dd49f12b-5a87-4157-9e44-4beb66f83770
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
