@@ -1,16 +1,13 @@
 ---
 description: Beschrijft waarden die door diverse inputparameters worden gebruikt. Zie de lijst in dit artikel voor meer informatie.
-seo-description: Beschrijft waarden die door diverse inputparameters worden gebruikt. Zie de lijst in dit artikel voor meer informatie.
-seo-title: Elementen
 solution: Experience Manager
 title: Elementen
-uuid: 932bae5a-1e5f-493a-a6fa-5c367c632f97
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Ontwikkelaar,beheerder
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '47'
 ht-degree: 0%
 
 ---
