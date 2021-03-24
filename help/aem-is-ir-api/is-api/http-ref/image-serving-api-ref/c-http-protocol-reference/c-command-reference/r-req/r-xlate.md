@@ -1,16 +1,13 @@
 ---
 description: Beschikbare landspecifieke versies. Retourneert een lijst met beschikbare landspecifieke versies van de catalogus-id die is opgegeven in het aanvraagpad.
-seo-description: Beschikbare landspecifieke versies. Retourneert een lijst met beschikbare landspecifieke versies van de catalogus-id die is opgegeven in het aanvraagpad.
-seo-title: xlate
 solution: Experience Manager
 title: xlate
-uuid: 4c2370e5-1d46-4242-89bb-a5ce416ef63c
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '115'
 ht-degree: 2%
 
 ---
