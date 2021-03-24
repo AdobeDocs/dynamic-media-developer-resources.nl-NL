@@ -1,16 +1,13 @@
 ---
 description: Eigenschappen van afbeeldingscatalogus. Retourneert algemene kenmerken van de afbeeldingscatalogus die zijn opgegeven in het aanvraagpad.
-seo-description: Eigenschappen van afbeeldingscatalogus. Retourneert algemene kenmerken van de afbeeldingscatalogus die zijn opgegeven in het aanvraagpad.
-seo-title: catalogusprofielen
 solution: Experience Manager
 title: catalogusprofielen
-uuid: 09252d39-8604-4785-bcdc-ad229a691035
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
@@ -29,7 +26,7 @@ Eigenschappen van afbeeldingscatalogus. Retourneert algemene kenmerken van de af
  </tr> 
 </table>
 
-Laat de catalogus-id weg om de standaardeigenschappen van de catalogus op te halen ( [!DNL default.ini]). De reactie van HTTP is cacheable met TTL die op `attribute::NonImgExpiration` wordt gebaseerd.
+Laat de catalogus-id weg om de standaardeigenschappen van de catalogus ( [!DNL default.ini]) op te halen. De reactie van HTTP is cacheable met TTL die op `attribute::NonImgExpiration` wordt gebaseerd.
 
 Verzoeken die JSONP reactieformaat steunen laten u de naam van de callback manager specificeren JS gebruikend de uitgebreide syntaxis van `req=` parameter:
 
