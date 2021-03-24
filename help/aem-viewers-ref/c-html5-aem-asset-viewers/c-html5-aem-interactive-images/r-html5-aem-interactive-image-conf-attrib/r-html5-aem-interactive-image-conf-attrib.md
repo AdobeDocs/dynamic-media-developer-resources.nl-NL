@@ -1,16 +1,13 @@
 ---
 description: Documentatie over configuratiekenmerken voor Interactive Image Viewer.
-seo-description: Documentatie over configuratiekenmerken voor Interactive Image Viewer.
-seo-title: Command reference - Configuration attributes
 solution: Experience Manager
 title: Command reference - Configuration attributes
-uuid: ef118730-1bd2-4b88-917c-1fa51c6a488b
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve afbeeldingen
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
