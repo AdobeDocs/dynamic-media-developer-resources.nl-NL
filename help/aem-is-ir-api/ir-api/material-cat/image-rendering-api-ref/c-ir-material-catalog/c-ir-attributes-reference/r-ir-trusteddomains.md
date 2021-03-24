@@ -1,16 +1,13 @@
 ---
 description: Webdomeinen van de Flash-toepassing. Voor Adobe Flash-toepassingen is mogelijk toegang vereist tot de eigenschappen van afbeeldingen die in de SWF-indeling worden geleverd. Het SWF-bestand moet expliciet toegang verlenen door de naam te registreren van de toepassingsdomeinen die het vertrouwt.
-seo-description: Webdomeinen van de Flash-toepassing. Voor Adobe Flash-toepassingen is mogelijk toegang vereist tot de eigenschappen van afbeeldingen die in de SWF-indeling worden geleverd. Het SWF-bestand moet expliciet toegang verlenen door de naam te registreren van de toepassingsdomeinen die het vertrouwt.
-seo-title: TrustedDomains *
 solution: Experience Manager
 title: TrustedDomains *
-uuid: c50180b1-9af7-45f1-878f-59f41f9958ae
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
