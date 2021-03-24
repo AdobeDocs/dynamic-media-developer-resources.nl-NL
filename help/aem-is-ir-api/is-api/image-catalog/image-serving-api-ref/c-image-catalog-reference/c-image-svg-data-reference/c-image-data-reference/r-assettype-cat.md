@@ -1,16 +1,13 @@
 ---
 description: Elementtype. Wordt gebruikt om het type set te identificeren dat is gepubliceerd naar de catalogus ImageSet.
-seo-description: Elementtype. Wordt gebruikt om het type set te identificeren dat is gepubliceerd naar de catalogus ImageSet.
-seo-title: AssetType
 solution: Experience Manager
 title: AssetType
-uuid: e9e0d7e0-0429-4949-aafa-0ac7032fdfe5
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '84'
 ht-degree: 2%
 
 ---
