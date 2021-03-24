@@ -1,16 +1,13 @@
 ---
 description: De hoofdklasse van de Zoom Viewer is BasicZoomViewer. Deze wordt gedeclareerd in de naamruimte s7viewers. Deze JavaScript API behandelt constructor, methoden en callbacks van deze specifieke klasse.
-seo-description: De hoofdklasse van de Zoom Viewer is BasicZoomViewer. Deze wordt gedeclareerd in de naamruimte s7viewers. Deze JavaScript API behandelt constructor, methoden en callbacks van deze specifieke klasse.
-seo-title: JavaScript API-referentie voor Zooom Viewer
 solution: Experience Manager
 title: JavaScript API-referentie voor Zooom Viewer
-uuid: add69992-7613-4ec2-9845-f01bf0392d0c
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoomen
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
