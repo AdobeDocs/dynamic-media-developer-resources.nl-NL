@@ -1,17 +1,14 @@
 ---
 description: Geeft aan of de viewer begint met het laden van video-inhoud voordat het afspelen wordt gestart.
-seo-description: Geeft aan of de viewer begint met het laden van video-inhoud voordat het afspelen wordt gestart.
-seo-title: Video360Player.preload
 solution: Experience Manager
 title: Video360Player.preload
-uuid: 6e3b95b8-d585-4164-8665-6211000689fe
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 5%
+source-wordcount: '132'
+ht-degree: 4%
 
 ---
 
