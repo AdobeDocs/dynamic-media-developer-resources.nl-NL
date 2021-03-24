@@ -1,16 +1,13 @@
 ---
 description: Pagina-indicator geeft de huidige pagina-index en het totale aantal pagina's weer. Het verschijnt in belangrijkste controlebar op Desktopsystemen en tablet, op mobiele telefoons wordt het toegevoegd aan secundaire controlebar. De pagina-indicator kan door CSS worden vergroot of verkleind, van een skin worden voorzien en worden geplaatst.
-seo-description: Pagina-indicator geeft de huidige pagina-index en het totale aantal pagina's weer. Het verschijnt in belangrijkste controlebar op Desktopsystemen en tablet, op mobiele telefoons wordt het toegevoegd aan secundaire controlebar. De pagina-indicator kan door CSS worden vergroot of verkleind, van een skin worden voorzien en worden geplaatst.
-seo-title: Pagina-indicator
 solution: Experience Manager
 title: Pagina-indicator
-uuid: 5e33c149-fdc7-419a-b5ff-b9be3f342d9f
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
