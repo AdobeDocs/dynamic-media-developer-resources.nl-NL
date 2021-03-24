@@ -1,16 +1,13 @@
 ---
 description: Retourneert de leden van een groep.
-seo-description: Retourneert de leden van een groep.
-seo-title: getGroupMembership
 solution: Experience Manager
 title: getGroupMembership
-uuid: 5ec48e8c-378b-43a3-b3dc-aa21dbf339b5
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,beheerder
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
