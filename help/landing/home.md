@@ -1,14 +1,12 @@
 ---
 title: Bronnen voor Adobe Dynamic Media-ontwikkelaars
-seo-title: Adobe Dynamic Media-ontwikkelaarshulplijnen voor viewers, beeldbewerking, rendering van afbeeldingen en afbeeldingsproductie
 description: Bronnen voor Adobe Dynamic Media-ontwikkelaars
-seo-description: Adobe Dynamic Media-ontwikkelaarshulplijnen voor viewers, beeldbewerking, rendering van afbeeldingen en afbeeldingsproductie
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: beed72f55377c5e3885cf69cf56cb0d7a83f788e
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
