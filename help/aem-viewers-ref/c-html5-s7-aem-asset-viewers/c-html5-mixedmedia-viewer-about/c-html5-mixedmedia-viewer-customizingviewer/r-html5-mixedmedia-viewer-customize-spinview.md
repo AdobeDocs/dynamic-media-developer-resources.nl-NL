@@ -1,16 +1,13 @@
 ---
 description: De hoofdweergave bestaat uit de draaiafbeelding wanneer het huidige element een spin-set is.
-seo-description: De hoofdweergave bestaat uit de draaiafbeelding wanneer het huidige element een spin-set is.
-seo-title: Weergave draaien
 solution: Experience Manager
 title: Weergave draaien
-uuid: f1edbcc4-966a-4ec6-8ba9-a76f3ae51733
 feature: Dynamic Media Classic,Viewers,SDK/API,Mediasets mixen
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
