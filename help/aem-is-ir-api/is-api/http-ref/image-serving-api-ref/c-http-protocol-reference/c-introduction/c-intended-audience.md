@@ -1,16 +1,13 @@
 ---
 description: Ervaren programmeurs en websiteontwikkelaars die Dynamic Media Image Serving willen gebruiken voor een website of een aangepaste toepassing.
-seo-description: Ervaren programmeurs en websiteontwikkelaars die Dynamic Media Image Serving willen gebruiken voor een website of een aangepaste toepassing.
-seo-title: Beoogd publiek
 solution: Experience Manager
 title: Beoogd publiek
-uuid: 610fe9a9-897d-4e20-8879-334587c54a5b
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
