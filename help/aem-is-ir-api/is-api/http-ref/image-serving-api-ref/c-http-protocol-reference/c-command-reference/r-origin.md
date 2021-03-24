@@ -1,16 +1,13 @@
 ---
 description: Oorsprong laag.
-seo-description: Oorsprong laag.
-seo-title: oorsprong
 solution: Experience Manager
 title: oorsprong
-uuid: a36fc0b6-7744-4c1c-b9f8-4aa31a886bff
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
