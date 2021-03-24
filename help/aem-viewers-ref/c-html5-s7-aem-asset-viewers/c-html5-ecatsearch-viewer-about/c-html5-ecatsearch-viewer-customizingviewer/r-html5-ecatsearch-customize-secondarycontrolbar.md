@@ -1,16 +1,13 @@
 ---
 description: De secundaire besturingsbalk is het rechthoekige gebied met de knoppen Eerste en Laatste pagina en een pagina-indicator wanneer deze beschikbaar worden gemaakt in CSS.
-seo-description: De secundaire besturingsbalk is het rechthoekige gebied met de knoppen Eerste en Laatste pagina en een pagina-indicator wanneer deze beschikbaar worden gemaakt in CSS.
-seo-title: Secundaire besturingsbalk
 solution: Experience Manager
 title: Secundaire besturingsbalk
-uuid: 38217d2a-8668-46e1-9df1-f29c1c7e0798
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
