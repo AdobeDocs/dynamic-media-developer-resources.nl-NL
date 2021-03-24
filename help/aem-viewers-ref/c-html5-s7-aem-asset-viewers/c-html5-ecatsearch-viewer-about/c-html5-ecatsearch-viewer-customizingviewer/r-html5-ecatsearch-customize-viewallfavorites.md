@@ -1,16 +1,13 @@
 ---
 description: De positie van de knop wordt volledig beheerd door het menu Favorieten.
-seo-description: De positie van de knop wordt volledig beheerd door het menu Favorieten.
-seo-title: De knop Alle favorieten weergeven
 solution: Experience Manager
 title: De knop Alle favorieten weergeven
-uuid: 8824deb5-3bdc-4681-85ac-7f86a76cf3b5
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
