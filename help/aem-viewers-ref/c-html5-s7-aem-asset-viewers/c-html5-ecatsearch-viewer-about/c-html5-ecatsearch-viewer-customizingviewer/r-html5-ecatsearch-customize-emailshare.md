@@ -1,16 +1,13 @@
 ---
 description: Het gereedschap E-mail delen bestaat uit een knop die wordt toegevoegd aan het deelvenster Sociaal delen en het modale dialoogvenster dat wordt weergegeven wanneer het gereedschap wordt geactiveerd. De positie van de knop wordt volledig beheerd met het gereedschap Sociaal delen.
-seo-description: Het gereedschap E-mail delen bestaat uit een knop die wordt toegevoegd aan het deelvenster Sociaal delen en het modale dialoogvenster dat wordt weergegeven wanneer het gereedschap wordt geactiveerd. De positie van de knop wordt volledig beheerd met het gereedschap Sociaal delen.
-seo-title: E-mailshare
 solution: Experience Manager
 title: E-mailshare
-uuid: fc60dd7b-651e-458c-9057-693ca1c0afdc
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '3084'
+source-wordcount: '3044'
 ht-degree: 0%
 
 ---
