@@ -1,16 +1,13 @@
 ---
 description: Gebruik deze serverinstellingen voor cacheclustering.
-seo-description: Gebruik deze serverinstellingen voor cacheclustering.
-seo-title: Cache-clustering
 solution: Experience Manager
 title: Cache-clustering
-uuid: ed6335d7-26c9-45d8-95f6-6c05e788e449
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,beheerder,praktijkgericht
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
