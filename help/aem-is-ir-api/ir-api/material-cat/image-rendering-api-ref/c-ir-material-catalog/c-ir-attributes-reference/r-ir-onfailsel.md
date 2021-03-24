@@ -1,16 +1,13 @@
 ---
 description: Foutafhandeling van selectie kiezen. Hiermee wordt de actie opgegeven die moet worden uitgevoerd als de opdracht sel= mislukt omdat de opgegeven pixellocatie zich niet binnen het maskergebied van een selecteerbaar object bevindt.
-seo-description: Foutafhandeling van selectie kiezen. Hiermee wordt de actie opgegeven die moet worden uitgevoerd als de opdracht sel= mislukt omdat de opgegeven pixellocatie zich niet binnen het maskergebied van een selecteerbaar object bevindt.
-seo-title: OnFailSel
 solution: Experience Manager
 title: OnFailSel
-uuid: 073b6651-970c-460c-b044-e3ef37cc677a
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '128'
 ht-degree: 3%
 
 ---
