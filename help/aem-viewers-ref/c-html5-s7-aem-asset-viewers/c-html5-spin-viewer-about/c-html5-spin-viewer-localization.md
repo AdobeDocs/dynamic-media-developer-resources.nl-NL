@@ -1,16 +1,13 @@
 ---
 description: Bepaalde inhoud die in de viewer voor draaien wordt weergegeven, is afhankelijk van lokalisatie, inclusief zoomknoppen en een knop voor volledig scherm.
-seo-description: Bepaalde inhoud die in de viewer voor draaien wordt weergegeven, is afhankelijk van lokalisatie, inclusief zoomknoppen en een knop voor volledig scherm.
-seo-title: Lokalisatie van gebruikersinterface-elementen
 solution: Experience Manager
 title: Lokalisatie van gebruikersinterface-elementen
-uuid: bf38bdef-a31f-4f2f-a8f5-3d3d4eac95ab
 feature: Dynamic Media Classic,Viewers,SDK/API,Draaiensets
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
