@@ -1,16 +1,13 @@
 ---
 description: De hoofdweergave bestaat uit de statische afbeelding, de ingezoomde afbeelding die boven op de statische afbeelding wordt weergegeven in de vervolgweergave en het uiteindebericht dat boven op de statische afbeelding wordt weergegeven.
-seo-description: De hoofdweergave bestaat uit de statische afbeelding, de ingezoomde afbeelding die boven op de statische afbeelding wordt weergegeven in de vervolgweergave en het uiteindebericht dat boven op de statische afbeelding wordt weergegeven.
-seo-title: Zoomweergave flyout
 solution: Experience Manager
 title: Zoomweergave flyout
-uuid: a918c775-a36a-44e8-9ca4-90cb8f5c3a5e
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
