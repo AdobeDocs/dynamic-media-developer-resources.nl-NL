@@ -1,16 +1,13 @@
 ---
 description: Mediamarge instellen. Hiermee stelt u de mediamarge in die is ingesteld in het PDF-bestand.
-seo-description: Mediamarge instellen. Hiermee stelt u de mediamarge in die is ingesteld in het PDF-bestand.
-seo-title: mediaMargin
 solution: Experience Manager
 title: mediaMargin
-uuid: e72f4791-d5c7-4b4d-90dd-39b478640abd
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '65'
 ht-degree: 0%
 
 ---
