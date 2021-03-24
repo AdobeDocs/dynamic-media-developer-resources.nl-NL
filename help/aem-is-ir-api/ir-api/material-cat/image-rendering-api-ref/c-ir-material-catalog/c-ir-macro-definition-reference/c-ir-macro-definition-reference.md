@@ -1,16 +1,13 @@
 ---
 description: Wanneer u een macro definieert, geeft u de naam en de definitie op.
-seo-description: Wanneer u een macro definieert, geeft u de naam en de definitie op.
-seo-title: Referentie macrodefinitie
 solution: Experience Manager
 title: Referentie macrodefinitie
-uuid: 3c3d3e13-a7cb-4f12-9de5-2c0788d847f7
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '34'
 ht-degree: 0%
 
 ---
