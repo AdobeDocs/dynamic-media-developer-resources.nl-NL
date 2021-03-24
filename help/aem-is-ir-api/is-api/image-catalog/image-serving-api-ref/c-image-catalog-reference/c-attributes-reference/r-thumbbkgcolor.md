@@ -1,16 +1,13 @@
 ---
 description: Standaardachtergrondkleur voor miniaturen. De RGB-waarde die wordt gebruikt om het gebied te vullen van een miniatuurafbeelding die geen werkelijke afbeeldingsgegevens bevat.
-seo-description: Standaardachtergrondkleur voor miniaturen. De RGB-waarde die wordt gebruikt om het gebied te vullen van een miniatuurafbeelding die geen werkelijke afbeeldingsgegevens bevat.
-seo-title: ThumbBkgColor
 solution: Experience Manager
 title: ThumbBkgColor
-uuid: c75c01f4-036e-46fd-9bc1-480920c0c05a
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
