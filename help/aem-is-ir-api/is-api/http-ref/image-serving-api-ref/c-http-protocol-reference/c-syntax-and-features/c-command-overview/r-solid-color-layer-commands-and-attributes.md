@@ -1,16 +1,13 @@
 ---
 description: Deze opdrachten zijn niet alleen van toepassing op algemene laagopdrachten, maar ook op effen kleurlagen.
-seo-description: Deze opdrachten zijn niet alleen van toepassing op algemene laagopdrachten, maar ook op effen kleurlagen.
-seo-title: Opdrachten voor effen kleuren in lagen
 solution: Experience Manager
 title: Opdrachten voor effen kleuren in lagen
-uuid: 51d82a95-d940-4c62-8ea8-b8805ba16fd3
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '50'
 ht-degree: 0%
 
 ---
