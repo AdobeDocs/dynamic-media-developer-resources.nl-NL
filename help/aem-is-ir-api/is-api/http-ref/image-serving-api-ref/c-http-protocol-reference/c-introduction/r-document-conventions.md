@@ -1,16 +1,13 @@
 ---
 description: In dit document worden de volgende conventies gebruikt.
-seo-description: In dit document worden de volgende conventies gebruikt.
-seo-title: Documentconventies
 solution: Experience Manager
 title: Documentconventies
-uuid: c929774b-8560-4f8a-98fd-1b75d4419c4d
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -23,7 +20,7 @@ In dit document worden de volgende conventies gebruikt.
 <table id="simpletable_8C9DB0DA5F2B4C068794415602B768CB"> 
  <tr class="strow"> 
   <td class="stentry"> <p>letterlijk </p> </td> 
-  <td class="stentry"> <p>In syntaxissecties is niet-cursieve tekst letterlijk; dit geldt niet voor witruimte en de symbolen [ ] { } | *. </p> </td> 
+  <td class="stentry"> <p>In syntaxissecties is niet-cursieve tekst letterlijk. Deze regel is niet van toepassing op witruimte en de symbolen [ ] { } | *. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>'letterlijk' </p> </td> 
@@ -71,7 +68,7 @@ In dit document worden de volgende conventies gebruikt.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> *[  <span class="varname"> optioneel  </span>]  </span> </p> </td> 
-  <td class="stentry"> <p>Het <span class="varname"> optionele </span> syntaxiselement kan niet of meer keer worden herhaald. </p> </td> 
+  <td class="stentry"> <p>Het <span class="varname"> optionele </span> syntaxiselement kan niet of meer worden herhaald. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> item1  </span>|  <span class="varname"> post 2  </span> </span> </p> </td> 
