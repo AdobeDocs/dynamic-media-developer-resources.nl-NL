@@ -1,16 +1,13 @@
 ---
 description: In deze sectie worden de variabelen beschreven die worden gebruikt om gegevenstypen op te geven.
-seo-description: In deze sectie worden de variabelen beschreven die worden gebruikt om gegevenstypen op te geven.
-seo-title: Gegevenstypen
 solution: Experience Manager
 title: Gegevenstypen
-uuid: 66617ade-82e9-4a7e-8c65-3067b75d7a31
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '38'
 ht-degree: 0%
 
 ---
