@@ -1,16 +1,13 @@
 ---
 description: Standaardkwaliteit voor JPEG-codering. Hiermee geeft u de standaardkwaliteitsinstelling op voor antwoordafbeeldingen met JPEG-codering.
-seo-description: Standaardkwaliteit voor JPEG-codering. Hiermee geeft u de standaardkwaliteitsinstelling op voor antwoordafbeeldingen met JPEG-codering.
-seo-title: JpegQuality
 solution: Experience Manager
 title: JpegQuality
-uuid: 82dabdae-a1f3-484a-a520-ae765914d0f7
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
