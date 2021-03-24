@@ -1,16 +1,13 @@
 ---
 description: Het hoofdweergavegebied is het gebied dat wordt ingenomen door de zoomafbeelding en -stalen. Deze wordt meestal ingesteld op het beschikbare apparaatscherm wanneer geen grootte is opgegeven.
-seo-description: Het hoofdweergavegebied is het gebied dat wordt ingenomen door de zoomafbeelding en -stalen. Deze wordt meestal ingesteld op het beschikbare apparaatscherm wanneer geen grootte is opgegeven.
-seo-title: Hoofdviewergebied
 solution: Experience Manager
 title: Hoofdviewergebied
-uuid: 689116cb-bbb9-4e26-9c16-9229330c4034
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoomen
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
