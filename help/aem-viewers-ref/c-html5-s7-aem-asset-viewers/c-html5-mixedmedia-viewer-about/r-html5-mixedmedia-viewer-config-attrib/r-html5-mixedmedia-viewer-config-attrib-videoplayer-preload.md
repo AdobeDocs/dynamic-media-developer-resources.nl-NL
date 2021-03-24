@@ -1,16 +1,13 @@
 ---
 description: Geeft aan of de viewer begint met het laden van video-inhoud voordat het afspelen wordt gestart.
-seo-description: Geeft aan of de viewer begint met het laden van video-inhoud voordat het afspelen wordt gestart.
-seo-title: VideoPlayer.preload
 solution: Experience Manager
 title: VideoPlayer.preload
-uuid: 7fd801cf-8307-4b4e-a338-aa4d62b86d2f
 feature: Dynamic Media Classic,Viewers,SDK/API,Mediasets mixen
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '131'
 ht-degree: 1%
 
 ---
