@@ -1,17 +1,14 @@
 ---
 description: Parameter die alle viewers gemeen hebben.
-seo-description: Parameter die alle viewers gemeen hebben.
-seo-title: config2
 solution: Experience Manager
 title: config2
-uuid: 9b001bb8-7bae-4858-97ea-f9714a370dc8
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 8%
+source-wordcount: '44'
+ht-degree: 6%
 
 ---
 
