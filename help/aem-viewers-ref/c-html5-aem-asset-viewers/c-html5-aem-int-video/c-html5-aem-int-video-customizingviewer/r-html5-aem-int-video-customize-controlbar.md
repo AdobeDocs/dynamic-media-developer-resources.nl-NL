@@ -1,16 +1,13 @@
 ---
 description: De besturingsbalk is het rechthoekige gebied dat alle UI-besturingselementen bevat die beschikbaar zijn voor de videoviewer, zoals de knop Afspelen/Pauzeren, volumeregelingen enzovoort, en bevindt zich achter deze besturingselementen.
-seo-description: De besturingsbalk is het rechthoekige gebied dat alle UI-besturingselementen bevat die beschikbaar zijn voor de videoviewer, zoals de knop Afspelen/Pauzeren, volumeregelingen enzovoort, en bevindt zich achter deze besturingselementen.
-seo-title: Besturingsbalk
 solution: Experience Manager
 title: Besturingsbalk
-uuid: 1fa90f7d-6b26-499d-8e6c-1cd80405aec0
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
