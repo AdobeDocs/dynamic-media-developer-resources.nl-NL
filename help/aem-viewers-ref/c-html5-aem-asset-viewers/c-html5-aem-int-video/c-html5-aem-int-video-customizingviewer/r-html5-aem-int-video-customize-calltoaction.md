@@ -1,16 +1,13 @@
 ---
 description: Het deelvenster Oproepen naar actie wordt weergegeven wanneer de video wordt beëindigd en alle interactieve stalen worden weergegeven die aan de specifieke video zijn gekoppeld.
-seo-description: Het deelvenster Oproepen naar actie wordt weergegeven wanneer de video wordt beëindigd en alle interactieve stalen worden weergegeven die aan de specifieke video zijn gekoppeld.
-seo-title: Oproep tot actie
 solution: Experience Manager
 title: Oproep tot actie
-uuid: 04a042d8-7329-4f1d-b3b9-312d620b1f29
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1286'
 ht-degree: 0%
 
 ---
