@@ -1,16 +1,13 @@
 ---
 description: Bij het renderen van afbeeldingen kunt u aanvragen voor afbeeldingsservices en HTTP-verzoeken naar externe servers insluiten om materiaalafbeeldingen op te halen die worden gebruikt voor herhaalbare structuren en decals.
-seo-description: Bij het renderen van afbeeldingen kunt u aanvragen voor afbeeldingsservices en HTTP-verzoeken naar externe servers insluiten om materiaalafbeeldingen op te halen die worden gebruikt voor herhaalbare structuren en decals.
-seo-title: Nesten en insluiten aanvragen *
 solution: Experience Manager
 title: Nesten en insluiten aanvragen *
-uuid: 1884ae71-6ff5-4945-9411-a7183c32b772
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '82'
 ht-degree: 0%
 
 ---
