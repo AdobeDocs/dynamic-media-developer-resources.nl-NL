@@ -1,16 +1,13 @@
 ---
 description: Pad gegevensbestand. Relatief pad en naam voor niet-afbeeldingsgegevensbestanden die aan deze afbeelding zijn gekoppeld.
-seo-description: Pad gegevensbestand. Relatief pad en naam voor niet-afbeeldingsgegevensbestanden die aan deze afbeelding zijn gekoppeld.
-seo-title: AuxPath
 solution: Experience Manager
 title: AuxPath
-uuid: 95d28f8d-27ec-480a-a62a-7e5e8fbfb3fb
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '129'
 ht-degree: 0%
 
 ---
