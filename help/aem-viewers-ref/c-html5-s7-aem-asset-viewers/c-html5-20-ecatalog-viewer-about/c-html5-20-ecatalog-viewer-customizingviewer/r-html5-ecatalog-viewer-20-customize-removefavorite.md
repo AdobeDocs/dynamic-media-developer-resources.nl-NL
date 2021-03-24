@@ -1,16 +1,13 @@
 ---
 description: De positie van de Remove knoop van de Favoriet wordt volledig beheerd door het menu van Favorieten.
-seo-description: De positie van de Remove knoop van de Favoriet wordt volledig beheerd door het menu van Favorieten.
-seo-title: Knop Favoriet verwijderen
 solution: Experience Manager
 title: Knop Favoriet verwijderen
-uuid: c2e1929d-d859-49d5-8bdc-13507e25d02c
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
