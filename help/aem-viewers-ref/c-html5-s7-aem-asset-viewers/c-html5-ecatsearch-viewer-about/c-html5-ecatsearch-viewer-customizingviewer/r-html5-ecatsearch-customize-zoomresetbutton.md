@@ -1,16 +1,13 @@
 ---
 description: Als u op deze knop klikt of erop tikt, wordt een afbeelding in de hoofdweergave opnieuw ingesteld. Deze knop wordt weergegeven in de hoofdbesturingsbalk op desktopsystemen en tablets. Op mobiele telefoons wordt deze knop in het midden onder op de afbeelding weergegeven. De voorinstelling wordt echter niet weergegeven wanneer de afbeelding is hersteld. U kunt deze knop vergroten, verkleinen, verkleinen en plaatsen met CSS.
-seo-description: Als u op deze knop klikt of erop tikt, wordt een afbeelding in de hoofdweergave opnieuw ingesteld. Deze knop wordt weergegeven in de hoofdbesturingsbalk op desktopsystemen en tablets. Op mobiele telefoons wordt deze knop in het midden onder op de afbeelding weergegeven. De voorinstelling wordt echter niet weergegeven wanneer de afbeelding is hersteld. U kunt deze knop vergroten, verkleinen, verkleinen en plaatsen met CSS.
-seo-title: Knop Zoomen opnieuw instellen
 solution: Experience Manager
 title: Knop Zoomen opnieuw instellen
-uuid: 19ef5c77-8352-4021-a022-adec6ecbf078
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
