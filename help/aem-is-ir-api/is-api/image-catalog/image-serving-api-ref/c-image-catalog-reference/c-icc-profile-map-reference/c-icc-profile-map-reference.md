@@ -1,16 +1,13 @@
 ---
 description: Als een ICC-profielkaart is vereist voor een afbeeldingscatalogus, moet het relatieve of absolute pad van het profieltoewijzingsbestand worden opgegeven in het kenmerk IccProfileMapFile.
-seo-description: Als een ICC-profielkaart is vereist voor een afbeeldingscatalogus, moet het relatieve of absolute pad van het profieltoewijzingsbestand worden opgegeven in het kenmerk IccProfileMapFile.
-seo-title: ICC-profieltoewijzingsverwijzing
 solution: Experience Manager
 title: ICC-profieltoewijzingsverwijzing
-uuid: eee1e8d5-cf16-4e73-9b44-4ec032cf3553
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
