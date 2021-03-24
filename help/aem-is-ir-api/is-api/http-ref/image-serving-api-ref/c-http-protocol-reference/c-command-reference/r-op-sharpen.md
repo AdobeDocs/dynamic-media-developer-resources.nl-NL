@@ -1,16 +1,13 @@
 ---
 description: Afbeelding verscherpen. Past een standaard verscherpingsfilter op de laag of op het definitieve meningsbeeld toe, na al het schrapen, als layer=comp.
-seo-description: Afbeelding verscherpen. Past een standaard verscherpingsfilter op de laag of op het definitieve meningsbeeld toe, na al het schrapen, als layer=comp.
-seo-title: op_scherpen
 solution: Experience Manager
 title: op_scherpen
-uuid: 1a00c60a-0d5c-4a99-a649-f29ebd710cf3
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
