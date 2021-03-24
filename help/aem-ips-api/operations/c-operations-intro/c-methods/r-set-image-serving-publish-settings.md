@@ -1,16 +1,13 @@
 ---
 description: Alleen voor ontwikkelaars van scène 7. Raadpleeg de sectie Referentie-cataloguskenmerken van de materiaalcatalogus voor het renderen van afbeeldingen.
-seo-description: Alleen voor ontwikkelaars van scène 7. Raadpleeg de sectie Referentie-cataloguskenmerken van de materiaalcatalogus voor het renderen van afbeeldingen.
-seo-title: setImageServingPublishSettings
 solution: Experience Manager
 title: setImageServingPublishSettings
-uuid: 16fc8600-8b04-4078-abb0-201d750b28aa
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,beheerder
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '61'
 ht-degree: 0%
 
 ---
