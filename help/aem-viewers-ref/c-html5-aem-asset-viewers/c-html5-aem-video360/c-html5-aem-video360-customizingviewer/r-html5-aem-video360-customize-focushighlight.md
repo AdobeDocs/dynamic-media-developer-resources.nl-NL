@@ -1,16 +1,13 @@
 ---
 description: Focusmarkering voor invoer die wordt weergegeven rond het interface-element van de viewer die focus heeft, wordt beheerd met de CSS-klassenkiezer.
-seo-description: Focusmarkering voor invoer die wordt weergegeven rond het interface-element van de viewer die focus heeft, wordt beheerd met de CSS-klassenkiezer.
-seo-title: Focus markeren
 solution: Experience Manager
 title: Focus markeren
-uuid: 99d822b5-29ea-4229-8eb8-e3903322b7fa
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
