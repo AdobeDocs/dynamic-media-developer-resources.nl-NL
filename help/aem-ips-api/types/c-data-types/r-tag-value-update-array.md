@@ -1,16 +1,13 @@
 ---
 description: Een array met tagwaarden wordt bijgewerkt.
-seo-description: Een array met tagwaarden wordt bijgewerkt.
-seo-title: TagValueUpdateArray
 solution: Experience Manager
 title: TagValueUpdateArray
-uuid: a151f6b6-1551-4751-a0e7-0da597526eca
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,beheerder
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '40'
+source-wordcount: '33'
 ht-degree: 0%
 
 ---
