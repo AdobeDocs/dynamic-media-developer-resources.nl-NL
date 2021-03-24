@@ -1,16 +1,13 @@
 ---
 description: Pad naar gegevensbestand van catalogus. Hier geeft u het bestand op dat de materiaalgegevens voor deze catalogus bevat.
-seo-description: Pad naar gegevensbestand van catalogus. Hier geeft u het bestand op dat de materiaalgegevens voor deze catalogus bevat.
-seo-title: CatalogFile
 solution: Experience Manager
 title: CatalogFile
-uuid: 6c34e24e-4602-4dd6-b202-793d621a8995
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '68'
 ht-degree: 0%
 
 ---
