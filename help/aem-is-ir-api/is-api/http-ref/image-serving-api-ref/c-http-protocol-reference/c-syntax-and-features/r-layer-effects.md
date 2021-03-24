@@ -1,16 +1,13 @@
 ---
 description: Schaduw- en gloedeffecten in Photoshop-stijl worden geïmplementeerd met behulp van speciale sublagen (effectlagen) die aan elke laag (de bovenliggende laag) kunnen worden gekoppeld, inclusief laag=0 en layer=comp.
-seo-description: Schaduw- en gloedeffecten in Photoshop-stijl worden geïmplementeerd met behulp van speciale sublagen (effectlagen) die aan elke laag (de bovenliggende laag) kunnen worden gekoppeld, inclusief laag=0 en layer=comp.
-seo-title: Laageffecten
 solution: Experience Manager
 title: Laageffecten
-uuid: 076e98de-cbbb-457b-984a-367a935b4356
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
