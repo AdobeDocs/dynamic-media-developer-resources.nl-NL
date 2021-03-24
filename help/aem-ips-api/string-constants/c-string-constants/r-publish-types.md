@@ -1,16 +1,13 @@
 ---
 description: Wordt gebruikt door ImageServingPublishJob/publishType.
-seo-description: Wordt gebruikt door ImageServingPublishJob/publishType.
-seo-title: Publicatietypen
 solution: Experience Manager
 title: Publicatietypen
-uuid: c931c973-9b2b-4ccd-87ac-e424c61148dc
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,beheerder
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '27'
+source-wordcount: '21'
 ht-degree: 0%
 
 ---
