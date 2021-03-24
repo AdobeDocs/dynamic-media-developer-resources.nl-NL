@@ -1,16 +1,13 @@
 ---
 description: U moet Image Serving installeren alvorens u het kunt gebruiken.
-seo-description: U moet Image Serving installeren alvorens u het kunt gebruiken.
-seo-title: Installatie
 solution: Experience Manager
 title: Installatie
-uuid: 19e9599e-800b-4c22-9325-fc47b9e5e19a
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
