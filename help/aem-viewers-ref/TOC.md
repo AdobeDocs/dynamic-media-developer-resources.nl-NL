@@ -4,9 +4,9 @@ user-guide-title: Dynamic Media Viewers Reference Guide
 feature-set: Experience Manager Assets
 user-guide-description: Pas Dynamic Media-viewers aan voor gebruik op desktop- en touchscreen-apparaten. Inclusief interactieve afbeeldingen en video's, carrousels, centrifuges en nog veel meer.
 translation-type: tm+mt
-source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
+source-git-commit: 8207cba7e75c6bff878ef7f11f74b19bb88f1d61
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '1916'
 ht-degree: 1%
 
 ---
@@ -19,21 +19,22 @@ ht-degree: 1%
 + [Systeemvereisten](c-system-requirements-and-prerequisites.md)
 + [Meerdere viewers op dezelfde server installeren](t-installing-the-viewers.md)
 + Opmerkingen bij de release van viewers {#viewers-release-notes}
+   + [Opmerkingen bij de release van viewers (5.16.1)](c-release-notes/c-rn-04-06-21.md)
    + [Opmerkingen bij de release van viewers (5.15.3)](c-release-notes/c-rn-01-13-21.md)
    + Archiveren {#archive}
       + [Archief met opmerkingen vrijgeven](c-release-notes/c-archive/c-archive.md)
-      + [Opmerkingen bij de release van viewers (5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
-      + [Opmerkingen bij de release van viewers (5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
-      + [Opmerkingen bij de release van viewers (5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
-      + [Opmerkingen bij de release van viewers (5.10.1)](c-release-notes/c-archive/c-rn-07-17-18.md)
-      + [Opmerkingen bij de release van Viewers 5.8.2](c-release-notes/c-archive/c-rn-09-18-17.md)
-      + [Opmerkingen bij de release van viewers 5.5.2](c-release-notes/c-archive/c-rn-10-13-16.md)
-      + [Opmerkingen bij de release van Viewers 5.4.2](c-release-notes/c-archive/c-rn-05-03-16.md)
-      + [Opmerkingen bij de release van Viewers 5.2.3](c-release-notes/c-archive/c-rn-05-20-15.md)
-      + [Opmerkingen bij de release van Viewers 5.2.2](c-release-notes/c-archive/c-rn-04-30-15.md)
-      + [Opmerkingen bij de release van Viewers 5.1.1](c-release-notes/c-archive/c-rn-09-19-14.md)
-      + [Opmerkingen bij de release van Viewers 5.0.1](c-release-notes/c-archive/c-rn-04-29-14.md)
-      + [Opmerkingen bij de release van Viewers 4.9.2](c-release-notes/c-archive/c-rn-09-18-13.md)
+         + [Opmerkingen bij de release van viewers (5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
+         + [Opmerkingen bij de release van viewers (5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
+         + [Opmerkingen bij de release van viewers (5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
+         + [Opmerkingen bij de release van viewers (5.10.1)](c-release-notes/c-archive/c-rn-07-17-18.md)
+         + [Opmerkingen bij de release van viewers (5.8.2)](c-release-notes/c-archive/c-rn-09-18-17.md)
+         + [Opmerkingen bij de release van viewers (5.5.2)](c-release-notes/c-archive/c-rn-10-13-16.md)
+         + [Opmerkingen bij de release van viewers (5.4.2)](c-release-notes/c-archive/c-rn-05-03-16.md)
+         + [Opmerkingen bij de release van viewers (5.2.3)](c-release-notes/c-archive/c-rn-05-20-15.md)
+         + [Opmerkingen bij de release van viewers (5.2.2)](c-release-notes/c-archive/c-rn-04-30-15.md)
+         + [Opmerkingen bij de release van viewers (5.1.1)](c-release-notes/c-archive/c-rn-09-19-14.md)
+         + [Opmerkingen bij de release van viewers (5.0.1)](c-release-notes/c-archive/c-rn-04-29-14.md)
+         + [Opmerkingen bij de release van viewers (4.9.2)](c-release-notes/c-archive/c-rn-09-18-13.md)
 + [Compatibiliteitsnotities](c-compatibility-notes.md)
 + [Toetsenbordtoegankelijkheid en -navigatie](c-keyboard-accessibility.md)
 + [Zelfstudie voor viewer-SDK](c-tutorial.md)
