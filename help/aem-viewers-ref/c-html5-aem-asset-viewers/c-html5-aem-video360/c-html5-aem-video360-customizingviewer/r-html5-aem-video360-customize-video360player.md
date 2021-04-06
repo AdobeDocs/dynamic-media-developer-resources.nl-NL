@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Video360-speler
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
 role: Ontwikkelaar,zakelijke praktiserer
+exl-id: 54ccf872-2d24-4d3f-9808-6d0e2558f5a5
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%
 
 ---
-
 
 # Video360-speler{#video-player}
 
@@ -102,4 +102,3 @@ Voorbeeld - als u een bufferanimatie wilt instellen op 101 pixels breed en 29 pi
  background-image: url(images/sdk/busyicon.gif); 
 }
 ```
-
