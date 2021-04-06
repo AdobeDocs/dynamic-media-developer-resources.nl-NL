@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Knopinfo
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
 role: Ontwikkelaar,zakelijke praktiserer
+exl-id: 430809d8-3d51-49b7-b6bf-c3c3c77501ff
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
 
 ---
-
 
 # Knopinfo{#tooltips}
 
@@ -80,4 +80,3 @@ Als u knopinfo wilt instellen met een grijze rand met een straal van drie pixels
  font-size: 11px; 
 }
 ```
-
