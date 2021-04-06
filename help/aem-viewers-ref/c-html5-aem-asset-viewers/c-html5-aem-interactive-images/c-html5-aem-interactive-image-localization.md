@@ -3,14 +3,14 @@ description: Bepaalde inhoud die in de Interactive Image Viewer wordt weergegeve
 title: Lokalisatie van gebruikersinterface-elementen
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve afbeeldingen
 role: Ontwikkelaar,zakelijke praktiserer
+exl-id: 19749c74-5c31-4dcf-ab07-0e7f10176a86
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 0%
 
 ---
-
 
 # Lokalisatie van gebruikersinterface-elementen{#localization-of-user-interface-elements}
 
@@ -64,4 +64,3 @@ De volgende SYMBOL&#39;s worden ondersteund:
   </tr> 
  </tbody> 
 </table>
-
