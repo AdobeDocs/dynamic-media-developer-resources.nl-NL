@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Delen van koppeling
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
 role: Ontwikkelaar,zakelijke praktiserer
+exl-id: 9eb2ef38-9b86-4c60-90a2-6609cb3fcc39
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 0%
 
 ---
-
 
 # Delen van koppeling{#link-share}
 
@@ -713,4 +713,3 @@ De koppeling voor delen zelf wordt beheerd met de volgende CSS-klassenkiezer:
     width: 450px; 
 }
 ```
-
