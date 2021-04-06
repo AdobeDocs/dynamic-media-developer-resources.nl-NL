@@ -4,14 +4,14 @@ solution: Experience Manager
 title: VideoScrubber.timepattern
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
 role: Ontwikkelaar,zakelijke praktiserer
+exl-id: d39ddf38-9157-412a-83a4-c1af4944a904
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%
 
 ---
-
 
 # VideoScrubber.timepattern{#videoscrubber-timepattern}
 
@@ -41,4 +41,3 @@ Optioneel.
 ```
 timepattern=h:mm:ss
 ```
-
