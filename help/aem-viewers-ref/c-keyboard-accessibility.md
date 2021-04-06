@@ -5,13 +5,12 @@ title: Toetsenbordtoegankelijkheid en -navigatie
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: 8207cba7e75c6bff878ef7f11f74b19bb88f1d61
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
-
 
 # Toetsenbordtoegankelijkheid en navigatie{#keyboard-accessibility-and-navigation}
 
@@ -25,9 +24,9 @@ Alle functies die beschikbaar worden gesteld in de viewerinterface Standaardzoom
 
 Een eindgebruiker kan met behulp van **[!UICONTROL Tab]**- en **[!UICONTROL Shift+Tab]**-toetsaanslagen navigeren tussen gebruikersinterface-elementen van de viewer. Wanneer u **[!UICONTROL Tab]** gebruikt, wordt de invoerfocus naar het volgende interface-element in de tabvolgorde verplaatst. wanneer u **[!UICONTROL Shift+Tab]** gebruikt, krijgt het vorige gebruikersinterface-element weer focus. Het focustraversal volgt de natuurlijke locatie van het interface-element op het scherm en beweegt van links naar rechts en vervolgens van boven naar beneden.
 
-Afhankelijk van het besturingssysteem en de instellingen van de webbrowser kan het interface-element met invoerfocus een visuele focusindicatie krijgen. De visuele indicator kan bijvoorbeeld een dunne rand zijn die rondom het interface-element wordt weergegeven.
+Afhankelijk van het besturingssysteem en de instellingen van de webbrowser ontvangt het interface-element met invoerfocus een visuele focusindicatie. De visuele indicator kan bijvoorbeeld een dunne rand zijn die rondom het interface-element wordt weergegeven.
 
-Het is mogelijk een dergelijke focusmarkering uit te schakelen of aan te passen in de CSS van de viewer. Klik in de inhoudsopgave van dit Help-systeem onder een specifieke viewernaam (bijvoorbeeld Standaard zoomen of Interactieve video) op **Naam van viewer *Naam van viewer*** >** Focusmarkering **.
+Het is mogelijk een dergelijke focusmarkering uit te schakelen of aan te passen in de CSS van de viewer. Klik in de inhoudsopgave van dit Help-systeem onder een specifieke viewernaam (bijvoorbeeld Standaard zoomen of Interactieve video) op **Naam van viewer *aanpassen >**Focusmarkering **.***
 
 Toetsen die door afzonderlijke gebruikersinterface-elementen van de viewer worden ondersteund, zijn meestal duidelijk en gemakkelijk te vinden.
 
@@ -96,7 +95,7 @@ Toetsen die door afzonderlijke gebruikersinterface-elementen van de viewer worde
    <td colname="col2"> <p>Pijl-links of Pijl-rechts. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Carrousel, selectie van hotspots en activering van hotspots </p> </td> 
+   <td colname="col1"> <p>Carrousel, hotspot selectie en hotspot activering </p> </td> 
    <td colname="col2"> <p>Selectie hotspot: pijl-omhoog, pijl-omlaag, pijl-links of pijl-rechts </p> <p>Hotspot activeren: Spatiebalk of Enter. </p> </td> 
   </tr> 
   <tr> 
@@ -133,4 +132,3 @@ Toetsen die door afzonderlijke gebruikersinterface-elementen van de viewer worde
   </tr> 
  </tbody> 
 </table>
-
