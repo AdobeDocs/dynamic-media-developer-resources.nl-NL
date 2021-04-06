@@ -5,14 +5,14 @@ solution: Experience Manager
 title: Carousel Viewer aanpassen
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Ontwikkelaar,zakelijke praktiserer
+exl-id: f392d830-5c75-45dd-bab8-29a38218790d
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '1347'
 ht-degree: 0%
 
 ---
-
 
 # Carousel-viewer aanpassen{#customizing-carousel-viewer}
 
@@ -42,7 +42,7 @@ Houd er bij het maken van aangepaste CSS rekening mee dat de viewer de klasse `.
 
 ## Responsieve ontworpen CSS maken {#section-0bb49aca42d242d9b01879d5ba59d33b}
 
-Het is mogelijk om verschillende apparaten en insluitingsgrootten in CSS als doel in te stellen om de weergave van uw inhoud te wijzigen, afhankelijk van het apparaat van de gebruiker of een bepaalde webpaginalay-out. Dit omvat onder andere, maar is niet beperkt tot, verschillende lay-outs, de grootte van gebruikersinterface-elementen en de resolutie van illustraties.
+Het is mogelijk om verschillende apparaten en insluitingsgrootten in CSS als doel in te stellen om de weergave van uw inhoud anders te maken, afhankelijk van het apparaat van de gebruiker of een bepaalde webpaginalay-out. Dit omvat onder andere, maar is niet beperkt tot, verschillende lay-outs, de grootte van gebruikersinterface-elementen en de resolutie van illustraties.
 
 De viewer ondersteunt twee mechanismen voor het maken van responsieve, ontworpen CSS: CSS-markeringen en standaard CSS-mediaquery&#39;s. U kunt deze onafhankelijk of samen gebruiken.
 
