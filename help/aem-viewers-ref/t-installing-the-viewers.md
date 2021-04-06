@@ -4,18 +4,18 @@ description: Instructies voor het installeren van de Dynamic Media Viewers API.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
+exl-id: 7a8d7205-d3bf-4ca8-b80a-9072436a3df5
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: 8207cba7e75c6bff878ef7f11f74b19bb88f1d61
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '170'
 ht-degree: 1%
 
 ---
 
-
 # Meerdere viewers op dezelfde server installeren{#installing-multiple-viewers-on-the-same-server}
 
-<!-- Updated January 13, 2021 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
+<!-- Updated April 06, 2021 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
 Instructies voor het installeren van de API voor Dynamic Media-viewers.
 
@@ -27,7 +27,7 @@ Kopieer de bestanden voor IS-viewers naar de vaste schijf en implementeer het be
 >
 >Er is geen upgrade-installatie voor de viewers van Image Serving. Adobe raadt u aan een back-up te maken van een bestaande map voor Dynamic Media-viewers (s7viewers) voordat u verdergaat met de installatie.
 
-**Meerdere viewers op dezelfde server installeren**
+**Meerdere viewers op dezelfde server installeren:**
 
 1. Wijzig de naam van de viewer .war in de gewenste context en stel het bestand in op de gewenste locatie.
 1. Stel de parameter `this.isViewerRoot` in `config.js` in.
