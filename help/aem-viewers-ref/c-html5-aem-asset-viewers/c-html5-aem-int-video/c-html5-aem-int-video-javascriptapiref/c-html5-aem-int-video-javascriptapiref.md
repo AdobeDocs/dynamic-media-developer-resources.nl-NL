@@ -4,14 +4,14 @@ solution: Experience Manager
 title: JavaScript API-referentie voor Interactive Video Viewer
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
 role: Ontwikkelaar,zakelijke praktiserer
+exl-id: 3b1f5150-c696-4989-9914-09549f838b4a
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
 
 ---
-
 
 # JavaScript API-referentie voor Interactive Video Viewer{#javascript-api-reference-for-interactive-image-viewer}
 
