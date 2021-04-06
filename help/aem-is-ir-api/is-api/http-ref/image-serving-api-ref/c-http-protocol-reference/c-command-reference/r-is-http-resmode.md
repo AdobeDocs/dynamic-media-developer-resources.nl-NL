@@ -4,14 +4,14 @@ solution: Experience Manager
 title: resMode
 feature: Dynamic Media Classic, SDK/API
 role: Ontwikkelaar,zakelijke praktiserer
+exl-id: 63c1c028-0378-4a38-8018-e358491786d8
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b08d1f5b0aa512be4a6e6a4d45d8d4dec15ca1db
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
-
 
 # resMode{#resmode}
 
@@ -23,15 +23,15 @@ Modus Nieuwe pixels berekenen. Kies het algoritme voor resampling en/of interpol
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bilin  </span> </p> </td> 
-   <td colname="col2"> <p>Hiermee selecteert u de standaard bi-lineaire interpolatie. Snelste methode voor het berekenen van nieuwe monsters; sommige aliasingartefacten kunnen waarneembaar zijn. </p> </td> 
+   <td colname="col2"> <p>Hiermee selecteert u de standaard bi-lineaire interpolatie. Snelste methode voor het berekenen van nieuwe monsters; er zijn enkele aliasingartefacten waarneembaar . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bicub  </span> </p> </td> 
-   <td colname="col2"> <p>Selecteert bi-cubische interpolatie. Meer CPU-intensief dan bi-lineaire interpolatie, maar levert scherpere beelden op met minder merkbare aliasing-artefacten. </p> </td> 
+   <td colname="col2"> <p>Selecteert bi-cubische interpolatie. Meer CPU-intensief dan bi-lineaire interpolatie, maar geeft scherpere beelden met minder merkbare aliasing artefacten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> sharp2  </span> </p> </td> 
-   <td colname="col2"> <p>Selecteert een gewijzigde functie van het Venster Lanczos als interpolatiealgoritme. Dit levert mogelijk iets scherpere resultaten op dan bi-cubisch tegen hogere CPU-kosten. <span class="codeph"> scherp  </span> is vervangen door  <span class="codeph"> shark2  </span>, waardoor het minder waarschijnlijk is dat aliasing artefacten (Moiré) wordt veroorzaakt. </p> </td> 
+   <td colname="col2"> <p>Selecteert een gewijzigde functie van het Venster Lanczos als interpolatiealgoritme. Dit levert iets scherpere resultaten op dan bi-cubisch tegen hogere CPU-kosten. <span class="codeph"> scherp  </span> is vervangen door  <span class="codeph"> shark2  </span>, waardoor het minder waarschijnlijk is dat aliasing artefacten (Moiré) wordt veroorzaakt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bisharp  </span> </p> </td> 
@@ -39,6 +39,12 @@ Modus Nieuwe pixels berekenen. Kies het algoritme voor resampling en/of interpol
   </tr> 
  </tbody> 
 </table>
+
+>[!IMPORTANT]
+>
+>Als u de hoogte-breedteverhouding van een afbeelding wilt behouden wanneer u zowel `resMode=bisharp` als `fit=stretch` gebruikt, kunt u het beste de parameter width of de parameter height gebruiken. Als beide parameters moeten worden gedefinieerd, kunt u ze in een andere laag plaatsen, zoals in het volgende voorbeeld wordt getoond:
+>
+>`/is/image/is/image/companyname?layer=0&src=is(companyname/imagename?wid=30&hei=30&fit=stretch)&resmode=bisharp`
 
 ## Eigenschappen {#section-a171bacf4ddf43c782e46b86a16d443e}
 
@@ -50,7 +56,7 @@ Request-kenmerk. Is van toepassing op alle schaalbewerkingen die nodig zijn voor
 
 ## Voorbeeld {#section-ee8c3e5a2e3845fe81de5073a8ab7efe}
 
-Hiermee wordt een kwalitatief hoogstaande uitvoering opgehaald van een gelaagde afbeelding die in een afbeeldingscatalogus is opgeslagen. De afbeelding kan tekst bevatten. We verwachten dat u verder gaat met het bewerken van afbeeldingen en dus een alfakanaal bij de afbeelding aanvraagt.
+Hiermee wordt een kwalitatief hoogstaande uitvoering opgehaald van een gelaagde afbeelding die in een afbeeldingscatalogus is opgeslagen. De afbeelding kan tekst bevatten. De afbeelding wordt verder verwerkt in een beeldbewerkingstoepassing en vraagt dus om een alfakanaal met de afbeelding.
 
 ` http:// *`server`*/myLayeredImage?fmt=tif-alpha,,lzw&resMode=sharp2&wid=1800`
 
