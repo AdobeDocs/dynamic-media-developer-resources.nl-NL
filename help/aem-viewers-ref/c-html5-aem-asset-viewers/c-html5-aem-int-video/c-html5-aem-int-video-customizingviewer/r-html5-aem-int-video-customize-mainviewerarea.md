@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Hoofdviewergebied
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
 role: Ontwikkelaar,zakelijke praktiserer
+exl-id: 8e5a44fa-422f-46f3-bd85-86bd2ce03899
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 0%
 
 ---
-
 
 # Hoofdviewergebied{#main-viewer-area}
 
@@ -61,4 +61,3 @@ Een viewer instellen met een witte achtergrond ( `#FFFFFF`) en de grootte ervan 
  height: 288px;  
 }
 ```
-
