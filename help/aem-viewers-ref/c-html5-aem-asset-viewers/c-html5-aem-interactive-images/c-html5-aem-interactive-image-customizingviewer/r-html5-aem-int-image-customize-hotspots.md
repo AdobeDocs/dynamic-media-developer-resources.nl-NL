@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Hotspots
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve afbeeldingen
 role: Ontwikkelaar,zakelijke praktiserer
+exl-id: ec1d9a91-e189-470a-abe2-4f33686905e7
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
 
 ---
-
 
 # Hotspots{#hotspots}
 
@@ -66,4 +66,3 @@ Voorbeeld - stel een hotspot-pictogram in van 56 x 56 pixels waarmee een andere 
  background-image: url(images/v2/imagemap/ImageMapEffect_icon1_light_over_touch.png); 
 }
 ```
-
