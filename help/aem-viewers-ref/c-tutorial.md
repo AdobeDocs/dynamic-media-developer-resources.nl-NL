@@ -3,7 +3,7 @@ description: De Viewer SDK bevat een set JavaScript-componenten voor de ontwikke
 solution: Experience Manager
 title: Zelfstudie voor viewer-SDK
 feature: Dynamic Media Classic,Viewers,SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Gebruik deze procedure bij het upgraden van Dynamic Media Image Serving op Linux.
 solution: Experience Manager
 title: Bijwerken vanaf IS 4.7.4 of hoger
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

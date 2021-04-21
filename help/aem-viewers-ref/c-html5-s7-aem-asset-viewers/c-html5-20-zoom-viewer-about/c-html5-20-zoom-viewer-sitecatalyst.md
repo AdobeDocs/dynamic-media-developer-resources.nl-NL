@@ -2,8 +2,8 @@
 description: Ondersteuning voor Adobe Analytics-tracking
 solution: Experience Manager
 title: Ondersteuning voor Adobe Analytics-tracking
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoomen
-role: Ontwikkelaar, Business Practice, Data Engineer, Data Architect
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+role: Developer,Business Practitioner,Data Engineer,Data Architect
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

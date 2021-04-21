@@ -3,7 +3,7 @@ description: Viewer SDK-naamruimte
 solution: Experience Manager
 title: Viewer SDK-naamruimte
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
-role: Ontwikkelaar,zakelijke praktiserer
+role: Developer,Business Practitioner
 exl-id: 1712f08c-70e6-483e-a4e5-614448f35374
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

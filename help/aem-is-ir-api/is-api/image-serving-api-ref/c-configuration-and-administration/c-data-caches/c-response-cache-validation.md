@@ -2,8 +2,8 @@
 description: De ingangen van het geheime voorgeheugen worden automatisch verfrist gebruikend of op catalogus-gebaseerde of op afloop-gebaseerde geheim voorgeheugenbevestiging, zoals geselecteerd met attribuut CacheValidationPolicy (in default.ini of het .ini dossier van een specifieke beeldcatalogus).
 solution: Experience Manager
 title: Validatie van responscache
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,beheerder,praktijkgericht
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

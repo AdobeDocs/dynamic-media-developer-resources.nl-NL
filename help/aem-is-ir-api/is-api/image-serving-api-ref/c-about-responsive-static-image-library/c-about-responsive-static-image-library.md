@@ -2,8 +2,8 @@
 description: Responsieve afbeeldingsbibliotheek is een JavaScript-module waarmee de kwaliteit van afbeeldingen die vanuit Dynamic Media worden aangeboden en die worden ingesloten in responsieve webpagina's, dynamisch wordt aangepast. Bovendien biedt de klasse een verbeterde beeldkwaliteit op apparaten met schermen met hoge dichtheid. De bibliotheek kan ook responsief resultaten renderen van Slim uitsnijden en Slim staal.
 solution: Experience Manager
 title: De bibliotheek met responsieve afbeeldingen
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

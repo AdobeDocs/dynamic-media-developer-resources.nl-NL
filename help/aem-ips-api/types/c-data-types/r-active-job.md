@@ -2,8 +2,8 @@
 description: Een taak die op een server wordt uitgevoerd. Het is ook een instantie van een geplande taak.
 solution: Experience Manager
 title: ActiveJob
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,beheerder
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

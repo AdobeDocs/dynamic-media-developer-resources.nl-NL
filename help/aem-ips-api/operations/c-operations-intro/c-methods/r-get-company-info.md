@@ -2,8 +2,8 @@
 description: Hiermee wordt informatie over het opgegeven bedrijf geretourneerd, inclusief de greep van het bedrijf, de naam van het bedrijf, het hoofdpad en de vervaldatum. U moet of companyHandle of companyName specificeren waarvan informatie u wilt terugwinnen.
 solution: Experience Manager
 title: getCompanyInfo
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,beheerder
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

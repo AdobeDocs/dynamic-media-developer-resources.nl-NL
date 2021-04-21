@@ -2,8 +2,8 @@
 description: Als u op deze knop klikt of erop tikt, wordt de bijbehorende webpagina gesloten. Deze knop wordt alleen weergegeven als de parameter closeButton is ingesteld op 1. U kunt deze knop vergroten, verkleinen, verkleinen en plaatsen met CSS.
 solution: Experience Manager
 title: Knop Sluiten
-feature: Dynamic Media Classic,Viewers,SDK/API,Mediasets mixen
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: Als u op de knop Volgende dia klikt of erop tikt, wordt de gebruike
 solution: Experience Manager
 title: Volgende dia
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
-role: Ontwikkelaar,zakelijke praktiserer
+role: Developer,Business Practitioner
 exl-id: c64889bb-bcbe-49c6-a0be-b4013ead7b90
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

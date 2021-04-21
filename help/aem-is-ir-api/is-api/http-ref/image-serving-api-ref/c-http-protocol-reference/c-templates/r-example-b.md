@@ -2,8 +2,8 @@
 description: Vergelijkbare vereisten als Voorbeeld A, maar gebruik een achtergrond met een effen kleur en laat de hoogte van de samenstelling variëren, om afbeeldingen met verschillende hoogte-breedteverhoudingen te kunnen gebruiken.
 solution: Experience Manager
 title: Voorbeeld B
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

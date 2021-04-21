@@ -2,8 +2,8 @@
 description: Herhalbare structuren omvatten materialen van binnen- en buitenkant, zoals weefsels (zowel kleding als bekleding), vloer-wandbekledingen, wandpapier, tegenwerpmaterialen, houten korrelstructuren, dakbedekking en lijfmaterialen, en alle andere generieke structuren.
 solution: Experience Manager
 title: Herhaalbare structuren
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

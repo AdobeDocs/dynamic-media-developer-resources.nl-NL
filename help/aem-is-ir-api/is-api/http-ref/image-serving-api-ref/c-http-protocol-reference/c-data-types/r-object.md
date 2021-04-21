@@ -2,8 +2,8 @@
 description: Source Object Specifier. Afbeeldings-, SVG- en ICC-profielobjecten kunnen worden opgegeven als afbeeldingscatalogus-items of relatieve bestandspaden
 solution: Experience Manager
 title: object
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

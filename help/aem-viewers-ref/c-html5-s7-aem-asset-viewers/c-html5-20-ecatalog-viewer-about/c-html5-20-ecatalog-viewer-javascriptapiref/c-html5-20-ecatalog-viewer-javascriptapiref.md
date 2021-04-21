@@ -3,7 +3,7 @@ description: De hoofdklasse van de eCatalog Viewer is eCatalogViewer. Deze wordt
 solution: Experience Manager
 title: JavaScript API-referentie voor eCatalog Viewer
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Ontwikkelaar,zakelijke praktiserer
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

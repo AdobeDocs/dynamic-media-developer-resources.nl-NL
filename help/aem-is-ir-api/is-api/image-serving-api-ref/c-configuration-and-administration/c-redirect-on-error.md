@@ -2,8 +2,8 @@
 description: IS servers kunnen worden gevormd om over te slaan aan afwisselende servers voor verzoeken die een bronbeeld impliceren dat niet kan worden geopend of met succes kunnen worden gelezen.
 solution: Experience Manager
 title: Omleiden bij fout
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,beheerder,praktijkgericht
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

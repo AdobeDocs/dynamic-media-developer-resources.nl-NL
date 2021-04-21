@@ -2,8 +2,8 @@
 description: Controleert op IPS ID-conflicten door elementnamen te vergelijken met alle namen in de naamruimte van de catalogus Afbeelding weergeven/Afbeelding renderen van een bedrijf.
 solution: Experience Manager
 title: checkAssetNames
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,beheerder
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

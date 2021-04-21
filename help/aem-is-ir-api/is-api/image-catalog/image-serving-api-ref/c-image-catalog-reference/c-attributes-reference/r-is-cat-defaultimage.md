@@ -2,8 +2,8 @@
 description: Standaardreactieafbeelding. Hier geeft u de afbeelding of het item in de catalogus op die moet worden gebruikt als er geen afbeeldingsbestand kan worden gevonden en defaultImage= niet is opgegeven in de aanvraag.
 solution: Experience Manager
 title: DefaultImage
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

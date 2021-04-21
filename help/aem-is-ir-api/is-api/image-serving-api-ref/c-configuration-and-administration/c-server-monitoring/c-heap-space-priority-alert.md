@@ -2,8 +2,8 @@
 description: Er wordt een prioriteitswaarschuwing verzonden wanneer de gratis Java-heapruimte zich direct na een Java-opschooncyclus onder de opgegeven drempel bevindt.
 solution: Experience Manager
 title: Prioriteitswaarschuwing voor heapruimte
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,beheerder,praktijkgericht
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -4,7 +4,7 @@ keywords: responsief
 solution: Experience Manager
 title: Carousel Viewer aanpassen
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
-role: Ontwikkelaar,zakelijke praktiserer
+role: Developer,Business Practitioner
 exl-id: f392d830-5c75-45dd-bab8-29a38218790d
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

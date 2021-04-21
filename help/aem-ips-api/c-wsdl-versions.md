@@ -2,8 +2,8 @@
 description: De IPS Dienst van het Web wordt gesteund door een reeks documenten van WSDL (de Taal van de Beschrijving van de Diensten van het Web) die van om het even welke IPS installatie worden betreden waarop de IPS component van de Dienst van het Web geïnstalleerd is. Elke IPS API-release bevat een nieuw WSDL-bestand dat verwijst naar een versioned doel-XML-naamruimte. Eerdere WSDL-naamruimteversies worden ook ondersteund voor achterwaartse compatibiliteit met bestaande toepassingen.
 solution: Experience Manager
 title: IPS Web Service WSDL-versies
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,beheerder
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

@@ -3,8 +3,8 @@ description: De gemengde Kijker van Media is een media kijker. De klasse biedt o
 keywords: responsief
 solution: Experience Manager
 title: Gemengde media
-feature: Dynamic Media Classic,Viewers,SDK/API,Mediasets mixen
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

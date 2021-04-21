@@ -2,8 +2,8 @@
 description: Een naam-waarde paar dat informatie over een stap van de activageneratie bevat. Zie getGenerationInfo.
 solution: Experience Manager
 title: GenerationAttribute
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,beheerder
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

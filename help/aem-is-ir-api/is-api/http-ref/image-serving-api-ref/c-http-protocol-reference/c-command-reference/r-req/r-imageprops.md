@@ -2,8 +2,8 @@
 description: Eigenschappen van bronafbeelding. Hiermee worden de geselecteerde eigenschappen geretourneerd van het afbeeldingsbestand of het catalogusitem dat is opgegeven in het URL-pad.
 solution: Experience Manager
 title: imageprops
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

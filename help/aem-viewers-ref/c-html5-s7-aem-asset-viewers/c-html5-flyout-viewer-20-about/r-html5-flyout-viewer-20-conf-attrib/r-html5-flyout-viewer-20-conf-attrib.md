@@ -3,7 +3,7 @@ description: Documentatie over configuratiekenmerken voor de Flyout-viewer
 solution: Experience Manager
 title: Command reference - Configuration attributes
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
-role: Ontwikkelaar,zakelijke praktiserer
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

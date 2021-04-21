@@ -2,8 +2,8 @@
 description: Hiermee maskeert u een deel van een afbeelding. Het masker is altijd gekoppeld aan de afbeelding. Haal een masker op uit ImageInfo.
 solution: Experience Manager
 title: Masker
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,beheerder
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

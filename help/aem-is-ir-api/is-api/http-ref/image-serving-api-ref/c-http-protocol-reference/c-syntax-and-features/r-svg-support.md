@@ -2,8 +2,8 @@
 description: De server van het beeld steunt Scalable VectorGrafieken (SVG) dossiers als brongegevens. Conformiteit met SVG 1.1 is vereist.
 solution: Experience Manager
 title: SVG-ondersteuning
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

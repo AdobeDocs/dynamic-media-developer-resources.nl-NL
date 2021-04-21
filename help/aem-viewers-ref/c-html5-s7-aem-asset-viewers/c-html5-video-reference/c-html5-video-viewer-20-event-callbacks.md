@@ -3,7 +3,7 @@ description: Gebeurteniscallbacks
 solution: Experience Manager
 title: Gebeurteniscallbacks
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Ontwikkelaar,zakelijke praktiserer
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

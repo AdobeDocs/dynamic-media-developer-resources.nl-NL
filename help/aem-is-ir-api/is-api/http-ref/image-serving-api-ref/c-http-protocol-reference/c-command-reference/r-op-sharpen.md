@@ -2,8 +2,8 @@
 description: Afbeelding verscherpen. Past een standaard verscherpingsfilter op de laag of op het definitieve meningsbeeld toe, na al het schrapen, als layer=comp.
 solution: Experience Manager
 title: op_scherpen
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

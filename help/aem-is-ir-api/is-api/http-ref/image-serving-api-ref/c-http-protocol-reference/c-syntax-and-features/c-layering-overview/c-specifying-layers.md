@@ -2,8 +2,8 @@
 description: In de URL of de opeenvolging van het Bevel van de Wijzigingsbevel van de catalogus, begint een opeenvolging van de laagdefinitie met laag= bevel en eindigt met een ander layer= bevel, een effect= bevel, of het eind van URL.
 solution: Experience Manager
 title: Lagen opgeven
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

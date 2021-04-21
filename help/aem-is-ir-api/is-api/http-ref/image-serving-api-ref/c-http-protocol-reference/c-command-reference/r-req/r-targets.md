@@ -2,8 +2,8 @@
 description: Zoomen is gericht op gegevens uit afbeeldingscatalogus. Hiermee worden zoomdoelgegevens geretourneerd voor het item van de afbeeldingscatalogus dat is opgegeven in het URL-pad.
 solution: Experience Manager
 title: streefdoelen
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

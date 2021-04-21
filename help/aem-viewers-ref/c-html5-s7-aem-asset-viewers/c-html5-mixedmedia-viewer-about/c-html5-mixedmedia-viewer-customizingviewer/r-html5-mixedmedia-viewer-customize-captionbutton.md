@@ -2,8 +2,8 @@
 description: Hiermee schakelt u de weergave van het gesloten bijschrift in of uit. De eigenschap is niet zichtbaar als de parameter caption niet is opgegeven. U kunt CSS gebruiken aan grootte, huid, en positie deze knoop met betrekking tot de controlebar die het bevat.
 solution: Experience Manager
 title: Knop Bijschrift
-feature: Dynamic Media Classic,Viewers,SDK/API,Mediasets mixen
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

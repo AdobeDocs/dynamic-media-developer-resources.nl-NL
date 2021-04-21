@@ -2,8 +2,8 @@
 description: Standaardlettertypenaam. Geeft aan welk lettertype moet worden gebruikt als een aanvraag voor text= geen lettertype bevat.
 solution: Experience Manager
 title: DefaultFont
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

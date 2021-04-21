@@ -2,8 +2,8 @@
 description: Hiermee kunnen beheerders nieuwe metagegevensvelden maken voor coördinatie met contentbeheersystemen of voor sjabloonbewerkingen. Voorbeelden van gemaakte metagegevensvelden zijn trefwoorden, informatie over de auteur van de afbeelding of informatie over de copyrighthouder.
 solution: Experience Manager
 title: createMetadataField
-feature: Dynamic Media Classic,SDK/API,metagegevens
-role: Ontwikkelaar,beheerder
+feature: Dynamic Media Classic,SDK/API,Metadata
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

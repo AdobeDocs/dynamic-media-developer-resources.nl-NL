@@ -2,8 +2,8 @@
 description: Haalt een type eigenschapset op met een greep naar een bedrijf en de naam van het type eigenschapset. Het krijgt een typestructuur met de handvatten aan het type evenals het bezitstype.
 solution: Experience Manager
 title: getPropertySetType
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,beheerder
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

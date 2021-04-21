@@ -2,8 +2,8 @@
 description: Schakel laatst gewijzigde reactiekoppen in. Schakelt het opnemen van de header met laatste wijziging in of uit in cacheable HTTP responses die worden gegenereerd door Afbeelding renderen.
 solution: Experience Manager
 title: UseLastModified
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

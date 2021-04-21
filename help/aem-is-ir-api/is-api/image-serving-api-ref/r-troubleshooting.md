@@ -2,8 +2,8 @@
 description: Deze sectie bevat oplossingen voor problemen die af en toe met het Serven van het Beeld zijn voorgekomen.
 solution: Experience Manager
 title: Problemen oplossen
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

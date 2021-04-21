@@ -2,8 +2,8 @@
 description: Standaardantwoordafbeelding. Hiermee geeft u de afbeelding of het item in de catalogus op die moet worden gebruikt wanneer een afbeelding niet kan worden gevonden.
 solution: Experience Manager
 title: defaultImage
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: Hiermee voegt u een of meer elementen aan een project toe.
 solution: Experience Manager
 title: addProjectAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Ontwikkelaar,beheerder
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Configuration attribute for Interactive Video Viewer.
 solution: Experience Manager
 title: SocialShare.bearing
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: f34d6954-01c5-49e0-94d4-fd577c57956e
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

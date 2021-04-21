@@ -2,8 +2,8 @@
 description: Naast het rangschikken (grootte=) en het plaatsen (pos=) lagen met betrekking tot laag 0 en het specificeren van de samenstellende orde (z-orde) met laag= bevel, kunnen de lagen worden geroteerd (roteren=) en worden gespiegeld (draaien=).
 solution: Experience Manager
 title: Laagbewerkingen
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

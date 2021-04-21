@@ -2,8 +2,8 @@
 description: Sjablonen kunnen worden gebruikt om de lengte en complexiteit te verminderen van aanvragen die meerdere afbeeldingslagen samenstellen of die tekst met RTF-indeling bevatten.
 solution: Experience Manager
 title: Sjablonen
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

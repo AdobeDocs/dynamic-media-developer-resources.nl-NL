@@ -2,8 +2,8 @@
 description: Beschrijft waarden die door diverse inputparameters worden gebruikt. Zie de lijst in dit artikel voor meer informatie.
 solution: Experience Manager
 title: E-mailinstellingen
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,beheerder
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

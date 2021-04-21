@@ -3,7 +3,7 @@ description: Het hoofdweergavegebied is het gebied dat wordt ingenomen door de a
 solution: Experience Manager
 title: Hoofdviewergebied
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
-role: Ontwikkelaar,zakelijke praktiserer
+role: Developer,Business Practitioner
 exl-id: bdac54f5-79e3-4d3d-9c7e-d9a7cec61c73
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

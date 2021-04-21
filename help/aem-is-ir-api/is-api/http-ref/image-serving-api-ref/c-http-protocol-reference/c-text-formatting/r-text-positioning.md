@@ -2,8 +2,8 @@
 description: De renderer text= positioneert tekst fundamenteel verschillend dan de renderer textPs= wanneer toegepast op presize lagen (d.w.z. wanneer size= ook wordt gespecificeerd).
 solution: Experience Manager
 title: Tekstpositionering
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

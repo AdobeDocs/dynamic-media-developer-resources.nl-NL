@@ -2,8 +2,8 @@
 description: Materiaaltype. Oppervlaktetype van het materiaal. Wordt gebruikt in combinatie met Glanzend effect in catalogus en Ruwheid van catalogus om 3D-reflectie-rendereffecten te beheren.
 solution: Experience Manager
 title: Type
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

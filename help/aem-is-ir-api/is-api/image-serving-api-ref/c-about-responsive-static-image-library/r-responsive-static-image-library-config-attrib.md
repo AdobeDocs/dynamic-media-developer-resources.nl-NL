@@ -2,8 +2,8 @@
 description: De attributen van de configuratie worden bepaald als attributen direct op een element IMG dat de Responsieve bibliotheek van het Beeld beheert. Elke afbeelding kan een eigen set kenmerken hebben.
 solution: Experience Manager
 title: Command reference - Configuration attributes
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

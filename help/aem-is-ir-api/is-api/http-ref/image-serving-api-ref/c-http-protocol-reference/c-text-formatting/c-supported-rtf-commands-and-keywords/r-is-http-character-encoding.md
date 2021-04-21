@@ -2,8 +2,8 @@
 description: Gebruik de volgende opdrachten voor het coderen van tekens.
 solution: Experience Manager
 title: Tekencodering
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

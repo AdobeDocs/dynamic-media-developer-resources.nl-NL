@@ -2,8 +2,8 @@
 description: Het gereedschap Twitter delen bestaat uit een knop die is toegevoegd aan het deelvenster Sociaal delen. Wanneer op de knop wordt geklikt, wordt de gebruiker omgeleid naar een dialoogvenster voor delen dat door een sociale service wordt aangeboden. De positie van de knop wordt volledig beheerd met het gereedschap Sociaal delen.
 solution: Experience Manager
 title: Twitter delen
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: a90a4c82-b51a-4fb0-9196-44ae4ba8e0cd
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

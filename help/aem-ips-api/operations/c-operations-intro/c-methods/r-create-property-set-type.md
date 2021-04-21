@@ -2,8 +2,8 @@
 description: Een type eigenschapset geeft verschillende instellingen op die worden gebruikt voor het beheren van eigenschapssets.
 solution: Experience Manager
 title: createPropertySetType
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,beheerder
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 exl-id: 1730ccbf-e8b0-4f92-9daf-da2fa047cbbd
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

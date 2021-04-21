@@ -2,8 +2,8 @@
 description: Foutopsporingsverzoek. Met deze foutopsporingsopdracht wordt de aanvraag geparseerd en vooraf verwerkt, worden de opzoekingen in de afbeeldingscatalogus, de opname van de catalogus, de macro- en variabelevervangingen enzovoort uitgevoerd, net als req=img.
 solution: Experience Manager
 title: oplossen
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

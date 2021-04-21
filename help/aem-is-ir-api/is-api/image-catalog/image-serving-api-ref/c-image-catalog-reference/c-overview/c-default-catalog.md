@@ -2,8 +2,8 @@
 description: De standaardcatalogus bevat standaardwaarden voor alle cataloguskenmerken van alle afbeeldingscatalogi.
 solution: Experience Manager
 title: Standaardcatalogus
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

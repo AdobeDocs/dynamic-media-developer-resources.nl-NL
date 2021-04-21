@@ -2,8 +2,8 @@
 description: Automatisch een generatiescriptlijst instellen voor uploadtaken. Hiermee wordt aangenomen dat elk script dat voor de upload is opgegeven, wordt toegepast op alle geüploade elementen.
 solution: Experience Manager
 title: AutoSetCreationOptions
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,beheerder
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

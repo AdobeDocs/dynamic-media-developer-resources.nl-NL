@@ -2,8 +2,8 @@
 description: Pad naar profielbestand. Pad en naam van het ICC-kleurprofielbestand, inclusief achtervoegsel van het bestand.
 solution: Experience Manager
 title: ProfilePath
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Hiermee wordt een uitgesneden gebied voor een afbeelding geretourneerd op basis van de achtergrondkleur of -transparantie.
 solution: Experience Manager
 title: getAutoCropRect
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,beheerder
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Tekstpad. Geeft het pad aan dat moet worden gebruikt als basislijn voor de tekst die bij textPs= wordt geleverd.
 solution: Experience Manager
 title: textPath
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

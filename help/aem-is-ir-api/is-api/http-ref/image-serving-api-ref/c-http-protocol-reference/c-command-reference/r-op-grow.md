@@ -2,8 +2,8 @@
 description: Afbeelding vervagen/eroderen. Hiermee past u een morfologische dilaat (straal > 0) of erode (straal < 0) toe op de afbeeldingsgegevens.
 solution: Experience Manager
 title: op_kweken
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

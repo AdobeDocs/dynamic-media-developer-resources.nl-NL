@@ -2,8 +2,8 @@
 description: De materialen van kabinetten specificeren een dossier van het kabinetsstijl (.vnc- dossieruitbreiding), een speciaal gegevensdossier dat fotografische vertegenwoordiging van kabinetten samen met parametrische lay-outdefinities en andere informatie vereist voor het teruggeven van kabinetsfronten bevat.
 solution: Experience Manager
 title: Cabinetten
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

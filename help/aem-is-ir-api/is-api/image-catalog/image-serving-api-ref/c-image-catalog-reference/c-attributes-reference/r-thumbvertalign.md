@@ -2,8 +2,8 @@
 description: Verticale uitlijning voor miniaturen. Geeft de verticale uitlijning op van de miniatuurafbeelding in de rechthoek van de antwoordafbeelding die wordt opgegeven door wid= en hei= of door kenmerk DefaultThumbPix.
 solution: Experience Manager
 title: ThumbVertAlign
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

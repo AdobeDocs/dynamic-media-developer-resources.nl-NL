@@ -3,7 +3,7 @@ description: Beschrijft waarden die door diverse inputparameters worden gebruikt
 solution: Experience Manager
 title: Elementen
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Ontwikkelaar,beheerder
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

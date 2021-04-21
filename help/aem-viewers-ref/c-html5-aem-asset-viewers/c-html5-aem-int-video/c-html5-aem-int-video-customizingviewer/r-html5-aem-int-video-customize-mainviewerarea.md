@@ -2,8 +2,8 @@
 description: Het belangrijkste weergavegebied is het gebied dat wordt ingenomen door de interactieve stalen. Deze wordt meestal ingesteld op weergave op het beschikbare apparaatscherm wanneer geen grootte is opgegeven.
 solution: Experience Manager
 title: Hoofdviewergebied
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 8e5a44fa-422f-46f3-bd85-86bd2ce03899
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

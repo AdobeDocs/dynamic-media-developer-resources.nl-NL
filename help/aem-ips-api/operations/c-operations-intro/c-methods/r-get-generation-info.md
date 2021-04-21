@@ -2,8 +2,8 @@
 description: Retourneert twee verschillende typen informatie op basis van de doorgegeven parameters. originatorHandle retourneert informatie over elementen die zijn gegenereerd op basis van het opgegeven element. generateHandle geeft informatie over stappen die worden gebruikt om het opgegeven element of bestand te genereren.
 solution: Experience Manager
 title: getGenerationInfo
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,beheerder
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

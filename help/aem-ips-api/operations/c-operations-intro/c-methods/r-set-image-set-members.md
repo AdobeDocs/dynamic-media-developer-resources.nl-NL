@@ -2,8 +2,8 @@
 description: Hiermee stelt u de lijst in met elementen die aan een afbeeldingsset zijn gekoppeld.
 solution: Experience Manager
 title: setImageSetMember
-feature: Dynamic Media Classic,SDK/API,Afbeeldingssets
-role: Ontwikkelaar,beheerder
+feature: Dynamic Media Classic,SDK/API,Image Sets
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

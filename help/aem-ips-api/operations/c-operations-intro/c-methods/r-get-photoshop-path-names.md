@@ -2,8 +2,8 @@
 description: Geeft als resultaat een array met Photoshop-padnamen voor de opgegeven afbeelding.
 solution: Experience Manager
 title: getPhotoshopPathNames
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,beheerder
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

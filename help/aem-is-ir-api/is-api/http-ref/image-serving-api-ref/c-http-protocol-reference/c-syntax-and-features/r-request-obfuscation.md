@@ -2,8 +2,8 @@
 description: De inhoud van het volledige modifiers-gedeelte van de aanvraagtekenreeks, inclusief het optionele vergrendelingsachtervoegsel, kan worden verborgen door het toepassen van standaard base64-codering.
 solution: Experience Manager
 title: Vragen om verwarring
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

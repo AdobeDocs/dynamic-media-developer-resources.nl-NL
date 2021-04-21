@@ -2,8 +2,8 @@
 description: Rendering van afbeeldingen ondersteunt een eenvoudig voorbewerkingsmechanisme voor aanvragen dat is gebaseerd op regels voor het afstemmen van reguliere expressies en het vervangen van expressies.
 solution: Experience Manager
 title: Referentie voor regelset
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

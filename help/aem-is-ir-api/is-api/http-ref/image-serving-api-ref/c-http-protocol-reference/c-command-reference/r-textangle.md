@@ -2,8 +2,8 @@
 description: Tekstrenderrichting. Geeft de hoek op waaronder tekst die met textPs= is opgegeven, wordt geplaatst en weergegeven in het tekstvak (gedefinieerd met size= of textFlowPath=).
 solution: Experience Manager
 title: textAngle
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

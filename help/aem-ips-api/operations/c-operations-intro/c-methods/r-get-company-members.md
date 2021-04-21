@@ -2,8 +2,8 @@
 description: Retourneert de gebruikers van een bedrijf dat is opgegeven door een greep van het bedrijf.
 solution: Experience Manager
 title: getCompanyMember
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,beheerder
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Digimarc-afbeeldingsgegevens. Hiermee schakelt u Digimarc-insluiting in en geeft u het type watermerk en de bijbehorende afbeeldingsspecifieke gegevens op.
 solution: Experience Manager
 title: DigimarcInfo
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

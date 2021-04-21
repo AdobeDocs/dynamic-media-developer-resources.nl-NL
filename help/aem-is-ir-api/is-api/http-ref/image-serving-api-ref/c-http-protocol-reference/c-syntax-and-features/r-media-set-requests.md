@@ -2,8 +2,8 @@
 description: De Server van het beeld verstrekt een mechanisme om een hiërarchische tekstreactie (xml of json) op te halen die alle middelen en meta-gegevens verbonden aan catalogus ImageSet voor een bepaald verslag vertegenwoordigt.
 solution: Experience Manager
 title: Mediasetaanvragen
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Client cache TTL voor standaardreacties op afbeeldingen. Verstrekt het afloopinterval voor standaardbeeldreacties (reacties die een standaardbeeld terugkeren dat of defaultImage= of attribuut DefaultImage wordt gespecificeerd).
 solution: Experience Manager
 title: DefaultExpiration
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

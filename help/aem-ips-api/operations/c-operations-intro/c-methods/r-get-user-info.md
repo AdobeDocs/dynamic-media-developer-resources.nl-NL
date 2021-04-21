@@ -2,8 +2,8 @@
 description: Hiermee wordt informatie over een gebruiker opgehaald. Gebruik het e-mailadres en het wachtwoord van een systeemgebruiker als referenties voor het autoriseren van de aanvraag. Anders krijgt de bewerking informatie over de standaardgebruiker.
 solution: Experience Manager
 title: getUserInfo
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,beheerder
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

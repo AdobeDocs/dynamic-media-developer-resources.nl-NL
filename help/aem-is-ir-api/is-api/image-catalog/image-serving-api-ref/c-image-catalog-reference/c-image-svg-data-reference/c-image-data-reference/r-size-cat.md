@@ -2,8 +2,8 @@
 description: Afbeeldingsgrootte. Pixelgrootte van de afbeelding met volledige resolutie waarnaar wordt verwezen door het cataloguspad.
 solution: Experience Manager
 title: Grootte
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: Hiermee maakt u een nieuw element dat is afgeleid van een bestaand 
 solution: Experience Manager
 title: createDerivedAsset
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Ontwikkelaar,beheerder
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

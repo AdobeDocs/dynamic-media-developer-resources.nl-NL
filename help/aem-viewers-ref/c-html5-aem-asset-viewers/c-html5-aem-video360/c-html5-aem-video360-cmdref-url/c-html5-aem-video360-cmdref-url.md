@@ -2,8 +2,8 @@
 description: Referentiedocumentatie voor opdrachten voor Video360 Viewer.
 solution: Experience Manager
 title: Opdrachtverwijzing - URL
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: eb7026cf-f28b-4426-ba64-b3472946d5d4
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

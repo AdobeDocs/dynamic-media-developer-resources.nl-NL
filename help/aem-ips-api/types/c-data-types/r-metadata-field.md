@@ -2,8 +2,8 @@
 description: Door de gebruiker gedefinieerde velddefinities voor specifieke elementen.
 solution: Experience Manager
 title: MetadataField
-feature: Dynamic Media Classic,SDK/API,metagegevens
-role: Ontwikkelaar,beheerder
+feature: Dynamic Media Classic,SDK/API,Metadata
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

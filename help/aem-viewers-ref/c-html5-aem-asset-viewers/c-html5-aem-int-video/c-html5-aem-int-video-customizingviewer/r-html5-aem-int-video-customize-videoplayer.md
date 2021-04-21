@@ -2,8 +2,8 @@
 description: De videospeler is het rechthoekige gebied waar de video-inhoud wordt weergegeven in de viewer.
 solution: Experience Manager
 title: Videospeler
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 9cfeceff-f6bd-42d9-9b85-456bbaa278fd
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

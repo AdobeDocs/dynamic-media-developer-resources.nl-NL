@@ -2,8 +2,8 @@
 description: Met de knop Afspelen/Pauzeren wordt de video-inhoud afgespeeld of gepauzeerd wanneer de gebruiker erop klikt.
 solution: Experience Manager
 title: Knop Afspelen/Pauzeren
-feature: Dynamic Media Classic,Viewers,SDK/API,Mediasets mixen
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

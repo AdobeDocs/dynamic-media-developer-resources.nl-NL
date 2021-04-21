@@ -2,8 +2,8 @@
 description: Afbeelding schalen. Hiermee schaalt u de bronafbeelding van een laag met factor ten opzichte van de afbeelding met volledige resolutie.
 solution: Experience Manager
 title: schalen
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

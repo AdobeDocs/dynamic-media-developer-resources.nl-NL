@@ -2,8 +2,8 @@
 description: Interactive Image Viewer is een viewer die één niet-zoombare afbeelding met aanklikbare hotspots weergeeft. Het doel van deze viewer is het implementeren van een 'shoppable banner'-ervaring. Met andere woorden, de gebruiker kan een hotspot boven de bannerafbeelding selecteren en worden omgeleid naar een pagina in de Snelle weergave of de productdetails op uw website. Het is ontworpen voor gebruik op desktops en mobiele apparaten.
 solution: Experience Manager
 title: Interactieve afbeelding
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve afbeeldingen
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

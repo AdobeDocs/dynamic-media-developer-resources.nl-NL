@@ -2,8 +2,8 @@
 description: Groepeer bestanden in sets met behulp van een lijst met elementen.
 solution: Experience Manager
 title: AutomatedSetGenerationJob
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,beheerder
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

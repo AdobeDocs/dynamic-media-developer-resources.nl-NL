@@ -2,8 +2,8 @@
 description: Gebeurteniscallbacks
 solution: Experience Manager
 title: Gebeurteniscallbacks
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve afbeeldingen
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 exl-id: 59b8a88e-0139-4981-bfb9-f2dc1ac2337d
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

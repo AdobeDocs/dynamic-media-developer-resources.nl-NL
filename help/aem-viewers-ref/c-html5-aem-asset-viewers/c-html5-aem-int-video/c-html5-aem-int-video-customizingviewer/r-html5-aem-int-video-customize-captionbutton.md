@@ -2,8 +2,8 @@
 description: Met deze knop schakelt u de weergave van een gesloten bijschrift in of uit. De eigenschap is niet zichtbaar als de parameter caption niet is opgegeven.
 solution: Experience Manager
 title: Knop Bijschrift
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 322062a5-1741-45ce-96d7-8710a8246cd6
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

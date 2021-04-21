@@ -2,8 +2,8 @@
 description: Configuration attribute for Interactive Video Viewer.
 solution: Experience Manager
 title: VideoPlayer.waiticon
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 0495aaa5-7c5e-4f56-a96c-80ebc5de3aec
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

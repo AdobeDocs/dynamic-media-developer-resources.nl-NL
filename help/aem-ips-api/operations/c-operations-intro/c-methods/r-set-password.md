@@ -2,8 +2,8 @@
 description: Hiermee stelt u het wachtwoord van een specifieke gebruiker of de standaardgebruiker in op een specifieke waarde, afhankelijk van het feit of u een gebruikershandgreep opgeeft.
 solution: Experience Manager
 title: setPassword
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,beheerder
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

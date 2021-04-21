@@ -2,8 +2,8 @@
 description: Na de installatie moet u services instellen die onder de andere gebruikersaccount kunnen worden uitgevoerd.
 solution: Experience Manager
 title: Installeren onder een andere gebruikersaccount dan beheerder
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,beheerder,praktijkgericht
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

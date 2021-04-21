@@ -2,8 +2,8 @@
 description: RGB standaard invoerkleurprofiel. Hiermee geeft u de naam op van het ICC-kleurprofiel dat moet worden gebruikt voor RGB-materiaalafbeeldingen en -vignetten die geen kleurprofiel insluiten en voor RGB-kleurwaarden die zijn opgegeven met verschillende opdrachten voor het renderen van afbeeldingen, zoals bgc= en color=.
 solution: Experience Manager
 title: IccProfileSrcRgb
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

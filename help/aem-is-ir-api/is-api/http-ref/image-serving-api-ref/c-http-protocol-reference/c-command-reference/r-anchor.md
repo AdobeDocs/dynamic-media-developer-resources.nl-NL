@@ -2,8 +2,8 @@
 description: Afbeeldingsanker. Definieert het ankerpunt van de rechthoek van de afbeelding, effen kleur of het tekstkader voordat transformaties worden toegepast (crop=, scale=, rotate=, flip=). Wordt ook gebruikt als rotatiecentrum voor rotate=.
 solution: Experience Manager
 title: anker
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

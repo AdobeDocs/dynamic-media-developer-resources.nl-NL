@@ -2,8 +2,8 @@
 description: Bij het renderen van afbeeldingen kunt u aanvragen voor afbeeldingsservices en HTTP-verzoeken naar externe servers insluiten om materiaalafbeeldingen op te halen die worden gebruikt voor herhaalbare structuren en decals.
 solution: Experience Manager
 title: Nesten en insluiten aanvragen *
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

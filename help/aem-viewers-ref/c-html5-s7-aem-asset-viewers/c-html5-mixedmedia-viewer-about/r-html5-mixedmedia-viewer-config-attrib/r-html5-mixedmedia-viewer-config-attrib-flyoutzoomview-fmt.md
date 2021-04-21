@@ -2,8 +2,8 @@
 description: Specificeert het beeldformaat dat de component voor het laden van beelden van de Server van het Beeld gebruikt.
 solution: Experience Manager
 title: FlyoutZoomView.fmt
-feature: Dynamic Media Classic,Viewers,SDK/API,Mediasets mixen
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Paden insluiten. Hiermee geeft u op of Photoshop-paden uit het bronafbeeldingsbestand van laag 0 moeten worden opgenomen in de reactieafbeelding.
 solution: Experience Manager
 title: pathEmbed
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

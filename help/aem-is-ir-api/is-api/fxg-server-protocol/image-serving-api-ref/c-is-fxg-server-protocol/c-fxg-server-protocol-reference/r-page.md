@@ -2,8 +2,8 @@
 description: Pagina ophalen. Hiermee wordt een specifieke pagina in een FXG-bestand van meerdere pagina's opgehaald.
 solution: Experience Manager
 title: page
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

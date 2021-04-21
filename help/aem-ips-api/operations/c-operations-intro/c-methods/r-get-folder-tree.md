@@ -2,8 +2,8 @@
 description: Retourneert mappen en submappen in een hiërarchische boomstructuur. De reactie getFolderTree is beperkt tot maximaal 100.000 mappen
 solution: Experience Manager
 title: getFolderTree
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,beheerder
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

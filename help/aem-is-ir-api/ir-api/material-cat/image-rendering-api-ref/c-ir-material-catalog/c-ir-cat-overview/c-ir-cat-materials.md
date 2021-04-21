@@ -2,8 +2,8 @@
 description: Voor informatie over materialen die door het Teruggeven van het Beeld worden gebruikt zie Materialen in de Verwijzing van het Protocol van HTTP.
 solution: Experience Manager
 title: Materialen
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

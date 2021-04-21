@@ -2,8 +2,8 @@
 description: Pixelcoördinaten. Wordt gebruikt om afbeeldingscoördinaten op te geven, zoals afbeeldingsverschuivingen of uitsnijdparameters, in de vorm van een pixelverschuiving ten opzichte van de linkerbovenhoek van een afbeelding of laagrechthoek.
 solution: Experience Manager
 title: coord
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

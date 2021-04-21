@@ -2,8 +2,8 @@
 description: Afbeelding uitlijnen met weergave. Hiermee wordt de samengestelde afbeelding uitgelijnd (mogelijk na het schalen, als scl= ook is opgegeven) binnen de weergaverechthoek die wordt gedefinieerd door wid= en hei=.
 solution: Experience Manager
 title: align
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

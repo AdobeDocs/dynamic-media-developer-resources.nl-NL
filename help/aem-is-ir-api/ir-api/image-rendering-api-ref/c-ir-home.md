@@ -2,8 +2,8 @@
 description: De API-naslaggids voor het renderen van afbeeldingen bevat informatie over het instellen en gebruiken van de Dynamic Media-API voor het renderen van afbeeldingen.
 solution: Experience Manager
 title: API voor het renderen van afbeeldingen
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

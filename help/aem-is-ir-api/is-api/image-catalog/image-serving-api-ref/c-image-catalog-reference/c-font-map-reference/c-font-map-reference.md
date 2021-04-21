@@ -2,8 +2,8 @@
 description: Als een lettertypetoewijzing vereist is voor een afbeeldingscatalogus, moet het relatieve of absolute pad van het bestand met lettertypetoewijzing worden opgegeven in het kenmerk FontMapFile.
 solution: Experience Manager
 title: Referentie lettertypetoewijzing
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Overvloeimodus. Hiermee geeft u het type overvloeiing op dat wordt gebruikt wanneer de laag wordt samengesteld. Hiermee simuleert u veelgebruikte overvloeimodi die beschikbaar zijn in Photoshop. Raadpleeg de documentatie bij Photoshop voor meer informatie.
 solution: Experience Manager
 title: blendMode
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

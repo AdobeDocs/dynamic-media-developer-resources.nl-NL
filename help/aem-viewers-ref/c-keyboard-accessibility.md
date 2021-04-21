@@ -3,7 +3,7 @@ description: Alle functies die beschikbaar worden gesteld in de viewerinterface 
 solution: Experience Manager
 title: Toetsenbordtoegankelijkheid en -navigatie
 feature: Dynamic Media Classic,Viewers,SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+role: Developer,Business Practitioner
 exl-id: 0bdf172a-0bde-42d2-900f-f207538fe588
 translation-type: tm+mt
 source-git-commit: 62234233bb1a5bcbd0eac5d281b42ed785c0c169

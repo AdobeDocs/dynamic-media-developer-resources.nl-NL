@@ -2,8 +2,8 @@
 description: Versie afbeelding/metagegevens. Wanneer het werken met inhoud die regelmatig verandert, kunnen de servers in caching netwerken zoals Akamai, browser caches, en collectieve de servergeheime voorgeheugens van de volmachtsserver van het Beeld antwoorden opslaan die verouderd kunnen zijn voor periodes.
 solution: Experience Manager
 title: id
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

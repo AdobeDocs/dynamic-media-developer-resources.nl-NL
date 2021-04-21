@@ -2,8 +2,8 @@
 description: Alle logbestanden worden naar dezelfde logmap geschreven die in de TC-map is opgegeven.
 solution: Experience Manager
 title: Serverregistratie
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,beheerder,praktijkgericht
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

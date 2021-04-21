@@ -3,7 +3,7 @@ description: De hoofdklasse van de Carousel Viewer is CarouselViewer. Deze wordt
 solution: Experience Manager
 title: JavaScript API-referentie voor Carousel Viewer
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
-role: Ontwikkelaar,zakelijke praktiserer
+role: Developer,Business Practitioner
 exl-id: 58e01a97-0761-4569-8a2e-77b17a55521d
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

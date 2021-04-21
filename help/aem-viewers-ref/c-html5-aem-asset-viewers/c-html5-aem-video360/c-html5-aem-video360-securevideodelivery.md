@@ -2,8 +2,8 @@
 description: HTTPS-video leveren
 solution: Experience Manager
 title: HTTPS-video leveren
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: 79f7e356-55d1-46e1-b85a-2e73633c9404
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

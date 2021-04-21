@@ -2,8 +2,8 @@
 description: Vignetten zijn afbeeldingen die zijn ontworpen met Dynamic Media Image Authoring voor gebruik met behulp van Image Rendering.
 solution: Experience Manager
 title: Vignetten
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

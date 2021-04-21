@@ -2,8 +2,8 @@
 description: 'Scène 7 Beeldserver bestaat uit de volgende componenten '
 solution: Experience Manager
 title: Onderdelen van Image Serving
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

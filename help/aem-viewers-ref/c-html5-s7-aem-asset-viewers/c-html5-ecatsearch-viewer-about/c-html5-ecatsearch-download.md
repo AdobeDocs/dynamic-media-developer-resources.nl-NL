@@ -3,7 +3,7 @@ description: Downloaden
 solution: Experience Manager
 title: Downloaden
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Ontwikkelaar,zakelijke praktiserer
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

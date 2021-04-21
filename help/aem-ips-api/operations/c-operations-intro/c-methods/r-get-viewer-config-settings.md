@@ -2,8 +2,8 @@
 description: Hiermee worden alle configuratie-instellingen voor de viewer opgehaald die aan het opgegeven element zijn gekoppeld.
 solution: Experience Manager
 title: getViewerConfigSettings
-feature: Dynamic Media Classic,SDK/API,Viewer-voorinstellingen
-role: Ontwikkelaar,beheerder
+feature: Dynamic Media Classic,SDK/API,Viewer Presets
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

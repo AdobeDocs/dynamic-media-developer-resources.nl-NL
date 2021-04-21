@@ -2,8 +2,8 @@
 description: JavaScript API-referentie voor Video360 Viewer.
 solution: Experience Manager
 title: weggooien
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: 4e6ad465-36df-49e2-8c9e-722e8aa9063e
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: Catalogus-id. Het HTTP-padelement dat moet worden gebruikt om deze catalogus aan te duiden in de specificatie voor het vignet-, materiaal- of ICC-profielobject in HTTP-aanvragen.
 solution: Experience Manager
 title: RootId
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

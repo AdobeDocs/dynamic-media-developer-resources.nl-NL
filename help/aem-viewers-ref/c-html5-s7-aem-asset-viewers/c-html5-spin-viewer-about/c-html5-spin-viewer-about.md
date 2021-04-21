@@ -3,8 +3,8 @@ description: Spin Viewer is een beeldviewer die een weergave van 360 graden van 
 keywords: responsief
 solution: Experience Manager
 title: Draaien
-feature: Dynamic Media Classic,Viewers,SDK/API,Draaiensets
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

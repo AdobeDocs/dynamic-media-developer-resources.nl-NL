@@ -3,7 +3,7 @@ description: '"De nieuwste release bevat informatie over de Adobe Scene7 Fall 20
 solution: Experience Manager
 title: Scene7 Fall 2016 Release
 feature: Dynamic Media Classic
-role: Ontwikkelaar,zakelijke praktiserer
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

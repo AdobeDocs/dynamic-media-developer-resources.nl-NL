@@ -3,7 +3,7 @@ description: Viewer SDK-naamruimte
 solution: Experience Manager
 title: Viewer SDK-naamruimte
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
-role: Ontwikkelaar,zakelijke praktiserer
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

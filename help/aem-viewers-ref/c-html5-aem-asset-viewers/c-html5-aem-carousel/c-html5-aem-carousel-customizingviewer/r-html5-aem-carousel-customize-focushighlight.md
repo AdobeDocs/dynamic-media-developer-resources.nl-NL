@@ -3,7 +3,7 @@ description: Focusmarkering voor invoer die wordt weergegeven rond het interface
 solution: Experience Manager
 title: Focus markeren
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
-role: Ontwikkelaar,zakelijke praktiserer
+role: Developer,Business Practitioner
 exl-id: f9343055-9fd9-4b19-bba3-1f742acb6193
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: De hoofdweergave bestaat uit de draaiafbeelding.
 solution: Experience Manager
 title: Weergave draaien
-feature: Dynamic Media Classic,Viewers,SDK/API,Draaiensets
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

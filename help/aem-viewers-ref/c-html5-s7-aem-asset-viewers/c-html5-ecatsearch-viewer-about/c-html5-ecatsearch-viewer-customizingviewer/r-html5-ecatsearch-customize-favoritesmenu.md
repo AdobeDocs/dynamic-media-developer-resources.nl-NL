@@ -3,7 +3,7 @@ description: De het menudrop-down lijst van Favorieten verschijnt in de controle
 solution: Experience Manager
 title: Menu Favorieten
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Ontwikkelaar,zakelijke praktiserer
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

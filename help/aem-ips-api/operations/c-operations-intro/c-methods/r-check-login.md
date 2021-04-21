@@ -2,8 +2,8 @@
 description: Controleert of een gebruiker met een specifiek bedrijf (geïdentificeerd door greep), e-mailadres, en wachtwoord zich kan aanmelden.
 solution: Experience Manager
 title: checkLogin
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,beheerder
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

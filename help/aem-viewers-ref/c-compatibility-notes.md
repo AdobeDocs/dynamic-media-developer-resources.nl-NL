@@ -3,7 +3,7 @@ description: Compatibiliteitsnotities voor besturingssystemen, browsers en mobie
 solution: Experience Manager
 title: Compatibiliteitsnotities
 feature: Dynamic Media Classic,Viewers,SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+role: Developer,Business Practitioner
 exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
 translation-type: tm+mt
 source-git-commit: 62234233bb1a5bcbd0eac5d281b42ed785c0c169

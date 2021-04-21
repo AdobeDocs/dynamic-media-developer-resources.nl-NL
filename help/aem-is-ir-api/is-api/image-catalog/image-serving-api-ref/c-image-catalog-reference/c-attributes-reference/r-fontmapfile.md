@@ -2,8 +2,8 @@
 description: Pad lettertypetoewijzingsbestand. Hier geeft u het bestand op dat de lettertypekaart voor deze afbeeldingscatalogus bevat.
 solution: Experience Manager
 title: FontMapFile
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

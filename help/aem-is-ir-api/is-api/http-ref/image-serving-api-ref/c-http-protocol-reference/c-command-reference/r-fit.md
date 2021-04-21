@@ -2,8 +2,8 @@
 description: Modus Reactieafbeelding passend. Hiermee geeft u op hoe de schaalfactor wordt berekend. Deze wordt gebruikt om de samengestelde afbeelding te schalen naar de reactieafbeelding wanneer de reactiegrootte met wid= en hei= en scl= niet is opgegeven.
 solution: Experience Manager
 title: aanpassen
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

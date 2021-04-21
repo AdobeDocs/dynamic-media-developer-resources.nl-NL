@@ -2,8 +2,8 @@
 description: Hiermee maskeert u de achtergrond voor geselecteerde afbeeldingen (neemt u af). Hierdoor kunt u ze in andere lagen bedekken met transparantie buiten de afbeelding van het onderwerp. Een optionele parameter die standaard uitgeschakeld is.
 solution: Experience Manager
 title: KnockoutBackgroundOptions
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,beheerder
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

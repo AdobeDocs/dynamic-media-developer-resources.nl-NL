@@ -2,8 +2,8 @@
 description: Het hulpprogramma Vignet Authoring (onderdeel van het Dynamic Media-pakket voor het maken van afbeeldingen) biedt mechanismen voor de besturing van aspecten op laag niveau van de engine voor het renderen van vignetten.
 solution: Experience Manager
 title: Geavanceerde renderinstellingen
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

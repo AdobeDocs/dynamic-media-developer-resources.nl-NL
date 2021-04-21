@@ -2,8 +2,8 @@
 description: Afbeeldingssetgegevens uit afbeeldingscatalogus. Hiermee worden de gegevens van de afbeeldingsset geretourneerd voor het item van de afbeeldingscatalogus dat is opgegeven in het URL-pad.
 solution: Experience Manager
 title: imageset
-feature: Dynamic Media Classic,SDK/API,Afbeeldingssets
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API,Image Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

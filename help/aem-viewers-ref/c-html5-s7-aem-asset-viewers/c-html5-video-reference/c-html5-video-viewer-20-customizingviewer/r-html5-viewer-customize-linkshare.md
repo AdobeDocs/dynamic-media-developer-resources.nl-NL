@@ -3,7 +3,7 @@ description: Het gereedschap voor delen van koppeling bestaat uit een knop die w
 solution: Experience Manager
 title: Delen van koppeling
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Ontwikkelaar,zakelijke praktiserer
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

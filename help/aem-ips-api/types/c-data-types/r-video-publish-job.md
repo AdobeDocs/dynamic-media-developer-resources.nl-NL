@@ -3,7 +3,7 @@ description: Hiermee publiceert u bestanden naar de geconfigureerde videopublica
 solution: Experience Manager
 title: VideoPublishJob
 feature: Dynamic Media Classic,SDK/API,Video
-role: Ontwikkelaar,beheerder
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

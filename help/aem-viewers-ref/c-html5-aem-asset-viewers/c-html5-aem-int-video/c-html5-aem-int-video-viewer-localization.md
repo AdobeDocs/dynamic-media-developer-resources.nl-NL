@@ -2,8 +2,8 @@
 description: Bepaalde inhoud die in de Interactive Video Viewer wordt weergegeven, is afhankelijk van lokalisatie. Hier volgen knopinfo voor gebruikersinterface-elementen en een foutbericht dat wordt weergegeven wanneer de video niet kan worden afgespeeld.
 solution: Experience Manager
 title: Lokalisatie van gebruikersinterface-elementen
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: d293c385-d355-4d9e-9fe9-8ef35fef60bf
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

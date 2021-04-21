@@ -2,8 +2,8 @@
 description: De connectortag in server.xml ondersteunt een ciphers-attribuut om de ciphers te beperken die kunnen worden gekozen voor een SSL-verbinding.
 solution: Experience Manager
 title: SSL-ciphers definiëren
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,beheerder,praktijkgericht
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

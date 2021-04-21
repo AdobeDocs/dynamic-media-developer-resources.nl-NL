@@ -2,8 +2,8 @@
 description: Een array die wordt gebruikt om de maker aan te wijzen of een lijst met maximaal vijf e-mailadressen waarop de bevestigingsmelding wordt ontvangen.
 solution: Experience Manager
 title: EmailArray
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,beheerder
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Hiermee wordt een array met gebruikers opgehaald, zoals is opgegeven door het bedrijf, de groep en de handgrepen voor de gebruikersrol. Met deze bewerking kunt u geretourneerde gebruikers sorteren en filteren op teken.
 solution: Experience Manager
 title: getUsers
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,beheerder
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Omgekeerd pad voor laagclip. Hiermee geeft u een pad voor de uitsluitingsclip op voor de huidige laag. Alle delen van de laag die zich binnen het gebied bevinden dat wordt gedefinieerd door clipXPath=, worden transparant gerenderd.
 solution: Experience Manager
 title: clipXPath
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

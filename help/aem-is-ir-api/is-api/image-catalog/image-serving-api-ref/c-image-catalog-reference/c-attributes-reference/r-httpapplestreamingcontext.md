@@ -2,8 +2,8 @@
 description: URL-voorvoegsel van Apple-streamingserver. Het URL-voorvoegsel van de Apple Streaming Server dat wordt gebruikt bij het genereren van m3u8-reacties met multi-bitsnelheid met req=mbrSet.
 solution: Experience Manager
 title: HttpAppleStreamingContext
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

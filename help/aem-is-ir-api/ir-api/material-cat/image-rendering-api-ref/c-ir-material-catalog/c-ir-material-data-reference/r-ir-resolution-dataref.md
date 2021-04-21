@@ -2,8 +2,8 @@
 description: Resolutie. De "real-world"beeldresolutie, typisch uitgedrukt als pixel per duim, maar kan ook in andere eenheden, zoals pixel per meter zijn.
 solution: Experience Manager
 title: Resolutie
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

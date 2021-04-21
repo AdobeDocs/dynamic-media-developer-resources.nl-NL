@@ -2,8 +2,8 @@
 description: Configuration attribute for Interactive Video Viewer.
 solution: Experience Manager
 title: CallToAction.align
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: e0a92c4a-3757-4811-87b8-68fb367ea94d
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

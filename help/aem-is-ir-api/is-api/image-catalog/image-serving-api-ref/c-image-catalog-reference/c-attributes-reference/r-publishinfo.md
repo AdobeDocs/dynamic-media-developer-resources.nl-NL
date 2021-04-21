@@ -2,8 +2,8 @@
 description: Annotatietekenreeks van catalogus. Tekstreeks die kan worden gebruikt om de versie van de catalogus, de publicatiedatum enz. te identificeren.
 solution: Experience Manager
 title: PublishInfo
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

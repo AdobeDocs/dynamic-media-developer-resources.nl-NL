@@ -2,8 +2,8 @@
 description: Hiermee stelt u het zoomdoel in dat aan een elementafbeelding is gekoppeld. De bestaande zoomdoelen worden overschreven.
 solution: Experience Manager
 title: setZoomTargets
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,beheerder
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

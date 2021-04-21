@@ -2,8 +2,8 @@
 description: Eindweergaverechthoek. Hiermee kunt u de uiteindelijke afbeelding van de weergave splitsen in verschillende stroken of tegels, die afzonderlijk kunnen worden geleverd en naadloos kunnen worden samengevoegd door de client, zonder artefacten langs de randen.
 solution: Experience Manager
 title: rect
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

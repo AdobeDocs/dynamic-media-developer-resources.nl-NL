@@ -2,8 +2,8 @@
 description: Hiermee kunt u uitsnijden naar het selectiekader van een ingesloten pad met een naam. Door deze uitsnijding wordt de grootte van de afbeelding gewijzigd.
 solution: Experience Manager
 title: cropPathE
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

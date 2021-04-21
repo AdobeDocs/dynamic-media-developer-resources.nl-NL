@@ -2,8 +2,8 @@
 description: Lagen worden samengesteld in de volgorde die is opgegeven met de opdracht layer=, waarbij hoger genummerde lagen lager genummerde lagen verbergen.
 solution: Experience Manager
 title: Het samengestelde canvas
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

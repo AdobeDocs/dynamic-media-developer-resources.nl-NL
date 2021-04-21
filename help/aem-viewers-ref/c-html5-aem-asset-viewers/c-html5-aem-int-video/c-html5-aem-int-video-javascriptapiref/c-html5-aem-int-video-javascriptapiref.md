@@ -2,8 +2,8 @@
 description: De hoofdklasse van de Interactive Image Viewer is InteractiveVideoViewer. Deze wordt gedeclareerd in de naamruimte s7viewers. Deze JavaScript API behandelt constructor, methoden en callbacks van deze specifieke klasse.
 solution: Experience Manager
 title: JavaScript API-referentie voor Interactive Video Viewer
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 3b1f5150-c696-4989-9914-09549f838b4a
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: Haalt de zoekreeksen, trefwoorden en andere informatie over een element op. De reactie bevat aanvullende informatie over het element.
 solution: Experience Manager
 title: getSearchStrings
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,beheerder
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

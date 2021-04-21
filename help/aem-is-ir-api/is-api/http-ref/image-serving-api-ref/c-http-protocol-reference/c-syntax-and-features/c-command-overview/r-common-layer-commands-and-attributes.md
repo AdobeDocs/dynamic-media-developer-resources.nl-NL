@@ -2,8 +2,8 @@
 description: Deze opdrachten zijn van toepassing op afbeeldings-, tekst- en effen-kleurlagen. De meeste toepassingen zijn niet van belang voor de samengestelde afbeelding en voor eenvoudige, niet-gelaagde aanvragen. Ze zijn niet van toepassing op effectlagen.
 solution: Experience Manager
 title: Algemene laagopdrachten
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

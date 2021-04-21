@@ -2,8 +2,8 @@
 description: TIFF-coderingsindeling. Hiermee geeft u de compressie-indeling voor TIFF-afbeeldingen op (in feite de standaardinstelling voor de derde waarde van de opdracht fmt=).
 solution: Experience Manager
 title: TiffEncoding
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

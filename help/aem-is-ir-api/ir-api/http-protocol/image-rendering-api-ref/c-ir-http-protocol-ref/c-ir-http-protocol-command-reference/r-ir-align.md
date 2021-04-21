@@ -2,8 +2,8 @@
 description: Uitlijning van structuurrenderen. Hiermee geeft u op welke oorsprongpunten door het geselecteerde vignetobject moeten worden gebruikt.
 solution: Experience Manager
 title: align
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

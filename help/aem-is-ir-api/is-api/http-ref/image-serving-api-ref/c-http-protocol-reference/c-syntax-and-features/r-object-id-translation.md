@@ -2,8 +2,8 @@
 description: De Beeldserver biedt een mechanisme om externe objecten-id's te vertalen naar landspecifieke object-id's (catalogus). De primaire toepassing is het aanbieden van landspecifieke inhoud en inhoud die door meerdere landinstellingen wordt gedeeld, zonder dat de clienttoepassing de landspecifieke object-id's moet kennen.
 solution: Experience Manager
 title: Omzetten van object-id
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Decal-materialen omvatten kledingconstructies zoals apparaten, T-shirtafdrukken en geborduurde of gedrukte logo's, alsmede niet-herhaalbare, platte objecten die worden gebruikt in toepassingen voor binnen- en buitengebruik, zoals vlakbedekking, wandjagers, borden, enzovoort.
 solution: Experience Manager
 title: Decals
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

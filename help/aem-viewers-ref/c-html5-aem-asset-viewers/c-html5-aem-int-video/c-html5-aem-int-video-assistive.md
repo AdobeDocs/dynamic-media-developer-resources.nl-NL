@@ -2,8 +2,8 @@
 description: Alle viewercomponenten ondersteunen de rollen en kenmerken van ARIA (Accessible Rich Internet Applications) om de integratie met ondersteunende hulpmiddelen, zoals schermlezers, te verbeteren.
 solution: Experience Manager
 title: Technische ondersteuning
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's,Toegankelijkheid
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos,Accessibility
+role: Developer,Business Practitioner
 exl-id: 3d9f6389-e73c-4d31-a7c1-b321f065ce8c
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

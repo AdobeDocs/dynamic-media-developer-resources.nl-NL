@@ -2,8 +2,8 @@
 description: Afbeeldingsmasker. Hiermee geeft u een aparte maskerafbeelding op die als een niet-gekoppeld masker moet worden gebruikt.
 solution: Experience Manager
 title: masker
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

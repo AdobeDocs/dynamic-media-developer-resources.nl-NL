@@ -2,8 +2,8 @@
 description: De coördinaatruimte van de scène wordt gebruikt om de grootte en afstanden op te geven van de oppervlakken van de structuurobjecten.
 solution: Experience Manager
 title: Scènecoördinaten
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

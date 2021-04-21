@@ -2,8 +2,8 @@
 description: Pad naar gegevensbestand van catalogus. Hier geeft u het bestand op dat de materiaalgegevens voor deze catalogus bevat.
 solution: Experience Manager
 title: CatalogFile
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

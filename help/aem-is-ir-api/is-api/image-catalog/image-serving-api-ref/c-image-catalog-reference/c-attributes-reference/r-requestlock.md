@@ -2,8 +2,8 @@
 description: Vergrendelingsmodus aanvragen. Hiermee geeft u het type vergrendeling voor aanvragen op die in aanvragen moet worden opgenomen.
 solution: Experience Manager
 title: RequestLock
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

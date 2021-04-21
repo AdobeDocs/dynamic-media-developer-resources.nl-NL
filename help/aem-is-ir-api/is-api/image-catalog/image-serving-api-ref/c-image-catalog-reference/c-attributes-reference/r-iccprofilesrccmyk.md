@@ -2,8 +2,8 @@
 description: Standaard CMYK-invoerkleurprofiel. Hiermee wordt de naam opgegeven van het ICC-kleurprofiel dat moet worden gebruikt voor CMYK-bronafbeeldingen die geen kleurprofiel insluiten en voor bepaalde CMYK-kleurwaarden die zijn opgegeven met diverse opdrachten voor afbeeldingsservice, zoals color=.
 solution: Experience Manager
 title: IccProfileSrcCmyk
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

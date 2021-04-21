@@ -2,8 +2,8 @@
 description: Een proxy van een afbeeldingsserver kan worden gebruikt om het formaat van afbeeldingen voor Japanse telefoons te wijzigen.
 solution: Experience Manager
 title: Proxy afbeeldingsserver
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

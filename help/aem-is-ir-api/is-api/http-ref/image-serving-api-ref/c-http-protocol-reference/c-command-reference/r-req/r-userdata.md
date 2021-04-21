@@ -2,8 +2,8 @@
 description: Gebruikersgegevens uit afbeeldingscatalogus. Retourneert gebruikersgegevens voor het item van de afbeeldingscatalogus dat is opgegeven in het URL-pad.
 solution: Experience Manager
 title: gebruikersgegevens
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

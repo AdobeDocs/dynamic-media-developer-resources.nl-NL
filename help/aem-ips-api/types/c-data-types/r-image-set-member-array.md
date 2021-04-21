@@ -2,8 +2,8 @@
 description: Een array met leden van afbeeldingssets.
 solution: Experience Manager
 title: ImageSetMemberArray
-feature: Dynamic Media Classic,SDK/API,Afbeeldingssets
-role: Ontwikkelaar,beheerder
+feature: Dynamic Media Classic,SDK/API,Image Sets
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

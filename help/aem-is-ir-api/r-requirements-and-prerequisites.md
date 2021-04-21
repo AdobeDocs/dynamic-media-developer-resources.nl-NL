@@ -2,8 +2,8 @@
 description: Controleer voordat u Dynamic Media Image Serving gebruikt of uw systeem voldoet aan de systeemvereisten.
 solution: Experience Manager
 title: Systeemvereisten en -vereisten
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

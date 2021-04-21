@@ -2,8 +2,8 @@
 description: Retourneert alle mappen en submappen, te beginnen bij het mappad. De reactie getFolders retourneert maximaal 100.000 mappen.
 solution: Experience Manager
 title: getFolders
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,beheerder
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

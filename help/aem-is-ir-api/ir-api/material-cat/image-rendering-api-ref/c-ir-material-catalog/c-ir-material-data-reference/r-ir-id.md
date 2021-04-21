@@ -2,8 +2,8 @@
 description: Id van catalogusrecord. Zeer belangrijke waarde waardoor de materiaalverslagen door de Render Server worden bekeken. Gewoonlijk een korte en unieke materiaalidentificatie, zoals een SKU-nummer.
 solution: Experience Manager
 title: Id
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

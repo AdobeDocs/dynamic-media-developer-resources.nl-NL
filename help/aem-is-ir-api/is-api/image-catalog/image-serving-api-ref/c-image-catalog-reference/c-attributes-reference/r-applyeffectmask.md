@@ -2,8 +2,8 @@
 description: Hiermee past u optioneel het uiteindelijke masker toe op effectlagen om het overlappende gebied tussen een effect en een laag te maskeren.
 solution: Experience Manager
 title: ApplyEffectMask
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

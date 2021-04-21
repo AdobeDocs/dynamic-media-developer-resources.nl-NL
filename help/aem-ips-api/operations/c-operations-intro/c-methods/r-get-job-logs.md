@@ -2,8 +2,8 @@
 description: Hiermee worden opgegeven taaklogbestanden voor het geselecteerde bedrijf opgehaald. U kunt sorteren op tekens, richting, begin- en einddatum en op het aantal rijen.
 solution: Experience Manager
 title: getJobLogs
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,beheerder
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

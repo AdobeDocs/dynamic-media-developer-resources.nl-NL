@@ -2,8 +2,8 @@
 description: Koppelt de configuratie-instellingen van de viewer aan een element. Dit kan een viewervoorinstelling zijn of het bronelement voor de viewer.
 solution: Experience Manager
 title: setViewerConfigSettings
-feature: Dynamic Media Classic,SDK/API,Viewer-voorinstellingen
-role: Ontwikkelaar,beheerder
+feature: Dynamic Media Classic,SDK/API,Viewer Presets
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: JavaScript API-referentie voor Video Image Viewer.
 solution: Experience Manager
 title: getComponent
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve afbeeldingen
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 exl-id: 5f2514a9-bbd0-436d-ad96-b89778604f8a
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

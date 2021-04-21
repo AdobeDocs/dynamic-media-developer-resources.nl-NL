@@ -2,8 +2,8 @@
 description: Image Serving implementeert een eenvoudige visuele watermerkingsfaciliteit.
 solution: Experience Manager
 title: Watermerken
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Laaguitknippad. Hiermee geeft u een clippad voor de huidige laag op.
 solution: Experience Manager
 title: clipPath
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,zakelijke praktiserer
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

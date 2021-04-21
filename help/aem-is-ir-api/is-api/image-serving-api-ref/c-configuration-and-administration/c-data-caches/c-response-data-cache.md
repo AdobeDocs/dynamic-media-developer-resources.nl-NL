@@ -2,8 +2,8 @@
 description: De server van het Platform plaatst al antwoordbeeld en bepaalde tekstgegevens in het voorgeheugen op schijf tenzij een verzoek als niet-cacheable wordt gemerkt.
 solution: Experience Manager
 title: Responsgegevenscache
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,beheerder,praktijkgericht
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

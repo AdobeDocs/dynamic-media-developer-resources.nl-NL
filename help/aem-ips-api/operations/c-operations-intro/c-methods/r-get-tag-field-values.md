@@ -2,8 +2,8 @@
 description: Hiermee worden alle gedefinieerde tagwoordenboekwaarden opgehaald voor een of meer tagvelden.
 solution: Experience Manager
 title: getTagFieldValues
-feature: Dynamic Media Classic, SDK/API
-role: Ontwikkelaar,beheerder
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt
