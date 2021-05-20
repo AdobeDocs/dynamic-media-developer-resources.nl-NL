@@ -2,16 +2,15 @@
 description: Indeling reactieafbeelding.
 solution: Experience Manager
 title: fmt
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
+source-git-commit: bb306f1063a91eeeb6b90e64aeb2d3143697ca34
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
-
 
 # fmt{#fmt}
 
@@ -19,53 +18,54 @@ Indeling reactieafbeelding.
 
 `fmt=format[,` `[`*`pixelType`*`]`,`[`*`compression`*`]]`
 
-*`format`* — jpeg | jpg | pjpeg | png | png8 | png-alpha | png8-alpha | tif | tif-alfa | SWF | swf-alpha | swf3 | swf3-alfa | eps | gif | gif-alpha | m3u8 | f4m | web | webp-alpha | jpeg2000 | jpeg2000-alfa | jpegxr | jpegxr-alpha
+*`format`* - avif-alpha | avif | eps | f4m | gif-alpha | gif | jpeg | jpeg2000-alfa | jpeg2000 | jpegxr-alpha | jpegxr | jpg | m3u8 | pdf | pjpeg | png-alpha | png | png8-alpha | png8 | swf-alpha | SWF | swf3-alfa | swf3 | tif-alfa | tif | web-alpha | webpagina
 
 | *`format`* | Beschrijving |
-|---|---| 
-| `jpeg` | JPEG met gegevensverlies |
-| `jpg` | JPG met gegevensverlies |
-| `pjpeg` | Progressieve JPEG |
-| `png` | 24-bits PNG zonder gegevensverlies |
-| `png8` | 8-bits PNG zonder gegevensverlies |
-| `png-alpha` | 24-bits PNG zonder gegevensverlies met alfakanaal |
-| `png8-alpha` | 8-bits PNG zonder gegevensverlies met alfakanaal |
-| `tif` | TIFF |
-| `tif-alpha` | TIFF met alfakanaal |
-| `pdf` | Afbeelding ingesloten in PDF |
+|---|---|
+| `avif-alpha` | AVIF zonder verlies en verlies met alfakanaal <br><br>*Release-tijdlijn voor deze indeling:* <br><b>Noord-Amerika</b> - Beschikbaar nu<br><b>Europa, Midden-Oosten, Afrika</b> - 24 mei 2021<br><b>Asia-Pacific</b> - 24 juni 201 |
+| `avif` | AVIF <br><br>*Release-tijdlijn zonder verlies voor deze indeling:*<br><b> Noord-Amerika</b> - Beschikbaar nu<br><b>Europa, Midden-Oosten, Afrika</b> - 24 mei 2021<br><b>Asia-Pacific</b> - 24 juni 2021 |
 | `eps` | Niet-gecomprimeerde binaire Encapsulated PostScript |
-| `gif` | GIF met 2 tot 256 kleuren |
-| `gif-alpha` | GIF met 2 tot 255 kleuren plus transparantie van hoofdkleuren |
-| `swf` | JPEG met verlies ingesloten in een Adobe AS2 SWF-bestand |
-| `swf-alpha` | JPEG met verlies en een gecomprimeerd masker zijn ingesloten in een SWF-bestand met Adobe AS2 |
-| `swf3` | JPEG met verlies ingesloten in een Adobe AS3 SWF-bestand |
-| `swf3-alpha` | JPEG met verlies en een gecomprimeerd masker zijn ingesloten in een SWF-bestand met Adobe AS3. **Opmerking**: SWF- en swf-alfa-indelingen kunnen het best worden gebruikt voor ActionScript 2-toepassingen (Flash Player 8 en eerder). swf3 en swf3-alpha wordt aanbevolen voor gebruik bij ActionScript 3-toepassingen (Flash Player 9 en hoger) |
-| `m3u8` | Apple Streaming Server-manifestindeling |
 | `f4m` | Flash Streaming Server-manifest-indeling |
-| `webp` | WebP zonder gegevensverlies |
-| `webp-alpha` | WebP zonder verlies en met alfakanaal |
-| `jpeg2000` | JPEG 2000 met verlies en zonder verlies |
+| `gif-alpha` | GIF met 2 tot 255 kleuren plus transparantie van hoofdkleuren |
+| `gif` | GIF met 2 tot 256 kleuren |
+| `jpeg` | JPEG met gegevensverlies |
 | `jpeg2000-alpha` | JPEG 2000 met alfakanaal zonder verlies en verlies |
-| `jpegxr` | JPEG XR zonder gegevensverlies |
+| `jpeg2000` | JPEG 2000 met verlies en zonder verlies |
 | `jpegxr-alpha` | JPEG XR zonder verlies en met alfakanaal |
+| `jpegxr` | JPEG XR zonder gegevensverlies |
+| `jpg` | JPG met gegevensverlies |
+| `m3u8` | Apple Streaming Server-manifestindeling |
+| `pdf` | Afbeelding ingesloten in PDF |
+| `pjpeg` | Progressieve JPEG |
+| `png-alpha` | 24-bits PNG zonder gegevensverlies met alfakanaal |
+| `png` | 24-bits PNG zonder gegevensverlies |
+| `png8-alpha` | 8-bits PNG zonder gegevensverlies met alfakanaal |
+| `png8` | 8-bits PNG zonder gegevensverlies |
+| `swf-alpha` | JPEG met verlies en een gecomprimeerd masker zijn ingesloten in een SWF-bestand met Adobe AS2 |
+| `swf` | JPEG met verlies ingesloten in een Adobe AS2 SWF-bestand |
+| `swf3-alpha` | JPEG met verlies en een gecomprimeerd masker zijn ingesloten in een SWF-bestand met Adobe AS3. **Opmerking:** SWF- en swf-alfa-indelingen kunnen het best worden gebruikt voor ActionScript 2-toepassingen (Flash Player 8 en eerder). De indelingen swf3 en swf3-alpha worden aanbevolen voor gebruik in ActionScript 3-toepassingen (Flash Player 9 en hoger) |
+| `swf3` | JPEG met verlies ingesloten in een Adobe AS3 SWF-bestand |
+| `tif-alpha` | TIFF met alfakanaal |
+| `tif` | TIFF |
+| `webp-alpha` | WebP zonder verlies en met alfakanaal |
+| `webp` | WebP zonder gegevensverlies |
 
-
-| *`pixelType`* — rgb | grijs | cmyk |
+| *`pixelType`* - rgb | grijs | cmyk |
 | *`pixelType`* | Beschrijving |
 |---|---|
-| `rgb` | Retourneer RGB-afbeeldingsgegevens. |
-| `gray` | Retourneer afbeeldingsgegevens met grijswaarden. |
 | `cmyk` | Retourneer CMYK-afbeeldingsgegevens. |
+| `gray` | Retourneer afbeeldingsgegevens met grijswaarden. |
+| `rgb` | Retourneer RGB-afbeeldingsgegevens. |
 
-| *`compression`* — geen | lzw | zip | jpeg | verlies | verliesloos |
+| *`compression`* - geen | lzw | zip | jpeg | verlies | verliesloos |
 | *`compression`* | Beschrijving |
 |---|---|
-| `none` | Niet gecomprimeerd |
-| `lzw` | LZW-compressie (Lempel-Ziv-Welch) (zonder verlies) |
-| `zip` | Compressie &#39;Deflate&#39; (zonder gegevensverlies) |
 | `jpeg` | JPEG-compressie (met verlies) |
 | `lossy` | WebP-, JPEG 2000- en JPEG XR-compressie (met verlies) |
 | `lossless` | WebP-, JPEG 2000- en JPEG XR-compressie (zonder gegevensverlies) |
+| `lzw` | LZW-compressie (Lempel-Ziv-Welch) (zonder verlies) |
+| `none` | Niet gecomprimeerd |
+| `zip` | Compressie &#39;Deflate&#39; (zonder gegevensverlies) |
 
 * *`format`* geeft de indeling voor afbeeldingscodering op voor afbeeldingsgegevens die naar de client worden verzonden en het bijbehorende MIME-type voor reactie op de HTTP-antwoordheader.
 * *`pixelType`* kan worden gebruikt voor het uitvoeren van kleurruimteconversie van de uitvoer wanneer deze niet  `icc=` is opgegeven.
@@ -148,7 +148,7 @@ De volgende lijst maakt een lijst van de geldige combinaties van *`format`*en *`
    <td colname="col5"> <p> <span class="codeph"> quantize=  </span> </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p>web, webp-alpha </p> </td> 
+   <td> <p>webp, webp-alpha </p> </td> 
    <td> <p>rgb </p> </td> 
    <td> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
    <td> <p>Nee </p> </td> 
@@ -164,6 +164,13 @@ De volgende lijst maakt een lijst van de geldige combinaties van *`format`*en *`
   <tr valign="top"> 
    <td> <p>jpegxr, jpegxr-alpha </p> </td> 
    <td> <p>rgb </p> </td> 
+   <td> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
+   <td> <p>Nee </p> </td> 
+   <td> <p>Hetzelfde als hierboven. </p> </td> 
+  </tr>
+  <tr valign="top"> 
+   <td> <p> avif, avif-alpha </p> </td> 
+   <td> <p>rgb</p> </td> 
    <td> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
    <td> <p>Nee </p> </td> 
    <td> <p>Hetzelfde als hierboven. </p> </td> 
