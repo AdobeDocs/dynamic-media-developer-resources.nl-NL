@@ -5,7 +5,7 @@ title: fmt
 feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: bb306f1063a91eeeb6b90e64aeb2d3143697ca34
+source-git-commit: 3ddb4c9291ee5439b67d78305589596b7935106c
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 0%
@@ -22,8 +22,8 @@ Indeling reactieafbeelding.
 
 | *`format`* | Beschrijving |
 |---|---|
-| `avif-alpha` | AVIF zonder verlies en verlies met alfakanaal <br><br>*Release-tijdlijn voor deze indeling:* <br><b>Noord-Amerika</b> - Beschikbaar nu<br><b>Europa, Midden-Oosten, Afrika</b> - 24 mei 2021<br><b>Asia-Pacific</b> - 24 juni 201 |
-| `avif` | AVIF <br><br>*Release-tijdlijn zonder verlies voor deze indeling:*<br><b> Noord-Amerika</b> - Beschikbaar nu<br><b>Europa, Midden-Oosten, Afrika</b> - 24 mei 2021<br><b>Asia-Pacific</b> - 24 juni 2021 |
+| `avif-alpha` | AVIF zonder verlies en verlies met alfakanaal <br><br>*Release-tijdlijn voor deze indeling:* <br><b>Noord-Amerika</b> - Beschikbaar nu<br><b>Europa, Midden-Oosten, Afrika</b> - 28 juni 2021<br><b>Asia-Pacific</b> - 29 juni 201 |
+| `avif` | AVIF <br><br>*Release-tijdlijn zonder verlies voor deze indeling:*<br><b> Noord-Amerika</b> - Beschikbaar nu<br><b>Europa, Midden-Oosten, Afrika</b> - 28 juni 2021<br><b>Asia-Pacific</b> - 29 juni 2021 |
 | `eps` | Niet-gecomprimeerde binaire Encapsulated PostScript |
 | `f4m` | Flash Streaming Server-manifest-indeling |
 | `gif-alpha` | GIF met 2 tot 255 kleuren plus transparantie van hoofdkleuren |
