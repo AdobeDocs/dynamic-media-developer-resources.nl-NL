@@ -5,14 +5,13 @@ solution: Experience Manager
 title: De eCatalog Search Viewer aanpassen
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 32b55fb1-1408-4264-92fa-b3a73f31df1d
+source-git-commit: 776539f14bbcd0342dac632c13a12eeb7b8efa21
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---
-
 
 # De eCatalog Search Viewer aanpassen{#customizing-ecatalog-search-viewer}
 
@@ -186,7 +185,7 @@ Hier volgt de documentatie van de gebruikersinterface-elementen die van toepassi
 * [Downloaden](r-html5-ecatsearch-customize-download.md)
 * [E-mailshare](r-html5-ecatsearch-customize-emailshare.md)
 * [Delen insluiten](r-html5-ecatsearch-customize-embedshare.md)
-* [Facebook-share](r-html5-ecatsearch-customize-facebookshare.md)
+* [Facebook share](r-html5-ecatsearch-customize-facebookshare.md)
 * [Favorieten, effect](r-html5-ecatsearch-customize-favoriteseffect.md)
 * [Menu Favorieten](r-html5-ecatsearch-customize-favoritesmenu.md)
 * [Weergave Favorieten](r-html5-ecatsearch-customize-favoritesview.md)
@@ -206,7 +205,7 @@ Hier volgt de documentatie van de gebruikersinterface-elementen die van toepassi
 * [Pagina-indicator](r-html5-ecatsearch-customize-pageindicator.md)
 * [Paginaweergave](r-html5-ecatsearch-customize-pageview.md)
 * [Knop Vorige pagina](r-html5-ecatsearch-customize-previouspagebutton.md)
-* [Afdrukken](r-html5-ecatalog-viewer-20-customize-print.md)
+* [Afdrukken](r-html5-ecatsearch-customize-print.md)
 * [Knop Favoriet verwijderen](r-html5-ecatsearch-customize-removefavorite.md)
 * [Knop Zoeken](r-html5-ecatsearch-customize-searchbutton.md)
 * [Zoeken, effect](r-html5-ecatsearch-customize-searcheffect.md)
@@ -217,9 +216,8 @@ Hier volgt de documentatie van de gebruikersinterface-elementen die van toepassi
 * [Miniaturen](r-html5-ecatsearch-customize-thumbnails.md)
 * [Knop Miniaturen](r-html5-ecatsearch-customize-thumbnailsbutton.md)
 * [Knopinfo](r-html5-ecatsearch-customize-tooltips.md)
-* [Twitter delen](r-html5-ecatsearch-customize-twittershare.md)
+* [Twitter share](r-html5-ecatsearch-customize-twittershare.md)
 * [De knop Alle favorieten weergeven](r-html5-ecatsearch-customize-viewallfavorites.md)
 * [Knop Inzoomen](r-html5-ecatsearch-customize-zoominbutton.md)
 * [Knop Uitzoomen](r-html5-ecatsearch-customize-zoomoutbutton.md)
 * [Knop Zoomen opnieuw instellen](r-html5-ecatsearch-customize-zoomresetbutton.md)
-
