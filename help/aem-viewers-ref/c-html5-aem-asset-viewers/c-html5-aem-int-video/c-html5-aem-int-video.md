@@ -2,13 +2,12 @@
 description: Interactive Video Viewer is een videospeler die streaming en progressieve video afspeelt die zijn gecodeerd in de H.264-indeling.
 solution: Experience Manager
 title: Interactieve video
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
 role: Developer,Business Practitioner
 exl-id: e54b0b1f-b015-4592-82e2-99f5080543e3
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 6df782b389f7e14b8ad510ebb6f143ece0db23c9
 workflow-type: tm+mt
-source-wordcount: '2234'
+source-wordcount: '2221'
 ht-degree: 0%
 
 ---
@@ -17,7 +16,7 @@ ht-degree: 0%
 
 Interactive Video Viewer is een videospeler die streaming en progressieve video afspeelt die zijn gecodeerd in de H.264-indeling.
 
-In de viewer van de viewer worden ook interactieve productstalen weergegeven naast de video-inhoud. Zowel enkelvoudige video als Adaptieve videosets worden ondersteund. Het is ontworpen voor zowel desktopbrowsers als mobiele webbrowsers die HTML5-video ondersteunen. De viewer ondersteunt optionele, gesloten bijschriften die boven op video-inhoud worden weergegeven, navigatie in videohoofdstukken en gereedschappen voor sociaal delen. Het doel van deze viewer is om u te helpen bij het implementeren van een &#39;shoppable video&#39;-ervaring. Met andere woorden, gebruikers kunnen een staal selecteren dat is gekoppeld aan een bepaald videotijdgebied en worden omgeleid naar een Snelle weergave of een pagina met productdetails op de website van de klant.
+In de viewer worden ook interactieve productstalen weergegeven naast de video-inhoud. Zowel enkelvoudige video als Adaptieve videosets worden ondersteund. Het is ontworpen voor zowel desktopbrowsers als mobiele webbrowsers die HTML5-video ondersteunen. De viewer ondersteunt optionele, gesloten bijschriften die boven op video-inhoud worden weergegeven, navigatie in videohoofdstukken en gereedschappen voor sociaal delen. Het doel van deze viewer is om u te helpen bij het implementeren van een &#39;shoppable video&#39;-ervaring. Met andere woorden, gebruikers kunnen een staal selecteren dat is gekoppeld aan een bepaald videotijdgebied en worden omgeleid naar een Snelle weergave of een pagina met productdetails op de website van de klant.
 
 Het viewertype is 510.
 
@@ -35,11 +34,11 @@ Zie [Systeemvereisten](../../c-system-requirements-and-prerequisites.md#concept-
 
 ## Interactieve videoviewer {#section-e6c68406ecdc4de781df182bbd8088b4} gebruiken
 
-De interactieve VideoKijker vertegenwoordigt een belangrijkste dossier JavaScript en een reeks helperdossiers (één enkele omvat JavaScript met alle componenten van de Kijker SDK die door deze bepaalde kijker, activa, en CSS worden gebruikt) die door de kijker in runtime worden gedownload.
+Interactieve video-viewer vertegenwoordigt een hoofd-JavaScript-bestand en een set hulpbestanden die door de viewer in runtime worden gedownload. Er wordt één JavaScript opgenomen in alle Viewer SDK-componenten die door deze viewer, elementen en CSS worden gebruikt.
 
 De interactieve VideoKijker kan in pop-up wijze worden gebruikt gebruikend productie-klaar HTML- pagina die met de Kijkers van de Dienstende Beeld wordt verstrekt. Het kan ook worden gebruikt in de ingesloten modus, waar het wordt geïntegreerd in de doelwebpagina met behulp van de gedocumenteerde API.
 
-Configuratie en skins zijn vergelijkbaar met die van de andere viewers die in deze handleiding worden beschreven. Alle skins toewijzen wordt bereikt door middel van aangepaste CSS (Cascading Style Sheets).
+Het vormen en het villen zijn gelijkaardig aan die van de andere kijkers die in deze gids worden beschreven. Alle skins toewijzen wordt bereikt door middel van aangepaste CSS (Cascading Style Sheets).
 
 Zie [De verwijzing van het Bevel gemeenschappelijk voor alle kijkers - de attributen van de Configuratie](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) en [De verwijzing van het Bevel gemeenschappelijk voor alle Kijkers - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
@@ -51,9 +50,9 @@ Op aanraakapparaten is de volumeregeling verborgen in de gebruikersinterface, om
 
 Wanneer de viewer werkt in de pop-upmodus, is er geen knop voor een volledig scherm beschikbaar in de gebruikersinterface.
 
-De viewer geeft een deelvenster weer met interactieve stalen rechts van het videoweergavegebied. De lijst met stalen wordt automatisch bijgewerkt tijdens het afspelen van de video, zodat de stalen die overeenkomen met het huidige videogebied worden weergegeven. Wanneer u op een staal klikt of erop tikt, wordt een handeling geactiveerd die tijdens het ontwerpen aan dat staal is gekoppeld. Afhankelijk van de manier waarop u deze instelt, kan de trigger worden omgeleid naar een andere pagina op de website of kan productinformatie worden teruggestuurd naar de webpaginalogica, die op zijn beurt weer kan leiden tot het openen van een Snelle weergave waarin verwante productinhoud wordt weergegeven.
+De viewer geeft een deelvenster weer met interactieve stalen rechts van het videoweergavegebied. De lijst met stalen wordt automatisch bijgewerkt tijdens het afspelen van de video, zodat de stalen die overeenkomen met het huidige videogebied worden weergegeven. Wanneer u op een staal klikt of erop tikt, wordt een handeling geactiveerd die tijdens het ontwerpen aan dat staal is gekoppeld. Afhankelijk van de manier waarop u de trigger instelt, kan de trigger worden omgeleid naar een andere pagina op de website. Het kan ook zijn dat productinformatie wordt teruggestuurd naar de webpaginalogica, die op zijn beurt weer kan leiden tot het openen van een Snelle weergave waarin verwante productinhoud wordt weergegeven.
 
-Het is mogelijk om snel door de video-inhoud te navigeren wanneer videochaptering wordt geactiveerd. De videohoofdstukken worden getoond als tellers in het videoscrubberspoor en tonen de hoofdstuktitel en beschrijving op rollover (of op één enkele aanraking op aanraaksystemen). De klant kan &quot;zoeken&quot;aan een bepaald hoofdstuk door een hoofdstukteller te klikken of een borrel van de hoofdstukbeschrijving te tikken.
+Het is mogelijk om snel door de video-inhoud te navigeren wanneer videochaptering wordt geactiveerd. Videohoofdstukken worden als markeringen weergegeven in de videoscrubbertrack en geven de titel en beschrijving van het hoofdstuk weer bij rollover (of op één tik op aanraaksystemen). De klant kan &quot;zoeken&quot;aan een bepaald hoofdstuk door een hoofdstukteller te klikken of een borrel van de hoofdstukbeschrijving te tikken.
 
 De viewer ondersteunt ook diverse gereedschappen voor het delen van sociale media. Ze zijn beschikbaar als één knop in de gebruikersinterface die wordt uitgevouwen tot een werkbalk voor delen wanneer de gebruiker erop klikt of tikt. De werkbalk voor delen bevat een pictogram voor elk type kanaal dat wordt ondersteund, zoals Facebook, Twitter, Delen via e-mail, Delen via code insluiten en delen van koppelingen. Wanneer gereedschappen voor delen via e-mail, insluiten of delen van koppelingen zijn geactiveerd, wordt in de viewer een modaal dialoogvenster weergegeven met een bijbehorend formulier voor gegevensinvoer. Wanneer Facebook of Twitter wordt aangeroepen, stuurt de viewer de gebruiker terug naar een standaarddialoogvenster voor delen via een sociale-mediaservice. Wanneer een gereedschap voor delen wordt geactiveerd, wordt het afspelen van video ook automatisch gepauzeerd. Delen van gereedschappen is niet beschikbaar in de modus Volledig scherm vanwege beveiligingsbeperkingen van de webbrowser.
 
@@ -61,7 +60,7 @@ De viewer is volledig toegankelijk via het toetsenbord. Zie [Toegankelijkheid en
 
 ## Interactieve video-viewer {#section-6bb5d3c502544ad18a58eafe12a13435} insluiten
 
-Interactieve video-viewer is ontworpen om te worden ingesloten in de hostpagina. Een dergelijke webpagina kan een statische lay-out hebben of kan &quot;responsief&quot; zijn en anders worden weergegeven op verschillende apparaten of voor verschillende venstergrootten in de browser.
+Interactieve video-viewer is ingesloten in de hostpagina. Een dergelijke webpagina kan een statische lay-out hebben of kan &quot;responsief&quot; zijn en anders worden weergegeven op verschillende apparaten of voor verschillende venstergrootten in de browser.
 
 Om aan deze behoeften tegemoet te komen, ondersteunt de viewer twee primaire bewerkingsmodi: insluiten met een vaste grootte en responsieve insluiting.
 
@@ -71,11 +70,11 @@ In de ingesloten modus wordt de viewer toegevoegd aan de bestaande webpagina, wa
 
 De belangrijkste gebruiksgevallen zijn webpagina&#39;s die zijn georiënteerd op desktops of tablets, en responsieve, ontworpen pagina&#39;s die de lay-out automatisch aanpassen, afhankelijk van het apparaattype.
 
-De insluiting met een vaste grootte wordt gebruikt wanneer de viewer de grootte niet wijzigt na het laden. Dit is de beste keuze voor webpagina&#39;s met een statische indeling.
+De insluiting met een vaste grootte wordt gebruikt wanneer de viewer de grootte niet wijzigt na het laden. Deze functionaliteit is de beste keuze voor webpagina&#39;s met een statische indeling.
 
-Bij het insluiten van responsieve ontwerpen wordt ervan uitgegaan dat de viewer tijdens runtime mogelijk de grootte moet wijzigen als reactie op de wijziging van de grootte van de container `DIV`. De meest gebruikte optie is het toevoegen van een viewer aan een webpagina die een flexibele pagina-indeling gebruikt.
+Bij het insluiten van responsieve ontwerpen wordt ervan uitgegaan dat de grootte van de viewer tijdens runtime moet worden aangepast als gevolg van de wijziging van de grootte van de container `DIV`. De meest gebruikte optie is het toevoegen van een viewer aan een webpagina die een flexibele pagina-indeling gebruikt.
 
-In de responsieve ontwerpinsluitingsmodus werkt de viewer anders, afhankelijk van de manier waarop de container `DIV` door de webpagina wordt verkleind. Als de webpagina alleen de breedte van de container `DIV` instelt en de hoogte onbeperkt laat, kiest de viewer automatisch de hoogte op basis van de hoogte-breedteverhouding van het element dat wordt gebruikt. Deze functionaliteit zorgt ervoor dat het element perfect in de weergave past zonder opvulling aan de zijkanten. Dit gebruiksgeval komt het meest voor voor Web-pagina&#39;s die ontvankelijke kaders van de Webontwerp lay-out zoals Bootstrap, Stichting, etc. gebruiken.
+In de responsieve ontwerpinsluitingsmodus werkt de viewer anders, afhankelijk van de manier waarop de container `DIV` door de webpagina wordt verkleind. Als de webpagina alleen de breedte van de container `DIV` instelt en de hoogte onbeperkt laat, kiest de viewer automatisch de hoogte op basis van de hoogte-breedteverhouding van het element dat wordt gebruikt. Deze functionaliteit zorgt ervoor dat het element perfect in de weergave past zonder opvulling aan de zijkanten. Dit gebruiksgeval is het gemeenschappelijkst voor Web-pagina&#39;s die ontvankelijke kaders van de lay-out van het Webontwerp zoals Bootstrap en Stichting gebruiken.
 
 Anders, als de Web-pagina zowel de breedte als de hoogte voor de container `DIV` van de kijker plaatst, vult de kijker enkel dat gebied en volgt de grootte die de Web-pagina lay-out verstrekt. Een goed voorbeeld is het insluiten van de viewer in een modale overlay, waarbij de grootte van de overlay wordt aangepast aan de venstergrootte van de webbrowser.
 
@@ -104,7 +103,7 @@ Het relatieve pad ziet er als volgt uit:
 
 >[!NOTE]
 >
->U moet alleen verwijzen naar het JavaScript-bestand `include` van de hoofdviewer op uw pagina. U moet niet verwijzen naar extra JavaScript-bestanden in de webpaginacode die door de logica van de viewer in runtime kunnen worden gedownload. Verwijs met name niet rechtstreeks naar de HTML5 SDK `Utils.js`-bibliotheek die door de viewer is geladen vanaf het contextpad `/s7viewers` (de zogeheten geconsolideerde SDK `include`). De reden hiervoor is dat de locatie van `Utils.js` of vergelijkbare runtimeviewerbibliotheken volledig wordt beheerd door de logica van de viewer en dat de locatie verandert tussen de viewerreleases. Adobe houdt oudere versies van de secundaire viewer `includes` niet op de server.
+>Verwijs alleen naar het JavaScript-bestand `include` van de hoofdviewer op de pagina. Verwijs niet naar extra JavaScript-bestanden in de webpaginacode die door de logica van de viewer in runtime kunnen worden gedownload. Verwijs met name niet rechtstreeks naar de HTML5 SDK `Utils.js`-bibliotheek die door de viewer is geladen vanaf het contextpad `/s7viewers` (de zogeheten geconsolideerde SDK `include`). De reden hiervoor is dat de locatie van `Utils.js` of vergelijkbare runtimeviewerbibliotheken volledig wordt beheerd door de logica van de viewer en dat de locatie verandert tussen de viewerreleases. Adobe houdt oudere versies van de secundaire viewer `includes` niet op de server.
 >
 >
 >Als u dus een directe verwijzing naar een secundair JavaScript `include` op de pagina plaatst, wordt de viewerfunctionaliteit in de toekomst verbroken wanneer een nieuwe productversie wordt geïmplementeerd.
@@ -127,7 +126,7 @@ Het relatieve pad ziet er als volgt uit:
 
    U kunt de statische grootte voor de kijker plaatsen door of het voor `.s7interactivevideoviewer` top-level CSS klasse in absolute eenheden te verklaren, of door `stagesize` bepaling te gebruiken.
 
-   U kunt de grootte in CSS rechtstreeks op de HTML-pagina plaatsen, of in een aangepast CSS-bestand van de viewer, dat later wordt toegewezen aan een viewer-voorinstellingsrecord in AEM Assets, op aanvraag, of expliciet wordt doorgegeven met de opdracht `style`.
+   U kunt de grootte in CSS rechtstreeks op de HTML-pagina plaatsen. U kunt het ook in een CSS-bestand voor een aangepaste viewer plaatsen, dat later wordt toegewezen aan een record met viewervoorinstellingen in AEM Assets, op aanvraag, of expliciet wordt doorgegeven met de opdracht `style`.
 
    Zie [Interactieve video-viewer aanpassen](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) voor meer informatie over het opmaken van de viewer met CSS.
 
@@ -152,11 +151,11 @@ Het relatieve pad ziet er als volgt uit:
 
    Wanneer u de bovenstaande stappen hebt voltooid, maakt u een instantie van de klasse `s7viewers.InteractiveVideoViewer`, geeft u alle configuratiegegevens door aan de constructor ervan en roept u `init()` methode aan voor een viewerinstantie. De informatie van de configuratie wordt overgegaan tot de aannemer als voorwerp JSON. Dit object moet minstens `containerId` veld hebben met de naam van de viewercontainer-id en het geneste `params` JSON-object met configuratieparameters die door de viewer worden ondersteund.
 
-   In dit geval moet voor het `params`-object ten minste de URL van de afbeeldingsserver worden doorgegeven als `serverUrl`-eigenschap en het eerste element als `asset`-parameter. Met de op JSON gebaseerde initialisatie-API kunt u de viewer maken en starten met één coderegel, een URL van de videoserver die wordt doorgegeven als `videoserverurl`-eigenschap, een eerste element als `asset`-parameter en interactieve gegevens als `interactivedata`-eigenschap. Met de op JSON gebaseerde initialisatie-API kunt u de viewer maken en starten met één coderegel.
+   In dit geval moet voor het `params`-object ten minste de URL van de afbeeldingsserver worden doorgegeven als `serverUrl`-eigenschap en het eerste element als `asset`-parameter. Met de op JSON gebaseerde initialisatie-API kunt u de viewer maken en starten met één coderegel, URL van de videoserver die wordt doorgegeven als `videoserverurl`-eigenschap, eerste element als `asset`-parameter en interactieve gegevens als `interactivedata`-eigenschap. Met de op JSON gebaseerde initialisatie-API kunt u de viewer maken en starten met één coderegel.
 
    Het is belangrijk dat de viewercontainer aan het DOM wordt toegevoegd, zodat de viewercode het containerelement op basis van de id kan vinden. Sommige browsers stellen het samenstellen van DOM tot het einde van de webpagina uit. Voor maximale compatibiliteit roept u de methode `init()` aan vlak voor de afsluitingstag `BODY` of op de hoofdgebeurtenis `onload()`.
 
-   Het containerelement hoeft echter nog geen deel uit te maken van de webpaginalay-out. Het kan bijvoorbeeld worden verborgen met de stijl `display:none` die eraan is toegewezen. In dit geval vertraagt de viewer het initialisatieproces totdat de webpagina het containerelement weer in de layout plaatst. In dat geval wordt het laden van de viewer automatisch hervat.
+   Tegelijkertijd maakt het containerelement nog niet noodzakelijkerwijs deel uit van de webpaginalay-out. Het kan bijvoorbeeld worden verborgen met de stijl `display:none` die eraan is toegewezen. In dit geval vertraagt de viewer het initialisatieproces totdat de webpagina het containerelement weer in de layout plaatst. In dat geval wordt het laden van de viewer automatisch hervat.
 
    Hieronder ziet u een voorbeeld van het maken van een viewer-instantie, waarbij de minimaal benodigde configuratieopties worden doorgegeven aan de constructor en de methode `init()` wordt aangeroepen. In het voorbeeld wordt uitgegaan van het volgende:
 
@@ -285,7 +284,7 @@ De volgende voorbeeldpagina illustreert het levensechte gebruik van responsieve 
 
 **Responsief insluiten met gedefinieerde breedte en hoogte**
 
-Bij responsieve insluiting waarbij breedte en hoogte zijn gedefinieerd, is de opmaak van de webpagina anders. Het verstrekt beide grootte aan `"holder"` DIV en centreert het in het browser venster. Bovendien stelt de webpagina de grootte van het element `HTML` en `BODY` in op 100 procent.
+Als er responsieve insluiting is waarbij breedte en hoogte zijn gedefinieerd, is de opmaak van de webpagina anders. Het verstrekt beide grootte aan `"holder"` DIV en centreert het in het browser venster. Bovendien stelt de webpagina de grootte van het element `HTML` en `BODY` in op 100 procent.
 
 ```
 <!DOCTYPE html> 
