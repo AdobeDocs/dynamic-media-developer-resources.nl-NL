@@ -5,9 +5,9 @@ title: Interactieve video
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
 role: Developer,Business Practitioner
 exl-id: e54b0b1f-b015-4592-82e2-99f5080543e3
-source-git-commit: 6df782b389f7e14b8ad510ebb6f143ece0db23c9
+source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
 workflow-type: tm+mt
-source-wordcount: '2221'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ Het viewertype is 510.
 
 ## URL&#39;s demo {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
-[https://marketing.adobe.com/resources/help/en_US/dm/shoppable-video/glacier/InteractiveVideoViewerDemo.html](https://marketing.adobe.com/resources/help/en_US/dm/shoppable-video/glacier/InteractiveVideoViewerDemo.html)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/glacier/InteractiveVideoViewerDemo.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/glacier/InteractiveVideoViewerDemo.html)
 
 en
 
-[https://marketing.adobe.com/resources/help/en_US/dm/shoppable-video/AXIS/index.html](https://marketing.adobe.com/resources/help/en_US/dm/shoppable-video/AXIS/index.html)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/AXIS/index.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/AXIS/index.html)
 
 ## Systeemvereisten {#section-b7270cc4290043399681dc504f043609}
 
@@ -280,7 +280,7 @@ De volgende voorbeeldpagina illustreert het levensechte gebruik van responsieve 
 
 [Live demo&#39;s](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-<!-- OLD DEMO LOCATION-KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
+[Locatie van alternatieve demo](https://experienceleague.adobe.com/tools/vlist/vlist.html)
 
 **Responsief insluiten met gedefinieerde breedte en hoogte**
 
