@@ -2,16 +2,15 @@
 description: Interactive Image Viewer is een viewer die één niet-zoombare afbeelding met aanklikbare hotspots weergeeft. Het doel van deze viewer is het implementeren van een 'shoppable banner'-ervaring. Met andere woorden, de gebruiker kan een hotspot boven de bannerafbeelding selecteren en worden omgeleid naar een pagina in de Snelle weergave of de productdetails op uw website. Het is ontworpen voor gebruik op desktops en mobiele apparaten.
 solution: Experience Manager
 title: Interactieve afbeelding
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve afbeeldingen
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c7089ecd-6ff3-4fe9-9ee7-3b48c9201558
+source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
 workflow-type: tm+mt
-source-wordcount: '1752'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # Interactieve afbeelding{#interactive-image}
 
@@ -25,7 +24,7 @@ Het viewertype is 508.
 
 ## Demo-URL {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
-[https://marketing.adobe.com/resources/help/en_US/dm/shoppable-banner/samples/InteractiveImage.html](https://marketing.adobe.com/resources/help/en_US/dm/shoppable-banner/samples/InteractiveImage.html)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage.html)
 
 ## Systeemvereisten {#section-b7270cc4290043399681dc504f043609}
 
@@ -245,7 +244,7 @@ var interactiveImage = new s7viewers.InteractiveImage({
 
 De volgende voorbeeldpagina illustreert het levensechte gebruik van responsieve ontwerpinsluiting met onbeperkte hoogte:
 
-[https://marketing.adobe.com/resources/help/en_US/dm/shoppable-banner/samples/InteractiveImage-responsive-unrestricted-height.html](https://marketing.adobe.com/resources/help/en_US/dm/shoppable-banner/samples/InteractiveImage-responsive-unrestricted-height.html)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage-responsive-unrestricted-height.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage-responsive-unrestricted-height.html)
 
 **Flexibel formaat Insluiten met gedefinieerde breedte en hoogte**
 
@@ -343,4 +342,3 @@ interactiveImage.init();
 </body> 
 </html> 
 ```
-
