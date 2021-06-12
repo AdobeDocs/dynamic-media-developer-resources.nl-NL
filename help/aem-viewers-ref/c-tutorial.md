@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Zelfstudie voor viewer-SDK
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 3a798595-6c65-4a12-983d-3cdc53830d28
+source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
-
 
 # Lesbestand voor viewer-SDK{#viewer-sdk-tutorial}
 
@@ -35,7 +34,7 @@ Deze zelfstudie bevat de volgende taakvolgorde om u te helpen een standaardzoomv
 
 ## Download de nieuwste viewer-SDK van Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
 
-1. Download de nieuwste Viewer SDK van Adobe Developer Connection [hier](https://marketing.adobe.com/developer/devcenter/scene7/show).
+1. Download de nieuwste Viewer SDK van Adobe Developer Connection <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) -->.
 
    >[!NOTE]
    >
@@ -391,4 +390,3 @@ U voegt nu knoppen voor inzoomen, uitzoomen en het opnieuw instellen van zoomen 
    Uw standaardzoomviewer is nu voltooid.
 
    Deze viewerzelfstudie behandelt de grondbeginselen van wat de Dynamic Media Viewer SDK biedt. Terwijl u met de SDK werkt, kunt u de verschillende standaardcomponenten gebruiken om eenvoudig rijke kijkervaringen voor uw doelpubliek te maken en te stijlaliseren.
-
