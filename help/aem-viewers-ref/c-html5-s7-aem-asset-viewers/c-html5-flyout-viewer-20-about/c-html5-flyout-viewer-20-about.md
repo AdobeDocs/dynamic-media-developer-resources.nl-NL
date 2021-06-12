@@ -5,14 +5,13 @@ solution: Experience Manager
 title: Flyout
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 9b60330f-5348-431d-9682-cf97aace3679
+source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
 workflow-type: tm+mt
-source-wordcount: '2095'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # Flyout{#flyout}
 
@@ -150,7 +149,7 @@ Een relatief pad ziet er als volgt uit:
 
    U kunt het gedrag met een vast buitenste viewergebied op de volgende voorbeeldpagina zien. Wanneer u schakelt tussen sets, verandert de grootte van de buitenste viewer niet:
 
-   [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/FlyoutViewer-fixed-outer-area.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/FlyoutViewer-fixed-outer-area.html)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html)
 
    Als u de afmetingen van de hoofdweergave statisch wilt maken, definieert u de viewergrootte in absolute eenheden voor de binnenste SDK-component met behulp van `.s7flyoutviewer .s7container` CSS-kiezer. `Container` Daarnaast moet u de vaste grootte die is gedefinieerd voor de CSS-klasse op hoofdniveau in de standaard viewer-CSS negeren door deze in te stellen op `auto`.`.s7flyoutviewer`
 
@@ -169,7 +168,7 @@ Een relatief pad ziet er als volgt uit:
 
    Op de volgende voorbeeldpagina ziet u het gedrag van de viewer met een vaste hoofdweergavegrootte. Wanneer u tussen sets schakelt, blijft de hoofdweergave statisch en wordt de inhoud van de webpagina verticaal verplaatst:
 
-   [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/FlyoutViewer-fixed-main-view.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/FlyoutViewer-fixed-main-view.html)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html)
 
    Houd er ook rekening mee dat de CSS van de standaardviewer een vaste grootte biedt voor het buitenste gebied.
 
@@ -303,7 +302,7 @@ De volgende voorbeeldpagina illustreert het levensechte gebruik van responsieve 
 
 [Live demo&#39;s](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-<!-- KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
+[Locatie van alternatieve demo](https://experienceleague.adobe.com/tools/vlist/vlist.html)
 
 ## Flexibele insluiting van grootte met gedefinieerde breedte en hoogte {#section-0a329016f9414d199039776645c693de}
 
@@ -405,4 +404,3 @@ flyoutViewer.init();
 </body> 
 </html>
 ```
-
