@@ -3,16 +3,15 @@ description: Spin Viewer is een beeldviewer die een weergave van 360 graden van 
 keywords: responsief
 solution: Experience Manager
 title: Draaien
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+feature: Dynamic Media Classic,Viewers,SDK/API,Draaiensets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4c802d42-ea5b-4f28-b6ef-2689aa16839d
+source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
 workflow-type: tm+mt
-source-wordcount: '2130'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # Draaien{#spin}
 
@@ -296,7 +295,7 @@ De volgende voorbeeldpagina illustreert hoe u in de praktijk meer gevallen kunt 
 
 [Live demo&#39;s](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-<!-- KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
+[Locatie van alternatieve demo](https://experienceleague.adobe.com/tools/vlist/vlist.html)
 
 **Flexibele insluiting van grootte met gedefinieerde breedte en hoogte**
 
@@ -394,4 +393,3 @@ spinViewer.init();
 </body> 
 </html>
 ```
-
