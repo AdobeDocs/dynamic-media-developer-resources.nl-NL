@@ -3,16 +3,15 @@ description: Zoomviewer is een afbeeldingsviewer waarin een afbeelding wordt wee
 keywords: responsief
 solution: Experience Manager
 title: Zoomen
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoomen
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 81a74026-fb15-4f57-a4c7-1ab005950245
+source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
 workflow-type: tm+mt
-source-wordcount: '2423'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # Zoomen{#zoom}
 
@@ -180,7 +179,7 @@ Het relatieve pad ziet er als volgt uit:
 
    In het volgende voorbeeld ziet u het gedrag met een vaste buitenviewer. Wanneer u schakelt tussen sets, verandert de grootte van de buitenste viewer niet:
 
-   [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/ZoomViewer-fixed-outer-area.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/ZoomViewer-fixed-outer-area.html)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html)
 
    Als u de afmetingen van de hoofdweergave statisch wilt maken, definieert u de viewergrootte in absolute eenheden voor de binnenste SDK-component met de CSS-kiezer `.s7zoomviewer` `.s7container` of met de optie `stagesize`.`Container`
 
@@ -195,7 +194,7 @@ Het relatieve pad ziet er als volgt uit:
 
    De volgende demopagina toont het gedrag van de viewer met een vaste hoofdweergavegrootte. Wanneer u tussen sets schakelt, blijft de hoofdweergave statisch en wordt de inhoud van de webpagina verticaal verplaatst.
 
-   [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/ZoomViewer-fixed-main-view.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/ZoomViewer-fixed-main-view.html)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html)
 
    U kunt de `stagesize` bepaling of in het vooraf ingestelde verslag van de kijker in Classic van Dynamic Media plaatsen, of u kunt het uitdrukkelijk met de de initialisatiecode van de kijker met de `params` inzameling of als API vraag overgaan zoals die in de sectie van de Verwijzing van het Bevel van deze Hulp wordt beschreven, zoals in het volgende:
 
@@ -415,4 +414,3 @@ zoomViewer.init();
 </body> 
 </html> 
 ```
-
