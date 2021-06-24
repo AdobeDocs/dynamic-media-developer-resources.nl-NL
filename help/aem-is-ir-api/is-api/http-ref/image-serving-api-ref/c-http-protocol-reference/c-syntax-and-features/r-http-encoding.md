@@ -2,18 +2,17 @@
 description: Opdrachtwaarden moeten http-gecodeerd zijn met gebruik van %xx escape-reeksen, zodat de waardetekenreeksen de gereserveerde tekens '=', '&' en '%' niet bevatten.
 solution: Experience Manager
 title: HTTP-codering van afbeeldingsserver
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: aec8463f-f72a-4203-89ab-8a4f0ad9d6f9
+source-git-commit: a05fb31b7c7515492723af63914d3e9999e65e9b
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '234'
 ht-degree: 21%
 
 ---
 
-
-# Beeld dat HTTP-codering{#image-serving-http-encoding} rendert
+# HTTP-codering van afbeeldingsserver{#image-serving-http-encoding}
 
 Opdrachtwaarden moeten http-gecodeerd zijn met gebruik van %xx escape-reeksen, zodat de waardetekenreeksen de gereserveerde tekens &#39;=&#39;, &#39;&amp;&#39; en &#39;%&#39; niet bevatten.
 
@@ -99,7 +98,7 @@ Anders zijn de standaard HTTP-coderingsregels van toepassing. De HTTP-specificat
    <td colname="col3"> <p>93 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>` </p> </td> 
+   <td colname="col1"> <p>&amp;grave; </p> </td> 
    <td colname="col2"> <p>60 </p> </td> 
    <td colname="col3"> <p>96 </p> </td> 
   </tr> 
