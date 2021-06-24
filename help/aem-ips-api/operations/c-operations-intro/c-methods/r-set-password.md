@@ -2,16 +2,15 @@
 description: Hiermee stelt u het wachtwoord van een specifieke gebruiker of de standaardgebruiker in op een specifieke waarde, afhankelijk van het feit of u een gebruikershandgreep opgeeft.
 solution: Experience Manager
 title: setPassword
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: e8d95b55-0a97-4887-b711-7be99833c389
+source-git-commit: a05fb31b7c7515492723af63914d3e9999e65e9b
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
 
 ---
-
 
 # setPassword{#setpassword}
 
@@ -19,7 +18,7 @@ Hiermee stelt u het wachtwoord van een specifieke gebruiker of de standaardgebru
 
 Vervaldatum wachtwoord is optioneel. Als u dit weglaat, verloopt het wachtwoord nooit.
 
-## Toegestane gebruikerstypen {#section-39ae61d78cab4492a6efc1fc0d2f06c4}
+## Typen geautoriseerde gebruikers {#section-39ae61d78cab4492a6efc1fc0d2f06c4}
 
 >[!NOTE]
 >
@@ -68,7 +67,7 @@ Vervaldatum wachtwoord is optioneel. Als u dit weglaat, verloopt het wachtwoord 
         <li id="li_6E3F084100104F2CBCF130EF8852C7B7">Engelse kleine letters. Bijvoorbeeld <span class="codeph"> a b c d e </span> enzovoort </li> 
         <li id="li_1FDED8D7348842BC857320D797D41217">Engelse tekens in hoofdletters. Bijvoorbeeld <span class="codeph"> A B C D E </span> enzovoort. </li> 
         <li id="li_C3C4D5412AA749F3B78F37B2B696CF80">Getallen. Bijvoorbeeld <span class="codeph"> 1 2 3 4 5 </span> enzovoort. </li> 
-        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Speciale symbooltekens. U kunt bijvoorbeeld een van de volgende handelingen uitvoeren: <span class="codeph"> ` ~ ! @ # $ % ^ * ( ) _ + - = { } | [ ] &amp; \ : " ; ' &lt; &gt; ? , . / </span> </li> 
+        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Speciale symbooltekens. U kunt bijvoorbeeld een van de volgende handelingen uitvoeren: <span class="codeph"> &amp;grave; ~ ! @ # $ % ^ * ( ) _ + - = { } | [ ] &amp; \ : " ; ' &lt; &gt; ? , . / </span> </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 
