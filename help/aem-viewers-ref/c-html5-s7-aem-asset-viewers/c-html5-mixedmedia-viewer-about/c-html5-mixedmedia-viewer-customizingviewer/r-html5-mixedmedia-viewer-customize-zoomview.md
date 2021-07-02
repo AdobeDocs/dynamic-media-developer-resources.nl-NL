@@ -2,16 +2,15 @@
 description: In de modus voor ononderbroken zoomen bestaat de hoofdweergave uit een afbeelding waarop kan worden ingezoomd wanneer het huidige element één afbeelding is.
 solution: Experience Manager
 title: Zoomweergave
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewers,SDK/API,Gemengde mediasets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0252436b-ba96-4273-b796-d1772fc093b0
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
-
 
 # Zoomweergave{#zoom-view}
 
@@ -75,4 +74,3 @@ Op desktopsystemen ondersteunt de component `cursortype`-kenmerkkiezer die op de
 * `slide`
 
    Wordt weergegeven wanneer de gebruiker de afbeelding omwisselt door een horizontale veegbeweging of tikbeweging uit te voeren.
-
