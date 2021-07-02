@@ -3,12 +3,12 @@ description: De gemengde Kijker van Media is een media kijker. De klasse biedt o
 keywords: responsief
 solution: Experience Manager
 title: Gemengde media
-feature: Dynamic Media Classic,Viewers,SDK/API,Mediasets mixen
+feature: Dynamic Media Classic,Viewers,SDK/API,Gemengde mediasets
 role: Developer,Business Practitioner
 exl-id: 65a54308-f9db-4458-a9c3-ccb1433af43c
-source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2662'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Zie [Systeemvereisten en -vereisten](../../c-system-requirements-and-prerequisit
 
 [https://s7d9.scene7.com/s7viewers/html5/MixedMediaViewer.html?asset=Scene7SharedAssets/Mixed_Media_Set_Sample](https://s7d9.scene7.com/s7viewers/html5/MixedMediaViewer.html?asset=Scene7SharedAssets/Mixed_Media_Set_Sample)
 
-## De gemengde Kijker van Media {#section-f21ac23d3f6449ad9765588d69584772} gebruiken
+## Gemengde Media Viewer gebruiken {#section-f21ac23d3f6449ad9765588d69584772}
 
 De gemengde Kijker van Media vertegenwoordigt een belangrijkste dossier JavaScript en een reeks helperdossiers (één enkele omvat JavaScript met alle componenten van SDK van de Kijker die door deze bepaalde kijker worden gebruikt, activa, CSS) door de kijker in runtime wordt gedownload.
 
@@ -43,7 +43,7 @@ Het configureren en toewijzen van een skin aan de viewer is vergelijkbaar met di
 
 Zie [De verwijzing van het Bevel gemeenschappelijk voor alle kijkers - de attributen van de Configuratie](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) en [De verwijzing van het Bevel gemeenschappelijk voor alle Kijkers - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## Interactie met gemengde Media Viewer {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
+## Interactie met de gemengde Media Viewer {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
 De gemengde Kijker van Media steunt enig-aanraak en multi-aanrakingsgebaren die in andere mobiele toepassingen gemeenschappelijk zijn. Wanneer de viewer de veegbeweging van een gebruiker niet kan verwerken, stuurt deze de gebeurtenis door naar de webbrowser om een native paginaschuiving uit te voeren. Met deze functionaliteit kan de gebruiker door de pagina navigeren, zelfs als de viewer het grootste gedeelte van het apparaatschermgebied in beslag neemt.
 
@@ -88,11 +88,11 @@ Deze viewer is volledig toegankelijk via het toetsenbord.
 
 Zie [Toegankelijkheid en navigatie op toetsenbord](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
-## Gemengde Media-viewer insluiten {#section-6bb5d3c502544ad18a58eafe12a13435}
+## Gemengde Media Viewer insluiten {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 Verschillende webpagina&#39;s hebben verschillende vereisten voor viewergedrag. Soms biedt een webpagina een koppeling die de viewer in een apart browservenster opent wanneer erop wordt geklikt. In andere gevallen moet u de viewer rechts insluiten op de hostpagina. In het laatste geval heeft de webpagina mogelijk een statische paginalay-out of wordt een responsief ontwerp gebruikt dat op verschillende apparaten of voor verschillende venstergrootten van de browser anders wordt weergegeven. Om aan deze behoeften tegemoet te komen, ondersteunt de viewer drie primaire bewerkingsmodi: pop-up, vaste grootte het inbedden, en ontvankelijk ontwerp het inbedden.
 
-## Info over pop-upmodus {#section-77d5aa03b8b94566958a179b1a2cd474}
+## Pop-upmodus {#section-77d5aa03b8b94566958a179b1a2cd474}
 
 In de pop-upmodus wordt de viewer geopend in een apart venster of tabblad van een webbrowser. Het neemt het volledige browservenstergebied en past zich aan voor het geval de browser wordt aangepast of de oriëntatie van een mobiel apparaat wordt gewijzigd.
 
@@ -110,7 +110,7 @@ Hieronder ziet u een voorbeeld van HTML-code waarmee de viewer in een nieuw vens
 <a href="http://s7d1.scene7.com/s7viewers/html5/MixedMediaViewer.html?asset=Scene7SharedAssets/Mixed_Media_Set_Sample" target="_blank">Open popup viewer</a>
 ```
 
-## Over een vaste grootte en responsieve ontwerpinsluiting {#section-ec86b100ba5943d0b16694268520bbde}
+## Vaste grootte en responsieve ontwerpinsluiting {#section-ec86b100ba5943d0b16694268520bbde}
 
 In de ingesloten modus wordt de viewer toegevoegd aan de bestaande webpagina, waar al inhoud van de klant beschikbaar is die geen betrekking heeft op de viewer. De viewer neemt doorgaans slechts een deel van het onroerend goed van een webpagina in beslag.
 
@@ -149,7 +149,7 @@ Het relatieve pad ziet er als volgt uit:
 
 >[!NOTE]
 >
->U moet alleen verwijzen naar het JavaScript-bestand `include` van de hoofdviewer op uw pagina. U moet niet verwijzen naar extra JavaScript-bestanden in de webpaginacode die door de logica van de viewer in runtime kunnen worden gedownload. Verwijs met name niet rechtstreeks naar de HTML5 SDK `Utils.js`-bibliotheek die door de viewer is geladen vanaf het contextpad `/s7viewers` (de zogeheten geconsolideerde SDK `include`). De reden hiervoor is dat de locatie van `Utils.js` of vergelijkbare runtimeviewerbibliotheken volledig wordt beheerd door de logica van de viewer en dat de locatie verandert tussen viewerreleases. Adobe houdt oudere versies van de secundaire viewer `includes` niet op de server.
+>U moet alleen verwijzen naar het JavaScript-bestand `include` van de hoofdviewer op uw pagina. U moet niet verwijzen naar extra JavaScript-bestanden in de webpaginacode die door de logica van de viewer in runtime kunnen worden gedownload. Verwijs met name niet rechtstreeks naar de HTML5 SDK `Utils.js`-bibliotheek die door de viewer is geladen vanaf het contextpad `/s7viewers` (de zogeheten geconsolideerde SDK `include`). De reden hiervoor is dat de locatie van `Utils.js` of vergelijkbare runtimeviewerbibliotheken volledig wordt beheerd door de logica van de viewer en dat de locatie verandert tussen de viewerreleases. Adobe houdt oudere versies van de secundaire viewer `includes` niet op de server.
 >
 >
 >Als u dus een directe verwijzing naar een secundair JavaScript `include` op de pagina plaatst, wordt de viewerfunctionaliteit in de toekomst verbroken wanneer een nieuwe productversie wordt geïmplementeerd.
@@ -398,7 +398,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 </html>
 ```
 
-## Insluiten met een op Setter gebaseerde API {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}
+## Insluiten met behulp van op Setter gebaseerde API {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}
 
 In plaats van JSON-gebaseerde initialisatie, is het mogelijk om op setter-gebaseerde API en no-args aannemer te gebruiken. Wanneer u deze API-constructor gebruikt, worden geen parameters gebruikt en worden configuratieparameters opgegeven met de API-methoden `setContainerId()`, `setParam()` en `setAsset()`, met aparte JavaScript-aanroepen.
 
