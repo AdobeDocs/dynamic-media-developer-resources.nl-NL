@@ -2,16 +2,15 @@
 description: ZoomView.enableHD
 solution: Experience Manager
 title: ZoomView.enableHD
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewers,SDK/API,Gemengde mediasets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f6b25105-7b70-48f7-b3d6-e53110fd628b
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
-
 
 # ZoomView.enableHD{#zoomview-enablehd}
 
@@ -25,7 +24,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> getal</span></span> </p> </td> 
-   <td colname="col2"> <p> Als u de limietinstelling gebruikt, schakelt de component hoge pixeldichtheid alleen in tot de opgegeven limiet. </p> <p>Zie voorbeeld 2 hieronder. </p> </td> 
+   <td colname="col2"> <p> Als u de limietinstelling gebruikt, schakelt de component een hoge pixeldichtheid alleen in tot de opgegeven limiet. </p> <p>Zie voorbeeld 2 hieronder. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -73,4 +72,3 @@ De volgende resultaten worden verwacht wanneer u dit configuratiekenmerk in de v
   </tr> 
  </tbody> 
 </table>
-
