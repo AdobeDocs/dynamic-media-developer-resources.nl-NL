@@ -2,18 +2,17 @@
 description: Als u op deze knop klikt of erop tikt, wordt de afbeelding in de hoofdweergave links gecentreerd. Deze knop wordt niet weergegeven op mobiele telefoons om de schermruimte op te slaan. De knop is ook verborgen wanneer een multidimensionale centrifugeset wordt gebruikt. U kunt de grootte, de huid, en de positie van de knoop gebruikend CSS.
 solution: Experience Manager
 title: Linkerkant draaien, knop
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewers,SDK/API,Gemengde mediasets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0c7ca422-f4ac-4ad1-ab51-8521b4d4b20e
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
 
-
-# Linkerknop draaien{#spin-left-button}
+# Linkerkant draaien, knop{#spin-left-button}
 
 Als u op deze knop klikt of erop tikt, wordt de afbeelding in de hoofdweergave links gecentreerd. Deze knop wordt niet weergegeven op mobiele telefoons om de schermruimte op te slaan. De knop is ook verborgen wanneer een multidimensionale centrifugeset wordt gebruikt. U kunt de grootte, de huid, en de positie van de knoop gebruikend CSS.
 
@@ -140,4 +139,3 @@ background-image:url(images/v2/SpinLeftButton_light_down.png);
 background-image:url(images/v2/SpinLeftButton_light_disabled.png); 
 }
 ```
-
