@@ -2,16 +2,15 @@
 description: Als u op deze knop klikt of erop tikt, zoomt u in op een afbeelding in de hoofdweergave. Deze knop wordt niet weergegeven op mobiele telefoons om de schermruimte op te slaan. U kunt deze knop vergroten, verkleinen, verkleinen en plaatsen met CSS.
 solution: Experience Manager
 title: Knop Inzoomen
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewers,SDK/API,Gemengde mediasets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 663f9bb5-c432-4b34-ac76-a62826994a81
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
-
 
 # Knop Inzoomen{#zoom-in-button}
 
@@ -98,4 +97,3 @@ background-image:url(images/v2/ZoomInButton_dark_down.png);
 background-image:url(images/v2/ZoomInButton_dark_disabled.png); 
 }
 ```
-
