@@ -2,18 +2,17 @@
 description: Als u op deze knop klikt of erop tikt, wordt een afbeelding in de hoofdweergave opnieuw ingesteld. U kunt deze knop vergroten, verkleinen, verkleinen en plaatsen met CSS.
 solution: Experience Manager
 title: Knop Zoomen opnieuw instellen
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewers,SDK/API,Gemengde mediasets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2ec91f8f-d1e7-454a-8792-9525895527af
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
 
-
-# Knop Zoomreset{#zoom-reset-button}
+# Knop Zoomen opnieuw instellen{#zoom-reset-button}
 
 Als u op deze knop klikt of erop tikt, wordt een afbeelding in de hoofdweergave opnieuw ingesteld. U kunt deze knop vergroten, verkleinen, verkleinen en plaatsen met CSS.
 
@@ -98,4 +97,3 @@ background-image:url(images/v2/ZoomResetButton_dark_down.png);
 background-image:url(images/v2/ZoomResetButton_dark_disabled.png); 
 }
 ```
-
