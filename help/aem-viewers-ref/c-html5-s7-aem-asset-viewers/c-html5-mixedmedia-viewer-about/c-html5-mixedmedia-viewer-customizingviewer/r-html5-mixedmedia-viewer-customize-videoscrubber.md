@@ -2,18 +2,17 @@
 description: De videoscrubber is de horizontale schuifregelaar waarmee een gebruiker dynamisch naar een willekeurige tijdpositie in de video kan zoeken die momenteel wordt afgespeeld.
 solution: Experience Manager
 title: Videoscrubber
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewers,SDK/API,Gemengde mediasets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3e9c8800-fda2-41d1-8436-b2de7952652c
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
 
-
-# Video scrubber{#video-scrubber}
+# Videoscrubber{#video-scrubber}
 
 De videoscrubber is de horizontale schuifregelaar waarmee een gebruiker dynamisch naar een willekeurige tijdpositie in de video kan zoeken die momenteel wordt afgespeeld.
 
@@ -183,4 +182,3 @@ height:10px;
 background-color:#888888; 
 }
 ```
-
