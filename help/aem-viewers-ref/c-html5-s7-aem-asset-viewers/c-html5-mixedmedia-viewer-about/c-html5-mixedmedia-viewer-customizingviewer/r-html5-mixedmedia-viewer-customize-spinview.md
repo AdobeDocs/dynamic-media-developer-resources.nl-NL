@@ -2,16 +2,15 @@
 description: De hoofdweergave bestaat uit de draaiafbeelding wanneer het huidige element een spin-set is.
 solution: Experience Manager
 title: Weergave draaien
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewers,SDK/API,Gemengde mediasets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: aafc1299-b09a-4379-bd8f-b564066175bd
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
-
 
 # Weergave draaien{#spin-view}
 
@@ -49,4 +48,3 @@ Voorbeeld - om de centrifugeweergave transparant te maken.
  background-color: transparent; 
 }
 ```
-
