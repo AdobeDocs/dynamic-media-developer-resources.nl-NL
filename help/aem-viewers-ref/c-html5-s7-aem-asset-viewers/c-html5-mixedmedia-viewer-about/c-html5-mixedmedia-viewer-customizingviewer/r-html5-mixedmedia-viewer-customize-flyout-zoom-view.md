@@ -2,18 +2,17 @@
 description: In de hoofdweergave van de inline zoommodus bestaat de ingezoomde afbeelding uit de statische afbeelding die in de uitvliegweergave boven de statische afbeelding wordt weergegeven en het uiteindebericht dat boven op de statische afbeelding wordt weergegeven.
 solution: Experience Manager
 title: Zoomweergave flyout
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewers,SDK/API,Gemengde mediasets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 46c91d1f-5809-4270-a06d-5068d20a6341
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
 
-
-# Zoomweergave in flyout{#flyout-zoom-view}
+# Zoomweergave flyout{#flyout-zoom-view}
 
 In de hoofdweergave van de inline zoommodus bestaat de ingezoomde afbeelding uit de statische afbeelding die in de uitvliegweergave boven de statische afbeelding wordt weergegeven en het uiteindebericht dat boven op de statische afbeelding wordt weergegeven.
 
@@ -125,4 +124,3 @@ opacity: 0.5;
 filter: alpha(opacity = 50); 
 }
 ```
-
