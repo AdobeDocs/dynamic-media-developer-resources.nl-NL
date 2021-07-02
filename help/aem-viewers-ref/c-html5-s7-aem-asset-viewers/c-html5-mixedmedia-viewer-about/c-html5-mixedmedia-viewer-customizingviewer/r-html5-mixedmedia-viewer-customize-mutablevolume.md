@@ -2,18 +2,17 @@
 description: Het veranderbare volumeregelaar verschijnt aanvankelijk als knoop die een gebruiker het geluid van de videospeler laat dempen of dempen.
 solution: Experience Manager
 title: Meerbaar volume
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewers,SDK/API,Gemengde mediasets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 9afa56f9-443c-4307-843c-d7ddba6ec604
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
 
-
-# Mutable volume{#mutable-volume}
+# Meerbaar volume{#mutable-volume}
 
 Het veranderbare volumeregelaar verschijnt aanvankelijk als knoop die een gebruiker het geluid van de videospeler laat dempen of dempen.
 
@@ -231,4 +230,3 @@ left:9px;
 background-image:url(images/volumeKnob.png); 
 }
 ```
-
