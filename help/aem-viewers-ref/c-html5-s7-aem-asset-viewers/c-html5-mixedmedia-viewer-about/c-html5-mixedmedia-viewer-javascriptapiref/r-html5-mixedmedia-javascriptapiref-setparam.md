@@ -2,16 +2,15 @@
 description: JavaScript API-referentie voor gemengde media-viewer.
 solution: Experience Manager
 title: setParam
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewers,SDK/API,Gemengde mediasets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 610a5a7d-1314-48bc-a640-319139d64adc
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
-
 
 # setParam{#setparam}
 
@@ -45,4 +44,3 @@ Geen.
 ```
 <instance>.setParam("style", "customStyle.css")
 ```
-
