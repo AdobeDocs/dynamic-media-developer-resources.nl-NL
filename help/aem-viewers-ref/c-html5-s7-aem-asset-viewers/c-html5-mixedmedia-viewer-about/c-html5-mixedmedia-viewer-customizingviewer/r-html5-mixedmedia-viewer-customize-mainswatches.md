@@ -2,16 +2,15 @@
 description: Hoofdstalen bestaan uit een rij miniatuurafbeeldingen met optionele schuifknoppen aan de linker- en rechterkant. Schuifknoppen zijn alleen zichtbaar op het bureaublad als alle miniaturen niet in de breedte van de container passen. Op mobiele apparaten, of als de duimnagels in de containerbreedte kunnen passen, worden de rolknopen niet getoond.
 solution: Experience Manager
 title: Hoofdstalen
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewers,SDK/API,Gemengde mediasets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e6ff32bf-f85a-4288-a0e5-34487229a9d9
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
-
 
 # Hoofdstalen{#main-swatches}
 
@@ -241,4 +240,3 @@ background-image:url(images/v2/ScrollRightButton_up.png);
  background-image:url(images/v2/ScrollRightButton_disabled.png); 
 }
 ```
-
