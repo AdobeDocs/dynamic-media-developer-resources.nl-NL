@@ -2,16 +2,15 @@
 description: Met de knop Afspelen/Pauzeren wordt de video-inhoud afgespeeld of gepauzeerd wanneer de gebruiker erop klikt.
 solution: Experience Manager
 title: Knop Afspelen/Pauzeren
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewers,SDK/API,Gemengde mediasets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 8312645f-5704-499f-b66a-cf51dd8c1ec7
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
-
 
 # Knop Afspelen/Pauzeren{#play-pause-button}
 
@@ -27,7 +26,7 @@ De volgende CSS-klassenkiezer bepaalt de vormgeving van de knop:
 .s7mixedmediaviewer .s7playpausebutton
 ```
 
-## CSS-eigenschappen van de knop voor afspelen/pauzeren {#css-properties-of-the-play-pause-button}
+## CSS-eigenschappen van de knop Afspelen/Onderbreken {#css-properties-of-the-play-pause-button}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -122,4 +121,3 @@ background-image:url(images/replayBtn_down.png);
 background-image:url(images/replayBtn_disabled.png); 
 }
 ```
-
