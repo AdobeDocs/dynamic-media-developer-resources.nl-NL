@@ -2,16 +2,15 @@
 description: Documentatie met configuratiekenmerken voor gemengde Media Viewer.
 solution: Experience Manager
 title: Command reference - Configuration attributes
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewers,SDK/API,Gemengde mediasets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: aa750941-0a2e-4591-bdff-5e71ecc342aa
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
-
 
 # Command reference - Configuration attributes{#command-reference-configuration-attributes}
 
