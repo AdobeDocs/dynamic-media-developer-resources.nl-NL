@@ -2,18 +2,17 @@
 description: De knop Volledig scherm zorgt ervoor dat de viewer de modus Volledig scherm opent of verlaat wanneer de gebruiker hierop klikt. Het wordt gebruikt wanneer de kijker video toont en in de controlebar wordt gevestigd. Deze knop wordt niet weergegeven als de viewer werkt in de pop-upmodus en het systeem geen native volledig scherm ondersteunt.
 solution: Experience Manager
 title: Knop Video volledig scherm
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewers,SDK/API,Gemengde mediasets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 45811efa-95f6-4b6d-96f8-9e5437a55f0e
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
 
-
-# Video volledig-schermknoop{#video-full-screen-button}
+# Knop Video volledig scherm{#video-full-screen-button}
 
 De knop Volledig scherm zorgt ervoor dat de viewer de modus Volledig scherm opent of verlaat wanneer de gebruiker hierop klikt. Het wordt gebruikt wanneer de kijker video toont en in de controlebar wordt gevestigd. Deze knop wordt niet weergegeven als de viewer werkt in de pop-upmodus en het systeem geen native volledig scherm ondersteunt.
 
@@ -108,4 +107,3 @@ background-image:url(images/exitFullBtn_down.png);
 background-image:url(images/exitFullBtn_disabled.png); } 
 }
 ```
-
