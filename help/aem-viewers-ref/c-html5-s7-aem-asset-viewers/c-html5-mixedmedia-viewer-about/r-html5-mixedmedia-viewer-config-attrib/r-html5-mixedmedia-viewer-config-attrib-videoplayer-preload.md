@@ -2,16 +2,15 @@
 description: Geeft aan of de viewer begint met het laden van video-inhoud voordat het afspelen wordt gestart.
 solution: Experience Manager
 title: VideoPlayer.preload
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewers,SDK/API,Gemengde mediasets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 90fb988a-255c-46fe-b05a-39c95ae8b95d
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '128'
 ht-degree: 1%
 
 ---
-
 
 # VideoPlayer.preload{#videoplayer-preload}
 
