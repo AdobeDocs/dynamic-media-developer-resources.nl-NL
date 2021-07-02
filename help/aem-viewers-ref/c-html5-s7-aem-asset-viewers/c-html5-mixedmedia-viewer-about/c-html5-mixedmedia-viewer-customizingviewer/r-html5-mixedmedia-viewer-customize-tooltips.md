@@ -2,16 +2,15 @@
 description: Op desktopsystemen hebben bepaalde gebruikersinterface-elementen, zoals knoppen, knopinfo die wordt weergegeven wanneer de muisaanwijzer wordt bewogen.
 solution: Experience Manager
 title: Knopinfo
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewers,SDK/API,Gemengde mediasets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: bbf8e8f0-eb1c-49fa-a501-4c7ed7827595
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
-
 
 # Knopinfo{#tooltips}
 
@@ -78,4 +77,3 @@ Voorbeeld - voor het instellen van knopinfo met een grijze rand met een hoekstra
  font-size: 11px; 
 }
 ```
-
