@@ -2,28 +2,27 @@
 description: De gemengde Kijker van Media steunt het uit-van-de-doos volgen van Adobe Analytics.
 solution: Experience Manager
 title: Ondersteuning voor Adobe Analytics-tracking
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewers,SDK/API,Gemengde mediasets
 role: Developer,Business Practitioner,Data Engineer,Data Architect
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3b28c853-3747-4805-a141-3cce1398d783
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
 
-
-# Ondersteuning voor Adobe Analytics tracking{#support-for-adobe-analytics-tracking}
+# Ondersteuning voor Adobe Analytics-tracking{#support-for-adobe-analytics-tracking}
 
 De gemengde Kijker van Media steunt het uit-van-de-doos volgen van Adobe Analytics.
 
-## Buiten-de-box tracking {#section-ba994f079d0343c8ae48adffaa3195a3}
+## Buiten-de-box-tracking {#section-ba994f079d0343c8ae48adffaa3195a3}
 
 De gemengde Kijker van Media steunt [!DNL Adobe Analytics] het volgen uit-van-de-doos. Als u reeksspatiëring wilt inschakelen, geeft u de juiste naam van de bedrijfsvoorinstelling door als `config2`-parameter.
 
 De kijker verzendt ook één enkele het volgen HTTP- verzoek naar de gevormde Server van het Beeld met het viewertype en versieinformatie.
 
-## Aangepaste tekstspatiëring {#section-cda48fc9730142d0bb3326bac7df3271}
+## Aangepaste reeksspatiëring {#section-cda48fc9730142d0bb3326bac7df3271}
 
 Om met derdeanalysesystemen te integreren is het noodzakelijk om aan `trackEvent` kijkerscallback te luisteren en het `eventInfo` argument van de callback functie zonodig te verwerken. De volgende code is een voorbeeld van een dergelijke handlerfunctie:
 
@@ -102,4 +101,3 @@ De viewer houdt de volgende SDK-gebruikersgebeurtenissen bij:
   </tr> 
  </tbody> 
 </table>
-
