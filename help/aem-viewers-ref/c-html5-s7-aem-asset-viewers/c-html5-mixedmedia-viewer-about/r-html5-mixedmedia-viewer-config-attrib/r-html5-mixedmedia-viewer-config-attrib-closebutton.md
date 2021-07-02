@@ -2,16 +2,15 @@
 description: closebutton
 solution: Experience Manager
 title: closebutton
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewers,SDK/API,Gemengde mediasets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 32e888ea-52d7-4ec3-8b59-e513033a73b8
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 5%
+source-wordcount: '31'
+ht-degree: 6%
 
 ---
-
 
 # closebutton{#closebutton}
 
