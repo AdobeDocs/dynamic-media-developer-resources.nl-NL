@@ -2,16 +2,15 @@
 description: De videospeler is het rechthoekige gebied waar de video-inhoud wordt weergegeven in de viewer.
 solution: Experience Manager
 title: Videospeler
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewers,SDK/API,Gemengde mediasets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2f92d76e-3104-4ad8-9426-662275492251
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
-
 
 # Videospeler{#video-player}
 
@@ -149,4 +148,3 @@ Voorbeeld - Als u een bufferanimatie wilt instellen op 101 pixels breed en 29 pi
  background-image: url(images/sdk/busyicon.gif); 
 }
 ```
-
