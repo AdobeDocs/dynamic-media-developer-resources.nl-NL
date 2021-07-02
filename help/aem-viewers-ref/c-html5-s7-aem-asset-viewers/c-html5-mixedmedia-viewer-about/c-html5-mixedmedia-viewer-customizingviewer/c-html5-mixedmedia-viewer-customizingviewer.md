@@ -3,16 +3,15 @@ description: Alle visuele aanpassingen en de meeste gedragsaanpassingen voor de 
 keywords: responsief
 solution: Experience Manager
 title: Gemengde Media Viewer aanpassen
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewers,SDK/API,Gemengde mediasets
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3bea8efb-faf8-4909-b51a-0b9964fcd735
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '1340'
+source-wordcount: '1337'
 ht-degree: 0%
 
 ---
-
 
 # Gemengde Media Viewer aanpassen{#customizing-mixed-media-viewer}
 
@@ -36,7 +35,7 @@ Houd er bij het maken van aangepaste CSS rekening mee dat de viewer de klasse `.
 
 `#<containerId>.s7mixedmediaviewer`
 
-## Responsieve ontworpen CSS maken {#section-0bb49aca42d242d9b01879d5ba59d33b}
+## Responsieve CSS maken {#section-0bb49aca42d242d9b01879d5ba59d33b}
 
 Het is mogelijk om verschillende apparaten en insluitingsgrootten in CSS als doel in te stellen om de weergave van uw inhoud te wijzigen, afhankelijk van het apparaat van de gebruiker of een bepaalde webpaginalay-out. Dit geldt onder andere voor verschillende webpaginalay-outs, de grootte van gebruikersinterface-elementen en de resolutie van illustraties.
 
@@ -172,7 +171,7 @@ background-position: -0px -560px;
 }
 ```
 
-## Algemene opmaaknotities en advies {#section-95855dccbbc444e79970f1aaa3260b7b}
+## Algemene opmaakopmerkingen en advies {#section-95855dccbbc444e79970f1aaa3260b7b}
 
 * Alle paden naar externe elementen in CSS worden omgezet op de CSS-locatie, niet op de locatie van de HTML-pagina van de viewer. Houd rekening met deze regel wanneer u de standaard-CSS naar een andere locatie kopieert. Kopieer de standaardelementen of werk paden bij in de aangepaste CSS.
 * De voorkeursindeling voor bitmapillustraties is PNG.
@@ -185,6 +184,6 @@ background-position: -0px -560px;
 
 * Wanneer u de gebruikersinterface van de viewer aanpast met CSS, wordt het gebruik van de regel `!IMPORTANT` niet ondersteund voor het opmaken van viewerelementen. Met name `!IMPORTANT`-regel mag niet worden gebruikt om standaardstijlen of runtimestijlen van de viewer of Viewer SDK te negeren. De reden hiervoor is dat het het gedrag van juiste componenten kan beïnvloeden. Gebruik in plaats daarvan CSS-kiezers met de juiste specificiteit om CSS-eigenschappen in te stellen die in deze naslaggids worden beschreven.
 
-## Elementen van de gemeenschappelijke gebruikersinterface {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
+## Algemene gebruikersinterface-elementen {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
 
 Hieronder vindt u de referentiedocumentatie voor gebruikersinterface-elementen die van toepassing is op de gemengde Media Viewer:
