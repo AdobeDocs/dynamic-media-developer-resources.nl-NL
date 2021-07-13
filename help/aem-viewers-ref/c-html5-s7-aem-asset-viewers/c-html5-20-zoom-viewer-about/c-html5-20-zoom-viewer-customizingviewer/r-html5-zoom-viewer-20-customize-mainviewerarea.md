@@ -2,16 +2,15 @@
 description: Het hoofdweergavegebied is het gebied dat wordt ingenomen door de zoomafbeelding en -stalen. Deze wordt meestal ingesteld op het beschikbare apparaatscherm wanneer geen grootte is opgegeven.
 solution: Experience Manager
 title: Hoofdviewergebied
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoomen
+role: Developer,User
+exl-id: 62cbb3e6-e766-40a3-9c01-d22ade82b604
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
-
 
 # Hoofdviewergebied{#main-viewer-area}
 
@@ -61,4 +60,3 @@ Voorbeeld: een viewer instellen met een witte achtergrond ( `#FFFFFF`) en de gro
  height: 288px;  
 }
 ```
-
