@@ -3,17 +3,16 @@ description: Afhankelijk van de waarde van de modusparameter worden in de viewer
 solution: Experience Manager
 title: Afbeeldingskaart, effect
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,User
+exl-id: 873fc387-1d2a-4d74-b85e-fcbb13b691c5
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
 
-
-# Afbeeldingskaarteffect{#image-map-effect}
+# Afbeeldingskaart, effect{#image-map-effect}
 
 Afhankelijk van de waarde van de modusparameter worden in de viewer pictogrammen voor afbeeldingen met hyperlinks in de hoofdweergave weergegeven op plaatsen waar kaarten oorspronkelijk zijn gemaakt in Dynamic Media Classic of worden exacte gebieden weergegeven die overeenkomen met de vorm van de oorspronkelijke afbeeldingen met hyperlinks.
 
@@ -117,4 +116,3 @@ Voorbeeld - stel een transparant gebied voor een afbeelding met een zwarte pixel
  background: RGBA(0,0,0,0);  
 }
 ```
-
