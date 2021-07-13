@@ -2,18 +2,17 @@
 description: Met Afbeeldingsserver kunt u niet-afbeeldingsinhoud in catalogi beheren en deze via een aparte /is/content-context bedienen.
 solution: Experience Manager
 title: Statische (niet-afbeeldings) inhoud bedienen
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: adc3d972-b02d-40db-992e-acaa06b848ff
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
 
-
-# Statische (niet-grafische) inhoud{#serving-static-non-image-contents} leveren
+# Statische (niet-afbeeldings) inhoud bedienen{#serving-static-non-image-contents}
 
 Met Afbeeldingsserver kunt u niet-afbeeldingsinhoud in catalogi beheren en deze via een aparte /is/content-context bedienen.
 
@@ -73,7 +72,7 @@ Beeldserver ondersteunt de volgende opdrachten op [!DNL /is/content]:
  </tr> 
 </table>
 
-## Statische inhoudcatalogi {#section-91014f17f0d543d7aaf24539b2d7d4b9}
+## Statische inhoudscatalogi {#section-91014f17f0d543d7aaf24539b2d7d4b9}
 
 Catalogi met statische inhoud zijn vergelijkbaar met catalogi met afbeeldingen, maar ondersteunen minder gegevensvelden:
 
@@ -116,7 +115,7 @@ Catalogi met statische inhoud zijn vergelijkbaar met catalogi met afbeeldingen, 
 
 Dit mechanisme kan ervoor zorgen dat klanten alleen inhoud ontvangen die geschikt is voor hun behoeften. Ervan uitgaande dat de statische inhoud is gelabeld met de juiste `catalog::UserType`-waarden, kan de client de opdracht `type=` aan de aanvraag toevoegen. Bij Afbeeldingsservice wordt de waarde die met de opdracht `type=` is opgegeven, vergeleken met de waarde `catalog::UserType` en wordt bij een onjuiste overeenkomst een fout geretourneerd in plaats van mogelijk onjuiste inhoud.
 
-## Bestanden voor videobijschriften {#section-1ad25e10399e43eaa8ecb09b531dbf1a}
+## Bestanden van videobijschriften {#section-1ad25e10399e43eaa8ecb09b531dbf1a}
 
 U kunt videotitelbestanden (WebVTT), CSS of een willekeurig tekstbestand in JSONP-indeling inkapselen. De JSON-respons wordt hieronder beschreven.
 
