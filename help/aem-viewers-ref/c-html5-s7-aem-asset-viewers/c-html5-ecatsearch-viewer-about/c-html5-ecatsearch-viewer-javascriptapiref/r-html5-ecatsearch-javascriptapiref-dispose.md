@@ -3,17 +3,16 @@ description: JavaScript API-referentie voor eCatalog Viewer.
 solution: Experience Manager
 title: weggooien
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: fda6d50f-0e1b-436c-af2e-1ccc9cd51c39
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
 
-
-# dispose{#dispose}
+# weggooien{#dispose}
 
 JavaScript API-referentie voor eCatalog Viewer.
 
@@ -40,4 +39,3 @@ Geen.
 ```
 <instance>.dispose()
 ```
-
