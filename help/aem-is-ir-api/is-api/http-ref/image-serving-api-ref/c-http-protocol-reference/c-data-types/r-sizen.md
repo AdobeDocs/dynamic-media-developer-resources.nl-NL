@@ -2,16 +2,15 @@
 description: Genormaliseerde grootte. Wordt gebruikt om afbeeldingsgrootten of rechthoekgrootten op te geven, genormaliseerd ten opzichte van de grootte van laag 0 of een andere afbeelding.
 solution: Experience Manager
 title: sizeN
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 58c2d7da-31fc-49d1-a404-2e4a66ff0e56
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
-
 
 # sizeN{#sizen}
 
