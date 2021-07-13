@@ -2,13 +2,12 @@
 description: Modus Nieuwe pixels berekenen. Kies het algoritme voor resampling en/of interpolatie dat u wilt gebruiken voor het schalen van afbeeldingsgegevens. Dit is ook van toepassing op het roteren van tekstlagen en het wijzigen van de grootte van samengestelde afbeeldingen tijdens het transformeren van de weergave.
 solution: Experience Manager
 title: resMode
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
 exl-id: 63c1c028-0378-4a38-8018-e358491786d8
-translation-type: tm+mt
-source-git-commit: b08d1f5b0aa512be4a6e6a4d45d8d4dec15ca1db
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
