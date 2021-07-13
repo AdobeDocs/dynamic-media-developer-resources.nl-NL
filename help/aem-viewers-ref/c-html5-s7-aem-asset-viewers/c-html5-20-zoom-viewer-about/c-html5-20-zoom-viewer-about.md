@@ -4,11 +4,11 @@ keywords: responsief
 solution: Experience Manager
 title: Zoomen
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoomen
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 81a74026-fb15-4f57-a4c7-1ab005950245
-source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2404'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Zie [Systeemvereisten en -vereisten](../../c-system-requirements-and-prerequisit
 
 [https://s7d9.scene7.com/s7viewers/html5/ZoomViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample](https://s7d9.scene7.com/s7viewers/html5/ZoomViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample)
 
-## Zoomviewer {#section-e6c68406ecdc4de781df182bbd8088b4} gebruiken
+## Zoomviewer gebruiken {#section-e6c68406ecdc4de781df182bbd8088b4}
 
 Zoom Viewer vertegenwoordigt een hoofd-JavaScript-bestand en een set hulplijnbestanden (één JavaScript-bestand met alle Viewer SDK-componenten die door deze viewer worden gebruikt, elementen, CSS) die door de viewer in runtime zijn gedownload.
 
@@ -80,7 +80,7 @@ Deze viewer is volledig toegankelijk via het toetsenbord.
 
 Zie [Toegankelijkheid en navigatie op toetsenbord](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
-## Zoomviewer {#section-6bb5d3c502544ad18a58eafe12a13435} insluiten
+## Zoomviewer insluiten {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 Verschillende webpagina&#39;s hebben verschillende vereisten voor viewergedrag. Soms biedt een webpagina een koppeling die de viewer in een apart browservenster opent wanneer erop wordt geklikt. In andere gevallen moet u de viewer rechtstreeks insluiten op de hostpagina. In het laatste geval kan de webpagina een statische indeling hebben of een responsief ontwerp gebruiken dat op verschillende apparaten of voor verschillende venstergrootten van de browser anders wordt weergegeven. Om aan deze behoeften tegemoet te komen, ondersteunt de viewer drie primaire bewerkingsmodi: pop-up, vaste grootte het inbedden, en ontvankelijk ontwerp het inbedden.
 
@@ -118,7 +118,7 @@ In de responsieve ontwerpinsluitingsmodus werkt de viewer anders, afhankelijk va
 
 Als de webpagina zowel de breedte als de hoogte voor de container `DIV` van de viewer instelt, vult de viewer dat gebied en volgt deze de grootte die de webpagina biedt. U kunt de viewer bijvoorbeeld insluiten in een modale overlay, waarbij de grootte van de overlay afhankelijk is van de venstergrootte van de webbrowser.
 
-## Insluiten van vaste grootte {#section-44f365e6c0dd40709467a459afa82a7f}
+## Insluiten met vaste grootte {#section-44f365e6c0dd40709467a459afa82a7f}
 
 U voegt de viewer als volgt toe aan een webpagina:
 
@@ -384,7 +384,7 @@ var zoomViewer = new s7viewers.ZoomViewer({
 </html> 
 ```
 
-## Insluiten met setter-API {#section-44e014925f24418b900696003855c0a9}
+## Insluiten met behulp van setter-API {#section-44e014925f24418b900696003855c0a9}
 
 In plaats van JSON-gebaseerde initialisatie, is het mogelijk om op setter-gebaseerde API en no-args aannemer te gebruiken. Wanneer u deze API-constructor gebruikt, worden geen parameters gebruikt en worden configuratieparameters opgegeven met de API-methoden `setContainerId()`, `setParam()` en `setAsset()` met afzonderlijke JavaScript-aanroepen.
 
