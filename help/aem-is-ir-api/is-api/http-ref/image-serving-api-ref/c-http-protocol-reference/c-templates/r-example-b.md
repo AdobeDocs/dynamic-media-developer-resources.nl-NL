@@ -2,16 +2,15 @@
 description: Vergelijkbare vereisten als Voorbeeld A, maar gebruik een achtergrond met een effen kleur en laat de hoogte van de samenstelling variëren, om afbeeldingen met verschillende hoogte-breedteverhoudingen te kunnen gebruiken.
 solution: Experience Manager
 title: Voorbeeld B
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 90ef96fc-c12f-4fc8-b465-6520b71f4e7b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
-
 
 # Voorbeeld B{#example-b}
 
@@ -37,4 +36,3 @@ De oorsprong voor zowel laag 0 als laag 1 wordt midden-rechts van het compositie
 In de volgende afbeelding ziet u het samengestelde resultaat voor verschillende hoogte-breedteverhoudingen van de afbeelding en verschillende tekstreeksen.
 
 ![](assets/exampleb.png)
-
