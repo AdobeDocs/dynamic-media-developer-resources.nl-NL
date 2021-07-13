@@ -2,16 +2,15 @@
 description: Standaardtijdstempel voor aanpassing van afbeelding. Geeft een standaardwaarde voor de catalogus TimeStamp.
 solution: Experience Manager
 title: TimeStamp
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: e137f795-e0f7-4b72-b7e8-188e254bbb45
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
-
 
 # TimeStamp{#timestamp}
 
