@@ -2,16 +2,15 @@
 description: Modus Structuur herhalen. Hiermee geeft u op hoe structuurafbeeldingen naast elkaar worden geplaatst om het doeloppervlak te vullen.
 solution: Experience Manager
 title: Herhalen
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 6d6946b0-a827-4ee6-963b-84529ad35ee9
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 14%
+source-wordcount: '132'
+ht-degree: 15%
 
 ---
-
 
 # Herhalen{#repeat}
 
