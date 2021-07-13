@@ -2,16 +2,15 @@
 description: Webdomeinen van de Flash-toepassing. Voor Adobe Flash-toepassingen is mogelijk toegang vereist tot de eigenschappen van afbeeldingen die worden geleverd met fmt=swf of fmt=swf3.
 solution: Experience Manager
 title: TrustedDomains
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 925ac9d1-203c-4814-a701-71060bf47c20
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
-
 
 # TrustedDomains{#trusteddomains}
 
