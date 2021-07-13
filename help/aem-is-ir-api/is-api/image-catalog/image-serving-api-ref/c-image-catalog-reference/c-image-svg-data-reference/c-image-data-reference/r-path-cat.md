@@ -2,16 +2,15 @@
 description: Pad afbeeldingsbestand.
 solution: Experience Manager
 title: Pad
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 9d5417df-3aa2-4620-a614-ca71a96e2069
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
-
 
 # Pad{#path}
 
@@ -23,7 +22,7 @@ Relatief of absoluut pad en naam van het bronafbeeldingsbestand dat aan deze cat
 
 Tekstreeks. Vereist voor afbeeldingsrecords is mogelijk leeg voor sjabloonrecords. Indien gespecificeerd, moet het een geldig relatieve of absolute het dossierweg van de Server van het Beeld zijn. kenmerk::DefaultExt wordt toegevoegd als er geen achtervoegsel voor het bestand aanwezig is.
 
-## Ondersteunde bestandsindelingen {#path-supported-image-file-formats}
+## Ondersteunde bestandsindelingen voor afbeeldingen {#path-supported-image-file-formats}
 
 Raadpleeg de beschrijving van het hulpprogramma Image Converter (IC) voor een volledige lijst met ondersteunde bestandsindelingen.
 
