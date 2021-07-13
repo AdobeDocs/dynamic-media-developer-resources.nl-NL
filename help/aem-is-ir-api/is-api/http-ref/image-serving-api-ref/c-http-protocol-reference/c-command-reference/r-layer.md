@@ -2,16 +2,15 @@
 description: Selecteer Laag. Selecteert een laag en begint een nieuw segment van de laagdefinitie in de bevelopeenvolging.
 solution: Experience Manager
 title: laag
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: f1200d86-d88c-4990-ae36-2ce96ae94343
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
-
 
 # laag{#layer}
 
