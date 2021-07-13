@@ -2,16 +2,15 @@
 description: Geavanceerde renderinstellingen. Geavanceerde renderinstellingen worden gebruikt voor de besturing van aspecten op laag niveau van de renderengine, zoals het type materiaal verscherpen en parameters of bepaalde parameters van de belichtingsalgoritmen.
 solution: Experience Manager
 title: RenderSettings
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 37b806f8-e314-4532-a28c-1cc4ab939f09
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
-
 
 # RenderSettings{#rendersettings}
 
