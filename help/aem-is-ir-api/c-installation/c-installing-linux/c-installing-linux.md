@@ -2,18 +2,17 @@
 description: Beeldservers kunnen op Linux worden geïnstalleerd.
 solution: Experience Manager
 title: Installeren in Linux
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: dec2d67d-fd2c-4856-9cb7-085d668d42fb
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '41'
+source-wordcount: '38'
 ht-degree: 0%
 
 ---
 
-
-# Installeren op Linux{#installing-on-linux}
+# Installeren in Linux{#installing-on-linux}
 
 Beeldservers kunnen op Linux worden geïnstalleerd.
 
