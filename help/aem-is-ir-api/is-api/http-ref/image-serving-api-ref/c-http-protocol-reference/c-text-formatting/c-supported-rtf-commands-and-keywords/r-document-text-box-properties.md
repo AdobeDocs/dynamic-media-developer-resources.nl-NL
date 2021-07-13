@@ -2,16 +2,15 @@
 description: De volgende documenteigenschappen worden ondersteund in tekstvakken.
 solution: Experience Manager
 title: Documenteigenschappen (tekstvak)
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: e9d21a39-4d98-4115-8179-ab5acf713c80
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
-
 
 # Documenteigenschappen (tekstvak){#document-text-box-properties}
 
@@ -128,4 +127,3 @@ De volgende documenteigenschappen worden ondersteund in tekstvakken.
   </tr> 
  </tbody> 
 </table>
-
