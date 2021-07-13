@@ -2,18 +2,17 @@
 description: Gebruik deze serverinstellingen voor cacheclustering.
 solution: Experience Manager
 title: Cache-clustering
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Administrator,User
+exl-id: bd0267e7-ebf5-4995-b55e-89cb1a58de6d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
 
-
-# Cache clustering{#cache-clustering}
+# Cache-clustering{#cache-clustering}
 
 Gebruik deze serverinstellingen voor cacheclustering.
 
@@ -25,7 +24,7 @@ Lijst met IP-adressen, gescheiden door puntkomma&#39;s. Omvat de IP adressen van
 
 Stel dit in op Ja als een cacheitem dat door een peer-server wordt aangeboden, moet worden gekopieerd naar de lokale responscache.
 
-## PS::cacheCluster.queryTimeout - Time-out query {#section-8d2b10e15b3e44078d2d9bdb7c25bde0}
+## PS::cacheCluster.queryTimeout - Time-out voor query {#section-8d2b10e15b3e44078d2d9bdb7c25bde0}
 
 Wanneer een server een cachevermelding aanvraagt van peer-servers, wacht de server tot één server reageert op dit specifieke gegevensitem of totdat alle peer-servers hebben gereageerd dat ze het gegevensitem niet hebben of totdat de tijd die met deze instelling is opgegeven (in msec) is verlopen.
 
