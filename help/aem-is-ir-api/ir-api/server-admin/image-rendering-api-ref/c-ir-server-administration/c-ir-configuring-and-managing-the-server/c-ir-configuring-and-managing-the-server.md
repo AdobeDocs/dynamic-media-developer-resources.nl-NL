@@ -2,16 +2,15 @@
 description: Deze sectie bevat informatie om u te helpen opstelling en het Beeld beheren die Server teruggeeft.
 solution: Experience Manager
 title: De server configureren en beheren
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Administrator,User
+exl-id: 357e5660-1e62-4aa0-91c2-696cacac8f86
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '74'
 ht-degree: 0%
 
 ---
-
 
 # De server configureren en beheren{#configuring-and-managing-the-server}
 
