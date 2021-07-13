@@ -2,16 +2,15 @@
 description: De HTML5 Video360 Viewer is een videospeler van 360 graden die streaming en progressieve 360 video die in het formaat H.264 wordt gecodeerd, van Dynamic Media Classic of van AEM Dynamic Media wordt geleverd.
 solution: Experience Manager
 title: Video360
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
+role: Developer,User
+exl-id: 74dca3f6-ce89-4c5b-8459-c2c4ca8ed27c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '2593'
+source-wordcount: '2590'
 ht-degree: 0%
 
 ---
-
 
 # Video360{#video}
 
@@ -27,7 +26,7 @@ De Video360 Viewer gebruikt in de standaardconfiguratie HTML5 streaming video pl
 
 Het viewertype is 517.
 
-## URL&#39;s demo {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
+## Demo-URL&#39;s {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
 [https://s7d9.scene7.com/s7viewers/html5/Video360Viewer.html?asset=Viewers/space_station_360-AVS](https://s7d9.scene7.com/s7viewers/html5/Video360Viewer.html?asset=Viewers/space_station_360-AVS)
 
@@ -35,7 +34,7 @@ Het viewertype is 517.
 
 Zie [Systeemvereisten](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
-## Video360 Viewer {#section-e6c68406ecdc4de781df182bbd8088b4} gebruiken
+## Video360 Viewer gebruiken {#section-e6c68406ecdc4de781df182bbd8088b4}
 
 HTML5 Video360 Viewer vertegenwoordigt een hoofd-JavaScript-bestand en een set hulplijnbestanden (één JavaScript-bestand bevat alle HTML5 Viewer SDK-componenten die door deze viewer worden gebruikt, elementen, CSS) die door de viewer in runtime zijn gedownload.
 
@@ -400,4 +399,3 @@ video360Viewer.init();
 </body> 
 </html>
 ```
-
