@@ -4,17 +4,16 @@ keywords: responsief
 solution: Experience Manager
 title: Video-viewer aanpassen
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 90dc93ee-fdd0-41c9-9eef-4c9952198356
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
 
-
-# Video-viewer{#customizing-video-viewer} aanpassen
+# Video-viewer aanpassen{#customizing-video-viewer}
 
 Alle visuele aanpassingen en de meeste gedragsaanpassingen worden gedaan door een aangepaste CSS te creëren.
 
@@ -32,7 +31,7 @@ Wanneer u aangepaste CSS maakt, moet u niet vergeten dat de viewer de klasse `.s
 
 `#<containerId>.s7videoviewer`
 
-## Responsieve ontworpen CSS maken {#section-63e8f93ee2f14fd8bba1ce33a6870b80}
+## Responsieve CSS maken {#section-63e8f93ee2f14fd8bba1ce33a6870b80}
 
 Het is mogelijk verschillende apparaten in CSS als doel in te stellen om de weergave van uw inhoud te wijzigen, afhankelijk van het apparaat van de gebruiker. Dit geldt onder andere voor verschillende elementgrootten van de gebruikersinterface en de resolutie van illustraties.
 
@@ -202,7 +201,7 @@ background-position: -0px -1120px;
 }
 ```
 
-## Algemene opmaaknotities en advies {#section-097418bd618740bba36352629e4d88e1}
+## Algemene opmaakopmerkingen en advies {#section-097418bd618740bba36352629e4d88e1}
 
 * Alle paden naar externe elementen in CSS worden omgezet op de CSS-locatie en niet op de locatie van de HTML-pagina van de viewer. Houd rekening met deze regel wanneer u de standaard-CSS naar een andere locatie kopieert. Kopieer de standaardelementen of werk paden bij in de aangepaste CSS.
 * De voorkeursindeling voor bitmapillustraties is PNG.
@@ -215,6 +214,6 @@ background-position: -0px -1120px;
 
 * Wanneer u de gebruikersinterface van de viewer aanpast met CSS, wordt het gebruik van de regel `!IMPORTANT` niet ondersteund voor het opmaken van viewerelementen. Met name `!IMPORTANT`-regel mag niet worden gebruikt om standaardstijlen of runtimestijlen van de viewer of Viewer SDK te negeren. De reden hiervoor is dat het het gedrag van juiste componenten kan beïnvloeden. Gebruik in plaats daarvan CSS-kiezers met de juiste specificiteit om CSS-eigenschappen in te stellen die in deze naslaggids worden beschreven.
 
-## Elementen van de gemeenschappelijke gebruikersinterface {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
+## Algemene gebruikersinterface-elementen {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
 
 Hieronder vindt u de referentiedocumentatie voor gebruikersinterface-elementen die van toepassing is op Video Viewer:
