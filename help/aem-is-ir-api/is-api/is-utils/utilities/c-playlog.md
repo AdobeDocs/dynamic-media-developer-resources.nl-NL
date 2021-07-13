@@ -2,16 +2,15 @@
 description: Het playlognut kan worden gebruikt om inhoud voor het de reactiecache van HTTP vooraf te produceren.
 solution: Experience Manager
 title: Het hulpprogramma 'playlog'
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: e0213978-3a1d-44b4-82bf-4527b980b29e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
-
 
 # Het hulpprogramma &#39;playlog&#39;{#the-playlog-utility}
 
