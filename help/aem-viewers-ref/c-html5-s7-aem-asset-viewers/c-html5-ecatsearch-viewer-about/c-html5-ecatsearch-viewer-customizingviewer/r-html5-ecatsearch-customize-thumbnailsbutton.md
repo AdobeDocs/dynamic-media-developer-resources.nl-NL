@@ -3,15 +3,14 @@ description: Als u op deze knop klikt of erop tikt, wordt de viewer tussen de ho
 solution: Experience Manager
 title: Knop Miniaturen
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 465d4320-14ea-4f07-97c0-41f53034a7df
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
-
 
 # Knop Miniaturen{#thumbnails-button}
 
@@ -99,4 +98,3 @@ background-image:url(images/v2/ThumbnailPageButton_dark_over.png);
 background-image:url(images/v2/ThumbnailPageButton_dark_disabled.png); 
 }
 ```
-
