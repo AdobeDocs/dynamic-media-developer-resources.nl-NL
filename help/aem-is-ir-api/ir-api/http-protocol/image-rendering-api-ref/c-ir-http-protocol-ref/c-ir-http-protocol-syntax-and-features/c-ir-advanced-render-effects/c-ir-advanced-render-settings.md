@@ -2,16 +2,15 @@
 description: Het hulpprogramma Vignet Authoring (onderdeel van het Dynamic Media-pakket voor het maken van afbeeldingen) biedt mechanismen voor de besturing van aspecten op laag niveau van de engine voor het renderen van vignetten.
 solution: Experience Manager
 title: Geavanceerde renderinstellingen
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 0ad8f4b4-dd9c-43f5-aacc-67a564e34d92
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '612'
 ht-degree: 17%
 
 ---
-
 
 # Geavanceerde renderinstellingen{#advanced-render-settings}
 
@@ -23,7 +22,7 @@ Het hulpprogramma Vignet Authoring (onderdeel van het Dynamic Media-pakket voor 
 
 Deze instellingen worden op interactieve wijze beheerd in het ontwerpen van afbeeldingen. Het is mogelijk dezelfde instellingen toe te passen bij het renderen van afbeeldingen met de opdracht `rs=` (of met de waarde `catalog::RenderSettings`). Dit mechanisme wordt gebruikt om verschillende verscherpingsopties voor elk materiaal te selecteren en het gedrag van de belichtingsrenderingalgoritmen te wijzigen, zoals het variëren van de verzadiging van hooglichten of het contrast in schaduwen.
 
-## Geavanceerde renderinstellingen (rs=) {#section-d9e7f341ebd44f07a4e90f1f5910726b}
+## Geavanceerde renderinstellingen (rs=) waarden {#section-d9e7f341ebd44f07a4e90f1f5910726b}
 
 <table id="table_1517FC39C7344EBB9F17BE20415DB057"> 
  <thead> 
@@ -40,7 +39,7 @@ Deze instellingen worden op interactieve wijze beheerd in het ontwerpen van afbe
    <td colname="col1"> <p>A </p> </td> 
    <td colname="col2"> <p>Effecten renderen/Alternatieve arcering heeft voorrang op de instelling in het vignet. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
-   <td colname="col4"> <p>3 </p> </td> 
+   <td colname="col4"> <p>1 </p> </td> 
    <td colname="col5"> <p>A0=Effecten renderen </p> <p>A1=Alternatieve arcering </p> </td> 
   </tr> 
   <tr> 
@@ -139,7 +138,7 @@ Deze instellingen worden op interactieve wijze beheerd in het ontwerpen van afbe
    <td colname="col1"> <p>Y </p> </td> 
    <td colname="col2"> <p>Poisson: Schakelen. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
-   <td colname="col4"> <p>3 </p> </td> 
+   <td colname="col4"> <p>1 </p> </td> 
    <td colname="col5"> <p>De standaardwaarde is 1. </p> </td> 
   </tr> 
   <tr> 
@@ -188,7 +187,7 @@ Deze instellingen worden op interactieve wijze beheerd in het ontwerpen van afbe
    <td colname="col1"> <p>L </p> </td> 
    <td colname="col2"> <p>Op glansbasis gebaseerde extrapolatiesterkte. </p> </td> 
    <td colname="col3"> <p>100 </p> </td> 
-   <td colname="col4"> <p>800 </p> </td> 
+   <td colname="col4"> <p>600 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr> 
