@@ -3,15 +3,14 @@ description: Zoekfunctie
 solution: Experience Manager
 title: Zoekfunctie
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: d9bee7a6-332f-481b-b0aa-9caa0b6d982c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
-
 
 # Zoekfunctie{#search-feature}
 
