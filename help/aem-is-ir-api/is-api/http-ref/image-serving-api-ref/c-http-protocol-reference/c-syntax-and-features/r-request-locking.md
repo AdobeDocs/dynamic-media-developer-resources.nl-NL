@@ -2,18 +2,17 @@
 description: Om de kans op het knoeien met verzoeken te verminderen, wordt een eenvoudige sluitingsfaciliteit verstrekt.
 solution: Experience Manager
 title: Verzoek vergrendelen
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 7ac727ef-3775-4884-b9db-bfae171a0f9d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
 
-
-# Verzoek om vergrendeling{#request-locking}
+# Verzoek vergrendelen{#request-locking}
 
 Om de kans op het knoeien met verzoeken te verminderen, wordt een eenvoudige sluitingsfaciliteit verstrekt.
 
