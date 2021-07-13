@@ -2,18 +2,17 @@
 description: Deze opdrachten zijn van toepassing, ongeacht de plaats in het verzoek waar ze staan.
 solution: Experience Manager
 title: Aanvraagopdrachten
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 3f794f46-e7f0-4899-90fa-898a698dd629
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
 
-
-# Verzoek om opdrachten{#request-commands}
+# Aanvraagopdrachten{#request-commands}
 
 Deze opdrachten zijn van toepassing, ongeacht de plaats in het verzoek waar ze staan.
 
@@ -83,4 +82,3 @@ Deze opdrachten zijn van toepassing, ongeacht de plaats in het verzoek waar ze s
   <td class="stentry"> <p>Geeft de afbeelding aan die voor deze aanvraag moet worden gebruikt. </p></td> 
  </tr> 
 </table>
-
