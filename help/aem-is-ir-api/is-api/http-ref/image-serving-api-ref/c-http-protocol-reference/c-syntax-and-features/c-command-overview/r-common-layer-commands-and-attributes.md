@@ -2,16 +2,15 @@
 description: Deze opdrachten zijn van toepassing op afbeeldings-, tekst- en effen-kleurlagen. De meeste toepassingen zijn niet van belang voor de samengestelde afbeelding en voor eenvoudige, niet-gelaagde aanvragen. Ze zijn niet van toepassing op effectlagen.
 solution: Experience Manager
 title: Algemene laagopdrachten
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: c95d198c-757f-405e-ba08-094cd402c929
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
-
 
 # Algemene laagopdrachten{#common-layer-commands}
 
@@ -63,4 +62,3 @@ Deze opdrachten zijn van toepassing op afbeeldings-, tekst- en effen-kleurlagen.
   <td class="stentry"> <p>Verberg de laag. </p></td> 
  </tr> 
 </table>
-
