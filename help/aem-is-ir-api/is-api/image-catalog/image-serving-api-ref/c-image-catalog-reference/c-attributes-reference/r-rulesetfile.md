@@ -2,16 +2,15 @@
 description: Pad naar definitiebestand voor regelsets. Hier geeft u het bestand op dat de definities van de regelset voor deze afbeeldingscatalogus bevat.
 solution: Experience Manager
 title: RuleSetFile
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: a9c0d748-c236-4a37-a181-729a27135a71
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
-
 
 # RuleSetFile{#rulesetfile}
 
