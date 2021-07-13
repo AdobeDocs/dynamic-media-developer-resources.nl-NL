@@ -2,16 +2,15 @@
 description: ICC-profiel insluiten. Geeft aan of het werkende ICC-kleurprofiel of het profiel dat met icc= is opgegeven, moet worden ingesloten in de antwoordafbeelding.
 solution: Experience Manager
 title: iccEmbed
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: c0f28a87-c168-4c6b-bbe1-af6b98e9f52f
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
-
 
 # iccEmbed{#iccembed}
 
