@@ -3,15 +3,14 @@ description: De hoofdklasse van de Flyout-viewer is FlyoutViewer. Deze wordt ged
 solution: Experience Manager
 title: JavaScript API-referentie voor Flyout Viewer
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 7f85f6d0-bcc8-4d9b-ae0b-6fb9e1e7f0da
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
-
 
 # JavaScript API-referentie voor Flyout Viewer{#javascript-api-reference-for-flyout-viewer}
 
