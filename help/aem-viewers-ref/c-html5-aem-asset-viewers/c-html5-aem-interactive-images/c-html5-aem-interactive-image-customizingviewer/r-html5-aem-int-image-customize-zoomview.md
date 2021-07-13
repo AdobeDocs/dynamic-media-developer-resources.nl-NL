@@ -2,13 +2,12 @@
 description: De hoofdweergave bestaat uit de statische afbeelding.
 solution: Experience Manager
 title: Zoomweergave
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve afbeeldingen
+role: Developer,User
 exl-id: e83d53a1-bee9-4e4d-8295-a3a350f3ff9c
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---
