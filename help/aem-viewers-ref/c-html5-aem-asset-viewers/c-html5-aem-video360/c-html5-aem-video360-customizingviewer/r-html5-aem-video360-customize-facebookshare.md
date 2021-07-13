@@ -1,31 +1,30 @@
 ---
-description: Het Facebook-gereedschap Delen bestaat uit een knop die is toegevoegd aan het deelvenster Delen via sociale media. Wanneer op de knop wordt geklikt, wordt de gebruiker omgeleid naar een dialoogvenster voor delen dat door een sociale service wordt aangeboden. De positie van de knop wordt volledig beheerd met het gereedschap Sociaal delen.
+description: Het facebook-gereedschap Delen bestaat uit een knop die is toegevoegd aan het deelvenster Delen via sociale media. Wanneer op de knop wordt geklikt, wordt de gebruiker omgeleid naar een dialoogvenster voor delen dat door een sociale service wordt aangeboden. De positie van de knop wordt volledig beheerd met het gereedschap Sociaal delen.
 solution: Experience Manager
-title: Facebook-share
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
-role: Developer,Business Practitioner
+title: Facebook share
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
+role: Developer,User
 exl-id: 343cde8b-796a-420f-abb7-268b3791a684
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
 
 # Facebook share{#facebook-share}
 
-Het Facebook-gereedschap Delen bestaat uit een knop die is toegevoegd aan het deelvenster Delen via sociale media. Wanneer op de knop wordt geklikt, wordt de gebruiker omgeleid naar een dialoogvenster voor delen dat door een sociale service wordt aangeboden. De positie van de knop wordt volledig beheerd met het gereedschap Sociaal delen.
+Het facebook-gereedschap Delen bestaat uit een knop die is toegevoegd aan het deelvenster Delen via sociale media. Wanneer op de knop wordt geklikt, wordt de gebruiker omgeleid naar een dialoogvenster voor delen dat door een sociale service wordt aangeboden. De positie van de knop wordt volledig beheerd met het gereedschap Sociaal delen.
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
-De weergave van de Facebook-deelknop wordt bepaald door de volgende CSS-klassenkiezer:
+De vormgeving van de deelknop Facebook wordt bepaald door de volgende CSS-klassenkiezer:
 
 ```
 .s7video360viewer .s7facebookshare
 ```
 
-**CSS-eigenschappen van het gereedschap Delen via Facebook**
+**CSS-eigenschappen van het Facebook-gereedschap Delen**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -56,7 +55,7 @@ Het is mogelijk om de knop uit het deelvenster Sociaal delen te verwijderen door
 
 De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Voorbeeld**  - Een deelknop voor Facebook instellen van 28 x 28 pixels en een andere afbeelding voor elk van de vier verschillende knopstatussen weergeven:
+**Voorbeeld**  - Een Facebook-deelknop van 28 x 28 pixels instellen en een andere afbeelding voor elk van de vier verschillende knopstatussen weergeven:
 
 ```
 .s7video360viewer .s7facebookshare { 
