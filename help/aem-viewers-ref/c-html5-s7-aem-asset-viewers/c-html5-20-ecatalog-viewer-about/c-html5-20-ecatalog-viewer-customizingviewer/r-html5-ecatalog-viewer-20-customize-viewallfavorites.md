@@ -3,15 +3,14 @@ description: De positie van de knop wordt volledig beheerd door het menu Favorie
 solution: Experience Manager
 title: De knop Alle favorieten weergeven
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: e07da96d-e6ad-4257-afdb-f6967fb83f52
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
-
 
 # De knop Alle favorieten weergeven{#view-all-favorites-button}
 
@@ -86,4 +85,3 @@ background-image:url(images/v2/ViewAllFavoritesButton_dark_over.png);
 background-image:url(images/v2/ViewAllFavoritesButton_dark_disabled.png); 
 }
 ```
-
