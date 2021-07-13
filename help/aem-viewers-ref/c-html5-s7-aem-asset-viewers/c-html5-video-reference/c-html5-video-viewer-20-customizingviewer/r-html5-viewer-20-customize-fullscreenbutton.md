@@ -3,15 +3,14 @@ description: De knop Volledig scherm zorgt ervoor dat de videospeler de modus Vo
 solution: Experience Manager
 title: Knop Volledig scherm
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 120f0ee9-e76b-48d5-8ea7-8be5a8f52edc
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
-
 
 # Knop Volledig scherm{#full-screen-button}
 
@@ -108,4 +107,3 @@ background-image:url(images/exitFullBtn_down.png);
 background-image:url(images/exitFullBtn_disabled.png); } 
 }
 ```
-
