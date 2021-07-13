@@ -4,15 +4,14 @@ keywords: responsief
 solution: Experience Manager
 title: eCatalog
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,User
+exl-id: 8e243fa5-e375-41ce-8b49-2571023130c1
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '2174'
+source-wordcount: '2171'
 ht-degree: 0%
 
 ---
-
 
 # eCatalog{#ecatalog}
 
@@ -32,7 +31,7 @@ Deze viewer werkt met catalogi en ondersteunt optionele afbeeldingen met hyperli
 
 [http://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist](http://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist)
 
-## De eCatalog-viewer {#section-e6c68406ecdc4de781df182bbd8088b4} gebruiken
+## De eCatalog Viewer gebruiken {#section-e6c68406ecdc4de781df182bbd8088b4}
 
 eCatalog Viewer vertegenwoordigt een hoofd-JavaScript-bestand en een set hulplijnbestanden (één JavaScript-bestand met alle Viewer SDK-componenten die door deze viewer worden gebruikt, elementen, CSS) die door de viewer in runtime zijn gedownload
 
@@ -83,13 +82,13 @@ Deze viewer ondersteunt ook aanraakinvoer en muisinvoer op Windows-apparaten met
 
 Deze viewer is volledig toegankelijk via het toetsenbord, zoals beschreven in [Toegankelijkheid en navigatie via toetsenbord](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
-## Gereedschappen voor het delen van sociale media met eCatalog Viewer {#section-eb575084a99647c3a9591f439f40b412}
+## Hulpprogramma&#39;s voor het delen van sociale media met eCatalog Viewer {#section-eb575084a99647c3a9591f439f40b412}
 
 De eCatalog-viewer ondersteunt gereedschappen voor sociaal delen Deze gereedschappen zijn beschikbaar als een knop op de hoofdbesturingsbalk die wordt uitgevouwen tot een werkbalk voor delen wanneer een gebruiker erop klikt of erop tikt.
 
-De werkbalk voor delen bevat pictogrammen voor elk type ondersteund kanaal voor delen, zoals Facebook, Twitter, Delen via e-mail, delen via code insluiten en delen van koppelingen. Wanneer gereedschappen voor delen via e-mail, insluiten of delen van koppelingen zijn geactiveerd, wordt in de viewer een modaal dialoogvenster weergegeven met een bijbehorend formulier voor gegevensinvoer. Wanneer Facebook of Twitter wordt aangeroepen, stuurt de viewer de gebruiker door naar een standaarddialoogvenster voor delen van een sociale service. Delen van gereedschappen is niet beschikbaar in de modus Volledig scherm vanwege beveiligingsbeperkingen van de webbrowser.
+De werkbalk voor delen bevat pictogrammen voor elk type ondersteund kanaal voor delen, waaronder Facebook, Twitter, Delen via e-mail, delen van code insluiten en delen van koppelingen. Wanneer gereedschappen voor delen via e-mail, insluiten of delen van koppelingen zijn geactiveerd, wordt in de viewer een modaal dialoogvenster weergegeven met een bijbehorend formulier voor gegevensinvoer. Wanneer Facebook of Twitter wordt aangeroepen, stuurt de viewer de gebruiker door naar een standaarddialoogvenster voor delen van een sociale service. Delen van gereedschappen is niet beschikbaar in de modus Volledig scherm vanwege beveiligingsbeperkingen van de webbrowser.
 
-## eCatalog-viewer {#section-6bb5d3c502544ad18a58eafe12a13435} insluiten
+## eCatalog-viewer insluiten {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 Verschillende webpagina&#39;s hebben verschillende vereisten voor viewergedrag. Soms biedt een webpagina een koppeling die de viewer in een apart browservenster opent wanneer erop wordt geklikt. In andere gevallen moet u de viewer rechts insluiten op de hostpagina. In het laatste geval heeft de webpagina mogelijk een statische paginalay-out of wordt een responsief ontwerp gebruikt dat op verschillende apparaten of voor verschillende venstergrootten van de browser anders wordt weergegeven. Om aan deze behoeften tegemoet te komen, ondersteunt de viewer drie primaire bewerkingsmodi: pop-up, vaste grootte het inbedden, en ontvankelijk ontwerp het inbedden.
 
@@ -150,7 +149,7 @@ Het relatieve pad ziet er als volgt uit:
 
 >[!NOTE]
 >
->U moet alleen verwijzen naar het JavaScript-bestand `include` van de hoofdviewer op uw pagina. U moet niet verwijzen naar extra JavaScript-bestanden in de webpaginacode die door de logica van de viewer in runtime kunnen worden gedownload. Verwijs met name niet rechtstreeks naar de HTML5 SDK `Utils.js`-bibliotheek die door de viewer is geladen vanaf het contextpad `/s7viewers` (de zogeheten geconsolideerde SDK `include`). De reden hiervoor is dat de locatie van `Utils.js` of vergelijkbare runtimeviewerbibliotheken volledig wordt beheerd door de logica van de viewer en dat de locatie verandert tussen de viewerreleases. Adobe houdt oudere versies van de secundaire viewer `includes` niet op de server.
+>U moet alleen verwijzen naar het JavaScript-bestand `include` van de hoofdviewer op uw pagina. U moet niet verwijzen naar extra JavaScript-bestanden in de webpaginacode die door de logica van de viewer in runtime kunnen worden gedownload. Verwijs met name niet rechtstreeks naar de HTML5 SDK `Utils.js`-bibliotheek die door de viewer is geladen vanaf het contextpad `/s7viewers` (de zogeheten geconsolideerde SDK `include`). De reden hiervoor is dat de locatie van `Utils.js` of vergelijkbare runtimeviewerbibliotheken volledig wordt beheerd door de logica van de viewer en dat de locatie verandert tussen viewerreleases. Adobe houdt oudere versies van de secundaire viewer `includes` niet op de server.
 >
 >
 >Als u dus een directe verwijzing naar een secundair JavaScript `include` op de pagina plaatst, wordt de viewerfunctionaliteit in de toekomst verbroken wanneer een nieuwe productversie wordt geïmplementeerd.
@@ -398,4 +397,3 @@ eCatalogViewer.init();
 </body> 
 </html>
 ```
-
