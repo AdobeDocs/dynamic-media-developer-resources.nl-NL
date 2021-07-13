@@ -2,16 +2,15 @@
 description: Type aanvraag. Hier geeft u het type aanvraag op.
 solution: Experience Manager
 title: req
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 9242c873-5a85-4ede-82b6-4ef15feecf50
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
-
 
 # req{#req}
 
@@ -45,4 +44,3 @@ Type aanvraag. Hier geeft u het type aanvraag op.
   </tr> 
  </tbody> 
 </table>
-
