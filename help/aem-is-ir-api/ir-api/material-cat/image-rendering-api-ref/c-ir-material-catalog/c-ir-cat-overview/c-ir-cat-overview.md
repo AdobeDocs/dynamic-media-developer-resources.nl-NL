@@ -2,18 +2,17 @@
 description: Materiaalcatalogi bieden informatie over vignetten, materialen en ondersteunende gegevens, zoals ICC-profielen, aan de server.
 solution: Experience Manager
 title: Overzicht van de materiaalcatalogus *
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: d26371da-e992-4f63-a5be-190ce60eca2f
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
 
-
-# Overzicht materiaalcatalogus *{#material-catalog-overview}
+# Overzicht van de materiaalcatalogus *{#material-catalog-overview}
 
 Materiaalcatalogi bieden informatie over vignetten, materialen en ondersteunende gegevens, zoals ICC-profielen, aan de server.
 
