@@ -3,15 +3,14 @@ description: Gebeurteniscallbacks
 solution: Experience Manager
 title: Gebeurteniscallbacks
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 21aa4440-c629-440d-b37b-bb98f91ddfd3
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
-
 
 # Gebeurteniscallbacks{#event-callbacks}
 
