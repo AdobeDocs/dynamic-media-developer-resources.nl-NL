@@ -2,16 +2,15 @@
 description: Afbeeldingssetgegevens. Biedt een mechanisme voor het definiëren van gesorteerde sets afbeeldingen en het beheren van kenmerken die door Dynamic Media-viewers worden gebruikt.
 solution: Experience Manager
 title: ImageSet
-feature: Dynamic Media Classic,SDK/API,Image Sets
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic,SDK/API,Afbeeldingssets
+role: Developer,User
+exl-id: eacf0553-8cec-4a1d-80a5-6fe37b92b5bf
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
-
 
 # ImageSet{#imageset}
 
