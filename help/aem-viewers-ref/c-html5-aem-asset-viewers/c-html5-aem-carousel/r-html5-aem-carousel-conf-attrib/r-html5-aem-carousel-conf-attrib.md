@@ -3,12 +3,11 @@ description: Documentatie over configuratiekenmerken voor Carousel Viewer.
 solution: Experience Manager
 title: Command reference - Configuration attributes
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 71c2c973-d711-4d37-b778-381a7ec71527
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
