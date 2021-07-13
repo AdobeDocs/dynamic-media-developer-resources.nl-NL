@@ -2,16 +2,15 @@
 description: Hiermee wordt de gedetailleerde status van een ingediende taak opgehaald.
 solution: Experience Manager
 title: batchjobdetailedstatus
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: fd385327-29af-448c-9a25-75098b578272
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '52'
 ht-degree: 0%
 
 ---
-
 
 # batchjobdetailedstatus{#batchjobdetailedstatus}
 
