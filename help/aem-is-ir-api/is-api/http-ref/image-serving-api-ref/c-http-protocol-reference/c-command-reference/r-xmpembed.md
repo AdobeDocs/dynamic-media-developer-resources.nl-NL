@@ -2,16 +2,15 @@
 description: XMP metagegevens insluiten. Geeft aan of XMP metagegevens moeten worden opgenomen in de reactieafbeelding.
 solution: Experience Manager
 title: xmpEmbed
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 353b6ac4-1141-4f17-a3ad-ad48b321b36f
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
-
 
 # xmpEmbed{#xmpembed}
 
