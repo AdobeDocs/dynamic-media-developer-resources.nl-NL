@@ -3,15 +3,14 @@ description: Configuration attribute for Video Viewer.
 solution: Experience Manager
 title: VideoTime.timepattern
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 1fe2876c-c59a-4e0c-b429-34cc3244d920
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
-
 
 # VideoTime.timepattern{#videotime-timepattern}
 
@@ -41,4 +40,3 @@ Optioneel.
 ```
 timepattern=h:mm:ss
 ```
-
