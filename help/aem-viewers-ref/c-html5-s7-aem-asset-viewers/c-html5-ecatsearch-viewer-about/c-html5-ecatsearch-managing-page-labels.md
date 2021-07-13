@@ -3,15 +3,14 @@ description: Paginalabels beheren
 solution: Experience Manager
 title: Paginalabels beheren
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 73c3904f-678f-47c4-b895-86671402df79
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
-
 
 # Paginalabels beheren{#managing-page-labels}
 
