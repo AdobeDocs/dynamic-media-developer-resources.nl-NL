@@ -2,16 +2,15 @@
 description: Deze materiaalcategorie omvat verven voor muren, houtwerk en trim, automobielindustrie en alle andere toepassingen waarbij geen texturen vereist zijn.
 solution: Experience Manager
 title: Effen kleuren
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 0f4f2d25-dd99-488b-89d9-88367d5a715d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
-
 
 # Effen kleuren{#solid-colors}
 
@@ -37,4 +36,3 @@ U kunt effen kleuren toepassen op alle renderbare objecten.
   </tr> 
  </tbody> 
 </table>
-
