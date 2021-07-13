@@ -3,15 +3,14 @@ description: In de viewer worden pictogrammen voor favorieten weergegeven in de 
 solution: Experience Manager
 title: Favorieten, effect
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: e87226cf-56bf-4d54-8df5-91295eae90a8
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
-
 
 # Favorieten, effect{#favorites-effect}
 
@@ -90,4 +89,3 @@ cursor: not-allowed;
 cursor: auto; 
 }
 ```
-
