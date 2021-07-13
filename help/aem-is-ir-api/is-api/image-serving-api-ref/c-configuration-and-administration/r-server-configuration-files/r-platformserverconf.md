@@ -2,16 +2,15 @@
 description: Bevat instellingen voor Platform Server.
 solution: Experience Manager
 title: PlatformServer.conf
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Administrator,User
+exl-id: 00d55453-e7e6-4242-be83-7efa12764e5d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
-
 
 # PlatformServer.conf{#platformserver-conf}
 
@@ -45,4 +44,3 @@ Alleen onderstaande instellingen kunnen worden gewijzigd in [!DNL PlatformServer
   <td class="stentry"> <p> <span class="codeph"> fvctx.useCatalogRecordValidation=false  </span> </p> <p> <span class="codeph"> fvctx.nestingLimit=10  </span> </p> <p> <span class="codeph"> fvctx.brochureLimit=20  </span> </p> </td> 
  </tr> 
 </table>
-
