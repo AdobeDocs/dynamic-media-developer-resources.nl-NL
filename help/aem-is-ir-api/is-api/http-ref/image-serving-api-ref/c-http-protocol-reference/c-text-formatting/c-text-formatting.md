@@ -2,16 +2,15 @@
 description: De Server van het beeld verstrekt verscheidene alternatieven om tekst terug te geven, toegankelijk met text= en textPs= bevelen.
 solution: Experience Manager
 title: Tekstopmaak
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 2c120ed1-b556-4caf-a30e-63ae48cc2104
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
-
 
 # Tekstopmaak{#text-formatting}
 
@@ -25,7 +24,7 @@ De Server van het beeld verstrekt verscheidene alternatieven om tekst terug te g
 
 Alle tekstopdrachten accepteren opgemaakte tekst die is gebaseerd op een subset van de RTF-specificatie (Rich Text Format). Elke tekstlaag kan een andere tekstopdracht opgeven.
 
-In de volgende tabel staan de belangrijkste functies die beschikbaar zijn voor elke tekstopdracht:
+In de volgende tabel worden de belangrijkste functies weergegeven die beschikbaar zijn voor elke tekstopdracht:
 
 <table id="table_9C41CBDA94C24805B538E5049B0137C6"> 
  <thead> 
