@@ -3,9 +3,9 @@ description: Als u op deze knop klikt of erop tikt, draait u de afbeelding recht
 solution: Experience Manager
 title: Rechterkant draaien, knop
 feature: Dynamic Media Classic,Viewers,SDK/API,Gemengde mediasets
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 2e70ad27-9fce-4a18-b856-08aa6dbec3f2
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 0%
