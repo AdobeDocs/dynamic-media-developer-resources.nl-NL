@@ -2,18 +2,17 @@
 description: Verschillende DOM-manipulatiebewerkingen worden ondersteund.
 solution: Experience Manager
 title: FXG DOM-bewerkingen
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 99325deb-2eb2-4c3b-ba5e-1ed64f36ba23
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '36'
+source-wordcount: '33'
 ht-degree: 0%
 
 ---
 
-
-# FXG DOM-manipulatiebewerkingen{#fxg-dom-manipulation-operations}
+# FXG DOM-bewerkingen{#fxg-dom-manipulation-operations}
 
 Verschillende DOM-manipulatiebewerkingen worden ondersteund.
 
