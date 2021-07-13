@@ -2,18 +2,17 @@
 description: Cachebeheer. Staat selectief toe onbruikbaar makend cliënt-zijcaching (browser, volmachtsservers, netwerk caching systemen) en caching in het interne geheime voorgeheugen van de Server van het Platform.
 solution: Experience Manager
 title: cachegeheugen
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 4745197a-9f2d-4e33-8c0e-0067fbd65254
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
 
-
-# cache{#cache}
+# cachegeheugen{#cache}
 
 Cachebeheer. Staat selectief toe onbruikbaar makend cliënt-zijcaching (browser, volmachtsservers, netwerk caching systemen) en caching in het interne geheime voorgeheugen van de Server van het Platform.
 
@@ -40,7 +39,7 @@ Als slechts één *`cacheControl`* waarde wordt gespecificeerd, wordt het toegep
 
 Met het trefwoord &#39; `validate`&#39; kunnen vermeldingen in de servercache worden bijgewerkt nadat de structuur- of vignetbestanden zijn gewijzigd, zonder dat de cachegegevens automatisch hoeven te worden verlopen. Het in cache plaatsen van clients wordt niet beïnvloed door deze opdracht.
 
-Als `cache=on` in een geneste aanvraag wordt opgegeven, wordt de afbeelding die door de geneste aanvraag wordt gegenereerd, permanent in cache op de server geplaatst. Zorg ervoor dat caching alleen mogelijk is voor geneste aanvragen wanneer hetzelfde geneste verzoek herhaaldelijk moet worden aangeroepen met exact dezelfde parameters.
+Als `cache=on` in een geneste aanvraag is opgegeven, wordt de afbeelding die door de geneste aanvraag wordt gegenereerd, permanent in cache op de server geplaatst. Zorg ervoor dat caching alleen mogelijk is voor geneste aanvragen wanneer hetzelfde geneste verzoek herhaaldelijk moet worden aangeroepen met exact dezelfde parameters.
 
 ## Eigenschappen {#section-0dcbd62e1122400e8c347f408f2d937e}
 
