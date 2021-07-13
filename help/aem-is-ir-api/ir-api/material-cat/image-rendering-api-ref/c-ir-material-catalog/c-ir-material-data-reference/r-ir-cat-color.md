@@ -2,16 +2,15 @@
 description: Materiaalkleur. De hoofdkleur voor vaste kleurstoffen en de additieve kleur voor gekleurde structuurmaterialen.
 solution: Experience Manager
 title: Kleur
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: af472ded-d9df-48d5-a237-c359b68bebe2
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
-
 
 # Kleur{#color}
 
