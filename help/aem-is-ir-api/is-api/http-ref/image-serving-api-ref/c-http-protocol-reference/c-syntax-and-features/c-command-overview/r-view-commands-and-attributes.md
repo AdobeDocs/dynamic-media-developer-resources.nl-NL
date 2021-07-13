@@ -2,16 +2,15 @@
 description: Deze opdrachten zijn van toepassing, ongeacht de plaats in het verzoek waar ze staan.
 solution: Experience Manager
 title: Opdrachten weergeven
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: c1dcabd3-d2bc-4ca1-a909-fcfe0d2feff6
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
-
 
 # Opdrachten weergeven{#view-commands}
 
@@ -51,4 +50,3 @@ Deze opdrachten zijn van toepassing, ongeacht de plaats in het verzoek waar ze s
   <td class="stentry"> <p>Hiermee stelt u de breedte van de weergave in. </p></td> 
  </tr> 
 </table>
-
