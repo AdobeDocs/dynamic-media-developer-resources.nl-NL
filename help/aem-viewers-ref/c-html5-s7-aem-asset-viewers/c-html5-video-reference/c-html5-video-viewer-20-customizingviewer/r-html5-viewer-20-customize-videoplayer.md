@@ -3,15 +3,14 @@ description: De videospeler is het rechthoekige gebied waar de video-inhoud word
 solution: Experience Manager
 title: Videospeler
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 2741821f-78fe-44d4-8604-fee10086e0a0
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
-
 
 # Videospeler{#video-player}
 
@@ -141,4 +140,3 @@ Voorbeeld - als u een bufferanimatie wilt instellen op 101 pixels breed en 29 pi
  background-image: url(images/sdk/busyicon.gif); 
 }
 ```
-
