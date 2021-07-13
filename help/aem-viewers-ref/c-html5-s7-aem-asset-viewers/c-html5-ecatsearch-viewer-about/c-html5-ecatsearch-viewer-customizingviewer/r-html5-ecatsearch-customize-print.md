@@ -3,8 +3,8 @@ description: Het gereedschap Afdrukken bestaat uit een knop die wordt toegevoegd
 solution: Experience Manager
 title: Afdrukken
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-source-git-commit: 8b9b87328c26e0d316c9ee09c8f4407d40efab69
+role: Developer,User
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '1477'
 ht-degree: 0%
