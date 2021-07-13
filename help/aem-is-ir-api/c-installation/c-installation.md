@@ -2,16 +2,15 @@
 description: U moet Image Serving installeren alvorens u het kunt gebruiken.
 solution: Experience Manager
 title: Installatie
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: f5242806-788f-4d91-823f-4eab8fd2666f
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
-
 
 # Installatie{#installation}
 
