@@ -2,16 +2,15 @@
 description: Met deze kenmerken worden materialen gedefinieerd die op het geselecteerde object moeten worden toegepast.
 solution: Experience Manager
 title: Materiaalkenmerken
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 77801376-5bc5-4fd4-95d6-8c80b31c779d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
-
 
 # Materiaalkenmerken{#material-attributes}
 
@@ -99,4 +98,3 @@ Met deze kenmerken worden materialen gedefinieerd die op het geselecteerde objec
   <td class="stentry"> <p>Geavanceerde renderinstellingen. </p></td> 
  </tr> 
 </table>
-
