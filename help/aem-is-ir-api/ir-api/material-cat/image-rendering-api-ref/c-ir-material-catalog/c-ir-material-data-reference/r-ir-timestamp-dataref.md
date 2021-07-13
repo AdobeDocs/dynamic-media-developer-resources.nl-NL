@@ -2,16 +2,15 @@
 description: Tijdstempel voor bestandswijziging. Hiermee geeft u de datum/tijd op waarop de afbeeldings- en/of gegevensbestanden die bij deze catalogusrecord horen voor het laatst zijn gewijzigd.
 solution: Experience Manager
 title: TimeStamp
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: ecc7617c-c390-4f82-905d-45b825d0176d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
-
 
 # TimeStamp{#timestamp}
 
