@@ -2,18 +2,17 @@
 description: Alle lettertypen waarnaar in de RTF-tekenreeks wordt verwezen, moeten beschikbaar zijn in het bestand met lettertypetoewijzing van de standaardcatalogus of de huidige afbeeldingscatalogus. Als dit niet het geval is, wordt een fout geretourneerd.
 solution: Experience Manager
 title: Fontverwerking
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: f24edd53-4b21-4147-9b50-95e616279aa8
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
 
-
-# Lettertypebehandeling{#font-handling}
+# Fontverwerking{#font-handling}
 
 Alle lettertypen waarnaar in de RTF-tekenreeks wordt verwezen, moeten beschikbaar zijn in het bestand met lettertypetoewijzing van de standaardcatalogus of de huidige afbeeldingscatalogus. Als dit niet het geval is, wordt een fout geretourneerd.
 
@@ -23,7 +22,7 @@ Het lettertype dat met `attribute::DefaultFont` is opgegeven, wordt gebruikt wan
 
 Image Serving ondersteunt TrueType-, OpenType- en Adobe Type 1-lettertypen (alleen Windows).
 
-## Ondersteuning voor Photoshop®-lettertypen {#section-74560ae898cf4708aba4c8b4093f5f00}
+## Ondersteuning van Photoshop®-lettertypen {#section-74560ae898cf4708aba4c8b4093f5f00}
 
 `textPs=` biedt ondersteuning voor Photoshop®-lettertypen, met de volgende beperkingen:
 
