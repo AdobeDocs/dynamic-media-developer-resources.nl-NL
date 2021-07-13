@@ -2,16 +2,15 @@
 description: Standaard kleurenprofiel voor grijswaarden. Hiermee geeft u de naam op van het ICC-kleurprofiel dat moet worden gebruikt voor grijswaardenresponsafbeeldingen wanneer er geen uitvoerkleurruimte is opgegeven met icc= en voor bepaalde grijswaardenwaarden die zijn opgegeven met diverse opdrachten voor afbeeldingsservers, zoals color=.
 solution: Experience Manager
 title: IccProfileGray
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 4964c3b3-799d-40cb-bc5f-d08acfd41ed9
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
-
 
 # IccProfileGray{#iccprofilegray}
 
