@@ -4,17 +4,16 @@ keywords: responsief
 solution: Experience Manager
 title: Zoeken in eCatalog
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 915e628e-65e7-44c6-a2aa-d4ae7ed03b8e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '2191'
+source-wordcount: '2188'
 ht-degree: 0%
 
 ---
 
-
-# eCatalog Search{#ecatalog-search}
+# Zoeken in eCatalog{#ecatalog-search}
 
 eCatalog Search Viewer is een catalogusviewer die elektronische brochures in een spread per spread of pagina per pagina weergeeft. Met de eCatalog kunnen gebruikers door de catalogus navigeren met behulp van aanvullende gebruikersinterface-elementen of toegewijde miniatuurmodus. Gebruikers kunnen ook op elke pagina inzoomen voor meer informatie.
 
@@ -34,7 +33,7 @@ Zie [Systeemvereisten en -vereisten](../../c-system-requirements-and-prerequisit
 
 [https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d9.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&amp;contenturl=https://s7d9.scene7.com/skins/&amp;asset=Viewers/Pluralist&amp;searchserverurl=https://s7search1.scene7.com/s7search/](https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d9.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&amp;contenturl=https://s7d9.scene7.com/skins/&amp;asset=Viewers/Pluralist&amp;searchserverurl=https://s7search1.scene7.com/s7search/)
 
-## De eCatalog-viewer {#section-e6c68406ecdc4de781df182bbd8088b4} gebruiken
+## De eCatalog Viewer gebruiken {#section-e6c68406ecdc4de781df182bbd8088b4}
 
 eCatalog Search Viewer vertegenwoordigt een hoofd-JavaScript-bestand en een set hulplijnbestanden (één JavaScript-bestand bevat alle Viewer SDK-componenten die door deze viewer worden gebruikt, elementen, CSS) die door de viewer in runtime zijn gedownload
 
@@ -87,11 +86,11 @@ Deze viewer ondersteunt ook aanraakinvoer en muisinvoer op Windows-apparaten met
 
 De eCatalogKijker van het Onderzoek steunt sociale het delen hulpmiddelen zij beschikbaar als knoop in de belangrijkste controlebar die zich in een het delen hulpmiddelbar uitbreidt wanneer een gebruiker klikt of op het klikt.
 
-De werkbalk voor delen bevat pictogrammen voor elk type ondersteund kanaal voor delen, zoals Facebook, Twitter, Delen via e-mail, delen via code insluiten en delen van koppelingen. Wanneer gereedschappen voor delen via e-mail, insluiten of delen van koppelingen zijn geactiveerd, wordt in de viewer een modaal dialoogvenster weergegeven met een bijbehorend formulier voor gegevensinvoer. Wanneer Facebook of Twitter wordt aangeroepen, stuurt de viewer de gebruiker door naar een standaarddialoogvenster voor delen van een sociale service. Delen van gereedschappen is niet beschikbaar in de modus Volledig scherm vanwege beveiligingsbeperkingen van de webbrowser.
+De werkbalk voor delen bevat pictogrammen voor elk type ondersteund kanaal voor delen, waaronder Facebook, Twitter, Delen via e-mail, delen van code insluiten en delen van koppelingen. Wanneer gereedschappen voor delen via e-mail, insluiten of delen van koppelingen zijn geactiveerd, wordt in de viewer een modaal dialoogvenster weergegeven met een bijbehorend formulier voor gegevensinvoer. Wanneer Facebook of Twitter wordt aangeroepen, stuurt de viewer de gebruiker door naar een standaarddialoogvenster voor delen van een sociale service. Delen van gereedschappen is niet beschikbaar in de modus Volledig scherm vanwege beveiligingsbeperkingen van de webbrowser.
 
 De zoekfunctie van de viewer is beschikbaar als een glaspictogram in de hoofdwerkbalk. Als u op het pictogram klikt of erop tikt, wordt in het deelvenster Zoeken een invoerveld weergegeven. Nadat u een trefwoord of woordgroep hebt ingevoerd en op Enter hebt gedrukt, rendert de viewer de zoekresultaten in het deelvenster en markeert hij de gevonden woorden in de hoofdweergave.
 
-## eCatalog Search Viewer insluiten {#section-6bb5d3c502544ad18a58eafe12a13435}
+## ECatalog Search Viewer insluiten {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 Verschillende webpagina&#39;s hebben verschillende vereisten voor viewergedrag. Soms biedt een webpagina een koppeling die de viewer in een apart browservenster opent wanneer erop wordt geklikt. In andere gevallen moet u de viewer rechts insluiten op de hostpagina. In het laatste geval heeft de webpagina mogelijk een statische paginalay-out of wordt een responsief ontwerp gebruikt dat op verschillende apparaten of voor verschillende venstergrootten van de browser anders wordt weergegeven. Om aan deze behoeften tegemoet te komen, ondersteunt de viewer drie primaire bewerkingsmodi: pop-up, vaste grootte het inbedden, en ontvankelijk ontwerp het inbedden.
 
@@ -398,4 +397,3 @@ eCatalogSearchViewer.init();
 </body> 
 </html>
 ```
-
