@@ -2,16 +2,15 @@
 description: Conversie browserindeling. Hiermee wordt aangegeven of de conversiefunctionaliteit van de browserindeling is in- of uitgeschakeld.
 solution: Experience Manager
 title: bfc
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: d3fa2a11-339f-4c8e-9735-439c5464ab84
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '82'
 ht-degree: 0%
 
 ---
-
 
 # bfc{#bfc}
 
