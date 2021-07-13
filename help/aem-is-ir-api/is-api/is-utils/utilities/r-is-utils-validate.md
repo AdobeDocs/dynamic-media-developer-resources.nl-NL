@@ -2,16 +2,15 @@
 description: Hulpprogramma voor het valideren van afbeeldingen. Dit opdrachtregelhulpprogramma controleert afbeeldingsbestanden om te controleren of deze geldig zijn en zonder problemen kunnen worden gelezen door Image Serving.
 solution: Experience Manager
 title: validate
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 78d50fe9-95c6-4335-98d8-3322839ee02d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
-
 
 # validate{#validate}
 
@@ -78,4 +77,3 @@ Alle niet-PTIFF-afbeeldingsbestanden moeten worden gevalideerd voordat het besta
   <td class="stentry"> <p>Retourneert versiegegevens voor dit hulpprogramma. Opgeven zonder andere opties. </p> </td> 
  </tr> 
 </table>
-
