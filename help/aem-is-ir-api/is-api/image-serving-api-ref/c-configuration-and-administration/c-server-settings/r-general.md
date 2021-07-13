@@ -2,16 +2,15 @@
 description: Algemene serverinstellingen
 solution: Experience Manager
 title: Algemeen
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Administrator,User
+exl-id: 3e4079e7-6def-4938-bb5b-c8122502712d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
-
 
 # Algemeen{#general}
 
@@ -21,7 +20,7 @@ Algemene serverinstellingen
 
 Specificeert de belangrijkste luisterhaven voor de Server van het Platform. Deze poort wordt ook gebruikt voor toegang tot de documentatie en voorbeeldpagina&#39;s voor beeldbewerking, beeldweergave en Dynamic Media Viewers (indien geïnstalleerd).
 
-## IS::CacheServerUrl - Hoofdmap {#section-bcca227a1f91453b834db4ea050968e2} voor service-caching
+## IS::CacheServerUrl - URL van hoofdmap van service in cache plaatsen {#section-bcca227a1f91453b834db4ea050968e2}
 
 Specificeert de de wortelweg van HTTP om de Server van het Beeld toegang tot de caching dienst toe te staan. Moet worden ingesteld op [!DNL http://localhost:TC::PsPort /is/cache/secondary], met het poortnummer dat overeenkomt `TC::PsPort`.
 
@@ -29,7 +28,7 @@ Specificeert de de wortelweg van HTTP om de Server van het Beeld toegang tot de 
 
 De TTL voor caching beelden die via HTTP van een verre bron worden verkregen gebruikend de `src={…}` constructie. Wordt alleen gebruikt wanneer de externe server geen header Expiration in de HTTP-respons bevat. Geheel getal in seconden.
 
-## IS::RemoteUrlTimeout - Time-out voor bron van externe afbeelding {#section-437646c479cc4bea81dae42100a3c50a}
+## IS::RemoteUrlTimeout - Remote Image Source Timeout {#section-437646c479cc4bea81dae42100a3c50a}
 
 De tijd de Server van het Beeld zal op een verre server wachten om het gevraagde beelddossier via HTTP te leveren alvorens een fout terug te keren. Geheel getal in seconden.
 
