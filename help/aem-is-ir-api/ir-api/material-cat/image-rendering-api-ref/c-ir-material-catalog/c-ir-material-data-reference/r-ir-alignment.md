@@ -2,16 +2,15 @@
 description: Uitlijning structuur. De uitlijning van de structuur wanneer deze wordt toegepast op aan elkaar verwante vignetobjecten, zoals de gestoffeerde delen van een meubelitem. Deze indeling wordt voornamelijk gebruikt voor toepassingen voor het genereren van beeldmateriaal, mogelijk voor geavanceerde toepassingen voor kleding.
 solution: Experience Manager
 title: Uitlijning
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 19f94b45-5412-46d5-9a01-d7536bc92e00
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
-
 
 # Uitlijning{#alignment}
 
