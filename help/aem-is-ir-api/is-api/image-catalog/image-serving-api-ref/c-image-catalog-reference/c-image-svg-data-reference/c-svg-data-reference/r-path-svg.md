@@ -2,16 +2,15 @@
 description: Pad
 solution: Experience Manager
 title: Pad
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: f2d17309-c4d0-477f-a8d8-b40f05a1a60b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
-
 
 # Pad{#path}
 
@@ -21,7 +20,7 @@ De server gebruikt de regels voor padresolutie die worden beschreven in [Brongeg
 
 Tekstreeks. Vereist voor afbeeldings- en SVG-records is mogelijk leeg voor sjabloonrecords. Indien gespecificeerd, moet het een geldig relatieve of absolute het dossierweg van de Server van het Beeld zijn. kenmerk::DefaultExt wordt toegevoegd als er geen achtervoegsel voor het bestand aanwezig is.
 
-## Ondersteunde bestandsindelingen {#section-8d6443c883aa48aaa00316fe9661aaa8}
+## Ondersteunde bestandsindelingen voor afbeeldingen {#section-8d6443c883aa48aaa00316fe9661aaa8}
 
 Raadpleeg de beschrijving van het hulpprogramma Image Converter (IC) voor een volledige lijst met ondersteunde bestandsindelingen voor afbeeldingen.
 
