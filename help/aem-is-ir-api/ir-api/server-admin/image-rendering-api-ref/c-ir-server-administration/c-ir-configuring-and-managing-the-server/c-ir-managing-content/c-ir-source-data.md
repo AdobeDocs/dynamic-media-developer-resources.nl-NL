@@ -2,16 +2,15 @@
 description: Brongegevensbestanden voor het renderen van afbeeldingen zijn onder andere vignetbestanden, materiaalbestanden (afbeeldingen voor herhaalbare structuren en decals, maar ook bestanden met CAB's en vensters die stijlbestanden bedekken) en ICC-profielen.
 solution: Experience Manager
 title: Brongegevens
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Administrator,User
+exl-id: de2d8fa2-6793-49ba-b873-adf723369cce
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
-
 
 # Brongegevens{#source-data}
 
