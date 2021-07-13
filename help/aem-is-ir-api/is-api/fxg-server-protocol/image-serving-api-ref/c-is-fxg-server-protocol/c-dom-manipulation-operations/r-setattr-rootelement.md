@@ -2,16 +2,15 @@
 description: Stel kenmerken in op FXG Root-element.
 solution: Experience Manager
 title: setAttr.rootElement
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 47bd947f-c078-4fd3-99cb-5ef48ea3e05e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '50'
 ht-degree: 0%
 
 ---
-
 
 # setAttr.rootElement{#setattr-rootelement}
 
