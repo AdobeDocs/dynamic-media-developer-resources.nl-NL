@@ -2,16 +2,15 @@
 description: In catalogusvelden worden deze standaardwaarden gebruikt.
 solution: Experience Manager
 title: Standaardwaarden voor catalogusvelden
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 8d4e666c-468b-4907-911a-9df324f7d2bf
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '55'
 ht-degree: 0%
 
 ---
-
 
 # Standaardwaarden voor catalogusvelden{#defaults-for-catalog-fields}
 
@@ -49,4 +48,3 @@ In catalogusvelden worden deze standaardwaarden gebruikt.
   </tr> 
  </tbody> 
 </table>
-
