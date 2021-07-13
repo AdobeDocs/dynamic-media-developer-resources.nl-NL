@@ -2,16 +2,15 @@
 description: textPs= steunt een aantal verschillende gebruiksmodellen die in deze sectie worden beschreven.
 solution: Experience Manager
 title: Tekstlagen
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 6793eb7d-6c10-4136-b6d4-186a698a8e52
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
-
 
 # Tekstlagen{#text-layers}
 
@@ -60,7 +59,7 @@ De volgende RTF-opdrachten worden genegeerd:
 
 `\vertal*`
 
-## Tekst in pad {#section-d26685e7085847efaaeba64b9cb5ed9f} automatisch vergroten/verkleinen
+## Tekst in pad automatisch vergroten/verkleinen {#section-d26685e7085847efaaeba64b9cb5ed9f}
 
 `textFlowPath=` in combinatie met  `textPs=` kunnen worden gebruikt om een of meer gebieden te definiëren waarin tekst moet doorlopen. `textFlowXPath=` kan optioneel worden opgegeven om te voorkomen dat tekst in een of meer gebieden doorloopt. Als `size=` niet wordt gespecificeerd, is de resulterende tekstlaag zelf-rangschikt en de laaggrootte wordt bepaald door het bounding vakje van de werkelijk teruggegeven tekst.
 
