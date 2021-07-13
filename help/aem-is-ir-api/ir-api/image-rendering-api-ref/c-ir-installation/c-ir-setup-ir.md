@@ -2,18 +2,17 @@
 description: Rendering van afbeelding wordt geconfigureerd met de map fileinstall_folder/conf/ImageRendering.conf.
 solution: Experience Manager
 title: Afbeeldingen renderen instellen en configureren
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 126833bf-16db-40f1-8179-7775e9063081
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '82'
 ht-degree: 0%
 
 ---
 
-
-# Afbeelding renderen instellen en configureren{#setup-and-configure-image-rendering}
+# Afbeeldingen renderen instellen en configureren{#setup-and-configure-image-rendering}
 
 Rendering van afbeelding wordt geconfigureerd met de map fileinstall_folder/conf/ImageRendering.conf.
 
