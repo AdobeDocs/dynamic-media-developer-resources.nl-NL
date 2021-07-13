@@ -2,16 +2,15 @@
 description: In deze sectie worden de variabelen beschreven die worden gebruikt om gegevenstypen op te geven.
 solution: Experience Manager
 title: Gegevenstypen
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 9e6666bf-0b35-4ca2-a1e8-1fd2bf4cdcb1
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '38'
+source-wordcount: '35'
 ht-degree: 0%
 
 ---
-
 
 # Gegevenstypen{#data-types}
 
