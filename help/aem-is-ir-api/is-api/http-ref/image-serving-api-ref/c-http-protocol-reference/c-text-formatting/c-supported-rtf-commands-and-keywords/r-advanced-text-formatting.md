@@ -2,16 +2,15 @@
 description: Gebruik de volgende opdrachten voor geavanceerde tekstopmaak.
 solution: Experience Manager
 title: Geavanceerde tekstopmaak
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: fd0e94dc-34ce-4fc1-8d52-f8647c8312b8
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
-
 
 # Geavanceerde tekstopmaak{#advanced-text-formatting}
 
@@ -103,4 +102,3 @@ Gebruik de volgende opdrachten voor geavanceerde tekstopmaak.
   </tr> 
  </tbody> 
 </table>
-
