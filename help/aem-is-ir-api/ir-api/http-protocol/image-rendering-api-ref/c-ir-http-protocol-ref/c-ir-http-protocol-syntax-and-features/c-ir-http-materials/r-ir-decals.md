@@ -2,16 +2,15 @@
 description: Decal-materialen omvatten kledingconstructies zoals apparaten, T-shirtafdrukken en geborduurde of gedrukte logo's, alsmede niet-herhaalbare, platte objecten die worden gebruikt in toepassingen voor binnen- en buitengebruik, zoals vlakbedekking, wandjagers, borden, enzovoort.
 solution: Experience Manager
 title: Decals
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 07190abd-9f6f-46b5-bf77-cd97c48fc9be
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
-
 
 # Decals{#decals}
 
@@ -69,4 +68,3 @@ Een slagschaduw wordt weergegeven als het decale materiaal een dikte definieert 
   </tr> 
  </tbody> 
 </table>
-
