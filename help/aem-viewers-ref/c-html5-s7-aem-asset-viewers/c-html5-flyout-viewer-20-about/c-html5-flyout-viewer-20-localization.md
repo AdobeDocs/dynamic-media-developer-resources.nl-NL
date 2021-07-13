@@ -3,15 +3,14 @@ description: Bepaalde inhoud die in de Flyout Viewer wordt weergegeven, is afhan
 solution: Experience Manager
 title: Lokalisatie van gebruikersinterface-elementen
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 57941e90-1462-43e6-80db-6b111e004f9b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
-
 
 # Lokalisatie van gebruikersinterface-elementen{#localization-of-user-interface-elements}
 
@@ -91,4 +90,3 @@ De volgende SYMBOL&#39;s worden ondersteund:
   </tr> 
  </tbody> 
 </table>
-
