@@ -2,16 +2,15 @@
 description: TimeStamp
 solution: Experience Manager
 title: TimeStamp
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 3c47b14d-b629-474d-952a-b09e1b1162b4
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
-
 
 # TimeStamp{#timestamp}
 
