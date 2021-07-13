@@ -2,16 +2,15 @@
 description: Afbeelding met glans. Biedt pixelcontrole over de glanzen van een herhaalbare structuur, achtergrond/rand of decal.
 solution: Experience Manager
 title: glossmap
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 922fc527-be19-4d7a-b265-7bdb1de80990
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
-
 
 # glossmap{#glossmap}
 
