@@ -2,22 +2,21 @@
 description: Adresfilterelement. Optioneel in elementen <rule>. Hiermee wordt het kenmerk ClientAddressFilter genegeerd wanneer de regel wordt toegepast.
 solution: Experience Manager
 title: addressfilter
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 0da9299b-fe14-4a69-8567-2d79ad2ce0bd
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
-
 
 # addressfilter{#addressfilter}
 
 Adresfilterelement. Optioneel in `<rule>`-elementen. Overschrijft kenmerk::ClientAddressFilter wanneer de regel wordt toegepast.
 
-## Kenmerken {#section-e7a0960f7f0045da91de37824aa4aeaa}
+## Attributen {#section-e7a0960f7f0045da91de37824aa4aeaa}
 
 Geen.
 
@@ -35,6 +34,6 @@ Als `<expression>` in het `<rule>` element ontbreekt of leeg is, `<addressfilter
 
 `localhost` maakt altijd impliciet deel uit van de  `ClientAddressFilter` definitie, zelfs als deze niet expliciet wordt opgegeven. Verzoeken die afkomstig zijn van `localhost` worden nooit afgewezen, ongeacht de `ClientAddressFilter`-specificatie.
 
-## SeeaOok {#section-02056065e0c042e1b155b2f3e5b84ef7}
+## Seeaalso {#section-02056065e0c042e1b155b2f3e5b84ef7}
 
 [kenmerk::ClientAddressFilter](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-clientaddressfilter.md#reference-52a541cec0b0424faf263d1fb4946b5f)
