@@ -2,16 +2,15 @@
 description: De volgende velden voor catalogusgegevens zijn beschikbaar.
 solution: Experience Manager
 title: Catalogusgegevensvelden
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: bda5fe2d-6205-4737-a9c7-dc934a2d7b06
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
-
 
 # Catalogusgegevensvelden{#catalog-data-fields}
 
@@ -167,4 +166,3 @@ De volgende velden worden herkend in ICC-kleurprofieltoewijzingsbestanden:
   <td class="stentry"> <p>ICC-pad naar kleurprofielbestand. </p></td> 
  </tr> 
 </table>
-
