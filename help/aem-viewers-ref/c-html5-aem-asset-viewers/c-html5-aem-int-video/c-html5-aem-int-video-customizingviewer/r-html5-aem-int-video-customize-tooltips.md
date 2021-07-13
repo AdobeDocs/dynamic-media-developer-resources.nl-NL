@@ -2,13 +2,12 @@
 description: Op desktopsystemen hebben bepaalde gebruikersinterface-elementen, zoals knoppen, knopinfo die wordt weergegeven wanneer de muisaanwijzer wordt bewogen.
 solution: Experience Manager
 title: Knopinfo
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
+role: Developer,User
 exl-id: 430809d8-3d51-49b7-b6bf-c3c3c77501ff
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
