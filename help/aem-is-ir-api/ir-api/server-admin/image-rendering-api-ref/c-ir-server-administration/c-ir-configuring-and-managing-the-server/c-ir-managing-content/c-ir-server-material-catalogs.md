@@ -2,16 +2,15 @@
 description: Materiaalcatalogi bieden veel configuratie-instellingen voor het renderen van afbeeldingen.
 solution: Experience Manager
 title: Materiaalcatalogi
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Administrator,User
+exl-id: c0b030b7-bcfb-4e6d-b74a-4533bdb801bf
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
-
 
 # Materiaalcatalogi{#material-catalogs}
 
