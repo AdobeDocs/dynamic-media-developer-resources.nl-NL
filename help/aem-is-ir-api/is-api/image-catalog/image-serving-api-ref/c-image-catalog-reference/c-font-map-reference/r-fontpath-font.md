@@ -2,16 +2,15 @@
 description: Pad lettertypebestand. Pad en naam voor het hoofdlettertypebestand, inclusief bestandsachtervoegsel.
 solution: Experience Manager
 title: FontPath
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 251ded53-47db-4855-a40b-7078dfc24d87
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '57'
 ht-degree: 0%
 
 ---
-
 
 # FontPath{#fontpath}
 
