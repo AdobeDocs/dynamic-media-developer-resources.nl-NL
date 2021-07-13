@@ -2,18 +2,17 @@
 description: De Beeldserver biedt een mechanisme om externe objecten-id's te vertalen naar landspecifieke object-id's (catalogus). De primaire toepassing is het aanbieden van landspecifieke inhoud en inhoud die door meerdere landinstellingen wordt gedeeld, zonder dat de clienttoepassing de landspecifieke object-id's moet kennen.
 solution: Experience Manager
 title: Omzetten van object-id
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 7a3bd6a1-2ad4-4da2-944c-489b7d18fdc1
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '703'
 ht-degree: 0%
 
 ---
 
-
-# Omzetting van object-id{#object-id-translation}
+# Omzetten van object-id{#object-id-translation}
 
 De Beeldserver biedt een mechanisme om externe objecten-id&#39;s te vertalen naar landspecifieke object-id&#39;s (catalogus). De primaire toepassing is het aanbieden van landspecifieke inhoud en inhoud die door meerdere landinstellingen wordt gedeeld, zonder dat de clienttoepassing de landspecifieke object-id&#39;s moet kennen.
 
@@ -29,7 +28,7 @@ De toepassing kan alleen worden geschreven met behulp van algemene object-id&#39
 
 Alle verwijzingen naar items in afbeeldings-, SVG- en statische inhoudcatalogi worden beschouwd als verwijzingen naar vertaallettertypen en ICC-profielen worden niet vertaald. Naast de *`object`* in het pad van [!DNL /is/image] en [!DNL /is/static requests] zijn deze opdrachten en cataloguskenmerken onderworpen aan id-omzetting: `src=`, `mask=`, `template=`, `defaultImage=`, `attribute::DefaultImage` en `attribute::Watermark`.
 
-## De vertaalkaart van identiteitskaart {#section-9e417b352c314dfe94e831fdd62cddc8}
+## De vertaalkaart voor id {#section-9e417b352c314dfe94e831fdd62cddc8}
 
 `attribute::LocaleMap` bepaalt de regels die door de server worden gebruikt om identiteitskaart van de gelokaliseerde inhoud te bepalen, gegeven als input generische objecten identiteitskaart en de  `locale=` waarde.
 
