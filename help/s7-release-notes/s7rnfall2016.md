@@ -3,15 +3,14 @@ description: '"De nieuwste release bevat informatie over de Adobe Scene7 Fall 20
 solution: Experience Manager
 title: Scene7 Fall 2016 Release
 feature: Dynamic Media Classic
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,User
+exl-id: 23091ef7-750a-4ec2-9d03-1d713f436991
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '2238'
+source-wordcount: '2235'
 ht-degree: 0%
 
 ---
-
 
 # Scene7 Fall 2016 Release{#scene-fall-release}
 
@@ -57,7 +56,7 @@ Voor volledige documentatie, zie [https://experienceleague.adobe.com/docs/dynami
 * Toegevoegde ondersteuning voor Marketing Cloud Org ID for Viewer Analytics.
 * Implementeerde Scene7 SAML-consument.
 
-## Viewers (afbeelding met 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
+## Viewers (afbeeldingen met 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
 Zie [Referentiehandleiding voor viewers](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html) voor volledige documentatie.
 
@@ -350,4 +349,3 @@ De gebruikershandleiding bevindt zich in de map Adobe HTML5 Viewer SDK van de cl
 
 * Hulpprogramma IC - `downsample2x2`-markering wordt niet meer ondersteund. Deze vlag was een slechte kwaliteit 2x2 downsampler die niet meer door IPS wordt gebruikt.
 * CORS-header - Momenteel is de CORS-header geconfigureerd voor `/is/content/`-aanvragen.
-
