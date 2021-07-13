@@ -2,16 +2,15 @@
 description: URL-voorvoegsel van Flash Streaming server. URL-voorvoegsel van Flash-streamingserver wordt gebruikt bij het genereren van f4m-reacties met meerdere bits-snelheden met req=mbrSet.
 solution: Experience Manager
 title: HttpFlashStreamingContext
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 1052e14d-2906-4be5-a13c-f5f34cd46d89
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '62'
 ht-degree: 0%
 
 ---
-
 
 # HttpFlashStreamingContext{#httpflashstreamingcontext}
 
