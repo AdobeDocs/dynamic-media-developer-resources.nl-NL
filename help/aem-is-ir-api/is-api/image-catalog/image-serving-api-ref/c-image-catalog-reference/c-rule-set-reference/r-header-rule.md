@@ -2,22 +2,21 @@
 description: HTTP-responsheader-element. Optioneel in elementen <rule>.
 solution: Experience Manager
 title: header
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 40849602-16b2-471b-9128-14653e84a45a
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
-
 
 # header{#header}
 
 HTTP-responsheader-element. Optioneel in `<rule>`-elementen.
 
-## Kenmerken {#section-6e903ab4c64f4b1488b8ae74274f50a6}
+## Attributen {#section-6e903ab4c64f4b1488b8ae74274f50a6}
 
 **`Name`= &quot;*tekst*&quot;** : Vereist. Geeft de naam van de HTTP-header op.
 
