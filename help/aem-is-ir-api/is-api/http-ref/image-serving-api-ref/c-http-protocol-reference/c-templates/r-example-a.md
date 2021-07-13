@@ -2,16 +2,15 @@
 description: Maak een sjabloon met een vaste grootte met een statische achtergrondafbeelding, een variabele afbeelding die links op de achtergrond wordt uitgelijnd en wordt geschaald tot maximaal 80% van de breedte en hoogte van de achtergrond, en een tekstlaag met verticale tekst gecentreerd op de rechterrand van het canvas.
 solution: Experience Manager
 title: Voorbeeld A
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 7f731b41-994d-4f1d-b42d-e14db47e4d6c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
-
 
 # Voorbeeld A{#example-a}
 
@@ -46,11 +45,10 @@ De werkelijke weergavetekst wordt tijdens runtime weergegeven, zodat een variabe
 
 Elke afbeelding kan worden gebruikt voor de achtergrondafbeelding en de afbeelding van laag 1. Als de achtergrondafbeelding een masker heeft, worden de niet-gemaskerde gebieden gevuld met de standaardachtergrondkleur ( `attribute::BkgColor`), of worden deze transparant gemaakt wanneer `fmt=png-alpha` of `fmt=tif-alpha`. Als de achtergrondafbeelding een niet-vierkante hoogte-breedteverhouding heeft, wordt deze gecentreerd in de antwoordafbeelding en wordt de extra ruimte gevuld met `attribute::BkgColor`. Als de afbeelding van laag 1 alpha-gegevens of een masker bevat, blijft de achtergrondafbeelding (of de achtergrondkleur) zichtbaar in de transparante gebieden. Als de afbeelding geen masker heeft, wordt de volledige toegewezen rechthoek gevuld.
 
-## De sjabloon {#section-3e04eedc268c482db5a8cfc662c0f327} gebruiken
+## De sjabloon gebruiken {#section-3e04eedc268c482db5a8cfc662c0f327}
 
 ` http:// *`server`*/myRootId/anotherImage?template=myTemplate1&$text=about+the+image`
 
 In de volgende afbeelding ziet u het samengestelde resultaat voor verschillende hoogte-breedteverhoudingen van de afbeelding met laag 1 en verschillende tekstreeksen.
 
 ![](assets/exampleausing.png)
-
