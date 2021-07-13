@@ -2,20 +2,19 @@
 description: Ondersteuning voor het bijhouden van analyses
 solution: Experience Manager
 title: Ondersteuning voor het bijhouden van analyses
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
-role: Developer,Business Practitioner,Data Engineer,Data Architect
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve afbeeldingen
+role: Developer,User,Data Engineer,Data Architect
 exl-id: 17e8937f-e328-46a4-b7d9-1fd39ab2e8bd
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
 
 # Ondersteuning voor het bijhouden van analyses{#support-for-analytics-tracking}
 
-## Aangepaste tekstspatiëring {#section-cda48fc9730142d0bb3326bac7df3271}
+## Aangepaste reeksspatiëring {#section-cda48fc9730142d0bb3326bac7df3271}
 
 Door gebrek, verzendt de kijker één enkele het volgen HTTP- verzoek naar de gevormde Server van het Beeld met het viewertype en versieinformatie.
 
