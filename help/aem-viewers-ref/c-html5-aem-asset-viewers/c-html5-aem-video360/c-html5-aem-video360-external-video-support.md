@@ -2,16 +2,15 @@
 description: De viewer ondersteunt het afspelen van video die buiten Dynamic Media Classic of AEM Dynamic Media wordt gehost.
 solution: Experience Manager
 title: Externe videoondersteuning
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
+role: Developer,User
+exl-id: b592f03b-92ab-47d8-96a6-87982fedc901
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
-
 
 # Externe videoondersteuning{#external-video-support}
 
