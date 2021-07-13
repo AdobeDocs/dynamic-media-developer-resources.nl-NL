@@ -3,15 +3,14 @@ description: Het gereedschap Delen insluiten bestaat uit een knop die wordt toeg
 solution: Experience Manager
 title: Delen insluiten
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 82117b6e-c0be-4538-90ab-8def7521b49c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '2611'
+source-wordcount: '2608'
 ht-degree: 0%
 
 ---
-
 
 # Delen insluiten{#embed-share}
 
@@ -1288,4 +1287,3 @@ background-image:url(images/sdk/scroll_up_up.png);
  background-image:url(images/sdk/scroll_down_disabled.png); 
 }
 ```
-
