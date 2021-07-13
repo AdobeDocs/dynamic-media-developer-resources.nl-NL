@@ -2,16 +2,15 @@
 description: Bestandspad voor macrodefinities. Hier geeft u het bestand op dat de macrodefinities voor deze materiaalcatalogus bevat.
 solution: Experience Manager
 title: MacroFile
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 5b926246-54c5-40ca-a8d3-d1a1411d8931
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---
-
 
 # MacroFile{#macrofile}
 
