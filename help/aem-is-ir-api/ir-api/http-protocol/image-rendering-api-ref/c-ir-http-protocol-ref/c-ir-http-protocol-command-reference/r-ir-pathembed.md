@@ -2,16 +2,15 @@
 description: Paden insluiten. Hiermee geeft u aan of Photoshop-paden die zijn ingesloten in het vignet, moeten worden opgenomen in de reactieafbeelding.
 solution: Experience Manager
 title: pathEmbed
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 66cc57ef-964e-4062-bb66-efeda15be744
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
-
 
 # pathEmbed{#pathembed}
 
