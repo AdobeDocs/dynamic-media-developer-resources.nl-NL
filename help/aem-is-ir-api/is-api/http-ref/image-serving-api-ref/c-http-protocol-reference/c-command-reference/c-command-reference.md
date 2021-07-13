@@ -2,18 +2,17 @@
 description: In deze sectie worden de HTTP-protocolopdrachten beschreven.
 solution: Experience Manager
 title: Opdrachtverwijzing
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 959cb193-d0b7-4aa9-a747-fa17484f80c7
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
 
-
-# Command reference{#command-reference}
+# Opdrachtverwijzing{#command-reference}
 
 In deze sectie worden de HTTP-protocolopdrachten beschreven.
 
