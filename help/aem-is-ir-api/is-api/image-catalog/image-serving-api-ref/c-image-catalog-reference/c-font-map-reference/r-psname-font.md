@@ -2,16 +2,15 @@
 description: Naam lettertype van Postscript. De gezichtsnaam van het Postscript-lettertype.
 solution: Experience Manager
 title: PsName
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 8d48dead-e544-4fd1-8e8a-70933389b668
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '69'
 ht-degree: 1%
 
 ---
-
 
 # PsName{#psname}
 
