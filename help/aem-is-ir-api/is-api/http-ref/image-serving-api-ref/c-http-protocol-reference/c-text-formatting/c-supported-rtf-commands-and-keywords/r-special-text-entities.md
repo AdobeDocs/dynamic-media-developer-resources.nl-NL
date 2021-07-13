@@ -2,16 +2,15 @@
 description: Gebruik de volgende speciale entiteiten bij het opmaken van tekst.
 solution: Experience Manager
 title: Speciale-tekstentiteiten
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 3798dd83-897a-441c-a7c4-ef7325b20f16
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
-
 
 # Speciale-tekstentiteiten{#special-text-entities}
 
@@ -68,4 +67,3 @@ Gebruik de volgende speciale entiteiten bij het opmaken van tekst.
   </tr> 
  </tbody> 
 </table>
-
