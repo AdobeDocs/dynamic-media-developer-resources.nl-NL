@@ -3,15 +3,14 @@ description: Als u op deze knop klikt of erop tikt, wordt de bijbehorende webpag
 solution: Experience Manager
 title: Knop Sluiten
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 8dee7c56-ed60-44e5-a5c9-f404df03861e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
-
 
 # Knop Sluiten{#close-button}
 
@@ -96,4 +95,3 @@ background-image:url(images/v2/CloseButton_dark_down.png);
 background-image:url(images/v2/CloseButton_dark_disabled.png); 
 }
 ```
-
