@@ -2,18 +2,17 @@
 description: Een materiaal wordt beschouwd als een wandrand wanneer deze is opgegeven in een MSS-wandrand (geïntroduceerd met sub=3.5).
 solution: Experience Manager
 title: Muurgrenzen
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: e11c38d0-8255-4363-ae60-f47be37a1495
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
 
-
-# Muurranden{#wall-borders}
+# Muurgrenzen{#wall-borders}
 
 Een materiaal wordt beschouwd als een wandrand wanneer deze is opgegeven in een MSS-wandrand (geïntroduceerd met sub=3.5).
 
@@ -50,4 +49,3 @@ Structuurafbeeldingen met een wandrand kunnen een alfakanaal bevatten om de vorm
   </tr> 
  </tbody> 
 </table>
-
