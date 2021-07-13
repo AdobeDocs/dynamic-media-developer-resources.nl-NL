@@ -2,16 +2,15 @@
 description: Kenmerkbestanden van catalogi herkennen deze kleurbeheerkenmerken.
 solution: Experience Manager
 title: Kleurbeheerkenmerken
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: ded6bfe7-3e39-4e45-83f0-21e9bf92895f
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
-
 
 # Kleurbeheerkenmerken{#color-management-attributes}
 
@@ -55,4 +54,3 @@ Kenmerkbestanden van catalogi herkennen deze kleurbeheerkenmerken.
   <td class="stentry"> <p>Dithering voor kleurconversie in-/uitschakelen. </p></td> 
  </tr> 
 </table>
-
