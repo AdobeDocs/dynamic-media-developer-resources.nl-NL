@@ -2,16 +2,15 @@
 description: Bij lokalisatie van tekstreeksen kunnen afbeeldingscatalogi meerdere landspecifieke representaties voor dezelfde tekenreekswaarde bevatten.
 solution: Experience Manager
 title: Tekstreeks lokaliseren
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: f105c7f2-b544-4c08-bb91-4916e485572d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
-
 
 # Tekstreeks lokaliseren{#text-string-localization}
 
@@ -50,7 +49,7 @@ Tekstreeklokalisatie wordt toegepast op alle tekenreekselementen die het lokalis
  </tbody> 
 </table>
 
-## Tekensyntaxis {#section-d12320edf300409f8e17565b143acafc}
+## Tekenreekssyntaxis {#section-d12320edf300409f8e17565b143acafc}
 
 Voor lokalisatie geschikte *`string`*-elementen in de afbeeldingscatalogus bestaan uit een of meer gelokaliseerde tekenreeksen, elk voorafgegaan door een lokalisatietoken.
 
@@ -156,4 +155,3 @@ In de volgende tabel wordt de uitvoer beschreven voor een aantal representatieve
   </tr> 
  </tbody> 
 </table>
-
