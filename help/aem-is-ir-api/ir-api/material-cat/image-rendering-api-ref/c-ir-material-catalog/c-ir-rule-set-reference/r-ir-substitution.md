@@ -2,22 +2,21 @@
 description: Vervangend tekenreekselement. Optioneel in elementen <rule>.
 solution: Experience Manager
 title: vervanging
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: ea44d940-e8dd-4a25-a082-3ed3c0f57e45
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
 
-
-# substitution{#substitution}
+# vervanging{#substitution}
 
 Vervangend tekenreekselement. Optioneel in `<rule>`-elementen.
 
-## Kenmerken {#section-d955eefc53eb4274861270669c01f9ca}
+## Attributen {#section-d955eefc53eb4274861270669c01f9ca}
 
 Geen.
 
