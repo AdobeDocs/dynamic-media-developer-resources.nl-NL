@@ -2,16 +2,15 @@
 description: Pas de kleurtoon aan. Hiermee verschuift u de kleurtoon van elke zichtbare pixel van de laag of samengestelde afbeelding met de opgegeven hoeveelheid.
 solution: Experience Manager
 title: op_hue
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: b436bd31-12a9-42ed-9ad3-5ff91e3ccce9
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
-
 
 # op_hue{#op-hue}
 
