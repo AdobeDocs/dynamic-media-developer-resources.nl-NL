@@ -2,18 +2,17 @@
 description: Statische (niet-afbeeldings) inhoud bedienen
 solution: Experience Manager
 title: Statische (niet-afbeeldings) inhoud bedienen
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: e2c79bdc-5d70-46d9-85f4-ffebd7621944
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
 
-
-# Statische (niet-grafische) inhoud renderen{#serving-static-non-image-content}
+# Statische (niet-afbeeldings) inhoud bedienen{#serving-static-non-image-content}
 
 De Serving van het beeld verstrekt een mechanisme om niet-beeldinhoud in catalogi te beheren en het via een afzonderlijke `context /is/content` te dienen. Het mechanisme staat voor het vormen van TTL voor elk punt afzonderlijk toe.
 
@@ -73,7 +72,7 @@ Beeldserver ondersteunt de volgende opdrachten bij /is/content:
  </tr> 
 </table>
 
-## Statische inhoudcatalogi {#section-b2b8f4860fe84e528493ed704c7c5141}
+## Statische inhoudscatalogi {#section-b2b8f4860fe84e528493ed704c7c5141}
 
 Catalogi met statische inhoud zijn vergelijkbaar met catalogi met afbeeldingen, maar ondersteunen minder gegevensvelden:
 
