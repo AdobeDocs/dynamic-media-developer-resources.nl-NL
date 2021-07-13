@@ -2,16 +2,15 @@
 description: De hoeveelheid geheugen die door het renderen van afbeeldingen wordt gebruikt, kan sterk variëren en is sterk afhankelijk van de werkelijke serverbelasting en het werkelijke gebruik (bijvoorbeeld weinig of veel verschillende vignetten, grootte en complexiteit van vignetten, enzovoort).
 solution: Experience Manager
 title: Geheugenoverwegingen
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Administrator,User
+exl-id: 62eaa41c-a61c-4bcd-8dd9-9c3423bf82ef
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
-
 
 # Geheugenoverwegingen{#memory-considerations}
 
