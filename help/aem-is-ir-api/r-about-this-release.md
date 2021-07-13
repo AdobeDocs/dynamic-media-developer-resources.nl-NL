@@ -2,16 +2,15 @@
 description: Deze release—Afbeelding met 6.6.1 en Afbeelding weergeven 6.6.1—vervangt de afbeelding met 6.5.3 en Afbeelding weergeven 6.5.3.
 solution: Experience Manager
 title: Over deze release
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: f837191b-1151-4c29-8059-b4d3e09e304e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
-
 
 # Over deze release{#about-this-release}
 
@@ -29,7 +28,6 @@ Deze release—Afbeelding met 6.6.1 en Afbeelding weergeven 6.6.1—vervangt de 
 * Slim staal
 * Slim uitsnijden
 
-## Opgeloste problemen {#section-58dff74d56f64edeadf8f8b97b7a4161}
+## Bug Fix {#section-58dff74d56f64edeadf8f8b97b7a4161}
 
 * Correctie van het probleem waarbij de optie `\qc` RTF gevolgd door een spatie een verzoek deed om niet te renderen.
-
