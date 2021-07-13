@@ -2,18 +2,17 @@
 description: De gids van de Hulpprogramma's van de Server van het Beeld bevat informatie over nut die met de Server van het Beeld van Dynamic Media en het Teruggeven van het Beeld worden gebruikt.
 solution: Experience Manager
 title: Hulpprogramma's voor beeldservers
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: afca4d90-546f-4725-85b4-25bd487d50f6
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---
 
-
-# Hulpprogramma&#39;s voor beeldbewerking{#image-serving-utilities}
+# Hulpprogramma&#39;s voor beeldservers{#image-serving-utilities}
 
 De gids van de Hulpprogramma&#39;s van de Server van het Beeld bevat informatie over nut die met de Server van het Beeld van Dynamic Media en het Teruggeven van het Beeld worden gebruikt.
 
