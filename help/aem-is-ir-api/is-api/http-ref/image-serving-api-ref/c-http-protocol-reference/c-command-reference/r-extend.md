@@ -2,18 +2,17 @@
 description: Laag uitbreiden. Hiermee voegt u marges toe aan een laag of snijdt u de laagrechthoek bij.
 solution: Experience Manager
 title: uitbreiden
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 03db6555-6851-49d4-b0de-5570bf56ad76
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
 
-
-# extend{#extend}
+# uitbreiden{#extend}
 
 Laag uitbreiden. Hiermee voegt u marges toe aan een laag of snijdt u de laagrechthoek bij.
 
