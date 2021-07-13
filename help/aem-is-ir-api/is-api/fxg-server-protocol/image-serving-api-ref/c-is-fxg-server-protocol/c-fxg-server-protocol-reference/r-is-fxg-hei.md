@@ -2,16 +2,15 @@
 description: Weergavehoogte. Hiermee geeft u de hoogte van de antwoordafbeelding op.
 solution: Experience Manager
 title: hei
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: dcc9311d-4157-490b-9fc4-47060ddb0e37
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
-
 
 # hei{#hei}
 
@@ -48,4 +47,3 @@ Tenzij een indeling is opgegeven, wordt de afbeelding weergegeven als een SWF-be
 * GIF-alfa
 * TIF-alfa
 * PNG-alfa
-
