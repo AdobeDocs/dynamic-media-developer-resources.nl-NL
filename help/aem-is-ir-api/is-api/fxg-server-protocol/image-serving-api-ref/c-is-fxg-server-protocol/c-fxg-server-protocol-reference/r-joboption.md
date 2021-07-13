@@ -2,16 +2,15 @@
 description: PDF-taakopties toepassen. Een bestand met taakopties of een PDF-voorinstelling is een bestand dat door Illustrator is gegenereerd in het dialoogvenster Opslaan als PDF-opties of in het dialoogvenster PDF-voorinstellingen in InDesign.
 solution: Experience Manager
 title: joboption
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 8e7224e7-d801-4550-b95e-24d15734043a
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
-
 
 # joboption{#joboption}
 
@@ -81,4 +80,3 @@ De volgende opties worden momenteel ondersteund:
   <td class="stentry"> <p>Compatibiliteitsnorm. </p></td> 
  </tr> 
 </table>
-
