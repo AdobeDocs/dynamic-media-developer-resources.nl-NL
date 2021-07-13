@@ -2,18 +2,17 @@
 description: De basissyntaxis van het HTTP-protocol ziet er als volgt uit.
 solution: Experience Manager
 title: Basissyntaxis van HTTP-protocol voor afbeeldingen
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: ac75d6d0-a71e-45a0-89ee-b952a0202793
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
-
-# Beeld dat het protocol van HTTP basissyntaxis{#image-serving-http-protocol-basic-syntax} dient
+# Basissyntaxis van HTTP-protocol voor afbeeldingen{#image-serving-http-protocol-basic-syntax}
 
 De basissyntaxis van het HTTP-protocol ziet er als volgt uit:
 
