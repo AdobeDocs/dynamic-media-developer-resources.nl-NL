@@ -4,11 +4,11 @@ keywords: responsief
 solution: Experience Manager
 title: Video
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: fa9727dc-f9e2-4d91-b500-445693dfb6aa
-source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2388'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Viewer type 506.
 
 [https://s7d9.scene7.com/s7viewers/html5/VideoViewer.html?asset=Scene7SharedAssets/Glacier_Climber_MP4](https://s7d9.scene7.com/s7viewers/html5/VideoViewer.html?asset=Scene7SharedAssets/Glacier_Climber_MP4)
 
-## Video-viewer {#section-f21ac23d3f6449ad9765588d69584772} gebruiken
+## Video-viewer gebruiken {#section-f21ac23d3f6449ad9765588d69584772}
 
 De video-viewer vertegenwoordigt een hoofd-JavaScript-bestand en een set hulplijnbestanden, één JavaScript-bestand met alle Viewer SDK-componenten die door deze viewer worden gebruikt, elementen en CSS-gedownload door de viewer in runtime.
 
@@ -39,7 +39,7 @@ Het configureren en toewijzen van een skin aan de viewer is vergelijkbaar met di
 
 Zie [De verwijzing van het Bevel gemeenschappelijk voor alle kijkers - de attributen van de Configuratie](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) en [De verwijzing van het Bevel gemeenschappelijk voor alle Kijkers - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## Interactie met de videoviewer {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
+## Interactie met Video Viewer {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
 De video Viewer biedt een set standaardbesturingselementen voor de gebruikersinterface voor het afspelen van video, zoals een afspeel-/pauzeknop, een videobubbel met scrubber, een indicator voor de afspeeltijd/totale tijd, volumeregeling, een knop voor volledig scherm en een schakelknop voor een gesloten bijschrift. Al deze controles worden gegroepeerd in een controlebar bij de bodem van het gebruikersinterface van de kijker.
 
@@ -55,7 +55,7 @@ Deze viewer is volledig toegankelijk via het toetsenbord.
 
 Zie [Toegankelijkheid en navigatie op toetsenbord](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
-## Gereedschappen voor het delen van sociale media met Video-viewer {#section-907d316fe1da4b87abb9775f02464704}
+## Gereedschappen voor sociale media delen met Video Viewer {#section-907d316fe1da4b87abb9775f02464704}
 
 De video-viewer ondersteunt gereedschappen voor het delen van sociale media Deze knoppen zijn beschikbaar als één knop in de gebruikersinterface die wordt uitgebreid naar een werkbalk voor delen wanneer de gebruiker erop klikt of tikt.
 
@@ -63,7 +63,7 @@ De werkbalk voor delen bevat een pictogram voor elk type kanaal dat wordt onders
 
 Delen van gereedschappen is niet beschikbaar in de modus Volledig scherm vanwege beveiligingsbeperkingen van de webbrowser.
 
-## Video-viewer {#section-6bb5d3c502544ad18a58eafe12a13435} insluiten
+## Video-viewer insluiten {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 Verschillende webpagina&#39;s hebben verschillende vereisten voor viewergedrag. Soms biedt een webpagina een koppeling die de viewer in een apart browservenster opent wanneer erop wordt geklikt. In andere gevallen moet u de viewer rechtstreeks insluiten op de hostpagina. In het laatste geval heeft de webpagina mogelijk een statische paginalay-out of wordt een responsief ontwerp gebruikt dat op verschillende apparaten of voor verschillende venstergrootten van de browser anders wordt weergegeven. Om aan deze behoeften tegemoet te komen, ondersteunt de viewer drie primaire bewerkingsmodi: popup, insluiting van vaste grootte en responsieve ontwerpinsluiting.
 
@@ -126,7 +126,7 @@ Relatief pad ziet er als volgt uit:
 
 >[!NOTE]
 >
->U moet alleen verwijzen naar het JavaScript-bestand `include` van de hoofdviewer op uw pagina. U moet niet verwijzen naar extra JavaScript-bestanden in de webpaginacode die door de logica van de viewer in runtime kunnen worden gedownload. Verwijs met name niet rechtstreeks naar de HTML5 SDK `Utils.js`-bibliotheek die door de viewer is geladen vanaf het contextpad `/s7viewers` (de zogeheten geconsolideerde SDK `include`). De reden hiervoor is dat de locatie van `Utils.js` of vergelijkbare runtimeviewerbibliotheken volledig wordt beheerd door de logica van de viewer en dat de locatie verandert tussen viewerreleases. Adobe houdt oudere versies van de secundaire viewer `includes` niet op de server.
+>U moet alleen verwijzen naar het JavaScript-bestand `include` van de hoofdviewer op uw pagina. U moet niet verwijzen naar extra JavaScript-bestanden in de webpaginacode die door de logica van de viewer in runtime kunnen worden gedownload. Verwijs met name niet rechtstreeks naar de HTML5 SDK `Utils.js`-bibliotheek die door de viewer is geladen vanaf het contextpad `/s7viewers` (de zogeheten geconsolideerde SDK `include`). De reden hiervoor is dat de locatie van `Utils.js` of vergelijkbare runtimeviewerbibliotheken volledig wordt beheerd door de logica van de viewer en dat de locatie verandert tussen de viewerreleases. Adobe houdt oudere versies van de secundaire viewer `includes` niet op de server.
 >
 >
 >Als u dus een directe verwijzing naar een secundair JavaScript `include` op de pagina plaatst, wordt de viewerfunctionaliteit in de toekomst verbroken wanneer een nieuwe productversie wordt geïmplementeerd.
