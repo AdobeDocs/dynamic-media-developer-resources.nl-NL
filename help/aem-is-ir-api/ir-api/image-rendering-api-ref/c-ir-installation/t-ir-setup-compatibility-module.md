@@ -2,18 +2,17 @@
 description: U moet opstelling en de IRL 3.x verenigbaarheidsmodule vormen.
 solution: Experience Manager
 title: De opstelling en vormt IR 3.x verenigbaarheidsmodule
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 44fbc6be-7681-402a-936a-0511e138365c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '108'
 ht-degree: 0%
 
 ---
 
-
-# Instellen en configureren van IR 3.x-compatibiliteitsmodule{#setup-and-configure-ir-x-compatibility-module}
+# De opstelling en vormt IR 3.x verenigbaarheidsmodule{#setup-and-configure-ir-x-compatibility-module}
 
 U moet opstelling en de IRL 3.x verenigbaarheidsmodule vormen.
 
