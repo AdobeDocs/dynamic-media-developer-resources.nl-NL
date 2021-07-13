@@ -2,18 +2,17 @@
 description: Glansheid van het materiaaloppervlak. Hiermee bepaalt u de relatieve glans van het materiaaloppervlak. Hiermee selecteert u de belichtingsafbeelding en bestuurt u de rendering van glanseffecten en 3D-reflecties.
 solution: Experience Manager
 title: glanzen
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 6df6cd05-9462-4c1e-a7ac-efac3461cf11
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
 
-
-# glan{#gloss}
+# glanzen{#gloss}
 
 Glansheid van het materiaaloppervlak. Hiermee bepaalt u de relatieve glans van het materiaaloppervlak. Hiermee selecteert u de belichtingsafbeelding en bestuurt u de rendering van glanseffecten en 3D-reflecties.
 
