@@ -2,16 +2,15 @@
 description: Verscherp de structuur. Hiermee geeft u de verscherping op die moet worden toegepast bij het renderen van dit materiaal.
 solution: Experience Manager
 title: scherp
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 7921ceba-e249-4aab-823e-c54705c4a7c3
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '130'
 ht-degree: 3%
 
 ---
-
 
 # scherp{#sharp}
 
@@ -25,7 +24,7 @@ Verscherp de structuur. Hiermee geeft u de verscherping op die moet worden toege
   <td class="stentry"> <p>Geen verscherping. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p> </td> 
+  <td class="stentry"> <p>1 </p> </td> 
   <td class="stentry"> <p>Normaal verscherpen (laat). </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -33,7 +32,7 @@ Verscherp de structuur. Hiermee geeft u de verscherping op die moet worden toege
   <td class="stentry"> <p>0 alternatief verscherpen (vroeg). </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p> </td> 
+  <td class="stentry"> <p>1 </p> </td> 
   <td class="stentry"> <p>Meer verscherping (vroeg en laat). </p> </td> 
  </tr> 
 </table>
