@@ -2,18 +2,17 @@
 description: In deze sectie wordt de basissyntaxis beschreven van het Dynamic Media Image Rendering HTTP-protocol.
 solution: Experience Manager
 title: Basissyntaxis van HTTP-protocol voor het renderen van afbeeldingen
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 8bf5920a-7ada-4db5-9796-05c5a17532c8
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
 
-
-# Afbeeldingen renderen HTTP protocol basissyntaxis{#image-rendering-http-protocol-basic-syntax}
+# Basissyntaxis van HTTP-protocol voor het renderen van afbeeldingen{#image-rendering-http-protocol-basic-syntax}
 
 In deze sectie wordt de basissyntaxis beschreven van het Dynamic Media Image Rendering HTTP-protocol.
 
