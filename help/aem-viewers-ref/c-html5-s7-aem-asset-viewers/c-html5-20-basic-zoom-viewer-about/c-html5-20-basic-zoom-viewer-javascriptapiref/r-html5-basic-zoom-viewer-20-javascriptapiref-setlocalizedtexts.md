@@ -2,16 +2,15 @@
 description: JavaScript API-referentie voor de Basic Zoom Viewer.
 solution: Experience Manager
 title: setLocalizedText
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoomen
+role: Developer,User
+exl-id: 4472ac64-fdab-4f80-985a-29ed8537d235
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
-
 
 # setLocalizedText{#setlocalizedtexts}
 
@@ -41,4 +40,3 @@ Geen.
 ```
 <instance>.setLocalizedTexts({"en":{"CloseButton.TOOLTIP":"Close"},"fr":{"CloseButton.TOOLTIP":"Fermer"},defaultLocale:"en"})
 ```
-
