@@ -2,16 +2,15 @@
 description: Bepaalde inhoud die in de viewer voor draaien wordt weergegeven, is afhankelijk van lokalisatie, inclusief zoomknoppen en een knop voor volledig scherm.
 solution: Experience Manager
 title: Lokalisatie van gebruikersinterface-elementen
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewers,SDK/API,Draaiensets
+role: Developer,User
+exl-id: f4c0f16b-dbb9-4505-a3f2-d504ae21c3f0
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
-
 
 # Lokalisatie van gebruikersinterface-elementen{#localization-of-user-interface-elements}
 
@@ -99,4 +98,3 @@ De volgende SYMBOL&#39;s worden ondersteund:
   </tr> 
  </tbody> 
 </table>
-
