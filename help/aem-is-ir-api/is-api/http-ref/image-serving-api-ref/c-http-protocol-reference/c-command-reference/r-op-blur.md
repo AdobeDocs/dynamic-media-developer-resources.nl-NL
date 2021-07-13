@@ -2,16 +2,15 @@
 description: Afbeelding vervagen. Hiermee past u een vervagend filter toe op de afbeeldingsgegevens.
 solution: Experience Manager
 title: op_vervagen
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: cd68c109-ee99-4ef7-aac0-7d2e6d408cc0
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
-
 
 # op_vervagen{#op-blur}
 
