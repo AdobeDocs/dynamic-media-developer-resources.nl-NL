@@ -2,16 +2,15 @@
 description: Als een aanvraag niet met succes kan worden voltooid, retourneert de server een foutafbeelding of een andere HTTP-antwoordstatus dan 200, samen met een foutbericht.
 solution: Experience Manager
 title: Fouten
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 9314782f-703b-4e9c-a026-62970d1c752f
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
-
 
 # Fouten{#errors}
 
