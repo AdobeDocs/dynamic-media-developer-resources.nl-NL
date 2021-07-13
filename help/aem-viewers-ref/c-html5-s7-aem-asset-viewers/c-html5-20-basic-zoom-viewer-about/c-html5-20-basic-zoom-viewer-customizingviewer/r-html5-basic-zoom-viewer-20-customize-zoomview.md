@@ -2,16 +2,15 @@
 description: De hoofdweergave bestaat uit de afbeelding waarop kan worden ingezoomd.
 solution: Experience Manager
 title: Zoomweergave
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoomen
+role: Developer,User
+exl-id: 286b9df4-88db-4e5d-aab4-9cbe01195e57
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
-
 
 # Zoomweergave{#zoom-view}
 
@@ -82,4 +81,3 @@ Op desktopsystemen ondersteunt de component de `cursortype`-kenmerkkiezer die op
   </tr> 
  </tbody> 
 </table>
-
