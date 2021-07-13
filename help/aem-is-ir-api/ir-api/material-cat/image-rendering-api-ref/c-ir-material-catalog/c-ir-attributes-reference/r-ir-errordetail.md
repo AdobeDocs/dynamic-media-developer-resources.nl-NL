@@ -2,16 +2,15 @@
 description: Foutbericht met details. Geeft het detailniveau voor foutberichten op die via HTTP worden geretourneerd als de error.message-waarde.
 solution: Experience Manager
 title: ErrorDetail
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 39d7fc44-7605-4f93-b2f9-0a6e8bc76ec7
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '167'
 ht-degree: 2%
 
 ---
-
 
 # ErrorDetail{#errordetail}
 
@@ -35,7 +34,7 @@ De volgende waarden zijn toegestaan:
   <td class="stentry"> <p>Gedetailleerd bericht. Verstrekt gebruiker-vlakke details over de fout. Kan vertrouwelijke informatie bevatten, zoals bestandspaden. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p></td> 
+  <td class="stentry"> <p>1 </p></td> 
   <td class="stentry"> <p>Volledige foutopsporingsinformatie. Voegt Java-stacktraceringen toe, indien van toepassing. Foutafbeeldingen bevatten nooit stacktraces en retourneren in plaats daarvan niveau 2-informatie in <span class="codeph"> $error.message</span>. </p></td> 
  </tr> 
 </table>
