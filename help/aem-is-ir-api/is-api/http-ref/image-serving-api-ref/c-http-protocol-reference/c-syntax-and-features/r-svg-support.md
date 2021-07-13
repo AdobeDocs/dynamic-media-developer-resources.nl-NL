@@ -2,16 +2,15 @@
 description: De server van het beeld steunt Scalable VectorGrafieken (SVG) dossiers als brongegevens. Conformiteit met SVG 1.1 is vereist.
 solution: Experience Manager
 title: SVG-ondersteuning
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 60e40195-710f-4f03-b152-52eaa10c5b21
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
-
 
 # SVG-ondersteuning{#svg-support}
 
@@ -31,7 +30,7 @@ De belangrijke Variabelen in het vraaggedeelte van ingebedde Beeld die verzoeken
 
 Zie [Vervangende variabelen](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md#reference-90dc01aba44940e4acdd0c6476e7aa5a) voor meer informatie.
 
-## Afbeeldingsreferenties {#section-a7680f9e6aca4b1a83560637cc9fac66}
+## Verwijzingen naar afbeeldingen {#section-a7680f9e6aca4b1a83560637cc9fac66}
 
 Afbeeldingen kunnen in SVG worden ingevoegd met het element `<image>`. Afbeeldingen waarnaar wordt verwezen door het `xlink::href`-kenmerk van het `<image>`-element, moeten geldige aanvragen voor afbeeldingsweergave zijn. Externe URL&#39;s zijn niet toegestaan.
 
