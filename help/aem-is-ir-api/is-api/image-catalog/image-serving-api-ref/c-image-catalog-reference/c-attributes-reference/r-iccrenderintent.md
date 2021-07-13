@@ -2,16 +2,15 @@
 description: Render-intentie kleurconversie. Biedt de standaard rendering intent voor kleurconversies wanneer de render intent niet is opgegeven met icc=.
 solution: Experience Manager
 title: IccRenderIntent
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 732b1935-6556-4420-a056-4e00cb3ed152
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
-
 
 # IccRenderIntent{#iccrenderintent}
 
