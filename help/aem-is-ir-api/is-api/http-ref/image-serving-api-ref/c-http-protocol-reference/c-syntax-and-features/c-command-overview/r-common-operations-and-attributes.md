@@ -2,18 +2,17 @@
 description: Deze opdrachten zijn van toepassing op afbeeldings-, tekst- en effen-kleurlagen. Ze zijn over het algemeen ook handig voor samengestelde afbeeldingen en eenvoudige, niet-gelaagde afbeeldingsaanvragen.
 solution: Experience Manager
 title: Gemeenschappelijke operaties
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: f30a9653-7aed-4233-8361-18ca6561d420
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
 
-
-# Algemene bewerkingen{#common-operations}
+# Gemeenschappelijke operaties{#common-operations}
 
 Deze opdrachten zijn van toepassing op afbeeldings-, tekst- en effen-kleurlagen. Ze zijn over het algemeen ook handig voor samengestelde afbeeldingen en eenvoudige, niet-gelaagde afbeeldingsaanvragen.
 
@@ -83,4 +82,3 @@ Deze opdrachten zijn van toepassing op afbeeldings-, tekst- en effen-kleurlagen.
   <td class="stentry"> <p>Hiermee geeft u de omgekeerde clipvorm(en) voor de laag op. </p></td> 
  </tr> 
 </table>
-
