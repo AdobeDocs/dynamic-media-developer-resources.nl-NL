@@ -2,18 +2,17 @@
 description: Deze opdrachten worden gebruikt om vignetgroepen, -objecten, -subgebieden van groepen of objecten te selecteren.
 solution: Experience Manager
 title: Selectie, opdrachten
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 43f6ec6e-e4eb-468d-9c66-841af5e0a8a5
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
 
-
-# Selectieopdrachten{#selection-commands}
+# Selectie, opdrachten{#selection-commands}
 
 Deze opdrachten worden gebruikt om vignetgroepen, -objecten, -subgebieden van groepen of objecten te selecteren.
 
@@ -37,4 +36,3 @@ De opdracht, of het materiaal, of beide, wordt opgegeven na deze selectieopdrach
   <td class="stentry"> <p>Selecteer een subgebied van de geselecteerde groep of het geselecteerde object. </p></td> 
  </tr> 
 </table>
-
