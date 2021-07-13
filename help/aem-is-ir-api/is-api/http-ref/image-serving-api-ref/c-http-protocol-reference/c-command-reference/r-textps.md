@@ -2,16 +2,15 @@
 description: Laagtekst (compatibel met Adobe Photoshop). Geeft de teksthoofdtekst voor een tekstlaag aan.
 solution: Experience Manager
 title: textPs
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 95f343ce-bea3-425e-9a25-d1d141a976d9
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
-
 
 # textPs{#textps}
 
