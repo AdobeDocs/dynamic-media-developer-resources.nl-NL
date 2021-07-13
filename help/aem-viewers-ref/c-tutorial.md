@@ -3,16 +3,16 @@ description: De Viewer SDK bevat een set JavaScript-componenten voor de ontwikke
 solution: Experience Manager
 title: Zelfstudie voor viewer-SDK
 feature: Dynamic Media Classic,Viewers,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 3a798595-6c65-4a12-983d-3cdc53830d28
-source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 0%
 
 ---
 
-# Lesbestand voor viewer-SDK{#viewer-sdk-tutorial}
+# Zelfstudie voor viewer-SDK{#viewer-sdk-tutorial}
 
 De Viewer SDK bevat een set JavaScript-componenten voor de ontwikkeling van aangepaste viewers. De viewers zijn webtoepassingen waarmee rich media-inhoud van Adobe Dynamic Media kan worden ingesloten in webpagina&#39;s.
 
@@ -32,7 +32,7 @@ Deze zelfstudie bevat de volgende taakvolgorde om u te helpen een standaardzoomv
 * [Knoppen toevoegen aan uw viewer](c-tutorial.md#section-1fc334fa0d2b47eb9cdad461725c07be)
 * [De stalen verticaal configureren](c-tutorial.md#section-91a8829d5b5a4d45a35b7faeb097fcc9)
 
-## Download de nieuwste viewer-SDK van Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
+## Download de nieuwste Viewer SDK van Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
 
 1. Download de nieuwste Viewer SDK van Adobe Developer Connection <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) -->.
 
@@ -40,7 +40,7 @@ Deze zelfstudie bevat de volgende taakvolgorde om u te helpen een standaardzoomv
    >
    >U kunt deze zelfstudie voltooien zonder dat u het pakket met de Viewer SDK hoeft te downloaden omdat de SDK daadwerkelijk op afstand is geladen. Het Viewer-pakket bevat echter aanvullende voorbeelden en een API-naslaggids die u kunt gebruiken wanneer u uw eigen viewers maakt.
 
-## De SDK van de viewer {#section-98596c276faf4cf79ccf558a9f4432c6} laden
+## De SDK van de viewer laden {#section-98596c276faf4cf79ccf558a9f4432c6}
 
 1. Maak eerst een nieuwe pagina voor de ontwikkeling van de standaardzoomviewer die u gaat maken.
 
@@ -356,7 +356,7 @@ U voegt nu knoppen voor inzoomen, uitzoomen en het opnieuw instellen van zoomen 
 
    U configureert de stalen nu zodanig dat deze verticaal aan de rechterkant worden uitgelijnd.
 
-## De stalen verticaal {#section-91a8829d5b5a4d45a35b7faeb097fcc9} configureren
+## De stalen verticaal configureren {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
 
 1. U kunt modifiers op de `ParameterManager` instantie direct vormen.
 
