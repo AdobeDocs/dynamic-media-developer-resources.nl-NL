@@ -2,18 +2,17 @@
 description: De resolutiewaarde van een herhaalbare structuur of ander materiaal definieert de grootte van de materiaalafbeelding in de coördinaatruimte van de scène.
 solution: Experience Manager
 title: Materiaalresolutie
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 8a02e555-87cf-47a8-823d-d6833c0fd9c7
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
 
-
-# Materiële resolutie{#material-resolution}
+# Materiaalresolutie{#material-resolution}
 
 De resolutiewaarde van een herhaalbare structuur of ander materiaal definieert de grootte van de materiaalafbeelding in de coördinaatruimte van de scène.
 
