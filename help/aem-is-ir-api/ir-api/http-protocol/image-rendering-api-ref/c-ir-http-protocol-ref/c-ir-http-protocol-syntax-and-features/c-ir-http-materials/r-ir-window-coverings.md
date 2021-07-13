@@ -2,16 +2,15 @@
 description: Tot vensterbekledingsmaterialen behoren zowel zachte vensterbekledingen (lakens, valanties, cafégordijnen) als harde vensterbekledingen (tinten en jaloezieën).
 solution: Experience Manager
 title: Vensterbedekkingen
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: ce6543a1-2438-4661-95bf-ff3d956013bc
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
-
 
 # Vensterbedekkingen{#window-coverings}
 
@@ -64,4 +63,3 @@ Vensters die materialen bedekken, kunnen alleen worden toegepast op Window Cover
   </tr> 
  </tbody> 
 </table>
-
