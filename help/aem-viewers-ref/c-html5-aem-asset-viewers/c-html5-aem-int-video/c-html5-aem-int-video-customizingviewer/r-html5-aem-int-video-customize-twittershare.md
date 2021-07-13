@@ -1,31 +1,30 @@
 ---
-description: Het gereedschap Twitter delen bestaat uit een knop die is toegevoegd aan het deelvenster Sociaal delen. Wanneer op de knop wordt geklikt, wordt de gebruiker omgeleid naar een dialoogvenster voor delen dat door een sociale service wordt aangeboden. De positie van de knop wordt volledig beheerd met het gereedschap Sociaal delen.
+description: Het twitter-gereedschap Delen bestaat uit een knop die is toegevoegd aan het deelvenster Delen via sociale media. Wanneer op de knop wordt geklikt, wordt de gebruiker omgeleid naar een dialoogvenster voor delen dat door een sociale service wordt aangeboden. De positie van de knop wordt volledig beheerd met het gereedschap Sociaal delen.
 solution: Experience Manager
-title: Twitter delen
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
-role: Developer,Business Practitioner
+title: Twitter share
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
+role: Developer,User
 exl-id: 045ca718-b971-4437-a0bf-580eee83ff2d
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
 
-# Twitter delen{#twitter-share}
+# Twitter share{#twitter-share}
 
-Het gereedschap Twitter delen bestaat uit een knop die is toegevoegd aan het deelvenster Sociaal delen. Wanneer op de knop wordt geklikt, wordt de gebruiker omgeleid naar een dialoogvenster voor delen dat door een sociale service wordt aangeboden. De positie van de knop wordt volledig beheerd met het gereedschap Sociaal delen.
+Het twitter-gereedschap Delen bestaat uit een knop die is toegevoegd aan het deelvenster Delen via sociale media. Wanneer op de knop wordt geklikt, wordt de gebruiker omgeleid naar een dialoogvenster voor delen dat door een sociale service wordt aangeboden. De positie van de knop wordt volledig beheerd met het gereedschap Sociaal delen.
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
-De weergave van de knop Delen via Twitter wordt bepaald door de volgende CSS-klassenkiezer:
+De vormgeving van de deelknop Twitter wordt bepaald door de volgende CSS-klassenkiezer:
 
 ```
 .s7interactivevideoviewer .s7twittershare
 ```
 
-**CSS-eigenschappen van het gereedschap Twitter delen**
+**CSS-eigenschappen van het Twitter-gereedschap Delen**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -58,7 +57,7 @@ De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-e
 
 ## Voorbeeld {#section-5a8837ea208e48ed8dfa6a3c1a514492}
 
-Als u een Share-knop voor Twitter wilt instellen van 28 x 28 pixels, ziet u een andere afbeelding voor elk van de vier verschillende knopstatussen:
+Als u een Twitter-deelknop van 28 x 28 pixels wilt instellen, wordt een andere afbeelding weergegeven voor elk van de vier verschillende knopstatussen:
 
 ```
 .s7interactivevideoviewer .s7twittershare { 
