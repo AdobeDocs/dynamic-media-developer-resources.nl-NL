@@ -3,17 +3,16 @@ description: Als u op deze knop klikt of erop tikt, gaat de gebruiker naar de vo
 solution: Experience Manager
 title: Knop Grote vorige pagina
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 39bf9f23-1950-4920-877e-b07e8df18bdc
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
 
-
-# Grote knop vorige pagina{#large-previous-page-button}
+# Knop Grote vorige pagina{#large-previous-page-button}
 
 Als u op deze knop klikt of erop tikt, gaat de gebruiker naar de vorige pagina in de catalogus. Deze knop wordt weergegeven in de hoofdbesturingsbalk. Deze knop wordt niet weergegeven op mobiele telefoons om de schermruimte op te slaan. U kunt deze knop vergroten, verkleinen, verkleinen en plaatsen met CSS.
 
@@ -97,4 +96,3 @@ background-image:url(images/v2/LeftButton_dark_down.png);
 background-image:url(images/v2/LeftButton_dark_disabled.png); 
 }
 ```
-
