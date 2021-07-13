@@ -2,18 +2,17 @@
 description: Cachebeheer. Staat selectief toe onbruikbaar makend cliënt-zijcaching (browser, volmachtsservers, netwerk caching systemen) en caching in het interne geheime voorgeheugen van de Server van het Platform.
 solution: Experience Manager
 title: cachegeheugen
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 8b631836-e5a8-4a56-a09a-35bb2474cc84
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
 
-
-# cache{#cache}
+# cachegeheugen{#cache}
 
 Cachebeheer. Staat selectief toe onbruikbaar makend cliënt-zijcaching (browser, volmachtsservers, netwerk caching systemen) en caching in het interne geheime voorgeheugen van de Server van het Platform.
 
@@ -42,7 +41,7 @@ Met het trefwoord `validate` kunt u cachemaringangen bijwerken nadat afbeeldings
 
 Met het trefwoord `update` kunt u het bijwerken van cachemarkeringen op de server forceren. Dit is handig nadat bronnen zijn gewijzigd die niet rechtstreeks worden bijgehouden door het mechanisme voor cachevalidatie, bijvoorbeeld wanneer een lettertypebestand wordt gewijzigd zonder de bestandsnaam of de bijbehorende lettertype-id te wijzigen.
 
-Als `cache=on` in een geneste aanvraag is opgegeven, wordt de afbeelding die door de geneste aanvraag wordt gegenereerd, permanent in cache op de server geplaatst. Zorg ervoor dat caching alleen mogelijk is voor geneste aanvragen wanneer hetzelfde geneste verzoek herhaaldelijk moet worden aangeroepen met exact dezelfde parameters.
+Als `cache=on` in een geneste aanvraag wordt opgegeven, wordt de afbeelding die door de geneste aanvraag wordt gegenereerd, permanent in cache op de server geplaatst. Zorg ervoor dat caching alleen mogelijk is voor geneste aanvragen wanneer hetzelfde geneste verzoek herhaaldelijk moet worden aangeroepen met exact dezelfde parameters.
 
 ## Eigenschappen {#section-dfd0b2f92b3743fc8b9d2c35a786eb81}
 
