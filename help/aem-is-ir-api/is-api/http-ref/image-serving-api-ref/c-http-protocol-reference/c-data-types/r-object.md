@@ -2,16 +2,15 @@
 description: Source Object Specifier. Afbeeldings-, SVG- en ICC-profielobjecten kunnen worden opgegeven als afbeeldingscatalogus-items of relatieve bestandspaden
 solution: Experience Manager
 title: object
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 64846f8f-ebc6-446c-8277-04c45111dc24
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
-
 
 # object{#object}
 
@@ -56,7 +55,7 @@ Raadpleeg *Inhoud beheren* in de *Server Configuration Guide* voor meer informat
 >
 >Komma &#39;,&#39;-tekens zijn niet toegestaan in *`object.`*
 
-## Ondersteunde bestandsindelingen {#section-12c85aead78e4f759856ca9ff10637d7}
+## Ondersteunde bestandsindelingen voor afbeeldingen {#section-12c85aead78e4f759856ca9ff10637d7}
 
 Raadpleeg de beschrijving van het hulpprogramma IC (Image Converter) voor een volledige lijst met ondersteunde bestandsindelingen.
 
