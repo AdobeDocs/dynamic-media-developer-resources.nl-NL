@@ -3,15 +3,14 @@ description: Op desktopsystemen hebben bepaalde gebruikersinterface-elementen, z
 solution: Experience Manager
 title: Knopinfo
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 0350bdbc-3e3d-4bc0-98f6-5d7bf4121d9a
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
-
 
 # Knopinfo{#tooltips}
 
@@ -78,4 +77,3 @@ Voorbeeld - voor het instellen van knopinfo met een grijze rand met een hoekstra
  font-size: 11px; 
 }
 ```
-
