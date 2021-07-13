@@ -2,18 +2,17 @@
 description: Alle cataloguskenmerken zijn optioneel, behalve basis-id van catalogus.
 solution: Experience Manager
 title: Kenmerken
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: d0c8e808-d887-4bad-bbb5-f36a19ab4df2
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
 
-
-# Kenmerkverwijzing{#attributes-reference}
+# Kenmerken{#attributes-reference}
 
 Alle cataloguskenmerken zijn optioneel, behalve catalogus::RootId.
 
