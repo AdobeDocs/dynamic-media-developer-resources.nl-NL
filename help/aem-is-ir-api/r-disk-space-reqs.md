@@ -2,16 +2,15 @@
 description: 'Naast de ruimte die nodig is om de software te installeren, heeft Image Serving de volgende vereisten voor schijfruimte '
 solution: Experience Manager
 title: Vereisten en aanbevelingen voor schijfruimte
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 35486f3f-f0aa-4b69-a1d2-4bc6b5e41c43
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
-
 
 # Vereisten en aanbevelingen voor schijfruimte{#disk-space-requirements-and-recommendations}
 
