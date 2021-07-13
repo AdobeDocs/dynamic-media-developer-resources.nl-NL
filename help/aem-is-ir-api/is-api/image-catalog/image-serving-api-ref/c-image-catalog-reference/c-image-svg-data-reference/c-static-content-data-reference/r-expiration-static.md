@@ -2,18 +2,17 @@
 description: Verlopen
 solution: Experience Manager
 title: Verlopen
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 064dab12-5f58-4e19-a6b1-fbd20182e3aa
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
 
-
-# Vervaldatum{#expiration}
+# Verlopen{#expiration}
 
 Wordt gebruikt om client- en proxyserver-caching te beheren. De server berekent de vervaltijd/datum van de HTTP-responsgegevens door deze waarde toe te voegen aan de tijd/datum van de verzending.
 
