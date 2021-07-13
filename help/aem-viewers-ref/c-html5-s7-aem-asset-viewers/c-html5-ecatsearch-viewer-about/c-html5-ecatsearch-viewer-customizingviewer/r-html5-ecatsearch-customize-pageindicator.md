@@ -3,15 +3,14 @@ description: Pagina-indicator geeft de huidige pagina-index en het totale aantal
 solution: Experience Manager
 title: Pagina-indicator
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 38241e96-ee7f-4dc1-a2a6-4a76e25b00dc
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
-
 
 # Pagina-indicator{#page-indicator}
 
@@ -82,4 +81,3 @@ Voorbeeld - voor het instellen van een pagina-indicator van 56 x 28 pixels, hori
  font-size:14px; 
 }
 ```
-
