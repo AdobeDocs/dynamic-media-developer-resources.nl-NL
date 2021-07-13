@@ -3,15 +3,14 @@ description: De zoekviewer voor eCatalog ondersteunt het renderen van pictogramm
 solution: Experience Manager
 title: Ondersteuning voor afbeeldingen met hyperlinks
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 58e7523f-1615-4da4-bb09-a995bf427bfc
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
-
 
 # Ondersteuning voor afbeeldingen met hyperlinks{#image-map-support}
 
@@ -35,7 +34,7 @@ In dit voorbeeld wordt dezelfde URL omsloten met de functie `loadProduct()`:
 
 Houd er rekening mee dat wanneer u de JavaScript-code toevoegt aan het `HREF`-kenmerk van de afbeelding met hyperlinks, de code wordt uitgevoerd op de computer van de client. Controleer daarom of de JavaScript-code veilig is.
 
-## Pop-upactivering van deelvenster Info {#section-7aa036420af646d1ad8cdc388add0b57}
+## Pop-upactivering deelvenster Info {#section-7aa036420af646d1ad8cdc388add0b57}
 
 Als u met de deelvensters Info wilt werken, is voor een afbeeldingskaart het kenmerk `ROLLOVER_KEY` ingesteld. Ook, plaats tezelfdertijd het `href` attribuut, anders beïnvloedt de externe verwerking URL met het paneel van Info pop-up activering.
 
