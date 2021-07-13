@@ -2,16 +2,15 @@
 description: Gegevensbestanden van catalogi kunnen elke naam en elk achtervoegsel van het bestand hebben (behalve .ini).
 solution: Experience Manager
 title: Catalogusgegevensbestanden
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 1fb91795-f699-40b4-a6bc-6eab3e1ecd1d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
-
 
 # Catalogusgegevensbestanden{#catalog-data-files}
 
