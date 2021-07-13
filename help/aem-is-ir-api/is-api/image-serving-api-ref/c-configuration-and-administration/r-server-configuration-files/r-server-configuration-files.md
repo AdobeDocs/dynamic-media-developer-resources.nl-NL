@@ -2,16 +2,15 @@
 description: Alle configuratiebestanden bevinden zich in install_folder/conf en kunnen worden bewerkt met de meeste teksteditors. Het is mogelijk dat de wijzigingen opnieuw moeten worden gestart voordat de server van kracht wordt.
 solution: Experience Manager
 title: Serverconfiguratiebestanden
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Administrator,User
+exl-id: 6261844c-b63d-477b-8a48-963be868aa22
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
-
 
 # Serverconfiguratiebestanden{#server-configuration-files}
 
