@@ -2,18 +2,17 @@
 description: De volgende velden worden ondersteund voor statische (niet-afbeeldings)inhoudcatalogi.
 solution: Experience Manager
 title: Statische inhoudsgegevens
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: df47cbb2-0ed6-4fbd-988e-be5b7a7ad657
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '62'
 ht-degree: 0%
 
 ---
 
-
-# Gegevens over statische inhoud{#static-contents-data}
+# Statische inhoudsgegevens{#static-contents-data}
 
 De volgende velden worden ondersteund voor statische (niet-afbeeldings)inhoudcatalogi.
 
@@ -47,4 +46,3 @@ De volgende velden worden ondersteund voor statische (niet-afbeeldings)inhoudcat
   <td class="stentry"> <p>Videogrootte. </p></td> 
  </tr> 
 </table>
-
