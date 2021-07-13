@@ -2,16 +2,15 @@
 description: Afdrukresolutie. Hiermee overschrijft u de waarde voor de afdrukresolutie die is ingesloten in de reactieafbeelding.
 solution: Experience Manager
 title: printRes
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 81c4c3b8-946d-401b-a279-ba3f426ea5a4
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '129'
 ht-degree: 0%
 
 ---
-
 
 # printRes{#printres}
 
