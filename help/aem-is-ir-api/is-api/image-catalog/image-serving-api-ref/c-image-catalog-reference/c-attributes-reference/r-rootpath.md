@@ -2,16 +2,15 @@
 description: Pad naar brongegevenstramien. Absoluut of relatief pad voor de hoofdmap voor de brongegevens van deze afbeeldingscatalogus.
 solution: Experience Manager
 title: RootPath
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 06662b27-fb10-41d0-a14c-48025d7e9137
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
-
 
 # RootPath{#rootpath}
 
