@@ -2,16 +2,15 @@
 description: Documentatie van configuratiekenmerken voor Spin Viewer.
 solution: Experience Manager
 title: Command reference - Configuration attributes
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewers,SDK/API,Draaiensets
+role: Developer,User
+exl-id: 60615258-4d20-4452-a4a3-94fb88a943d7
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '148'
 ht-degree: 0%
 
 ---
-
 
 # Command reference - Configuration attributes{#command-reference-configuration-attributes}
 
