@@ -2,16 +2,15 @@
 description: Afbeeldingsset. Hiermee wordt een waarde voor de afbeeldingsset opgegeven die moet worden gebruikt bij het genereren van de reactie req=set.
 solution: Experience Manager
 title: imageSet
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 318c658d-7126-40f6-870b-11294a3f6f5f
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
-
 
 # imageSet{#imageset}
 
