@@ -2,16 +2,15 @@
 description: Subselectie. Hiermee kunt u verschillende materialen toepassen op verschillende gebieden van het geselecteerde object of de geselecteerde groep en eerder toegepaste materialen verwijderen.
 solution: Experience Manager
 title: sub
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: c9968fbb-c38b-4180-81be-19992fa8f347
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '159'
 ht-degree: 3%
 
 ---
-
 
 # sub{#sub}
 
@@ -25,7 +24,7 @@ Subselectie. Hiermee kunt u verschillende materialen toepassen op verschillende 
   <td class="stentry"> <p>Selecteer de hele muur. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p> </td> 
+  <td class="stentry"> <p>1 </p> </td> 
   <td class="stentry"> <p>Selecteer de bovenste helft van de muur. </p> </td> 
  </tr> 
  <tr class="strow"> 
