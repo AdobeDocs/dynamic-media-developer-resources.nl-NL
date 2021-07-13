@@ -3,15 +3,14 @@ description: Miniaturen bestaan uit een raster van miniatuurafbeeldingen met een
 solution: Experience Manager
 title: Miniaturen
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 25032917-237c-4227-92bd-ce66a6d003a0
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
-
 
 # Miniaturen{#thumbnails}
 
@@ -399,4 +398,3 @@ Voorbeeld - voor het instellen van schuifknoppen met een resolutie van 28 x 32 p
  background-image:url(images/v2/ThumbnailScrollDownButton_dark_up.png); 
 }
 ```
-
