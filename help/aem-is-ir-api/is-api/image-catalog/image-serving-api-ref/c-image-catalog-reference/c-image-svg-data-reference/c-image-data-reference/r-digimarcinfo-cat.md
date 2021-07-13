@@ -2,16 +2,15 @@
 description: Digimarc-afbeeldingsgegevens. Hiermee schakelt u Digimarc-insluiting in en geeft u het type watermerk en de bijbehorende afbeeldingsspecifieke gegevens op.
 solution: Experience Manager
 title: DigimarcInfo
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 87f4d8f0-02b9-4511-9151-89c58116c78d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '235'
 ht-degree: 7%
 
 ---
-
 
 # DigimarcInfo{#digimarcinfo}
 
@@ -46,7 +45,7 @@ Vier gehele getallen, gescheiden door komma&#39;s.
    <td> <p>Afbeelding-id. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>Transactie-id. </p> </td> 
   </tr> 
   <tr> 
@@ -71,7 +70,7 @@ Vier gehele getallen, gescheiden door komma&#39;s.
    <td> <p>- </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>Met kopiëren beveiligd. </p> </td> 
   </tr> 
   <tr> 
@@ -79,7 +78,7 @@ Vier gehele getallen, gescheiden door komma&#39;s.
    <td> <p>Beperkt. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>Met kopiëren beveiligd, beperkt. </p> </td> 
   </tr> 
   <tr> 
@@ -118,7 +117,7 @@ De interpretatie van `*`val1`*` en `*`val2`*` hangt af van `*`type`*`:
    <td> <p>Niet gebruikt. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>Niet gebruikt. </p> </td> 
    <td> <p>Niet gebruikt. </p> </td> 
   </tr> 
