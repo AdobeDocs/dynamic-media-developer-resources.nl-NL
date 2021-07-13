@@ -3,15 +3,14 @@ description: Documentatie over configuratiekenmerken voor de Flyout-viewer
 solution: Experience Manager
 title: Command reference - Configuration attributes
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 2ac199ce-5dd5-4d2f-80c2-9bc370500cc4
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
-
 
 # Command reference - Configuration attributes{#command-reference-configuration-attributes}
 
