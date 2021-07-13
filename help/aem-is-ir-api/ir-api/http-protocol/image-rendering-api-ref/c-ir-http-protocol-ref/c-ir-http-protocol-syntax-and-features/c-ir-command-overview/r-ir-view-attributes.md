@@ -2,16 +2,15 @@
 description: Deze bevelen zijn positie-onafhankelijk en kunnen overal in een verzoek voorkomen.
 solution: Experience Manager
 title: Kenmerken weergeven
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 18e1ee40-fe34-435a-be97-849b08618d48
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
-
 
 # Kenmerken weergeven{#view-attributes}
 
@@ -71,4 +70,3 @@ Deze bevelen zijn positie-onafhankelijk en kunnen overal in een verzoek voorkome
   <td class="stentry"> <p>Overschrijf het standaardgedrag voor het in cache plaatsen van reacties. </p></td> 
  </tr> 
 </table>
-
