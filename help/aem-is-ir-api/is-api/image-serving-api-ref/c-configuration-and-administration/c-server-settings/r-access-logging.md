@@ -2,16 +2,15 @@
 description: Gebruik deze serverinstellingen voor het aanmelden van toegang.
 solution: Experience Manager
 title: Toegangslogbestand
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Administrator,User
+exl-id: e677a617-115d-4f6e-9eb5-bdc14ad7ff24
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
-
 
 # Toegangslogbestand{#access-logging}
 
@@ -19,7 +18,7 @@ Gebruik deze serverinstellingen voor het aanmelden van toegang.
 
 Syntaxis
 
-## TC::directory - Logbestandsmap {#section-5d9e2168d4504bbe9868b7d6051c9d67}
+## TC::map - Map met logbestanden {#section-5d9e2168d4504bbe9868b7d6051c9d67}
 
 De map waarnaar de server van het Platform logbestanden schrijft. Dit kan een absoluut pad zijn of een pad ten opzichte van *`install_folder`*. Standaard is [!DNL  *`install_folder`*/logs].
 
@@ -31,7 +30,7 @@ De map waarnaar de server van het Platform logbestanden schrijft. Dit kan een ab
 
 Het aantal dagen dat logbestanden moeten worden bewaard. De nieuwe logboekdossiers worden gecreeerd elke dag om middernacht. Op dit ogenblik, zal de server alle dossiers in de omslag van het logboekdossier schrappen die ouder zijn dan het gespecificeerde aantal dagen, met inbegrip van die geschreven door de Server van het Beeld of de Server van de Render. De standaardwaarde is 10.
 
-## TC::voorvoegsel - Naam toegangslogbestand {#section-1003856323b844049632710a5a056aa7}
+## TC::voorvoegsel - Naam van logbestand voor toegang {#section-1003856323b844049632710a5a056aa7}
 
 Het voorvoegsel van de naam voor het bestand waarnaar de gegevens van het toegangslogboek worden geschreven. De datum en het dossierachtervoegsel ( [!DNL  *`yyyy`*-*`mm`*-*`dd`*.log]) worden toegevoegd aan het gespecificeerde koord. De naam van het toegangslogboekdossier moet van dat van het dossier van het spoorlogboek verschillend zijn. De standaardwaarde is &quot; `access-`&quot;.
 
