@@ -2,16 +2,15 @@
 description: Viewer SDK-naamruimte
 solution: Experience Manager
 title: Viewer SDK-naamruimte
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewers,SDK/API,Draaiensets
+role: Developer,User
+exl-id: 2b4b0b31-3c88-42a4-8a81-5534691e318f
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
-
 
 # Viewer SDK-naamruimte{#viewer-sdk-namespace}
 
@@ -44,4 +43,3 @@ The same code for the viewer served from Dynamic Media Classic looks like the fo
 } 
 });
 ```
-
