@@ -2,18 +2,17 @@
 description: In deze documentatie worden problemen met serverbeheer besproken en worden de configuratie-instellingen voor Dynamic Media Image Rendering beschreven.
 solution: Experience Manager
 title: Voorkeur voor serverbeheer
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Administrator,User
+exl-id: 65fc3510-3d47-4650-bf89-322b517dc004
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
 
-
-# Serverbeheervoorkeuren{#server-administration-preface}
+# Voorkeur voor serverbeheer{#server-administration-preface}
 
 In deze documentatie worden problemen met serverbeheer besproken en worden de configuratie-instellingen voor Dynamic Media Image Rendering beschreven.
 
@@ -51,4 +50,3 @@ Items die in deze documentatie worden beschreven, worden vaak vooraf ingesteld d
   <td class="stentry"> <p>Een naam met de voorvoegsel 'default:' verwijst naar een kenmerk van de standaardafbeeldingscatalogus. </p></td> 
  </tr> 
 </table>
-
