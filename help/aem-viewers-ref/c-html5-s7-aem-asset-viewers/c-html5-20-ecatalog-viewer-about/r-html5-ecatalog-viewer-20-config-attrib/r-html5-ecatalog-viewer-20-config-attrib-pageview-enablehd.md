@@ -3,15 +3,14 @@ description: PageView.enableHD
 solution: Experience Manager
 title: PageView.enableHD
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: f03762f2-87db-4284-ba59-9ece8caa0d09
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
-
 
 # PageView.enableHD{#pageview-enablehd}
 
@@ -25,7 +24,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> getal</span></span> </p> </td> 
-   <td colname="col2"> <p> Als u de limietinstelling gebruikt, schakelt de component hoge pixeldichtheid alleen in tot de opgegeven limiet. </p> <p>Zie het onderstaande voorbeeld. </p> </td> 
+   <td colname="col2"> <p> Als u de limietinstelling gebruikt, schakelt de component een hoge pixeldichtheid alleen in tot de opgegeven limiet. </p> <p>Zie het onderstaande voorbeeld. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -73,4 +72,3 @@ De volgende resultaten worden verwacht wanneer u dit configuratiekenmerk in de v
   </tr> 
  </tbody> 
 </table>
-
