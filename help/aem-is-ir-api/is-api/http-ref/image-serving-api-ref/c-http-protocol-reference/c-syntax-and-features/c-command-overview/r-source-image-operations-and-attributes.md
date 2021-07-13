@@ -2,18 +2,17 @@
 description: Deze opdrachten zijn van toepassing op bronafbeeldingen die worden gebruikt in eenvoudige aanvragen of in afbeeldingslagen, en op maskers die zijn gekoppeld aan effen kleurlagen.
 solution: Experience Manager
 title: Bronafbeeldingsbewerkingen
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 2024e193-3c46-4c51-971d-c7d335657ac8
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
 
-
-# Bewerkingen voor bronafbeeldingen{#source-image-operations}
+# Bronafbeeldingsbewerkingen{#source-image-operations}
 
 Deze opdrachten zijn van toepassing op bronafbeeldingen die worden gebruikt in eenvoudige aanvragen of in afbeeldingslagen, en op maskers die zijn gekoppeld aan effen kleurlagen.
 
@@ -43,4 +42,3 @@ Deze opdrachten zijn van toepassing op bronafbeeldingen die worden gebruikt in e
   <td class="stentry"> <p>Hiermee schaalt u de bronafbeelding met gebruik van een schaalfactor. </p></td> 
  </tr> 
 </table>
-
