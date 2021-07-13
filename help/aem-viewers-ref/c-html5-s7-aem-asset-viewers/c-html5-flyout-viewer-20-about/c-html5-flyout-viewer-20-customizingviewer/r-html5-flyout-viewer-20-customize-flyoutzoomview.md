@@ -3,17 +3,16 @@ description: De hoofdweergave bestaat uit de statische afbeelding, de ingezoomde
 solution: Experience Manager
 title: Zoomweergave flyout
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: c04c4b8f-4e63-4e84-98c0-aa0781608130
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
 
-
-# Zoomweergave in flyout{#flyout-zoom-view}
+# Zoomweergave flyout{#flyout-zoom-view}
 
 De hoofdweergave bestaat uit de statische afbeelding, de ingezoomde afbeelding in de vervolgweergave, het hooglichtnavigatiegebied dat boven op de statische afbeelding wordt weergegeven en het uiteindebericht dat boven op de statische afbeelding wordt weergegeven.
 
@@ -287,4 +286,3 @@ opacity: 0.5;
 filter: alpha(opacity = 50); 
 }
 ```
-
