@@ -2,16 +2,15 @@
 description: Hier volgt een lijst met trefwoorden en opdrachten die worden ondersteund door de text engine voor scène 7-afbeeldingen.
 solution: Experience Manager
 title: Ondersteunde RTF-opdrachten en -trefwoorden
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: a63bc7f1-34a9-485d-aadd-c65e3e26034a
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
-
 
 # Ondersteunde RTF-opdrachten en -trefwoorden{#supported-rtf-commands-and-keywords}
 
