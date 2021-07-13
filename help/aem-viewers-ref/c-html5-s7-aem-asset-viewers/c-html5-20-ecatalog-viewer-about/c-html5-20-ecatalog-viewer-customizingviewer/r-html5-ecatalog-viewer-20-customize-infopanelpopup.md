@@ -3,17 +3,16 @@ description: Pop-upmenu van deelvenster Info wordt midden in het viewergebied we
 solution: Experience Manager
 title: Pop-up deelvenster Info
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,User
+exl-id: c29f085e-8093-44d2-8f98-9341d780cca8
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
 
-
-# Pop-up van deelvenster Info{#info-panel-popup}
+# Pop-up deelvenster Info{#info-panel-popup}
 
 Pop-upmenu van deelvenster Info wordt midden in het viewergebied weergegeven wanneer een gebruiker een afbeeldingskaart activeert waarvoor een eigenschap rollover_key is gedefinieerd in Dynamic Media Classic, en als de functie van het deelvenster Info correct is geconfigureerd voor de viewer.
 
@@ -200,4 +199,3 @@ background-image:url(images/v2/InfoPanelPopup_CloseButton_dark_up.png);
 background-image:url(images/v2/InfoPanelPopup_CloseButton_dark_up.png); 
 }
 ```
-
