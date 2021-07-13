@@ -2,22 +2,21 @@
 description: De Draaiende Kijker steunt het volgen van Adobe Analytics uit de doos.
 solution: Experience Manager
 title: Ondersteuning voor Adobe Analytics-tracking
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
-role: Developer,Business Practitioner,Data Engineer,Data Architect
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewers,SDK/API,Draaiensets
+role: Developer,User,Data Engineer,Data Architect
+exl-id: 30762700-6d69-4299-9492-57893232abe1
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
 
-
-# Ondersteuning voor Adobe Analytics tracking{#support-for-adobe-analytics-tracking}
+# Ondersteuning voor Adobe Analytics-tracking{#support-for-adobe-analytics-tracking}
 
 De Draaiende Kijker steunt het volgen van Adobe Analytics uit de doos.
 
-## Buiten-de-box tracking {#section-d06145cfa2b9491bb485b599368d466e}
+## Buiten-de-box-tracking {#section-d06145cfa2b9491bb485b599368d466e}
 
 De Draaiende Viewer ondersteunt het uit-van-de-doos traceren van Adobe Analytics.
 
@@ -25,7 +24,7 @@ Als u reeksspatiëring wilt inschakelen, geeft u de juiste naam van de bedrijfsv
 
 De kijker verzendt ook één enkele het volgen HTTP- verzoek naar de gevormde Server van het Beeld met het viewertype en versieinformatie.
 
-## Aangepaste tekstspatiëring {#section-47512156a1d64b338b50cfa39c84f4aa}
+## Aangepaste reeksspatiëring {#section-47512156a1d64b338b50cfa39c84f4aa}
 
 Om met derdeanalysesystemen te integreren, is het noodzakelijk om aan `trackEvent` kijkerscallback te luisteren en het `eventInfo` argument van de callback functie, zonodig te verwerken. De volgende code is een voorbeeld van een dergelijke handlerfunctie:
 
@@ -83,4 +82,3 @@ De viewer houdt de volgende SDK-gebruikersgebeurtenissen bij:
   </tr> 
  </tbody> 
 </table>
-
