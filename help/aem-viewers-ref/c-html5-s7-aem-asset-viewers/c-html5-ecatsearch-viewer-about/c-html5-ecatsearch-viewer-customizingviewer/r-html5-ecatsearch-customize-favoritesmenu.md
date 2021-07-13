@@ -3,15 +3,14 @@ description: De het menudrop-down lijst van Favorieten verschijnt in de controle
 solution: Experience Manager
 title: Menu Favorieten
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 129a8451-f634-44ad-adb1-f30d2621cb29
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
-
 
 # Menu Favorieten{#favorites-menu}
 
@@ -127,4 +126,3 @@ Voorbeeld: stel een deelvenster zo in dat het een transparante kleur heeft.
  background-color: transparent; 
 }
 ```
-
