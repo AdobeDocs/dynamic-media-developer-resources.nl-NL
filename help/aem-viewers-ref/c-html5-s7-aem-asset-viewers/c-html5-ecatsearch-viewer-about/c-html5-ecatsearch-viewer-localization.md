@@ -3,15 +3,14 @@ description: Bepaalde inhoud die in de eCatalog Viewer wordt weergegeven, is afh
 solution: Experience Manager
 title: Lokalisatie van gebruikersinterface-elementen
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: c44bfb38-a523-4399-8dbd-936830bb7cac
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1135'
 ht-degree: 0%
 
 ---
-
 
 # Lokalisatie van gebruikersinterface-elementen{#localization-of-user-interface-elements}
 
@@ -295,11 +294,11 @@ De volgende SYMBOL&#39;s worden ondersteund (ervan uitgaande dat containerId de 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Knop Delen via Facebook. </p> </td> 
+   <td colname="col2"> <p>Facebook Share button. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Knop Twitter delen. </p> </td> 
+   <td colname="col2"> <p>Twitter Share button. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Afdrukken.TOOLTIP  </span> </p> </td> 
@@ -444,4 +443,3 @@ De volgende SYMBOL&#39;s worden ondersteund (ervan uitgaande dat containerId de 
   </tr> 
  </tbody> 
 </table>
-
