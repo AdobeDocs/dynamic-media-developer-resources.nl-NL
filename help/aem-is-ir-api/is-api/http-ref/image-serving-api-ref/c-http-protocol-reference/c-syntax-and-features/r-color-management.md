@@ -2,16 +2,15 @@
 description: Image Serving ondersteunt kleurruimteconversies op basis van kleurruimteprofielen die voldoen aan de ICC-specificatie (International Color Consortium).
 solution: Experience Manager
 title: Kleurbeheer van afbeeldingsserver
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 0c9a489c-36e0-4934-b9c5-33414a9ce0b8
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1200'
 ht-degree: 0%
 
 ---
-
 
 # Kleurbeheer van afbeeldingsserver{#image-serving-color-management}
 
@@ -43,7 +42,7 @@ Kleurwaarden die zijn opgegeven met `color=`, `bgcolor=` of de RTF-opdracht `\is
 
 De uitvoerkleurruimte voor geneste IS-aanvragen en ingesloten AIR-verzoeken wordt automatisch ingesteld op de uitvoerkleurruimte van het buitenste verzoek, tenzij in het geneste verzoek een expliciete uitvoerkleurruimte wordt opgegeven met `icc=`. Bovendien nemen geneste/ingesloten aanvragen de standaardkleurruimten voor uitvoer over van de hoofdcatalogus van de buitenste aanvraag, zodat de waarden voor effen kleuren op consistente wijze worden verwerkt.
 
-## Omzetting kleurruimte {#section-ca87b80b8e364ea59d8a92d87121b0fb}
+## Kleurruimte converteren {#section-ca87b80b8e364ea59d8a92d87121b0fb}
 
 In afbeeldingsservers wordt doorgaans geprobeerd kleurconversies tijdens de verwerking uit te stellen. Als alle lagen van een afbeelding dezelfde laagkleurruimte hebben, vindt de omzetting in de uitvoerkleurruimte plaats na het samenvoegen en definitief schalen. Als het om meerdere laagkleurruimten gaat, wordt elke laag getransformeerd naar de uitvoerkleurruimte voordat deze wordt samengevoegd.
 
@@ -53,11 +52,11 @@ In afbeeldingsservers wordt doorgaans geprobeerd kleurconversies tijdens de verw
 
 Opties voor kleurconversie worden geleverd bij `icc=` of, als `icc=` niet is opgegeven, bij `attribute::IccRenderIntent`, `attribute::IccBlackPointCompensation` en `attribute::IccDither`.
 
-## Kleurprofielen {#section-261ebbae5ce046589a776ca972380052} insluiten
+## Kleurprofielen insluiten {#section-261ebbae5ce046589a776ca972380052}
 
 Het ICC-kleurprofiel van de uitvoerkleurruimte kan, indien beschikbaar, worden ingesloten in de reactieafbeelding door `iccEmbed=` op te geven.
 
-## ICC-profielen {#section-eb210e4b44e64e2c8b80ee59216c5555} beheren
+## ICC-profielen beheren {#section-eb210e4b44e64e2c8b80ee59216c5555}
 
 Alle kleurprofielen die door de server worden gebruikt, moeten voldoen aan de ICC-specificatie. ICC-profielbestanden hebben doorgaans het achtervoegsel [!DNL .icc] of [!DNL .icm] en bevinden zich op dezelfde locatie als afbeeldingsgegevensbestanden.
 
