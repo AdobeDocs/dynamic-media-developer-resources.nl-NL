@@ -3,15 +3,14 @@ description: Documentatie over configuratiekenmerken voor Video Viewer.
 solution: Experience Manager
 title: Command reference - Configuration attributes
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 5992e5cd-7783-408e-a23f-fdcc3a3d6b69
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
-
 
 # Command reference - Configuration attributes{#command-reference-configuration-attributes}
 
