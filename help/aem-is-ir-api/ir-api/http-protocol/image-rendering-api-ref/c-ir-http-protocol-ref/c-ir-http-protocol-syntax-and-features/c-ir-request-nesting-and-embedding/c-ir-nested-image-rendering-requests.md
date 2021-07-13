@@ -2,18 +2,17 @@
 description: Voor geavanceerde toepassingen is het mogelijk het resultaat van een renderbewerking als een materiaalafbeelding te gebruiken, net als een afbeelding die is verkregen uit Beeldbewerking.
 solution: Experience Manager
 title: Aanvragen voor het renderen van geneste afbeeldingen
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 52c12786-bbe7-4410-87bb-6245d782a68c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
 
-
-# Aanvragen voor geneste rendering van afbeeldingen{#nested-image-rendering-requests}
+# Aanvragen voor het renderen van geneste afbeeldingen{#nested-image-rendering-requests}
 
 Voor geavanceerde toepassingen is het mogelijk het resultaat van een renderbewerking als een materiaalafbeelding te gebruiken, net als een afbeelding die is verkregen uit Beeldbewerking.
 
