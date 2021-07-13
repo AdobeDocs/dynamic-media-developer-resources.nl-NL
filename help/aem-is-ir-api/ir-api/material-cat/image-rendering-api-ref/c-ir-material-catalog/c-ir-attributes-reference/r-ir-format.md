@@ -2,18 +2,17 @@
 description: Standaardindeling voor reactieafbeelding. Hiermee geeft u de standaardindeling voor antwoordafbeeldingen op.
 solution: Experience Manager
 title: Indeling
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 393264e0-4b2d-42d7-b95c-8d20770687e7
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '55'
 ht-degree: 0%
 
 ---
 
-
-# Format{#format}
+# Indeling{#format}
 
 Standaardindeling voor reactieafbeelding. Hiermee geeft u de standaardindeling voor antwoordafbeeldingen op.
 
