@@ -2,16 +2,15 @@
 description: Volg deze instructies om het renderen van afbeeldingen op een Linux- of Solaris-systeem te verwijderen.
 solution: Experience Manager
 title: Verwijderen op Linux en Solaris
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: c81feaba-18da-441a-bfd5-40275558a384
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
-
 
 # Verwijderen op Linux en Solaris{#uninstalling-on-linux-and-solaris}
 
@@ -42,6 +41,5 @@ De opdracht om ImageRendering te verwijderen is afhankelijk van uw systeem:
 >1. Verwijder directory&#39;s of bestanden die niet zijn verwijderd in Stap 2.
 
 >
-
 
 
