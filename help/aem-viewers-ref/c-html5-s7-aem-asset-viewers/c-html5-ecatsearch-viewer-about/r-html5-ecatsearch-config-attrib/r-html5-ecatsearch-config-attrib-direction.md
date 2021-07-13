@@ -3,17 +3,16 @@ description: richting
 solution: Experience Manager
 title: richting
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 0f78a835-9057-4c79-843a-52b33a1bdd3f
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
 
-
-# direction{#direction}
+# richting{#direction}
 
 [!DNL `direction=auto|left|right`]
 
