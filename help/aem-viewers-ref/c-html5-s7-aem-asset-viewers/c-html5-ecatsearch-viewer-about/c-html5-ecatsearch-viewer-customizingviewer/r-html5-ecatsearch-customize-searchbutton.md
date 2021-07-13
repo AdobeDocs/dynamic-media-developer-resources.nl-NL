@@ -3,15 +3,14 @@ description: Knop Zoeken
 solution: Experience Manager
 title: Knop Zoeken
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: ede7d887-526b-4e00-9885-166dc37627aa
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
-
 
 # Knop Zoeken{#search-button}
 
@@ -103,4 +102,3 @@ Voorbeeld: om een zoekknop in te stellen van 28 x 28 pixels en een andere afbeel
  background-image:url(images/v2/Search_dark_disabled.png);  
 }
 ```
-
