@@ -2,16 +2,15 @@
 description: Standaardafbeeldingsmodus. Hiermee selecteert u hoe de standaardafbeelding wordt toegepast wanneer er geen afbeeldingen worden gevonden die in de aanvraag zijn opgegeven.
 solution: Experience Manager
 title: DefaultImageMode
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: b30ce72f-7c74-407c-bd4a-042b84c469e9
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
-
 
 # DefaultImageMode{#defaultimagemode}
 
