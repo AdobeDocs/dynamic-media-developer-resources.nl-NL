@@ -2,18 +2,17 @@
 description: Het groeperen van het geheime voorgeheugen staat veelvoudige lading-evenwichtige servers toe om geheim voorgeheugeningangen in het primaire reactiecache en het secundaire gegevensgeheime voorgeheugen (voor genestelde/ingebedde verzoeken) uit te wisselen, met het potentieel om serverontvankelijkheid beduidend te verhogen door de behoefte te elimineren om de zelfde geheim voorgeheugeningang op veelvoudige servers te produceren.
 solution: Experience Manager
 title: Cache-clustering
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Administrator,User
+exl-id: d1bea565-ac4e-4717-a53f-cbe706664598
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
 
-
-# Cache clustering{#cache-clustering}
+# Cache-clustering{#cache-clustering}
 
 Het groeperen van het geheime voorgeheugen staat veelvoudige lading-evenwichtige servers toe om geheim voorgeheugeningangen in het primaire reactiecache en het secundaire gegevensgeheime voorgeheugen (voor genestelde/ingebedde verzoeken) uit te wisselen, met het potentieel om serverontvankelijkheid beduidend te verhogen door de behoefte te elimineren om de zelfde geheim voorgeheugeningang op veelvoudige servers te produceren.
 
@@ -32,4 +31,3 @@ De geheim voorgeheugencluster kan in één van twee basisconfiguraties werken:
 * Wanneer `PS::cacheCluster.updateLocalCache` is uitgeschakeld, worden gegevens van andere servers niet naar de lokale cache gekopieerd.
 
    Hiermee wordt de beschikbare schijfruimte voor cachegegevens vermenigvuldigd. Nochtans, verhoogt het het verkeer tussen de peer servers en vermindert de algemene reactietijden. Gebruik deze configuratie slechts wanneer u lage geheim voorgeheugenklaptarieven ziet.
-
