@@ -2,18 +2,17 @@
 description: De zoomindicator wordt bedekt op het hoofdweergavegebied. De afbeelding wordt weergegeven wanneer de voorinstelling van de afbeelding is ingeschakeld en is ook afhankelijk van de parameter iconeffect.
 solution: Experience Manager
 title: Pictogram, effect
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoomen
+role: Developer,User
+exl-id: 45ab21e0-1f9e-48c9-8a8f-7a54e273db30
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
 
-
-# Pictogrameffect{#icon-effect}
+# Pictogram, effect{#icon-effect}
 
 De zoomindicator wordt bedekt op het hoofdweergavegebied. De afbeelding wordt weergegeven wanneer de voorinstelling van de afbeelding is ingeschakeld en is ook afhankelijk van de parameter iconeffect.
 
@@ -72,4 +71,3 @@ Voorbeeld: een zoomindicator van 100 x 100 pixels instellen met verschillende il
  background-image:url(images/v2/IconEffect_pinch.png); 
 }
 ```
-
