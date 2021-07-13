@@ -2,16 +2,15 @@
 description: Kleuren omkeren. Hiermee wordt elke kleurcomponent omgekeerd voor een negatief afbeeldingseffect.
 solution: Experience Manager
 title: op_invert
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 1bcee775-32cb-4aa8-9f33-2f075e589940
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '54'
 ht-degree: 0%
 
 ---
-
 
 # op_invert{#op-invert}
 
