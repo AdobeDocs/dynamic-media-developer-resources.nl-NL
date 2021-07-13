@@ -2,18 +2,17 @@
 description: Weergavebreedte. Hiermee geeft u de breedte van de antwoordafbeelding (weergaveafbeelding) op.
 solution: Experience Manager
 title: winderig
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 5edd045c-600e-4295-9672-04a5c3bc651d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
 
-
-# wid{#wid}
+# winderig{#wid}
 
 Weergavebreedte. Hiermee geeft u de breedte van de antwoordafbeelding (weergaveafbeelding) op.
 
@@ -48,4 +47,3 @@ Tenzij een indeling is opgegeven, wordt de afbeelding weergegeven als een SWF-be
 * GIF-alfa
 * TIF-alfa
 * PNG-alfa
-
