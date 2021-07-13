@@ -3,15 +3,14 @@ description: JavaScript API-referentie voor eCatalog SearchViewer.
 solution: Experience Manager
 title: eCatalogSearchViewer
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: a7289d23-b2f6-4730-99fa-331174968e05
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
-
 
 # eCatalogSearchViewer{#ecatalogsearchviewer}
 
@@ -68,4 +67,3 @@ defaultLocale:"en"
 } 
 });
 ```
-
