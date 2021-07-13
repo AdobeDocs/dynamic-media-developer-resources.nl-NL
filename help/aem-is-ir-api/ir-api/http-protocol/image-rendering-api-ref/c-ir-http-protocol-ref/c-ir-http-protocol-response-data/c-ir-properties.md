@@ -2,16 +2,15 @@
 description: Eigenschapgegevens worden geretourneerd als reactie op de volgende req=-typen imageprops en props.
 solution: Experience Manager
 title: Eigenschappen
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: a27ec5e4-7499-44ac-8db1-bf5d67f59632
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
-
 
 # Eigenschappen{#properties}
 
