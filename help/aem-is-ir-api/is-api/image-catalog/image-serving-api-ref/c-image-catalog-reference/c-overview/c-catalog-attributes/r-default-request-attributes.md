@@ -2,16 +2,15 @@
 description: Cataloguskenmerkbestanden herkennen deze standaardaanvraagkenmerken.
 solution: Experience Manager
 title: Standaardaanvraagkenmerken
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: b706595d-8c3a-438a-8806-e3d85b1bdadb
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
-
 
 # Standaardaanvraagkenmerken{#default-request-attributes}
 
@@ -57,4 +56,3 @@ Cataloguskenmerkbestanden herkennen deze standaardaanvraagkenmerken.
   </tr> 
  </tbody> 
 </table>
-
