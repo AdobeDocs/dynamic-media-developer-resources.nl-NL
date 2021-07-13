@@ -2,18 +2,17 @@
 description: De volgende velden worden herkend in afbeeldings- en SVG-gegevensbestanden.
 solution: Experience Manager
 title: Afbeelding_SVG-gegevens
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 5392e08f-3614-4588-8846-4262d32f3ce1
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
 
-
-# Image_SVG data{#image-svg-data}
+# Afbeelding_SVG-gegevens{#image-svg-data}
 
 De volgende velden worden herkend in afbeeldings- en SVG-gegevensbestanden.
 
@@ -127,4 +126,3 @@ De volgende velden worden herkend in afbeeldings- en SVG-gegevensbestanden.
   </tr> 
  </tbody> 
 </table>
-
