@@ -2,16 +2,15 @@
 description: Decal size. Breedte, hoogte en dikte van een decaal materiaalobject.
 solution: Experience Manager
 title: Grootte
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 964cb4c1-5256-40eb-94ea-761916174b79
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '217'
 ht-degree: 1%
 
 ---
-
 
 # Grootte{#size}
 
