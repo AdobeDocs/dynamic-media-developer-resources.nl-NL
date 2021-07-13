@@ -2,16 +2,15 @@
 description: vntc genereert tekstgegevens die naar stderr of het logbestand worden verzonden.
 solution: Experience Manager
 title: Uitvoer
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 48b15fc2-19c2-4ff8-8059-ba3478a4eec2
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
-
 
 # Uitvoer{#output}
 
@@ -143,4 +142,3 @@ De volgende eigenschappen worden gegenereerd:
   <td class="stentry"> <p>Waarschuwingsbericht (bijvoorbeeld wanneer <span class="codeph"> -imagemap</span> is opgegeven maar er geen kaartgegevens zijn gevonden in het vignet). </p></td> 
  </tr> 
 </table>
-
