@@ -2,18 +2,17 @@
 description: De indicator Set is een reeks punten die boven op stalen worden weergegeven wanneer een viewer wordt gebruikt op een aanraakapparaat. Met de puntjes kunnen gebruikers door pagina's met miniaturen navigeren wanneer er geen schuifknoppen beschikbaar zijn.
 solution: Experience Manager
 title: Indicator instellen
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoomen
+role: Developer,User
+exl-id: b1e6734e-a341-45d7-b771-daeb0527cd00
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
 
-
-# Indicator{#set-indicator} instellen
+# Indicator instellen{#set-indicator}
 
 De indicator Set is een reeks punten die boven op stalen worden weergegeven wanneer een viewer wordt gebruikt op een aanraakapparaat. Met de puntjes kunnen gebruikers door pagina&#39;s met miniaturen navigeren wanneer er geen schuifknoppen beschikbaar zijn.
 
@@ -118,4 +117,3 @@ Voorbeeld - als u een indicatorpunt wilt instellen op 15 x 15 pixels, met twee p
  background-color:#939393;  
 }
 ```
-
