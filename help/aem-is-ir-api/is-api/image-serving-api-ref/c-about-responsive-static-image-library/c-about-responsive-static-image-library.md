@@ -3,20 +3,20 @@ description: Responsieve afbeeldingsbibliotheek is een JavaScript-module waarmee
 solution: Experience Manager
 title: De bibliotheek met responsieve afbeeldingen
 feature: Dynamic Media Classic, SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: f853b9b4-917c-4744-b2a5-25fde2532356
-source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 0%
 
 ---
 
-# Info over bibliotheek met responsieve afbeeldingen{#about-responsive-image-library}
+# De bibliotheek met responsieve afbeeldingen{#about-responsive-image-library}
 
 Responsieve afbeeldingsbibliotheek is een JavaScript-module waarmee de kwaliteit van afbeeldingen die vanuit Dynamic Media worden aangeboden en die worden ingesloten in responsieve webpagina&#39;s, dynamisch wordt aangepast. Bovendien biedt de klasse een verbeterde beeldkwaliteit op apparaten met schermen met hoge dichtheid. De bibliotheek kan ook responsief resultaten renderen van Slim uitsnijden en Slim staal.
 
-## URL&#39;s demo {#section-4f72c1dc38bf4e03acfa5205733a05a5}
+## Demo-URL&#39;s {#section-4f72c1dc38bf4e03acfa5205733a05a5}
 
 Het eenvoudigste gebruik van de bibliotheek met responsieve afbeeldingen is het definiëren van een lijst met onderbrekingspuntwaarden voor de afbeeldingsbreedte. Deze lijst zorgt ervoor dat de juiste vertoning wordt geladen en weergegeven wanneer de grootte van een afbeelding wordt gewijzigd omdat de webpaginalay-out is gewijzigd doordat de gebruiker het browservenster vergroot of verkleint of de richting van het apparaat wijzigt. De bibliotheek controleert voortdurend de afbeeldingsgrootte op het scherm en elke keer dat een nieuwe breedte voor een onderbrekingspunt wordt bereikt, wordt een nieuwe afbeeldingsuitvoering opgehaald uit Dynamic Media.
 
@@ -42,7 +42,7 @@ Het eenvoudigste gebruik van de bibliotheek met responsieve afbeeldingen is het 
    <td colname="col2"> <p>In het volgende Bootstrap-voorbeeld wordt hetzelfde gebruiksgeval in een webpagina getoond. Volgens Bootstrap CSS kan de lay-outcel waaraan de responsieve afbeelding wordt toegevoegd, een van de volgende breedten hebben: 360, 720 en 940 pixels. Deze waarden zijn precies wat als breekpunten aan de Responsieve Bibliotheek van het Beeld wordt overgegaan. Als zodanig zorgt Dynamic Media ervoor dat de netwerkbandbreedte van de client effectief wordt gebruikt. En het zorgt er ook voor dat de afbeelding wordt weergegeven in de juiste grootte, gezien de huidige lay-out van de webpagina, zonder dat visuele vervormingen de clientbrowser schalen. </p> <p>Klik URL zodat opent u de Web-pagina, resize het browser venster om verschillende lay-outbreekpunten te raken, en netwerkverkeer te controleren. </p> <p>Gevallen van geavanceerder gebruik omvatten het associëren van verschillende Voorinstellingen van het Beeld, of Beeld die bevelen, of allebei, met verschillende breekpuntwaarden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>1 </p> </td> 
+   <td colname="col01"> <p>3 </p> </td> 
    <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/image-presets.html" format="https" scope="external"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/image-presets.html</a> </p> <p> 
      <!--http://sasha.s7qa.com/jira-bugs/S7-7729/image-presets.html--> </p> </td> 
    <td colname="col2"> <p>In dit volgende voorbeeld worden voorinstellingen voor afbeeldingen van verschillende afbeeldingskwaliteit en indeling voor verschillende onderbrekingspuntformaten gebruikt. Voor een klein breekpunt wordt een voorinstelling van lage kwaliteit toegepast. Deze voorinstelling dwingt Image Serving om de GIF-afbeelding die is gecomprimeerd tot slechts zes kleuren te retourneren. Een middelgroot breekpunt is het gebruiken van een Vooraf ingestelde Beeld die voor JPEG met hoge compressie wordt gevormd. Het grootste breekpunt is gekoppeld aan een voorinstelling voor afbeeldingen van hoge kwaliteit die gebruikmaakt van PNG-bestanden zonder verlies. Deze methode zorgt ervoor dat beelden van hoge kwaliteit aan dergelijke apparaten worden geleverd, gebaseerd op de veronderstelling dat de apparaten met grotere schermen grotere bandbreedte en verwerkingscapaciteit hebben. </p> <p>Klik op de URL, zodat u de webpagina opent, de grootte van het venster van de webbrowser wijzigt van groter naar kleiner en u ziet hoe de kwaliteit van de afbeelding afneemt. </p> </td> 
