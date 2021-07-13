@@ -2,18 +2,17 @@
 description: De handleiding voor de API voor beeldbewerking bevat informatie over het instellen en gebruiken van de API voor beeldbewerking.
 solution: Experience Manager
 title: API voor afbeeldingsservice
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: c2bc6728-e8c4-43f6-a3e7-33c9336774b2
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '51'
 ht-degree: 0%
 
 ---
 
-
-# Beeldserver-API{#image-serving-api}
+# API voor afbeeldingsservice{#image-serving-api}
 
 De handleiding voor de API voor beeldbewerking bevat informatie over het instellen en gebruiken van de API voor beeldbewerking.
 
