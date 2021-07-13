@@ -2,16 +2,15 @@
 description: Adresfilterelement. Optioneel in elementen <rule> en <pathrule>.
 solution: Experience Manager
 title: addressfilter
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: fe5df3a8-c9b2-4fad-ab9f-ca0b06016faf
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
-
 
 # addressfilter{#addressfilter}
 
@@ -19,7 +18,7 @@ Adresfilterelement. Optioneel in `<rule>`- en `<pathrule>`-elementen.
 
 Overschrijft `attribute::ClientAddressFilter` wanneer de regel wordt toegepast.
 
-## Kenmerken {#section-31e9ad29e9934933ac154bccbc729172}
+## Attributen {#section-31e9ad29e9934933ac154bccbc729172}
 
 Geen.
 
