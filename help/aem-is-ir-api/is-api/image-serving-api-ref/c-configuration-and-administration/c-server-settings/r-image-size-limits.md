@@ -2,16 +2,15 @@
 description: Gebruik deze serverinstellingen om de limieten voor afbeeldingsgrootte in te stellen.
 solution: Experience Manager
 title: Limieten voor afbeeldingsgrootte
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Administrator,User
+exl-id: 75ec58ee-8c98-46cb-96b2-79d1c32e576f
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
-
 
 # Limieten voor afbeeldingsgrootte{#image-size-limits}
 
@@ -25,7 +24,7 @@ Beperkt de grootte van gegevens de Server van het Beeld wordt toegestaan om naar
 
 Hiermee beperkt u de grootte van afbeeldingen die de afbeeldingsserver kan maken (met uitzondering van afbeeldingen die zijn opgeslagen in het bestand). Geheel getal groter dan 0 in miljoenen pixels. Er wordt een fout geretourneerd als een renderbewerking de maximale grootte zou overschrijden. De standaardwaarde is 16.
 
-## IS::MaxSavePixels - Limiet voor grootte voor opslaan naar bestanden {#section-d1547c4afa88467080ab08356f775e06}
+## IS:MaxSavePixels - Limiet voor grootte voor opslaan naar bestanden {#section-d1547c4afa88467080ab08356f775e06}
 
 Beperkt de grootte van beelden de Server van het Beeld aan dossiers met `req=saveToFile` bevel zal schrijven. Geheel getal groter dan 0 in miljoenen pixels. Er wordt een fout geretourneerd als het bestand tijdens het opslaan deze limiet zou overschrijden. De standaardwaarde is 100 miljoen pixels.
 
@@ -36,4 +35,3 @@ De maximumgrootte (in pixels) van afbeeldingen die geen PTIFF-bestanden zijn die
 >[!NOTE]
 >
 >Het plaatsen van deze waarde te hoog kan de Server van het Beeld veroorzaken om van geheugen uitgeput te zijn en in mislukkingen, met inbegrip van neerstortingen te resulteren.
-
