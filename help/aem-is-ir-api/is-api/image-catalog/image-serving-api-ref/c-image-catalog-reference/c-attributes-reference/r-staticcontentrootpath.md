@@ -2,16 +2,15 @@
 description: Statisch pad voor inhoudsgegevens. Absoluut pad of relatief padsegment voor de hoofdmap voor de statische inhoudsgegevens van deze afbeeldingscatalogus.
 solution: Experience Manager
 title: StaticContentRootPath
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 55ca44cd-4330-47e6-94cc-58c078d34bbd
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
-
 
 # StaticContentRootPath{#staticcontentrootpath}
 
