@@ -2,16 +2,15 @@
 description: De eigenschappen en syntaxis van afbeeldingscatalogi worden in deze sectie beschreven.
 solution: Experience Manager
 title: Afbeeldingscatalogi
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 54c83ad2-a932-4df2-92ff-ab34d4a5b1a7
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
-
 
 # Afbeeldingscatalogi{#image-catalogs}
 
