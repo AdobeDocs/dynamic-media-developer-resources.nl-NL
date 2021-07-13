@@ -3,15 +3,14 @@ description: Geeft aan of de viewer begint met het laden van video-inhoud voorda
 solution: Experience Manager
 title: VideoPlayer.preload
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: cee887f6-bbd9-46dd-aa41-03493596fcf4
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '126'
 ht-degree: 1%
 
 ---
-
 
 # VideoPlayer.preload{#videoplayer-preload}
 
