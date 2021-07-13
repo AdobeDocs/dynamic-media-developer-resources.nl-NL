@@ -2,16 +2,15 @@
 description: Hulpprogramma voor afbeeldingsomzetting.
 solution: Experience Manager
 title: ic
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: ab653aae-532b-4f3d-8541-f6296fbf9172
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1209'
 ht-degree: 0%
 
 ---
-
 
 # ic {#ic}
 
@@ -236,7 +235,7 @@ Als u grote afbeeldingen niet omzet, hoeft u de parameters die bepalen hoeveel g
  </tbody> 
 </table>
 
-## Ondersteunde invoerafbeeldingsindelingen {#section-ab13d941d6724e65b9f84b62d949d31c}
+## Ondersteunde indelingen voor invoerafbeeldingen {#section-ab13d941d6724e65b9f84b62d949d31c}
 
 In de volgende tabel worden de bestandsindelingen en indelingsopties voor afbeeldingen weergegeven die door de Inkoopordermap worden ondersteund.
 
@@ -303,7 +302,7 @@ In de volgende tabel worden de bestandsindelingen en indelingsopties voor afbeel
   <tr> 
    <td> <b> PNG</b> </td> 
    <td> <p> RGB | RGBA | grijs | grijsA | geïndexeerd </p> </td> 
-   <td> <p> 3 | 2 | 4 | 8 | 16 </p> </td> 
+   <td> <p> 1 | 2 | 4 | 8 | 16 </p> </td> 
    <td> <p> gecomprimeerd </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
