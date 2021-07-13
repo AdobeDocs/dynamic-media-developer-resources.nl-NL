@@ -2,16 +2,15 @@
 description: De meeste materialen kunnen dynamisch worden gekleurd.
 solution: Experience Manager
 title: Materialen inkleuren
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 95b13a57-f10b-4ff2-90fd-507e69cb2b04
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---
-
 
 # Materialen inkleuren{#colorizing-materials}
 
