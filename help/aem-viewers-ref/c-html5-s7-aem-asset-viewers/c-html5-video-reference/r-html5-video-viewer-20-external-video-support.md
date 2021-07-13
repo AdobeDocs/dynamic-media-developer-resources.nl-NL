@@ -3,15 +3,14 @@ description: De viewer ondersteunt het afspelen van video die buiten Dynamic Med
 solution: Experience Manager
 title: Externe videoondersteuning
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,User
+exl-id: b42e67cb-6959-4eea-8d45-49481e0e9d80
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
-
 
 # Externe videoondersteuning{#external-video-support}
 
