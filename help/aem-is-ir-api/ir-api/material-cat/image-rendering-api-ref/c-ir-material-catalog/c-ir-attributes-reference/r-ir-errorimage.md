@@ -2,16 +2,15 @@
 description: Error response image. Bij rendering van afbeeldingen wordt doorgaans een foutstatus met een tekstbericht geretourneerd wanneer een fout optreedt. kenmerk ErrorImage maakt het mogelijk een afbeelding te configureren die moet worden geretourneerd in het geval van een fout.
 solution: Experience Manager
 title: ErrorImage *
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: ed48482f-79b0-4c81-b5cd-cf997f27d3ab
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
-
 
 # ErrorImage *{#errorimage}
 
