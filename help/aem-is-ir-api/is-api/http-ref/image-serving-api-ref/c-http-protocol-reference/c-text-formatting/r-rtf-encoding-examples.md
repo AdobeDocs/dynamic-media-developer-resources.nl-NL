@@ -2,16 +2,15 @@
 description: In de volgende voorbeelden ziet u een voorbeeld van tekstopdrachten en hoe deze van invloed zijn op tekst.
 solution: Experience Manager
 title: Voorbeelden van RTF-codering
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 54c35aa7-aa8b-49af-a9ea-4bc704e4eebd
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '55'
 ht-degree: 0%
 
 ---
-
 
 # Voorbeelden van RTF-codering{#rtf-encoding-examples}
 
