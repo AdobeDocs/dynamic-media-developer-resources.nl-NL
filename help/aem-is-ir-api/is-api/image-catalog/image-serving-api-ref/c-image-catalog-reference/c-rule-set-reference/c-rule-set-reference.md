@@ -2,18 +2,17 @@
 description: De Server van het beeld steunt een eenvoudig verzoek preprocessing mechanisme dat op regelmatige-uitdrukkingsgelijke en substitutieregels gebaseerd is.
 solution: Experience Manager
 title: Referentie voor regelset
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: dfbb5f5e-d75a-496a-8b97-f102ad1a34d5
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
 
-
-# Regelsetreferentie{#rule-set-reference}
+# Referentie voor regelset{#rule-set-reference}
 
 De Server van het beeld steunt een eenvoudig verzoek preprocessing mechanisme dat op regelmatige-uitdrukkingsgelijke en substitutieregels gebaseerd is.
 
@@ -69,7 +68,7 @@ Als een `<rule>` wordt aangepast, wordt de optionele *`substitution`* toegepast 
 
 Als geen succesvolle gelijke wordt gemaakt wanneer het eind van `<ruleset>` wordt bereikt, wordt het verzoek overgegaan tot de parser zonder wijziging.
 
-## Het OnMatch-kenmerk {#section-ed952fa55d99422db0ee68a2b9d395d3}
+## Het kenmerk OnMatch {#section-ed952fa55d99422db0ee68a2b9d395d3}
 
 Het standaardgedrag kan met het `OnMatch` attribuut van het `<rule>` element worden gewijzigd. `OnMatch` kan worden ingesteld op  `break` (standaardwaarde),  `continue`of  `error`.
 
@@ -96,7 +95,7 @@ Het standaardgedrag kan met het `OnMatch` attribuut van het `<rule>` element wor
  </tbody> 
 </table>
 
-## Cataloguskenmerken {#section-3f1e33a65c5346d1b4a69958c61432f3} overschrijven
+## Cataloguskenmerken overschrijven {#section-3f1e33a65c5346d1b4a69958c61432f3}
 
 `<rule>` elementen kunnen desgewenst kenmerken definiëren die de overeenkomende cataloguskenmerken overschrijven wanneer de regel correct wordt aangepast. Als meerdere overeenkomende regels hetzelfde kenmerk instellen, heeft de laatste voorrang. Raadpleeg de beschrijving van het element ` [<rule>](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-rule-rule.md#reference-af76c0e2b8be48dabb52b71fe7e51ee9)` voor een lijst met kenmerken die met regels kunnen worden beheerd.
 
@@ -110,7 +109,7 @@ Eenvoudige tekenreeksovereenkomsten werken voor zeer eenvoudige toepassingen, ma
 
 Om complexe URL-wijzigingen mogelijk te maken, kunnen subtekenreeksen worden vastgelegd in de expressie door de subtekenreeks tussen haakjes (...) te plaatsen. Vastgelegde subtekenreeksen worden opeenvolgend genummerd, beginnend met 1 op basis van de positie van het voorloophaakje. De vastgelegde subtekenreeksen kunnen in de vervanging worden ingevoegd met ` $ *`n`*`, waarbij *`n`* het volgnummer van de vastgelegde subtekenreeks is.
 
-## Bestanden {#section-0598a608e4044bb4805fe93ceebe10a9} beheren met regelsets
+## Bestanden met regelsets beheren {#section-0598a608e4044bb4805fe93ceebe10a9}
 
 Met het cataloguskenmerk `attribute::RuleSetFile` kunt u één regelsetbestand toevoegen aan elke afbeeldingscatalogus. U kunt het regelsetbestand op elk gewenst moment bewerken, maar de afbeeldingsserver herkent de wijzigingen alleen wanneer de bijbehorende afbeeldingscatalogus opnieuw wordt geladen. Dit wordt opnieuw geladen wanneer de platformserver wordt gestart of opnieuw wordt gestart en wanneer het primaire catalogusbestand met het achtervoegsel [!DNL .ini] bestand wordt gewijzigd of &quot;aangeraakt&quot; om de bestandsdatum te wijzigen.
 
