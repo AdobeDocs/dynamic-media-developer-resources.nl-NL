@@ -2,22 +2,21 @@
 description: Patroonelement met reguliere expressie. Optioneel in elementen <rule>.
 solution: Experience Manager
 title: expression
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 5fb95e93-cf14-4042-a338-d9d7df6e3b58
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
-
 
 # expression{#expression}
 
 Patroonelement met reguliere expressie. Optioneel in `<rule>`-elementen.
 
-## Kenmerken {#section-fd0574eee1f9423cbb2ed709c0906800}
+## Attributen {#section-fd0574eee1f9423cbb2ed709c0906800}
 
 Geen.
 
