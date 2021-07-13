@@ -3,11 +3,11 @@ description: Carousel Viewer is een viewer die een carrousel van niet-zoombare b
 solution: Experience Manager
 title: Carousel
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: d506dc6e-8929-4f7f-a205-1683e77681f1
-source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1902'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Het viewertype is 511.
 
 Zie [Systeemvereisten](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
-## Carousel-viewer {#section-e6c68406ecdc4de781df182bbd8088b4} gebruiken
+## Carousel Viewer gebruiken {#section-e6c68406ecdc4de781df182bbd8088b4}
 
 De Carousel Viewer vertegenwoordigt een hoofd-JavaScript-bestand en een set hulplijnbestanden (één JavaScript-bestand met alle Viewer SDK-componenten die door deze viewer worden gebruikt, elementen, CSS) die door de viewer in runtime zijn gedownload.
 
@@ -52,7 +52,7 @@ De viewer is volledig toegankelijk via het toetsenbord.
 
 Zie [Toegankelijkheid en navigatie op toetsenbord](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
-## Carousel-viewer insluiten {#section-6bb5d3c502544ad18a58eafe12a13435}
+## Carousel Viewer insluiten {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 **Pop-upmodus**
 
