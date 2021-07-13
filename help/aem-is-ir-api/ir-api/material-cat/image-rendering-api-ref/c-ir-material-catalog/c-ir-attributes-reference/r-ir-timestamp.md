@@ -2,16 +2,15 @@
 description: Standaardtijdstempel voor aanpassing. Verstrekt een standaardwaarde voor catalogus TimeStamp en vignet TimeStamp. Als deze waarde niet wordt opgegeven, gebruikt de server de wijzigingsdatum/-tijd van het bestand catalog.ini.
 solution: Experience Manager
 title: TimeStamp
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 0b6d8fa6-0ad9-4f72-8d6d-1427e5d59df3
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
-
 
 # TimeStamp{#timestamp}
 
