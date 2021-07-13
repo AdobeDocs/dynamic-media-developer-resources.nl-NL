@@ -2,16 +2,15 @@
 description: De server kan worden geconfigureerd om e-mailwaarschuwingen te verzenden wanneer bepaalde prestatie- of foutdrempels worden overschreden. Het systeem controleert collectief alle Webtoepassingen die op de server worden opgesteld.
 solution: Experience Manager
 title: Servercontrole
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Administrator,User
+exl-id: c751d653-da5d-4573-99fd-fb9113977160
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
-
 
 # Servercontrole{#server-monitoring}
 
