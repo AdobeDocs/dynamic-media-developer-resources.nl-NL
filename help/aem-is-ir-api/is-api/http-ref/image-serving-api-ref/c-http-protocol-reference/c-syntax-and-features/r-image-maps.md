@@ -2,16 +2,15 @@
 description: IS biedt mechanismen om het gebruik van HTML-afbeeldingen met hyperlinks te vereenvoudigen. De op JAVA gebaseerde en op Flash gebaseerde viewers in IS bieden ook beperkte ondersteuning voor afbeeldingen met hyperlinks.
 solution: Experience Manager
 title: Afbeeldingen met hyperlinks
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 9a685f9d-205d-43b3-b5fe-3ae324fe153e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
-
 
 # Afbeeldingen met hyperlinks{#image-maps}
 
