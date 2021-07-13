@@ -2,22 +2,21 @@
 description: Er zijn enkele beperkingen en bekende problemen die in overweging moeten worden genomen bij het gebruik van Dynamic Media Image Serving.
 solution: Experience Manager
 title: Beperkingen en bekende problemen
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: fd32456b-9d99-4e82-a61c-2fc4d7030630
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1235'
 ht-degree: 0%
 
 ---
-
 
 # Beperkingen en bekende problemen{#restrictions-and-known-issues}
 
 Er zijn enkele beperkingen en bekende problemen die in overweging moeten worden genomen bij het gebruik van Dynamic Media Image Serving.
 
-## Documentatieferrata {#section-b1579410b11e41e488c7de9ecc7e8d5c}
+## Documentatierrata {#section-b1579410b11e41e488c7de9ecc7e8d5c}
 
 * Het aantal regels zal niet het maximum van `\copyfitmaxlines` het plaatsen en het aantal expliciete lijnen in de tekstinput overschrijden.
 * In afbeeldingssets zijn gelijke accolades en haakjes vereist. Als accolades en haakjes niet overeenkomen, moeten deze URL-gecodeerd zijn.
@@ -56,7 +55,7 @@ Er zijn enkele beperkingen en bekende problemen die in overweging moeten worden 
 
 De Digimarc-bibliotheek weigert een Digimarc-watermerk toe te passen op een afbeelding als deze al is gedetecteerd. Als een primaire afbeelding voldoende wordt bewerkt, is het mogelijk dat de Digimarc-bibliotheek nog steeds kan herkennen dat het watermerk is toegepast. Het kan echter zijn dat de informatie niet kan worden gelezen. Dit resulteert in een nieuwe afbeelding waarin de oorspronkelijke Digimarc-informatie die op de oorspronkelijke afbeelding is toegepast, niet kan worden verkregen. Met Beeldserver kunt u nu het Digimarc-watermerk toepassen dat is gedefinieerd in de catalogus van het bedrijf.
 
-## Beperkingen die van toepassing zijn op zowel het renderen van afbeeldingen als het renderen van afbeeldingen {#section-f836cb40ae2d4f32a9cf7ebda4d91bae}
+## Beperkingen die van toepassing zijn op zowel Beeldbewerking als Afbeeldingsweergave {#section-f836cb40ae2d4f32a9cf7ebda4d91bae}
 
 * Het is mogelijk dat beeldservers en het renderen van afbeeldingen niet alle CPU&#39;s ten volle benutten wanneer er meer dan vier CPU&#39;s beschikbaar zijn. Simuleer uw verkeer op deze machines om te zien hoe voordelig het met meer dan 4 cpu&#39;s is.
 * Externe URL&#39;s die een omleiding retourneren (HTTP-status 301, 302 of 303) worden afgewezen.
