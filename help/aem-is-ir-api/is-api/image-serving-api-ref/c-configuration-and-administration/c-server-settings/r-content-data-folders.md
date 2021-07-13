@@ -2,22 +2,21 @@
 description: Gebruik deze serverinstellingen voor inhoudsgegevensmappen.
 solution: Experience Manager
 title: Inhoudsgegevensmappen
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Administrator,User
+exl-id: 9aa4121f-25f8-49d0-a304-7ae756c046f5
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
-
 
 # Inhoudsgegevensmappen{#content-data-folders}
 
 Gebruik deze serverinstellingen voor inhoudsgegevensmappen.
 
-## IS::RootPath - Hoofdmappen voor afbeeldingsgegevens {#section-5c57569514bb4d00b19de31d2e137e3b}
+## IS::RootPath - Hoofdmappen met afbeeldingsgegevens {#section-5c57569514bb4d00b19de31d2e137e3b}
 
 De locatie van alle brongegevens, inclusief afbeeldingen, lettertypen en ICC-profielen. Dit kunnen een of meer absolute bestandspaden of paden zijn ten opzichte van *[!DNL install_folder]*, gescheiden met puntkomma&#39;s. Indien leeg, *[!DNL install_folder]* is de standaardwortel. U kunt meerdere waarden opgeven om afbeeldingsgegevens over meerdere bestandssystemen te verspreiden. De server van het Beeld zal de wortelwegen in de gespecificeerde orde proberen tot het gevraagde dossier wordt gevonden.
 
@@ -33,6 +32,6 @@ De server van het Platform probeert de wortelwegen in de gespecificeerde orde to
 >
 >Standaard wordt dit veld opzettelijk ingesteld op een niet-bestaande locatie ( [!DNL *[!DNL install_folder]*/static]), waardoor de service voor statische inhoud feitelijk wordt uitgeschakeld.
 
-## IS::SaveDirectory - Bestandsopslaghoofdmap {#section-1c517f8d49ce4cb8b9013e520bf309c9}
+## IS::Opslagmap - Hoofdmap van bestand opslaan {#section-1c517f8d49ce4cb8b9013e520bf309c9}
 
 Het hoofdpad voor `attribute::SavePath` (wordt gebruikt door `req=saveToFile`). De server van het Beeld moet toegangstoestemmingen voor subfolder tot stand brengen waarin het beelddossiers zal creëren.
