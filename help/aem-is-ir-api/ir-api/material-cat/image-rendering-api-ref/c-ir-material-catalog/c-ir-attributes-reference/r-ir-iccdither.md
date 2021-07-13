@@ -2,16 +2,15 @@
 description: Dithering voor kleurconversie. Geeft aan of dithering moet worden gebruikt om de perceptuele kwaliteit van kleuromzettingen te verbeteren wanneer er geen expliciete selectie met icc= wordt gemaakt.
 solution: Experience Manager
 title: IccDither
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: bb1bec31-3f7c-48c8-9456-6359b739a657
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '82'
 ht-degree: 0%
 
 ---
-
 
 # IccDither{#iccdither}
 
