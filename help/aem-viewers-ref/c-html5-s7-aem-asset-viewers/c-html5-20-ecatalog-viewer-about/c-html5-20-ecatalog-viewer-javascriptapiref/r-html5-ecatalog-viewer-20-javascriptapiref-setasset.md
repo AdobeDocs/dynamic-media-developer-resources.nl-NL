@@ -3,15 +3,14 @@ description: JavaScript API-referentie voor Video Viewer.
 solution: Experience Manager
 title: setAsset
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 04b6bf4d-5c42-49e9-b585-de75ebf6c89f
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
-
 
 # setAsset{#setasset}
 
@@ -61,4 +60,3 @@ De optie Verscherpen is toegevoegd aan alle afbeeldingen in de set:
 ```
  <instance>.setAsset("Viewers/Pluralist?op_sharpen=1")
 ```
-
