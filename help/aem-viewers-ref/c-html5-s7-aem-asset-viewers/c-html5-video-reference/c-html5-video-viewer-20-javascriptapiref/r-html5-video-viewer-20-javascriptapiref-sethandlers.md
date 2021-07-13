@@ -3,15 +3,14 @@ description: JavaScript API-referentie voor Video Viewer.
 solution: Experience Manager
 title: setHandlers
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 37d14494-cdb2-45f7-96e2-d7a9e90edad3
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
-
 
 # setHandlers{#sethandlers}
 
@@ -45,4 +44,3 @@ Geen.
 } 
 })
 ```
-
