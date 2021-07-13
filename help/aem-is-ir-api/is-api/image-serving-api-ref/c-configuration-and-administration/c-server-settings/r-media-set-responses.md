@@ -2,18 +2,17 @@
 description: De instellingen in deze sectie zijn van toepassing op mediasetreacties die worden verkregen door de optie req=set.
 solution: Experience Manager
 title: Reacties mediaset
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Administrator,User
+exl-id: e3833726-d345-4741-8096-d74f299ac9fc
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
 
-
-# Reacties voor mediasets{#media-set-responses}
+# Reacties mediaset{#media-set-responses}
 
 De instellingen in deze sectie zijn van toepassing op mediasetreacties die worden verkregen door de optie req=set.
 
