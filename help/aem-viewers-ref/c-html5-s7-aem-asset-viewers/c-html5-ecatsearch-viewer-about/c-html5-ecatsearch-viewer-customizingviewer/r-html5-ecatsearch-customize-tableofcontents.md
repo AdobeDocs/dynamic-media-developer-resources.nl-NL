@@ -3,15 +3,14 @@ description: De inhoudsopgave is een knop in de hoofdbesturingsbalk. Als u deze 
 solution: Experience Manager
 title: Inhoudsopgave
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: bc597c68-b86c-4577-9d24-6999eccada78
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
-
 
 # Inhoudsopgave{#table-of-contents}
 
@@ -464,4 +463,3 @@ Voorbeeld: stel schuifknoppen in met een resolutie van 28 x 32 pixels en een and
  background-image:url(images/v2/ThumbnailScrollDownButton_dark_up.png); 
 }
 ```
-
