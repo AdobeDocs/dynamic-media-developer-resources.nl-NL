@@ -2,16 +2,15 @@
 description: Selecteer Effectlaag. Selecteert een effect laag en begint een nieuw laagsegment in het verzoekkoord, dat met de huidige laag wordt geassocieerd.
 solution: Experience Manager
 title: effect
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: d1eaa38d-cfd3-44d4-92b1-04d72333f867
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
-
 
 # effect{#effect}
 
