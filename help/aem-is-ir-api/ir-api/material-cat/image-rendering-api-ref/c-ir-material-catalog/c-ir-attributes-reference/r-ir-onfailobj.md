@@ -2,16 +2,15 @@
 description: Foutafhandeling objectselectie. Hiermee wordt de actie opgegeven die moet worden uitgevoerd als de opdracht obj= mislukt omdat het opgegeven pad niet kan worden vergeleken in de hiërarchie van het vignetobject.
 solution: Experience Manager
 title: OnFailObj
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 0ed04daf-1797-4c12-ae6d-a9a008de9d1d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '119'
 ht-degree: 4%
 
 ---
-
 
 # OnFailObj{#onfailobj}
 
