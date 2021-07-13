@@ -3,15 +3,14 @@ description: JavaScript API-referentie voor Video Viewer.
 solution: Experience Manager
 title: setLocalizedText
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 89d6231d-8063-435f-864e-c352287e4764
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '76'
 ht-degree: 0%
 
 ---
-
 
 # setLocalizedText{#setlocalizedtexts}
 
@@ -41,4 +40,3 @@ Geen.
 ```
 <instance>.setLocalizedTexts({"en":{"CloseButton.TOOLTIP":"Close"},"fr":{"CloseButton.TOOLTIP":"Fermer"},defaultLocale:"en"})
 ```
-
