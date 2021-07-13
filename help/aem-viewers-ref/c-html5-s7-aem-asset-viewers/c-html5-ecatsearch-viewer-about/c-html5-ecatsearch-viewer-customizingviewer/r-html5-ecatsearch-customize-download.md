@@ -3,15 +3,14 @@ description: Downloaden
 solution: Experience Manager
 title: Downloaden
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: eb26ffaa-3c2c-4cee-9a18-f6c5299828c4
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
-
 
 # Downloaden{#download}
 
@@ -82,4 +81,3 @@ background-image:url(images/v2/Dowmload_dark_down.png);
 background-image:url(images/v2/Dowmload_dark_disabled.png); 
 }
 ```
-
