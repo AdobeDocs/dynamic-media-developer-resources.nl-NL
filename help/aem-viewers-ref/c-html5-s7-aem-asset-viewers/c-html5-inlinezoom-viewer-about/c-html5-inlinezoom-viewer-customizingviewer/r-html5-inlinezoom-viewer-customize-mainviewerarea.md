@@ -3,15 +3,14 @@ description: Het hoofdweergavegebied is het gebied dat wordt ingenomen door de v
 solution: Experience Manager
 title: Hoofdviewergebied
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: ab1653a3-38e6-49bb-97b7-005304349ec9
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 0%
+source-wordcount: '100'
+ht-degree: 1%
 
 ---
-
 
 # Hoofdviewergebied{#main-viewer-area}
 
@@ -59,4 +58,3 @@ Voorbeeld: een vervolgviewer instellen met een witte achtergrond ( `#FFFFFF`) en
  height: 500px;  
 }
 ```
-
