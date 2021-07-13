@@ -2,16 +2,15 @@
 description: In dit document worden de volgende conventies gebruikt.
 solution: Experience Manager
 title: Documentconventies
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: e93de3fa-dde1-4d79-93aa-9ad800840cfc
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
-
 
 # Documentconventies{#document-conventions}
 
@@ -87,4 +86,3 @@ In dit document worden de volgende conventies gebruikt.
   <td class="stentry"> <p>Spaties (spaties of tabs) zijn niet toegestaan in HTTP-aanvragen. Dit document gebruikt soms alleen voor de duidelijkheid witruimte tussen syntactische elementen. </p> </td> 
  </tr> 
 </table>
-
