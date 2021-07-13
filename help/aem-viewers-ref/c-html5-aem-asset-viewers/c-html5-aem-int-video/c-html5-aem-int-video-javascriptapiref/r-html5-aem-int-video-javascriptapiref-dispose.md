@@ -2,18 +2,17 @@
 description: JavaScript API-referentie voor Interactive Video Viewer.
 solution: Experience Manager
 title: weggooien
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
+role: Developer,User
 exl-id: 55418b97-3d18-4c1d-b0e3-aefd71f46616
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
 
-# dispose{#dispose}
+# weggooien{#dispose}
 
 JavaScript API-referentie voor Interactive Video Viewer.
 
