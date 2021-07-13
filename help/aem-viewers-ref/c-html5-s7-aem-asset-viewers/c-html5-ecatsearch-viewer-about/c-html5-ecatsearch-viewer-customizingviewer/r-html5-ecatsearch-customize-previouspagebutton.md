@@ -3,15 +3,14 @@ description: Als u op deze knop klikt of erop tikt, gaat de gebruiker naar de vo
 solution: Experience Manager
 title: Knop Vorige pagina
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: af67b10c-6393-4032-a166-8f4232a79818
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
-
 
 # Knop Vorige pagina{#previous-page-button}
 
@@ -96,4 +95,3 @@ background-image:url(images/v2/ToolBarLeftButton_dark_down.png);
 background-image:url(images/v2/ToolBarLeftButton_dark_disabled.png); 
 }
 ```
-
