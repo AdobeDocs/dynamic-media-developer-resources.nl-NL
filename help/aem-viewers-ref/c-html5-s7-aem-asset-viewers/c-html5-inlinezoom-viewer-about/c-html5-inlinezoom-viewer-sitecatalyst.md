@@ -3,27 +3,26 @@ description: De Flyout-viewer biedt ondersteuning voor het uit de verpakking bij
 solution: Experience Manager
 title: Ondersteuning voor Adobe Analytics-tracking
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
-role: Developer,Business Practitioner,Data Engineer,Data Architect
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User,Data Engineer,Data Architect
+exl-id: e5ffe8a8-6c25-4fc2-8c25-90bc7e0b416c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
 
-
-# Ondersteuning voor Adobe Analytics tracking{#support-for-adobe-analytics-tracking}
+# Ondersteuning voor Adobe Analytics-tracking{#support-for-adobe-analytics-tracking}
 
 De Flyout-viewer biedt ondersteuning voor het uit de verpakking bijhouden van Adobe Analytics.
 
-## Buiten-de-box tracking {#section-ba994f079d0343c8ae48adffaa3195a3}
+## Buiten-de-box-tracking {#section-ba994f079d0343c8ae48adffaa3195a3}
 
 De Inline zoomviewer ondersteunt [!DNL Adobe Analytics] het uit-van-de-box bijhouden. Als u reeksspatiëring wilt inschakelen, geeft u de juiste naam van de bedrijfsvoorinstelling door als `config2`-parameter.
 
 De kijker verzendt ook één enkele het volgen HTTP- verzoek naar de gevormde Server van het Beeld met het viewertype en versieinformatie.
 
-## Aangepaste tekstspatiëring {#section-cda48fc9730142d0bb3326bac7df3271}
+## Aangepaste reeksspatiëring {#section-cda48fc9730142d0bb3326bac7df3271}
 
 Om met derdeanalysesystemen te integreren is het noodzakelijk om aan `trackEvent` kijkerscallback te luisteren en het `eventInfo` argument van de callback functie zonodig te verwerken. De volgende code is een voorbeeld van een dergelijke handlerfunctie:
 
@@ -83,4 +82,3 @@ De viewer houdt de volgende SDK-gebruikersgebeurtenissen bij:
   </tr> 
  </tbody> 
 </table>
-
