@@ -2,16 +2,15 @@
 description: Als req=img, wordt de grootte van het samengestelde canvas volledig bepaald door de grootte van laag 0.
 solution: Experience Manager
 title: Het samengestelde canvas
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 38b2349f-714a-4304-bd33-5ce171b6d3a1
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
-
 
 # Het samengestelde canvas{#the-compositing-canvas}
 
