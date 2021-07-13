@@ -2,22 +2,21 @@
 description: Regels, containerelement. Een geldig regelsetbestand bevat één <ruleset>-element.
 solution: Experience Manager
 title: liniaal
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 506eee1b-bd9f-42b7-bd9b-9bc04a1d0939
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '40'
+source-wordcount: '37'
 ht-degree: 0%
 
 ---
-
 
 # liniaal{#ruleset}
 
 Regels, containerelement. Een geldig regelsetbestand bevat één `<ruleset>`-element.
 
-## Kenmerken {#section-4840a223a0c34c50a1b6f4b7b9beb2c2}
+## Attributen {#section-4840a223a0c34c50a1b6f4b7b9beb2c2}
 
 Geen.
 
