@@ -2,16 +2,15 @@
 description: Maskergebruik van afbeelding. Hiermee geeft u op hoe het masker of het alfakanaal van de afbeelding wordt gebruikt voor bewerkingen in de afbeelding (bijvoorbeeld colorize=). Wanneer het effect in een effectlaag wordt opgegeven, is het mogelijk het effect toe te passen op het achtergrondgebied van de bovenliggende laag of op de volledige bovenliggende laagrechthoek.
 solution: Experience Manager
 title: maskUse
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: e99101a1-1747-454c-b0c0-3af3335c0497
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
-
 
 # maskUse{#maskuse}
 
