@@ -3,15 +3,14 @@ description: Het gereedschap voor delen van koppeling bestaat uit een knop die w
 solution: Experience Manager
 title: Delen van koppeling
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 0b792a15-ed00-4ee5-90f4-511ac9e035b6
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1392'
 ht-degree: 0%
 
 ---
-
 
 # Delen van koppeling{#link-share}
 
@@ -713,4 +712,3 @@ Voorbeeld - als u de koppeling voor delen wilt instellen op 450 pixels breed:
     width: 450px; 
 }
 ```
-
