@@ -2,13 +2,12 @@
 description: Met de knop Afspelen/Pauzeren wordt de video-inhoud afgespeeld of gepauzeerd wanneer de gebruiker erop klikt.
 solution: Experience Manager
 title: Knop Afspelen/Pauzeren
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
+role: Developer,User
 exl-id: 5f8741a4-d286-4b2d-8a11-23bce119209a
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -27,7 +26,7 @@ De volgende CSS-klassenkiezer bepaalt de vormgeving van de knop:
 .s7video360viewer .s7playpausebutton
 ```
 
-## CSS-eigenschappen van de knop voor afspelen/pauzeren {#css-properties-of-the-play-pause-button}
+## CSS-eigenschappen van de knop Afspelen/Onderbreken {#css-properties-of-the-play-pause-button}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
