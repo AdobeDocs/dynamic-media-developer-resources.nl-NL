@@ -2,18 +2,17 @@
 description: Met deze opdrachten kunt u laageffecten definiëren, zoals slagschaduw- of gloedeffecten. Effectlagen negeren alle andere opdrachten.
 solution: Experience Manager
 title: Laageffecten, opdrachten
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 483b1f24-9cd2-45e0-9d18-0dc0fbe8abcf
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
 
-
-# Laageffecten{#layer-effect-commands}
+# Laageffecten, opdrachten{#layer-effect-commands}
 
 Met deze opdrachten kunt u laageffecten definiëren, zoals slagschaduw- of gloedeffecten. Effectlagen negeren alle andere opdrachten.
 
