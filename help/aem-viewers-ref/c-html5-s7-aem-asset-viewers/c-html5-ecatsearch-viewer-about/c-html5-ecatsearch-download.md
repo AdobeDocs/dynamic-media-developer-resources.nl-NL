@@ -3,15 +3,14 @@ description: Downloaden
 solution: Experience Manager
 title: Downloaden
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,User
+exl-id: 661b19fb-5d18-46e9-8658-a5df567a3eff
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
-
 
 # Downloaden{#download}
 
@@ -22,4 +21,3 @@ De knop &quot;Downloaden&quot; is automatisch beschikbaar in de gebruikersinterf
 * Er is een feitelijk PDF-bestand aanwezig in het bedrijf van de klant.
 * De naam komt overeen met de naam van het element uit de e-catalogus dat is doorgegeven aan de viewer en bevat de extensie `.pdf`.
 * Het PDF-bestand wordt gepubliceerd in Dynamic Media Classic.
-
