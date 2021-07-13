@@ -2,18 +2,17 @@
 description: Eigenschappen van afbeeldingscatalogus. Retourneert algemene kenmerken van de afbeeldingscatalogus die zijn opgegeven in het aanvraagpad.
 solution: Experience Manager
 title: catalogusprofielen
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 28bf68e8-d424-418e-99a7-5298a1d83341
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
 
-
-# catalogi{#catalogprops}
+# catalogusprofielen{#catalogprops}
 
 Eigenschappen van afbeeldingscatalogus. Retourneert algemene kenmerken van de afbeeldingscatalogus die zijn opgegeven in het aanvraagpad.
 
@@ -145,4 +144,3 @@ De volgende eigenschapswaarden worden geretourneerd:
   </tr> 
  </tbody> 
 </table>
-
