@@ -2,26 +2,25 @@
 description: Gebruik deze serverinstellingen voor de afbeeldingscatalogusservice.
 solution: Experience Manager
 title: Afbeeldingscatalogusservice
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Administrator,User
+exl-id: c089ef35-47a1-4921-8a5e-1ca78f29794d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
 
-
-# Service voor afbeeldingscatalogus{#image-catalog-service}
+# Afbeeldingscatalogusservice{#image-catalog-service}
 
 Gebruik deze serverinstellingen voor de afbeeldingscatalogusservice.
 
-## CS::catalog.rootPath - Afbeeldingscatalogusmap {#section-02d107f157384b18835f884f24fea3aa}
+## CS::catalog.rootPath - Map met afbeeldingscatalogus {#section-02d107f157384b18835f884f24fea3aa}
 
 Locatie van de map met de afbeeldingscatalogus (waarin alle [!DNL catalog.ini]-bestanden moeten zijn opgeslagen). Dit kan een absoluut bestandspad zijn of een pad dat relatief is ten opzichte van *[!DNL install_folder]*. De server bewaakt deze map voortdurend en laadt of herlaadt catalogi wanneer een nieuw hoofdcatalogusbestand (met het achtervoegsel [!DNL .ini]) wordt gedetecteerd of wanneer de laatste gewijzigde tijd van een bestaand hoofdcatalogusbestand is gewijzigd.
 
-## CS::catalog.cacheRoot - Catalog Cache Folder {#section-73e499c3a5974f1aa4251e70272ff503}
+## CS::catalog.cacheRoot - Cataloguscachemap {#section-73e499c3a5974f1aa4251e70272ff503}
 
 De hoofdmap voor de cache van het catalogussysteem. Kan op hetzelfde worden ingesteld als een van de mappen in `PS::cache.rootPaths`. De map moet handmatig worden gemaakt voordat deze instelling wordt gewijzigd.
 
