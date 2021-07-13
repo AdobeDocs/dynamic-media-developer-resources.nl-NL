@@ -3,15 +3,14 @@ description: De secundaire besturingsbalk is het rechthoekige gebied met de knop
 solution: Experience Manager
 title: Secundaire besturingsbalk
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: e5d6abe8-0ae9-4ccd-b311-5895e09310b2
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
-
 
 # Secundaire besturingsbalk{#secondary-control-bar}
 
@@ -58,4 +57,3 @@ Voorbeeld - voor het instellen van een grijze secundaire besturingsbalk die 72 p
  height: 72px; 
 }
 ```
-
