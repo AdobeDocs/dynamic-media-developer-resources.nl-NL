@@ -2,18 +2,17 @@
 description: Vervangende variabele wordt gebruikt om waarden van het verzoekURL naar FXG malplaatjes over te brengen die op de server worden opgeslagen.
 solution: Experience Manager
 title: Substitutievariabelen
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 539d8863-e94d-45dc-bb8c-3db7bead0051
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
 
-
-# Vervangende variabelen{#substitution-variables}
+# Substitutievariabelen{#substitution-variables}
 
 Vervangende variabele wordt gebruikt om waarden van het verzoekURL naar FXG malplaatjes over te brengen die op de server worden opgeslagen.
 
@@ -34,4 +33,3 @@ Vervangende variabele wordt gebruikt om waarden van het verzoekURL naar FXG malp
 * Variabelen worden gedefinieerd als hierboven, vergelijkbaar met andere IS-opdrachten; de regelafstand &#39;$&#39; geeft de opdracht aan als een variabele definitie.
 * De variabelenaam `*`var`*` is hoofdlettergevoelig en kan bestaan uit een willekeurige combinatie van letters, cijfers, &#39;-&#39; en &#39;_&#39;.
 * Belangrijke waarde moet URL-gecodeerd zijn met één controle voor veilige HTTP-verzending.
-
