@@ -2,13 +2,12 @@
 description: Het deelvenster Oproepen naar actie wordt weergegeven wanneer de video wordt beëindigd en alle interactieve stalen worden weergegeven die aan de specifieke video zijn gekoppeld.
 solution: Experience Manager
 title: Oproep tot actie
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
+role: Developer,User
 exl-id: 43e0ffb3-d650-4b79-ab48-2f32b313b832
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1283'
 ht-degree: 0%
 
 ---
@@ -31,7 +30,7 @@ Met de volgende CSS-klassenkiezer bepaalt u de weergave van de achtergrondkleur 
 .s7interactivevideoviewer .s7calltoaction
 ```
 
-## CSS-eigenschappen van de achtergrondkleur van de aanroep naar actiepaneel {#css-properties-of-the-background-color-of-the-call-to-action-panel}
+## CSS-eigenschappen van de achtergrondkleur van de aanroep van het deelvenster Handelingen {#css-properties-of-the-background-color-of-the-call-to-action-panel}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -60,7 +59,7 @@ Met de volgende CSS-klassenkiezer bepaalt u de weergave van de koptekst in het a
 .s7interactivevideoviewer .s7calltoaction .s7header
 ```
 
-## CSS-eigenschappen van de aanroep van de koptekst van het deelvenster Handelingen {#css-properties-of-the-call-to-action-panel-header}
+## CSS-eigenschappen van de aanroep naar de koptekst van het deelvenster Handelingen {#css-properties-of-the-call-to-action-panel-header}
 
 <table id="table_DAA1770AB3074845B5E1B700CD6FC18A"> 
  <tbody> 
