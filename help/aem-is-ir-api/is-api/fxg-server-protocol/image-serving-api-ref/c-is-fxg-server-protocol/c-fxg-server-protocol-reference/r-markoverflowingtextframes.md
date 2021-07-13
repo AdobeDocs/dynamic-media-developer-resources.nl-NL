@@ -2,18 +2,17 @@
 description: Overlopende tekstkaders met plusteken weergeven. Een indicator van de tekstoverloop toont wanneer de tekst de ruimte overschrijdt die voor het in een tekstkader (of in het laatste tekstkader in het geval van verbonden tekst) wordt toegewezen. De indicator is een rood vak met daarin een plusteken.
 solution: Experience Manager
 title: markOverflowsTextFrames
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: d1e2a3d4-ef1f-4d5e-be9c-eeec36f46603
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
 
-
-# markOverflowTextFrames{#markoverflowingtextframes}
+# markOverflowsTextFrames{#markoverflowingtextframes}
 
 Overlopende tekstkaders met plusteken weergeven. Een indicator van de tekstoverloop toont wanneer de tekst de ruimte overschrijdt die voor het in een tekstkader (of in het laatste tekstkader in het geval van verbonden tekst) wordt toegewezen. De indicator is een rood vak met daarin een plusteken.
 
