@@ -2,18 +2,17 @@
 description: Selector van belichtingskaart. Hiermee geeft u de belichtingsafbeelding op waarmee dit materiaal liever wordt gerenderd.
 solution: Experience Manager
 title: illusie
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: e1af2397-8eae-4b77-abb1-61ba8cb866f3
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
 
-
-# illum{#illum}
+# illusie{#illum}
 
 Selector van belichtingskaart. Hiermee geeft u de belichtingsafbeelding op waarmee dit materiaal liever wordt gerenderd.
 
