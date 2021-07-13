@@ -2,16 +2,15 @@
 description: Afbeelding uitsnijden. Hiermee geeft u een rechthoekig uitsnijdgebied op, uitgedrukt in pixels of genormaliseerd ten opzichte van de bronafbeelding of maskerafbeelding met volledige resolutie.
 solution: Experience Manager
 title: uitsnijden
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: d1ea63c1-95f0-4a4e-b65d-eb535eef0205
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
-
 
 # uitsnijden{#crop}
 
