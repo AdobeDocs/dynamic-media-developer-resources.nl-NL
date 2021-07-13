@@ -2,16 +2,15 @@
 description: De server bewaakt voortdurend de catalogusmap en laadt automatisch een afbeeldingscatalogus, inclusief de bijbehorende bestanden met catalogusgegevens, opnieuw wanneer wordt vastgesteld dat het kenmerkbestand van de hoofdcatalogus is gewijzigd.
 solution: Experience Manager
 title: Afbeeldingscatalogi bijwerken
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: b520b4f3-6717-4768-99e2-78a76d1ede24
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
-
 
 # Afbeeldingscatalogi bijwerken{#updating-image-catalogs}
 
