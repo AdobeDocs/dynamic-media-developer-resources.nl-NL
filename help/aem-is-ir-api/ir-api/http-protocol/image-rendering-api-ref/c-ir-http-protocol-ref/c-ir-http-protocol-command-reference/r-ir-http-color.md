@@ -2,18 +2,17 @@
 description: Voorgrondkleur. Hiermee bepaalt u de kleur van effen kleurstoffen of de additieve kleur voor verkleurbare materialen.
 solution: Experience Manager
 title: kleur
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 6086a7ca-d3cf-4cec-967b-83347293ea0a
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
 
-
-# color{#color}
+# kleur{#color}
 
 Voorgrondkleur. Hiermee bepaalt u de kleur van effen kleurstoffen of de additieve kleur voor verkleurbare materialen.
 
