@@ -2,16 +2,15 @@
 description: Als u een afbeelding wilt bewerken, kunt u referentiepunten gebruiken die vergelijkbaar zijn met kompaspunten.
 solution: Experience Manager
 title: FXG-serverprotocol
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 57d9ba37-819e-455f-9b22-bd7aabffe007
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
-
 
 # FXG-serverprotocol{#fxg-server-protocol}
 
@@ -37,4 +36,3 @@ De standaardwaarde is geen. De waarde `inherit` geeft de waarde `s7:referencePoi
 >Als u een referentiepunt wilt gebruiken en geen verschuiving in het object wilt toepassen nadat het is gemanipuleerd, werkt u de x- en y-waarden van het object bij nadat u het hebt bewerkt.
 
 Wanneer een waarde van `s7:referencePoint` wordt gebruikt met groepen (of wegen, lijnelementen, of om het even welk element dat geen expliciete breedte en hoogtedefinities heeft), is de waarde van toepassing op het cumulatieve bounding vakje van de groep. Het punt linksboven van het selectiekader van alle objecten in de groep fungeert bijvoorbeeld als referentiepunt `northWest` voor de groep; het punt rechtsonder fungeert als referentiepunt `southEast`.
-
