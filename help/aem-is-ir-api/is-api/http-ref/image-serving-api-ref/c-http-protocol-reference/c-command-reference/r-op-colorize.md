@@ -2,16 +2,15 @@
 description: Afbeelding inkleuren. De afbeeldingsgegevens worden ingekleurd met behoud van schaduwen en hooglichten.
 solution: Experience Manager
 title: op_inkleuren
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 1abbde32-867a-4596-a46b-12ec50d59170
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
-
 
 # op_inkleuren{#op-colorize}
 
