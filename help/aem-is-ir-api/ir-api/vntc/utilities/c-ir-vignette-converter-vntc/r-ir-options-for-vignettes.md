@@ -2,16 +2,15 @@
 description: De volgende opties bepalen de verwerking van vignetbestanden. Ze worden genegeerd als sourceFile geen vignet is.
 solution: Experience Manager
 title: Opties voor vignetten
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 7f9c2b43-9264-46a4-9519-64148aebf258
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
-
 
 # Opties voor vignetten{#options-for-vignettes}
 
@@ -59,4 +58,3 @@ De volgende opties bepalen de verwerking van vignetbestanden. Ze worden genegeer
   <td class="stentry"> <p>Een of meer uitvoervignetbreedten in pixels. Genegeerd als <span class="codeph"> -info</span> wordt gespecificeerd. <span class="varname"> De waarde </span> kan 0 zijn, wat de hoogte van het invoervignet aangeeft. Zie <a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585" type="concept" format="dita" scope="local"> Vignetschaling</a> voor gedetailleerde informatie. </p></td> 
  </tr> 
 </table>
-
