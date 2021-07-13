@@ -3,17 +3,16 @@ description: URL-opdracht voor video-viewer.
 solution: Experience Manager
 title: bijschrift
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: a9af3335-ae18-4399-9014-47ec0306a087
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '203'
 ht-degree: 1%
 
 ---
 
-
-# caption{#caption}
+# bijschrift{#caption}
 
 URL-opdracht voor video-viewer.
 
@@ -86,4 +85,3 @@ Geen.
 ```
 caption=Scene7SharedAssets/adobe_qbc_final_cc,1
 ```
-
