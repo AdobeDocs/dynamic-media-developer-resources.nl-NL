@@ -2,18 +2,17 @@
 description: Afbeelding vervagen/eroderen. Past een morfologische dilaat (straal > 0) of erode (straal < 0) op de maskergegevens toe.
 solution: Experience Manager
 title: op_kwekenMasker
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 322d97af-bb1b-44bb-90f1-cda9984b78b5
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
 
-
-# op_growMask{#op-growmask}
+# op_kwekenMasker{#op-growmask}
 
 Afbeelding vervagen/eroderen. Past een morfologische dilaat (straal > 0) of erode (straal &lt; 0) op de maskergegevens toe.
 
