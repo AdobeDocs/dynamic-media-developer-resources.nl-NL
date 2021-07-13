@@ -2,16 +2,15 @@
 description: De volgende velden worden herkend in ICC-kleurprofieltoewijzingsbestanden.
 solution: Experience Manager
 title: ICC-profielkaarten
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 3492f4f3-d93e-4b62-8ff6-ace228e0687e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '45'
 ht-degree: 0%
 
 ---
-
 
 # ICC-profielkaarten{#icc-profile-maps}
 
@@ -27,4 +26,3 @@ De volgende velden worden herkend in ICC-kleurprofieltoewijzingsbestanden.
   <td class="stentry"> <p>ICC-pad naar kleurprofielbestand. </p></td> 
  </tr> 
 </table>
-
