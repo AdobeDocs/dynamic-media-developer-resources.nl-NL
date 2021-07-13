@@ -2,16 +2,15 @@
 description: Miniatuurafbeelding. Verzoekt afbeeldingsgegevens die zijn opgemaakt en gesorteerd aan de hand van de criteria voor catalogusminiaturen.
 solution: Experience Manager
 title: tmb
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 9bdcc1c4-fe2b-4316-a472-07a533f105a0
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '60'
 ht-degree: 0%
 
 ---
-
 
 # tmb{#tmb}
 
