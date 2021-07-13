@@ -3,17 +3,16 @@ description: Met de viewer kunt u de inhoud van de catalogus uitvoeren naar een 
 solution: Experience Manager
 title: Afdrukken, functie
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: eadcc105-4a86-40f7-867a-3b09a5599a41
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
 
-
-# Afdrukfunctie{#print-feature}
+# Afdrukken, functie{#print-feature}
 
 Met de viewer kunt u de inhoud van de catalogus uitvoeren naar een printer.
 
@@ -24,4 +23,3 @@ De kwaliteit van de afdruk kan worden aangepast met de configuratieparameter `pr
 >[!NOTE]
 >
 >De functie Afdrukken is alleen beschikbaar op desktopsystemen, behalve Internet Explorer 9.
-
