@@ -2,18 +2,17 @@
 description: Een proxy van een afbeeldingsserver kan worden gebruikt om het formaat van afbeeldingen voor Japanse telefoons te wijzigen.
 solution: Experience Manager
 title: Proxy afbeeldingsserver
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 0389a4af-a412-42eb-b7b4-716e47d623a0
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
 
-
-# Proxy voor afbeeldingsserver{#image-server-proxy}
+# Proxy afbeeldingsserver{#image-server-proxy}
 
 Een proxy van een afbeeldingsserver kan worden gebruikt om het formaat van afbeeldingen voor Japanse telefoons te wijzigen.
 
@@ -25,7 +24,7 @@ Het url formaat voor de volmacht IS is zeer gelijkaardig aan regelmatige verzoek
 
 `http://<server>/is-proxy/image/sample/chair?qlt=75`
 
-## Proxy-specifieke wijziginglijst {#section-1bff28f9cf5b4e04a31308b06176ee5f}
+## Proxyspecifieke wijzigingenlijst {#section-1bff28f9cf5b4e04a31308b06176ee5f}
 
 <table id="simpletable_40C1DFB183B54A79BCF65D51ED480CE0"> 
  <tr class="strow"> 
