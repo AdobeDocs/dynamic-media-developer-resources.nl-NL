@@ -2,13 +2,12 @@
 description: JavaScript API-referentie voor Video360 Viewer.
 solution: Experience Manager
 title: setContainerId
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
+role: Developer,User
 exl-id: b0145fb0-2b0d-40ce-ac18-029f54bc4050
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '96'
 ht-degree: 0%
 
 ---
