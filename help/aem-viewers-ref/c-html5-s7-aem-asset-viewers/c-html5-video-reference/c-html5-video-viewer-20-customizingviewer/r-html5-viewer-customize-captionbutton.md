@@ -3,17 +3,16 @@ description: Met deze knop schakelt u de weergave van een gesloten bijschrift in
 solution: Experience Manager
 title: Knop Bijschrift
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 47d4a33b-e2bc-4a32-be45-5320d3de1955
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
 
-
-# Bijschriftknop{#caption-button}
+# Knop Bijschrift{#caption-button}
 
 Met deze knop schakelt u de weergave van een gesloten bijschrift in of uit. De eigenschap is niet zichtbaar als de parameter caption niet is opgegeven.
 
@@ -109,4 +108,3 @@ background-image:url(images/v2/ClosedCaptionButton_down.png);
 background-image:url(images/v2/ClosedCaptionButton_disabled.png);  
 }
 ```
-
