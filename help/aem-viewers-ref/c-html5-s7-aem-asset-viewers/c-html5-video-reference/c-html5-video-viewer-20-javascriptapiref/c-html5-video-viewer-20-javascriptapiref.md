@@ -3,15 +3,14 @@ description: De hoofdklasse van de Video-viewer is VideoViewer. Deze wordt gedec
 solution: Experience Manager
 title: JavaScript API-referentie voor Video Viewer
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 9e61b962-cfbe-4c8e-9938-77a197c5f127
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
-
 
 # JavaScript API-referentie voor Video Viewer{#javascript-api-reference-for-video-viewer}
 
