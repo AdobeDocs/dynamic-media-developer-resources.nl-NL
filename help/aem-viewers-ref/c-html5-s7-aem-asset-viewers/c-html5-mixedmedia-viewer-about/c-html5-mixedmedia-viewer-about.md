@@ -4,9 +4,9 @@ keywords: responsief
 solution: Experience Manager
 title: Gemengde media
 feature: Dynamic Media Classic,Viewers,SDK/API,Gemengde mediasets
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 65a54308-f9db-4458-a9c3-ccb1433af43c
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '2662'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 De gemengde Kijker van Media is een media kijker. De klasse biedt ondersteuning voor mediasets die afbeeldingen, stalensets, centrifuges, video&#39;s en adaptieve videosets bevatten.
 
-Een miniatuur onder aan de viewer geeft elk element in de mediaset weer, samen met de aanduiding voor het type element. Wanneer een element in een stalenset is geselecteerd, wordt een tweede rij stalen weergegeven waarmee u kleurvariaties kunt selecteren in de stalenset. Afbeeldingen en stalensetelementen bieden ondersteuning voor zoomen in continue of inline modus. centrifuges ondersteunen zowel zoomen als draaien. Video&#39;s en Adaptieve videosets ondersteunen alle standaardbesturingselementen voor afspelen, mits optionele, gesloten bijschriften boven op de video-inhoud worden weergegeven. Een gebruiker kan op elk gewenst moment overschakelen naar volledig scherm door op de knop Volledig scherm te klikken. De viewer heeft een optionele knop Sluiten. Het is ontworpen voor gebruik op desktops en mobiele apparaten.
+Een miniatuur onder aan de viewer geeft elk element in de mediaset weer, samen met de desbetreffende indicator voor het type element. Wanneer een element in een stalenset is geselecteerd, wordt een tweede rij stalen weergegeven waarmee u kleurvariaties kunt selecteren in de stalenset. Afbeeldingen en stalensetelementen bieden ondersteuning voor zoomen in continue of inline modus. centrifuges ondersteunen zowel zoomen als draaien. Video&#39;s en Adaptieve videosets ondersteunen alle standaardbesturingselementen voor afspelen, mits optionele, gesloten bijschriften boven op de video-inhoud worden weergegeven. Een gebruiker kan op elk gewenst moment overschakelen naar volledig scherm door op de knop Volledig scherm te klikken. De viewer heeft een optionele knop Sluiten. Het is ontworpen voor gebruik op desktops en mobiele apparaten.
 
 De gemengde Kijker van Media gebruikt het stromen HTML5 videoplayback in formaat HLS in zijn standaardconfiguratie wanneer het onderliggende systeem dat steunt. Op systemen die geen ondersteuning bieden voor HTML5-streaming, valt de viewer terug naar progressieve HTML5-video.
 
