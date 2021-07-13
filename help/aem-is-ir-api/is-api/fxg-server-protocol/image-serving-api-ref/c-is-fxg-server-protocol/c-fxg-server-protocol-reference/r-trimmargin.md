@@ -2,16 +2,15 @@
 description: Bijsnijdmarge instellen. Hiermee stelt u de snijmarge in die in het PDF-bestand is ingesteld.
 solution: Experience Manager
 title: trimMargin
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: dc6e31f8-d3be-44d3-8342-a4ef4b3fd61b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '62'
 ht-degree: 0%
 
 ---
-
 
 # trimMargin{#trimmargin}
 
