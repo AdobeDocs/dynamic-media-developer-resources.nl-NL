@@ -2,16 +2,15 @@
 description: Eigenschapsgegevens bestaan uit een tekenreeks die een of meer eigenschappen vertegenwoordigt.
 solution: Experience Manager
 title: Eigenschapsgegevens
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 86278720-ece0-4e67-8fb1-443355f878b7
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
-
 
 # Eigenschapsgegevens{#property-data}
 
