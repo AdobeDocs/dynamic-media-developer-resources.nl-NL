@@ -3,17 +3,16 @@ description: Het gereedschap voor sociaal delen wordt standaard in de linkerbove
 solution: Experience Manager
 title: Sociaal aandeel
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 5cac6c86-08fb-46fd-bab0-ab77154eb770
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
 
-
-# Sociaal delen{#social-share}
+# Sociaal aandeel{#social-share}
 
 Het gereedschap voor sociaal delen wordt standaard in de linkerbovenhoek weergegeven. Het bestaat uit een knop en een deelvenster dat groter wordt wanneer de gebruiker op een knop klikt of tikt en dat afzonderlijke gereedschappen voor delen bevat.
 
@@ -126,4 +125,3 @@ Voorbeeld - een deelvenster instellen om een transparante kleur te krijgen:
  background-color: transparent; 
 }
 ```
-
