@@ -2,18 +2,17 @@
 description: Deze opdrachten zijn niet alleen van toepassing op algemene laagopdrachten, maar ook op tekstlagen.
 solution: Experience Manager
 title: Opdrachten tekstlaag
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: a40b90ca-98c1-4f1f-9825-ff9d57d67bb4
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
 
-
-# Opdrachten voor tekstlagen{#text-layer-commands}
+# Opdrachten tekstlaag{#text-layer-commands}
 
 Deze opdrachten zijn niet alleen van toepassing op algemene laagopdrachten, maar ook op tekstlagen.
 
@@ -51,4 +50,3 @@ Deze opdrachten zijn niet alleen van toepassing op algemene laagopdrachten, maar
   <td class="stentry"> <p>Biedt laagtekst aan de traditionele tekstrenderer. </p></td> 
  </tr> 
 </table>
-
