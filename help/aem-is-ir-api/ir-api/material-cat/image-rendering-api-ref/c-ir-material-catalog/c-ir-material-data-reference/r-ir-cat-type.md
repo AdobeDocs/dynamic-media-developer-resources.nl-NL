@@ -2,16 +2,15 @@
 description: Materiaaltype. Oppervlaktetype van het materiaal. Wordt gebruikt in combinatie met Glanzend effect in catalogus en Ruwheid van catalogus om 3D-reflectie-rendereffecten te beheren.
 solution: Experience Manager
 title: Type
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 912e2535-9980-4174-bca7-f44789eb39b4
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '138'
 ht-degree: 14%
 
 ---
-
 
 # Type{#type}
 
@@ -27,7 +26,7 @@ Enum. Optioneel voor alle materialen. Wordt genegeerd als het vignet geen render
   <td class="stentry"> <p>Onbekend, server gebruikt standaard. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p> </td> 
+  <td class="stentry"> <p>1 </p> </td> 
   <td class="stentry"> <p>Anders. </p> </td> 
  </tr> 
  <tr class="strow"> 
