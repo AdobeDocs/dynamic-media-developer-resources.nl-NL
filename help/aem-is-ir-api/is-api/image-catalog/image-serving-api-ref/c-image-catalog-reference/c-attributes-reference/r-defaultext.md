@@ -2,16 +2,15 @@
 description: Achtervoegsel standaardafbeeldingsbestand. Toegevoegd aan de veldwaarde voor het pad naar de catalogus (of het catalogusmaskerPath) als het pad geen achtervoegsel voor het bestand bevat
 solution: Experience Manager
 title: DefaultExt
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 43b3e5b8-6374-458d-8503-8e04c8c84233
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
-
 
 # DefaultExt{#defaultext}
 
