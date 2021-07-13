@@ -2,16 +2,15 @@
 description: De attributen van de configuratie worden bepaald als attributen direct op een element IMG dat de Responsieve bibliotheek van het Beeld beheert. Elke afbeelding kan een eigen set kenmerken hebben.
 solution: Experience Manager
 title: Command reference - Configuration attributes
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 8cc645f8-03fe-4ac7-b23f-36536b60fdf6
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
-
 
 # Command reference - Configuration attributes{#command-reference-configuration-attributes}
 
@@ -71,7 +70,7 @@ Meerdere opdrachten voor Beeldbewerking of namen van voorinstellingen voor afbee
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360:qlt=50,940:$ResponsiveImage_High$">`
 
-## data-mode {#section-97caf43cf5ab4ca8b1b866d8f394a9a4}
+## gegevensmodus {#section-97caf43cf5ab4ca8b1b866d8f394a9a4}
 
 De volgende twee modi voor slim uitsnijden zijn beschikbaar in AEM 6.4 en hoger en Dynamic Media Viewers 5.9 en hoger:
 
@@ -100,4 +99,3 @@ Het gekoppelde afbeeldingselement verzendt een `s7responsiveViewer`-gebeurtenis 
            } 
         });
 ```
-
