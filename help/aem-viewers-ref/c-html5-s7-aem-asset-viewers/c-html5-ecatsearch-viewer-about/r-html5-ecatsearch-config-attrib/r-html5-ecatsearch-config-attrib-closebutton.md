@@ -3,17 +3,16 @@ description: Knop
 solution: Experience Manager
 title: Knop
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 4f5f84d0-1b5a-4fb3-91ab-44b4542c6ef1
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 3%
+source-wordcount: '49'
+ht-degree: 4%
 
 ---
 
-
-# Knop Sluiten{#closebutton}
+# Knop{#closebutton}
 
 [!DNL `closebutton=0|1`]
 
@@ -39,4 +38,3 @@ Optioneel.
 ```
 closebutton=1
 ```
-
