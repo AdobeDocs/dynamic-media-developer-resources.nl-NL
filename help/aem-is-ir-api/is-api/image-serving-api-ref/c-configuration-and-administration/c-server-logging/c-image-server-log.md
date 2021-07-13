@@ -2,18 +2,17 @@
 description: De server van het Beeld schrijft verslagen aan dit logboekdossier om waarschuwingen en fouten te registreren en een verslag van opstarten en sluitingsgebeurtenissen te houden.
 solution: Experience Manager
 title: Logboek van afbeeldingsserver
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Administrator,User
+exl-id: bf5d1e3c-fed3-4145-8b7a-e85b986df641
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
 
-
-# Logbestand voor afbeeldingsserver{#image-server-log}
+# Logboek van afbeeldingsserver{#image-server-log}
 
 De server van het Beeld schrijft verslagen aan dit logboekdossier om waarschuwingen en fouten te registreren en een verslag van opstarten en sluitingsgebeurtenissen te houden.
 
