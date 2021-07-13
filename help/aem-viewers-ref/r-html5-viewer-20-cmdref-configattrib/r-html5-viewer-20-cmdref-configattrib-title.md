@@ -3,17 +3,16 @@ description: title, opdracht
 solution: Experience Manager
 title: titel
 feature: Dynamic Media Classic,Viewers,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 2aea6b2b-052d-4360-9284-68b8563da6a1
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '45'
 ht-degree: 2%
 
 ---
 
-
-# title{#title}
+# titel{#title}
 
 ` title= *`windowTitle`*`
 
