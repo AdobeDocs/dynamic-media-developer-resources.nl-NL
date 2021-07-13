@@ -3,15 +3,14 @@ description: De positie van de Add knoop van de Favorieten wordt volledig beheer
 solution: Experience Manager
 title: Knop Favoriet toevoegen
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 3602fa7b-d654-4976-a62d-d959898cb530
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
-
 
 # Knop Favoriet toevoegen{#add-favorite-button}
 
@@ -86,4 +85,3 @@ background-image:url(images/v2/AddFavoriteButton_dark_over.png);
 background-image:url(images/v2/AddFavoriteButton_dark_disabled.png); 
 }
 ```
-
