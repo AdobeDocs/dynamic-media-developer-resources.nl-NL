@@ -2,18 +2,17 @@
 description: Laagkleur. Hiermee geeft u de voorgrondkleur en dekking van effen kleuren en effectlagen op en de vulkleur van het tekstvak voor tekstlagen.
 solution: Experience Manager
 title: kleur
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: b937e699-8e1e-4211-86a6-fdc155a0e3ed
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
 
-
-# color{#color}
+# kleur{#color}
 
 Laagkleur. Hiermee geeft u de voorgrondkleur en dekking van effen kleuren en effectlagen op en de vulkleur van het tekstvak voor tekstlagen.
 
