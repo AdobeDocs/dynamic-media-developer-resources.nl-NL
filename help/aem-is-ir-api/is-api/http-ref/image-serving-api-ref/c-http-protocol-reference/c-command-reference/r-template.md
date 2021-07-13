@@ -2,16 +2,15 @@
 description: Samenstellingsjabloon. Hiermee kunt u een samenstellende sjabloon opgeven die zich in een andere catalogus dan de hoofdcatalogus bevindt.
 solution: Experience Manager
 title: template
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 56ebf2a1-f2c3-4b3f-8d0a-9383f1411440
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
-
 
 # template{#template}
 
