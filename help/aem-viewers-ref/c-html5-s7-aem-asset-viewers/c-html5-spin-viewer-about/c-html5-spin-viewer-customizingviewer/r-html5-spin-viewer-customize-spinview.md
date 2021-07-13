@@ -2,16 +2,15 @@
 description: De hoofdweergave bestaat uit de draaiafbeelding.
 solution: Experience Manager
 title: Weergave draaien
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewers,SDK/API,Draaiensets
+role: Developer,User
+exl-id: d3274fe3-1a47-448e-acc6-6df77c6a4211
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---
-
 
 # Weergave draaien{#spin-view}
 
@@ -49,4 +48,3 @@ Voorbeeld - om de hoofdweergave transparant te maken.
  background-color: transparent; 
 }
 ```
-
