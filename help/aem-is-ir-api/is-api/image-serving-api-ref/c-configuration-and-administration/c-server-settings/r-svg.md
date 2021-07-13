@@ -2,16 +2,15 @@
 description: De instellingen in deze sectie hoeven alleen in overweging te worden genomen als SVG-rendering is vereist.
 solution: Experience Manager
 title: SVG
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Administrator,User
+exl-id: 2863cc86-1f79-4db3-bd6f-a42839ef3439
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
-
 
 # SVG{#svg}
 
@@ -29,17 +28,17 @@ De locatie van de SVG-brongegevensbestanden. Kan een of meer absolute bestandspa
 
 Maximale SVG-bronbestandsgrootte in kBytes. De server retourneert een fout wanneer wordt geprobeerd een SVG-bestand te renderen dat groter is dan deze limiet. De standaardwaarde is 1024 kBytes.
 
-## IS::SvgMAxRenderRgnPixels - Limiet SVG-uitvoerafbeelding {#section-5be1fd9639424d878a5ffd11736d3920}
+## IS:SvgMAxRenderRgnPixels - Limiet SVG-uitvoerafbeelding {#section-5be1fd9639424d878a5ffd11736d3920}
 
 Hiermee beperkt u de grootte van afbeeldingen die SVGRender kan produceren. Geheel getal groter dan 0 in miljoenen pixels. Er wordt een fout geretourneerd als een renderbewerking de maximale grootte zou overschrijden. De standaardwaarde is 4.
 
-## PS::svgProvider.port - Poort voor luisteren naar server van Platform {#section-f7e42a96c2dd4523b46f0557c239e659}
+## PS::svgProvider.port - Luisterpoort voor server van Platform {#section-f7e42a96c2dd4523b46f0557c239e659}
 
 De poort die wordt gebruikt voor SvgRender om afbeeldingen op te halen van de server van het Platform die moet worden ingesloten in SVG-renderingen.
 
 Belangrijk voor het correct functioneren van de component SVGRender, moet deze configuratieoptie aan de zelfde waarde zoals `TC::PsPort` worden geplaatst.
 
-## PS::svgProvider.fontRoot - Map SVG Font Files {#section-a8d45b0d68504945b8780f5eac351b0d}
+## PS::svgProvider.fontRoot - Map met SVG-lettertypebestanden {#section-a8d45b0d68504945b8780f5eac351b0d}
 
 Hiermee geeft u aan waar de SvgRender de lettertypebestanden moet zoeken die nodig zijn voor het weergeven van SVG-tekst. doorgaans een van de paden die worden opgegeven in `IS::RootPaths`. De standaardwaarde is [!DNL *[!DNL install_folder]*/images].
 
@@ -50,4 +49,3 @@ Vormt de haven waarop de Server van het Beeld en de component SVGRender communic
 >[!NOTE]
 >
 >Voor een correcte werking van de component SVGRender moet hetzelfde poortnummer worden opgegeven voor `SVG::SVGRender.port` en `IS::SVGTcpPort`.
-
