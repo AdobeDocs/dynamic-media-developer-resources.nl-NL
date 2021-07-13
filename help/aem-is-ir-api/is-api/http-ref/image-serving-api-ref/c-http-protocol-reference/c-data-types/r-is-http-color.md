@@ -2,18 +2,17 @@
 description: Kleurwaarden. U kunt kleurwaarden opgeven met hexadecimale notatie, een door komma's gescheiden lijst met componentwaarden of decimalen.
 solution: Experience Manager
 title: kleur
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: eba88ff0-877d-432e-bbd6-9172f5b460e9
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '436'
 ht-degree: 12%
 
 ---
 
-
-# color{#color}
+# kleur{#color}
 
 Kleurwaarden. U kunt kleurwaarden opgeven met hexadecimale notatie, een door komma&#39;s gescheiden lijst met componentwaarden of decimalen.
 
