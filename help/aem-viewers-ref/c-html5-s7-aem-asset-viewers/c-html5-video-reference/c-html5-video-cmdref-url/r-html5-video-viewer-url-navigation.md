@@ -3,15 +3,14 @@ description: URL-opdracht voor video-viewer.
 solution: Experience Manager
 title: navigatie
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 0b42d354-2ef7-4255-8a71-c9bb9b496afd
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '60'
 ht-degree: 1%
 
 ---
-
 
 # navigatie{#navigation}
 
@@ -43,4 +42,3 @@ Geen.
 ```
 navigation=Scene7SharedAssets/adobe_qbc_final_nc
 ```
-
