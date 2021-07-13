@@ -3,15 +3,14 @@ description: Het deelvenster met zoekresultaten bestaat uit het invoervak voor z
 solution: Experience Manager
 title: Deelvenster Zoekresultaten
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: ffbbc2ae-60da-4c3d-a350-6dbcb64e189d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
-
 
 # Deelvenster Zoekresultaten{#search-results-panel}
 
@@ -396,4 +395,3 @@ Voorbeeld - Een schuifknop van 125 x 35 pixels instellen met een andere illustra
 .s7ecatalogsearchviewer .s7searchpanel .s7scrolldownbutton[state='disabled'] { 
  background-image:url(images/sdk/searchpanel_scroll_down_disabled.png);
 ```
-
