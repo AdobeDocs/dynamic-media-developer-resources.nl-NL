@@ -2,16 +2,15 @@
 description: Vignetbestanden kunnen worden vervangen of verwijderd terwijl de server actief is door de opdracht req=release te gebruiken vlak voordat het bestand wordt overschreven.
 solution: Experience Manager
 title: Brongegevensbestanden verwijderen of vervangen
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Administrator,User
+exl-id: 9daf8534-a844-4f4a-8e99-8dc751acd550
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
-
 
 # Brongegevensbestanden verwijderen of vervangen{#deleting-or-replacing-source-data-files}
 
