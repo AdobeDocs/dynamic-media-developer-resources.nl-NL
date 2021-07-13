@@ -2,16 +2,15 @@
 description: De volgende opties kunnen worden toegepast, ongeacht het type sourceFile.
 solution: Experience Manager
 title: Algemene opties
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 1237aaf7-4585-4240-b227-c34413165dd4
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
-
 
 # Algemene opties{#common-options}
 
@@ -75,4 +74,3 @@ De volgende opties kunnen worden toegepast, ongeacht het type sourceFile.
   <td class="stentry"> <p>Retourneert versiegegevens voor dit hulpprogramma. Geef opties op zonder bestandsnaam en andere opties. </p> </td> 
  </tr> 
 </table>
-
