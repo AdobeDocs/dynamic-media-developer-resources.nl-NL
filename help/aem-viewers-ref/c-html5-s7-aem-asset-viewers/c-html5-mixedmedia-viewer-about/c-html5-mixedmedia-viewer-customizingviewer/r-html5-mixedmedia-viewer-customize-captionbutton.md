@@ -3,9 +3,9 @@ description: Hiermee schakelt u de weergave van het gesloten bijschrift in of ui
 solution: Experience Manager
 title: Knop Bijschrift
 feature: Dynamic Media Classic,Viewers,SDK/API,Gemengde mediasets
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 62809036-f158-402d-a8b2-2b9335e8c079
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
