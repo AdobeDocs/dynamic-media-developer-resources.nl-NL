@@ -2,18 +2,17 @@
 description: De centrifugeindicator wordt bedekt op het hoofdweergavegebied. De afbeelding wordt weergegeven wanneer de voorinstelling van de afbeelding is ingeschakeld en is ook afhankelijk van de parameter iconeffect.
 solution: Experience Manager
 title: Pictogram, effect
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewers,SDK/API,Draaiensets
+role: Developer,User
+exl-id: 1ded69eb-62cd-49da-ab53-124348359a58
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
 
-
-# Pictogrameffect{#icon-effect}
+# Pictogram, effect{#icon-effect}
 
 De centrifugeindicator wordt bedekt op het hoofdweergavegebied. De afbeelding wordt weergegeven wanneer de voorinstelling van de afbeelding is ingeschakeld en is ook afhankelijk van de parameter iconeffect.
 
@@ -70,4 +69,3 @@ background-image: url(images/spinIcon_1D.png);
 background-image: url(images/spinIcon_2D.png); 
 }
 ```
-
