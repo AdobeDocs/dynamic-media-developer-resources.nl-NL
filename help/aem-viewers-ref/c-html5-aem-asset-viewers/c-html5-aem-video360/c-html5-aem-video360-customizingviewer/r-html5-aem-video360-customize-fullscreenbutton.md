@@ -2,13 +2,12 @@
 description: De knop Volledig scherm zorgt ervoor dat de videospeler de modus Volledig scherm opent of sluit wanneer de gebruiker erop klikt.
 solution: Experience Manager
 title: Knop Volledig scherm
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
+role: Developer,User
 exl-id: 0cb2b1bd-154e-41d8-bd9f-69a1cfc72902
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
