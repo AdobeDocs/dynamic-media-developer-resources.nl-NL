@@ -2,16 +2,15 @@
 description: Image Serving ondersteunt het onbeperkt nesten van aanvragen voor beeldweergave, het insluiten van aanvragen voor het renderen van afbeeldingen en het insluiten van afbeeldingen die zijn opgehaald van externe servers. Deze mechanismen worden alleen ondersteund door laagafbeeldingen en laagmaskers.
 solution: Experience Manager
 title: Nesten en insluiten aanvragen
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: b9c9d241-5a3d-4637-a90a-d8cdf29cc968
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
-
 
 # Nesten en insluiten aanvragen{#request-nesting-and-embedding}
 
@@ -21,7 +20,7 @@ Image Serving ondersteunt het onbeperkt nesten van aanvragen voor beeldweergave,
 >
 >Bepaalde e-mailclients en proxyservers kunnen de accolades coderen die worden gebruikt voor de syntaxis voor nesten en insluiten. Toepassingen waarvoor dit een probleem is, moeten haakjes gebruiken in plaats van accolades.
 
-## Aanvragen {#section-6954202119e0466f8ff27c79f4f039c8} voor geneste afbeeldingsserver
+## Aanvragen voor geneste afbeeldingen {#section-6954202119e0466f8ff27c79f4f039c8}
 
 Een volledige aanvraag voor het leveren van een afbeelding kan als een laagbron worden gebruikt door deze op te geven in de opdracht `src=` (of `mask=`) met behulp van de volgende syntaxis:
 
@@ -80,7 +79,7 @@ Ook worden `attribute::MaxPix` en `attribute::DefaultPix` van de materiaalcatalo
 
 Het beeldresultaat van een genest verzoek van AIR kan naar keuze door `cache=on` te omvatten worden in het voorgeheugen ondergebracht. Het in cache plaatsen van tussentijdse gegevens is standaard uitgeschakeld. Caching zou slechts moeten worden toegelaten wanneer het middenbeeld naar verwachting in een verschillend verzoek binnen een redelijke termijn opnieuw zal worden gebruikt. Standaard cachebeheer op de server is van toepassing. Gegevens worden in cache opgeslagen in een indeling zonder gegevensverlies.
 
-## Ingesloten FXG-renderverzoeken {#section-c817e4b4f7da414ea5a51252ca7e120a}
+## Ingesloten FXG-renderaanvragen {#section-c817e4b4f7da414ea5a51252ca7e120a}
 
 Wanneer de FXG grafische renderer (ook bekend als [!DNL AGMServer]) is geïnstalleerd en ingeschakeld met Image Serving, kunnen FXG-aanvragen worden gebruikt als laagbronnen door deze op te geven in `src=` (of `mask=`)-opdrachten. Gebruik de volgende syntaxis:
 
