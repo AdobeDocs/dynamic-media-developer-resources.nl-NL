@@ -3,17 +3,16 @@ description: Het gereedschap E-mail delen bestaat uit een knop die wordt toegevo
 solution: Experience Manager
 title: E-mailshare
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: a879994d-2f26-4fdd-9a51-73644fc033cd
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '3044'
+source-wordcount: '3041'
 ht-degree: 0%
 
 ---
 
-
-# Delen via e-mail{#email-share}
+# E-mailshare{#email-share}
 
 Het gereedschap E-mail delen bestaat uit een knop die wordt toegevoegd aan het deelvenster Sociaal delen en het modale dialoogvenster dat wordt weergegeven wanneer het gereedschap wordt geactiveerd. De positie van de knop wordt volledig beheerd met het gereedschap Sociaal delen.
 
@@ -1477,4 +1476,3 @@ background-image:url(images/sdk/scroll_up_up.png);
  background-image:url(images/sdk/scroll_down_disabled.png); 
 }
 ```
-
