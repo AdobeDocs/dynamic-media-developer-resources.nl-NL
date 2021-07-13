@@ -3,15 +3,14 @@ description: De weergave Favorieten bestaat uit een kolom met miniatuurafbeeldin
 solution: Experience Manager
 title: Weergave Favorieten
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 10536242-1015-49ff-ae27-59671f30d886
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
-
 
 # Weergave Favorieten{#favorites-view}
 
@@ -149,4 +148,3 @@ Voorbeeld - voor het instellen van labels met een Helvetica-lettertype van 14 pi
  font-size: 14px; 
 }
 ```
-
