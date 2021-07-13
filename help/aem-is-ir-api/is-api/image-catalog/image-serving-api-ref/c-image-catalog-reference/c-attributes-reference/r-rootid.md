@@ -2,16 +2,15 @@
 description: Catalogus-id. Het HTTP-padelement dat moet worden gebruikt om deze catalogus aan te duiden in de specificatie voor afbeeldingsobjecten van een aanvraag.
 solution: Experience Manager
 title: RootId
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 9224f06d-28a9-4a23-9a3a-735b2b9f87ff
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
-
 
 # RootId{#rootid}
 
