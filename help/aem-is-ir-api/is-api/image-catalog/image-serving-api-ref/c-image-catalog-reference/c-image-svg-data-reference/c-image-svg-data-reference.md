@@ -2,18 +2,17 @@
 description: Hoewel de afbeeldings- en SVG-gegevens sterk overeenkomen, blijven ze wel behouden in afzonderlijke tabellen in de afbeeldingscatalogus.
 solution: Experience Manager
 title: Afbeelding/SVG-gegevensverwijzing
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: d43bf938-efed-4e9f-ab47-6581f8c587c9
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
 
-
-# Afbeelding/SVG-gegevensreferentie{#image-svg-data-reference}
+# Afbeelding/SVG-gegevensverwijzing{#image-svg-data-reference}
 
 Hoewel de afbeeldings- en SVG-gegevens sterk overeenkomen, blijven ze wel behouden in afzonderlijke tabellen in de afbeeldingscatalogus.
 
