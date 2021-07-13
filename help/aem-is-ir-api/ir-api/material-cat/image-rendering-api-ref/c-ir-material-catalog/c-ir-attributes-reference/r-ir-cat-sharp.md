@@ -2,18 +2,17 @@
 description: Standaardmateriaalverscherping. Hiermee stelt u de standaardmateriaalverscherpingsmodus in voor het geval een bepaalde catalogusrecord geen geldige waarde voor Verscherpen van catalogus bevat.
 solution: Experience Manager
 title: Scherp
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: fe8f7662-bfa1-43bf-ab66-5de5598edcd4
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '95'
 ht-degree: 4%
 
 ---
 
-
-# Sharp{#sharp}
+# Scherp{#sharp}
 
 Standaardmateriaalverscherping. Hiermee stelt u de standaardmateriaalverscherpingsmodus in voor het geval een bepaalde catalogusrecord geen geldige catalogus bevat::Sharp-waarde.
 
