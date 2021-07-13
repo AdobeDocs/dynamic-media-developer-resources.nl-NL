@@ -2,16 +2,15 @@
 description: Kenmerken tekstlaag. Geeft extra kenmerken op voor tekstlagen die niet beschikbaar zijn als rtf-opdrachten.
 solution: Experience Manager
 title: textAttr
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 0c8a3d2a-2524-436a-8bc7-60241af0fd17
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
-
 
 # textAttr{#textattr}
 
