@@ -2,18 +2,17 @@
 description: JavaScript API-naslaggids voor Zoom Viewer.
 solution: Experience Manager
 title: weggooien
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoomen
+role: Developer,User
+exl-id: c796943e-8ea8-4a97-a1ff-09676204150a
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
 
-
-# dispose{#dispose}
+# weggooien{#dispose}
 
 JavaScript API-naslaggids voor Zoom Viewer.
 
@@ -40,4 +39,3 @@ Geen.
 ```
 <instance>.dispose()
 ```
-
