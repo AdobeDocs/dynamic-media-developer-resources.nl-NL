@@ -3,16 +3,15 @@ description: De standaardzoomviewer is een afbeeldingsviewer die één zoombare 
 keywords: responsief
 solution: Experience Manager
 title: Standaardzoom
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoomen
+role: Developer,User
+exl-id: ee15ce21-20c4-428b-9512-050115e4c322
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '2044'
+source-wordcount: '2041'
 ht-degree: 0%
 
 ---
-
 
 # Standaardzoom{#basic-zoom}
 
@@ -30,7 +29,7 @@ Zie [Systeemvereisten en -vereisten](../../c-system-requirements-and-prerequisit
 
 [https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset=Scene7SharedAssets/Backpack_B](https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset=Scene7SharedAssets/Backpack_B)
 
-## De standaardzoomviewer {#section-e6c68406ecdc4de781df182bbd8088b4} gebruiken
+## De standaardzoomviewer gebruiken {#section-e6c68406ecdc4de781df182bbd8088b4}
 
 De Basic Zoom Viewer vertegenwoordigt een hoofd-JavaScript-bestand en een set hulplijnbestanden (één JavaScript-bestand bevat alle SDK-componenten van de viewer die door deze viewer worden gebruikt, elementen, CSS) die de viewers tijdens runtime downloaden.
 
@@ -40,7 +39,7 @@ Configuratie en skins zijn vergelijkbaar met die van de andere viewers. Alle ski
 
 Zie [De verwijzing van het Bevel gemeenschappelijk voor alle kijkers - de attributen van de Configuratie](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) en [De verwijzing van het Bevel gemeenschappelijk voor alle Kijkers - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## Interactie met de standaardzoomviewer {#section-642e66ca38cd4032992840ec6c0b0cd2}
+## Interactie met de Basic Zoom Viewer {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
 De standaardzoomviewer ondersteunt de volgende aanraakbewegingen die ook in andere mobiele toepassingen worden gebruikt.
 
@@ -184,7 +183,7 @@ Het relatieve pad ziet er als volgt uit:
 
 1. De viewer maken en initialiseren.
 
-   Wanneer u de bovenstaande stappen hebt voltooid, maakt u een instantie van de klasse `s7viewers.BasicZoomViewer`, geeft u alle configuratiegegevens door aan de constructor ervan en roept u `init()` methode aan voor een viewerinstantie. De informatie van de configuratie wordt overgegaan tot de aannemer als voorwerp JSON. Dit object moet minstens een ContainerId-veld hebben met de naam van de viewer `container ID` en een genest `params` JSON-object met configuratieparameters die door de viewer worden ondersteund. In dit geval moet voor het `params`-object ten minste de URL van de afbeeldingsserver worden doorgegeven als `serverUrl`-eigenschap en het eerste element als `asset`-parameter. Met de op JSON gebaseerde initialisatie-API kunt u de viewer maken en starten met één coderegel.
+   Wanneer u de bovenstaande stappen hebt voltooid, maakt u een instantie van de klasse `s7viewers.BasicZoomViewer`, geeft u alle configuratiegegevens door aan de constructor ervan en roept u `init()` methode aan voor een viewerinstantie. De informatie van de configuratie wordt overgegaan tot de aannemer als voorwerp JSON. Dit object moet minimaal een ContainerId-veld hebben met de naam van de viewer `container ID` en een genest JSON-object `params` met configuratieparameters die door de viewer worden ondersteund. In dit geval moet voor het `params`-object ten minste de URL van de afbeeldingsserver worden doorgegeven als `serverUrl`-eigenschap en het eerste element als `asset`-parameter. Met de op JSON gebaseerde initialisatie-API kunt u de viewer maken en starten met één coderegel.
 
    Het is belangrijk dat de viewercontainer aan het DOM wordt toegevoegd, zodat de viewercode het containerelement op basis van de id kan vinden. Sommige browsers stellen het samenstellen van DOM tot het einde van de webpagina uit. Voor maximale compatibiliteit roept u de methode `init()` aan vlak voor de afsluitingstag `BODY` of op de hoofdgebeurtenis `onload()`.
 
@@ -389,4 +388,3 @@ basicZoomViewer.init();
 </body> 
 </html>
 ```
-
