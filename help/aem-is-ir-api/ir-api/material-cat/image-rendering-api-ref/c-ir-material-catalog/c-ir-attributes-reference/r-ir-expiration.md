@@ -2,18 +2,17 @@
 description: De standaardtijd voor de clientcache om te live gaan. Verstrekt een standaardvervalinterval voor het geval dat een bepaalde catalogusverslag geen geldige catalogusVervalwaarde of waarde van de Vervaldatum van het vignet bevat, of als een vignetdossier of materiaaldossier direct, eerder dan via een catalogusverslag wordt betreden.
 solution: Experience Manager
 title: Verlopen
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 6d9cca06-f675-4ae4-a187-9cd716e7c554
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
 
-
-# Vervaldatum{#expiration}
+# Verlopen{#expiration}
 
 De standaardtijd voor de clientcache om te live gaan. Verstrekt een standaardvervalinterval voor het geval dat een bepaalde catalogusverslag geen geldige catalogus bevat::Vervaldatum of vignet::De waarde van de Vervalsing, of als een vignetdossier of een materiaaldossier direct, eerder dan via een catalogusverslag wordt betreden.
 
