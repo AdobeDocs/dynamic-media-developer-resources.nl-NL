@@ -2,18 +2,17 @@
 description: Kenmerkbestanden van catalogus kunnen elke naam hebben, maar moeten het achtervoegsel .ini hebben. U kunt ze eenvoudig onderhouden met elke teksteditor.
 solution: Experience Manager
 title: Kenmerkbestanden van Catalog
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 8b5afb99-3201-4e43-93e7-e8998354204f
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
 
-
-# Cataloguskenmerkbestanden{#catalog-attribute-files}
+# Kenmerkbestanden van Catalog{#catalog-attribute-files}
 
 Kenmerkbestanden van catalogus kunnen elke naam hebben, maar moeten het achtervoegsel .ini hebben. U kunt ze eenvoudig onderhouden met elke teksteditor.
 
@@ -37,4 +36,3 @@ Cataloguskenmerkbestanden bestaan uit een set tekstrecords, gescheiden door éé
 * Kenmerknamen kunnen bestaan uit elke combinatie van ASCII-letters, -cijfers en &quot;-&quot;, &quot;_&quot; en &quot;.&quot;
 * Als dezelfde kenmerknaam meerdere keren voorkomt in hetzelfde kenmerkbestand, heeft de laatste aangetroffen naam voorrang.
 * Gebruik &#39;#&#39; als het eerste teken om een record te markeren als een opmerking die de parser negeert.
-
