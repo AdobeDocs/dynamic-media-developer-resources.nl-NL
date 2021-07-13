@@ -2,16 +2,15 @@
 description: Vervangende variabelen worden gebruikt om waarden van verzoekURL naar samenstellende malplaatjes over te brengen die in beeldcatalogi worden opgeslagen. U kunt ook variabelen gebruiken om dezelfde waarde over te brengen naar verschillende plaatsen in een complexe aanvraag.
 solution: Experience Manager
 title: Vervangende variabelen
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 9fd73d16-e8bd-4fdb-a4e6-e86e5d219114
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
-
 
 # Vervangende variabelen{#substitution-variables}
 
@@ -64,7 +63,7 @@ Bovendien worden alle ` $ *`var`*=` definities van url of `catalog::Modifier` do
 
 Ongeacht het nestingsniveau, moet slechts single-pass HTTP-codering op veranderlijke waarden worden toegepast die overal in genestelde het Teruggeven van het Beeld of Beeld dienen verzoeken of hun bijbehorende `catalog::Modifier` koorden moeten worden vervangen.
 
-## Variabele verwerking in ingesloten externe aanvragen {#section-314e39a9aefb46faa737fd137897d1b0}
+## Variabele verwerking in ingesloten externe verzoeken {#section-314e39a9aefb46faa737fd137897d1b0}
 
 ` $ *`Variabelen die ergens binnen de accolades van een ingesloten extern verzoek voorkomen, worden vervangen door overeenkomende waarden voor de definitie van variabelen. `*$` Hierdoor kunnen ingesloten externe verzoeken in een sjabloon in een afbeeldingscatalogus worden geplaatst.
 
