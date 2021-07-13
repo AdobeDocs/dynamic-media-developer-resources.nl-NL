@@ -3,15 +3,14 @@ description: Viewers voor AEM Assets en Dynamic Media Classic
 solution: Experience Manager
 title: Viewers voor AEM Assets en Dynamic Media Classic
 feature: Dynamic Media Classic,Viewers,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 553e9be6-2737-4d78-bbda-87e866003b2e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '58'
 ht-degree: 0%
 
 ---
-
 
 # Viewers voor AEM Assets en Dynamic Media Classic{#viewers-for-aem-assets-and-dynamic-media-classic}
 
