@@ -2,16 +2,15 @@
 description: Gegevensbestanden van catalogi kunnen elke naam en elk achtervoegsel van het bestand hebben (behalve .ini). Ze kunnen eenvoudig worden onderhouden met toepassingen die door tabs gescheiden tekstgegevensbestanden ondersteunen, zoals Microsoft Excel en Access.
 solution: Experience Manager
 title: Catalogusgegevensbestanden
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 4aa20abe-4f84-470b-b5a1-3d9246ab1792
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
-
 
 # Catalogusgegevensbestanden{#catalog-data-files}
 
