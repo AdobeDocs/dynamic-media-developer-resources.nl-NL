@@ -2,16 +2,15 @@
 description: Bij het renderen van afbeeldingen worden materialen toegepast op groepen of objecten in vignetten.
 solution: Experience Manager
 title: Materialen
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 3fe5445e-de85-4f0c-8008-7716226ff966
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
-
 
 # Materialen{#materials}
 
