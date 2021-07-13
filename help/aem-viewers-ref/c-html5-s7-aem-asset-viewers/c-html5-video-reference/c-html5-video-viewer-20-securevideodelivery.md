@@ -3,17 +3,16 @@ description: HTTP-videoboodsing
 solution: Experience Manager
 title: HTTP-videoboodsing
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,User
+exl-id: 33907e22-107b-4345-82bb-cad47cb7a839
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
 
-
-# HTTP-videoverzending{#http-video-delivery}
+# HTTP-videoboodsing{#http-video-delivery}
 
 >[!NOTE]
 >
@@ -59,4 +58,3 @@ Afhankelijk van de methode om de video van Dynamic Media te publiceren die u in 
    ```
 
    Zie ook [De video insluiten op een webpagina](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic).
-
