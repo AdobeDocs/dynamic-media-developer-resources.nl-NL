@@ -2,16 +2,15 @@
 description: Invoerfocusmarkering die wordt weergegeven rond het interface-element met focus, wordt beheerd met de CSS-klassenkiezer.
 solution: Experience Manager
 title: Focus markeren
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Viewers,SDK/API,Draaiensets
+role: Developer,User
+exl-id: dc59e081-97cc-46fe-a8f7-0690833a8290
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
-
 
 # Focus markeren{#focus-highlight}
 
@@ -49,4 +48,3 @@ Voorbeeld - als u de standaardfocusmarkering voor de browser wilt uitschakelen v
  outline: none; 
 }
 ```
-
