@@ -2,16 +2,15 @@
 description: Stelt de opdrachten in van het protocol voor het renderen van afbeeldingen of de service voor het opgegeven element. Met deze opdrachten wijzigt u de weergave van het element zonder dat dit wordt vernietigd.
 solution: Experience Manager
 title: setUrlModifier
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 9e96ffc8-5a38-46b8-9ba8-956c86b32c7a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
-
 
 # setUrlModifier{#seturlmodifier}
 
@@ -19,7 +18,7 @@ Stelt de opdrachten in van het protocol voor het renderen van afbeeldingen of de
 
 Voor Beeldserver worden opdrachten in de parameter `urlModifier` gepubliceerd in het catalogusveld Modifier en toegepast voorafgaand aan de opdrachten die op de aanvraag-URL zijn opgegeven. Opdrachten in `urlPostApplyModifier` worden gepubliceerd naar het catalogusveld `PostModifier` en overschrijven alle opdrachten in de aanvraag-URL of in `urlModifier`. Voor Afbeelding renderen worden de opdrachten in `urlModifier` en `urlPostApplyModifier` samengevoegd en gepubliceerd naar het catalogusveld Modifier.
 
-## Toegestane gebruikerstypen {#section-fefcd732ccf64c78956606538f96c73d}
+## Geautoriseerde gebruikerstypen {#section-fefcd732ccf64c78956606538f96c73d}
 
 * `IpsUser`
 * `IpsAdmin`
