@@ -2,16 +2,15 @@
 description: Hiermee kunnen beheerders nieuwe metagegevensvelden maken voor coördinatie met contentbeheersystemen of voor sjabloonbewerkingen. Voorbeelden van gemaakte metagegevensvelden zijn trefwoorden, informatie over de auteur van de afbeelding of informatie over de copyrighthouder.
 solution: Experience Manager
 title: createMetadataField
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,SDK/API,metagegevens
+role: Developer,Admin
+exl-id: eac7fa54-ebe2-4f42-a478-d9a6fb54d1b6
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
-
 
 # createMetadataField{#createmetadatafield}
 
@@ -19,7 +18,7 @@ Hiermee kunnen beheerders nieuwe metagegevensvelden maken voor coördinatie met 
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-2f61d79f8cac4692bfa53b95035ddd89}
+## Geautoriseerde gebruikerstypen {#section-2f61d79f8cac4692bfa53b95035ddd89}
 
 * `IpsAdmin`
 
@@ -118,4 +117,3 @@ In dit codevoorbeeld wordt het metagegevensveld voor tekenreekstypen met de naam
    <fieldHandle>m|21|IMAGE|createMetadataField</fieldHandle>
 </createMetadataFieldReturn>
 ```
-
