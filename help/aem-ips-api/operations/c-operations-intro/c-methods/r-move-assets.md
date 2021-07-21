@@ -3,15 +3,14 @@ description: Hiermee verplaatst u meerdere elementen onafhankelijk van elkaar. H
 solution: Experience Manager
 title: moveAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: e5bb2188-d262-4324-9f71-68634b6af654
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
-
 
 # moveAssets{#moveassets}
 
@@ -19,7 +18,7 @@ Hiermee verplaatst u meerdere elementen onafhankelijk van elkaar. Hiervoor wordt
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-4166515fd9d8487b8af37465ce61802b}
+## Geautoriseerde gebruikerstypen {#section-4166515fd9d8487b8af37465ce61802b}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -123,4 +122,3 @@ In dit codevoorbeeld worden elementen verplaatst naar een specifieke locatie die
    <errorCount>0</errorCount>
 </moveAssetsReturn>
 ```
-
