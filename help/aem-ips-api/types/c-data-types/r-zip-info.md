@@ -2,16 +2,15 @@
 description: Eigenschappen van een ZIP-archiefelement.
 solution: Experience Manager
 title: ZipInfo
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: a19f0047-3219-4929-a850-93bc5757f004
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '35'
+source-wordcount: '33'
 ht-degree: 0%
 
 ---
-
 
 # ZipInfo{#zipinfo}
 
@@ -26,4 +25,3 @@ Syntaxis
 | `*`originalPath`*` | `xsd:string` | Bestandspad. |
 | `*`originalFile`*` | `xsd:string` | Bestandsnaam. |
 | `*`fileSize`*` | `xsd:int` | Bestandsgrootte. |
-
