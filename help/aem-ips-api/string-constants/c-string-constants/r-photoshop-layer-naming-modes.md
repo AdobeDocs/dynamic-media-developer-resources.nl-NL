@@ -2,18 +2,17 @@
 description: Wordt gebruikt door PhotoshopOptions/layerNaming.
 solution: Experience Manager
 title: Naamgevingsmodi voor Photoshop-lagen
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 9f5d6319-010f-4915-91c0-c90ceba969c0
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '25'
+source-wordcount: '23'
 ht-degree: 0%
 
 ---
 
-
-# Photoshop-laagnaamgevingsmodi{#photoshop-layer-naming-modes}
+# Naamgevingsmodi voor Photoshop-lagen{#photoshop-layer-naming-modes}
 
 Wordt gebruikt door PhotoshopOptions/layerNaming.
 
@@ -25,4 +24,3 @@ Syntaxis
 * [!DNL `AppendNumber`]
 * [!DNL `AppendName`]
 * [!DNL `Folders`]
-
