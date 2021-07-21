@@ -2,16 +2,15 @@
 description: Hiermee stelt u de afbeelding met hyperlinks in voor een element.
 solution: Experience Manager
 title: setImageMaps
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 0c8e6536-0b9c-4fcc-b71f-511afc670089
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
-
 
 # setImageMaps{#setimagemaps}
 
@@ -19,7 +18,7 @@ Hiermee stelt u de afbeelding met hyperlinks in voor een element.
 
 U moet de afbeeldingen met hyperlinks al hebben gemaakt. Afbeeldingen met hyperlinks worden toegepast in volgorde van opvraging uit de array. Dit betekent dat de tweede afbeelding met hyperlinks het eerste bedekt, de derde de tweede, enzovoort.
 
-## Toegestane gebruikerstypen {#section-adb21c5b679249939dd83816e4a0ee97}
+## Geautoriseerde gebruikerstypen {#section-adb21c5b679249939dd83816e4a0ee97}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -72,4 +71,3 @@ In dit codevoorbeeld worden twee afbeeldingen met hyperlinks ingesteld voor een 
    </imageMapArray>
 </setImageMapsParam>
 ```
-
