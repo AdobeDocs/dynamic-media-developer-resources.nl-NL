@@ -2,16 +2,15 @@
 description: Hiermee wordt een gepauzeerde taak opnieuw gestart.
 solution: Experience Manager
 title: resumeJob
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: ba8818ff-3040-463c-80d3-b7cfd1e01f77
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
-
 
 # resumeJob{#resumejob}
 
@@ -19,7 +18,7 @@ Hiermee wordt een gepauzeerde taak opnieuw gestart.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-eab49f4b6d1041179000326a10fee889}
+## Geautoriseerde gebruikerstypen {#section-eab49f4b6d1041179000326a10fee889}
 
 * `IpsUser`
 * `IpsAdmin`
