@@ -2,16 +2,15 @@
 description: Voor het uploaden van elementen via URL.
 solution: Experience Manager
 title: UploadUrl
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: f13fc27c-a91f-4823-8d65-664854af98ae
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '46'
 ht-degree: 0%
 
 ---
-
 
 # UploadUrl{#uploadurl}
 
@@ -25,4 +24,3 @@ Syntaxis
 |---|---|---|
 | `*`sourceUrl`*` | `xsd:string` | De bron-URL waaruit het element wordt geüpload. |
 | `*`destPath`*` | `xsd:string` | Het bestandspad IPS en de naam van het bestand waarnaar u wilt uploaden. |
-
