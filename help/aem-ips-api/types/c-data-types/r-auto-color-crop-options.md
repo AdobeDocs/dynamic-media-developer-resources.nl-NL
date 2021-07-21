@@ -2,16 +2,15 @@
 description: Opties voor het automatisch uitsnijden van afbeeldingen op basis van kleur.
 solution: Experience Manager
 title: AutoColorCropOptions
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 29d3dcfe-fddb-4806-b2aa-b96e9bbcff98
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '52'
 ht-degree: 0%
 
 ---
-
 
 # AutoColorCropOptions{#autocolorcropoptions}
 
@@ -46,4 +45,3 @@ Syntaxis
   </tr> 
  </tbody> 
 </table>
-
