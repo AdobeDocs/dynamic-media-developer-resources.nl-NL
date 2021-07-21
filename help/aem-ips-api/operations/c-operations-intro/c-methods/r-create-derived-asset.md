@@ -3,15 +3,14 @@ description: Hiermee maakt u een nieuw element dat is afgeleid van een bestaand 
 solution: Experience Manager
 title: createDerivedAsset
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Admin
+exl-id: a3b20a8a-ed0d-40be-9a8c-41ba09b1d724
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
-
 
 # createDerivedAsset{#createderivedasset}
 
@@ -25,7 +24,7 @@ Afgeleide activa specificeren het protocolbevelen van de Server van het Beeld di
 
 In tegenstelling tot een afbeeldingskopie (zie [copyImage](../../../operations/c-operations-intro/c-methods/r-copy-image.md#reference-0785131e690b4ad08be69172023f35d0)), wordt een afgeleide afbeelding gekoppeld aan de eigen afbeelding. Door wijzigingen in de afbeelding van de eigenaar worden gekoppelde afgeleide elementen gewijzigd. Als u de afbeelding van de eigenaar verwijdert, worden alle gekoppelde afgeleide afbeeldingen verwijderd.
 
-## Toegestane gebruikerstypen {#authorized-user-types}
+## Geautoriseerde gebruikerstypen {#authorized-user-types}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -79,4 +78,3 @@ De voorbeeldcode maakt een afgeleid element met een aangepaste weergave en `urlM
    <assetHandle>a|944|10|2</assetHandle>
 </createDerivedAssetReturn>
 ```
-
