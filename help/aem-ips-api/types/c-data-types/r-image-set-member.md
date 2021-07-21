@@ -2,16 +2,15 @@
 description: Elementen die bij een afbeeldingsset horen.
 solution: Experience Manager
 title: ImageSetMember
-feature: Dynamic Media Classic,SDK/API,Image Sets
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Afbeeldingssets
+role: Developer,Admin
+exl-id: f0857d98-be79-40a6-8a84-c2c7b4c423c5
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '76'
 ht-degree: 0%
 
 ---
-
 
 # ImageSetMember{#imagesetmember}
 
@@ -25,4 +24,3 @@ Pagina opnieuw instellen betekent dat een [!DNL eCatalog] een nieuwe pagina moet
 |---|---|---|
 | `*`element`*` | `type:Asset` | Elementen in de array met afbeeldingssets. |
 | `*`pageReset`*` | `xsd:boolean` | Hiermee wordt een nieuwe pagina gestart. Instelling wordt genegeerd en waarde wordt geforceerd naar `true` voor `eCatalog`- en `RenderSet`-sets. |
-
