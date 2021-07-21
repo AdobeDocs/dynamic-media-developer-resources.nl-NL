@@ -3,15 +3,14 @@ description: Plaatst de toestemmingen van één enkel middel door een toestemmin
 solution: Experience Manager
 title: setAssetPermissions
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 1e73c305-cda5-4c30-9380-ec4cd8309933
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
-
 
 # setAssetPermissions{#setassetpermissions}
 
@@ -19,7 +18,7 @@ Plaatst de toestemmingen van één enkel middel door een toestemmingsactiva te g
 
 Elementen nemen standaard de machtigingen van hun bovenliggende map over. Zodra u toestemmingen op een activa plaatst, erft het niet meer de toestemmingen van zijn ouder tenzij u `removeAssetPermissions` roept.
 
-## Toegestane gebruikerstypen {#section-91fafc170c734ed2a77beafda9221768}
+## Geautoriseerde gebruikerstypen {#section-91fafc170c734ed2a77beafda9221768}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
