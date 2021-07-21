@@ -2,16 +2,15 @@
 description: Controleert of een gebruiker met een specifiek bedrijf (geïdentificeerd door greep), e-mailadres, en wachtwoord zich kan aanmelden.
 solution: Experience Manager
 title: checkLogin
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 1f96f376-574c-464b-9c89-c215f6454b81
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
-
 
 # checkLogin{#checklogin}
 
@@ -21,7 +20,7 @@ Controleert of een gebruiker met een specifiek bedrijf (geïdentificeerd door gr
 >
 >Als het bedrijfshandvat wordt weggelaten, controleert deze methode login van de standaardgebruiker.
 
-## Toegestane gebruikerstypen {#section-df8b26b550854f899948276adaca083a}
+## Geautoriseerde gebruikerstypen {#section-df8b26b550854f899948276adaca083a}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -70,4 +69,3 @@ Deze steekproefcode gebruikt een parameter van het bedrijfshandvat, e-mailadres,
    <ns1:status>InvalidLogin</ns1:status>
 </ns1:checkLoginReturn>
 ```
-
