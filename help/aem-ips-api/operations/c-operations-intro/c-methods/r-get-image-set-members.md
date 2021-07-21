@@ -2,24 +2,23 @@
 description: Hiermee wordt een array met leden opgehaald die zich in een afbeeldingsset bevinden.
 solution: Experience Manager
 title: getImageSetMember
-feature: Dynamic Media Classic,SDK/API,Image Sets
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Afbeeldingssets
+role: Developer,Admin
+exl-id: 29ceef8b-127f-4460-8623-c3e26c959327
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
 
-
-# getImageSetmembers{#getimagesetmembers}
+# getImageSetMember{#getimagesetmembers}
 
 Hiermee wordt een array met leden opgehaald die zich in een afbeeldingsset bevinden.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-eaa3a167fa77403ea1b374b05fff4ded}
+## Geautoriseerde gebruikerstypen {#section-eaa3a167fa77403ea1b374b05fff4ded}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -69,4 +68,3 @@ Dit codevoorbeeld retourneert specifieke leden van een afbeeldingsset. De reacti
    <memberArray></memberArray>
 </getImageSetMembersReturn>
 ```
-
