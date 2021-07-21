@@ -2,16 +2,15 @@
 description: Hiermee maakt u een afbeeldingsindeling.
 solution: Experience Manager
 title: saveImageFormat
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: cafbd715-237b-4454-920e-643f0c84e208
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
-
 
 # saveImageFormat{#saveimageformat}
 
@@ -21,7 +20,7 @@ Hiermee maakt u een afbeeldingsindeling.
 >
 >De veldwaarde `urlModifier` moet uit geldige XML bestaan. Wijzig bijvoorbeeld `&` in `&`. Krijg de `urlModfier` waarde van het IPS gebruikersinterface.
 
-## Toegestane gebruikerstypen {#section-12c9d8d5933f4692bafb194060b4f882}
+## Geautoriseerde gebruikerstypen {#section-12c9d8d5933f4692bafb194060b4f882}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -68,4 +67,3 @@ In dit codevoorbeeld wordt een afbeeldingsindeling gemaakt. In dit voorbeeld wer
    <imageFormatHandle>47|301</imageFormatHandle> 
 </saveImageFormatReturn>
 ```
-
