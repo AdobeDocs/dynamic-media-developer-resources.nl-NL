@@ -2,16 +2,15 @@
 description: Voegt een gebruiker aan een serie van groepen toe.
 solution: Experience Manager
 title: addGroupMembership
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: c5b5e155-d285-4304-98bc-1d938793e2c0
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
-
 
 # addGroupMembership{#addgroupmembership}
 
@@ -19,7 +18,7 @@ Voegt een gebruiker aan een serie van groepen toe.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-fe950150718a474d8df30d0f4453c022}
+## Geautoriseerde gebruikerstypen {#section-fe950150718a474d8df30d0f4453c022}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
