@@ -3,15 +3,14 @@ description: Zoekresultaten met metagegevens die samengevatte informatie over ee
 solution: Experience Manager
 title: AssetSummary
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 25f16a2b-6cd8-485f-a6bd-2a9bc9b3243b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '129'
 ht-degree: 2%
 
 ---
-
 
 # AssetSummary{#assetsummary}
 
@@ -35,4 +34,3 @@ Syntaxis
 | `*`metadataArray`*` | `types:MetadataArray` | Array met metagegevenswaarden die aan het element zijn gekoppeld. |
 | `*`score`*` | `xsd:double` | Definieert de precisie in het geval van een gelijkenis zoekopdracht (0 = geen overeenkomst, 1 = exacte overeenkomst). |
 | `*`scoreDetail`*` | `xsd:string` | Bevat gedetailleerde informatie over gelijkaardige gebieden als resultaat van een gelijkenis onderzoek. |
-
