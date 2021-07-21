@@ -2,16 +2,15 @@
 description: Verwijdert een project van een bedrijf. De verbindingen tussen de activa en het project zijn gebroken, maar de activa worden niet geschrapt van IPS.
 solution: Experience Manager
 title: deleteProject
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: b42be3ef-c935-4548-8f92-4fc33af321b5
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
-
 
 # deleteProject{#deleteproject}
 
@@ -19,7 +18,7 @@ Verwijdert een project van een bedrijf. De verbindingen tussen de activa en het 
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-d8a70e23c68d426e9af1357b978ae2f0}
+## Geautoriseerde gebruikerstypen {#section-d8a70e23c68d426e9af1357b978ae2f0}
 
 * `IpsUser`
 * `IpsAdmin`
