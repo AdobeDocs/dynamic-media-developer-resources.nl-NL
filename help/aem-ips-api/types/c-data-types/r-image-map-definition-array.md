@@ -2,16 +2,15 @@
 description: Een array met definities van afbeeldingen met hyperlinks.
 solution: Experience Manager
 title: ImageMapDefinitionArray
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 6c1bc0b4-6e81-421c-956b-2394f32350be
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '32'
+source-wordcount: '30'
 ht-degree: 0%
 
 ---
-
 
 # ImageMapDefinitionArray{#imagemapdefinitionarray}
 
@@ -24,4 +23,3 @@ Syntaxis
 | Naam | Type | Beschrijving |
 |---|---|---|
 | `*`items`*` | `types:ImageMapDefinition` | Array met definities van afbeeldingen met hyperlinks. |
-
