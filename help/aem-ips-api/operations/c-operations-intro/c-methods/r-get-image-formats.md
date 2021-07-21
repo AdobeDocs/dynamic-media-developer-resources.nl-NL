@@ -2,16 +2,15 @@
 description: Retourneert afbeeldingsindelingen, zoals PDF, EPS, SWF en andere.
 solution: Experience Manager
 title: getImageFormats
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: c2fa4cdd-fb4f-4e6a-8197-8f64c986c3a0
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
-
 
 # getImageFormats{#getimageformats}
 
@@ -19,7 +18,7 @@ Retourneert afbeeldingsindelingen, zoals PDF, EPS, SWF en andere.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-6a386ad8641b4aa1a281600fc94fd3f6}
+## Geautoriseerde gebruikerstypen {#section-6a386ad8641b4aa1a281600fc94fd3f6}
 
 * `IpsUser`
 * `IspAdmin`
@@ -62,4 +61,3 @@ Dit codevoorbeeld keert alle beeldformaten voor het gespecificeerde bedrijf teru
    <imageFormatArray></imageFormatArray>
 </getImageFormatsReturn>
 ```
-
