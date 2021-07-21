@@ -3,15 +3,14 @@ description: Wijzigt de naam van een map.
 solution: Experience Manager
 title: renameFolder
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 2d4f1059-8018-4efb-a1ec-8eb560b1a58f
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '82'
 ht-degree: 0%
 
 ---
-
 
 # renameFolder{#renamefolder}
 
@@ -19,7 +18,7 @@ Wijzigt de naam van een map.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-5a252b00937d4befbec76fa23fbae9df}
+## Geautoriseerde gebruikerstypen {#section-5a252b00937d4befbec76fa23fbae9df}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -69,4 +68,3 @@ In dit codevoorbeeld wordt de naam van een map gewijzigd.
    <folderHandle>MyCompany/My Newly Renamed PDF Folder/</folderHandle>
 </renameFolderReturn>
 ```
-
