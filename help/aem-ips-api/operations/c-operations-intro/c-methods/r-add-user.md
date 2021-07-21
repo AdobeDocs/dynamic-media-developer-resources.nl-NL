@@ -2,16 +2,15 @@
 description: Maakt een gebruikersaccount en voegt die account toe aan een of meer bedrijven.
 solution: Experience Manager
 title: addUser
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: aed39e73-f528-4c26-8f62-c3d796e9101a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
-
 
 # addUser{#adduser}
 
@@ -19,7 +18,7 @@ Maakt een gebruikersaccount en voegt die account toe aan een of meer bedrijven.
 
 Wanneer het toevoegen van een gebruiker aan veelvoudige bedrijven, specificeer die bedrijven door hun bedrijfshandvatten in `companyHandleArray`. Deze bewerking retourneert de greep naar de gebruiker die u zojuist hebt toegevoegd.
 
-## Toegestane gebruikerstypen {#section-126ad42f844444fea11ecf8ad01fe1ec}
+## Geautoriseerde gebruikerstypen {#section-126ad42f844444fea11ecf8ad01fe1ec}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -74,4 +73,3 @@ De IPS API keert een gebruikershandvatelement terug dat de nieuwe gebruiker spec
    <ns1:userHandle>525s|juser@scene7.com</ns1:userHandle>
 </ns1:addUserReturn>
 ```
-
