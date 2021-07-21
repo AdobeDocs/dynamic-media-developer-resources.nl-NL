@@ -2,16 +2,15 @@
 description: Hiermee bepaalt u welk genereringsengine en gegenereerd elementtype u wilt uitsluiten van zoekresultaten.
 solution: Experience Manager
 title: ExcludeByproductCondition
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 5b37e01b-9e9c-4d34-9d39-1f9bfe356e53
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '63'
 ht-degree: 0%
 
 ---
-
 
 # ExcludeByproductCondition{#excludebyproductcondition}
 
@@ -25,4 +24,3 @@ Syntaxis
 |---|---|---|
 | `*`motor`*` | `xsd:string` | De generatieengine die elementen heeft gemaakt die u wilt uitsluiten. Zie Generatie-info voor waarden. |
 | `*`generatedAssetType`*` | `xsd:string` | Uitgesloten elementtype. Zie Elementen voor waarden. |
-
