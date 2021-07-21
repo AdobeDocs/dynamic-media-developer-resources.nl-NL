@@ -2,16 +2,15 @@
 description: Hiermee worden alle configuratie-instellingen voor de viewer opgehaald die aan het opgegeven element zijn gekoppeld.
 solution: Experience Manager
 title: getViewerConfigSettings
-feature: Dynamic Media Classic,SDK/API,Viewer Presets
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Viewer-voorinstellingen
+role: Developer,Admin
+exl-id: c0438238-8aab-4478-926a-fc0e11732fc1
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
-
 
 # getViewerConfigSettings{#getviewerconfigsettings}
 
@@ -19,7 +18,7 @@ Hiermee worden alle configuratie-instellingen voor de viewer opgehaald die aan h
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-05c3ea8f7d2d42c6bf7af63e03f457a9}
+## Geautoriseerde gebruikerstypen {#section-05c3ea8f7d2d42c6bf7af63e03f457a9}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -41,4 +40,3 @@ Syntaxis
 |---|---|---|---|
 | `*`type`*` | `xsd:string` | Ja | Viewer type waarop de configuratie-instellingen van toepassing zijn. |
 | `*`configSettingsArray`*` | `types:ConfigSettingsArray` | Ja | Array met viewerconfiguratie-instellingen. |
-
