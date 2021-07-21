@@ -2,22 +2,21 @@
 description: Hiermee werkt u de instellingen voor de vignetpublicatie-indeling bij.
 solution: Experience Manager
 title: updateVignetPublishFormat
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 7f199ed4-375f-4451-b66a-e50bcd55bf23
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
-
 
 # updateVignetPublishFormat{#updatevignettepublishformat}
 
 Hiermee werkt u de instellingen voor de vignetpublicatie-indeling bij.
 
-## Toegestane gebruikerstypen {#section-2f2ad136d2884dc9bfef6da008196ed0}
+## Geautoriseerde gebruikerstypen {#section-2f2ad136d2884dc9bfef6da008196ed0}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -81,4 +80,3 @@ In dit codevoorbeeld wordt een vignetpublicatie-indeling bijgewerkt en wordt de 
    <vignetteFormatHandle>v|21|283</vignetteFormatHandle>
 </updateVignettePublishFormatReturn>
 ```
-
