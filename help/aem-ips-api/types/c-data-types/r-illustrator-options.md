@@ -2,16 +2,15 @@
 description: Opties voor een Adobe Illustrator-bestand.
 solution: Experience Manager
 title: IllustratorOptions
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: f6c06fe3-5dfa-4885-9083-c6c41ae0e0ea
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '64'
 ht-degree: 0%
 
 ---
-
 
 # IllustratorOptions{#illustratoroptions}
 
@@ -27,4 +26,3 @@ Syntaxis
 | `*`resolutie`*` | `xsd:string` | Bestandsresolutie. |
 | `*`colorSpace`*` | `xsd:string` | Doelkleurruimte. |
 | `*`alpha`*` | `xsd:boolean` | Of het bestand in een afbeelding moet worden omgezet in pixels. Als dat het geval is, maakt u een transparante achtergrond als het oorspronkelijke bestand op deze manier is gedefinieerd voor het maken van bedekkende logo&#39;s. |
-
