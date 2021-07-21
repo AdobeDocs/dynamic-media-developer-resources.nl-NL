@@ -2,16 +2,15 @@
 description: Stelt metagegevenswaarden in voor een specifiek element dat wordt gebruikt met setAssetMetadata. Beschrijft de veranderingen u aan meta-gegevens wilt aanbrengen.
 solution: Experience Manager
 title: MetadataUpdate
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,metagegevens
+role: Developer,Admin
+exl-id: 99dc1f0c-c4c4-433e-9b91-fa39ef6f84d7
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
-
 
 # MetadataUpdate{#metadataupdate}
 
@@ -87,4 +86,3 @@ Stelt metagegevenswaarden in voor een specifiek element dat wordt gebruikt met s
   </tr> 
  </tbody> 
 </table>
-
