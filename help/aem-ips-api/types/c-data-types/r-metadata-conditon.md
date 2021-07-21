@@ -2,16 +2,15 @@
 description: Voegt een zoekterm toe voor gebruik met searchAssets.
 solution: Experience Manager
 title: MetadataCondition
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,metagegevens
+role: Developer,Admin
+exl-id: 9226fb81-b3ff-41e4-a3cd-d5a40f359be6
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
-
 
 # MetadataCondition{#metadatacondition}
 
@@ -102,4 +101,3 @@ Syntaxis
   </tr> 
  </tbody> 
 </table>
-
