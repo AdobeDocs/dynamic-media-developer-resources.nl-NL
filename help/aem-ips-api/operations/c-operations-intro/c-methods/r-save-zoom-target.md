@@ -2,16 +2,15 @@
 description: Maak of bewerk een zoomdoel.
 solution: Experience Manager
 title: saveZoomTarget
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 595fd5c8-4e98-4c1a-b396-c8e170aaf454
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '129'
 ht-degree: 1%
 
 ---
-
 
 # saveZoomTarget{#savezoomtarget}
 
@@ -19,7 +18,7 @@ Maak of bewerk een zoomdoel.
 
 Syntaxis
 
-## Geautoriseerd gebruikerstype {#section-823cd9f0557045bca51da66768b5ba74}
+## Type geautoriseerde gebruiker {#section-823cd9f0557045bca51da66768b5ba74}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -76,4 +75,3 @@ In dit codevoorbeeld wordt een zoomdoel opgeslagen. De reactie retourneert de zo
    <zoomTargetHandle>34194|9|301</zoomTargetHandle>
 </saveZoomTargetReturn>
 ```
-
