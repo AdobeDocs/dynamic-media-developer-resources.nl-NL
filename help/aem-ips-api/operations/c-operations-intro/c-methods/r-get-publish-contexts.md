@@ -2,22 +2,21 @@
 description: getPublishContext
 solution: Experience Manager
 title: getPublishContext
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 7b26e659-71b9-40c4-9df4-94e78c3e4baf
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
-
 
 # getPublishContext{#getpublishcontexts}
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-1a3a50349b5640dd8e498ff9e9c37340}
+## Geautoriseerde gebruikerstypen {#section-1a3a50349b5640dd8e498ff9e9c37340}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -117,4 +116,3 @@ Syntaxis
   </publishContextArray>
 </getPublishContextsReturn>
 ```
-
