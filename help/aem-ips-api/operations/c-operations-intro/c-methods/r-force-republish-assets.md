@@ -2,16 +2,15 @@
 description: Hiermee herstelt u de publicatiestatus voor een of meer elementen zodat het element opnieuw moet worden gepubliceerd in de volgende publicatietaak.
 solution: Experience Manager
 title: forceRepublishAssets
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 4c75af38-4791-4f21-8d1b-4855fcdfd4b1
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
-
 
 # forceRepublishAssets{#forcerepublishassets}
 
@@ -19,7 +18,7 @@ Hiermee herstelt u de publicatiestatus voor een of meer elementen zodat het elem
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-3d5a3e3afea748d69845de5c8c376448}
+## Geautoriseerde gebruikerstypen {#section-3d5a3e3afea748d69845de5c8c376448}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -89,4 +88,3 @@ Syntaxis
   </tr> 
  </tbody> 
 </table>
-
