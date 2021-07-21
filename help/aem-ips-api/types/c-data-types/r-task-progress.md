@@ -2,16 +2,15 @@
 description: Informatie over taakvoortgang.
 solution: Experience Manager
 title: TaskProgress
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 35e3be1e-ccc2-460c-98c1-bbefab1df699
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
-
 
 # TaskProgress{#taskprogress}
 
@@ -85,4 +84,3 @@ Syntaxis
   </tr> 
  </tbody> 
 </table>
-
