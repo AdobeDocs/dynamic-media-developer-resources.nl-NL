@@ -2,16 +2,15 @@
 description: Deze nieuwe of gewijzigde bewerkingen en gegevenstypen die beschikbaar zijn in de bètaversie van WSDL, mogen niet worden gebruikt buiten Dynamic Media-toepassingen.
 solution: Experience Manager
 title: Beperkt gebruik
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 6602c5bc-9f75-4885-ae14-cab14e6afa5e
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
-
 
 # Beperkt gebruik{#restricted-use}
 
@@ -107,4 +106,3 @@ Deze bewerkingen en typen zijn onderhevig aan uitschakelen, wijzigen of vervange
 * `setImageRenderingPublishSettings` gewijzigd om een optionele `contextHandle`parameter op te nemen
 
 * Gewijzigd `submitJob` om een optioneel `createVideoSitemap` taaktype op te nemen
-
