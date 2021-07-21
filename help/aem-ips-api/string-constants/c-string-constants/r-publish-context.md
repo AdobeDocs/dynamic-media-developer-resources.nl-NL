@@ -2,18 +2,17 @@
 description: Wordt gebruikt door getActivePublishContextReturn/publishContext.
 solution: Experience Manager
 title: Context publiceren
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 2eaa6771-18e9-4758-bfa9-23cce278bee7
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '21'
+source-wordcount: '19'
 ht-degree: 0%
 
 ---
 
-
-# Context{#publish-context} publiceren
+# Context publiceren{#publish-context}
 
 Wordt gebruikt door getActivePublishContextReturn/publishContext.
 
@@ -25,4 +24,3 @@ Syntaxis
 * [!DNL `ImageRendering`]
 * [!DNL `Video`]
 * [!DNL `ServerDirectory`]
-
