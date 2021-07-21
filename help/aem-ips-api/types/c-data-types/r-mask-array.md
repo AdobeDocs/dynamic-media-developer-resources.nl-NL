@@ -2,16 +2,15 @@
 description: Een array met maskers.
 solution: Experience Manager
 title: MaskArray
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: a0539a30-051c-4442-abae-99588bdfff10
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '26'
+source-wordcount: '24'
 ht-degree: 0%
 
 ---
-
 
 # MaskArray{#maskarray}
 
@@ -24,4 +23,3 @@ Syntaxis
 | Naam | Type | Beschrijving |
 |---|---|---|
 | `*`items`*` | `types:Mask` | Array met maskers. |
-
