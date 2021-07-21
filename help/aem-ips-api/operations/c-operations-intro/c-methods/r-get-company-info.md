@@ -2,16 +2,15 @@
 description: Hiermee wordt informatie over het opgegeven bedrijf geretourneerd, inclusief de greep van het bedrijf, de naam van het bedrijf, het hoofdpad en de vervaldatum. U moet of companyHandle of companyName specificeren waarvan informatie u wilt terugwinnen.
 solution: Experience Manager
 title: getCompanyInfo
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 72bd223b-c99a-48a3-9c0a-d1af392d904c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
-
 
 # getCompanyInfo{#getcompanyinfo}
 
@@ -19,7 +18,7 @@ Hiermee wordt informatie over het opgegeven bedrijf geretourneerd, inclusief de 
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-74f20fb8602e4f96810795bc4b6f7fdf}
+## Geautoriseerde gebruikerstypen {#section-74f20fb8602e4f96810795bc4b6f7fdf}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -104,4 +103,3 @@ Deze codesteekproef keert alle informatie over een bedrijf door een bedrijfsnaam
    </ns1:companyInfo>
 </ns1:getCompanyInfoReturn>
 ```
-
