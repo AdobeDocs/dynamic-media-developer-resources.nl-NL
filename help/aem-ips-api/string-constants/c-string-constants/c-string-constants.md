@@ -2,16 +2,15 @@
 description: Tekenreeksconstanten
 solution: Experience Manager
 title: Tekenreeksconstanten
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 06c381f6-5896-4d9b-b6f4-a907b3774d08
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
-
 
 # Tekenreeksconstanten{#string-constants}
 
