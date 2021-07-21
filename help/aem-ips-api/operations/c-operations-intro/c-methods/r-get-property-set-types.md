@@ -2,16 +2,15 @@
 description: Haalt de types van bezitsreeks verbonden aan het gespecificeerde bedrijf, of globale bezitsvastgestelde types op als geen bedrijf wordt gespecificeerd.
 solution: Experience Manager
 title: getPropertySetTypes
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 7686d30b-e071-4950-8af1-4dd25312ce4b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
-
 
 # getPropertySetTypes{#getpropertysettypes}
 
@@ -19,7 +18,7 @@ Haalt de types van bezitsreeks verbonden aan het gespecificeerde bedrijf, of glo
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-9c7c0d2cd2c94dfca3f96774b3a9a2c6}
+## Geautoriseerde gebruikerstypen {#section-9c7c0d2cd2c94dfca3f96774b3a9a2c6}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -92,4 +91,3 @@ Syntaxis
   </typeArray>
 </getPropertySetTypesReturn>
 ```
-
