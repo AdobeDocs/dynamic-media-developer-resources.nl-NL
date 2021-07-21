@@ -3,15 +3,14 @@ description: Stel een nieuwe set publicatiestatmarkeringen in voor de publicatie
 solution: Experience Manager
 title: AssetContextStateUpdate
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: ecbadafc-e77d-4c7e-a3d5-31c2b2a9b2ea
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '68'
 ht-degree: 0%
 
 ---
-
 
 # AssetContextStateUpdate{#assetcontextstateupdate}
 
@@ -23,4 +22,3 @@ Stel een nieuwe set publicatiestatmarkeringen in voor de publicatiecontext die a
 |---|---|---|
 | `*`assetHandle`*` | `xsd:string` | Verwerk het element dat u wilt bijwerken. |
 | `*`contextStateUpdateArray`*` | `types:ContextStateUpdateArray` | Een array met statussen van publicatiecontactpersonen voor het element dat u wilt bijwerken. |
-
