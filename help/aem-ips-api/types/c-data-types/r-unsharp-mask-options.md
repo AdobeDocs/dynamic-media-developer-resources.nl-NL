@@ -3,15 +3,14 @@ description: Instellingen die de scherpte van afbeeldingen voor geoptimaliseerde
 solution: Experience Manager
 title: UnsharpMaskOptions
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 7150b4a8-a44d-4858-96f2-6004d5f48e77
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
-
 
 # UnsharpMaskOptions{#unsharpmaskoptions}
 
@@ -82,7 +81,7 @@ Geef een waarde op voor `unsharpMaskOptions`-opties met `minOccurs=" *`n`*".`
     </complexType>
 ```
 
-## Wordt gebruikt door {#section-db8124a5468b498694a780f8a56a4560}
+## Gebruikt door {#section-db8124a5468b498694a780f8a56a4560}
 
 Het type `unsharpMaskOptions` wordt gebruikt door:
 
