@@ -2,16 +2,15 @@
 description: Gebruikt getActiveJobs om bureaubladuploads bij te houden.
 solution: Experience Manager
 title: UploadPostJob
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 60163016-fe96-4ac2-9208-da8192042d0f
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
-
 
 # UploadPostJob{#uploadpostjob}
 
@@ -175,4 +174,3 @@ Zie ook [Elementen uploaden via HTTP POST&#39;s naar Upload..](../../c-http-post
   </tr> 
  </tbody> 
 </table>
-
