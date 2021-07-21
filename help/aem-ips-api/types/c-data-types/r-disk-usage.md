@@ -2,16 +2,15 @@
 description: Statistieken over schijfruimte voor een middel of map.
 solution: Experience Manager
 title: Schijfgebruik
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: a3c4c1cd-0fcc-4e7a-a4aa-884d0ce2f208
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---
-
 
 # Schijfgebruik{#diskusage}
 
@@ -28,4 +27,3 @@ Syntaxis
 | `*`imageCount`*` | `xsd:int` | Aantal opgeslagen afbeeldingen. |
 | `*`diskSpaceUsage`*` | `xsd:long` | Totale bestandszijde in kilobytes. |
 | `*`lastModified`*` | `xsd:dateTime` | Datum, tijd en tijdzone het type `DiskUsage` voor het laatst is gewijzigd. |
-
