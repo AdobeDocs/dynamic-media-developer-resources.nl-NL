@@ -3,15 +3,14 @@ description: Hiermee herstelt u elementen van de prullenbak.
 solution: Experience Manager
 title: restoreAssetsFromTrash
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: b1cde1a9-d726-4ebc-9d49-ee72a6b56fc9
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
-
 
 # restoreAssetsFromTrash{#restoreassetsfromtrash}
 
@@ -19,7 +18,7 @@ Hiermee herstelt u elementen van de prullenbak.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-15e887782c7d4ace897ff02c6ad5baa0}
+## Geautoriseerde gebruikerstypen {#section-15e887782c7d4ace897ff02c6ad5baa0}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -72,4 +71,3 @@ In dit codevoorbeeld worden elementen uit de prullenbak hersteld. De reactie gee
    <errorCount>0</errorCount>
 </restoreAssetsFromTrashReturn
 ```
-
