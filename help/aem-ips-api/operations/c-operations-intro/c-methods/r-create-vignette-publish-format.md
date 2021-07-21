@@ -2,16 +2,15 @@
 description: Hiermee maakt u een nieuwe publicatie-indeling voor een vignet.
 solution: Experience Manager
 title: createVignetPublishFormat
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: d58e1290-8a79-4129-99ce-776b919dea13
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
-
 
 # createVignetPublishFormat{#createvignettepublishformat}
 
@@ -21,7 +20,7 @@ Vignetformaten specificeren de grootte van gepubliceerde vignettes en hun duimna
 
 Nieuwere versies van de server voor het renderen van afbeeldingen kunnen piramidevignetten ondersteunen, waardoor het niet nodig is specifieke grootten voor vignetten voor publicatie te definiëren.
 
-## Toegestane gebruikerstypen {#section-f5c563e3695c4dba8df41e2a965aace7}
+## Geautoriseerde gebruikerstypen {#section-f5c563e3695c4dba8df41e2a965aace7}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -153,4 +152,3 @@ Met deze code maakt u een vignetpublicatie-indeling. In de aanmaakaanvraag worde
    <vignetteFormatHandle>v|21|282</vignetteFormatHandle>
 </createVignettePublishFormatReturn>
 ```
-
