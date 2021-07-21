@@ -3,15 +3,14 @@ description: Hiermee vervangt u afbeeldingsgegevens voor een afbeeldingselement.
 solution: Experience Manager
 title: replaceImage
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: bf8c1f5c-7829-4750-b5b7-b8b20d115d17
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
-
 
 # replaceImage{#replaceimage}
 
@@ -19,7 +18,7 @@ Hiermee vervangt u afbeeldingsgegevens voor een afbeeldingselement.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-e2aad71fb2a54612badc7b16f82ed544}
+## Geautoriseerde gebruikerstypen {#section-e2aad71fb2a54612badc7b16f82ed544}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -65,4 +64,3 @@ Dit codevoorbeeld vervangt een beeld en past `urlModifier` met een bevel toe dat
    <assetHandle>a|140626|1|102524</assetHandle>
 </replaceImageReturn>
 ```
-
