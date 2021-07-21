@@ -2,16 +2,15 @@
 description: Instelling voor uploaden om ZIP- en TAR-bestanden te verwerken als primaire elementen (Geen) of om de inhoud ervan te extraheren en te uploaden (UnCompress).
 solution: Experience Manager
 title: UnCompressOptions
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 89222959-3701-4ea6-bcae-98ceec93764f
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
-
 
 # UnCompressOptions{#uncompressoptions}
 
@@ -64,4 +63,3 @@ Het type `unCompressionOptions` wordt gebruikt door:
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
 * [UploadUrlsJob](../../types/c-data-types/r-upload-urls-job.md#reference-8e9bc895268c4321b233dbeadc990398)
-
