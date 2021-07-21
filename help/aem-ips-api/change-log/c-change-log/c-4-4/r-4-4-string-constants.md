@@ -2,18 +2,17 @@
 description: Beschrijft nieuwe en veranderde gegevenstypes voor IPS API versie 4.4.
 solution: Experience Manager
 title: Tekenreeksconstanten nieuw en gewijzigd
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
 exl-id: c675db4c-0027-4ecc-851d-91fb2a896aed
-translation-type: tm+mt
-source-git-commit: e7c747c44d27ed1769ab872d962a814d80c0b345
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '42'
+source-wordcount: '40'
 ht-degree: 0%
 
 ---
 
-# Tekenreeksconstanten: Nieuw en Gewijzigd{#string-constants-new-and-modified}
+# Tekenreeksconstanten: Nieuw en gewijzigd{#string-constants-new-and-modified}
 
 Beschrijft nieuwe en veranderde gegevenstypes voor IPS API versie 4.4.
 
