@@ -2,16 +2,15 @@
 description: Een gebruiker van middelen en types in het systeem.
 solution: Experience Manager
 title: Gebruiker
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 5747f5bf-0175-4707-bfcb-1a9b97d7a24a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
-
 
 # Gebruiker{#user}
 
@@ -30,4 +29,3 @@ Syntaxis
 | `*`defaultRole`*` | `xsd:string` | Plaatst de rol voor een gebruiker in elk bedrijf zij tot behoren. Nochtans, treedt de gebruikersrol `IpsAmin` andere gebruikersrollen met voeten. |
 | `*`isValid`*` | `xsd:boolean` | Hiermee wordt bepaald of de gebruiker geldig is. |
 | `*`passwordExpires`*` | `xsd:dateTime` | Hiermee stelt u de vervaldatum van het wachtwoord in. |
-
