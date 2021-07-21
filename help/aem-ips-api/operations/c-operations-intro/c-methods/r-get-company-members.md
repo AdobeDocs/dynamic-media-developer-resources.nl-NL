@@ -2,24 +2,23 @@
 description: Retourneert de gebruikers van een bedrijf dat is opgegeven door een greep van het bedrijf.
 solution: Experience Manager
 title: getCompanyMember
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: da5e5a48-2e0b-4ccc-a71e-b5b746484d4a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
 
-
-# getCompanymembers{#getcompanymembers}
+# getCompanyMember{#getcompanymembers}
 
 Retourneert de gebruikers van een bedrijf dat is opgegeven door een greep van het bedrijf.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-b2bc2fa0cc944cea8be82524838307cc}
+## Geautoriseerde gebruikerstypen {#section-b2bc2fa0cc944cea8be82524838307cc}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -72,4 +71,3 @@ Deze codesteekproef keert alle leden van een bedrijf in een gebruikersserie teru
    </memberArray>
 </getCompanyMembersReturn>
 ```
-
