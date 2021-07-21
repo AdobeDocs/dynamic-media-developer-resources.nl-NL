@@ -2,16 +2,15 @@
 description: Een array van generatieeigenschappen.
 solution: Experience Manager
 title: GenerationInfoArray
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 500a4ba3-57f1-4b51-afe3-91885be13d98
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '30'
+source-wordcount: '28'
 ht-degree: 0%
 
 ---
-
 
 # GenerationInfoArray{#generationinfoarray}
 
@@ -24,4 +23,3 @@ Syntaxis
 | Naam | Type | Beschrijving |
 |---|---|---|
 | `*`items`*` | `types:GenerationInfo` | Een array van generatieeigenschappen. |
-
