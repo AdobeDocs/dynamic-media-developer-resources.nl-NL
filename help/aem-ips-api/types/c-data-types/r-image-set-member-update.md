@@ -2,16 +2,15 @@
 description: 'Binnen dit type is het pageReset-veld relevant voor renderSet- en Catalog-afbeeldingselementtypen '
 solution: Experience Manager
 title: ImageSetMemberUpdate
-feature: Dynamic Media Classic,SDK/API,Image Sets
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Afbeeldingssets
+role: Developer,Admin
+exl-id: 4c598afb-a80c-4fac-997f-ef1c7175430c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
-
 
 # ImageSetMemberUpdate{#imagesetmemberupdate}
 
@@ -44,4 +43,3 @@ Binnen dit type is het pageReset-veld relevant voor de renderset- en catalogusaf
   </tr> 
  </tbody> 
 </table>
-
