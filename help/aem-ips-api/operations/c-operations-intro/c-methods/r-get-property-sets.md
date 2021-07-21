@@ -2,16 +2,15 @@
 description: Hiermee worden eigenschapssets opgehaald die aan een tekstgreep zijn gekoppeld.
 solution: Experience Manager
 title: getPropertySets
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: da6923c3-9b86-4595-8205-645fb10e03b0
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
-
 
 # getPropertySets{#getpropertysets}
 
@@ -19,7 +18,7 @@ Hiermee worden eigenschapssets opgehaald die aan een tekstgreep zijn gekoppeld.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-da858360b72941bfa8d9558b4da7d4da}
+## Geautoriseerde gebruikerstypen {#section-da858360b72941bfa8d9558b4da7d4da}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -86,4 +85,3 @@ Deze codesteekproef keert bezitsreeksen van hun primaire eigenaar terug, die doo
    </setArray>
 </getPropertySetsReturn>
 ```
-
