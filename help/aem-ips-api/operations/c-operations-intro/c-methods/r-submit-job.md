@@ -2,16 +2,15 @@
 description: Hiermee wordt een taak naar het systeem verzonden.
 solution: Experience Manager
 title: submitJob
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: b1dc7a0e-da9a-4086-822b-5274bd62eadf
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
-
 
 # submitJob{#submitjob}
 
@@ -19,7 +18,7 @@ Hiermee wordt een taak naar het systeem verzonden.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-eb7024277bec43c79e03f396205be16f}
+## Geautoriseerde gebruikerstypen {#section-eb7024277bec43c79e03f396205be16f}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -195,4 +194,3 @@ U kunt hoogstens één van `execTime` en `execSchedule` specificeren. Als geen v
 * `serverDirectoryPublishJob`
 * `uploadDirectoryJob`
 * `uploadUrlsJob`
-
