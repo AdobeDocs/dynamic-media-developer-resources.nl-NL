@@ -2,16 +2,15 @@
 description: Photoshop-bestandseigenschappen.
 solution: Experience Manager
 title: PSDInfo
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 620cf7a3-ae69-4d1e-af3d-64fe7f0302c8
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '35'
+source-wordcount: '33'
 ht-degree: 0%
 
 ---
-
 
 # PSDInfo{#psdinfo}
 
@@ -28,4 +27,3 @@ Syntaxis
 | `*`optimizedPath`*` | `xsd:string` | Bestandspad. |
 | `*`optimizedFile`*` | `xsd:string` | Bestandsnaam. |
 | `*`fileSize`*` | `xsd:int` | Bestandsgrootte. |
-
