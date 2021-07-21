@@ -2,13 +2,12 @@
 description: Eigensets zijn toepassingsspecifieke sets van naam-waardeparen die aan verschillende IPS-objecten kunnen worden gekoppeld, afhankelijk van het type eigenschapset. Als het type eigenschapset niet toestaat dat meerdere sets aan een object kunnen worden gekoppeld (PropertySetType/allowMultipleisfalse) en het object al een gekoppelde set van hetzelfde type heeft, wordt de bestaande set vervangen.
 solution: Experience Manager
 title: createPropertySet
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
 exl-id: e9f85e65-4a2f-4b82-b7b8-d0d60b8345cd
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -19,7 +18,7 @@ Eigensets zijn toepassingsspecifieke sets van naam-waardeparen die aan verschill
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-f9b6187ba636475787c997fc27bb192a}
+## Geautoriseerde gebruikerstypen {#section-f9b6187ba636475787c997fc27bb192a}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
