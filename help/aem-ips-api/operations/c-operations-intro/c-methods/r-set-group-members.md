@@ -2,16 +2,15 @@
 description: Hiermee stelt u het groepslidmaatschap in van gebruikers die tot een specifiek bedrijf behoren.
 solution: Experience Manager
 title: setGroupMember
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 81348da7-6733-4da9-8a0a-376fccf791ea
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
-
 
 # setGroupMember{#setgroupmembers}
 
@@ -19,7 +18,7 @@ Hiermee stelt u het groepslidmaatschap in van gebruikers die tot een specifiek b
 
 De bewerking genereert een verificatiefout als u geen rechten hebt om deze bewerking uit te voeren. Dit is ook waar als om het even welke gebruikers in de gebruikershandvatserie niet tot het bedrijf behoren dat in het bedrijfshandvat wordt gespecificeerd,
 
-## Toegestane gebruikerstypen {#section-4523594039c24aa29c8d0d5c9c415391}
+## Geautoriseerde gebruikerstypen {#section-4523594039c24aa29c8d0d5c9c415391}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
