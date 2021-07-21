@@ -2,16 +2,15 @@
 description: Hiermee wordt een zoekopdrachtrecord uit een PDF-bestand opgehaald.
 solution: Experience Manager
 title: SearchStrings
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 3f67ba8a-12dd-4698-9502-7cbdec9cb25d
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '87'
 ht-degree: 1%
 
 ---
-
 
 # SearchStrings{#searchstrings}
 
@@ -32,4 +31,3 @@ Syntaxis
 | `*`height`*` | `xsd:int` | Hoogte van zoekreeks. |
 | `*`fontName`*` | `xsd:string` | Naam van het lettertype dat in de zoekreeks wordt gebruikt. |
 | `*`pointSize`*` | `xsd:string` | Tekengrootte. |
-
