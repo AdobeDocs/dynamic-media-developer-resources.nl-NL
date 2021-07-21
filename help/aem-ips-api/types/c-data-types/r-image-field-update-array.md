@@ -2,16 +2,15 @@
 description: Een array met updates van afbeeldingsvelden.
 solution: Experience Manager
 title: ImageFieldUpdateArray
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: efba86d2-8a78-4cb6-b74c-e927b7812997
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '32'
+source-wordcount: '30'
 ht-degree: 0%
 
 ---
-
 
 # ImageFieldUpdateArray{#imagefieldupdatearray}
 
@@ -24,4 +23,3 @@ Syntaxis
 | Naam | Type | Beschrijving |
 |---|---|---|
 | `*`items`*` | `types:ImageFieldUpdate` | Array met updates van afbeeldingsvelden. |
-
