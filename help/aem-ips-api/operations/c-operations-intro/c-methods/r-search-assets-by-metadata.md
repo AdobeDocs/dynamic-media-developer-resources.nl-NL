@@ -3,15 +3,14 @@ description: Zoekt de gegevensopslagplaats van de meta-gegevensindex naar de bep
 solution: Experience Manager
 title: searchAssetsByMetadata
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: a0e01edb-c52b-436d-a166-e24cc6861c49
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
-
 
 # searchAssetsByMetadata{#searchassetsbymetadata}
 
@@ -46,7 +45,7 @@ Als u dit probleem wilt verhelpen, kunt u de `fieldHandles` van de elementen geb
 </ns:metadataConditionArray>
 ```
 
-## Toegestane gebruikerstypen {#section-9f85dd55ab574104b5fdc0f95aa0a0e2}
+## Geautoriseerde gebruikerstypen {#section-9f85dd55ab574104b5fdc0f95aa0a0e2}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -128,7 +127,7 @@ Als u dit probleem wilt verhelpen, kunt u de `fieldHandles` van de elementen geb
 | `*`totalRows`*` | `xsd:int` | Nee | Aantal overeenkomsten. |
 | `*`assetArray`*` | `types:AssetArray` | Nee | Array met elementen die door de zoekopdracht worden geretourneerd. |
 
-## metadataConditionArray Details {#section-1af4a4a22f82451eabdf6dfe13d9f27d}
+## details metadataConditionArray {#section-1af4a4a22f82451eabdf6dfe13d9f27d}
 
 **Itemstructuur**
 
@@ -157,7 +156,7 @@ Als u dit probleem wilt verhelpen, kunt u de `fieldHandles` van de elementen geb
 * `sku`
 * `modified_at`
 * `modified_by`
-* `created_at` (zelfde als  `modified_at` (Datum in de vorm: 25 juli 2014 22:13:45 GMT-0500 (CDT)
+* `created_at` (zelfde als  `modified_at` (Datum in de vorm: 25 juli 2014 22:13:45 GMT-0500 (CDT))
 
 * `created_by`
 
@@ -252,4 +251,3 @@ xmlns:ns="http://www.scene7.com/IpsApi/xsd/2010-01-31">
    </soapenv:Body>
 </soapenv:Envelope>
 ```
-
