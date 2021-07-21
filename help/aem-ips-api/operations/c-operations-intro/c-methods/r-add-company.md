@@ -2,16 +2,15 @@
 description: Voegt een bedrijf aan het systeem toe.
 solution: Experience Manager
 title: addCompany
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 2f834fe8-a621-4a41-9473-8ef53294b348
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
-
 
 # addCompany{#addcompany}
 
@@ -21,7 +20,7 @@ Verzendt de naam van het bedrijf dat aan het systeem moet worden toegevoegd en n
 
 Wanneer deze verrichting wordt aangehaald, krijgt het systeem een `*`companyInfo`*` type dat een bedrijfshandvat en beschrijvende gebieden bevat. Als de aangevraagde bedrijfsnaam al in het systeem bestaat, wordt een `ipsApiFault` gegenereerd.
 
-## Toegestane gebruikerstypen {#section-ae926c7672984be79f6102748accab72}
+## Geautoriseerde gebruikerstypen {#section-ae926c7672984be79f6102748accab72}
 
 * `IpsAdmin`
 * `TrialSiteAdmin`
@@ -101,4 +100,3 @@ Dit voorbeeld toont een verzoek aan om een bedrijf aan het IPS systeem en de rea
    </ns1:companyInfo>
 </ns1:addCompanyReturn>
 ```
-
