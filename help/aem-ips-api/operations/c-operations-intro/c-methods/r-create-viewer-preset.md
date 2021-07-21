@@ -2,13 +2,12 @@
 description: Hiermee maakt u een voorinstellingsweergave die bepaalt wat een gebruiker kan zien. De kijker kan van om het even welk type beschikbaar in IPS zijn. De voorinstellingsweergave wordt toegepast wanneer de elementen worden gepubliceerd.
 solution: Experience Manager
 title: createViewerPreset
-feature: Dynamic Media Classic,SDK/API,Viewer Presets
-role: Developer,Administrator
+feature: Dynamic Media Classic,SDK/API,Viewer-voorinstellingen
+role: Developer,Admin
 exl-id: b24536d9-df66-4c94-8467-6f46e66a1b36
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
@@ -19,7 +18,7 @@ Hiermee maakt u een voorinstellingsweergave die bepaalt wat een gebruiker kan zi
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-0b8b1322ebea4a7ea24d516e080b7367}
+## Geautoriseerde gebruikerstypen {#section-0b8b1322ebea4a7ea24d516e080b7367}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
