@@ -2,16 +2,15 @@
 description: Retourneert alle mappen en submappen, te beginnen bij het mappad. De reactie getFolders retourneert maximaal 100.000 mappen.
 solution: Experience Manager
 title: getFolders
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 71fe3343-2560-4d74-8ec3-1229d83a62e1
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
-
 
 # getFolders{#getfolders}
 
@@ -22,7 +21,7 @@ Retourneert alle mappen en submappen, te beginnen bij het mappad. De reactie get
 Met een map kunt u submappen en elementen ordenen. Alle map- en elementnamen moeten uniek zijn. Mappen en elementen met dezelfde naam veroorzaken een naamruimteconflict, zelfs als ze zich in verschillende maphiërarchieën bevinden.
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-0dc7e17cb60f4cf7bcdb76648e5d2f8e}
+## Geautoriseerde gebruikerstypen {#section-0dc7e17cb60f4cf7bcdb76648e5d2f8e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -94,4 +93,3 @@ Dit codevoorbeeld keert een serie terug die alle omslagen voor een bedrijf samen
    </folderArray>
 </getFoldersReturn>
 ```
-
