@@ -2,16 +2,15 @@
 description: Hiermee wordt de opgegeven lijst met URL's doorgestuurd naar de Dynamic Media CDN-provider (Content Distribution Network) om de bestaande cache met HTTP-reacties ongeldig te maken.
 solution: Experience Manager
 title: cdnCacheInvalidation
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 65b758f2-b49a-4616-b657-a64808c9202a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
-
 
 # cdnCacheInvalidation{#cdncacheinvalidation}
 
@@ -33,7 +32,7 @@ Bevestigingse-mails van de Dynamic Media CDN-partner kunnen worden verzonden naa
 
 6,0
 
-## Toegestane gebruikerstypen {#section-0d7895e733d54fb68beb8d231a04e4c9}
+## Geautoriseerde gebruikerstypen {#section-0d7895e733d54fb68beb8d231a04e4c9}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -126,4 +125,3 @@ In dit voorbeeld worden vier URL&#39;s ongeldig gemaakt in de CDN-cache. De reac
    <errorCount>0</errorCount>
 </cdnCacheInvalidationReturn>
 ```
-
