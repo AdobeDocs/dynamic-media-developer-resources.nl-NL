@@ -2,18 +2,17 @@
 description: Gebruikt door getUsersParam en getUserCharsParam/charField.
 solution: Experience Manager
 title: Gebruikerskartelvelden
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 40ba507b-6859-4b37-b801-c6f21d12e98e
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '29'
+source-wordcount: '27'
 ht-degree: 0%
 
 ---
 
-
-# Gebruikerstekenfiltervelden{#user-char-filter-fields}
+# Gebruikerskartelvelden{#user-char-filter-fields}
 
 Gebruikt door getUsersParam en getUserCharsParam/charField.
 
@@ -27,4 +26,3 @@ Syntaxis
 * [!DNL `Email`]
 * [!DNL `StartsWith`]
 * [!DNL `EndsWith`]
-
