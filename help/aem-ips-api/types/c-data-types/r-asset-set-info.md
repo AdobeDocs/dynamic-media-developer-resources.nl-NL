@@ -3,15 +3,14 @@ description: Eigenschappen voor elementen van het type AssetSet.
 solution: Experience Manager
 title: AssetSetInfo
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: ca5e4d7d-24b3-4b4b-b350-ded83f94528b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '44'
 ht-degree: 0%
 
 ---
-
 
 # AssetSetInfo{#assetsetinfo}
 
@@ -24,4 +23,3 @@ Syntaxis
 | Naam | Type | Beschrijving |
 |---|---|---|
 | `*`setDefinition`*` | `xsd:string` | Definitie van de elementenset die is opgemaakt volgens de vereisten van de beoogde IS Viewer. Kan facultatieve IPS substitutieparameters bevatten. |
-
