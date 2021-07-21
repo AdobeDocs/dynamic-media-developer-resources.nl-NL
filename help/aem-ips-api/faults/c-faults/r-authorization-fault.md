@@ -2,16 +2,15 @@
 description: Wordt gegenereerd wanneer een geverifieerde gebruiker onvoldoende rechten heeft om een taak uit te voeren.
 solution: Experience Manager
 title: authenticationFault
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 76965735-92d8-46be-b589-67cad3b987dc
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '59'
 ht-degree: 16%
 
 ---
-
 
 # authenticationFault{#authorizationfault}
 
@@ -40,4 +39,3 @@ Syntaxis
 |---|---|---|
 | `code` | `xsd:int` | ID fout |
 | `reason` | `xsd:string` | Een informatief bericht waarin de fout wordt beschreven. |
-
