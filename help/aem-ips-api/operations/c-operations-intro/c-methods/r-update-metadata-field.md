@@ -2,16 +2,15 @@
 description: Metagegevens van velden bijwerken.
 solution: Experience Manager
 title: updateMetadataField
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,metagegevens
+role: Developer,Admin
+exl-id: 67506e76-aa23-46a7-a900-03d89b4266fd
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
-
 
 # updateMetadataField{#updatemetadatafield}
 
@@ -19,7 +18,7 @@ Metagegevens van velden bijwerken.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-540e91823fee49a4920ca738f7bfeb99}
+## Geautoriseerde gebruikerstypen {#section-540e91823fee49a4920ca738f7bfeb99}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -112,4 +111,3 @@ In deze codevoorbeeldupdates worden een nieuwe naam en standaardwaarde toegeweze
    <fieldHandle>m|21|IMAGE|updateMetadataField</fieldHandle>
 </updateMetadataFieldReturn>
 ```
-
