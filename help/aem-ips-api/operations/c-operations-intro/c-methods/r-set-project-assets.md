@@ -3,15 +3,14 @@ description: Elementen in een project toewijzen of bijwerken.
 solution: Experience Manager
 title: setProjectAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: b6e6e9bd-5ee2-4750-9182-49e7a3e3486c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
-
 
 # setProjectAssets{#setprojectassets}
 
@@ -19,7 +18,7 @@ Elementen in een project toewijzen of bijwerken.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-8d87939db6d547b48ca6d71771bbefa8}
+## Geautoriseerde gebruikerstypen {#section-8d87939db6d547b48ca6d71771bbefa8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -69,4 +68,3 @@ Deze codesteekproef wijst activa aan een project toe. Het verzoek retourneert ee
    <errorCount>0</errorCount>
 </setProjectAssetsReturn>
 ```
-
