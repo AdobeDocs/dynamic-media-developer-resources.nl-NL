@@ -2,16 +2,15 @@
 description: Hiermee wordt een specifieke taak uitgevoerd.
 solution: Experience Manager
 title: executeJob
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 4b2a2a14-d785-43bd-b1fc-2812d9f21964
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
-
 
 # executeJob{#executejob}
 
@@ -19,7 +18,7 @@ Hiermee wordt een specifieke taak uitgevoerd.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-8199e8599ea64e7097a2acb633417b15}
+## Geautoriseerde gebruikerstypen {#section-8199e8599ea64e7097a2acb633417b15}
 
 * `IpsUser`
 * `IpsAdmin`
