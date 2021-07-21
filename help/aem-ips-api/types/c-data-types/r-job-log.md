@@ -2,16 +2,15 @@
 description: Het taaklogboek nadat de taak is uitgevoerd.
 solution: Experience Manager
 title: JobLog
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 80ae6669-6fe7-45a6-9a1d-f8544dd4f878
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
-
 
 # JobLog{#joblog}
 
@@ -45,4 +44,3 @@ Syntaxis
 | `*`fatalError`*` | `xsd:boolean` | Of de baan een fatale fout produceerde. |
 | `*`detailTotalRows`*` | `xsd:int` | Het totale aantal rijen dat overeenkomt met de query. Dit kan groter zijn dan de grootte van `detailArray` vanwege de limieten van de paginagrootte. |
 | `*`detailArray`*` | `types:JobLogDetailArray` | De array met details over de geregistreerde taak. |
-
