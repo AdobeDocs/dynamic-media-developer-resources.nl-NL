@@ -2,16 +2,15 @@
 description: Haalt tekenreekswaarden op van systeemeigenschappen die gerelateerd zijn aan Image Portal.
 solution: Experience Manager
 title: getProperty
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 2297b785-28c7-49c6-8891-00986f35ea88
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
-
 
 # getProperty{#getproperty}
 
@@ -28,7 +27,7 @@ Tot de ondersteunde systeemeigenschappen behoren:
 
 * `UploadPostMaxFileSize`: Maximale grootte (in bytes) van bestandsgegevens die is toegestaan tijdens het uploaden  [!DNL POST]. Het systeem wijst bestanden af die groter zijn dan de maximale limiet.
 
-## Toegestane gebruikerstypen {#section-2cd36bbd46ed414b8753569d5895530e}
+## Geautoriseerde gebruikerstypen {#section-2cd36bbd46ed414b8753569d5895530e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -73,4 +72,3 @@ Deze codesteekproef gebruikt een IPS het koordconstante van Eigenschappen om een
    <value>3.8.0</value>
 </getPropertyReturn>
 ```
-
