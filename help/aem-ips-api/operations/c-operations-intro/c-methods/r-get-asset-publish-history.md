@@ -3,15 +3,14 @@ description: Retourneert de publicatiegeschiedenis voor een element.
 solution: Experience Manager
 title: getAssetPublishHistory
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: f337e7f9-1af6-4164-b9bd-e697548e2850
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '96'
 ht-degree: 0%
 
 ---
-
 
 # getAssetPublishHistory{#getassetpublishhistory}
 
@@ -19,7 +18,7 @@ Retourneert de publicatiegeschiedenis voor een element.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-3b9d6a129093458fa8890139a2718912}
+## Geautoriseerde gebruikerstypen {#section-3b9d6a129093458fa8890139a2718912}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -66,4 +65,3 @@ Dit codevoorbeeld retourneert de publicatiegeschiedenis van een element. Er is n
    <pubHistoryArray/>
 </getAssetPublishHistoryReturn>
 ```
-
