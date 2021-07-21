@@ -2,16 +2,15 @@
 description: Hiermee verwijdert u een gebruiker uit een of meer bedrijven.
 solution: Experience Manager
 title: removeCompanyMembership
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 1cb9a286-48a0-4542-a80a-c97fd973474e
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
-
 
 # removeCompanyMembership{#removecompanymembership}
 
@@ -19,7 +18,7 @@ Hiermee verwijdert u een gebruiker uit een of meer bedrijven.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-e9a16c8a7d8d4845989a1488c9ca9c98}
+## Geautoriseerde gebruikerstypen {#section-e9a16c8a7d8d4845989a1488c9ca9c98}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
