@@ -2,18 +2,17 @@
 description: Beschrijft nieuwe en veranderde koordconstanten voor IPS API versie 3.7.
 solution: Experience Manager
 title: Tekenreeksconstanten nieuw en gewijzigd
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: c62cb98f-d87f-4273-bc51-30e4845d6540
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '45'
 ht-degree: 0%
 
 ---
 
-
-# Tekenreeksconstanten: Nieuw en Gewijzigd{#string-constants-new-and-modified}
+# Tekenreeksconstanten: Nieuw en gewijzigd{#string-constants-new-and-modified}
 
 Beschrijft nieuwe en veranderde koordconstanten voor IPS API versie 3.7.
 
@@ -40,4 +39,3 @@ Syntaxis
 **Elementen**
 
 * Toegevoegd `Zip`.
-
