@@ -2,16 +2,15 @@
 description: Opties voor het automatisch uitsnijden van afbeeldingen op basis van transparantie.
 solution: Experience Manager
 title: AutoTransparentCropOptions
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 351f63a4-cc1b-4db9-93df-c21acd02e12a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '53'
 ht-degree: 0%
 
 ---
-
 
 # AutoTransparentCropOptions{#autotransparentcropoptions}
 
@@ -41,4 +40,3 @@ Syntaxis
   </tr> 
  </tbody> 
 </table>
-
