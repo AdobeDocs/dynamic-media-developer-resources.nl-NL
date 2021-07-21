@@ -2,18 +2,17 @@
 description: Wordt gebruikt door ImageMap/shapeType en saveImageMapParam/shapType.
 solution: Experience Manager
 title: Vorm gebied
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 84a27a16-23fc-4e58-ba05-49882dd72174
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '27'
+source-wordcount: '25'
 ht-degree: 0%
 
 ---
 
-
-# Gebiedsvorm{#region-shape}
+# Vorm gebied{#region-shape}
 
 Wordt gebruikt door ImageMap/shapeType en saveImageMapParam/shapType.
 
@@ -23,4 +22,3 @@ Syntaxis
 
 * [!DNL `Rectangle`]
 * [!DNL `Polygon`]
-
