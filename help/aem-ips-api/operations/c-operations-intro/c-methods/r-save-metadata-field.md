@@ -2,16 +2,15 @@
 description: Maak of bewerk een metagegevensveld. Laat de optionele veldgreep weg om een nieuw metagegevensveld te maken.
 solution: Experience Manager
 title: saveMetadataField
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,metagegevens
+role: Developer,Admin
+exl-id: 56a45324-5027-4375-a790-c965f682e4b9
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
-
 
 # saveMetadataField{#savemetadatafield}
 
@@ -21,7 +20,7 @@ Maak of bewerk een metagegevensveld. Laat de optionele veldgreep weg om een nieu
 >
 >Deze methode is afgekeurd.
 
-## Toegestane gebruikerstypen {#section-0c1cbde0863346f8a31b32fd06ab2926}
+## Geautoriseerde gebruikerstypen {#section-0c1cbde0863346f8a31b32fd06ab2926}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -122,4 +121,3 @@ In dit codevoorbeeld wordt een nieuw metagegevensveld gemaakt dat wordt beperkt 
    <fieldHandle>47|ALL|Resolution</fieldHandle>
 </saveMetadataFieldReturn>
 ```
-
