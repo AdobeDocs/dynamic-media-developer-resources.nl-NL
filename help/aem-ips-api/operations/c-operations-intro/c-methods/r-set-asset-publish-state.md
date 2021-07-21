@@ -3,15 +3,14 @@ description: Hiermee wordt bepaald of een element gereed is voor publicatie.
 solution: Experience Manager
 title: setAssetPublishState
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 0dc195ee-9229-40a3-ad8b-8f00c2c9ff97
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
-
 
 # setAssetPublishState{#setassetpublishstate}
 
@@ -19,7 +18,7 @@ Hiermee wordt bepaald of een element gereed is voor publicatie.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-11bec77e50b24461bb8c8aacf016eec8}
+## Geautoriseerde gebruikerstypen {#section-11bec77e50b24461bb8c8aacf016eec8}
 
 * `IpsUser`
 * `IpsAdmin`
