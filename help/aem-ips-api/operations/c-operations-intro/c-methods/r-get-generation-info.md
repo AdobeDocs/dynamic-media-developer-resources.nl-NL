@@ -2,16 +2,15 @@
 description: Retourneert twee verschillende typen informatie op basis van de doorgegeven parameters. originatorHandle retourneert informatie over elementen die zijn gegenereerd op basis van het opgegeven element. generateHandle geeft informatie over stappen die worden gebruikt om het opgegeven element of bestand te genereren.
 solution: Experience Manager
 title: getGenerationInfo
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: fa098e3c-8145-4238-a84c-c545f1c53341
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
-
 
 # getGenerationInfo{#getgenerationinfo}
 
@@ -19,7 +18,7 @@ Retourneert twee verschillende typen informatie op basis van de doorgegeven para
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-9cc2216b32c74107be07aeacecc11401}
+## Geautoriseerde gebruikerstypen {#section-9cc2216b32c74107be07aeacecc11401}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -78,4 +77,3 @@ Deze codesteekproef keert informatie over activa terug die van een specifiek ele
    </generationArray>
 </getGenerationInfoReturn>
 ```
-
