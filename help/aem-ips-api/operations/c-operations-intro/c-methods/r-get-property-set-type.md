@@ -2,16 +2,15 @@
 description: Haalt een type eigenschapset op met een greep naar een bedrijf en de naam van het type eigenschapset. Het krijgt een typestructuur met de handvatten aan het type evenals het bezitstype.
 solution: Experience Manager
 title: getPropertySetType
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: ff9c3d24-577c-4a9c-8820-60c2a33773bc
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
-
 
 # getPropertySetType{#getpropertysettype}
 
@@ -19,7 +18,7 @@ Haalt een type eigenschapset op met een greep naar een bedrijf en de naam van he
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-2b291d32f95b4a3d854429124cbae24c}
+## Geautoriseerde gebruikerstypen {#section-2b291d32f95b4a3d854429124cbae24c}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -90,4 +89,3 @@ Deze codesteekproef keert een bezitsplaatstype door naam terug.
       <allowMultiple>false</allowMultiple></type>
 </getPropertySetTypeReturn>
 ```
-
