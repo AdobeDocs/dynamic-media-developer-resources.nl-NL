@@ -3,15 +3,14 @@ description: Wijzigt de naam van een project.
 solution: Experience Manager
 title: renameProject
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 1bf74ebf-1fce-408b-9953-7fdf2ae9d10b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
-
 
 # renameProject{#renameproject}
 
@@ -19,7 +18,7 @@ Wijzigt de naam van een project.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-093d1f611a1647568e885ddd842b8f78}
+## Geautoriseerde gebruikerstypen {#section-093d1f611a1647568e885ddd842b8f78}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -65,4 +64,3 @@ Deze codesteekproef anders noemt een project en keert de projecthandvat terug.
    <projectHandle>p|6|ProjectTestAPI</projectHandle>
 </renameProjectReturn>
 ```
-
