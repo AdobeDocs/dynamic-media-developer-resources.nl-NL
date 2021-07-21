@@ -2,18 +2,17 @@
 description: Wordt gebruikt door MetadataField/type, saveMetadataFieldParam/fieldType en createMetadataField/fieldType.
 solution: Experience Manager
 title: Metagegevensveldtypen
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,metagegevens
+role: Developer,Admin
+exl-id: cbbe55f2-bd22-44f5-9440-f58fb45b8d9a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
 
-
-# Typen metagegevensvelden{#metadata-field-types}
+# Metagegevensveldtypen{#metadata-field-types}
 
 Wordt gebruikt door MetadataField/type, saveMetadataFieldParam/fieldType en createMetadataField/fieldType.
 
@@ -37,4 +36,3 @@ Syntaxis
 
 * [!DNL `SingleTag`]: Elke tekenreekswaarde.
 * [!DNL `String`]
-
