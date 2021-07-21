@@ -2,16 +2,15 @@
 description: PostScript-bestandseigenschappen.
 solution: Experience Manager
 title: GenerationInfo
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 9aac2973-bbcb-4914-9bf9-203f0357527c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '54'
 ht-degree: 0%
 
 ---
-
 
 # GenerationInfo{#generationinfo}
 
@@ -27,4 +26,3 @@ Syntaxis
 | `*`oprichter`*` | `types:Asset` | Vastlegging van activa van het primaire actief dat bij de productie wordt gebruikt. |
 | `*`gegenereerd`*` | `types:Asset` | Gegevens over het gegenereerde actief. |
 | `*`attributeArray`*` | `types:GenerationAttributeArray` | Array met kenmerken die zijn gekoppeld aan het generatieproces. |
-
