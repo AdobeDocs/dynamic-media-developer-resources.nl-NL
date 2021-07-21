@@ -3,15 +3,14 @@ description: Hiermee verwijdert u elementen uit een project. De activa worden ni
 solution: Experience Manager
 title: removeProjectAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 6bf169ec-c724-4ac0-a2bf-67af2ebba21a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
-
 
 # removeProjectAssets{#removeprojectassets}
 
@@ -19,7 +18,7 @@ Hiermee verwijdert u elementen uit een project. De activa worden niet vernietigd
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-b0b333a1f3b648ac8cd6bb3d135d2c6f}
+## Geautoriseerde gebruikerstypen {#section-b0b333a1f3b648ac8cd6bb3d135d2c6f}
 
 * `IpsUser`
 * `IpsCompanyAdmin`
@@ -63,4 +62,3 @@ Deze codesteekproef verwijdert 2 activa uit een project (die door projecthandvat
    </assetHandleArray>
 </removeProjectAssetsParam>
 ```
-
