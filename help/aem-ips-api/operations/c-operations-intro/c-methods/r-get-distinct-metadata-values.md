@@ -2,16 +2,15 @@
 description: Retourneert alle waarden voor een metagegevensveld.
 solution: Experience Manager
 title: getDistinctMetadataValues
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,metagegevens
+role: Developer,Admin
+exl-id: 1987d8b0-64e4-49be-af45-98e4c6542e5f
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---
-
 
 # getDistinctMetadataValues{#getdistinctmetadatavalues}
 
@@ -19,7 +18,7 @@ Retourneert alle waarden voor een metagegevensveld.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-f0f44fdcb318490582dd04de8eaf745d}
+## Geautoriseerde gebruikerstypen {#section-f0f44fdcb318490582dd04de8eaf745d}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -95,4 +94,3 @@ xmlns:ns="http://www.scene7.com/IpsApi/xsd/2010-01-31">
    </soapenv:Body>
 </soapenv:Envelope>
 ```
-
