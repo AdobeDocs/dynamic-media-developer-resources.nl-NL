@@ -2,18 +2,17 @@
 description: Bedrijfsspecifieke configuratie-instellingen.
 solution: Experience Manager
 title: CompanySettings
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 82e6362d-beab-47ff-bb20-11047f0d8787
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
 
-
-# Bedrijfsinstellingen{#companysettings}
+# CompanySettings{#companysettings}
 
 Bedrijfsspecifieke configuratie-instellingen.
 
@@ -32,4 +31,3 @@ Syntaxis
 | `*`diskSpaceWarningMin`*` | `xsd:int` | Minimale hoeveelheid schijfruimte voor afbeeldingsdirectory voordat een waarschuwing wordt verzonden. |
 | `*`emailTrashCleanupWarning`*` | `xsd:boolean` | Hiermee bepaalt u of e-mailberichten moeten worden verzonden voordat objecten die in de prullenbak zijn geplaatst, automatisch kunnen worden verwijderd. |
 | `*`javascriptUploadEnabled`*` | `types:Asset` | Hiermee wordt bepaald of JavaScript-bestanden moeten worden geüpload. Dit is een potentieel veiligheidsrisico, dus gebruik deze optie met zorg. |
-
