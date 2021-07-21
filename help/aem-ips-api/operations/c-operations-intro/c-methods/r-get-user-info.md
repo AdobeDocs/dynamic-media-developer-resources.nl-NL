@@ -2,16 +2,15 @@
 description: Hiermee wordt informatie over een gebruiker opgehaald. Gebruik het e-mailadres en het wachtwoord van een systeemgebruiker als referenties voor het autoriseren van de aanvraag. Anders krijgt de bewerking informatie over de standaardgebruiker.
 solution: Experience Manager
 title: getUserInfo
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 1981f25f-779e-4434-ab6b-0debb40521fe
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
-
 
 # getUserInfo{#getuserinfo}
 
@@ -19,7 +18,7 @@ Hiermee wordt informatie over een gebruiker opgehaald. Gebruik het e-mailadres e
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-1c42d78e914a4b84a946b3480f29b36a}
+## Geautoriseerde gebruikerstypen {#section-1c42d78e914a4b84a946b3480f29b36a}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -71,4 +70,3 @@ Deze codesteekproef keert informatie voor de standaardIPS gebruiker terug.
    </ns1:userInfo> 
 </ns1:getUserInfoReturn>
 ```
-
