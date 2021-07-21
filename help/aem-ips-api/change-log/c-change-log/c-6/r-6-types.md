@@ -2,18 +2,17 @@
 description: Beschrijft nieuwe en veranderde types voor IPS API versie 6.
 solution: Experience Manager
 title: Nieuwe en gewijzigde gegevenstypen
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: d3bcd718-cf27-4d31-850f-a3205564be60
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '74'
 ht-degree: 0%
 
 ---
 
-
-# Gegevenstypen: Nieuw en Gewijzigd{#data-types-new-and-modified}
+# Gegevenstypen: Nieuw en gewijzigd{#data-types-new-and-modified}
 
 Beschrijft nieuwe en veranderde types voor IPS API versie 6.
 
@@ -72,4 +71,3 @@ Syntaxis
 * In `Folder` is `permissions` gewijzigd in `permissionsSetHandle`.
 
 * In `AssetSummary` zijn `type` en `name` nu optioneel.
-
