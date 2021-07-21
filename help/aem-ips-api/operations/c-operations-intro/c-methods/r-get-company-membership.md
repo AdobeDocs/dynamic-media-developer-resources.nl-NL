@@ -2,16 +2,15 @@
 description: Haalt de lidmaatschappen van een gebruiker in een bedrijfserie op.
 solution: Experience Manager
 title: getCompanyMembership
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 53af8a97-208c-4c44-93d6-aa36a459af51
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
-
 
 # getCompanyMembership{#getcompanymembership}
 
@@ -19,7 +18,7 @@ Haalt de lidmaatschappen van een gebruiker in een bedrijfserie op.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-f8bba547e1f648648be99dc48fd72b5d}
+## Geautoriseerde gebruikerstypen {#section-f8bba547e1f648648be99dc48fd72b5d}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -73,4 +72,3 @@ Deze codesteekproef neemt een gebruikershandvat en krijgt alle het bedrijflidmaa
     </membershipArray>
 </getCompanyMembershipReturn>
 ```
-
