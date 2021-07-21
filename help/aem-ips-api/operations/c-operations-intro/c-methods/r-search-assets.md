@@ -3,15 +3,14 @@ description: Zoek naar activa die op uw gespecificeerde criteria worden gebaseer
 solution: Experience Manager
 title: searchAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 58bd80e4-e9eb-43e4-8508-04e330f0ad26
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
-
 
 # searchAssets{#searchassets}
 
@@ -31,7 +30,7 @@ Syntaxis
 
 Beperk de grootte van uw gegevensset met de parameters `responseFieldArray` of `excludFieldArray`. Deze parameters helpen geheugengebruik en bandbreedte te verminderen en kunnen de tijden van de serverreactie verbeteren.
 
-## Toegestane gebruikerstypen {#section-9c4bc41bb8b4493982197eb13c7cdc55}
+## Geautoriseerde gebruikerstypen {#section-9c4bc41bb8b4493982197eb13c7cdc55}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -272,4 +271,3 @@ In dit codevoorbeeld wordt gezocht naar afbeeldingselementen die bij een bepaald
     </assetArray>
 </searchAssetsReturn>
 ```
-
