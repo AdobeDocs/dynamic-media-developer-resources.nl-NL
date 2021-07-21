@@ -2,16 +2,15 @@
 description: Hiermee stelt u de lijst in met elementen die aan een afbeeldingsset zijn gekoppeld.
 solution: Experience Manager
 title: setImageSetMember
-feature: Dynamic Media Classic,SDK/API,Image Sets
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Afbeeldingssets
+role: Developer,Admin
+exl-id: c30df5fe-e355-45d4-8c06-e396caca0d58
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
-
 
 # setImageSetMember{#setimagesetmembers}
 
@@ -19,7 +18,7 @@ Hiermee stelt u de lijst in met elementen die aan een afbeeldingsset zijn gekopp
 
 Met deze bewerking wordt de parameter `pageReset` voor `ImageSets` en `SpinSets` genegeerd en wordt de waarde op true ingesteld.
 
-## Toegestane gebruikerstypen {#section-8968d6a39a344cfc8521020d92ae8916}
+## Geautoriseerde gebruikerstypen {#section-8968d6a39a344cfc8521020d92ae8916}
 
 * `IpsUser`
 * `IpsAdmin`
