@@ -2,16 +2,15 @@
 description: Een taak die op een server wordt uitgevoerd. Het is ook een instantie van een geplande taak.
 solution: Experience Manager
 title: ActiveJob
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 3d878207-99e4-4c75-ab12-b38a37c82fb7
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
-
 
 # ActiveJob{#activejob}
 
@@ -175,4 +174,3 @@ Geef een waarde voor het taaktype op om het taaktype te retourneren. U kunt de v
   </tr> 
  </tbody> 
 </table>
-
