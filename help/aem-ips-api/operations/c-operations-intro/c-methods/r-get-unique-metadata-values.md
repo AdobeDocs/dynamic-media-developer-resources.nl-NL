@@ -2,16 +2,15 @@
 description: Hiermee worden unieke veldwaarden voor metagegevens opgehaald.
 solution: Experience Manager
 title: getUniqueMetadataValues
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,metagegevens
+role: Developer,Admin
+exl-id: ac5f5667-6c94-425c-bc01-f9df48d16e00
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '63'
 ht-degree: 1%
 
 ---
-
 
 # getUniqueMetadataValues{#getuniquemetadatavalues}
 
@@ -19,7 +18,7 @@ Hiermee worden unieke veldwaarden voor metagegevens opgehaald.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-6a6b67e10a4c4e7bb18306115713380e}
+## Geautoriseerde gebruikerstypen {#section-6a6b67e10a4c4e7bb18306115713380e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -66,4 +65,3 @@ In dit codevoorbeeld wordt een veldgreep gebruikt om specifieke metagegevenswaar
    </values>
 </getUniqueMetadataValuesReturn>
 ```
-
