@@ -3,21 +3,20 @@ description: Stel de publicatiestatus voor een of meer elementen in of werk deze
 solution: Experience Manager
 title: setAssetsContextState
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 28d0a67b-3e36-43fc-800d-17c841dca3a0
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
-
 
 # setAssetsContextState{#setassetscontextstate}
 
 Stel de publicatiestatus voor een of meer elementen in of werk deze bij. U kunt afzonderlijke publicatiestatussen instellen voor elke publicatiecontext in een bedrijf.
 
-## Toegestane gebruikerstypen {#section-815eb031f85143278c1560c18c5e3431}
+## Geautoriseerde gebruikerstypen {#section-815eb031f85143278c1560c18c5e3431}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -116,4 +115,3 @@ In dit codevoorbeeld wordt de publicatiestatus van een element ingesteld met `No
   <errorCount>0</errorCount>
 </setAssetsContextStateReturn>
 ```
-
