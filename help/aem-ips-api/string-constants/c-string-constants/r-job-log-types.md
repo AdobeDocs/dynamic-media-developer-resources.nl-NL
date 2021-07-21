@@ -2,18 +2,17 @@
 description: Wordt gebruikt door JobLogDetail/logType en JobLog/logType.
 solution: Experience Manager
 title: Typen taaklogbestanden
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 34b1bac0-c338-437a-9d44-09dbf75088ee
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '29'
+source-wordcount: '27'
 ht-degree: 0%
 
 ---
 
-
-# Typen taaklogbestand{#job-log-types}
+# Typen taaklogbestanden{#job-log-types}
 
 Wordt gebruikt door JobLogDetail/logType en JobLog/logType.
 
@@ -122,4 +121,3 @@ Syntaxis
 * [!DNL `OriginalJobName`]
 * [!DNL `TotalFileCount`]
 * [!DNL `RecoverTrashSuccess`]
-
