@@ -2,16 +2,15 @@
 description: Hiermee worden alle gebruikers in een array opgehaald.
 solution: Experience Manager
 title: getAllUsers
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: db1fd5c9-80f5-463a-870f-be3e38c21bab
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
-
 
 # getAllUsers{#getallusers}
 
@@ -19,7 +18,7 @@ Hiermee worden alle gebruikers in een array opgehaald.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-68ed5f5fcc5348308dfe074c590caeaa}
+## Geautoriseerde gebruikerstypen {#section-68ed5f5fcc5348308dfe074c590caeaa}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -90,4 +89,3 @@ Dit codevoorbeeld keert alle gebruikers terug. De reactie is afgebroken voor de 
    </ns1:userArray>
 <ns1:getAllUsersReturn>
 ```
-
