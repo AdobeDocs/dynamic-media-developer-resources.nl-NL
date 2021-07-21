@@ -2,18 +2,17 @@
 description: Beschrijft nieuwe en veranderde verrichtingsmethodes voor IPS API versie 4.5.
 solution: Experience Manager
 title: Nieuwe en gewijzigde bewerkingen
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 9033328a-d0ce-4ef2-b6ec-c6a81fbedf9d
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
 
-
-# Bewerkingen: Nieuw en Gewijzigd{#operations-new-and-modified}
+# Bewerkingen: Nieuw en gewijzigd{#operations-new-and-modified}
 
 Beschrijft nieuwe en veranderde verrichtingsmethodes voor IPS API versie 4.5.
 
@@ -47,4 +46,3 @@ Syntaxis
 * `searchAssets`
 * 
 * De parameter `renameFiles` is vervangen voor eerdere versies en is verwijderd uit de bewerking `renameAsset`. Het pad van het virtuele bestand wordt gewijzigd en aangepast aan de naam van het nieuwe element (met behoud van de bestandsextensie), maar dit heeft geen invloed op de fysieke bestandspaden. API-clients moeten verwijzingen naar deze parameter verwijderen bij het bijwerken naar de nieuwe API-versie.
-
