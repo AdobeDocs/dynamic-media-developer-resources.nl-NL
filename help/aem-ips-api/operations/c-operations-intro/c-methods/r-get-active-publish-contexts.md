@@ -2,16 +2,15 @@
 description: Hiermee wordt een lijst met actieve publicatiecontexten voor het opgegeven bedrijf opgehaald. Een publicatiecontext wordt als actief beschouwd als er ten minste één actieve server voor de context is gedefinieerd.
 solution: Experience Manager
 title: getActivePublishContext
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 9f450263-6877-4b32-a71a-8f67b0537a69
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
-
 
 # getActivePublishContext{#getactivepublishcontext}
 
@@ -19,7 +18,7 @@ Hiermee wordt een lijst met actieve publicatiecontexten voor het opgegeven bedri
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-eb22397744434dfe92a59ffa2883c2e7}
+## Geautoriseerde gebruikerstypen {#section-eb22397744434dfe92a59ffa2883c2e7}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -44,4 +43,3 @@ Syntaxis
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
 | `*`contextArray`*` | `types:StringArray` | Ja | De array met actieve publicatiecontexten, die nul of meer waarden uit de publicatiecontext kan bevatten. |
-
