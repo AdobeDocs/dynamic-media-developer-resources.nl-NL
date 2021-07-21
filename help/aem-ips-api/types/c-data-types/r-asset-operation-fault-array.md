@@ -3,15 +3,14 @@ description: Een array met fouten in de elementbewerking.
 solution: Experience Manager
 title: AssetOperationFaultArray
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 8bc6bfaa-eecf-4346-af57-25df2a471a1f
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '36'
+source-wordcount: '34'
 ht-degree: 0%
 
 ---
-
 
 # AssetOperationFaultArray{#assetoperationfaultarray}
 
@@ -24,4 +23,3 @@ Syntaxis
 | Naam | Type | Beschrijving |
 |---|---|---|
 | `*`items`*` | `types:AssetOperationFault` | Een array van foutitems voor de werking van elementen. |
-
