@@ -3,15 +3,14 @@ description: Hiermee worden de taaklogbestanden voor een element opgehaald. Item
 solution: Experience Manager
 title: getAssetJobLogs
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 88ec5cab-7eb4-48aa-914f-21311593e463
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
-
 
 # getAssetJobLogs{#getassetjoblogs}
 
@@ -19,7 +18,7 @@ Hiermee worden de taaklogbestanden voor een element opgehaald. Items die in de a
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-72b98cdb0f6f47f5aabdc183a45ea577}
+## Geautoriseerde gebruikerstypen {#section-72b98cdb0f6f47f5aabdc183a45ea577}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -83,4 +82,3 @@ In dit codevoorbeeld worden de taaklogbestanden van een bepaald element opgehaal
    </jobLogArray>
 </getAssetJobLogsReturn>
 ```
-
