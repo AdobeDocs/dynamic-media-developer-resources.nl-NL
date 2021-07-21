@@ -2,16 +2,15 @@
 description: Retourneert de leden van een groep.
 solution: Experience Manager
 title: getGroupMembership
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 847e4982-219d-47fd-b94c-f7d520ba1367
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
-
 
 # getGroupMembership{#getgroupmembership}
 
@@ -19,7 +18,7 @@ Retourneert de leden van een groep.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-35d070e5c4d74ca69df508368953cfb8}
+## Geautoriseerde gebruikerstypen {#section-35d070e5c4d74ca69df508368953cfb8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -64,4 +63,3 @@ Deze codesteekproef keert alle leden van een groep terug. Omdat het bedrijf en d
       <items>
          <groupHandle>225</groupHandle><companyHandle>47</companyHandle><name>MyGroup</name><isSystemDefined>false</isSystemDefined></items></groupArray></getGroupMembershipReturn>
 ```
-
