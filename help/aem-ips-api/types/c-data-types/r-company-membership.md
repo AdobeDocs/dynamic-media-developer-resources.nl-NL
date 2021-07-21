@@ -2,18 +2,17 @@
 description: Vennootschap
 solution: Experience Manager
 title: Vennootschap
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 10a1cd09-5cd8-48e6-93cf-da8d04d9941a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '28'
+source-wordcount: '26'
 ht-degree: 0%
 
 ---
 
-
-# Bedrijfslidmaatschap{#companymembership}
+# Vennootschap{#companymembership}
 
 Syntaxis
 
@@ -24,4 +23,3 @@ Syntaxis
 | `*`bedrijf`*` | `types:Company` |  |
 | `*`rol`*` | `xsd:string` |  |
 | `*`isActive`*` | `xsd:boolean` | Hiermee stelt u de status van de gebruiker in voor elk bedrijf waartoe de gebruiker behoort. |
-
