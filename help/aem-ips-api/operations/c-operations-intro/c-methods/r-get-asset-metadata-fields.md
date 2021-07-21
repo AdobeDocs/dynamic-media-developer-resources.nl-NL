@@ -3,15 +3,14 @@ description: Retourneert alle metagegevensvelden, gegroepeerd op elementtype.
 solution: Experience Manager
 title: getAssetMetadataFields
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 5234d3ea-c333-4e35-91ae-ce3412919fda
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---
-
 
 # getAssetMetadataFields{#getassetmetadatafields}
 
@@ -19,7 +18,7 @@ Retourneert alle metagegevensvelden, gegroepeerd op elementtype.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-e19a9d21cc2b45469c233d4ae55ebfc2}
+## Geautoriseerde gebruikerstypen {#section-e19a9d21cc2b45469c233d4ae55ebfc2}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -68,4 +67,3 @@ Syntaxis
    </assetFieldsArray>
 <getAssetMetadataFieldsReturn>
 ```
-
