@@ -2,16 +2,15 @@
 description: Een array met tagvoorwaarden.
 solution: Experience Manager
 title: TagConditionArray
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 9f5a1d4a-aa23-4761-b21f-0cf16fd2c584
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '30'
+source-wordcount: '28'
 ht-degree: 0%
 
 ---
-
 
 # TagConditionArray{#tagconditionarray}
 
@@ -24,4 +23,3 @@ Syntaxis
 | Naam | Type | Beschrijving |
 |---|---|---|
 | `*`items`*` | `types:TagCondition` | Een array met tagvoorwaarden. |
-
