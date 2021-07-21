@@ -2,16 +2,15 @@
 description: Hiermee verwijdert u een afbeelding met hyperlinks.
 solution: Experience Manager
 title: deleteImageMap
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: f9942a4a-d258-4e2a-8910-44fa502d97bd
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
-
 
 # deleteImageMap{#deleteimagemap}
 
@@ -19,7 +18,7 @@ Hiermee verwijdert u een afbeelding met hyperlinks.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-41fd188af16a40d4b07923165bcf15d8}
+## Geautoriseerde gebruikerstypen {#section-41fd188af16a40d4b07923165bcf15d8}
 
 * `IpsUser`
 * `IpsAdmin`
