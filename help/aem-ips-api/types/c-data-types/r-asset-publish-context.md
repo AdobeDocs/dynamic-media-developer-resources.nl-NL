@@ -3,15 +3,14 @@ description: Wijst een element toe aan de PublishContext waarin een element voor
 solution: Experience Manager
 title: AssetPublishContext
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: fa94e3ce-b210-4d0d-88f1-0b245d5a52b5
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '61'
 ht-degree: 0%
 
 ---
-
 
 # AssetPublishContext{#assetpublishcontexts}
 
@@ -25,4 +24,3 @@ Syntaxis
 |---|---|---|
 | `*`assetHandle`*` | `xsd:string` | Verwerk het element. |
 | `*`publishContextArray`*` | `types:PublishContextArray` | Een array van publicatiecontexten waarin het element is gemarkeerd voor publicatie. |
-
