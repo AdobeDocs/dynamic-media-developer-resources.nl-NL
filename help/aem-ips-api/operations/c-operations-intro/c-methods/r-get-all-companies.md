@@ -2,16 +2,15 @@
 description: Geeft een array van alle bedrijven.
 solution: Experience Manager
 title: getAllCompanies
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 0e339ecf-83b5-410c-8683-f3d73bd92339
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
-
 
 # getAllCompanies{#getallcompanies}
 
@@ -19,7 +18,7 @@ Geeft een array van alle bedrijven.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-773db3753b4842e5a4623ad810176508}
+## Geautoriseerde gebruikerstypen {#section-773db3753b4842e5a4623ad810176508}
 
 * `IpsAdmin`
 
@@ -70,4 +69,3 @@ Deze codesteekproef keert alle bedrijven in IPS in een serie terug. Let op: de r
    </ns1:companyArray>
 </ns1:getAllCompaniesReturn>
 ```
-
