@@ -2,24 +2,23 @@
 description: Retourneert Zip-bestandsgegevens.
 solution: Experience Manager
 title: getZipEntry
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: eb052685-b750-4a12-b00e-28e676340e98
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
 
-
-# getZipEnapters{#getzipentries}
+# getZipEntry{#getzipentries}
 
 Retourneert Zip-bestandsgegevens.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-33a3f03ba8a14086922397619ce12ab8}
+## Geautoriseerde gebruikerstypen {#section-33a3f03ba8a14086922397619ce12ab8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -75,4 +74,3 @@ Dit codevoorbeeld retourneert ZIP-bestandsinformatie, inclusief gecomprimeerde e
    </zipArray>
 </getZipEntriesReturn>
 ```
-
