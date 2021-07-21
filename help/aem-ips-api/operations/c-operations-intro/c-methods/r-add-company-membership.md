@@ -2,16 +2,15 @@
 description: Hiermee voegt u een gebruiker toe aan een of meer bedrijven.
 solution: Experience Manager
 title: addCompanyMembership
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 6efef4fb-f2e5-4c41-b739-a36ac2f17884
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
-
 
 # addCompanyMembership{#addcompanymembership}
 
@@ -19,7 +18,7 @@ Hiermee voegt u een gebruiker toe aan een of meer bedrijven.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-ae926c7672984be79f6102748accab72}
+## Geautoriseerde gebruikerstypen {#section-ae926c7672984be79f6102748accab72}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
