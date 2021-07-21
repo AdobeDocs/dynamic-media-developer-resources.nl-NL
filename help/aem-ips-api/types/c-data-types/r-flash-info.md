@@ -2,16 +2,15 @@
 description: Eigenschappen van een Flash-bestand.
 solution: Experience Manager
 title: FlashInfo
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: df49d1b9-aedd-4c72-b727-682cea74317e
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '33'
+source-wordcount: '31'
 ht-degree: 0%
 
 ---
-
 
 # FlashInfo{#flashinfo}
 
@@ -26,4 +25,3 @@ Syntaxis
 | `*`originalPath`*` | `xsd:string` | Bestandspad. |
 | `*`originalFile`*` | `xsd:string` | Bestandsnaam. |
 | `*`fileSize`*` | `xsd:int` | Bestandsgrootte. |
-
