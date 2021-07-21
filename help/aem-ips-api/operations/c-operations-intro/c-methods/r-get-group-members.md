@@ -2,16 +2,15 @@
 description: Haalt de gebruikers op die tot een specifiek bedrijf en een specifieke groep behoren.
 solution: Experience Manager
 title: getGroupMember
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 81af79ee-be82-439f-9f42-a1ec09cd8ea0
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
-
 
 # getGroupMember{#getgroupmembers}
 
@@ -19,7 +18,7 @@ Haalt de gebruikers op die tot een specifiek bedrijf en een specifieke groep beh
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-08a73460d122480292205bb8f2df9220}
+## Geautoriseerde gebruikerstypen {#section-08a73460d122480292205bb8f2df9220}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -62,4 +61,3 @@ Deze codesteekproef keert een gebruikershandvatserie terug die alle gebruikers b
    </userHandleArray>
 </getGroupMembersReturn>
 ```
-
