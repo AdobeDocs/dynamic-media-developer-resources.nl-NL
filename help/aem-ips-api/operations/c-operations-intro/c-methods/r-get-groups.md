@@ -2,16 +2,15 @@
 description: Retourneert bedrijfsgroepen.
 solution: Experience Manager
 title: getgroups
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: d98c08a6-4c20-4538-9598-c905078ab7de
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '66'
 ht-degree: 0%
 
 ---
-
 
 # getgroups{#getgroups}
 
@@ -19,7 +18,7 @@ Retourneert bedrijfsgroepen.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-27c77680a2f34e2f9ecd0af4ebb6847e}
+## Geautoriseerde gebruikerstypen {#section-27c77680a2f34e2f9ecd0af4ebb6847e}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -63,4 +62,3 @@ Deze code keert een serie terug die alle groepen bevat die tot een specifiek bed
    </groupArray>
 </getGroupsReturn>
 ```
-
