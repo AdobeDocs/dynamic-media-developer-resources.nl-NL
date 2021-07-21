@@ -2,18 +2,17 @@
 description: Beschrijft nieuwe en veranderde verrichtingsmethodes voor IPS API versie 3.8.
 solution: Experience Manager
 title: Nieuwe en gewijzigde bewerkingen
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
 exl-id: 8f4fe698-afe8-4ce6-904d-42fa67dee4dd
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '65'
 ht-degree: 0%
 
 ---
 
-# Bewerkingen: Nieuw en Gewijzigd{#operations-new-and-modified}
+# Bewerkingen: Nieuw en gewijzigd{#operations-new-and-modified}
 
 Beschrijft nieuwe en veranderde verrichtingsmethodes voor IPS API versie 3.8.
 
