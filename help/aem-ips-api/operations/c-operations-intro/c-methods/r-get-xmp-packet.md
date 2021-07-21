@@ -2,16 +2,15 @@
 description: Hiermee wordt een pakket met XMP metagegevens voor het opgegeven element opgehaald.
 solution: Experience Manager
 title: getXMPPacket
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 76e595bd-e598-40e8-aba3-b270fcf4d800
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '74'
 ht-degree: 0%
 
 ---
-
 
 # getXMPPacket{#getxmppacket}
 
@@ -19,7 +18,7 @@ Hiermee wordt een pakket met XMP metagegevens voor het opgegeven element opgehaa
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-7cb9c26045214f01b1d6b6948b6c6a18}
+## Geautoriseerde gebruikerstypen {#section-7cb9c26045214f01b1d6b6948b6c6a18}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -68,4 +67,3 @@ Syntaxis
    </compressedPacket>
 </getXMPPacketReturn>
 ```
-
