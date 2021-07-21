@@ -2,22 +2,21 @@
 description: Hiermee verwijdert u een vignetpublicatie-indeling.
 solution: Experience Manager
 title: deleteVignetPublishFormat
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: a437cb47-c45c-41a0-8499-53e4c2ae3164
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---
-
 
 # deleteVignetPublishFormat{#deletevignettepublishformat}
 
 Hiermee verwijdert u een vignetpublicatie-indeling.
 
-## Toegestane gebruikerstypen {#section-a127680d6b53462daaf2579d6f6fe5a8}
+## Geautoriseerde gebruikerstypen {#section-a127680d6b53462daaf2579d6f6fe5a8}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
