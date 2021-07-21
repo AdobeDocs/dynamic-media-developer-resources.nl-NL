@@ -2,18 +2,17 @@
 description: De uitbreidbare trefwoorden van het metagegevensplatform van een element.
 solution: Experience Manager
 title: XMPKeywords
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: f1ad16c8-cba2-4ef0-9558-6a4086c71393
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
 
-
-# XmpKeywords{#xmpkeywords}
+# XMPKeywords{#xmpkeywords}
 
 De uitbreidbare trefwoorden van het metagegevensplatform van een element.
 
@@ -37,4 +36,3 @@ Syntaxis
   </tr> 
  </tbody> 
 </table>
-
