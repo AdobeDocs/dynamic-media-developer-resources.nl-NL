@@ -2,16 +2,15 @@
 description: Werkt de configuratie-instellingen van de SWF-viewer bij.
 solution: Experience Manager
 title: updateViewerConfigSettings
-feature: Dynamic Media Classic,SDK/API,Viewer Presets
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Viewer-voorinstellingen
+role: Developer,Admin
+exl-id: 04565e2b-bda3-4ad0-afc1-2df01e455490
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '66'
 ht-degree: 0%
 
 ---
-
 
 # updateViewerConfigSettings{#updateviewerconfigsettings}
 
@@ -19,7 +18,7 @@ Werkt de configuratie-instellingen van de SWF-viewer bij.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-0dd001da1b784aefa5eb5b50c7a2c045}
+## Geautoriseerde gebruikerstypen {#section-0dd001da1b784aefa5eb5b50c7a2c045}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
