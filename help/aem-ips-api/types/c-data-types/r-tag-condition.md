@@ -2,16 +2,15 @@
 description: Hiermee definieert u zoekvoorwaarden voor tagvelden.
 solution: Experience Manager
 title: TagCondition
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: ab1ac4b3-e91e-4c42-8b77-6e4c1d129b1a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
-
 
 # TagCondition{#tagcondition}
 
@@ -57,4 +56,3 @@ Syntaxis
   </tr> 
  </tbody> 
 </table>
-
