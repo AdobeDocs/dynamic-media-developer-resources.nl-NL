@@ -3,15 +3,14 @@ description: Verwijdert machtigingen uit geselecteerde elementen.
 solution: Experience Manager
 title: removeAssetPermissions
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: c47d9853-91b1-45fe-b8ff-aaa1239ca0d1
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
-
 
 # removeAssetPermissions{#removeassetpermissions}
 
@@ -19,7 +18,7 @@ Verwijdert machtigingen uit geselecteerde elementen.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-239058fdb4454e519ac327e621cb3abc}
+## Geautoriseerde gebruikerstypen {#section-239058fdb4454e519ac327e621cb3abc}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
