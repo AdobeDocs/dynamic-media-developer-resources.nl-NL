@@ -2,16 +2,15 @@
 description: Hiermee stelt u woordenboekwaarden in voor een bestaand tagveld.
 solution: Experience Manager
 title: setTagFieldValues
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 50f437d6-fec5-4961-884e-fdb75d201ab7
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
-
 
 # setTagFieldValues{#settagfieldvalues}
 
@@ -19,7 +18,7 @@ Hiermee stelt u woordenboekwaarden in voor een bestaand tagveld.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-8b1413654bab44cfb2b1fffbb88aa385}
+## Geautoriseerde gebruikerstypen {#section-8b1413654bab44cfb2b1fffbb88aa385}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
