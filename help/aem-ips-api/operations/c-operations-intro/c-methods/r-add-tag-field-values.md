@@ -2,16 +2,15 @@
 description: Hiermee voegt u nieuwe tagwaarden toe aan het woordenboek van een bestaand tagveld.
 solution: Experience Manager
 title: addTagFieldValues
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 099263e4-8214-46eb-898e-7a28c4f25598
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
-
 
 # addTagFieldValues{#addtagfieldvalues}
 
@@ -19,7 +18,7 @@ Hiermee voegt u nieuwe tagwaarden toe aan het woordenboek van een bestaand tagve
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-ba1d7040661e48b7a6b035494e065c91}
+## Geautoriseerde gebruikerstypen {#section-ba1d7040661e48b7a6b035494e065c91}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
