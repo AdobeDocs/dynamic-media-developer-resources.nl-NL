@@ -2,13 +2,12 @@
 description: De IPS (het Systeem van de Productie van het Beeld) API van het Web laat externe toepassingen en derdeontwikkelaars toe om tot IPS activa en functionaliteit programmatically toegang te hebben.
 solution: Experience Manager
 title: Info over Image Production System API
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
 exl-id: c03e415f-57eb-4706-a17c-68d8469fba91
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
@@ -26,8 +25,8 @@ IPS API gebruikt standaardZEEP en de protocollen van HTTP en is compatibel met o
 >[!MORELIKETHIS]
 >
 >* [IPS Web Service WSDL-versies](c-wsdl-versions.md#concept-aff3e13f3b59486882260b5f2e962226)
->* [Bewerkingsmethoden](operations/c-operations-intro/c-methods/c-methods.md)
->* [Gegevenstypen](types/c-data-types/c-data-types.md#concept-dcf2ce73ff334e22bc4c634e3a0a50a6)
->* [Tekenreeksconstanten](string-constants/c-string-constants/c-string-constants.md)
->* [Standaardwaarden](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b)
+* [Bewerkingsmethoden](operations/c-operations-intro/c-methods/c-methods.md)
+* [Gegevenstypen](types/c-data-types/c-data-types.md#concept-dcf2ce73ff334e22bc4c634e3a0a50a6)
+* [Tekenreeksconstanten](string-constants/c-string-constants/c-string-constants.md)
+* [Standaardwaarden](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b)
 
