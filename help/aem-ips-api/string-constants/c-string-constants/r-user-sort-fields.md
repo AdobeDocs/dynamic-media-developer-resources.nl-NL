@@ -2,18 +2,17 @@
 description: Wordt gebruikt door getUsersParam/sortBy.
 solution: Experience Manager
 title: Velden sorteren door gebruiker
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 23d98e61-2873-41ed-8835-89b218cd89f3
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '23'
+source-wordcount: '21'
 ht-degree: 0%
 
 ---
 
-
-# Door gebruiker gesorteerde velden{#user-sort-fields}
+# Velden sorteren door gebruiker{#user-sort-fields}
 
 Wordt gebruikt door getUsersParam/sortBy.
 
@@ -28,4 +27,3 @@ Syntaxis
 * [!DNL `Role`]
 * [!DNL `Valid`]
 * [!DNL `PasswordExpiration`]
-
