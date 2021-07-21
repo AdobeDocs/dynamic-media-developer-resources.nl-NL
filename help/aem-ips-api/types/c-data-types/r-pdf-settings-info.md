@@ -2,18 +2,17 @@
 description: De eigenschappen van een PDF-instellingenbestand.
 solution: Experience Manager
 title: PdfSettingsInfo
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 5bf316ec-7f92-4384-8a4e-b80610e5839b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '39'
+source-wordcount: '37'
 ht-degree: 0%
 
 ---
 
-
-# PDFSettingsInfo{#pdfsettingsinfo}
+# PdfSettingsInfo{#pdfsettingsinfo}
 
 De eigenschappen van een PDF-instellingenbestand.
 
@@ -26,4 +25,3 @@ Syntaxis
 | `*`originalPath`*` | `xsd:string` | Bestandspad. |
 | `*`originalFile`*` | `xsd:string` | Bestandsnaam. |
 | `*`fileSize`*` | `xsd:int` | Bestandsgrootte. |
-
