@@ -2,16 +2,15 @@
 description: Haalt de oorspronkelijke bestandspaden van de elementen van een bedrijf op.
 solution: Experience Manager
 title: getOriginalFilePaths
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 81d06a8c-55c1-47d5-adc9-928ab30199c6
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
-
 
 # getOriginalFilePaths{#getoriginalfilepaths}
 
@@ -19,7 +18,7 @@ Haalt de oorspronkelijke bestandspaden van de elementen van een bedrijf op.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-da8d8561e9174e938f3595a5d6e50089}
+## Geautoriseerde gebruikerstypen {#section-da8d8561e9174e938f3595a5d6e50089}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -74,4 +73,3 @@ Dit codevoorbeeld retourneert de bestandspaden van elementen die zijn opgegeven 
    </originalFileArray>
 </getOriginalFilePathsReturn>
 ```
-
