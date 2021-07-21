@@ -2,16 +2,15 @@
 description: Opties voor handmatig uitsnijden voor afbeeldingen.
 solution: Experience Manager
 title: ManualCropOptions
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 829147b9-de78-4e8f-814c-ed44f714cb2e
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '62'
 ht-degree: 0%
 
 ---
-
 
 # ManualCropOptions{#manualcropoptions}
 
@@ -27,4 +26,3 @@ Syntaxis
 | `*`right`*` | `xsd:int` | De rechterpositie van de handmatige uitsnijding in pixels. |
 | `*`top`*` | `xsd:int` | De bovenste positie van de handmatige uitsnijding in pixels. |
 | `*`bottom`*` | `xsd:int` | De onderste positie van de handmatige uitsnijding in pixels. |
-
