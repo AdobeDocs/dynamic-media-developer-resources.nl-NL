@@ -2,16 +2,15 @@
 description: Hiermee worden taken opgehaald die zijn gepland voor uitvoering.
 solution: Experience Manager
 title: getScheduledJobs
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 7920637e-b289-410c-ae5c-e67cd7b21aba
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---
-
 
 # getScheduledJobs{#getscheduledjobs}
 
@@ -19,7 +18,7 @@ Hiermee worden taken opgehaald die zijn gepland voor uitvoering.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-bd1835ab508a429f8143b3bdb811d6a4}
+## Geautoriseerde gebruikerstypen {#section-bd1835ab508a429f8143b3bdb811d6a4}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -78,4 +77,3 @@ Dit codevoorbeeld retourneert alle geplande taken in een taakarray. De array zel
    </jobArray>
 </getScheduledJobsReturn>
 ```
-
