@@ -2,16 +2,15 @@
 description: Maak een nieuwe afbeeldingskaart of bewerk een bestaande kaart.
 solution: Experience Manager
 title: saveImageMap
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 91e40549-9b26-41f2-a3ab-7e9bec8f9ba7
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
-
 
 # saveImageMap{#saveimagemap}
 
@@ -19,7 +18,7 @@ Maak een nieuwe afbeeldingskaart of bewerk een bestaande kaart.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-9ef194a67b3546fb82ed7bb294bc2714}
+## Geautoriseerde gebruikerstypen {#section-9ef194a67b3546fb82ed7bb294bc2714}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -135,4 +134,3 @@ In dit codevoorbeeld wordt een nieuwe afbeeldingskaart voor een element gemaakt.
    <imageMapHandle>34191|8|554</imageMapHandle> 
 </saveImageMapReturn>
 ```
-
