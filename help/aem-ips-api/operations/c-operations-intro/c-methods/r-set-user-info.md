@@ -2,16 +2,15 @@
 description: Hiermee stelt u gebruikerskenmerken in (bijvoorbeeld naam, e-mail, rol, enz.)
 solution: Experience Manager
 title: setUserInfo
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: d8f8fe53-a874-4b77-9084-9a369862a672
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
-
 
 # setUserInfo{#setuserinfo}
 
@@ -19,7 +18,7 @@ Hiermee stelt u gebruikerskenmerken in (bijvoorbeeld naam, e-mail, rol, enz.)
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-6c28db5d15b3449492a73749e4f981ac}
+## Geautoriseerde gebruikerstypen {#section-6c28db5d15b3449492a73749e4f981ac}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
