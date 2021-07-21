@@ -2,16 +2,15 @@
 description: Controleert op IPS ID-conflicten door elementnamen te vergelijken met alle namen in de naamruimte van de catalogus Afbeelding weergeven/Afbeelding renderen van een bedrijf.
 solution: Experience Manager
 title: checkAssetNames
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 0756c4fc-64ec-4022-a6aa-fcf1542b41b0
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
-
 
 # checkAssetNames{#checkassetnames}
 
@@ -19,7 +18,7 @@ Controleert op IPS ID-conflicten door elementnamen te vergelijken met alle namen
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-8efcbb3f555f417a870219e4714374db}
+## Geautoriseerde gebruikerstypen {#section-8efcbb3f555f417a870219e4714374db}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,7 +29,7 @@ Syntaxis
 * `TrialSiteAdmin`
 * `TrialSiteUser`
 
-## Parameters {#section-9c75b00f2072453abea0bdefc6ad7c99}
+## Parmaeters {#section-9c75b00f2072453abea0bdefc6ad7c99}
 
 **Input (checkAssetNamesParam)**
 
@@ -70,4 +69,3 @@ In deze voorbeeldcode worden de namen van elementen opgevraagd die voor een opge
    </inUseNameArray>
 </checkAssetNamesReturn>
 ```
-
