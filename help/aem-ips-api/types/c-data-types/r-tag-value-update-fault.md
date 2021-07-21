@@ -2,16 +2,15 @@
 description: De gegenereerde fout wanneer een update van de tagwaarde mislukt.
 solution: Experience Manager
 title: TagValueUpdateFault
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 8225b3c7-626d-41b0-acd8-a20170427292
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '46'
 ht-degree: 0%
 
 ---
-
 
 # TagValueUpdateFault{#tagvalueupdatefault}
 
@@ -26,4 +25,3 @@ Syntaxis
 | `*`value`*` | `xsd:string` | Tagwaarde waarvoor de update is mislukt. |
 | `*`code`*` | `xsd:int` | Foutcodenummer. |
 | `*`reden`*` | `xsd:string` | Foutbericht (normale tekst). |
-
