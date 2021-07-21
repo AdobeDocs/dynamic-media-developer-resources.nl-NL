@@ -2,22 +2,21 @@
 description: Geeft informatie over de structuur van een bedrijf (aantal bestanden, enz.).
 solution: Experience Manager
 title: getDiskUsage
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 06fdd9f5-5021-4f0b-b312-4465df9bda25
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
-
 
 # getDiskUsage{#getdiskusage}
 
 Geeft informatie over de structuur van een bedrijf (aantal bestanden, enz.).
 
-## Toegestane gebruikerstypen {#authorized-user-types}
+## Geautoriseerde gebruikerstypen {#authorized-user-types}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -65,4 +64,3 @@ De naam van dit verzoek is misleidend. In plaats van alleen een scalaire waarde 
    </diskUsageArray>
 </getDiskUsageReturn>
 ```
-
