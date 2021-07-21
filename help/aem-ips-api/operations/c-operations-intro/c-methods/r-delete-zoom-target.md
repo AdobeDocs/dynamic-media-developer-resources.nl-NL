@@ -2,22 +2,21 @@
 description: Hiermee verwijdert u een zoomdoel.
 solution: Experience Manager
 title: deleteZoomTarget
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: fa1f7cf8-038a-4fa8-b869-12ce4b2ad41f
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
-
 
 # deleteZoomTarget{#deletezoomtarget}
 
 Hiermee verwijdert u een zoomdoel.
 
-## Toegestane gebruikerstypen {#section-09ca82bc817e49048271c5cba545702e}
+## Geautoriseerde gebruikerstypen {#section-09ca82bc817e49048271c5cba545702e}
 
 * `IpsUser`
 * `IpsAdmin`
