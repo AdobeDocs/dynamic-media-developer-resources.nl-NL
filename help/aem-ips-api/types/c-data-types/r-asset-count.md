@@ -3,15 +3,14 @@ description: Elementen en tellen voor een bedrijf.
 solution: Experience Manager
 title: AssetCount
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: a5d750a3-1b76-4e91-9a2b-c91b41d0de7e
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '45'
 ht-degree: 0%
 
 ---
-
 
 # AssetCount{#assetcount}
 
@@ -23,4 +22,3 @@ De types van activa omvatten [!DNL ViewerSWf], [!DNL PDF], [!DNL Cabinet], en an
 |---|---|---|
 | `*`assetType`*` | `xsd:string` | Type van activa verbonden aan telling. |
 | `*`aantal`*` | `xsd:int` | Aantal activa `assetType` in het bedrijf. |
-
