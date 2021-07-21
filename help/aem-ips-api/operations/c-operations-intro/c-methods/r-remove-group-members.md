@@ -2,16 +2,15 @@
 description: Hiermee verwijdert u bedrijfgebruikers uit een specifieke groep.
 solution: Experience Manager
 title: removeGroupMember
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 8a9b7d54-d11b-41a8-9783-573a316e0ac6
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
-
 
 # removeGroupMember{#removegroupmembers}
 
@@ -22,7 +21,7 @@ Hiermee verwijdert u bedrijfgebruikers uit een specifieke groep.
 * `removeGroupMembers`: Hiermee verwijdert u meerdere gebruikers uit een groep.
 * `removeGroupMembership`: Verwijdert een individuele gebruiker uit een serie van groepen.
 
-## Toegestane gebruikerstypen {#section-2c64cdac15184fbba6c7b2945b5d87f7}
+## Geautoriseerde gebruikerstypen {#section-2c64cdac15184fbba6c7b2945b5d87f7}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
