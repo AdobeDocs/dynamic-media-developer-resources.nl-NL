@@ -2,16 +2,15 @@
 description: Hiermee wordt een lijst opgehaald met de tekens die in een bepaald veld worden gebruikt.
 solution: Experience Manager
 title: getUserChars
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: d6b79c06-0e90-406f-bac8-3b8c2bae5480
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
-
 
 # getUserChars{#getuserchars}
 
@@ -19,7 +18,7 @@ Hiermee wordt een lijst opgehaald met de tekens die in een bepaald veld worden g
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-7023871be4d2442daf51ff060ca06d9a}
+## Geautoriseerde gebruikerstypen {#section-7023871be4d2442daf51ff060ca06d9a}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -79,4 +78,3 @@ De tekenreeksconstante van de Filtervelden Gebruikersteken bepaalt het type van 
    </userCharsArray>
 </getUserCharsReturn>
 ```
-
