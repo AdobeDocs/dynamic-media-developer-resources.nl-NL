@@ -2,16 +2,15 @@
 description: Maakt een map.
 solution: Experience Manager
 title: createFolder
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 569130ae-5515-4b14-a410-2bd6f9fc7638
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL createFolder]{#createfolder}
 
@@ -23,7 +22,7 @@ Maakt een map.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-14ef6368056b4e8f96198c20b6d93b9b}
+## Geautoriseerde gebruikerstypen {#section-14ef6368056b4e8f96198c20b6d93b9b}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -71,4 +70,3 @@ Deze voorbeeldcode leidt tot een omslag bij de wortel van een bedrijf. De reacti
    <folderHandle xmlns="http://www.scene7.com/IpsApi/xsd">MyCompany/SpinSets/</folderHandle>
 </ns1:createFolderReturn>
 ```
-
