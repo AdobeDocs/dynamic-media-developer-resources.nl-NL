@@ -3,15 +3,14 @@ description: Beschrijft waarden die door diverse inputparameters worden gebruikt
 solution: Experience Manager
 title: Elementen
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: efbdf214-403e-4dc8-90c1-97e6fd113265
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '45'
 ht-degree: 0%
 
 ---
-
 
 # Elementen{#asset-types}
 
@@ -77,4 +76,3 @@ Syntaxis
 * [!DNL `Xsl`]
 * [!DNL `Zip Rtf`]
 * [!DNL `ZoomTarget`]
-
