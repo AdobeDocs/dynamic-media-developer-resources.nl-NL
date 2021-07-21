@@ -2,16 +2,15 @@
 description: Hiermee stelt u het zoomdoel in dat aan een elementafbeelding is gekoppeld. De bestaande zoomdoelen worden overschreven.
 solution: Experience Manager
 title: setZoomTargets
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 1b4ac729-00cf-4ea2-9098-60b4af3c7e6d
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
-
 
 # setZoomTargets{#setzoomtargets}
 
@@ -19,7 +18,7 @@ Hiermee stelt u het zoomdoel in dat aan een elementafbeelding is gekoppeld. De b
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-c5e1863e9cb1426591bfea513620b6ab}
+## Geautoriseerde gebruikerstypen {#section-c5e1863e9cb1426591bfea513620b6ab}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -83,4 +82,3 @@ In dit codevoorbeeld wordt een array met zoomdoelen op naam, positie (x- en y-as
    </zoomTargetHandleArray>
 </setZoomTargetsReturn>
 ```
-
