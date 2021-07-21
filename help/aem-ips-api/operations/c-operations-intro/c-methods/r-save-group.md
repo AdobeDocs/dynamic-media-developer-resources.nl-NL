@@ -2,16 +2,15 @@
 description: Maak of bewerk een groep.
 solution: Experience Manager
 title: saveGroup
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 1dd980e7-eb38-4c90-b4fc-83327d4a95f5
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '97'
 ht-degree: 1%
 
 ---
-
 
 # saveGroup{#savegroup}
 
@@ -19,7 +18,7 @@ Maak of bewerk een groep.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-a6c1ce4c69f44ad0bcd41bbf3893bc45}
+## Geautoriseerde gebruikerstypen {#section-a6c1ce4c69f44ad0bcd41bbf3893bc45}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -63,4 +62,3 @@ Deze codesteekproef leidt tot een groep die tot een specifiek bedrijf behoort. A
    <groupHandle>281</groupHandle>
 </saveGroupReturn>
 ```
-
