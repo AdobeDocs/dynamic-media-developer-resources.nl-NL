@@ -2,16 +2,15 @@
 description: Taakloggegevens.
 solution: Experience Manager
 title: JobLogDetail
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: fe41a48a-4671-4179-a128-aadc7bc0683b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '66'
 ht-degree: 0%
 
 ---
-
 
 # JobLogDetail{#joblogdetail}
 
@@ -29,4 +28,3 @@ Syntaxis
 | `*`assetType`*` | `xsd:string` | Keuze van het type element. |
 | `*`assetHandle`*` | `xsd:string` | Asset handle waarnaar wordt verwezen in het taaklogbestand. |
 | `*`auxArray`*` | `types:JobLogDetailAuxArray` | Verstrekt extra gedetailleerde informatie van het baanlogboek voorbij de vijf hierboven beschreven types van baanlogboek. |
-
