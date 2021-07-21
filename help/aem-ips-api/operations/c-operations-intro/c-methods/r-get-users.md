@@ -2,22 +2,21 @@
 description: Hiermee wordt een array met gebruikers opgehaald, zoals is opgegeven door het bedrijf, de groep en de handgrepen voor de gebruikersrol. Met deze bewerking kunt u geretourneerde gebruikers sorteren en filteren op teken.
 solution: Experience Manager
 title: getUsers
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: dfdcbcdd-232f-4c73-9520-c7c958eedf54
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
-
 
 # getUsers{#getusers}
 
 Hiermee wordt een array met gebruikers opgehaald, zoals is opgegeven door het bedrijf, de groep en de handgrepen voor de gebruikersrol. Met deze bewerking kunt u geretourneerde gebruikers sorteren en filteren op teken.
 
-## Toegestane gebruikerstypen {#section-6a8f23cc6b22442d8776f701016971ed}
+## Geautoriseerde gebruikerstypen {#section-6a8f23cc6b22442d8776f701016971ed}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -81,4 +80,3 @@ Deze codesteekproef keert de serie van gebruikers voor verscheidene facultatieve
    </userArray>
 </getUsersReturn>
 ```
-
