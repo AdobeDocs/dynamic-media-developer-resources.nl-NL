@@ -2,16 +2,15 @@
 description: Benoemde set gebruikers die wordt gebruikt voor het toewijzen van machtigingen.
 solution: Experience Manager
 title: Groep
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 843b3fa5-93d3-43db-b6c7-194e7fa4d31a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '47'
 ht-degree: 2%
 
 ---
-
 
 # Groep{#group}
 
@@ -27,4 +26,3 @@ Syntaxis
 | `*`companyHandle`*` | `xsd:string` | Bedrijfshandgreep. |
 | `*`name`*` | `xsd:string` | Groepsnaam. |
 | `*`is SystemDefined`*` | `xsd:string` | Hiermee wordt aangegeven of de groep door het systeem wordt gedefinieerd. |
-
