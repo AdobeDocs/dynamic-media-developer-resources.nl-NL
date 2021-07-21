@@ -2,16 +2,15 @@
 description: Beschrijft de gemeenschappelijke verrichtingsparameters die door de IPS Dienst API van het Web worden behandeld.
 solution: Experience Manager
 title: Bewerkingsmethoden
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 020c8e63-ad4e-4c0d-8da6-b51efb2b89a5
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
-
 
 # Bewerkingsmethoden{#operations-methods}
 
@@ -48,7 +47,7 @@ searchParam.setFolder("myFolder");
 SearchAssetsReturn retVal = ipsApi.searchAssets(searchParam, authHeader);
 ```
 
-## Algemene handvattypen {#section-e683ac8283284f9688e63f51a494f7a0}
+## Algemene typen handgrepen {#section-e683ac8283284f9688e63f51a494f7a0}
 
 **companyHandle**
 
