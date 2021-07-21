@@ -2,16 +2,15 @@
 description: Wordt gebruikt door searchAssetsParam/publishState, setAssetPublishStateParam/publishState en ContextStateUpdate/publishState.
 solution: Experience Manager
 title: Status publiceren
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 0be4ef1b-f1d3-4698-a5ed-d721c328291a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '31'
+source-wordcount: '29'
 ht-degree: 0%
 
 ---
-
 
 # Status publiceren{#publish-state}
 
@@ -23,4 +22,3 @@ Syntaxis
 
 * [!DNL `MarkedForPublish`]
 * [!DNL `NotMarkedForPublish`]
-
