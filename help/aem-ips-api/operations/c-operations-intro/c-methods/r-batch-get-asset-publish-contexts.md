@@ -3,15 +3,14 @@ description: Retourneert de publicatiecontext voor elementen die zijn gemarkeerd
 solution: Experience Manager
 title: batchGetAssetPublishContext
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+role: Developer,Admin
+exl-id: ba1f62a7-2698-4300-b6de-6d07ac764b0c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
-
 
 # batchGetAssetPublishContext{#batchgetassetpublishcontexts}
 
@@ -19,7 +18,7 @@ Retourneert de publicatiecontext voor elementen die zijn gemarkeerd voor publica
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-d5362ca8a6ab42949cd648ba38dbf2f8}
+## Geautoriseerde gebruikerstypen {#section-d5362ca8a6ab42949cd648ba38dbf2f8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -102,4 +101,3 @@ Syntaxis
   </assetPublishContextsArray>
 </batchGetAssetPublishContextsReturn>
 ```
-
