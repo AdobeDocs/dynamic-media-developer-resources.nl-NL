@@ -2,22 +2,21 @@
 description: Hiermee verwijdert u waarden van tagvelden uit het woordenboek van een tagveld.
 solution: Experience Manager
 title: deleteTagFieldValues
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 2694bd6d-b1ba-4146-a155-12829d9dfa47
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
-
 
 # deleteTagFieldValues{#deletetagfieldvalues}
 
 Hiermee verwijdert u waarden van tagvelden uit het woordenboek van een tagveld.
 
-## Toegestane gebruikerstypen {#section-e6f97c875c2a4cf0a7bc22096b649497}
+## Geautoriseerde gebruikerstypen {#section-e6f97c875c2a4cf0a7bc22096b649497}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
