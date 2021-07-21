@@ -2,16 +2,15 @@
 description: Hiermee maskeert u de achtergrond voor geselecteerde afbeeldingen (neemt u af). Hierdoor kunt u ze in andere lagen bedekken met transparantie buiten de afbeelding van het onderwerp. Een optionele parameter die standaard uitgeschakeld is.
 solution: Experience Manager
 title: KnockoutBackgroundOptions
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: aed8cf2e-5a09-43ff-9420-0d0d54059515
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
-
 
 # KnockoutBackgroundOptions{#knockoutbackgroundoptions}
 
@@ -84,4 +83,3 @@ Het type `KnockoutBackgroundOptions` wordt gebruikt door:
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
 * [UploadUrlsJob](../../types/c-data-types/r-upload-urls-job.md#reference-8e9bc895268c4321b233dbeadc990398)
-
