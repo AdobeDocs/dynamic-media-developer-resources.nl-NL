@@ -2,16 +2,15 @@
 description: Hiermee wordt een uitgesneden gebied voor een afbeelding geretourneerd op basis van de achtergrondkleur of -transparantie.
 solution: Experience Manager
 title: getAutoCropRect
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: e291597a-b863-42dd-88dc-13398b734410
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
-
 
 # getAutoCropRect{#getautocroprect}
 
@@ -19,7 +18,7 @@ Hiermee wordt een uitgesneden gebied voor een afbeelding geretourneerd op basis 
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-32dfe7bb68764b93ae01e05ff7a7bdd0}
+## Geautoriseerde gebruikerstypen {#section-32dfe7bb68764b93ae01e05ff7a7bdd0}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -82,5 +81,5 @@ Syntaxis
 >[!MORELIKETHIS]
 >
 >* [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6)
->* [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)
+* [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)
 
