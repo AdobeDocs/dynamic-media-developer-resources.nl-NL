@@ -2,16 +2,15 @@
 description: Hiermee worden alle systeemeigenschappen in één aanvraag opgehaald.
 solution: Experience Manager
 title: getSystemProperties
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: b0ef16fd-1645-4e22-99bb-8c9269623168
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '60'
 ht-degree: 0%
 
 ---
-
 
 # getSystemProperties{#getsystemproperties}
 
@@ -19,7 +18,7 @@ Hiermee worden alle systeemeigenschappen in één aanvraag opgehaald.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-fc311ce90a54400fa95b9dd36b756e23}
+## Geautoriseerde gebruikerstypen {#section-fc311ce90a54400fa95b9dd36b756e23}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -70,4 +69,3 @@ Deze codesteekproef keert een serie van systeemeigenschappen terug. Respons inge
    </propertyArray> 
 </getSystemPropertiesReturn>
 ```
-
