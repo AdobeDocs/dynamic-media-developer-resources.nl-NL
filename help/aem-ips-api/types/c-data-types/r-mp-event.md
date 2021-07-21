@@ -2,16 +2,15 @@
 description: Een MediaPortal-gebeurtenis.
 solution: Experience Manager
 title: MPEvent
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 642c82d1-aea1-4430-a599-b526fdbc8091
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '137'
 ht-degree: 10%
 
 ---
-
 
 # MPEvent{#mpevent}
 
@@ -44,4 +43,3 @@ Syntaxis
 | `*`float2`*` | `xsd:double` | Houder van de vergunning voor het in de handel brengen (facultatief). |
 | `*`float3`*` | `xsd:double` | Houder van de vergunning voor het in de handel brengen (facultatief). |
 | `*`time1`*` | `xsd:dateTime` | Houder voor datum-/tijdstempelgegevens (optioneel). |
-
