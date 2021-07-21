@@ -3,15 +3,14 @@ description: Stelt metagegevenswaarden in voor een element. Werkt met een array 
 solution: Experience Manager
 title: setAssetMetadata
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 811e44e1-774a-49bd-a2bd-a7504e5f7f5f
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
-
 
 # setAssetMetadata{#setassetmetadata}
 
@@ -19,7 +18,7 @@ Stelt metagegevenswaarden in voor een element. Werkt met een array van updates v
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-9dcacb0c924044648f8324bfed183dca}
+## Geautoriseerde gebruikerstypen {#section-9dcacb0c924044648f8324bfed183dca}
 
 * `IpsUser`
 * `IpsAdmin`
