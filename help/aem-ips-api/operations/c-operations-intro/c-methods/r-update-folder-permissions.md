@@ -2,16 +2,15 @@
 description: Mapmachtigingen bijwerken.
 solution: Experience Manager
 title: updateFolderPermissions
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 4e4f382e-4339-4b9d-a721-d33a4fa8be6b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
-
 
 # updateFolderPermissions{#updatefolderpermissions}
 
@@ -19,7 +18,7 @@ Mapmachtigingen bijwerken.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-e5c2217231bf4b3386e0ab3f2e9aca0b}
+## Geautoriseerde gebruikerstypen {#section-e5c2217231bf4b3386e0ab3f2e9aca0b}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
