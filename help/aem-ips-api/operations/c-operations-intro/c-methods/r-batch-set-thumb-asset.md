@@ -3,15 +3,14 @@ description: Hiermee stelt u de miniatuurafbeelding in voor een of meer elemente
 solution: Experience Manager
 title: batchSetThumbAsset
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+role: Developer,Admin
+exl-id: f7d7ddd9-a3c3-47c4-8da6-d693851d0d7f
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
-
 
 # batchSetThumbAsset{#batchsetthumbasset}
 
@@ -29,7 +28,7 @@ Toegestane elementtypen voor miniaturen bestaan uit de volgende elementen:
 * Sjabloon
 * PSDTemplate
 
-## Toegestane gebruikerstypen {#section-5fc988e3d6384968b86fd9fe363658c0}
+## Geautoriseerde gebruikerstypen {#section-5fc988e3d6384968b86fd9fe363658c0}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -85,4 +84,3 @@ Toegestane elementtypen voor miniaturen bestaan uit de volgende elementen:
    <errorCount>0</errorCount>
 </batchSetThumbAssetReturn>
 ```
-
