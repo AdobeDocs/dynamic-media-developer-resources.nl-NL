@@ -2,16 +2,15 @@
 description: Eigenschappen van maskerbestanden.
 solution: Experience Manager
 title: MaskInfo
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 91e760c5-2c6e-47e6-9429-d37ba9d84cdb
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '28'
+source-wordcount: '26'
 ht-degree: 0%
 
 ---
-
 
 # MaskInfo{#maskinfo}
 
@@ -25,4 +24,3 @@ Syntaxis
 |---|---|---|
 | `*`maskPath`*` | `xsd:string` | Pad voor maskerbestand. |
 | `*`maskFile`*` | `xsd:string` | Naam maskerbestand. |
-
