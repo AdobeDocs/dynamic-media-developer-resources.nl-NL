@@ -3,15 +3,14 @@ description: Legt activa van het IPS afval leeg.
 solution: Experience Manager
 title: emptyAssetsFromTrash
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 36866dc8-6a16-4445-942f-d0ea3c168272
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
-
 
 # emptyAssetsFromTrash{#emptyassetsfromtrash}
 
@@ -19,7 +18,7 @@ Legt activa van het IPS afval leeg.
 
 Activa worden in de prullenbak geplaatst totdat ze handmatig worden geleegd of totdat ze uit de prullenbak stappen. Als ze handmatig worden geleegd, leven ze in de prullenmand tot de volgende opschoontaak (normaal nij) wanneer ze definitief uit het systeem worden verwijderd. Als ze uit de prullenbak stappen, worden de middelen schoongemaakt als onderdeel van dezelfde schoonmaakactie. De time-out kan worden geconfigureerd (de standaardinstellingen zijn 7 dagen).
 
-## Toegestane gebruikerstypen {#section-24dee2bf5f9f4714a64955c80f2803b4}
+## Geautoriseerde gebruikerstypen {#section-24dee2bf5f9f4714a64955c80f2803b4}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -73,4 +72,3 @@ In dit codevoorbeeld worden de greep van het bedrijf en een elementgreep-array g
    <errorCount>0</errorCount>
 </emptyAssetsFromTrashReturn>
 ```
-
