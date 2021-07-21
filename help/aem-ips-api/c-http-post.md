@@ -3,12 +3,11 @@ description: Bij het uploaden van elementen naar Dynamic Media Classic worden ee
 solution: Experience Manager
 title: Elementen uploaden via HTTP POST's naar de UploadFile-server
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: e40293be-d00f-44c1-8ae7-521ce3312ca8
-translation-type: tm+mt
-source-git-commit: e7c747c44d27ed1769ab872d962a814d80c0b345
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '734'
 ht-degree: 0%
 
 ---
@@ -179,7 +178,7 @@ Content-Transfer-Encoding: binary
 --O9-ba7tieRtqA4QRSaVk-eDq6658SPrYfvUcJ--
 ```
 
-## Respons van de POST van het voorbeeld - succes {#section-0d515ba14c454ed0b5196ac8d1bb156e}
+## Respons POST voorbeeld - succes {#section-0d515ba14c454ed0b5196ac8d1bb156e}
 
 ```
 HTTP/1.1 200 OK 
