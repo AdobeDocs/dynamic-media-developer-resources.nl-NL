@@ -2,16 +2,15 @@
 description: Verwijdert een eigenschapset en alle bijbehorende eigenschappen.
 solution: Experience Manager
 title: deletePropertySet
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 72429030-200d-4e13-a537-10a728998a26
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
-
 
 # deletePropertySet{#deletepropertyset}
 
@@ -19,7 +18,7 @@ Verwijdert een eigenschapset en alle bijbehorende eigenschappen.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-b54aa8c854de400a989b4957412ff42c}
+## Geautoriseerde gebruikerstypen {#section-b54aa8c854de400a989b4957412ff42c}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
