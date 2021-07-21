@@ -2,16 +2,15 @@
 description: Een array met updates van metagegevens.
 solution: Experience Manager
 title: MetadataUpdateArray
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,metagegevens
+role: Developer,Admin
+exl-id: d6ff2ae9-0924-4155-81fb-282f808cc54f
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '30'
+source-wordcount: '28'
 ht-degree: 0%
 
 ---
-
 
 # MetadataUpdateArray{#metadataupdatearray}
 
@@ -24,4 +23,3 @@ Syntaxis
 | Naam | Type | Beschrijving |
 |---|---|---|
 | `*`items`*` | `types:MetadataUpdate` | Array met updates van metagegevens. |
-
