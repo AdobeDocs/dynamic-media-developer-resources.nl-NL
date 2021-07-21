@@ -2,16 +2,15 @@
 description: Hiermee maakt u een site-overzicht voor video.
 solution: Experience Manager
 title: CreateVideoSitemapJob
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 2af7c949-46cf-4570-9043-1b6296a2e467
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '55'
 ht-degree: 0%
 
 ---
-
 
 # CreateVideoSitemapJob{#createvideositemapjob}
 
@@ -37,4 +36,3 @@ Syntaxis
   </tr> 
  </tbody> 
 </table>
-
