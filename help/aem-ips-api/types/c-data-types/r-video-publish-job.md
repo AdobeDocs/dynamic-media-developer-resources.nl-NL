@@ -3,15 +3,14 @@ description: Hiermee publiceert u bestanden naar de geconfigureerde videopublica
 solution: Experience Manager
 title: VideoPublishJob
 feature: Dynamic Media Classic,SDK/API,Video
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 4b295025-6e8d-4329-87c1-63633bf26129
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '47'
 ht-degree: 0%
 
 ---
-
 
 # VideoPublishJob{#videopublishjob}
 
@@ -26,4 +25,3 @@ Syntaxis
 | `*`emailSetting`*` | `xsd:string` | Keuze van e-mailinstellingen. |
 | `*`httpCompletionUrl`*` | `xsd:string` | URL om een voltooiingsbericht te verzenden. |
 | `*`contextHandle`*` | `xsd:string` | Verwerk de publicatiecontext. |
-
