@@ -3,15 +3,14 @@ description: Werkt elementmachtigingen bij.
 solution: Experience Manager
 title: updateAssetPermission
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 12972a52-7b70-405c-9c73-e5ce6ab7dd9b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '61'
 ht-degree: 0%
 
 ---
-
 
 # updateAssetPermission{#updateassetpermissons}
 
@@ -19,7 +18,7 @@ Werkt elementmachtigingen bij.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-3928e9badc3842e1859af4ed362df719}
+## Geautoriseerde gebruikerstypen {#section-3928e9badc3842e1859af4ed362df719}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
