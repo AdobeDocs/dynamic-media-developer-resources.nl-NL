@@ -2,16 +2,15 @@
 description: Photoshop-opties voor afbeeldingslagen.
 solution: Experience Manager
 title: PhotoshopLayerOptions
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: fae60e86-6ec5-4f19-a76f-7d179dfb5dba
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '60'
 ht-degree: 0%
 
 ---
-
 
 # PhotoshopLayerOptions{#photoshoplayeroptions}
 
@@ -28,4 +27,3 @@ Syntaxis
 | `*`createTemplate`*` | `xsd:boolean` | Of u een sjabloon maakt op basis van Photoshop-lagen. |
 | `*`extractText`*` | `xsd:boolean` | Of tekst moet worden geëxtraheerd als tekstlagen. |
 | `*`extendLayers`*` | `xsd:boolean` | Of lagen moeten worden uitgebreid naar de volledige grootte van de achtergrond. |
-
