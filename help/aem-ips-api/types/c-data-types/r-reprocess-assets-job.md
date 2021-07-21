@@ -3,15 +3,14 @@ description: Taaktype waarmee eerder geüploade primaire bestanden opnieuw kunne
 solution: Experience Manager
 title: ReprocessAssetsJob
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: b6078246-54e1-4119-b4f8-ba6a28577cff
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
-
 
 # ReprocessAssetsJob{#reprocessassetsjob}
 
@@ -171,4 +170,3 @@ De opties voor `*PublishJob` omvatten:
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`
 * `postVideoPublishJob`
-
