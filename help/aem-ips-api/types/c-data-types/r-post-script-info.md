@@ -2,16 +2,15 @@
 description: PostScriptInfo
 solution: Experience Manager
 title: PostScriptInfo
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 9d226927-3b00-4e11-b279-e866aa649477
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '24'
+source-wordcount: '22'
 ht-degree: 0%
 
 ---
-
 
 # PostScriptInfo{#postscriptinfo}
 
@@ -24,4 +23,3 @@ Syntaxis
 | `*`originalPath`*` | `xsd:string` | Bestandspad. |
 | `*`originalFile`*` | `xsd:string` | Bestandsnaam. |
 | `*`fileSize`*` | `xsd:int` | Bestandsgrootte. |
-
