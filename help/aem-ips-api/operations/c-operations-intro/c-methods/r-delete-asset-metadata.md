@@ -3,15 +3,14 @@ description: Verwijdert metagegevenswaarden voor een element. Werkt met een arra
 solution: Experience Manager
 title: deleteAssetMetadata
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: ce9b8dff-efc0-4427-9f50-10269647187f
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
-
 
 # deleteAssetMetadata{#deleteassetmetadata}
 
@@ -19,7 +18,7 @@ Verwijdert metagegevenswaarden voor een element. Werkt met een array van metageg
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-e913be43b684491daf02bc73211e4290}
+## Geautoriseerde gebruikerstypen {#section-e913be43b684491daf02bc73211e4290}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -104,4 +103,3 @@ Voorbeeldaanroep
  </deleteAssetMetadataParam>
 </ac:Request>
 ```
-
