@@ -2,16 +2,15 @@
 description: Retourneert coördinaten voor de vierhoek die het benoemde Photoshop-pad omsluit.
 solution: Experience Manager
 title: getPhotoshopPath
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 46d88547-bb60-4370-9c79-bd281b40ba28
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
-
 
 # getPhotoshopPath{#getphotoshoppath}
 
@@ -19,7 +18,7 @@ Retourneert coördinaten voor de vierhoek die het benoemde Photoshop-pad omsluit
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-c417a287612847cb98dd0aa9c67fd78a}
+## Geautoriseerde gebruikerstypen {#section-c417a287612847cb98dd0aa9c67fd78a}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
