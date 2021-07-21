@@ -2,16 +2,15 @@
 description: Hiermee stelt u metagegevensvelden voor ICC-profielen in.
 solution: Experience Manager
 title: batchSetIccProfileFields
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: d10a30ca-afa7-4ef0-8cef-0329b0068bf3
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
-
 
 # batchSetIccProfileFields{#batchseticcprofilefields}
 
@@ -19,7 +18,7 @@ Hiermee stelt u metagegevensvelden voor ICC-profielen in.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-f6f7caf9434b4f469518dab64b76c0f4}
+## Geautoriseerde gebruikerstypen {#section-f6f7caf9434b4f469518dab64b76c0f4}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -74,4 +73,3 @@ Syntaxis
    <errorCount>0</errorCount>
 </batchSetIccProfileFieldsReturn>
 ```
-
