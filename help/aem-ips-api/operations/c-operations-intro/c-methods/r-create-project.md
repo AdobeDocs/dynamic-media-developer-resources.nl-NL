@@ -2,16 +2,15 @@
 description: Hiermee maakt u een nieuw project.
 solution: Experience Manager
 title: createProject
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: dd9c07df-9a8f-4b67-9838-31dd96fd127b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
-
 
 # createProject{#createproject}
 
@@ -19,7 +18,7 @@ Hiermee maakt u een nieuw project.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-17878e2e4c3a44988c9a1af82c2ac319}
+## Geautoriseerde gebruikerstypen {#section-17878e2e4c3a44988c9a1af82c2ac319}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -61,4 +60,3 @@ Deze codesteekproef leidt tot een project genoemd `ApiTestProject` in een bedrij
    <projectHandle>p|6|ApiTestProject</projectHandle>
 </createProjectReturn>
 ```
-
