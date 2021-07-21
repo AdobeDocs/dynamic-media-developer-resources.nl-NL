@@ -2,16 +2,15 @@
 description: Hiermee genereert u een nieuw wachtwoord.
 solution: Experience Manager
 title: generatePassword
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 80e7642f-4aec-4ff0-a090-e59b7a065c39
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '64'
 ht-degree: 0%
 
 ---
-
 
 # generatePassword{#generatepassword}
 
@@ -19,7 +18,7 @@ Hiermee genereert u een nieuw wachtwoord.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-88f7dc11e5c74be281399d8f2e3c9555}
+## Geautoriseerde gebruikerstypen {#section-88f7dc11e5c74be281399d8f2e3c9555}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -61,4 +60,3 @@ In dit codevoorbeeld wordt een wachtwoord gegenereerd. Dit is ongebruikelijk omd
    <password>1\7aQRn]</password>
 </generatePasswordReturn>
 ```
-
