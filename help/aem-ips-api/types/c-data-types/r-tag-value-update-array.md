@@ -2,16 +2,15 @@
 description: Een array met tagwaarden wordt bijgewerkt.
 solution: Experience Manager
 title: TagValueUpdateArray
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: e1f6a6bf-6c27-4465-98bf-6bfba3482b54
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '33'
+source-wordcount: '31'
 ht-degree: 0%
 
 ---
-
 
 # TagValueUpdateArray{#tagvalueupdatearray}
 
@@ -24,4 +23,3 @@ Syntaxis
 | Naam | Type | Beschrijving |
 |---|---|---|
 | `*`items`*` | `types:TagValueUpdate` | Een array met tagwaarden wordt bijgewerkt. |
-
