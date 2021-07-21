@@ -3,15 +3,14 @@ description: Hiermee worden de activa en het aantal activa opgehaald die aan een
 solution: Experience Manager
 title: getAssetCounts
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 21cb8023-d6fe-416a-b16f-636df8a37958
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '148'
 ht-degree: 0%
 
 ---
-
 
 # getAssetCounts{#getassetcounts}
 
@@ -20,7 +19,7 @@ Hiermee worden de activa en het aantal activa opgehaald die aan een bepaalde ond
 De geretourneerde `countArray` bestaat uit een array van `assetTypes` (gegevenstype `xsd:string`), elk met een eigen telveld (gegevenstype `xsd:int`), waardoor meerdere elementtypen per element van de array kunnen worden weergegeven.
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-6234754722184e828352f10eb18fbce9}
+## Geautoriseerde gebruikerstypen {#section-6234754722184e828352f10eb18fbce9}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -74,4 +73,3 @@ Deze codesteekproef gebruikt het handvat van het bedrijf als gebied in `getAsset
    </countArray>
 </getAssetCountsReturn>
 ```
-
