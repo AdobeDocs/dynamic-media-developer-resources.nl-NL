@@ -3,15 +3,14 @@ description: Wijzigt de naam van een element.
 solution: Experience Manager
 title: renameAsset
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: f3fff3c1-1b48-4d86-8a81-f75be00fc329
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
-
 
 # renameAsset{#renameasset}
 
@@ -21,7 +20,7 @@ Wijzigt de naam van een element.
 >
 >De parameter `renameFiles` is vervangen voor eerdere versies en verwijderd uit `renameAsset`. Het pad van het virtuele bestand wordt gewijzigd en aangepast aan de naam van het nieuwe element (met behoud van de bestandsextensie), maar dit heeft geen invloed op de fysieke bestandspaden. API-clients moeten verwijzingen naar deze parameter verwijderen bij het bijwerken naar de nieuwe API-versie.
 
-## Toegestane gebruikerstypen {#section-cc27ad713c6d498b8f056850b20976f4}
+## Geautoriseerde gebruikerstypen {#section-cc27ad713c6d498b8f056850b20976f4}
 
 * `IpsUser`
 * `IpsAdmin`
