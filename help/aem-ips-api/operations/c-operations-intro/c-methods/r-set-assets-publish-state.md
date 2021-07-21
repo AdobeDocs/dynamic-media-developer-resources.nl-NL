@@ -3,15 +3,14 @@ description: Hiermee wordt bepaald of een reeks elementen gereed is om te worden
 solution: Experience Manager
 title: setAssetsPublishState
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: dce324e4-cf86-4a65-ab00-8cd2bba20f8f
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
-
 
 # setAssetsPublishState{#setassetspublishstate}
 
@@ -19,7 +18,7 @@ Hiermee wordt bepaald of een reeks elementen gereed is om te worden gepubliceerd
 
 Dit is de batchversie van [setAssetState](../../../operations/c-operations-intro/c-methods/r-set-asset-publish-state.md#reference-9efc2eeea42348e0b1d5f3d1005c6563).
 
-## Toegestane gebruikerstypen {#section-0804726f683944dbbe9acfc3d35ccf25}
+## Geautoriseerde gebruikerstypen {#section-0804726f683944dbbe9acfc3d35ccf25}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -83,4 +82,3 @@ In dit codevoorbeeld wordt de publicatiestatus van een element ingesteld.
    </complexType>
 </element>
 ```
-
