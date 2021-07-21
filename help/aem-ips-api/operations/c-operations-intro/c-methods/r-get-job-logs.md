@@ -2,16 +2,15 @@
 description: Hiermee worden opgegeven taaklogbestanden voor het geselecteerde bedrijf opgehaald. U kunt sorteren op tekens, richting, begin- en einddatum en op het aantal rijen.
 solution: Experience Manager
 title: getJobLogs
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 6239c3c4-bdbc-4e69-82d4-48a76f080eff
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
-
 
 # getJobLogs{#getjoblogs}
 
@@ -19,7 +18,7 @@ Hiermee worden opgegeven taaklogbestanden voor het geselecteerde bedrijf opgehaa
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-9df82972265d44c9ad91504a17c3ffa6}
+## Geautoriseerde gebruikerstypen {#section-9df82972265d44c9ad91504a17c3ffa6}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -86,4 +85,3 @@ Deze codesteekproef keert IPS baanlogboeken voor een specifiek bedrijf terug. U 
    </jobLogArray>
 </getJobLogsReturn>
 ```
-
