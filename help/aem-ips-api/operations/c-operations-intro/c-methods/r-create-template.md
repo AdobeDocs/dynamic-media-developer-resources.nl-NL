@@ -2,16 +2,15 @@
 description: Hiermee maakt u een gelaagde afbeelding die meerdere tekst- en afbeeldingslagen kan bevatten.
 solution: Experience Manager
 title: createTemplate
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 228b4228-8c42-4e42-9fb1-d6aea61b9c4a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
-
 
 # createTemplate{#createtemplate}
 
@@ -19,7 +18,7 @@ Hiermee maakt u een gelaagde afbeelding die meerdere tekst- en afbeeldingslagen 
 
 De `urlModifier` parameter specificeert de het protocolbevelen van de Server van het Beeld in de catalogus van de Server van het Beeld die voorafgaand aan om het even welke user-provided bevelen op URL worden toegepast. Met de parameter `urlPostApplyModifier` worden protocolopdrachten opgegeven die worden toegepast na URL-opdrachten. Deze overschrijven eventuele conflicterende door de gebruiker opgegeven instellingen.
 
-## Toegestane gebruikerstypen {#section-9fb615d8e75f452eab2893cc3decfbe6}
+## Geautoriseerde gebruikerstypen {#section-9fb615d8e75f452eab2893cc3decfbe6}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -70,4 +69,3 @@ In dit codevoorbeeld wordt een sjabloon gemaakt in een map die door een greep wo
    <assetHandle>a|153393|2|2061</assetHandle>
 </createTemplateReturn>
 ```
-
