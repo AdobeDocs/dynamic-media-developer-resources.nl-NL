@@ -2,18 +2,17 @@
 description: Beschrijft nieuwe en veranderde verrichtingsmethodes voor IPS API versie 6.
 solution: Experience Manager
 title: Nieuwe en gewijzigde bewerkingen
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: fc7af77e-17fc-453a-8949-78c9c5c33b34
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
 
-
-# Bewerkingen: Nieuw en Gewijzigd{#operations-new-and-modified}
+# Bewerkingen: Nieuw en gewijzigd{#operations-new-and-modified}
 
 Beschrijft nieuwe en veranderde verrichtingsmethodes voor IPS API versie 6.
 
@@ -88,4 +87,3 @@ Syntaxis
 
 * `getXMPPanelViewDefinition` verwijderd.
 * `searchAssetsByFulltext` en `searchAssetsBySimilarity` zijn verwijderd.
-
