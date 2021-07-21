@@ -3,15 +3,14 @@ description: Hiermee werkt u een elementenset bij.
 solution: Experience Manager
 title: updateAssetSet
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: af7899c4-a95f-42c8-858e-ed1592c6f5b6
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
-
 
 # updateAssetSet{#updateassetset}
 
@@ -54,4 +53,3 @@ Syntaxis
 ```java
 <updateAssetSetReturn xmlns="http://www.scene7.com/IpsApi/xsd/2014-04-03"/>
 ```
-
