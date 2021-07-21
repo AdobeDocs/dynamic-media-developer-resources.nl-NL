@@ -2,16 +2,15 @@
 description: Eigenschap stelt array type in.
 solution: Experience Manager
 title: PropertySetTypeArray
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 56f0bcf6-0a8c-4976-88ab-45700d5d5e3d
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '28'
+source-wordcount: '26'
 ht-degree: 0%
 
 ---
-
 
 # PropertySetTypeArray{#propertysettypearray}
 
@@ -24,4 +23,3 @@ Syntaxis
 | Naam | Type | Beschrijving |
 |---|---|---|
 | `*`items`*` | `types:PropertySetType` | The property set type array. |
-
