@@ -2,16 +2,15 @@
 description: Hiermee publiceert u alle afbeeldingen, sjablonen en centrifuges die zijn gemarkeerd om naar een servermap te publiceren.
 solution: Experience Manager
 title: ServerDirectoryPublishJob
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: b6fe49ef-9db8-495c-9d5e-3230889f21ca
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '60'
 ht-degree: 0%
 
 ---
-
 
 # ServerDirectoryPublishJob{#serverdirectorypublishjob}
 
@@ -25,4 +24,3 @@ Syntaxis
 |---|---|---|
 | `*`emailSettings`*` | `xsd:string` | Keuze van e-mailinstellingen. |
 | `*`httpCompletionUrl`*` | `xsd:string` | URL om een voltooiingsbericht te verzenden. |
-
