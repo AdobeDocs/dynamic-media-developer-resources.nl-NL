@@ -2,16 +2,15 @@
 description: Wordt gebruikt door searchAssetReturn/trashState.
 solution: Experience Manager
 title: Prullenbak
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: f37d7380-127e-48ef-808f-5aa36bf2c665
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '21'
+source-wordcount: '19'
 ht-degree: 0%
 
 ---
-
 
 # Prullenbak{#trash-state}
 
@@ -24,4 +23,3 @@ Syntaxis
 * [!DNL `NotInTrash`]
 * [!DNL `InTrash`]
 * [!DNL `InEmptiedTrash`]
-
