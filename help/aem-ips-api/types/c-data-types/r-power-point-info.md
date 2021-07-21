@@ -2,16 +2,15 @@
 description: Opties voor PowerPoint-bestanden.
 solution: Experience Manager
 title: PowerPointInfo
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 089bea2b-562f-4a63-a4f1-70194811a47d
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '29'
+source-wordcount: '27'
 ht-degree: 0%
 
 ---
-
 
 # PowerPointInfo{#powerpointinfo}
 
@@ -26,4 +25,3 @@ Syntaxis
 | `*`originalPath`*` | `xsd:string` | Bestandspad. |
 | `*`originalFile`*` | `xsd:string` | Bestandsnaam. |
 | `*`fileSize`*` | `xsd:int` | Bestandsgrootte. |
-
