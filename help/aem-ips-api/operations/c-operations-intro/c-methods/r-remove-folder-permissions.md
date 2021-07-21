@@ -2,16 +2,15 @@
 description: Verwijdert machtigingen voor mappen.
 solution: Experience Manager
 title: removeFolderPermissions
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 10830980-d504-4610-96c9-730937453256
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
-
 
 # removeFolderPermissions{#removefolderpermissions}
 
@@ -19,7 +18,7 @@ Verwijdert machtigingen voor mappen.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-bfa745624f9b43aaba6c226ac6700fe7}
+## Geautoriseerde gebruikerstypen {#section-bfa745624f9b43aaba6c226ac6700fe7}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
