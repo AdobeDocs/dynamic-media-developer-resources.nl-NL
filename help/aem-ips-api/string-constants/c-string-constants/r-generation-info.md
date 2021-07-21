@@ -2,16 +2,15 @@
 description: Wordt gebruikt door getGenerationInfo/engine.
 solution: Experience Manager
 title: Generatie-info
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 0293d28e-a023-4a79-9a3b-fc7b5cfbc98a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '21'
+source-wordcount: '19'
 ht-degree: 0%
 
 ---
-
 
 # Generatie-info{#generation-info}
 
@@ -26,4 +25,3 @@ Syntaxis
 * [!DNL `ImageConvert`]
 * [!DNL `SceneAuthoring`]
 * [!DNL `Aco`]
-
