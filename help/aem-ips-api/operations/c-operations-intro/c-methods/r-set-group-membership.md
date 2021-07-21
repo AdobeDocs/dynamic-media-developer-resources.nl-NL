@@ -2,16 +2,15 @@
 description: Hiermee stelt u het groepslidmaatschap voor een gebruiker in.
 solution: Experience Manager
 title: setGroupMembership
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 0a355a34-1c2d-48c1-ba12-7d07d1673d09
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
-
 
 # setGroupMembership{#setgroupmembership}
 
@@ -19,7 +18,7 @@ Hiermee stelt u het groepslidmaatschap voor een gebruiker in.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-3d6308a8a5694ed085e04d1c37982b9e}
+## Geautoriseerde gebruikerstypen {#section-3d6308a8a5694ed085e04d1c37982b9e}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
