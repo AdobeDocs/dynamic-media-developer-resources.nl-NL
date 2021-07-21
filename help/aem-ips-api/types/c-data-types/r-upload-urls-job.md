@@ -2,16 +2,15 @@
 description: Hiermee uploadt u URL's vanaf de locatie waar u bestanden wilt ophalen.
 solution: Experience Manager
 title: UploadUrlsJob
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 28bca473-670f-4588-93fb-a6d6a692ce30
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
-
 
 # UploadUrlsJob{#uploadurlsjob}
 
@@ -186,4 +185,3 @@ Voor `PublishJob` kunt u slechts een van de volgende opties kiezen:
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`
 * `postvideoPublishJob`
-
