@@ -2,16 +2,15 @@
 description: Eigenschappen voor laagweergave.
 solution: Experience Manager
 title: LayerViewInfo
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 25199c86-1df0-41af-b210-e7668a60295e
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '52'
 ht-degree: 0%
 
 ---
-
 
 # LayerViewInfo{#layerviewinfo}
 
@@ -26,4 +25,3 @@ Syntaxis
 | `*`url`*` | `xsd:string` | URL afbeeldingsserver die de sjabloon vertegenwoordigt. Hiermee combineert u `urlModifier`- en `urlPostAp- plyModifier`-velden. |
 | `*`urlModifier`*` | `xsd:string` | Afbeelding met protocolopdrachten die moeten worden toegepast vóór aanvraag of `urlPostApplyModifier`-opdrachten. |
 | `*`urlPostApplyModifier`*` | `xsd:string` | Beeld die protocolbevelen dienen om na `urlModifier` en verzoekbevelen van toepassing te zijn. |
-
