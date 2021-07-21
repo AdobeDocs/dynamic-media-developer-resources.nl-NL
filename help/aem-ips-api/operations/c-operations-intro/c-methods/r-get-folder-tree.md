@@ -2,16 +2,15 @@
 description: Retourneert mappen en submappen in een hiërarchische boomstructuur. De reactie getFolderTree is beperkt tot maximaal 100.000 mappen
 solution: Experience Manager
 title: getFolderTree
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 1afe63ca-d11a-4fa5-a26b-90a23bee1b68
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
-
 
 # getFolderTree{#getfoldertree}
 
@@ -19,7 +18,7 @@ Retourneert mappen en submappen in een hiërarchische boomstructuur. De reactie 
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-66ef19149f4d4123a3a99004b5a2743e}
+## Geautoriseerde gebruikerstypen {#section-66ef19149f4d4123a3a99004b5a2743e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -132,4 +131,3 @@ Deze codesteekproef gebruikt een bedrijfshandvat en een diepteparameter om het n
   <permissionSetArray>
 </getFolderTreeReturn>
 ```
-
