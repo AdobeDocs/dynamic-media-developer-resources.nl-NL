@@ -2,16 +2,15 @@
 description: Stelt een pakket met XMP metagegevens voor een element in of werkt dit bij.
 solution: Experience Manager
 title: updateXMPPacket
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 04d85dba-cc86-4069-ab5d-9a5b3fe542c9
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '73'
 ht-degree: 0%
 
 ---
-
 
 # updateXMPPacket{#updatexmppacket}
 
@@ -19,7 +18,7 @@ Stelt een pakket met XMP metagegevens voor een element in of werkt dit bij.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-ee88a759f4774482a4734201a971f610}
+## Geautoriseerde gebruikerstypen {#section-ee88a759f4774482a4734201a971f610}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -69,4 +68,3 @@ C8bO5sugbVa5/4Hnd05blc9y1zmGCCI0zcO50PyK40+q4LbWPt3IqGmykqnONnVgUUYNvsdfOH6wzN6C
    <success>true</success>
 </updateXMPPacketReturn>
 ```
-
