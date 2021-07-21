@@ -2,16 +2,15 @@
 description: Hiermee publiceert u metagegevens naar de metagegevensserver.
 solution: Experience Manager
 title: MetadataPublishJobType
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,metagegevens
+role: Developer,Admin
+exl-id: b90d27c0-9398-4597-bcce-3c36a371df22
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---
-
 
 # MetadataPublishJobType{#metadatapublishjobtype}
 
@@ -37,4 +36,3 @@ Syntaxis
   </tr> 
  </tbody> 
 </table>
-
