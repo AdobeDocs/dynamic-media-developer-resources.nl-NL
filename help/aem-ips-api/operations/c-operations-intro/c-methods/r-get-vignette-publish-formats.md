@@ -2,22 +2,21 @@
 description: getVignetPublishFormats
 solution: Experience Manager
 title: getVignetPublishFormats
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 6e56d68e-b5cf-4044-9c58-f8221fa4490f
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '66'
 ht-degree: 0%
 
 ---
-
 
 # getVignetPublishFormats{#getvignettepublishformats}
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-1f5e2f74aef8408e89ed9ccac8b5b9bc}
+## Geautoriseerde gebruikerstypen {#section-1f5e2f74aef8408e89ed9ccac8b5b9bc}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -64,4 +63,3 @@ Deze codesteekproef keert twee vignet terug publiceert formaten verbonden aan ee
    </vignetteFormatArray>
 </getVignettePublishFormatsReturn>
 ```
-
