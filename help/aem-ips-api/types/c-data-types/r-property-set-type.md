@@ -2,16 +2,15 @@
 description: Geldige waarden voor de velden PropertySetType en createPropertySetTypeParam.
 solution: Experience Manager
 title: PropertySetType
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: f0c51e67-6927-4b9f-9935-222e6a194c13
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
-
 
 # PropertySetType{#propertysettype}
 
@@ -61,4 +60,3 @@ Waarden zijn:
   </tr> 
  </tbody> 
 </table>
-
