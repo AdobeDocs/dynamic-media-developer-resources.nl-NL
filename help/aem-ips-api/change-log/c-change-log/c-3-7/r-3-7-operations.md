@@ -2,18 +2,17 @@
 description: Beschrijft nieuwe en veranderde verrichtingsmethodes voor IPS API versie 3.7.
 solution: Experience Manager
 title: Nieuwe en gewijzigde bewerkingen
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 1f11a686-7239-4922-a608-5330864184ac
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '53'
 ht-degree: 0%
 
 ---
 
-
-# Bewerkingen: Nieuw en Gewijzigd{#operations-new-and-modified}
+# Bewerkingen: Nieuw en gewijzigd{#operations-new-and-modified}
 
 Beschrijft nieuwe en veranderde verrichtingsmethodes voor IPS API versie 3.7.
 
@@ -52,4 +51,3 @@ Syntaxis
 
 * Toegevoegd `excludeFieldArray` en `getUniqueMetadataValues`.
 * `fieldHandle` is een vereiste parameter.
-
