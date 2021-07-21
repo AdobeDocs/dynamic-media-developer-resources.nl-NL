@@ -3,15 +3,14 @@ description: Hiermee verwijdert u meerdere elementen.
 solution: Experience Manager
 title: deleteAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+role: Developer,Admin
+exl-id: 487f83e6-f713-40e9-a442-e1179b30012c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
-
 
 # deleteAssets{#deleteassets}
 
@@ -19,7 +18,7 @@ Hiermee verwijdert u meerdere elementen.
 
 Syntaxis
 
-## Toegestane gebruikerstypen {#section-a6bc555b8ac840c98835b73fbf838d70}
+## Geautoriseerde gebruikerstypen {#section-a6bc555b8ac840c98835b73fbf838d70}
 
 * `IpsUser`
 * `IspAdmin`
@@ -127,4 +126,3 @@ Deze codesteekproef verzendt een handvat naar een bedrijf en een serie van activ
    <errorCount>0</errorCount>
 </deleteAssetsReturn>
 ```
-
