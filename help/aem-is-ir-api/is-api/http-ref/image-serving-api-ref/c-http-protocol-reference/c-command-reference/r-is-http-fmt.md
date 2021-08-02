@@ -5,9 +5,9 @@ title: fmt
 feature: Dynamic Media Classic, SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 9d86f2acad638cbbcb80b48ead73443c76c895a9
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -22,33 +22,33 @@ Indeling reactieafbeelding.
 
 | *`format`* | Beschrijving |
 |---|---|
-| `avif-alpha` | AVIF zonder verlies en verlies met alfakanaal <br><br>*Release-tijdlijn voor deze indeling:* <br><b>Noord-Amerika</b> - Beschikbaar nu<br><b>Europa, Midden-Oosten, Afrika</b> - 13 augustus 2021<br><b>Asia-Pacific</b> - Nu beschikbaar |
-| `avif` | AVIF <br><br>*Release-tijdlijn zonder verlies voor deze indeling:*<br><b> Noord-Amerika</b> - Beschikbaar nu<br><b>Europa, Midden-Oosten, Afrika</b> - 13 augustus 2021<br><b>Asia-Pacific</b> - Nu beschikbaar |
-| `eps` | Niet-gecomprimeerde binaire Encapsulated PostScript |
-| `f4m` | Flash Streaming Server-manifest-indeling |
-| `gif-alpha` | GIF met 2 tot 255 kleuren plus transparantie van hoofdkleuren |
-| `gif` | GIF met 2 tot 256 kleuren |
-| `jpeg` | JPEG met gegevensverlies |
-| `jpeg2000-alpha` | JPEG 2000 met alfakanaal zonder verlies en verlies |
-| `jpeg2000` | JPEG 2000 met verlies en zonder verlies |
-| `jpegxr-alpha` | JPEG XR zonder verlies en met alfakanaal |
-| `jpegxr` | JPEG XR zonder gegevensverlies |
-| `jpg` | JPG met gegevensverlies |
-| `m3u8` | Apple Streaming Server-manifestindeling |
-| `pdf` | Afbeelding ingesloten in PDF |
-| `pjpeg` | Progressieve JPEG |
-| `png-alpha` | 24-bits PNG zonder gegevensverlies met alfakanaal |
-| `png` | 24-bits PNG zonder gegevensverlies |
-| `png8-alpha` | 8-bits PNG zonder gegevensverlies met alfakanaal |
-| `png8` | 8-bits PNG zonder gegevensverlies |
-| `swf-alpha` | JPEG met verlies en een gecomprimeerd masker zijn ingesloten in een SWF-bestand met Adobe AS2 |
-| `swf` | JPEG met verlies ingesloten in een Adobe AS2 SWF-bestand |
-| `swf3-alpha` | JPEG met verlies en een gecomprimeerd masker zijn ingesloten in een SWF-bestand met Adobe AS3. **Opmerking:** SWF- en swf-alfa-indelingen kunnen het best worden gebruikt voor ActionScript 2-toepassingen (Flash Player 8 en eerder). De indelingen swf3 en swf3-alpha worden aanbevolen voor gebruik in ActionScript 3-toepassingen (Flash Player 9 en hoger) |
-| `swf3` | JPEG met verlies ingesloten in een Adobe AS3 SWF-bestand |
-| `tif-alpha` | TIFF met alfakanaal |
-| `tif` | TIFF |
-| `webp-alpha` | WebP zonder verlies en met alfakanaal |
-| `webp` | WebP zonder gegevensverlies |
+| `avif-alpha` | AVIF zonder verlies en met alfakanaal. |
+| `avif` | AVIF zonder verlies en met verlies. |
+| `eps` | Niet-gecomprimeerde binaire Encapsulated PostScript. |
+| `f4m` | Flash Streaming Server-manifestindeling. |
+| `gif-alpha` | GIF met 2 tot 255 kleuren plus transparantie van hoofdkleuren. |
+| `gif` | GIF met 2 tot 256 kleuren. |
+| `jpeg` | JPEG met gegevensverlies. |
+| `jpeg2000-alpha` | JPEG 2000 met alfakanaal zonder verlies en verlies. |
+| `jpeg2000` | JPEG 2000 met verlies en zonder verlies. |
+| `jpegxr-alpha` | JPEG XR met verlies en zonder verlies met alfakanaal. |
+| `jpegxr` | JPEG XR zonder gegevensverlies en gegevensverlies. |
+| `jpg` | JPG met verlies. |
+| `m3u8` | Apple Streaming Server-manifestindeling. |
+| `pdf` | Afbeelding ingesloten in PDF. |
+| `pjpeg` | Progressieve JPEG. |
+| `png-alpha` | 24-bits PNG zonder gegevensverlies met alfakanaal. |
+| `png` | 24-bits PNG zonder gegevensverlies. |
+| `png8-alpha` | 8-bits PNG zonder gegevensverlies met alfakanaal. |
+| `png8` | 8-bits PNG zonder gegevensverlies. |
+| `swf-alpha` | JPEG met verlies en een gecomprimeerd masker zijn ingesloten in een SWF-bestand met Adobe AS2. |
+| `swf` | JPEG met verlies ingesloten in een SWF-bestand met Adobe AS2. |
+| `swf3-alpha` | JPEG met verlies en een gecomprimeerd masker zijn ingesloten in een SWF-bestand met Adobe AS3. **Opmerking:** SWF- en swf-alfa-indelingen kunnen het best worden gebruikt voor ActionScript 2-toepassingen (Flash Player 8 en eerder). De indelingen swf3 en swf3-alpha worden aanbevolen voor gebruik in ActionScript 3-toepassingen (Flash Player 9 en hoger). |
+| `swf3` | JPEG met verlies ingesloten in een Adobe AS3 SWF-bestand. |
+| `tif-alpha` | TIFF met alfakanaal. |
+| `tif` | TIFF. |
+| `webp-alpha` | WebP zonder verlies en met alfakanaal. |
+| `webp` | WebP zonder verlies en verlies. |
 
 | *`pixelType`* - rgb | grijs | cmyk |
 | *`pixelType`* | Beschrijving |
@@ -60,12 +60,12 @@ Indeling reactieafbeelding.
 | *`compression`* - geen | lzw | zip | jpeg | verlies | verliesloos |
 | *`compression`* | Beschrijving |
 |---|---|
-| `jpeg` | JPEG-compressie (met verlies) |
-| `lossy` | WebP-, JPEG 2000- en JPEG XR-compressie (met verlies) |
-| `lossless` | WebP-, JPEG 2000- en JPEG XR-compressie (zonder gegevensverlies) |
-| `lzw` | LZW-compressie (Lempel-Ziv-Welch) (zonder verlies) |
-| `none` | Niet gecomprimeerd |
-| `zip` | Compressie &#39;Deflate&#39; (zonder gegevensverlies) |
+| `jpeg` | JPEG-compressie (met gegevensverlies). |
+| `lossy` | WebP-, JPEG 2000- en JPEG XR-compressie (met verlies). |
+| `lossless` | WebP-, JPEG 2000- en JPEG XR-compressie (zonder gegevensverlies). |
+| `lzw` | LZW-compressie (Lempel-Ziv-Welch) (zonder verlies). |
+| `none` | Niet gecomprimeerd. |
+| `zip` | Compressie &#39;Deflate&#39; (zonder verlies). |
 
 * *`format`* geeft de indeling voor afbeeldingscodering op voor afbeeldingsgegevens die naar de client worden verzonden en het bijbehorende MIME-type voor reactie op de HTTP-antwoordheader.
 * *`pixelType`* kan worden gebruikt voor het uitvoeren van kleurruimteconversie van de uitvoer wanneer deze niet  `icc=` is opgegeven.
@@ -248,4 +248,4 @@ Request-kenmerk. Past ongeacht huidige laag toe die als `req=img` (gebrek) of `r
 
 ## Zie ook {#section-fce8d69c74234bf48cf814d799409541}
 
-[qlt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md#reference-f69ed0758c784b0385d979820546d352) ,  [quantize=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38),  [req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76),  [icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517),  [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e),  [ ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pathembed.md#reference-9ccf0771d6634cf68c1c9c33cd428301)  [ ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pscan.md#reference-b8101ed8e6c04dd28173f9597e52b135)pathEmbed=, pscan.
+[qlt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md#reference-f69ed0758c784b0385d979820546d352) ,  [quantize=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38),  [req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76),  [icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517),  [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e),  [ ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pathembed.md#reference-9ccf0771d6634cf68c1c9c33cd428301)  [ ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pscan.md#reference-b8101ed8e6c04dd28173f9597e52b135)pathEmbed=,pscan.
