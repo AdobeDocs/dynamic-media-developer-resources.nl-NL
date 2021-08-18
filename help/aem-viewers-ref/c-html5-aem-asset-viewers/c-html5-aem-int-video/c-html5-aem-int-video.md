@@ -5,9 +5,9 @@ title: Interactieve video
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
 role: Developer,User
 exl-id: e54b0b1f-b015-4592-82e2-99f5080543e3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: f77dc0c1ac8305037bbb561451317c8e62209cec
 workflow-type: tm+mt
-source-wordcount: '2217'
+source-wordcount: '2216'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Interactive Video Viewer is een videospeler die streaming en progressieve video afspeelt die zijn gecodeerd in de H.264-indeling.
 
-In de viewer worden ook interactieve productstalen weergegeven naast de video-inhoud. Zowel enkelvoudige video als Adaptieve videosets worden ondersteund. Het is ontworpen voor zowel desktopbrowsers als mobiele webbrowsers die HTML5-video ondersteunen. De viewer ondersteunt optionele, gesloten bijschriften die boven op video-inhoud worden weergegeven, navigatie in videohoofdstukken en gereedschappen voor sociaal delen. Het doel van deze viewer is om u te helpen bij het implementeren van een &#39;shoppable video&#39;-ervaring. Met andere woorden, gebruikers kunnen een staal selecteren dat is gekoppeld aan een bepaald videotijdgebied en worden omgeleid naar een Snelle weergave of een pagina met productdetails op de website van de klant.
+In de viewer worden ook interactieve productstalen weergegeven naast de video-inhoud. Zowel enkelvoudige video als Adaptieve videosets worden ondersteund. Het is ontworpen voor zowel desktopbrowsers als mobiele webbrowsers die HTML5-video ondersteunen. De viewer ondersteunt optionele, gesloten bijschriften die boven op video-inhoud worden weergegeven, navigatie in videohoofdstukken en gereedschappen voor sociaal delen. Het doel van deze viewer is om u te helpen bij het implementeren van een &#39;shoppable video&#39;-ervaring. Met andere woorden, gebruikers kunnen een staal selecteren dat is gekoppeld aan een bepaald videotijdgebied en worden omgeleid naar een Quickview- of productdetailpagina op de website van de klant.
 
 Het viewertype is 510.
 
@@ -50,9 +50,9 @@ Op aanraakapparaten is de volumeregeling verborgen in de gebruikersinterface, om
 
 Wanneer de viewer werkt in de pop-upmodus, is er geen knop voor een volledig scherm beschikbaar in de gebruikersinterface.
 
-De viewer geeft een deelvenster weer met interactieve stalen rechts van het videoweergavegebied. De lijst met stalen wordt automatisch bijgewerkt tijdens het afspelen van de video, zodat de stalen die overeenkomen met het huidige videogebied worden weergegeven. Wanneer u op een staal klikt of erop tikt, wordt een handeling geactiveerd die tijdens het ontwerpen aan dat staal is gekoppeld. Afhankelijk van de manier waarop u de trigger instelt, kan de trigger worden omgeleid naar een andere pagina op de website. Het kan ook zijn dat productinformatie wordt teruggestuurd naar de webpaginalogica, die op zijn beurt weer kan leiden tot het openen van een Snelle weergave waarin verwante productinhoud wordt weergegeven.
+De viewer geeft een deelvenster weer met interactieve stalen rechts van het videoweergavegebied. De lijst met stalen wordt automatisch bijgewerkt tijdens het afspelen van de video, zodat de stalen die overeenkomen met het huidige videogebied worden weergegeven. Wanneer u op een staal klikt of erop tikt, wordt een handeling geactiveerd die tijdens het ontwerpen aan dat staal is gekoppeld. Afhankelijk van de manier waarop u de trigger instelt, kan de trigger worden omgeleid naar een andere pagina op de website. Het kan ook productinformatie teruggeven aan de webpaginalogica, die op zijn beurt het openen van een Snelle weergave met verwante productinhoud kan activeren.
 
-Het is mogelijk om snel door de video-inhoud te navigeren wanneer videochaptering wordt geactiveerd. Videohoofdstukken worden als markeringen weergegeven in de videoscrubbertrack en geven de titel en beschrijving van het hoofdstuk weer bij rollover (of op één tik op aanraaksystemen). De klant kan &quot;zoeken&quot;aan een bepaald hoofdstuk door een hoofdstukteller te klikken of een borrel van de hoofdstukbeschrijving te tikken.
+U kunt snel door de video-inhoud navigeren wanneer het videohoofdstuk wordt geactiveerd. Videohoofdstukken worden als markeringen weergegeven in de videoscrubbertrack en geven de titel en beschrijving van het hoofdstuk weer bij rollover (of op één tik op aanraaksystemen). De klant kan &quot;zoeken&quot;aan een bepaald hoofdstuk door een hoofdstukteller te klikken of een borrel van de hoofdstukbeschrijving te tikken.
 
 De viewer ondersteunt ook diverse gereedschappen voor het delen van sociale media. Ze zijn beschikbaar als één knop in de gebruikersinterface die wordt uitgevouwen tot een werkbalk voor delen wanneer de gebruiker erop klikt of tikt. De werkbalk voor delen bevat een pictogram voor elk type kanaal dat wordt ondersteund, zoals Facebook, Twitter, Delen via e-mail, Delen via code insluiten en delen van koppelingen. Wanneer gereedschappen voor delen via e-mail, insluiten of delen van koppelingen zijn geactiveerd, wordt in de viewer een modaal dialoogvenster weergegeven met een bijbehorend formulier voor gegevensinvoer. Wanneer Facebook of Twitter wordt aangeroepen, stuurt de viewer de gebruiker terug naar een standaarddialoogvenster voor delen via een sociale-mediaservice. Wanneer een gereedschap voor delen wordt geactiveerd, wordt het afspelen van video ook automatisch gepauzeerd. Delen van gereedschappen is niet beschikbaar in de modus Volledig scherm vanwege beveiligingsbeperkingen van de webbrowser.
 
@@ -280,7 +280,7 @@ De volgende voorbeeldpagina illustreert het levensechte gebruik van responsieve 
 
 [Live demo&#39;s](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Locatie van alternatieve demo](https://experienceleague.adobe.com/tools/vlist/vlist.html)
+[Locatie van alternatieve demo](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **Responsief insluiten met gedefinieerde breedte en hoogte**
 
