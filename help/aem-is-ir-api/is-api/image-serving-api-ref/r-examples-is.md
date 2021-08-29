@@ -2,19 +2,20 @@
 description: Deze pagina verbindt met verscheidene voorbeelden van de Server van het Beeld.
 solution: Experience Manager
 title: Voorbeelden van Image Server
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 17c933f1-5f61-4f22-88d4-6295a2d13a01
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c58199c5884c368e92e50fe0ef9d6ad523e36266
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Voorbeelden van Image Server{#image-server-examples}
 
 Deze pagina verbindt met verscheidene voorbeelden van de Server van het Beeld.
+<!-- As of August 29 (and likely months or years before this date), none of the links below work anymore! -->
 
 * [adjust1](http://crc.scene7.com/is-docs/examples/adjust1.htm)
 * [adjust2](http://crc.scene7.com/is-docs/examples/adjust2.htm)

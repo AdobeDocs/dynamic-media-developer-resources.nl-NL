@@ -2,12 +2,12 @@
 description: Controleer voordat u Dynamic Media Image Serving gebruikt of uw systeem voldoet aan de systeemvereisten.
 solution: Experience Manager
 title: Systeemvereisten en -vereisten
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ea2dfec9-0a42-4ccb-8442-6f7c4a39eda1
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c58199c5884c368e92e50fe0ef9d6ad523e36266
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,4 @@ Voor Dynamic Media Image Serving is de volgende serversoftware vereist.
 * Red Hat® Enterprise 5 of CentOS 5.5 en hoger, met de nieuwste herstelpatches.
 * 64-bits besturingssysteem.
 
-**Nota:** om Beeld te gebruiken die op Vensters dienen, moet u Microsoft Visual Studio 2010 redistributable installeren. Redistributable is beschikbaar op de volgende plaats:
-
-[http://www.microsoft.com/en-us/download/details.aspx?id=13523](http://www.microsoft.com/en-us/download/details.aspx?id=13523)
+**Nota:** om Beeld te gebruiken die op Vensters dienen, moet u Microsoft Visual Studio 2010 redistributable installeren.
