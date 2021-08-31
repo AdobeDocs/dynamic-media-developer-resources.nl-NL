@@ -2,12 +2,12 @@
 description: Alle lettertypen waarnaar in de RTF-tekenreeks wordt verwezen, moeten beschikbaar zijn in het bestand met lettertypetoewijzing van de standaardcatalogus of de huidige afbeeldingscatalogus. Als dit niet het geval is, wordt een fout geretourneerd.
 solution: Experience Manager
 title: Fontverwerking
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f24edd53-4b21-4147-9b50-95e616279aa8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -34,8 +34,8 @@ Image Serving ondersteunt TrueType-, OpenType- en Adobe Type 1-lettertypen (alle
 * Photoshop-lettertypen met meerdere glyphs per afbeelding worden niet ondersteund
 * Niet-actieve kleuromzetting wordt toegepast, tenzij in de Photoshop-glyph-afbeeldingen kleurprofielen worden ingesloten. in dit geval worden altijd relatieve colorimetrische render-intentie en zwartpuntcompensatie toegepast
 
-Raadpleeg ` [www.photofont.com](http://www.photofont.com)` voor meer informatie.
+Raadpleeg [www.photofont.com](https://www.photofont.com) voor meer informatie.
 
 ## Zie ook {#section-6cb8a802aa044836bbe449d559093f3a}
 
-[Font Map Reference](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/c-font-map-reference.md#concept-f81f319d03c646c5a8ef87b3277dd37d),  [attribute::SynthesizeFontStyles](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15),  [attribute::DefaultFont](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultfont.md#reference-48b763ac254545e89a25c76ff7581107),  [ [!DNL www.photofont.com] ](http://www.photofont.com)
+[Font Map Reference](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/c-font-map-reference.md#concept-f81f319d03c646c5a8ef87b3277dd37d),  [attribute::SynthesizeFontStyles](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15),  [attribute::DefaultFont](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultfont.md#reference-48b763ac254545e89a25c76ff7581107),  [ [!DNL www.photofont.com] ](https://www.photofont.com)

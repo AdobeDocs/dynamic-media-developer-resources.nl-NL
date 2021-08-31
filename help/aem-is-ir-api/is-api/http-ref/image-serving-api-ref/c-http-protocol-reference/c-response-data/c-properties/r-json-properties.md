@@ -2,12 +2,12 @@
 description: Als jsonp wordt gespecificeerd als reactie formaat, worden de antwoordgegevens geformatteerd gebruikend JSONP (de Nota van de Objecten JavaScript met het Opvullen), verpakt in een functie JavaScript vraag.
 solution: Experience Manager
 title: JSONP-eigenschappen
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2294eb37-b362-438f-94bc-eb24ca641752
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -55,8 +55,8 @@ Verzoeken die JSONP reactieformaat steunen laten u de naam van de callback manag
 
 Het Dynamic Media Image Serving Viewers-pakket bevat een hulpprogramma voor het aanvragen en parseren van gegevens met de JSONP-indeling van Image Serving.
 
-Zie [http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP) voor meer informatie over het formaat JSONP.
+Zie [https://en.wikipedia.org/wiki/JSONP](https://en.wikipedia.org/wiki/JSONP) voor meer informatie over het formaat JSONP.
 
-Zie [www.json.org](http://www.json.org) voor meer informatie over de JSON-indeling.
+Zie [www.json.org](https://www.json.org) voor meer informatie over de JSON-indeling.
 
 Zie ook [req](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76).

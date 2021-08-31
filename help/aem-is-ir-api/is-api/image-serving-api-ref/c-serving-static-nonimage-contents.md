@@ -2,12 +2,12 @@
 description: Met Afbeeldingsserver kunt u niet-afbeeldingsinhoud in catalogi beheren en deze via een aparte /is/content-context bedienen.
 solution: Experience Manager
 title: Statische (niet-afbeeldings) inhoud bedienen
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: adc3d972-b02d-40db-992e-acaa06b848ff
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -125,9 +125,9 @@ U kunt videotitelbestanden (WebVTT), CSS of een willekeurig tekstbestand in JSON
 
 U kunt ook tracks gebruiken voor andere soorten metagegevens met tijdnotatie. De brongegevens voor elk spoorelement zijn een tekstdossier dat uit een lijst van getimed cues wordt samengesteld. Cuse kan gegevens opnemen in indelingen zoals JSON of CSV.
 
-Zie [http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP) voor meer informatie over het formaat JSONP.
+Zie [https://en.wikipedia.org/wiki/JSONP](https://en.wikipedia.org/wiki/JSONP) voor meer informatie over het formaat JSONP.
 
-Zie [www.json.org](http://www.json.org) voor meer informatie over de JSON-indeling.
+Zie [www.json.org](https://www.json.org) voor meer informatie over de JSON-indeling.
 
 ## Zie ook {#section-7b28631016044a22a3a6762fd64771e9}
 

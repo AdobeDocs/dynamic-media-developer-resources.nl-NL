@@ -6,9 +6,9 @@ title: eCatalog
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 8e243fa5-e375-41ce-8b49-2571023130c1
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '2171'
+source-wordcount: '2164'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Deze viewer werkt met catalogi en ondersteunt optionele afbeeldingen met hyperli
 
 ## Demo-URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
-[http://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist](http://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist)
+[https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist](https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist)
 
 ## De eCatalog Viewer gebruiken {#section-e6c68406ecdc4de781df182bbd8088b4}
 
@@ -107,7 +107,7 @@ U kunt visuele aanpassing bereiken door aangepaste CSS toe te passen.
 Hieronder ziet u een voorbeeld van HTML-code waarmee de viewer in een nieuw venster wordt geopend:
 
 ```
-<a href="http://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist" target="_blank">Open popup viewer</a>
+<a href="https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist" target="_blank">Open popup viewer</a>
 ```
 
 **Insluitmodus van vaste grootte en responsieve ontwerpinsluitmodus**
@@ -149,7 +149,7 @@ Het relatieve pad ziet er als volgt uit:
 
 >[!NOTE]
 >
->U moet alleen verwijzen naar het JavaScript-bestand `include` van de hoofdviewer op uw pagina. U moet niet verwijzen naar extra JavaScript-bestanden in de webpaginacode die door de logica van de viewer in runtime kunnen worden gedownload. Verwijs met name niet rechtstreeks naar de HTML5 SDK `Utils.js`-bibliotheek die door de viewer is geladen vanaf het contextpad `/s7viewers` (de zogeheten geconsolideerde SDK `include`). De reden hiervoor is dat de locatie van `Utils.js` of vergelijkbare runtimeviewerbibliotheken volledig wordt beheerd door de logica van de viewer en dat de locatie verandert tussen viewerreleases. Adobe houdt oudere versies van de secundaire viewer `includes` niet op de server.
+>U moet alleen verwijzen naar het JavaScript-bestand `include` van de hoofdviewer op uw pagina. U moet niet verwijzen naar extra JavaScript-bestanden in de webpaginacode die door de logica van de viewer in runtime kunnen worden gedownload. Verwijs met name niet rechtstreeks naar de HTML5 SDK `Utils.js`-bibliotheek die door de viewer is geladen vanaf het contextpad `/s7viewers` (de zogeheten geconsolideerde SDK `include`). De reden hiervoor is dat de locatie van `Utils.js` of vergelijkbare runtimeviewerbibliotheken volledig wordt beheerd door de logica van de viewer en dat de locatie verandert tussen de viewerreleases. Adobe houdt oudere versies van de secundaire viewer `includes` niet op de server.
 >
 >
 >Als u dus een directe verwijzing naar een secundair JavaScript `include` op de pagina plaatst, wordt de viewerfunctionaliteit in de toekomst verbroken wanneer een nieuwe productversie wordt geïmplementeerd.
@@ -198,7 +198,7 @@ Het relatieve pad ziet er als volgt uit:
 
    Het containerelement hoeft echter nog geen deel uit te maken van de webpaginalay-out. Het kan bijvoorbeeld worden verborgen met de stijl `display:none` die eraan is toegewezen. In dit geval vertraagt de viewer het initialisatieproces totdat de webpagina het containerelement weer in de layout plaatst. Wanneer dit gebeurt, wordt het laden van de viewer automatisch hervat.
 
-   Hieronder ziet u een voorbeeld van het maken van een viewer-instantie, het doorgeven van de minimaal benodigde configuratieopties aan de constructor en het aanroepen van de methode `init()`. In het voorbeeld wordt ervan uitgegaan dat `eCatalogViewer` de viewerinstantie is; `s7viewer` is de naam van de tijdelijke aanduiding `DIV`; `http://s7d1.scene7.com/is/image/` is de URL van de afbeeldingsserver en `Viewers/Pluralist` is het element:
+   Hieronder ziet u een voorbeeld van het maken van een viewer-instantie, het doorgeven van de minimaal benodigde configuratieopties aan de constructor en het aanroepen van de methode `init()`. In het voorbeeld wordt ervan uitgegaan dat `eCatalogViewer` de viewerinstantie is; `s7viewer` is de naam van de tijdelijke aanduiding `DIV`; `https://s7d1.scene7.com/is/image/` is de URL van de afbeeldingsserver en `Viewers/Pluralist` is het element:
 
    ```
    <script type="text/javascript"> 
@@ -206,7 +206,7 @@ Het relatieve pad ziet er als volgt uit:
     "containerId":"s7viewer", 
    "params":{ 
     "asset":"Viewers/Pluralist", 
-    "serverurl":"http://s7d1.scene7.com/is/image/" 
+    "serverurl":"https://s7d1.scene7.com/is/image/" 
    } 
    }).init(); 
    </script>
@@ -218,7 +218,7 @@ Het relatieve pad ziet er als volgt uit:
    <!DOCTYPE html> 
    <html> 
    <head> 
-   <script type="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/eCatalogViewer.js"></script> 
+   <script type="text/javascript" src="https://s7d1.scene7.com/s7viewers/html5/js/eCatalogViewer.js"></script> 
    <style type="text/css"> 
    #s7viewer.s7ecatalogviewer { 
     width: 640px; 
@@ -233,7 +233,7 @@ Het relatieve pad ziet er als volgt uit:
     "containerId":"s7viewer", 
    "params":{ 
     "asset":"Viewers/Pluralist", 
-    "serverurl":"http://s7d1.scene7.com/is/image/" 
+    "serverurl":"https://s7d1.scene7.com/is/image/" 
    } 
    }).init(); 
    </script> 
@@ -273,7 +273,7 @@ Alle bovenstaande stappen zijn gelijk aan het insluiten van een vaste grootte. V
 <!DOCTYPE html> 
 <html> 
 <head> 
-<script type="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/eCatalogViewer.js"></script> 
+<script type="text/javascript" src="https://s7d1.scene7.com/s7viewers/html5/js/eCatalogViewer.js"></script> 
 <style type="text/css"> 
 .holder { 
  width: 40%; 
@@ -289,7 +289,7 @@ var eCatalogViewer = new s7viewers.eCatalogViewer({
  "containerId":"s7viewer", 
 "params":{ 
  "asset":"Viewers/Pluralist", 
- "serverurl":"http://s7d1.scene7.com/is/image/" 
+ "serverurl":"https://s7d1.scene7.com/is/image/" 
 } 
 }).init(); 
 </script> 
@@ -335,7 +335,7 @@ De overige insluitstappen zijn identiek aan het reageren op ontwerpinsluiting me
 <!DOCTYPE html> 
 <html> 
 <head> 
-<script type="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/eCatalogViewer.js"></script> 
+<script type="text/javascript" src="https://s7d1.scene7.com/s7viewers/html5/js/eCatalogViewer.js"></script> 
 <style type="text/css"> 
 html, body { 
  width: 100%; 
@@ -359,7 +359,7 @@ var eCatalogViewer = new s7viewers.eCatalogViewer({
  "containerId":"s7viewer", 
 "params":{ 
  "asset":"Viewers/Pluralist", 
- "serverurl":"http://s7d1.scene7.com/is/image/" 
+ "serverurl":"https://s7d1.scene7.com/is/image/" 
 } 
 }).init(); 
 </script> 
@@ -377,7 +377,7 @@ In het volgende voorbeeld wordt het insluiten van een vaste grootte met een sett
 <!DOCTYPE html> 
 <html> 
 <head> 
-<script type="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/eCatalogViewer.js"></script> 
+<script type="text/javascript" src="https://s7d1.scene7.com/s7viewers/html5/js/eCatalogViewer.js"></script> 
 <style type="text/css"> 
 #s7viewer.s7ecatalogviewer { 
  width: 640px; 
@@ -390,7 +390,7 @@ In het volgende voorbeeld wordt het insluiten van een vaste grootte met een sett
 <script type="text/javascript"> 
 var eCatalogViewer = new s7viewers.eCatalogViewer(); 
 eCatalogViewer.setContainerId("s7viewer"); 
-eCatalogViewer.setParam("serverurl", "http://s7d1.scene7.com/is/image/"); 
+eCatalogViewer.setParam("serverurl", "https://s7d1.scene7.com/is/image/"); 
 eCatalogViewer.setAsset("Viewers/Pluralist"); 
 eCatalogViewer.init(); 
 </script> 

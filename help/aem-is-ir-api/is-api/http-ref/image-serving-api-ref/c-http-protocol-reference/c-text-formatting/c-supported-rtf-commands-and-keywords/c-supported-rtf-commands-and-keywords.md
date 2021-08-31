@@ -2,12 +2,12 @@
 description: Hier volgt een lijst met trefwoorden en opdrachten die worden ondersteund door de text engine voor scène 7-afbeeldingen.
 solution: Experience Manager
 title: Ondersteunde RTF-opdrachten en -trefwoorden
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a63bc7f1-34a9-485d-aadd-c65e3e26034a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Hier volgt een lijst met trefwoorden en opdrachten die worden ondersteund door de text engine voor scène 7-afbeeldingen.
 
-Raadpleeg de gepubliceerde [RTF 1.6-specificatie](http://msdn.microsoft.com/en-us/library/aa140277%28v=office.10%29.aspx) voor meer informatie over elk trefwoord of elke opdracht.
+Raadpleeg de gepubliceerde [RTF 1.6-specificatie](https://msdn.microsoft.com/en-us/library/aa140277%28v=office.10%29.aspx) voor meer informatie over elk trefwoord of elke opdracht.
 
 RTF-opdrachten die hieronder niet worden vermeld, worden door de parser genegeerd.
 

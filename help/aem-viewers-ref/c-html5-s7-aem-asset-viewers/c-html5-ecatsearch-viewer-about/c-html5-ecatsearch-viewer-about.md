@@ -6,9 +6,9 @@ title: Zoeken in eCatalog
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 915e628e-65e7-44c6-a2aa-d4ae7ed03b8e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '2188'
+source-wordcount: '2180'
 ht-degree: 0%
 
 ---
@@ -193,7 +193,7 @@ Het relatieve pad ziet er als volgt uit:
 
    Het containerelement hoeft echter nog geen deel uit te maken van de webpaginalay-out. Het kan bijvoorbeeld worden verborgen met de stijl `display:none` die eraan is toegewezen. In dit geval vertraagt de viewer het initialisatieproces totdat de webpagina het containerelement weer in de layout plaatst. Wanneer dit gebeurt, wordt het laden van de viewer automatisch hervat.
 
-   Hieronder ziet u een voorbeeld van het maken van een viewer-instantie, het doorgeven van de minimaal benodigde configuratieopties aan de constructor en het aanroepen van de methode `init()`. In het voorbeeld wordt ervan uitgegaan dat `eCatalogSearchViewer` de viewerinstantie is; `s7viewer` is de naam van de tijdelijke aanduiding `DIV`; `http://s7d1.scene7.com/is/image/` is de URL van de afbeeldingsserver en `Viewers/Pluralist` is het element:
+   Hieronder ziet u een voorbeeld van het maken van een viewer-instantie, het doorgeven van de minimaal benodigde configuratieopties aan de constructor en het aanroepen van de methode `init()`. In het voorbeeld wordt ervan uitgegaan dat `eCatalogSearchViewer` de viewerinstantie is; `s7viewer` is de naam van de tijdelijke aanduiding `DIV`; `https://s7d1.scene7.com/is/image/` is de URL van de afbeeldingsserver en `Viewers/Pluralist` is het element:
 
    ```
    <script type="text/javascript"> 
@@ -201,8 +201,8 @@ Het relatieve pad ziet er als volgt uit:
     "containerId":"s7viewer", 
    "params":{ 
     "asset":"Viewers/Pluralist", 
-    "serverurl":"http://s7d1.scene7.com/is/image/", 
-    "searchserverurl":"http://s7search1.scene7.com/s7search/" 
+    "serverurl":"https://s7d1.scene7.com/is/image/", 
+    "searchserverurl":"https://s7search1.scene7.com/s7search/" 
    } 
    }).init(); 
    </script>
@@ -214,7 +214,7 @@ Het relatieve pad ziet er als volgt uit:
    <!DOCTYPE html> 
    <html> 
    <head> 
-   <script type="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
+   <script type="text/javascript" src="https://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
    <style type="text/css"> 
    #s7viewer.s7ecatalogsearchviewer { 
     width: 640px; 
@@ -229,8 +229,8 @@ Het relatieve pad ziet er als volgt uit:
     "containerId":"s7viewer", 
    "params":{ 
     "asset":"Viewers/Pluralist", 
-    "serverurl":"http://s7d1.scene7.com/is/image/", 
-    "searchserverurl":"http://s7search1.scene7.com/s7search/" 
+    "serverurl":"https://s7d1.scene7.com/is/image/", 
+    "searchserverurl":"https://s7search1.scene7.com/s7search/" 
    } 
    }).init(); 
    </script> 
@@ -270,7 +270,7 @@ Alle bovenstaande stappen zijn gelijk aan het insluiten van een vaste grootte. V
 <!DOCTYPE html> 
 <html> 
 <head> 
-<script type="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
+<script type="text/javascript" src="https://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
 <style type="text/css"> 
 .holder { 
  width: 40%; 
@@ -286,8 +286,8 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
  "containerId":"s7viewer", 
 "params":{ 
  "asset":"Viewers/Pluralist", 
- "serverurl":"http://s7d1.scene7.com/is/image/", 
- "searchserverurl":"http://s7search1.scene7.com/s7search/" 
+ "serverurl":"https://s7d1.scene7.com/is/image/", 
+ "searchserverurl":"https://s7search1.scene7.com/s7search/" 
 } 
 }).init(); 
 </script> 
@@ -333,7 +333,7 @@ De overige insluitstappen zijn identiek aan het reageren op ontwerpinsluiting me
 <!DOCTYPE html> 
 <html> 
 <head> 
-<script type="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
+<script type="text/javascript" src="https://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
 <style type="text/css"> 
 html, body { 
  width: 100%; 
@@ -357,8 +357,8 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
  "containerId":"s7viewer", 
 "params":{ 
  "asset":"Viewers/Pluralist", 
- "serverurl":"http://s7d1.scene7.com/is/image/", 
- "searchserverurl":"http://s7search1.scene7.com/s7search/" 
+ "serverurl":"https://s7d1.scene7.com/is/image/", 
+ "searchserverurl":"https://s7search1.scene7.com/s7search/" 
 } 
 }).init(); 
 </script> 
@@ -376,7 +376,7 @@ In het volgende voorbeeld wordt het insluiten van een vaste grootte met een sett
 <!DOCTYPE html> 
 <html> 
 <head> 
-<script type="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
+<script type="text/javascript" src="https://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
 <style type="text/css"> 
 #s7viewer.s7ecatalogsearchviewer { 
  width: 640px; 
@@ -389,8 +389,8 @@ In het volgende voorbeeld wordt het insluiten van een vaste grootte met een sett
 <script type="text/javascript"> 
 var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer(); 
 eCatalogSearchViewer.setContainerId("s7viewer"); 
-eCatalogSearchViewer.setParam("serverurl", "http://s7d1.scene7.com/is/image/"); 
-eCatalogSearchViewer.setParam("searchserverurl", "http://s7search1.scene7.com/s7search/"); 
+eCatalogSearchViewer.setParam("serverurl", "https://s7d1.scene7.com/is/image/"); 
+eCatalogSearchViewer.setParam("searchserverurl", "https://s7search1.scene7.com/s7search/"); 
 eCatalogSearchViewer.setAsset("Viewers/Pluralist"); 
 eCatalogSearchViewer.init(); 
 </script> 

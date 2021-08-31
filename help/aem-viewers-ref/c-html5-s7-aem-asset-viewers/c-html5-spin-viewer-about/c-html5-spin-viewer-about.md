@@ -3,12 +3,12 @@ description: Spin Viewer is een beeldviewer die een weergave van 360 graden van 
 keywords: responsief
 solution: Experience Manager
 title: Draaien
-feature: Dynamic Media Classic,Viewers,SDK/API,Draaiensets
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 4c802d42-ea5b-4f28-b6ef-2689aa16839d
-source-git-commit: f77dc0c1ac8305037bbb561451317c8e62209cec
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '2138'
+source-wordcount: '2130'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Hieronder ziet u een voorbeeld van HTML-code waarmee de viewer in een nieuw vens
 
 ```
 <a 
-href="http://s7d1.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&stagesize=500,400" 
+href="https://s7d1.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&stagesize=500,400" 
 target="_blank">Open popup viewer</a>
 ```
 

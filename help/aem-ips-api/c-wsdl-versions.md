@@ -2,12 +2,12 @@
 description: De IPS Dienst van het Web wordt gesteund door een reeks documenten van WSDL (de Taal van de Beschrijving van de Diensten van het Web) die van om het even welke IPS installatie worden betreden waarop de IPS component van de Dienst van het Web geïnstalleerd is. Elke IPS API-release bevat een nieuw WSDL-bestand dat verwijst naar een versioned doel-XML-naamruimte. Eerdere WSDL-naamruimteversies worden ook ondersteund voor achterwaartse compatibiliteit met bestaande toepassingen.
 solution: Experience Manager
 title: IPS Web Service WSDL-versies
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d7a6079e-286e-4e62-b2ff-551ef4a5815c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '954'
 ht-degree: 0%
 
 ---
@@ -139,7 +139,7 @@ Als u een aanvraag wilt verwerken, stelt u de HTTP-header van SOAPAction in op d
 
 **Berichtindeling**
 
-De document/letterlijke stijl wordt gebruikt voor alle input en outputberichten met types die op de definitietaal van het Schema van XML ( [http://www.w3.org/TR/xmlschema-0/](http://www.w3.org/TR/xmlschema-0/)) worden gebaseerd en in het dossier van WSDL worden gespecificeerd. Alle typen vereisen gekwalificeerde namen met gebruik van de naamruimtewaarde van het doel die in het WSDL-bestand is opgegeven.
+De document/letterlijke stijl wordt gebruikt voor alle input en outputberichten met types die op de definitietaal van het Schema van XML ( [https://www.w3.org/TR/xmlschema-0/](https://www.w3.org/TR/xmlschema-0/)) worden gebaseerd en in het dossier van WSDL worden gespecificeerd. Alle typen vereisen gekwalificeerde namen met gebruik van de naamruimtewaarde van het doel die in het WSDL-bestand is opgegeven.
 
 **Verificatie aanvragen**
 
