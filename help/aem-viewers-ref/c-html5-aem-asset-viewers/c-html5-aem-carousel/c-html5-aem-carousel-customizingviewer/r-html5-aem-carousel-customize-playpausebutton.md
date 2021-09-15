@@ -1,13 +1,13 @@
 ---
+title: Knop PlayPause
 description: Met de knop Afspelen/Pauzeren kan een gebruiker het automatisch afspelen van carrousels onderbreken of hervatten.
 solution: Experience Manager
-title: Knop PlayPause
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 1b48aa7f-d1c8-4367-94c2-689991b90942
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ De vormgeving van de knop wordt bepaald door de volgende CSS-klassenkiezer:
 
 De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) voor meer informatie.
 
-Voorbeeld: om een pauzeknop voor afspelen in te stellen van 28 x 28 pixels, die zich 17 pixels van de onderkant en 12 pixels van de linkerrand van de viewer bevinden, en die een andere afbeelding weergeeft voor elk van de vier verschillende knopstatussen, al dan niet geselecteerd.
+Stel dat u bijvoorbeeld een pauzeknop wilt instellen van 28 x 28 pixels. U wilt dat de knop zich 17 pixels van de onderkant en 12 pixels van de linkerrand van de viewer bevindt. En u wilt dat er een andere afbeelding wordt weergegeven voor elk van de vier verschillende knoptoestanden wanneer deze is geselecteerd of niet.
 
 ```
 .s7carouselviewer .s7playpausebutton { 

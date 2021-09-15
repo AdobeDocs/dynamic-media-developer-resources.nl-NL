@@ -1,20 +1,20 @@
 ---
-description: Het hoofdweergavegebied is het gebied dat wordt ingenomen door de afbeelding van de carrouselbanner. Deze wordt meestal ingesteld op weergave op het beschikbare apparaatscherm wanneer geen grootte is opgegeven.
-solution: Experience Manager
 title: Hoofdviewergebied
+description: Het hoofdweergavegebied is het gebied dat wordt ingenomen door de afbeelding van de carrouselbanner. Deze wordt zo ingesteld dat deze op het beschikbare apparaatscherm past wanneer geen grootte is opgegeven.
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: bdac54f5-79e3-4d3d-9c7e-d9a7cec61c73
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
 
 # Hoofdviewergebied{#main-viewer-area}
 
-Het hoofdweergavegebied is het gebied dat wordt ingenomen door de afbeelding van de carrouselbanner. Deze wordt meestal ingesteld op weergave op het beschikbare apparaatscherm wanneer geen grootte is opgegeven.
+Het hoofdweergavegebied is het gebied dat wordt ingenomen door de afbeelding van de carrouselbanner. Deze wordt zo ingesteld dat deze op het beschikbare apparaatscherm past wanneer geen grootte is opgegeven.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

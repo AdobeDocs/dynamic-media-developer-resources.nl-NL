@@ -1,20 +1,20 @@
 ---
-description: Als u op de knop Volgende dia klikt of erop tikt, wordt de gebruiker naar de volgende dia in de carrouselset verplaatst.
-solution: Experience Manager
 title: Volgende dia
+description: Als u de knop Volgende dia selecteert, wordt de gebruiker naar de volgende dia in de carrouselset verplaatst.
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: c64889bb-bcbe-49c6-a0be-b4013ead7b90
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
 # Volgende dia{#next-slide}
 
-Als u op de knop Volgende dia klikt of erop tikt, wordt de gebruiker naar de volgende dia in de carrouselset verplaatst.
+Als u de knop Volgende dia selecteert, wordt de gebruiker naar de volgende dia in de carrouselset verplaatst.
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
@@ -79,7 +79,7 @@ De vormgeving van de knop wordt bepaald door de volgende CSS-klassenkiezer:
 
 De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) voor meer informatie.
 
-Voorbeeld - om een vorige diaknop in te stellen die 60 x 60 pixel is, 10 pixel van de juiste kijkersgrens en verticaal gecentreerd wordt geplaatst, en een verschillend beeld voor elk van de vier verschillende knoopstaten toont.
+Stel dat u een vorige diaknop wilt instellen van 60 x 60 pixels. U wilt dat de knop zich op tien pixels afstand van de rechterviewerrand en verticaal gecentreerd bevindt. En u wilt dat er een andere afbeelding wordt weergegeven voor elk van de vier verschillende knoptoestanden.
 
 ```
 .s7carouselviewer .s7panrightbutton{ 

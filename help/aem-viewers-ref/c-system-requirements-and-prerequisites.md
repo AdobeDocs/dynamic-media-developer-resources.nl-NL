@@ -6,9 +6,9 @@ contentOwner: Rick Brough
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Systeemvereisten voor Dynamic Media HTML5-viewers.
 ## Serverhardware en -software {#section-05099146f1f0418988c196635110bee6}
 
 * Dynamic Media Classic Image Serving 6.7.1 of hoger.
-* Voor HTML5-viewers zijn SDK JavaScript™-serverbibliotheken 3.11.1 of hoger vereist.
+* Voor HTML5-viewers zijn SDK JavaScript Server-side bibliotheken 3.1.1 of hoger vereist.
 * Voor sociale functies van &quot;Email a Friend&quot; is s7ondemand 5.0.9 of hoger vereist.
 * eCatalog Viewer - Ondersteuning voor het deelvenster Info vereist Infoserver 2.1.8 of hoger.
 * Componenten van zoekfuncties vereisen s7search 2.3.0 of hoger.

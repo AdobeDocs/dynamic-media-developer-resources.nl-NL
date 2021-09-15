@@ -1,20 +1,20 @@
 ---
-description: Op desktopsystemen hebben bepaalde gebruikersinterface-elementen, zoals knoppen, knopinfo die bij muismuisaanwijzer wordt weergegeven.
-solution: Experience Manager
 title: Knopinfo
+description: Op desktopsystemen hebben bepaalde gebruikersinterface-elementen, zoals knoppen, knopinfo die bij muisbewegingen wordt weergegeven.
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: b4604528-93f6-440c-b676-7b4c89fff6c8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
 
 # Knopinfo{#tooltips}
 
-Op desktopsystemen hebben bepaalde gebruikersinterface-elementen, zoals knoppen, knopinfo die bij muismuisaanwijzer wordt weergegeven.
+Op desktopsystemen hebben bepaalde gebruikersinterface-elementen, zoals knoppen, knopinfo die bij muisbewegingen wordt weergegeven.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -63,9 +63,9 @@ De vormgeving van knopinfo wordt bepaald door de volgende CSS-klassenkiezer:
 
 >[!NOTE]
 >
->Als knopinfo-stijlen worden aangepast vanuit de ingesloten webpagina, moeten alle eigenschappen de `!IMPORTANT`-regel bevatten. Dit is niet nodig als knopinfo wordt aangepast in het CSS-bestand van de viewer.
+>Als knopinfo-stijlen worden aangepast vanuit de ingesloten webpagina, moeten alle eigenschappen de `!IMPORTANT`-regel bevatten. Deze stap is niet nodig als knopinfo wordt aangepast in het CSS-bestand van de viewer.
 
-Voorbeeld - voor het instellen van knopinfo met een grijze rand met een hoekstraal van 3 pixels, een zwarte achtergrond en witte tekst in Arial, grootte van 11 pixels:
+Voorbeeld - voor het instellen van knopinfo met een grijze rand met een hoekstraal van 3 pixels, een zwarte achtergrond en witte tekst in Arial®, grootte van 11 pixels:
 
 ```
 .s7tooltip { 

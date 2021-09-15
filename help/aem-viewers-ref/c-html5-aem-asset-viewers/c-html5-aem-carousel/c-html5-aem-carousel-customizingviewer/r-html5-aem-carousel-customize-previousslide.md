@@ -1,20 +1,20 @@
 ---
+title: Vorige dia
 description: Als u op deze knop klikt of erop tikt, wordt de vorige dia in de carrouselset hersteld. Deze knop wordt niet weergegeven op aanraakapparaten. U kunt deze knop vergroten, verkleinen, verkleinen en plaatsen met CSS.
 solution: Experience Manager
-title: Vorige dia
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: f780e62e-7238-4cc6-b382-3a21043e1079
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
 
 # Vorige dia{#previous-slide}
 
-Als u op deze knop klikt of erop tikt, wordt de vorige dia in de carrouselset hersteld. Deze knop wordt niet weergegeven op aanraakapparaten. U kunt deze knop vergroten, verkleinen, verkleinen en plaatsen met CSS.
+Als u deze knop selecteert, wordt de vorige dia in de carrouselset hersteld. Deze knop wordt niet weergegeven op aanraakapparaten. U kunt deze knop vergroten, verkleinen, verkleinen en plaatsen met CSS.
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
@@ -77,7 +77,7 @@ De vormgeving van de knop wordt bepaald door de volgende CSS-klassenkiezer:
 
 De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) voor meer informatie.
 
-Voorbeeld: om een vorige diaknop in te stellen die 60 x 60 pixels is, 10 pixels van de linkerviewerrand en verticaal gecentreerd is en een andere afbeelding voor elk van de vier verschillende knopstatussen weergeeft.
+Stel dat u een vorige diaknop wilt instellen van 60 x 60 pixels. U wilt dat de achtergrondafbeelding tien pixels van de linkerviewerrand en verticaal gecentreerd wordt geplaatst. En u wilt dat er een andere afbeelding wordt weergegeven voor elk van de vier verschillende knoptoestanden.
 
 ```
 .s7carouselviewer .s7panleftbutton { 

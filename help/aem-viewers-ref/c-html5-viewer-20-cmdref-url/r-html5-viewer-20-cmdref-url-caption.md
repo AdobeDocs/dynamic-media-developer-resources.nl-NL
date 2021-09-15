@@ -1,13 +1,13 @@
 ---
+title: bijschrift
 description: Parameter die alle viewers gemeen hebben.
 solution: Experience Manager
-title: bijschrift
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 06ce5520-944b-4ab0-8f59-67c273bd8314
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '261'
 ht-degree: 1%
 
 ---
@@ -69,12 +69,12 @@ Deze viewer ondersteunt ondertiteling door middel van gehoste WebVTT-bestanden. 
    <td colname="col1"> <p> <span class="codeph"> L  </span> </p> </td> 
    <td colname="col2"> <p>lijnpositie </p> </td> 
    <td colname="col3"> <p> 0%-100%|geheel getal </p> </td> 
-   <td colname="col4"> <p> Bepaalt de regelpositie op de pagina. </p> <p>Als de waarde wordt uitgedrukt als een geheel getal zonder procentteken, is dit het aantal regels vanaf de bovenkant waar de tekst wordt weergegeven. </p> <p>Als de waarde wordt uitgedrukt als een percentage-het procentteken het laatste teken is, wordt de bijschrifttekst weergegeven als dat percentage in het weergavegebied. </p> <p>De standaardwaarde is <span class="codeph"> 100% </span>. </p> </td> 
+   <td colname="col4"> <p> Bepaalt de regelpositie op de pagina. </p> <p>Als de waarde wordt uitgedrukt als een geheel getal zonder procentteken, is dit het aantal regels vanaf de bovenkant waar de tekst wordt weergegeven. </p> <p>Als de waarde wordt uitgedrukt als een percentage - het procentteken is het laatste teken - wordt de bijschrifttekst weergegeven als dat percentage in het weergavegebied. </p> <p>De standaardwaarde is <span class="codeph"> 100% </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Houd er rekening mee dat als er andere WebVTT-functies aanwezig zijn in het WebVTT-bestand, deze functies niet worden ondersteund. de ondertiteling wordt echter niet onderbroken.
+Als het WebVTT-bestand andere WebVTT-functies bevat, worden deze niet ondersteund. ze verstoren de ondertiteling echter niet .
 
 <table id="table_CB7B4DFC6B654AECA1AF6594E3FD5C46"> 
  <tbody> 

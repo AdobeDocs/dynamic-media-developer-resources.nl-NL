@@ -1,14 +1,14 @@
 ---
+title: Carousel Viewer aanpassen
 description: Alle visuele aanpassingen en de meeste gedragsaanpassingen voor de Carousel Viewer worden uitgevoerd door een aangepaste CSS te maken.
 keywords: responsief
 solution: Experience Manager
-title: Carousel Viewer aanpassen
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: f392d830-5c75-45dd-bab8-29a38218790d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1337'
 ht-degree: 0%
 
 ---
@@ -35,23 +35,23 @@ Aangepast CSS-bestand moet dezelfde klassedeclaraties bevatten als het standaard
 
 Een andere manier om aangepaste CSS-regels te bieden, is door ingesloten stijlen rechtstreeks op de webpagina of in een van gekoppelde externe CSS-regels te gebruiken.
 
-Houd er bij het maken van aangepaste CSS rekening mee dat de viewer de klasse `.s7carouselviewer` toewijst aan het DOM-containerelement. Als u een extern CSS dossier gebruikt dat met `style=` bevel wordt overgegaan, gebruik `.s7carouselviewer` klasse als ouderklasse in dalende selecteur voor uw CSS regels. Als u ingesloten stijlen aan de webpagina toevoegt, kwalificeert u deze kiezer als volgt aanvullend met een id van het DOM-containerelement:
+Houd er bij het maken van aangepaste CSS rekening mee dat de viewer de klasse `.s7carouselviewer` toewijst aan het DOM-containerelement. Als u een extern CSS dossier gebruikt dat met `style=` bevel wordt overgegaan, gebruik `.s7carouselviewer` klasse als ouderklasse in dalende selecteur voor uw CSS regels. Als u ingesloten stijlen toevoegt op de webpagina, kwalificeert u deze kiezer ook als volgt met een id van het DOM-containerelement:
 
 `#<containerId>.s7carouselviewer`
 
 ## Responsieve CSS maken {#section-0bb49aca42d242d9b01879d5ba59d33b}
 
-Het is mogelijk om verschillende apparaten en insluitingsgrootten in CSS als doel in te stellen om de weergave van uw inhoud te wijzigen, afhankelijk van het apparaat van de gebruiker of een bepaalde webpaginalay-out. Dit omvat onder andere, maar is niet beperkt tot, verschillende lay-outs, de grootte van gebruikersinterface-elementen en de resolutie van illustraties.
+Het is mogelijk om verschillende apparaten en insluitingsgrootten in CSS als doel in te stellen om de weergave van uw inhoud te wijzigen, afhankelijk van het apparaat van de gebruiker of een bepaalde webpaginalay-out. Deze techniek omvat, maar is niet beperkt tot, verschillende lay-outs, de grootte van gebruikersinterface-elementen en de resolutie van illustraties.
 
-De viewer ondersteunt twee mechanismen voor het maken van responsieve, ontworpen CSS: CSS-markeringen en standaard CSS-mediaquery&#39;s. U kunt deze onafhankelijk of samen gebruiken.
+De viewer ondersteunt twee mechanismen voor het maken van responsieve, ontworpen CSS: CSS-markeringen en standaard CSS-mediaquery&#39;s. U kunt deze twee mechanismen onafhankelijk of samen gebruiken.
 
 **CSS-markeringen**
 
-Voor hulp bij het maken van responsieve, ontworpen CSS, ondersteunt de viewer CSS-markeringen. Dit zijn speciale CSS-klassen die dynamisch worden toegewezen aan het viewer-containerelement op hoofdniveau. Ze zijn gebaseerd op de grootte van de runtimeviewer en het invoertype dat op het huidige apparaat wordt gebruikt.
+Voor hulp bij het maken van responsieve, ontworpen CSS, ondersteunt de viewer CSS-markeringen. Deze markeringen zijn speciale CSS-klassen die dynamisch worden toegewezen aan het containerelement op het hoogste niveau. Ze zijn gebaseerd op de grootte van de runtimeviewer en het invoertype dat op het huidige apparaat wordt gebruikt.
 
 De eerste groep CSS-markeringen bevat `.s7size_large`, `.s7size_medium` en `.s7size_small` klassen. Ze worden toegepast op basis van het runtimegebied van de viewercontainer. Als het viewergebied bijvoorbeeld gelijk is aan of groter is dan het formaat van een algemene desktopmonitor, gebruikt u `.s7size_large`. Wijs `.s7size_medium` toe als het gebied zich dicht bij een gewoon tabletapparaat bevindt. Gebruik `.s7size_small` voor gebieden die vergelijkbaar zijn met mobiele-telefoonschermen. Het belangrijkste doel van deze CSS-markeringen is het maken van verschillende lay-outs voor de gebruikersinterface voor verschillende schermen en viewerformaten.
 
-De tweede groep CSS-markeringen bevat `.s7mouseinput` en `.s7touchinput`. De CSS-markering `.s7touchinput` wordt ingesteld als het huidige apparaat aanraakinvoer kan gebruiken. Anders wordt `.s7mouseinput` gebruikt. Deze markeringen zijn vooral bedoeld om invoerelementen in de gebruikersinterface te maken met verschillende schermgrootten voor verschillende invoertypen, omdat aanraakinvoer doorgaans grotere elementen vereist.
+De tweede groep CSS-markeringen bevat `.s7mouseinput` en `.s7touchinput`. De CSS-markering `.s7touchinput` wordt ingesteld als het huidige apparaat aanraakinvoer is. Anders wordt `.s7mouseinput` gebruikt. Deze markeringen zijn vooral bedoeld om invoerelementen in de gebruikersinterface te maken met verschillende schermgrootten voor verschillende invoertypen, omdat aanraakinvoer doorgaans grotere elementen vereist.
 
 In het volgende voorbeeld-CSS wordt de inzoomknopgrootte ingesteld op 28 x 28 pixels op systemen met muisinvoer en op 56 x 56 pixels op aanraakinvoerapparaten. Als de grootte van de viewer nog kleiner is, wordt deze ingesteld op 20 x 20 pixels.
 
@@ -150,7 +150,7 @@ background-image: url(images/v2/imagemap/ImageMapEffect_icon1_light_over_touch.p
 
 Het nadeel van deze aanpak is dat de eindgebruiker een flikkerende of vertraagde reactie van de gebruikersinterface ervaart wanneer het element voor het eerst wordt gebruikt. Deze handeling treedt op omdat de afbeeldingsillustratie voor de nieuwe elementstatus nog niet is gedownload. Deze aanpak kan ook een enigszins negatief effect hebben op de prestaties als gevolg van een toename van het aantal HTTP-aanroepen naar de server.
 
-CSS-sprites is een andere aanpak waarbij afbeeldingsillustraties voor alle elementstatussen worden gecombineerd in één PNG-bestand dat een &#39;sprite&#39; wordt genoemd. Zulk &quot;SPRITE&quot;heeft alle visuele staten voor het bepaalde die element één na een andere wordt geplaatst. Bij het opmaken van een gebruikersinterface-element met sprites wordt naar dezelfde sprite-afbeelding verwezen voor alle verschillende statussen in de CSS. Ook, wordt het `background-position` bezit gebruikt voor elke staat om te specificeren welk deel van het &quot;SPRITE&quot;beeld wordt gebruikt. U kunt een sprite-afbeelding op elke gewenste manier structureren. De kijkers hebben het gewoonlijk verticaal gestapeld.
+CSS-sprites is een andere aanpak waarbij afbeeldingsillustraties voor alle elementstatussen worden gecombineerd in één PNG-bestand dat een &#39;sprite&#39; wordt genoemd. Zulk &quot;SPRITE&quot;heeft alle visuele staten voor het bepaalde die element één na een andere wordt geplaatst. Wanneer het stileren van een gebruikersinterface element met sprites, wordt het zelfde SPRITE beeld van verwijzingen voorzien voor alle verschillende staten in CSS. Ook, wordt het `background-position` bezit gebruikt voor elke staat om te specificeren welk deel van het &quot;SPRITE&quot;beeld wordt gebruikt. U kunt een sprite-afbeelding op elke gewenste manier structureren. De kijkers hebben het gewoonlijk verticaal gestapeld.
 
 Hier volgt een op sprite gebaseerd voorbeeld waarin hetzelfde hotspot-pictogram wordt opgemaakt:
 

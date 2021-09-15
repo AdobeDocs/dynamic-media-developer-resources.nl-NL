@@ -5,9 +5,9 @@ title: Compatibiliteitsnotities
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Compatibiliteitsnotities voor besturingssystemen, browsers en mobiele apparaten.
 * `IntialBitRate` modifier wordt alleen ondersteund bij het afspelen van software-HLS en Flash HDS. Dit werkt niet wanneer het afspelen de native speler gebruikt.
 * OGG en WebM progressief afspelen niet ondersteund.
 * Browserschaling zorgt ervoor dat de videospeler op een onjuiste grootte wordt weergegeven (inclusief de weergave-instellingen van het Configuratiescherm van Windows®).
-* Video&#39;s zoeken met gebruik van HLS-streaming op Safari is inconsistent.
+* Het gebruik van HLS-streaming op Safari is niet consistent.
 
 ## Internet Explorer {#section-a18e8df396954f0b807017787c00aac7}
 
@@ -71,5 +71,5 @@ Compatibiliteitsnotities voor besturingssystemen, browsers en mobiele apparaten.
 ## Safari {#section-f8de598293d349188aa02c82cd3af8b6}
 
 * Safari 6.1 of hoger: Instellingen voor de insteekmodule Internet verhinderen het afspelen van Flash-video.
-* Video&#39;s zoeken met gebruik van HLS-streaming op Safari is inconsistent.
+* Het gebruik van HLS-streaming op Safari is niet consistent.
 * Kan niet zoeken tot einde van video in Safari 6 met gebruik van HLS-streaming.

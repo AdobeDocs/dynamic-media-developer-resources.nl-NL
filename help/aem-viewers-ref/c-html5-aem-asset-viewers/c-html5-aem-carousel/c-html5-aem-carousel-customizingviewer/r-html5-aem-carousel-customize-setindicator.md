@@ -1,13 +1,13 @@
 ---
+title: Indicator instellen
 description: De indicator Set is een reeks punten die onder aan de viewer worden weergegeven. De huidige positie in de set wordt weergegeven.
 solution: Experience Manager
-title: Indicator instellen
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 7d0827c5-f420-4804-983c-5298ee92b276
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ De vormgeving van de setindicatorcontainer wordt beheerd met de volgende CSS-kla
 >
 >De indicator Set ondersteunt de selector van het moduskenmerk, waarmee u verschillende stijlen kunt toepassen voor de modi dotted en Numeric. Met name `mode="numeric"` komt overeen met de numerieke bewerkingsmodus; `mode="dotted"` komt overeen met de standaardpuntstatus.
 
-Voorbeeld - instellen, indicator met een witte achtergrond:
+Stel dat u een setindicator met een witte achtergrond wilt instellen:
 
 ```
 .s7carouselviewer .s7setindicator { 
@@ -124,7 +124,7 @@ De vormgeving van een individuele set-indicator punt wordt bepaald door de CSS-k
 >
 >De vastgestelde indicatorpunten steunen `state` attributenselecteur, die kan worden gebruikt om verschillende huiden op verschillende duimnagelstaten toe te passen. Met name `state="selected"` komt overeen met het huidige element in de set; `state="unselected"` komt overeen met de status van het standaarditem.
 
-Voorbeeld: om een indicator in te stellen in de stippelmodus voor desktopsystemen die zich 20 pixels van de onderkant van de viewer bevinden. Niet-geselecteerde punten zijn zwart met 50% transparantie en 15 x 15 pixels met 7 pixels afgeronde hoeken. Geselecteerde stippen zijn zwart met 90% transparantie en 18 x 18 pixels met 9 pixels afgeronde hoeken. De ruimte tussen stippen is 5 pixels.
+Stel dat u een instellingsindicator wilt instellen in de stippelmodus voor desktopsystemen. U wilt dat het 20 pixels van de onderkant van de viewer verwijderd is. En niet-geselecteerde stippen moeten zwart zijn met 50% transparantie en 15 x 15 pixels met 7 pixels afgeronde hoeken. Geselecteerde stippen zijn zwart met 90% transparantie, 18 x 18 pixels met negen pixels afgeronde hoeken. De ruimte tussen stippen is vijf pixels.
 
 ```
 .s7carouselviewer.s7mouseinput .s7setindicator { 
