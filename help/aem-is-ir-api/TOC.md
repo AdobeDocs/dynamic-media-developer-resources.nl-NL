@@ -4,8 +4,7 @@ user-guide-title: Dynamic Media-API voor beeldbeheer en renderen
 breadcrumb-title: Dynamic Media-API voor beeldbeheer en renderen
 feature-set: Experience Manager Assets
 user-guide-description: Documentatie weergeven over API's van het type IS (Image Serving) en AIR (Image Rendering) en verwante technologieën.
-translation-type: tm+mt
-source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
+source-git-commit: f64229a72bef887f356b118a1da4ba5177c28bbc
 workflow-type: tm+mt
 source-wordcount: '1466'
 ht-degree: 0%
@@ -13,9 +12,9 @@ ht-degree: 0%
 ---
 
 
-# API voor Dynamic Media Image Serving and Rendering {#image-serving-api}
+# Dynamic Media-API voor beeldbeheer en renderen {#image-serving-api}
 
-+ [Start Dynamic Media Image Serving and Image Rendering API](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html?lang=en) -->
++ [Start Dynamic Media Image Serving and Image Rendering API](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html) -->
 + [Over deze release](r-about-this-release.md)
 + [Systeemvereisten en -vereisten](r-requirements-and-prerequisites.md)
 + [Vereisten en aanbevelingen voor schijfruimte](r-disk-space-reqs.md)
