@@ -1,13 +1,13 @@
 ---
+title: CarouselViewer
 description: JavaScript API-referentie voor Carousel Viewer.
 solution: Experience Manager
-title: CarouselViewer
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 890d869d-dbf2-4c24-88d1-34c439ab1e3a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 96ac67e5645c2c55920cc971806ba2f14ae57044
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '191'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ JavaScript API-referentie voor Carousel Viewer.
 
 `CarouselViewer([config])`
 
-Constructor maakt een nieuwe HTML 5 Carousel Viewer-instantie.
+Constructor maakt een HTML 5 Carousel Viewer-instantie.
 
 ## Parameters {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 

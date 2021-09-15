@@ -1,18 +1,18 @@
 ---
+title: getComponent
 description: JavaScript API-referentie voor Carousel Viewer.
 solution: Experience Manager
-title: getComponent**
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 088d99d0-600d-4e47-85ea-a9769938b88b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 96ac67e5645c2c55920cc971806ba2f14ae57044
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
 
-# getComponent**{#getcomponent}
+# getComponent {#getcomponent}
 
 JavaScript API-referentie voor Carousel Viewer.
 
@@ -71,13 +71,13 @@ Retourneert een verwijzing naar de Viewer SDK-component die door de viewer wordt
  </tbody> 
 </table>
 
-Wanneer het werken met SDK APIs is het belangrijk om correcte volledig - gekwalificeerde namespace van SDK te gebruiken zoals die in [de namespace van SDK van de Kijker wordt beschreven ](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-namespace.md).
+Wanneer het werken met SDK APIs, is het belangrijk om correcte volledig - gekwalificeerde namespace van SDK te gebruiken zoals die in [de namespace van SDK van de Kijker wordt beschreven ](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-namespace.md).
 
 Raadpleeg de SDK API-documentatie van de viewer voor meer informatie over een bepaalde component.
 
 ## Retourneert {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` een verwijzing naar de Viewer SDK-component. De methode retourneert `null` als `componentId` geen ondersteunde viewercomponent is of als de component nog niet door de viewerlogica is gemaakt.
+`{Object}` Een verwijzing naar de Viewer SDK-component. De methode retourneert `null` als `componentId` geen ondersteunde viewercomponent is of als de component nog niet door de viewerlogica is gemaakt.
 
 ## Voorbeeld {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
