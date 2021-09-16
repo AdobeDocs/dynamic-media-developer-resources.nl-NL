@@ -1,13 +1,13 @@
 ---
+title: CarouselView.frametransition
 description: CarouselView.frametransition
 solution: Experience Manager
-title: CarouselView.frametransition
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 771395fb-775d-462e-86dc-0600cfecb345
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '95'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|faden|dia  </span> </p> </td> 
-   <td colname="col2"> <p>Hiermee geeft u het type effect op dat wordt toegepast op de framewijziging. <span class="codeph"> geen enkele  </span> staat voor een overgang; de framewijziging gebeurt onmiddellijk. </p> <p> <span class="codeph"> vervagen  </span> betekent een overgang tussen oude en nieuwe frames met vervaging. </p> <p> <span class="codeph"> dia  </span> activeert overgang waar het oude kader uit de mening glijdt en het nieuwe kader binnen schuift. </p> </td> 
+   <td colname="col2"> <p>Hiermee geeft u het type effect op dat wordt toegepast op de framewijziging. <span class="codeph"> geen </span> staat bijvoorbeeld voor geen overgang; de framewijziging gebeurt onmiddellijk. En </p> <p> <span class="codeph"> vervagen  </span> betekent een overgang tussen oude en nieuwe frames met vervaging. Tot slot: </p> <p> <span class="codeph"> dia  </span> activeert overgang waar het oude kader uit de mening glijdt en het nieuwe kader binnen schuift. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duur  </span> </span> </p> </td> 
@@ -28,7 +28,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> afstand  </span> </span> </p> </td> 
-   <td colname="col2"> <p>De ruimte tussen aangrenzende kaders in <span class="codeph"> dia </span> overgang, heeft de waaier tussen <span class="codeph"> 0 </span> en <span class="codeph"> 1 </span> en is met betrekking tot de breedte van de component. </p> </td> 
+   <td colname="col2"> <p>De ruimte tussen aangrenzende kaders in <span class="codeph"> dia </span> overgang, heeft de waaier van <span class="codeph"> 0 </span> tot <span class="codeph"> 1 </span> en is met betrekking tot de breedte van de component. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,13 +1,13 @@
 ---
+title: SetIndicator.mode
 description: SetIndicator.mode
 solution: Experience Manager
-title: SetIndicator.mode
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: f228cf05-8b74-4f85-a02e-3bc084581529
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '64'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> numeriek|gestippeld</span> </p> </td> 
-   <td colname="col2"> <p> Vormt de renderstijl van de setindicator. </p> <p>Wanneer ingesteld op <span class="codeph"> dotted</span> geeft de component identieke indicatoren voor alle pagina's weer. </p> <p>Wanneer ingesteld op <span class="codeph"> numeriek</span>, wordt een op 1 gebaseerd paginanummer in elk indicatorelement geplaatst. </p> <p>De <span class="codeph"> numerieke</span> bewerkingsmodus wordt niet ondersteund op apparaten die aanraakinvoer kunnen uitvoeren. In plaats daarvan gebruikt de component <span class="codeph"> dotted</span> op dergelijke apparaten. </p> </td> 
+   <td colname="col2"> <p> Vormt de renderstijl van de setindicator. </p> <p>Wanneer ingesteld op <span class="codeph"> gestippeld </span>, geeft de component identieke indicatoren voor alle pagina's weer. </p> <p>Wanneer ingesteld op <span class="codeph"> numeriek</span>, wordt een op 1 gebaseerd paginanummer in elk indicatorelement geplaatst. </p> <p>De <span class="codeph"> numerieke </span> bewerkingsmodus wordt niet ondersteund op apparaten met aanraakinvoer. In plaats daarvan gebruikt de component <span class="codeph"> dotted</span> op dergelijke apparaten. </p> </td> 
   </tr> 
  </tbody> 
 </table>

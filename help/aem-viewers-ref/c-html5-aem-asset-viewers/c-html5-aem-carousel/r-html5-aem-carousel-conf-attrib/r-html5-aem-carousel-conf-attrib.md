@@ -1,13 +1,13 @@
 ---
+title: Command reference - Configuration attributes
 description: Documentatie over configuratiekenmerken voor Carousel Viewer.
 solution: Experience Manager
-title: Command reference - Configuration attributes
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 71c2c973-d711-4d37-b778-381a7ec71527
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Sommige configuratieopdrachten kunnen worden voorafgegaan door de klassenaam of 
 
 `[ZoomView.|<containerId>_carouselView].fmt`
 
-Dit betekent dat u deze opdracht kunt gebruiken als:
+In dat geval kunt u de volgende opdracht gebruiken:
 
 * `fmt` (korte syntaxis)
 * `CarouselView.fmt` (gekwalificeerd met naam van componentklasse)
