@@ -1,20 +1,20 @@
 ---
-description: Carousel Viewer is een viewer die een carrousel van niet-zoombare bannerafbeeldingen weergeeft met klikbare hotspots of gebieden. Het doel van deze viewer is om een 'shoppable carrousel'-ervaring te implementeren waarbij gebruikers een hotspot of een gebied boven de bannerafbeelding kunnen selecteren en worden omgeleid naar een Quickview- of productdetailpagina op de website van de klant. Het is ontworpen voor gebruik op desktops en mobiele apparaten.
-solution: Experience Manager
 title: Carousel
+description: Carousel Viewer is een viewer die een carrousel van niet-zoombare bannerafbeeldingen weergeeft met klikbare hotspots of gebieden. Met deze viewer kunt u een "schokkende carrousel"-ervaring implementeren waarmee gebruikers een hotspot of een gebied boven de bannerafbeelding kunnen selecteren. Ze kunnen worden omgeleid naar een pagina met Quickview- of productdetails op de website van de klant. Het is ontworpen voor gebruik op desktops en mobiele apparaten.
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: d506dc6e-8929-4f7f-a205-1683e77681f1
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
 workflow-type: tm+mt
-source-wordcount: '1902'
+source-wordcount: '1888'
 ht-degree: 0%
 
 ---
 
 # Carousel{#carousel}
 
-Carousel Viewer is een viewer die een carrousel van niet-zoombare bannerafbeeldingen weergeeft met klikbare hotspots of gebieden. Het doel van deze viewer is om een &#39;shoppable carrousel&#39;-ervaring te implementeren waarbij gebruikers een hotspot of een gebied boven de bannerafbeelding kunnen selecteren en worden omgeleid naar een Quickview- of productdetailpagina op de website van de klant. Het is ontworpen voor gebruik op desktops en mobiele apparaten.
+Carousel Viewer is een viewer die een carrousel van niet-zoombare bannerafbeeldingen weergeeft met klikbare hotspots of gebieden. Met deze viewer kunt u een &quot;schokkende carrousel&quot;-ervaring implementeren waarmee gebruikers een hotspot of een gebied boven de bannerafbeelding kunnen selecteren. Ze kunnen worden omgeleid naar een pagina met Quickview- of productdetails op de website van de klant. Het is ontworpen voor gebruik op desktops en mobiele apparaten.
 
 >[!NOTE]
 >
@@ -78,11 +78,11 @@ In de ingesloten modus wordt de viewer toegevoegd aan de bestaande webpagina. De
 
 De meest gebruikte gevallen zijn webpagina&#39;s die zijn georiënteerd op desktops of tablets en responsieve, ontworpen pagina&#39;s die de lay-out automatisch aanpassen, afhankelijk van het apparaattype.
 
-De insluiting met een vaste grootte wordt gebruikt wanneer de viewer de grootte niet wijzigt na het laden. Dit is de beste keuze voor webpagina&#39;s met een statische indeling.
+De insluiting met een vaste grootte wordt gebruikt wanneer de viewer de grootte niet wijzigt na het laden. Deze methode is de beste keuze voor webpagina&#39;s met een statische indeling.
 
-Bij het insluiten van responsieve ontwerpen wordt ervan uitgegaan dat de viewer tijdens runtime mogelijk de grootte moet wijzigen als reactie op de wijziging van de grootte van de container `DIV`. De meest gebruikte optie is het toevoegen van een viewer aan een webpagina die een flexibele pagina-indeling gebruikt.
+Bij het insluiten van responsieve ontwerpen wordt ervan uitgegaan dat de viewer bij uitvoering de grootte moet wijzigen als reactie op de wijziging van de grootte van de container `DIV`. De meest gebruikte optie is het toevoegen van een viewer aan een webpagina die een flexibele pagina-indeling gebruikt.
 
-In de responsieve ontwerpinsluitingsmodus werkt de viewer anders, afhankelijk van de manier waarop de container `DIV` door de webpagina wordt verkleind. Als de webpagina alleen de breedte van de container `DIV` instelt en de hoogte onbeperkt laat, kiest de viewer automatisch de hoogte op basis van de hoogte-breedteverhouding van het gebruikte element. Deze functionaliteit zorgt ervoor dat het element perfect in de weergave past zonder opvulling aan de zijkanten. Dit gebruiksgeval komt het meest voor voor Web-pagina&#39;s die ontvankelijke kaders van de Webontwerp lay-out zoals Bootstrap, Stichting, etc. gebruiken.
+In de responsieve ontwerpinsluitingsmodus werkt de viewer anders, afhankelijk van de manier waarop de container `DIV` door de webpagina wordt verkleind. Als de webpagina alleen de breedte van de container `DIV` instelt en de hoogte onbeperkt laat, kiest de viewer automatisch de hoogte op basis van de hoogte-breedteverhouding van het gebruikte element. Deze functionaliteit zorgt ervoor dat het element perfect in de weergave past zonder opvulling aan de zijkanten. Dit gebruiksgeval is het gemeenschappelijkst voor Web-pagina&#39;s die ontvankelijke kaders van de lay-out van het Webontwerp zoals Bootstrap en Stichting gebruiken.
 
 Als de webpagina anders zowel de breedte als de hoogte voor de container `DIV` van de viewer instelt, vult de viewer alleen dat gebied. De pagina volgt ook de grootte die de webpaginalay-out biedt. Een goed voorbeeld is het insluiten van de viewer in een modale overlay, waarbij de grootte van de overlay wordt aangepast aan de venstergrootte van de webbrowser.
 
@@ -111,7 +111,7 @@ Het relatieve pad ziet er als volgt uit:
 
 >[!NOTE]
 >
->U moet alleen verwijzen naar het JavaScript-bestand `include` van de hoofdviewer op uw pagina. U moet niet verwijzen naar extra JavaScript-bestanden in de webpaginacode die door de logica van de viewer in runtime kunnen worden gedownload. Verwijs met name niet rechtstreeks naar de HTML5 SDK `Utils.js`-bibliotheek die door de viewer is geladen vanaf het contextpad `/s7viewers` (de zogeheten geconsolideerde SDK `include`). De reden hiervoor is dat de locatie van `Utils.js` of vergelijkbare runtimeviewerbibliotheken volledig wordt beheerd door de logica van de viewer en dat de locatie verandert tussen de viewerreleases. Adobe houdt oudere versies van de secundaire viewer `includes` niet op de server.
+>Verwijs alleen naar het JavaScript-bestand `include` van de hoofdviewer op de pagina. Verwijs niet naar extra JavaScript-bestanden in de webpaginacode die door de logica van de viewer in runtime kunnen worden gedownload. Verwijs met name niet rechtstreeks naar de HTML5 SDK `Utils.js`-bibliotheek die door de viewer is geladen vanaf het contextpad `/s7viewers` (de zogeheten geconsolideerde SDK `include`). De reden hiervoor is dat de locatie van `Utils.js` of vergelijkbare runtimeviewerbibliotheken volledig wordt beheerd door de logica van de viewer en dat de locatie verandert tussen de viewerreleases. Adobe houdt oudere versies van de secundaire viewer `includes` niet op de server.
 >
 >
 >Als u dus een directe verwijzing naar een secundair JavaScript `include` op de pagina plaatst, wordt de viewerfunctionaliteit in de toekomst verbroken wanneer een nieuwe productversie wordt geïmplementeerd.
@@ -132,7 +132,7 @@ Het relatieve pad ziet er als volgt uit:
 
    U kunt de statische grootte voor de kijker plaatsen door of het voor `.s7carouselviewer` top-level CSS klasse in absolute eenheden te verklaren, of door `stagesize` bepaling te gebruiken.
 
-   U kunt de grootte in CSS rechtstreeks op de HTML-pagina plaatsen, of in een aangepast CSS-bestand van de viewer, dat later wordt toegewezen aan een viewer-voorinstellingsrecord in AEM Assets, op aanvraag, of expliciet wordt doorgegeven met de opdracht `style`.
+   U kunt de grootte in CSS rechtstreeks op de HTML-pagina plaatsen. U kunt de grootte ook in een aangepast CSS-bestand van de viewer plaatsen, dat later wordt toegewezen aan een viewer-voorinstellingsrecord in AEM Assets - Op aanvraag of expliciet wordt doorgegeven met de opdracht `style`.
 
    Zie [Carousel Viewer aanpassen](../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) voor meer informatie over het opmaken van de viewer met CSS.
 
@@ -159,7 +159,7 @@ Het relatieve pad ziet er als volgt uit:
 
    Het is belangrijk dat de viewercontainer aan het DOM wordt toegevoegd, zodat de viewercode het containerelement op basis van de id kan vinden. Sommige browsers stellen het samenstellen van DOM tot het einde van de webpagina uit. Voor maximale compatibiliteit roept u de methode `init()` aan vlak voor de afsluitingstag `BODY` of op de hoofdgebeurtenis `onload()`.
 
-   Tegelijkertijd mag het containerelement niet noodzakelijkerwijs deel uitmaken van de webpaginalay-out. Het kan bijvoorbeeld worden verborgen met de stijl `display:none` die eraan is toegewezen. In dit geval vertraagt de viewer het initialisatieproces totdat de webpagina het containerelement weer in de layout plaatst. Wanneer dit gebeurt, wordt het laden van de viewer automatisch hervat.
+   Tegelijkertijd mag het containerelement nog niet noodzakelijkerwijs deel uitmaken van de webpaginalay-out. Het kan bijvoorbeeld worden verborgen met de stijl `display:none` die eraan is toegewezen. In dit geval vertraagt de viewer het initialisatieproces totdat de webpagina het containerelement weer in de layout plaatst. Wanneer deze functionaliteit optreedt, wordt het laden van de viewer automatisch hervat.
 
    Hieronder ziet u een voorbeeld van het maken van een viewer-instantie, het doorgeven van minimaal noodzakelijke configuratieopties aan de constructor en het aanroepen van de methode `init()`. In het voorbeeld wordt ervan uitgegaan dat `carouselViewer` de viewerinstantie is; `s7viewer` is de naam van de tijdelijke aanduiding `DIV`; `https://adobedemo62-h.assetsadobe.com/is/image` is de URL van de afbeeldingsserver en `/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner` is het element:
 
@@ -266,7 +266,7 @@ De volgende voorbeeldpagina illustreert het levensechte gebruik van responsieve 
 
 **Flexibel formaat Insluiten met gedefinieerde breedte en hoogte**
 
-In het geval van insluiting van flexibele grootte met gedefinieerde breedte en hoogte, is de opmaak van de webpagina anders. Het verstrekt beide grootte aan `"holder"` DIV en centreert het in het browser venster. Bovendien stelt de webpagina de grootte van het element `HTML` en `BODY` in op 100 procent.
+In insluiten van flexibele grootte waarbij breedte en hoogte zijn gedefinieerd, is de opmaak van de webpagina anders. Het verstrekt beide grootte aan `"holder"` DIV en centreert het in het browser venster. Bovendien stelt de webpagina de grootte van het element `HTML` en `BODY` in op 100 procent.
 
 ```
 <!DOCTYPE html> 

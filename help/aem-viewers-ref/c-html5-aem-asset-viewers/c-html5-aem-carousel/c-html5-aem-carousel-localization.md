@@ -1,20 +1,20 @@
 ---
-description: Bepaalde inhoud die in de Carousel Viewer wordt weergegeven, moet worden gelokaliseerd. Dit geldt ook voor knoppen voor dianavigatie.
-solution: Experience Manager
 title: Lokalisatie van gebruikersinterface-elementen
+description: Bepaalde inhoud die in de Carousel Viewer wordt weergegeven, moet worden gelokaliseerd. Deze inhoud bevat dianavigatieknoppen.
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 05f5abe0-1124-4114-864d-440699bcdc39
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
 
 # Lokalisatie van gebruikersinterface-elementen{#localization-of-user-interface-elements}
 
-Bepaalde inhoud die in de Carousel Viewer wordt weergegeven, moet worden gelokaliseerd. Dit geldt ook voor knoppen voor dianavigatie.
+Bepaalde inhoud die in de Carousel Viewer wordt weergegeven, moet worden gelokaliseerd. Deze inhoud bevat dianavigatieknoppen.
 
 Elke tekstinhoud in de viewer die kan worden gelokaliseerd, wordt vertegenwoordigd door de speciale Viewer SDK-id SYMBOL. Elk SYMBOL heeft een aan de standaard gekoppelde tekstwaarde voor een Engelse landinstelling ( `"en"`) die wordt geleverd met de viewer buiten de box en kan ook door de gebruiker gedefinieerde waarden hebben ingesteld voor zoveel landinstellingen als nodig.
 

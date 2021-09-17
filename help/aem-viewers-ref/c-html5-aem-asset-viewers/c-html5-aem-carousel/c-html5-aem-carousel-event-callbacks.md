@@ -1,13 +1,13 @@
 ---
+title: Gebeurteniscallbacks
 description: Gebeurteniscallbacks
 solution: Experience Manager
-title: Gebeurteniscallbacks
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: e87b2a84-735c-4412-a4dd-97b18474a1d2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Tot de ondersteunde viewergebeurtenissen behoren:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> quickViewActivate  </span> </p> </td> 
-   <td colname="col2"> <p> De gebeurtenis wordt geactiveerd wanneer de gebruiker een hotspot activeert met daaraan gekoppelde Quick View-gegevens. De callback manager neemt het volgende argument: </p> <p> 
+   <td colname="col2"> <p> De gebeurtenis wordt geactiveerd wanneer de gebruiker een hotspot activeert waaraan QuickView-gegevens zijn gekoppeld. De callback manager neemt het volgende argument: </p> <p> 
      <ul id="ul_171110934BD54839B371FAD8D2AD467B"> 
       <li id="li_7B14C3BA432B43E392AC103926807E88"> <p> <span class="codeph"> data {Object}  </span> - een JSON-object met gegevens uit de hotspotdefinitie. Het veld <span class="codeph"> SKU </span> is verplicht, terwijl andere velden optioneel zijn en afhankelijk zijn van de definitie van de bronhotspot. </p> </li> 
      </ul> </p> </td> 

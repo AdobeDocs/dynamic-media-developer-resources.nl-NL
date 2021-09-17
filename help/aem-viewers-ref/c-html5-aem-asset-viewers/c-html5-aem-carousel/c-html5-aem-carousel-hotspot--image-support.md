@@ -1,13 +1,13 @@
 ---
+title: Ondersteuning voor hotspot en afbeeldingen met hyperlinks
 description: Ondersteuning voor hotspot en afbeeldingen met hyperlinks
 solution: Experience Manager
-title: Ondersteuning voor hotspot en afbeeldingen met hyperlinks
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: b441e241-809e-47cf-a309-57283bd0532b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -18,12 +18,12 @@ De viewer ondersteunt het renderen van hotspot-pictogrammen en gebieden met afbe
 
 Zie [Hotspots en afbeeldingen met hyperlinks](../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-hotspots-imagemaps.md#reference-2ac3cc414ef2467390bf53145f1d8d74).
 
-Hotspots en regio&#39;s kunnen een functie Snelle weergave activeren op de hostwebpagina door een JavaScript-callback te activeren of een gebruiker om te leiden naar een externe webpagina.
+Hotspots en regio&#39;s kunnen een functie van de Snelle weergave op de het ontvangen Web-pagina activeren door een callback JavaScript te teweegbrengen of een gebruiker aan een externe Web-pagina om te leiden.
 
-## Hotspots in Snelle weergave {#section-cda48fc9730142d0bb3326bac7df3271}
+## Hotspots voor Snelle weergave {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Deze typen hotspots of afbeeldingen met hyperlinks moeten worden ontworpen met het actietype Snelle weergave in Dynamic Media, van AEM. Wanneer een gebruiker een dergelijke hotspot of afbeelding met hyperlinks activeert, voert de viewer de JavaScript-callback `quickViewActivate` uit en geeft hij de hotspot- of afbeeldingskaartgegevens eraan door. Er wordt verwacht dat de ingesloten webpagina luistert naar deze callback. Wanneer de pagina wordt geactiveerd, wordt een eigen Quick View-implementatie geopend.
+Deze typen hotspots of afbeeldingen met hyperlinks moeten worden ontworpen met het actietype &quot;QuickView&quot; in Dynamic Media, Adobe Experience Manager. Wanneer een gebruiker een dergelijke hotspot of afbeelding met hyperlinks activeert, voert de viewer de JavaScript-callback `quickViewActivate` uit en geeft hij de hotspot- of afbeeldingskaartgegevens eraan door. Er wordt verwacht dat de ingesloten webpagina luistert naar deze callback. Wanneer de pagina wordt geactiveerd, wordt een eigen Quickview-implementatie geopend.
 
 ## Omleiden naar externe webpagina {#section-ef820c71251e4215800bb99c0c9ebe16}
 
-Hotspots of afbeeldingen met hyperlinks die zijn ontworpen voor het actietype &quot;Snelle weergave&quot; in Dynamic Media of AEM leiden de gebruiker om naar een externe URL. Afhankelijk van de instellingen die tijdens het ontwerpen zijn gemaakt, wordt de URL geopend in een nieuw browsertabblad, in hetzelfde venster of in het benoemde browservenster.
+Hotspots of afbeeldingen met hyperlinks die zijn ontworpen voor het actietype &quot;QuickView&quot; in Dynamic Media of Experience Manager leiden de gebruiker om naar een externe URL. Afhankelijk van de instellingen die tijdens het ontwerpen zijn gemaakt, wordt de URL geopend in een nieuw browsertabblad, in hetzelfde venster of in het benoemde browservenster.
