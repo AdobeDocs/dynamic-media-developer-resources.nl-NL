@@ -1,13 +1,13 @@
 ---
+title: Interactieve stalen
 description: Het interactieve deelvenster Stalen wordt naast de video-inhoud weergegeven als interactieve gegevens in configuratie zijn doorgegeven aan de viewer. Het bestaat uit een banner bovenaan die tekst zoals "Klik om te bekijken", een kolom van één of meerdere interactieve monsters en twee rolknopen (beschikbaar slechts op Desktopsystemen) teruggeeft.
 solution: Experience Manager
-title: Interactieve stalen
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: c9ef02eb-f5db-474b-b234-c49508e2af35
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -62,11 +62,11 @@ De locatie en richting van het interactieve deelvenster Stalen tijdens runtime w
 * Als u interactieve stalen horizontaal wilt renderen onder aan de viewer, stelt u de hoogte in op een absolute pixelwaarde. van links naar beneden naar 0 px; breedte, rechts en van boven naar automatisch.
 * Als u interactieve stalen verticaal wilt renderen rechts van de video-inhoud, stelt u de breedte in op een absolute pixel. rechts en boven naar 0 px; hoogte, links en onder naar automatisch.
 
-U kunt CSS-markeringen in combinatie met deze stijl gebruiken om het interactieve deelvenster Stalen op een aangepaste manier te plaatsen.
+Het is mogelijk CSS-markeringen met deze opmaak te gebruiken om het interactieve deelvenster Stalen op een aangepaste manier te plaatsen.
 
 ## Voorbeeld {#example}
 
-Een interactief deelvenster Stalen instellen om de weergave horizontaal onder aan de viewer op aanraakapparaten te vergroten in de stand Liggend en in alle andere gevallen verticaal rechts van de video-inhoud weer te geven:
+Een interactief deelvenster Stalen instellen om horizontaal, onder aan de viewer, te renderen op aanraakapparaten met de oriëntatie Liggend. En om het verticaal aan de rechterkant van de video-inhoud in alle andere gevallen te tonen:
 
 ```
 .s7interactivevideoviewer.s7touchinput.s7device_landscape .s7interactiveswatches, 
@@ -192,7 +192,7 @@ De volgende CSS-klassenkiezer bepaalt de afstand tussen staalminiaturen:
 
 ## Voorbeeld {#section-39fb270b7e494a9d99e6e8f6890ec53c}
 
-De verticale afstand instellen op 10 pixels:
+De verticale afstand instellen op tien pixels:
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7thumbcell { 
@@ -267,7 +267,7 @@ De volgende CSS-klassenkiezer bepaalt de vormgeving van het miniatuurlabel:
 
 ## Voorbeeld {#section-eb141eb6c1154183baa69796edb90536}
 
-Als u labels wilt instellen voor links uitgelijnd, wit en 12 pixels in het Helvetica-lettertype en een onderrand:
+Als u labels wilt instellen voor links uitgelijnd, wit en 12 pixels in het Helvetica®-lettertype en een onderrand:
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7label { 

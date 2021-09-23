@@ -1,11 +1,11 @@
 ---
+title: Oproep tot actie
 description: Het deelvenster Oproepen naar actie wordt weergegeven wanneer de video wordt beëindigd en alle interactieve stalen worden weergegeven die aan de specifieke video zijn gekoppeld.
 solution: Experience Manager
-title: Oproep tot actie
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 43e0ffb3-d650-4b79-ab48-2f32b313b832
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 0%
@@ -191,7 +191,7 @@ De volgende CSS-klassenkiezer bepaalt de vormgeving van de sluitknop in de aanro
 
 ## Voorbeeld {#example-3}
 
-Een afspeelknop van 28 x 28 pixels instellen; geplaatst op 20 pixels van de bovenkant en vanaf de rechterrand van de koptekst; geeft een andere afbeelding weer voor elk van de vier verschillende knoptoestanden; neemt het kunstwerk van SPRITE van de component beeld:
+Een afspeelknop van 28 x 28 pixels instellen. De knop moet zich 20 pixels van de bovenkant en de rechterrand van de koptekst bevinden. Bovendien moet voor elk van de vier verschillende knoptoestanden een andere afbeelding worden weergegeven. neemt het kunstwerk van SPRITE van de component beeld:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7closebutton { 
@@ -255,7 +255,7 @@ Met de volgende CSS-klassenkiezer bepaalt u de vormgeving van de blokcel in de a
 .s7interactivevideoviewer .s7calltoaction .s7thumbcell
 ```
 
-## CSS-eigenschappen van de minicel in de aanroep van het deelvenster Handelingen: {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
+## CSS-eigenschappen van de blokcel in het aanroepen van het deelvenster Handelingen: {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
 
 <table id="table_9CEBEF6FC7024F02840A581AEEF612B4"> 
  <tbody> 
@@ -354,7 +354,7 @@ De volgende CSS-klassenkiezer bepaalt de vormgeving van het miniatuurlabel in he
 
 ## Voorbeeld {#example-7}
 
-Als u labels wilt instellen die een witte kleur gebruiken, moet u 15 pixels gecentreerd zijn en een Arial-lettertype gebruiken:
+Als u labels wilt instellen die een witte kleur gebruiken, moet u 15 pixels gecentreerd zijn en een Arial®-lettertype gebruiken:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7label { 

@@ -1,13 +1,13 @@
 ---
+title: Videospeler
 description: De videospeler is het rechthoekige gebied waar de video-inhoud wordt weergegeven in de viewer.
 solution: Experience Manager
-title: Videospeler
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 9cfeceff-f6bd-42d9-9b85-456bbaa278fd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Gesloten bijschriften worden in een interne container in de videospeler geplaats
 
 ## Voorbeeld {#section-5b82913ff3c44b7b8187969cb15e9560}
 
-Als u een Closed Caption-tekst wilt instellen op 14 pixels, lichtgrijs, Arial, op een halftransparante zwarte achtergrond:
+Als u een Closed Caption-tekst wilt instellen op 14 pixels, lichtgrijs, Arial®, op een halftransparante zwarte achtergrond:
 
 ```
 .s7interactivevideoviewer .s7videoplayer .s7caption { 

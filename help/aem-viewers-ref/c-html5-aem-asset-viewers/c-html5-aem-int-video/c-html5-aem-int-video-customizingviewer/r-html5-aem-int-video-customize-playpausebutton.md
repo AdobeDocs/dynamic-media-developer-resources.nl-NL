@@ -1,13 +1,13 @@
 ---
+title: Knop Afspelen/Pauzeren
 description: Met de knop Afspelen/Pauzeren wordt de video-inhoud afgespeeld of gepauzeerd wanneer de gebruiker erop klikt.
 solution: Experience Manager
-title: Knop Afspelen/Pauzeren
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: bbf34037-b571-4dc9-be52-070aef014c31
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -69,13 +69,13 @@ De volgende CSS-klassenkiezer bepaalt de vormgeving van de knop:
 >
 >Deze knoop steunt zowel `state`, `selected`, als `replay` attribuutselecteurs, die kunnen worden gebruikt om verschillende huiden op verschillende knoopstaten toe te passen. Met name `selected='true'` komt overeen met de status &quot;play&quot; en `selected='false'` komt overeen met de status &quot;pause&quot;;
 >
->`replay='true'` wordt ingesteld wanneer de video het einde heeft bereikt en wanneer u op de knop klikt, wordt het afspelen vanaf het begin opnieuw gestart.
+>Kenmerk `replay='true'` wordt ingesteld wanneer de video het einde heeft bereikt en wanneer u de knop selecteert, wordt het afspelen vanaf het begin opnieuw gestart.
 
 De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie.
 
 ## Voorbeeld {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Een afspeel-/pauzeknop van 32 x 32 pixels instellen; de knop bevindt zich op zes pixels van de boven- en linkerrand van de besturingsbalk en geeft een andere afbeelding weer voor elk van de vier verschillende knopstatussen, indien geselecteerd of niet geselecteerd.
+Een afspeel-/pauzeknop instellen van 32 x 32 pixels en 6 pixels van de boven- en linkerrand van de besturingsbalk. Ten slotte wordt een andere afbeelding weergegeven voor elk van de vier verschillende knopstatussen, indien geselecteerd of niet geselecteerd.
 
 ```
 .s7interactivevideoviewer .s7playpausebutton { 

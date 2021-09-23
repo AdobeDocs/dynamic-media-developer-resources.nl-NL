@@ -1,13 +1,13 @@
 ---
+title: Videoscrubber
 description: De videoscrubber is de horizontale schuifregelaar waarmee een gebruiker dynamisch naar een willekeurige tijdpositie in de video kan zoeken die momenteel wordt afgespeeld.
 solution: Experience Manager
-title: Videoscrubber
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 9d11f2e9-315c-44d8-beb1-530d2b316604
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14ca8cd5e1ce60d59806765e573e50417d0ccc50
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1022'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ De videoscrubber is de horizontale schuifregelaar waarmee een gebruiker dynamisc
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-De scrubber &#39;knob&#39; beweegt zich ook terwijl de video speelt om op de huidige tijdpositie van de video tijdens playback te wijzen. De videoscrubber neemt altijd de volledige breedte van de controlebar. Het is mogelijk om de videoscrubber van een skin te voorzien. de hoogte en de verticale positie van het object wijzigen met CSS.
+De scrubber &#39;knob&#39; beweegt zich ook terwijl de video speelt om op de huidige tijdpositie van de video tijdens playback te wijzen. De videoscrubber neemt altijd de volledige breedte van de controlebar. Het is mogelijk de skin van de videoscrubber te wijzigen en de hoogte en verticale positie ervan te wijzigen met CSS.
 
 De algemene weergave van de videoscrubber wordt beheerd met de volgende CSS-klassenkiezer:
 
@@ -158,7 +158,7 @@ De volgende CSS-klassenkiezer bestuurt de zeepbel waarin de tijd wordt afgespeel
 
 De knopinfo voor het gereedschap Video scrubber kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie.
 
-**Voorbeeld**  - Een videoviewer instellen met een videoscrubber met aangepaste trackkleuren die 10 pixels hoog zijn en die 10 pixels en 35 pixels van de boven- en linkerrand van de besturingsbalk zijn geplaatst.
+**Voorbeeld**  - Een videoviewer instellen met een scrubber voor video en met aangepaste trackkleuren die tien pixels hoog zijn. Plaats het 10 pixel en 35 pixel vanaf de bovenkant en linkerranden van de controlebar.
 
 ```
 .s7interactivevideoviewer .s7videoscrubber  { 
@@ -181,7 +181,7 @@ background-color:#888888;
 }
 ```
 
-Wanneer videochaptering met de parameter `navigation` wordt toegelaten, worden de hoofdstukplaatsen getoond als tellers bovenop het video scrubberspoor.
+Wanneer de videokaartmarkering is ingeschakeld met de parameter `navigation`, worden hoofdstuklocaties weergegeven als markeringen boven op de videoscrubbertrack.
 
 De markering van het videohoofdstuk wordt beheerd door de volgende CSS-klassenkiezer:
 
@@ -430,7 +430,7 @@ De beschrijving van het videohoofdstuk wordt beheerd door de volgende CSS-klasse
  </tbody> 
 </table>
 
-**Voorbeeld**  - Als u een beschrijving van een videohoofdstuk wilt instellen met een donkergrijs, 11-pixel Verdana-lettertype, met een lichtgrijze achtergrond; 5 pixels, lijnhoogte, 12 pixels, horizontale opvulling, 12 pixels opvulling boven en 9 pixels opvulling onder.
+**Voorbeeld**  - Als u een beschrijving van een videohoofdstuk wilt instellen met een donkergrijs, 11-pixel Verdana-lettertype, met een lichtgrijze achtergrond. Een lijnhoogte van vijf pixels, een horizontale opvulling van 12 pixels, een opvulling van 12 pixels boven en een opvulling van negen pixels onder.
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7chapter .s7description { 
