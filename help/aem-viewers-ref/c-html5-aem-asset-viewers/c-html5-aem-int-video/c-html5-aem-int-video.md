@@ -1,13 +1,13 @@
 ---
+title: Interactieve video
 description: Interactive Video Viewer is een videospeler die streaming en progressieve video afspeelt die zijn gecodeerd in de H.264-indeling.
 solution: Experience Manager
-title: Interactieve video
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: e54b0b1f-b015-4592-82e2-99f5080543e3
-source-git-commit: f77dc0c1ac8305037bbb561451317c8e62209cec
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '2216'
+source-wordcount: '2211'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ Het relatieve pad ziet er als volgt uit:
 
    U kunt de statische grootte voor de kijker plaatsen door of het voor `.s7interactivevideoviewer` top-level CSS klasse in absolute eenheden te verklaren, of door `stagesize` bepaling te gebruiken.
 
-   U kunt de grootte in CSS rechtstreeks op de HTML-pagina plaatsen. U kunt het ook in een CSS-bestand voor een aangepaste viewer plaatsen, dat later wordt toegewezen aan een record met viewervoorinstellingen in AEM Assets, op aanvraag, of expliciet wordt doorgegeven met de opdracht `style`.
+   U kunt de grootte in CSS rechtstreeks op de HTML-pagina plaatsen. U kunt het ook in een CSS-bestand voor een aangepaste viewer plaatsen, dat later wordt toegewezen aan een record met viewervoorinstellingen in Adobe Experience Manager Assets - Op aanvraag of expliciet wordt doorgegeven met de opdracht `style`.
 
    Zie [Interactieve video-viewer aanpassen](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) voor meer informatie over het opmaken van de viewer met CSS.
 
@@ -139,7 +139,7 @@ Het relatieve pad ziet er als volgt uit:
    }
    ```
 
-   U kunt de `stagesize` bepaling in het vooraf ingestelde verslag van de kijker in AEM Assets - op bestelling plaatsen. Of u kunt het expliciet doorgeven met de viewer-initialisatiecode met `params`-verzameling of als een API-aanroep zoals beschreven in de sectie Opdrachtverwijzing, als volgt:
+   U kunt de optie `stagesize` instellen in de record met voorinstellingen van de viewer in Elementen Experience Manager - Op aanvraag. Of u kunt het expliciet doorgeven met de viewer-initialisatiecode met `params`-verzameling of als een API-aanroep zoals beschreven in de sectie Opdrachtverwijzing, als volgt:
 
    ```
    interactivevideoviewer.setParam("stagesize", "640,640");

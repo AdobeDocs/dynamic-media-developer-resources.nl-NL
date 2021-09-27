@@ -1,13 +1,13 @@
 ---
+title: SocialShare.bearing
 description: Configuration attribute for Interactive Video Viewer.
 solution: Experience Manager
-title: SocialShare.bearing
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: f34d6954-01c5-49e0-94d4-fd577c57956e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Configuration attribute for Interactive Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> up|down|left|right|fit-vertical|fit-lateraal</span> </p> </td> 
-   <td colname="col2"> <p> Hiermee bepaalt u de richting van de dianavigatie voor de knoppencontainer. Wanneer ingesteld op <span class="codeph"> up</span>, <span class="codeph"> down</span>, <span class="codeph"> left</span>, of <span class="codeph"> right</span>, rolt het paneel uit in de gespecificeerde richting zonder enige extra grenzen het controleren, die in het paneel kan resulteren dat door een buitencontainer wordt geknipt. </p> <p>Wanneer ingesteld op <span class="codeph"> fit-vertical</span>, verplaatst de component eerst de positie van het basispaneel naar de bodem van SocialShare en probeert het paneel in één van de volgende richtingen van zulk een basisplaats uit te rollen: onder, rechts, links. Bij elke poging controleert de component of het deelvenster is bijgesneden door een buitencontainer. Als alle pogingen mislukken, probeert de component om de positie van het basispaneel naar de bovenkant te verschuiven en herhaalt de uitrolpogingen van een bovenkant, juiste, en linkerrichting. </p> <p>Wanneer ingesteld op <span class="codeph"> fit-lateraal</span>, gebruikt de component een gelijkaardige logica, maar verschuift de basis eerst naar rechts, die recht probeert, onderaan, en omhoog roloutrichtingen. Vervolgens verschuift het de basis naar links, waarbij de rollout-richting naar links, omlaag en omhoog wordt geprobeerd. </p> </td> 
+   <td colname="col2"> <p> Hiermee bepaalt u de richting van de dianavigatie voor de knoppencontainer. Wanneer ingesteld op <span class="codeph"> up</span>, <span class="codeph"> down</span>, <span class="codeph"> left</span>, of <span class="codeph"> right</span>, rolt het paneel uit in de gespecificeerde richting zonder enige extra grenzen het controleren, die in het paneel kan resulteren dat door een buitencontainer wordt geknipt. </p> <p>Wanneer ingesteld op <span class="codeph"> fit-vertical</span>, verschuift de component eerst de positie van het basisdeelvenster naar de onderkant van SocialShare. Vervolgens wordt geprobeerd het deelvenster in een van de volgende richtingen vanuit een dergelijke basislocatie uit te rollen: onder, rechts, links. Bij elke poging controleert de component of het deelvenster is bijgesneden door een buitencontainer. Als alle pogingen mislukken, probeert de component om de positie van het basispaneel naar de bovenkant te verschuiven en herhaalt de rollout pogingen van een bovenkant, juist, en linkerrichting. </p> <p>Wanneer ingesteld op <span class="codeph"> fit-lateraal</span>, gebruikt de component een gelijkaardige logica, maar verschuift de basis eerst naar rechts, die recht probeert, onderaan, en omhoog rollout richtingen. Vervolgens verschuift het de basis naar links, waarbij de rollout-richting naar links, omlaag en omhoog wordt geprobeerd. </p> </td> 
   </tr> 
  </tbody> 
 </table>

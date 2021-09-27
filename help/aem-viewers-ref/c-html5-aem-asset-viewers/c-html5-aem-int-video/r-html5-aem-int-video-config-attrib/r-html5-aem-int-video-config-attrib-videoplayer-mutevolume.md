@@ -1,13 +1,13 @@
 ---
+title: VideoPlayer.mutevolume
 description: Configuration attribute for Interactive Video Viewer.
 solution: Experience Manager
-title: VideoPlayer.mutevolume
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 84deb0d4-ac7e-4ba0-884f-675a0dcc827b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '56'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ Configuration attribute for Interactive Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
-   <td colname="col2"> <p> Hiermee stelt u de modus Gedempt in voor het afspelen van video bij het eerste laden. Indien ingesteld op <span class="codeph"> 1 </span> wordt het volume gedempt; anders wordt de video afgespeeld met geluid. Op bepaalde apparaten kan de video automatisch worden afgespeeld wanneer de video wordt geladen. </p> </td> 
+   <td colname="col2"> <p> Hiermee stelt u de modus Gedempt in voor het afspelen van video bij het eerste laden. Indien ingesteld op <span class="codeph"> 1 </span> wordt het volume gedempt; anders wordt de video afgespeeld met geluid. Op bepaalde apparaten kan de video automatisch worden afgespeeld wanneer de video tijdens het laden wordt gedempt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

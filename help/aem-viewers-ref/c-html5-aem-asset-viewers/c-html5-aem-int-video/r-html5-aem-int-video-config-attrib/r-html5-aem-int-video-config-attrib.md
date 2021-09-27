@@ -1,13 +1,13 @@
 ---
+title: Command reference - Configuration attributes
 description: Documentatie met configuratiekenmerken voor Interactive Video Viewer.
 solution: Experience Manager
-title: Command reference - Configuration attributes
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 80b7971c-82dc-47a2-adde-9e061a0f856d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Sommige configuratieopdrachten kunnen worden voorafgegaan door de klassenaam of 
 
 `[VideoPlayer.|<containerId>_videoPlayer].playback`
 
-Dit betekent dat u deze opdracht kunt gebruiken als:
+En betekent dat u het volgende bevel als kunt gebruiken:
 
 * `playback` (korte syntaxis)
 * `VideoPlayer.playback` (gekwalificeerd met naam van componentklasse)

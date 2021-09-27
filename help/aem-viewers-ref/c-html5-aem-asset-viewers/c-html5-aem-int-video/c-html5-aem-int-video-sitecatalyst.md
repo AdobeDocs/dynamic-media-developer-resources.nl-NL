@@ -1,13 +1,13 @@
 ---
+title: Ondersteuning voor Adobe Analytics-tracking
 description: De HTML5 Video360 Viewer biedt ondersteuning voor het uit de verpakking bijhouden van Adobe Analytics.
 solution: Experience Manager
-title: Ondersteuning voor Adobe Analytics-tracking
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve video's
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 74a69d01-fa58-4d36-8598-992baf6ae11d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Door gebrek, verzendt de kijker één enkele het volgen HTTP- verzoek naar de ge
 
 ## Aangepaste reeksspatiëring {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Om met derdeanalysesystemen te integreren is het noodzakelijk om aan `trackEvent` kijkerscallback te luisteren en het `eventInfo` argument van de callback functie zonodig te verwerken. De volgende code is een voorbeeld van een dergelijke handlerfunctie:
+Om met derdeanalysesystemen te integreren, is het noodzakelijk om aan `trackEvent` kijkerscallback te luisteren en het `eventInfo` argument van de callback functie zonodig te verwerken. De volgende code is een voorbeeld van een dergelijke handlerfunctie:
 
 ```
 var video360Viewer = new s7viewers.Video360Viewer({ 
