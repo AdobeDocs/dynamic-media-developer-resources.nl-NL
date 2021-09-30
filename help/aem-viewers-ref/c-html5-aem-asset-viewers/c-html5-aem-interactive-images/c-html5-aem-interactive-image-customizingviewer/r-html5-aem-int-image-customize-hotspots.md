@@ -1,13 +1,13 @@
 ---
+title: Hotspots
 description: In de viewer worden hotspots weergegeven op de hoofdweergave op plaatsen waar hotspots oorspronkelijk in Dynamic Media of AEM Assets waren ontworpen, op aanvraag.
 solution: Experience Manager
-title: Hotspots
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve afbeeldingen
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: ec1d9a91-e189-470a-abe2-4f33686905e7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---

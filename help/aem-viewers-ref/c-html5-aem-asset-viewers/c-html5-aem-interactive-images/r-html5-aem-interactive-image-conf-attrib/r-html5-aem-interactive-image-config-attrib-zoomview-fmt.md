@@ -1,14 +1,14 @@
 ---
+title: ZoomView.fmt
 description: Specificeert het beeldformaat dat de component voor het laden van beelden van de Server van het Beeld gebruikt.
 solution: Experience Manager
-title: ZoomView.fmt
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve afbeeldingen
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 6a023abb-71c7-4db5-8d05-bf0a4b1fc3a0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

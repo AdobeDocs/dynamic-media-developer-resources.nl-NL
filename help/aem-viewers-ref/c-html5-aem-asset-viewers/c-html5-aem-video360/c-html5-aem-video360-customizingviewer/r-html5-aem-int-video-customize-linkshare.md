@@ -1,13 +1,13 @@
 ---
+title: Delen van koppeling
 description: Het gereedschap voor delen van koppeling bestaat uit een knop die wordt toegevoegd aan het deelvenster Sociaal delen en het modale dialoogvenster dat wordt weergegeven wanneer het gereedschap wordt geactiveerd. De positie van de knop wordt volledig beheerd met het gereedschap Sociaal delen.
 solution: Experience Manager
-title: Delen van koppeling
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 9eb2ef38-9b86-4c60-90a2-6609cb3fcc39
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1385'
 ht-degree: 0%
 
 ---
@@ -284,7 +284,7 @@ Knop Sluiten wordt beheerd met de volgende CSS-klassenkiezer:
 
 De knopinfo Sluiten en de titel van het dialoogvenster kunnen worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Voorbeeld** - om een dialoogvensterkoptekst in te stellen met opvulling, pictogram van 22 x 12 pixels, vetgedrukte titel van 16 punten en een knop Sluiten van 28 x 28 pixels die twee pixels van de bovenkant en twee pixels van de rechterkant van de container van het dialoogvenster zijn geplaatst:
+**Voorbeeld**  - Als u een koptekst voor een dialoogvenster wilt instellen met opvulling, pictogram van 22 x 12 pixels en een vette titel van 16 punten. En ten slotte een knop Sluiten met 28 x 28 pixels die zich twee pixels van de bovenkant en twee pixels van de rechterkant van de container van het dialoogvenster bevindt:
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogheader { 
@@ -426,7 +426,7 @@ De knop Annuleren wordt beheerd met de volgende CSS-klassenkiezer:
 >
 >Deze knoop steunt `state` attributenselecteur, die kan worden gebruikt om verschillende huiden op verschillende knoopstaten toe te passen.
 
-Bovendien hebben beide knoppen dezelfde algemene CSS-klasse die CSS-instellingen kan bevatten die hetzelfde zijn voor andere knoppen in dialoogvensters:
+Bovendien delen beide knoppen dezelfde algemene CSS-klasse die CSS-instellingen kan bevatten die hetzelfde zijn voor andere knoppen in dialoogvensters:
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogfooter .s7button
@@ -560,7 +560,7 @@ Het hoofddialoogvenster (tussen de kop- en voettekst) bevat inhoud van het dialo
 }
 ```
 
-Alle formulierinhoud, zoals labels en invoervelden, bevindt zich in een container die wordt beheerd met de volgende CSS-klassenkiezer:
+Alle formulierinhoud - zoals labels en invoervelden - bevindt zich in een container die wordt beheerd met de volgende CSS-klassenkiezer:
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogbody
@@ -577,7 +577,7 @@ Alle formulierinhoud, zoals labels en invoervelden, bevindt zich in een containe
  </tbody> 
 </table>
 
-**Voorbeeld** - instellen dat formulierinhoud 10 pixels wordt opgevuld:
+**Voorbeeld** - instellen dat formulierinhoud tien pixels wordt opgevuld:
 
 ```
 .s7interactivevideoviewer .s7linkdialog .s7dialogbody { 
@@ -634,7 +634,7 @@ De grootte van de tekstkopie die boven op de koppeling wordt weergegeven, wordt 
 .s7video360viewer .s7linkdialog .s7dialoginputwide
 ```
 
-**CSS-eigenschappen van het invoerbrede veld van het dialoogvenster**
+**CSS-eigenschappen van het invoerveld van het dialoogvenster**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 

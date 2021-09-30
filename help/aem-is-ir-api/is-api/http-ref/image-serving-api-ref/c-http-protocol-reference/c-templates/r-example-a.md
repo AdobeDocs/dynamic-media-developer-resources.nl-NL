@@ -1,22 +1,22 @@
 ---
-description: Maak een sjabloon met een vaste grootte met een statische achtergrondafbeelding, een variabele afbeelding die links op de achtergrond wordt uitgelijnd en wordt geschaald tot maximaal 80% van de breedte en hoogte van de achtergrond, en een tekstlaag met verticale tekst gecentreerd op de rechterrand van het canvas.
-solution: Experience Manager
 title: Voorbeeld A
-feature: Dynamic Media Classic, SDK/API
+description: Maak een sjabloon met een vaste grootte met een statische achtergrondafbeelding, een variabele afbeelding die links op de achtergrond wordt uitgelijnd en wordt geschaald tot maximaal 80% van de breedte en hoogte van de achtergrond. Tot slot één tekstlaag met verticale tekst gecentreerd op de rechterrand van het canvas.
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7f731b41-994d-4f1d-b42d-e14db47e4d6c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Voorbeeld A{#example-a}
 
-Maak een sjabloon met een vaste grootte met een statische achtergrondafbeelding, een variabele afbeelding die links op de achtergrond wordt uitgelijnd en wordt geschaald tot maximaal 80% van de breedte en hoogte van de achtergrond, en een tekstlaag met verticale tekst gecentreerd op de rechterrand van het canvas.
+Maak een sjabloon met een vaste grootte met een statische achtergrondafbeelding, een variabele afbeelding die links op de achtergrond wordt uitgelijnd en wordt geschaald tot maximaal 80% van de breedte en hoogte van de achtergrond. Tot slot één tekstlaag met verticale tekst gecentreerd op de rechterrand van het canvas.
 
-![](assets/examplea.png)
+![Een voorbeeld van een afbeelding bekijken](assets/examplea.png)
 
 ## De sjabloonrecord {#section-32f54710593e438fa0622224c89380af}
 
@@ -33,17 +33,17 @@ Object invoegen
  </tr> 
 </table>
 
-De `origin=` waarden van alle lagen worden uitdrukkelijk gespecificeerd in het malplaatje om het plaatsen en de groepering van de lagen strikt te controleren. Elke oorsprong van de laag wordt ingesteld zodat deze overeenkomt met de gewenste uitlijning voor die laag. `origin=` voor de achtergrond (laag 0) wordt geplaatst aan het centrum; dit willekeurig is omdat de achtergrondafbeelding bij uitvoering niet verandert; alle waarden voor de oorsprong van laag 0 kunnen worden gebruikt.
+De `origin=` waarden van alle lagen worden uitdrukkelijk gespecificeerd in het malplaatje om het plaatsen en de groepering van de lagen strikt te controleren. Elke oorsprong van de laag wordt ingesteld zodat deze overeenkomt met de gewenste uitlijning voor die laag. `origin=` voor de achtergrond (laag 0) wordt geplaatst aan het centrum; deze waarde is arbitrair omdat de achtergrondafbeelding bij uitvoering niet verandert; alle waarden voor de oorsprong van laag 0 kunnen worden gebruikt.
 
 De `pos=` waarden verstrekken de noodzakelijke compensatie tussen de punten van de laagoorsprong, om de gewenste laag het plaatsen te bereiken.
 
-Het anker voor de afbeelding van laag 1 wordt links in het midden geplaatst. in combinatie met de waarde `pos=` wordt hiermee de uitlijning naar links gecentreerd tussen de achtergrond en de afbeelding met laag 1, ongeacht de hoogte-breedteverhouding van de afbeelding met laag 1.
+Het anker voor de afbeelding van laag 1 wordt links in het midden geplaatst, met de waarde `pos=`. Met deze instelling wordt de achtergrondafbeelding en de afbeelding met laag 1 links uitgelijnd, ongeacht de hoogte-breedteverhouding van de afbeelding met laag 1.
 
-Het anker voor de tekstlaag wordt op dezelfde manier in het midden van het tekstvak met automatische grootte geplaatst. In combinatie met pos= bereikt u hiermee de gewenste uitlijning naar rechts voor de geroteerde tekst, onafhankelijk van tekengrootte en tekenreekslengte.
+Op dezelfde manier wordt het anker voor de tekstlaag geplaatst bij het recht-centrum van het auto-gerangschikte tekstvakje, met de waarde `pos=`. Met deze instelling wordt de gewenste rechts-gecentreerde uitlijning bereikt voor de geroteerde tekst, onafhankelijk van de tekengrootte en tekenreekslengte.
 
-De werkelijke weergavetekst wordt tijdens runtime weergegeven, zodat een variabele wordt gebruikt om de tekst te scheiden van het omhulsel voor RTF-opmaak. De standaardvariabele `$object` wordt gebruikt voor de afbeelding met laag 1. Hierdoor kan deze afbeelding in het aanvraagpad worden opgegeven.
+De werkelijke weergavetekst wordt tijdens runtime weergegeven, zodat een variabele wordt gebruikt om de tekst te scheiden van het omhulsel voor RTF-opmaak. De standaardvariabele `$object` wordt gebruikt voor laag 1 beeld. Met deze variabele kunt u deze afbeelding opgeven in het aanvraagpad.
 
-Elke afbeelding kan worden gebruikt voor de achtergrondafbeelding en de afbeelding van laag 1. Als de achtergrondafbeelding een masker heeft, worden de niet-gemaskerde gebieden gevuld met de standaardachtergrondkleur ( `attribute::BkgColor`), of worden deze transparant gemaakt wanneer `fmt=png-alpha` of `fmt=tif-alpha`. Als de achtergrondafbeelding een niet-vierkante hoogte-breedteverhouding heeft, wordt deze gecentreerd in de antwoordafbeelding en wordt de extra ruimte gevuld met `attribute::BkgColor`. Als de afbeelding van laag 1 alpha-gegevens of een masker bevat, blijft de achtergrondafbeelding (of de achtergrondkleur) zichtbaar in de transparante gebieden. Als de afbeelding geen masker heeft, wordt de volledige toegewezen rechthoek gevuld.
+Elke afbeelding kan worden gebruikt voor de achtergrondafbeelding en de afbeelding van laag 1. Als de achtergrondafbeelding een masker heeft, worden de niet-gemaskerde gebieden gevuld met de standaardachtergrondkleur ( `attribute::BkgColor`), of worden deze transparant gemaakt wanneer `fmt=png-alpha` of `fmt=tif-alpha`. Als de achtergrondafbeelding een niet-vierkante hoogte-breedteverhouding heeft, wordt deze gecentreerd in de antwoordafbeelding en wordt de extra ruimte gevuld met `attribute::BkgColor`. Als de afbeelding van laag 1 alpha-gegevens of een masker bevat, blijft de achtergrondafbeelding (of achtergrondkleur) zichtbaar in de transparante gebieden. Als de afbeelding geen masker heeft, wordt de volledige toegewezen rechthoek gevuld.
 
 ## De sjabloon gebruiken {#section-3e04eedc268c482db5a8cfc662c0f327}
 
@@ -51,4 +51,4 @@ Elke afbeelding kan worden gebruikt voor de achtergrondafbeelding en de afbeeldi
 
 In de volgende afbeelding ziet u het samengestelde resultaat voor verschillende hoogte-breedteverhoudingen van de afbeelding met laag 1 en verschillende tekstreeksen.
 
-![](assets/exampleausing.png)
+![Voorbeeld van een afbeelding met een samengesteld resultaat](assets/exampleausing.png)

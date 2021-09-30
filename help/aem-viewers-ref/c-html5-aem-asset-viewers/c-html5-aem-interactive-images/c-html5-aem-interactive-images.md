@@ -1,20 +1,20 @@
 ---
-description: Interactive Image Viewer is een viewer die één niet-zoombare afbeelding met aanklikbare hotspots weergeeft. Het doel van deze viewer is het implementeren van een 'shoppable banner'-ervaring. Met andere woorden, de gebruiker kan een hotspot boven de bannerafbeelding selecteren en worden omgeleid naar een pagina in de Snelle weergave of de productdetails op uw website. Het is ontworpen voor gebruik op desktops en mobiele apparaten.
-solution: Experience Manager
 title: Interactieve afbeelding
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve afbeeldingen
+description: Interactive Image Viewer is een viewer die één niet-zoombare afbeelding met aanklikbare hotspots weergeeft. Het doel van deze viewer is het implementeren van een 'shoppable banner'-ervaring. Met andere woorden, de gebruiker kan een hotspot boven de bannerafbeelding selecteren en worden omgeleid naar een Quickview- of productdetailpagina op uw website. Het is ontworpen voor gebruik op desktops en mobiele apparaten.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: c7089ecd-6ff3-4fe9-9ee7-3b48c9201558
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Interactieve afbeelding{#interactive-image}
 
-Interactive Image Viewer is een viewer die één niet-zoombare afbeelding met aanklikbare hotspots weergeeft. Het doel van deze viewer is het implementeren van een &#39;shoppable banner&#39;-ervaring. Met andere woorden, de gebruiker kan een hotspot boven de bannerafbeelding selecteren en worden omgeleid naar een pagina in de Snelle weergave of de productdetails op uw website. Het is ontworpen voor gebruik op desktops en mobiele apparaten.
+Interactive Image Viewer is een viewer die één niet-zoombare afbeelding met aanklikbare hotspots weergeeft. Het doel van deze viewer is het implementeren van een &#39;shoppable banner&#39;-ervaring. Met andere woorden, de gebruiker kan een hotspot boven de bannerafbeelding selecteren en worden omgeleid naar een Quickview- of productdetailpagina op uw website. Het is ontworpen voor gebruik op desktops en mobiele apparaten.
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ Zie [Toegankelijkheid en navigatie op toetsenbord](../../c-keyboard-accessibilit
 
 ## Interactieve afbeeldingsviewer insluiten {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Interactive Image Viewer is ontworpen om te worden ingesloten in de hostpagina. Een dergelijke webpagina kan een statische lay-out hebben of kan &quot;responsief&quot; zijn en anders worden weergegeven op verschillende apparaten of voor verschillende venstergrootten in de browser.
+De interactieve beeldviewer is ingesloten in de hostpagina. Een dergelijke webpagina kan een statische lay-out hebben of kan &quot;responsief&quot; zijn en anders worden weergegeven op verschillende apparaten of voor verschillende venstergrootten in de browser.
 
 Om aan deze behoeften tegemoet te komen, ondersteunt de viewer twee primaire bewerkingsmodi: insluiten met een vaste grootte en responsieve insluiting.
 
@@ -60,11 +60,11 @@ In de ingesloten modus wordt de viewer toegevoegd aan de bestaande webpagina. De
 
 De meest gebruikte gevallen zijn webpagina&#39;s die zijn georiënteerd op desktops of tablets en responsieve, ontworpen pagina&#39;s die de lay-out automatisch aanpassen, afhankelijk van het apparaattype.
 
-De insluiting met een vaste grootte wordt gebruikt wanneer de viewer de grootte niet wijzigt na het laden. Dit is de beste keuze voor webpagina&#39;s met een statische indeling.
+De insluiting met een vaste grootte wordt gebruikt wanneer de viewer de grootte niet wijzigt na het laden. Deze methode is de beste keuze voor webpagina&#39;s met een statische indeling.
 
-Bij het insluiten van responsieve ontwerpen wordt ervan uitgegaan dat de viewer tijdens runtime mogelijk de grootte moet wijzigen als reactie op de wijziging van de grootte van de container `DIV`. De meest gebruikte optie is het toevoegen van een viewer aan een webpagina die een flexibele pagina-indeling gebruikt.
+Bij het insluiten van responsieve ontwerpen wordt ervan uitgegaan dat de viewer bij uitvoering de grootte moet wijzigen als reactie op de wijziging van de grootte van de container `DIV`. De meest gebruikte optie is het toevoegen van een viewer aan een webpagina die een flexibele pagina-indeling gebruikt.
 
-In de responsieve ontwerpinsluitingsmodus werkt de viewer anders, afhankelijk van de manier waarop de container `DIV` door de webpagina wordt verkleind. Als de webpagina alleen de breedte van de container `DIV` instelt en de hoogte onbeperkt laat, kiest de viewer automatisch de hoogte op basis van de hoogte-breedteverhouding van het gebruikte element. Deze functionaliteit zorgt ervoor dat het element perfect in de weergave past zonder opvulling aan de zijkanten. Dit gebruiksgeval komt het meest voor voor Web-pagina&#39;s die ontvankelijke kaders van de Webontwerp lay-out zoals Bootstrap, Stichting, etc. gebruiken.
+In de responsieve ontwerpinsluitingsmodus werkt de viewer anders, afhankelijk van de manier waarop de container `DIV` door de webpagina wordt verkleind. Als de webpagina alleen de breedte van de container `DIV` instelt en de hoogte onbeperkt laat, kiest de viewer automatisch de hoogte op basis van de hoogte-breedteverhouding van het gebruikte element. Deze functionaliteit zorgt ervoor dat het element perfect in de weergave past zonder opvulling aan de zijkanten. Dit gebruiksgeval is het gemeenschappelijkst voor Web-pagina&#39;s die ontvankelijke kaders van de lay-out van het Webontwerp zoals Bootstrap en Stichting gebruiken.
 
 Als de webpagina anders zowel de breedte als de hoogte voor de container `DIV` van de viewer instelt, vult de viewer alleen dat gebied. De pagina volgt ook de grootte die de webpaginalay-out biedt. Een goed voorbeeld is het insluiten van de viewer in een modale overlay, waarbij de grootte van de overlay wordt aangepast aan de venstergrootte van de webbrowser.
 
@@ -93,7 +93,7 @@ Het relatieve pad ziet er als volgt uit:
 
 >[!NOTE]
 >
->U moet alleen verwijzen naar het JavaScript-bestand `include` van de hoofdviewer op uw pagina. U moet niet verwijzen naar extra JavaScript-bestanden in de webpaginacode die door de logica van de viewer in runtime kunnen worden gedownload. Verwijs met name niet rechtstreeks naar de HTML5 SDK `Utils.js`-bibliotheek die door de viewer is geladen vanaf het contextpad `/s7viewers` (de zogeheten geconsolideerde SDK `include`). De reden hiervoor is dat de locatie van `Utils.js` of vergelijkbare runtimeviewerbibliotheken volledig wordt beheerd door de logica van de viewer en dat de locatie verandert tussen viewerreleases. Adobe houdt oudere versies van de secundaire viewer `includes` niet op de server.
+>Verwijs alleen naar het JavaScript-bestand `include` van de hoofdviewer op de pagina. Verwijs niet naar extra JavaScript-bestanden in de webpaginacode die door de logica van de viewer in runtime kunnen worden gedownload. Verwijs met name niet rechtstreeks naar de HTML5 SDK `Utils.js`-bibliotheek die door de viewer is geladen vanaf het contextpad `/s7viewers` (de zogeheten geconsolideerde SDK `include`). De reden hiervoor is dat de locatie van `Utils.js` of vergelijkbare runtimeviewerbibliotheken volledig wordt beheerd door de logica van de viewer en dat de locatie verandert tussen de viewerreleases. Adobe houdt oudere versies van de secundaire viewer `includes` niet op de server.
 >
 >
 >Als u dus een directe verwijzing naar een secundair JavaScript `include` op de pagina plaatst, wordt de viewerfunctionaliteit in de toekomst verbroken wanneer een nieuwe productversie wordt geïmplementeerd.
@@ -114,7 +114,7 @@ Het relatieve pad ziet er als volgt uit:
 
    U kunt de statische grootte voor de kijker plaatsen door of het voor `.s7interactiveimage` top-level CSS klasse in absolute eenheden te verklaren, of door `stagesize` bepaling te gebruiken.
 
-   U kunt de grootte in CSS rechtstreeks op de HTML-pagina plaatsen, of in een aangepast CSS-bestand van de viewer, dat later wordt toegewezen aan een viewer-voorinstellingsrecord in AEM Assets, op aanvraag, of expliciet wordt doorgegeven met de opdracht `style`.
+   U kunt de grootte in CSS rechtstreeks op de HTML-pagina plaatsen. U kunt de grootte ook in een aangepast CSS-bestand van de viewer plaatsen, dat later wordt toegewezen aan een record met viewervoorinstellingen in Adobe Experience Manager Assets - Op aanvraag of expliciet wordt doorgegeven met de opdracht `style`.
 
    Zie [Video](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) voor meer informatie over het opmaken van de viewer met CSS.
 
@@ -141,7 +141,7 @@ Het relatieve pad ziet er als volgt uit:
 
    Het is belangrijk dat de viewercontainer aan het DOM wordt toegevoegd, zodat de viewercode het containerelement op basis van de id kan vinden. Sommige browsers stellen het samenstellen van DOM tot het einde van de webpagina uit. Voor maximale compatibiliteit roept u de methode `init()` aan vlak voor de afsluitingstag `BODY` of op de hoofdgebeurtenis `onload()`.
 
-   Tegelijkertijd mag het containerelement niet noodzakelijkerwijs deel uitmaken van de webpaginalay-out. Het kan bijvoorbeeld worden verborgen met de stijl `display:none` die eraan is toegewezen. In dit geval vertraagt de viewer het initialisatieproces totdat de webpagina het containerelement weer in de layout plaatst. Wanneer dit gebeurt, wordt het laden van de viewer automatisch hervat.
+   Tegelijkertijd mag het containerelement nog niet noodzakelijkerwijs deel uitmaken van de webpaginalay-out. Het kan bijvoorbeeld worden verborgen met de stijl `display:none` die eraan is toegewezen. In dit geval vertraagt de viewer het initialisatieproces totdat de webpagina het containerelement weer in de layout plaatst. Wanneer deze gebeurtenis plaatsvindt, wordt het laden van de viewer automatisch hervat.
 
    Hieronder ziet u een voorbeeld van het maken van een viewer-instantie, het doorgeven van minimaal noodzakelijke configuratieopties aan de constructor en het aanroepen van de methode `init()`. In het voorbeeld wordt ervan uitgegaan dat `interactiveImage` de viewerinstantie is; `s7viewer` is de naam van de tijdelijke aanduiding `DIV`; `http://aodmarketingna.assetsadobe.com/is/image` is de URL van de afbeeldingsserver en `/content/dam/mac/aodmarketingna/shoppable-banner/shoppable-banner.` is het element:
 
@@ -248,7 +248,7 @@ De volgende voorbeeldpagina illustreert het levensechte gebruik van responsieve 
 
 **Flexibel formaat Insluiten met gedefinieerde breedte en hoogte**
 
-In het geval van insluiting van flexibele grootte met gedefinieerde breedte en hoogte, is de opmaak van de webpagina anders. Het verstrekt beide grootte aan `"holder"` DIV en centreert het in het browser venster. Bovendien stelt de webpagina de grootte van het element `HTML` en `BODY` in op 100 procent.
+Als er insluiting in flexibele grootte is waarbij de breedte en hoogte zijn gedefinieerd, is de opmaak van de webpagina anders. Het verstrekt beide grootte aan `"holder"` DIV en centreert het in het browser venster. Bovendien stelt de webpagina de grootte van het element `HTML` en `BODY` in op 100 procent.
 
 ```
 <!DOCTYPE html> 

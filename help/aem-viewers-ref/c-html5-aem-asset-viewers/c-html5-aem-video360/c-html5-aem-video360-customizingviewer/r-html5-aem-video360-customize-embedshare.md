@@ -1,13 +1,13 @@
 ---
+title: Delen insluiten
 description: Het gereedschap Delen insluiten bestaat uit een knop die wordt toegevoegd aan het deelvenster Delen via sociale media en het modale dialoogvenster dat wordt weergegeven wanneer het gereedschap wordt geactiveerd. De positie van de knop wordt volledig beheerd met het gereedschap Sociaal delen.
 solution: Experience Manager
-title: Delen insluiten
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 08ba7a29-8b17-4167-a9f3-82aa4cf65556
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '2603'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Het is mogelijk om de knop uit het deelvenster Sociaal delen te verwijderen door
 
 De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) voor meer informatie.
 
-**Voorbeeld** - om een knop voor insluiten voor delen in te stellen van 28 x 28 pixels en een andere afbeelding weer te geven voor elk van de vier verschillende knopstatussen:
+**Voorbeeld**  - Een insluitknop voor delen instellen van 28 x 28 pixels en een andere afbeelding weergeven voor elk van de vier verschillende knopstatussen:
 
 ```
 .s7video360viewer .s7embedshare { 
@@ -284,7 +284,7 @@ Knop Sluiten wordt beheerd met de volgende CSS-klassenkiezer:
 
 De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) voor meer informatie.
 
-**Voorbeeld** - om een dialoogvensterkop in te stellen met opvulling, pictogram van 24 x 14 pixels, vetgedrukte titel van 16 punten en knop Sluiten van 28 x 28 pixels, twee pixels van de bovenkant en twee pixels van de rechterkant van de dialoogcontainer:
+**Voorbeeld**  - Aan opstellingsheader met opvulling, pictogram van 24 x 14 pixels, en een vette, 16 punttitel. Tot slot een knop Sluiten van 28 x 28 pixels, geplaatst op twee pixels van de bovenkant en twee pixels van de rechterkant van de dialoogcontainer:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogheader { 
@@ -426,7 +426,7 @@ De knop Annuleren wordt beheerd met de volgende CSS-klassenkiezer:
 >
 >Deze knoop steunt `state` attributenselecteur, die kan worden gebruikt om verschillende huiden op verschillende knoopstaten toe te passen.
 
-Bovendien hebben beide knoppen dezelfde algemene CSS-klasse die CSS-instellingen kan bevatten die hetzelfde zijn voor andere knoppen in dialoogvensters:
+Bovendien delen beide knoppen dezelfde algemene CSS-klasse die CSS-instellingen kan bevatten die hetzelfde zijn voor andere knoppen in dialoogvensters:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogfooter .s7button
@@ -636,7 +636,7 @@ De grootte van de tekstkopie die boven op de insluitcode wordt weergegeven, word
 .s7video360viewer .s7embeddialog .s7dialoginputwide
 ```
 
-**CSS-eigenschappen van het invoerbrede veld van het dialoogvenster**
+**CSS-eigenschappen van het invoerveld van het dialoogvenster**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
@@ -712,7 +712,7 @@ De eigenlijke ingesloten codetekst wordt beheerd met de volgende CSS-klassenkiez
  </tbody> 
 </table>
 
-**Voorbeeld** - om insluitcode in te stellen voor het gebruik van  `break-word` tekstomloop:
+**Voorbeeld**  - Om ingebedde code te vormen om  `break-word` woordterugloop te gebruiken:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogmessage { 
@@ -720,7 +720,7 @@ De eigenlijke ingesloten codetekst wordt beheerd met de volgende CSS-klassenkiez
 }
 ```
 
-Label en vervolgkeuzelijst voor insluitgrootte bevinden zich onder in het dialoogvenster en worden in een container geplaatst die wordt beheerd met de volgende CSS-klassenkiezer:
+Label en vervolgkeuzelijst voor insluitgrootte bevinden zich onder in het dialoogvenster en worden geplaatst in een container die wordt beheerd met de volgende CSS-klassenkiezer:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogembedsizepanel
@@ -794,7 +794,7 @@ De breedte van de keuzelijst met insluitgrootte wordt bepaald door de volgende C
 
 >[!NOTE]
 >
->De keuzelijst met invoervak ondersteunt de kenmerkenkiezer `expanded` met mogelijke waarden van `true` en `false`. `true` wordt gebruikt wanneer in een keuzelijst met invoervak een van de vooraf gedefinieerde insluitgrootten wordt weergegeven. Dit betekent dat alle beschikbare breedte in beslag moet worden genomen. `false` wordt gebruikt wanneer de optie voor aangepaste grootte is geselecteerd in de keuzelijst met invoervak, zodat deze kleiner wordt zodat ruimte beschikbaar is voor invoervelden voor aangepaste breedte en hoogte.
+>De keuzelijst met invoervak ondersteunt de kenmerkenkiezer `expanded` met mogelijke waarden van `true` en `false`. De waarde `true` wordt gebruikt wanneer een keuzelijst met invoervak een van de vooraf gedefinieerde insluitgrootten weergeeft. De waarde neemt dus alle beschikbare breedte in beslag. De waarde `false` wordt gebruikt wanneer de optie Aangepaste grootte is geselecteerd in de keuzelijst met invoervak. De waarde moet daarom worden verkleind om ruimte voor invoervelden voor aangepaste breedte en hoogte mogelijk te maken.
 
 **Voorbeeld** - om het invoervak Grootte insluiten in te stellen op 300 pixels breed bij het weergeven van een vooraf gedefinieerd item en op 110 pixels breed bij het weergeven van een aangepaste grootte:
 
@@ -894,7 +894,7 @@ De keuzelijst met invoervak heeft rechts een vervolgkeuzelijst en wordt bestuurd
 }
 ```
 
-Het deelvenster met de lijst met insluitgrootten die wordt weergegeven wanneer de keuzelijst met invoervak wordt geopend, wordt beheerd met de volgende CSS-klassenkiezer:
+Het deelvenster met de lijst met insluitgrootten die wordt weergegeven wanneer de keuzelijst met invoervak wordt geopend, wordt bestuurd met de volgende CSS-klassenkiezer:
 
 ```
 .s7video360viewer .s7embeddialog .s7comboboxdropdown
@@ -1039,7 +1039,7 @@ Elk invoerveld met een aangepaste grootte wordt verpakt in een container die een
  </tbody> 
 </table>
 
-**Voorbeeld** - om invoervelden voor aangepaste grootten in te stellen op een grijze rand, marge, opvulling van één pixel en een breedte van 70 pixels:
+**Voorbeeld**  - U kunt als volgt de invoervelden voor aangepaste grootten instellen met een grijze rand, marge, opvulling en een breedte van 70 pixels:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogcustomsize { 

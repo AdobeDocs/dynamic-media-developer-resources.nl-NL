@@ -1,13 +1,13 @@
 ---
+title: Voorbeeld C
 description: Maak een toepassing voor het in lagen plaatsen van een "papieren pop".
 solution: Experience Manager
-title: Voorbeeld C
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 70232055-2a4c-4e56-8076-3cd56a9004c5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ Een achtergrondafbeelding bevat de foto van een model of mannequin. Aanvullende 
 
 Elke foto op het scherm of in het accessoire wordt gemaskeerd en uitgesneden tot het selectiekader van het masker om de afbeeldingsgrootte te minimaliseren. Ankerpunten en resoluties van afbeeldingen worden zorgvuldig geregeld om de uitlijning tussen de lagen en de achtergrondafbeelding te behouden en alle afbeeldingen worden toegevoegd aan een afbeeldingscatalogus, met de juiste waarden opgeslagen in `catalog::Resolution` en `catalog::Anchor`.
 
-Naast lagen willen we ook de kleur van geselecteerde items wijzigen. De records voor deze items worden vooraf verwerkt om de oorspronkelijke kleur te verwijderen en de helderheid en het contrast aan te passen op een wijze die geschikt is voor de inkleuringsopdracht. Deze voorbehandeling kan offline worden uitgevoerd met een beeldbewerkingsprogramma zoals Photoshop of, in eenvoudige gevallen, triviaal worden uitgevoerd door `op_brightness=` en `op_contrast=` toe te voegen aan het `catalog::Modifier`veld.
+Naast lagen wilt u ook de kleur van geselecteerde items wijzigen. De records voor deze items worden vooraf verwerkt om de oorspronkelijke kleur te verwijderen en de helderheid en het contrast aan te passen op een wijze die geschikt is voor de inkleuringsopdracht. Deze voorbehandeling kan offline worden uitgevoerd met een beeldbewerkingsprogramma zoals Adobe Photoshop of, in eenvoudige gevallen, triviaal worden uitgevoerd door `op_brightness=` en `op_contrast=` toe te voegen aan het `catalog::Modifier`veld.
 
-Deze toepassing garandeert geen aparte sjabloon, omdat alle objecten al correct zijn uitgelijnd door hun afbeeldingsankers ( `catalog::Anchor`) en geschaald ( `catalog::Resolution`). Wij laten het aan de cliënt over om aangewezen laagorde te verzekeren.
+Deze toepassing garandeert geen aparte sjabloon, omdat alle objecten al correct zijn uitgelijnd door hun afbeeldingsankers ( `catalog::Anchor`) en geschaald ( `catalog::Resolution`). De client zorgt voor de juiste laagvolgorde.
 
 Een typisch verzoek zou als dit kunnen kijken:
 

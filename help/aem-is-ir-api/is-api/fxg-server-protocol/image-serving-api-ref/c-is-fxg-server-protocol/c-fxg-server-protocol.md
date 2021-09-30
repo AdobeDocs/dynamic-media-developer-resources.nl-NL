@@ -1,13 +1,13 @@
 ---
+title: FXG-serverprotocol
 description: Als u een afbeelding wilt bewerken, kunt u referentiepunten gebruiken die vergelijkbaar zijn met kompaspunten.
 solution: Experience Manager
-title: FXG-serverprotocol
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 57d9ba37-819e-455f-9b22-bd7aabffe007
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -16,14 +16,14 @@ ht-degree: 0%
 
 Als u een afbeelding wilt bewerken, kunt u referentiepunten gebruiken die vergelijkbaar zijn met kompaspunten.
 
-Met behulp van referentiepunten kunt u een afbeelding roteren, schalen of de grootte ervan wijzigen ten opzichte van een bepaald referentiepunt. De referentiepunten zijn `northWest`, `north`, `northEast`, `west`, `center`, `east`, `southWest`, `south` en `southeast`. Als u bijvoorbeeld het middelste referentiepunt gebruikt, kunt u een afbeelding in het midden 45 graden draaien. In deze afbeelding ziet u waar de referentiepunten zich bevinden, een afbeelding, de afbeelding 20 graden gedraaid ten opzichte van het referentiepunt `northWest` en de afbeelding 20 graden gedraaid ten opzichte van het referentiepunt `east`.
+Met behulp van referentiepunten kunt u een afbeelding roteren, schalen of de grootte ervan wijzigen ten opzichte van een bepaald referentiepunt. De referentiepunten zijn `northWest`, `north`, `northEast`, `west`, `center`, `east`, `southWest`, `south` en `southeast`. Als u bijvoorbeeld het middelste referentiepunt gebruikt, kunt u een afbeelding 45° roteren in het midden. In de volgende afbeelding ziet u waar de referentiepunten zich bevinden, een afbeelding, de afbeelding 20° gedraaid ten opzichte van het referentiepunt `northWest` en de afbeelding 20° gedraaid ten opzichte van het referentiepunt `east`.
 
-![](assets/wp_ref_points.png)
+![Afbeelding referentiepunten](assets/wp_ref_points.png)
 
 * A. Locatie referentiepunt
 * B. Een afbeelding
-* C. De afbeelding is 20 graden gedraaid ten opzichte van het referentiepunt `northWest`
-* D. De afbeelding is 20 graden gedraaid ten opzichte van het referentiepunt `east`
+* C. De afbeelding is 20° gedraaid ten opzichte van het referentiepunt `northWest`
+* D. De afbeelding is 20° geroteerd ten opzichte van het referentiepunt `east`
 
 De syntaxis is:
 

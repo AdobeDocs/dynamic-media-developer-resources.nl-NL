@@ -1,20 +1,20 @@
 ---
-description: Het facebook-gereedschap Delen bestaat uit een knop die is toegevoegd aan het deelvenster Delen via sociale media. Wanneer op de knop wordt geklikt, wordt de gebruiker omgeleid naar een dialoogvenster voor delen dat door een sociale service wordt aangeboden. De positie van de knop wordt volledig beheerd met het gereedschap Sociaal delen.
-solution: Experience Manager
 title: Facebook share
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
+description: Het facebook-gereedschap Delen bestaat uit een knop die is toegevoegd aan het deelvenster Delen via sociale media. Wanneer de knop is geselecteerd, wordt de gebruiker omgeleid naar een dialoogvenster voor delen dat wordt geleverd door een sociale service. De positie van de knop wordt volledig beheerd met het gereedschap Sociaal delen.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 343cde8b-796a-420f-abb7-268b3791a684
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Facebook share{#facebook-share}
 
-Het facebook-gereedschap Delen bestaat uit een knop die is toegevoegd aan het deelvenster Delen via sociale media. Wanneer op de knop wordt geklikt, wordt de gebruiker omgeleid naar een dialoogvenster voor delen dat door een sociale service wordt aangeboden. De positie van de knop wordt volledig beheerd met het gereedschap Sociaal delen.
+Het facebook-gereedschap Delen bestaat uit een knop die is toegevoegd aan het deelvenster Delen via sociale media. Wanneer de knop is geselecteerd, wordt de gebruiker omgeleid naar een dialoogvenster voor delen dat wordt geleverd door een sociale service. De positie van de knop wordt volledig beheerd met het gereedschap Sociaal delen.
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 

@@ -1,13 +1,13 @@
 ---
-description: Lagen worden gepositioneerd door de oorsprong van de laag (origin=) uit te lijnen met de oorsprong van de achtergrondlaag bij een verschuiving die wordt opgegeven door pos=.
-solution: Experience Manager
 title: Laagplaatsing
-feature: Dynamic Media Classic, SDK/API
+escription: Layers are positioned by aligning the layer origin (origin=) with the background layer origin at an offset specified by pos=.
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1ce7bef3-a0f8-44fc-a146-7e819c30eee8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
@@ -22,4 +22,4 @@ Als de oorsprong van de laag niet expliciet is opgegeven voor een afbeeldingslaa
 1. Als het afbeeldingsanker is gedefinieerd, past u de laagtransformaties toe en `extend=` om de laag om te zetten in de waarde origin=.
 1. Als er geen afbeeldingsanker is gedefinieerd, wordt de oorsprong van de laag in het midden van de laagrechthoek geplaatst (na toepassing van `extend=`).
 
-![](assets/layerplacement.png)
+![Laag plaatsen, afbeelding](assets/layerplacement.png)

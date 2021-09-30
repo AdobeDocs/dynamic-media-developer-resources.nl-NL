@@ -1,13 +1,13 @@
 ---
+title: setParams
 description: JavaScript API-referentie voor Video Image Viewer.
 solution: Experience Manager
-title: setParams
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve afbeeldingen
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 6a09e3bc-e79c-4206-be42-0c6ae3d91590
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ JavaScript API-referentie voor Video Image Viewer.
 
 ` setParams( *`param`*)`
 
-Stelt een of meer parameters in op een bepaalde waarde. De syntaxis van het methodeargument is identiek aan een URL vraagkoord. Namelijk vertegenwoordigt het naam=waarde paren die met `&` worden gescheiden. Net als in een queryreeks zijn de namen en waarden procentueel gecodeerd met UTF8. Voordat u `init()` aanroept, moet deze parameter worden aangeroepen.
+Stelt een of meer parameters in op een bepaalde waarde. De syntaxis van het methodeargument is identiek aan een URL vraagkoord. Namelijk vertegenwoordigt het naam=waarde paren die met `&` worden gescheiden. In een queryreeks zijn de namen en waarden procentueel gecodeerd met UTF8. Voordat u `init()` aanroept, moet deze parameter worden aangeroepen.
 
 Deze methode is optioneel als de configuratiegegevens van de viewer samen met het JSON-object `config` zijn doorgegeven aan de constructor.
 

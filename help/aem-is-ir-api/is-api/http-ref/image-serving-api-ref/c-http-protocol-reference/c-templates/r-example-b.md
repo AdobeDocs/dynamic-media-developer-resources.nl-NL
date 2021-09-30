@@ -2,12 +2,12 @@
 description: Vergelijkbare vereisten als Voorbeeld A, maar gebruik een achtergrond met een effen kleur en laat de hoogte van de samenstelling variëren, om afbeeldingen met verschillende hoogte-breedteverhoudingen te kunnen gebruiken.
 solution: Experience Manager
 title: Voorbeeld B
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 90ef96fc-c12f-4fc8-b465-6520b71f4e7b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -27,12 +27,12 @@ Vergelijkbare vereisten als Voorbeeld A, maar gebruik een achtergrond met een ef
  </tr> 
 </table>
 
-De afbeelding wordt in laag 0 geplaatst en de hoogtewaarde `size=` wordt ingesteld op 0, waardoor de werkelijke hoogte wordt bepaald door de hoogte van de afbeelding nadat deze is geschaald naar 800 pixels breed.
+De afbeelding wordt in laag 0 geplaatst en de hoogtewaarde `size=` wordt ingesteld op 0. Met deze instelling wordt de werkelijke hoogte bepaald door de hoogte van de afbeelding nadat deze is geschaald naar 800 pixels breed.
 
-`extend=` Hiermee voegt u 100 pixels boven en onder en 200 pixels rechts toe.
+Met de variabele `extend=` worden 100 pixels boven en onder en 200 pixels rechts toegevoegd.
 
 De oorsprong voor zowel laag 0 als laag 1 wordt midden-rechts van het compositiegebied geplaatst om de gewenste tekstpositie te bereiken.
 
 In de volgende afbeelding ziet u het samengestelde resultaat voor verschillende hoogte-breedteverhoudingen van de afbeelding en verschillende tekstreeksen.
 
-![](assets/exampleb.png)
+![Voorbeeld B-afbeelding](assets/exampleb.png)

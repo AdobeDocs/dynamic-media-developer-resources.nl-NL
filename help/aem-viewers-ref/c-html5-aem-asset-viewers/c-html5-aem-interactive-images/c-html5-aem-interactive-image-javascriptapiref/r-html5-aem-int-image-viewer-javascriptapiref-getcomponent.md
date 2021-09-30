@@ -1,13 +1,13 @@
 ---
+title: getComponent
 description: JavaScript API-referentie voor Video Image Viewer.
 solution: Experience Manager
-title: getComponent
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve afbeeldingen
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 5f2514a9-bbd0-436d-ad96-b89778604f8a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
@@ -55,13 +55,13 @@ Retourneert een verwijzing naar de Viewer SDK-component die door de viewer wordt
  </tbody> 
 </table>
 
-Wanneer het werken met SDK APIs is het belangrijk om correcte volledig - gekwalificeerde namespace van SDK te gebruiken zoals die in [de namespace van SDK van de Kijker wordt beschreven ](../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-namespace.md#concept-00a31b9bc7eb4014b28c1ba661fe5265).
+Wanneer het werken met SDK APIs, is het belangrijk om correcte volledig - gekwalificeerde namespace van SDK te gebruiken zoals die in [de namespace van SDK van de Kijker wordt beschreven ](../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-namespace.md#concept-00a31b9bc7eb4014b28c1ba661fe5265).
 
 Raadpleeg de SDK API-documentatie van de viewer voor meer informatie over een bepaalde component.
 
 ## Retourneert {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` een verwijzing naar de Viewer SDK-component. De methode retourneert `null` als `componentId` geen ondersteunde viewercomponent is of als de component nog niet door de viewerlogica is gemaakt.
+`{Object}` Een verwijzing naar de Viewer SDK-component. De methode retourneert `null` als `componentId` geen ondersteunde viewercomponent is of als de component nog niet door de viewerlogica is gemaakt.
 
 ## Voorbeeld {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

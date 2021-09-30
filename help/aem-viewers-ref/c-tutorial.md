@@ -1,13 +1,13 @@
 ---
+title: Zelfstudie voor viewer-SDK
 description: De Viewer SDK bevat een set JavaScript-componenten voor de ontwikkeling van aangepaste viewers. De viewers zijn webtoepassingen waarmee rich media-inhoud van Adobe Dynamic Media kan worden ingesloten in webpagina's.
 solution: Experience Manager
-title: Zelfstudie voor viewer-SDK
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 3a798595-6c65-4a12-983d-3cdc53830d28
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ De Viewer SDK bevat een set JavaScript-componenten voor de ontwikkeling van aang
 
 De SDK biedt bijvoorbeeld interactief zoomen en pannen. Het biedt ook een weergave van 360° en het afspelen van video&#39;s van elementen die via de back-end toepassing Dynamic Media Classic naar Adobe Dynamic Media zijn geüpload.
 
-Hoewel de componenten afhankelijk zijn van HTML5-functionaliteit, zijn ze ontworpen voor gebruik op Android- en Apple iOS-apparaten en desktops, waaronder Internet Explorer en hoger. Dit soort ervaring betekent dat u één workflow kunt bieden voor alle ondersteunde platforms.
+Hoewel de componenten afhankelijk zijn van HTML5-functionaliteit, zijn ze ontworpen voor gebruik op Android™- en Apple iOS-apparaten en desktops, waaronder Internet Explorer en hoger. Dit soort ervaring betekent dat u één workflow kunt bieden voor alle ondersteunde platforms.
 
-De SDK bestaat uit UI-componenten waaruit viewerinhoud bestaat. U kunt deze componenten opmaken via CSS en niet-UI-componenten die een ondersteunende rol hebben, zoals het ophalen en parseren of bijhouden van definities. Alle componentgedrag is aanpasbaar via wijzigingstoetsen die u op een aantal manieren kunt opgeven, bijvoorbeeld als `name=value` paren in de URL.
+De SDK bestaat uit UI-componenten waaruit viewerinhoud bestaat. U kunt deze componenten opmaken via CSS en niet-UI-componenten die een ondersteunende rol hebben, zoals het ophalen en parseren of bijhouden van definities. Alle componentgedrag is aanpasbaar via wijzigingstoetsen die u op verschillende manieren kunt opgeven, bijvoorbeeld als `name=value` paren in de URL.
 
 Deze zelfstudie bevat de volgende taakvolgorde om u te helpen een standaardzoomviewer te maken:
 
@@ -38,13 +38,13 @@ Deze zelfstudie bevat de volgende taakvolgorde om u te helpen een standaardzoomv
 
    >[!NOTE]
    >
-   >U kunt deze zelfstudie voltooien zonder dat u het pakket met de Viewer SDK hoeft te downloaden omdat de SDK daadwerkelijk op afstand is geladen. Het Viewer-pakket bevat echter aanvullende voorbeelden en een API-naslaggids die u kunt gebruiken wanneer u uw eigen viewers maakt.
+   >U kunt deze zelfstudie voltooien zonder dat u het pakket met de Viewer SDK hoeft te downloaden omdat de SDK extern is geladen. Het Viewer-pakket bevat echter aanvullende voorbeelden en een API-naslaggids die u kan helpen uw eigen viewers te maken.
 
 ## De SDK van de viewer laden {#section-98596c276faf4cf79ccf558a9f4432c6}
 
 1. Maak eerst een nieuwe pagina voor de ontwikkeling van de standaardzoomviewer die u gaat maken.
 
-   Overweeg dit de bootstrap-of lader-code aan opstelling een lege toepassing van SDK. Open uw favoriete teksteditor en plak de volgende HTML-opmaak in deze editor:
+   Bekijk deze nieuwe pagina met de Bootstrap- of loader-code die u gebruikt om een lege SDK-toepassing in te stellen. Open uw favoriete teksteditor en plak de volgende HTML-opmaak in deze editor:
 
    ```
    <!DOCTYPE html> 
@@ -79,7 +79,7 @@ Deze zelfstudie bevat de volgende taakvolgorde om u te helpen een standaardzoomv
    </html>
    ```
 
-   Voeg de volgende JavaScript-code toe in de `script`-tag om de `ParameterManager` te initialiseren. Dit helpt u zich voorbereiden om componenten van SDK binnen de `initViewer` functie tot stand te brengen en te concretiseren:
+   Voeg de volgende JavaScript-code toe aan de tag `script`, zodat de tag `ParameterManager` wordt geïnitialiseerd. Zo kunt u voorbereiden op het maken en instantiëren van SDK-componenten in de functie `initViewer`:
 
    ```
    /* We create a self-running anonymous function to encapsulate variable scope. Placing code inside such 
@@ -115,9 +115,9 @@ Deze zelfstudie bevat de volgende taakvolgorde om u te helpen een standaardzoomv
 
 1. Sla het bestand op als een lege sjabloon. U kunt elke gewenste bestandsnaam gebruiken.
 
-   U gebruikt dit lege sjabloonbestand als referentie bij het maken van nieuwe viewers in de toekomst. Deze sjabloon werkt lokaal en vanaf een webserver.
+   U gebruikt dit lege sjabloonbestand als referentie wanneer u in de toekomst viewers maakt. Deze sjabloon werkt lokaal en vanaf een webserver.
 
-U voegt nu stijl toe aan uw viewer.
+Voeg nu stijl toe aan uw viewer.
 
 ## Stijl toevoegen aan uw viewer {#section-3783125360a1425eae5a5a334867cc32}
 
@@ -142,7 +142,7 @@ U voegt nu stijl toe aan uw viewer.
    </style>
    ```
 
-U neemt nu de componenten `Container` en `ZoomView` op.
+Neem nu de componenten `Container` en `ZoomView` op.
 
 ## Inclusief container en ZoomView {#section-1a01730663154a508b88cc40c6f35539}
 
@@ -169,7 +169,7 @@ U neemt nu de componenten `Container` en `ZoomView` op.
    var container, zoomView;
    ```
 
-1. Voeg het volgende in de functie `initViewer` in om enkele modifiers te definiëren en de respectievelijke componenten te instantiëren:
+1. Voeg het volgende in de functie `initViewer` in, zodat u enkele modifiers kunt definiëren en de respectievelijke componenten kunt instantiëren:
 
    ```
    /* Modifiers can be added directly to ParameterManager instance */ 
@@ -205,11 +205,11 @@ U neemt nu de componenten `Container` en `ZoomView` op.
    }
    ```
 
-1. Geef een voorvertoning van de pagina weer, zodat u kunt zien wat u hebt gemaakt. De pagina ziet er als volgt uit:
+1. Geef een voorvertoning van de pagina weer, zodat u kunt zien wat u hebt gemaakt. De pagina moet er als volgt uitzien:
 
-   ![](assets/viewer-1.jpg)
+   ![Voorbeeld van één afbeelding](assets/viewer-1.jpg)
 
-U voegt nu de componenten `MediaSet` en `Swatches` aan uw kijker toe.
+Voeg nu de componenten `MediaSet` en `Swatches` aan uw kijker toe.
 
 ## Componenten MediaSet en Stalen toevoegen aan uw viewer {#section-02b8c21dd842400e83eae2a48ec265b7}
 
@@ -288,9 +288,9 @@ U voegt nu de componenten `MediaSet` en `Swatches` aan uw kijker toe.
 
    De viewer ziet er nu uit als de volgende afbeelding. Probeer het browservenster van de viewer aan te passen en bekijk het gedrag.
 
-   ![](assets/viewer-2.jpg)
+   ![Voorbeeld van viewer twee afbeeldingen](assets/viewer-2.jpg)
 
-U voegt nu knoppen voor inzoomen, uitzoomen en het opnieuw instellen van zoomen toe aan uw viewer.
+Voeg nu knoppen voor inzoomen, uitzoomen en het opnieuw instellen van zoomen toe aan uw viewer.
 
 ## Knoppen toevoegen aan uw viewer {#section-1fc334fa0d2b47eb9cdad461725c07be}
 
@@ -350,17 +350,17 @@ U voegt nu knoppen voor inzoomen, uitzoomen en het opnieuw instellen van zoomen 
     }
    ```
 
-1. Geef een voorvertoning van uw viewer weer. Het ziet er als volgt uit:
+1. Geef een voorvertoning van uw viewer weer. Het zou als het volgende moeten kijken:
 
-   ![](assets/viewer-3.jpg)
+   ![Voorbeeld van viewer drie afbeeldingen](assets/viewer-3.jpg)
 
-   U configureert de stalen nu zodanig dat deze verticaal aan de rechterkant worden uitgelijnd.
+   Configureer nu de stalen, zodat deze verticaal aan de rechterkant worden uitgelijnd.
 
 ## De stalen verticaal configureren {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
 
 1. U kunt modifiers op de `ParameterManager` instantie direct vormen.
 
-   Voeg het volgende toe boven aan de functie `initViewer` om de `Swatches` duimlay-out als één enkele rij te vormen:
+   Voeg het volgende toe boven aan de functie `initViewer` zodat u de `Swatches` duimlay-out als één enkele rij kunt vormen:
 
    ```
    params.push("Swatches.tmblayout", "1,0");
@@ -385,7 +385,7 @@ U voegt nu knoppen voor inzoomen, uitzoomen en het opnieuw instellen van zoomen 
 
 1. Geef een voorvertoning van uw viewer weer. Het ziet er als volgt uit:
 
-   ![](assets/viewer-4.jpg)
+   ![Voorbeeld van viewer met vier afbeeldingen](assets/viewer-4.jpg)
 
    Uw standaardzoomviewer is nu voltooid.
 

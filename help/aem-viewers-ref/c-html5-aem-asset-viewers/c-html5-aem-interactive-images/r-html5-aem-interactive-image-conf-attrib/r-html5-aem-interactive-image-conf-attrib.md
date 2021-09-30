@@ -1,13 +1,13 @@
 ---
+title: Command reference - Configuration attributes
 description: Documentatie over configuratiekenmerken voor Interactive Image Viewer.
 solution: Experience Manager
-title: Command reference - Configuration attributes
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve afbeeldingen
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 53c4b304-3b45-4ff0-91aa-a14f39ab1e94
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Sommige configuratieopdrachten kunnen worden voorafgegaan door de klassenaam of 
 
 `[ZoomView.|<containerId>_zoomView].fmt`
 
-Dit betekent dat u deze opdracht kunt gebruiken als:
+Betekenis dat u dit bevel als kunt gebruiken:
 
 * `fmt` (korte syntaxis)
 * `ZoomView.fmt` (gekwalificeerd met naam van componentklasse)

@@ -1,21 +1,21 @@
 ---
-description: Bepaalde inhoud die in de Interactive Image Viewer wordt weergegeven, is afhankelijk van lokalisatie. Dit omvat knopinfo voor gebruikersinterface-elementen en een informatiebericht dat tijdens het laden wordt weergegeven in de zoomweergave voor vervolgmenu's.
 title: Lokalisatie van gebruikersinterface-elementen
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactieve afbeeldingen
+description: Bepaalde inhoud die in de Interactive Image Viewer wordt weergegeven, is afhankelijk van lokalisatie. Deze inhoud bevat knopinfo voor gebruikersinterface-elementen en een informatiebericht dat tijdens het laden wordt weergegeven in de zoomweergave bij het uitvoeren van de functie.
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 19749c74-5c31-4dcf-ab07-0e7f10176a86
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
 
 # Lokalisatie van gebruikersinterface-elementen{#localization-of-user-interface-elements}
 
-Bepaalde inhoud die in de Interactive Image Viewer wordt weergegeven, is afhankelijk van lokalisatie. Dit omvat knopinfo voor gebruikersinterface-elementen en een informatiebericht dat tijdens het laden wordt weergegeven in de zoomweergave voor vervolgmenu&#39;s.
+Bepaalde inhoud die in de Interactive Image Viewer wordt weergegeven, is afhankelijk van lokalisatie. Deze inhoud bevat knopinfo voor gebruikersinterface-elementen en een informatiebericht dat tijdens het laden wordt weergegeven in de zoomweergave bij het uitvoeren van de functie.
 
-Elke tekstinhoud in de viewer die kan worden gelokaliseerd, wordt vertegenwoordigd door de speciale Viewer SDK-id SYMBOL. Elk SYMBOL heeft een aan de standaard gekoppelde tekstwaarde voor een Engelse landinstelling ( `"en"`) die wordt geleverd met de viewer buiten de box en kan ook door de gebruiker gedefinieerde waarden hebben ingesteld voor zoveel landinstellingen als nodig.
+Elke tekstinhoud in de viewer die kan worden gelokaliseerd, wordt vertegenwoordigd door de speciale Viewer SDK-id SYMBOL. Elk SYMBOL heeft een aan de standaard gekoppelde tekstwaarde voor een Engelse landinstelling ( `"en"`) die wordt geleverd met de viewer buiten de box en kan door de gebruiker gedefinieerde waarden hebben ingesteld voor zoveel landinstellingen als nodig.
 
 Wanneer de viewer wordt gestart, wordt de huidige landinstelling gecontroleerd om te controleren of er voor elke ondersteunde SYMBOL-landinstelling een door de gebruiker gedefinieerde waarde is. Als dat het geval is, gebruikt het de user-defined waarde; anders, valt het terug naar de uit-van-de-doos standaardtekst.
 
