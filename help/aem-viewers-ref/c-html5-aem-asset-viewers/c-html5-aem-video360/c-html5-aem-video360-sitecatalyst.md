@@ -1,13 +1,13 @@
 ---
+title: Ondersteuning voor Adobe Analytics-tracking
 description: Ondersteuning voor Adobe Analytics-tracking
 solution: Experience Manager
-title: Ondersteuning voor Adobe Analytics-tracking
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User,Data Engineer,Data Architect
 exl-id: fb58a388-e4da-475d-b726-d5a32e99cce0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Door gebrek, verzendt de kijker één enkele het volgen HTTP- verzoek naar de ge
 
 ## Aangepaste reeksspatiëring {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Om met derdeanalysesystemen te integreren is het noodzakelijk om aan `trackEvent` kijkerscallback te luisteren en het `eventInfo` argument van de callback functie zonodig te verwerken. De volgende code is een voorbeeld van een dergelijke handlerfunctie:
+Om met derdeanalysesystemen te integreren, is het noodzakelijk om aan `trackEvent` kijkerscallback te luisteren en het `eventInfo` argument van de callback functie zonodig te verwerken. De volgende code is een voorbeeld van een dergelijke handlerfunctie:
 
 ```
 var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({ 

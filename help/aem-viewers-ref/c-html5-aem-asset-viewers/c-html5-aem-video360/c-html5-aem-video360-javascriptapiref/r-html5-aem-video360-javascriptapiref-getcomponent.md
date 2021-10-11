@@ -1,13 +1,13 @@
 ---
+title: getComponent
 description: JavaScript API-referentie voor Video360 Viewer.
 solution: Experience Manager
-title: getComponent
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: bc5f0046-8e20-4ff0-a90f-05c38f686ad2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ Zie de *HTML5 Viewer SDK API* documentatie voor meer informatie over een bepaald
 
 ## Retourneert {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` een verwijzing naar de Viewer SDK-component. De methode retourneert `null` als `componentId` geen ondersteunde viewercomponent is of als de component nog niet door de viewerlogica is gemaakt.
+De `{Object}` is een verwijzing naar de component van SDK van de Kijker. De methode retourneert `null` als `componentId` geen ondersteunde viewercomponent is of als de component nog niet door de viewerlogica is gemaakt.
 
 ## Voorbeeld {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

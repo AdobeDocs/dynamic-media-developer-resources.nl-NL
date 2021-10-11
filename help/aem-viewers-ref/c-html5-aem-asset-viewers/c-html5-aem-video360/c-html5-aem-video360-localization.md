@@ -1,20 +1,20 @@
 ---
-description: Bepaalde inhoud die door de viewer wordt weergegeven, is afhankelijk van lokalisatie. Dit omvat knopinfo voor gebruikersinterface-elementen en een foutbericht die wordt weergegeven wanneer de video niet kan worden afgespeeld.
-solution: Experience Manager
 title: Lokalisatie van gebruikersinterface-elementen
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
+description: Bepaalde inhoud die door de viewer wordt weergegeven, is afhankelijk van lokalisatie. Dergelijke inhoud bevat knopinfo voor gebruikersinterface-elementen en een foutbericht die wordt weergegeven wanneer de video niet kan worden afgespeeld.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: d54fd841-2246-4d2e-8bf9-7da56f2487f3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
 
 # Lokalisatie van gebruikersinterface-elementen{#localization-of-user-interface-elements}
 
-Bepaalde inhoud die door de viewer wordt weergegeven, is afhankelijk van lokalisatie. Dit omvat knopinfo voor gebruikersinterface-elementen en een foutbericht die wordt weergegeven wanneer de video niet kan worden afgespeeld.
+Bepaalde inhoud die door de viewer wordt weergegeven, is afhankelijk van lokalisatie. Dergelijke inhoud bevat knopinfo voor gebruikersinterface-elementen en een foutbericht die wordt weergegeven wanneer de video niet kan worden afgespeeld.
 
 Elke tekstinhoud in de viewer die kan worden gelokaliseerd, wordt vertegenwoordigd door een speciale viewer-SDK-id met de naam SYMBOL. Elk SYMBOL heeft een standaardtekstwaarde voor de landinstelling Engels ( `"en"`) die wordt geleverd bij de viewer buiten de box. Er kunnen ook door de gebruiker gedefinieerde waarden worden ingesteld voor zoveel landinstellingen als nodig zijn.
 

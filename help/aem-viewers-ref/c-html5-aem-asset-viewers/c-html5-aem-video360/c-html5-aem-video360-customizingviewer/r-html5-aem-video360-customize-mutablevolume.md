@@ -1,13 +1,13 @@
 ---
+title: Meerbaar volume
 description: Het veranderbare volumeregelaar verschijnt aanvankelijk als knoop die een gebruiker het geluid van de videospeler laat dempen of dempen.
 solution: Experience Manager
-title: Meerbaar volume
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: eb30ea49-e0ae-4ef4-a5b3-e245d96ce0db
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---

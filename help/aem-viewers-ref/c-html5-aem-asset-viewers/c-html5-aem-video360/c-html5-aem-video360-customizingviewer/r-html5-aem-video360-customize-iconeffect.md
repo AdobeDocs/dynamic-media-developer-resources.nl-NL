@@ -1,13 +1,13 @@
 ---
+title: Pictogram, effect
 description: Het afspeelpictogram wordt boven in het hoofdweergavegebied geplaatst. Deze wordt weergegeven wanneer de video wordt gepauzeerd of wanneer het einde van de video is bereikt. Deze parameter is ook afhankelijk van de parameter iconeffect.
 solution: Experience Manager
-title: Pictogram, effect
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: e25a3b9d-88ef-4214-9b6b-2527ebf0f145
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ De weergave van het afspeelpictogram wordt bepaald door de volgende CSS-klassenk
  </tbody> 
 </table>
 
-Het effect van het pictogram steunt `state` attributenselecteur. `state="play"` wordt gebruikt wanneer de video wordt gepauzeerd in het midden van het afspelen en  `state="replay"` wordt gebruikt wanneer de afspeelkop zich aan het einde van de stream bevindt.
+Het effect van het pictogram steunt `state` attributenselecteur. De kenmerkenkiezer `state="play"` wordt gebruikt wanneer de video wordt gepauzeerd in het midden van het afspelen en `state="replay"` wordt gebruikt wanneer de afspeelkop aan het einde van de stream staat.
 
 **Voorbeeld**  - Afspeelpictogram van 100 x 100 pixels instellen.
 

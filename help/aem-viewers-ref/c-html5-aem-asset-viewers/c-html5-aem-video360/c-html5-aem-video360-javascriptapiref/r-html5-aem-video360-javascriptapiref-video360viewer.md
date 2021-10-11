@@ -1,13 +1,13 @@
 ---
+title: Video360Viewer
 description: JavaScript API-referentie voor Video360 Viewer.
 solution: Experience Manager
-title: Video360Viewer
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: ab22ff22-45a7-490e-932d-7c885ff5c3a9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '204'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ JavaScript API-referentie voor Video360 Viewer.
 
 `Video360Viewer([config])`
 
-Constructor, maakt een nieuwe HTML5 Video360 Viewer-instantie.
+Constructor: maakt een nieuwe HTML5 Video360 Viewer-instantie.
 
 ## Parameters {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 

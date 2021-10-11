@@ -1,13 +1,13 @@
 ---
+title: Videoscrubber
 description: De videoscrubber is de horizontale schuifregelaar waarmee een gebruiker dynamisch naar een willekeurige tijdpositie in de video kan zoeken die momenteel wordt afgespeeld.
 solution: Experience Manager
-title: Videoscrubber
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: a0b89b4b-5f66-41d5-88b9-a01fddec437e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ De videoscrubber is de horizontale schuifregelaar waarmee een gebruiker dynamisc
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-De scrubber &#39;knob&#39; beweegt zich ook terwijl de video speelt om op de huidige tijdpositie van de video tijdens playback te wijzen. De videoscrubber neemt altijd de volledige breedte van de controlebar. Het is mogelijk om de videoscrubber van een skin te voorzien. de hoogte en de verticale positie van het object wijzigen met CSS.
+De scrubber &#39;knob&#39; beweegt zich ook terwijl de video speelt om op de huidige tijdpositie van de video tijdens playback te wijzen. De videoscrubber neemt altijd de volledige breedte van de controlebar. Het is mogelijk om de videoscrubber van een skin te voorzien. Verander de hoogte en de verticale positie met CSS.
 
 De algemene weergave van de videoscrubber wordt beheerd met de volgende CSS-klassenkiezer:
 
@@ -158,7 +158,7 @@ De volgende CSS-klassenkiezer bestuurt de zeepbel waarin de tijd wordt afgespeel
 
 De knopinfo voor het gereedschap Video scrubber kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) voor meer informatie.
 
-**Voorbeeld**  - Een videoviewer instellen met een videoscrubber met aangepaste trackkleuren die 10 pixels hoog zijn en die 10 pixels en 35 pixels van de boven- en linkerrand van de besturingsbalk zijn geplaatst.
+**Voorbeeld**  - Een videoviewer instellen met een videoscrubber met aangepaste trackkleuren van tien pixels hoog. En plaats het op tien pixels en 35 pixels van de boven- en linkerrand van de besturingsbalk.
 
 ```
 .s7video360viewer .s7videoscrubber  { 

@@ -1,20 +1,20 @@
 ---
-description: Op desktopsystemen hebben bepaalde gebruikersinterface-elementen, zoals knoppen, knopinfo die wordt weergegeven wanneer de muisaanwijzer wordt bewogen.
-solution: Experience Manager
 title: Knopinfo
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
+description: Op desktopsystemen hebben bepaalde gebruikersinterface-elementen, zoals knoppen, knopinfo die wordt weergegeven bij de muisaanwijzer.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 051bfbed-103e-4fcf-9f01-93f03730397a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
 
 # Knopinfo{#tooltips}
 
-Op desktopsystemen hebben bepaalde gebruikersinterface-elementen, zoals knoppen, knopinfo die wordt weergegeven wanneer de muisaanwijzer wordt bewogen.
+Op desktopsystemen hebben bepaalde gebruikersinterface-elementen, zoals knoppen, knopinfo die wordt weergegeven bij de muisaanwijzer.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -63,9 +63,9 @@ De vormgeving van knopinfo wordt bepaald door de volgende CSS-klassenkiezer:
 
 >[!NOTE]
 >
->Als knopinfo-stijlen worden aangepast vanuit de ingesloten webpagina, moeten alle eigenschappen de `!IMPORTANT`-regel bevatten. Dit is niet nodig als knopinfo wordt aangepast in het CSS-bestand van de viewer.
+>Als knopinfo-stijlen worden aangepast vanuit de ingesloten webpagina, moeten alle eigenschappen de `!IMPORTANT`-regel bevatten. Deze regel is niet nodig als knopinfo wordt aangepast in het CSS-bestand van de viewer.
 
-Voorbeeld - Voor het instellen van knopinfo met een grijze rand met een straal van drie pixels voor hoeken, een zwarte achtergrond en witte tekst in Arial, 11 pixels:
+Voorbeeld - Voor het instellen van knopinfo met een grijze rand met een straal van drie pixels voor hoeken, een zwarte achtergrond en witte tekst in Arial®, 11 pixels:
 
 ```
 .s7tooltip { 

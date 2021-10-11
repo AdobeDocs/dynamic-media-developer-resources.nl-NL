@@ -1,13 +1,13 @@
 ---
+title: Videotijd
 description: De videotijd is de numerieke weergave waarin de huidige tijd en duur van de video die momenteel wordt afgespeeld, worden weergegeven.
 solution: Experience Manager
-title: Videotijd
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 78657fd2-e805-4047-be0a-592143025986
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---

@@ -1,28 +1,28 @@
 ---
-description: De HTML5 Video360 Viewer is een videospeler van 360 graden die streaming en progressieve 360 video die in het formaat H.264 wordt gecodeerd, van Dynamic Media Classic of van AEM Dynamic Media wordt geleverd.
-solution: Experience Manager
 title: Video360
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
+description: De HTML5 Video360 Viewer is een videospeler van 360 graden die streaming en progressieve 360 video die in het formaat H.264 wordt gecodeerd speelt, van Dynamic Media Classic of van Adobe Experience Manager, Dynamic Media wordt geleverd.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 74dca3f6-ce89-4c5b-8459-c2c4ca8ed27c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '2590'
+source-wordcount: '2569'
 ht-degree: 0%
 
 ---
 
 # Video360{#video}
 
-De HTML5 Video360 Viewer is een videospeler van 360 graden die streaming en progressieve 360 video die in het formaat H.264 wordt gecodeerd, van Dynmaic Media Classic of van AEM Dynamic Media wordt geleverd.
+De HTML5 Video360 Viewer is een videospeler van 360 graden die streaming en progressieve 360 video die in het formaat H.264 wordt gecodeerd speelt, van Dynamic Media Classic of van Adobe Experience Manager, Dynamic Media wordt geleverd.
 
-Video&#39;s van 360 graden, ook wel overweldigende video&#39;s of sferische video&#39;s genoemd, zijn video-opnamen waarbij een weergave in elke richting tegelijkertijd wordt opgenomen en opgenomen met een omnidirectionele camera of een verzameling camera&#39;s. Zowel enkelvoudige video als Adaptieve videosets worden ondersteund. De viewer biedt daarnaast ondersteuning voor het werken met progressieve video- en HLS-streams op externe locaties.
+Video&#39;s van 360 graden, ook wel overweldigende video&#39;s of sferische video&#39;s genoemd, zijn video-opnamen waarbij een weergave in elke richting tegelijkertijd wordt opgenomen en opgenomen met een omnidirectionele camera of een verzameling camera&#39;s. Zowel enkelvoudige video als Adaptieve videosets worden ondersteund. De viewer ondersteunt ook het werken met progressieve video- en HLS-streams die op externe locatie worden gehost.
 
 De aanbevolen hoogte-breedteverhouding voor 360 video is 2:1. Ruimtelijk geluid wordt niet ondersteund. De viewer is alleen ontworpen voor gebruik met 360 video; Wanneer u probeert een andere video dan 360 af te spelen, wordt de video vervormd afgespeeld.
 
 De viewer is ontworpen voor gebruik in zowel desktopbrowsers als mobiele webbrowsers die HTML5-video ondersteunen. De viewer ondersteunt optionele gereedschappen voor sociale media.
 
-De Video360 Viewer gebruikt in de standaardconfiguratie HTML5 streaming video playback in HLS formaat wanneer het onderliggende systeem dat steunt. Op systemen die geen ondersteuning bieden voor HTML5-streaming, valt de viewer terug naar progressieve HTML5-video.
+De Video360 Viewer gebruikt in de standaardconfiguratie HTML5-streaming video afspelen in HLS-indeling wanneer het onderliggende systeem dat ondersteunt. Op systemen die geen ondersteuning bieden voor HTML5-streaming, valt de viewer terug naar de progressieve HTML van de video.
 
 Het viewertype is 517.
 
@@ -36,9 +36,9 @@ Zie [Systeemvereisten](../../c-system-requirements-and-prerequisites.md#concept-
 
 ## Video360 Viewer gebruiken {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-HTML5 Video360 Viewer vertegenwoordigt een hoofd-JavaScript-bestand en een set hulplijnbestanden (één JavaScript-bestand bevat alle HTML5 Viewer SDK-componenten die door deze viewer worden gebruikt, elementen, CSS) die door de viewer in runtime zijn gedownload.
+HTML5 Video360 Viewer vertegenwoordigt een hoofd-JavaScript-bestand en een set hulplijnbestanden (één JavaScript-bestand met alle HTML5 Viewer SDK-componenten die door deze viewer worden gebruikt, elementen, CSS) die door de viewer in runtime zijn gedownload.
 
-De HTML5 Video360 Viewer kan zowel in popup wijze worden gebruikt gebruikend productie-klaar HTML- pagina die van IS-Kijkers of in ingebedde wijze wordt voorzien, waar het in doelWeb-pagina gebruikend gedocumenteerde API wordt geïntegreerd.
+HTML5 Video360 Viewer kan zowel in popup-modus worden gebruikt met een pagina voor HTML die klaar is voor productie en die wordt geleverd bij IS-Viewers, als in de ingesloten modus, waarbij de viewer is geïntegreerd in de doelwebpagina met behulp van gedocumenteerde API.
 
 Configuratie en skins zijn vergelijkbaar met die van de andere viewers die in deze handleiding worden beschreven. Alle skins toewijzen wordt bereikt door middel van aangepaste CSS (Cascading Style Sheets).
 
@@ -50,11 +50,11 @@ Voor 360 video-inhoud zijn hogere coderingsinstellingen vereist dan voor de stan
 * 1080p, 5000 kbps
 * 1440p, 6600 kbps
 
-Voor het weergeven van video die is gecodeerd met dergelijke instellingen voor hoge kwaliteit is echter een hoge bandbreedteverbinding op het apparaat van de eindgebruiker vereist.
+Merk echter op dat het dienen van video die met dergelijke hoge kwaliteitsinstellingen wordt gecodeerd een hoge bandbreedteverbinding op het apparaat van een eindgebruiker vereist.
 
 ## Interactie met Video360 Viewer {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
-De HTML5 Video360 Viewer biedt een set standaardbesturingselementen voor de gebruikersinterface voor het afspelen van video, zoals de knop Afspelen/pauzeren, de videoruimer, de tijd-indicator voor het afspelen van de video, de totale tijd-indicator, de volumeregeling en de knop Volledig scherm. Al deze besturingselementen worden gegroepeerd in de besturingsbalk helemaal onder aan de gebruikersinterface van de viewer.
+HTML5 Video360 Viewer biedt een set standaardbesturingselementen voor de gebruikersinterface voor het afspelen van video, zoals de knop Afspelen/pauzeren, de videoband van de scrubber, de tijd-tijdindicator voor het afspelen van de video, volumeregeling en de knop Volledig scherm. Al deze besturingselementen worden gegroepeerd in de besturingsbalk onder aan de gebruikersinterface van de viewer.
 
 Op aanraakapparaten is de volumeregeling verborgen in de gebruikersinterface, omdat het alleen mogelijk is het volume te regelen met de hardwareknoppen van het apparaat.
 
@@ -62,15 +62,19 @@ Wanneer de viewer werkt in de pop-upmodus, is er geen knop voor een volledig sch
 
 De viewer ondersteunt ook diverse gereedschappen voor het delen van sociale media. Ze zijn beschikbaar als één knop in de gebruikersinterface die wordt uitgevouwen tot een werkbalk voor delen wanneer de gebruiker erop klikt of tikt. De werkbalk voor delen bevat een pictogram voor elk type kanaal dat wordt ondersteund, zoals Facebook, Twitter, Delen via e-mail, Delen via code insluiten en delen van koppelingen. Wanneer gereedschappen voor delen via e-mail, insluiten of delen van koppelingen zijn geactiveerd, wordt in de viewer een modaal dialoogvenster weergegeven met een bijbehorend formulier voor gegevensinvoer. Wanneer Facebook of Twitter wordt aangeroepen, stuurt de viewer de gebruiker terug naar een standaarddialoogvenster voor delen via een sociale-mediaservice. Wanneer een gereedschap voor delen wordt geactiveerd, wordt het afspelen van video ook automatisch gepauzeerd. Delen van gereedschappen is niet beschikbaar in de modus Volledig scherm vanwege beveiligingsbeperkingen van de webbrowser.
 
-De viewer ondersteunt 360 video&#39;s afspelen op VR-headsets (zoals Oculus Go en Oculus Rift), VR HMD-montagemogelijkheden (zoals Google Cardboard) en niet-VR-apparaten (zoals desktopbrowsers, tablets en mobiele telefoons die niet zijn aangesloten op VR HMD-montage).
+De viewer ondersteunt het afspelen van 360 video op de volgende manieren:
 
-Er is geen aanvullende configuratie nodig om 360 video-inhoud op de VR-hoofdtelefoon weer te geven. De viewer detecteert automatisch de aanwezigheid van een VR-hoofdtelefoon en toont de knop VR boven op video-inhoud. Als u deze knop VR activeert, wordt het renderen van video overgeschakeld naar de VR-modus. De viewer ondersteunt alleen VR-rendering in browsers met WebVR-ondersteuning.
+* VR-headsets (zoals Oculus Go en Oculus Rift)
+* VR HMD (hoofdmontage)-montagesysteem (zoals Google Cardboard)
+* Niet-VR-apparaten (zoals desktopbrowsers, tablets en mobiele telefoons die niet zijn aangesloten op VR HMD-montageapparatuur)
+
+Geen extra configuratie is noodzakelijk om 360 video inhoud op hoofdtelefoon te bekijken VR. De viewer detecteert automatisch de aanwezigheid van een VR-hoofdtelefoon en toont de knop VR boven op video-inhoud. Als u deze knop VR activeert, wordt het renderen van video overgeschakeld naar de VR-modus. De viewer ondersteunt alleen VR-rendering in browsers met WebVR-ondersteuning.
 
 Als u VR HMD-bevestigingen wilt gebruiken, moet de `Video360Player.vrrender`-wijzigingstoets in de configuratie van de viewer worden ingesteld op `1`, waardoor stereoscopische rendering wordt afgedwongen.
 
-Op VR-koptelefoons en VR HMD-montagepunten vindt een wijziging van het gezichtspunt plaats als reactie op de beweging van de hoofdtelefoon, niet op een andere manier van afspelen in de VR-modus.
+Op VR-koptelefoons en VR HMD-montagesystemen vindt verandering in het gezichtspunt plaats als reactie op de beweging van de hoofdtelefoon, niet op een ander afspeelapparaat in de VR-modus.
 
-Wanneer de eindgebruiker 360 video op niet-VR toegelaten apparaten bekijkt, kan muis, aanraking of toetsenbord gebruiken om videoplayback en gezichtspunt te controleren.
+Wanneer de eindgebruiker 360 video op niet-VR toegelaten apparaten bekijkt, kan muis, aanraking, of toetsenbord gebruiken om videoplayback en gezichtspunt te controleren.
 
 De viewer ondersteunt zowel aanraakinvoer als muisinvoer op Windows-apparaten met aanraakscherm en muis. Deze ondersteuning is echter beperkt tot Chrome-, Internet Explorer 11- en Edge-webbrowsers.
 
@@ -80,7 +84,7 @@ De viewer is volledig toegankelijk via het toetsenbord. Zie [Toegankelijkheid en
 
 Verschillende webpagina&#39;s hebben verschillende vereisten voor viewergedrag. Soms biedt een webpagina een koppeling die de viewer in een apart browservenster opent wanneer erop wordt geklikt. In andere gevallen moet u de viewer rechtstreeks insluiten op de hostpagina. In het laatste geval heeft de webpagina mogelijk een statische paginalay-out of wordt een responsief ontwerp gebruikt dat op verschillende apparaten of voor verschillende venstergrootten van de browser anders wordt weergegeven. Om aan deze behoeften tegemoet te komen, ondersteunt de viewer drie primaire bewerkingsmodi: popup, insluiting van vaste grootte en responsieve ontwerpinsluiting.
 
-Het insluiten van meerdere video&#39;s op dezelfde pagina wordt ondersteund op tablets en mobiele apparaten. In de meeste gevallen kan slechts één video tegelijk worden afgespeeld. Wanneer een gebruiker een video begint af te spelen en vervolgens een andere video probeert af te spelen, wordt de eerste video automatisch gepauzeerd. De video die automatisch is gepauzeerd onthoudt de huidige afspeeltijd, zodat de gebruiker er altijd weer naar kan terugkeren en het afspelen kan hervatten. De enige uitzondering op deze regel is de Chrome-browser op Android 4.x-apparaten, die video&#39;s parallel kunnen afspelen.
+Het insluiten van meerdere video&#39;s op dezelfde pagina wordt ondersteund op tablets en mobiele apparaten. Gewoonlijk kan slechts één video tegelijk worden afgespeeld. Wanneer een gebruiker een video begint af te spelen en vervolgens een andere video probeert af te spelen, wordt de eerste video automatisch gepauzeerd. De video die automatisch is gepauzeerd onthoudt de huidige afspeeltijd, zodat de gebruiker er altijd weer naar kan terugkeren en het afspelen kan hervatten. De enige uitzondering op deze regel is de Chrome-browser op Android™ 4.x-apparaten, die video&#39;s parallel kunnen afspelen.
 
 **Pop-upmodus**
 
@@ -88,7 +92,7 @@ In de pop-upmodus wordt de viewer geopend in een apart venster of tabblad van ee
 
 Deze modus wordt het meest gebruikt voor mobiele apparaten. De webpagina laadt de viewer met behulp van `window.open()` JavaScript-aanroep, correct geconfigureerd `A` HTML-element of een andere geschikte methode.
 
-Het wordt aanbevolen een HTML-pagina uit de doos te gebruiken voor de pop-upbewerkingsmodus. Het wordt genoemd [!DNL Video360Viewer.html] en het wordt gevestigd onder [!DNL html5/] subfolder van uw standaard plaatsing IS-Viewers:
+Het wordt aanbevolen een uit-van-doos HTML-pagina voor pop-up verrichtingswijze te gebruiken. Het wordt genoemd [!DNL Video360Viewer.html] en het wordt gevestigd onder [!DNL html5/] subfolder van uw standaard plaatsing IS-Viewers:
 
 [!DNL <s7viewers_root>/html5/Video360Viewer.html]
 
@@ -106,11 +110,11 @@ In de ingesloten modus wordt de viewer toegevoegd aan de bestaande webpagina, wa
 
 De belangrijkste gebruiksgevallen zijn webpagina&#39;s die zijn georiënteerd op desktops of tablets, en responsieve, ontworpen pagina&#39;s die de lay-out automatisch aanpassen, afhankelijk van het apparaattype.
 
-De insluiting met een vaste grootte wordt gebruikt wanneer de viewer de grootte niet wijzigt na het laden. Dit is de beste keuze voor webpagina&#39;s met een statische indeling.
+De insluiting met een vaste grootte wordt gebruikt wanneer de viewer de grootte niet wijzigt na het laden. Deze methode is de beste keuze voor webpagina&#39;s met een statische indeling.
 
-Bij het insluiten van responsieve ontwerpen wordt ervan uitgegaan dat de viewer tijdens runtime mogelijk de grootte moet wijzigen als reactie op de wijziging van de grootte van de container `DIV`. De meest gebruikte optie is het toevoegen van een viewer aan een webpagina die een flexibele pagina-indeling gebruikt.
+Bij het insluiten van responsieve ontwerpen wordt ervan uitgegaan dat de viewer bij uitvoering de grootte moet wijzigen als reactie op de wijziging van de grootte van de container `DIV`. De meest gebruikte optie is het toevoegen van een viewer aan een webpagina die een flexibele pagina-indeling gebruikt.
 
-In de responsieve ontwerpinsluitingsmodus werkt de viewer anders, afhankelijk van de manier waarop de container `DIV` door de webpagina wordt verkleind. Als de webpagina alleen de breedte van de container `DIV` instelt en de hoogte onbeperkt laat, kiest de viewer automatisch de hoogte op basis van de hoogte-breedteverhouding van het element dat wordt gebruikt. Deze functionaliteit zorgt ervoor dat het element perfect in de weergave past zonder opvulling aan de zijkanten. Dit gebruiksgeval komt het meest voor voor Web-pagina&#39;s die ontvankelijke kaders van de Webontwerp lay-out zoals Bootstrap, Stichting, etc. gebruiken.
+In de responsieve ontwerpinsluitingsmodus werkt de viewer anders, afhankelijk van de manier waarop de container `DIV` door de webpagina wordt verkleind. Als de webpagina alleen de breedte van de container `DIV` instelt en de hoogte onbeperkt laat, kiest de viewer automatisch de hoogte op basis van de hoogte-breedteverhouding van het element dat wordt gebruikt. Deze functionaliteit zorgt ervoor dat het element perfect in de weergave past zonder opvulling aan de zijkanten. Dit gebruiksgeval is het gemeenschappelijkst voor Web-pagina&#39;s die ontvankelijke kaders van de lay-out van het Webontwerp zoals Bootstrap en Stichting gebruiken.
 
 Anders, als de Web-pagina zowel de breedte als de hoogte voor de container `DIV` van de kijker plaatst, vult de kijker enkel dat gebied en volgt de grootte die de Web-pagina lay-out verstrekt. Een goed voorbeeld is het insluiten van de viewer in een modale overlay, waarbij de grootte van de overlay wordt aangepast aan de venstergrootte van de webbrowser.
 
@@ -125,11 +129,11 @@ U voegt de viewer als volgt toe aan een webpagina:
 
 1. Het JavaScript-bestand van de viewer toevoegen aan uw webpagina.
 
-   Voor het maken van een viewer moet u een scripttag aan de HTML-kop toevoegen. Voordat u de viewer-API kunt gebruiken, moet u [!DNL Video360Viewer.js] opnemen. Het [!DNL Video360Viewer.js] dossier wordt gevestigd onder [!DNL html5/js/] subfolder van uw standaard plaatsing IS-Viewers:
+   Voor het maken van een viewer moet u een scripttag toevoegen aan de kop van de HTML. Voordat u de viewer-API kunt gebruiken, moet u [!DNL Video360Viewer.js] opnemen. Het [!DNL Video360Viewer.js] dossier wordt gevestigd onder [!DNL html5/js/] subfolder van uw standaard plaatsing IS-Viewers:
 
 [!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/Video360Viewer.js]
 
-U kunt een relatief pad gebruiken als de viewer wordt geïmplementeerd op een van de Klassieke Adobe Dynamic Media-servers en vanuit hetzelfde domein wordt aangeboden. Anders geeft u een volledig pad op naar een van de Adobe Dynamic Media Classic-servers waarop de IS-Viewers zijn geïnstalleerd.
+U kunt een relatief pad gebruiken als de viewer wordt geïmplementeerd op een van de Adobe Dynamic Media Classic-servers en vanuit hetzelfde domein wordt aangeboden. Anders geeft u een volledig pad op naar een van de Adobe Dynamic Media Classic-servers waarop IS-Viewers zijn geïnstalleerd.
 
 Het relatieve pad ziet er als volgt uit:
 
@@ -139,7 +143,7 @@ Het relatieve pad ziet er als volgt uit:
 
 >[!NOTE]
 >
->U moet alleen verwijzen naar het JavaScript-bestand `include` van de hoofdviewer op uw pagina. U moet niet verwijzen naar extra JavaScript-bestanden in de webpaginacode die door de logica van de viewer in runtime kunnen worden gedownload. Verwijs met name niet rechtstreeks naar de HTML5 SDK `Utils.js`-bibliotheek die door de viewer is geladen vanaf het contextpad `/s7viewers` (de zogeheten geconsolideerde SDK `include`). De reden hiervoor is dat de locatie van `Utils.js` of vergelijkbare runtimeviewerbibliotheken volledig wordt beheerd door de logica van de viewer en dat de locatie verandert tussen de viewerreleases. Adobe houdt oudere versies van de secundaire viewer `includes` niet op de server.
+>Verwijs alleen naar het JavaScript-bestand `include` van de hoofdviewer op de pagina. Verwijs niet naar extra JavaScript-bestanden in de webpaginacode die door de logica van de viewer in runtime kunnen worden gedownload. Verwijs met name niet rechtstreeks naar de HTML5 SDK `Utils.js`-bibliotheek die door de viewer is geladen vanaf het contextpad `/s7viewers` (de zogenoemde geconsolideerde SDK `include`). De reden hiervoor is dat de locatie van `Utils.js` of vergelijkbare runtimeviewerbibliotheken volledig wordt beheerd door de logica van de viewer en dat de locatie verandert tussen de viewerreleases. Adobe houdt oudere versies van de secundaire viewer `includes` niet op de server.
 >
 >
 >Als u dus een directe verwijzing naar een secundair JavaScript `include` op de pagina plaatst, wordt de viewerfunctionaliteit in de toekomst verbroken wanneer een nieuwe productversie wordt geïmplementeerd.
@@ -162,11 +166,11 @@ Het relatieve pad ziet er als volgt uit:
 
    U kunt de statische grootte voor de kijker plaatsen door of het voor `.s7video360viewer` top-level CSS klasse in absolute eenheden te verklaren, of door `stagesize` bepaling te gebruiken.
 
-   U kunt de grootte in CSS rechtstreeks op de HTML-pagina plaatsen, of in een aangepast CSS-bestand van de viewer, dat later wordt toegewezen aan een viewer-voorinstellingsrecord in AEM Assets, op aanvraag, of expliciet wordt doorgegeven met de opdracht `style`.
+   U kunt de grootte in CSS direct op de pagina van de HTML zetten, of in een douaneCSS dossier van de kijker, dat later aan een kijker vooraf ingesteld verslag in de Middelen van Adobe Experience Manager wordt toegewezen - op bestelling, of uitdrukkelijk wordt overgegaan gebruikend `style` bevel.
 
    Zie [Video360 Viewer aanpassen](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) voor meer informatie over het opmaken van de viewer met CSS.
 
-   Hieronder ziet u een voorbeeld van het definiëren van een statische viewergrootte in de HTML-pagina:
+   Hieronder ziet u een voorbeeld van het definiëren van een statische viewergrootte op de pagina HTML:
 
    ```
    #s7viewer.s7video360viewer { 
@@ -187,7 +191,7 @@ Het relatieve pad ziet er als volgt uit:
 
    Wanneer u de bovenstaande stappen hebt voltooid, maakt u een instantie van de klasse `s7viewers.Video360Viewer`, geeft u alle configuratiegegevens door aan de constructor ervan en roept u `init()` methode aan voor een viewerinstantie. De informatie van de configuratie wordt overgegaan tot de aannemer als voorwerp JSON. Dit object moet minstens `containerId` veld hebben met de naam van de viewercontainer-id en het geneste `params` JSON-object met configuratieparameters die door de viewer worden ondersteund.
 
-   In dit geval moet voor het `params`-object ten minste de URL van de afbeeldingsserver worden doorgegeven als `serverUrl`-eigenschap en het eerste element als `asset`-parameter. Met de op JSON gebaseerde initialisatie-API kunt u de viewer maken en starten met één coderegel, een URL van de videoserver die wordt doorgegeven als `videoserverurl`-eigenschap, een eerste element als `asset`-parameter en interactieve gegevens als `interactivedata`-eigenschap. Met de op JSON gebaseerde initialisatie-API kunt u de viewer maken en starten met één coderegel.
+   In dit geval moet voor het `params`-object ten minste de URL van de afbeeldingsserver worden doorgegeven als `serverUrl`-eigenschap en het eerste element als `asset`-parameter. Met de op JSON gebaseerde initialisatie-API kunt u de viewer maken en starten met één coderegel, URL van de videoserver die wordt doorgegeven als `videoserverurl`-eigenschap, eerste element als `asset`-parameter en interactieve gegevens als `interactivedata`-eigenschap. Met de op JSON gebaseerde initialisatie-API kunt u de viewer maken en starten met één coderegel.
 
    Het is belangrijk dat de viewercontainer aan het DOM wordt toegevoegd, zodat de viewercode het containerelement op basis van de id kan vinden. Sommige browsers stellen het samenstellen van DOM tot het einde van de webpagina uit. Voor maximale compatibiliteit roept u de methode `init()` aan vlak voor de afsluitingstag `BODY` of op de hoofdgebeurtenis `onload()`.
 
@@ -303,7 +307,7 @@ var video360Viewer = new s7viewers.Video360Viewer({
 
 **Responsief insluiten met gedefinieerde breedte en hoogte**
 
-Bij responsieve insluiting waarbij breedte en hoogte zijn gedefinieerd, is de opmaak van de webpagina anders. Het verstrekt beide grootte aan `"holder"` DIV en centreert het in het browser venster. Bovendien stelt de webpagina de grootte van het element `HTML` en `BODY` in op 100 procent.
+Als er responsieve insluiting is waarbij breedte en hoogte zijn gedefinieerd, is de opmaak van de webpagina anders. Het verstrekt beide grootte aan `"holder"` DIV en centreert het in het browser venster. Bovendien stelt de webpagina de grootte van het element `HTML` en `BODY` in op 100 procent.
 
 ```
 <!DOCTYPE html> 

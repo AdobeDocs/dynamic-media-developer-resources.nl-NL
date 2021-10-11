@@ -1,20 +1,20 @@
 ---
-description: Het belangrijkste weergavegebied is het gebied dat wordt ingenomen door de 360 video. Deze wordt meestal ingesteld op weergave op het beschikbare apparaatscherm wanneer geen grootte is opgegeven.
-solution: Experience Manager
 title: Hoofdviewergebied
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
+description: Het belangrijkste weergavegebied is het gebied dat wordt ingenomen door de 360 video. Deze wordt zo ingesteld dat deze op het beschikbare apparaatscherm past wanneer geen grootte is opgegeven.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 912cb4b3-6409-48ed-9b9c-968b63718a1b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
 
 # Hoofdviewergebied{#main-viewer-area}
 
-Het belangrijkste weergavegebied is het gebied dat wordt ingenomen door de 360 video. Deze wordt meestal ingesteld op weergave op het beschikbare apparaatscherm wanneer geen grootte is opgegeven.
+Het belangrijkste weergavegebied is het gebied dat wordt ingenomen door de 360 video. Deze wordt zo ingesteld dat deze op het beschikbare apparaatscherm past wanneer geen grootte is opgegeven.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

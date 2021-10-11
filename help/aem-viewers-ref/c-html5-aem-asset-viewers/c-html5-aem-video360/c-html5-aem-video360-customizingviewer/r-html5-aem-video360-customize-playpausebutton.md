@@ -1,13 +1,13 @@
 ---
+title: Knop Afspelen/Pauzeren
 description: Met de knop Afspelen/Pauzeren wordt de video-inhoud afgespeeld of gepauzeerd wanneer de gebruiker erop klikt.
 solution: Experience Manager
-title: Knop Afspelen/Pauzeren
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 5f8741a4-d286-4b2d-8a11-23bce119209a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -69,11 +69,11 @@ De volgende CSS-klassenkiezer bepaalt de vormgeving van de knop:
 >
 >Deze knoop steunt zowel `state`, `selected`, als `replay` attribuutselecteurs, die kunnen worden gebruikt om verschillende huiden op verschillende knoopstaten toe te passen. Met name `selected='true'` komt overeen met de status &quot;play&quot; en `selected='false'` komt overeen met de status &quot;pause&quot;;
 >
->`replay='true'` wordt ingesteld wanneer de video het einde heeft bereikt en wanneer u op de knop klikt, wordt het afspelen vanaf het begin opnieuw gestart.
+>De kenmerkenkiezer `replay='true'` wordt geplaatst wanneer de video het eind heeft bereikt en het selecteren van de knoop begint playback van het begin opnieuw.
 
 De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) voor meer informatie.
 
-**Voorbeeld**  - Een afspeel-/pauzeknop van 32 x 32 pixels instellen; de knop bevindt zich op zes pixels van de boven- en linkerrand van de besturingsbalk en geeft een andere afbeelding weer voor elk van de vier verschillende knopstatussen, indien geselecteerd of niet geselecteerd.
+**Voorbeeld**  - Een afspeel-/pauzeknop van 32 x 32 pixels instellen. Laat het zich op zes pixels van de boven- en linkerrand van de besturingsbalk bevinden. En ten slotte wordt voor elk van de vier verschillende knoptoestanden een andere afbeelding weergegeven wanneer deze is geselecteerd of niet.
 
 ```
 .s7video360viewer .s7playpausebutton { 

@@ -1,14 +1,14 @@
 ---
+title: Video360Player.mutevolume
 description: Configuration attribute for Video360 Viewer.
 solution: Experience Manager
-title: Video360Player.mutevolume
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR-video
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 8f95c01f-e634-4d6c-a22f-c2285ee969c8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 9%
+source-wordcount: '55'
+ht-degree: 10%
 
 ---
 
@@ -22,7 +22,7 @@ Configuration attribute for Video360 Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
-   <td colname="col2"> <p> Hiermee stelt u de modus Gedempt in voor het afspelen van video bij het eerste laden. Indien ingesteld op <span class="codeph"> 1 </span> wordt het volume gedempt; anders wordt de video afgespeeld met geluid. Op bepaalde apparaten kan de video automatisch worden afgespeeld wanneer de video wordt geladen. </p> </td> 
+   <td colname="col2"> <p> Hiermee stelt u de modus Gedempt in voor het afspelen van video bij het eerste laden. Indien ingesteld op <span class="codeph"> 1 </span> wordt het volume gedempt; anders wordt de video afgespeeld met geluid. Bij bepaalde apparaten kunt u de video automatisch afspelen door het afspelen van video tijdens het laden te dempen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
