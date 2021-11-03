@@ -1,11 +1,11 @@
 ---
+title: SmartCropVideoPlayer.posterimage
 description: Configuration attribute for Smart Crop Video Viewer.
 solution: Experience Manager
-title: SmartCropVideoPlayer.posterimage
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: c09884e2-60a1-4fce-997a-29747b4ccb7b
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Configuration attribute for Smart Crop Video Viewer.
       <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> als <span class="codeph"> %3F</span> </p> </li> 
       <li id="li_391CCF067F734480B2B4AFC9760C479A"> <p> <span class="codeph"> &amp;</span> als <span class="codeph"> %26</span> </p> </li> 
       <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> =</span> als <span class="codeph"> %3D</span> </p> </li> 
-     </ul> </p> <p>Als de <span class="codeph"><span class="varname"> image_id</span></span> waarde wordt weggelaten, probeert de component om de standaardposterafbeelding voor dat element te gebruiken. </p> <p>Wanneer de video is opgegeven als een pad, wordt de standaard posterafbeeldingencatalogus-id afgeleid van het videopad als de <span class="codeph"> catalog_id/image_id</span> paar waar <span class="codeph"> catalog_id</span> komt overeen met het eerste token in het pad en <span class="codeph"> image_id</span> Dit is de naam van de video waarvan de extensie is verwijderd. Als de afbeelding met die id niet bestaat, wordt de posterafbeelding niet weergegeven. </p> <p>Als u de standaardposterafbeelding niet wilt weergeven, geeft u <span class="codeph"> none</span> als de waarde van de posterafbeelding. Als alleen de <span class="codeph"><span class="varname"> isCommands</span></span> worden opgegeven, worden de opdrachten toegepast op de standaardposterafbeelding voordat de afbeelding wordt weergegeven. </p> </td> 
+     </ul> </p> <p>Als de <span class="codeph"><span class="varname"> image_id</span></span> waarde wordt weggelaten, probeert de component om de standaardposterafbeelding voor dat element te gebruiken. </p> <p>Wanneer de video is opgegeven als een pad, wordt de standaard posterafbeeldingencatalogus-id afgeleid van het videopad als de <span class="codeph"> catalog_id/image_id</span> paar. De <span class="codeph"> catalog_id</span> komt overeen met het eerste token in het pad en <span class="codeph"> image_id</span> Dit is de naam van de video waarvan de extensie is verwijderd. Als de afbeelding met die id niet bestaat, wordt de posterafbeelding niet weergegeven. </p> <p>Als u de standaardposterafbeelding niet wilt weergeven, geeft u <span class="codeph"> none</span> als de waarde van de posterafbeelding. Als alleen de <span class="codeph"><span class="varname"> isCommands</span></span> opgegeven, worden de opdrachten toegepast op de standaardposterafbeelding voordat de afbeelding wordt weergegeven. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,20 +1,20 @@
 ---
+title: getComponent
 description: JavaScript API-referentie voor SmartCrop Video Viewer
 solution: Experience Manager
-title: getComponent
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 2f02371c-39c7-46fd-95a6-909efacac72c
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
 
 # getComponent{#getcomponent}
 
-JavaScript API-referentie voor SmartCrop Video Viewer
+JavaScript API-referentie voor SmartCrop Video Viewer.
 
 `getComponent(componentId)`
 
@@ -110,7 +110,7 @@ Raadpleeg de SDK API-documentatie van de viewer voor meer informatie over een be
 
 ## Retourneert {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` een verwijzing naar de Viewer SDK-component. De methode retourneert `null` als de `componentId` is geen ondersteunde viewercomponent of als de component nog niet door de viewerlogica is gemaakt.
+`{Object}` Een verwijzing naar de Viewer SDK-component. De methode retourneert `null` als de `componentId` is geen ondersteunde viewercomponent of als de component nog niet door de viewerlogica is gemaakt.
 
 ## Voorbeeld {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

@@ -1,20 +1,20 @@
 ---
-description: Het gereedschap voor sociaal delen wordt standaard in de rechterbovenhoek weergegeven. Het bestaat uit een knop en een deelvenster dat groter wordt wanneer de gebruiker op een knop klikt of tikt en dat afzonderlijke gereedschappen voor delen bevat.
-solution: Experience Manager
 title: Sociaal aandeel
+description: Het gereedschap Delen via sociale media wordt standaard in de rechterbovenhoek weergegeven. Het bestaat uit een knop en een deelvenster dat groter wordt wanneer de gebruiker op een knop klikt of tikt en dat afzonderlijke gereedschappen voor delen bevat.
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 82b482f9-b117-4529-a422-cdb0eead0031
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
 
 # Sociaal aandeel{#social-share}
 
-Het gereedschap voor sociaal delen wordt standaard in de rechterbovenhoek weergegeven. Het bestaat uit een knop en een deelvenster dat groter wordt wanneer de gebruiker op een knop klikt of tikt en dat afzonderlijke gereedschappen voor delen bevat.
+Het gereedschap Delen via sociale media wordt standaard in de rechterbovenhoek weergegeven. Het bestaat uit een knop en een deelvenster dat groter wordt wanneer de gebruiker op een knop klikt of tikt en dat afzonderlijke gereedschappen voor delen bevat.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

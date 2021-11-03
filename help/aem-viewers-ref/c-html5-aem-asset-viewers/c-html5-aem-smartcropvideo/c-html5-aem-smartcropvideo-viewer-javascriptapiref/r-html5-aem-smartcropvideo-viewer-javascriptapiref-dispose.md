@@ -1,13 +1,13 @@
 ---
+title: weggooien
 description: JavaScript API-referentie voor SmartCrop Video Viewer.
 solution: Experience Manager
-title: weggooien
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: c4bcccdc-6f23-4213-a1d1-03c5c62ba484
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Hiermee wordt deze viewerinstantie verwijderd door alle bronnen die door de view
 
 De webpaginacode moet ook de viewerinstantievariabele verwijderen om de viewer volledig uit het webbrowsergeheugen te verwijderen.
 
-Als de webpaginacode gebeurtenislisteners rechtstreeks heeft geregistreerd in Viewer SDK-componenten die door de viewer worden gebruikt of externe referenties naar dergelijke componenten zijn opgeslagen, moet de webpaginacode deze listeners expliciet niet registreren en moeten deze externe componentverwijzingen worden verwijderd voordat deze worden aangeroepen `dispose()`.
+Als de webpaginacode gebeurtenislisteners rechtstreeks heeft geregistreerd in Viewer SDK-componenten die door de viewer worden gebruikt - of externe referenties naar dergelijke componenten heeft opgeslagen - moeten deze listeners expliciet door de webpaginacode worden verwijderd. En, moeten dergelijke externe componentenverwijzingen alvorens te roepen worden geschrapt `dispose()`.
 
 Geen toegang meer tot de viewer-API na `dispose()` wordt aangeroepen.
 

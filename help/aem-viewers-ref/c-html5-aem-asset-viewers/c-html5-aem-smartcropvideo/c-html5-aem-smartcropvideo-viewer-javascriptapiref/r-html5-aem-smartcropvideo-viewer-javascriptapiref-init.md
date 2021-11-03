@@ -1,13 +1,13 @@
 ---
+title: init
 description: JavaScript API-referentie voor SmartCrop Video Viewer.
 solution: Experience Manager
-title: init
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: d46a9c8b-064a-4928-b30e-885b12d287ab
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ JavaScript API-referentie voor SmartCrop Video Viewer.
 
 Start de initialisatie van de SmartCrop Video-viewer. Tegen deze tijd moet het container-DOM-element worden gemaakt, zodat de viewercode het met zijn id kan vinden.
 
-Als het containerelement bijvoorbeeld nog geen deel uitmaakt van de webpaginalay-out, kan het worden verborgen met `display:none` de stijl die aan het wordt toegewezen de kijker onderbreekt zijn initialisatieproces tot het ogenblik dat de Web-pagina het containerelement terug naar de lay-out brengt. Wanneer dit gebeurt, wordt het laden van de viewer automatisch hervat.
+Als het containerelement nog geen deel uitmaakt van de webpaginalay-out, kan het bijvoorbeeld worden verborgen met `display:none` stijl die eraan is toegewezen - de viewer onderbreekt het initialisatieproces. Dit gebeurt totdat de webpagina het containerelement weer in de layout plaatst. Wanneer deze actie wordt uitgevoerd, wordt het laden van de viewer automatisch hervat.
 
 Roep deze methode slechts eenmaal aan tijdens de levenscyclus van de kijker; volgende aanroepen worden genegeerd.
 

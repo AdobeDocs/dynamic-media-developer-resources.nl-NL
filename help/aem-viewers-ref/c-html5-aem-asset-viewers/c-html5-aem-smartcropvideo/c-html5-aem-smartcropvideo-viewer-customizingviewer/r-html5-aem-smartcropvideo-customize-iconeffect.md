@@ -1,13 +1,13 @@
 ---
+title: Pictogram, effect
 description: Het afspeelpictogram wordt boven in het hoofdweergavegebied geplaatst. Deze wordt weergegeven wanneer de video wordt gepauzeerd of wanneer het einde van de video is bereikt. Deze parameter is ook afhankelijk van de parameter iconeffect.
 solution: Experience Manager
-title: Pictogram, effect
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: f4bf343a-4a78-470b-abe5-94e2d608f45d
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---

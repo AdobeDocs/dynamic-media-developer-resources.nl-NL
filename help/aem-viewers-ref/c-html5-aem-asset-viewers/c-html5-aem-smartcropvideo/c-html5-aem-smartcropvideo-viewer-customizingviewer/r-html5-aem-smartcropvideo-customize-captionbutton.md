@@ -1,13 +1,13 @@
 ---
+title: Knop Bijschrift
 description: Met deze knop schakelt u de weergave van een gesloten bijschrift in of uit. De eigenschap is niet zichtbaar als de parameter caption niet is opgegeven.
 solution: Experience Manager
-title: Knop Bijschrift
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 47d4a33b-e2bc-4a32-be45-5320d3de1955
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-e
 
 ## Voorbeeld {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Als u een knop voor een gesloten bijschrift van 28 x 28 pixels wilt instellen, plaatst u vier pixels van de bovenkant en 68 pixels van de rechterrand van de besturingsbalk en geeft u een andere afbeelding weer voor elk van de vier verschillende knopstatussen, al dan niet geselecteerd.
+Een knop voor een gesloten bijschrift van 28 x 28 pixels instellen. Deze bevindt zich op vier pixels van de bovenkant en op 68 pixels van de rechterrand van de besturingsbalk. En ten slotte wordt voor elk van de vier verschillende knoptoestanden een andere afbeelding weergegeven wanneer deze is geselecteerd of niet.
 
 ```
 .s7smartcropvideoviewer .s7closedcaptionbutton { 

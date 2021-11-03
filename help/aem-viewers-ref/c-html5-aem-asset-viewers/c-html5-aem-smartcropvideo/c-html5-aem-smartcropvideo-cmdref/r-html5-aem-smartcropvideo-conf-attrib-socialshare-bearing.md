@@ -1,13 +1,13 @@
 ---
+title: SocialShare.bearing
 description: Configuration attribute for Smart Crop Video Viewer.
 solution: Experience Manager
-title: SocialShare.bearing
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 391efc4e-23f6-4159-8b03-ad1c9a887ec3
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Configuration attribute for Smart Crop Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> up|down|left|right|fit-vertical|fit-lateraal</span> </p> </td> 
-   <td colname="col2"> <p> Hiermee bepaalt u de richting van de dianavigatie voor de knoppencontainer. </p> <p> Wanneer ingesteld op <span class="codeph"> omhoog</span>, <span class="codeph"> omlaag</span>, <span class="codeph"> left</span>, of <span class="codeph"> right</span>, wordt het deelvenster in een opgegeven richting weergegeven zonder dat er een extra controle op de grenzen plaatsvindt. Dit kan ertoe leiden dat het deelvenster door een buitencontainer wordt bijgesneden. </p> <p>Wanneer ingesteld op <span class="codeph"> verticaal passend</span>De component verschuift eerst de positie van het basisdeelvenster naar de onderkant van SocialShare en probeert het deelvenster van de onderkant, de rechterkant of de linkerkant van de basislocatie uit te rollen. Bij elke poging controleert de component of het deelvenster is bijgesneden door een buitencontainer. Als alle pogingen mislukken, probeert de component om de positie van het basispaneel naar de bovenkant te verschuiven en rollopouten in de bovenkant, de juiste, en linkerrichting te herhalen. </p> <p>Wanneer ingesteld op <span class="codeph"> monteerbaar</span>, gebruikt de component een vergelijkbare logica. Nochtans verschuift het basis eerst naar rechts, probeert het recht, onderaan, en omhoog rollout richtingen, en dan verschuift de basis naar links, probeert linker, onderaan, en omhoog rollout richtingen. </p> </td> 
+   <td colname="col2"> <p> Hiermee bepaalt u de richting van de dianavigatie voor de knoppencontainer. </p> <p> Wanneer ingesteld op <span class="codeph"> omhoog</span>, <span class="codeph"> omlaag</span>, <span class="codeph"> left</span>, of <span class="codeph"> right</span>wordt het deelvenster in een bepaalde richting weergegeven zonder dat er een extra controle op de grenzen plaatsvindt. Dit kan ertoe leiden dat het deelvenster door een buitencontainer wordt bijgesneden. </p> <p>Wanneer ingesteld op <span class="codeph"> verticaal passend</span>De component verschuift eerst de positie van het basisdeelvenster naar de onderkant van SocialShare en probeert het deelvenster van de onderkant, de rechterkant of de linkerkant van de basislocatie uit te rollen. Bij elke poging controleert de component of het deelvenster is bijgesneden door een buitencontainer. Als alle pogingen mislukken, probeert de component om de positie van het basispaneel naar de bovenkant te verschuiven en rollout pogingen in de bovenkant, de juiste, en linkerrichting te herhalen. </p> <p>Wanneer ingesteld op <span class="codeph"> monteerbaar</span>, gebruikt de component een vergelijkbare logica. Nochtans verschuift het basis eerst naar rechts, probeert het recht, onderaan, en omhoog rollout richtingen, en dan verschuift de basis naar links, probeert linker, onderaan, en omhoog rollout richtingen. </p> </td> 
   </tr> 
  </tbody> 
 </table>

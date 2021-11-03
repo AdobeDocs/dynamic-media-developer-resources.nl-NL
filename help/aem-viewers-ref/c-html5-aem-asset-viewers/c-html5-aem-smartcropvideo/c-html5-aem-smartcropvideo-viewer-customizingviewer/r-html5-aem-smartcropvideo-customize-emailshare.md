@@ -1,13 +1,13 @@
 ---
+title: E-mailshare
 description: Het gereedschap E-mail delen bestaat uit een knop die wordt toegevoegd aan het deelvenster Sociaal delen en het modale dialoogvenster dat wordt weergegeven wanneer het gereedschap wordt geactiveerd. De positie van de knop wordt volledig beheerd met het gereedschap Sociaal delen.
 solution: Experience Manager
-title: E-mailshare
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 1788e069-68dd-4960-bc49-34ffdf29991a
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '2980'
+source-wordcount: '2994'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Het is mogelijk de knop uit het deelvenster Sociaal delen te verwijderen door de
 
 De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) voor meer informatie .
 
-Voorbeeld - om een knop voor e-maildelen in te stellen van 28 x 28 pixels en die een andere afbeelding weergeeft voor elk van de vier verschillende knopstatussen.
+Voorbeeld: om een knop voor e-maildeling in te stellen van 28 x 28 pixels en een andere afbeelding voor elk van de vier verschillende knopstatussen.
 
 ```
 .s7smartcropvideoviewer .s7emailshare { 
@@ -74,7 +74,7 @@ background-image:url(images/v2/EmailShare_dark_disabled.png);
 }
 ```
 
-De achtergrondoverlay die de webpagina bedekt wanneer het dialoogvenster actief is, wordt bestuurd met de volgende CSS-klassenkiezer:
+De achtergrondoverlay die een webpagina bedekt wanneer het dialoogvenster actief is, wordt bestuurd met de volgende CSS-klassenkiezer:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7backoverlay
@@ -143,7 +143,7 @@ background-color: #ffffff;
 }
 ```
 
-De koptekst van het dialoogvenster bestaat uit een pictogram, een titeltekst en een sluitknop. De koptekstcontainer wordt bestuurd met de volgende CSS-klassenkiezer
+De koptekst van het dialoogvenster bestaat uit een pictogram, een titeltekst en een knop Sluiten. De koptekstcontainer wordt bestuurd met de volgende CSS-klassenkiezer
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogheader
@@ -160,7 +160,7 @@ De koptekst van het dialoogvenster bestaat uit een pictogram, een titeltekst en 
  </tbody> 
 </table>
 
-Het pictogram en de titeltekst worden verpakt in een extra container die wordt bestuurd met
+Het pictogram en de titeltekst worden verpakt in een extra container die met
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogheader .s7dialogline
@@ -282,7 +282,7 @@ Knop Sluiten wordt beheerd met de volgende CSS-klassenkiezer:
 
 De knopinfo Sluiten en de titel van het dialoogvenster kunnen worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) voor meer informatie .
 
-Voorbeeld - om een dialoogvensterkop in te stellen met opvulling, pictogram van 24 x 17 pixels, vetgedrukte 16 pt titel en knop Sluiten van 28 x 28 pixels, geplaatst op 2 pixels van de bovenkant en 2 pixels van de rechterkant van de dialoogcontainer:
+Voorbeeld - Aan opstellingsheader met opvulling, pictogram van 24 x 17 pixels, en een gewaagde 16-punts titel. En ten slotte een knop Sluiten met 28 x 28 pixels, geplaatst op twee pixels van de bovenkant en twee pixels van de rechterkant van de dialoogcontainer:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogheader { 
@@ -422,7 +422,7 @@ De knop E-mail verzenden wordt beheerd met de volgende CSS-klassenkiezer:
 >
 >Deze knop ondersteunt de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende skins toe te passen op verschillende knoptoestanden.
 
-Bovendien hebben beide knoppen dezelfde algemene CSS-klasse die CSS-instellingen kan bevatten die hetzelfde zijn voor andere knoppen in dialoogvensters:
+Bovendien delen beide knoppen dezelfde algemene CSS-klasse die CSS-instellingen kan bevatten die hetzelfde zijn voor andere knoppen in dialoogvensters:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogfooter .s7button
@@ -461,7 +461,7 @@ Bovendien hebben beide knoppen dezelfde algemene CSS-klasse die CSS-instellingen
 
 De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) voor meer informatie .
 
-Voorbeeld - voor het instellen van een voettekst in het dialoogvenster met een knop Annuleren van 64 x 34 en een knop voor het verzenden van e-mail van 82 x 34, met een andere tekstkleur en achtergrondkleur voor elke knopstatus:
+Voorbeeld - Een voettekst voor een dialoogvenster instellen met de knop Annuleren 64 x 34 en een knop E-mail verzenden van 82 x 34. En ten slotte zijn de tekstkleur en de achtergrondkleur verschillend voor elke knoopstaat:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogfooter { 
@@ -729,7 +729,7 @@ De meeste invoervelden die zich uitstrekken van het label links tot aan de recht
 .s7smartcropvideoviewer .s7emaildialog .s7dialoginputwide
 ```
 
-**CSS-eigenschappen van het invoerbrede veld van het dialoogvenster**
+**CSS-eigenschappen van het invoerveld van het dialoogvenster**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
@@ -757,7 +757,7 @@ Het invoerveld &#39;Aan&#39; is smaller omdat er ruimte wordt toegewezen voor de
  </tbody> 
 </table>
 
-Voorbeeld - een formulier zo instellen dat het een grijze rand van één pixel heeft met negen pixels opvulling rond alle invoervelden. dezelfde rand in rode kleur te hebben voor velden waarvoor de validatie niet is gelukt, om een invoerveld van 250 pixels breed &quot;Tot&quot; te hebben en de rest van de invoervelden een breedte van 300 pixels:
+Voorbeeld - Een formulier zo instellen dat het een grijze rand van één pixel heeft met negen pixels opvulling rond alle invoervelden. Dezelfde rand in rode kleur hebben voor velden waarvoor de validatie niet is gelukt, om een invoerveld van 250 pixels breed &quot;Tot&quot; te hebben en de rest van de invoervelden een breedte van 300 pixels:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialoginputcontainer { 
@@ -775,7 +775,7 @@ Voorbeeld - een formulier zo instellen dat het een grijze rand van één pixel h
 }
 ```
 
-Het invoerveld voor e-mailberichten wordt aangevuld met:
+Het invoerveld voor e-mailberichten wordt ook beheerd met:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogmessage
@@ -789,7 +789,7 @@ Met deze klasse kunt u specifieke eigenschappen instellen voor de onderliggende 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Hoogte bericht. </p> </td> 
+   <td colname="col2"> <p>Berichthoogte. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> tekstomloop </span> </p> </td> 
@@ -1210,11 +1210,11 @@ Wanneer een gebruiker onjuiste invoergegevens invoert en inlinevalidering misluk
 
 >[!NOTE]
 >
->Dit bericht ondersteunt de `state` kenmerkkiezer met de volgende mogelijke waarden: `verifyerror`, `senderror`, en `sendsuccess`. `verifyerror` wordt ingesteld wanneer een bericht wordt weergegeven als gevolg van een inline-invoervalidatiefout; `senderror` wordt ingesteld wanneer een e-mailservice op de achtergrond een fout meldt; `sendsuccess` wordt ingesteld wanneer e-mail is verzonden. Op deze manier kunt u het bericht anders opmaken afhankelijk van de status van het dialoogvenster.
+>Dit bericht ondersteunt de `state` kenmerkkiezer met de volgende mogelijke waarden: `verifyerror`, `senderror`, en `sendsuccess`. De waarde `verifyerror` wordt ingesteld wanneer een bericht wordt weergegeven als gevolg van een fout bij de inline-invoervalidatie. De waarde `senderror` wordt ingesteld wanneer een e-mailservice op de achtergrond een fout meldt. De `sendsuccess` waarde wordt ingesteld wanneer e-mail is verzonden. Op deze manier kunt u het bericht anders opmaken afhankelijk van de status van het dialoogvenster.
 
 Het foutbericht kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) voor meer informatie .
 
-Voorbeeld - als u een bericht wilt instellen dat een lettertype van tien punten vet wordt gebruikt, dat een lijnhoogte van 25 pixels, een opvulling van 20 pixels aan de linkerkant en een uitroeptekenpictogram moeten worden gebruikt, dat rood moet worden als er een fout optreedt en dat er geen pictogram en groene tekst mogen worden weergegeven als de bewerking slaagt:
+Voorbeeld - Als u een bericht wilt instellen dat een lettertype van tien punten vet wordt gebruikt, hebt u een regelhoogte van 25 pixels en een opvulling van 20 pixels aan de linkerkant. Gebruik ook een uitroeptekenpictogram, rode tekst als er een fout optreedt en geen pictogram en groene tekst als dit is gelukt:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogerrormessage[state="verifyerror"] { 

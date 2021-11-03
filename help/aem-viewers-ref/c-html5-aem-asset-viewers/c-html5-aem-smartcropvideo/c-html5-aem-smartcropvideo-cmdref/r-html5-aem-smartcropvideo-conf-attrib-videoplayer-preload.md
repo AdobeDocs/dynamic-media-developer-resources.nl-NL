@@ -1,13 +1,13 @@
 ---
+title: SmartCropVideoPlayer.preload
 description: Geeft aan of de viewer begint met het laden van video-inhoud voordat het afspelen wordt gestart.
 solution: Experience Manager
-title: SmartCropVideoPlayer.preload
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: cee887f6-bbd9-46dd-aa41-03493596fcf4
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '117'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Geeft aan of de viewer begint met het laden van video-inhoud voordat het afspele
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Indien ingesteld op <span class="codeph"> 1 </span> de video wordt meteen gedownload nadat het element is ingesteld; anders, begint preload slechts nadat het playback door de eindgebruiker of een API vraag in werking wordt gesteld. </p> <p>Indien ingesteld op <span class="codeph"> 0 </span> bepaalde functies werken mogelijk pas nadat het afspelen is gestart; met name wordt het videoframe niet bijgewerkt door de zoekbewerking. Als de posterafbeelding is uitgeschakeld, wordt de viewer weergegeven als een leeg gebied in plaats van als het eerste videoframe. </p> <p>Houd er rekening mee dat het uitschakelen van het vooraf laden van video kan worden genegeerd in bepaalde versies van Internet Explorer 11 en Edge browsers. </p> </td> 
+   <td colname="col2"> <p> Indien ingesteld op <span class="codeph"> 1 </span> de video wordt meteen gedownload nadat het element is ingesteld; anders, begint preload slechts nadat het playback door de eindgebruiker of een API vraag in werking wordt gesteld. </p> <p>Indien ingesteld op <span class="codeph"> 0 </span> bepaalde functies werken mogelijk pas nadat het afspelen opnieuw is gestart; met name wordt het videoframe niet bijgewerkt door de zoekbewerking. Als de posterafbeelding is uitgeschakeld, wordt de viewer weergegeven als een leeg gebied in plaats van als het eerste videoframe. </p> <p>Het uitschakelen van het vooraf laden van video kan in bepaalde versies van Internet Explorer 11 en Edge-browsers worden genegeerd. </p> </td> 
   </tr> 
  </tbody> 
 </table>

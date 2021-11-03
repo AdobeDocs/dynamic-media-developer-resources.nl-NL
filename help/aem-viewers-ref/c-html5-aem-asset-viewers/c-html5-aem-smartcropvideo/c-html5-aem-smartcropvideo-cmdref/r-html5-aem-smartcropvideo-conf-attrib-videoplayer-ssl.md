@@ -1,13 +1,13 @@
 ---
+title: SmartCropVideoPlayer.ssl
 description: Configuration attribute for Smart Crop Video Viewer.
 solution: Experience Manager
-title: SmartCropVideoPlayer.ssl
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: f7d832f3-e9b1-4161-a572-851e538bb245
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Configuration attribute for Smart Crop Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|on</span> </p> </td> 
-   <td colname="col2"> <p> Bepaalt of de video wordt geleverd via een HTTPS (Secure SSL Connection) of een onveilige verbinding (HTTP). </p> <p>Wanneer ingesteld op <span class="codeph"> auto</span> het protocol voor de levering van video wordt overgenomen van het protocol van de ingebedde webpagina. Als de webpagina via HTTPS wordt geladen, wordt de video ook via HTTPS geleverd en andersom. Wanneer de webpagina zich op HTTP bevindt, wordt de video via HTTP geleverd. </p> <p>Wanneer ingesteld op <span class="codeph"> op</span>De video wordt altijd geleverd via een beveiligde verbinding, ongeacht het protocol van de webpagina. </p> <p>Heeft alleen invloed op gepubliceerde video-oplevering en wordt genegeerd voor videovoorvertoning in de modus Auteur. </p> </td> 
+   <td colname="col2"> <p> Bepaalt of de video wordt geleverd via een HTTPS (Secure SSL Connection) of een onveilige verbinding (HTTP). </p> <p>Wanneer ingesteld op <span class="codeph"> auto</span> het protocol voor de levering van video wordt overgenomen van het protocol van de ingebedde webpagina. Als de webpagina via HTTPS wordt geladen, wordt de video ook via HTTPS geleverd en omgekeerd. Wanneer de webpagina zich op HTTP bevindt, wordt de video via HTTP geleverd. </p> <p>Wanneer ingesteld op <span class="codeph"> op</span>De video wordt altijd geleverd via een beveiligde verbinding, ongeacht het protocol van de webpagina. </p> <p>Heeft alleen invloed op gepubliceerde video-oplevering en wordt genegeerd voor videovoorvertoning in de modus Auteur. </p> </td> 
   </tr> 
  </tbody> 
 </table>

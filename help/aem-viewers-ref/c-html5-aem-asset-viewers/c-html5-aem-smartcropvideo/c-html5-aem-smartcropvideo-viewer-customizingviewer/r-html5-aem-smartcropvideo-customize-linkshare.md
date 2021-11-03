@@ -1,13 +1,13 @@
 ---
+title: Delen van koppeling
 description: Het gereedschap voor delen van koppeling bestaat uit een knop die wordt toegevoegd aan het deelvenster Sociaal delen en het modale dialoogvenster dat wordt weergegeven wanneer het gereedschap wordt geactiveerd. De positie van de knop wordt volledig beheerd met het gereedschap Sociaal delen.
 solution: Experience Manager
-title: Delen van koppeling
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: a80b47fd-0399-4d0a-8c11-cfa4acc5a713
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1374'
 ht-degree: 0%
 
 ---
@@ -162,7 +162,7 @@ De koptekst van het dialoogvenster bestaat uit een pictogram, een titeltekst en 
  </tbody> 
 </table>
 
-Het pictogram en de titeltekst worden verpakt in een extra container die wordt bestuurd met
+Het pictogram en de titeltekst worden verpakt in een extra container die met
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialogheader .s7dialogline
@@ -284,7 +284,7 @@ Knop Sluiten wordt beheerd met de volgende CSS-klassenkiezer:
 
 De knopinfo Sluiten en de titel van het dialoogvenster kunnen worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) voor meer informatie .
 
-Voorbeeld - om een dialoogvensterkoptekst in te stellen met opvulling, pictogram van 22 x 12 pixels, vetgedrukte titel van 16 punten en een knop Sluiten van 28 x 28 pixels die twee pixels van de bovenkant en twee pixels van de rechterkant van de container van het dialoogvenster zijn geplaatst:
+Voorbeeld - Een koptekst voor een dialoogvenster instellen met opvulling, een pictogram van 22 x 12 pixels en een vette titel van 16 punten. Tot slot een knop Sluiten met 28 x 28 pixels die zich twee pixels van de bovenkant en twee pixels van de rechterkant van de container van het dialoogvenster bevindt:
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialogheader { 
@@ -426,7 +426,7 @@ De knop Annuleren wordt beheerd met de volgende CSS-klassenkiezer:
 >
 >Deze knop ondersteunt de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende skins toe te passen op verschillende knoptoestanden.
 
-Bovendien hebben beide knoppen dezelfde algemene CSS-klasse die CSS-instellingen kan bevatten die hetzelfde zijn voor andere knoppen in dialoogvensters:
+Bovendien delen beide knoppen dezelfde algemene CSS-klasse die CSS-instellingen kan bevatten die hetzelfde zijn voor andere knoppen in dialoogvensters:
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialogfooter .s7button
@@ -634,7 +634,7 @@ De grootte van de tekstkopie die boven op de koppeling wordt weergegeven, wordt 
 .s7smartcropvideoviewer .s7linkdialog .s7dialoginputwide
 ```
 
-**CSS-eigenschappen van het invoerbrede veld van het dialoogvenster**
+**CSS-eigenschappen van het invoerveld van het dialoogvenster**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 

@@ -1,13 +1,13 @@
 ---
+title: Delen insluiten
 description: Het gereedschap Delen insluiten bestaat uit een knop die wordt toegevoegd aan het deelvenster Delen via sociale media en het modale dialoogvenster dat wordt weergegeven wanneer het gereedschap wordt geactiveerd. De positie van de knop wordt volledig beheerd met het gereedschap Sociaal delen.
 solution: Experience Manager
-title: Delen insluiten
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: e29a81b8-67f3-4367-b21c-d5902420bc85
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '2580'
+source-wordcount: '2590'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Het is mogelijk de knop uit het deelvenster Sociaal delen te verwijderen door de
 
 De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) voor meer informatie .
 
-Voorbeeld - voor het instellen van een knop voor insluiten van een gedeelde afbeelding van 28 x 28 pixels en voor het weergeven van een andere afbeelding voor elk van de vier verschillende knopstatussen:
+Voorbeeld - Een knop Delen insluiten van 28 x 28 pixels instellen en een andere afbeelding weergeven voor elk van de vier verschillende knopstatussen:
 
 ```
 .s7smartcropvideoviewer .s7embedshare { 
@@ -162,7 +162,7 @@ De koptekst van het dialoogvenster bestaat uit een pictogram, een titeltekst en 
  </tbody> 
 </table>
 
-Het pictogram en de titeltekst worden verpakt in een extra container die wordt bestuurd met
+Het pictogram en de titeltekst worden verpakt in een extra container die met
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogheader .s7dialogline
@@ -284,7 +284,7 @@ Knop Sluiten wordt beheerd met de volgende CSS-klassenkiezer:
 
 De knopinfo Sluiten en de titel van het dialoogvenster kunnen worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) voor meer informatie .
 
-Voorbeeld - om een dialoogkoptekst in te stellen met opvulling, een pictogram van 24 x 14 pixels, een vette titel van 16 punten en een knop die 28 x 28 pixels sluit, op twee pixels van de bovenkant en op twee pixels van de rechterkant van de dialoogcontainer:
+Voorbeeld - Een dialoogvensterkoptekst instellen met opvulling, een pictogram van 24 x 14 pixels, een vette 16-punts titel en een knop Sluiten van 28 x 28 pixels. Tot slot kunt u de achtergrondafbeelding plaatsen op twee pixels van de bovenkant en twee pixels van de rechterkant van de container van het dialoogvenster:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogheader { 
@@ -426,7 +426,7 @@ De knop Annuleren wordt beheerd met de volgende CSS-klassenkiezer:
 >
 >De knop Annuleren ondersteunt de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende skins toe te passen op verschillende knoptoestanden.
 
-Bovendien hebben beide knoppen dezelfde algemene CSS-klasse die CSS-instellingen kan bevatten die hetzelfde zijn voor andere knoppen in dialoogvensters:
+Bovendien delen beide knoppen dezelfde algemene CSS-klasse die CSS-instellingen kan bevatten die hetzelfde zijn voor andere knoppen in dialoogvensters:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogfooter .s7button
@@ -579,7 +579,7 @@ Als de hoogte van deze container groter lijkt te zijn dan het gebied van het hoo
  </tbody> 
 </table>
 
-Voorbeeld - als u formulierinhoud wilt instellen met tien pixelopvulling:
+Voorbeeld - Formulierinhoud instellen op tien pixelopvulling:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogbody { 
@@ -636,7 +636,7 @@ De grootte van de tekstkopie die boven op de insluitcode wordt weergegeven, word
 .s7smartcropvideoviewer .s7embeddialog .s7dialoginputwide
 ```
 
-**CSS-eigenschappen van het invoerbrede veld van het dialoogvenster**
+**CSS-eigenschappen van het invoerveld van het dialoogvenster**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
@@ -712,7 +712,7 @@ De eigenlijke ingesloten codetekst wordt beheerd met de volgende CSS-klassenkiez
  </tbody> 
 </table>
 
-Voorbeeld - Insluitcode instellen voor gebruik `break-word` tekstterugloop:
+Voorbeeld: de ingesloten code instellen voor gebruik `break-word` tekstterugloop:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogmessage { 
@@ -720,7 +720,7 @@ Voorbeeld - Insluitcode instellen voor gebruik `break-word` tekstterugloop:
 }
 ```
 
-Label en vervolgkeuzelijst voor insluitgrootte bevinden zich onder in het dialoogvenster en worden in een container geplaatst die wordt beheerd met de volgende CSS-klassenkiezer:
+Label en vervolgkeuzelijst voor insluitgrootte bevinden zich onder in het dialoogvenster en worden geplaatst in een container die wordt beheerd met de volgende CSS-klassenkiezer:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogembedsizepanel
@@ -794,7 +794,7 @@ De breedte van de keuzelijst met insluitgrootte wordt bepaald door de volgende C
 
 >[!NOTE]
 >
->De keuzelijst met invoervak ondersteunt de `expanded` kenmerkkiezer met mogelijke waarden voor `true` en `false`. `true` wordt gebruikt wanneer in een keuzelijst met invoervak een van de vooraf gedefinieerde insluitgrootten wordt weergegeven. Dit betekent dat alle beschikbare breedte in beslag moet worden genomen. `false` wordt gebruikt wanneer de optie voor aangepaste grootte is geselecteerd in de keuzelijst met invoervak, zodat deze kleiner wordt zodat ruimte beschikbaar is voor invoervelden voor aangepaste breedte en hoogte.
+>De keuzelijst met invoervak ondersteunt de `expanded` kenmerkkiezer met mogelijke waarden voor `true` en `false`. De `true` Deze waarde wordt gebruikt wanneer in een keuzelijst met invoervak een van de vooraf gedefinieerde insluitgrootten wordt weergegeven. De waarde neemt dus alle beschikbare breedte in beslag. De `false` Deze waarde wordt gebruikt wanneer de optie Aangepaste grootte is geselecteerd in de keuzelijst met invoervak. De waarde moet daarom worden verkleind zodat ruimte beschikbaar is voor invoervelden voor aangepaste breedte en hoogte.
 
 Voorbeeld - om het invoervak Grootte insluiten in te stellen op 300 pixels breed bij het weergeven van een vooraf gedefinieerd item en op 110 pixels breed bij het weergeven van een aangepaste grootte:
 
@@ -892,7 +892,7 @@ Voorbeeld - om een &quot;drop-down&quot;knoop aan 28 x 28 pixel te plaatsen en e
 }
 ```
 
-Het deelvenster met de lijst met insluitgrootten die wordt weergegeven wanneer de keuzelijst met invoervak wordt geopend, wordt beheerd met de volgende CSS-klassenkiezer:
+Het deelvenster met de lijst met insluitgrootten die wordt weergegeven wanneer de keuzelijst met invoervak wordt geopend, wordt bestuurd met de volgende CSS-klassenkiezer:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7comboboxdropdown
@@ -983,7 +983,7 @@ Voorbeeld - om het pictogram van het vinkje aan 25 x 25 pixel te plaatsen:
 }
 ```
 
-Als de optie Aangepaste grootte is geselecteerd in de keuzelijst Grootte insluiten, worden rechts in het dialoogvenster twee extra invoervelden weergegeven waarmee de gebruiker een aangepaste insluitgrootte kan invoeren. Deze velden worden verpakt in een container die wordt beheerd met de volgende CSS-klassenkiezer:
+Als de optie Aangepaste grootte is geselecteerd in de keuzelijst Insluitgrootte, worden rechts in het dialoogvenster twee extra invoervelden weergegeven waarmee de gebruiker een aangepaste insluitgrootte kan invoeren. Deze velden worden verpakt in een container die wordt beheerd met de volgende CSS-klassenkiezer:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogcustomsizepanel
@@ -1037,7 +1037,7 @@ Elk invoerveld met een aangepaste grootte wordt verpakt in een container die een
  </tbody> 
 </table>
 
-Voorbeeld - als u wilt dat de invoervelden voor aangepaste grootten een grijze rand, marge, opvulling van één pixel hebben en een breedte van 70 pixels hebben:
+Voorbeeld - als u de invoervelden voor aangepaste grootten wilt instellen op een grijze rand, marge, opvulling en een breedte van 70 pixels:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogcustomsize { 

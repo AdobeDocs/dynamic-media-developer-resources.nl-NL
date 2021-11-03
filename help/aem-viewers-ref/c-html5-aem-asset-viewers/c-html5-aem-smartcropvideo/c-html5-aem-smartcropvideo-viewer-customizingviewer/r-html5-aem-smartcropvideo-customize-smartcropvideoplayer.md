@@ -1,11 +1,11 @@
 ---
+title: Videospeler
 description: De videospeler voor slimme uitsnijdingen is het rechthoekige gebied waar de video-inhoud wordt weergegeven in de viewer.
 solution: Experience Manager
-title: Videospeler
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 2741821f-78fe-44d4-8604-fee10086e0a0
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%
@@ -78,7 +78,7 @@ Gesloten bijschriften worden in een interne container in de slimme-uitsnijdvideo
  </tbody> 
 </table>
 
-Voorbeeld - Een gesloten bijschrifttekst instellen op 14 pixels, lichtgrijs, Arial, op een halftransparante zwarte achtergrond:
+Voorbeeld - Als u een Closed Caption-tekst wilt instellen op 14 pixels, lichtgrijs, Arial®, op een halftransparante zwarte achtergrond:
 
 ```
 .s7smartcropvideoviewer .s7smartcropvideoplayer .s7caption { 

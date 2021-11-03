@@ -1,11 +1,11 @@
 ---
+title: Command reference - Configuration attributes
 description: Documentatie met configuratiekenmerken voor SmartCrop Video Viewer.
 solution: Experience Manager
-title: Command reference - Configuration attributes
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 5992e5cd-7783-408e-a23f-fdcc3a3d6b69
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
@@ -24,7 +24,7 @@ U kunt voor bepaalde configuratieopdrachten de klassenaam of de instantienaam op
 [SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer].playback
 ```
 
-Dit betekent dat deze opdracht als volgt wordt gebruikt:
+Dit betekent dat deze opdracht op de volgende manier wordt gebruikt:
 
 * `playback` (korte syntaxis)
 * `SmartCropVideoPlayer.playback` (gekwalificeerd met naam van componentklasse)

@@ -1,13 +1,13 @@
 ---
+title: Knopinfo
 description: Op desktopsystemen hebben bepaalde gebruikersinterface-elementen, zoals knoppen, knopinfo die wordt weergegeven wanneer de muisaanwijzer wordt bewogen.
 solution: Experience Manager
-title: Knopinfo
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 706b27a1-99e8-4596-8bd1-af4455501e29
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -63,9 +63,9 @@ De vormgeving van knopinfo wordt bepaald door de volgende CSS-klassenkiezer:
 
 >[!NOTE]
 >
->Als knopinfo-stijlen worden aangepast vanuit de ingesloten webpagina, moeten alle eigenschappen `!IMPORTANT` regel. Dit is niet nodig als knopinfo wordt aangepast in het CSS-bestand van de viewer.
+>Als knopinfo-stijlen worden aangepast vanuit de ingesloten webpagina, moeten alle eigenschappen een `!IMPORTANT` regel. Deze regel is niet nodig als knopinfo wordt aangepast in het CSS-bestand van de viewer.
 
-Voorbeeld - voor het instellen van knopinfo met een grijze rand met een hoekstraal van 3 px, een zwarte achtergrond en witte tekst geschreven met Arial, grootte van 11 pixels:
+Voorbeeld - voor het instellen van knopinfo met een grijze rand met een hoekstraal van 3 pixels, een zwarte achtergrond en witte tekst geschreven met Arial®, grootte van 11 pixels:
 
 ```
 .s7tooltip { 

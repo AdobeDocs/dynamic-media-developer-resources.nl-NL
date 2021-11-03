@@ -1,13 +1,13 @@
 ---
+title: Hoofdviewergebied
 description: Het hoofdweergavegebied wordt ingenomen door de video voor slimme uitsnijden. Deze wordt meestal ingesteld op het beschikbare apparaatscherm wanneer geen grootte is opgegeven.
 solution: Experience Manager
-title: Hoofdviewergebied
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 7d1379c1-7746-4f61-92df-e8ac4ab7d506
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---

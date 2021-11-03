@@ -1,11 +1,11 @@
 ---
+title: setParams
 description: JavaScript API-referentie voor SmartCrop Video Viewer.
 solution: Experience Manager
-title: setParams
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 76bad894-bfb8-4d79-b3ff-c2497c68e5e8
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
@@ -18,7 +18,7 @@ JavaScript API-referentie voor SmartCrop Video Viewer.
 
 ` setParams( *`param`*)`
 
-Stelt een of meer parameters in op een bepaalde waarde. De syntaxis van het methodeargument is identiek aan een URL vraagkoord. Namelijk vertegenwoordigt het naam=waarde paren die met worden gescheiden `&`. Net als in een queryreeks worden namen en waarden met UTF8-codering voor percentages gebruikt. Voordat u belt `init()`, moet deze parameter worden aangeroepen.
+Stelt een of meer parameters in op een bepaalde waarde. De syntaxis van het methodeargument is identiek aan een URL vraagkoord. Namelijk vertegenwoordigt het naam=waarde paren die met worden gescheiden `&`. Het zelfde als in een vraagkoord, zijn de namen, en de waarden percenten-gecodeerd gebruikend UTF8. Voordat u belt `init()`, moet deze parameter worden aangeroepen.
 
 Deze methode is optioneel als de configuratiegegevens van de viewer worden doorgegeven met `config` JSON-object naar de constructor.
 

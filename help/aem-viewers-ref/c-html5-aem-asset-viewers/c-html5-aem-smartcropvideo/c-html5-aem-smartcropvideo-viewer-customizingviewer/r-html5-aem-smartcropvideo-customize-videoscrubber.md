@@ -1,13 +1,13 @@
 ---
+title: Videoscrubber
 description: De videoscrubber is de horizontale schuifregelaar waarmee een gebruiker dynamisch naar een willekeurige tijdpositie in de video kan zoeken die momenteel wordt afgespeeld.
 solution: Experience Manager
-title: Videoscrubber
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 404e39d4-565e-4dde-b2bd-fa83a895d001
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ De videoscrubber is de horizontale schuifregelaar waarmee een gebruiker dynamisc
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-De scrubber &#39;knob&#39; beweegt zich ook terwijl de video speelt om op de huidige tijdpositie van de video tijdens playback te wijzen. De videoscrubber neemt altijd de volledige breedte van de controlebar. Het is mogelijk om de videoscrubber van een skin te voorzien. de hoogte en de verticale positie van het object wijzigen met CSS.
+De scrubber &#39;knob&#39; beweegt zich ook terwijl de video speelt om op de huidige tijdpositie van de video tijdens playback te wijzen. De videoscrubber neemt altijd de volledige breedte van de controlebar. Het is mogelijk de skin van de videoscrubber te wijzigen, de hoogte en de verticale positie te wijzigen met CSS.
 
 De algemene weergave van de videoscrubber wordt beheerd met de volgende CSS-klassenkiezer:
 
@@ -158,7 +158,7 @@ De volgende CSS-klassenkiezer bestuurt de zeepbel waarin de tijd wordt afgespeel
 
 De knopinfo voor het gereedschap Video scrubber kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) voor meer informatie .
 
-**Voorbeeld** - Een videoviewer instellen met een videoscrubber met aangepaste trackkleuren die 10 pixels hoog zijn en die 10 pixels en 35 pixels van de boven- en linkerrand van de besturingsbalk zijn geplaatst.
+**Voorbeeld** - Een videoviewer instellen met een videoscrubber met aangepaste trackkleuren van tien pixels hoog. En tenslotte, laat het 10 pixel en 35 pixel van de bovenkant en linkerranden van de controlebar worden geplaatst.
 
 ```
 .s7smartcropvideoviewer .s7videoscrubber  { 

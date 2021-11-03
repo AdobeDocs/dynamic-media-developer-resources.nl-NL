@@ -1,13 +1,13 @@
 ---
+title: SmartCropVideoPlayer.playback
 description: Configuration attribute for Smart Crop Video Viewer.
 solution: Experience Manager
-title: SmartCropVideoPlayer.playback
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 54a10b30-ebf5-4f1e-aa4a-b09055453c4e
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Configuration attribute for Smart Crop Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|progressief</span> </p> </td> 
-   <td colname="col2"> <p> Hiermee stelt u het type afspelen in dat door de viewer wordt gebruikt. Wanneer <span class="codeph"> auto</span> is ingesteld, gebruikt de viewer op de meeste desktopbrowsers en op alle iOS-apparaten HTML5-streaming video in HLS-indeling. Het komt terug bij progressieve HTML5 playback op bepaalde systemen zoals ouder Internet Explorer en Android. </p> <p>Indien <span class="codeph"> progressief</span> is opgegeven, is de viewer alleen afhankelijk van het afspelen van HTML5 als dit native wordt ondersteund door browsers en wordt de video progressief afgespeeld op alle systemen. </p> <p>Raadpleeg de gebruikershandleiding van de SDK van de viewer voor meer informatie over de afspeelselectie in de modi voor automatisch en progressief afspelen. </p> </td> 
+   <td colname="col2"> <p> Hiermee stelt u het type afspelen in dat door de viewer wordt gebruikt. Wanneer <span class="codeph"> auto</span> is ingesteld, gebruikt de viewer op de meeste desktopbrowsers en op alle iOS-apparaten HTML5-streaming video in HLS-indeling. De functie wordt teruggezet naar progressieve HTML5-weergave op bepaalde systemen, zoals oudere Internet Explorer en Android™. </p> <p>Indien <span class="codeph"> progressief</span> is opgegeven, is de viewer alleen afhankelijk van het afspelen van HTML5 als dit native wordt ondersteund door browsers en wordt de video progressief afgespeeld op alle systemen. </p> <p>Raadpleeg de gebruikershandleiding van de SDK van de viewer voor meer informatie over de afspeelselectie in de modus Automatisch en progressief. </p> </td> 
   </tr> 
  </tbody> 
 </table>

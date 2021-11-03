@@ -1,13 +1,13 @@
 ---
+title: Knop Afspelen/Pauzeren
 description: De knop Afspelen/pauzeren zorgt ervoor dat de videospeler voor SmartCrop de video-inhoud afspeelt of pauzeert wanneer de gebruiker erop klikt.
 solution: Experience Manager
-title: Knop Afspelen/Pauzeren
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 174ddf15-e6be-4a65-8c82-5c9edf061a6c
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -69,13 +69,13 @@ De volgende CSS-klassenkiezer bepaalt de vormgeving van de knop:
 >
 >Deze knop ondersteunt beide `state`, `selected`, en `replay` kenmerkkiezers, die kunnen worden gebruikt om verschillende skins toe te passen op verschillende knoptoestanden. Met name: `selected='true'` komt overeen met de status &quot;play&quot; en `selected='false'` komt overeen met de pauzestatus;
 >
->`replay='true'` wordt ingesteld wanneer de video het einde heeft bereikt en wanneer u op de knop klikt, wordt het afspelen vanaf het begin opnieuw gestart.
+>De kenmerkenkiezer `replay='true'` wordt ingesteld wanneer de video het einde heeft bereikt en als u de knop selecteert, wordt het afspelen vanaf het begin opnieuw gestart.
 
 De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) voor meer informatie .
 
 ## Voorbeeld {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Een afspeel-/pauzeknop van 32 x 32 pixels instellen; de knop bevindt zich op zes pixels van de boven- en linkerrand van de besturingsbalk en geeft een andere afbeelding weer voor elk van de vier verschillende knopstatussen, indien geselecteerd of niet geselecteerd.
+Een knop Afspelen/Pauzeren van 32 x 32 pixels instellen. Laat het zich op zes pixels van de boven- en linkerrand van de besturingsbalk bevinden. En ten slotte geeft u een andere afbeelding weer voor elk van de vier verschillende knoptoestanden wanneer deze is geselecteerd of niet.
 
 ```
 .s7smartcropvideoviewer .s7playpausebutton { 

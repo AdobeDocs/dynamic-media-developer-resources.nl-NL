@@ -1,21 +1,21 @@
 ---
+title: De Smart Crop Video Viewer aanpassen
 description: De Smart Crop Video Viewer aanpassen
 keywords: responsief
 solution: Experience Manager
-title: De Smart Crop Video Viewer aanpassen
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 90dc93ee-fdd0-41c9-9eef-4c9952198356
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '1265'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
 
 # De Smart Crop Video Viewer aanpassen{#customizing-smartcrop-video-viewer}
 
-Alle visuele aanpassingen en de meeste gedragsaanpassingen worden gedaan door een aangepaste CSS te creëren.
+Alle visuele aanpassingen en de meeste gedragsaanpassingen worden gedaan door douanecCSS te creëren.
 
 De voorgestelde workflow is om het standaard CSS-bestand voor de juiste viewer te gebruiken, het naar een andere locatie te kopiëren, het aan te passen en de locatie van het aangepaste bestand op te geven in het `style=` gebruiken.
 
@@ -27,7 +27,7 @@ Aangepast CSS-bestand moet dezelfde klassedeclaraties bevatten als het standaard
 
 Een andere manier om aangepaste CSS-regels te bieden, is door ingesloten stijlen rechtstreeks op de webpagina of in een van gekoppelde externe CSS-regels te gebruiken.
 
-Wanneer u aangepaste CSS maakt, moet u niet vergeten dat de viewer `.s7smartcropvideoviewer` -klasse aan het DOM-containerelement. Als u een extern CSS-bestand gebruikt dat samen met de `style=` gebruiken `.s7smartcropvideoviewer` klasse als bovenliggende klasse in afstammende kiezer voor uw CSS-regels. Als u stijlen op de webpagina insluit, kwalificeert u deze kiezer bovendien als volgt met een id van het DOM-containerelement:
+Wanneer u aangepaste CSS maakt, moet u niet vergeten dat de viewer hieraan toewijzingen toekent `.s7smartcropvideoviewer` -klasse aan het DOM-containerelement. Als u een extern CSS-bestand gebruikt dat samen met de `style=` gebruiken `.s7smartcropvideoviewer` klasse als bovenliggende klasse in afstammende kiezer voor uw CSS-regels. Als u stijlen op de webpagina insluit, kwalificeert u deze kiezer ook als volgt met een id van het DOM-containerelement:
 
 `#<containerId>.s7smartcropvideoviewer`
 
@@ -35,17 +35,17 @@ Wanneer u aangepaste CSS maakt, moet u niet vergeten dat de viewer `.s7smartcrop
 
 Het is mogelijk verschillende apparaten in CSS als doel in te stellen om de weergave van uw inhoud te wijzigen, afhankelijk van het apparaat van de gebruiker. Dit geldt onder andere voor verschillende elementgrootten van de gebruikersinterface en de resolutie van illustraties.
 
-De viewer ondersteunt twee mechanismen voor het maken van responsieve, ontworpen CSS: CSS-markeringen en standaard CSS-mediaquery&#39;s. U kunt deze onafhankelijk of samen gebruiken.
+De viewer ondersteunt twee mechanismen voor het maken van responsieve, ontworpen CSS: CSS-markeringen en standaard CSS-mediaquery&#39;s. U kunt deze twee mechanismen onafhankelijk of samen gebruiken.
 
 **CSS-markeringen**
 
-Voor hulp bij het maken van responsieve, ontworpen CSS, ondersteunt de viewer CSS-markeringen die speciale CSS-klassen dynamisch worden toegewezen aan het containerelement op het hoogste niveau, gebaseerd op de viewergrootte tijdens runtime en het invoertype dat op het huidige apparaat wordt gebruikt.
+Om responsieve, ontworpen CSS te helpen maken, ondersteunt de viewer CSS-markeringen die speciale CSS-klassen dynamisch zijn toegewezen aan het containerelement op het hoogste niveau. Deze toewijzing is gebaseerd op de grootte van de uitvoeringsviewer en het invoertype dat op het huidige apparaat wordt gebruikt.
 
-De eerste groep CSS-markeringen bevat `.s7size_large`, `.s7size_medium`, en `.s7size_small` klassen. Ze worden toegepast op basis van het runtimegebied van de viewercontainer. Dit betekent dat het viewergebied gelijk is aan of groter is dan het formaat van een algemene desktopmonitor `.s7size_large` wordt gebruikt; als het gebied zich in de buurt van een gebruikelijke tabletvorm bevindt `.s7size_medium` is toegewezen. Voor gebieden die vergelijkbaar zijn met mobiele-telefoonschermen `.s7size_small` is ingesteld. Het belangrijkste doel van deze CSS-markeringen is het maken van verschillende lay-outs voor de gebruikersinterface voor verschillende schermen en viewerformaten.
+De eerste groep CSS-markeringen bevat `.s7size_large`, `.s7size_medium`, en `.s7size_small` klassen. Ze worden toegepast op basis van het runtimegebied van de viewercontainer. Dit betekent dat het viewergebied gelijk is aan of groter is dan het formaat van een algemene desktopmonitor `.s7size_large` wordt gebruikt; als het gebied zich in de buurt van een gebruikelijke tabletvorm bevindt `.s7size_medium` is toegewezen. Voor gebieden die vergelijkbaar zijn met mobiele-telefoonschermen, `.s7size_small` is ingesteld. Het belangrijkste doel van deze CSS-markeringen is het maken van verschillende lay-outs voor de gebruikersinterface voor verschillende schermen en viewerformaten.
 
-De tweede groep CSS-markeringen bevat `.s7mouseinput` en `.s7touchinput`. `.s7touchinput` wordt ingesteld als het huidige apparaat aanraakinvoermogelijkheden heeft; anders, `.s7mouseinput` wordt gebruikt. Deze markeringen zijn bedoeld om invoerelementen voor de gebruikersinterface te maken met verschillende schermgrootten voor verschillende invoertypen, omdat aanraakinvoer doorgaans grotere elementen vereist. Als het apparaat zowel muisinvoer- als aanraakmogelijkheden heeft, `.s7touchinput` wordt ingesteld en de viewer een aanraakvriendelijke gebruikersinterface weergeeft.
+De tweede groep CSS-markeringen bevat `.s7mouseinput` en `.s7touchinput`. De markering `.s7touchinput` wordt ingesteld als het huidige apparaat aanraakinvoermogelijkheden heeft; anders, `.s7mouseinput` wordt gebruikt. Deze markeringen zijn bedoeld om invoerelementen voor de gebruikersinterface te maken met verschillende schermgrootten voor verschillende invoertypen, omdat aanraakinvoer doorgaans grotere elementen vereist. Als het apparaat zowel muisinvoer- als aanraakmogelijkheden heeft, `.s7touchinput` wordt ingesteld en de viewer een aanraakvriendelijke gebruikersinterface weergeeft.
 
-In het volgende voorbeeld-CSS wordt de grootte van de afspeel-/pauzeknop ingesteld op 28 x 28 pixels op systemen met muisinvoer en op 56 x 56 pixels op aanraakapparaten. Bovendien wordt de knop volledig verborgen als de viewergrootte erg klein wordt:
+In het volgende voorbeeld-CSS wordt de grootte van de afspeel-/pauzeknop ingesteld op 28 x 28 pixels op systemen met muisinvoer en op 56 x 56 pixels op aanraakapparaten. Bovendien wordt de knop volledig verborgen als de viewergrootte klein wordt:
 
 ```
 .s7smartcropvideoviewer.s7mouseinput .s7playpausebutton { 
@@ -69,7 +69,7 @@ Gebruik CSS-mediaquery&#39;s om apparaten met een andere pixeldichtheid als doel
 }
 ```
 
-Het gebruik van CSS-markeertekens is de meest flexibele manier om responsieve, ontworpen CSS te maken, aangezien u hiermee niet alleen de schermgrootte van het apparaat maar ook de werkelijke viewergrootte als doel kunt instellen. Dit kan handig zijn voor responsieve ontwerppaginalay-outs.
+Het gebruik van CSS-markeringen is de meest flexibele manier om responsieve, ontworpen CSS samen te stellen. Met deze flexibiliteit kunt u niet alleen de schermgrootte van het apparaat als doel instellen, maar ook de werkelijke viewergrootte. Dit kan handig zijn voor responsieve ontwerppaginalay-outs.
 
 Gebruik het CSS-bestand voor de standaardviewer als voorbeeld van een CSS-markeertekenaanpak.
 
@@ -88,7 +88,7 @@ Gebruik bij toepassing op mobiele viewers vier CSS-mediaquery&#39;s die in uw CS
    }
    ```
 
-1. Bevat alleen regels die specifiek zijn voor tablets met schermen met hoge resolutie.
+1. Bevat alleen specifieke regels voor tablets met schermen met hoge resolutie.
 
    ```
    @media only screen and (max-device-width:13.5in) and (max-device-height:13.5in) and (max-device-width:799px) and (-webkit-min-device-pixel-ratio:1.5), 
@@ -105,7 +105,7 @@ Gebruik bij toepassing op mobiele viewers vier CSS-mediaquery&#39;s die in uw CS
    }
    ```
 
-1. Bevat alleen regels die specifiek zijn voor mobiele telefoons met schermen met hoge resolutie.
+1. Bevat alleen specifieke regels voor mobiele telefoons met schermen met hoge resolutie.
 
    ```
    @media only screen and (max-device-width:9in) and (max-device-height:9in) and (-webkit-min-device-pixel-ratio: 1.5), 
@@ -169,7 +169,7 @@ background-image:url(images/v2/ReplayButton_disabled.png);
 
 Het nadeel van deze aanpak is dat de eindgebruiker een flikkerende of vertraagde reactie van de gebruikersinterface ervaart wanneer het element voor het eerst wordt gebruikt. Deze handeling treedt op omdat de afbeeldingsillustratie voor de nieuwe elementstatus nog niet is gedownload. Deze aanpak kan ook een enigszins negatief effect hebben op de prestaties als gevolg van een toename van het aantal HTTP-aanroepen naar de server.
 
-CSS-sprites is een andere aanpak waarbij afbeeldingsillustraties voor alle elementstatussen worden gecombineerd in één PNG-bestand dat een &#39;sprite&#39; wordt genoemd. Zulk &quot;SPRITE&quot;heeft alle visuele staten voor het bepaalde die element één na een andere wordt geplaatst. Bij het opmaken van een gebruikersinterface-element met sprites wordt naar dezelfde sprite-afbeelding verwezen voor alle verschillende statussen in de CSS. Ook de `background-position` eigenschap wordt voor elke status gebruikt om aan te geven welk deel van de &quot;sprite&quot;-afbeelding wordt gebruikt. U kunt een sprite-afbeelding op elke gewenste manier structureren. De kijkers hebben het gewoonlijk verticaal gestapeld. Hieronder ziet u een op sprites gebaseerd voorbeeld waarin u dezelfde schermvullende knop van bovenaf opmaakt:
+CSS-sprites is een andere aanpak waarbij afbeeldingsillustraties voor alle elementstatussen worden gecombineerd in één PNG-bestand dat een &#39;sprite&#39; wordt genoemd. Zulk &quot;SPRITE&quot;heeft alle visuele staten voor het bepaalde die element één na een andere wordt geplaatst. Wanneer het stileren van een gebruikersinterface element met sprites, wordt het zelfde SPRITE beeld van verwijzingen voorzien voor alle verschillende staten in CSS. Ook de `background-position` eigenschap wordt voor elke status gebruikt om aan te geven welk deel van de &quot;sprite&quot;-afbeelding wordt gebruikt. U kunt een sprite-afbeelding op elke gewenste manier structureren. De kijkers hebben het gewoonlijk verticaal gestapeld. Hieronder ziet u een op sprites gebaseerd voorbeeld waarin u dezelfde schermvullende knop van bovenaf opmaakt:
 
 ```
 .s7smartcropvideoviewer .s7fullscreenbutton[state][selected]{ 
@@ -203,7 +203,7 @@ background-position: -0px -1120px;
 
 ## Algemene opmaakopmerkingen en advies {#section-097418bd618740bba36352629e4d88e1}
 
-* Alle paden naar externe elementen in CSS worden omgezet op de CSS-locatie en niet op de locatie van de HTML-pagina van de viewer. Houd rekening met deze regel wanneer u de standaard-CSS naar een andere locatie kopieert. Kopieer de standaardelementen of werk paden bij in de aangepaste CSS.
+* Alle paden naar externe elementen in CSS worden omgezet op de CSS-locatie en niet op de locatie van de HTML-pagina van de viewer. Onthoud deze regel wanneer u de standaard-CSS naar een andere locatie kopieert. Kopieer de standaardelementen of werk paden bij in de aangepaste CSS.
 * De voorkeursindeling voor bitmapillustraties is PNG.
 * Bitmapillustraties worden aan de hand van de `background-image` eigenschap.
 * De `width` en `height` eigenschappen van een interface-element definiëren de logische grootte ervan. De grootte van de bitmap die wordt doorgegeven aan `background-image` heeft geen invloed op de logische grootte.

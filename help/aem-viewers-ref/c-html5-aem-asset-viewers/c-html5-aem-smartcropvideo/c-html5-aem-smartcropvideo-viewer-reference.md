@@ -1,12 +1,12 @@
 ---
+title: Video over slim uitsnijden
 description: De Smart Crop Video Viewer is een videospeler die streaming en progressieve video afspeelt die zijn gecodeerd in de H.264-indeling en die ondersteuning biedt voor slimme uitsnijdingen. Het wordt geleverd door Dynamic Media Classic of Adobe Experience Manager met Dynamic Media.
 keywords: responsief
 solution: Experience Manager
-title: Video over slim uitsnijden
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: fa9727dc-f9e2-4d91-b500-445693dfb6aa
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '2410'
 ht-degree: 0%
@@ -41,7 +41,16 @@ Zie [Command reference common to all viewers - Configuration attributes](../../r
 
 ## Interactie met de SmartCrop Video-viewer {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
-De Smart Crop Video Viewer biedt een set standaardbesturingselementen voor de gebruikersinterface voor het afspelen van video, zoals een afspeel-/pauzeknop, een videobubbel met een scrubber, een indicator voor de afspeeltijd/totale tijd, volumeregeling, een knop voor volledig scherm en een schakeloptie voor een gesloten bijschrift. Al deze controles worden gegroepeerd in een controlebar bij de bodem van het gebruikersinterface van de kijker.
+De Smart Crop Video Viewer biedt een set standaardbesturingselementen voor de gebruikersinterface voor het afspelen van video, zoals:
+
+* Een knop Afspelen/Pauzeren.
+* Videoscrubber-videotijdballon.
+* Tijdindicator voor afspeeltijd/totale tijd.
+* Volumeregeling.
+* De knop Volledig scherm.
+* Schakelen tussen Closed Caption-codes.
+
+Al deze controles worden gegroepeerd in een controlebar bij de bodem van het gebruikersinterface van de kijker.
 
 Op aanraakapparaten is volumeregeling verborgen in de gebruikersinterface, omdat het alleen mogelijk is het volume te regelen met de hardwareknoppen.
 

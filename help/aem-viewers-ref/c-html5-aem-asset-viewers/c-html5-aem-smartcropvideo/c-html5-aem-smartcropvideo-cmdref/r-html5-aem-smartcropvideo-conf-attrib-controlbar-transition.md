@@ -1,11 +1,11 @@
 ---
+title: ControlBar.transition
 description: Configuration attribute for Smart Crop Video Viewer.
 solution: Experience Manager
-title: ControlBar.transition
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 133717c7-38d9-47b6-86bb-e23ebd8f147a
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Configuration attribute for Smart Crop Video Viewer.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide</span> </span> </p> </td> 
-   <td colname="col2"> <p>Hiermee bepaalt u de tijd in seconden tussen de laatste muis-/aanraakgebeurtenis die door de besturingsbalk wordt geregistreerd en de tijdbalk. </p> <p> Indien ingesteld op <span class="codeph"> -1</span> de component activeert nooit het automatisch verborgen effect en blijft altijd zichtbaar op het scherm. </p> </td> 
+   <td colname="col2"> <p>Hiermee bepaalt u de tijd in seconden tussen de laatste muis-/aanraakgebeurtenis die door de besturingsbalk wordt geregistreerd en de tijdbalk. </p> <p> Indien ingesteld op <span class="codeph"> -1</span>De component activeert echter nooit het effect Automatisch verbergen en blijft altijd zichtbaar op het scherm. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duur</span> </span> </p> </td> 

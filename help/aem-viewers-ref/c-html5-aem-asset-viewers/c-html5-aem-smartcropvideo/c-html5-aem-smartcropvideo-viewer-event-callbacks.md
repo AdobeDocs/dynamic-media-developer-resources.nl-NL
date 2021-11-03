@@ -1,13 +1,13 @@
 ---
+title: Gebeurteniscallbacks
 description: Gebeurteniscallbacks
 solution: Experience Manager
-title: Gebeurteniscallbacks
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 2493208b-9030-49fa-b1fd-2f2bd524bce6
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,6 @@ Tot de ondersteunde viewergebeurtenissen behoren:
    * `objID {String}` momenteel niet gebruikt.
    * `compClass {String}` momenteel niet gebruikt.
    * `instName {String}` een instantienaam van de Viewer SDK-component die de gebeurtenis heeft geactiveerd.
-   * `timeStamp {Number}` tijdstempel van de gebeurtenis.
    * `eventInfo {String}` gebeurtenislading.
 
 Zie ook [SmartCropVideoViewer]
