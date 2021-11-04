@@ -5,9 +5,9 @@ title: ImageMapEffect.rollover
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 3d5eb17d-668a-4ad8-9f84-5684941d450d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '79'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p>Hiermee geeft u aan wanneer het deelvenster Info moet worden weergegeven. </p> <p>Als ingesteld op <span class="codeph"> 1</span>, wordt het deelvenster Info weergegeven wanneer de muis het gebied met afbeeldingskaart binnengaat (als de afbeelding met hyperlinks niet leeg is, <span class="codeph"> rollover_key</span> kenmerk). </p> <p>Indien ingesteld op <span class="codeph"> 0</span> info panel wordt geactiveerd wanneer op de afbeeldingskaart wordt geklikt (als de afbeeldingskaart een niet-lege <span class="codeph"> rollover_key</span> en lege <span class="codeph"> href</span> kenmerken heeft). </p> <p> Genegeerd op aanraakapparaten, inclusief desktopsystemen met aanraakbediening, en wordt automatisch ingesteld op <span class="codeph"> 0</span>. </p> </td> 
+   <td colname="col2"> <p>Hiermee geeft u aan wanneer het deelvenster Info moet worden weergegeven. </p> <p>Indien ingesteld op <span class="codeph"> 1</span>, wordt het deelvenster Info weergegeven wanneer de muis het gebied met de afbeeldingskaart binnenkomt (voor het geval de afbeelding met hyperlinks niet leeg is), <span class="codeph"> rollover_key</span> kenmerk). </p> <p>Indien ingesteld op <span class="codeph"> 0</span> Het deelvenster Info wordt geactiveerd wanneer de afbeelding met hyperlinks wordt geselecteerd (als de afbeelding met hyperlinks een niet-leeg formaat heeft) <span class="codeph"> rollover_key</span> en leeg <span class="codeph"> href</span> kenmerken). </p> <p> Wordt genegeerd op aanraakapparaten, zoals desktopsystemen met aanraakbediening, en wordt automatisch ingesteld op <span class="codeph"> 0</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

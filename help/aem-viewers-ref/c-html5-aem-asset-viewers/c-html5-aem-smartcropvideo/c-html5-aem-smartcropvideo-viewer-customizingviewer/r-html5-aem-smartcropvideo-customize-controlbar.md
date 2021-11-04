@@ -2,10 +2,10 @@
 title: Besturingsbalk
 description: De besturingsbalk is het rechthoekige gebied dat alle UI-besturingselementen bevat die beschikbaar zijn voor de viewer voor SmartCrop Video, zoals de knop Afspelen/Pauzeren en de volumeregelaars.
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 2239307a-4a05-4392-b35c-a64ea6c938ad
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 0%
