@@ -1,19 +1,19 @@
 ---
-title: Video over slim uitsnijden
+title: Smart Crop Video Viewer
 description: De Smart Crop Video Viewer is een videospeler die streaming en progressieve video afspeelt die zijn gecodeerd in de H.264-indeling en die ondersteuning biedt voor slimme uitsnijdingen. Het wordt geleverd door Dynamic Media Classic of Adobe Experience Manager met Dynamic Media.
 keywords: responsief
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: null
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: bcd7f90ea2dbb77b300407adeb7725990d9c9a12
 workflow-type: tm+mt
-source-wordcount: '2410'
+source-wordcount: '2413'
 ht-degree: 0%
 
 ---
 
-# Video{#video}
+# Video over slim uitsnijden{#smart-crop-video}
 
 De Smart Crop Video Viewer is een videospeler die streaming en progressieve video afspeelt die zijn gecodeerd in de H.264-indeling en die ondersteuning biedt voor slimme uitsnijdingen. Het wordt geleverd van Dynamic Media Classic of Experience Manager met Dynamic Media.
 
