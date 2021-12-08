@@ -4,8 +4,7 @@ description: De videospeler voor slimme uitsnijdingen is het rechthoekige gebied
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%
@@ -39,7 +38,7 @@ De volgende CSS-klassenkiezer bepaalt de weergave van de slimme-uitsnijdvideospe
 
 Het foutbericht dat wordt weergegeven als het systeem de video niet kan afspelen, kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) voor meer informatie .
 
-Voorbeeld - Een viewer voor slimme-uitsnijdvideo instellen met een grootte van 512 x 288 pixels voor de slimme-uitsnijdvideospeler.
+Voorbeeld - Een viewer voor slimme-uitsnijdvideo instellen met de grootte van de slimme-uitsnijdvideospeler ingesteld op 512 x 288 pixels.
 
 ```
 .s7smartcropvideoviewer .s7smartcropvideoplayer{ 
