@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 3c451400-4f44-4887-a045-46b064570b01
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 6744aa987cd3d29ffd2e6959c0694c3561100fcf
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -33,15 +33,15 @@ Houd er bij het maken van aangepaste CSS rekening mee dat de viewer `.s7ecatalog
 
 ## Responsieve CSS maken {#section-c1e74f5114ad418884ca1c95f5ea5b63}
 
-Het is mogelijk om verschillende apparaten en insluitingsgrootten in CSS als doel in te stellen om de weergave van uw inhoud te wijzigen, afhankelijk van het apparaat van de gebruiker of een bepaalde webpaginalay-out. Dit geldt onder andere voor verschillende webpaginalay-outs, de grootte van gebruikersinterface-elementen en de resolutie van illustraties.
+Het is mogelijk om verschillende apparaten en insluitingsgrootten in CSS als doel in te stellen om de weergave van uw inhoud te wijzigen, afhankelijk van het apparaat van de gebruiker of een bepaalde webpaginalay-out. Dit doel omvat, maar is niet beperkt tot, verschillende webpaginalay-outs, de grootte van gebruikersinterface-elementen en de resolutie van illustraties.
 
 De viewer ondersteunt twee methoden voor het maken van responsieve, ontworpen CSS: CSS-markeringen en standaard CSS-mediaquery&#39;s. U kunt deze methoden afzonderlijk of samen gebruiken.
 
 **CSS-markeringen**
 
-Om responsieve, ontworpen CSS te helpen maken, ondersteunt de viewer CSS-markeringen die speciale CSS-klassen dynamisch zijn toegewezen aan het containerelement op het hoogste niveau. De viewercontainer is gebaseerd op de viewergrootte bij uitvoering en het invoertype dat op het huidige apparaat wordt gebruikt.
+De viewer ondersteunt CSS-markeringen om responsieve, ontworpen CSS te helpen maken. Speciale CSS-klassen worden dynamisch toegewezen aan het viewercontainerelement op het hoogste niveau op basis van de viewergrootte bij uitvoering en het invoertype dat op het huidige apparaat wordt gebruikt.
 
-De eerste groep CSS-markeringen bevat `.s7size_large`, `.s7size_medium`, en `.s7size_small` klassen. Ze worden toegepast op basis van het runtimegebied van de viewercontainer. Dit betekent dat het viewergebied gelijk is aan of groter is dan het formaat van een algemene desktopmonitor `.s7size_large` wordt gebruikt; als het gebied zich in de buurt van een gebruikelijke tabletvorm bevindt `.s7size_medium` is toegewezen. Voor gebieden die vergelijkbaar zijn met mobiele-telefoonschermen, wordt de markering `.s7size_small` is ingesteld. Het belangrijkste doel van deze CSS-markeringen is het maken van verschillende lay-outs voor de gebruikersinterface voor verschillende schermen en viewerformaten.
+De eerste groep CSS-markeringen bevat `.s7size_large`, `.s7size_medium`, en `.s7size_small` klassen. Ze worden toegepast op basis van het runtimegebied van de viewercontainer. Dit betekent dat het viewergebied gelijk is aan of groter is dan het formaat van een algemene desktopmonitor `.s7size_large` wordt gebruikt; als het gebied zich in de buurt van een gebruikelijke tabletvorm bevindt `.s7size_medium` is toegewezen. Voor gebieden die vergelijkbaar zijn met mobiele-telefoonschermen, `.s7size_small` is ingesteld. Het belangrijkste doel van deze CSS-markeringen is het maken van verschillende lay-outs voor de gebruikersinterface voor verschillende schermen en viewerformaten.
 
 De tweede groep CSS-markeertekens bevat `.s7mouseinput` en `.s7touchinput`. De markering `.s7touchinput` wordt ingesteld als het huidige apparaat aanraakinvoermogelijkheden heeft; anders, `.s7mouseinput` wordt gebruikt. Deze markeringen zijn bedoeld om invoerelementen voor de gebruikersinterface te maken met verschillende schermgrootten voor verschillende invoertypen, omdat aanraakinvoer doorgaans grotere elementen vereist. Als het apparaat zowel muisinvoer- als aanraakmogelijkheden heeft, `.s7touchinput` wordt ingesteld en de viewer een aanraakvriendelijke gebruikersinterface weergeeft.
 
@@ -69,7 +69,7 @@ Gebruik CSS-mediaquery&#39;s om apparaten met een andere pixeldichtheid als doel
 }
 ```
 
-Het gebruik van CSS-markeringen is de meest flexibele manier om responsieve, ontworpen CSS samen te stellen. De reden hiervoor is dat u hiermee niet alleen de schermgrootte van het apparaat maar ook de daadwerkelijke viewergrootte kunt instellen. Dit is handig bij responsieve, ontworpen paginalay-outs.
+Het gebruik van CSS-markeringen is de meest flexibele manier om responsieve, ontworpen CSS samen te stellen. Hiermee kunt u niet alleen de schermgrootte van het apparaat instellen, maar ook de daadwerkelijke viewergrootte. Dit kan handig zijn voor responsieve, ontworpen paginalay-outs.
 
 Gebruik het CSS-bestand voor de standaardviewer als voorbeeld van een CSS-markeertekenaanpak.
 
