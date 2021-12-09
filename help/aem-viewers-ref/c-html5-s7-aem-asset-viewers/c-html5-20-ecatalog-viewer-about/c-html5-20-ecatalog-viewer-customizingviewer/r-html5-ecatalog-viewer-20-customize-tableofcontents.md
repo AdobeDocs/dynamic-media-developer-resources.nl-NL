@@ -1,20 +1,20 @@
 ---
-description: De inhoudsopgave is een knop in de hoofdbesturingsbalk. Als u deze optie inschakelt, wordt een vervolgkeuzelijst weergegeven met een lijst met pagina-indexen en -labels.
-solution: Experience Manager
 title: Inhoudsopgave
+description: De inhoudsopgave is een knop die in de hoofdbesturingsbalk is geplaatst. Als u deze optie inschakelt, wordt een vervolgkeuzelijst weergegeven met een lijst met pagina-indexen en -labels.
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 9b61e269-201d-4083-9c47-0b73d55aa6ed
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1061'
 ht-degree: 0%
 
 ---
 
 # Inhoudsopgave{#table-of-contents}
 
-De inhoudsopgave is een knop in de hoofdbesturingsbalk. Als u deze optie inschakelt, wordt een vervolgkeuzelijst weergegeven met een lijst met pagina-indexen en -labels.
+De inhoudsopgave is een knop die in de hoofdbesturingsbalk is geplaatst. Als u deze optie inschakelt, wordt een vervolgkeuzelijst weergegeven met een lijst met pagina-indexen en -labels.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -31,27 +31,27 @@ De positie en grootte van de knop met de inhoudsopgave in de gebruikersinterface
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
    <td colname="col2"> <p> De verschuiving vanaf de bovenkant van de besturingsbalk. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
-   <td colname="col2"> <p> De afstand aan de volgende knoop op de linkerzijde, of de linkerkant van de controlebar als dit de eerste knoop in een rij is. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col2"> <p> De afstand aan de volgende knoop op de linkerzijde, of de linkerkant van de controlebar, als het de eerste knoop in een rij is. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p> De breedte van de knop voor de inhoudsopgave. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p> De hoogte van de knop voor de inhoudsopgave. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
    <td colname="col2"> <p> De afbeelding die voor een bepaalde knopstatus wordt weergegeven. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie ook <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -59,11 +59,11 @@ De positie en grootte van de knop met de inhoudsopgave in de gebruikersinterface
 
 >[!NOTE]
 >
->Deze knoop steunt `state` attributenselecteur, die kan worden gebruikt om verschillende huiden op verschillende knoopstaten toe te passen.
+>Deze knop ondersteunt de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende skins toe te passen op verschillende knoptoestanden.
 
-De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie.
+De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie .
 
-Voorbeeld - opstelling een knoop van de inhoudstafel die 4 pixel van de bodem en 43 pixel van de linkerzijde van de belangrijkste controlebar wordt geplaatst; De grootte is 28 x 28 pixels en er wordt een andere afbeelding weergegeven voor elk van de vier verschillende knopstatussen:
+Voorbeeld - Aan opstelling een knoop van de inhoudstafel die 4 pixel van de bodem en 43 pixel van de linkerzijde van de belangrijkste controlebar wordt geplaatst. De grootte is 28 x 28 pixels en er wordt een andere afbeelding weergegeven voor elk van de vier verschillende knopstatussen:
 
 ```
 .s7ecatalogviewer .s7tableofcontents { 
@@ -96,15 +96,15 @@ De vormgeving van het vervolgkeuzemenu wordt bepaald door de volgende CSS-klasse
 <table id="table_A18B6978EC304C378F5FE92DD44D138D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Achtergrondkleur van vervolgkeuzelijst. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge </span> </p> </td> 
    <td colname="col2"> <p> Interne verschuiving tussen de deelvenstergrenzen en de inhoud. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> box-shadow  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> box-shadow </span> </p> </td> 
    <td colname="col2"> <p> Slagschaduw rond het deelvenster. </p> </td> 
   </tr> 
  </tbody> 
@@ -124,7 +124,7 @@ Voorbeeld - stel een vervolgkeuzelijst in met een halftransparante zwarte achter
 }
 ```
 
-De vormgeving van de afzonderlijke items wordt bepaald door de volgende CSS-klassenkiezer:
+De vormgeving van het afzonderlijke item wordt bepaald door de volgende CSS-klassenkiezer:
 
 ```
  .s7ecatalogviewer .s7tableofcontents .s7panel .s7item
@@ -135,19 +135,19 @@ De vormgeving van de afzonderlijke items wordt bepaald door de volgende CSS-klas
 <table id="table_86E777A5851F47D6A49D966E24A9A6CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Fontnaam. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekengrootte  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekengrootte </span> </p> </td> 
    <td colname="col2"> <p>Tekengrootte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van item. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
    <td colname="col2"> <p>Interne opvulling. </p> </td> 
   </tr> 
  </tbody> 
@@ -155,9 +155,9 @@ De vormgeving van de afzonderlijke items wordt bepaald door de volgende CSS-klas
 
 >[!NOTE]
 >
->Het vervolgkeuzelijstitem ondersteunt de kenmerkenkiezer `state`, die kan worden gebruikt om verschillende skins toe te passen op de aanwijsstatus en de status van geselecteerde items.
+>Vervolgkeuzelijstitem ondersteunt de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende skins toe te passen op de aanwijsstatus en de geselecteerde itemstatus.
 
-Voorbeeld: stel een vervolgkeuzelijst in met een Helvetica-lettertype van 14 pixels en een hoogte van 19 pixels. Een item heeft een donkergrijze achtergrond op de muisaanwijzer en een lichtgrijze achtergrond als dit is geselecteerd:
+Voorbeeld: stel een vervolgkeuzelijst in met een Helvetica®-lettertype van 14 pixels en een hoogte van 19 pixels. Een item heeft een donkergrijze achtergrond op de muisaanwijzer en een lichtgrijze achtergrond als dit is geselecteerd:
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7panel .s7item { 
@@ -184,15 +184,15 @@ Een element dat de pagina-index weergeeft, wordt beheerd met de volgende CSS-kla
 <table id="table_FAA5072E4AAC48F4BE00B05D87FD9827"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> min-width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> min-width </span> </p> </td> 
    <td colname="col2"> <p> Minimale breedte van element. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> max. breedte  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> max. breedte </span> </p> </td> 
    <td colname="col2"> <p> Maximale breedte van element. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvulling rechts  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvulling rechts </span> </p> </td> 
    <td colname="col2"> <p> Afstand tussen de pagina-index en het paginalabel. </p> </td> 
   </tr> 
  </tbody> 
@@ -200,7 +200,7 @@ Een element dat de pagina-index weergeeft, wordt beheerd met de volgende CSS-kla
 
 >[!NOTE]
 >
->Het is mogelijk de pagina-index volledig te verbergen door `display:none` in te stellen voor de CSS-klasse `s7index`.
+>Het is mogelijk de pagina-index volledig te verbergen door de instelling `display:none` voor de `s7index` CSS-klasse.
 
 Voorbeeld 1 - stel een pagina-index in met een minimale breedte van 40 pixels, een maximale breedte van 70 pixels en een marge van 5 pixels aan de rechterkant:
 
@@ -231,11 +231,11 @@ Het paginalabel wordt beheerd met de volgende CSS-klassenkiezer:
 <table id="table_A42E372D931D4F04855EE5AB5530CB12"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> min-width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> min-width </span> </p> </td> 
    <td colname="col2"> <p> Minimale breedte van element. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> max. breedte  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> max. breedte </span> </p> </td> 
    <td colname="col2"> <p> Maximale breedte van element. </p> </td> 
   </tr> 
  </tbody> 
@@ -250,7 +250,7 @@ max-width: 240px;
 }
 ```
 
-Als er meer items zijn dan verticaal in het vervolgkeuzevenster kunnen worden geplaatst en het systeem een bureaublad is, wordt er aan de rechterkant van het deelvenster een verticale schuifbalk weergegeven. De vormgeving van het gebied van de schuifbalk wordt bepaald door de volgende CSS-klassenkiezer:
+Als er meer items zijn dan verticaal in het vervolgkeuzemenu passen en het systeem een bureaublad is, wordt er aan de rechterkant van het deelvenster een verticale schuifbalk weergegeven. De vormgeving van het gebied van de schuifbalk wordt bepaald door de volgende CSS-klassenkiezer:
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar
@@ -261,19 +261,19 @@ Als er meer items zijn dan verticaal in het vervolgkeuzevenster kunnen worden ge
 <table id="table_D34A63AAE6324699ABDCC08355D33035"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p> De breedte van de schuifbalk. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> De verticale verschuiving van de schuifbalk ten opzichte van de bovenkant van het deelvenstergebied. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
    <td colname="col2"> <p> De verticale verschuiving van de schuifbalk ten opzichte van de onderkant van het deelvenstergebied. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
    <td colname="col2"> <p> De verschuiving van de horizontale schuifbalk ten opzichte van de rechterrand van het deelvenstergebied. </p> </td> 
   </tr> 
  </tbody> 
@@ -301,11 +301,11 @@ Schuifbalktrack is het gebied tussen de bovenste en onderste schuifknop. De comp
 <table id="table_E49EE04B3FF64AB2948E7C09DF3EA1B7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>De spoorbreedte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>De achtergrondkleur van de track. </p> </td> 
   </tr> 
  </tbody> 
@@ -320,7 +320,7 @@ Voorbeeld - stel een schuifbalkvak in met een breedte van 28 pixels en een halft
 }
 ```
 
-Het schuifbalkblokje beweegt verticaal binnen het gebied van het schuifvak. De verticale positie wordt bepaald door de componentlogica. De hoogte van het blokje verandert echter niet dynamisch, afhankelijk van de hoeveelheid inhoud. U kunt de duimhoogte en andere aspecten met de volgende CSS klassenselecteur vormen:
+Het schuifbalkblokje verplaatst zich verticaal binnen het gebied van het schuifvak. De verticale positie wordt bepaald door de componentlogica. De hoogte van het blokje verandert echter niet dynamisch, afhankelijk van de hoeveelheid inhoud. U kunt de duimhoogte en andere aspecten met de volgende CSS klassenselecteur vormen:
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar .s7scrollthumb
@@ -331,27 +331,27 @@ Het schuifbalkblokje beweegt verticaal binnen het gebied van het schuifvak. De v
 <table id="table_D8DFBC2419BD4AB3B4892AC7B599C70A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>De breedte van het blokje. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>De hoogte van de duim. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen boven  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen boven </span> </p> </td> 
    <td colname="col2"> <p> De verticale opvulling tussen de bovenkant van de track. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen-onder  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen-onder </span> </p> </td> 
    <td colname="col2"> <p>De verticale opvulling tussen de onderkant van de track. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
    <td colname="col2"> <p> De afbeelding die voor een bepaalde duimstatus wordt weergegeven. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie ook <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -359,7 +359,7 @@ Het schuifbalkblokje beweegt verticaal binnen het gebied van het schuifvak. De v
 
 >[!NOTE]
 >
->De duim steunt `state` attributenselecteur, die kan worden gebruikt om verschillende huiden op `up`, `down`, `over`, en `disabled` duimstaten toe te passen.
+>Miniatuur ondersteunt de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende skins toe te passen op de `up`, `down`, `over`, en `disabled` duimstaten.
 
 Voorbeeld: stel een schuifbalkblokje in van 28 x 45 pixels, met een marge van 10 pixels boven en onder en met verschillende illustraties voor elk frame:
 
@@ -396,26 +396,26 @@ De vormgeving van de bovenste en onderste schuifknoppen wordt bepaald door de vo
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar .s7scrolldownbutton
 ```
 
-Het is niet mogelijk om de rolknopen te plaatsen gebruikend CSS `top`, `left`, `bottom`, en `right` eigenschappen; in plaats daarvan worden ze automatisch door de viewerlogica geplaatst.
+Het is niet mogelijk om de schuifknoppen met CSS te positioneren `top`, `left`, `bottom`, en `right` eigenschappen; in plaats daarvan worden ze automatisch door de viewerlogica geplaatst.
 
 **CSS-eigenschappen van de knop Omhoog schuiven en Omlaag schuiven**
 
 <table id="table_89561098E43D44C2865267687BBF38F4"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>De knopbreedte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>De knophoogte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
    <td colname="col2"> <p> De afbeelding die voor een bepaalde knopstatus wordt weergegeven. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie ook <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -423,9 +423,9 @@ Het is niet mogelijk om de rolknopen te plaatsen gebruikend CSS `top`, `left`, `
 
 >[!NOTE]
 >
->Button ondersteunt de `state`-kenmerkkiezer, die kan worden gebruikt om verschillende skins toe te passen op de knopstatussen `up`, `down`, `over` en `disabled`.
+>De knop ondersteunt de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende skins toe te passen op de `up`, `down`, `over`, en `disabled` knopstatussen.
 
-De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie.
+De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie .
 
 Voorbeeld: stel schuifknoppen in met een resolutie van 28 x 32 pixels en een andere illustratie voor elke status:
 

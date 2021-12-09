@@ -1,11 +1,11 @@
 ---
+title: setAsset
 description: JavaScript API-referentie voor Video Viewer.
 solution: Experience Manager
-title: setAsset
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 04b6bf4d-5c42-49e9-b585-de75ebf6c89f
-source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
@@ -21,13 +21,13 @@ JavaScript API-referentie voor Video Viewer.
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> element  </span> </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="codeph"> Tekenreeks </span>} nieuwe element-id of expliciete afbeeldingsset met optionele opties voor Beeldrendering toegevoegd na <span class="codeph"> ? </span>. </p> <p> Afbeeldingen die gebruikmaken van IR (Image Rendering) of UGC (Door de gebruiker gegenereerde inhoud) worden niet ondersteund door deze viewer. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> element </span> </span> </p> </td> 
+   <td colname="col2"> <p>{ <span class="codeph"> String </span>} nieuwe element-id of expliciete afbeeldingsset met optionele opties voor afbeeldingsservers toegevoegd na <span class="codeph"> ? </span>. </p> <p> Afbeeldingen die gebruikmaken van IR (Image Rendering) of UGC (Door de gebruiker gegenereerde inhoud) worden niet ondersteund door deze viewer. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Hiermee wordt een nieuw element ingesteld. U kunt deze parameter op elk ogenblik roepen, of vóór of na `init()`. Als deze wordt aangeroepen na `init()`, wisselt de viewer het element tijdens runtime om.
+Hiermee wordt een nieuw element ingesteld. U kunt deze parameter op elk gewenst moment vóór of na `init()`. Als het wordt aangeroepen na `init()`, wordt het element tijdens runtime vervangen door de viewer.
 
 Zie ook [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 

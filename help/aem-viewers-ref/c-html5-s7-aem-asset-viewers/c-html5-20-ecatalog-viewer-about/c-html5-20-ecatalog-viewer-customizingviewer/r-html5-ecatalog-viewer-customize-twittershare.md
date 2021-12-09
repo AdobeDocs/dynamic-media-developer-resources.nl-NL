@@ -1,11 +1,11 @@
 ---
+title: Twitter share
 description: Het twitter-gereedschap Delen bestaat uit een knop die is toegevoegd aan het deelvenster Delen via sociale media. Wanneer de knop is geselecteerd, wordt de gebruiker omgeleid naar een dialoogvenster voor delen dat wordt geleverd door een sociale service. De positie van de knop wordt volledig beheerd met het gereedschap Sociaal delen.
 solution: Experience Manager
-title: Twitter share
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 31b6f36d-e4bc-44e9-88a1-6aff6f2254ef
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Het is mogelijk de knop uit het deelvenster Sociaal delen te verwijderen door de
 
 De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie .
 
-Voorbeeld - voor het instellen van een Twitter-deelknop van 28 x 28 pixels en het weergeven van een andere afbeelding voor elk van de vier verschillende knopstatussen:
+Voorbeeld - Een Twitter-deelknop van 28 x 28 pixels instellen en een andere afbeelding voor elk van de vier verschillende knopstatussen weergeven:
 
 ```
 .s7ecatalogviewer .s7twittershare { 
