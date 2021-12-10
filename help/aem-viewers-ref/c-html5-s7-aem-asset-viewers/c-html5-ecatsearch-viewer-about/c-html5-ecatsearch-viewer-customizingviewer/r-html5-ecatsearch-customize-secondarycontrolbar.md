@@ -1,13 +1,13 @@
 ---
+title: Secundaire besturingsbalk
 description: De secundaire besturingsbalk is het rechthoekige gebied met de knoppen Eerste en Laatste pagina en een pagina-indicator wanneer deze beschikbaar worden gemaakt in CSS.
 solution: Experience Manager
-title: Secundaire besturingsbalk
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: e5d6abe8-0ae9-4ccd-b311-5895e09310b2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 De secundaire besturingsbalk is het rechthoekige gebied met de knoppen Eerste en Laatste pagina en een pagina-indicator wanneer deze beschikbaar worden gemaakt in CSS.
 
-Standaard wordt de presentatie alleen weergegeven op mobiele telefoons en bevindt deze zich onder aan de viewer. De viewerbreedte neemt altijd de volledige beschikbare viewerbreedte in beslag. Het is mogelijk de kleur, hoogte en verticale positie ervan te wijzigen met CSS ten opzichte van de viewercontainer.
+Standaard wordt de presentatie alleen weergegeven op mobiele telefoons, onder aan de viewer. De viewerbreedte neemt altijd de volledige beschikbare viewerbreedte in beslag. Het is mogelijk de kleur, hoogte en verticale positie ervan te wijzigen met CSS ten opzichte van de viewercontainer.
 
 De weergave van de secundaire besturingsbalk wordt bepaald door de volgende CSS-klassenkiezer:
 
@@ -31,19 +31,19 @@ De weergave van de secundaire besturingsbalk wordt bepaald door de volgende CSS-
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Positie boven aan de viewer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
    <td colname="col2"> <p>Positie onder aan de viewer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>De hoogte van de hoofdbesturingsbalk. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>De achtergrondkleur van de secundaire besturingsbalk. </p> </td> 
   </tr> 
  </tbody> 

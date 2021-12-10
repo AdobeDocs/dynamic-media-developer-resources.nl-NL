@@ -1,11 +1,11 @@
 ---
+title: Twitter share
 description: Het twitter-gereedschap Delen bestaat uit een knop die is toegevoegd aan het deelvenster Delen via sociale media. Wanneer de knop is geselecteerd, wordt de gebruiker omgeleid naar een dialoogvenster voor delen dat wordt geleverd door een sociale service. De positie van de knop wordt volledig beheerd met het gereedschap Sociaal delen.
 solution: Experience Manager
-title: Twitter share
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: c7e84d40-a779-4747-b79a-3a40a622a445
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 0%

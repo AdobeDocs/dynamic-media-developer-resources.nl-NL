@@ -1,14 +1,14 @@
 ---
+title: ZoomView.reset
 description: ZoomView.reset
 solution: Experience Manager
-title: ZoomView.reset
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoomen
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 89407f4d-ff83-46e5-89f0-4fc3547c700b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 4%
+source-wordcount: '40'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Hiermee stelt u de weergavepoort opnieuw in wanneer het frame (de afbeelding) wordt gewijzigd. Indien ingesteld op <span class="codeph"> 0</span> blijft de huidige viewport zo goed mogelijk passend, terwijl de hoogte-breedteverhouding van de nieuw ingestelde afbeelding behouden blijft. </p> </td> 
+   <td colname="col2"> <p> Hiermee stelt u de weergavepoort opnieuw in wanneer het frame (de afbeelding) wordt gewijzigd. Indien ingesteld op <span class="codeph"> 0</span>, blijft de huidige weergavepoort zo goed mogelijk passen, terwijl de hoogte-breedteverhouding van de nieuwe afbeelding behouden blijft. </p> </td> 
   </tr> 
  </tbody> 
 </table>

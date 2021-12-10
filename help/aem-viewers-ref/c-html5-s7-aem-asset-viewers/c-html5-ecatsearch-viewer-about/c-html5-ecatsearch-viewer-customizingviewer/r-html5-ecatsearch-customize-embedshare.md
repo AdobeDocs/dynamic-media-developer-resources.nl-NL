@@ -1,13 +1,13 @@
 ---
+title: Delen insluiten
 description: Het gereedschap Delen insluiten bestaat uit een knop die wordt toegevoegd aan het deelvenster Delen via sociale media en het modale dialoogvenster dat wordt weergegeven wanneer het gereedschap wordt geactiveerd. De positie van de knop wordt volledig beheerd met het gereedschap Sociaal delen.
 solution: Experience Manager
-title: Delen insluiten
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 82117b6e-c0be-4538-90ab-8def7521b49c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '2608'
+source-wordcount: '2606'
 ht-degree: 0%
 
 ---
@@ -33,15 +33,15 @@ De vormgeving van de knop Delen insluiten wordt bepaald door de volgende CSS-kla
    <td colname="col2"> <p>Knopbreedte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
    <td colname="col2"> <p> De afbeelding die voor een bepaalde knopstatus wordt weergegeven. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie ook <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -49,13 +49,13 @@ De vormgeving van de knop Delen insluiten wordt bepaald door de volgende CSS-kla
 
 >[!NOTE]
 >
->Deze knoop steunt `state` attributenselecteur, die kan worden gebruikt om verschillende huiden op verschillende knoopstaten toe te passen.
+>Deze knop ondersteunt de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende skins toe te passen op verschillende knoptoestanden.
 
-Het is mogelijk om de knop uit het deelvenster Sociaal delen te verwijderen door de CSS-eigenschap `display:none` in te stellen op de CSS-klasse.
+Het is mogelijk de knop uit het deelvenster Sociaal delen te verwijderen door de instelling `display:none` CSS-eigenschap in de CSS-klasse.
 
-De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie.
+De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie .
 
-Voorbeeld - voor het instellen van een knop voor insluiten van een gedeelde afbeelding van 28 x 28 pixels en voor het weergeven van een andere afbeelding voor elk van de vier verschillende knopstatussen:
+Voorbeeld - Een knop Delen insluiten van 28 x 28 pixels instellen en een andere afbeelding weergeven voor elk van de vier verschillende knopstatussen:
 
 ```
 .s7ecatalogsearchviewer .s7embedshare { 
@@ -87,11 +87,11 @@ De achtergrondoverlay die de webpagina bedekt wanneer het dialoogvenster actief 
 <table id="table_DB4183CE8061425084D495A355A941F8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> dekking  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> dekking </span> </p> </td> 
    <td colname="col2"> <p>Dekking van achtergrondbedekking. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Kleur van achtergrondbedekking. </p> </td> 
   </tr> 
  </tbody> 
@@ -117,19 +117,19 @@ Standaard wordt het modale dialoogvenster gecentreerd weergegeven op het scherm 
 <table id="table_E31711ADF4C7446182549244362199A3"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
    <td colname="col2"> <p> De randstraal van het dialoogvenster voor het geval dat het dialoogvenster niet de volledige browser neemt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Achtergrondkleur van dialoogvenster. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>De instelling moet ongedaan worden gemaakt of op 100% worden ingesteld. In dat geval gebruikt het dialoogvenster het volledige browservenster (deze modus heeft de voorkeur op aanraakapparaten). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>De instelling moet ongedaan worden gemaakt of op 100% worden ingesteld. In dat geval gebruikt het dialoogvenster het volledige browservenster (deze modus heeft de voorkeur op aanraakapparaten). </p> </td> 
   </tr> 
  </tbody> 
@@ -156,13 +156,13 @@ De koptekst van het dialoogvenster bestaat uit een pictogram, een titeltekst en 
 <table id="table_E407E844C9BD4B5DA8B5BBDE0554F9CA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
    <td colname="col2"> <p> Opvulling binnen voor koptekstinhoud. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Het pictogram en de titeltekst worden verpakt in een extra container die wordt bestuurd met
+Het pictogram en de titeltekst worden verpakt in een extra container die met
 
 ```
 .s7ecatalogsearchviewer .s7embeddialog .s7dialogheader .s7dialogline
@@ -173,7 +173,7 @@ Het pictogram en de titeltekst worden verpakt in een extra container die wordt b
 <table id="table_5B03CF843F0D4B1295A3FC1EB50C56F1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
    <td colname="col2"> <p> Opvulling binnen voor het koptekstpictogram en de titel </p> </td> 
   </tr> 
  </tbody> 
@@ -190,19 +190,19 @@ Koptekstpictogram wordt bestuurd met de volgende CSS-klassenkiezer
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Pictogrambreedte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte pictogram. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
    <td colname="col2"> <p>Pictogramafbeelding. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie ook <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -219,19 +219,19 @@ De titel van de koptekst wordt bestuurd met de volgende CSS-klassenkiezer:
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p>Fontgewicht. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekengrootte  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekengrootte </span> </p> </td> 
    <td colname="col2"> <p>Hoogte lettertype. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Lettertypefamilie. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
    <td colname="col2"> <p>Opvulling van interne tekst. </p> </td> 
   </tr> 
  </tbody> 
@@ -248,31 +248,31 @@ Knop Sluiten wordt beheerd met de volgende CSS-klassenkiezer:
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> Verticale knoppositie ten opzichte van koptekstcontainer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
    <td colname="col2"> <p> Horizontale knoppositie ten opzichte van koptekstcontainer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Knopbreedte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
    <td colname="col2"> <p>Opvulling binnen van knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
    <td colname="col2"> <p>Knopafbeelding voor elk frame. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie ook <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -280,11 +280,11 @@ Knop Sluiten wordt beheerd met de volgende CSS-klassenkiezer:
 
 >[!NOTE]
 >
->Deze knoop steunt `state` attributenselecteur, die kan worden gebruikt om verschillende huiden op verschillende knoopstaten toe te passen.
+>Deze knop ondersteunt de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende skins toe te passen op verschillende knoptoestanden.
 
-De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie.
+De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie .
 
-Voorbeeld - om een dialoogkoptekst in te stellen met opvulling, een pictogram van 24 x 14 pixels, een vette titel van 16 punten en een knop die 28 x 28 pixels sluit, op twee pixels van de bovenkant en op twee pixels van de rechterkant van de dialoogcontainer:
+Voorbeeld - Een dialoogkoptekst instellen met opvulling, een pictogram van 24 x 14 pixels en een vette titel van 16 punten. Tot slot een knop Sluiten van 28 x 28 pixels, geplaatst op twee pixels van de bovenkant en twee pixels van de rechterkant van de dialoogcontainer:
 
 ```
 .s7ecatalogsearchviewer .s7embeddialog .s7dialogheader { 
@@ -335,7 +335,7 @@ Dialoogvoettekst bestaat uit de knop Annuleren. De voettekstcontainer wordt best
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p> Rand die u kunt gebruiken om de voettekst visueel te scheiden van de rest van het dialoogvenster. </p> </td> 
   </tr> 
  </tbody> 
@@ -352,7 +352,7 @@ De voettekst heeft een binnencontainer waarmee de knop behouden blijft. De klass
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
    <td colname="col2"> <p> Opvulling binnen tussen de voettekst en de knop. </p> </td> 
   </tr> 
  </tbody> 
@@ -371,19 +371,19 @@ De knop is alleen beschikbaar op desktopsystemen.
 <table id="table_021D0467632F49FEBFDF4CF96D2D67C7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Knopbreedte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> kleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kleur </span> </p> </td> 
    <td colname="col2"> <p> De tekstkleur van de knoop voor elke staat. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Achtergrondkleur van knop voor elk frame. </p> </td> 
   </tr> 
  </tbody> 
@@ -391,7 +391,7 @@ De knop is alleen beschikbaar op desktopsystemen.
 
 >[!NOTE]
 >
->De knop Alles selecteren ondersteunt de kenmerkenkiezer `state`, die kan worden gebruikt om verschillende skins toe te passen op verschillende knoptoestanden.
+>De knop Alles selecteren ondersteunt de knop `state` kenmerkenkiezer, die kan worden gebruikt om verschillende skins toe te passen op verschillende knoptoestanden.
 
 De knop Annuleren wordt beheerd met de volgende CSS-klassenkiezer:
 
@@ -404,19 +404,19 @@ De knop Annuleren wordt beheerd met de volgende CSS-klassenkiezer:
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Knopbreedte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> kleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kleur </span> </p> </td> 
    <td colname="col2"> <p> De tekstkleur van de knoop voor elke staat. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Achtergrondkleur van knop voor elk frame. </p> </td> 
   </tr> 
  </tbody> 
@@ -424,9 +424,9 @@ De knop Annuleren wordt beheerd met de volgende CSS-klassenkiezer:
 
 >[!NOTE]
 >
->Deze knoop steunt `state` attributenselecteur, die kan worden gebruikt om verschillende huiden op verschillende knoopstaten toe te passen.
+>Deze knop ondersteunt de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende skins toe te passen op verschillende knoptoestanden.
 
-Bovendien hebben beide knoppen dezelfde algemene CSS-klasse die CSS-instellingen kan bevatten die hetzelfde zijn voor andere knoppen in dialoogvensters:
+Bovendien delen beide knoppen dezelfde algemene CSS-klasse die CSS-instellingen kan bevatten die hetzelfde zijn voor andere knoppen in dialoogvensters:
 
 ```
 .s7ecatalogsearchviewer .s7embeddialog .s7dialogfooter .s7button
@@ -437,35 +437,35 @@ Bovendien hebben beide knoppen dezelfde algemene CSS-klasse die CSS-instellingen
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p>Dikte van lettertype knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekengrootte  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekengrootte </span> </p> </td> 
    <td colname="col2"> <p>Tekengrootte van knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Lettertypefamilie knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> regelhoogte  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> regelhoogte </span> </p> </td> 
    <td colname="col2"> <p> Teksthoogte in de knop. Heeft invloed op de verticale uitlijning. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> box-shadow  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> box-shadow </span> </p> </td> 
    <td colname="col2"> <p>Slagschaduw. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge-rechts  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge-rechts </span> </p> </td> 
    <td colname="col2"> <p>Marge rechterknop. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie.
+De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie .
 
-Voorbeeld - voor het instellen van een voettekst voor een dialoogvenster met een knop Annuleren van 64 x 34, een knop Alles selecteren van 82 x 34 en een tekstkleur en achtergrondkleur die voor elke knopstatus anders zijn:
+Voorbeeld - Een dialoogvenstervoettekst instellen met een knop Annuleren van 64 x 34, een knop Alles selecteren van 82 x 34 en een tekstkleur en achtergrondkleur die voor elke knoptoestand anders zijn:
 
 ```
 .s7ecatalogsearchviewer .s7embeddialog .s7dialogfooter { 
@@ -536,21 +536,21 @@ Het hoofddialoogvenster (tussen de kop- en voettekst) bevat schuifbare inhoud in
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p> De hoogte van het gebied van het hoofddialoogvenster. Deze mag alleen worden opgegeven wanneer het dialoogvenster in de bureaubladmodus werkt. Deze optie is niet van toepassing wanneer de grootte van het dialoogvenster zodanig is dat het volledige browservenster wordt ingenomen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>De achtergrondkleur van het gebied van het hoofddialoogvenster. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge </span> </p> </td> 
    <td colname="col2"> <p>Buitenmarge. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voorbeeld - als u een gebied in het hoofddialoogvenster wilt instellen op een hoogte van 300 pixels, een marge van 10 pixels en een witte achtergrond wilt gebruiken:
+Voorbeeld - Als u een gebied in het hoofddialoogvenster wilt instellen op een hoogte van 300 pixels, hebt u een marge van 10 pixels en gebruikt u een witte achtergrond:
 
 ```
 .s7ecatalogsearchviewer .s7embeddialog .s7dialogviewarea { 
@@ -573,7 +573,7 @@ Als de hoogte van deze container groter lijkt te zijn dan het gebied van het hoo
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
    <td colname="col2"> <p>Opvulling binnen. </p> </td> 
   </tr> 
  </tbody> 
@@ -600,25 +600,25 @@ Deze klasse is niet geschikt voor het bepalen van de grootte of positie van het 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p>Breedte van lettertype label. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekengrootte  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekengrootte </span> </p> </td> 
    <td colname="col2"> <p>Tekengrootte label. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Lettertypefamilie label. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> kleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kleur </span> </p> </td> 
    <td colname="col2"> <p>Labeltekstkleur. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Labels in dialoogvensters kunnen worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie.
+Labels in dialoogvensters kunnen worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie .
 
 Voorbeeld - als u alle labels wilt instellen op grijs, vet met een lettertype van negen pixels:
 
@@ -636,16 +636,16 @@ De grootte van de tekstkopie die boven op de insluitcode wordt weergegeven, word
 .s7ecatalogsearchviewer .s7embeddialog .s7dialoginputwide
 ```
 
-**CSS-eigenschappen van het invoerbrede veld van het dialoogvenster**
+**CSS-eigenschappen van het invoerveld van het dialoogvenster**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Breedte van invoerveld. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
    <td colname="col2"> <p>Opvulling binnen. </p> </td> 
   </tr> 
  </tbody> 
@@ -671,15 +671,15 @@ De insluitcode wordt ondergebracht in container en bestuurd met de volgende CSS-
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>De breedte van de container van de insluitcode. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Rand rond de insluitcodecontainer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
    <td colname="col2"> <p>Opvulling binnen. </p> </td> 
   </tr> 
  </tbody> 
@@ -706,13 +706,13 @@ De eigenlijke ingesloten codetekst wordt beheerd met de volgende CSS-klassenkiez
 <table id="table_FEEF66150C69489BB42A2408EBFCE928"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekstomloop  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekstomloop </span> </p> </td> 
    <td colname="col2"> <p>Tekstomloopstijl. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voorbeeld - voor het instellen van ingesloten code om tekstomloop `break-word` te gebruiken:
+Voorbeeld: de ingesloten code instellen voor gebruik `break-word` tekstterugloop:
 
 ```
 .s7ecatalogsearchviewer .s7embeddialog .s7dialogmessage { 
@@ -720,7 +720,7 @@ Voorbeeld - voor het instellen van ingesloten code om tekstomloop `break-word` t
 }
 ```
 
-Label en vervolgkeuzelijst voor insluitgrootte bevinden zich onder in het dialoogvenster en worden in een container geplaatst die wordt beheerd met de volgende CSS-klassenkiezer:
+Label en vervolgkeuzelijst voor insluitgrootte bevinden zich onder in het dialoogvenster en worden geplaatst in een container die wordt beheerd met de volgende CSS-klassenkiezer:
 
 ```
 .s7ecatalogsearchviewer .s7embeddialog .s7dialogembedsizepanel
@@ -731,7 +731,7 @@ Label en vervolgkeuzelijst voor insluitgrootte bevinden zich onder in het dialoo
 <table id="table_6BA2769361BA4EC4AB7D250EC9486CB2"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
    <td colname="col2"> <p>Opvulling binnen. </p> </td> 
   </tr> 
  </tbody> 
@@ -756,11 +756,11 @@ De grootte en uitlijning van het label voor de insluitgrootte worden bepaald met
 <table id="table_8E50C63C9B1349999251CDB5E5AD3D1D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vertical-align  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> vertical-align </span> </p> </td> 
    <td colname="col2"> <p>Verticale uitlijning van labels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Labelbreedte. </p> </td> 
   </tr> 
  </tbody> 
@@ -786,7 +786,7 @@ De breedte van de keuzelijst met insluitgrootte wordt bepaald door de volgende C
 <table id="table_C0FEA0C7353F40039204641BB3F1AE14"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Breedte van keuzelijst met invoervak. </p> </td> 
   </tr> 
  </tbody> 
@@ -794,7 +794,7 @@ De breedte van de keuzelijst met insluitgrootte wordt bepaald door de volgende C
 
 >[!NOTE]
 >
->De keuzelijst met invoervak ondersteunt de kenmerkenkiezer `expanded` met mogelijke waarden van `true` en `false`. `true` wordt gebruikt wanneer in een keuzelijst met invoervak een van de vooraf gedefinieerde insluitgrootten wordt weergegeven. Dit betekent dat alle beschikbare breedte in beslag moet worden genomen. `false` wordt gebruikt wanneer de optie voor aangepaste grootte is geselecteerd in de keuzelijst met invoervak, zodat deze kleiner wordt zodat ruimte beschikbaar is voor invoervelden voor aangepaste breedte en hoogte.
+>De keuzelijst met invoervak ondersteunt de `expanded` kenmerkkiezer met mogelijke waarden voor `true` en `false`. De waarde `true` wordt gebruikt wanneer in een keuzelijst met invoervak een van de vooraf gedefinieerde insluitgrootten wordt weergegeven. Dit betekent dat alle beschikbare breedte in beslag moet worden genomen. De waarde `false` wordt gebruikt wanneer de optie voor aangepaste grootte is geselecteerd in de keuzelijst met invoervak, zodat deze kleiner wordt zodat ruimte beschikbaar is voor invoervelden voor aangepaste breedte en hoogte.
 
 Voorbeeld - om het invoervak Grootte insluiten in te stellen op 300 pixels breed bij het weergeven van een vooraf gedefinieerd item en op 110 pixels breed bij het weergeven van een aangepaste grootte:
 
@@ -818,7 +818,7 @@ De hoogte van de tekst van de keuzelijst met invoervak wordt gedefinieerd door e
 <table id="table_AB60032BF337433F8455DE20AFBA29AB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Teksthoogte van keuzelijst met invoervak. </p> </td> 
   </tr> 
  </tbody> 
@@ -843,27 +843,27 @@ De keuzelijst met invoervak heeft rechts een &#39;vervolgkeuzelijst&#39; en word
 <table id="table_70E127FA21264366AD5DBBD7DF40EBAA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Verticale knoppositie in de keuzelijst met invoervak. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
    <td colname="col2"> <p>Horizontale knoppositie binnen de keuzelijst met invoervak. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Knopbreedte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
    <td colname="col2"> <p>Knopafbeelding voor elk frame. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie ook <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -871,7 +871,7 @@ De keuzelijst met invoervak heeft rechts een &#39;vervolgkeuzelijst&#39; en word
 
 >[!NOTE]
 >
->Deze knoop steunt `state` attributenselecteur, die kan worden gebruikt om verschillende huiden op verschillende knoopstaten toe te passen.
+>Deze knop ondersteunt de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende skins toe te passen op verschillende knoptoestanden.
 
 Voorbeeld - om een drop-down knoop aan 28 x 28 pixel te plaatsen en een afzonderlijke beeld voor elke staat te hebben:
 
@@ -894,7 +894,7 @@ Voorbeeld - om een drop-down knoop aan 28 x 28 pixel te plaatsen en een afzonder
 }
 ```
 
-Het deelvenster met de lijst met insluitgrootten die wordt weergegeven wanneer de keuzelijst met invoervak wordt geopend, wordt beheerd met de volgende CSS-klassenkiezer:
+Het deelvenster met de lijst met insluitgrootten die wordt weergegeven wanneer de keuzelijst met invoervak wordt geopend, wordt bestuurd met de volgende CSS-klassenkiezer:
 
 ```
 .s7ecatalogsearchviewer .s7embeddialog .s7comboboxdropdown
@@ -907,7 +907,7 @@ De grootte en positie van het deelvenster worden bepaald door de component. Het 
 <table id="table_FA7345321C6A4E63B4B78ECF81CE18DB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Rand van deelvenster. </p> </td> 
   </tr> 
  </tbody> 
@@ -932,7 +932,7 @@ Eén item in een vervolgkeuzelijst dat wordt beheerd met de volgende CSS-klassen
 <table id="table_FD42FDD56F89463A97FD292FAA04DA5A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Achtergrond van item. </p> </td> 
   </tr> 
  </tbody> 
@@ -957,19 +957,19 @@ Een vinkje links van het geselecteerde item in het deelvenster met keuzelijst me
 <table id="table_8E01F5461CD04AC18B2C3725A961476A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Pictogrambreedte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte pictogram. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
    <td colname="col2"> <p>Afbeelding item. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie ook <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -996,7 +996,7 @@ Als de optie Aangepaste grootte is geselecteerd in de keuzelijst Grootte insluit
 <table id="table_B00829EA550F4E5E8F51B1C6ADACCD34"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
    <td colname="col2"> <p> Afstand tot het invoervak Grootte insluiten. </p> </td> 
   </tr> 
  </tbody> 
@@ -1021,25 +1021,25 @@ Elk invoerveld met een aangepaste grootte wordt verpakt in een container die een
 <table id="table_A8A04BE1988641618D0A412B8AEEE1C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Rand rond het invoerveld. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p> Breedte van invoerveld. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge </span> </p> </td> 
    <td colname="col2"> <p> Invoerveldmarge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
    <td colname="col2"> <p> Opvulling invoerveld. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voorbeeld - als u wilt dat de invoervelden voor aangepaste grootten een grijze rand, marge, opvulling van één pixel hebben en een breedte van 70 pixels hebben:
+Voorbeeld - U kunt als volgt de invoervelden voor aangepaste grootten instellen met een grijze rand, marge, opvulling en een breedte van 70 pixels:
 
 ```
 .s7ecatalogsearchviewer .s7embeddialog .s7dialogcustomsize { 
@@ -1062,7 +1062,7 @@ Als verticaal schuiven nodig is, wordt de schuifbalk weergegeven in het deelvens
 <table id="table_BA37E577E0884C919383F84080E2DD28"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Breedte van deelvenster Schuiven. </p> </td> 
   </tr> 
  </tbody> 
@@ -1087,19 +1087,19 @@ De vormgeving van het gebied van de schuifbalk wordt bepaald door de volgende CS
 <table id="table_066492417FCA43929017993D7326CDB8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Breedte schuifbalk. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> De verticale verschuiving van de schuifbalk vanaf de bovenkant van het schuifvenster. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
    <td colname="col2"> <p> De verticale verschuiving van de schuifbalk vanaf de onderkant van het schuifvenster. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
    <td colname="col2"> <p> De verschuiving van de horizontale schuifbalk ten opzichte van de rechterrand van het schuifvenster. </p> </td> 
   </tr> 
  </tbody> 
@@ -1127,11 +1127,11 @@ Schuifbalktrack is het gebied tussen de bovenste en onderste schuifknop. De comp
 <table id="table_19CF5503C1D34ED9998D4F4A6DA7D5D5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Trackbreedte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Achtergrondkleur bijhouden. </p> </td> 
   </tr> 
  </tbody> 
@@ -1157,27 +1157,27 @@ Het schuifbalkblokje beweegt verticaal binnen een schuiftrackgebied. De vertical
 <table id="table_90BC468FE138441C9DBAB1EB109F3DB0"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Breedte duim. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte duim. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen boven  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen boven </span> </p> </td> 
    <td colname="col2"> <p>De verticale opvulling tussen de bovenkant van de track. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen-onder  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen-onder </span> </p> </td> 
    <td colname="col2"> <p> De verticale opvulling tussen de onderkant van de track. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
    <td colname="col2"> <p> De afbeelding die wordt weergegeven voor een bepaalde staat van het blokje. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie ook <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -1185,7 +1185,7 @@ Het schuifbalkblokje beweegt verticaal binnen een schuiftrackgebied. De vertical
 
 >[!NOTE]
 >
->De duim steunt de `state` attributenselecteur, die kan worden gebruikt om verschillende huiden op verschillende duimstaten toe te passen: `up`, `down`, `over` en `disabled`.
+>Miniatuur ondersteunt de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende skins toe te passen op verschillende blokstatussen: `up`, `down`, `over`, en `disabled`.
 
 Voorbeeld: als u een schuifbalkblokje van 28 x 45 pixels wilt instellen, hebt u een marge van 10 pixels boven en onder aan de schuifbalk en hebt u voor elke staat een andere illustratie:
 
@@ -1220,26 +1220,26 @@ De vormgeving van de bovenste en onderste schuifknoppen wordt bepaald door de vo
 .s7ecatalogsearchviewer .s7embeddialog .s7scrollbar .s7scrolldownbutton
 ```
 
-Het is niet mogelijk om rolknopen te plaatsen gebruikend CSS `top`, `left`, `bottom`, en `right` eigenschappen. In plaats daarvan worden ze automatisch door de viewerlogica geplaatst.
+Het is niet mogelijk om schuifknoppen met CSS te positioneren `top`, `left`, `bottom`, en `right` eigenschappen. In plaats daarvan worden ze automatisch door de viewerlogica geplaatst.
 
 **CSS-eigenschappen van de schuifknoppen boven en onder**
 
 <table id="table_554BFCFEAF4F43A9AE5F741DC126F833"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Knopbreedte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
    <td colname="col2"> <p> De afbeelding die voor een bepaalde knopstatus wordt weergegeven. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie ook <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -1247,9 +1247,9 @@ Het is niet mogelijk om rolknopen te plaatsen gebruikend CSS `top`, `left`, `bot
 
 >[!NOTE]
 >
->Deze knoppen ondersteunen de kenmerkenkiezer `state`, die kan worden gebruikt om verschillende skins toe te passen op verschillende knoptoestanden: `up`, `down`, `over` en `disabled`.
+>Deze knoppen ondersteunen de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende skins toe te passen op verschillende knoptoestanden: `up`, `down`, `over`, en `disabled`.
 
-De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie.
+De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie .
 
 Voorbeeld - voor het instellen van schuifknoppen met een resolutie van 28 x 32 pixels en voor elke status een andere illustratie:
 

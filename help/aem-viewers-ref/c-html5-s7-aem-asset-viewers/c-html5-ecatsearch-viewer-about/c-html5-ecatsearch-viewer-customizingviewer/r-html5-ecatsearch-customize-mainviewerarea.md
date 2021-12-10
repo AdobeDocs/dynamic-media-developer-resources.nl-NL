@@ -1,13 +1,13 @@
 ---
+title: Hoofdviewergebied
 description: Het hoofdweergavegebied is het gebied dat wordt ingenomen door de catalogusafbeelding. Deze wordt meestal ingesteld op het beschikbare apparaatscherm wanneer geen grootte is opgegeven.
 solution: Experience Manager
-title: Hoofdviewergebied
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 854f5fa7-f46d-4c4f-9a44-886fec93f606
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
@@ -39,17 +39,17 @@ De vormgeving van het weergavegebied wordt bepaald door de volgende CSS-klassenk
    <td colname="col2"> <p>De breedte van de viewer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>De hoogte van de viewer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Achtergrondkleur in hexadecimale notatie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voorbeeld: een viewer instellen met een witte achtergrond ( `#FFFFFF`) en de grootte ervan instellen op 512 x 288 pixels.
+Voorbeeld - Een viewer instellen met een witte achtergrond ( `#FFFFFF`) en maakt het formaat 512 x 288 pixels.
 
 ```
 .s7ecatalogsearchviewer { 

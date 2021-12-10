@@ -1,14 +1,14 @@
 ---
+title: Zoomen
 description: Zoomviewer is een afbeeldingsviewer waarin een afbeelding wordt weergegeven waarop kan worden ingezoomd. Deze viewer werkt met afbeeldingssets en de navigatie wordt uitgevoerd met stalen. Deze heeft zoomgereedschappen, ondersteuning voor volledig scherm, stalen en een optionele knop Sluiten. Het is ontworpen voor gebruik op desktops en mobiele apparaten.
 keywords: responsief
 solution: Experience Manager
-title: Zoomen
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 81a74026-fb15-4f57-a4c7-1ab005950245
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '2397'
+source-wordcount: '2395'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ De zoomviewer ondersteunt de volgende aanraakbewegingen die ook in andere mobiel
   </tr> 
   <tr> 
    <td colname="col1"> <p>Horizontaal vegen of tikken </p> </td> 
-   <td colname="col2"> <p> Hiermee bladert u door de lijst met stalen in de staalbalk. </p> <p> Als de afbeelding zich in een herstelstatus bevindt en de <span class="codeph"> frametransition </span> De parameter is ingesteld op dia, het element wordt gewijzigd met de dia-animatie. Voor andere <span class="codeph"> frametransition </span> modi waarop de beweging native paginaschuiven uitvoert. </p> <p> Als in de afbeelding wordt ingezoomd, wordt de afbeelding horizontaal verplaatst. Als de afbeelding naar de weergavegrens wordt verplaatst en een veegbeweging in dezelfde richting wordt uitgevoerd, wordt native paginaschuiven uitgevoerd. </p> </td> 
+   <td colname="col2"> <p> Hiermee bladert u door de lijst met stalen in de staalbalk. </p> <p> Als de afbeelding zich in een herstelstatus bevindt en de <span class="codeph"> frametransition </span> De parameter is ingesteld op dia, het element wordt gewijzigd met de dia-animatie. Voor andere <span class="codeph"> frametransition </span> , voert de beweging native paginaschuiven uit. </p> <p> Als in de afbeelding wordt ingezoomd, wordt de afbeelding horizontaal verplaatst. Als de afbeelding naar de weergavegrens wordt verplaatst en een veegbeweging in dezelfde richting wordt uitgevoerd, wordt native paginaschuiven uitgevoerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verticaal veeggebaar </p> </td> 
@@ -112,9 +112,9 @@ De belangrijkste gebruiksgevallen zijn webpagina&#39;s die zijn georiënteerd op
 
 De insluiting met een vaste grootte wordt gebruikt wanneer de viewer de grootte niet wijzigt na het laden. Deze optie is de beste keuze voor webpagina&#39;s met een statische indeling.
 
-Bij de insluitmodus voor responsief ontwerp wordt ervan uitgegaan dat het formaat van de viewer tijdens de runtime moet worden aangepast vanwege de wijziging van de grootte van de container `DIV`. De meest gebruikte optie is het toevoegen van een viewer aan een webpagina die een flexibele indeling gebruikt.
+Bij de insluitmodus voor responsief ontwerp wordt ervan uitgegaan dat de grootte van de viewer tijdens de runtime moet worden aangepast vanwege de wijziging van de grootte van de container `DIV`. De meest gebruikte optie is het toevoegen van een viewer aan een webpagina die een flexibele indeling gebruikt.
 
-In de responsieve ontwerpinsluitmodus werkt de viewer anders, afhankelijk van de manier waarop de container van de webpagina wordt aangepast `DIV`. Als de webpagina alleen de breedte van de container instelt `DIV`Wanneer de hoogte onbeperkt blijft, kiest de viewer automatisch de hoogte op basis van de hoogte-breedteverhouding van het gebruikte element. Deze logica zorgt ervoor dat het element perfect in de weergave past zonder opvulling aan de zijkanten. Dit gebruiksgeval is het gemeenschappelijkst voor Web-pagina&#39;s die ontvankelijke lay-outkaders zoals Bootstrap, Stichting, etc. gebruiken.
+In de responsieve ontwerpinsluitmodus werkt de viewer anders, afhankelijk van de manier waarop de container van de webpagina wordt aangepast `DIV`. Als de webpagina alleen de breedte van de container instelt `DIV`Wanneer de hoogte onbeperkt blijft, kiest de viewer automatisch de hoogte op basis van de hoogte-breedteverhouding van het gebruikte element. Deze logica zorgt ervoor dat het element perfect in de weergave past zonder opvulling aan de zijkanten. Dit gebruiksgeval is het gemeenschappelijkst voor Web-pagina&#39;s die ontvankelijke lay-outkaders zoals Bootstrap en Stichting gebruiken.
 
 Als de webpagina zowel de breedte als de hoogte voor de container van de viewer instelt `DIV`vult de viewer dat gebied en volgt de grootte die de webpagina biedt. U kunt de viewer bijvoorbeeld insluiten in een modale overlay, waarbij de grootte van de overlay afhankelijk is van de venstergrootte van de webbrowser.
 
@@ -143,7 +143,7 @@ Het relatieve pad ziet er als volgt uit:
 
 >[!NOTE]
 >
->U moet alleen verwijzen naar de JavaScript-hoofdviewer `include` op uw pagina. U moet niet verwijzen naar extra JavaScript-bestanden in de webpaginacode die door de logica van de viewer in runtime kunnen worden gedownload. Verwijs met name niet rechtstreeks naar HTML5 SDK `Utils.js` bibliotheek die door de viewer is geladen vanuit `/s7viewers` contextpad (de zogenaamde geconsolideerde SDK) `include`). De reden is dat de locatie van `Utils.js` of vergelijkbare runtimeviewerbibliotheken worden volledig beheerd door de logica van de viewer en de locatie verandert tussen de viewerreleases. Adobe houdt oudere versies van de secundaire viewer niet bij `includes` op de server.
+>Alleen verwijzen naar de JavaScript-hoofdviewer `include` op uw pagina. Verwijs niet naar extra JavaScript-bestanden in de webpaginacode die door de logica van de viewer in runtime kunnen worden gedownload. Verwijs met name niet rechtstreeks naar HTML5 SDK `Utils.js` bibliotheek die door de viewer is geladen vanuit `/s7viewers` contextpad (de zogenaamde geconsolideerde SDK) `include`). De reden is dat de locatie van `Utils.js` of vergelijkbare runtimeviewerbibliotheken worden volledig beheerd door de logica van de viewer en de locatie verandert tussen de viewerreleases. Adobe houdt oudere versies van de secundaire viewer niet bij `includes` op de server.
 >
 >
 >Hierdoor wordt een directe verwijzing naar secundaire JavaScript geplaatst `include` die door de viewer op de pagina worden gebruikt, verbreekt de viewerfunctionaliteit in de toekomst wanneer een nieuwe productversie wordt geïmplementeerd.
@@ -164,7 +164,7 @@ Het relatieve pad ziet er als volgt uit:
 
    In deze viewer worden miniaturen weergegeven wanneer u werkt met sets met meerdere items. Op desktopsystemen worden miniaturen onder de hoofdweergave geplaatst. Tegelijkertijd kan de viewer het hoofdelement tijdens runtime wisselen met `setAsset()` API. Als ontwikkelaar hebt u controle over de manier waarop de viewer het miniatuurgebied onderaan beheert wanneer het nieuwe element slechts één item bevat. Het is mogelijk om de grootte van de buitenste viewer ongewijzigd te laten en de hoofdweergave de hoogte te laten verhogen en het gebied met miniaturen te laten beslaan. U kunt ook de grootte van de hoofdweergave statisch houden en het buitenste viewergebied samenvouwen, de inhoud van de webpagina omhoog laten verplaatsen en de ruimte in de ruimte met vrije schermruimte uit de miniaturen gebruiken.
 
-   Als u de buitenste grenzen van de viewer ongewijzigd wilt laten, definieert u de grootte voor de `.s7zoomviewer` CSS-klasse op hoofdniveau in absolute eenheden. Grootte in CSS kan rechts worden geplaatst op de pagina HTML of in een aangepast CSS-bestand van de viewer, dat later wordt toegewezen aan een viewer-voorinstellingsrecord in Dynamic Media Classic of expliciet wordt doorgegeven met behulp van een stijlopdracht.
+   Als u de buitenste grenzen van de viewer ongewijzigd wilt laten, definieert u de grootte voor de `.s7zoomviewer` CSS-klasse op hoofdniveau in absolute eenheden. De grootte in CSS kan op de pagina van de HTML worden gezet. U kunt de voorinstelling ook in een CSS-bestand voor een aangepaste viewer plaatsen. Dit bestand wordt later toegewezen aan een record met viewervoorinstellingen in Dynamic Media Classic of expliciet doorgegeven via een stijlopdracht.
 
    Zie [Zoomviewer aanpassen](../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/c-html5-20-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) voor meer informatie over het opmaken van de viewer met CSS.
 
@@ -196,7 +196,7 @@ Het relatieve pad ziet er als volgt uit:
 
    [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html)
 
-   U kunt de `stagesize` in de viewervoorinstellingsrecord in Dynamic Media Classic, of u kunt deze expliciet doorgeven met de viewerinitialisatiecode met de `params` verzameling of als API-aanroep zoals beschreven in de sectie Opdrachtverwijzing van deze Help, zoals hieronder:
+   U kunt de `stagesize` in de viewervoorinstellingsrecord in Dynamic Media Classic. Of u kunt deze expliciet doorgeven met de initialisatiecode van de viewer met de `params` verzameling of als API-aanroep zoals beschreven in de sectie Opdrachtverwijzing van deze Help, zoals hieronder:
 
    ```
     zoomViewer.setParam("stagesize", 
@@ -213,7 +213,7 @@ Het relatieve pad ziet er als volgt uit:
 
    Het is belangrijk dat de viewercontainer aan het DOM wordt toegevoegd, zodat de viewercode het containerelement op basis van de id kan vinden. Sommige browsers stellen het samenstellen van DOM tot het einde van de webpagina uit. Voor maximale compatibiliteit roept u de `init()` methode vlak voor het sluiten `BODY` -tag of op de hoofdtekst `onload()` gebeurtenis.
 
-   Tegelijkertijd mag het containerelement niet noodzakelijkerwijs deel uitmaken van de webpaginalay-out. Het kan bijvoorbeeld verborgen zijn met `display:none` stijl die eraan is toegewezen. In dit geval vertraagt de viewer het initialisatieproces totdat de webpagina het containerelement weer in de layout plaatst. Wanneer dit gebeurt, wordt het laden van de viewer automatisch hervat.
+   Tegelijkertijd mag het containerelement nog niet noodzakelijkerwijs deel uitmaken van de webpaginalay-out. Het kan bijvoorbeeld verborgen zijn met `display:none` stijl die eraan is toegewezen. In dit geval vertraagt de viewer het initialisatieproces totdat de webpagina het containerelement weer in de layout plaatst. Wanneer deze actie wordt uitgevoerd, wordt het laden van de viewer automatisch hervat.
 
    Hieronder ziet u een voorbeeld van het maken van een viewer-instantie, het doorgeven van de minimaal benodigde configuratieopties aan de constructor en het aanroepen van de `init()` methode. In dit voorbeeld wordt ervan uitgegaan `zoomViewer` de viewer-instantie is, `s7viewer` de naam van de plaatsaanduiding DIV; `http://s7d1.scene7.com/is/image/` is de URL van de afbeeldingsserver, en `Scene7SharedAssets/ImageSet-Views-Sample` is het actief.
 
@@ -320,7 +320,7 @@ De volgende voorbeeldpagina illustreert het levensechte gebruik van responsieve 
 
 ## Flexibele insluiting op grootte met gedefinieerde breedte en hoogte {#section-3674e6c032594441a6576b7fb1de6e64}
 
-In het geval van insluiting van flexibele grootte met gedefinieerde breedte en hoogte, is de opmaak van de webpagina anders. Het verstrekt beide grootte aan `"holder"` DIV en centreer het in het browser venster. Bovendien stelt de webpagina de grootte van de `HTML` en `BODY` element aan 100 percenten.
+Als er insluiting in flexibele grootte is waarbij de breedte en hoogte zijn gedefinieerd, is de opmaak van de webpagina anders. Het verstrekt beide grootte aan `"holder"` DIV en centreer het in het browser venster. Bovendien stelt de webpagina de grootte van de `HTML` en `BODY` element aan 100 percenten.
 
 ```
 <!DOCTYPE html> 

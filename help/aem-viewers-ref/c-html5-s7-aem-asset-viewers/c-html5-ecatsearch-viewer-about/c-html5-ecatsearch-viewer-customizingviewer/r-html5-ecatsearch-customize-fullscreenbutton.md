@@ -1,13 +1,13 @@
 ---
+title: Knop Volledig scherm
 description: Hiermee gaat de viewer naar de modus Volledig scherm of wordt deze afgesloten wanneer deze door de gebruiker is geselecteerd. Deze knop wordt weergegeven in de hoofdbesturingsbalk. Deze knop wordt niet weergegeven als de viewer werkt in de pop-upmodus en het systeem geen native volledig scherm ondersteunt. U kunt de grootte, de huid, en de plaats van de knoop door CSS.
 solution: Experience Manager
-title: Knop Volledig scherm
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: a4b6fdc0-1047-46c6-bf77-4536819b7fcd
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ De vormgeving van de knop wordt bepaald door de volgende CSS-klassenkiezer:
 
 De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie .
 
-Voorbeeld - voor het instellen van een knop voor volledig scherm van 28 x 28 pixels, op 4 pixels van de onderkant en 5 pixels van de rechterrand van de hoofdbesturingsbalk, en voor het weergeven van een andere afbeelding voor elk van de vier verschillende knopstatussen, indien geselecteerd of niet geselecteerd.
+Voorbeeld - Een knop voor volledig scherm instellen met een afstand van 28 x 28 pixels en een positie 4 pixels vanaf de onderrand en 5 pixels vanaf de rechterrand van de hoofdbesturingsbalk. En ten slotte wordt voor elk van de vier verschillende knoptoestanden een andere afbeelding weergegeven wanneer deze is geselecteerd of niet.
 
 ```
 .s7ecatalogsearchviewer .s7fullscreenbutton { 

@@ -1,13 +1,13 @@
 ---
+title: Deelvenster Zoekresultaten
 description: Het deelvenster met zoekresultaten bestaat uit het invoervak voor zoekopdrachten bovenaan en het hoofdgebied waar informatieve berichten of zoekresultaten worden weergegeven.
 solution: Experience Manager
-title: Deelvenster Zoekresultaten
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: ffbbc2ae-60da-4c3d-a350-6dbcb64e189d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,11 @@ Wanneer het deelvenster actief is, wordt de gebruikersinterface van de viewer be
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Kleur van de bedekking. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> dekking  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> dekking </span> </p> </td> 
    <td colname="col2"> <p>Dekking van de kleur. </p> </td> 
   </tr> 
  </tbody> 
@@ -62,7 +62,7 @@ Het deelvenster met zoekresultaten neemt altijd alle beschikbare viewerhoogte in
  </tbody> 
 </table>
 
-Voorbeeld - voor het instellen van een deelvenster met zoekresultaten met een breedte van 250 pixels voor grote en middelgrote onderbrekingspunten en het gebruik van een deelvenster van volledige grootte voor kleine onderbrekingspunten:
+Voorbeeld - voor het instellen van een paneel met zoekresultaten van 250 pixels breed voor grote en middelgrote onderbrekingspunten en het gebruik van een deelvenster van volledige grootte voor kleine onderbrekingspunten:
 
 ```
 .s7ecatalogsearchviewer.s7size_large .s7searchpanel .s7searchresultspanel, .s7ecatalogsearchviewer.s7size_medium .s7searchpanel .s7searchresultspanel { 
@@ -84,7 +84,7 @@ De bovenkant van het paneel van onderzoeksresultaten wordt gewijd aan het vakje 
 <table id="table_A1B96108542742DC8DCBCC9064F9E90B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
    <td colname="col2"> <p> Opvulling rond het invoervak. </p> </td> 
   </tr> 
  </tbody> 
@@ -101,23 +101,23 @@ Het veld voor zoekinvoer wordt bestuurd door de volgende CSS-klassenkiezer:
 <table id="table_9FB5E89847BF4C889DC22AD7E842C0F7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van invoerveld voor zoekopdracht. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen-links  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen-links </span> </p> </td> 
    <td colname="col2"> <p> De binnenste opvulling tussen de grenzen van het invoerveld en de invoertekst. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Rand van het veld voor zoekinvoer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge </span> </p> </td> 
    <td colname="col2"> <p>Marge van het veld voor zoekinvoer </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekengrootte  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekengrootte </span> </p> </td> 
    <td colname="col2"> <p>Grootte van het tekstlettertype. </p> </td> 
   </tr> 
  </tbody> 
@@ -144,33 +144,33 @@ De zoekknop links van het invoerveld voor zoekopdrachten in de vorm van het stan
 <table id="table_CDD818B40BB1416CB47B7C52F799DE0C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Breedte van de knop voor zoekinvoer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van de knop voor zoekinvoer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
    <td colname="col2"> <p>De URL naar de pictogramafbeelding van het "kijkglas". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-size </span> </p> </td> 
    <td colname="col2"> <p>De grootte van het "kijkglazen"-pictogram. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Rand van de knop voor zoekinvoer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge </span> </p> </td> 
    <td colname="col2"> <p>Marge van de knop voor zoekinvoer. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voorbeeld: een zoekknop instellen met het pictogram van 26 x 26 pixels voor &#39;uitziend glas&#39;; 30 pixels groot met een rand van 1 pixel:
+Voorbeeld - Een zoekknop instellen met een pictogram van 26 x 26 pixels voor &#39;uitziend glas&#39;; 30 pixels groot met een rand van 1 pixel:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinputbutton { 
@@ -183,7 +183,7 @@ Voorbeeld: een zoekknop instellen met het pictogram van 26 x 26 pixels voor &#39
 }
 ```
 
-Het deelvenster met zoekresultaten kan een tekstprompt weergeven wanneer de functie voor het eerst wordt aangeroepen. De gebruiker krijgt ook een bericht te zien wanneer zijn zoekopdracht geen resultaten heeft opgeleverd. In alle gevallen wordt de tekst weergegeven in het hoofdgedeelte van het deelvenster met zoekresultaten en wordt deze bestuurd door de volgende CSS-klassenkiezer:
+Het deelvenster met zoekresultaten kan een tekstprompt weergeven wanneer de functie voor het eerst wordt aangeroepen. En het toont ook een bericht wanneer de zoekopdracht van een gebruiker geen resultaten heeft opgeleverd. In alle gevallen wordt de tekst weergegeven in het hoofdgedeelte van het deelvenster met zoekresultaten en wordt deze bestuurd door de volgende CSS-klassenkiezer:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinfo
@@ -194,19 +194,19 @@ Het deelvenster met zoekresultaten kan een tekstprompt weergeven wanneer de func
 <table id="table_1DF5A12A21584FCC8C25F170078FEFE6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> kleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kleur </span> </p> </td> 
    <td colname="col2"> <p> Kleur van tekst. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Naam van tekstlettertype. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-align  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-align </span> </p> </td> 
    <td colname="col2"> <p>Horizontale tekstuitlijning. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekengrootte  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekengrootte </span> </p> </td> 
    <td colname="col2"> <p>Grootte van lettertypetekst. </p> </td> 
   </tr> 
  </tbody> 
@@ -214,11 +214,11 @@ Het deelvenster met zoekresultaten kan een tekstprompt weergeven wanneer de func
 
 >[!NOTE]
 >
->Dit tekstpaneel steunt `state` attributenselecteur, die kan worden gebruikt om verschillende stijlen op verschillende tekstberichten toe te passen. Met name `state='prompt'` komt overeen met de tekstprompt die wordt weergegeven wanneer het deelvenster voor de eerste keer wordt aangeroepen; `state='results'` komt overeen met de tekst met informatie over zoekresultaten; en `state='no_results'` komt overeen met de tekst die wordt weergegeven wanneer de zoekopdracht geen resultaten heeft opgeleverd.
+>Dit tekstdeelvenster ondersteunt de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende stijlen op verschillende tekstberichten toe te passen. Met name: `state='prompt'` komt overeen met de tekstprompt die wordt weergegeven wanneer het deelvenster voor het eerst wordt aangeroepen. De `state='results'` komt overeen met de tekst met informatie over zoekresultaten. En tot slot, de `state='no_results'` komt overeen met de weergegeven tekst wanneer de zoekopdracht geen resultaten heeft opgeleverd.
 
-De berichttekst kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie.
+De berichttekst kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie .
 
-Voorbeeld - voor het instellen van een deelvenster met een grijs lettertype van 18 pixels:
+Voorbeeld - Een tekstdeelvenster instellen waarin een grijs lettertype van 18 pixels wordt gebruikt:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinfo { 
@@ -238,13 +238,13 @@ Zoekresultaten worden weergegeven als één kolom of één rij miniaturen voor p
 <table id="table_26974E509F6943BB98CBC1E4BAE62D68"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge  </span> </p> </td> 
-   <td colname="col2"> <p> De grootte van de verticale marge rond elke miniatuur. De werkelijke miniatuurafstand is gelijk aan de som van de boven- en ondermarge die is ingesteld voor <span class="codeph"> .s7minicel </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge </span> </p> </td> 
+   <td colname="col2"> <p> De grootte van de verticale marge rond elke miniatuur. De werkelijke miniatuurafstand is gelijk aan de som van de bovenste en onderste marge die zijn ingesteld voor <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voorbeeld - voor het instellen van een afstand van 10 pixels:
+Voorbeeld - tien pixelspatiëring instellen:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7swatches .s7thumbcell { 
@@ -263,21 +263,21 @@ De vormgeving van afzonderlijke miniaturen wordt bepaald door de volgende CSS-kl
 <table id="table_00829E44F75040A4B2AE19ACD550DA1E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Breedte van de miniatuur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van de miniatuur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Rand van de miniatuur. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voorbeeld - als u miniaturen wilt instellen die 215 x 129 pixels zijn, hebt u een lichtgrijze standaardrand en een donkergrijze geselecteerde rand:
+Voorbeeld - Als u miniaturen wilt instellen die 215 x 129 pixels zijn, hebt u een lichtgrijze standaardrand en een donkergrijze geselecteerde rand:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7swatches .s7thumb { 
@@ -298,21 +298,21 @@ De vormgeving van het label van de miniatuur wordt bepaald door de volgende CSS-
 <table id="table_CA669F6AE7574FF389BF725B3F768E5E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> kleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kleur </span> </p> </td> 
    <td colname="col2"> <p> Tekstkleur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Naam van tekstlettertype. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekengrootte  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekengrootte </span> </p> </td> 
    <td colname="col2"> <p>Grootte van tekstlettertype. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voorbeeld - voor het instellen van labels met een lettertype van 12 pixels, grijs en Helvetica:
+Voorbeeld - Als u labels wilt instellen met een lettertype van 12 pixels, grijs of Helvetica®:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7swatches .s7label { 
@@ -336,19 +336,19 @@ Het is niet mogelijk om schuifknoppen te positioneren met de CSS-eigenschappen t
 <table id="table_11063C7F428D4707A8138F17650F8F5F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Breedte van de schuifknop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van de schuifknop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
    <td colname="col2"> <p> De afbeelding die voor een bepaalde knopstatus wordt weergegeven. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie ook <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -356,11 +356,11 @@ Het is niet mogelijk om schuifknoppen te positioneren met de CSS-eigenschappen t
 
 >[!NOTE]
 >
->Deze knoop steunt `state` attributenselecteur, die kan worden gebruikt om verschillende huiden op `"up"`, `"down"`, `"over"`, en `"disabled"` knoopstaten toe te passen.
+>Deze knop ondersteunt de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende skins toe te passen op `"up"`, `"down"`, `"over"`, en `"disabled"` knopstatussen.
 
-De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie.
+De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie .
 
-Voorbeeld - Een schuifknop van 125 x 35 pixels instellen met een andere illustratie voor elke status:
+Voorbeeld - Een schuifknop van 125 x 35 pixels instellen met een andere illustratie voor elke staat:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7scrollupbutton { 

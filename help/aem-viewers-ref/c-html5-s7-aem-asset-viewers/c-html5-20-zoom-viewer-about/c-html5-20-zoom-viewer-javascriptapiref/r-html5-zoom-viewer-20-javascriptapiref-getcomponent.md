@@ -1,13 +1,13 @@
 ---
+title: getComponent
 description: JavaScript API-referentie voor Video Viewer
 solution: Experience Manager
-title: getComponent
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoomen
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: efdd5b9f-64bb-4fe4-bdf9-0f5e98e4f5fe
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ JavaScript API-referentie voor Video Viewer
 
 `getComponent(componentId)`
 
-Retourneert een verwijzing naar de Viewer SDK-component die door de viewer wordt gebruikt. De webpagina kan deze methode gebruiken om het gedrag van de viewer buiten de box uit te breiden of aan te passen. Roep deze methode alleen aan nadat de callback van de `initComplete`-viewer is uitgevoerd. Als dit niet het geval is, wordt de component mogelijk nog niet door de viewerlogica gemaakt.
+Retourneert een verwijzing naar de Viewer SDK-component die door de viewer wordt gebruikt. De webpagina kan deze methode gebruiken om het gedrag van de viewer buiten de box uit te breiden of aan te passen. Roep deze methode slechts na `initComplete` callback van de viewer is uitgevoerd, anders wordt de component mogelijk nog niet gemaakt door de viewerlogica.
 
 ## Parameters {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`componentID`*` :  `{String}` een id van de Viewer SDK-component die door de viewer wordt gebruikt. Deze viewer ondersteunt de volgende component-id&#39;s:
+`*`componentID`*` - `{String}` een id van de Viewer SDK-component die door de viewer wordt gebruikt. Deze viewer ondersteunt de volgende component-id&#39;s:
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
@@ -33,59 +33,59 @@ Retourneert een verwijzing naar de Viewer SDK-component die door de viewer wordt
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> parameterManager  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.ParameterManager  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> parameterManager </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.ParameterManager </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> container  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> container </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mediaSet  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.MediaSet  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mediaSet </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.MediaSet </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomView  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.image.ZoomView  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomView </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.image.ZoomView </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> stalen  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.Swatches  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> stalen </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.Swatches </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> setIndicator  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.SetIndicator  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> setIndicator </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.SetIndicator </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomInButton  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ZoomInButton  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomInButton </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ZoomInButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomOutButton  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ZoomOutButton  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomOutButton </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ZoomOutButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomResetButton  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ZoomResetButton  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomResetButton </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ZoomResetButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> fullScreenButton  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.FullScreenButton  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> fullScreenButton </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.FullScreenButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> closeButton  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.CloseButton  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> closeButton </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.CloseButton </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wanneer u werkt met SDK API&#39;s, is het belangrijk dat u de juiste, volledig gekwalificeerde SDK-naamruimte gebruikt, zoals wordt beschreven in [Naamruimte van SDK van viewer](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-namespace.md#concept-53e47e46d7954e2b9681d13d716fd1ca).
+Wanneer u werkt met SDK API&#39;s, is het belangrijk dat u de volledige gekwalificeerde SDK-naamruimte gebruikt, zoals wordt beschreven in [Viewer SDK-naamruimte](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-namespace.md#concept-53e47e46d7954e2b9681d13d716fd1ca).
 
 Raadpleeg de SDK API-documentatie van de viewer voor meer informatie over een bepaalde component.
 
 ## Retourneert {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` een verwijzing naar de Viewer SDK-component. De methode retourneert `null` als `componentId` geen ondersteunde viewercomponent is of als de component nog niet door de viewerlogica is gemaakt.
+`{Object}` - Een verwijzing naar de Viewer SDK-component. De methode retourneert `null` als de `componentId` is geen ondersteunde viewercomponent of als de component nog niet door de viewerlogica is gemaakt.
 
 ## Voorbeeld {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
