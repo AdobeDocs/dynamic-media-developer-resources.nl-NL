@@ -5,8 +5,8 @@ keywords: responsief
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
-source-git-commit: bcd7f90ea2dbb77b300407adeb7725990d9c9a12
+exl-id: 937be8a2-307e-47bb-9fc8-d354f780a214
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '2413'
 ht-degree: 0%
@@ -171,7 +171,7 @@ Relatief pad ziet er als volgt uit:
    }
    ```
 
-   U kunt instellen `stagesize` in de viewervoorinstellingsrecord in Dynamic Media Classic, of geef deze expliciet door met de viewerinitialisatiecode met `params` verzameling. Of, als API vraag zoals die in de de verwijzingssectie van het Bevel wordt beschreven, zoals in het volgende:
+   U kunt instellen `stagesize` in de viewervoorinstellingsrecord in Dynamic Media Classic of deze expliciet doorgeven met de viewerinitialisatiecode met `params` verzameling. Of, als API vraag zoals die in de de verwijzingssectie van het Bevel wordt beschreven, zoals in het volgende:
 
    ```
    smartCropVideoViewer.setParam("stagesize", "640,480");
