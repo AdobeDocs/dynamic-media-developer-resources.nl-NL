@@ -1,14 +1,14 @@
 ---
+title: TableOfContents.maxitems
 description: TableOfContents.maxitems
 solution: Experience Manager
-title: TableOfContents.maxitems
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: d3196158-5eab-46de-8a29-8f08f4797185
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> maxitems</span></span> </p> </td> 
-   <td> <p>Het maximumaantal items in de vervolgkeuzelijst. </p> <p>Bovendien kunt u het aantal zichtbare items in de vervolgkeuzelijst verkleinen voor het geval deze door de buitencontainer wordt bijgesneden. </p> <p>Wanneer ingesteld op <span class="codeph"> 0</span> toont die component zoveel mogelijk items gezien de container waaraan deze is toegevoegd. </p> </td> 
+   <td> <p>Het maximumaantal items in de vervolgkeuzelijst. </p> <p>Ook, kunt u het aantal zichtbare punten in drop-down verminderen voor het geval dat het door de buitencontainer wordt bebouwd. </p> <p>Wanneer ingesteld op <span class="codeph"> 0</span> die component toont zo veel mogelijk punten gezien de container het aan wordt toegevoegd. </p> </td> 
   </tr> 
  </tbody> 
 </table>

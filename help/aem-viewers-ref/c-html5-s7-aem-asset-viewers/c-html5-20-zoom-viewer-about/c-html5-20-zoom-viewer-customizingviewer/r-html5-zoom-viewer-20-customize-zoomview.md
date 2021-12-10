@@ -1,13 +1,13 @@
 ---
+title: Zoomweergave
 description: De hoofdweergave bestaat uit de afbeelding waarop kan worden ingezoomd.
 solution: Experience Manager
-title: Zoomweergave
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoomen
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: ae6c7f6f-5d71-49b5-adbb-782520961acf
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -35,17 +35,17 @@ De vormgeving van het weergavegebied wordt bepaald door de volgende CSS-klassenk
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Achtergrondkleur in hexadecimale notatie van de hoofdweergave. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cursor  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cursor </span> </p> </td> 
    <td colname="col2"> <p>De cursor wordt weergegeven over de hoofdweergave. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voorbeeld - om de hoofdweergave transparant te maken.
+Voorbeeld - De hoofdweergave transparant maken.
 
 ```
 .s7zoomviewer .s7zoomview { 
@@ -53,7 +53,7 @@ Voorbeeld - om de hoofdweergave transparant te maken.
 }
 ```
 
-Op desktopsystemen ondersteunt de component `cursortype`-kenmerkkiezer die op de `.s7zoomview`-klasse kan worden toegepast. Het controleert het type van de curseur die op componentenstaat en gebruikersactie wordt gebaseerd. De volgende `cursortype` waarden worden ondersteund:
+Op desktopsystemen wordt de component ondersteund `cursortype` kenmerkkiezer die op de `.s7zoomview` klasse. Het controleert het type van de curseur die op componentenstaat en gebruikersactie wordt gebaseerd. Het volgende `cursortype` waarden worden ondersteund:
 
 * `default`
 

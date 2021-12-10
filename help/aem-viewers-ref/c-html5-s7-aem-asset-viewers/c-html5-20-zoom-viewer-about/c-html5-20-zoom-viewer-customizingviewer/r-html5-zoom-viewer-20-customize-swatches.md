@@ -1,20 +1,20 @@
 ---
-description: Stalen bestaan uit een rij miniatuurafbeeldingen met optionele schuifknoppen aan de linker- en rechterzijde. Schuifknoppen zijn alleen zichtbaar op het bureaublad als alle miniaturen niet in de containerbreedte passen. Op mobiele apparaten, of als de duimnagels in de containerbreedte kunnen passen, worden de rolknopen niet getoond.
-solution: Experience Manager
 title: Stalen
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoomen
+description: Stalen bestaan uit een rij miniatuurafbeeldingen met optionele schuifknoppen aan de linker- en rechterkant. Schuifknoppen zijn alleen zichtbaar op het bureaublad als alle miniaturen niet in de containerbreedte passen. Op mobiele apparaten, of als de duimnagels in de containerbreedte kunnen passen, worden de rolknopen niet getoond.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 7eaa4a6e-98e8-477b-9f45-66f8a79dfd85
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Stalen{#swatches}
 
-Stalen bestaan uit een rij miniatuurafbeeldingen met optionele schuifknoppen aan de linker- en rechterzijde. Schuifknoppen zijn alleen zichtbaar op het bureaublad als alle miniaturen niet in de containerbreedte passen. Op mobiele apparaten, of als de duimnagels in de containerbreedte kunnen passen, worden de rolknopen niet getoond.
+Stalen bestaan uit een rij miniatuurafbeeldingen met optionele schuifknoppen aan de linker- en rechterkant. Schuifknoppen zijn alleen zichtbaar op het bureaublad als alle miniaturen niet in de containerbreedte passen. Op mobiele apparaten, of als de duimnagels in de containerbreedte kunnen passen, worden de rolknopen niet getoond.
 
 `.s7zoomviewer .s7swatches`
 
@@ -41,11 +41,11 @@ De vormgeving van de stalencontainer wordt bepaald door de volgende CSS-klassenk
    <td colname="col2"> <p>Breedte van de stalen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van de stalen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
    <td colname="col2"> <p>Verticale stalen worden verschoven ten opzichte van de viewercontainer. </p> </td> 
   </tr> 
  </tbody> 
@@ -73,8 +73,8 @@ De afstand tussen de staalminiaturen wordt geregeld met de volgende CSS-klassenk
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge  </span> </p> </td> 
-   <td colname="col2"> <p> De grootte van de horizontale en verticale marge rond elke miniatuur. De werkelijke ruimte tussen miniaturen is gelijk aan de som van de linker- en rechtermarge die is ingesteld voor <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge </span> </p> </td> 
+   <td colname="col2"> <p> De grootte van de horizontale en verticale marge rond elke miniatuur. De werkelijke miniatuurspatiëring is gelijk aan de som van de linker- en rechtermarge waarvoor u de instelling instelt <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,15 +102,15 @@ De weergave van de afzonderlijke miniatuur wordt bepaald door de volgende CSS-kl
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Breedte van de miniatuur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van de miniatuur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Rand van de miniatuur. </p> </td> 
   </tr> 
  </tbody> 
@@ -118,7 +118,7 @@ De weergave van de afzonderlijke miniatuur wordt bepaald door de volgende CSS-kl
 
 >[!NOTE]
 >
->Miniatuur ondersteunt de kenmerkenkiezer `state`, die kan worden gebruikt om verschillende skins toe te passen op verschillende miniatuurtoestanden. Met name `state="selected"` komt overeen met de miniatuur van de afbeelding die momenteel wordt weergegeven in de hoofdweergave, `state="default"` komt overeen met de rest van de miniaturen en `state="over"` wordt gebruikt bij de muisaanwijzer.
+>De miniatuur ondersteunt de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende skins toe te passen op verschillende miniatuurtoestanden. Met name: `state="selected"` komt overeen met de miniatuur voor de afbeelding die momenteel wordt weergegeven in de hoofdweergave, `state="default"` overeenkomt met de rest van de miniaturen, en `state="over"` wordt gebruikt bij muisaanwijzer.
 
 Voorbeeld: als u miniaturen wilt instellen die 56 x 56 pixels zijn, hebt u een lichtgrijze standaardrand en een donkergrijze geselecteerde rand.
 
@@ -135,7 +135,7 @@ Voorbeeld: als u miniaturen wilt instellen die 56 x 56 pixels zijn, hebt u een l
 }
 ```
 
-De vormgeving van de linker- en rechterschuifknoppen wordt bepaald door de volgende CSS-klassekiezers:
+De vormgeving van de linker- en rechterschuifknoppen wordt bepaald door de volgende CSS-klassenkiezers:
 
 `.s7zoomviewer .s7swatches .s7scrollleftbutton`
 
@@ -152,19 +152,19 @@ Het is niet mogelijk om schuifknoppen te positioneren met de CSS-eigenschappen t
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Breedte van de schuifknop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van de schuifknop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
    <td colname="col2"> <p>De afbeelding die voor een bepaalde knopstatus wordt weergegeven. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -172,7 +172,7 @@ Het is niet mogelijk om schuifknoppen te positioneren met de CSS-eigenschappen t
 
 >[!NOTE]
 >
->Deze knoop steunt `state` attributenselecteur, die kan worden gebruikt om verschillende huiden op verschillende knoopstaten toe te passen: `up`, `down`, `over` en `disabled`.
+>Deze knop ondersteunt de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende skins toe te passen op verschillende knoptoestanden: `up`, `down`, `over`, en `disabled`.
 
 De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 

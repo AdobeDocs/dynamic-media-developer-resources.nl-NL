@@ -1,21 +1,21 @@
 ---
-description: eCatalog Viewer is een catalogusviewer die elektronische brochures in een spread per spread of pagina per pagina weergeeft. Met de eCatalog kunnen gebruikers door de catalogus navigeren met behulp van extra gebruikersinterface-elementen of een toegewijde miniatuurmodus. Gebruikers kunnen ook op elke pagina inzoomen voor meer informatie.
+title: eCatalog
+description: eCatalog Viewer is een catalogusviewer die elektronische brochures in een spread per spread of pagina per pagina weergeeft. Met de eCatalog kunnen gebruikers door de catalogus navigeren met behulp van aanvullende gebruikersinterface-elementen of toegewijde miniatuurmodus. Gebruikers kunnen ook op elke pagina inzoomen voor meer informatie.
 keywords: responsief
 solution: Experience Manager
-title: eCatalog
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 8e243fa5-e375-41ce-8b49-2571023130c1
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '2164'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # eCatalog{#ecatalog}
 
-eCatalog Viewer is een catalogusviewer die elektronische brochures in een spread per spread of pagina per pagina weergeeft. Met de eCatalog kunnen gebruikers door de catalogus navigeren met behulp van extra gebruikersinterface-elementen of een toegewijde miniatuurmodus. Gebruikers kunnen ook op elke pagina inzoomen voor meer informatie.
+eCatalog Viewer is een catalogusviewer die elektronische brochures in een spread per spread of pagina per pagina weergeeft. Met de eCatalog kunnen gebruikers door de catalogus navigeren met behulp van aanvullende gebruikersinterface-elementen of toegewijde miniatuurmodus. Gebruikers kunnen ook op elke pagina inzoomen voor meer informatie.
 
 >[!NOTE]
 >
@@ -84,7 +84,7 @@ Deze viewer is volledig toegankelijk via het toetsenbord, zoals beschreven in [T
 
 ## Hulpprogramma&#39;s voor het delen van sociale media met eCatalog Viewer {#section-eb575084a99647c3a9591f439f40b412}
 
-De eCatalog-viewer ondersteunt gereedschappen voor sociaal delen Deze gereedschappen zijn beschikbaar als een knop op de hoofdbesturingsbalk die wordt uitgevouwen tot een werkbalk voor delen wanneer een gebruiker erop klikt of erop tikt.
+De eCatalog Viewer ondersteunt gereedschappen voor sociale media. Ze zijn beschikbaar als een knop in de hoofdbesturingsbalk die wordt uitgevouwen tot een werkbalk voor delen wanneer een gebruiker erop klikt of erop tikt.
 
 De werkbalk voor delen bevat pictogrammen voor elk type ondersteund kanaal voor delen, waaronder Facebook, Twitter, Delen via e-mail, delen van code insluiten en delen van koppelingen. Wanneer gereedschappen voor delen via e-mail, insluiten of delen van koppelingen zijn geactiveerd, wordt in de viewer een modaal dialoogvenster weergegeven met een bijbehorend formulier voor gegevensinvoer. Wanneer Facebook of Twitter wordt aangeroepen, stuurt de viewer de gebruiker door naar een standaarddialoogvenster voor delen van een sociale service. Delen van gereedschappen is niet beschikbaar in de modus Volledig scherm vanwege beveiligingsbeperkingen van de webbrowser.
 
@@ -116,11 +116,11 @@ In de ingesloten modus wordt de viewer toegevoegd aan de bestaande webpagina, wa
 
 De belangrijkste gebruiksgevallen zijn webpagina&#39;s die zijn georiënteerd op desktops of tablets, en responsieve, ontworpen pagina&#39;s die de lay-out automatisch aanpassen, afhankelijk van het apparaattype.
 
-De insluiting met een vaste grootte wordt gebruikt wanneer de viewer de grootte niet wijzigt na het laden. Dit is de beste keuze voor webpagina&#39;s met een statische indeling.
+De insluiting met een vaste grootte wordt gebruikt wanneer de viewer de grootte niet wijzigt na het laden. Deze methode is de beste keuze voor webpagina&#39;s met een statische indeling.
 
-Bij insluiten van responsief ontwerp wordt ervan uitgegaan dat de viewer tijdens runtime mogelijk de grootte moet wijzigen als reactie op de wijziging van de grootte van de container `DIV`. De meest gebruikte optie is het toevoegen van een viewer aan een webpagina die een flexibele pagina-indeling gebruikt.
+Bij insluiten van responsieve ontwerpen wordt ervan uitgegaan dat de viewer tijdens runtime de grootte moet wijzigen als reactie op de wijziging van de grootte van de container `DIV`. De meest gebruikte optie is het toevoegen van een viewer aan een webpagina die een flexibele pagina-indeling gebruikt.
 
-In de responsieve ontwerpinsluitmodus werkt de viewer anders, afhankelijk van de manier waarop de container van de webpagina wordt aangepast `DIV`. Als de webpagina alleen de breedte van de container instelt `DIV`Wanneer de hoogte onbeperkt blijft, kiest de viewer automatisch de hoogte op basis van de hoogte-breedteverhouding van het gebruikte element. Deze functionaliteit zorgt ervoor dat het element perfect in de weergave past zonder opvulling aan de zijkanten. Dit gebruiksgeval is het gemeenschappelijkst voor Web-pagina&#39;s die ontvankelijke lay-outkaders zoals Bootstrap, Stichting, etc. gebruiken.
+In de responsieve ontwerpinsluitmodus werkt de viewer anders, afhankelijk van de manier waarop de container van de webpagina wordt aangepast `DIV`. Als de webpagina alleen de breedte van de container instelt `DIV`Wanneer de hoogte onbeperkt blijft, kiest de viewer automatisch de hoogte op basis van de hoogte-breedteverhouding van het gebruikte element. Deze functionaliteit zorgt ervoor dat het element perfect in de weergave past zonder opvulling aan de zijkanten. Dit gebruiksgeval is het gemeenschappelijkst voor Web-pagina&#39;s die ontvankelijke lay-outkaders zoals Bootstrap en Stichting gebruiken.
 
 Anders, als de Web-pagina zowel de breedte als de hoogte voor de container van de kijker plaatst `DIV`, vult de viewer alleen dat gebied en volgt het formaat dat de webpaginalay-out biedt. Een goed voorbeeld is het insluiten van de viewer in een modale overlay, waarbij de grootte van de overlay wordt aangepast aan de venstergrootte van de webbrowser.
 
@@ -149,7 +149,7 @@ Het relatieve pad ziet er als volgt uit:
 
 >[!NOTE]
 >
->U moet alleen verwijzen naar de JavaScript-hoofdviewer `include` op uw pagina. U moet niet verwijzen naar extra JavaScript-bestanden in de webpaginacode die door de logica van de viewer in runtime kunnen worden gedownload. Verwijs met name niet rechtstreeks naar HTML5 SDK `Utils.js` bibliotheek die door de viewer is geladen vanuit `/s7viewers` contextpad (de zogenaamde geconsolideerde SDK) `include`). De reden is dat de locatie van `Utils.js` of vergelijkbare runtimeviewerbibliotheken worden volledig beheerd door de logica van de viewer en de locatie verandert tussen de viewerreleases. Adobe houdt oudere versies van de secundaire viewer niet bij `includes` op de server.
+>Alleen verwijzen naar de JavaScript-hoofdviewer `include` op uw pagina. Verwijs niet naar extra JavaScript-bestanden in de webpaginacode die door de logica van de viewer in runtime kunnen worden gedownload. Verwijs met name niet rechtstreeks naar HTML5 SDK `Utils.js` bibliotheek die door de viewer is geladen vanuit `/s7viewers` contextpad (de zogenaamde geconsolideerde SDK) `include`). De reden is dat de locatie van `Utils.js` of vergelijkbare runtimeviewerbibliotheken worden volledig beheerd door de logica van de viewer en de locatie verandert tussen de viewerreleases. Adobe houdt oudere versies van de secundaire viewer niet bij `includes` op de server.
 >
 >
 >Hierdoor wordt een directe verwijzing naar secundaire JavaScript geplaatst `include` die door de viewer op de pagina worden gebruikt, verbreekt de viewerfunctionaliteit in de toekomst wanneer een nieuwe productversie wordt geïmplementeerd.
@@ -170,7 +170,7 @@ Het relatieve pad ziet er als volgt uit:
 
    U kunt de statische grootte voor de viewer instellen door deze te declareren voor `.s7ecatalogviewer` CSS-klasse op hoofdniveau in absolute eenheden of met gebruik van `stagesize` modifier.
 
-   U kunt de grootte in CSS rechtstreeks op de pagina van de HTML plaatsen, of in een dossier van douanekijker CSS, dat dan later aan een kijker vooraf ingesteld verslag in Dynamic Media Classic wordt toegewezen, of uitdrukkelijk wordt overgegaan gebruikend een stijlbevel.
+   U kunt de grootte in CSS rechtstreeks op de pagina HTML plaatsen. U kunt de grootte ook in een aangepast CSS-bestand van de viewer plaatsen, dat later wordt toegewezen aan een record met een viewervoorinstelling in Dynamic Media Classic, of expliciet wordt doorgegeven met behulp van een stijlopdracht.
 
    Zie [eCatalog-viewer aanpassen](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) voor meer informatie over het opmaken van de viewer met CSS.
 
@@ -183,7 +183,7 @@ Het relatieve pad ziet er als volgt uit:
    }
    ```
 
-   U kunt de `stagesize` in de viewervoorinstellingsrecord in Dynamic Media Classic, of geef deze expliciet door met de viewerinitialisatiecode met `params` verzameling, of als een API-aanroep zoals beschreven in de sectie Opdrachtverwijzing, zoals hieronder:
+   U kunt de `stagesize` in de viewervoorinstellingsrecord in Dynamic Media Classic. Of u kunt deze expliciet doorgeven met de initialisatiecode van de viewer met `params` verzameling, of als een API-aanroep zoals beschreven in de sectie Opdrachtverwijzing, zoals hieronder:
 
    ```
    eCatalogViewer.setParam("stagesize", 
@@ -196,7 +196,7 @@ Het relatieve pad ziet er als volgt uit:
 
    Het is belangrijk dat de viewercontainer aan het DOM wordt toegevoegd, zodat de viewercode het containerelement op basis van de id kan vinden. Sommige browsers stellen het samenstellen van DOM tot het einde van de webpagina uit. Voor maximale compatibiliteit roept u echter de `init()` methode vlak voor het sluiten `BODY` -tag of op de hoofdtekst `onload()` gebeurtenis.
 
-   Het containerelement hoeft echter nog geen deel uit te maken van de webpaginalay-out. Het kan bijvoorbeeld verborgen zijn met `display:none` stijl die eraan is toegewezen. In dit geval vertraagt de viewer het initialisatieproces totdat de webpagina het containerelement weer in de layout plaatst. Wanneer dit gebeurt, wordt het laden van de viewer automatisch hervat.
+   Tegelijkertijd mag het containerelement nog niet noodzakelijkerwijs deel uitmaken van de webpaginalay-out. Het kan bijvoorbeeld verborgen zijn met `display:none` stijl die eraan is toegewezen. In dit geval vertraagt de viewer het initialisatieproces totdat de webpagina het containerelement weer in de layout plaatst. Wanneer deze actie wordt uitgevoerd, wordt het laden van de viewer automatisch hervat.
 
    Hieronder ziet u een voorbeeld van het maken van een viewer-instantie, het doorgeven van de minimaal benodigde configuratieopties aan de constructor en het aanroepen van de `init()` methode. In het voorbeeld wordt ervan uitgegaan `eCatalogViewer` de viewer-instantie is; `s7viewer` is de naam van de tijdelijke aanduiding `DIV`; `https://s7d1.scene7.com/is/image/` is de URL van de afbeeldingsserver, en `Viewers/Pluralist` is het actief:
 
@@ -303,7 +303,7 @@ De volgende voorbeeldpagina illustreert hoe u in de praktijk meer gevallen kunt 
 
 **Flexibele insluiting van grootte met gedefinieerde breedte en hoogte**
 
-In het geval van insluiting van flexibele grootte met gedefinieerde breedte en hoogte, is de opmaak van de webpagina anders. Met andere woorden: de houder krijgt beide grootten `DIV` en centreert het in het browservenster. Bovendien stelt de webpagina de grootte van de `HTML` en `BODY` element tot 100%:
+In insluiten van flexibele grootte waarbij breedte en hoogte zijn gedefinieerd, is de opmaak van de webpagina anders. Met andere woorden: de houder krijgt beide grootten `DIV` en centreert het in het browservenster. Bovendien stelt de webpagina de grootte van de `HTML` en `BODY` element tot 100%:
 
 ```
 <!DOCTYPE html> 

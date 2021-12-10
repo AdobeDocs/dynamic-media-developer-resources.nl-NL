@@ -1,14 +1,14 @@
 ---
+title: ThumbnailGridView.maxloadradius
 description: ThumbnailGridView.maxloadradius
 solution: Experience Manager
-title: ThumbnailGridView.maxloadradius
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: e93de3b5-b42d-4db8-90b9-9e2aa53af775
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 1%
 <table id="table_D29F1F6A8EC74F42A254C823435F9493"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>Geeft het gedrag voor het vooraf laden van de component op. </p> <p>Wanneer ingesteld op <span class="codeph"> -1</span> worden de miniaturen tegelijkertijd geladen wanneer de component wordt geïnitialiseerd of het element wordt gewijzigd. </p> <p>Wanneer ingesteld op <span class="codeph"> 0</span> worden alleen de zichtbare miniaturen geladen. </p> <p>Met <span class="codeph"><span class="varname"> voorladen</span></span> wordt gedefinieerd hoeveel onzichtbare rijen/kolommen rondom het zichtbare gebied worden voorgeladen. </p> </td> 
+   <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> voorlader</span></span> </p> </td> 
+   <td colname="col2"> <p>Geeft het gedrag voor het vooraf laden van de component op. </p> <p>Wanneer ingesteld op <span class="codeph"> -1</span> de miniaturen worden tegelijkertijd geladen wanneer de component wordt geïnitialiseerd of wanneer het element verandert. </p> <p>Wanneer ingesteld op <span class="codeph"> 0</span> alleen de zichtbare miniaturen worden geladen. </p> <p>Set <span class="codeph"><span class="varname"> voorlader</span></span> Hiermee bepaalt u hoeveel onzichtbare rijen/kolommen rondom het zichtbare gebied worden voorgeladen. </p> </td> 
   </tr> 
  </tbody> 
 </table>

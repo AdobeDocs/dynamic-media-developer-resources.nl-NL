@@ -1,14 +1,14 @@
 ---
+title: FavoritesView.textpos
 description: FavoritesView.textpos
 solution: Experience Manager
-title: FavoritesView.textpos
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 3bfd7f84-6136-4db7-80a5-56f84179f3ce
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> onder|boven|links|rechts|geen|knopinfo</span> </p> </td> 
-   <td colname="col2"> <p> Hiermee geeft u op waar het label wordt getekend ten opzichte van de miniatuurafbeelding. Het label wordt dus gecentreerd op de opgegeven locatie ten opzichte van de miniatuur. </p> <p>Wanneer <span class="codeph"> tooltip</span> wordt gespecificeerd, wordt de etikettekst getoond als het drijven tooltip over het duimnagelbeeld. </p> <p>Wanneer ingesteld op <span class="codeph"> none</span>, schakelt deze de labelweergave uit. </p> </td> 
+   <td colname="col2"> <p> Hiermee geeft u op waar het label wordt getekend ten opzichte van de miniatuurafbeelding. Het label wordt dus gecentreerd op de opgegeven locatie ten opzichte van de miniatuur. </p> <p>Wanneer <span class="codeph"> knopinfo</span> opgegeven, wordt de labeltekst weergegeven als zwevende knopinfo boven de miniatuurafbeelding. </p> <p>Wanneer ingesteld op <span class="codeph"> none</span>, wordt de labelweergave uitgeschakeld. </p> </td> 
   </tr> 
  </tbody> 
 </table>

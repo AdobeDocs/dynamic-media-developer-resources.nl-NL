@@ -1,14 +1,14 @@
 ---
+title: FavoritesView.favoritesThumbView
 description: FavoritesView.favoritesThumbView
 solution: Experience Manager
-title: FavoritesView.favoritesThumbView
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 5c57fcc8-be67-408a-9c4c-4e15d5fe6410
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> gebied</span></span> </p> </td> 
-   <td colname="col2"> <p> Hiermee geeft u het snijgebied voor de miniatuur Favorieten op. Uitgedrukt als een relatieve waarde aan de totale kadergrootte, met een waaier van <span class="codeph"> 0</span> aan <span class="codeph"> 1.0</span>. </p> <p>De waarde <span class="codeph"> 1</span> betekent dat de volledige frameafbeelding wordt gebruikt voor de miniatuur. </p> <p>De waarde <span class="codeph"> 0.1</span> betekent dat slechts 10% van de framegrootte wordt gebruikt. </p> </td> 
+   <td colname="col2"> <p> Hiermee geeft u het snijgebied voor de miniatuur Favorieten op. Uitgedrukt als een relatieve waarde ten opzichte van de totale framegrootte, met een bereik van <span class="codeph"> 0</span> tot <span class="codeph"> 1,0</span>. </p> <p>Een waarde van <span class="codeph"> 1</span> betekent dat de volledige frameafbeelding wordt gebruikt voor de miniatuur. </p> <p>Een waarde van <span class="codeph"> 0,1</span> betekent dat slechts 10% van de framegrootte wordt gebruikt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

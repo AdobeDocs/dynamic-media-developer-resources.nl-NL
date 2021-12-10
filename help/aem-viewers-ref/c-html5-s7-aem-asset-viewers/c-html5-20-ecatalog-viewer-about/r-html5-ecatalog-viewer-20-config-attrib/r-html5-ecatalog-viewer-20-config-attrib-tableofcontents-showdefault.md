@@ -1,14 +1,14 @@
 ---
+title: TableOfContents.showdefault
 description: TableOfContents.showdefault
 solution: Experience Manager
-title: TableOfContents.showdefault
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 1c700d12-4bea-4b87-91c1-f615c3dceb79
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td> <p> Wanneer ingesteld op <span class="codeph"> 1</span> vult de component het vervolgkeuzevenster met elementen voor alle pagina's, zelfs voor pagina's waarvoor geen label is gedefinieerd. </p> <p>Wanneer ingesteld op <span class="codeph"> 0</span> worden alleen items met expliciete labels weergegeven in het vervolgkeuzemenu. </p> </td> 
+   <td> <p> Wanneer ingesteld op <span class="codeph"> 1</span>vult de component het vervolgkeuzemenu met elementen voor alle pagina's in, zelfs voor pagina's waarvoor geen label is gedefinieerd. </p> <p>Wanneer ingesteld op <span class="codeph"> 0</span> alleen items met expliciete labels worden weergegeven in het vervolgkeuzevenster. </p> </td> 
   </tr> 
  </tbody> 
 </table>

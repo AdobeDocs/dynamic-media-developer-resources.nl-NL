@@ -1,22 +1,22 @@
 ---
+title: PageView.pageturnstyle
 description: PageView.pageturnstyle
 solution: Experience Manager
-title: PageView.pageturnstyle
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 00706c64-c051-4b62-8194-61d0a1c565e9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # PageView.pageturnstyle{#pageview-pageturnstyle}
 
-` [PageView.|<containerId>_pageView.]pageturnstyle= *``*, *``*, *``*, *``*, *``*, *`dividerWidthdividerColordividerOpacityborderOnOffborderColorfillColor`*`
+` [PageView.|<containerId>_pageView.]pageturnstyle= *`dividerWidth`*, *`dividerColor`*, *`dividerOpacity`*, *`borderOnOff`*, *`borderColor`*, *`fillColor`*`
 
-Hiermee bepaalt u de vormgeving van de component wanneer een `PageView.frametransition` op `turn` of `auto` op desktopsystemen is ingesteld.
+Hiermee wordt de vormgeving van de component bepaald wanneer een `PageView.frametransition` is ingesteld op `turn` of aan `auto` op desktopsystemen.
 
 <table id="table_A8CDA1AE2680402A99BCD5DD371B225F"> 
  <tbody> 
@@ -34,7 +34,7 @@ Hiermee bepaalt u de vormgeving van de component wanneer een `PageView.frametran
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderOnOff</span></span> </p> </td> 
-   <td colname="col2"> <p> De vlag (of <span class="codeph"> 0</span> of <span class="codeph"> 1</span>) die de grens rond de het draaien pagina in en uit draait. </p> </td> 
+   <td colname="col2"> <p> De markering (ofwel <span class="codeph"> 0</span> of <span class="codeph"> 1</span>). Hiermee wordt de rand rondom de pagina in- en uitgeschakeld. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderColor</span></span> </p> </td> 
