@@ -4,7 +4,7 @@ description: Het facebook-gereedschap Delen bestaat uit een knop die is toegevoe
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
+exl-id: e6ec2cd8-7b2e-4b3c-851d-1a4bbecd4d65
 source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '229'

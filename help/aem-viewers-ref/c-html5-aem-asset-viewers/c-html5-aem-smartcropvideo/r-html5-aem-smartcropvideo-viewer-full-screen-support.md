@@ -4,7 +4,7 @@ description: De viewer ondersteunt de bewerkingsmodus Volledig scherm.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
+exl-id: fbf2b9cb-9187-4ce9-99d5-07ca20b7fa7d
 source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '143'

@@ -4,7 +4,7 @@ description: De videoscrubber is de horizontale schuifregelaar waarmee een gebru
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
+exl-id: 9f7e3fec-8303-4114-86b2-fb75d041701d
 source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '360'

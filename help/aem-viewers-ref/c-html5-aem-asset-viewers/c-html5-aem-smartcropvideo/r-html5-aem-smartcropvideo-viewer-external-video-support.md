@@ -4,7 +4,7 @@ description: De viewer ondersteunt het afspelen van video die buiten Dynamic Med
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
+exl-id: 2ab5a083-5995-440a-a9a6-6642277b8a58
 source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '187'

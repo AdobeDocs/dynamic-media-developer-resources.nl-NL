@@ -4,7 +4,7 @@ description: Referentiedocumentatie voor opdracht voor SmartCrop Video Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
+exl-id: d0797c10-2379-45f7-9e8d-a5eb56638db8
 source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '163'

@@ -4,7 +4,7 @@ description: De videotijd is de numerieke weergave waarin de huidige tijd en duu
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
+exl-id: 0ef09f06-c2d5-4c84-8ff9-4e94e9e54d40
 source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '193'

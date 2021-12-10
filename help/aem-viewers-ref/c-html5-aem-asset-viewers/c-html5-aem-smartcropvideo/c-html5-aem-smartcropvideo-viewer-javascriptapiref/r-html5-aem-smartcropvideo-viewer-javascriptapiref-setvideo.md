@@ -4,7 +4,7 @@ description: JavaScript API-referentie voor SmartCrop Video Viewer
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
+exl-id: 5e735e11-e359-4b98-b4a9-2c69a8eb424a
 source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '147'

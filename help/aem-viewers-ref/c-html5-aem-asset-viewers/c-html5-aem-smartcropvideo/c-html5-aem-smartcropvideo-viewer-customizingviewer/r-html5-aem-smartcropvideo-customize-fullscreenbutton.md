@@ -4,7 +4,7 @@ description: De knop Volledig scherm zorgt ervoor dat de SmartCrop Video-speler 
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
+exl-id: 79b57f6d-17d2-48af-9414-b0ab9d24fbdc
 source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '254'

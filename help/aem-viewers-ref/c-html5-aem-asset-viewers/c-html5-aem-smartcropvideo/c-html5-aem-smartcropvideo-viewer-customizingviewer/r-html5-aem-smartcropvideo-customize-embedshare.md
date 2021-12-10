@@ -4,7 +4,7 @@ description: Het gereedschap Delen insluiten bestaat uit een knop die wordt toeg
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
+exl-id: d5f8db82-f1f9-45be-990d-ebfef97507b6
 source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '2590'

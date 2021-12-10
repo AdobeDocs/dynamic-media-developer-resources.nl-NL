@@ -4,7 +4,7 @@ description: Het twitter-gereedschap Delen bestaat uit een knop die is toegevoeg
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
+exl-id: 5bcf6868-7ebb-43ec-971d-2be9e53650bb
 source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '229'

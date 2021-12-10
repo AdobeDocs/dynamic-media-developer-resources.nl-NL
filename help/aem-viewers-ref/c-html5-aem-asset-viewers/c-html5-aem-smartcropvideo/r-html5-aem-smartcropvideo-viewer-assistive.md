@@ -4,7 +4,7 @@ description: Alle viewercomponenten ondersteunen de rollen en kenmerken van ARIA
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video,Accessibility
 role: Developer,User
-exl-id: null
+exl-id: b2bfd93b-707e-4a03-a14e-14ec23328fdd
 source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '177'

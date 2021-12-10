@@ -4,7 +4,7 @@ description: Bepaalde inhoud die in de SmartCrop Video Viewer wordt weergegeven,
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
+exl-id: e5019948-d8ed-4bb2-b652-2936b6f694c9
 source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '777'

@@ -4,7 +4,7 @@ description: De Smart Crop Video Viewer ondersteunt het uit-van-de-doos traceren
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User,Data Engineer,Data Architect
-exl-id: null
+exl-id: 0d91ca94-79fc-40de-8095-0252688ebe76
 source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '159'

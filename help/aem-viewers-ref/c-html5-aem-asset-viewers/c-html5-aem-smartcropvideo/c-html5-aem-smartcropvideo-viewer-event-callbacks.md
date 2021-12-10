@@ -4,7 +4,7 @@ description: Gebeurteniscallbacks
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
+exl-id: 21962c01-f224-408d-8072-1c7f5d78ac4b
 source-git-commit: f4db71f503749f086c86353578afe9dc368d04ae
 workflow-type: tm+mt
 source-wordcount: '154'

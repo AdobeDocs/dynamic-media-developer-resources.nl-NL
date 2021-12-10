@@ -4,7 +4,7 @@ description: De besturingsbalk is het rechthoekige gebied dat alle UI-besturings
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
+exl-id: 8ea06e0a-705d-436a-9393-75a36381cba6
 source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '176'

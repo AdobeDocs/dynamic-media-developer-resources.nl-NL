@@ -4,7 +4,7 @@ description: Met deze knop schakelt u de weergave van een gesloten bijschrift in
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
+exl-id: 86b610e9-fea2-45b3-9b74-7ddd558fc267
 source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '254'

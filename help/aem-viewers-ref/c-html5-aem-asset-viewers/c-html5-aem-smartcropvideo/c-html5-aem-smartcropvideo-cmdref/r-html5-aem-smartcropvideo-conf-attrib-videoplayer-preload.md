@@ -4,7 +4,7 @@ description: Geeft aan of de viewer begint met het laden van video-inhoud voorda
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
+exl-id: 7a83a02e-7b75-4f15-b8c1-aa7b64e6d3bd
 source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '117'

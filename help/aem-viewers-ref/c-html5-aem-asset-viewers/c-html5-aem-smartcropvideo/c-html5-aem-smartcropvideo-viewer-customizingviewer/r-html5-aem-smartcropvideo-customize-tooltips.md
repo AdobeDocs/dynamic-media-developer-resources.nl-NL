@@ -4,7 +4,7 @@ description: Op desktopsystemen hebben bepaalde gebruikersinterface-elementen, z
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
+exl-id: 78cc0f11-bec2-495e-b3c9-a91b6bd1b1f0
 source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '137'

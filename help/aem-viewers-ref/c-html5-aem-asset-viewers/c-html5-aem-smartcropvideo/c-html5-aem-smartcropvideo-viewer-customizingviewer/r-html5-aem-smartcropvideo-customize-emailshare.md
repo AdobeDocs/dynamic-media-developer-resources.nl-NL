@@ -4,7 +4,7 @@ description: Het gereedschap E-mail delen bestaat uit een knop die wordt toegevo
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
+exl-id: f2685d59-6b92-49cf-9359-dda602af4297
 source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '2994'

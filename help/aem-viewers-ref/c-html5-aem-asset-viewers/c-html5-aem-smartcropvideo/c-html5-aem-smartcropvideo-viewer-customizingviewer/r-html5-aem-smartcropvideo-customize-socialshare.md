@@ -4,7 +4,7 @@ description: Het gereedschap Delen via sociale media wordt standaard in de recht
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
+exl-id: 650e1a57-9b0e-4132-a9b0-42c33cacdc04
 source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '314'

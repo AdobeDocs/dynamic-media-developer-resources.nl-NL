@@ -4,7 +4,7 @@ description: Invoerfocusmarkering die wordt weergegeven rond het interface-eleme
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
+exl-id: 242b80db-f5b4-44ad-9169-bd6ecf859ed0
 source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '78'

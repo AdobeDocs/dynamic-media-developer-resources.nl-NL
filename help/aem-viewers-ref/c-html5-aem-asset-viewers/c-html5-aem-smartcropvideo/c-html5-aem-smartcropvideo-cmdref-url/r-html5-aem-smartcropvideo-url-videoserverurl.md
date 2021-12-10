@@ -4,7 +4,7 @@ description: URL-opdracht voor SmartCrop Video-viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
+exl-id: 9bd37d2c-c7ec-4f58-8328-45c0a156f330
 source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '55'

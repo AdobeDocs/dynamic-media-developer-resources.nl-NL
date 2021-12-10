@@ -4,7 +4,7 @@ description: Het afspeelpictogram wordt boven in het hoofdweergavegebied geplaat
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
+exl-id: 2d8d60e8-9ab6-44fa-af50-b96910a87dee
 source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '166'

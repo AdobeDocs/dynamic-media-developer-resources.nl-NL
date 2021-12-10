@@ -4,7 +4,7 @@ description: De knop Afspelen/pauzeren zorgt ervoor dat de videospeler voor Smar
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
+exl-id: 03b819cc-a709-496a-9edb-29813b13e979
 source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '267'
