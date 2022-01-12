@@ -1,13 +1,13 @@
 ---
+title: FlyoutZoomView.frametransition
 description: FlyoutZoomView.frametransition
 solution: Experience Manager
-title: FlyoutZoomView.frametransition
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 0b0a88a0-d736-4ab8-a25f-15d1689b0a48
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '62'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|faden</span> </p> </td> 
-   <td colname="col2"> <p> Hiermee geeft u het type effect op dat wordt toegepast op de hoofdweergave bij het wijzigen van elementen. De <span class="codeph"> none</span> staat voor geen overgang, de verandering van de hoofdweergave gebeurt onmiddellijk. Met <span class="codeph"> vervagen</span> activeert u een overgang tussen vervagingen, waarbij de oude afbeelding vervaagt en de nieuwe afbeelding vervaagt </p> </td> 
+   <td colname="col2"> <p> Hiermee geeft u het type effect op dat wordt toegepast op de hoofdweergave bij het wijzigen van elementen. De <span class="codeph"> none</span> betekent dat er geen overgang plaatsvindt, maar dat de hoofdweergave direct wordt gewijzigd. De <span class="codeph"> vervagen</span> Hiermee activeert u een overgang met vervagingen waarbij de oude afbeelding vervaagt en de nieuwe afbeelding vervaagt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> duur</span></span> </p> </td> 

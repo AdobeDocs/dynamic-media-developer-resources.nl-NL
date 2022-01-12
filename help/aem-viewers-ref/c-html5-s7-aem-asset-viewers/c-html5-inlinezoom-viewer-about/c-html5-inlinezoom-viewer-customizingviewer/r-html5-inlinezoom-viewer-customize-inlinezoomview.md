@@ -1,11 +1,11 @@
 ---
-description: De hoofdweergave bestaat uit de statische afbeelding, de ingezoomde afbeelding die boven op de statische afbeelding wordt weergegeven in de vervolgweergave en het uiteindebericht dat boven op de statische afbeelding wordt weergegeven.
-solution: Experience Manager
 title: Zoomweergave flyout
+description: De hoofdweergave bestaat uit de statische afbeelding en de ingezoomde afbeelding die in de uitvliegweergave boven op de statische afbeelding wordt weergegeven. Het bestaat ook uit het uiteindebericht dat boven op een statische afbeelding wordt weergegeven.
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 7b4b5cc9-68ad-4e7a-a2d9-3bbced929145
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Zoomweergave flyout{#flyout-zoom-view}
 
-De hoofdweergave bestaat uit de statische afbeelding, de ingezoomde afbeelding die boven op de statische afbeelding wordt weergegeven in de vervolgweergave en het uiteindebericht dat boven op de statische afbeelding wordt weergegeven.
+De hoofdweergave bestaat uit de statische afbeelding en de ingezoomde afbeelding die in de uitvliegweergave boven op de statische afbeelding wordt weergegeven. Het bestaat ook uit het uiteindebericht dat boven op een statische afbeelding wordt weergegeven.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,7 +35,7 @@ De vormgeving van de hoofdweergave wordt bepaald door de volgende CSS-klassenkie
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> De achtergrondkleur van de hoofdweergave. </p> </td> 
   </tr> 
  </tbody> 
@@ -57,7 +57,7 @@ De vormgeving van het tip-bericht wordt bepaald door de volgende CSS-klassenkiez
 .s7flyoutviewer .s7flyoutzoomview .s7tip
 ```
 
-Het is mogelijk lettertypestijl, vormgeving van grootte en verticale verschuiving te configureren via CSS. De horizontale uitlijning wordt echter beheerd door de viewerlogica. Het overschrijven van een item via CSS met de eigenschappen `left` of `right` wordt niet ondersteund.
+Het is mogelijk lettertypestijl, tekengrootte, weergave en verticale verschuiving te configureren via CSS. De horizontale uitlijning wordt echter beheerd door de viewerlogica. Overschrijven met CSS `left` of `right` eigenschappen worden niet ondersteund.
 
 <table id="table_DCF6B69A9D8C4DB7A10C4572F7484799"> 
  <thead> 
@@ -68,45 +68,45 @@ Het is mogelijk lettertypestijl, vormgeving van grootte en verticale verschuivin
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
    <td colname="col2"> <p>Verschuiving vanaf de onderkant van de hoofdweergave. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> kleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kleur </span> </p> </td> 
    <td colname="col2"> <p>Tekstkleur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Fontnaam. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekengrootte  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekengrootte </span> </p> </td> 
    <td colname="col2"> <p>Tekengrootte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
    <td colname="col2"> <p>Opvulling rond de berichttekst. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>De achtergrondvulkleur van berichttekst. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
    <td colname="col2"> <p>Straal achtergrondrand van berichttekst. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> dekking  </span> </p> </td> 
-   <td colname="col2"> <p>Achtergronddekking van berichttekst. </p> <p>Gebruik voor Internet Explorer 8 <span class="codeph"> filter:alpha(opacity-...) ) </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> dekking </span> </p> </td> 
+   <td colname="col2"> <p>Achtergronddekking van berichttekst. </p> <p>Gebruik voor Internet Explorer 8 <span class="codeph"> filter:alpha(dekking-...) </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Het tip-bericht kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) voor meer informatie.
+Het tip-bericht kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) voor meer informatie .
 
 .
 
-Voorbeeld - voor het instellen van een half-transparant uiteindebericht met een wit lettertype van Arial 12 px, een verschuiving van 50 pixels ten opzichte van de onderkant van de hoofdweergave, opvulling en een afgeronde rand:
+Voorbeeld - voor het instellen van een half-transparant uiteindebericht met een wit lettertype van Arial® 12 pixels, verschuiving van 50 pixels van de onderkant van de hoofdweergave, opvulling en een afgeronde rand:
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7tip { 

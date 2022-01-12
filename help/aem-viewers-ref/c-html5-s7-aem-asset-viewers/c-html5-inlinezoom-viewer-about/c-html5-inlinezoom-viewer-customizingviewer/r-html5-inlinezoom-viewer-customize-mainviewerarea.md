@@ -1,13 +1,13 @@
 ---
+title: Hoofdviewergebied
 description: Het hoofdweergavegebied is het gebied dat wordt ingenomen door de vervolgweergave en de stalen.
 solution: Experience Manager
-title: Hoofdviewergebied
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: ab1653a3-38e6-49bb-97b7-005304349ec9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '92'
 ht-degree: 1%
 
 ---
@@ -39,17 +39,17 @@ De vormgeving van het weergavegebied wordt bepaald door de volgende CSS-klassenk
    <td colname="col2"> <p>De breedte van de viewer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>De hoogte van de viewer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Achtergrondkleur in hexadecimale notatie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voorbeeld: een vervolgviewer instellen met een witte achtergrond ( `#FFFFFF`) en de grootte 260 x 500 pixels instellen.
+Voorbeeld - Een vervolgviewer instellen met een witte achtergrond ( `#FFFFFF`) en maakt het 260 x 500 pixels groot.
 
 ```
 .s7flyoutviewer { 

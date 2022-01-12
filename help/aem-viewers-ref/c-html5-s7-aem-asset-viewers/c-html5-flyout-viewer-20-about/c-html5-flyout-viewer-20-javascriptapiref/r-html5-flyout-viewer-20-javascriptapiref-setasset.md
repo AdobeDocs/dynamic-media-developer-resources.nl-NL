@@ -1,13 +1,13 @@
 ---
+title: setAsset
 description: JavaScript API-referentie voor Flyout Viewer.
 solution: Experience Manager
-title: setAsset
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: cd66267e-7b25-4af4-b83c-f7b7f768ea8c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -22,12 +22,12 @@ JavaScript API-referentie voor Flyout Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> element</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> Tekenreeks</span>} nieuwe element-id, expliciete afbeeldingsreeks of expliciete afbeeldingsreeks met frame-specifieke opties voor Beeldbewerking, met optionele algemene wijzigingstoetsen voor Afbeeldingsservice toegevoegd na <span class="codeph"> ?</span>. </p> <p> Afbeeldingen die gebruikmaken van IR (Image Rendering) of UGC (Door de gebruiker gegenereerde inhoud) worden niet ondersteund door deze viewer. </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> String</span>} nieuwe element-id, expliciete afbeeldingsset of expliciete afbeelding die is ingesteld met frame-specifieke opties voor afbeeldingsweergave, met optionele algemene opties voor afbeeldingsweergave die na <span class="codeph"> ?</span>. </p> <p> Afbeeldingen die gebruikmaken van IR (Image Rendering) of UGC (Door de gebruiker gegenereerde inhoud) worden niet ondersteund door deze viewer. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Hiermee stelt u het nieuwe element in. U kunt deze parameter op elk ogenblik roepen, of vóór of na `init()`. Als deze wordt aangeroepen na `init()`, wisselt de viewer het element tijdens runtime om.
+Hiermee stelt u het nieuwe element in. U kunt deze parameter op elk gewenst moment vóór of na `init()`. Als het wordt aangeroepen na `init()`, wordt het element tijdens runtime vervangen door de viewer.
 
 Zie ook [init](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-init.md#reference-8651640683fc4a538bfb660709d1a463).
 
@@ -49,7 +49,7 @@ Eén verwijzing naar een afbeeldingsset die is gedefinieerd in een catalogus:
 <instance>.setAsset("Scene7SharedAssets/ImageSet-Views-Sample")
 ```
 
-Expliciete afbeeldingsset:
+Expliciete afbeeldingsset als volgt:
 
 ```
 <instance>.setAsset("Scene7SharedAssets/Backpack_B,Scene7SharedAssets/Backpack_C")

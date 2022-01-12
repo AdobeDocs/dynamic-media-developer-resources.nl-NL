@@ -1,14 +1,14 @@
 ---
+title: FlyoutZoomView.preloadtiles
 description: FlyoutZoomView.preloadtiles
 solution: Experience Manager
-title: FlyoutZoomView.preloadtiles
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 34c8c7b9-0369-4d13-95f5-ad129e913453
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 2%
+source-wordcount: '60'
+ht-degree: 3%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 2%
 <table id="table_8E44EC404A1A45C59EA1EF2766613930"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
-   <td colname="col2"> <p> Stel in op <span class="codeph"> 1</span> om het vooraf laden van de ingezoomde afbeelding in te schakelen of op <span class="codeph"> 0</span> om de zoomafbeelding stapsgewijs te laden. </p> <p> <p>Opmerking:  Als u deze optie inschakelt, kan dit resulteren in aanzienlijk hoger bandbreedtegebruik. De ingezoomde afbeelding wordt volledig geladen, zelfs als de gebruiker geen zoomactie start. </p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> Instellen op <span class="codeph"> 1</span> om het vooraf laden van de ingezoomde afbeelding in te schakelen, of ingesteld op <span class="codeph"> 0</span> om de zoomafbeelding indien nodig stapsgewijs te laden. </p> <p> <p>Opmerking: Als u deze optie inschakelt, kan dit resulteren in aanzienlijk hoger bandbreedtegebruik. De ingezoomde afbeelding wordt volledig geladen, zelfs als de gebruiker geen zoomactie start. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

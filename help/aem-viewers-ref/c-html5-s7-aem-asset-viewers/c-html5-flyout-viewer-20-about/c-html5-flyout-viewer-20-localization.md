@@ -1,13 +1,13 @@
 ---
+title: Lokalisatie van gebruikersinterface-elementen
 description: Bepaalde inhoud die in de Flyout Viewer wordt weergegeven, is afhankelijk van lokalisatie. Deze inhoud bevat knopinfo voor gebruikersinterface-elementen en informatieberichten die tijdens het laden worden weergegeven in de zoomweergave voor vervolgmenu's.
 solution: Experience Manager
-title: Lokalisatie van gebruikersinterface-elementen
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 57941e90-1462-43e6-80db-6b111e004f9b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Bepaalde inhoud die in de Flyout Viewer wordt weergegeven, is afhankelijk van lokalisatie. Deze inhoud bevat knopinfo voor gebruikersinterface-elementen en informatieberichten die tijdens het laden worden weergegeven in de zoomweergave voor vervolgmenu&#39;s.
 
-Elke tekstinhoud in de viewer die kan worden gelokaliseerd, wordt vertegenwoordigd door een speciale viewer-SDK-id met de naam SYMBOL. Elk SYMBOL heeft een standaardtekstwaarde voor de landinstelling Engels ( `"en"`) die wordt geleverd bij de viewer buiten de box. Er kunnen ook door de gebruiker gedefinieerde waarden worden ingesteld voor zoveel landinstellingen als nodig zijn.
+Elke tekstinhoud in de viewer die kan worden gelokaliseerd, wordt vertegenwoordigd door een speciale viewer-SDK-id met de naam SYMBOL. Elk SYMBOL heeft een standaardtekstwaarde voor de landinstelling Engels ( `"en"`) wordt geleverd bij de viewer buiten de box. Er kunnen ook door de gebruiker gedefinieerde waarden worden ingesteld voor zoveel landinstellingen als nodig zijn.
 
 Wanneer de viewer wordt gestart, wordt de huidige landinstelling gecontroleerd om te zien of er een door de gebruiker gedefinieerde waarde is voor elk ondersteund SYMBOL voor de landinstelling. Als dat het geval is, gebruikt het de user-defined waarde; anders, valt het terug naar de uit-van-de-doos standaardtekst.
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-In het bovenstaande voorbeeld definieert het lokalisatieobject twee landinstellingen ( `"en"` en `"fr"`) en biedt het lokalisatie voor twee gebruikersinterface-elementen in elke landinstelling.
+In het bovenstaande voorbeeld definieert het lokalisatieobject twee landinstellingen ( `"en"` en `"fr"`) en biedt lokalisatie voor twee gebruikersinterface-elementen in elke landinstelling.
 
-De code van de webpagina moet het lokalisatieobject doorgeven aan de viewerconstructor als een waarde van het veld `localizedTexts` van het configuratieobject. Een andere optie is het doorgeven van het lokalisatieobject door de methode `setLocalizedTexts(localizationInfo)` aan te roepen.
+De webpaginacode moet het lokalisatieobject doorgeven aan de viewerconstructor, als een waarde van de `localizedTexts` veld van het configuratieobject. Een andere mogelijkheid is om het lokalisatieobject door te geven door het `setLocalizedTexts(localizationInfo)` methode.
 
 De volgende SYMBOL&#39;s worden ondersteund:
 
@@ -53,39 +53,39 @@ De volgende SYMBOL&#39;s worden ondersteund:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Container.LABEL  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Container.LABEL </span> </p> </td> 
    <td colname="col2"> <p>ARIA-label voor viewerelement op hoofdniveau. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.ROLE_DESCRIPTION  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.ROLE_DESCRIPTION </span> </p> </td> 
    <td colname="col2"> <p>ARIA-rolbeschrijving voor hoofdweergavecomponent. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.USAGE_HINT  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.USAGE_HINT </span> </p> </td> 
    <td colname="col2"> <p>ARIA-gebruiksaanwijzingen voor toetsenbordgebruikers. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_OVER  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_OVER </span> </p> </td> 
    <td colname="col2"> <p>Informatiebericht voor desktopsystemen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_TAP  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_TAP </span> </p> </td> 
    <td colname="col2"> <p>Informatiebericht voor aanraakapparaten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ScrollLeftButton.TOOLTIP  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ScrollLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Knopinfo voor schuifknop naar links. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ScrollRightButton.TOOLTIP  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ScrollRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Knopinfo voor knop naar rechts schuiven. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ScrollUpButton.TOOLTIP  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ScrollUpButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Knopinfo voor knop Omhoog schuiven. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ScrollDownButton.TOOLTIP  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ScrollDownButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Knopinfo voor schuifknop omlaag. </p> </td> 
   </tr> 
  </tbody> 

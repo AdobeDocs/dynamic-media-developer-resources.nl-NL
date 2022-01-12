@@ -1,13 +1,13 @@
 ---
+title: Ondersteuning voor Adobe Analytics-tracking
 description: De Flyout-viewer biedt ondersteuning voor het uit de verpakking bijhouden van Adobe Analytics.
 solution: Experience Manager
-title: Ondersteuning voor Adobe Analytics-tracking
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 6b6216f4-34dc-496f-a0c3-e97d48da14c6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ De Flyout-viewer biedt ondersteuning voor het uit de verpakking bijhouden van Ad
 
 ## Buiten-de-box-tracking {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-De Flyout-viewer ondersteunt [!DNL Adobe Analytics] het uit-van-de-box bijhouden. Als u reeksspatiëring wilt inschakelen, geeft u de juiste naam van de bedrijfsvoorinstelling door als `config2`-parameter.
+De Flyout-viewer ondersteunt [!DNL Adobe Analytics] het volgen uit-van-de-doos. Als u het bijhouden van wijzigingen wilt inschakelen, geeft u de juiste naam van de bedrijfsvoorinstelling door als `config2` parameter.
 
 De kijker verzendt ook één enkele het volgen HTTP- verzoek naar de gevormde Server van het Beeld met het viewertype en versieinformatie.
 
 ## Aangepaste reeksspatiëring {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Om met derdeanalysesystemen te integreren is het noodzakelijk om aan `trackEvent` kijkerscallback te luisteren en het `eventInfo` argument van de callback functie zonodig te verwerken. De volgende code is een voorbeeld van een dergelijke handlerfunctie:
+Om met analysesystemen van derden te integreren, moet naar de `trackEvent` de callback van de kijker en verwerkt `eventInfo` argument van de callback functie zoals nodig. De volgende code is een voorbeeld van een dergelijke handlerfunctie:
 
 ```
 var flyoutViewer = new s7viewers.FlyoutViewer({ 
@@ -59,23 +59,23 @@ De viewer houdt de volgende SDK-gebruikersgebeurtenissen bij:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LADEN  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LADEN </span> </p> </td> 
    <td colname="col2"> <p>de viewer eerst wordt geladen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SWAP  </span> </p> </td> 
-   <td colname="col2"> <p>een element wordt in de viewer omgewisseld met <span class="codeph"> setAsset() </span> API. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
+   <td colname="col2"> <p>een element in de viewer wordt omgewisseld met <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ZOOMEN  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ZOOMEN </span> </p> </td> 
    <td colname="col2"> <p>de flyout wordt geactiveerd of het zoomniveau wordt gewijzigd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PAN  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PAN </span> </p> </td> 
    <td colname="col2"> <p> een afbeelding wordt gepand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> STAAL  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> STAAL </span> </p> </td> 
    <td colname="col2"> <p> een afbeelding wordt gewijzigd door op een staal te klikken of erop te tikken. </p> </td> 
   </tr> 
  </tbody> 

@@ -1,20 +1,20 @@
 ---
 title: Panoramische viewer
-description: HTML5 Panorama Viewer is een beeldviewer die een panoramische afbeelding weergeeft. Het doel van deze viewer is om een bolvormig panorama weer te geven, ook wel equirechthoekige afbeelding genoemd. Deze functie ondersteunt automatisch pannen en pannen door middel van gyroscopische bewegingen.  Het is ontworpen voor gebruik op desktops en mobiele apparaten.  De virtuele weergavemodus voor de realiteit is beschikbaar op mobiele apparaten die deze ondersteunen.
+description: HTML5 Panorama Viewer is een beeldviewer die een panoramische afbeelding weergeeft. Het doel van deze viewer is om een bolvormig panorama weer te geven, ook wel equirechthoekige afbeelding genoemd. Deze functie ondersteunt automatisch pannen en pannen door middel van gyroscopische bewegingen. Het is ontworpen voor gebruik op desktops en mobiele apparaten. De virtuele weergavemodus voor de realiteit is beschikbaar op mobiele apparaten die deze ondersteunen.
 keywords: responsief
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '1961'
+source-wordcount: '1953'
 ht-degree: 0%
 
 ---
 
 # Panoramisch{#panoramic}
 
-HTML5 Panorama Viewer is een beeldviewer die een panoramische afbeelding weergeeft. Het doel van deze viewer is om een bolvormig panorama weer te geven, ook wel equirechthoekige afbeelding genoemd. Deze functie ondersteunt automatisch pannen en pannen door middel van gyroscopische bewegingen.  Het is ontworpen voor gebruik op desktops en mobiele apparaten.  De virtuele weergavemodus voor de realiteit is beschikbaar op mobiele apparaten die deze ondersteunen.
+HTML5 Panorama Viewer is een beeldviewer die een panoramische afbeelding weergeeft. Het doel van deze viewer is om een bolvormig panorama weer te geven, ook wel equirechthoekige afbeelding genoemd. Deze functie ondersteunt automatisch pannen en pannen door middel van gyroscopische bewegingen. Het is ontworpen voor gebruik op desktops en mobiele apparaten. De virtuele weergavemodus voor de realiteit is beschikbaar op mobiele apparaten die deze ondersteunen.
 
 Zie [Systeemvereisten en -vereisten](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
@@ -27,7 +27,7 @@ Viewer type 514.
 
 ## Panoramische Viewer gebruiken {#section-f21ac23d3f6449ad9765588d69584772}
 
-HTML5 Panoramische Viewer staat voor een hoofd-JavaScript-bestand en een set hulplijnbestanden (één JavaScript-bestand met alle SDK-componenten van de HTML5 Viewer die door deze viewer worden gebruikt, elementen, CSS) die door de viewer in runtime zijn gedownload.
+HTML5 Panoramische Viewer staat voor een hoofd-JavaScript-bestand en een set hulpbestanden die door de viewer in runtime worden gedownload. De set hulpbestanden bestaat uit één JavaScript-bestand dat alle HTML5 Viewer SDK-componenten bevat die door deze viewer, elementen en CSS worden gebruikt.
 HTML5 Panoramische Viewer kan zowel in de pop-upmodus worden gebruikt met een pagina die klaar is voor productie en die wordt geleverd met IS-Viewers, als in de ingesloten modus, waarbij de viewer met behulp van gedocumenteerde API is geïntegreerd in de doelwebpagina.
 Configuratie en skins zijn vergelijkbaar met die van de andere HTML5-viewers. Alle skins kunnen worden gemaakt met aangepaste CSS.
 
@@ -58,17 +58,17 @@ HTML5 Panoramische Viewer ondersteunt automatisch pannen en navigeren door slepe
 </table>
 
 De viewer ondersteunt zowel aanraakinvoer als muisinvoer op Windows-apparaten met aanraakscherm en muis. Deze ondersteuning is echter beperkt tot Chrome-, Internet Explorer 11- en Edge-webbrowsers.
-Panoramische Viewer heeft de mogelijkheid om panoramische afbeeldingen te renderen in de modus Virtual Reality (VR) door de bepaling &#39;vrrender&#39; op te geven.  Wanneer rendering is ingeschakeld, wordt een panorama-afbeelding weergegeven in gesplitste schermen.  Een veel voorkomend geval zou het beeld in een mobiele telefoon in een virtuele realisatiehoofdtelefoon moeten dienen, die afzonderlijke beelden voor elk oog verstrekt.  De kijker reageert op de gyroscopische beweging van het hoofd en navigeert door de afbeelding.
+Panoramische Viewer kan panoramische afbeeldingen renderen in de modus Virtual Reality (VR) door de render-modifier op te geven. Wanneer rendering is ingeschakeld, wordt een panorama-afbeelding weergegeven in gesplitste schermen. Een veel voorkomend geval zou het beeld in een mobiele telefoon in een virtuele realisatiehoofdtelefoon moeten dienen, die afzonderlijke beelden voor elk oog verstrekt. De viewer reageert op de gyroscopische beweging van de kop en navigeert door de afbeelding.
 
 ## HTML5 Panoramische Viewer insluiten {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Verschillende webpagina&#39;s hebben verschillende vereisten voor viewergedrag. Soms biedt een webpagina een koppeling en als u op die koppeling klikt, wordt de viewer in een apart browservenster geopend. In andere gevallen kan het nodig zijn om de viewer in te sluiten op de hostpagina. In het laatste geval kan de webpagina een statische lay-out hebben of ‘responsief’ zijn en anders worden weergegeven op verschillende apparaten of voor verschillende venstergrootten in de browser. Om aan deze behoeften tegemoet te komen, ondersteunt de viewer drie primaire bewerkingsmodi: popup, insluiten van vaste grootte en responsieve insluiting.
+Verschillende webpagina&#39;s hebben verschillende vereisten voor viewergedrag. Soms biedt een webpagina een koppeling. Als u die koppeling selecteert, wordt de viewer geopend in een apart browservenster. In andere gevallen kan het nodig zijn de viewer in te sluiten in de hostpagina. In het laatste geval kan de webpagina een statische lay-out hebben of ‘responsief’ zijn en anders worden weergegeven op verschillende apparaten of voor verschillende venstergrootten in de browser. Om aan deze behoeften tegemoet te komen, ondersteunt de viewer drie primaire bewerkingsmodi: popup, insluiten van vaste grootte en responsieve insluiting.
 
 **Pop-upmodus**
 
-In de pop-upmodus wordt de viewer geopend in een apart webbrowservenster of tabblad. Het neemt het volledige browservenstergebied en past zich aan als de browser wordt aangepast of de apparaatoriëntatie wordt gewijzigd.
+In de pop-upmodus wordt de viewer geopend in een apart venster of tabblad van een webbrowser. Het neemt het volledige browservenstergebied en past zich aan als de browser wordt aangepast of de apparaatoriëntatie wordt gewijzigd.
 
-Deze modus wordt het meest gebruikt voor mobiele apparaten. De webpagina laadt de viewer met behulp van window.open() JavaScript-aanroep, correct geconfigureerd A HTML-element of een andere geschikte manier.
+Deze modus wordt het meest gebruikt voor mobiele apparaten. De webpagina laadt de viewer met `window.open()` JavaScript-aanroep, correct geconfigureerd A HTML-element of op een andere geschikte manier.
 
 Het wordt aanbevolen een uit-van-doos HTML-pagina voor pop-up verrichtingswijze te gebruiken. Het wordt [!DNL PanoramicViewer.html] en het bevindt zich onder de [!DNL html5/] submap van uw standaard IS-Viewers-implementatie:
 
@@ -86,16 +86,15 @@ Hier volgt een voorbeeld van HTML-code waarmee de viewer in het nieuwe venster w
 
 In de ingesloten modus wordt de viewer toegevoegd aan de bestaande webpagina, waar al inhoud van de klant beschikbaar is die geen betrekking heeft op de viewer. De viewer neemt doorgaans slechts een deel van het vastgoed van een webpagina in beslag.
 
-Het primaire gebruiksgeval zijn webpagina&#39;s die zijn georiënteerd op desktops of tablets, en ook responsieve webpagina&#39;s die de lay-out automatisch aanpassen, afhankelijk van het apparaattype.
+De meest gebruikte gevallen zijn webpagina&#39;s die zijn georiënteerd op desktops of tablets, en responsieve webpagina&#39;s die de lay-out automatisch aanpassen, afhankelijk van het apparaattype.
 
-Insluiten met vaste grootte wordt gebruikt wanneer de viewer de grootte niet wijzigt na de eerste keer laden. Dit is de beste keuze voor webpagina&#39;s met een statische indeling.
+Insluiten met vaste grootte wordt gebruikt wanneer de viewer de grootte niet wijzigt na de eerste keer laden. Deze methode is de beste keuze voor webpagina&#39;s met een statische indeling.
 
-Bij het insluiten van responsieve bestanden wordt ervan uitgegaan dat de viewer tijdens de uitvoering mogelijk het formaat moet wijzigen als gevolg van de gewijzigde grootte van de container-DIV. De meest gebruikte optie is het toevoegen van een viewer aan een webpagina die een flexibele indeling gebruikt.
+Bij het insluiten van responsieve bestanden wordt ervan uitgegaan dat de gebruiker de grootte tijdens runtime moet wijzigen als gevolg van de wijziging van de grootte van de container-DIV. De meest gebruikte optie is het toevoegen van een viewer aan een webpagina die een flexibele indeling gebruikt.
 
-In de responsieve modus gedraagt de viewer zich anders, afhankelijk van de manier waarop de container-DIV door de webpagina wordt vergroot. Als op de webpagina alleen de breedte van de container-DIV wordt ingesteld en de hoogte onbeperkt blijft, kiest de viewer automatisch de hoogte op basis van de hoogte-breedteverhouding van het gebruikte element. dit zal ervoor zorgen dat de activa perfect in het zicht passen zonder opvulling aan de zijkanten . Dit gebruiksgeval komt het meest voor op webpagina&#39;s die responsieve lay-outframeworks gebruiken, zoals Bootstrap, Foundation en dergelijke.
+In de responsieve modus gedraagt de viewer zich anders, afhankelijk van de manier waarop de container DIV van de webpagina wordt vergroot of verkleind. Als op de webpagina alleen de breedte van het DIV-containerelement wordt ingesteld en de hoogte onbeperkt blijft, kiest de viewer automatisch de hoogte op basis van de hoogte-breedteverhouding van het gebruikte element. Deze methode zorgt ervoor dat het element perfect in de weergave past zonder opvulling aan de zijkanten. Dit gebruiksgeval komt het meest voor op webpagina&#39;s die responsieve lay-outframeworks gebruiken, zoals Bootstrap, Foundation en dergelijke.
 
-Als de webpagina zowel de breedte als de hoogte voor de container-DIV van de viewer instelt, vult de viewer alleen dat gebied en volgt deze het formaat dat wordt aangegeven door de indeling van de webpagina. Een goed voorbeeld is het insluiten van de viewer in een modale overlay, waarbij de grootte van de overlay afhankelijk is van de venstergrootte van de webbrowser.
-
+Als de webpagina de breedte en de hoogte voor de container-DIV van de viewer instelt, vult de viewer dat gebied en volgt deze het formaat dat wordt aangegeven door de indeling van de webpagina. Een goed voorbeeld is het insluiten van de viewer in een modale overlay, waarbij de grootte van de overlay wordt aangepast aan de venstergrootte van de webbrowser.
 
 **Insluiten met vaste grootte**
 
@@ -161,7 +160,6 @@ Relatief pad ziet er als volgt uit:
 
    Een op CSS gebaseerde benadering wordt aanbevolen en wordt in dit voorbeeld gebruikt.
 
-
 1. De viewer maken en initialiseren.
 
    Wanneer u de bovenstaande stappen hebt uitgevoerd, maakt u een instantie van `s7viewers.PanoramicViewer` klasse, geef alle configuratieinformatie tot zijn aannemer door en roep `init(`) op een viewer-instantie. De informatie van de configuratie wordt overgegaan tot de aannemer als voorwerp JSON. Dit object moet minimaal het veld containerId hebben met de naam van de viewercontainer-id en het geneste JSON-object params met configuratieparameters die door de viewer worden ondersteund. In dit geval moet voor params-objecten ten minste de URL voor afbeeldingsserver worden doorgegeven `serverUrl` eigenschap en eerste element als parameter element. Met de op JSON gebaseerde initialisatie-API kunt u de viewer maken en starten met één coderegel.
@@ -215,7 +213,7 @@ Relatief pad ziet er als volgt uit:
 
 **Responsief ontwerpinsluiting met onbeperkte hoogte**
 
-Bij het responsieve insluiten van de webpagina heeft deze gewoonlijk een flexibele indeling die de runtime-grootte van de container van de viewer (DIV) bepaalt. In dit voorbeeld gaan we ervan uit dat de webpagina de container DIV van de viewer toestaat 80% van de venstergrootte van de webbrowser in beslag te nemen, zodat de hoogte onbeperkt blijft. De HTML-code van de webpagina kan er als volgt uitzien:
+Met het responsieve insluiten heeft de webpagina normaal gesproken een of andere flexibele indeling die de uitvoeringsgrootte van de container van de viewer DIV instelt. In dit voorbeeld gaan we ervan uit dat de webpagina de container DIV van de viewer toestaat 80% van de venstergrootte van de webbrowser in beslag te nemen, zodat de hoogte onbeperkt blijft. De HTML-code van de webpagina kan er als volgt uitzien:
 
 ```
 <!DOCTYPE html> 
@@ -233,7 +231,7 @@ Bij het responsieve insluiten van de webpagina heeft deze gewoonlijk een flexibe
 </html> 
 ```
 
-Het toevoegen van de viewer aan een dergelijke pagina lijkt sterk op het insluiten van een vaste grootte, met het enige verschil dat u niet expliciet de viewergrootte hoeft te definiëren:
+Het toevoegen van de viewer aan een dergelijke pagina is vergelijkbaar met het insluiten van een vaste grootte, met het enige verschil dat u niet expliciet de viewergrootte hoeft te definiëren:
 
 1. Het JavaScript-bestand van de viewer toevoegen aan uw webpagina.
 1. De container DIV definiëren.

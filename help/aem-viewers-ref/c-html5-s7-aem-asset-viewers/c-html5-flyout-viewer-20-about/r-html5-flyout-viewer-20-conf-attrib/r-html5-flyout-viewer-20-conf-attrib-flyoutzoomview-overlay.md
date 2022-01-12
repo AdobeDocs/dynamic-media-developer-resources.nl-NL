@@ -1,13 +1,13 @@
 ---
+title: FlyoutZoomView.overlay
 description: FlyoutZoomView.overlay
 solution: Experience Manager
-title: FlyoutZoomView.overlay
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 7fbf24c6-900f-4e94-b879-3a8f95dc5c08
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '104'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Hiermee bepaalt u de vormgeving van de hooglichten van de hoofdweergave wanneer de vervolgkeuzelijst actief is. Wanneer ingesteld op <span class="codeph"> 0</span>, wordt het gebied dat momenteel zichtbaar is in het vervolgvenster gemarkeerd met stijlen die worden geleverd door <span class="codeph"> .s7highlight</span> of <span class="codeph"> .s7cursor</span> CSS-klassenamen (afhankelijk van de waarde van <span class="codeph"> markeringsmodus</span> modifier). Wanneer ingesteld op <span class="codeph"> 1</span> wordt de modus Omgekeerd geactiveerd, waarbij het momenteel weergegeven gebied volledig transparant is (voor het geval <span class="codeph"> highlight mode</span> is ingesteld op <span class="codeph"> highlight</span>) of is opgemaakt met <span class="codeph"> .s7cursor</span> CSS-klassenaam (in geval <span class="codeph"> highlight</span> is ingesteld op <span class="codeph"> cursor</span>), maar het omliggende gebied wordt gevuld met stijlen die worden geboden door <span class="codeph"> .s7overlay</span> CSS-klassenaam. </p> </td> 
+   <td colname="col2"> <p> Hiermee bepaalt u de vormgeving van de hooglichten van de hoofdweergave wanneer de vervolgkeuzelijst actief is. Wanneer ingesteld op <span class="codeph"> 0</span>, wordt het gebied dat momenteel zichtbaar is in het vervolgvenster gemarkeerd met stijlen die worden verschaft door <span class="codeph"> .s7highlight</span> of door <span class="codeph"> .s7cursor</span> Namen van CSS-klassen (afhankelijk van de waarde van <span class="codeph"> markeringsmodus</span> modifier). Wanneer ingesteld op <span class="codeph"> 1</span> wordt de modus "Omgekeerd" geactiveerd waarbij het momenteel weergegeven gebied volledig transparant is (voor het geval <span class="codeph"> markeringsmodus</span> is ingesteld op <span class="codeph"> highlight</span>) of gestileerd met <span class="codeph"> .s7cursor</span> CSS-klassenaam (in het geval <span class="codeph"> markeringsmodus</span> is ingesteld op <span class="codeph"> cursor</span>), maar het omliggende gebied wordt gevuld met stijlen die worden geleverd door <span class="codeph"> .s7overlay</span> CSS-klassenaam. </p> </td> 
   </tr> 
  </tbody> 
 </table>

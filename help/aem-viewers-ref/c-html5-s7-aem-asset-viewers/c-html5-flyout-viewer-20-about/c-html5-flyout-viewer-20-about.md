@@ -1,14 +1,14 @@
 ---
+title: Flyout
 description: Flyout Viewer is een beeldviewer. Er wordt een statische afbeelding weergegeven met de ingezoomde versie die wordt weergegeven in de vervolgweergave die een gebruiker activeert. Deze viewer werkt met afbeeldingssets en de navigatie wordt uitgevoerd met stalen. Het is ontworpen voor gebruik op desktops en mobiele apparaten.
 keywords: responsief
 solution: Experience Manager
-title: Flyout
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 9b60330f-5348-431d-9682-cf97aace3679
-source-git-commit: f77dc0c1ac8305037bbb561451317c8e62209cec
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '2072'
+source-wordcount: '2065'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ De Flyout Viewer is alleen bedoeld voor ingesloten gebruik, wat betekent dat dez
 
 Configuratie en skins zijn vergelijkbaar met die van de andere viewers. U kunt aangepaste CSS gebruiken om skins toe te passen.
 
-Zie [De verwijzing van het Bevel gemeenschappelijk voor alle kijkers - de attributen van de Configuratie](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) en [De verwijzing van het Bevel gemeenschappelijk voor alle Kijkers - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+Zie [Command reference common to all viewers - Configuration attributes](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) en [Command reference common to all Viewers - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
 ## Interactie met Flyout Viewer {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
@@ -70,7 +70,7 @@ De viewer ondersteunt ook aanraakinvoer en muisinvoer op Windows-apparaten met a
 
 Deze viewer is volledig toegankelijk via het toetsenbord.
 
-Zie [Toegankelijkheid en navigatie op toetsenbord](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
+Zie [Toetsenbordtoegankelijkheid en -navigatie](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
 ## Flyout-viewer insluiten {#section-6bb5d3c502544ad18a58eafe12a13435}
 
@@ -80,28 +80,28 @@ De insluitingsmodus met een vaste grootte wordt gebruikt wanneer de viewer de gr
 
 Bij de insluitingsmodus voor responsief ontwerp wordt ervan uitgegaan dat de viewer tijdens runtime de grootte moet wijzigen als reactie op de wijziging van de grootte van de container `DIV`. De meest gebruikte optie is het toevoegen van een viewer aan een webpagina die een flexibele pagina-indeling gebruikt.
 
-Wanneer u responsieve ontwerpinsluitingsmodus gebruikt met de Flyout-viewer, moet u expliciete onderbrekingspunten opgeven voor de hoofdweergaveafbeelding met de parameter `imagereload`. In het ideale geval past u uw onderbrekingspunten aan met de breedteonderbrekingspunten van de viewer die door de CSS van de webpagina worden voorgeschreven.
+Wanneer u responsieve ontwerpinsluitingsmodus gebruikt met de Flyout-viewer, moet u expliciete onderbrekingspunten opgeven voor de hoofdweergaveafbeelding met de opdracht `imagereload` parameter. In het ideale geval past u uw onderbrekingspunten aan met de breedteonderbrekingspunten van de viewer die door de CSS van de webpagina worden voorgeschreven.
 
-In de responsieve ontwerpinsluitingsmodus werkt de viewer anders, afhankelijk van de grootte van een webpaginacontainer `DIV`. Als de webpagina alleen de breedte van de container `DIV` instelt en de hoogte onbeperkt laat, kiest de viewer automatisch de hoogte op basis van de hoogte-breedteverhouding van het element dat wordt gebruikt. Dit betekent dat het element perfect in de weergave past zonder opvulling aan de zijkanten. Dit specifieke gebruiksgeval is het gemeenschappelijkst voor Web-pagina&#39;s die ontvankelijke kaders van de ontwerplay-out zoals Bootstrap en Stichting gebruiken.
+In de responsieve ontwerpinsluitmodus werkt de viewer anders, afhankelijk van de manier waarop een webpaginacontainer werkt `DIV` is groot. Als de webpagina alleen de breedte van de container instelt `DIV`Als de hoogte onbeperkt blijft, kiest de viewer automatisch de hoogte op basis van de hoogte-breedteverhouding van het gebruikte element. Dit betekent dat het element perfect in de weergave past zonder opvulling aan de zijkanten. Dit specifieke gebruiksgeval is het gemeenschappelijkst voor Web-pagina&#39;s die ontvankelijke kaders van de ontwerplay-out zoals Bootstrap en Stichting gebruiken.
 
-Als de webpagina anders zowel de breedte als de hoogte voor de container `DIV` van de viewer instelt, vult de viewer alleen dat gebied en volgt deze het formaat dat wordt aangegeven door de indeling van de webpagina. Een voorbeeld van een nuttig geval is het insluiten van de viewer in een modale overlay, waarbij de grootte van de overlay wordt aangepast aan de venstergrootte van de webbrowser.
+Anders, als de Web-pagina zowel de breedte als de hoogte voor de container van de kijker plaatst `DIV`en vult de viewer alleen dat gebied en volgt het formaat dat wordt aangegeven door de indeling van de webpagina. Een voorbeeld van een nuttig geval is het insluiten van de viewer in een modale overlay, waarbij de grootte van de overlay wordt aangepast aan de venstergrootte van de webbrowser.
 
 **Insluiten met vaste grootte**
 
 U voegt de viewer als volgt toe aan een webpagina:
 
 1. Het JavaScript-bestand van de viewer toevoegen aan uw webpagina.
-1. De container `DIV` definiëren.
+1. De container definiëren `DIV`.
 1. De viewergrootte instellen.
 1. De viewer maken en initialiseren.
 
 1. Het JavaScript-bestand van de viewer toevoegen aan uw webpagina.
 
-   Voor het maken van een viewer moet u een scripttag aan de HTML-kop toevoegen. Voordat u de viewer-API kunt gebruiken, moet u `FlyoutViewer.js` opnemen. `FlyoutViewer.js` bevindt zich in de volgende  [!DNL html5/js/] submap van uw standaard IS-Viewers implementatie:
+   Voor het maken van een viewer moet u een scripttag toevoegen aan de kop van de HTML. Voordat u de viewer-API kunt gebruiken, moet u controleren of deze `FlyoutViewer.js`. `FlyoutViewer.js` bevindt zich in het volgende [!DNL html5/js/] submap van uw standaard IS-Viewers-implementatie:
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-U kunt een relatief pad gebruiken als de viewer wordt geïmplementeerd op een van de Adobe Dynamic Media-servers en vanuit hetzelfde domein wordt aangeboden. Anders geeft u een volledig pad op naar een van de Adobe Dynamic Media-servers waarop IS-Viewers zijn geïnstalleerd.
+U kunt een relatief pad gebruiken als de viewer wordt geïmplementeerd op een van de Adobe Dynamic Media-servers en vanuit hetzelfde domein wordt aangeboden. Anders geeft u een volledig pad op naar een van de Adobe Dynamic Media-servers waarop de IS-Viewers zijn geïnstalleerd.
 
 Een relatief pad ziet er als volgt uit:
 
@@ -111,18 +111,18 @@ Een relatief pad ziet er als volgt uit:
 
 >[!NOTE]
 >
->Verwijs alleen naar het JavaScript-bestand `include` van de hoofdviewer op de pagina. Verwijs niet naar extra JavaScript-bestanden in de webpaginacode die door de logica van de viewer in runtime kunnen worden gedownload. Verwijs met name niet rechtstreeks naar de HTML5 SDK `Utils.js`-bibliotheek die door de viewer is geladen vanaf het contextpad `/s7viewers` (de zogeheten geconsolideerde SDK `include`). De reden hiervoor is dat de locatie van `Utils.js` of vergelijkbare runtimeviewerbibliotheken volledig wordt beheerd door de logica van de viewer en dat de locatie verandert tussen de viewerreleases. Adobe houdt oudere versies van de secundaire viewer `includes` niet op de server.
+>Alleen verwijzen naar de JavaScript-hoofdviewer `include` op uw pagina. Verwijs niet naar extra JavaScript-bestanden in de webpaginacode die door de logica van de viewer in runtime kunnen worden gedownload. Verwijs met name niet rechtstreeks naar HTML5 SDK `Utils.js` bibliotheek die door de viewer is geladen vanuit `/s7viewers` contextpad (de zogenaamde geconsolideerde SDK) `include`). De reden is dat de locatie van `Utils.js` of vergelijkbare runtimeviewerbibliotheken worden volledig beheerd door de logica van de viewer en de locatie verandert tussen de viewerreleases. Adobe houdt oudere versies van de secundaire viewer niet bij `includes` op de server.
 >
 >
->Als u dus een directe verwijzing naar een secundair JavaScript `include` op de pagina plaatst, wordt de viewerfunctionaliteit in de toekomst verbroken wanneer een nieuwe productversie wordt geïmplementeerd.
+>Hierdoor wordt een directe verwijzing naar secundaire JavaScript geplaatst `include` die door de viewer op de pagina worden gebruikt, verbreekt de viewerfunctionaliteit in de toekomst wanneer een nieuwe productversie wordt geïmplementeerd.
 
 1. De container DIV definiëren.
 
    Voeg een leeg DIV-element toe aan de pagina waarop u de viewer wilt weergeven. De id van het DIV-element moet worden gedefinieerd, omdat deze id later wordt doorgegeven aan de viewer-API.
 
-   De plaatsaanduiding DIV is een gepositioneerd element, wat betekent dat de CSS-eigenschap `position` is ingesteld op `relative` of `absolute`.
+   De plaatsaanduiding DIV is een gepositioneerd element, wat betekent dat de `position` CSS-eigenschap is ingesteld op `relative` of `absolute`.
 
-   Het is de verantwoordelijkheid van de webpagina om de juiste `z-index` voor het plaatsaanduidingselement DIV op te geven. Zo zorgt u ervoor dat het vervolggedeelte van de viewer boven op de andere webpagina-elementen wordt weergegeven.
+   Het is de verantwoordelijkheid van de webpagina om de juiste `z-index` voor de plaatsaanduiding DIV-element. Zo zorgt u ervoor dat het vervolggedeelte van de viewer boven op de andere webpagina-elementen wordt weergegeven.
 
    Hieronder ziet u een voorbeeld van een gedefinieerd plaatsaanduiding DIV-element:
 
@@ -132,11 +132,11 @@ Een relatief pad ziet er als volgt uit:
 
 1. De viewergrootte instellen.
 
-   In deze viewer worden miniaturen weergegeven wanneer u werkt met sets met meerdere items. Op desktopsystemen worden miniaturen onder de hoofdweergave geplaatst. Tegelijkertijd kan de viewer het hoofdelement tijdens runtime wisselen met de API `setAsset()`. Als ontwikkelaar hebt u controle over de manier waarop de viewer het miniatuurgebied in het onderste gebied beheert wanneer het nieuwe element slechts één item bevat. Het is mogelijk de grootte van de buitenste viewer ongewijzigd te laten en de hoogte van de hoofdweergave te verhogen en het gebied met miniaturen in beslag te nemen. U kunt ook de grootte van de hoofdweergave statisch houden en het buitenste viewergebied samenvouwen, de inhoud van de webpagina omhoog laten verplaatsen en vervolgens het openstaande paginagebied van de miniaturen gebruiken.
+   In deze viewer worden miniaturen weergegeven wanneer u werkt met sets met meerdere items. Op desktopsystemen worden miniaturen onder de hoofdweergave geplaatst. Tegelijkertijd kan de viewer het hoofdelement tijdens runtime wisselen met `setAsset()` API. Als ontwikkelaar hebt u controle over de manier waarop de viewer het miniatuurgebied in het onderste gebied beheert wanneer het nieuwe element slechts één item bevat. Het is mogelijk de grootte van de buitenste viewer ongewijzigd te laten en de hoogte van de hoofdweergave te verhogen en het gebied met miniaturen in beslag te nemen. U kunt ook de grootte van de hoofdweergave statisch houden en het buitenste viewergebied samenvouwen, de inhoud van de webpagina omhoog laten verplaatsen en vervolgens het openstaande paginagebied van de miniaturen gebruiken.
 
-   Als u de buitenste grenzen van de viewer ongewijzigd wilt laten, definieert u de grootte voor de CSS-klasse op hoofdniveau in absolute eenheden. `.s7flyoutviewer` De grootte in CSS kan op de HTML-pagina of in een aangepast CSS-bestand van de viewer worden geplaatst, later worden toegewezen aan een viewer-voorinstellingsrecord in Dynamic Media Classic, of expliciet worden doorgegeven met de opdracht style.
+   Als u de buitenste grenzen van de viewer ongewijzigd wilt laten, definieert u de grootte voor `.s7flyoutviewer` CSS-klasse op hoofdniveau in absolute eenheden. De grootte in CSS kan op de pagina van de HTML worden gezet, of in een douaneCSS dossier van de kijker, later toegewezen aan een kijker vooraf ingestelde verslag in Dynamic Media Classic, of uitdrukkelijk overgegaan gebruikend stijlbevel.
 
-   Zie [Flyout Viewer aanpassen](../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#concept-82f8c71adbe54680a0c2f83f81e5f451) voor meer informatie over het opmaken van de viewer met CSS.
+   Zie [Flyout-viewer aanpassen](../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#concept-82f8c71adbe54680a0c2f83f81e5f451) voor meer informatie over het opmaken van de viewer met CSS.
 
    Hieronder ziet u een voorbeeld van het definiëren van de statische buitenste viewergrootte in een HTML-pagina:
 
@@ -151,9 +151,9 @@ Een relatief pad ziet er als volgt uit:
 
    [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html)
 
-   Als u de afmetingen van de hoofdweergave statisch wilt maken, definieert u de viewergrootte in absolute eenheden voor de binnenste SDK-component met behulp van `.s7flyoutviewer .s7container` CSS-kiezer. `Container` Daarnaast moet u de vaste grootte die is gedefinieerd voor de CSS-klasse op hoofdniveau in de standaard viewer-CSS negeren door deze in te stellen op `auto`.`.s7flyoutviewer`
+   Als u de afmetingen van de hoofdweergave statisch wilt maken, definieert u de viewergrootte in absolute eenheden voor het binnenste `Container` SDK-component gebruiken `.s7flyoutviewer .s7container` CSS-kiezer. Bovendien moet u de vaste grootte overschrijven die is gedefinieerd voor de `.s7flyoutviewer` CSS-klasse op hoofdniveau in de standaard viewer-CSS door deze in te stellen op `auto`.
 
-   Hieronder ziet u een voorbeeld van het definiëren van de viewergrootte voor de binnenste SDK-component `Container`, zodat de grootte van het hoofdweergavegebied niet wordt gewijzigd wanneer u van element verandert:
+   Hieronder ziet u een voorbeeld van het definiëren van de viewergrootte voor de binnenzijde `Container` SDK-component, zodat het hoofdweergavegebied niet van grootte verandert wanneer u van element verandert:
 
    ```
    #s7viewer.s7flyoutviewer { 
@@ -174,13 +174,13 @@ Een relatief pad ziet er als volgt uit:
 
 1. De viewer maken en initialiseren.
 
-   Wanneer u de bovenstaande stappen hebt uitgevoerd, maakt u een instantie van de klasse `s7viewers.FlyoutViewer`, geeft u alle configuratiegegevens door aan de constructor en roept u `init()` methode aan voor een viewerinstantie. De informatie van de configuratie wordt overgegaan tot de aannemer als voorwerp JSON. Dit object moet minstens het veld `containerId` hebben dat de naam van de viewercontainer-id bevat en het geneste JSON-object `params` met configuratieparameters die de viewer ondersteunt. In dit geval moet voor het `params`-object ten minste de URL van de afbeeldingsserver worden doorgegeven als `serverUrl`-eigenschap en het eerste element als `asset`-parameter. Met de op JSON gebaseerde initialisatie-API kunt u de viewer maken en starten met één coderegel.
+   Wanneer u de bovenstaande stappen hebt uitgevoerd, maakt u een instantie van `s7viewers.FlyoutViewer` klasse, geef alle configuratieinformatie tot zijn aannemer door en roep `init()` op een viewerinstantie. De informatie van de configuratie wordt overgegaan tot de aannemer als voorwerp JSON. Dit object moet ten minste het volgende bevatten: `containerId` veld met de naam van de container-id van de viewer en het geneste veld `params` JSON-object met configuratieparameters die door de viewer worden ondersteund. In dit geval worden de `params` Het object moet ten minste de URL van de afbeeldingsserver hebben doorgegeven zoals `serverUrl` en het oorspronkelijke actief als `asset` parameter. Met de op JSON gebaseerde initialisatie-API kunt u de viewer maken en starten met één coderegel.
 
-   Het is belangrijk dat de viewercontainer aan de DOM wordt toegevoegd, zodat de viewercode het containerelement op basis van de id kan vinden. Sommige browsers stellen het samenstellen van DOM tot het einde van de webpagina uit. Voor maximale compatibiliteit roept u de methode `init()` aan vlak voor de afsluitingstag `BODY` of op de hoofdgebeurtenis `onload()`.
+   Het is belangrijk dat de viewercontainer aan de DOM wordt toegevoegd, zodat de viewercode het containerelement op basis van de id kan vinden. Sommige browsers stellen het samenstellen van DOM tot het einde van de webpagina uit. Voor maximale compatibiliteit roept u de `init()` methode vlak voor het sluiten `BODY` -tag of op de hoofdtekst `onload()` gebeurtenis.
 
-   Tegelijkertijd mag het containerelement nog niet noodzakelijkerwijs deel uitmaken van de webpaginalay-out. Het kan bijvoorbeeld worden verborgen met de stijl `display:none` die eraan is toegewezen. In dit geval vertraagt de viewer het initialisatieproces totdat de webpagina het containerelement weer in de layout plaatst. Wanneer deze actie wordt uitgevoerd, wordt het laden van de viewer automatisch hervat.
+   Tegelijkertijd mag het containerelement nog niet noodzakelijkerwijs deel uitmaken van de webpaginalay-out. Het kan bijvoorbeeld verborgen zijn met `display:none` stijl die eraan is toegewezen. In dit geval vertraagt de viewer het initialisatieproces totdat de webpagina het containerelement weer in de layout plaatst. Wanneer deze actie wordt uitgevoerd, wordt het laden van de viewer automatisch hervat.
 
-   Hieronder ziet u een voorbeeld van het maken van een viewer-instantie, waarbij de minimaal benodigde configuratieopties worden doorgegeven aan de constructor en de methode `init()` wordt aangeroepen. In het voorbeeld wordt ervan uitgegaan dat `flyoutViewer` de viewerinstantie is; `s7viewer` is de naam van de tijdelijke aanduiding `DIV`; `http://s7d1.scene7.com/is/image/` is de URL van de afbeeldingsserver; en `Scene7SharedAssets/ImageSet-Views-Sample` is het middel:
+   Hieronder ziet u een voorbeeld van het maken van een viewer-instantie, het doorgeven van de minimaal benodigde configuratieopties aan de constructor en het aanroepen van de `init()` methode. In het voorbeeld wordt ervan uitgegaan `flyoutViewer` de viewer-instantie is; `s7viewer` is de naam van de tijdelijke aanduiding `DIV`; `http://s7d1.scene7.com/is/image/` is de URL van de afbeeldingsserver; en `Scene7SharedAssets/ImageSet-Views-Sample` is het actief:
 
    ```
    <script type="text/javascript"> 
@@ -225,7 +225,7 @@ Een relatief pad ziet er als volgt uit:
 
 ## Responsief ontwerpinsluiting met onbeperkte hoogte {#section-056cb574713c4d07be6d07cf3c598839}
 
-Bij responsieve ontwerpinsluiting heeft de webpagina normaal gesproken een flexibele indeling die de runtimegrootte van de container van de viewer `DIV` bepaalt. In het volgende voorbeeld gaat u ervan uit dat de webpagina de container `DIV` van de viewer 40% van de venstergrootte van de webbrowser laat nemen, zodat de hoogte onbeperkt blijft. De HTML-code van de webpagina ziet er als volgt uit:
+Bij responsieve ontwerpinsluiting heeft de webpagina normaal gesproken een flexibele indeling die de runtimegrootte van de container van de viewer bepaalt `DIV`. In het volgende voorbeeld wordt ervan uitgegaan dat de webpagina de container van de viewer toestaat `DIV` om 40% van de grootte van het venster van de Webbrowser te nemen, verlatend zijn hoogte onbeperkt. De HTML-code van de webpagina ziet er als volgt uit:
 
 ```
 <!DOCTYPE html> 
@@ -246,14 +246,14 @@ Bij responsieve ontwerpinsluiting heeft de webpagina normaal gesproken een flexi
 Het toevoegen van de viewer aan een dergelijke pagina is vergelijkbaar met de stappen voor het insluiten van een vaste grootte. Het enige verschil is dat u de vaste grootte van de standaardviewer-CSS moet overschrijven met de grootte die is ingesteld in relatieve eenheden.
 
 1. Het JavaScript-bestand van de viewer toevoegen aan uw webpagina.
-1. De container `DIV` definiëren.
+1. De container definiëren `DIV`.
 1. De viewergrootte instellen.
 1. De viewer maken en initialiseren.
 
 Alle bovenstaande stappen zijn gelijk aan de stappen voor de insluiting van een vaste grootte, met de volgende drie uitzonderingen:
 
-* de container `DIV` toevoegen aan de bestaande &quot;houder&quot; `DIV`;
-* `imagereload` parameter met expliciete onderbrekingspunten toegevoegd;
+* de container toevoegen `DIV` aan de bestaande &quot;houder&quot; `DIV`;
+* added `imagereload` parameter met expliciete onderbrekingspunten;
 * in plaats van een vaste viewergrootte in te stellen met absolute eenheden gebruikt u CSS die de breedte en hoogte van de viewer instelt op 100% zoals in het volgende voorbeeld:
 
 ```
@@ -306,7 +306,7 @@ De volgende voorbeeldpagina illustreert het levensechte gebruik van responsieve 
 
 ## Flexibele insluiting van grootte met gedefinieerde breedte en hoogte {#section-0a329016f9414d199039776645c693de}
 
-Als er insluiting in flexibele grootte is waarbij de breedte en hoogte zijn gedefinieerd, is de opmaak van de webpagina anders. Het verstrekt beide grootte aan `"holder"` DIV en centreert het in het browser venster. Bovendien stelt de webpagina de grootte van het element `HTML` en `BODY` in op 100 procent.
+Als er insluiting in flexibele grootte is waarbij de breedte en hoogte zijn gedefinieerd, is de opmaak van de webpagina anders. Het verstrekt beide grootte aan `"holder"` DIV en centreert het in het browser venster. Bovendien stelt de webpagina de grootte van de `HTML` en `BODY` element aan 100 percenten.
 
 ```
 <!DOCTYPE html> 
@@ -377,7 +377,7 @@ var flyoutViewer = new s7viewers.FlyoutViewer({
 
 ## Insluiten met behulp van op Setter gebaseerde API {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}
 
-In plaats van JSON-gebaseerde initialisatie, is het mogelijk om op setter-gebaseerde API en no-args aannemer te gebruiken. Wanneer u deze API-constructor gebruikt, worden geen parameters gebruikt en worden configuratieparameters opgegeven met de API-methoden `setContainerId()`, `setParam()` en `setAsset()`, met aparte JavaScript-aanroepen.
+In plaats van JSON-gebaseerde initialisatie, is het mogelijk om op setter-gebaseerde API en no-args aannemer te gebruiken. Met deze API-constructor worden geen parameters gebruikt en worden configuratieparameters opgegeven met `setContainerId()`, `setParam()`, en `setAsset()` API-methoden, met afzonderlijke JavaScript-aanroepen.
 
 In het volgende voorbeeld wordt het gebruik van insluiting op vaste grootte met een setter-API geïllustreerd:
 
