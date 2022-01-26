@@ -1,13 +1,13 @@
 ---
+title: Kleurstalen
 description: Kleurstalen bestaan uit een rij miniatuurafbeeldingen met optionele schuifknoppen aan de linker- en rechterkant. Kleurstalen zijn alleen zichtbaar op het bureaublad als alle miniaturen niet in de breedte van de container passen. Op mobiele apparaten, of als de duimnagels in de containerbreedte kunnen passen, worden de rolknopen niet getoond.
 solution: Experience Manager
-title: Kleurstalen
-feature: Dynamic Media Classic,Viewers,SDK/API,Gemengde mediasets
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 0a73d1c9-362d-48a5-96c9-3d543e68ebec
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -31,11 +31,11 @@ De vormgeving van de stalencontainer wordt beheerd met de CSS-klassenkiezer:
    <td colname="col2"> <p>De breedte van de stalen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>De hoogte van de stalen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
    <td colname="col2"> <p>De verticale verschuiving van stalen ten opzichte van de viewercontainer. </p> </td> 
   </tr> 
  </tbody> 
@@ -64,8 +64,8 @@ De afstand tussen de staalminiaturen wordt geregeld met de volgende CSS-klassenk
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge  </span> </p> </td> 
-   <td colname="col2"> <p> De grootte van de horizontale en verticale marge rond elke miniatuur. De werkelijke miniatuurafstand is gelijk aan de som van de linker- en rechtermarge die is ingesteld voor <span class="codeph"> .s7minicell </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge </span> </p> </td> 
+   <td colname="col2"> <p> De grootte van de horizontale en verticale marge rond elke miniatuur. De werkelijke miniatuurafstand is gelijk aan de som van de linker- en rechtermarge die is ingesteld voor <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -93,15 +93,15 @@ De weergave van de afzonderlijke miniatuur wordt bepaald door de volgende CSS-kl
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Breedte van de miniatuur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van de miniatuur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Rand van de miniatuur. </p> </td> 
   </tr> 
  </tbody> 
@@ -109,7 +109,7 @@ De weergave van de afzonderlijke miniatuur wordt bepaald door de volgende CSS-kl
 
 >[!NOTE]
 >
->Miniatuur ondersteunt de kenmerkenkiezer `state`, die kan worden gebruikt om verschillende skins toe te passen op verschillende miniatuurtoestanden. Met name `state="selected"` komt overeen met de miniatuur van de afbeelding die momenteel wordt weergegeven in de hoofdweergave, `state="default"` komt overeen met de rest van de miniaturen en `state="over"` wordt gebruikt bij de muisaanwijzer.
+>De miniatuur ondersteunt de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende skins toe te passen op verschillende miniatuurtoestanden. Met name: `state="selected"` komt overeen met de miniatuur voor de afbeelding die momenteel wordt weergegeven in de hoofdweergave, `state="default"` overeenkomt met de rest van de miniaturen, en `state="over"` wordt gebruikt bij muisaanwijzer.
 
 Voorbeeld: als u miniaturen wilt instellen die 56 x 56 pixels zijn, hebt u een lichtgrijze standaardrand en een donkergrijze geselecteerde rand.
 
@@ -126,13 +126,13 @@ Voorbeeld: als u miniaturen wilt instellen die 56 x 56 pixels zijn, hebt u een l
 }
 ```
 
-De vormgeving van de linker- en rechterschuifknoppen wordt bepaald door de volgende CSS-klassekiezers:
+De vormgeving van de linker- en rechterschuifknoppen wordt bepaald door de volgende CSS-klassenkiezers:
 
 `.s7mixedmediaviewer .s7colorswatches .s7swatches .s7scrollleftbutton`
 
 `.s7mixedmediaviewer .s7colorswatches .s7swatches .s7scrollrightbutton`
 
-Het is niet mogelijk om rolknopen te plaatsen gebruikend CSS `top`, `left`, `bottom`, en `right` eigenschappen. In plaats daarvan worden ze automatisch door de viewerlogica geplaatst.
+Het is niet mogelijk om schuifknoppen met CSS te positioneren `top`, `left`, `bottom`, en `right` eigenschappen. In plaats daarvan worden ze automatisch door de viewerlogica geplaatst.
 
 <table id="table_A5663C4AAC4446168CAD8DBA2894BB9C"> 
  <thead> 
@@ -143,19 +143,19 @@ Het is niet mogelijk om rolknopen te plaatsen gebruikend CSS `top`, `left`, `bot
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Breedte van de schuifknop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van de schuifknop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
    <td colname="col2"> <p>De afbeelding die voor een bepaalde knopstatus wordt weergegeven. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -163,7 +163,7 @@ Het is niet mogelijk om rolknopen te plaatsen gebruikend CSS `top`, `left`, `bot
 
 >[!NOTE]
 >
->Deze knoop steunt `state` attributenselecteur, die kan worden gebruikt om verschillende huiden op verschillende knoopstaten toe te passen: `up`, `down`, `over` en `disabled`.
+>Deze knop ondersteunt de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende skins toe te passen op verschillende knoptoestanden: `up`, `down`, `over`, en `disabled`.
 
 Voorbeeld - voor het instellen van schuifknoppen met een grootte van 56 x 56 pixels en voor elke status met een andere illustratie.
 

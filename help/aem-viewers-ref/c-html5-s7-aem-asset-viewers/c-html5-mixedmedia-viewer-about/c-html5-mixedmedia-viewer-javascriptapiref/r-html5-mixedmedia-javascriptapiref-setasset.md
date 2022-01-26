@@ -1,13 +1,13 @@
 ---
+title: setAsset
 description: JavaScript API-referentie voor gemengde media-viewer.
 solution: Experience Manager
-title: setAsset
-feature: Dynamic Media Classic,Viewers,SDK/API,Gemengde mediasets
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 3ad78de9-17a6-40c9-b389-a1f7eed11635
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '217'
 ht-degree: 0%
 
 ---
@@ -18,17 +18,17 @@ JavaScript API-referentie voor gemengde media-viewer.
 
 ` setAsset( *`element`*[,data]))`
 
-Hiermee stelt u het nieuwe element en optionele aanvullende elementgegevens in. U kunt deze parameter op elk ogenblik roepen, of vóór of na `init()`. Als deze wordt aangeroepen na `init()`, wisselt de viewer het element tijdens runtime om.
+Hiermee stelt u het nieuwe element en optionele aanvullende elementgegevens in. U kunt deze parameter op elk gewenst moment vóór of na `init()`. Als het wordt aangeroepen na `init()`, wordt het element tijdens runtime vervangen door de viewer.
 
 Zie ook [init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
 
 ## Parameters {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`element`*` - { `String`} nieuwe element-id of expliciete gemengde mediaset, met optionele Image Serving-modifiers toegevoegd na  `?`.
+`*`element`*` - { `String`} nieuwe element-id of expliciete gemengde mediaset, met optionele Image Serving-modifiers toegevoegd na `?`.
 
 Afbeeldingen die gebruikmaken van IR (Image Rendering) of UGC (Door de gebruiker gegenereerde inhoud) worden niet ondersteund door deze viewer.
 
-`*`de locatie van het nieuwe bijschriftbestand`*`  ( { `JSON`} dataLocatie).
+`*`data`*` - { `JSON`} locatie van het nieuwe bijschriftbestand.
 
 Als deze optie niet is opgegeven, is de bijschriftknop niet zichtbaar in de gebruikersinterface. Bijschriften die met deze parameter worden opgegeven, gelden voor de video die als eerste in de gemengde mediaset wordt geplaatst. volgende video&#39;s worden zonder bijschriften afgespeeld. Deze viewer ondersteunt de volgende component-id&#39;s:
 
@@ -41,11 +41,11 @@ Als deze optie niet is opgegeven, is de bijschriftknop niet zichtbaar in de gebr
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posterimage  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posterimage </span> </p> </td> 
    <td colname="col2"> <p>Afbeelding die op het eerste frame moet worden weergegeven voordat de video wordt afgespeeld. </p> <p>Zie <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-posterimage.md#reference-f424ad0f278b4d14b86ea55e3a73c52b" format="dita" scope="local"> VideoPlayer.posterimage </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bijschrift  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bijschrift </span> </p> </td> 
    <td colname="col2"> <p> Locatie van het nieuwe bijschriftbestand. </p> <p>Als deze optie niet is opgegeven, is de bijschriftknop niet zichtbaar in de gebruikersinterface. Bijschriften die met deze parameter worden opgegeven, worden toegepast op de video die als eerste in de mediaset wordt weergegeven. Volgende video's worden zonder bijschriften afgespeeld. </p> </td> 
   </tr> 
  </tbody> 

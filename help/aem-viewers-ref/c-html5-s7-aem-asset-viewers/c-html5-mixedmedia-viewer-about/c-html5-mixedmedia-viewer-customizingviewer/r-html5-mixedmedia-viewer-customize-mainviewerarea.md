@@ -1,20 +1,20 @@
 ---
-description: Het belangrijkste weergavegebied is het gebied dat wordt ingenomen door de hoofdweergave en stalen. Deze wordt meestal ingesteld op weergave op het beschikbare apparaatscherm wanneer geen grootte is opgegeven.
-solution: Experience Manager
 title: Hoofdviewergebied
-feature: Dynamic Media Classic,Viewers,SDK/API,Gemengde mediasets
+description: Het belangrijkste weergavegebied is het gebied dat wordt ingenomen door de hoofdweergave en stalen. Deze wordt zo ingesteld dat deze op het beschikbare apparaatscherm past wanneer geen grootte is opgegeven.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: fe8b748c-5318-4fcd-9f3a-d50523bb3f8f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
 
 # Hoofdviewergebied{#main-viewer-area}
 
-Het belangrijkste weergavegebied is het gebied dat wordt ingenomen door de hoofdweergave en stalen. Deze wordt meestal ingesteld op weergave op het beschikbare apparaatscherm wanneer geen grootte is opgegeven.
+Het belangrijkste weergavegebied is het gebied dat wordt ingenomen door de hoofdweergave en stalen. Deze wordt zo ingesteld dat deze op het beschikbare apparaatscherm past wanneer geen grootte is opgegeven.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -39,17 +39,17 @@ De vormgeving van het weergavegebied wordt bepaald door de volgende CSS-klassenk
    <td colname="col2"> <p>De breedte van de viewer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>De hoogte van de viewer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Achtergrondkleur in hexadecimale notatie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voorbeeld: een viewer instellen met een witte achtergrond ( `#FFFFFF`) en de grootte ervan instellen op 512 x 288 pixels.
+Voorbeeld - Een viewer instellen met een witte achtergrond ( `#FFFFFF`) en maakt het formaat 512 x 288 pixels.
 
 ```
 .s7mixedmediaviewer { 

@@ -1,11 +1,11 @@
 ---
-description: De knop Volledig scherm zorgt ervoor dat de viewer de modus Volledig scherm opent of verlaat wanneer deze door de gebruiker is geselecteerd. Het wordt gebruikt wanneer de kijker video toont en in de controlebar wordt gevestigd. Deze knop wordt niet weergegeven als de viewer werkt in de pop-upmodus en het systeem geen native volledig scherm ondersteunt.
-solution: Experience Manager
 title: Knop Video volledig scherm
+description: De knop Volledig scherm zorgt ervoor dat de viewer de modus Volledig scherm opent of verlaat wanneer deze door de gebruiker is geselecteerd. Deze wordt gebruikt wanneer de viewer video weergeeft en wordt op de besturingsbalk geplaatst. Deze knop wordt niet weergegeven als de viewer werkt in de pop-upmodus en het systeem geen native volledig scherm ondersteunt.
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 45811efa-95f6-4b6d-96f8-9e5437a55f0e
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Knop Video volledig scherm{#video-full-screen-button}
 
-De knop Volledig scherm zorgt ervoor dat de viewer de modus Volledig scherm opent of verlaat wanneer deze door de gebruiker is geselecteerd. Het wordt gebruikt wanneer de kijker video toont en in de controlebar wordt gevestigd. Deze knop wordt niet weergegeven als de viewer werkt in de pop-upmodus en het systeem geen native volledig scherm ondersteunt.
+De knop Volledig scherm zorgt ervoor dat de viewer de modus Volledig scherm opent of verlaat wanneer deze door de gebruiker is geselecteerd. Deze wordt gebruikt wanneer de viewer video weergeeft en wordt op de besturingsbalk geplaatst. Deze knop wordt niet weergegeven als de viewer werkt in de pop-upmodus en het systeem geen native volledig scherm ondersteunt.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

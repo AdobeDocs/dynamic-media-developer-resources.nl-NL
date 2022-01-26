@@ -1,13 +1,13 @@
 ---
+title: Weergave draaien
 description: De hoofdweergave bestaat uit de draaiafbeelding wanneer het huidige element een spin-set is.
 solution: Experience Manager
-title: Weergave draaien
-feature: Dynamic Media Classic,Viewers,SDK/API,Gemengde mediasets
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: aafc1299-b09a-4379-bd8f-b564066175bd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
@@ -35,13 +35,13 @@ De vormgeving van het weergavegebied wordt bepaald door de volgende CSS-klassenk
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Achtergrondkleur in hexadecimale notatie van de centrifugeweergave. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voorbeeld - om de centrifugeweergave transparant te maken.
+Voorbeeld - De centrifugeweergave transparant maken.
 
 ```
 .s7mixedmediaviewer .s7spinview { 

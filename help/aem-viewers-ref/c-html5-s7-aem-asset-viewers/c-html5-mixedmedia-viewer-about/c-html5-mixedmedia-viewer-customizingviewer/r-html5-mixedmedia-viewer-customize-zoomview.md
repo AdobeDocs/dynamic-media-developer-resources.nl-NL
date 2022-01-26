@@ -1,13 +1,13 @@
 ---
+title: Zoomweergave
 description: In de modus voor ononderbroken zoomen bestaat de hoofdweergave uit een afbeelding waarop kan worden ingezoomd wanneer het huidige element één afbeelding is.
 solution: Experience Manager
-title: Zoomweergave
-feature: Dynamic Media Classic,Viewers,SDK/API,Gemengde mediasets
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 0252436b-ba96-4273-b796-d1772fc093b0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,11 @@ De vormgeving van het weergavegebied wordt bepaald door de volgende CSS-klassenk
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Achtergrondkleur in hexadecimale notatie van de hoofdweergave. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cursor  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cursor </span> </p> </td> 
    <td colname="col2"> <p>De cursor wordt weergegeven over de hoofdweergave. </p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +53,7 @@ Voorbeeld - om de zoomweergave transparant te maken.
 }
 ```
 
-Op desktopsystemen ondersteunt de component `cursortype`-kenmerkkiezer die op de `.s7zoomview`-klasse kan worden toegepast. Het controleert het type van de curseur die op componentenstaat en gebruikersactie wordt gebaseerd. De volgende `cursortype` waarden worden ondersteund:
+Op desktopsystemen ondersteunt de component `cursortype` kenmerkkiezer die op de `.s7zoomview` klasse. Het controleert het type van de curseur die op componentenstaat en gebruikersactie wordt gebaseerd. Het volgende `cursortype` waarden worden ondersteund:
 
 * `default`
 

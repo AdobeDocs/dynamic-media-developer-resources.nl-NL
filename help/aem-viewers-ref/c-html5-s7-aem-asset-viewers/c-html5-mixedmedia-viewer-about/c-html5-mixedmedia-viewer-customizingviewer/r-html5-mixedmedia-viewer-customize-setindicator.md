@@ -1,13 +1,13 @@
 ---
+title: Indicator instellen
 description: De indicator Set is een reeks punten die boven op hoofdstalen worden weergegeven wanneer een viewer wordt gebruikt op een aanraakapparaat. Met de puntjes kunnen gebruikers door pagina's met miniaturen navigeren wanneer er geen schuifknoppen beschikbaar zijn.
 solution: Experience Manager
-title: Indicator instellen
-feature: Dynamic Media Classic,Viewers,SDK/API,Gemengde mediasets
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 53ee058a-cb8c-4b1f-bb9b-caaecc12c947
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -35,13 +35,13 @@ De vormgeving van de setindicatorcontainer wordt beheerd met de volgende CSS-kla
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>De achtergrondkleur in hexadecimale notatie van de setindicator. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voorbeeld - instellen, indicator met een witte achtergrond:
+Voorbeeld - Een setindicator met een witte achtergrond maken:
 
 ```
 .s7mixedmediaviewer .s7setindicator { 
@@ -66,31 +66,31 @@ De vormgeving van een individuele set-indicator punt wordt bepaald door de CSS-k
    <td colname="col2"> <p>Breedte van punt van indicator instellen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van punt van de ingestelde indicator. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
    <td colname="col2"> <p>Linkermarge in pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
    <td colname="col2"> <p>Bovenmarge in pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge-rechts  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge-rechts </span> </p> </td> 
    <td colname="col2"> <p>Rechtermarge in pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-bottom </span> </p> </td> 
    <td colname="col2"> <p>Ondermarge in pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
    <td colname="col2"> <p>Randstraal in pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Achtergrondkleur in hexadecimale notatie. </p> </td> 
   </tr> 
  </tbody> 
@@ -98,9 +98,9 @@ De vormgeving van een individuele set-indicator punt wordt bepaald door de CSS-k
 
 >[!NOTE]
 >
->De vastgestelde indicatorpunt steunt de `state` attributenselecteur, die kan worden gebruikt om verschillende huiden op verschillende duimnagelstaten toe te passen. Met name `state="selected"` komt overeen met de huidige pagina met miniaturen. `state="unselected"` komt overeen met de standaardpuntstatus.
+>Punt van indicator instellen ondersteunt de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende skins toe te passen op verschillende miniatuurtoestanden. Met name: `state="selected"` komt overeen met de huidige pagina met miniaturen, `state="unselected"` komt overeen met de standaardpuntstatus.
 
-Voorbeeld - als u een indicatorpunt wilt instellen op 15 x 15 pixels, met twee pixels horizontale marge, vijf pixels bovenmarge, één pixel ondermarge, twaalf pixels straal, de standaardkleur #D5D3D3 en de actieve kleur #939393:
+Voorbeeld - Als u een setindicatorpunt van 15 x 15 pixels wilt maken met een horizontale marge van twee pixels, een bovenliggende pixelmarge, een ondermarge van één pixel, een straal van 12 pixels, een standaardkleur van #D5D3D3 en een actieve kleur van #939393:
 
 ```
 .s7mixedmediaviewer .s7setindicator .s7dot { 

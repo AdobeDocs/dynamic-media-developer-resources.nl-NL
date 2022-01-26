@@ -1,13 +1,13 @@
 ---
+title: weggooien
 description: JavaScript API-referentie voor gemengde media-viewer.
 solution: Experience Manager
-title: weggooien
-feature: Dynamic Media Classic,Viewers,SDK/API,Gemengde mediasets
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: e09f73a9-a961-4188-b092-f7bbcae4946d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ Hiermee wordt deze viewerinstantie verwijderd door alle bronnen die door de view
 
 De webpaginacode moet ook de viewerinstantievariabele verwijderen om de viewer volledig uit het webbrowsergeheugen te verwijderen.
 
-Als de webpaginacode gebeurtenislisteners rechtstreeks heeft geregistreerd in Viewer SDK-componenten die worden gebruikt door de viewer of opgeslagen externe referenties naar dergelijke componenten, moeten deze listeners expliciet niet zijn geregistreerd door de webpaginacode en moeten deze externe componentverwijzingen worden verwijderd voordat `dispose()` wordt aangeroepen.
+Als de webpaginacode gebeurtenislisteners rechtstreeks heeft geregistreerd in Viewer SDK-componenten die door de viewer worden gebruikt - of externe referenties naar dergelijke componenten heeft opgeslagen - moeten deze listeners expliciet door de webpaginacode worden verwijderd. En, moeten dergelijke externe componentenverwijzingen alvorens te roepen worden geschrapt `dispose()`.
 
-Open de viewer-API niet meer nadat `dispose()` is aangeroepen.
+Geen toegang meer tot de viewer-API na `dispose()` wordt aangeroepen.
 
 ## Parameters {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 
