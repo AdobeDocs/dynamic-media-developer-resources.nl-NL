@@ -1,13 +1,13 @@
 ---
+title: SpinView.lockdirection
 description: SpinView.lockdirection
 solution: Experience Manager
-title: SpinView.lockdirection
-feature: Dynamic Media Classic,Viewers,SDK/API,Draaiensets
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: e29ba926-9e0e-4ddd-9f76-408f8ab3b4ca
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '124'
 ht-degree: 1%
 
 ---
@@ -19,8 +19,8 @@ ht-degree: 1%
 <table id="table_18D47E7C6A2D4D68B94225CB621D5F7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
-   <td colname="col2"> <p> Geeft aan of een wijziging in de centrifugerichting wordt toegestaan in het geval van een 2D-centrifugeerset. </p> <p>Wanneer deze wordt ingesteld op <span class="codeph"> 1 </span>, identificeert de component de primaire (horizontale of verticale) sleep richting aan het begin van de beweging. Daarna blijft deze richting behouden totdat de beweging stopt. Als de gebruiker bijvoorbeeld een horizontale draaibeweging start en vervolgens besluit om de sleepbeweging in verticale richting voort te zetten, voert de component geen verticale draaibeweging uit. in plaats daarvan wordt alleen gekeken naar de horizontale beweging van de muis of de veegbeweging. </p> <p>Met de waarde <span class="codeph"> 0 </span> kan een gebruiker de draairichting op elk gewenst moment tijdens de bewegingsvoortgang wijzigen. De instelling heeft geen invloed als de centrifugeset 1D is. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> Geeft aan of een wijziging in de centrifugerichting is toegestaan als er 2D-centrifugeset is. </p> <p>Wanneer ingesteld op <span class="codeph"> 1 </span>De component identificeert de primaire sleep- of veegrichting (horizontaal of verticaal) aan het begin van de beweging. Daarna blijft deze richting behouden totdat de beweging stopt. Als de gebruiker bijvoorbeeld een horizontale draaibeweging start en vervolgens besluit om de sleepbeweging in verticale richting voort te zetten, voert de component geen verticale draaibeweging uit. In plaats daarvan wordt alleen gekeken naar de horizontale beweging van de muis of veegbeweging. </p> <p>Een waarde van <span class="codeph"> 0 </span> Hiermee kan de gebruiker de draairichting op elk gewenst moment tijdens de bewegingsvoortgang wijzigen. De instelling heeft geen effect als de centrifugeset 1D is. </p> </td> 
   </tr> 
  </tbody> 
 </table>

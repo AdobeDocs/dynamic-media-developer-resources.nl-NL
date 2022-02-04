@@ -1,12 +1,12 @@
 ---
+title: Draaien
 description: Spin Viewer is een beeldviewer die een weergave van 360 graden van de afbeelding biedt, of zelfs een multidimensionale weergave als de juiste centrifugeset wordt gebruikt. Deze heeft zoomen- en centrifugegereedschappen, ondersteuning voor volledig scherm en een optionele knop Sluiten. Het is ontworpen voor gebruik op desktops en mobiele apparaten.
 keywords: responsief
 solution: Experience Manager
-title: Draaien
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 4c802d42-ea5b-4f28-b6ef-2689aa16839d
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '2130'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Zie [Command reference common to all viewers - Configuration attributes](../../r
 
 ## Interactie met de centrifugerviewer {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
-De Draai Viewer ondersteunt de volgende aanraakbewegingen die ook in andere mobiele toepassingen worden gebruikt. Wanneer de viewer de veegbeweging van een gebruiker niet kan verwerken, stuurt deze de gebeurtenis door naar de webbrowser om een native paginaschuiving uit te voeren. Met deze functionaliteit kan de gebruiker door de pagina navigeren, zelfs als de viewer het grootste gedeelte van het apparaatschermgebied in beslag neemt.
+De Draai Viewer ondersteunt de volgende aanraakbewegingen die veel voorkomen in andere mobiele toepassingen. Wanneer de viewer de veegbeweging van een gebruiker niet kan verwerken, stuurt deze de gebeurtenis door naar de webbrowser om een native paginaschuiving uit te voeren. Met deze functionaliteit kan de gebruiker door de pagina navigeren, zelfs als de viewer het grootste gedeelte van het apparaatschermgebied in beslag neemt.
 
 <table id="table_ED747CC7178448919C34A4FCD18922D0"> 
  <thead> 
@@ -131,7 +131,7 @@ U voegt de Spin Viewer als volgt toe aan een webpagina:
 
    `<s7viewers_root>/html5/js/SpinViewer.js`
 
-   U kunt een relatief pad gebruiken als de viewer wordt geïmplementeerd op een van de Adobe Dynamic Media-servers en vanuit hetzelfde domein wordt aangeboden. Anders geeft u een volledig pad op naar een van de Adobe Dynamic Media-servers waarop IS-Viewers zijn geïnstalleerd.
+   U kunt een relatief pad gebruiken als de viewer wordt geïmplementeerd op een van de Adobe Dynamic Media-servers en vanuit hetzelfde domein wordt aangeboden. Anders geeft u een volledig pad op naar een van de Adobe Dynamic Media-servers waarop de IS-Viewers zijn geïnstalleerd.
 
    Het relatieve pad ziet er als volgt uit:
 

@@ -1,13 +1,13 @@
 ---
+title: FlyoutZoomView.imagereload
 description: Vormt hoe de component nieuwe beelden voor de hoofd en vliegend mening tijdens resize haalt.
 solution: Experience Manager
-title: FlyoutZoomView.imagereload
-feature: Dynamic Media Classic,Viewers,SDK/API,Gemengde mediasets
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 1bb57c89-4ceb-40d6-8054-d51c1573431c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '129'
 ht-degree: 1%
 
 ---
@@ -16,17 +16,17 @@ ht-degree: 1%
 
 Vormt hoe de component nieuwe beelden voor de hoofd en vliegend mening tijdens resize haalt.
 
-` [FlyoutZoomView.|<containerId>_flyout.]imagereload=0|1[,breakpoint, *``*[; *`breedte`*]]`
+` [FlyoutZoomView.|<containerId>_flyout.]imagereload=0|1[,breakpoint, *`width`*[; *`width`*]]`
 
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
-   <td colname="col2"> <p>Als de waarde <span class="codeph"> 0 </span> is, laadt de component geen nieuwe afbeeldingen tijdens het vergroten/verkleinen en verandert de afbeeldingsresolutie in de vervolgweergave niet. </p> <p>Wanneer u <span class="codeph"> 1 </span> instelt, kunt u een of meer breedteonderbrekingspunten opgeven voor de afbeelding die in de hoofdweergave is geladen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p>Wanneer ingesteld op <span class="codeph"> 0 </span>, laadt de component geen nieuwe afbeeldingen tijdens het vergroten of verkleinen en verandert de afbeeldingsresolutie in de vervolgweergave niet. </p> <p>Wanneer ingesteld op <span class="codeph"> 1 </span> Hiermee kunt u een of meer breedteonderbrekingspunten opgeven voor de afbeelding die in de hoofdweergave wordt geladen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> breekpunt,  <span class="varname"> breedte  </span>[;  <span class="varname"> breedte  </span>]  </span> </p> </td> 
-   <td colname="col2"> <p>Breedteonderbrekingspunten voor de afbeelding die in de hoofdweergave is geladen. De component zal altijd het best passend formaat voor de aanvankelijke lading gebruiken. Nadat het formaat is gewijzigd, wordt de afbeelding in de hoofdweergave altijd gedownload met de breedte die gelijk is aan het dichtstbijzijnde grotere onderbrekingspunt en op de client geschaald. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> breekpunt, <span class="varname"> width </span>[; <span class="varname"> width </span>] </span> </p> </td> 
+   <td colname="col2"> <p>Breedteonderbrekingspunten voor de afbeelding die in de hoofdweergave is geladen. De component gebruikt altijd de best-passend grootte voor de aanvankelijke lading. Nadat het formaat is gewijzigd, zorgt u ervoor dat de afbeelding in de hoofdweergave altijd wordt gedownload met de breedte die gelijk is aan het dichtstbijzijnde grotere onderbrekingspunt en op de client wordt geschaald. </p> </td> 
   </tr> 
  </tbody> 
 </table>

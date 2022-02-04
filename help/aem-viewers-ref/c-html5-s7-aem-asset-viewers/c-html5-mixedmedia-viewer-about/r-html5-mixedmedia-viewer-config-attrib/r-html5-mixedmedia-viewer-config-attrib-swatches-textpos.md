@@ -1,14 +1,14 @@
 ---
+title: Swatches.textpos
 description: Swatches.textpos
 solution: Experience Manager
-title: Swatches.textpos
-feature: Dynamic Media Classic,Viewers,SDK/API,Gemengde mediasets
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 4b3b91f9-e564-462a-a4f3-494dd5511c26
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 1%
+source-wordcount: '48'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> onder|boven|links|rechts|geen|knopinfo</span> </p> </td> 
-   <td> <p> Hiermee geeft u aan waar het label wordt getekend ten opzichte van de miniatuurafbeelding van het staal. Het label wordt dus gecentreerd op de opgegeven locatie ten opzichte van de staalminiatuur. Wanneer <span class="codeph"> tooltip</span> wordt gespecificeerd, wordt geen etiket getrokken. </p> </td> 
+   <td> <p> Hiermee geeft u aan waar het label wordt getekend ten opzichte van de miniatuurafbeelding van het staal. Het label wordt dus gecentreerd op de opgegeven locatie ten opzichte van de staalminiatuur. Wanneer <span class="codeph"> knopinfo</span> wordt opgegeven, wordt er geen label getekend. </p> </td> 
   </tr> 
  </tbody> 
 </table>

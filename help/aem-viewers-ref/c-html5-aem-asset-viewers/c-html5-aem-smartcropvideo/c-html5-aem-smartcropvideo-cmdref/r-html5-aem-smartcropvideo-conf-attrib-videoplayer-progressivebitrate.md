@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 25e3e7e9-0979-472c-a589-aaf0e221b885
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 1%
@@ -22,7 +22,7 @@ Configuration attribute for Smart Crop Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> value</span> </p> </td> 
-   <td colname="col2"> <p> Geeft de gewenste videobitsnelheid aan (in kilobits per seconde of Kbps) voor het afspelen van een adaptieve videoset voor het geval dat het huidige systeem adaptieve videoweergave niet ondersteunt. </p> <p>De component pakt de videostream op met de dichtstbijzijnde (maar niet meer dan) bitsnelheid voor de opgegeven waarde. Als alle videostreams in de Adaptive Video Set een hogere kwaliteit hebben dan de opgegeven waarde, kiest de logica de bitsnelheid met de laagste kwaliteit. </p> </td> 
+   <td colname="col2"> <p> Geeft de gewenste videobitsnelheid aan (in kilobits per seconde of kbps) voor afspelen vanaf een adaptieve videoset voor het geval dat het huidige systeem geen ondersteuning biedt voor adaptieve videoweergave. </p> <p>De component pakt de videostream op met de dichtstbijzijnde (maar niet meer dan) bitsnelheid voor de opgegeven waarde. Als alle videostreams in de Adaptive Video Set een hogere kwaliteit hebben dan de opgegeven waarde, kiest de logica de bitsnelheid met de laagste kwaliteit. </p> </td> 
   </tr> 
  </tbody> 
 </table>

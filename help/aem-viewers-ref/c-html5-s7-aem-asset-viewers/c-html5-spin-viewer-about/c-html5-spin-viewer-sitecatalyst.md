@@ -1,13 +1,13 @@
 ---
+title: Ondersteuning voor Adobe Analytics-tracking
 description: De Draaiende Kijker steunt het volgen van Adobe Analytics uit de doos.
 solution: Experience Manager
-title: Ondersteuning voor Adobe Analytics-tracking
-feature: Dynamic Media Classic,Viewers,SDK/API,Draaiensets
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 30762700-6d69-4299-9492-57893232abe1
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ De Draaiende Kijker steunt het volgen van Adobe Analytics uit de doos.
 
 De Draaiende Viewer ondersteunt het uit-van-de-doos traceren van Adobe Analytics.
 
-Als u reeksspatiëring wilt inschakelen, geeft u de juiste naam van de bedrijfsvoorinstelling door als `config2`-parameter.
+Als u het bijhouden van wijzigingen wilt inschakelen, geeft u de juiste naam van de bedrijfsvoorinstelling door als `config2` parameter.
 
 De kijker verzendt ook één enkele het volgen HTTP- verzoek naar de gevormde Server van het Beeld met het viewertype en versieinformatie.
 
 ## Aangepaste reeksspatiëring {#section-47512156a1d64b338b50cfa39c84f4aa}
 
-Om met derdeanalysesystemen te integreren, is het noodzakelijk om aan `trackEvent` kijkerscallback te luisteren en het `eventInfo` argument van de callback functie, zonodig te verwerken. De volgende code is een voorbeeld van een dergelijke handlerfunctie:
+Om met analysesystemen van derden te integreren, moet naar de `trackEvent` de callback van de kijker en verwerkt `eventInfo` argument van de callback functie, zoals nodig. De volgende code is een voorbeeld van een dergelijke handlerfunctie:
 
 ```
 var spinViewer = new s7viewers.SpinViewer({ 
@@ -61,23 +61,23 @@ De viewer houdt de volgende SDK-gebruikersgebeurtenissen bij:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LADEN  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LADEN </span> </p> </td> 
    <td colname="col2"> <p>de viewer wordt eerst geladen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SWAP  </span> </p> </td> 
-   <td colname="col2"> <p>een element wordt in de viewer omgewisseld met de <span class="codeph"> setAsset() </span>-API. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
+   <td colname="col2"> <p>een element wordt in de viewer gewisseld met het gereedschap <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ZOOMEN  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ZOOMEN </span> </p> </td> 
    <td colname="col2"> <p> ingezoomd op een afbeelding. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PAN  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PAN </span> </p> </td> 
    <td colname="col2"> <p>een afbeelding wordt gepand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SPIN  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SPIN </span> </p> </td> 
    <td colname="col2"> <p> er wordt een centrifuge uitgevoerd. </p> </td> 
   </tr> 
  </tbody> 

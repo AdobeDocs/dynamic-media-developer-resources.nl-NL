@@ -1,14 +1,14 @@
 ---
+title: stalen overlay
 description: stalen overlay
 solution: Experience Manager
-title: stalen overlay
-feature: Dynamic Media Classic,Viewers,SDK/API,Gemengde mediasets
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: cf9ad105-8851-49f5-ba6c-96d588f4fd58
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 2%
+source-wordcount: '59'
+ht-degree: 3%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 2%
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
-   <td colname="col2"> <p>Hiermee geeft u de viewerlay-out op apparaten met aanraakbediening op. Wanneer de parameter op <span class="codeph"> 1 </span> wordt geplaatst, toont de kijker monsters onder de belangrijkste mening op de Desktop; op apparaten met aanraakbediening worden stalen boven op de hoofdweergave geplaatst. </p> <p>Wanneer de parameter op <span class="codeph"> 0 </span> wordt geplaatst, geven de monsters onder de belangrijkste mening op alle apparatentypen terug. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
+   <td colname="col2"> <p>Hiermee geeft u de viewerlay-out op apparaten met aanraakbediening op. Wanneer de parameter is ingesteld op <span class="codeph"> 1 </span>worden stalen weergegeven onder de hoofdweergave op het bureaublad; op apparaten met aanraakbediening, bedekt dit staal boven op de hoofdweergave. </p> <p>Wanneer de parameter is ingesteld op <span class="codeph"> 0 </span>Stalen worden op alle apparaattypen onder de hoofdweergave gerenderd. </p> </td> 
   </tr> 
  </tbody> 
 </table>

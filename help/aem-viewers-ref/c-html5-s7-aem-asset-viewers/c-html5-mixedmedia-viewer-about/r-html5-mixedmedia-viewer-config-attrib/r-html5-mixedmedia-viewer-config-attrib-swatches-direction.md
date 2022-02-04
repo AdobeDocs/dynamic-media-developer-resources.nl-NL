@@ -1,13 +1,13 @@
 ---
+title: Swatches.direction
 description: Swatches.direction
 solution: Experience Manager
-title: Swatches.direction
-feature: Dynamic Media Classic,Viewers,SDK/API,Gemengde mediasets
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: bd01ff03-fea7-42ad-aa99-72273f55bda0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '57'
 ht-degree: 1%
 
 ---
@@ -19,8 +19,8 @@ ht-degree: 1%
 <table id="table_B4B930A32C0742F4932BF071B9EEA9F4"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> auto|left|right  </span> </p> </td> 
-   <td> <p> Hiermee bepaalt u hoe stalen de weergave vullen. </p> <p> <span class="codeph"> links  </span> stelt vulvolgorde van links naar rechts in; </p> <p> <span class="codeph"> Met de optie rechts  </span> draait u de volgorde om, zodat de weergave van rechts naar links en van boven naar beneden wordt gevuld. </p> <p>Wanneer <span class="codeph"> auto </span> wordt geplaatst, past de component <span class="codeph"> juiste </span> wijze toe wanneer scène aan <span class="codeph"> ja </span> wordt geplaatst; anders wordt left gebruikt. </p> </td> 
+   <td> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
+   <td> <p> Hiermee bepaalt u hoe stalen de weergave vullen. </p> <p> <span class="codeph"> left </span> wordt de vulvolgorde van links naar rechts ingesteld; </p> <p> <span class="codeph"> right </span> Hiermee draait u de volgorde om, zodat de weergave van rechts naar links en van boven naar beneden wordt gevuld. </p> <p>Wanneer <span class="codeph"> auto </span> is ingesteld, wordt de component toegepast <span class="codeph"> right </span> modus wanneer landinstelling is ingesteld op <span class="codeph"> ja </span>; anders wordt left gebruikt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

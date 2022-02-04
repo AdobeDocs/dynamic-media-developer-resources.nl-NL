@@ -1,13 +1,13 @@
 ---
+title: VideoPlayer.singleclick
 description: Configuration attribute for Video Viewer.
 solution: Experience Manager
-title: VideoPlayer.singleclick
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 2fd83645-16d4-45ce-8fa8-d97dc254691f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '68'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Configuration attribute for Video Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|playPause</span> </span> </p> </td> 
-   <td colname="col2"> <p> Vormt de afbeelding van een enkele klik/tik om afspelen/pauzeren in en uit te schakelen. Als u instelt op <span class="codeph"> none</span>, wordt een enkele klik/tik uitgeschakeld om af te spelen/te pauzeren. Als ingesteld op <span class="codeph"> playPause</span>, klikt u op de videoschakeloptie tussen het afspelen en pauzeren van de video. Op sommige apparaten kunt u native besturingselementen gebruiken. In dat geval is het gedrag <span class="codeph"> singleclick</span> uitgeschakeld. </p> </td> 
+   <td colname="col2"> <p> Vormt de afbeelding van een enkele klik/tik om afspelen/pauzeren in en uit te schakelen. Instellen op <span class="codeph"> none</span> Schakelt een enkele klik/tik uit om af te spelen/te pauzeren. Indien ingesteld op <span class="codeph"> playPause</span>Als u op de video klikt, schakelt u tussen het afspelen en pauzeren van de video. Op sommige apparaten kunt u native besturingselementen gebruiken. In dat geval <span class="codeph"> enkelvoudig</span> gedrag is uitgeschakeld. </p> </td> 
   </tr> 
  </tbody> 
 </table>

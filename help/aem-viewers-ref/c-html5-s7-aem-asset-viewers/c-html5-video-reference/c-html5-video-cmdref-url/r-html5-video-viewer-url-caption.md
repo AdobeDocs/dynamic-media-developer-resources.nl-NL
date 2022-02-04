@@ -1,14 +1,14 @@
 ---
+title: bijschrift
 description: URL-opdracht voor video-viewer.
 solution: Experience Manager
-title: bijschrift
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: a9af3335-ae18-4399-9014-47ec0306a087
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 1%
+source-wordcount: '196'
+ht-degree: 2%
 
 ---
 
@@ -67,7 +67,7 @@ Andere WebVTT-functies in het WebVTT-bestand worden niet ondersteund, maar onder
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Geeft de standaardondertitelingsstatus aan (ingeschakeld is <span class="codeph"> 1</span>). </p> </td> 
+   <td colname="col2"> <p> Hiermee wordt de standaardondertitelingsstatus opgegeven (ingeschakeld) <span class="codeph"> 1</span>). </p> </td> 
   </tr> 
  </tbody> 
 </table>

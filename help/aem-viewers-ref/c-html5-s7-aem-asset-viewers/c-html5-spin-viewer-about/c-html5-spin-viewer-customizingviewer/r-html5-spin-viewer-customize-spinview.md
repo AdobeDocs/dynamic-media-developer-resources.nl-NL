@@ -1,13 +1,13 @@
 ---
+title: Weergave draaien
 description: De hoofdweergave bestaat uit de draaiafbeelding.
 solution: Experience Manager
-title: Weergave draaien
-feature: Dynamic Media Classic,Viewers,SDK/API,Draaiensets
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: d3274fe3-1a47-448e-acc6-6df77c6a4211
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '59'
 ht-degree: 0%
 
 ---
@@ -35,13 +35,13 @@ De vormgeving van het weergavegebied wordt bepaald door de volgende CSS-klassenk
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Achtergrondkleur in hexadecimale notatie van de hoofdweergave. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voorbeeld - om de hoofdweergave transparant te maken.
+Voorbeeld - De hoofdweergave transparant maken.
 
 ```
 .s7spinviewer .s7spinview { 

@@ -1,13 +1,13 @@
 ---
+title: Knop Volledig scherm
 description: Met deze knop activeert de gebruiker de modus Volledig scherm of wordt deze afgesloten wanneer deze door de gebruiker is geselecteerd. Deze knop wordt niet weergegeven als de viewer werkt in de pop-upmodus en het systeem geen native volledig scherm ondersteunt. U kunt deze knop vergroten, verkleinen, verkleinen en plaatsen met CSS.
 solution: Experience Manager
-title: Knop Volledig scherm
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: c57f42e1-93c0-44fa-9734-9599786ee246
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ De vormgeving van de knop wordt bepaald door de volgende CSS-klassenkiezer:
 
 De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md#concept-e35c15c9e82648328806cdc6aa255d98) voor meer informatie .
 
-Voorbeeld - voor het instellen van een knop voor volledig scherm van 32 x 32 pixels, met een positie van zes pixels vanaf de boven- en rechterrand van de viewer, en voor het weergeven van een andere afbeelding voor elk van de vier verschillende knopstatussen, indien geselecteerd of niet geselecteerd:
+Voorbeeld - Een schermvullende knop van 32 x 32 pixels instellen en 6 pixels van de boven- en rechterrand van de viewer plaatsen. En ten slotte wordt voor elk van de vier verschillende knoptoestanden een andere afbeelding weergegeven wanneer deze is geselecteerd of niet is geselecteerd:
 
 ```
 .s7spinviewer .s7fullscreenbutton { 
