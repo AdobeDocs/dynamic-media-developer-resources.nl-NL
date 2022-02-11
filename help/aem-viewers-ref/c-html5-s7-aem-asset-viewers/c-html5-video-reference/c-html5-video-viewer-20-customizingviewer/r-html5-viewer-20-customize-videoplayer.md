@@ -1,13 +1,13 @@
 ---
+title: Videospeler
 description: De videospeler is het rechthoekige gebied waar de video-inhoud wordt weergegeven in de viewer.
 solution: Experience Manager
-title: Videospeler
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 2741821f-78fe-44d4-8604-fee10086e0a0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -31,13 +31,13 @@ De volgende CSS-klassenkiezer bepaalt de weergave van de videospeler:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Achtergrondkleur van de hoofdweergave. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Het foutbericht dat wordt weergegeven als het systeem de video niet kan afspelen, kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) voor meer informatie.
+Het foutbericht dat wordt weergegeven als het systeem de video niet kan afspelen, kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) voor meer informatie .
 
 Voorbeeld - Een videoviewer instellen met een grootte van 512 x 288 pixels voor de videospeler.
 
@@ -56,29 +56,29 @@ Gesloten bijschriften worden in een interne container in de videospeler geplaats
 <table id="table_960E0D4FB91748FF9FC73C925B81879C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Achtergrond van tekstbijschrift met gesloten bijschrift. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> kleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kleur </span> </p> </td> 
    <td colname="col2"> <p>Tekstkleur van bijschrift sluiten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p> Dikte lettertype van gesloten bijschrift. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekengrootte  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekengrootte </span> </p> </td> 
    <td colname="col2"> <p> Tekengrootte van gesloten bijschrift. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Lettertype voor gesloten bijschrift. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voorbeeld - Een gesloten bijschrifttekst instellen op 14 pixels, lichtgrijs, Arial, op een halftransparante zwarte achtergrond:
+Voorbeeld - Als u een Closed Caption-tekst wilt instellen op 14 pixels, lichtgrijs, Arial®, op een halftransparante zwarte achtergrond:
 
 ```
 .s7videoviewer .s7videoplayer .s7caption { 
@@ -111,19 +111,19 @@ De vormgeving van de bufferanimatie wordt bepaald door de volgende CSS-klassenki
    <td colname="col2"> <p> Breedte van animatiepictogram. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p> Hoogte van animatiepictogram. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
    <td colname="col2"> <p> Linkermarge van animatiepictogram, normaal gesproken min de helft van de breedte van het pictogram. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
    <td colname="col2"> <p> Bovenmarge van animatiepictogram, normaal gesproken min de helft van de hoogte van het pictogram. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
    <td colname="col2"> <p> Illustraties uitnemen. </p> </td> 
   </tr> 
  </tbody> 

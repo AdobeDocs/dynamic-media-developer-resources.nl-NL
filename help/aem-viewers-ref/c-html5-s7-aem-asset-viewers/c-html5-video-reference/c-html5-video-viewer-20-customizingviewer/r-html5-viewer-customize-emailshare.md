@@ -1,11 +1,11 @@
 ---
+title: E-mailshare
 description: Het gereedschap E-mail delen bestaat uit een knop die wordt toegevoegd aan het deelvenster Sociaal delen en het modale dialoogvenster dat wordt weergegeven wanneer het gereedschap wordt geactiveerd. De positie van de knop wordt volledig beheerd met het gereedschap Sociaal delen.
 solution: Experience Manager
-title: E-mailshare
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 1788e069-68dd-4960-bc49-34ffdf29991a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
 source-wordcount: '2987'
 ht-degree: 0%
@@ -33,27 +33,27 @@ De vormgeving van de knop E-mail delen wordt bepaald door de volgende CSS-klasse
    <td colname="col2"> <p>Breedte van de knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van de knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
    <td colname="col2"> <p> De afbeelding die voor een bepaalde knopstatus wordt weergegeven. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Deze knoop steunt `state` attributenselecteur, die kan worden gebruikt om verschillende huiden op verschillende knoopstaten toe te passen.
+Deze knop ondersteunt de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende skins toe te passen op verschillende knoptoestanden.
 
-Het is mogelijk om de knop uit het deelvenster Sociaal delen te verwijderen door de CSS-eigenschap `display:none` in te stellen op de CSS-klasse.
+Het is mogelijk de knop uit het deelvenster Sociaal delen te verwijderen door de instelling `display:none` CSS-eigenschap in de CSS-klasse.
 
-De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) voor meer informatie.
+De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) voor meer informatie .
 
-Voorbeeld - om een knop voor e-maildelen in te stellen van 28 x 28 pixels en die een andere afbeelding weergeeft voor elk van de vier verschillende knopstatussen.
+Voorbeeld: om een knop voor e-maildeling in te stellen van 28 x 28 pixels en een andere afbeelding voor elk van de vier verschillende knopstatussen.
 
 ```
 .s7videoviewer .s7emailshare { 
@@ -85,11 +85,11 @@ De achtergrondoverlay die de webpagina bedekt wanneer het dialoogvenster actief 
 <table id="table_1A0C28D8C81D413C83D73DEAC53057C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> dekking  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> dekking </span> </p> </td> 
    <td colname="col2"> <p> Dekking van achtergrondbedekking. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Kleur van achtergrondbedekking. </p> </td> 
   </tr> 
  </tbody> 
@@ -115,19 +115,19 @@ Standaard wordt het modale dialoogvenster gecentreerd weergegeven op het scherm 
 <table id="table_5272BC8EF9124018B4290356B95B5559"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
    <td colname="col2"> <p> Straal van de rand van het dialoogvenster (als het dialoogvenster niet het volledige browservenster neemt); </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Achtergrondkleur van dialoogvenster; </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p> De instelling moet ongedaan worden gemaakt of op 100% worden ingesteld. In dat geval wordt in het dialoogvenster het hele browservenster weergegeven (deze modus heeft de voorkeur op aanraakapparaten). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p> De instelling moet ongedaan worden gemaakt of op 100% worden ingesteld. In dat geval wordt in het dialoogvenster het hele browservenster weergegeven (deze modus heeft de voorkeur op aanraakapparaten). </p> </td> 
   </tr> 
  </tbody> 
@@ -154,13 +154,13 @@ De koptekst van het dialoogvenster bestaat uit een pictogram, een titeltekst en 
 <table id="table_E407E844C9BD4B5DA8B5BBDE0554F9CA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
    <td colname="col2"> <p> Opvulling binnen voor koptekstinhoud. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Het pictogram en de titeltekst worden verpakt in een extra container die wordt bestuurd met
+Het pictogram en de titeltekst worden verpakt in een extra container die met
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogheader .s7dialogline
@@ -171,7 +171,7 @@ Het pictogram en de titeltekst worden verpakt in een extra container die wordt b
 <table id="table_5B03CF843F0D4B1295A3FC1EB50C56F1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
    <td colname="col2"> <p> Opvulling binnen voor het koptekstpictogram en de titel </p> </td> 
   </tr> 
  </tbody> 
@@ -188,19 +188,19 @@ Koptekstpictogram wordt bestuurd met de volgende CSS-klassenkiezer
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Pictogrambreedte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte pictogram. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
    <td colname="col2"> <p>Pictogramafbeelding. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -217,19 +217,19 @@ De titel van de koptekst wordt bestuurd met de volgende CSS-klassenkiezer:
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p>Fontgewicht. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekengrootte  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekengrootte </span> </p> </td> 
    <td colname="col2"> <p>Hoogte lettertype. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Lettertypefamilie. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
    <td colname="col2"> <p>Opvulling van interne tekst. </p> </td> 
   </tr> 
  </tbody> 
@@ -246,31 +246,31 @@ Knop Sluiten wordt beheerd met de volgende CSS-klassenkiezer:
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> Verticale knoppositie ten opzichte van koptekstcontainer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
    <td colname="col2"> <p> Horizontale knoppositie ten opzichte van koptekstcontainer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Knopbreedte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
    <td colname="col2"> <p>Opvulling binnen van knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
    <td colname="col2"> <p>Knopafbeelding voor elk frame. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -278,11 +278,11 @@ Knop Sluiten wordt beheerd met de volgende CSS-klassenkiezer:
 
 >[!NOTE]
 >
->Deze knoop steunt `state` attributenselecteur, die kan worden gebruikt om verschillende huiden op verschillende knoopstaten toe te passen.
+>Deze knop ondersteunt de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende skins toe te passen op verschillende knoptoestanden.
 
-De knopinfo Sluiten en de titel van het dialoogvenster kunnen worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) voor meer informatie.
+De knopinfo Sluiten en de titel van het dialoogvenster kunnen worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) voor meer informatie .
 
-Voorbeeld - om een dialoogvensterkop in te stellen met opvulling, pictogram van 24 x 17 pixels, vetgedrukte 16 pt titel en knop Sluiten van 28 x 28 pixels, geplaatst op 2 pixels van de bovenkant en 2 pixels van de rechterkant van de dialoogcontainer:
+Voorbeeld - Aan opstellingsheader met opvulling, pictogram 24 x 17 pixel, gewaagde 16 punttitel, en 28 x 28 pixel dichte knoop. En ten slotte plaatst u deze twee pixels van de bovenkant en twee pixels van de rechterkant van de container van het dialoogvenster:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogheader { 
@@ -333,7 +333,7 @@ Dialoogvoettekst bestaat uit de knoppen &quot;Annuleren&quot; en &quot;E-mail ve
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p> Rand die kan worden gebruikt om de voettekst visueel te scheiden van de rest van het dialoogvenster. </p> </td> 
   </tr> 
  </tbody> 
@@ -350,7 +350,7 @@ De voettekst heeft een binnencontainer die beide knoppen bevat. De klasse wordt 
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
    <td colname="col2"> <p> Opvulling binnen tussen de voettekst en de knoppen. </p> </td> 
   </tr> 
  </tbody> 
@@ -367,19 +367,19 @@ De knop Annuleren wordt beheerd met de volgende CSS-klassenkiezer:
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Knopbreedte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> kleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kleur </span> </p> </td> 
    <td colname="col2"> <p> De tekstkleur van de knoop voor elke staat. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Achtergrondkleur van knop voor elk frame. </p> </td> 
   </tr> 
  </tbody> 
@@ -387,7 +387,7 @@ De knop Annuleren wordt beheerd met de volgende CSS-klassenkiezer:
 
 >[!NOTE]
 >
->Deze knoop steunt `state` attributenselecteur, die kan worden gebruikt om verschillende huiden op verschillende knoopstaten toe te passen.
+>Deze knop ondersteunt de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende skins toe te passen op verschillende knoptoestanden.
 
 De knop E-mail verzenden wordt beheerd met de volgende CSS-klassenkiezer:
 
@@ -400,19 +400,19 @@ De knop E-mail verzenden wordt beheerd met de volgende CSS-klassenkiezer:
 <table id="table_91C75B2470A24DC2AD3973A91FA8B325"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Knopbreedte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> kleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kleur </span> </p> </td> 
    <td colname="col2"> <p> De tekstkleur van de knoop voor elke staat. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Achtergrondkleur van knop voor elk frame. </p> </td> 
   </tr> 
  </tbody> 
@@ -420,9 +420,9 @@ De knop E-mail verzenden wordt beheerd met de volgende CSS-klassenkiezer:
 
 >[!NOTE]
 >
->Deze knoop steunt `state` attributenselecteur, die kan worden gebruikt om verschillende huiden op verschillende knoopstaten toe te passen.
+>Deze knop ondersteunt de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende skins toe te passen op verschillende knoptoestanden.
 
-Bovendien hebben beide knoppen dezelfde algemene CSS-klasse die CSS-instellingen kan bevatten die hetzelfde zijn voor andere knoppen in dialoogvensters:
+Bovendien delen beide knoppen dezelfde algemene CSS-klasse die CSS-instellingen kan bevatten die hetzelfde zijn voor andere knoppen in dialoogvensters:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogfooter .s7button
@@ -433,35 +433,35 @@ Bovendien hebben beide knoppen dezelfde algemene CSS-klasse die CSS-instellingen
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p>Dikte van lettertype knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekengrootte  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekengrootte </span> </p> </td> 
    <td colname="col2"> <p>Tekengrootte van knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Lettertypefamilie knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> regelhoogte  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> regelhoogte </span> </p> </td> 
    <td colname="col2"> <p> Teksthoogte in de knop. Heeft invloed op de verticale uitlijning. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> box-shadow  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> box-shadow </span> </p> </td> 
    <td colname="col2"> <p>Slagschaduw. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge-rechts  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge-rechts </span> </p> </td> 
    <td colname="col2"> <p>Marge rechterknop. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) voor meer informatie.
+De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) voor meer informatie .
 
-Voorbeeld - voor het instellen van een voettekst in het dialoogvenster met een knop Annuleren van 64 x 34 en een knop voor het verzenden van e-mail van 82 x 34, met een andere tekstkleur en achtergrondkleur voor elke knopstatus:
+Voorbeeld - om een dialoogvakje footer met 64x 34Cancel knoop en een 82x 34send e-mailknoop te plaatsen, met de tekstkleur en achtergrondkleur verschillend voor elke knoopstaat:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogfooter { 
@@ -532,15 +532,15 @@ Het hoofddialoogvenster (tussen de kop- en voettekst) bevat schuifbare inhoud in
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p> De hoogte van het gebied van het hoofddialoogvenster. Deze mag alleen worden opgegeven wanneer het dialoogvenster in de bureaubladmodus werkt. Deze optie is niet van toepassing wanneer de grootte van het dialoogvenster zodanig is dat het volledige browservenster wordt ingenomen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>De achtergrondkleur van het gebied van het hoofddialoogvenster. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge </span> </p> </td> 
    <td colname="col2"> <p>Buitenmarge. </p> </td> 
   </tr> 
  </tbody> 
@@ -548,7 +548,7 @@ Het hoofddialoogvenster (tussen de kop- en voettekst) bevat schuifbare inhoud in
 
 >[!NOTE]
 >
->Het gebied van het hoofddialoogvenster ondersteunt de optionele `state`-kenmerkkiezer. De waarde wordt ingesteld op `sendsuccess` wanneer het e-mailformulier wordt verzonden en in het dialoogvenster een bevestigingsbericht wordt weergegeven. Zolang het bevestigingsbericht klein is, kan deze kenmerkenkiezer worden gebruikt om de hoogte van het dialoogvenster te verminderen wanneer een dergelijk bevestigingsbericht wordt weergegeven.
+>Het hoofdgedeelte van het dialoogvenster ondersteunt het optionele `state` kenmerkkiezer. Deze is ingesteld op `sendsuccess` wanneer het e-mailformulier wordt verzonden en in het dialoogvenster een bevestigingsbericht wordt weergegeven. Zolang het bevestigingsbericht klein is, kan deze kenmerkenkiezer worden gebruikt om de hoogte van het dialoogvenster te verminderen wanneer een dergelijk bevestigingsbericht wordt weergegeven.
 
 Voorbeeld: als u het hoofddialoogvenster wilt instellen op een hoogte van 300 pixels in eerste instantie en een hoogte van 100 pixels in het bevestigingsbericht, hebt u een marge van 10 pixels en gebruikt u een witte achtergrond:
 
@@ -576,7 +576,7 @@ Als de hoogte van deze container groter lijkt te zijn dan het gebied van het hoo
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
    <td colname="col2"> <p>Opvulling binnen. </p> </td> 
   </tr> 
  </tbody> 
@@ -601,7 +601,7 @@ Het formulier in het dialoogvenster wordt regel voor regel ingevuld, waarbij elk
 <table id="table_2CCCC71B45B444A8B9CE2894129C9C02"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
    <td colname="col2"> <p>Opvulling binnenlijn. </p> </td> 
   </tr> 
  </tbody> 
@@ -628,25 +628,25 @@ Deze klasse is niet geschikt voor het beheren van de grootte of positie van labe
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p>Breedte van lettertype label. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekengrootte  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekengrootte </span> </p> </td> 
    <td colname="col2"> <p>Tekengrootte label. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Lettertypefamilie label. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> kleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kleur </span> </p> </td> 
    <td colname="col2"> <p>Labeltekstkleur. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-De dialoogvensterlabels kunnen worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) voor meer informatie.
+De dialoogvensterlabels kunnen worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) voor meer informatie .
 
 Voorbeeld - als u alle labels wilt instellen op grijs, vet met een lettertype van negen pixels:
 
@@ -669,19 +669,19 @@ Alle statische labels die links van de formulierinvoervelden worden weergegeven,
 <table id="table_B5CF02837BAA42C7B79B6D9DA20792DF"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>De breedte van het statische label. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> text-align  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
    <td colname="col2"> <p>De horizontale tekstuitlijning. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge </span> </p> </td> 
    <td colname="col2"> <p>Statische labelmarge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
    <td colname="col2"> <p>Statische opvulling van label. </p> </td> 
   </tr> 
  </tbody> 
@@ -709,11 +709,11 @@ Elk formulierinvoerveld wordt in de container geplaatst, zodat u een aangepaste 
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Rand rondom de container van het invoerveld. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
    <td colname="col2"> <p>Opvulling binnen. </p> </td> 
   </tr> 
  </tbody> 
@@ -721,7 +721,7 @@ Elk formulierinvoerveld wordt in de container geplaatst, zodat u een aangepaste 
 
 >[!NOTE]
 >
->Invoerveldcontainer ondersteunt optionele `state`-kenmerkkiezer. De waarde wordt ingesteld op `verifyerror` wanneer de gebruiker een fout maakt in de indeling van de invoergegevens en inlinevalidatie mislukt. Deze kenmerkenkiezer kan worden gebruikt om onjuiste gebruikersinvoer in het formulier te markeren.
+>Invoerveldcontainer ondersteunt optioneel `state` kenmerkkiezer. Deze is ingesteld op `verifyerror` als de gebruiker een fout maakt in de indeling van de invoergegevens en inlinevalidatie mislukt. Deze kenmerkenkiezer kan worden gebruikt om onjuiste gebruikersinvoer in het formulier te markeren.
 
 De meeste invoervelden die zich uitstrekken van het label links tot aan de rechterrand van de hoofdtekst van het dialoogvenster (waaronder het veld &quot;van&quot; en het veld &quot;bericht&quot;), worden beheerd met:
 
@@ -729,12 +729,12 @@ De meeste invoervelden die zich uitstrekken van het label links tot aan de recht
 .s7videoviewer .s7emaildialog .s7dialoginputwide
 ```
 
-**CSS-eigenschappen van het invoerbrede veld van het dialoogvenster**
+**CSS-eigenschappen van het invoerveld van het dialoogvenster**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Breedte van invoerveld. </p> </td> 
   </tr> 
  </tbody> 
@@ -751,13 +751,13 @@ Het invoerveld &#39;Aan&#39; is smaller omdat er ruimte wordt toegewezen voor de
 <table id="table_DFA9059209FF4184BD483A529424E97F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Breedte van invoerveld. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voorbeeld - een formulier zo instellen dat het een grijze rand van één pixel heeft met negen pixels opvulling rond alle invoervelden. dezelfde rand in rode kleur te hebben voor velden waarvoor de validatie niet is gelukt, om een invoerveld van 250 pixels breed &quot;Tot&quot; te hebben en de rest van de invoervelden een breedte van 300 pixels:
+Voorbeeld - Een formulier zo instellen dat het een grijze rand van één pixel heeft met negen pixels opvulling rond alle invoervelden. Dezelfde rand in rode kleur hebben voor velden waarvoor de validatie niet is gelukt, om een invoerveld van 250 pixels breed &quot;Tot&quot; te hebben en de rest van de invoervelden een breedte van 300 pixels:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialoginputcontainer { 
@@ -775,30 +775,30 @@ Voorbeeld - een formulier zo instellen dat het een grijze rand van één pixel h
 }
 ```
 
-Het invoerveld voor e-mailberichten wordt aangevuld met:
+Het invoerveld voor e-mailberichten wordt ook beheerd met:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogmessage
 ```
 
-Met deze klasse kunt u specifieke eigenschappen instellen voor het onderliggende element `TEXTAREA`.
+Met deze klasse kunt u specifieke eigenschappen instellen voor de onderliggende `TEXTAREA` element.
 
 **CSS-eigenschappen van het bericht in het dialoogvenster**
 
 <table id="table_9E9D5A0C3CDB45739615C4C07F8DC046"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
-   <td colname="col2"> <p>Hoogte bericht. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>Berichthoogte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekstomloop  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekstomloop </span> </p> </td> 
    <td colname="col2"> <p>Tekstomloopstijl. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voorbeeld - als u een e-mailbericht wilt instellen op 50 pixels hoog en de tekstomloop `break-word` wilt gebruiken:
+Voorbeeld - als u een e-mailbericht wilt instellen op 50 pixels hoog en gebruiken `break-word` tekstterugloop:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogmessage { 
@@ -818,43 +818,43 @@ Met de knop Een ander e-mailadres toevoegen kan een gebruiker meer dan één gea
 <table id="table_8829DC0694684E8BA427DFB821F7433D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> kleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kleur </span> </p> </td> 
    <td colname="col2"> <p>De tekstkleur van de knoop voor elke staat. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
    <td colname="col2"> <p>Knopafbeelding voor elk frame. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p>De afbeeldingspositie van de knop binnen het knopgebied. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p>Dikte van lettertype knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekengrootte  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekengrootte </span> </p> </td> 
    <td colname="col2"> <p>Tekengrootte van knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Lettertypefamilie knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> regelhoogte  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> regelhoogte </span> </p> </td> 
    <td colname="col2"> <p>Teksthoogte in de knop. Heeft invloed op de verticale uitlijning. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> text-align  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
    <td colname="col2"> <p>Horizontale tekstuitlijning. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
    <td colname="col2"> <p>Opvulling binnen. </p> </td> 
   </tr> 
  </tbody> 
@@ -862,9 +862,9 @@ Met de knop Een ander e-mailadres toevoegen kan een gebruiker meer dan één gea
 
 >[!NOTE]
 >
->Deze knoop steunt `state` attributenselecteur, die kan worden gebruikt om verschillende huiden op verschillende knoopstaten toe te passen.
+>Deze knop ondersteunt de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende skins toe te passen op verschillende knoptoestanden.
 
-De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) voor meer informatie.
+De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) voor meer informatie .
 
 Voorbeeld: als u de knop Een ander e-mailadres toevoegen wilt instellen op 25 pixels hoog, gebruikt u 12-punts vet lettertype met de juiste uitlijning en een andere tekstkleur en afbeelding voor elke status:
 
@@ -908,19 +908,19 @@ Met de knop Verwijderen kan een gebruiker extra adressen uit het e-mailformulier
 <table id="table_79E4C65741E64859B9C9E9DCCB3D050B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Knopbreedte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
    <td colname="col2"> <p>Knopafbeelding voor elk frame. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -928,9 +928,9 @@ Met de knop Verwijderen kan een gebruiker extra adressen uit het e-mailformulier
 
 >[!NOTE]
 >
->Deze knoop steunt `state` attributenselecteur, die kan worden gebruikt om verschillende huiden op verschillende knoopstaten toe te passen.
+>Deze knop ondersteunt de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende skins toe te passen op verschillende knoptoestanden.
 
-De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) voor meer informatie.
+De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) voor meer informatie .
 
 Voorbeeld: als u een knop Verwijderen wilt instellen op 25 x 25 pixels en voor elke status een andere afbeelding wilt gebruiken:
 
@@ -964,11 +964,11 @@ De inhoud die wordt gedeeld, wordt onder in de hoofdtekst van het dialoogvenster
 <table id="table_9C5CBFC2482E4A46BE837573B0B02FE4"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Containerrand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
    <td colname="col2"> <p>Opvulling binnen. </p> </td> 
   </tr> 
  </tbody> 
@@ -989,26 +989,26 @@ De miniatuurafbeelding wordt beheerd met de volgende CSS-klassenkiezer:
 .s7videoviewer .s7emaildialog .s7dialogthumbnail
 ```
 
-De eigenschap `background-image` wordt ingesteld door de componentlogica.
+De `background-image` wordt ingesteld door de componentlogica.
 
 **CSS-eigenschappen van de miniatuurafbeelding van het dialoogvenster**
 
 <table id="table_4C614FF2CEB149DAB5B7D7BC38CD3CAE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Breedte miniatuur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte miniatuur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vertical-align  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> vertical-align </span> </p> </td> 
    <td colname="col2"> <p>Miniatuur van verticale uitlijning. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
    <td colname="col2"> <p>Opvulling binnen. </p> </td> 
   </tr> 
  </tbody> 
@@ -1036,7 +1036,7 @@ De titel, oorsprong en beschrijving van de inhoud worden verder gegroepeerd in e
 <table id="table_EDFA6229D8C3468E989E7EC05F23EF3B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Breedte deelvenster. </p> </td> 
   </tr> 
  </tbody> 
@@ -1061,19 +1061,19 @@ De titel van de inhoud wordt bestuurd met de volgende CSS-klassenkiezer:
 <table id="table_E83C149E66EC474092DF8A180DA9A550"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge </span> </p> </td> 
    <td colname="col2"> <p>Buitenmarge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p>Fontgewicht. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekengrootte  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekengrootte </span> </p> </td> 
    <td colname="col2"> <p>Tekengrootte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Lettertypefamilie. </p> </td> 
   </tr> 
  </tbody> 
@@ -1099,19 +1099,19 @@ De oorsprong van de inhoud wordt beheerd met de volgende CSS-klassenkiezer:
 <table id="table_51763B532A9C4AE8AE54B69933A8C0B5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge </span> </p> </td> 
    <td colname="col2"> <p>Buitenmarge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p>Fontgewicht. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekengrootte  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekengrootte </span> </p> </td> 
    <td colname="col2"> <p>Tekengrootte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Lettertypefamilie. </p> </td> 
   </tr> 
  </tbody> 
@@ -1136,19 +1136,19 @@ De beschrijving van de inhoud wordt beheerd met de volgende CSS-klassenkiezer:
 <table id="table_F0F917ED3D1D4FCE974F48214D287E14"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge </span> </p> </td> 
    <td colname="col2"> <p>Buitenmarge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p>Fontgewicht. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekengrootte  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekengrootte </span> </p> </td> 
    <td colname="col2"> <p>Tekengrootte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Lettertypefamilie. </p> </td> 
   </tr> 
  </tbody> 
@@ -1174,35 +1174,35 @@ Wanneer een gebruiker onjuiste invoergegevens invoert en inlinevalidering misluk
 <table id="table_C114E1004C334D339C25A3438E8E6614"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
    <td colname="col2"> <p> Foutpictogram. Standaard is een uitroepteken. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Foutpictogrampositie binnen het berichtgebied. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> kleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kleur </span> </p> </td> 
    <td colname="col2"> <p>Tekstkleur van bericht. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p>Fontgewicht. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekengrootte  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekengrootte </span> </p> </td> 
    <td colname="col2"> <p>Tekengrootte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Lettertypefamilie. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> regelhoogte  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> regelhoogte </span> </p> </td> 
    <td colname="col2"> <p> Teksthoogte in het bericht. Heeft invloed op de verticale uitlijning. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
    <td colname="col2"> <p>Opvulling binnen. </p> </td> 
   </tr> 
  </tbody> 
@@ -1210,11 +1210,11 @@ Wanneer een gebruiker onjuiste invoergegevens invoert en inlinevalidering misluk
 
 >[!NOTE]
 >
->Dit bericht ondersteunt de `state` attribuutselecteur met de volgende mogelijke waarden: `verifyerror`, `senderror` en `sendsuccess`. `verifyerror` wordt ingesteld wanneer een bericht wordt weergegeven als gevolg van een inline-invoervalidatiefout;  `senderror` wordt ingesteld wanneer een e-mailservice op de achtergrond een fout meldt;  `sendsuccess` wordt ingesteld wanneer e-mail is verzonden. Op deze manier kunt u het bericht anders opmaken afhankelijk van de status van het dialoogvenster.
+>Dit bericht ondersteunt de `state` kenmerkkiezer met de volgende mogelijke waarden: `verifyerror`, `senderror`, en `sendsuccess`. De kenmerkenkiezer `verifyerror` wordt ingesteld wanneer een bericht wordt weergegeven als gevolg van een inline-invoervalidatiefout; `senderror` wordt ingesteld wanneer een e-mailservice op de achtergrond een fout meldt; `sendsuccess` wordt ingesteld wanneer e-mail is verzonden. Op deze manier kunt u het bericht anders opmaken afhankelijk van de status van het dialoogvenster.
 
-Het foutbericht kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) voor meer informatie.
+Het foutbericht kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) voor meer informatie .
 
-Voorbeeld - als u een bericht wilt instellen dat een lettertype van tien punten vet wordt gebruikt, dat een lijnhoogte van 25 pixels, een opvulling van 20 pixels aan de linkerkant en een uitroeptekenpictogram moeten worden gebruikt, dat rood moet worden als er een fout optreedt en dat er geen pictogram en groene tekst mogen worden weergegeven als de bewerking slaagt:
+Voorbeeld - Een bericht instellen voor het gebruik van een vetgedrukt lettertype van tien punten. En de afbeelding moet een regelhoogte van 25 pixels hebben, 20 pixels opvulling aan de linkerkant, een uitroeptekenpictogram gebruiken, rode tekst als er een fout optreedt en geen pictogram en groene tekst als de bewerking succesvol is:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogerrormessage[state="verifyerror"] { 
@@ -1249,7 +1249,7 @@ Als verticaal schuiven nodig is, wordt de schuifbalk weergegeven in het deelvens
 <table id="table_A0C3AC7E00544FFBB8E1364F4CDDB371"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Breedte van deelvenster Schuiven. </p> </td> 
   </tr> 
  </tbody> 
@@ -1274,19 +1274,19 @@ De vormgeving van het gebied van de schuifbalk wordt bepaald door de volgende CS
 <table id="table_2BF74CF43E9B42D79F99A3F5208D7051"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p> De breedte van de schuifbalk. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> De verticale verschuiving van de schuifbalk vanaf de bovenkant van het schuifvenster. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
    <td colname="col2"> <p> De verticale verschuiving van de schuifbalk vanaf de onderkant van het schuifvenster. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
    <td colname="col2"> <p> De verschuiving van de horizontale schuifbalk ten opzichte van de rechterrand van het schuifvenster. </p> </td> 
   </tr> 
  </tbody> 
@@ -1314,11 +1314,11 @@ Schuifbalktrack is het gebied tussen de bovenste en onderste schuifknop. De comp
 <table id="table_EE990E7A342843619EDD84BAD29C6F2A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>De spoorbreedte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>De achtergrondkleur van de track. </p> </td> 
   </tr> 
  </tbody> 
@@ -1344,27 +1344,27 @@ De schuifbalkduim beweegt verticaal binnen een schuiftrackgebied. De verticale p
 <table id="table_5A4A283A50044A51881D997885674BDF"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>De breedte van het blokje. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>De hoogte van de duim. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen boven  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen boven </span> </p> </td> 
    <td colname="col2"> <p> De verticale opvulling tussen de bovenkant van de track. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opvullen-onder  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opvullen-onder </span> </p> </td> 
    <td colname="col2"> <p> De verticale opvulling tussen de onderkant van de track. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
    <td colname="col2"> <p>De afbeelding die voor een bepaalde duimstatus wordt weergegeven. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -1372,9 +1372,9 @@ De schuifbalkduim beweegt verticaal binnen een schuiftrackgebied. De verticale p
 
 >[!NOTE]
 >
->De duim steunt de `state` attributenselecteur, die kan worden gebruikt om verschillende huiden op verschillende duimstaten toe te passen: `up`, `down`, `over` en `disabled`.
+>Miniatuur ondersteunt de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende skins toe te passen op verschillende blokstatussen: `up`, `down`, `over`, en `disabled`.
 
-De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) voor meer informatie.
+De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) voor meer informatie .
 
 Voorbeeld: als u een schuifbalkblokje van 28 x 45 pixels wilt instellen, hebt u een marge van 10 pixels boven en onder aan de schuifbalk en hebt u voor elke staat een andere illustratie:
 
@@ -1415,19 +1415,19 @@ De vormgeving van de bovenste en onderste schuifknoppen wordt bepaald door de vo
 <table id="table_EB853317E08941979B0E141C3C9B2C49"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>De knopbreedte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>De knophoogte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
    <td colname="col2"> <p>De afbeelding die voor een bepaalde knopstatus wordt weergegeven. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -1435,7 +1435,7 @@ De vormgeving van de bovenste en onderste schuifknoppen wordt bepaald door de vo
 
 >[!NOTE]
 >
->Deze knoppen ondersteunen de kenmerkenkiezer `state`, die kan worden gebruikt om verschillende skins toe te passen op verschillende knoptoestanden: `up`, `down`, `over` en `disabled`.
+>Deze knoppen ondersteunen de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende skins toe te passen op verschillende knoptoestanden: `up`, `down`, `over`, en `disabled`.
 
 Voorbeeld - voor het instellen van schuifknoppen met een resolutie van 28 x 32 pixels en voor elke status een andere illustratie:
 

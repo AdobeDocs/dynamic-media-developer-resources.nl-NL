@@ -1,13 +1,13 @@
 ---
+title: Knop Bijschrift
 description: Met deze knop schakelt u de weergave van een gesloten bijschrift in of uit. De eigenschap is niet zichtbaar als de parameter caption niet is opgegeven.
 solution: Experience Manager
-title: Knop Bijschrift
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 47d4a33b-e2bc-4a32-be45-5320d3de1955
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
@@ -31,19 +31,19 @@ De vormgeving van deze knop wordt bepaald door de volgende CSS-klassenkiezer:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> Positie vanaf de bovenrand, inclusief opvulling. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
    <td colname="col2"> <p> Positie vanaf de rechterrand, inclusief opvulling. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
    <td colname="col2"> <p> Positie vanaf de linkerrand, inclusief opvulling. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
    <td colname="col2"> <p>Positie vanaf de onderrand, inclusief opvulling. </p> </td> 
   </tr> 
   <tr> 
@@ -51,15 +51,15 @@ De vormgeving van deze knop wordt bepaald door de volgende CSS-klassenkiezer:
    <td colname="col2"> <p> De breedte van de knop Volledig scherm. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>De hoogte van de knop Volledig scherm. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
    <td colname="col2"> <p> De weergegeven afbeelding voor een bepaalde knopstatus. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -67,13 +67,13 @@ De vormgeving van deze knop wordt bepaald door de volgende CSS-klassenkiezer:
 
 >[!NOTE]
 >
->Deze knoop steunt zowel `state` als `selected` attribuutselecteurs, die kunnen worden gebruikt om verschillende huiden op verschillende knoopstaten toe te passen. Met name `selected='true'` komt overeen met de status wanneer bijschriften zichtbaar zijn en `selected='false'` wordt gebruikt wanneer bijschriften verborgen zijn.
+>Deze knop ondersteunt beide `state` en `selected` kenmerkkiezers, die kunnen worden gebruikt om verschillende skins toe te passen op verschillende knoptoestanden. Met name: `selected='true'` komt overeen met de status wanneer bijschriften zichtbaar zijn en `selected='false'` wordt gebruikt wanneer bijschriften worden verborgen.
 
-De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) voor meer informatie.
+De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) voor meer informatie .
 
 ## Voorbeeld {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Als u een knop voor een gesloten bijschrift van 28 x 28 pixels wilt instellen, plaatst u vier pixels van de bovenkant en 68 pixels van de rechterrand van de besturingsbalk en geeft u een andere afbeelding weer voor elk van de vier verschillende knopstatussen, al dan niet geselecteerd.
+Aan opstelling een gesloten titelknoop die 28 x 28 pixel is en vier pixel van de bovenkant en 68 pixel van de juiste rand van de controlebar plaatst. En ten slotte wordt voor elk van de vier verschillende knoptoestanden een andere afbeelding weergegeven wanneer deze is geselecteerd of niet.
 
 ```
 .s7videoviewer .s7closedcaptionbutton { 

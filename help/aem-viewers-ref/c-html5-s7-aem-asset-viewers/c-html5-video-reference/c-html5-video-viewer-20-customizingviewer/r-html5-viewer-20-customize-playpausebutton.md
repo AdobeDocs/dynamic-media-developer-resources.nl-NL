@@ -1,13 +1,13 @@
 ---
+title: Knop Afspelen/Pauzeren
 description: Met de knop Afspelen/Pauzeren wordt de video-inhoud afgespeeld of gepauzeerd wanneer de gebruiker erop klikt.
 solution: Experience Manager
-title: Knop Afspelen/Pauzeren
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 174ddf15-e6be-4a65-8c82-5c9edf061a6c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -31,19 +31,19 @@ De volgende CSS-klassenkiezer bepaalt de vormgeving van de knop:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Positie vanaf de bovenrand, inclusief opvulling. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
    <td colname="col2"> <p>Positie vanaf de rechterrand, inclusief opvulling. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
    <td colname="col2"> <p>Positie vanaf de linkerrand, inclusief opvulling. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
    <td colname="col2"> <p> Positie vanaf de onderrand, inclusief opvulling. </p> </td> 
   </tr> 
   <tr> 
@@ -51,15 +51,15 @@ De volgende CSS-klassenkiezer bepaalt de vormgeving van de knop:
    <td colname="col2"> <p>Breedte van de knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van de knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
    <td colname="col2"> <p>De afbeelding die voor een bepaalde knopstatus wordt weergegeven. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -67,15 +67,15 @@ De volgende CSS-klassenkiezer bepaalt de vormgeving van de knop:
 
 >[!NOTE]
 >
->Deze knoop steunt zowel `state`, `selected`, als `replay` attribuutselecteurs, die kunnen worden gebruikt om verschillende huiden op verschillende knoopstaten toe te passen. Met name `selected='true'` komt overeen met de status &quot;play&quot; en `selected='false'` komt overeen met de status &quot;pause&quot;;
+>Deze knop ondersteunt beide `state`, `selected`, en `replay` kenmerkkiezers, die kunnen worden gebruikt om verschillende skins toe te passen op verschillende knoptoestanden. Met name: `selected='true'` komt overeen met de status &quot;play&quot; en `selected='false'` komt overeen met de pauzestatus;
 >
->`replay='true'` wordt ingesteld wanneer de video het einde heeft bereikt en wanneer u op de knop klikt, wordt het afspelen vanaf het begin opnieuw gestart.
+>De kenmerkenkiezer `replay='true'` wordt ingesteld wanneer de video het einde heeft bereikt en wanneer u de knop selecteert, wordt het afspelen vanaf het begin opnieuw gestart.
 
-De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) voor meer informatie.
+De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) voor meer informatie .
 
 ## Voorbeeld {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Een afspeel-/pauzeknop van 32 x 32 pixels instellen; de knop bevindt zich op zes pixels van de boven- en linkerrand van de besturingsbalk en geeft een andere afbeelding weer voor elk van de vier verschillende knopstatussen, indien geselecteerd of niet geselecteerd.
+Een afspeel-/pauzeknop instellen van 32 x 32 pixels en 6 pixels van de boven- en linkerrand van de besturingsbalk. En ten slotte wordt voor elk van de vier verschillende knoptoestanden een andere afbeelding weergegeven wanneer deze is geselecteerd of niet.
 
 ```
 .s7videoviewer .s7playpausebutton { 

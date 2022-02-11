@@ -1,11 +1,11 @@
 ---
+title: Facebook share
 description: Het facebook-gereedschap Delen bestaat uit een knop die is toegevoegd aan het deelvenster Delen via sociale media. Wanneer de knop is geselecteerd, wordt de gebruiker omgeleid naar een dialoogvenster voor delen dat wordt geleverd door een sociale service. De positie van de knop wordt volledig beheerd met het gereedschap Sociaal delen.
 solution: Experience Manager
-title: Facebook share
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 6b7e043f-6a9f-48ba-b811-3c94fe5c32f1
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 0%

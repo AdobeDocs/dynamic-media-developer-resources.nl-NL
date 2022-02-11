@@ -1,20 +1,20 @@
 ---
-description: De besturingsbalk is het rechthoekige gebied dat alle UI-besturingselementen bevat die beschikbaar zijn voor de videoviewer, zoals de knop Afspelen/Pauzeren, volumeregelingen enzovoort, en bevindt zich achter deze besturingselementen.
-solution: Experience Manager
 title: Besturingsbalk
+description: De besturingsbalk is het rechthoekige gebied dat alle UI-besturingselementen bevat die beschikbaar zijn voor de videoviewer, zoals de knop Afspelen/Pauzeren en de volumeregelaars, en bevindt zich achter deze besturingselementen.
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 2239307a-4a05-4392-b35c-a64ea6c938ad
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
 
 # Besturingsbalk{#control-bar}
 
-De besturingsbalk is het rechthoekige gebied dat alle UI-besturingselementen bevat die beschikbaar zijn voor de videoviewer, zoals de knop Afspelen/Pauzeren, volumeregelingen enzovoort, en bevindt zich achter deze besturingselementen.
+De besturingsbalk is het rechthoekige gebied dat alle UI-besturingselementen bevat die beschikbaar zijn voor de videoviewer, zoals de knop Afspelen/Pauzeren en de volumeregelaars, en bevindt zich achter deze besturingselementen.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -31,19 +31,19 @@ De volgende CSS klassenselecteur controleert de verschijning van de controlebar:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Positie vanaf de bovenrand, inclusief opvulling. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
    <td colname="col2"> <p> Positie vanaf de onderrand, inclusief opvulling. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van de besturingsbalk. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Achtergrondkleur van de besturingsbalk. </p> </td> 
   </tr> 
  </tbody> 

@@ -1,13 +1,13 @@
 ---
+title: Knopinfo
 description: Op desktopsystemen hebben bepaalde gebruikersinterface-elementen, zoals knoppen, knopinfo die wordt weergegeven wanneer de muisaanwijzer wordt bewogen.
 solution: Experience Manager
-title: Knopinfo
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 706b27a1-99e8-4596-8bd1-af4455501e29
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -35,27 +35,27 @@ De vormgeving van knopinfo wordt bepaald door de volgende CSS-klassenkiezer:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
    <td colname="col2"> <p> Straal achtergrondrand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-color </span> </p> </td> 
    <td colname="col2"> <p> Achtergrondrandkleur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Achtergrondkleur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> kleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kleur </span> </p> </td> 
    <td colname="col2"> <p>Tekstkleur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Naam tekstlettertype. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekengrootte  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekengrootte </span> </p> </td> 
    <td colname="col2"> <p>Tekengrootte tekst. </p> </td> 
   </tr> 
  </tbody> 
@@ -63,9 +63,9 @@ De vormgeving van knopinfo wordt bepaald door de volgende CSS-klassenkiezer:
 
 >[!NOTE]
 >
->Als knopinfo-stijlen worden aangepast vanuit de ingesloten webpagina, moeten alle eigenschappen de `!IMPORTANT`-regel bevatten. Dit is niet nodig als knopinfo wordt aangepast in het CSS-bestand van de viewer.
+>Als knopinfo-stijlen worden aangepast vanuit de ingesloten webpagina, moeten alle eigenschappen `!IMPORTANT` regel. Deze regel is niet nodig als knopinfo wordt aangepast in het CSS-bestand van de viewer.
 
-Voorbeeld - voor het instellen van knopinfo met een grijze rand met een hoekstraal van 3 px, een zwarte achtergrond en witte tekst geschreven met Arial, grootte van 11 pixels:
+Voorbeeld - Voor het instellen van knopinfo met een grijze rand met een straal van drie pixels voor hoeken, een zwarte achtergrond en witte tekst geschreven met Arial®, grootte van 11 pixels:
 
 ```
 .s7tooltip { 
