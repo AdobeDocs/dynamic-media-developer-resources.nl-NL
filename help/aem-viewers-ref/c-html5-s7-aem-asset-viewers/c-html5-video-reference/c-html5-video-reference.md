@@ -1,12 +1,12 @@
 ---
-description: De Video Viewer is een videospeler die streaming en progressieve video afspeelt die in H.264-indeling is gecodeerd. Het wordt geleverd door Dynamic Media Classic of Adobe Experience Manager met Dynamic Media.
+title: Video
+description: De Video Viewer is een videospeler die streaming en progressieve video afspeelt die in de H.264-indeling zijn gecodeerd. Het wordt geleverd door Dynamic Media Classic of Adobe Experience Manager met Dynamic Media.
 keywords: responsief
 solution: Experience Manager
-title: Video
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: fa9727dc-f9e2-4d91-b500-445693dfb6aa
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
 source-wordcount: '2372'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Video{#video}
 
-De Video Viewer is een videospeler die streaming en progressieve video afspeelt die in H.264-indeling is gecodeerd. Het wordt geleverd van Dynamic Media Classic of Experience Manager met Dynamic Media.
+De Video Viewer is een videospeler die streaming en progressieve video afspeelt die in de H.264-indeling zijn gecodeerd. Het wordt geleverd van Dynamic Media Classic of Experience Manager met Dynamic Media.
 
 Zie [Systeemvereisten en -vereisten](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
@@ -162,7 +162,7 @@ Relatief pad ziet er als volgt uit:
    }
    ```
 
-   U kunt instellen `stagesize` in de viewervoorinstellingsrecord in Dynamic Media Classic, of geef deze expliciet door met de viewerinitialisatiecode met `params` verzameling. Of, als API vraag zoals die in de de verwijzingssectie van het Bevel wordt beschreven, zoals in het volgende:
+   U kunt instellen `stagesize` in de viewervoorinstellingsrecord in Dynamic Media Classic of deze expliciet doorgeven met de viewerinitialisatiecode met `params` verzameling. Of, als API vraag zoals die in de de verwijzingssectie van het Bevel wordt beschreven, zoals in het volgende:
 
    ```
    videoViewer.setParam("stagesize", "640,480");

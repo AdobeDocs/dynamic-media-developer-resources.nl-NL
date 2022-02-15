@@ -1,13 +1,13 @@
 ---
+title: Ondersteuning voor Adobe Analytics-tracking
 description: De video-viewer ondersteunt het uit de verpakking bijhouden van Adobe Analytics.
 solution: Experience Manager
-title: Ondersteuning voor Adobe Analytics-tracking
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 2cc7087d-ed02-4560-b9ce-533af2b11a24
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ De video-viewer ondersteunt het uit de verpakking bijhouden van Adobe Analytics.
 
 De video-viewer ondersteunt het uit de verpakking bijhouden van Adobe Analytics.
 
-Als u reeksspatiëring wilt inschakelen, geeft u de juiste naam van de bedrijfsvoorinstelling door als `config2`-parameter.
+Als u het bijhouden van wijzigingen wilt inschakelen, geeft u de juiste naam van de bedrijfsvoorinstelling door als `config2` parameter.
 
 De kijker verzendt ook één enkele het volgen HTTP- verzoek naar de gevormde Server van het Beeld met het viewertype en versieinformatie.
 
 ## Aangepaste reeksspatiëring {#section-ab10bd7caf184721a366cf3953071934}
 
-Om met derdeanalysesystemen te integreren is het noodzakelijk om aan `trackEvent` kijker callback te luisteren en `eventInfo` argument van de callback functie zonodig te verwerken. De volgende code is een voorbeeld van een dergelijke handlerfunctie:
+Om met analysesystemen van derden te integreren, is het nodig te luisteren naar `trackEvent` callback en proces van viewer `eventInfo` argument van de callback functie zoals nodig. De volgende code is een voorbeeld van een dergelijke handlerfunctie:
 
 ```
 var videoViewer = new s7viewers.VideoViewer({ 
@@ -62,27 +62,27 @@ De viewer houdt de volgende SDK-gebruikersgebeurtenissen bij:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LADEN  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LADEN </span> </p> </td> 
    <td colname="col2"> <p>de viewer wordt eerst geladen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SWAP  </span> </p> </td> 
-   <td colname="col2"> <p>een element wordt in de viewer omgewisseld met <span class="codeph"> setAsset() </span> API. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
+   <td colname="col2"> <p>een element in de viewer wordt omgewisseld met <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> AFSPELEN  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> AFSPELEN </span> </p> </td> 
    <td colname="col2"> <p>het afspelen wordt gestart. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PAUZEREN  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PAUZEREN </span> </p> </td> 
    <td colname="col2"> <p>het afspelen is gepauzeerd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> STOPPEN  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> STOPPEN </span> </p> </td> 
    <td colname="col2"> <p>afspelen wordt gestopt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> MILESTONE  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> MILESTONE </span> </p> </td> 
    <td colname="col2"> <p>het afspelen een van de volgende mijlpalen bereikt: 0%, 25%, 50%, 75% en 100%. </p> </td> 
   </tr> 
  </tbody> 

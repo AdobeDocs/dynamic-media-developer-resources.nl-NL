@@ -1,11 +1,11 @@
 ---
+title: Compatibiliteitsnotities
 description: Compatibiliteitsnotities voor besturingssystemen, browsers en mobiele apparaten.
 solution: Experience Manager
-title: Compatibiliteitsnotities
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
-source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 0%
@@ -66,7 +66,7 @@ Compatibiliteitsnotities voor besturingssystemen, browsers en mobiele apparaten.
 
 ## iOS {#section-70161cba8c2044838d916d0b69c12247}
 
-* Grote eCatalogs zorgen ervoor dat de browser vastloopt op iPad 2.
+* Grote eCatalogs veroorzaken dat browser op iPad 2 crasht.
 
 ## Safari {#section-f8de598293d349188aa02c82cd3af8b6}
 
