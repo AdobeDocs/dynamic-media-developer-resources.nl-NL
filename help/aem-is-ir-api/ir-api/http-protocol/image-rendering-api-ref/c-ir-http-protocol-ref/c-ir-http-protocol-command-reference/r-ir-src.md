@@ -1,13 +1,13 @@
 ---
+title: src
 description: Materiaalbestand. Hiermee worden materiaalgegevens opgegeven, in de vorm van één materiaalcatalogusverwijzing of als een of twee afbeeldings- of materiaalgegevensbestanden, gescheiden met een komma.
 solution: Experience Manager
-title: src
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: aff45f0f-e672-40da-9cc8-db83cf3922ff
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Materiaalbestand. Hiermee worden materiaalgegevens opgegeven, in de vorm van één materiaalcatalogusverwijzing of als een of twee afbeeldings- of materiaalgegevensbestanden, gescheiden met een komma.
 
-`src = *``*|{{ *``*| *``*}[, *`catalogEntrymaterialFileembeddedRequestFile`*]`
+`src = *`catalogEntry`*|{{ *`materialFile`*| *`embeddedReq`*}[, *`materialFile`*]`
 
 `srcE= *`name`*`
 
@@ -33,15 +33,15 @@ Materiaalbestand. Hiermee worden materiaalgegevens opgegeven, in de vorm van é�
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> embeddedReq</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph">&amp;Broce;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'&amp;rbrace;|&amp;lbrace;'ir&amp;lbrace;'<span class="varname"> irReq</span>'&amp;rbrace;'|&amp;lbrace;'&amp;lbrace;'<span class="varname"> foreignReq</span>'&amp;rbrace;'</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&amp;Accolade;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;Broce;'&amp;rbrace;|&amp;lbrace;'ir&amp;lbrace;'<span class="varname"> irReq</span>&amp;Broce;'|&amp;lbrace;'&amp;lbrace;'<span class="varname"> foreignReq</span>'&amp;resource;'</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p></td> 
-  <td class="stentry"> <p>Identiteitskaart van de materiaalcatalogus (<span class="codeph"> attribuut::RootId</span>). </p></td> 
+  <td class="stentry"> <p>Materiaalcatalogus-id (<span class="codeph"> kenmerk::RootId</span>). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> recId</span> </p></td> 
-  <td class="stentry"> <p>Material catalog entry (<span class="codeph"> catalog::Id</span>). </p></td> 
+  <td class="stentry"> <p>Materiaalcatalogusitem (<span class="codeph"> catalogus::Id</span>). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> styleFile</span> </p></td> 
@@ -75,31 +75,31 @@ Materiaalbestand. Hiermee worden materiaalgegevens opgegeven, in de vorm van é�
 
 Voor herhaalbare Texture-, Decal- en Wallpaper-materialen is één afbeelding vereist, die kan worden opgegeven als een bestand of een ingesloten aanvraag.
 
-Voor kabinetsmateriaal is een bestand met een kabinetstijl ( [!DNL .vnc]) vereist, dat niet kan worden opgegeven als een geneste aanvraag. Een bestand met een structuurafbeelding is optioneel voor kabinetten en kan, indien opgegeven, een bestand of een ingesloten aanvraag zijn.
+Voor kabinetsmateriaal is een bestand met een kabinetstijl vereist ( [!DNL .vnc]), die niet als een geneste aanvraag kan worden opgegeven. Een bestand met een structuurafbeelding is optioneel voor kabinetten en kan, indien opgegeven, een bestand of een ingesloten aanvraag zijn.
 
-Voor materiaal voor vensterbekledingen is een stijlbestand voor vensterbekledingen ( [!DNL .vnw]) vereist, dat niet kan worden opgegeven als een geneste aanvraag. Een structuurbestand is optioneel en kan, indien opgegeven, een bestand of een ingesloten aanvraag zijn.
+Voor materiaal voor vensterbekleding is een stijlbestand voor vensterbekleding vereist ( [!DNL .vnw]), die niet als een geneste aanvraag kan worden opgegeven. Een structuurbestand is optioneel en kan, indien opgegeven, een bestand of een ingesloten aanvraag zijn.
 
-Voor het renderen van afbeeldingen worden dezelfde regels gebruikt als voor het weergeven van afbeeldingen, zodat u materiaalcatalogi, catalogusitems en gegevensbestanden kunt opzoeken. Raadpleeg de beschrijving van het gegevenstype *`object`* in de documentatie bij Image Serving voor meer informatie.
+Voor het renderen van afbeeldingen worden dezelfde regels gebruikt als voor het weergeven van afbeeldingen, zodat u materiaalcatalogi, catalogusitems en gegevensbestanden kunt opzoeken. Zie de beschrijving van de *`object`* Gegevenstype in de documentatie van de Beeldserver voor meer informatie.
 
-*`materialFile`* is een pad ten opzichte van  `attribute::RootPath`.
+*`materialFile`* Is een pad dat relatief is ten opzichte van `attribute::RootPath`.
 
-*`foreignReq`* Dit kan een URL zijn ten opzichte van  `attribute::RootUrl`of een absolute URL als deze  `attribute::AllowDirectUrls` is ingesteld.
+*`foreignReq`* Dit kan een URL zijn die relatief is ten opzichte van `attribute::RootUrl`of een absolute URL als `attribute::AllowDirectUrls` is ingesteld.
 
-Als *`catId`* niet wordt gespecificeerd, wordt de zittingscatalogus gebruikt.
+Indien *`catId`* niet is opgegeven, wordt de sessiecatalogus gebruikt.
 
-`srcE=` en toegang  `srcN=` bieden tot materialen die zijn ingesloten in het vignet.
+`srcE=` en `srcN=` toegang bieden tot materialen die zijn ingesloten in het vignet.
 
 ## Ondersteunde bestandsindelingen {#section-f2186d3eef834fc8bbecb2bc68daacad}
 
 Renderen van afbeeldingen ondersteunt dezelfde bronafbeeldingsindelingen als Dynamic Media Image Serving.
 
-Toepassingen waarvoor afbeeldingsgegevens in meerdere resoluties nodig zijn, presteren het beste als de indeling voor meerresolutie van de Scene7 piramid TIFF (PTIFF) wordt gebruikt. De Beeldserver omvat het hulpmiddel van de Omzetter van het Beeld (IC) dat tot beelden PTIFF van om het even welk gesteund formaat leidt.
+Toepassingen waarvoor afbeeldingsgegevens in meerdere resoluties nodig zijn, presteren het best als de indeling voor meerresolutie van Scene7 piramid TIFF (PTIFF) wordt gebruikt. De Beeldserver omvat het hulpmiddel van de Omzetter van het Beeld (IC) dat tot beelden PTIFF van om het even welk gesteund formaat leidt.
 
 Raadpleeg de beschrijving van het IC-hulpprogramma in de documentatie van Image Serving voor een volledige lijst met ondersteunde bestandsindelingen.
 
 ## Eigenschappen {#section-e68d03788d534e2184147987d51dfd0f}
 
-Materiaalkenmerk. Vereist voor alle materialen behalve effen kleuren (niet toegestaan voor effen kleurstoffen). Alle tekenreeksen zijn hoofdlettergevoelig. *`index`* moet 0 of groter zijn.
+Materiaalkenmerk. Vereist voor alle materialen behalve effen kleuren (niet toegestaan voor effen kleurstoffen). Alle tekenreeksen zijn hoofdlettergevoelig. *`index`* Moet 0 of groter zijn.
 
 ## Standaard {#section-dde549c1917540dc8f9555962202da3c}
 
@@ -111,7 +111,7 @@ Een MSS voor een gekleurde kast met een afzonderlijke herhaalbare structuur:
 
 `…&obj=cabinets&src=cabs/maple02.vnc,cabs/maple.jpg&res=40&color=185,105,35&…`
 
-Hetzelfde materiaal kan zich bevinden in een materiaalcatalogus `'cat`&#39; in record &#39; `12-3-2`&#39;:
+Hetzelfde materiaal kan zich in een materiaalcatalogus bevinden `'cat`&#39; in record &#39; `12-3-2`&quot;:
 
 `…&obj=cabinets&src=cat/12-3-2&…`
 
@@ -121,4 +121,4 @@ Een geneste aanvraag voor een afbeelding in de afbeeldingsserver om een structuu
 
 ## Zie ook {#section-d01d25b8903e4f5ca6aef4a084fca6b7}
 
-[Materiële catalogi](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/c-ir-http-material-catalogs.md#concept-772742c1688f420a88a56f5136ad1db2),  [kenmerk::RootUrl](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402),  [kenmerk::AllowDirectUrls](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-allowdirecturls.md#reference-02000c0f3c494292bad8425d06268882)
+[Materiaalcatalogi](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/c-ir-http-material-catalogs.md#concept-772742c1688f420a88a56f5136ad1db2), [kenmerk:RootUrl](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402), [kenmerk:AllowDirectUrls](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-allowdirecturls.md#reference-02000c0f3c494292bad8425d06268882)

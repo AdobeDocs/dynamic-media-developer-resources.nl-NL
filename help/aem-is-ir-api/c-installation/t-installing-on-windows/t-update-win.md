@@ -1,13 +1,13 @@
 ---
+title: Bijwerken vanaf IS 4.7.4 of hoger
 description: Gebruik deze procedure bij het upgraden van Dynamic Media Image Serving.
 solution: Experience Manager
-title: Bijwerken vanaf IS 4.7.4 of hoger
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e0781f19-4aa8-46f7-a586-4724ff8a2e68
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -20,24 +20,24 @@ Als u een upgrade uitvoert van een oudere versie van Image Serving, neemt u cont
 
 >[!NOTE]
 >
->De map [!DNL webapps] kan bij een upgrade worden verwijderd. Maak een back-up van de map [!DNL webapps] voordat u de upgrade uitvoert.
+>De [!DNL webapps] kan worden verwijderd tijdens de upgrade. Maak een back-up van de [!DNL webapps] voor upgrade.
 
 1. Meld u met beheerdersrechten aan bij uw serverhost.
 1. Extraheer de inhoud van het ZIP-bestand van de Afbeeldingsserver.
-1. Voer setup/setup.exe uit om de installatiewizard te starten.
-1. Klik **[!UICONTROL Next]** om naar de licentieovereenkomst voor eindgebruikers (EULA) te gaan, lees de licentieovereenkomst en klik op **[!UICONTROL Yes]**.
+1. De installatiewizard starten door `setup/setup.exe`.
+1. Selecteren **[!UICONTROL Next]** om naar de licentieovereenkomst voor eindgebruikers (EULA) te gaan, leest u de licentieovereenkomst en selecteert u **[!UICONTROL Yes]**.
 
    Op de volgende pagina worden de vorige configuratie-instellingen weergegeven.
-1. Klik **[!UICONTROL Next]** om de updateinstallatie te beginnen.
+1. Klikken **[!UICONTROL Next]** om de installatie van de update te starten.
 
    >[!NOTE]
    >
-   >Het installatieprogramma maakt een back-up van de oude serverconfiguratiebestanden in de map [!DNL BACKUP/].
+   >Het installatieprogramma maakt een back-up van de oude serverconfiguratiebestanden naar de [!DNL BACKUP/] map.
 
-1. Als de installatie is voltooid, klikt u op Voltooien om de installatiewizard af te sluiten.
+1. Selecteer **[!UICONTROL Finish]** om de installatiewizard af te sluiten.
 
-   In sommige gevallen kan de installatiewizard vragen het systeem opnieuw op te starten.
+   Soms vraagt de installatiewizard u het systeem opnieuw op te starten.
 
-Tijdens een update wordt het [!DNL ImageServing/conf/server.xml]-bestand bijgewerkt naar de meest recente instellingen. Als u om het even welke waarden hebt veranderd of toegevoegd zou u uw bestaande [!DNL server.xml] moeten bewaren en uw veranderingen na de verbetering opnieuw uitvoeren.
+Tijdens een update worden de [!DNL ImageServing/conf/server.xml] wordt bijgewerkt naar de meest recente instellingen. Als u waarden hebt gewijzigd of toegevoegd, moet u de bestaande waarden opslaan [!DNL server.xml] en implementeer uw wijzigingen na de upgrade opnieuw.
 
-Na een update-installatie kunt u overwegen de HTTP-responscache op te warmen voordat u de server live gaat. Raadpleeg de beschrijving van het hulpprogramma `playlog` voor meer informatie.
+Na een update-installatie kunt u de HTTP-responscache opwarmen voordat u de server live gaat. Zie de beschrijving van de `playlog` voor meer informatie.

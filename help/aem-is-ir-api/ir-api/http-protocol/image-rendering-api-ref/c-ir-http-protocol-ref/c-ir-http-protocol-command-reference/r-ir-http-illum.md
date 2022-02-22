@@ -1,13 +1,13 @@
 ---
+title: illusie
 description: Selector van belichtingskaart. Hiermee geeft u de belichtingsafbeelding op waarmee dit materiaal liever wordt gerenderd.
 solution: Experience Manager
-title: illusie
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e1af2397-8eae-4b77-abb1-61ba8cb866f3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Selector van belichtingskaart. Hiermee geeft u de belichtingsafbeelding op waarm
 
 Als de opgegeven verlichtingskaart niet beschikbaar is in het doelvignet, wordt in plaats daarvan de dichtstbijzijnde beschikbare kaart gebruikt.
 
-`illum=-1` Hiermee geeft u op dat de verlichtingsafbeelding automatisch wordt geselecteerd op basis van de  `gloss=` waarde.
+`illum=-1` Hiermee wordt opgegeven dat de verlichtingsafbeelding automatisch wordt geselecteerd op basis van de optie `gloss=` waarde.
 
 ## Eigenschappen {#section-aace8466566e4cf1a0c5a6c0167245c9}
 

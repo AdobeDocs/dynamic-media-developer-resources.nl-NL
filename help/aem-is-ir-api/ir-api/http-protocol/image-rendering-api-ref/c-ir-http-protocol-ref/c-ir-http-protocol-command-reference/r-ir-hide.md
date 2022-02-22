@@ -1,13 +1,13 @@
 ---
+title: verbergen
 description: Overlappend object verbergen. Hiermee verbergt u alle overlappende objecten of vensterbekledingen die zijn toegepast op kaders met vensterbekleding in de huidige selectie.
 solution: Experience Manager
-title: verbergen
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 70c96b62-d6bd-4f12-9ee8-abac5d97e876
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

@@ -1,13 +1,13 @@
 ---
+title: roteren
 description: Materiaalrotatiehoek. Hiermee definieert u de rotatiehoek voor materialen.
 solution: Experience Manager
-title: roteren
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 355d9691-c04b-44a6-9563-5bef185cfa7e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -20,12 +20,12 @@ Materiaalrotatiehoek. Hiermee definieert u de rotatiehoek voor materialen.
 
 <table id="simpletable_F1A87ECD86E8429788825374A6882CB9"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> hoek  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> hoek </span> </p> </td> 
   <td class="stentry"> <p>Rotatiehoek in graden (reëel). </p> </td> 
  </tr> 
 </table>
 
-Roteer herhaalbare structuurmaterialen (met uitzondering van achtergronden) met veelvouden van 45 graden wanneer deze worden toegepast op vlakke objecten of vlakke objecten.
+Roteer herhaalbare structuurmaterialen (met uitzondering van achtergronden) met veelvouden van 45° wanneer deze worden toegepast op vlakke objecten of vlakke objecten.
 
 Roteer herhaalbare structuurmaterialen met willekeurige hoeken wanneer deze worden toegepast op Stroomlijn- en Schetsobjecten.
 
@@ -35,7 +35,7 @@ Positieve hoeken roteren rechtsom. De structuur of het decal wordt geroteerd ron
 
 ## Eigenschappen {#section-ad4d07897ca24f63af1a4062f8618e36}
 
-Materiaalkenmerk. Genegeerd door vaste kleuren, achtergrond, kast en vensterbehandelingsmaterialen. *`angle`* moet een veelvoud van 45 zijn voor herhaalbare structuren, tenzij toegepast op Stroomlijn- of Schetsobjecten.
+Materiaalkenmerk. Genegeerd door vaste kleuren, achtergrond, kast en vensterbehandelingsmaterialen. *`angle`* Moet een veelvoud van 45 zijn voor herhaalbare structuren, tenzij toegepast op Stroomlijn- of Schetsobjecten.
 
 ## Standaard {#section-14c991e71b74449db8ff18a775949b28}
 

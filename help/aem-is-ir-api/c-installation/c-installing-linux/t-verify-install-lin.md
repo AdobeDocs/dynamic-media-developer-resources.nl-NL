@@ -1,22 +1,22 @@
 ---
-description: Nadat u Image Serving op Linux hebt geïnstalleerd, verifieert u de installatie.
-solution: Experience Manager
 title: De installatie controleren
-feature: Dynamic Media Classic, SDK/API
+description: Nadat u Image Serving op Linux® installeert, verifieer de installatie.
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 273478ab-f245-48ef-a125-fb738054484e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # De installatie controleren{#verifying-the-installation}
 
-Nadat u Image Serving op Linux hebt geïnstalleerd, verifieert u de installatie.
+Nadat u Image Serving op Linux® installeert, verifieer de installatie.
 
-De Image Server wordt geïnstalleerd als Linux-daemon.
+De Image Server wordt geïnstalleerd als een Linux® daemon.
 
 **De installatie controleren**
 
@@ -28,11 +28,12 @@ De Image Server wordt geïnstalleerd als Linux-daemon.
    >
    >U moet over basismachtigingen beschikken om deze scripts uit te voeren.
 
-1. Open een internetbrowser op dezelfde of op een andere host en controleer de standaardreactie(s) van de server:
+1. Open een internetbrowser op dezelfde of op een andere host en controleer de standaardreacties van de server:
 
 [!DNL http:// *[!DNL server:port]*/is/image]
 
-[!DNL http:// *[!DNL server:port]*/ir/render]
+[!DNL  http:// *[!DNL server:port]*/ir/render]
 
-In de reacties, controleer de aanwezigheid van punten die met &quot; `imageServer.`&quot;beginnen, die erop wijzen dat de Server van het Platform met de Server van het Beeld kon met succes communiceren.
+Controleer in de reacties of er items zijn die beginnen met `imageServer`, die erop wijzen dat de Server van het Platform met de Server van het Beeld kon met succes communiceren.
+
 >Aanvullende verificatie kan worden uitgevoerd met de voorbeeldpagina&#39;s van de pakketten Documentatie en Demo, indien geïnstalleerd.

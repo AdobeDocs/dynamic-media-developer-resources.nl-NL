@@ -1,14 +1,14 @@
 ---
+title: sub
 description: Subselectie. Hiermee kunt u verschillende materialen toepassen op verschillende gebieden van het geselecteerde object of de geselecteerde groep en eerder toegepaste materialen verwijderen.
 solution: Experience Manager
-title: sub
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c9968fbb-c38b-4180-81be-19992fa8f347
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -45,9 +45,9 @@ Subselectie. Hiermee kunt u verschillende materialen toepassen op verschillende 
  </tr> 
 </table>
 
-Wordt momenteel alleen ondersteund voor wandobjecten. Beëindigt een voorafgaand MSS en begint een nieuw MSS voor het materiaal dat op de gespecificeerde sub-selectie moet worden toegepast.
+Wordt momenteel alleen ondersteund voor wandobjecten. Beëindigt een voorafgaand MSS en begint een nieuw MSS voor het materiaal dat op gespecificeerde subselection moet worden toegepast.
 
-Een materiaal dat voor of de hogere of lagere muur wordt gespecificeerd zal op de volledige muur van toepassing zijn tenzij een verschillend materiaal voor de andere helft van de muur ook is gespecificeerd.
+Een materiaal dat voor of de hogere of lagere muur wordt gespecificeerd is op de volledige muur van toepassing tenzij een verschillend materiaal voor de andere helft van de muur ook is gespecificeerd.
 
 ## Eigenschappen {#section-b202139d6d0847cc8d520a154104ab9d}
 

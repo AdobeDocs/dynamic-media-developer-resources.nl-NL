@@ -1,18 +1,18 @@
 ---
+title: vlaggen
 description: Markeringen toepassen. Geeft aanvullende renderopties aan.
 solution: Experience Manager
-title: vlaggen
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d0c3f65e-2dec-4c35-8df4-8d111e81f3f0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# vlaggen{#flags}
+# vlaggen {#flags}
 
 Markeringen toepassen. Geeft aanvullende renderopties aan.
 
@@ -27,9 +27,9 @@ Markeringen toepassen. Geeft aanvullende renderopties aan.
 
 Wordt momenteel alleen gebruikt voor materiaal in kabinetten.
 
-`flags=0` (standaardinstelling) geeft de bovenste kasten weer met effen deuren.
+`flags=0` (Standaard) Hiermee maakt u bovenste kasten met effen deuren.
 
-`flags=1` Hiermee worden de bovenste kasten met glazen deuren weergegeven (als het vignet met glazen deuren was ontworpen).
+`flags=1` Hiermee worden de bovenste kasten met glazen deuren gerenderd (als het vignet met glazen deuren is ontworpen).
 
 ## Eigenschappen {#section-a2b00d7bb15e449ea85178acb92d8285}
 
@@ -37,4 +37,4 @@ Materiaalkenmerk. Wordt genegeerd als er geen materiaal in de behuizing is of al
 
 ## Standaard {#section-4c134b02a1da4ffb9841233f98f6e97c}
 
-`flags=0` voor geen glazen deuren.
+`flags=0` Voor geen glazen deuren.

@@ -1,14 +1,14 @@
 ---
+title: herhalen
 description: Modus Structuur herhalen. Hiermee bepaalt u de herhalingsmodus voor herhaalbare structuurmaterialen.
 solution: Experience Manager
-title: herhalen
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6cc82742-4ba0-4524-a87b-586539d7fe38
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 12%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ Modus Structuur herhalen. Hiermee bepaalt u de herhalingsmodus voor herhaalbare 
   <td class="stentry"> <p>Rechte herhaling. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p> </td> 
+  <td class="stentry"> <p>1 </p> </td> 
   <td class="stentry"> <p>willekeurige verdeling in vier richtingen. </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -37,7 +37,7 @@ Modus Structuur herhalen. Hiermee bepaalt u de herhalingsmodus voor herhaalbare 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
-  <td class="stentry"> <p>Achtergrond met kwartdrop hangend. </p> </td> 
+  <td class="stentry"> <p>Achtergrond met kwartdrop hangt vast. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p> </td> 
@@ -101,7 +101,7 @@ Modus Structuur herhalen. Hiermee bepaalt u de herhalingsmodus voor herhaalbare 
  </tr> 
 </table>
 
-De willekeurige opvulmodi (14...18) kunnen worden gebruikt om structuren te synthetiseren op basis van beelden die niet gemakkelijk herhaalbaar zijn; het algoritme zal volledig willekeurige of gedeeltelijk willekeurige texturen tot stand brengen die op het originele beeld worden gebaseerd.
+De willekeurige opvulmodi (14...18) kunnen worden gebruikt om structuren te synthetiseren op basis van beelden die niet gemakkelijk herhaalbaar zijn; het algoritme leidt tot volledig willekeurige of gedeeltelijk willekeurige texturen die op het originele beeld worden gebaseerd.
 
 ## Eigenschappen {#section-262bf540930d4890b678ea00cefe1909}
 
@@ -109,7 +109,7 @@ Materiaalkenmerk. Wordt genegeerd door effen kleuren, decal en kabinetsmateriale
 
 ## Standaard {#section-e5bbd7d9fbb74852849e605d20f550bb}
 
-`catalog::Repeat`, als het materiaal op een catalogusitem is gebaseerd, anders  `0` (recht herhalen).
+`catalog::Repeat`, als het materiaal op een catalogusitem is gebaseerd, anders `0` (recht herhalen).
 
 ## Zie ook {#section-ac99113b64654d75a3a86e41db546269}
 

@@ -1,13 +1,13 @@
 ---
+title: obj
 description: Selecteer object op naam. Hiermee wordt de opgegeven groep vignetten op naam geselecteerd en wordt een nieuw MSS gestart.
 solution: Experience Manager
-title: obj
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 17387203-f7a7-4876-a15b-2084894f981d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -20,18 +20,18 @@ Selecteer object op naam. Hiermee wordt de opgegeven groep vignetten op naam ges
 
 <table id="simpletable_6E0DA6CBCDCF4CDDAFA5A4C38E0D5FC5"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> name  </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> name </span> </span> </p> </td> 
   <td class="stentry"> <p>Groepsnaam of pad/naam. </p> </td> 
  </tr> 
 </table>
 
 Subgroepen of afzonderlijke objecten kunnen worden geselecteerd met behulp van een volledig gekwalificeerd groepspad (d.w.z. door de naam van de doelgroep of het doelobject op te geven, voorafgegaan door alle bovenliggende groepen, gescheiden door / (slashes).
 
-Wanneer geen groep/object met de opgegeven naam wordt gevonden, wordt de in `attribute::OnObjFail` opgegeven handeling uitgevoerd.
+Als er geen groep/object met de opgegeven naam wordt gevonden, wordt de handeling opgegeven in `attribute::OnObjFail` wordt genomen.
 
 ## Eigenschappen {#section-9463b36e8ff74c81a70c7c2b58927430}
 
-Selectieopdracht; MSS-scheidingsteken. De objectselectie is blijvend totdat een ander object is geselecteerd, met `obj=` of `sel=`.
+Selectieopdracht; MSS-scheidingsteken. De objectselectie is blijvend totdat een ander object is geselecteerd. `obj=` of `sel=`.
 
 Paden en namen van groepen/objecten zijn niet hoofdlettergevoelig.
 
@@ -41,4 +41,4 @@ De eerste groep in het vignet die renderbare objecten bevat, wordt automatisch g
 
 ## Zie ook {#section-d9d2c92ef48548f48b9781e2a8a5fb5a}
 
-[sel=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-sel.md#reference-01322c58d414481385c29fcdd27a090b),  [kenmerk::OnFailObj](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailobj.md#reference-4c6ba90418e84da5831f8573bbbf2c8d)
+[sel=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-sel.md#reference-01322c58d414481385c29fcdd27a090b), [kenmerk::OnFailObj](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailobj.md#reference-4c6ba90418e84da5831f8573bbbf2c8d)

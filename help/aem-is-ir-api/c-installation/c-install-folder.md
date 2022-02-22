@@ -1,13 +1,13 @@
 ---
+title: Map installeren
 description: De installatiemap voor Image Serving (install_folder) is install_root/ImageServing.
 solution: Experience Manager
-title: Map installeren
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1c4da3fb-1ab0-4a5a-b2f9-3d69ebeee15e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -16,8 +16,8 @@ ht-degree: 0%
 
 De installatiemap voor Image Serving (install_folder) is install_root/ImageServing.
 
-*[!DNL install_root]* Wordt standaard ingesteld  `C:\Program Files\Scene7` in Windows (tijdens de installatie kan een andere  *[!DNL install_root]* map worden geselecteerd). In Linux moet *[!DNL install_root]* altijd [!DNL /usr/local/scene7] zijn (er kunnen symbolische koppelingen worden gebruikt).
+*[!DNL install_root]* standaardinstellingen `C:\Program Files\Scene7` in Windows (een andere *[!DNL install_root]* kan tijdens de installatie worden geselecteerd). In Linux®, *[!DNL install_root]* moet altijd [!DNL /usr/local/scene7] (Er mogen symbolische koppelingen worden gebruikt).
 
-In dit document kan *[!DNL install_folder]* worden vertegenwoordigd door &#39; [!DNL ./]&#39;.
+In dit document: *[!DNL install_folder]* kan worden vertegenwoordigd door [!DNL ./]&quot;.
 
-Alle bestandspaden zijn hoofdlettergevoelig in UNIX en hoofdlettergevoelig in Windows.
+Alle bestandspaden zijn hoofdlettergevoelig in UNIX® en hoofdlettergevoelig in Windows.

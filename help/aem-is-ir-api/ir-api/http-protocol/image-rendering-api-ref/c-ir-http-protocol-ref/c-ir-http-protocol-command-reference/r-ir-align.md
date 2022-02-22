@@ -2,17 +2,17 @@
 description: Uitlijning van structuurrenderen. Hiermee geeft u op welke oorsprongpunten door het geselecteerde vignetobject moeten worden gebruikt.
 solution: Experience Manager
 title: align
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0b76f173-809b-4b41-bf39-6b85f77ab2db
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# align{#align}
+# align {#align}
 
 Uitlijning van structuurrenderen. Hiermee geeft u op welke oorsprongpunten door het geselecteerde vignetobject moeten worden gebruikt.
 
@@ -37,11 +37,11 @@ Uitlijning van structuurrenderen. Hiermee geeft u op welke oorsprongpunten door 
  </tr> 
 </table>
 
-De renderer past de structuur op het object toe, zodat het structuurankerpunt ( `anchor=`) samenvalt met het opgegeven oorsprongpunt.
+De renderer past de structuur op het object toe, zodat het structuurankerpunt ( `anchor=`) samenvalt met het opgegeven punt van oorsprong.
 
-Elk object kan maximaal 6 oorsprongspunten definiëren (0,1, 3, 4, 5, 6). Wanneer een waarde `align` wordt opgegeven maar het corresponderende oorsprongpunt niet door het vignetobject wordt gedefinieerd, wordt het standaardoorsprongpunt (midden-overeenkomst) gebruikt.
+Elk object kan maximaal zes oorsprongspunten definiëren (0, 1, 3, 4, 5, 6). Als een `align` -waarde wordt opgegeven, maar het corresponderende oorsprongpunt wordt niet gedefinieerd door het vignetobject. Het standaardoorsprongpunt (midden-overeenkomst) wordt gebruikt.
 
-`align=2` Hiermee geeft u willekeurige structuuruitlijning op. In dit geval  `anchor=` wordt de uitlijning van de structuur genegeerd.
+`align=2` Geeft willekeurige structuuruitlijning aan, in welk geval `anchor=` wordt genegeerd.
 
 Meestal gebruikt voor bekledingsmaterialen, mogelijk voor kleding, om de uitlijning van de structuur tussen aangrenzende objecten te beheren.
 
@@ -55,4 +55,4 @@ Materiaalkenmerk. Genegeerd als een wand-, kast-, apparaat- of vensterbekledings
 
 ## Zie ook {#section-945d1ce275df487d9d564d4043156c79}
 
-[catalogus::Uitlijning](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-alignment.md#reference-e52152e8dc244d0aa13b40c615d0f399) ,  [anker=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26)
+[catalogus::Uitlijning](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-alignment.md#reference-e52152e8dc244d0aa13b40c615d0f399) , [anchor=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26)

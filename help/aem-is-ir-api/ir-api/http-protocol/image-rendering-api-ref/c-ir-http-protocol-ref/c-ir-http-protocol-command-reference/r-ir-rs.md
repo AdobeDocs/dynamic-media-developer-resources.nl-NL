@@ -1,13 +1,13 @@
 ---
+title: rs
 description: Geavanceerde renderinstellingen. Geeft geavanceerde renderinstellingen op die moeten worden toegepast bij het renderen van de huidige selectie.
 solution: Experience Manager
-title: rs
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 419baeb7-e06e-4753-a487-a1f407845f6d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Geavanceerde renderinstellingen. Geeft geavanceerde renderinstellingen op die mo
  </tr> 
 </table>
 
-Wordt gebruikt voor het verfijnen van het uiterlijk van renderbewerkingen. Gebruik de renderfunctie van het Vignet Authoring Tool (onderdeel van het Dynamic Media-pakket voor het maken van afbeeldingen) om reeksen voor renderinstellingen te maken.
+Wordt gebruikt voor het verfijnen van het uiterlijk van renderbewerkingen. Als u reeksen met renderinstellingen wilt maken, gebruikt u de renderfunctie van het Vignet Authoring Tool (onderdeel van het Dynamic Media-pakket voor het schrijven van afbeeldingen).
 
 ## Eigenschappen {#section-9a2b2228789046658cb80eddf343af75}
 
@@ -37,7 +37,7 @@ Materiaalkenmerk.
 
 ## Voorbeeld {#section-47e4811882574441a4d517e42a35f352}
 
-Na wat experimenteren met het maken van afbeeldingen, wordt bepaald dat onscherp maskeren (USM) de juiste hoeveelheid verscherping biedt voor de desbetreffende toepassing en het desbetreffende materiaal. De tekenreeks met renderinstellingen die USM configureert, wordt naar de opdracht `rs=` gekopieerd voor gebruik met dit materiaal:
+Na wat experimenteren met het maken van afbeeldingen, wordt bepaald dat onscherp maskeren (USM) de juiste hoeveelheid verscherping biedt voor de desbetreffende toepassing en het desbetreffende materiaal. De tekenreeks met renderinstellingen die USM configureert, wordt naar de `rs=` gebruiken met dit materiaal:
 
 `…&rs=U2V20W50X2&…`
 

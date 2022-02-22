@@ -1,14 +1,14 @@
 ---
+title: type
 description: Type materiaaloppervlak. Hiermee geeft u het oppervlaktype van het materiaal op.
 solution: Experience Manager
-title: type
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 333b8954-e256-4ba1-8055-c4d625470673
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 12%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -101,7 +101,7 @@ Type materiaaloppervlak. Hiermee geeft u het oppervlaktype van het materiaal op.
  </tr> 
 </table>
 
-Wordt gebruikt in combinatie met `gloss=` en `rough=` om het gedrag van reflectie- en glanseffecten te bepalen. Verschillende materialen produceren verschillende effecten, zelfs als `gloss=` en `rough=` hetzelfde zijn.
+Gebruikt met `gloss=` en `rough=` om het gedrag van reflectie- en glanseffecten te bepalen. Verschillende materialen produceren verschillende effecten, zelfs als `gloss=` en `rough=` zijn hetzelfde.
 
 ## Eigenschappen {#section-2345b2508273426295ce8ac46182ea64}
 
@@ -109,8 +109,8 @@ Materiaalkenmerk. Genegeerd als het vignet geen 3-D reflectiegegevens bevat of a
 
 ## Standaard {#section-0989055fb74a41a3b2f2a47fe7d90a42}
 
-`catalog::Type` als het materiaal op een catalogusitem is gebaseerd. Anders `type=0`. Indien niet opgegeven of `type=0`, selecteert de server een geschikte standaardinstelling afhankelijk van het doelobject en de andere materiaalkenmerken.
+`catalog::Type` Als het materiaal op een catalogusitem is gebaseerd. Anders `type=0`. Indien niet gespecificeerd, of indien `type=0`selecteert de server een geschikte standaardinstelling, afhankelijk van het doelobject en de andere materiaalkenmerken.
 
 ## Zie ook {#section-7cf808b0bb3d4b4fbb7b9a850d5a038b}
 
-[gloss=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) ,  [rough=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)
+[gloss=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) , [hard=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)
