@@ -1,13 +1,13 @@
 ---
+title: Focus markeren
 description: Focusmarkering voor invoer die wordt weergegeven rond het interface-element voor geconcentreerd viewergebruik wordt beheerd met de CSS-klassenkiezer.
 solution: Experience Manager
-title: Focus markeren
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoomen
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 74ff9669-d56b-4731-9d4a-dda7c831e162
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ De vormgeving wordt bepaald door de volgende CSS-klassenkiezer:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> overzicht  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> overzicht </span> </p> </td> 
    <td colname="col2"> <p>Focus markeerstijl. </p> </td> 
   </tr> 
  </tbody> 

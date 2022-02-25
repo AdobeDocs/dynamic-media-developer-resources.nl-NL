@@ -1,27 +1,27 @@
 ---
+title: ZoomView.transition
 description: ZoomView.transition
 solution: Experience Manager
-title: ZoomView.transition
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoomen
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 3ae12e0a-0647-4cb1-9785-c854b4586c47
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
 
 # ZoomView.transition{#zoomview-transition}
 
-` [ZoomView.|<containerId>_zoomView.]transition= *``*[, *`tijdverlies`*]`
+` [ZoomView.|<containerId>_zoomView.]transition= *`tijd`*[, *`versnelling`*]`
 
 <table id="table_9E7BB12BF371419F88DD4D24EF04632C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> tijd</span> </span> </p> </td> 
    <td colname="col2"> <p> Hiermee bepaalt u de tijd in seconden die de animatie voor een enkele zoomstap nodig heeft. </p> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> versnelling</span> </span> </p> </td> 
    <td colname="col2"> <p> Hiermee creëert u een illusie van versnelling of vertraging, waardoor de overgang er natuurlijker uitziet. U kunt versnelling instellen op een van de volgende opties: </p> <p> 

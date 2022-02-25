@@ -1,13 +1,13 @@
 ---
+title: Hoofdviewergebied
 description: Het hoofdweergavegebied is het gebied dat wordt ingenomen door de zoomafbeelding. Deze wordt meestal ingesteld op het beschikbare apparaatscherm wanneer geen grootte is opgegeven.
 solution: Experience Manager
-title: Hoofdviewergebied
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoomen
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: f51de2d6-0de2-4a4d-bbf4-185547e6c550
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -39,17 +39,17 @@ De vormgeving van het weergavegebied wordt bepaald door de volgende CSS-klassenk
    <td colname="col2"> <p>De breedte van de viewer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>De hoogte van de viewer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Achtergrondkleur in hexadecimale notatie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voorbeeld - om een viewer met witte achtergrond ( `#FFFFFF`) in te stellen en zijn grootte 512 x 288 pixels te maken.
+Voorbeeld - Een viewer instellen met een witte achtergrond ( `#FFFFFF`) en maakt het formaat 512 x 288 pixels.
 
 ```
 .s7basiczoomviewer{ 
