@@ -6,25 +6,29 @@ contentOwner: Rick Brough
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
-source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
+source-git-commit: 6087b48b898e93e605c3873cbd5132b74d04225f
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
 
-# Systeemvereisten voor Dynamic Media HTML5-viewers{#system-requirements}
+# Dynamic Media HTML5-systeemvereisten voor viewers{#system-requirements}
 
 Systeemvereisten voor Dynamic Media HTML5-viewers.
+
+<!-- Updated March 03, 2022 Contact is now Deepa Gupta -->
 
 <!-- Updated April 06, 2021 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
 ## Serverhardware en -software {#section-05099146f1f0418988c196635110bee6}
 
-* Dynamic Media Classic Image Serving 6.7.1 of hoger.
-* Voor HTML5-viewers zijn SDK JavaScript Server-side bibliotheken 3.1.1 of hoger vereist.
-* Voor sociale functies van &quot;Email a Friend&quot; is s7ondemand 5.0.9 of hoger vereist.
-* eCatalog Viewer - Ondersteuning voor het deelvenster Info vereist Infoserver 2.1.8 of hoger.
+<!-- Updated March 03, 2022 Contact is now Deepa Gupta -->
+
+* Adobe Dynamic Media Image Serving 6.7.1 of hoger.
+* Voor HTML5-viewers zijn SDK JavaScript Server-side bibliotheken 3.11.5 of hoger vereist.
+* *Een vriend e-mailen* voor sociale functies is s7ondemand 5.0.9 of hoger vereist.
+* eCatalog-viewer - [Pop-up deelvenster Info](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) Voor ondersteuning is infoserver 2.1.8 of hoger vereist.
 * Componenten van zoekfuncties vereisen s7search 2.3.0 of hoger.
 
 ## Systeemvereisten voor viewers {#section-cc72b1e209524d038b4d5b92b35e998e}
@@ -36,7 +40,7 @@ Systeemvereisten voor Dynamic Media HTML5-viewers.
    * macOS X 10.12
 * Ondersteund in de volgende browser/platformversies of hoger:
    * Android™ OS 4.x
-   * BlackBerry® 10 alleen op native browsers. Alleen het afspelen van video wordt ondersteund.
+   * BlackBerry® 10 op native browsers. Alleen het afspelen van video wordt ondersteund.
    * Chroom 82
    * Rand
    * Firefox 77
@@ -46,7 +50,7 @@ Systeemvereisten voor Dynamic Media HTML5-viewers.
    * iPhone 3GS
    * Safari 11
 * Internet Explorer op mobiele apparaten wordt niet ondersteund.
-* ** PanoramaVieweris wordt ondersteund door de volgende browser-/platformversies of hoger:
+* *PanoramaViewer* wordt ondersteund door de volgende browser/platformversies of hoger:
    * Android™ 4.4 (alleen telefoonapparaten)
    * Chroom 82
    * Rand
@@ -54,14 +58,14 @@ Systeemvereisten voor Dynamic Media HTML5-viewers.
    * Internet Explorer 11
    * iOS 10
    * Safari 11
-* *Video360* Viewerand  ** DimensionalVieweris ondersteund in de volgende browser-/platformversies of hoger:
+* *Video360Viewer* en *DimensionalViewer* wordt ondersteund door de volgende browser/platformversies of hoger:
    * Android™ 5 (alleen telefoonapparaten)
    * Chroom 82
    * Rand
    * Firefox 77
    * iOS 12
    * Safari 12
-* ** ZoomVerticalVieweris ondersteund in de volgende browser-/platformversies of hoger:
+* *ZoomVerticalViewer* wordt ondersteund door de volgende browser/platformversies of hoger:
    * Android™ 4.x
    * Chroom 82
    * Rand
@@ -72,7 +76,7 @@ Systeemvereisten voor Dynamic Media HTML5-viewers.
 
 >[!NOTE]
 >
->Vanaf 30 september 2018 beëindigt Adobe Dynamic Media Classic Viewers de ondersteuning voor Transport Layer Security 1.0 (TLS 1.0). Als zodanig biedt Dynamic Media Classic geen ondersteuning meer voor viewers op de volgende browsers/platforms die TLS 1.0 ondersteunen (Adobe raadt u aan TLS 1.2 of hoger te gebruiken):
+>Vanaf 30 september 2018 beëindigden Adobe Dynamic Media Classic Viewers de ondersteuning van Transport Layer Security 1.0 (TLS 1.0). Dynamic Media Classic biedt daarom geen ondersteuning meer voor viewers op de volgende browsers/platforms die TLS 1.0 ondersteunen (Adobe raadt aan TLS 1.2 of hoger te gebruiken):
 >
 > * Android™ 2.3.7
 > * Android™ 4.0.4
@@ -93,4 +97,4 @@ Systeemvereisten voor Dynamic Media HTML5-viewers.
 
 >[!NOTE]
 >
->Flash VIEWERS EINDE-LEVENSDUUR — Vanaf 31 januari 2017 wordt de Klassieke ondersteuning door Adobe Dynamic Media Classic officieel beëindigd voor het Flash-viewerplatform.
+>Flash VIEWERS EINDE-LEVENSDUUR — Met ingang van 31 januari 2017 heeft Adobe Dynamic Media Classic officieel de ondersteuning van het Flash-viewerplatform beëindigd.

@@ -3,9 +3,9 @@ cloud: Experience Cloud
 user-guide-title: Dynamic Media Viewers Reference Guide
 feature-set: Experience Manager Assets
 user-guide-description: Pas Dynamic Media-viewers aan voor gebruik op desktop- en touchscreen-apparaten. Inclusief interactieve afbeeldingen en video's, carrousels, centrifuges en nog veel meer.
-source-git-commit: a106c13770fcb342d7b12ca1593728072141e289
+source-git-commit: 6087b48b898e93e605c3873cbd5132b74d04225f
 workflow-type: tm+mt
-source-wordcount: '2074'
+source-wordcount: '2077'
 ht-degree: 1%
 
 ---
@@ -18,8 +18,9 @@ ht-degree: 1%
 + [Systeemvereisten](c-system-requirements-and-prerequisites.md)
 + [Meerdere viewers op dezelfde server installeren](t-installing-the-viewers.md)
 + Opmerkingen bij de release van viewers {#viewers-release-notes}
-   + [Opmerkingen bij de release van viewers (5.16.1)](c-release-notes/c-rn-04-06-21.md)
+   + [Opmerkingen bij de release van viewers (5.16.5)](c-release-notes/c-rn-03-02-22.md)
    + Archief {#archive}
+      + [Opmerkingen bij de release van viewers (5.16.1)](c-release-notes/c-archive/c-rn-04-06-21.md)
       + [Opmerkingen bij de release van viewers (5.15.3)](c-release-notes/c-archive/c-rn-01-13-21.md)
       + [Opmerkingen bij de release van viewers (5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
       + [Opmerkingen bij de release van viewers (5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
