@@ -2,12 +2,12 @@
 description: Stelt de opdrachten in van het protocol voor het renderen van afbeeldingen of de service voor het opgegeven element. Met deze opdrachten wijzigt u de weergave van het element zonder dat dit wordt vernietigd.
 solution: Experience Manager
 title: setUrlModifier
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9e96ffc8-5a38-46b8-9ba8-956c86b32c7a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Stelt de opdrachten in van het protocol voor het renderen van afbeeldingen of de service voor het opgegeven element. Met deze opdrachten wijzigt u de weergave van het element zonder dat dit wordt vernietigd.
 
-Voor Beeldserver worden opdrachten in de parameter `urlModifier` gepubliceerd in het catalogusveld Modifier en toegepast voorafgaand aan de opdrachten die op de aanvraag-URL zijn opgegeven. Opdrachten in `urlPostApplyModifier` worden gepubliceerd naar het catalogusveld `PostModifier` en overschrijven alle opdrachten in de aanvraag-URL of in `urlModifier`. Voor Afbeelding renderen worden de opdrachten in `urlModifier` en `urlPostApplyModifier` samengevoegd en gepubliceerd naar het catalogusveld Modifier.
+Voor Beeldverwerking, opdrachten in het dialoogvenster `urlModifier` worden gepubliceerd in het veld Modifier-catalogus en toegepast vóór de opdrachten die op de aanvraag-URL zijn opgegeven. Opdrachten in `urlPostApplyModifier` worden gepubliceerd `PostModifier` catalogusveld en overschrijf alle opdrachten in de aanvraag-URL of in `urlModifier`. Voor het renderen van afbeeldingen worden de opdrachten in `urlModifier` en `urlPostApplyModifier` worden samengevoegd en gepubliceerd in het veld Modifier-catalogus.
 
 ## Geautoriseerde gebruikerstypen {#section-fefcd732ccf64c78956606538f96c73d}
 
@@ -35,8 +35,8 @@ Voor Beeldserver worden opdrachten in de parameter `urlModifier` gepubliceerd in
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | Ja | Bedrijfshandgreep. |
 | `*`assetHandle`*` | `xsd:string` | Ja | Asset handle. |
-| `*`urlModifier`*` | `xsd:string` | Nee | Opdrachten van het protocol voor het renderen van afbeeldingen die moeten worden toegepast vóór de aanvraag of `urlPostApplyModifier`-opdrachten. |
-| `*`urlPostApplyModifier`*` | `xsd:string` | Nee | Opdrachten van het protocol voor het renderen van afbeeldingen die moeten worden toegepast na `urlModifier` en opdrachten voor aanvragen. |
+| `*`urlModifier`*` | `xsd:string` | Nee | Opdrachten in het protocol voor het renderen van afbeeldingen die moeten worden toegepast voordat een aanvraag wordt ingediend of `urlPostApplyModifier` opdrachten. |
+| `*`urlPostApplyModifier`*` | `xsd:string` | Nee | Opdrachten in het protocol voor het renderen van afbeeldingen die na `urlModifier` en verzoek opdrachten. |
 
 **Output (setUrlModifierReturn)**
 

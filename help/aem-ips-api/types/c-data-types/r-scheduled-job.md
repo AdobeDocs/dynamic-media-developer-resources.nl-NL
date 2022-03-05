@@ -2,12 +2,12 @@
 description: Een taak die volgens planning moet worden uitgevoerd.
 solution: Experience Manager
 title: ScheduledJob
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c0084d10-ce38-4a01-9246-aaec44abc8eb
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Syntaxis
 | `*`originalName`*` | `xsd:string` | Oorspronkelijke naam van de geplande taak. |
 | `*`type`*` | `xsd:string` | Taaktype. |
 | `*`submitUserEmail`*` | `xsd:string` | Het e-mailadres van de gebruiker die de taak heeft gepland. |
-| `*`landinstelling`*` | `xsd:string` | De landinstelling die moet worden gebruikt voor loggegevens van taken en e-maillokalisatie. Landinstellingen worden opgegeven als `<language_code>[- <country_code>]`, waarbij de taalcode een code van twee kleine letters is zoals gespecificeerd in ISO-639, en de optionele landcode een code van twee letters in hoofdletters is zoals gespecificeerd in ISO-3166. De landinstelling voor Engels (Verenigde Staten) zou bijvoorbeeld als volgt zijn: `en-US`. |
+| `*`landinstelling`*` | `xsd:string` | De landinstelling die moet worden gebruikt voor loggegevens van taken en e-maillokalisatie. Landinstellingen worden opgegeven als `<language_code>[- <country_code>]`, waarbij de taalcode een code van twee kleine letters is, zoals gespecificeerd in ISO-639, en de optionele landcode een code van twee letters in hoofdletters is, zoals gespecificeerd in ISO-3166. De landinstelling voor Engels (Verenigde Staten) zou bijvoorbeeld als volgt zijn: `en-US`. |
 | `*`beschrijving`*` | `xsd:string` | Een beschrijving van de taak zoals oorspronkelijk opgegeven in `submitJob`. |
 | `*`execSchedule`*` | `xsd:string` | Wanneer de taak volgens planning moet worden uitgevoerd. |
 | `*`nextFireTime`*` | `xsd:dateTime` | De datum, tijd en tijdzone waarop de taak wordt gestart. |
@@ -47,7 +47,7 @@ Syntaxis
 
 ## Notities {#section-34ec157f281f412f9f0f6e861e6ed0cd}
 
-Wanneer u een taaktypewaarde opgeeft in `submitJob`, retourneert het systeem een taak op basis van dat type. De volgende taken kunnen worden geretourneerd:
+Wanneer u een taaktypewaarde opgeeft in `submitJob`, retourneert het systeem een taak die op dat type is gebaseerd. De volgende taken kunnen worden geretourneerd:
 
 * `imageServingPublishJob`
 * `imageRenderingPublishJob`

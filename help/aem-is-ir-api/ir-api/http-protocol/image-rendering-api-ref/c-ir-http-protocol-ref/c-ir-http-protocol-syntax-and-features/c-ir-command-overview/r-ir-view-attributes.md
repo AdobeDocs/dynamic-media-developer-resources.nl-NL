@@ -1,20 +1,20 @@
 ---
-description: Deze bevelen zijn positie-onafhankelijk en kunnen overal in een verzoek voorkomen.
-solution: Experience Manager
 title: Kenmerken weergeven
-feature: Dynamic Media Classic, SDK/API
+description: Deze opdrachten zijn onafhankelijk van de positie en kunnen op een willekeurige plaats in een verzoek voorkomen.
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 18e1ee40-fe34-435a-be97-849b08618d48
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
 
 # Kenmerken weergeven{#view-attributes}
 
-Deze bevelen zijn positie-onafhankelijk en kunnen overal in een verzoek voorkomen.
+Deze opdrachten zijn onafhankelijk van de positie en kunnen op een willekeurige plaats in een verzoek voorkomen.
 
 <table id="simpletable_D30C7420AECD44ADBD7B0728594FF5FA"> 
  <tr class="strow"> 

@@ -2,12 +2,12 @@
 description: IP van de cliënt adresfilter. Staat specificatie van één of meerdere IP adressen of adreswaaiers toe.
 solution: Experience Manager
 title: ClientAddressFilter
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 24046950-1dba-4352-a549-43994e799748
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 IP van de cliënt adresfilter. Staat specificatie van één of meerdere IP adressen of adreswaaiers toe.
 
-Wanneer gespecificeerd, zullen de verzoeken aan deze beeldcatalogus die van een cliënt bij een niet vermeld IP adres voortkomen worden verworpen. `localhost` maakt altijd impliciet deel uit van de  `ClientAddressFilter` definitie, zelfs als deze niet expliciet wordt opgegeven. Verzoeken die afkomstig zijn van `localhost` worden nooit afgewezen, ongeacht de `ClientAddressFilter`-specificatie.
+Wanneer gespecificeerd, worden de verzoeken aan deze beeldcatalogus die van een cliënt bij een niet vermeld IP adres voortkomen verworpen. `localhost` maakt altijd impliciet deel uit van de `ClientAddressFilter` definitie, zelfs als niet uitdrukkelijk gespecificeerd. Verzoeken van `localhost` nooit worden afgewezen, ongeacht `ClientAddressFilter` specificatie.
 
 ## Eigenschappen {#section-21a2992f108d42fb8660c0d65aa61e13}
 
@@ -24,15 +24,15 @@ Lijst met door komma&#39;s gescheiden IP-adressen met optionele netmaskers ([CID
 
 ` *[!DNL ipAddress]*[/ *[!DNL netmask]*]&#42;[, *[!DNL ipAddress]*[/ *[!DNL netmask]*]]`
 
-* *[!DNL ipAddress]* IP-adres in  *[!DNL ddd.ddd.ddd.ddd]* indeling
+* *[!DNL ipAddress]* IP-adres in *[!DNL ddd.ddd.ddd.ddd]* format
 
 * *[!DNL netmask]* netmasker (0...32)
 
-Dit attribuut wordt genegeerd wanneer een pre-verwerkingsregel met een `<addressfilter>` element wordt toegepast.
+Dit kenmerk wordt genegeerd wanneer een regel voor voorbewerking met een `<addressfilter>` element wordt toegepast.
 
 ## Standaard {#section-beddaa18ed6c4f3ba1eb2d4471267712}
 
-Overgenomen van `default::AddressFilter` indien niet gedefinieerd of indien leeg.
+Overgenomen van `default::AddressFilter` indien niet gedefinieerd of leeg.
 
 ## Voorbeelden {#section-72b4a3615bff4a5f8b03d83c6489aaba}
 

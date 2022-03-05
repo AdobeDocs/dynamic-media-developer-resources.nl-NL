@@ -2,12 +2,12 @@
 description: Algemene serverinstellingen
 solution: Experience Manager
 title: Algemeen
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 3e4079e7-6def-4938-bb5b-c8122502712d
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Specificeert de de wortelweg van HTTP om de Server van het Beeld toegang tot de 
 
 ## IS::RemoteUrlDefaultExpiration - Remote Image Source Default TTL {#section-e4c31228b459492cacd2f482d9575f71}
 
-De TTL voor caching beelden die via HTTP van een verre bron worden verkregen gebruikend de `src={…}` constructie. Wordt alleen gebruikt wanneer de externe server geen header Expiration in de HTTP-respons bevat. Geheel getal in seconden.
+De TTL voor caching beelden die via HTTP van een verre bron worden verkregen gebruikend `src={…}` construct. Wordt alleen gebruikt wanneer de externe server geen header Expiration in de HTTP-respons bevat. Geheel getal in seconden.
 
 ## IS::RemoteUrlTimeout - Remote Image Source Timeout {#section-437646c479cc4bea81dae42100a3c50a}
 
@@ -34,7 +34,7 @@ De tijd de Server van het Beeld zal op een verre server wachten om het gevraagde
 
 ## PS::allowDefaultCatalogRequests - Standaardcatalogusverzoeken inschakelen/uitschakelen {#section-484e442a115a49b4ac269d1718b351e1}
 
-Ingesteld op false om aanvragen zonder geldige catalogus-id in het pad te weigeren. De standaardwaarde is `true`. Wanneer ingesteld op `false`, wordt een fout geretourneerd voor aanvragen zonder catalogus-id.
+Ingesteld op false om aanvragen zonder geldige catalogus-id in het pad te weigeren. Standaard is `true`. Wanneer ingesteld op `false`Er wordt een fout geretourneerd voor aanvragen zonder catalogus-id.
 
 >[!NOTE]
 >
@@ -42,4 +42,4 @@ Ingesteld op false om aanvragen zonder geldige catalogus-id in het pad te weiger
 
 ## PS::saveToFile.saveTimeout - Time-out voor opslaan van bestand {#section-d22afd8ad86144b28684ed95a59db40e}
 
-Standaardtime-outwaarde voor `req=saveToFile` wanneer `timeout=`niet is opgegeven. `msec`. Er wordt een fout geretourneerd als de opslagbewerking niet binnen de opgegeven tijd wordt voltooid.
+Standaardtime-outwaarde voor `req=saveToFile` wanneer `timeout=`is niet opgegeven. `msec`. Er wordt een fout geretourneerd als de opslagbewerking niet binnen de opgegeven tijd wordt voltooid.

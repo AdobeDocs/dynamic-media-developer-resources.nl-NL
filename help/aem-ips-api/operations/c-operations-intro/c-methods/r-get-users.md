@@ -2,12 +2,12 @@
 description: Hiermee wordt een array met gebruikers opgehaald, zoals is opgegeven door het bedrijf, de groep en de handgrepen voor de gebruikersrol. Met deze bewerking kunt u geretourneerde gebruikers sorteren en filteren op teken.
 solution: Experience Manager
 title: getUsers
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dfdcbcdd-232f-4c73-9520-c7c958eedf54
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
@@ -26,12 +26,12 @@ Hiermee wordt een array met gebruikers opgehaald, zoals is opgegeven door het be
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`includeInactive`*` | `xsd:boolean` | Nee | Inactieve gebruikers opnemen of uitsluiten. De niet-IPS gebruikers Admin moeten een actief lid van minstens één bedrijf zijn om worden gemachtigd om het even welke API vraag te maken. Een vergunningsfout zal zijn teruggekeerd als de gebruiker geen actief bedrijflidmaatschap heeft. |
+| `*`includeInactive`*` | `xsd:boolean` | Nee | Inactieve gebruikers opnemen of uitsluiten. De niet-IPS gebruikers Admin moeten een actief lid van minstens één bedrijf zijn om worden gemachtigd om het even welke API vraag te maken. Een vergunningsfout is teruggekeerd als de gebruiker geen actief bedrijflidmaatschap heeft. |
 | `*`includeInvalid`*` | `xsd:boolean` | Nee | Hiermee kunt u ongeldige gebruikers opnemen in- of uitsluiten. |
 | `*`companyHandleArray`*` | `types:HandleArray` | Nee | Filterresultaten per bedrijf. |
 | `*`groupHandleArray`*` | `types:HandleArray` | Nee | Filterresultaten per groep. |
 | `*`userRoleArray`*` | `types:StringArray` | Nee | De resultaten van de filter door gebruikersrol. |
-| `*`charFilterField`*` | `xsd:string` | Nee | De resultaten van de filter door de koordprefix van het gebied (zie [!DNL Trash State).] |
+| `*`charFilterField`*` | `xsd:string` | Nee | Filterresultaten op tekenreeksvoorvoegsel van veld (zie [!DNL Trash State).] |
 | `*`charFilter`*` | `xsd:string` | Nee | Filterresultaten met een specifiek teken. |
 | `*`sortBy`*` | `xsd:string` | Nee | Keuze van sorteervelden voor gebruikers. |
 | `*`recordsPerPage`*` | `xsd:int` | Nee | Retourneert het opgegeven aantal records per pagina. |

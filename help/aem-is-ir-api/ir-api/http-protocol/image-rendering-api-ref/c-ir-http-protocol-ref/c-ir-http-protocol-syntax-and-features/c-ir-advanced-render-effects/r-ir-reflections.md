@@ -1,13 +1,13 @@
 ---
+title: Reflecties
 description: Vignetten kunnen worden ontworpen om gegevens van de bijna 3D-reflectie op te nemen.
 solution: Experience Manager
-title: Reflecties
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f67ede68-03c0-461f-a16d-a308f76fd24c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
@@ -33,12 +33,12 @@ Indien dit is ontworpen, worden de volgende materiaalkenmerken gebruikt om de re
    <td> <p>Van vignet </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-glossmap.md#reference-99940148ae6a401482b2d03c68530f3a" type="reference" format="dita" scope="local"> <span class="codeph"> glossmap=  </span> </a> </p> </td> 
+   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-glossmap.md#reference-99940148ae6a401482b2d03c68530f3a" type="reference" format="dita" scope="local"> <span class="codeph"> glossmap= </span> </a> </p> </td> 
    <td> <p>Glansvariatie (grijswaardenafbeelding) </p> </td> 
    <td> <p>Geen </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180" type="reference" format="dita" scope="local"> <span class="codeph"> hard=  </span> </a> </p> </td> 
+   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180" type="reference" format="dita" scope="local"> <span class="codeph"> hard= </span> </a> </p> </td> 
    <td> <p>Oppervlakteruwheid </p> </td> 
    <td> <p>40% </p> </td> 
   </tr> 
@@ -50,6 +50,6 @@ Indien dit is ontworpen, worden de volgende materiaalkenmerken gebruikt om de re
  </tbody> 
 </table>
 
-De renderer past het bereik van het kenmerk `gloss=` en `rough=` aan volgens `type=`. Sommige materiaaltypen zoals stof zijn over het algemeen minder reflectief dan materiaaltypen zoals steen of metaal, en dezelfde hoeveelheid glansstof die voor een van deze typen is opgegeven, resulteert in een ander reflectie-effect dan het andere. `gloss=`en ruwheid hebben een vrij brede kleuromvang als niet gespecificeerd  `type=` is of aan 0 wordt geplaatst.
+De renderer past het bereik van de `gloss=` en `rough=` kenmerk volgens `type=`. Sommige materiaaltypen, zoals weefsels, zijn minder reflecterend dan materiaaltypen zoals steen of metaal. Bovendien leidt dezelfde hoeveelheid glanzen die voor een van deze twee is opgegeven vaak tot een ander reflectie-effect dan voor een ander effect. Het kenmerk `gloss=` en ruwheid hebben een tamelijk brede kleuromvang als `type=` is niet opgegeven of is ingesteld op `0`.
 
-`glossmap=` kan worden gebruikt om de glans van een materiaal per pixel te bepalen.
+`glossmap=` Wordt gebruikt om de glans van een materiaal per pixel te bepalen.

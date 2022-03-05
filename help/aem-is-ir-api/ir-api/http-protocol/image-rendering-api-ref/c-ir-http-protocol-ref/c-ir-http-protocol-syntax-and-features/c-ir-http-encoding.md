@@ -1,13 +1,13 @@
 ---
+title: HTTP-codering voor het renderen van afbeeldingen
 description: Opdrachtwaarden moeten http-gecodeerd zijn met gebruik van %xx escape-reeksen, zodat de waardetekenreeksen de gereserveerde tekens '=', '&' en '%' niet bevatten.
 solution: Experience Manager
-title: HTTP-codering voor het renderen van afbeeldingen
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a1efc4ce-a170-4bdb-8584-407e07113272
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Opdrachtwaarden moeten http-gecodeerd zijn met gebruik van %xx escape-reeksen, z
 
 Anders zijn de standaard HTTP-coderingsregels van toepassing. De HTTP-specificatie vereist codering van de onveilige tekens zoals &#39; &#39; (space), &#39;&#39;&#39; (dubbel aanhalingsteken), &#39;#&#39;, &#39;%&#39;, &#39;&lt;&#39; en &#39;>&#39;, en van alle besturingstekens, zoals `<return>` en `<tab>`.
 
-**Let op:** accolades { } die als scheidingstekens voor nesten van aanvragen worden gebruikt, mogen niet worden gecodeerd. Bepaalde e-mailclients coderen helaas accolades in ingesloten HTTP-aanvraag. Mocht dit een probleem zijn, dan is bij het renderen van afbeeldingen het gebruik van haakjes ( ) in plaats van accolades toegestaan.
+**Let op:** accolades { } die worden gebruikt als scheidingstekens voor het nesten van aanvragen, mogen niet worden gecodeerd. Bepaalde e-mailclients coderen helaas accolades in ingesloten HTTP-aanvraag. Mocht dit probleem zich voordoen, dan kunt u bij Afbeeldingsrendering haakjes ( ) gebruiken in plaats van accolades.
 
 ## Voorbeeld {#section-3edc5b8ee2354220a281b01722ad337a}
 

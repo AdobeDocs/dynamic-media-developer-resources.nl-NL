@@ -2,12 +2,12 @@
 description: Beschrijft de gemeenschappelijke verrichtingsparameters die door de IPS Dienst API van het Web worden behandeld.
 solution: Experience Manager
 title: Bewerkingsmethoden
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 020c8e63-ad4e-4c0d-8da6-b51efb2b89a5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Deze sectie beschrijft de gemeenschappelijke verrichtingsparameters die door de IPS Dienst API van het Web worden behandeld.
 
-Zie [Operatieparameters](/help/aem-ips-api/operations/c-operations-intro/c-methods/c-methods.md) voor een volledige beschrijving van elke bewerkingsparameter.
+Voor een volledige beschrijving van elke parameter van de verrichting, zie [Operatieparameters](/help/aem-ips-api/operations/c-operations-intro/c-methods/c-methods.md).
 
 ## Handgrepen: Info {#section-094ce1afa6244fa5b2c762f44ffdca1c}
 
@@ -36,7 +36,7 @@ SearchAssetsReturn retVal = ipsApi.searchAssets(searchParam, authHeader);
 
 **Correcte handvatcode**
 
-Deze codesteekproef is correct omdat het `getCompanyInfo` roept om geldige handvat terug te keren. Er wordt geen hard gecodeerde waarde voor gebruikt. Gebruik deze methode-of andere IPS API equivalent-om de vereiste handgreep terug te keren.
+Deze codesteekproef is correct omdat het roept `getCompanyInfo` om een geldige greep te retourneren. Er wordt geen hard gecodeerde waarde voor gebruikt. Gebruik deze methode-of andere IPS API equivalent-om de vereiste handgreep terug te keren.
 
 ```
 GetCompanyInfoParam companyInfoParam = new GetCompanyInfoParam(); 
@@ -51,13 +51,13 @@ SearchAssetsReturn retVal = ipsApi.searchAssets(searchParam, authHeader);
 
 **companyHandle**
 
-De meeste verrichtingen vereisen u om een bedrijfcontext te plaatsen door in een `companyHandle` parameter over te gaan. De bedrijfshandgreep is een aanwijzer die wordt geretourneerd door bepaalde bewerkingen, zoals `getCompanyInfo`, `addCompany` en `getCompanyMembership`.
+De meeste verrichtingen vereisen u om een bedrijfcontext te plaatsen door in a over te gaan `companyHandle` parameter. De bedrijfshandgreep is een aanwijzer die wordt geretourneerd door bepaalde bewerkingen, zoals `getCompanyInfo`, `addCompany`, en `getCompanyMembership`.
 
 **userHandle**
 
-De parameter `userHandle` is een optionele parameter voor bewerkingen die een specifieke gebruiker als doel hebben. Door gebrek, richten deze verrichtingen de roepende gebruiker (de gebruiker waarvan geloofsbrieven binnen voor authentificatie worden overgegaan). Beheerders met de juiste machtigingen kunnen echter een andere gebruiker opgeven. De bewerking `setPassword` stelt bijvoorbeeld normaal het wachtwoord van de geverifieerde gebruiker in, maar een beheerder kan de parameter `userHandle` gebruiken om het wachtwoord voor een andere gebruiker in te stellen.
+De `userHandle` parameter is een optionele parameter voor bewerkingen die op een specifieke gebruiker zijn gericht. Door gebrek, richten deze verrichtingen de roepende gebruiker (de gebruiker waarvan geloofsbrieven binnen voor authentificatie worden overgegaan). Beheerders met de juiste machtigingen kunnen echter een andere gebruiker opgeven. De `setPassword` bewerking stelt normaal gesproken het wachtwoord van de geverifieerde gebruiker in, maar een beheerder kan de opdracht `userHandle` om het wachtwoord voor een andere gebruiker in te stellen.
 
-Voor verrichtingen die een bedrijfcontext (gebruikend de `companyHandle` parameter) vereisen, zowel moeten de voor authentiek verklaarde als doelgebruikers lid van het gespecificeerde bedrijf zijn. Voor verrichtingen die geen bedrijfcontext vereisen, moeten de voor authentiek verklaarde en doelgebruikers allebei lid van minstens één gemeenschappelijk bedrijf zijn.
+Voor verrichtingen die een bedrijfcontext vereisen (het gebruiken van `companyHandle` parameter), zowel moeten de voor authentiek verklaarde als doelgebruikers lid van het gespecificeerde bedrijf zijn. Voor verrichtingen die geen bedrijfcontext vereisen, moeten de voor authentiek verklaarde en doelgebruikers allebei lid van minstens één gemeenschappelijk bedrijf zijn.
 
 De volgende bewerkingen kunnen gebruikershandgrepen ophalen:
 
@@ -70,13 +70,13 @@ De volgende bewerkingen kunnen gebruikershandgrepen ophalen:
 
 **accessUserHandle en accessGroupHandle**
 
-Door gebrek, werken de verrichtingen die toegangstoestemmingen (lezen, schrijven, schrappen) vereisen in de toestemmingscontext van de roepende gebruiker. Met bepaalde bewerkingen kunt u deze context wijzigen met de parameter `accessUserHandle` of `accessGroupHandle`. Met de parameter `accessUserHandle` kan een beheerder een andere gebruiker nadoen. De `accessGroupHandle` parameter staat de bezoeker toe om in de context van een specifieke gebruikersgroep te werken.
+Door gebrek, werken de verrichtingen die toegangstoestemmingen (lezen, schrijven, schrappen) vereisen in de toestemmingscontext van de roepende gebruiker. Met bepaalde bewerkingen kunt u deze context wijzigen met de `accessUserHandle` of `accessGroupHandle` parameter. De `accessUserHandle` Met parameter kan een beheerder een andere gebruiker nadoen. De `accessGroupHandle` parameter staat de bezoeker toe om in de context van een specifieke gebruikersgroep te werken.
 
 **responseFieldArray en excludeFieldArray**
 
-Met sommige bewerkingen kan de aanroeper beperken welke velden in de reactie worden opgenomen. Door velden te beperken, kunt u de tijd en het geheugen die nodig zijn om de aanvraag te verwerken verminderen en de grootte van de reactiegegevens verminderen. De aanroeper kan om een specifieke lijst van gebieden verzoeken door een `responseFieldArray` parameter, of met een opgesomde lijst van uitgesloten gebieden via de `excludeFieldArray` parameter over te gaan.
+Met sommige bewerkingen kan de aanroeper beperken welke velden in de reactie worden opgenomen. Door velden te beperken, kunt u de tijd en het geheugen die nodig zijn om de aanvraag te verwerken verminderen en de grootte van de reactiegegevens verminderen. De aanroeper kan om een specifieke lijst van gebieden verzoeken door a over te gaan `responseFieldArray` of met een opgesomde lijst van uitgesloten velden via de `excludeFieldArray` parameter.
 
-Zowel `responseFieldArray` als `excludeFieldArray` specificeren gebieden door een knoopweg te gebruiken die door `/` wordt gescheiden. Als u bijvoorbeeld wilt opgeven dat `searchAssets` alleen de naam, de laatst gewijzigde datum retourneert en de metagegevens voor elk element verwijzen naar het volgende:
+Beide `responseFieldArray` en `excludeFieldArray` velden opgeven met behulp van een nodepad gescheiden door `/`. Als u bijvoorbeeld wilt opgeven dat `searchAssets` retourneert alleen de naam, de laatst gewijzigde datum en de metagegevens voor elk element verwijzen naar het volgende:
 
 ```
 <responseFieldArray> 
@@ -94,15 +94,15 @@ Op dezelfde manier om alle gebieden (behalve toestemmingen) terug te keren:
 </excludeFieldArray>
 ```
 
-Merk op dat de knoopwegen met betrekking tot de wortel van de terugkeerknoop zijn. Als u een complex typeveld zonder om het even welke sub-elementen (bijvoorbeeld, `assetArray/items/imageInfo`) specificeert, dan zijn alle sub-elementen inbegrepen. Als u een of meer subelementen opgeeft in een complex tekstveld (bijvoorbeeld `assetArray/items/imageInfo/originalPath`), worden alleen die subelementen opgenomen.
+Merk op dat de knoopwegen met betrekking tot de wortel van de terugkeerknoop zijn. Als u een complex tekstveld opgeeft zonder subelementen (bijvoorbeeld `assetArray/items/imageInfo`), worden alle subelementen opgenomen. Als u een of meer subelementen opgeeft in een complex tekstveld (bijvoorbeeld `assetArray/items/imageInfo/originalPath`), worden alleen die subelementen opgenomen.
 
-Als u `responseFieldArray` of `excludeFieldArray` niet opneemt in een verzoek, worden alle gebieden teruggekeerd.
+Als u geen `responseFieldArray` of `excludeFieldArray` in een aanvraag worden alle velden geretourneerd.
 
 **Landinstelling**
 
-Sinds IPS 4.0, steunt IPS API het plaatsen van de scènecontext van een verrichting door de `authHeader` scèneparameter over te gaan. Als de parameter locale niet aanwezig is, wordt de HTTP-header `Accept-Language` gebruikt. Als deze kopbal ook niet aanwezig is, zal de standaardscène voor de IPS server worden gebruikt.
+Sinds IPS 4.0, steunt IPS API het plaatsen van de scènecontext van een verrichting door over te gaan `authHeader` locale, parameter. Wanneer de parameter locale niet aanwezig is, wordt de HTTP-header `Accept-Language` wordt gebruikt. Als deze kopbal ook niet aanwezig is, wordt de standaardscène voor de IPS server gebruikt.
 
-Bij bepaalde bewerkingen worden ook expliciete landinstellingsparameters gebruikt, die mogelijk anders zijn dan de context van de landinstelling van de bewerking. Voor de bewerking `submitJob` wordt bijvoorbeeld een parameter `locale` gebruikt die de landinstelling instelt die wordt gebruikt voor het vastleggen van taken en e-mailmeldingen.
+Bij bepaalde bewerkingen worden ook expliciete landinstellingsparameters gebruikt, die mogelijk anders zijn dan de context van de landinstelling van de bewerking. De `submitJob` de bewerking neemt een `locale` parameter die de landinstelling instelt die wordt gebruikt voor het vastleggen van taken en e-mailmeldingen.
 
 Landinstellingsparameters gebruiken de notatie `<language_code>[-<country_code>]`
 

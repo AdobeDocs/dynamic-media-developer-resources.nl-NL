@@ -2,12 +2,12 @@
 description: Decal size. Breedte, hoogte en dikte van een decaal materiaalobject.
 solution: Experience Manager
 title: Grootte
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 964cb4c1-5256-40eb-94ea-761916174b79
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '211'
 ht-degree: 1%
 
 ---
@@ -20,13 +20,13 @@ Decal size. Breedte, hoogte en dikte van een decaal materiaalobject.
 
 Drie echte getallen, gescheiden door komma&#39;s. Mag niet negatief zijn. Ongebruikte waarden instellen op 0. volgnullen mogen worden weggelaten.
 
-Geef alleen de breedte en de hoogte op als de afbeelding moet worden uitgerekt zodat deze binnen de opgegeven grootte past (de hoogte-breedteverhouding kan veranderen). Stel de breedte of hoogte in om de afbeelding proportioneel te schalen. Stel zowel de breedte als de hoogte in op 0 om `catalog::Resolution`de objectgrootte te bepalen.
+Geef alleen de breedte en de hoogte op als de afbeelding moet worden uitgerekt zodat deze binnen de opgegeven grootte past (de hoogte-breedteverhouding kan veranderen). Stel de breedte of hoogte in om de afbeelding proportioneel te schalen. Breedte en hoogte instellen op 0 `catalog::Resolution`om de objectgrootte te bepalen.
 
 Geef een waarde voor de dikte op om een slagschaduw toe te voegen aan het decimale object. Facultatief voor decal materialen, genegeerd door alle andere materialen.
 
 ## Standaard {#section-8029fe4dcbd1427db94a4fef1ccbbfd0}
 
-0,0,0. Dit geeft aan dat de decimale grootte moet worden bepaald op basis van de volgende catalogus::Resolutie, en dat het object geen dikte heeft (er wordt dus geen slagschaduw gerenderd).
+0,0,0. Dit geeft aan dat de decimale grootte moet worden bepaald op basis van de volgende catalogus::Resolutie, en dat het object geen dikte heeft (dus er wordt geen slagschaduw gerenderd).
 
 ## Voorbeelden {#section-7e7166ec9a1e4f4cb026de3342fcddc3}
 

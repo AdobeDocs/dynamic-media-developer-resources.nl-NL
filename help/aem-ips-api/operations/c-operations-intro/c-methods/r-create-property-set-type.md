@@ -2,12 +2,12 @@
 description: Een type eigenschapset geeft verschillende instellingen op die worden gebruikt voor het beheren van eigenschapssets.
 solution: Experience Manager
 title: createPropertySetType
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1730ccbf-e8b0-4f92-9daf-da2fa047cbbd
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Nee | De handgreep naar het bedrijf dat eigenaar is van het type eigenschapsset. Als `companyHandle` niet wordt overgegaan en de bezoeker `IpsAdmin` is, zal een globaal type van bezitsreeks worden gecreeerd. |
+| `*`companyHandle`*` | `xsd:string` | Nee | De handgreep naar het bedrijf dat eigenaar is van het type eigenschapsset. Indien `companyHandle` wordt niet overgegaan en de bezoeker is `IpsAdmin`, wordt een algemeen type eigenschapset gemaakt. |
 | `*`name`*` | `xsd:string` | Ja | De naam van het type eigenschapset. |
 | `*`propertyType`*` | `xsd:string` | Ja | Keuze van type eigenschapset. |
 | `*`allowMultiple`*` | `xsd:boolean` | Ja | Hiermee wordt bepaald of uw programma meerdere eigenschapssets kan hebben. |
@@ -44,7 +44,7 @@ Syntaxis
 
 ## Voorbeelden {#section-13396c9639a6475190e622eae3cdb534}
 
-In dit codevoorbeeld wordt een eigenschapset gemaakt met een naam en type die door de constante `PropertySet Types` zijn opgegeven. De handgreep naar het bedrijf dat eigenaar is van het type eigenschapsset. Als companyHandle niet wordt overgegaan en de bezoeker een IpsAdmin is, zal een globaal bezitsplaatstype worden gecreeerd.
+In dit codevoorbeeld wordt een eigenschapset gemaakt met een naam en type die door de `PropertySet Types` constante. De handgreep naar het bedrijf dat eigenaar is van het type eigenschapsset. Als companyHandle niet wordt overgegaan en de bezoeker een IpsAdmin is, wordt een globaal bezitsplaatstype gecreeerd.
 
 **Verzoek**
 

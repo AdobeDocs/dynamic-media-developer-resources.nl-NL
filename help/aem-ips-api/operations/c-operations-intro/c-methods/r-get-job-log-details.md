@@ -2,12 +2,12 @@
 description: Haalt de details van een bedrijfsbaanlogboek op.
 solution: Experience Manager
 title: getJobLogDetails
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d2e4eea6-041b-4a80-beda-cbb8d74cd50b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Haalt de details van een bedrijfsbaanlogboek op.
 
-Het reactieveld `logMessage` is gelokaliseerd op basis van het veld `authHeader` `locale`.
+De `logMessage` het reactiegebied wordt gelokaliseerd gebaseerd op `authHeader` `locale` veld.
 
 ## Geautoriseerde gebruikerstypen {#section-6f720a7baad64eb3805868c88af9a960}
 
@@ -65,19 +65,19 @@ Het reactieveld `logMessage` is gelokaliseerd op basis van het veld `authHeader`
    <td colname="col1"> <span class="codeph"> <span class="varname"> logTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> Nee </td> 
-   <td colname="col4"> Een of meer constanten voor logbestandstypen. Indien aanwezig, slechts zullen de gespecificeerde logboektypes worden teruggekeerd. Standaard worden alle logbestandstypen geretourneerd. </td> 
+   <td colname="col4"> Een of meer constanten voor logbestandstypen. Indien aanwezig, slechts zijn de gespecificeerde logboektypes teruggekeerd. Standaard worden alle logbestandstypen geretourneerd. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Nee </td> 
-   <td colname="col4">Maximum aantal <span class="codeph"> detailArray</span> punten om terug te keren. De maximum- en standaardwaarde is 1000. </td> 
+   <td colname="col4">Maximum aantal <span class="codeph"> detailArray</span> objecten die moeten worden geretourneerd. De maximum- en standaardwaarde is 1000. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Nee </td> 
-   <td colname="col4">Paginanummer van <span class="codeph"> recordsPerPage</span>-results om te retourneren. De standaardwaarde is 1. </td> 
+   <td colname="col4">Paginanummer van <span class="codeph"> recordsPerPage</span>-resultaten die moeten worden geretourneerd. De standaardwaarde is 1. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 

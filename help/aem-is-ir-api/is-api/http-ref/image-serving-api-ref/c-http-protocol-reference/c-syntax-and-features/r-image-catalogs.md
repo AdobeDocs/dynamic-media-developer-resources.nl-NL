@@ -2,12 +2,12 @@
 description: De eigenschappen en syntaxis van afbeeldingscatalogi worden in deze sectie beschreven.
 solution: Experience Manager
 title: Afbeeldingscatalogi
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 54c83ad2-a932-4df2-92ff-ab34d4a5b1a7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -20,15 +20,15 @@ Afbeeldingscatalogi bieden de volgende functies:
 
 * Een blijvende koppeling van afbeeldingen met bepaalde metagegevens en wijzigingopdrachten toestaan.
 
-   Er wordt verwezen naar items in afbeeldingcatalogi met een sneltoetsnotatie `*`rootId/objId`*`, waarbij `*`rootId`*` de afbeeldingscatalogus identificeert en `*`objId`*` een gegevensrecord in de catalogus identificeert.
-* Geef standaardwaarden op voor bepaalde aanvraagkenmerken, zoals de JPEG-kwaliteit of het feit of een watermerk moet worden toegepast.
+   Er wordt verwezen naar items in afbeeldingscatalogi met een snelkoppelingnotatie `*`rootId/objId`*`, waarbij `*`rootId`*` de afbeeldingscatalogus en `*`objId`*` geeft een gegevensrecord in de catalogus aan.
+* Verstrek gebreken voor bepaalde verzoekattributen, zoals de kwaliteit van de JPEG of of een watermerk moet worden toegepast.
 * Lettertypen, ICC-profielen, macrodefinities en aanvraagsjablonen beheren
 
 Zelfs als er geen specifieke afbeeldingscatalogi zijn gedefinieerd, zijn alle functies van afbeeldingscatalogi beschikbaar via de standaardcatalogus ( [!DNL default.ini]).
 
-Als `*`rootId`*` in de weg van URL van het verzoek `attribute::RootId` van een specifieke beeldcatalogus aanpast, zal die catalogus de belangrijkste catalogus voor dit verzoek worden. De hoofdcatalogus bevat de standaardkenmerken en -instellingen voor de gehele aanvraag. Als er geen overeenkomende catalogus wordt gevonden, wordt in plaats daarvan de standaardcatalogus gebruikt.
+Indien `*`rootId`*` in het URL-pad van de aanvraag komt overeen `attribute::RootId` van een specifieke afbeeldingscatalogus wordt die catalogus de hoofdcatalogus voor deze aanvraag. De hoofdcatalogus bevat de standaardkenmerken en -instellingen voor de gehele aanvraag. Als er geen overeenkomende catalogus wordt gevonden, wordt in plaats daarvan de standaardcatalogus gebruikt.
 
-Een catalogus die is geïdentificeerd in de opdracht `src=` of `mask=` biedt de volgende cataloguskenmerken en -gegevens aan de huidige laag:
+Een catalogus die is geïdentificeerd in een `src=` of `mask=` biedt de volgende cataloguskenmerken en -gegevens aan de huidige laag:
 
 <table id="table_D3FA66EA5D054745900DE5A120885AA8"> 
  <thead> 
@@ -44,7 +44,7 @@ Een catalogus die is geïdentificeerd in de opdracht `src=` of `mask=` biedt de 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> kenmerk::Expiration</span> </p> </td> 
-   <td> <p> standaard voor <span class="codeph">-catalogus::Verlopen</span> of verlopen van de huidige laag als er geen catalogusrecord is betrokken </p> </td> 
+   <td> <p> standaard voor <span class="codeph"> catalogus::Verlopen</span> of verlopen van de huidige laag als er geen catalogusrecord is betrokken </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> kenmerk::Icc*</span> </p> </td> 
@@ -56,11 +56,11 @@ Een catalogus die is geïdentificeerd in de opdracht `src=` of `mask=` biedt de 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> kenmerk:Resolution</span> </p> </td> 
-   <td> <p> standaard voor <span class="codeph">-catalogus::Resolutie</span> alleen </p> </td> 
+   <td> <p> standaard voor <span class="codeph"> catalogus:Resolutie</span> alleen </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalogus::Anker</span> </p> </td> 
-   <td> <p> standaardwaarde voor het <span class="codeph"> anker=</span> waarde van de huidige laag </p> </td> 
+   <td> <p> standaard voor de <span class="codeph"> anchor=</span> waarde van de huidige laag </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalogus::Verlopen</span> </p> </td> 
@@ -80,7 +80,7 @@ Een catalogus die is geïdentificeerd in de opdracht `src=` of `mask=` biedt de 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalogus::Modifier</span> </p> </td> 
-   <td> <p> voorvoegselopdrachten voor de huidige laag (elke opdracht in de catalogus <span class="codeph">::Modifier</span> kan worden overschreven door dezelfde opdracht in de URL, indien deze voor dezelfde laag is opgegeven) </p> </td> 
+   <td> <p> voorvoegselopdrachten voor de huidige laag (elke opdracht in <span class="codeph"> catalogus::Modifier</span> kan worden overschreven door dezelfde opdracht in de URL, als deze voor dezelfde laag is opgegeven) </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalogus::pad</span> </p> </td> 
@@ -88,7 +88,7 @@ Een catalogus die is geïdentificeerd in de opdracht `src=` of `mask=` biedt de 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalogus::PostModifier</span> </p> </td> 
-   <td> <p> postfix-opdrachten voor de huidige laag (vergelijkbaar met de catalogus <span class="codeph">::Modifier</span>, maar opdrachten in de catalogus <span class="codeph">::PostModifier</span> overschrijven dezelfde opdrachten die in de URL of in de catalogus <span class="codeph"> zijn opgegeven::Modifier</span>) </p> </td> 
+   <td> <p> postfix-opdrachten voor de huidige laag (vergelijkbaar met <span class="codeph"> catalogus::Modifier</span>, maar opdrachten in <span class="codeph"> catalogus::PostModifier</span> dezelfde opdrachten overschrijven die in de URL of in <span class="codeph"> catalogus::Modifier</span>) </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalogus:Resolutie</span> </p> </td> 
@@ -97,14 +97,14 @@ Een catalogus die is geïdentificeerd in de opdracht `src=` of `mask=` biedt de 
  </tbody> 
 </table>
 
-Binnen dezelfde laag moeten `src=` en `mask=` naar dezelfde (eventuele) afbeeldingscatalogus verwijzen.
+Binnen dezelfde laag, `src=` en `mask=` moet verwijzen naar dezelfde (eventuele) afbeeldingscatalogus.
 
-Een catalogus die wordt geïdentificeerd in een `icc=` bevel wordt slechts gebruikt om een ingang van de ICC profiellijst van de catalogus op te zoeken. Er zijn geen andere cataloguskenmerken of -gegevens bij betrokken.
+Een catalogus die is geïdentificeerd in een `icc=` wordt alleen gebruikt om een item uit de ICC-profieltabel van de catalogus op te zoeken. Er zijn geen andere cataloguskenmerken of -gegevens bij betrokken.
 
-Als `*`rootId`*` wordt omgezet in een catalogus, en `*`objId`*` wordt aangepast met een `catalog::Id` in deze catalogus, dan wordt `*`rootId/objId`*` effectief vervangen door de catalogusvermelding als volgt:
+Indien: `*`rootId`*` wordt omgezet in een catalogus, en `*`objId`*` komt overeen met een `catalog::Id` in deze catalogus, dan `*`rootId/objId`*` wordt in feite vervangen door de volgende vermelding in de catalogus:
 
 `src=attribute::RootPath/catalog::Path& mask=attribute::RootPath/catalog::MaskPath& anchor=catalog::Anchor& catalog::Modifier& catalog::PostModifier`
 
 ## Zie ook {#section-00e4f6b39cd14244bcce537a3f831259}
 
-[Referentie](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) afbeeldingscatalogus,  [src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1),  [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e),  [anchor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c)
+[Referentie afbeeldingscatalogus](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3), [src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1), [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [anchor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c)

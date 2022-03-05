@@ -1,20 +1,20 @@
 ---
-description: De zittingscatalogus is de materiaalcatalogus die zittingsattributen voor het verzoek, evenals een standaardwaarde catId voor al src=, vignette=, en icc= bevelen verstrekt.
-solution: Experience Manager
 title: Sessiecatalogus
-feature: Dynamic Media Classic, SDK/API
+description: De zittingscatalogus is de materiaalcatalogus die zittingsattributen voor het verzoek, en een standaardwaarde catId voor al src=, vignette=, en icc= bevelen verstrekt.
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 36e0571e-7451-423f-a1df-540680381902
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
 # Sessiecatalogus{#session-catalog}
 
-De zittingscatalogus is de materiaalcatalogus die zittingsattributen voor het verzoek, evenals een standaardwaarde catId voor al src=, vignette=, en icc= bevelen verstrekt.
+De sessiecatalogus is de materiaalcatalogus met sessiekenmerken voor de aanvraag en een standaard catId-waarde voor alle `src=`, `vignette=`, en `icc=` opdrachten.
 
 De sessiecatalogus wordt opgegeven als het eerste padelement van het HTTP-aanvraagpad (direct na de servernaam). Als het eerste padelement niet overeenkomt met kenmerk:RootId van een catalogus, wordt de standaardcatalogus gebruikt als een sessiecatalogus.
 
@@ -42,7 +42,7 @@ De sessiecatalogus bevat de volgende standaardwaarden voor sessies:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> kenmerk:RootUrl</span> </p> </td> 
-   <td> <p> URL van hoofdmap voor relatieve HTTP-bestandspaden in <span class="codeph"> src=</span>-opdrachten </p> </td> 
+   <td> <p> URL van hoofdmap voor relatieve HTTP-bestandspaden in <span class="codeph"> src=</span> opdrachten </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> kenmerk::ShowOverlapObjs</span> </p> </td> 
@@ -70,7 +70,7 @@ De sessiecatalogus bevat de volgende standaardwaarden voor sessies:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> kenmerk::TiffEncoding</span> </p> </td> 
-   <td> <p> Compressietype voor TIFF-afbeeldingsuitvoer </p> </td> 
+   <td> <p> Compressietype voor uitvoer van TIFF-afbeelding </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> kenmerk:Verscherpen</span> </p> </td> 
@@ -78,11 +78,11 @@ De sessiecatalogus bevat de volgende standaardwaarden voor sessies:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> kenmerk::OnFailSel</span> </p> </td> 
-   <td> <p> Hiermee wordt gedrag opgegeven wanneer een <span class="codeph"> sel=</span>-opdracht mislukt </p> </td> 
+   <td> <p> Hiermee wordt gedrag opgegeven wanneer een <span class="codeph"> sel=</span> opdracht mislukt </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> kenmerk::OnFailObj</span> </p> </td> 
-   <td> <p> Hiermee wordt gedrag opgegeven wanneer een <span class="codeph"> obj=</span>-opdracht mislukt </p> </td> 
+   <td> <p> Hiermee wordt gedrag opgegeven wanneer een <span class="codeph"> obj=</span> opdracht mislukt </p> </td> 
   </tr> 
  </tbody> 
 </table>

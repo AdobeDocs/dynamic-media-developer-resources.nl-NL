@@ -2,12 +2,12 @@
 description: Modus Nieuwe pixels berekenen. Kies het algoritme voor resampling en/of interpolatie dat u wilt gebruiken voor het schalen van afbeeldingsgegevens. Dit is ook van toepassing op het roteren van tekstlagen en het wijzigen van de grootte van samengestelde afbeeldingen tijdens het transformeren van de weergave.
 solution: Experience Manager
 title: resMode
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 63c1c028-0378-4a38-8018-e358491786d8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -21,19 +21,19 @@ Modus Nieuwe pixels berekenen. Kies het algoritme voor resampling en/of interpol
 <table id="table_FD658AC521E24EB9ADBB87F98549BC3B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bilin  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bilin </span> </p> </td> 
    <td colname="col2"> <p>Hiermee selecteert u de standaard bi-lineaire interpolatie. Snelste methode voor het berekenen van nieuwe monsters; er zijn enkele aliasingartefacten waarneembaar . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bicub  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bicub </span> </p> </td> 
    <td colname="col2"> <p>Selecteert bi-cubische interpolatie. Meer CPU-intensief dan bi-lineaire interpolatie, maar geeft scherpere beelden met minder merkbare aliasing artefacten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> sharp2  </span> </p> </td> 
-   <td colname="col2"> <p>Selecteert een gewijzigde functie van het Venster Lanczos als interpolatiealgoritme. Dit levert iets scherpere resultaten op dan bi-cubisch tegen hogere CPU-kosten. <span class="codeph"> scherp  </span> is vervangen door  <span class="codeph"> shark2  </span>, waardoor het minder waarschijnlijk is dat aliasing artefacten (Moiré) wordt veroorzaakt. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sharp2 </span> </p> </td> 
+   <td colname="col2"> <p>Selecteert een gewijzigde functie van het Venster Lanczos als interpolatiealgoritme. Dit levert iets scherpere resultaten op dan bi-cubisch tegen hogere CPU-kosten. <span class="codeph"> scherp </span> is vervangen door <span class="codeph"> sharp2 </span>, waardoor het minder waarschijnlijk is dat aliasingartefacten (Moiré) worden veroorzaakt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bisharp  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bisharp </span> </p> </td> 
    <td colname="col2"> <p>Hiermee selecteert u Photoshop standaardreampler voor het reduceren van de afbeeldingsgrootte, de zogenaamde 'bicubische scherper' in Adobe Photoshop. </p> </td> 
   </tr> 
  </tbody> 
@@ -41,7 +41,7 @@ Modus Nieuwe pixels berekenen. Kies het algoritme voor resampling en/of interpol
 
 >[!IMPORTANT]
 >
->Als u de hoogte-breedteverhouding van een afbeelding wilt behouden wanneer u zowel `resMode=bisharp` als `fit=stretch` gebruikt, kunt u het beste de parameter width of de parameter height gebruiken. Als beide parameters moeten worden gedefinieerd, kunt u ze in een andere laag plaatsen, zoals in het volgende voorbeeld wordt getoond:
+>De hoogte-breedteverhouding van een afbeelding behouden wanneer u beide `resMode=bisharp` en `fit=stretch`, is het aan te raden de parameter width of de parameter height te gebruiken. Als beide parameters moeten worden gedefinieerd, kunt u ze in een andere laag plaatsen, zoals in het volgende voorbeeld wordt getoond:
 >
 >`/is/image/is/image/companyname?layer=0&src=is(companyname/imagename?wid=30&hei=30&fit=stretch)&resmode=bisharp`
 

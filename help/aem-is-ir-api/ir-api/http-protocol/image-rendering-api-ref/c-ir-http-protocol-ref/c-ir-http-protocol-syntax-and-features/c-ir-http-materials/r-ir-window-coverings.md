@@ -1,13 +1,13 @@
 ---
+title: Vensterbedekkingen
 description: Tot vensterbekledingsmaterialen behoren zowel zachte vensterbekledingen (lakens, valanties, cafégordijnen) als harde vensterbekledingen (tinten en jaloezieën).
 solution: Experience Manager
-title: Vensterbedekkingen
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ce6543a1-2438-4661-95bf-ff3d956013bc
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Tot vensterbekledingsmaterialen behoren zowel zachte vensterbekledingen (lakens, valanties, cafégordijnen) als harde vensterbekledingen (tinten en jaloezieën).
 
-Met vensterbedekkende materialen geeft u een *venster op dat stijlbestand* ( [!DNL .vnw] bestandsextensie) bedekt, een speciaal gegevensbestand dat lijkt op een vignet, met masker-, belichting-, layout- en structuurgegevens die de vensterbedekking definiëren.
+Met vensterbedekkende materialen wordt een *met vensterbekleding, stijlbestand* ( [!DNL .vnw] bestandsextensie), een speciaal gegevensbestand dat lijkt op een vignet, dat masker-, belichting-, layout- en structuurgegevens bevat die de vensterbedekking definiëren.
 
 [!DNL vnw] De bestanden bevatten niet de kleur en structuur (stof) voor de vensterbedekking. Deze informatie wordt afzonderlijk opgegeven, net als herhaalbare structuren.
 
@@ -32,32 +32,32 @@ Vensters die materialen bedekken, kunnen alleen worden toegepast op Window Cover
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272" type="reference" format="dita" scope="local"> <span class="codeph"> src=  </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272" type="reference" format="dita" scope="local"> <span class="codeph"> src= </span> </a> </p> </td> 
    <td colname="col2"> <p>een Window bekleding style file; vereist. </p> </td> 
    <td colname="col3"> <p>Geen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272" type="reference" format="dita" scope="local"> <span class="codeph"> src=  </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272" type="reference" format="dita" scope="local"> <span class="codeph"> src= </span> </a> </p> </td> 
    <td colname="col2"> <p>Afbeeldingsbestand van structuur (tweede waarde voor <span class="codeph"> src= </span>). </p> </td> 
    <td colname="col3"> <p>Geen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04" type="reference" format="dita" scope="local"> <span class="codeph"> res=  </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04" type="reference" format="dita" scope="local"> <span class="codeph"> res= </span> </a> </p> </td> 
    <td colname="col2"> <p>Resolutie van structuur. </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> kenmerk:Resolution  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> kenmerk:Resolution </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-repeat.md#reference-37749da8233f42599ecf4731055fb7d8" type="reference" format="dita" scope="local"> <span class="codeph"> repeat=  </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-repeat.md#reference-37749da8233f42599ecf4731055fb7d8" type="reference" format="dita" scope="local"> <span class="codeph"> repeat= </span> </a> </p> </td> 
    <td colname="col2"> <p>Herhalingsmodus. </p> </td> 
    <td colname="col3"> <p>0 (recht herhalen) </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa" type="reference" format="dita" scope="local"> <span class="codeph"> color=  </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa" type="reference" format="dita" scope="local"> <span class="codeph"> color= </span> </a> </p> </td> 
    <td colname="col2"> <p>Effen kleur (of kleurt structuur). </p> </td> 
    <td colname="col3"> <p>128 (neutraal grijs) </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> shar=  </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> shar= </span> </a> </p> </td> 
    <td colname="col2"> <p>Verscherpen. </p> </td> 
    <td colname="col3"> <p>0 (geen verscherping) </p> </td> 
   </tr> 

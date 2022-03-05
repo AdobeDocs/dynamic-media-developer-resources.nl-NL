@@ -2,12 +2,12 @@
 description: Een proxy van een afbeeldingsserver kan worden gebruikt om het formaat van afbeeldingen voor Japanse telefoons te wijzigen.
 solution: Experience Manager
 title: Proxy afbeeldingsserver
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0389a4af-a412-42eb-b7b4-716e47d623a0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Een proxy van een afbeeldingsserver kan worden gebruikt om het formaat van afbee
 
 ## URL-indeling {#section-2e8c40b0547c4f99874cdf502b338940}
 
-Het url formaat voor de volmacht IS is zeer gelijkaardig aan regelmatige verzoeken van IS. Om het even welk IS die bepalingen tot de volmacht worden overgegaan wordt overgegaan door aan de Server van het Beeld. U kunt informatie over de modifiers van IS in [de Verwijzing van het Protocol van HTTP](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md#concept-dbbd5241bc6248ad9b9d7f6c635c311e) vinden.
+Het url formaat voor de volmacht IS is zeer gelijkaardig aan regelmatige verzoeken van IS. Om het even welk IS die bepalingen tot de volmacht worden overgegaan wordt overgegaan door aan de Server van het Beeld. U kunt informatie over de opties van IS in vinden [HTTP-protocolreferentie](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md#concept-dbbd5241bc6248ad9b9d7f6c635c311e).
 
 `http://<server>/is-proxy/image/<company><asset>?<modifiers>`
 
@@ -28,15 +28,15 @@ Het url formaat voor de volmacht IS is zeer gelijkaardig aan regelmatige verzoek
 
 <table id="simpletable_40C1DFB183B54A79BCF65D51ED480CE0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> widpercent =  &lt;number&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> widpercent = &lt;number&gt;</span> </p></td> 
   <td class="stentry"> <p>Hiermee geeft u het percentage op van de bruikbare breedte van het apparaat dat u als afbeeldingsbreedte wilt gebruiken. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> heipercent =  &lt;number&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> heipercent = &lt;number&gt;</span> </p></td> 
   <td class="stentry"> <p>Hiermee geeft u het percentage op van de bruikbare hoogte van het apparaat dat u als afbeeldingshoogte wilt gebruiken. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> sizepercent =  &lt;number&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> sizepercent = &lt;number&gt;</span> </p></td> 
   <td class="stentry"> <p>Hiermee wordt het percentage opgegeven van de eigenschap Memory Limit Embedded Media van het apparaat om de responsgrootte te beperken tot. Dit geldt alleen voor JPG-reacties. De kwaliteit van de afbeelding wordt verlaagd totdat de responsgrootte binnen het opgegeven percentage valt. </p></td> 
  </tr> 
 </table>

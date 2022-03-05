@@ -2,12 +2,12 @@
 description: De Server van het beeld verstrekt een mechanisme om een hiërarchische tekstreactie (xml of json) op te halen die alle middelen en meta-gegevens verbonden aan catalogus ImageSet voor een bepaald verslag vertegenwoordigt.
 solution: Experience Manager
 title: Mediasetaanvragen
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 71efed33-6248-4d23-ab4e-2caec3449171
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '957'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ De kijkers kunnen dit mechanisme gebruiken om reacties te produceren om de prese
 
 ## Aanvraagsyntaxis {#section-d72b1d95e4ce4bb1b332ce096c2b99f1}
 
-De vastgestelde reactie voor een `catalog::ImageSet` kan worden teruggewonnen door `req=set` bepaling te gebruiken en van verwijzingen te voorzien catalogusverslag identiteitskaart in de netto weg. De afbeeldingsset kan ook rechtstreeks in de URL worden opgegeven met de optie `imageset=`. Als de `imageset=` bepaling wordt gebruikt om imageset te specificeren, zou de volledige waarde in krullende steunen moeten worden ingesloten om de beeld te ontsnappen vastgestelde waarde en ervoor te zorgen dat om het even welke inbegrepen bepalingen niet als deel van het URL vraagkoord worden geïnterpreteerd.
+De ingestelde reactie voor een `catalog::ImageSet` kan worden opgehaald met de `req=set` wijzigen en verwijzen naar de catalogusrecord-id in het netto pad. De afbeeldingsset kan ook rechtstreeks in de URL worden opgegeven met de opdracht `imageset=` modifier. Als de `imageset=` De bepaling wordt gebruikt om imageset te specificeren, zou de volledige waarde in krullende steunen moeten worden ingesloten om de beeld te ontsnappen vastgestelde waarde en ervoor te zorgen dat om het even welke inbegrepen bepalingen niet als deel van het URL vraagkoord worden geïnterpreteerd.
 
 ## Typen ingestelde reacties {#section-93eb0a1f70344da2a888e56372ad3896}
 
@@ -29,7 +29,7 @@ Het ingestelde mechanisme ondersteunt de volgende typen reacties:
 <table id="simpletable_3718A93699F64805A41BC8A24D7962D2"> 
  <tr class="strow"> 
   <td class="stentry"> <p>eenvoudige afbeeldingen </p></td> 
-  <td class="stentry"> <p>An image record without <span class="codeph"> catalog::ImageSet</span> defined. </p></td> 
+  <td class="stentry"> <p>Een afbeeldingsrecord zonder <span class="codeph"> catalogus::ImageSet</span> gedefinieerd. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>eenvoudige video's </p></td> 
@@ -67,9 +67,9 @@ Het ingestelde mechanisme ondersteunt de volgende typen reacties:
 
 ## Typedetectie buiten instellen {#section-3dd6e453528d46898e559d31458a59ba}
 
-Wanneer een `req=set` verzoek wordt ontvangen, wordt het type van te produceren reactie bepaald door de waarde van `catalog::AssetType`. Als `catalog::AssetType` niet wordt bepaald, dan wordt het reactietype bepaald door de volgende regels:
+Wanneer een `req=set` verzoek wordt ontvangen, wordt het type te produceren reactie bepaald door de waarde van `catalog::AssetType`. Indien `catalog::AssetType` niet wordt bepaald, dan wordt het reactietype bepaald door de volgende regels:
 
-* Als record wordt gevonden in de afbeeldingscatalogus EN `catalog::ImageSet` is gedefinieerd
+* Indien record wordt gevonden in de afbeeldingscatalogus EN `catalog::ImageSet` is gedefinieerd
 
    * Een e-catalogusset aannemen als ten minste één item in het veld Recordafbeeldingsset een dubbele punt bevat
    * Mediaset aannemen als ten minste één item in het veld Afbeeldingsset record twee puntkomma&#39;s bevat.
@@ -100,7 +100,7 @@ In alle gevallen zal de resulterende xml-reactie overeenkomen met het opgegeven 
 
 ## Typedetectie binnen {#section-8f46490e467247e69ce284704def06f3}
 
-Wanneer de buitenste set wordt gedetecteerd als een mediaset, bevat de reactie een set mediasetitems die overeenkomen met elk mediasetitem in `catalog::ImageSet`. Als de optionele type parameter wordt opgegeven voor een bepaald mediaset-item, wordt het toegewezen aan een uitvoertype volgens de volgende tabel:
+Wanneer de buitenste set wordt gedetecteerd als een mediaset, bevat de reactie een set mediasetitems die overeenkomen met elk mediaset-item in `catalog::ImageSet`. Als de optionele parameter type is opgegeven voor een bepaald mediaset-item, wordt deze toegewezen aan een uitvoertype volgens de volgende tabel:
 
 | Invoertype | Uitvoertype |
 |---|---|
@@ -126,22 +126,22 @@ De geretourneerde xml-reactie voldoet aan de volgende specificatie:
 
 ## LabelKey {#section-bf565de6f7294cf89620343c9071f415}
 
-De bepaling `labelkey=` wordt gebruikt samen met `catalog::UserData`gebied om etiketten voor beelden en monsters te produceren. Het veld `catalog:UserData` wordt geparseerd als een set sleutel/waardeparen en de labeltoetsindexen in deze set om de waarde voor de opgegeven toets op te halen. Deze waarde wordt vervolgens geretourneerd in het *`l`*-kenmerk voor de *`s`* en *`i`*.
+De `labelkey=` modifier wordt gebruikt samen met de `catalog::UserData`veld voor het genereren van labels voor afbeeldingen en stalen. De `catalog:UserData` veld wordt geparseerd als een set sleutel/waardeparen en de index van de labeltoets in deze set om de waarde voor de opgegeven toets op te halen. Deze waarde wordt vervolgens geretourneerd in het dialoogvenster *`l`* kenmerk voor de *`s`* en *`i`*.
 
 ## Afgedwongen beperkingen {#section-b9f042873bee45a5ae11b69fd42f2bca}
 
-Om de grootte van de reactie te beperken en zelfverwijzingsproblemen te voorkomen, wordt de maximale nestdiepte bepaald door de servereigenschap `PS::fvctx.nestingLimit`. Als deze limiet wordt overschreden, wordt een fout geretourneerd.
+Om de grootte van de reactie te beperken en zelf-verwijzingskwesties te verhinderen, wordt de maximum het nesten diepte gecontroleerd door het serverbezit `PS::fvctx.nestingLimit`. Als deze limiet wordt overschreden, wordt een fout geretourneerd.
 
-Om de grootte van de xml- reacties voor grote e-catalogusreeksen te beperken, worden de privé meta-gegevens onderdrukt voor brochure vastgestelde punten volgens het serverbezit `PS::fvctx.brochureLimit`. Alle persoonlijke metagegevens die aan de brochure zijn gekoppeld, worden geëxporteerd totdat de brochure-limiet is bereikt. Zodra de limiet is overschreden, worden privékaarten en gebruikersgegevens onderdrukt en wordt een bijbehorende markering ingesteld om aan te geven welk type gegevens is onderdrukt.
+Om de grootte van de xml- reacties voor grote e-catalogusreeksen te beperken, worden de privé meta-gegevens onderdrukt voor brochure vastgestelde punten volgens het serverbezit `PS::fvctx.brochureLimit`. Alle persoonlijke metagegevens die aan de brochure zijn gekoppeld, worden geëxporteerd totdat de brochure-limiet is bereikt. Nadat de limiet is overschreden, worden privékaarten en gebruikersgegevens onderdrukt en wordt een bijbehorende markering ingesteld om aan te geven welk type gegevens is onderdrukt.
 
 Geneste mediasets worden niet ondersteund. Een geneste mediaset wordt gedefinieerd als een mediaset die een mediaset-item van het type mediaset bevat. Als deze voorwaarde wordt gedetecteerd, wordt een fout geretourneerd.
 
 ## Voorbeelden {#section-588c9d33aa05482c86cd2b1936887228}
 
-Raadpleeg de pagina Eigenschappen onder HTML Examples header voor voorbeeld-XML-reacties voor de `req=set`-aanvraag.
+Voor voorbeeld-XML-reacties voor `req=set` verzoek, verwijs naar de pagina van Eigenschappen onder de kopbal van de Voorbeelden van de HTML.
 
 `http://crc.scene7.com/is-docs/examples/properties.htm`
 
 ## Zie ook {#section-625ec466c948476e800dc0c52a4532d3}
 
-[req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76) ,  [imageSet=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-imageset-req.md#reference-c42935490db84830b31e9e649895dee3),  [catalog::ImageSet](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md),  [Image Catalog Reference](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)
+[req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76) , [imageset=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-imageset-req.md#reference-c42935490db84830b31e9e649895dee3), [catalogus::ImageSet](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md), [Referentie afbeeldingscatalogus](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)

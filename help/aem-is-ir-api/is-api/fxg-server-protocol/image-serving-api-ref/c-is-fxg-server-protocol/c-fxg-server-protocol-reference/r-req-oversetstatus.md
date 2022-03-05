@@ -2,12 +2,12 @@
 description: Type aanvraag. Hier geeft u het type aanvraag op.
 solution: Experience Manager
 title: req
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9242c873-5a85-4ede-82b6-4ef15feecf50
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,11 @@ Type aanvraag. Hier geeft u het type aanvraag op.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> inhoud</span> </p> </td> 
-   <td colname="col2"> <p> Retourneer de xml-lijst met alle elementen met een <span class="codeph"> s7:element</span>-kenmerkwaarde en een lijst met alle pagina's in het fxg-document. </p> </td> 
+   <td colname="col2"> <p> XML-lijst met alle elementen retourneren met een <span class="codeph"> s7:element</span> kenmerkwaarde en een lijst van alle pagina's in het fxg-document. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> oversetstatus</span> </p> </td> 
-   <td colname="col2"> <p>Keert de lijst van XML terug waarvan <span class="codeph"> &lt;RichText/&gt;</span> elementen overlopende zijn. </p> <p>Retourneert een XML-lijst met <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> elementen die overlopend zijn voor verwerking op de client. Alleen <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> elementen die overlopen worden geretourneerd. <span class="+ topic/ph pr-d/codeph codeph"> s7:</span> element is een vereist  <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> kenmerk bij gebruik van  <span class="+ topic/ph pr-d/codeph codeph"> req=oversetstatus</span>. Elke overlopende <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> elementen zonder een <span class="+ topic/ph pr-d/codeph codeph"> s7:element</span> wordt niet vermeld. Elk <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> element in de lijst heeft <span class="+ topic/ph pr-d/codeph codeph"> s7:element</span>, <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span>, en het bounding vakje van het overlopende tekstkader. Het <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span> attribuut geeft de tekstindex in het artikel aan tot welke tekst in het kader kon passen. <span class="+ topic/ph pr-d/codeph codeph"> Req=</span> oversetstatus is alleen van toepassing op  <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> elementen in de gevraagde FXG. Er worden geen <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span>-elementen van ingesloten FXG's vermeld. </p> </td> 
+   <td colname="col2"> <p>Hiermee wordt de XML-lijst geretourneerd waarvan <span class="codeph"> &lt;richtext /&gt;</span> elementen lopen over. </p> <p>Hiermee wordt een xml-lijst van <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> elementen die overlopen voor verwerking op de client. Alleen <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> elementen die overlopen, worden geretourneerd. <span class="+ topic/ph pr-d/codeph codeph"> s7:element</span> is vereist <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> kenmerk bij gebruik <span class="+ topic/ph pr-d/codeph codeph"> req=oversetstatus</span>. Willekeurig overlopend <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> elementen zonder <span class="+ topic/ph pr-d/codeph codeph"> s7:element</span> is niet vermeld. Elk <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> het element in de lijst bevat de <span class="+ topic/ph pr-d/codeph codeph"> s7:element</span>, <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span>en het selectiekader van het overlopende tekstkader. De <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span> kenmerk geeft de tekstindex aan in het artikel tot welke tekst in het kader kon passen. <span class="+ topic/ph pr-d/codeph codeph"> Req=oversetstatus</span> alleen van toepassing op <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> elementen in de gevraagde FXG. Er worden geen <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> elementen van ingesloten FXG's. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> exists</span> </p> </td> 

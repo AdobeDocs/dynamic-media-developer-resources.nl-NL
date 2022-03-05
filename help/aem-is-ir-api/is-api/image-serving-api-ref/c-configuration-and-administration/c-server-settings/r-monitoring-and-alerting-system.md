@@ -2,12 +2,12 @@
 description: Gebruik deze serverinstellingen om het bewakings- en waarschuwingssysteem te configureren.
 solution: Experience Manager
 title: Toezicht- en waarschuwingssysteem
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: fe672d1b-93e5-466a-a329-3032095c6ba8
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Gebruik deze serverinstellingen om het bewakings- en waarschuwingssysteem te con
 
 ## AS::monitorAlertGenerator.enableGlobalAlerting - Waarschuwingssysteem inschakelen {#section-612f8ea61794426ab205e22e5f665fa9}
 
-Schakel e-mailmeldingen in door de instelling &#39;true&#39; in te stellen en de instellingen voor e-mailmeldingen te configureren. Als u de instelling `false` instelt, worden alle e-mailwaarschuwingen uitgeschakeld. Dit kan handig zijn wanneer u een server offline instelt voor onderhoud. Booleaans.
+Schakel e-mailmeldingen in door de instelling &#39;true&#39; in te stellen en de instellingen voor e-mailmeldingen te configureren. Instellen op `false` Hiermee schakelt u alle e-mailwaarschuwingen uit. Dit kan handig zijn wanneer u een server offline zet voor onderhoud. Booleaans.
 
 ## AS::mailSender.host - SMTP-host {#section-151df07e7b44446581339bb7abeeba7a}
 
@@ -34,7 +34,7 @@ Een of meer e-mailadressen waarnaar waarschuwingen moeten worden verzonden. Gebr
 
 ## AS:monitorAlertGenerator.messageFrom - Message Sender {#section-db320cba4ac2438ca1cfe6abce4aed87}
 
-Het e-mailadres dat moet worden gebruikt in het e-mailveld **[!UICONTROL From]**.
+Het e-mailadres dat moet worden gebruikt in het dialoogvenster **[!UICONTROL From]** e-mailveld.
 
 ## AS::monitorAlertGenerator.alertInterval - Monitoring Interval {#section-99cb2e3380c1499e9d5aec3671ed73c7}
 
@@ -42,8 +42,8 @@ Het bewakingssysteem accumuleert alarmcondities tijdens het waarschuwingsinterva
 
 ## AS::monitorAlertGenerator.heapSpaceResetInterval - Waarschuwingsinterval voor heapruimte {#section-fd5a2bf04ed44fdcaef20f77084151a8}
 
-Minimale tijd na een heapruimtemelding voordat een andere wordt uitgegeven. Intervaltijd in msec. Geheel getal, 0 of groter.
+Minimumtijd na een heapspatie-waarschuwing voordat een andere wordt uitgegeven. Intervaltijd in msec. Geheel getal, 0 of groter.
 
 ## AS::monitorAlertGenerator.minTrafficForAlerts - MinimumVerkeer om het Alarm toe te laten {#section-8b4db2d6f96642309ca35c49eb3ab230}
 
-Verzoeken per seconde. Er worden geen responstijd en foutmeldingen gegenereerd als het verkeer onder deze drempel daalt. Reeks aan 0 om reactietijd en foutenalarm ongeacht het verkeersvolume te verzenden. Reële waarde 0 of hoger.
+Verzoeken per seconde. Er worden geen responstijd en foutmeldingen verzonden als het verkeer onder deze drempel valt. Reeks aan 0 om reactietijd en foutenalarm ongeacht het verkeersvolume te verzenden. Reële waarde 0 of hoger.

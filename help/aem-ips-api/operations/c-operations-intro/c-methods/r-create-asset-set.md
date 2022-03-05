@@ -5,9 +5,9 @@ title: createAssetSet
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 4565eb4f-eeb7-4b98-bfef-1a59e9a931af
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -42,38 +42,38 @@ Syntaxis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:tekenreeks  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:tekenreeks </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> De handgreep naar het bedrijf dat de set activa zal bevatten. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:tekenreeks  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:tekenreeks </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> De handgreep naar de map waarin de nieuwe elementenset wordt gemaakt. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:tekenreeks  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> name </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:tekenreeks </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Elementnaam. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> subType  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:tekenreeks  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> subType </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:tekenreeks </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Een unieke id die door de client is gemaakt voor het type elementenset. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:tekenreeks  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:tekenreeks </span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4"> De parameters in de reeks definitiereeks. <p>Deze moeten worden omgezet in de indeling die is opgegeven door de doelviewer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:tekenreeks  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:tekenreeks </span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4"> Handgreep van het element dat fungeert als miniatuur voor de nieuwe afbeeldingsset. Als gespecificeerd niet, probeert IPS om het eerste beeldmiddel te gebruiken dat door de reeks van verwijzingen wordt voorzien. </td> 
   </tr> 
@@ -82,11 +82,11 @@ Syntaxis
 
 **Vervangende functies voor setDefinition**
 
-U kunt vervangende functies op regel opgeven die worden opgelost tijdens het opzoeken of publiceren van een catalogus. Vervangende tekenreeksen hebben de notatie `${<substitution_func>}`. Beschikbare functies worden hieronder opgesomd.
+U kunt vervangende functies op regel opgeven die worden opgelost tijdens het opzoeken of publiceren van een catalogus. Vervangende tekenreeksen hebben de indeling `${<substitution_func>}`. Beschikbare functies worden hieronder opgesomd.
 
 >[!NOTE]
 >
->De handvatliterals in parameterlijsten moeten door haakjes `([])` worden omringd. Alle tekst die zich buiten een vervangende tekenreeks bevindt, wordt tijdens de resolutie letterlijk naar de uitvoertekenreeks gekopieerd.
+>De handvatliterals in parameterlijsten moeten door haakjes worden omringd `([])`. Alle tekst die zich buiten een vervangende tekenreeks bevindt, wordt tijdens de resolutie letterlijk naar de uitvoertekenreeks gekopieerd.
 
 | **Vervangende functie** | **Retourneert** |
 |---|---|

@@ -2,12 +2,12 @@
 description: Hiermee kunnen beheerders nieuwe metagegevensvelden maken voor coördinatie met contentbeheersystemen of voor sjabloonbewerkingen. Voorbeelden van gemaakte metagegevensvelden zijn trefwoorden, informatie over de auteur van de afbeelding of informatie over de copyrighthouder.
 solution: Experience Manager
 title: createMetadataField
-feature: Dynamic Media Classic,SDK/API,metagegevens
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: eac7fa54-ebe2-4f42-a478-d9a6fb54d1b6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Syntaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Nee </td> 
-   <td colname="col4"> <p>De standaardwaarde van het meta-gegevensgebied dat moet worden gecreeerd (bijvoorbeeld, <span class="codeph"> Scène 7</span>). </p> <p>Standaardwaarden worden niet ondersteund voor typen tagvelden en moeten worden weggelaten. Als een niet-lege standaardinstelling is opgegeven voor een veldtype met tag, wordt een fout geretourneerd. </p> </td> 
+   <td colname="col4"> <p>De standaardwaarde van het metagegevensveld dat moet worden gemaakt (bijvoorbeeld <span class="codeph"> Scène 7</span>). </p> <p>Standaardwaarden worden niet ondersteund voor typen tagvelden en moeten worden weggelaten. Als een niet-lege standaardinstelling is opgegeven voor een type tagveld, wordt een fout geretourneerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
@@ -95,7 +95,7 @@ Syntaxis
 
 ## Voorbeelden {#section-ba66be30f36b4aeba1bc721b0b92fdfc}
 
-In dit codevoorbeeld wordt het metagegevensveld voor tekenreekstypen met de naam `createMetadataField` gemaakt. De reactie keert de handvat op het nieuwe meta-gegevensgebied terug.
+In dit codevoorbeeld wordt een metagegevensveld voor tekenreekstypen gemaakt met de naam `createMetadataField`. De reactie keert de handvat op het nieuwe meta-gegevensgebied terug.
 
 **Verzoek**
 

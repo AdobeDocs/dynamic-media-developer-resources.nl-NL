@@ -1,13 +1,13 @@
 ---
+title: Meerdere verlichtingstoewijzingen gebruiken
 description: Voor sommige toepassingen is mogelijk een andere verlichtingskaart voor verschillende soorten materialen vereist.
 solution: Experience Manager
-title: Meerdere verlichtingstoewijzingen gebruiken
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a6e0be23-8b8a-4b60-aac1-c692319a0bce
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
@@ -16,12 +16,12 @@ ht-degree: 0%
 
 Voor sommige toepassingen is mogelijk een andere verlichtingskaart voor verschillende soorten materialen vereist.
 
-Voor elk vignet kunnen maximaal drie verlichtingstoewijzingen worden gemaakt. De verlichtingskaart voor een teruggeeft verrichting wordt geselecteerd met `illum=` en of `gloss=` bevelen.
+Voor elk vignet kunnen maximaal drie verlichtingstoewijzingen worden gemaakt. De verlichtingskaart voor een renderbewerking wordt geselecteerd met de `illum=` en of `gloss=` opdrachten.
 
-**Standaard** selectieAls noch  `illum=` noch  `gloss=` zijn gespecificeerd, zal renderer de eerste authored verlichtingskaart (typisch kaart A, ook wel &quot;Vlakke&quot;verlichtingskaart genoemd) gebruiken.
+**Standaardselectie** - Indien `illum=` of `gloss=` niet worden opgegeven, gebruikt de renderer de eerste gemaakte verlichtingskaart (normaal kaart A, ook wel de &#39;Plat&#39;-verlichtingskaart genoemd).
 
-**Automatische selectie met`gloss=`** Als niet opgegeven of ingesteld  `illum=` is op -1, vergelijkt de renderer de opgegeven  `gloss=` waarde met de glanswaarden die aan elke verlichtingskaart in het vignet zijn gekoppeld, en kiest u de verlichtingskaart waarvan de glanswaarde het dichtst bij de opgegeven waarde ligt  `gloss=`.
+**Automatische selectie met`gloss=`** - Indien `illum=` is niet opgegeven of is ingesteld op `-1`, vergelijkt de renderer de opgegeven waarden `gloss=` waarde met de glanswaarden die aan elke verlichtingsafbeelding in het vignet zijn gekoppeld. Hierbij wordt de verlichtingsafbeelding gekozen waarvan de glanswaarde het dichtst bij de opgegeven waarde ligt `gloss=`.
 
-**Expliciete selectie met`illum=`** Als  `illum=` wordt gespecificeerd en aan 0, 1, of 2 wordt geplaatst, zal renderer de overeenkomstige verlichtingskaart gebruiken;  `gloss=` wordt genegeerd voor het selecteren van de verlichtingskaart.
+**Selectie expliciet maken met`illum=`** - Indien `illum=` is opgegeven en ingesteld op `0`, `1`, of `2`gebruikt de renderer de overeenkomstige verlichtingskaart; `gloss=` wordt genegeerd voor het selecteren van de verlichtingskaart.
 
-Als het vignet slechts één verlichtingskaart bevat, zal renderer die kaart gebruiken en zal `illum=` en `gloss=` bevelen negeren.
+Als het vignet slechts één verlichtingskaart bevat, gebruikt renderer die kaart en negeert `illum=` en `gloss=` opdrachten.

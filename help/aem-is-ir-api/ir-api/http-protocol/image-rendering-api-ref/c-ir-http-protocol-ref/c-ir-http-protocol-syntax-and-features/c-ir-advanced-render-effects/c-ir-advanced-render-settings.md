@@ -1,13 +1,13 @@
 ---
+title: Geavanceerde renderinstellingen
 description: Het hulpprogramma Vignet Authoring (onderdeel van het Dynamic Media-pakket voor het maken van afbeeldingen) biedt mechanismen voor de besturing van aspecten op laag niveau van de engine voor het renderen van vignetten.
 solution: Experience Manager
-title: Geavanceerde renderinstellingen
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0ad8f4b4-dd9c-43f5-aacc-67a564e34d92
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '607'
 ht-degree: 17%
 
 ---
@@ -20,7 +20,7 @@ Het hulpprogramma Vignet Authoring (onderdeel van het Dynamic Media-pakket voor 
 >
 >Renderinstellingen zijn een geavanceerde functie voor het renderen van afbeeldingen en het ontwerpen van afbeeldingen. Neem contact op met de technische ondersteuning van Adobe of uw Adobe-consultant voor training, overleg of beide over het gebruik van Render-instellingen.
 
-Deze instellingen worden op interactieve wijze beheerd in het ontwerpen van afbeeldingen. Het is mogelijk dezelfde instellingen toe te passen bij het renderen van afbeeldingen met de opdracht `rs=` (of met de waarde `catalog::RenderSettings`). Dit mechanisme wordt gebruikt om verschillende verscherpingsopties voor elk materiaal te selecteren en het gedrag van de belichtingsrenderingalgoritmen te wijzigen, zoals het variëren van de verzadiging van hooglichten of het contrast in schaduwen.
+Deze instellingen worden op interactieve wijze beheerd in het ontwerpen van afbeeldingen. Het is mogelijk dezelfde instellingen toe te passen in Rendering afbeelding met behulp van de `rs=` (of met de `catalog::RenderSettings` waarde). Dit mechanisme wordt gebruikt om verschillende verscherpingsopties voor elk materiaal te selecteren en het gedrag van de belichtingsrenderingalgoritmen te wijzigen, zoals het variëren van de verzadiging van hooglichten of het contrast in schaduwen.
 
 ## Geavanceerde renderinstellingen (rs=) waarden {#section-d9e7f341ebd44f07a4e90f1f5910726b}
 
@@ -73,7 +73,7 @@ Deze instellingen worden op interactieve wijze beheerd in het ontwerpen van afbe
   <tr> 
    <td colname="col1"> <p>Q </p> </td> 
    <td colname="col2"> <p>Modus voor vergroten/verkleinen. </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>5 </p> </td> 
    <td colname="col5"> <p> 
      <ul id="ul_87184BB93E7F46D59BA1AAAFA8455512"> 
@@ -109,7 +109,7 @@ Deze instellingen worden op interactieve wijze beheerd in het ontwerpen van afbe
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
    <td colname="col2"> <p>Supersampling: Willekeurige snelheid. </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>20 </p> </td> 
    <td colname="col5"> <p>De standaardwaarde is 5. </p> </td> 
   </tr> 

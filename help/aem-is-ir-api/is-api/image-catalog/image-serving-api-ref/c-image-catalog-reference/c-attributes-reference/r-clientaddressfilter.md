@@ -2,12 +2,12 @@
 description: IP van de cliënt adresfilter. Staat specificatie van één of meerdere IP adressen of adreswaaiers toe.
 solution: Experience Manager
 title: ClientAddressFilter
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 028cef35-2862-452c-872c-b953e8ccb195
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -16,18 +16,18 @@ ht-degree: 0%
 
 IP van de cliënt adresfilter. Staat specificatie van één of meerdere IP adressen of adreswaaiers toe.
 
-Wanneer gespecificeerd, zullen de verzoeken aan deze beeldcatalogus die van een cliënt bij een niet vermeld IP adres voortkomen worden verworpen.
+Wanneer gespecificeerd, worden de verzoeken aan deze beeldcatalogus die van een cliënt bij een niet vermeld IP adres voortkomen verworpen.
 
 ## Eigenschappen {#section-d785265988324af68835410c9ba54147}
 
 Lijst met door komma&#39;s gescheiden IP-adressen met optionele netmaskers (CIDR-notatie wordt gebruikt):
 
-`*`ipAddress`*` `[`/  *`netmask`*`]`*  `[`,*`ipAddress`*`[`/*`netmask`*`]]`
+`*`ipAddress`*` `[`/ *`netmask`*`]`* `[`,*`ipAddress`*`[`/*`netmask`*`]]`
 
 <table id="simpletable_9F82BB0D42A9434883F2F70A2A92898C"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> ipAddress</span> </p> </td> 
-  <td class="stentry"> <p>IP-adres in de indeling <span class="varname"> ddd.ddd.ddd.ddd</span>. </p></td> 
+  <td class="stentry"> <p>IP-adres in <span class="varname"> ddd.ddd.ddd.ddd</span> gebruiken. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> netmasker</span> </p></td> 
@@ -35,11 +35,11 @@ Lijst met door komma&#39;s gescheiden IP-adressen met optionele netmaskers (CIDR
  </tr> 
 </table>
 
-Dit attribuut wordt genegeerd wanneer een preprocessing regel met een `<addressfilter>` element wordt toegepast.
+Dit kenmerk wordt genegeerd wanneer een preprocessing-regel met een `<addressfilter>` element wordt toegepast.
 
 ## Standaard {#section-de26e8c9225745e985e4beac1f03f4f6}
 
-Overgenomen van `default::AddressFilter` indien niet gedefinieerd of indien leeg.
+Overgenomen van `default::AddressFilter` indien niet gedefinieerd of leeg.
 
 ## Voorbeelden {#section-a955314d2b6a4213a16c12a8b18d8627}
 
