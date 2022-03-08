@@ -2,12 +2,12 @@
 description: Voortgangsgegevens taakitem.
 solution: Experience Manager
 title: TaskItemProgress
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 568a5601-b928-447d-8297-01139f36cf73
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '38'
+source-wordcount: '33'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Syntaxis
 
 | Naam | Type | Beschrijving |
 |---|---|---|
-| `*`itemName`*` | `xsd:string` | Naam van het item dat wordt verwerkt. |
-| `*`vordering`*` | `xsd:double` | Voortgang voltooid %. |
-| `*`progressMessage`*` | `xsd:string` | Procesbericht. |
-| `*`lastProgressUpdate`*` | `xsd:dateTime` | Tijdstip van laatste update. |
+| itemName | `xsd:string` | Naam van het item dat wordt verwerkt. |
+| vordering | `xsd:double` | Voortgang voltooid %. |
+| progressMessage | `xsd:string` | Procesbericht. |
+| lastProgressUpdate | `xsd:dateTime` | Tijdstip van laatste update. |

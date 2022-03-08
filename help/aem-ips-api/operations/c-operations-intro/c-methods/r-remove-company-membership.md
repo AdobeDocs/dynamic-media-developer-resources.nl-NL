@@ -2,12 +2,12 @@
 description: Hiermee verwijdert u een gebruiker uit een of meer bedrijven.
 solution: Experience Manager
 title: removeCompanyMembership
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1cb9a286-48a0-4542-a80a-c97fd973474e
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,8 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | Nee | De handgreep voor de gebruiker met het lidmaatschap dat u wilt verwijderen. |
-| `*`companyHandleArray`*` | `types:HandleArray` | Ja | De handgreep van het bedrijf waarvan u de gebruiker verwijdert. |
+| userHandle | `xsd:string` | Nee | De handgreep voor de gebruiker met het lidmaatschap dat u wilt verwijderen. |
+| companyHandleArray | `types:HandleArray` | Ja | De handgreep van het bedrijf waarvan u de gebruiker verwijdert. |
 
 **Output (removeCompanyMembershipReturn)**
 

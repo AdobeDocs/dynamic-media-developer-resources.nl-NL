@@ -2,12 +2,12 @@
 description: Retourneert twee verschillende typen informatie op basis van de doorgegeven parameters. originatorHandle retourneert informatie over elementen die zijn gegenereerd op basis van het opgegeven element. generateHandle geeft informatie over stappen die worden gebruikt om het opgegeven element of bestand te genereren.
 solution: Experience Manager
 title: getGenerationInfo
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fa098e3c-8145-4238-a84c-c545f1c53341
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -36,18 +36,18 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`Codewoordgroep`*` | `xsd:string` | Ja | De handgreep aan het bedrijf. |
-| `*`Codewoordgroep`*` | `xsd:string` | Nee | De motor die in de productie werd gebruikt. Zie Lettertypestijlen. |
-| `*`Codewoordgroep`*` | `xsd:string` | Nee | De greep van het element waarnaar moet worden gezocht voor gegenereerde elementen. |
-| `*`Codewoordgroep`*` | `xsd:string` | Nee | De greep van het element die moet worden gezocht naar elementen en engines die worden gebruikt bij het genereren van het element. |
-| `*`Codewoordgroep`*` | `xsd:StringArray` | Nee | Eigenschappen die in de bewerking zijn opgenomen. |
-| `*`Codewoordgroep`*` | `xsd:StringArray` | Nee | Eigenschappen die van de bewerking zijn uitgesloten. |
+| Codewoordgroep | `xsd:string` | Ja | De handgreep aan het bedrijf. |
+| Codewoordgroep | `xsd:string` | Nee | De motor die in de productie werd gebruikt. Zie Lettertypestijlen. |
+| Codewoordgroep | `xsd:string` | Nee | De greep van het element waarnaar moet worden gezocht voor gegenereerde elementen. |
+| Codewoordgroep | `xsd:string` | Nee | De greep van het element die moet worden gezocht naar elementen en engines die worden gebruikt bij het genereren van het element. |
+| Codewoordgroep | `xsd:StringArray` | Nee | Eigenschappen die in de bewerking zijn opgenomen. |
+| Codewoordgroep | `xsd:StringArray` | Nee | Eigenschappen die van de bewerking zijn uitgesloten. |
 
 **Output (getGenerationInfoReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`generationArray`*` | `types:GenerationInfoArray` | Ja | Array met generatiegegevens. |
+| generationArray | `types:GenerationInfoArray` | Ja | Array met generatiegegevens. |
 
 ## Voorbeelden {#section-fdffe6ed82d94c7aa90e47f7ce889403}
 

@@ -2,12 +2,12 @@
 description: Hiermee stelt u het zoomdoel in dat aan een elementafbeelding is gekoppeld. De bestaande zoomdoelen worden overschreven.
 solution: Experience Manager
 title: setZoomTargets
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1b4ac729-00cf-4ea2-9098-60b4af3c7e6d
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
@@ -33,15 +33,15 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Bedrijfshandgreep. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Element met het zoomdoel dat u wilt instellen. |
-| `*`zoomTargetArray`*` | `types:ZoomTargetDefinitionArray` | Ja | Array met zoomdoeldefinities. |
+| companyHandle | `xsd:string` | Ja | Bedrijfshandgreep. |
+| assetHandle | `xsd:string` | Ja | Element met het zoomdoel dat u wilt instellen. |
+| zoomTargetArray | `types:ZoomTargetDefinitionArray` | Ja | Array met zoomdoeldefinities. |
 
 **Output (setZoomTargetsReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`zoomTargetHandleArray`*` | `types:HandleArray` | Ja | De set handgrepen voor de zoomdoelen die door deze bewerking worden gemaakt. |
+| zoomTargetHandleArray | `types:HandleArray` | Ja | De set handgrepen voor de zoomdoelen die door deze bewerking worden gemaakt. |
 
 ## Voorbeelden {#section-a2f14c7a1499443e96d099ea8a76c182}
 

@@ -2,12 +2,12 @@
 description: Maakt een gebruikersaccount en voegt die account toe aan een of meer bedrijven.
 solution: Experience Manager
 title: addUser
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: aed39e73-f528-4c26-8f62-c3d796e9101a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Maakt een gebruikersaccount en voegt die account toe aan een of meer bedrijven.
 
-Wanneer het toevoegen van een gebruiker aan veelvoudige bedrijven, specificeer die bedrijven door hun bedrijfshandvatten in `companyHandleArray`. Deze bewerking retourneert de greep naar de gebruiker die u zojuist hebt toegevoegd.
+Wanneer het toevoegen van een gebruiker aan veelvoudige bedrijven, specificeer die bedrijven door hun bedrijfshandvatten binnen `companyHandleArray`. Deze bewerking retourneert de greep naar de gebruiker die u zojuist hebt toegevoegd.
 
 ## Geautoriseerde gebruikerstypen {#section-126ad42f844444fea11ecf8ad01fe1ec}
 
@@ -31,20 +31,20 @@ Wanneer het toevoegen van een gebruiker aan veelvoudige bedrijven, specificeer d
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`firstName`*` | `xsd:string` | Ja | De voornaam van de gebruiker. |
-| `*`lastName`*` | `xsd:string` | Ja | De achternaam van de gebruiker. |
-| `*`email`*` | `xsd:string` | Ja | Het e-mailadres van de gebruiker. |
-| `*`defaultRole`*` | `xsd:string` | Ja | Plaatst de rol voor een gebruiker in elk bedrijf zij tot behoren. De rol `IpsAdmin` negeert echter andere instellingen per bedrijf. |
-| `*`password`*` | `xsd:string` | Ja | Hiermee wordt het wachtwoord van de gebruiker ingesteld |
-| `*`passwordExpires`*` | `xsd:dateTime` | Nee | Hiermee stelt u de verloopperiode voor het wachtwoord in. Geef de tijdzone op wanneer u het verzoek doorgeeft. Tijdzones worden aangepast aan de Central Time. |
-| `*`isValid`*` | `xsd:boolean` | Ja | Hiermee wordt bepaald of de gebruiker geldig is. |
-| `*`membershipArray`*` | `xsd:CompanyMembershipUpdateArray` | Ja | Een array met bedrijfshandgrepen. |
+| firstName | `xsd:string` | Ja | De voornaam van de gebruiker. |
+| lastName | `xsd:string` | Ja | De achternaam van de gebruiker. |
+| email | `xsd:string` | Ja | Het e-mailadres van de gebruiker. |
+| defaultRole | `xsd:string` | Ja | Plaatst de rol voor een gebruiker in elk bedrijf zij tot behoren. De `IpsAdmin` de rol treedt andere per-bedrijfmontages met voeten. |
+| password | `xsd:string` | Ja | Hiermee wordt het wachtwoord van de gebruiker ingesteld |
+| passwordExpires | `xsd:dateTime` | Nee | Hiermee stelt u de verloopperiode voor het wachtwoord in. Geef de tijdzone op wanneer u het verzoek doorgeeft. Tijdzones worden aangepast aan de Central Time. |
+| isValid | `xsd:boolean` | Ja | Hiermee wordt bepaald of de gebruiker geldig is. |
+| membershipArray | `xsd:CompanyMembershipUpdateArray` | Ja | Een array met bedrijfshandgrepen. |
 
 **Output (addUserParam)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | Ja | De greep voor de gebruiker. |
+| userHandle | `xsd:string` | Ja | De greep voor de gebruiker. |
 
 ## Voorbeelden {#section-2547cef622734b71919eef849960b5cb}
 

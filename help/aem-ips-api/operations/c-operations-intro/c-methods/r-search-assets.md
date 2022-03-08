@@ -5,9 +5,9 @@ title: searchAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 58bd80e4-e9eb-43e4-8508-04e330f0ad26
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ Syntaxis
 
 **Responsgrootte**
 
-`searchAssets` keert tot 1000 activa in één enkele vraag terug. Om maximaal 10.000 activa per vraag terug te keren, beperk de reactiegegevens tot een ondergroep van `totalRows`, `name`, `handle`, `type`, en `subType` gebieden. Als u grotere sets wilt retourneren, stelt u paginering in met de parameter `resultPage`.
+`searchAssets` keert tot 1000 activa in één enkele vraag terug. Om tot 10.000 activa per vraag terug te keren, beperk de reactiegegevens tot een ondergroep van `totalRows`, `name`, `handle`, `type`, en `subType` velden. Als u grotere sets wilt retourneren, stelt u paginering in met de `resultPage` parameter.
 
 **Resultaatbestandsgrootte beperken met responseFieldArray of excludeFieldArray**
 
-Beperk de grootte van uw gegevensset met de parameters `responseFieldArray` of `excludFieldArray`. Deze parameters helpen geheugengebruik en bandbreedte te verminderen en kunnen de tijden van de serverreactie verbeteren.
+Beperk de grootte van de gegevensset met de `responseFieldArray` of `excludFieldArray` parameters. Deze parameters helpen geheugengebruik en bandbreedte te verminderen en kunnen de tijden van de serverreactie verbeteren.
 
 ## Geautoriseerde gebruikerstypen {#section-9c4bc41bb8b4493982197eb13c7cdc55}
 
@@ -90,7 +90,7 @@ Beperk de grootte van uw gegevensset met de parameters `responseFieldArray` of `
    <td colname="col1"> <span class="codeph"> <span class="varname"> includeSubfolders</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:Boolean</span> </td> 
    <td colname="col3"> Nee </td> 
-   <td colname="col4">Stel in op <span class="codeph"> true</span> om naar submappen te zoeken. </td> 
+   <td colname="col4">Instellen op <span class="codeph"> true</span> naar submappen zoeken. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
@@ -102,25 +102,25 @@ Beperk de grootte van uw gegevensset met de parameters `responseFieldArray` of `
    <td colname="col1"> <span class="codeph"> <span class="varname"> prullenbakState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Nee </td> 
-   <td colname="col4">Kies de status Prullenbak. De standaardwaarde is <span class="codeph"> NotInTrash</span>. </td> 
+   <td colname="col4">Kies de status Prullenbak. Standaard is <span class="codeph"> NotInTrash</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> conditionMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Nee </td> 
-   <td colname="col4"> <p>Keuze van de Wijzen van de Gelijke van het Onderzoek voor het combineren van resultaten van <span class="codeph"> keywordArray</span>, </p> <p> <span class="codeph"> conditionMatchMode</span> </p> <p> <span class="codeph"> systemFieldConditionArray</span> en  <span class="codeph"> metadataConditionArray</span>. Standaard is <span class="codeph"> MatchAll</span>. </p> </td> 
+   <td colname="col4"> <p>Keuze uit zoekmodi om de resultaten van <span class="codeph"> keywordArray</span>, </p> <p> <span class="codeph"> conditionMatchMode</span> </p> <p> <span class="codeph"> systemFieldConditionArray</span>, en <span class="codeph"> metadataConditionArray</span>. Standaard is <span class="codeph"> MatchAll</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> keywordArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> Nee </td> 
-   <td colname="col4"> <p> <p>Opmerking:  Vervangen parameter. Het wordt aanbevolen het niet te gebruiken. </p> </p> <p>Een tekenreeks met overeenkomende trefwoorden. </p> </td> 
+   <td colname="col4"> <p> <p>Opmerking: Vervangen parameter. Het wordt aanbevolen het niet te gebruiken. </p> </p> <p>Een tekenreeks met overeenkomende trefwoorden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> systemFieldMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Nee </td> 
-   <td colname="col4"> <p>Keuze van Zoekmodi om overeenkomsten met <span class="codeph"> systemFieldCondition</span> te combineren. Standaard is <span class="codeph"> MatchAll</span> </p>. </td> 
+   <td colname="col4"> <p>Keuze van zoekmodi om te combineren <span class="codeph"> systemFieldCondition</span> overeenkomsten. Standaard is <span class="codeph"> MatchAll</span> </p>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> systemFieldConditionArray</span> </span> </p> </td> 
@@ -138,13 +138,13 @@ Beperk de grootte van uw gegevensset met de parameters `responseFieldArray` of `
    <td colname="col1"> <span class="codeph"> <span class="varname"> tagConditionArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:TagConditionArray</span> </td> 
    <td colname="col3"> Nee </td> 
-   <td colname="col4"> <p>Een array met zoekvoorspelling van tagvelden. </p> <p>Voorspellen worden gecombineerd op basis van de instelling <span class="codeph"> tagMatchMode</span> en vervolgens gecombineerd met termen in <span class="codeph"> keywordArray</span>, <span class="codeph"> systemFieldConditionArray</span> en <span class="codeph"> metadataConditionArray</span> volgens de voorwaarde <span class="codeph"> conditionMatcha9/&gt; instellen.</span> </p> </td> 
+   <td colname="col4"> <p>Een array met zoekvoorspelling van tagvelden. </p> <p>Voorspellen worden gecombineerd op basis van de <span class="codeph"> tagMatchMode</span> en vervolgens gecombineerd met termen in <span class="codeph"> keywordArray</span>, <span class="codeph"> systemFieldConditionArray</span>, en <span class="codeph"> metadataConditionArray</span> volgens de <span class="codeph"> conditionMatchMode</span> instellen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> metadataMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Nee </td> 
-   <td colname="col4">Zoekmodi voor het combineren van <span class="codeph"> metadataCondition</span> overeenkomsten. Standaard is <span class="codeph"> MatchAll</span>. </td> 
+   <td colname="col4">Zoekmodi voor combineren <span class="codeph"> metadataCondition</span> overeenkomsten. Standaard is <span class="codeph"> MatchAll</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </td> 
@@ -174,13 +174,13 @@ Beperk de grootte van uw gegevensset met de parameters `responseFieldArray` of `
    <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:Boolean</span> </td> 
    <td colname="col3"> Nee </td> 
-   <td colname="col4">Als <span class="codeph"> true</span> en <span class="codeph"> assetSubTypeArray</span> niet leeg is, worden alleen elementen geretourneerd waarvan de subtypen zich in <span class="codeph"> assetSubTypeArray</span> bevinden. Als <span class="codeph"> false</span> (standaardwaarde), worden elementen zonder gedefinieerd subtype geretourneerd. </td> 
+   <td colname="col4">Indien <span class="codeph"> true</span> en <span class="codeph"> assetSubTypeArray</span> is niet leeg, alleen activa waarvan de subtypes in <span class="codeph"> assetSubTypeArray</span> worden geretourneerd. Indien <span class="codeph"> false</span> (standaardwaarde), worden vervolgens activa zonder gedefinieerd subtype geretourneerd. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproducts</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:Boolean</span> </td> 
    <td colname="col3"> Nee </td> 
-   <td colname="col4"> Indien waar (true), worden bijproducten die worden gegenereerd tijdens de opname van een primair element, zoals bijgesneden PDF-paginaafbeeldingen, uitgesloten van zoekresultaten. De standaardwaarde is false. </td> 
+   <td colname="col4"> Indien waar (true), worden bijproductelementen die worden gegenereerd tijdens de opname van een primair element, zoals afbeeldingen op pagina's met bijgesneden PDF, niet opgenomen in zoekresultaten. De standaardwaarde is false. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproductArray</span> </span> </td> 
@@ -204,7 +204,7 @@ Beperk de grootte van uw gegevensset met de parameters `responseFieldArray` of `
    <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Nee </td> 
-   <td colname="col4">Geeft de pagina met resultaten op die moet worden geretourneerd op basis van het paginaformaat <span class="codeph"> recordsPerPage</span>. </td> 
+   <td colname="col4">Hiermee geeft u de resultatenpagina op die u wilt retourneren, op basis van <span class="codeph"> recordsPerPage</span> paginaformaat. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
@@ -237,8 +237,8 @@ Beperk de grootte van uw gegevensset met de parameters `responseFieldArray` of `
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`totalRows`*` | `xsd:int` | Nee | Het aantal rijen dat een zoekopdracht retourneert wanneer records per pagina niet beperkt zijn. |
-| `*`assetArray`*` | `types:AssetArray` | Nee | Elementen die de zoekopdracht retourneert. |
+| totalRows | `xsd:int` | Nee | Het aantal rijen dat een zoekopdracht retourneert wanneer records per pagina niet beperkt zijn. |
+| assetArray | `types:AssetArray` | Nee | Elementen die de zoekopdracht retourneert. |
 
 ## Voorbeelden {#section-725484cc09b54772a838ad2cc930b94b}
 

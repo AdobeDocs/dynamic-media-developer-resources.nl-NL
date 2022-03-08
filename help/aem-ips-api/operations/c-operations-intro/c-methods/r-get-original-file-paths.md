@@ -2,12 +2,12 @@
 description: Haalt de oorspronkelijke bestandspaden van de elementen van een bedrijf op.
 solution: Experience Manager
 title: getOriginalFilePaths
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 81d06a8c-55c1-47d5-adc9-928ab30199c6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
@@ -38,14 +38,14 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep aan het bedrijf. |
-| `*`assetHandleArray`*` | `types:HandleArray` | Ja | Array van handgrepen naar elementen waarvan u het oorspronkelijke bestandspad wilt verkrijgen. |
+| companyHandle | `xsd:string` | Ja | De handgreep aan het bedrijf. |
+| assetHandleArray | `types:HandleArray` | Ja | Array van handgrepen naar elementen waarvan u het oorspronkelijke bestandspad wilt verkrijgen. |
 
 **Output (getOriginalFilePathsReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`originalFileArray`*` | `types:StringArray` | Ja | De array van tekenreeksen die staan voor de oorspronkelijke bestandspaden. |
+| originalFileArray | `types:StringArray` | Ja | De array van tekenreeksen die staan voor de oorspronkelijke bestandspaden. |
 
 ## Voorbeelden {#section-a966e783a2ba49f5b6b0f961329ab2f8}
 

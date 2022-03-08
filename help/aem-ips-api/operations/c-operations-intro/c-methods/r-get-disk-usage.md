@@ -2,12 +2,12 @@
 description: Geeft informatie over de structuur van een bedrijf (aantal bestanden, enz.).
 solution: Experience Manager
 title: getDiskUsage
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 06fdd9f5-5021-4f0b-b312-4465df9bda25
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
@@ -29,13 +29,13 @@ Geeft informatie over de structuur van een bedrijf (aantal bestanden, enz.).
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep aan het bedrijf waarvan schijfgebruik u wilt verkrijgen. |
+| companyHandle | `xsd:string` | Ja | De handgreep aan het bedrijf waarvan schijfgebruik u wilt verkrijgen. |
 
 **Output (getDiskUsageReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`diskUsageArray`*` | `types:DiskUsageArray` | Ja | Array van schijfgebruik van bedrijf. |
+| diskUsageArray | `types:DiskUsageArray` | Ja | Array van schijfgebruik van bedrijf. |
 
 ## Voorbeelden {#section-cb16a97badc94076ad5da277db5ed16a}
 

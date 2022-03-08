@@ -2,12 +2,12 @@
 description: Maakt een map.
 solution: Experience Manager
 title: createFolder
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 569130ae-5515-4b14-a410-2bd6f9fc7638
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Maakt een map.
 
 >[!NOTE]
 >
->De nieuwe map is ondergeschikt aan de map Images, zelfs als u een `/` opgeeft om de hoofdmap van het bedrijf aan te geven.
+>De nieuwe map is ondergeschikt voor de map Images, zelfs als u een `/` om de wortel van het bedrijf aan te geven.
 
 Syntaxis
 
@@ -41,14 +41,14 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep aan het bedrijf |
-| `*`folderPath`*` | `xsd:string` | Ja | De hoofdmap die wordt gebruikt om mappen en alle submappen op bladniveau op te halen. Indien uitgesloten, wordt de bedrijfwortel gebruikt. |
+| companyHandle | `xsd:string` | Ja | De handgreep aan het bedrijf |
+| folderPath | `xsd:string` | Ja | De hoofdmap die wordt gebruikt om mappen en alle submappen op bladniveau op te halen. Indien uitgesloten, wordt de bedrijfwortel gebruikt. |
 
 **Uitvoer (createFolderParam)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | Ja | Handgreep van de nieuwe map. |
+| folderHandle | `xsd:string` | Ja | Handgreep van de nieuwe map. |
 
 ## Voorbeelden {#section-e596fbdb44fd43c8b30005cb2a2fdf26}
 

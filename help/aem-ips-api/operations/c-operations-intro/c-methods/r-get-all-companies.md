@@ -2,12 +2,12 @@
 description: Geeft een array van alle bedrijven.
 solution: Experience Manager
 title: getAllCompanies
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0e339ecf-83b5-410c-8683-f3d73bd92339
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
@@ -28,13 +28,13 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`includeExpired`*` | `xsd:boolean` | Ja | Stel dit in op true om verlopen en niet-verlopen bedrijven te retourneren. |
+| includeExpired | `xsd:boolean` | Ja | Stel dit in op true om verlopen en niet-verlopen bedrijven te retourneren. |
 
 **Output (getAllCompaniesReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyArray`*` | `types:CompanyArray` | Ja | De array van bedrijven. |
+| companyArray | `types:CompanyArray` | Ja | De array van bedrijven. |
 
 ## Voorbeelden {#section-3eecf4e6900b41fb92a0e3214791c6b9}
 

@@ -5,9 +5,9 @@ title: getAssetPublishHistory
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: f337e7f9-1af6-4164-b9bd-e697548e2850
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
@@ -36,14 +36,14 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep aan het bedrijf met de activa publicatiegeschiedenis. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Het element met de publicatiegeschiedenis die u wilt onderzoeken. |
+| companyHandle | `xsd:string` | Ja | De handgreep aan het bedrijf met de activa publicatiegeschiedenis. |
+| assetHandle | `xsd:string` | Ja | Het element met de publicatiegeschiedenis die u wilt onderzoeken. |
 
 **Output (getAssetPublishHistoryReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`pubHistoryArray`*` | `types:PublishHistoryArray` | Ja | De publicatiegeschiedenis van het element. |
+| pubHistoryArray | `types:PublishHistoryArray` | Ja | De publicatiegeschiedenis van het element. |
 
 ## Voorbeelden {#section-53897c51e5a047c5bd5ea5a6efb2d114}
 

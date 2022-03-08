@@ -2,12 +2,12 @@
 description: Retourneert alle mappen en submappen, te beginnen bij het mappad. De reactie getFolders retourneert maximaal 100.000 mappen.
 solution: Experience Manager
 title: getFolders
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 71fe3343-2560-4d74-8ec3-1229d83a62e1
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
@@ -43,20 +43,20 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep aan het bedrijf. |
-| `*`accessUserHandle`*` | `xsd:string` | Nee | Wordt gebruikt door beheerders om zich voor te doen als een specifieke gebruiker. |
-| `*`accessGroupHandle`*` | `xsd:string` | Nee | Filteren op een specifieke groep. |
-| `*`folderPath`*` | `xsd:string` | Nee | De hoofdmap om mappen en alle submappen op te halen naar bladniveau. Indien uitgesloten, wordt de bedrijfwortel gebruikt. |
-| `*`assetTypeArray`*` | `types:StringArray` | Nee | Retourneert mappen die alleen opgegeven elementtypen bevatten. |
-| `*`responseFieldArray`*` | `types:StringArray` | Nee | Bevat een lijst met velden die u wilt opnemen in het antwoord. |
-| `*`excludeFieldArray`*` | `types:StringArray` | Nee | Bevat een lijst met velden die u wilt uitsluiten van de reactie. |
+| companyHandle | `xsd:string` | Ja | De handgreep aan het bedrijf. |
+| accessUserHandle | `xsd:string` | Nee | Wordt gebruikt door beheerders om zich voor te doen als een specifieke gebruiker. |
+| accessGroupHandle | `xsd:string` | Nee | Filteren op een specifieke groep. |
+| folderPath | `xsd:string` | Nee | De hoofdmap om mappen en alle submappen op te halen naar bladniveau. Indien uitgesloten, wordt de bedrijfwortel gebruikt. |
+| assetTypeArray | `types:StringArray` | Nee | Retourneert mappen die alleen opgegeven elementtypen bevatten. |
+| responseFieldArray | `types:StringArray` | Nee | Bevat een lijst met velden die u wilt opnemen in het antwoord. |
+| excludeFieldArray | `types:StringArray` | Nee | Bevat een lijst met velden die u wilt uitsluiten van de reactie. |
 
 **Output (getFoldersReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`folderArray`*` | `types:FolderArray` | Nee | Een array met mappen die voldoen aan de filtercriteria. De reactie is beperkt tot maximaal 100.000 mappen. |
-| `*`permissionsSetArray`*` | `types:PermissionSetArray` |  |  |
+| folderArray | `types:FolderArray` | Nee | Een array met mappen die voldoen aan de filtercriteria. De reactie is beperkt tot maximaal 100.000 mappen. |
+| permissionsSetArray | `types:PermissionSetArray` |  |  |
 
 ## Voorbeelden {#section-b5cb06e9fb9945ad898dbdc3692b754e}
 

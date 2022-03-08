@@ -2,12 +2,12 @@
 description: Haalt de types van bezitsreeks verbonden aan het gespecificeerde bedrijf, of globale bezitsvastgestelde types op als geen bedrijf wordt gespecificeerd.
 solution: Experience Manager
 title: getPropertySetTypes
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7686d30b-e071-4950-8af1-4dd25312ce4b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`typeArray`*` | `types:PropertySetTypeArray` | Ja | Een serie van bezitsvastgestelde types verbonden aan het gespecificeerde bedrijf, of de globale types van bezitsreeks als geen bedrijf werd gespecificeerd. |
+| typeArray | `types:PropertySetTypeArray` | Ja | Een serie van bezitsvastgestelde types verbonden aan het gespecificeerde bedrijf, of de globale types van bezitsreeks als geen bedrijf werd gespecificeerd. |
 
 ## Voorbeelden {#section-280c406a90864409856aee44d4069a52}
 

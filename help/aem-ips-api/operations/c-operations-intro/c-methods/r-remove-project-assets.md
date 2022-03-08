@@ -5,9 +5,9 @@ title: removeProjectAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 6bf169ec-c724-4ac0-a2bf-67af2ebba21a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
@@ -32,19 +32,19 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep aan het bedrijf met de activa u wilt bewegen. |
-| `*`projectHandle`*` | `xsd:string` | Ja | De handgreep naar de projectelementen die u wilt verplaatsen. |
-| `*`assetHandleArray`*` | `types:HandleArray` | Ja | Array van handgrepen naar de elementen die u wilt verplaatsen. |
+| companyHandle | `xsd:string` | Ja | De handgreep aan het bedrijf met de activa u wilt bewegen. |
+| projectHandle | `xsd:string` | Ja | De handgreep naar de projectelementen die u wilt verplaatsen. |
+| assetHandleArray | `types:HandleArray` | Ja | Array van handgrepen naar de elementen die u wilt verplaatsen. |
 
 **Output (removeProjectAssetsReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Ja | Elementen tellen is verwijderd. |
-| `*`warningCount`*` | `xsd:int` | Ja | Het aantal waarschuwingen dat wordt gegenereerd wanneer de bewerking heeft geprobeerd elementen uit het project te verwijderen. |
-| `*`errorCount`*` | `xsd:int` | Ja | Het aantal fouten dat wordt gegenereerd toen de bewerking probeerde elementen uit het project te verwijderen. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nee | De array met details die zijn gekoppeld aan de elementen die waarschuwingen hebben gegenereerd toen de bewerking probeerde deze te verwijderen uit het project. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nee | De array met details die zijn gekoppeld aan de elementen die fouten genereerden toen de bewerking probeerde deze te verwijderen uit het project. |
+| successCount | `xsd:int` | Ja | Elementen tellen is verwijderd. |
+| warningCount | `xsd:int` | Ja | Het aantal waarschuwingen dat wordt gegenereerd wanneer de bewerking heeft geprobeerd elementen uit het project te verwijderen. |
+| errorCount | `xsd:int` | Ja | Het aantal fouten dat wordt gegenereerd toen de bewerking probeerde elementen uit het project te verwijderen. |
+| warningDetailArray | `types:AssetOperationFaultArray` | Nee | De array met details die zijn gekoppeld aan de elementen die waarschuwingen hebben gegenereerd toen de bewerking probeerde deze te verwijderen uit het project. |
+| errorDetailArray | `types:AssetOperationFaultArray` | Nee | De array met details die zijn gekoppeld aan de elementen die fouten genereerden toen de bewerking probeerde deze te verwijderen uit het project. |
 
 ## Voorbeelden {#section-13546cf0a98e4e1b91b8b7cd5724ced8}
 

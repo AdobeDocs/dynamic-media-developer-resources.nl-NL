@@ -2,12 +2,12 @@
 description: Hiermee worden opgegeven taaklogbestanden voor het geselecteerde bedrijf opgehaald. U kunt sorteren op tekens, richting, begin- en einddatum en op het aantal rijen.
 solution: Experience Manager
 title: getJobLogs
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6239c3c4-bdbc-4e69-82d4-48a76f080eff
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
@@ -36,19 +36,19 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Nee | De handgreep van het bedrijf. |
-| `*`userHandle`*` | `xsd:string` | Nee | Hiermee worden logs opgehaald voor taken die door een specifieke gebruiker zijn ingediend. |
-| `*`sortBy`*` | `xsd:string` | Nee | Hiermee kunt u sorteervelden selecteren. |
-| `*`sortDirection`*` | `xsd:string` | Nee | Sorteervolgorde (oplopend of aflopend). |
-| `*`startDate`*` | `xsd:dateTime` | Nee | De datum en tijd van het begin van het taaklogboek. Geef de tijdzone het verzoek voor dit veld. |
-| `*`endDate`*` | `xsd:dateTime` | Nee | De datum en tijd van het einde van het taaklogboek. Geef de tijdzone het verzoek voor dit veld. |
-| `*`numRows`*` | `xsd:int` | Nee | Maximumaantal rijen dat moet worden geretourneerd. |
+| companyHandle | `xsd:string` | Nee | De handgreep van het bedrijf. |
+| userHandle | `xsd:string` | Nee | Hiermee worden logs opgehaald voor taken die door een specifieke gebruiker zijn ingediend. |
+| sortBy | `xsd:string` | Nee | Hiermee kunt u sorteervelden selecteren. |
+| sortDirection | `xsd:string` | Nee | Sorteervolgorde (oplopend of aflopend). |
+| startDate | `xsd:dateTime` | Nee | De datum en tijd van het begin van het taaklogboek. Geef de tijdzone het verzoek voor dit veld. |
+| endDate | `xsd:dateTime` | Nee | De datum en tijd van het einde van het taaklogboek. Geef de tijdzone het verzoek voor dit veld. |
+| numRows | `xsd:int` | Nee | Maximumaantal rijen dat moet worden geretourneerd. |
 
 **Output (getJobLogsReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`jobLogArray`*` | `types: JobLogArray` | Ja | Array met taaklogbestanden. |
+| jobLogArray | `types: JobLogArray` | Ja | Array met taaklogbestanden. |
 
 ## Voorbeelden {#section-35871c94b4a44559912577efddbc46a6}
 

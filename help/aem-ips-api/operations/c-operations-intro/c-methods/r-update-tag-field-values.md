@@ -2,12 +2,12 @@
 description: Hiermee werkt u de tagwoordenboekwaarden voor een tagveld bij.
 solution: Experience Manager
 title: updateTagFieldValues
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6de49217-2d15-49d9-9357-b058b2564686
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Syntaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> updateArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:TagValueUpdateArray</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4">Array met waarden voor tagvelden die u wilt bijwerken. <p>Opmerking:  Hiermee werkt u alleen tekenreekswaarden bij. Dit heeft geen invloed op de activaverenigingen. </p> </td> 
+   <td colname="col4">Array met waarden voor tagvelden die u wilt bijwerken. <p>Opmerking: Hiermee werkt u alleen tekenreekswaarden bij. Dit heeft geen invloed op de activaverenigingen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,11 +63,11 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Ja | Het aantal correct bijgewerkte tagvelden. |
-| `*`warningCount`*` | `xsd:int` | Ja | Het aantal waarschuwingen dat wordt gegenereerd wanneer de bewerking probeerde tagvelden bij te werken. |
-| `*`errorCount`*` | `xsd:int` | Ja | Het aantal fouten dat is gegenereerd toen de bewerking probeerde tagvelden bij te werken. |
-| `*`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | Nee | De array met details die zijn gekoppeld aan de elementen die waarschuwingen hebben gegenereerd toen de bewerking probeerde tagvelden bij te werken. |
-| `*`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | Nee | De array met details die zijn gekoppeld aan de elementen die fouten genereerden toen de bewerking probeerde tagvelden bij te werken. |
+| successCount | `xsd:int` | Ja | Het aantal correct bijgewerkte tagvelden. |
+| warningCount | `xsd:int` | Ja | Het aantal waarschuwingen dat wordt gegenereerd wanneer de bewerking probeerde tagvelden bij te werken. |
+| errorCount | `xsd:int` | Ja | Het aantal fouten dat is gegenereerd toen de bewerking probeerde tagvelden bij te werken. |
+| warningDetailArray | `types:TagValueUpdateFaultArray` | Nee | De array met details die zijn gekoppeld aan de elementen die waarschuwingen hebben gegenereerd toen de bewerking probeerde tagvelden bij te werken. |
+| errorDetailArray | `types:TagValueUpdateFaultArray` | Nee | De array met details die zijn gekoppeld aan de elementen die fouten genereerden toen de bewerking probeerde tagvelden bij te werken. |
 
 ## Voorbeelden {#section-bb4dcf97044c4675974c9b8d27674001}
 

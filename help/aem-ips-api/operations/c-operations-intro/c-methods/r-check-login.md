@@ -2,12 +2,12 @@
 description: Controleert of een gebruiker met een specifiek bedrijf (geïdentificeerd door greep), e-mailadres, en wachtwoord zich kan aanmelden.
 solution: Experience Manager
 title: checkLogin
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1f96f376-574c-464b-9c89-c215f6454b81
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
@@ -38,19 +38,19 @@ Controleert of een gebruiker met een specifiek bedrijf (geïdentificeerd door gr
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Nee | De handgreep aan het bedrijf dat de gebruiker bevat. |
-| `*`email`*` | `xsd:string` | Ja | Het e-mailadres van de gebruiker. |
-| `*`password`*` | `xsd:string` | Ja | Het wachtwoord van de gebruiker. |
+| companyHandle | `xsd:string` | Nee | De handgreep aan het bedrijf dat de gebruiker bevat. |
+| email | `xsd:string` | Ja | Het e-mailadres van de gebruiker. |
+| password | `xsd:string` | Ja | Het wachtwoord van de gebruiker. |
 
 **Uitvoer (checkLoginParam)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`status`*` | `xsd:string` | Ja | Aanmeldingsstatus van gebruiker. |
+| status | `xsd:string` | Ja | Aanmeldingsstatus van gebruiker. |
 
 ## Voorbeelden {#section-23f90100a9d94bc7b4045634cccd1b98}
 
-Deze steekproefcode gebruikt een parameter van het bedrijfshandvat, e-mailadres, en een wachtwoord om te bepalen als een gebruiker aan IPS kan login. Als de gebruiker *can* login, deze methode het koord, `ValidLogin` terugkeert. Als de gebruiker *niet* login kan, keert deze methode het koord, `InvalidLogin` terug.
+Deze steekproefcode gebruikt een parameter van het bedrijfshandvat, e-mailadres, en een wachtwoord om te bepalen als een gebruiker aan IPS kan login. Als de gebruiker *kan* login, deze methode keert het koord terug, `ValidLogin`. Als de gebruiker *kan* login, deze methode keert het koord terug, `InvalidLogin`.
 
 **Verzoek**
 

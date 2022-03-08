@@ -1,20 +1,20 @@
 ---
-description: Werkt de configuratie-instellingen van de SWF-viewer bij.
+description: Hiermee werkt u de configuratie-instellingen van de SWF-viewer bij.
 solution: Experience Manager
 title: updateViewerConfigSettings
-feature: Dynamic Media Classic,SDK/API,Viewer-voorinstellingen
+feature: Dynamic Media Classic,SDK/API,Viewer Presets
 role: Developer,Admin
 exl-id: 04565e2b-bda3-4ad0-afc1-2df01e455490
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '59'
 ht-degree: 0%
 
 ---
 
 # updateViewerConfigSettings{#updateviewerconfigsettings}
 
-Werkt de configuratie-instellingen van de SWF-viewer bij.
+Hiermee werkt u de configuratie-instellingen van de SWF-viewer bij.
 
 Syntaxis
 
@@ -31,9 +31,9 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handgreep aan het bedrijf. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Asset handle. |
-| `*`configSettingArray`*` | `types:ConfigSettingArray` | Ja | Array met configuratie-instellingen die u wilt toepassen op de viewer. |
+| companyHandle | `xsd:string` | Ja | Handgreep aan het bedrijf. |
+| assetHandle | `xsd:string` | Ja | Asset handle. |
+| configSettingArray | `types:ConfigSettingArray` | Ja | Array met configuratie-instellingen die u wilt toepassen op de viewer. |
 
 **Output (updateViewerConfigSettingsReturn)**
 

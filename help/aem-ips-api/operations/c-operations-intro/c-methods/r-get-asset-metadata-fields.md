@@ -5,9 +5,9 @@ title: getAssetMetadataFields
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: 5234d3ea-c333-4e35-91ae-ce3412919fda
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '63'
 ht-degree: 0%
 
 ---
@@ -34,13 +34,13 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep naar het bedrijf waarvan u de metagegevens wilt ophalen. |
+| companyHandle | `xsd:string` | Ja | De handgreep naar het bedrijf waarvan u de metagegevens wilt ophalen. |
 
 **Output (getAssetMetadataFieldsReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`assetFieldArray`*` | `types:AssetMetadataFieldsArray` | Ja | Array van metagegevensvelden, op elementtype. |
+| assetFieldArray | `types:AssetMetadataFieldsArray` | Ja | Array van metagegevensvelden, op elementtype. |
 
 ## Voorbeelden {#section-d79ab85f29144635b0b61416e52f4f3f}
 

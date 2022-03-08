@@ -2,12 +2,12 @@
 description: Hiermee verwijdert u een zoomdoel.
 solution: Experience Manager
 title: deleteZoomTarget
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fa1f7cf8-038a-4fa8-b869-12ce4b2ad41f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,8 @@ Hiermee verwijdert u een zoomdoel.
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep van het bedrijf waartoe het zoomdoel behoort. |
-| `*`zoomTargetHandle`*` | `xsd:string` | Ja | De handgreep van het zoomdoel dat moet worden verwijderd. |
+| companyHandle | `xsd:string` | Ja | De handgreep van het bedrijf waartoe het zoomdoel behoort. |
+| zoomTargetHandle | `xsd:string` | Ja | De handgreep van het zoomdoel dat moet worden verwijderd. |
 
 **Output (deleteZoomTargetParam)**
 

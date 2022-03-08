@@ -2,12 +2,12 @@
 description: Een zoekvoorwaarde voor het systeemveld voor de bewerking searchAssets.
 solution: Experience Manager
 title: SystemFieldCondition
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ebd12727-dbb3-40dc-b631-945415331be6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -16,25 +16,25 @@ ht-degree: 0%
 
 Een zoekvoorwaarde voor het systeemveld voor de bewerking searchAssets.
 
-Voor unary vergelijkt, ga precies één waarde ( `boolVal`, `longVal`, `doubleVal`, of `dateVal`) door afhankelijk van het type van systeemgebied. Geef voor zoekbereiken `min<Type>`- en `max<Type>`-parameters door en geef `op`-waarde `Between` of `NotBetween` door.
+Geef voor unaire vergelijkingen exact één waarde door ( `boolVal`, `longVal`, `doubleVal`, of `dateVal`), afhankelijk van het type systeemveld. Voor zoekbereiken geeft u door `min<Type>` en `max<Type>` parameters en een `op` waarde van `Between` of `NotBetween`.
 
 ## Parameters {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
 | Naam | Type | Beschrijving |
 |---|---|---|
-| `*`field`*` | `xsd:string` | Keuze van velden voor het zoeken naar middelen. |
-| `*`op`*` | `xsd:string` | Keuze van tekenreeksvergelijkingsoperatoren. |
-| `*`value`*` | `xsd:string` | Waarde waartegen moet worden getest. |
-| `*`boolVal`*` | `xsd:boolean` | Booleaanse vergelijkingswaarde. |
-| `*`longVal`*` | `xsd:long` | Lange vergelijkingswaarde. |
-| `*`minLong`*` | `xsd:long` | Ondergrens van lange reeks. |
-| `*`maxLong`*` | `xsd:long` | Bovengrens van lange afstand. |
-| `*`doubleVal`*` | `xsd:double` | Dubbele vergelijkingswaarde. |
-| `*`minDouble`*` | `xsd:double` | Ondergrens van dubbel bereik. |
-| `*`maxDouble`*` | `xsd:double` | Bovengrens van dubbel bereik. |
-| `*`dateVal`*` | `xsd:dateTime` | Vergelijkingswaarde datum. |
-| `*`minDate`*` | `xsd:dateTime` | Datumbereik minimaal. |
-| `*`maxDate`*` | `xsd:dateTime` | Maximaal datumbereik. |
+| field | `xsd:string` | Keuze van velden voor het zoeken naar middelen. |
+| op | `xsd:string` | Keuze van tekenreeksvergelijkingsoperatoren. |
+| value | `xsd:string` | Waarde waartegen moet worden getest. |
+| boolVal | `xsd:boolean` | Booleaanse vergelijkingswaarde. |
+| longVal | `xsd:long` | Lange vergelijkingswaarde. |
+| minLong | `xsd:long` | Ondergrens van lange reeks. |
+| maxLong | `xsd:long` | Bovengrens van lange afstand. |
+| doubleVal | `xsd:double` | Dubbele vergelijkingswaarde. |
+| minDouble | `xsd:double` | Ondergrens van dubbel bereik. |
+| maxDouble | `xsd:double` | Bovengrens van dubbel bereik. |
+| dateVal | `xsd:dateTime` | Vergelijkingswaarde datum. |
+| minDate | `xsd:dateTime` | Datumbereik minimaal. |
+| maxDate | `xsd:dateTime` | Maximaal datumbereik. |
 
 ## Voorbeeld {#section-347d4aabfff44530adba03d1dc0b9968}
 

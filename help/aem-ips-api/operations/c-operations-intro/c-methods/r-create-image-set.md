@@ -2,12 +2,12 @@
 description: Hiermee maakt u een afbeeldingsset.
 solution: Experience Manager
 title: createImageSet
-feature: Dynamic Media Classic,SDK/API,Afbeeldingssets
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: 01ccc705-97e4-4e75-a322-e24bb78cb496
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
@@ -37,17 +37,17 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep van het bedrijf waartoe de afbeeldingsset behoort. |
-| `*`folderHandle`*` | `xsd:string` | Ja | De greep naar de map. |
-| `*`name`*` | `xsd:string` | Ja | Naam van afbeeldingsset. |
-| `*`type`*` | `xsd:string` | Ja | Type afbeeldingsset. |
-| `*`thumbAssetHandle`*` | `xsd:string` | Nee | Handgreep van het element dat fungeert als miniatuur voor de nieuwe afbeeldingsset. Als gespecificeerd niet, probeert IPS om het eerste beeldmiddel te gebruiken dat door de reeks van verwijzingen wordt voorzien. |
+| companyHandle | `xsd:string` | Ja | De handgreep van het bedrijf waartoe de afbeeldingsset behoort. |
+| folderHandle | `xsd:string` | Ja | De greep naar de map. |
+| name | `xsd:string` | Ja | Naam van afbeeldingsset. |
+| type | `xsd:string` | Ja | Type afbeeldingsset. |
+| thumbAssetHandle | `xsd:string` | Nee | Handgreep van het element dat fungeert als miniatuur voor de nieuwe afbeeldingsset. Als gespecificeerd niet, probeert IPS om het eerste beeldmiddel te gebruiken dat door de reeks van verwijzingen wordt voorzien. |
 
 **Uitvoer**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Ja | De handgreep van de nieuwe afbeeldingsset. |
+| assetHandle | `xsd:string` | Ja | De handgreep van de nieuwe afbeeldingsset. |
 
 ## Voorbeelden {#section-385fe3b0af8044b0a2451336ec137fc5}
 

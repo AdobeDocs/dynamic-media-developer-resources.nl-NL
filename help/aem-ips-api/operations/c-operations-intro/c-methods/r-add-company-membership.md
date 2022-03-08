@@ -2,12 +2,12 @@
 description: Hiermee voegt u een gebruiker toe aan een of meer bedrijven.
 solution: Experience Manager
 title: addCompanyMembership
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6efef4fb-f2e5-4c41-b739-a36ac2f17884
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,8 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | Nee | De handgreep voor de gebruiker wiens lidmaatschap u wilt toevoegen. |
-| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Ja | Een array van bedrijven waaraan u de gebruiker toevoegt. |
+| userHandle | `xsd:string` | Nee | De handgreep voor de gebruiker wiens lidmaatschap u wilt toevoegen. |
+| membershipArray | `types:CompanyMembershipUpdateArray` | Ja | Een array van bedrijven waaraan u de gebruiker toevoegt. |
 
 **Output (addCompanyMembershipReturn)**
 
@@ -40,7 +40,7 @@ IPS API keert geen reactie voor deze verrichting terug.
 
 ## Voorbeelden {#section-5469f88bac7047cca131faa6b021e437}
 
-In dit voorbeeld wordt `*`companyHandleArray`*` gebruikt om een gebruiker aan één bedrijf toe te voegen.
+In dit voorbeeld wordt companyHandleArray gebruikt om een gebruiker aan één bedrijf toe te voegen.
 
 **Verzoek**
 

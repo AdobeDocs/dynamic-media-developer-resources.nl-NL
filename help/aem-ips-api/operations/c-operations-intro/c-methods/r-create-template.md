@@ -2,12 +2,12 @@
 description: Hiermee maakt u een gelaagde afbeelding die meerdere tekst- en afbeeldingslagen kan bevatten.
 solution: Experience Manager
 title: createTemplate
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 228b4228-8c42-4e42-9fb1-d6aea61b9c4a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Hiermee maakt u een gelaagde afbeelding die meerdere tekst- en afbeeldingslagen kan bevatten.
 
-De `urlModifier` parameter specificeert de het protocolbevelen van de Server van het Beeld in de catalogus van de Server van het Beeld die voorafgaand aan om het even welke user-provided bevelen op URL worden toegepast. Met de parameter `urlPostApplyModifier` worden protocolopdrachten opgegeven die worden toegepast na URL-opdrachten. Deze overschrijven eventuele conflicterende door de gebruiker opgegeven instellingen.
+De `urlModifier` parameter specificeert de het protocolbevelen van de Server van het Beeld die in de catalogus van de Server van het Beeld worden opgeslagen voorafgaand aan om het even welke user-provided bevelen op URL worden toegepast. De `urlPostApplyModifier` parameter specificeert protocolbevelen die na om het even welke bevelen URL worden toegepast, die om het even welke conflicterende gebruiker-geleverde montages zullen met voeten treden.
 
 ## Geautoriseerde gebruikerstypen {#section-9fb615d8e75f452eab2893cc3decfbe6}
 
@@ -32,22 +32,22 @@ De `urlModifier` parameter specificeert de het protocolbevelen van de Server van
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Het bedrijf waartoe de sjabloon behoort. |
-| `*`folderHandle`*` | `xsd:string` | Ja | De maphandgreep die staat voor de map waarin de sjabloon zich bevindt. |
-| `*`name`*` | `xsd:string` | Ja | Sjabloonnaam. |
-| `*`type`*` | `xsd:string` | Ja | Sjabloontype. |
-| `*`urlModifier`*` | `xsd:string` | Ja | Specificeert de bevelen van de Server van het Beeld die in de catalogus worden opgeslagen IS die voorafgaand aan om het even welke user-provided bevelen op URL worden toegepast. |
-| `*`urlPostApplyModifier`*` | `xsd:string` | Nee | Hiermee geeft u protocolopdrachten op die worden toegepast na URL-opdrachten. Deze overschrijven eventuele conflicterende door de gebruiker opgegeven instellingen. |
+| companyHandle | `xsd:string` | Ja | Het bedrijf waartoe de sjabloon behoort. |
+| folderHandle | `xsd:string` | Ja | De maphandgreep die staat voor de map waarin de sjabloon zich bevindt. |
+| name | `xsd:string` | Ja | Sjabloonnaam. |
+| type | `xsd:string` | Ja | Sjabloontype. |
+| urlModifier | `xsd:string` | Ja | Specificeert de bevelen van de Server van het Beeld die in de catalogus worden opgeslagen IS die voorafgaand aan om het even welke user-provided bevelen op URL worden toegepast. |
+| urlPostApplyModifier | `xsd:string` | Nee | Hiermee geeft u protocolopdrachten op die worden toegepast na URL-opdrachten. Deze overschrijven eventuele conflicterende door de gebruiker opgegeven instellingen. |
 
 **Uitvoer (createTemplateParam)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Ja | De greep naar de sjabloon. |
+| assetHandle | `xsd:string` | Ja | De greep naar de sjabloon. |
 
 ## Voorbeelden {#section-09adb4d2f0c944af875c4463a461f55d}
 
-In dit codevoorbeeld wordt een sjabloon gemaakt in een map die door een greep wordt opgegeven, met de naam `APIcreateTemplate`, a `urlModifier` en a `urlPostApplyModifier`. De reactie retourneert de greep naar de nieuwe sjabloon.
+In dit codevoorbeeld wordt een sjabloon gemaakt in een map die is opgegeven door een greep, met een naam van `APIcreateTemplate`, `urlModifier`en `urlPostApplyModifier`. De reactie retourneert de greep naar de nieuwe sjabloon.
 
 **Verzoek**
 

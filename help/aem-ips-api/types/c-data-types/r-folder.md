@@ -2,12 +2,12 @@
 description: Hierarchische bestands- of elementopslagobjecten. Mappen kunnen een (of meer) submappen bevatten.
 solution: Experience Manager
 title: Map
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 74b44b1a-a92e-4c97-a93b-0cd4552f78ec
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
@@ -22,10 +22,10 @@ Syntaxis
 
 | Naam | Type | Beschrijving |
 |---|---|---|
-| `*`folderHandle`*` | `xsd:string` | Mapgreep. |
-| `*`pad`*` | `xsd:string` | Mappad. |
-| `*`lastModified`*` | `xsd:dateTime` | Datum laatste wijziging. |
-| `*`childLastModified`*` | `xsd:dateTime` | Laatste wijzigingsdatum voor submappen en onderliggende elementen van mappen. |
-| `*`permissionsSetHandle`*` | `xsd:string` | Mapmachtigingen worden afgehandeld. |
-| `*`hasSubfolder`*` | `types:Boolean` | Hiermee wordt bepaald of een map submappen heeft. |
-| `*`subfolderArray`*` | `types:FolderArray` | Een array van submappen in een map. |
+| folderHandle | `xsd:string` | Mapgreep. |
+| pad | `xsd:string` | Mappad. |
+| lastModified | `xsd:dateTime` | Datum laatste wijziging. |
+| childLastModified | `xsd:dateTime` | Laatste wijzigingsdatum voor submappen en onderliggende elementen van mappen. |
+| permissionsSetHandle | `xsd:string` | Mapmachtigingen worden afgehandeld. |
+| hasSubfolder | `types:Boolean` | Hiermee wordt bepaald of een map submappen heeft. |
+| subfolderArray | `types:FolderArray` | Een array van submappen in een map. |

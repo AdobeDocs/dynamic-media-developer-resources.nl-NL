@@ -5,9 +5,9 @@ title: batchGetAssetPublishContext
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: ba1f62a7-2698-4300-b6de-6d07ac764b0c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,7 @@ Syntaxis
 >
 >* De gebruiker moet lees toegang hebben om de activa terug te keren.
 >* Alle gebruikers hebben toegang tot het gedeelde bedrijf.
-
 >
-
 
 
 ## Parameters {#section-1742fcb196224545b270eb8241f757a8}
@@ -45,14 +43,14 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handgreep aan het bedrijf. |
-| `*`assetHandleArray`*` | ` `types:HandleArray&quot; | Ja | Een lijst met elementen die u wilt opvragen voor actieve (gemarkeerde voor publicatie) contexten. |
+| companyHandle | `xsd:string` | Ja | Handgreep aan het bedrijf. |
+| assetHandleArray | ` `types:HandleArray&quot; | Ja | Een lijst met elementen die u wilt opvragen voor actieve (gemarkeerde voor publicatie) contexten. |
 
 **Output (batchGetAssetPublishContextReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`assetPublishContextArray`*` | `types:assetPublishContextsArray` | Ja | Een array van publicatiecontexten waarin elk element is gemarkeerd voor publicatie. |
+| assetPublishContextArray | `types:assetPublishContextsArray` | Ja | Een array van publicatiecontexten waarin elk element is gemarkeerd voor publicatie. |
 
 ## Voorbeelden {#section-457f6809ccfa425b9a0976313d613f4e}
 

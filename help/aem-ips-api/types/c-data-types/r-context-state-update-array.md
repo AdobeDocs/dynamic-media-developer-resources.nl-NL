@@ -2,12 +2,12 @@
 description: Een array van contextstatusupdates.
 solution: Experience Manager
 title: ContextStateUpdateArray
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9b26c1d0-f6d7-45bc-a60a-5b5282fe2bc4
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '31'
+source-wordcount: '26'
 ht-degree: 0%
 
 ---
@@ -22,4 +22,4 @@ Syntaxis
 
 | Naam | Type | Beschrijving |
 |---|---|---|
-| `*`ContextStateUpdateArray`*` | `types:ContextStateUpdate` | Een array van contextstatusupdates. |
+| ContextStateUpdateArray | `types:ContextStateUpdate` | Een array van contextstatusupdates. |

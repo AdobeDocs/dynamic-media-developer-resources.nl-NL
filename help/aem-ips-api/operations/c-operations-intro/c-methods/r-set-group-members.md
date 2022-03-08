@@ -2,12 +2,12 @@
 description: Hiermee stelt u het groepslidmaatschap in van gebruikers die tot een specifiek bedrijf behoren.
 solution: Experience Manager
 title: setGroupMember
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 81348da7-6733-4da9-8a0a-376fccf791ea
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ De bewerking genereert een verificatiefout als u geen rechten hebt om deze bewer
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Bedrijfshandgreep. |
-| `*`groupHandle`*` | `xsd:string` | Ja | Groepshandgreep. |
-| `*`userHandleArray`*` | `types:HandleArray` | Ja | Array met handgrepen voor gebruikers van wie u het groepslidmaatschap wilt instellen. |
+| companyHandle | `xsd:string` | Ja | Bedrijfshandgreep. |
+| groupHandle | `xsd:string` | Ja | Groepshandgreep. |
+| userHandleArray | `types:HandleArray` | Ja | Array met handgrepen voor gebruikers van wie u het groepslidmaatschap wilt instellen. |
 
 **Output (setGroupMembesReturn)**
 

@@ -2,12 +2,12 @@
 description: Eigenschappen voor laagweergave.
 solution: Experience Manager
 title: LayerViewInfo
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 25199c86-1df0-41af-b210-e7668a60295e
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '47'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,6 @@ Syntaxis
 
 | Naam | Type | Beschrijving |
 |---|---|---|
-| `*`url`*` | `xsd:string` | URL afbeeldingsserver die de sjabloon vertegenwoordigt. Hiermee combineert u `urlModifier`- en `urlPostAp- plyModifier`-velden. |
-| `*`urlModifier`*` | `xsd:string` | Afbeelding met protocolopdrachten die moeten worden toegepast vóór aanvraag of `urlPostApplyModifier`-opdrachten. |
-| `*`urlPostApplyModifier`*` | `xsd:string` | Beeld die protocolbevelen dienen om na `urlModifier` en verzoekbevelen van toepassing te zijn. |
+| url | `xsd:string` | URL afbeeldingsserver die de sjabloon vertegenwoordigt. Combinaties `urlModifier` en `urlPostAp- plyModifier` velden. |
+| urlModifier | `xsd:string` | Afbeelding met protocolopdrachten die moeten worden toegepast voordat u een aanvraag indient of `urlPostApplyModifier` opdrachten. |
+| urlPostApplyModifier | `xsd:string` | Afbeelding met protocolopdrachten die moeten worden toegepast na `urlModifier` en verzoek opdrachten. |

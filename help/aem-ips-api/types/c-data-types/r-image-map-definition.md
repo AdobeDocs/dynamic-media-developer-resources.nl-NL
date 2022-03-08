@@ -2,12 +2,12 @@
 description: Definitie van doel voor een klikactie in browser.
 solution: Experience Manager
 title: ImageMapDefinition
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 58478e7c-e3a1-4dd5-8ff9-e9752301b93c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '72'
 ht-degree: 1%
 
 ---
@@ -22,8 +22,8 @@ Syntaxis
 
 | Naam | Type | Beschrijving |
 |---|---|---|
-| `*`name`*` | `xsd:string` | De naam van de definitie van de afbeelding met hyperlinks. |
-| `*`shapeType`*` | `xsd:string` | Een van de waarden voor de gebiedvorm. |
-| `*`regio`*` | `xsd:string` | Coördinaten van afbeeldingen met hyperlinks. De opmaak is gebaseerd op de tagkenmerken van HTML `<area>`. |
-| `*`action`*` | `xsd:string` | Andere kenmerken die moeten worden opgenomen in de HTML-tag `<area>`, inclusief de URL `href`. |
-| `*`enabled`*` | `xsd:boolean` | True if the image map is enabled. |
+| name | `xsd:string` | De naam van de definitie van de afbeelding met hyperlinks. |
+| shapeType | `xsd:string` | Een van de waarden voor de gebiedvorm. |
+| regio | `xsd:string` | Coördinaten van afbeeldingen met hyperlinks. De opmaak is gebaseerd op de HTML `<area>` tagkenmerken. |
+| action | `xsd:string` | Andere kenmerken die in de HTML moeten worden opgenomen `<area>` -tag, inclusief de `href` URL. |
+| enabled | `xsd:boolean` | True if the image map is enabled. |

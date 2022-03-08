@@ -2,12 +2,12 @@
 description: Hiermee verwijdert u waarden van tagvelden uit het woordenboek van een tagveld.
 solution: Experience Manager
 title: deleteTagFieldValues
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2694bd6d-b1ba-4146-a155-12829d9dfa47
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ Hiermee verwijdert u waarden van tagvelden uit het woordenboek van een tagveld.
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | De greep van het bedrijf dat het tagveld bevat. |
-| `*`fieldHandle`*` | `xsd:string` | Ja | De handgreep van het tagveld dat moet worden gewijzigd. |
-| `*`valueArray`*` | `types:StringArray` | Ja | Een array met tagwaarden die uit het woordenboek van het veld moet worden verwijderd. |
+| companyHandle | `xsd:string` | Ja | De greep van het bedrijf dat het tagveld bevat. |
+| fieldHandle | `xsd:string` | Ja | De handgreep van het tagveld dat moet worden gewijzigd. |
+| valueArray | `types:StringArray` | Ja | Een array met tagwaarden die uit het woordenboek van het veld moet worden verwijderd. |
 
 **Output (deleteTagFieldValuesParam)**
 

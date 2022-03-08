@@ -5,7 +5,7 @@ title: createPropertySetType
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1730ccbf-e8b0-4f92-9daf-da2fa047cbbd
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
@@ -31,16 +31,16 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Nee | De handgreep naar het bedrijf dat eigenaar is van het type eigenschapsset. Indien `companyHandle` wordt niet overgegaan en de bezoeker is `IpsAdmin`, wordt een algemeen type eigenschapset gemaakt. |
-| `*`name`*` | `xsd:string` | Ja | De naam van het type eigenschapset. |
-| `*`propertyType`*` | `xsd:string` | Ja | Keuze van type eigenschapset. |
-| `*`allowMultiple`*` | `xsd:boolean` | Ja | Hiermee wordt bepaald of uw programma meerdere eigenschapssets kan hebben. |
+| companyHandle | `xsd:string` | Nee | De handgreep naar het bedrijf dat eigenaar is van het type eigenschapsset. Indien `companyHandle` wordt niet overgegaan en de bezoeker is `IpsAdmin`, wordt een algemeen type eigenschapset gemaakt. |
+| name | `xsd:string` | Ja | De naam van het type eigenschapset. |
+| propertyType | `xsd:string` | Ja | Keuze van type eigenschapset. |
+| allowMultiple | `xsd:boolean` | Ja | Hiermee wordt bepaald of uw programma meerdere eigenschapssets kan hebben. |
 
 **Output (createPropertySetTypeReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`typeHandle`*` | `xsd:string` | Ja | Een greep naar de tekst. |
+| typeHandle | `xsd:string` | Ja | Een greep naar de tekst. |
 
 ## Voorbeelden {#section-13396c9639a6475190e622eae3cdb534}
 

@@ -5,9 +5,9 @@ title: replaceImage
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: bf8c1f5c-7829-4750-b5b7-b8b20d115d17
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
@@ -33,19 +33,19 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | Ja | De handgreep van het bedrijf met de afbeelding die u wilt vervangen. |
-| `*`assetHandle`*` | `xsd:string` | Ja | De handgreep van het element dat u wilt vervangen. |
-| `*`urlModifier`*` | `xsd:string` | Ja | De bevelen van de Server van het beeld die nieuwe beeldgegevens produceren. |
+| companyName | `xsd:string` | Ja | De handgreep van het bedrijf met de afbeelding die u wilt vervangen. |
+| assetHandle | `xsd:string` | Ja | De handgreep van het element dat u wilt vervangen. |
+| urlModifier | `xsd:string` | Ja | De bevelen van de Server van het beeld die nieuwe beeldgegevens produceren. |
 
 **Uitvoer (replaceImageReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Ja | Verwerk het nieuwe element. |
+| assetHandle | `xsd:string` | Ja | Verwerk het nieuwe element. |
 
 ## Voorbeelden {#section-cebb93576bde4cb98cb27356ca66783b}
 
-Dit codevoorbeeld vervangt een beeld en past `urlModifier` met een bevel toe dat specificeert dat de Server van het Beeld geen actie op vervanging zal nemen.
+Dit codevoorbeeld vervangt een afbeelding en past een `urlModifier` met een bevel dat specificeert dat de Server van het Beeld geen actie op vervanging zal nemen.
 
 **Verzoek**
 

@@ -2,12 +2,12 @@
 description: Retourneert de leden van een groep.
 solution: Experience Manager
 title: getGroupMembership
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 847e4982-219d-47fd-b94c-f7d520ba1367
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---
@@ -34,14 +34,14 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | Nee | De greep voor de gebruiker. |
-| `*`companyHandle`*` | `xsd:string` | Nee | De handgreep aan het bedrijf. |
+| userHandle | `xsd:string` | Nee | De greep voor de gebruiker. |
+| companyHandle | `xsd:string` | Nee | De handgreep aan het bedrijf. |
 
 **Output (getGroupMembershipReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`groupArray`*` | `types:GroupArray` | Ja | Array van groepen. |
+| groupArray | `types:GroupArray` | Ja | Array van groepen. |
 
 ## Voorbeelden {#section-ebb437369f4f4487b3eb2ef0c078b8ae}
 

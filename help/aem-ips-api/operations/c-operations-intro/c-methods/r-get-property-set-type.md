@@ -2,12 +2,12 @@
 description: Haalt een type eigenschapset op met een greep naar een bedrijf en de naam van het type eigenschapset. Het krijgt een typestructuur met de handvatten aan het type evenals het bezitstype.
 solution: Experience Manager
 title: getPropertySetType
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ff9c3d24-577c-4a9c-8820-60c2a33773bc
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
@@ -36,8 +36,8 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Nee | De handgreep aan het bedrijf. Optioneel omdat een type eigenschapset tot meerdere bedrijven kan behoren. |
-| `*`name`*` | `xsd:string` | Ja | Naam van type eigenschappenset. |
+| companyHandle | `xsd:string` | Nee | De handgreep aan het bedrijf. Optioneel omdat een type eigenschapset tot meerdere bedrijven kan behoren. |
+| name | `xsd:string` | Ja | Naam van type eigenschappenset. |
 
 **Output (getPropertySetTypeReturn)**
 

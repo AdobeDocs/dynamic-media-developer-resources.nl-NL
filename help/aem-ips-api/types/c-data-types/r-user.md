@@ -2,12 +2,12 @@
 description: Een gebruiker van middelen en types in het systeem.
 solution: Experience Manager
 title: Gebruiker
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 5747f5bf-0175-4707-bfcb-1a9b97d7a24a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
@@ -22,10 +22,10 @@ Syntaxis
 
 | Naam | Type | Beschrijving |
 |---|---|---|
-| `*`userHandle`*` | `xsd:string` | Gebruikershandgreep. |
-| `*`firstName`*` | `xsd:string` | Voornaam gebruiker. |
-| `*`lastName`*` | `xsd:string` | Achternaam gebruiker. |
-| `*`email`*` | `xsd:string` | e-mailadres. |
-| `*`defaultRole`*` | `xsd:string` | Plaatst de rol voor een gebruiker in elk bedrijf zij tot behoren. Nochtans, treedt de gebruikersrol `IpsAmin` andere gebruikersrollen met voeten. |
-| `*`isValid`*` | `xsd:boolean` | Hiermee wordt bepaald of de gebruiker geldig is. |
-| `*`passwordExpires`*` | `xsd:dateTime` | Hiermee stelt u de vervaldatum van het wachtwoord in. |
+| userHandle | `xsd:string` | Gebruikershandgreep. |
+| firstName | `xsd:string` | Voornaam gebruiker. |
+| lastName | `xsd:string` | Achternaam gebruiker. |
+| email | `xsd:string` | e-mailadres. |
+| defaultRole | `xsd:string` | Plaatst de rol voor een gebruiker in elk bedrijf zij tot behoren. De gebruikersrol `IpsAmin` Hiermee overschrijft u andere gebruikersrollen. |
+| isValid | `xsd:boolean` | Hiermee wordt bepaald of de gebruiker geldig is. |
+| passwordExpires | `xsd:dateTime` | Hiermee stelt u de vervaldatum van het wachtwoord in. |

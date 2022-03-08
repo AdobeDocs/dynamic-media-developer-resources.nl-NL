@@ -2,12 +2,12 @@
 description: Hiermee worden projecten opgehaald voor een groep gerelateerde activa.
 solution: Experience Manager
 title: getprojects
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d7262ed7-7419-4d6b-86ed-f3ad4657d654
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '66'
 ht-degree: 0%
 
 ---
@@ -33,13 +33,13 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep aan het bedrijf. |
+| companyHandle | `xsd:string` | Ja | De handgreep aan het bedrijf. |
 
 **Output (getprojectsReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`projectArray`*` | `types:ProjectArray` | Ja | De serie van projecten verbonden aan het bedrijf. |
+| projectArray | `types:ProjectArray` | Ja | De serie van projecten verbonden aan het bedrijf. |
 
 ## Voorbeelden {#section-8b12d0b948f644f68bf9a16060d3849a}
 

@@ -2,12 +2,12 @@
 description: Informatie voor fonteigenschappen bijwerken.
 solution: Experience Manager
 title: FontFieldUpdate
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9e7b90d6-78da-48ff-8dff-9def3c32e3bc
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '57'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ Syntaxis
 
 | Naam | Type | Beschrijving |
 |---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Handgreep lettertype-element. |
-| `*`fontName`*` | `xsd:string` | Fontnaam. |
-| `*`postscriptName`*` | `xsd:string` | PostScript-fontnaam. |
-| `*`rtfName`*` | `xsd:string` | Naam RTF-lettertype. |
-| `*`fontFamily`*` | `xsd:string` | Naam lettertypefamilie. |
-| `*`stijl`*` | `xsd:string` | Lettertypestijl (zie Lettertypestijlen voor waarden). |
-| `*`typeName`*` | `xsd:string` | Naam lettertype. |
-| `*`type`*` | `xsd:string` | Fonttype (zie Lettertypetypen voor waarden). |
+| assetHandle | `xsd:string` | Handgreep lettertype-element. |
+| fontName | `xsd:string` | Fontnaam. |
+| postscriptName | `xsd:string` | PostScript-fontnaam. |
+| rtfName | `xsd:string` | Naam RTF-lettertype. |
+| fontFamily | `xsd:string` | Naam lettertypefamilie. |
+| stijl | `xsd:string` | Lettertypestijl (zie Lettertypestijlen voor waarden). |
+| typeName | `xsd:string` | Naam lettertype. |
+| type | `xsd:string` | Fonttype (zie Lettertypetypen voor waarden). |

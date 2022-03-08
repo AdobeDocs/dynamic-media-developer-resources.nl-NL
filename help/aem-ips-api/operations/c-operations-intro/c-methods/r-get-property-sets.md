@@ -2,12 +2,12 @@
 description: Hiermee worden eigenschapssets opgehaald die aan een tekstgreep zijn gekoppeld.
 solution: Experience Manager
 title: getPropertySets
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: da6923c3-9b86-4595-8205-645fb10e03b0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
@@ -36,15 +36,15 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`typeHandle`*` | `xsd:string` | Ja | De greep naar het type eigenschapset. |
-| `*`primaryOwnerHandle`*` | `xsd:string` | Ja | De primaire eigenaar van de gegevens die aan het databaseobject zijn gebonden. |
-| `*`secundairOwnerHandle`*` | `xsd:string` | Nee | Een optionele secundaire eigenaar van de gegevens. |
+| typeHandle | `xsd:string` | Ja | De greep naar het type eigenschapset. |
+| primaryOwnerHandle | `xsd:string` | Ja | De primaire eigenaar van de gegevens die aan het databaseobject zijn gebonden. |
+| secundairOwnerHandle | `xsd:string` | Nee | Een optionele secundaire eigenaar van de gegevens. |
 
 **Output (getPropertySetsReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`setArray`*` | `types:PropertySetArray` | Ja | Array met eigenschapssets. |
+| setArray | `types:PropertySetArray` | Ja | Array met eigenschapssets. |
 
 ## Voorbeelden {#section-1358af974eab4259864910337a6f0bd2}
 

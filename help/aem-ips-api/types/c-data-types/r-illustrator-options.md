@@ -2,12 +2,12 @@
 description: Opties voor een Adobe Illustrator-bestand.
 solution: Experience Manager
 title: IllustratorOptions
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f6c06fe3-5dfa-4885-9083-c6c41ae0e0ea
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '59'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Syntaxis
 
 | Naam | Type | Beschrijving |
 |---|---|---|
-| `*`proces`*` | `xsd:string` | Keuze uit Illustrator-processen. |
-| `*`resolutie`*` | `xsd:string` | Bestandsresolutie. |
-| `*`colorSpace`*` | `xsd:string` | Doelkleurruimte. |
-| `*`alpha`*` | `xsd:boolean` | Of het bestand in een afbeelding moet worden omgezet in pixels. Als dat het geval is, maakt u een transparante achtergrond als het oorspronkelijke bestand op deze manier is gedefinieerd voor het maken van bedekkende logo&#39;s. |
+| proces | `xsd:string` | Keuze uit Illustrator-processen. |
+| resolutie | `xsd:string` | Bestandsresolutie. |
+| colorSpace | `xsd:string` | Doelkleurruimte. |
+| alpha | `xsd:boolean` | Of het bestand in een afbeelding moet worden omgezet in pixels. Als dat het geval is, maakt u een transparante achtergrond als het oorspronkelijke bestand op deze manier is gedefinieerd voor het maken van bedekkende logo&#39;s. |

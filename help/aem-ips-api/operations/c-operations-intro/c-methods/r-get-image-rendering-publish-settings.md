@@ -2,12 +2,12 @@
 description: Uitsluitend voor intern gebruik. Zie het gedeelte Kenmerken van materiaalcatalogus voor referentiecatalogus van afbeeldingen renderen.
 solution: Experience Manager
 title: getImageRenderingPublishSettings
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 152dfd61-2fba-47b4-8e69-fbbc8fb57f87
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '74'
 ht-degree: 0%
 
 ---
@@ -31,11 +31,11 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep voor het bedrijf waarvan u publicatie-instellingen voor het renderen van afbeeldingen wilt ophalen. |
-| `*`contextHandle`*` | `xsd:string` | Ja | Verwerk de publicatiecontext. |
+| companyHandle | `xsd:string` | Ja | De handgreep voor het bedrijf waarvan u publicatie-instellingen voor het renderen van afbeeldingen wilt ophalen. |
+| contextHandle | `xsd:string` | Ja | Verwerk de publicatiecontext. |
 
 **Output (getImageRenderingPublishSettingsReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`publishSettingsArray`*` | `type:ConfigSettingArray` | Ja | Publicatie-instellingen voor het renderen van afbeeldingen. |
+| publishSettingsArray | `type:ConfigSettingArray` | Ja | Publicatie-instellingen voor het renderen van afbeeldingen. |

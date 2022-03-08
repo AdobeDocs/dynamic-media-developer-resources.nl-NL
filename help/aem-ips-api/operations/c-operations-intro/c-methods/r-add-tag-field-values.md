@@ -2,12 +2,12 @@
 description: Hiermee voegt u nieuwe tagwaarden toe aan het woordenboek van een bestaand tagveld.
 solution: Experience Manager
 title: addTagFieldValues
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 099263e4-8214-46eb-898e-7a28c4f25598
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | De greep van het bedrijf dat het tagveld bevat. |
-| `*`fieldHandle`*` | `xsd:string` | Ja | De handgreep van het tagveld dat moet worden gewijzigd. |
-| `*`valueArray`*` | `xsd:string` | Ja | Een array met tagwaarden die worden toegevoegd aan het bestaande woordenboek van het veld. |
+| companyHandle | `xsd:string` | Ja | De greep van het bedrijf dat het tagveld bevat. |
+| fieldHandle | `xsd:string` | Ja | De handgreep van het tagveld dat moet worden gewijzigd. |
+| valueArray | `xsd:string` | Ja | Een array met tagwaarden die worden toegevoegd aan het bestaande woordenboek van het veld. |
 
 **Output (addTagFieldValuesParam)**
 

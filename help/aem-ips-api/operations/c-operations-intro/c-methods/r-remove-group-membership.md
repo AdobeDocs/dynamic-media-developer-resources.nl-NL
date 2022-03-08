@@ -2,12 +2,12 @@
 description: Hiermee worden gebruikers verwijderd uit een array van groepen.
 solution: Experience Manager
 title: removeGroupMembership
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 892ee01c-e07b-4321-b0b7-5bb606036340
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
@@ -33,8 +33,8 @@ Hiermee worden gebruikers verwijderd uit een array van groepen.
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | Nee | De handgreep aan het bedrijf waarvan groepslidmaatschap u wilt verwijderen. |
-| `*`groupHandleArray`*` | `types:HandleArray` | Ja | De serie van handvatten aan groepen waarvan u het bedrijf wilt worden verwijderd. |
+| userHandle | `xsd:string` | Nee | De handgreep aan het bedrijf waarvan groepslidmaatschap u wilt verwijderen. |
+| groupHandleArray | `types:HandleArray` | Ja | De serie van handvatten aan groepen waarvan u het bedrijf wilt worden verwijderd. |
 
 **Output (removeGroupMembershipReturn)**
 

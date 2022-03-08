@@ -5,9 +5,9 @@ title: batchSetAssetMetadata
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: 7393fa4f-71fb-48a5-a7f3-91eec82c88c1
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
@@ -33,18 +33,18 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep naar het bedrijf waarvan u de metagegevens in een batchbewerking wilt instellen. |
-| `*`updateArray`*` | `types:BatchMetadataUpdateArray` | Ja | De array met updates van metagegevens die worden toegepast op de elementen. |
+| companyHandle | `xsd:string` | Ja | De handgreep naar het bedrijf waarvan u de metagegevens in een batchbewerking wilt instellen. |
+| updateArray | `types:BatchMetadataUpdateArray` | Ja | De array met updates van metagegevens die worden toegepast op de elementen. |
 
 **Output (batchSetAssetMetadataParam)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Ja | Het aantal metagegevens dat is ingesteld. |
-| `*`warningCount`*` | `xsd:int` | Ja | Het aantal waarschuwingen dat wordt gegenereerd wanneer de bewerking heeft geprobeerd metagegevens in te stellen. |
-| `*`errorCount`*` | `xsd:int` | Ja | Het aantal fouten dat wordt gegenereerd wanneer de bewerking heeft geprobeerd metagegevens in te stellen. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nee | De array met details die zijn gekoppeld aan de elementen die waarschuwingen genereren wanneer de bewerking heeft geprobeerd metagegevens voor de elementen in batches in te stellen. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nee | De array met details die zijn gekoppeld aan de elementen die fouten genereren wanneer de bewerking heeft geprobeerd metagegevens voor de elementen in batches in te stellen. |
+| successCount | `xsd:int` | Ja | Het aantal metagegevens dat is ingesteld. |
+| warningCount | `xsd:int` | Ja | Het aantal waarschuwingen dat wordt gegenereerd wanneer de bewerking heeft geprobeerd metagegevens in te stellen. |
+| errorCount | `xsd:int` | Ja | Het aantal fouten dat wordt gegenereerd wanneer de bewerking heeft geprobeerd metagegevens in te stellen. |
+| warningDetailArray | `types:AssetOperationFaultArray` | Nee | De array met details die zijn gekoppeld aan de elementen die waarschuwingen genereren wanneer de bewerking heeft geprobeerd metagegevens voor de elementen in batches in te stellen. |
+| errorDetailArray | `types:AssetOperationFaultArray` | Nee | De array met details die zijn gekoppeld aan de elementen die fouten genereren wanneer de bewerking heeft geprobeerd metagegevens voor de elementen in batches in te stellen. |
 
 ## Voorbeelden {#section-2de798ac920e4b47b971b1729a64395b}
 

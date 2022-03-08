@@ -2,13 +2,13 @@
 description: Eigenschappen van een zoomdoel.
 solution: Experience Manager
 title: ZoomTarget
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 08125f45-38cb-45bb-bc29-c767f4d0aed9
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 3%
+source-wordcount: '76'
+ht-degree: 2%
 
 ---
 
@@ -22,12 +22,12 @@ Syntaxis
 
 | Naam | Type | Beschrijving |
 |---|---|---|
-| `*`zoomTargetHandle`*` | `xsd:string` | Zoomdoelgreep. |
-| `*`name`*` | `xsd:string` | Naam van zoomdoel. |
-| `*`xPosition`*` | `xsd:int` | De X-positie van het zoomdoel. |
-| `*`yPosition`*` | `xsd:int` | De Y-positie van het zoomdoel. |
-| `*`width`*` | `xsd:int` | Breedte van zoomdoel. |
-| `*`height`*` | `xsd:int` | Hoogte doel zoomen. |
-| `*`userData`*` | `xsd:string` | Gebruikersgegevens die zijn gekoppeld aan het doel Zoomen. |
-| `*`position`*` | `xsd:int` | Hiermee worden zoomdoelen die zijn gekoppeld aan een element, op basis van de positie geordend |
-| `*`lastModified`*` | `xsd:dateTime` | Datum van laatste wijziging. |
+| zoomTargetHandle | `xsd:string` | Zoomdoelgreep. |
+| name | `xsd:string` | Naam van zoomdoel. |
+| xPosition | `xsd:int` | De X-positie van het zoomdoel. |
+| yPosition | `xsd:int` | De Y-positie van het zoomdoel. |
+| width | `xsd:int` | Breedte van zoomdoel. |
+| height | `xsd:int` | Hoogte doel zoomen. |
+| userData | `xsd:string` | Gebruikersgegevens die zijn gekoppeld aan het doel Zoomen. |
+| position | `xsd:int` | Hiermee worden zoomdoelen die zijn gekoppeld aan een element, op basis van de positie geordend |
+| lastModified | `xsd:dateTime` | Datum van laatste wijziging. |

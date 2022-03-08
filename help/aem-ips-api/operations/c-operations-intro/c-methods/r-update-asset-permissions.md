@@ -5,9 +5,9 @@ title: updateAssetPermission
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 12972a52-7b70-405c-9c73-e5ce6ab7dd9b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '54'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Bedrijfshandgreep. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Asset handle. |
-| `*`updateArray`*` | `types:PermissionUpdateArray` | Ja | Machtigingen die u op het element wilt toepassen. |
+| companyHandle | `xsd:string` | Ja | Bedrijfshandgreep. |
+| assetHandle | `xsd:string` | Ja | Asset handle. |
+| updateArray | `types:PermissionUpdateArray` | Ja | Machtigingen die u op het element wilt toepassen. |
 
 **Output (updateAssetPermissionsReturn)**
 

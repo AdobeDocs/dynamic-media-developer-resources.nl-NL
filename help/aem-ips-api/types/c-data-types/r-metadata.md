@@ -2,12 +2,12 @@
 description: Een metagegevensveld dat wordt geretourneerd door searchAssets.
 solution: Experience Manager
 title: Metagegevens
-feature: Dynamic Media Classic,SDK/API,metagegevens
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 62e3e215-31ea-49fd-937e-d136fdf84aff
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '57'
 ht-degree: 1%
 
 ---
@@ -22,9 +22,9 @@ Syntaxis
 
 | Naam | Type | Beschrijving |
 |---|---|---|
-| `*`name`*` | `xsd:string` | Naam van metagegevens. |
-| `*`value`*` | `xsd:string` | Waarde van metagegevens. |
-| `*`boolVal`*` | `xsd:boolean` | Booleaanse metagegevenswaarde (alleen voor velden met een Booleaans type). |
-| `*`longVal`*` | `xsd:long` | Lange metagegevenswaarde (alleen voor velden van het type int). |
-| `*`doubleVal`*` | `xsd:double` | Dubbele metagegevenswaarde (alleen voor velden met floattype). |
-| `*`dateVal`*` | `xsd:dateTime` | Waarde metagegevens datum (alleen voor datumvelden). |
+| name | `xsd:string` | Naam van metagegevens. |
+| value | `xsd:string` | Waarde van metagegevens. |
+| boolVal | `xsd:boolean` | Booleaanse metagegevenswaarde (alleen voor velden met een Booleaans type). |
+| longVal | `xsd:long` | Lange metagegevenswaarde (alleen voor velden van het type int). |
+| doubleVal | `xsd:double` | Dubbele metagegevenswaarde (alleen voor velden met floattype). |
+| dateVal | `xsd:dateTime` | Waarde metagegevens datum (alleen voor datumvelden). |

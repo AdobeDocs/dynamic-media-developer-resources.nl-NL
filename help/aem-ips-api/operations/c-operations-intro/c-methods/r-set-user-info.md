@@ -2,12 +2,12 @@
 description: Hiermee stelt u gebruikerskenmerken in (bijvoorbeeld naam, e-mail, rol, enz.)
 solution: Experience Manager
 title: setUserInfo
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d8f8fe53-a874-4b77-9084-9a369862a672
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
@@ -31,14 +31,14 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | Nee | Gebruikershandgreep. |
-| `*`firstName`*` | `xsd:string` | Ja | Voornaam. |
-| `*`lastName`*` | `xsd:string` | Ja | Achternaam. |
-| `*`email`*` | `xsd:string` | Ja | E-mailadres gebruiker. |
-| `*`defaultRole`*` | `xsd:string` | Ja | Plaatst de rol voor een gebruiker in elk bedrijf zij tot behoren. De rol `IpsAdmin` negeert echter andere instellingen per bedrijf. |
-| `*`passwordExpires`*` | `xsd:dateTime` | Nee | Vervaldatum wachtwoord van set. |
-| `*`isValid`*` | `xsd:boolean` | Ja | Hiermee wordt bepaald of de gebruiker een geldige IPS-gebruiker is. |
-| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Ja | Een array met bedrijfshandgrepen. |
+| userHandle | `xsd:string` | Nee | Gebruikershandgreep. |
+| firstName | `xsd:string` | Ja | Voornaam. |
+| lastName | `xsd:string` | Ja | Achternaam. |
+| email | `xsd:string` | Ja | E-mailadres gebruiker. |
+| defaultRole | `xsd:string` | Ja | Plaatst de rol voor een gebruiker in elk bedrijf zij tot behoren. De `IpsAdmin` de rol treedt andere per-bedrijfmontages met voeten. |
+| passwordExpires | `xsd:dateTime` | Nee | Vervaldatum wachtwoord van set. |
+| isValid | `xsd:boolean` | Ja | Hiermee wordt bepaald of de gebruiker een geldige IPS-gebruiker is. |
+| membershipArray | `types:CompanyMembershipUpdateArray` | Ja | Een array met bedrijfshandgrepen. |
 
 **Output (setUserInfoReturn)**
 

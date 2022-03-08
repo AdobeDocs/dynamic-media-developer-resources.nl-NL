@@ -2,12 +2,12 @@
 description: Mapmachtigingen bijwerken.
 solution: Experience Manager
 title: updateFolderPermissions
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 4e4f382e-4339-4b9d-a721-d33a4fa8be6b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
@@ -30,10 +30,10 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Bedrijfshandgreep. |
-| `*`folderHandle`*` | `xsd:string` | Ja | Mapgreep. |
-| `*`updateChildren`*` | `xsd:boolean` | Ja | Bepaalt of onderliggende items moeten worden bijgewerkt met de machtigingen die voor de map op het hoogste niveau zijn ingesteld. |
-| `*`updateArray`*` | `types:PermissionUpdateArray` | Ja | De array met machtigingsupdates die u wilt toepassen op de map. |
+| companyHandle | `xsd:string` | Ja | Bedrijfshandgreep. |
+| folderHandle | `xsd:string` | Ja | Mapgreep. |
+| updateChildren | `xsd:boolean` | Ja | Bepaalt of onderliggende items moeten worden bijgewerkt met de machtigingen die voor de map op het hoogste niveau zijn ingesteld. |
+| updateArray | `types:PermissionUpdateArray` | Ja | De array met machtigingsupdates die u wilt toepassen op de map. |
 
 **Output (updateFolderPermissionsReturn)**
 

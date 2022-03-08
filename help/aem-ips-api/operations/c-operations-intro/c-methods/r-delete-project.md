@@ -2,12 +2,12 @@
 description: Verwijdert een project van een bedrijf. De verbindingen tussen de activa en het project zijn gebroken, maar de activa worden niet geschrapt van IPS.
 solution: Experience Manager
 title: deleteProject
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b42be3ef-c935-4548-8f92-4fc33af321b5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -33,8 +33,8 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | Ja | De naam van het bedrijf dat aan het project is gekoppeld. |
-| `*`projectHandle`*` | `xsd:string` | Ja | De handgreep van het te verwijderen project. |
+| companyName | `xsd:string` | Ja | De naam van het bedrijf dat aan het project is gekoppeld. |
+| projectHandle | `xsd:string` | Ja | De handgreep van het te verwijderen project. |
 
 **Output (deleteProjectReturn)**
 

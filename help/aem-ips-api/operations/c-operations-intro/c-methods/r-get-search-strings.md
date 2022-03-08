@@ -2,12 +2,12 @@
 description: Haalt de zoekreeksen, trefwoorden en andere informatie over een element op. De reactie bevat aanvullende informatie over het element.
 solution: Experience Manager
 title: getSearchStrings
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e94215b8-1121-4be6-a8a9-e9444c57495d
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
@@ -31,14 +31,14 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handgreep aan het bedrijf. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Verwerk het element. |
+| companyHandle | `xsd:string` | Ja | Handgreep aan het bedrijf. |
+| assetHandle | `xsd:string` | Ja | Verwerk het element. |
 
 **Output (getSearchStringsReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`searchStringArray`*` | `types:SearchStrings` | Ja | Een array met zoektekenreeksen voor elementen. |
+| searchStringArray | `types:SearchStrings` | Ja | Een array met zoektekenreeksen voor elementen. |
 
 ## Voorbeelden {#section-e1f73bff6e4440c489d59cb9aa5384d8}
 

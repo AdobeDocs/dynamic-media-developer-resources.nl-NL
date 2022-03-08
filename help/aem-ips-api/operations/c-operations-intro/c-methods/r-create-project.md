@@ -2,12 +2,12 @@
 description: Hiermee maakt u een nieuw project.
 solution: Experience Manager
 title: createProject
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dd9c07df-9a8f-4b67-9838-31dd96fd127b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '76'
 ht-degree: 0%
 
 ---
@@ -33,18 +33,18 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep van het bedrijf verbonden aan het nieuwe project. |
-| `*`projectName`*` | `xsd:string` | Ja | Nieuwe projectnaam. |
+| companyHandle | `xsd:string` | Ja | De handgreep van het bedrijf verbonden aan het nieuwe project. |
+| projectName | `xsd:string` | Ja | Nieuwe projectnaam. |
 
 **Uitvoer (createProjectParam)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`projectHandle`*` | `xsd:string` | Ja | De greep naar het nieuwe project. |
+| projectHandle | `xsd:string` | Ja | De greep naar het nieuwe project. |
 
 ## Voorbeelden {#section-a0cd532b67e346d088fbec141231a0e5}
 
-Deze codesteekproef leidt tot een project genoemd `ApiTestProject` in een bedrijf door zijn handvat wordt gespecificeerd. De reactie keert de handvat aan het project terug.
+Dit codevoorbeeld leidt tot een project genoemd `ApiTestProject` in een bedrijf dat door zijn greep wordt gespecificeerd. De reactie keert de handvat aan het project terug.
 
 **Verzoek**
 

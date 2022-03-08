@@ -2,12 +2,12 @@
 description: Haalt tekenreekswaarden op van systeemeigenschappen die gerelateerd zijn aan Image Portal.
 solution: Experience Manager
 title: getProperty
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2297b785-28c7-49c6-8891-00986f35ea88
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ Tot de ondersteunde systeemeigenschappen behoren:
 * `VideoRootUrl`
 * `swfRootUrl`
 * `SvgRenderRootUrl`: URL-voorvoegsel voor het renderen van SVG-elementen.
-* `SvgRenderEnabled`: True if SVG assets can be rendered by  `SvgRenderRootUrl`.
+* `SvgRenderEnabled`: True if SVG assets can render by `SvgRenderRootUrl`.
 
-* `UploadPostMaxFileSize`: Maximale grootte (in bytes) van bestandsgegevens die is toegestaan tijdens het uploaden  [!DNL POST]. Het systeem wijst bestanden af die groter zijn dan de maximale limiet.
+* `UploadPostMaxFileSize`: Maximale grootte (in bytes) van bestandsgegevens die tijdens een upload zijn toegestaan [!DNL POST]. Het systeem wijst bestanden af die groter zijn dan de maximale limiet.
 
 ## Geautoriseerde gebruikerstypen {#section-2cd36bbd46ed414b8753569d5895530e}
 
@@ -45,13 +45,13 @@ Tot de ondersteunde systeemeigenschappen behoren:
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`name`*` | `xsd:string` | Ja | The name of the property to get. |
+| name | `xsd:string` | Ja | The name of the property to get. |
 
 **Output (getPropertyReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`value`*` | `xsd:string` | Ja | De eigenschapswaarde. |
+| value | `xsd:string` | Ja | De eigenschapswaarde. |
 
 ## Voorbeelden {#section-3f80a78dd60c404181b34d3a912d7a36}
 

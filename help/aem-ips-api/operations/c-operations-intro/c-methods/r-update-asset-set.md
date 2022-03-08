@@ -5,9 +5,9 @@ title: updateAssetSet
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: af7899c4-a95f-42c8-858e-ed1592c6f5b6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
@@ -24,10 +24,10 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep naar het bedrijf dat de afbeeldingsset bevat die u wilt wijzigen. |
-| `*`assetHandle`*` | `xsd:string` | Ja | De handgreep van de afbeeldingsset die u wilt wijzigen. |
-| `*`setDefinition`*` | `xsd:string` | Nee | Hiermee worden de leden van de afbeeldingsset opnieuw ingesteld. |
-| `*`thumbAssetHandle`*` | `xsd:string` | Nee | De handgreep van het element dat fungeert als miniatuur voor de afbeeldingsset. |
+| companyHandle | `xsd:string` | Ja | De handgreep naar het bedrijf dat de afbeeldingsset bevat die u wilt wijzigen. |
+| assetHandle | `xsd:string` | Ja | De handgreep van de afbeeldingsset die u wilt wijzigen. |
+| setDefinition | `xsd:string` | Nee | Hiermee worden de leden van de afbeeldingsset opnieuw ingesteld. |
+| thumbAssetHandle | `xsd:string` | Nee | De handgreep van het element dat fungeert als miniatuur voor de afbeeldingsset. |
 
 **Uitvoer (updateAssetSetReturn)**
 

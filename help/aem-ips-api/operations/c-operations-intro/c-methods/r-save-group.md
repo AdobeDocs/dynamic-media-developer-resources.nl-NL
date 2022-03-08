@@ -2,12 +2,12 @@
 description: Maak of bewerk een groep.
 solution: Experience Manager
 title: saveGroup
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1dd980e7-eb38-4c90-b4fc-83327d4a95f5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '92'
 ht-degree: 1%
 
 ---
@@ -30,16 +30,16 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep aan het bedrijf met de groep u wilt bewaren. |
-| `*`groupHandle`*` | `xsd:string` | Nee | De greep naar de groep. |
-| `*`name`*` | `xsd:string` | Ja | Groepsnaam. |
-| `*`isSystemDefined`*` | `xsd:boolean` | Ja | `false` is standaard. |
+| companyHandle | `xsd:string` | Ja | De handgreep aan het bedrijf met de groep u wilt bewaren. |
+| groupHandle | `xsd:string` | Nee | De greep naar de groep. |
+| name | `xsd:string` | Ja | Groepsnaam. |
+| isSystemDefined | `xsd:boolean` | Ja | `false` is standaard. |
 
 **Output (saveGroupReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`groupHandle`*` | `xsd:string` | Ja | Groepshandgreep. |
+| groupHandle | `xsd:string` | Ja | Groepshandgreep. |
 
 ## Voorbeelden {#section-26eee227ff1f4edabb7fa1240b4d9999}
 

@@ -5,9 +5,9 @@ title: setAssetsPublishState
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: dce324e4-cf86-4a65-ab00-8cd2bba20f8f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
@@ -37,18 +37,18 @@ Dit is de batchversie van [setAssetState](../../../operations/c-operations-intro
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Bedrijfshandgreep. |
-| `*`publishStateUpdateArray`*` | `types:PublishStateUpdateArray` | Ja | Array met publicatiestatus voor de elementen. |
+| companyHandle | `xsd:string` | Ja | Bedrijfshandgreep. |
+| publishStateUpdateArray | `types:PublishStateUpdateArray` | Ja | Array met publicatiestatus voor de elementen. |
 
 **Output (setAssetsPublishStateParam)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Ja | Het aantal correct bijgewerkte elementen. |
-| `*`warningCount`*` | `xsd:int` | Ja | Het aantal elementen dat een waarschuwing heeft gegenereerd toen de bewerking probeerde deze bij te werken. |
-| `*`errorCount`*` | `xsd:int` | Ja | Het aantal elementen dat een fout heeft gegenereerd toen de bewerking probeerde deze te verwijderen. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nee | Details verbonden aan de activa updates die een waarschuwing produceerden. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nee | Details verbonden aan de activa updates die een fout produceerden. |
+| successCount | `xsd:int` | Ja | Het aantal correct bijgewerkte elementen. |
+| warningCount | `xsd:int` | Ja | Het aantal elementen dat een waarschuwing heeft gegenereerd toen de bewerking probeerde deze bij te werken. |
+| errorCount | `xsd:int` | Ja | Het aantal elementen dat een fout heeft gegenereerd toen de bewerking probeerde deze te verwijderen. |
+| warningDetailArray | `types:AssetOperationFaultArray` | Nee | Details verbonden aan de activa updates die een waarschuwing produceerden. |
+| errorDetailArray | `types:AssetOperationFaultArray` | Nee | Details verbonden aan de activa updates die een fout produceerden. |
 
 ## Voorbeelden {#section-38cfdd3436214a06a1bae16875501d51}
 

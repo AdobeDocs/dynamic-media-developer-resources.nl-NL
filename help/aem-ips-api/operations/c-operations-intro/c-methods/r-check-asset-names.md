@@ -2,12 +2,12 @@
 description: Controleert op IPS ID-conflicten door elementnamen te vergelijken met alle namen in de naamruimte van de catalogus Afbeelding weergeven/Afbeelding renderen van een bedrijf.
 solution: Experience Manager
 title: checkAssetNames
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0756c4fc-64ec-4022-a6aa-fcf1542b41b0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
@@ -35,14 +35,14 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Nee | De handgreep aan het bedrijf dat de gebruiker bevat. |
-| `*`assetNamesArray`*` | `types:StringArray` | Ja | Een array met namen van elementen die moeten worden gecontroleerd. |
+| companyHandle | `xsd:string` | Nee | De handgreep aan het bedrijf dat de gebruiker bevat. |
+| assetNamesArray | `types:StringArray` | Ja | Een array met namen van elementen die moeten worden gecontroleerd. |
 
 **Uitvoer (checkAssetNamesReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`inUseNameArray`*` | `types:StringArray` | Ja | Een array met namen van elementen in gebruik. |
+| inUseNameArray | `types:StringArray` | Ja | Een array met namen van elementen in gebruik. |
 
 ## Voorbeelden {#section-bc5d120d74614a63a425ca3acc337219}
 

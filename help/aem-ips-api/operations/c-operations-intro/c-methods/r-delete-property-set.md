@@ -2,12 +2,12 @@
 description: Verwijdert een eigenschapset en alle bijbehorende eigenschappen.
 solution: Experience Manager
 title: deletePropertySet
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 72429030-200d-4e13-a537-10a728998a26
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`setHandle`*` | `xsd:string` | Ja | De greep naar de eigenschap die is ingesteld om te worden verwijderd. |
+| setHandle | `xsd:string` | Ja | De greep naar de eigenschap die is ingesteld om te worden verwijderd. |
 
 **Output (deletePropertySetParam)**
 
@@ -39,7 +39,7 @@ IPS API keert geen reactie voor deze verrichting terug.
 
 ## Voorbeelden {#section-cf319fc8f86a40ab9cbd838b031973fe}
 
-Deze codesteekproef gebruikt de greep van de reeks als gebied in `deletePropertySetParam` die naar de IPS de dienstenserver van het Web wordt verzonden om het bezitsreeks te schrappen.
+In dit codevoorbeeld wordt de greep van de set gebruikt als een veld in het dialoogvenster `deletePropertySetParam` verzonden naar de IPS de dienstenserver van het Web om het bezit te schrappen plaatste.
 
 **Verzoek**
 

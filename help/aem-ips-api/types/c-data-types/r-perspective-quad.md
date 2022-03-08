@@ -2,13 +2,13 @@
 description: Coördinaten van afbeeldingslocaties die door de bewerking getPhotoshopPath worden geretourneerd.
 solution: Experience Manager
 title: PerspectiveQuad
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dae44565-083d-47f5-8a08-2567590315a4
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 10%
+source-wordcount: '72'
+ht-degree: 11%
 
 ---
 
@@ -22,18 +22,18 @@ Syntaxis
 
 | Naam | Type | Beschrijving |
 |---|---|---|
-| `*`x0`*` | `xsd:double` | Coördinaat op de x-as linksboven. |
-| `*`y0`*` | `xsd:double` | Coördinaat op de y-as linksboven. |
-| `*`x1`*` | `xsd:double` | Coördinaat op de x-as rechtsboven. |
-| `*`y1`*` | `xsd:double` | Y-ascoördinaat rechtsboven. |
-| `*`x2`*` | `xsd:double` | Coördinaat met de x-as rechtsonder. |
-| `*`y2`*` | `xsd:double` | Coördinaat met de y-as rechtsonder. |
-| `*`x3`*` | `xsd:double` | Coördinaat van de x-as linksonder. |
-| `*`y3`*` | `xsd:double` | Coördinaat op de y-as linksonder. |
+| x0 | `xsd:double` | Coördinaat op de x-as linksboven. |
+| y0 | `xsd:double` | Coördinaat op de y-as linksboven. |
+| x1 | `xsd:double` | Coördinaat op de x-as rechtsboven. |
+| y1 | `xsd:double` | Y-ascoördinaat rechtsboven. |
+| x2 | `xsd:double` | Coördinaat met de x-as rechtsonder. |
+| y2 | `xsd:double` | Coördinaat met de y-as rechtsonder. |
+| x3 | `xsd:double` | Coördinaat van de x-as linksonder. |
+| y3 | `xsd:double` | Coördinaat op de y-as linksonder. |
 
 ## Voorbeeld {#section-19ed4409ff3a41c9b52a9c9424612927}
 
-Het type `PerspectiveQuad` retourneert gegevens in deze volgorde:
+De `PerspectiveQuad` het type keert gegevens in deze orde terug:
 
 ```
 <complexType name="PerspectiveQuad">

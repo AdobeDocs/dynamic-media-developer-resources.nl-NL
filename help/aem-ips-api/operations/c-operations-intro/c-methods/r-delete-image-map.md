@@ -2,12 +2,12 @@
 description: Hiermee verwijdert u een afbeelding met hyperlinks.
 solution: Experience Manager
 title: deleteImageMap
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f9942a4a-d258-4e2a-8910-44fa502d97bd
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,8 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep van het bedrijf dat de te verwijderen afbeelding met hyperlinks bevat. |
-| `*`imageMapHandle`*` | `xsd:string` | Ja | De handgreep van de afbeeldingskaart die moet worden verwijderd. |
+| companyHandle | `xsd:string` | Ja | De handgreep van het bedrijf dat de te verwijderen afbeelding met hyperlinks bevat. |
+| imageMapHandle | `xsd:string` | Ja | De handgreep van de afbeeldingskaart die moet worden verwijderd. |
 
 **Output (deleteImageMapParam)**
 

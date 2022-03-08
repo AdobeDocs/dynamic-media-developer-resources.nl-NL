@@ -2,12 +2,12 @@
 description: Voegt gebruikers van een specifiek bedrijf aan een specifieke groep toe.
 solution: Experience Manager
 title: addGroupMember
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c03525e3-6bc4-4c6a-bb5b-b0cb2e6f6d0d
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep aan het bedrijf. |
-| `*`groupHandle`*` | `xsd:string` | Ja | De groepshandgreep. |
-| `*`userHandleArray`*` | `types:HandleArray` | Ja | Een array van handgrepen voor gebruikers die u aan een groep wilt toevoegen. |
+| companyHandle | `xsd:string` | Ja | De handgreep aan het bedrijf. |
+| groupHandle | `xsd:string` | Ja | De groepshandgreep. |
+| userHandleArray | `types:HandleArray` | Ja | Een array van handgrepen voor gebruikers die u aan een groep wilt toevoegen. |
 
 **Output (addGroupMemberParam)**
 
@@ -40,7 +40,7 @@ IPS API keert geen reactie voor deze verrichting terug.
 
 ## Voorbeelden {#section-8f168b528aef4c4fa8c3d41f7686842f}
 
-In dit voorbeeld wordt `*`addGroupMemberParam`*` gebruikt om een gebruiker aan één bedrijf toe te voegen. IPS API keert geen reactie voor deze verrichting terug.
+In dit voorbeeld wordt addGroupMemberParam gebruikt om een gebruiker aan één bedrijf toe te voegen. IPS API keert geen reactie voor deze verrichting terug.
 
 **Verzoek**
 

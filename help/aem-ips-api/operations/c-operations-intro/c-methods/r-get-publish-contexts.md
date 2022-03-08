@@ -2,12 +2,12 @@
 description: getPublishContext
 solution: Experience Manager
 title: getPublishContext
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7b26e659-71b9-40c4-9df4-94e78c3e4baf
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -32,9 +32,7 @@ Syntaxis
 >
 >* De gebruiker moet lees toegang hebben om de activa terug te keren.
 >* Alle gebruikers hebben toegang tot het gedeelde bedrijf.
-
 >
-
 
 
 ## Parameters {#section-d08e2175d3f84774b55b91bc590b8b3f}
@@ -76,7 +74,7 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`publishContextArray`*` | types:PublishContextArray | Ja | Een array van publicatiecontexten voor een bedrijf, indien nodig gefilterd op contexttype. |
+| publishContextArray | types:PublishContextArray | Ja | Een array van publicatiecontexten voor een bedrijf, indien nodig gefilterd op contexttype. |
 
 ## Voorbeelden {#section-23fb7d6a15004b7eb4c3d3bcb37ceb04}
 

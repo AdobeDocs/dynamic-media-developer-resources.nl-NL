@@ -2,12 +2,12 @@
 description: Maak een nieuwe afbeeldingskaart of bewerk een bestaande kaart.
 solution: Experience Manager
 title: saveImageMap
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 91e40549-9b26-41f2-a3ab-7e9bec8f9ba7
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
@@ -46,56 +46,56 @@ Syntaxis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:tekenreeks  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:tekenreeks </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> De handgreep van het bedrijf met de afbeeldingskaart die u wilt opslaan. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:tekenreeks  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:tekenreeks </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> De handgreep van het afbeeldingselement waartoe de afbeelding met hyperlinks behoort. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> imageMapHandle  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:tekenreeks  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> imageMapHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:tekenreeks </span> </td> 
    <td colname="col3"> Nee </td> 
    <td colname="col4"> De handgreep van de afbeelding met hyperlinks. Maakt een afbeelding met hyperlinks als deze NULL is. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:tekenreeks  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> name </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:tekenreeks </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> De naam van de afbeeldingskaart die is gemaakt of opgeslagen. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> shapeType  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:tekenreeks  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> shapeType </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:tekenreeks </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Keuze van regiovorm. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> regio  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:tekenreeks  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> regio </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:tekenreeks </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> Een door komma's gescheiden lijst met punten die het gebied definiëren. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> action  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:tekenreeks  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> action </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:tekenreeks </span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> <p>De <span class="codeph"> href </span> waarde verbonden aan de beeldkaart zoals gespecificeerd in de IPS interface. </p> <p>Om de <span class="codeph"> href </span> waarde te verkrijgen, klik het beeld in de IPS interface, kopieer en plak URL in dit element, en formatteer dan IPS URL als juiste URL. <span class="codeph"> &amp; </span> wordt bijvoorbeeld <span class="codeph"> &amp;amp; </span>. </p> </td> 
+   <td colname="col4"> <p>De <span class="codeph"> href </span> waarde verbonden aan de beeldkaart zoals die in de IPS interface wordt gespecificeerd. </p> <p>Om de <span class="codeph"> href </span> waarde, klik het beeld in de IPS interface, kopieer en kleef URL in dit element, en formatteer dan IPS URL als juiste URL. Bijvoorbeeld: <span class="codeph"> &amp; </span> wordt <span class="codeph"> &amp;amp; </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> positie  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:int  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> positie </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:int </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"> De volgorde in de lijst met afbeeldingen met hyperlinks (de Z-as). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> enabled  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:Boolean  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> enabled </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:Boolean </span> </td> 
    <td colname="col3"> Ja </td> 
    <td colname="col4"></td> 
   </tr> 
@@ -106,7 +106,7 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`imageMapHandle`*` | `xsd:string` | Ja | De handgreep van de nieuwe of bewerkte afbeelding met hyperlinks. |
+| imageMapHandle | `xsd:string` | Ja | De handgreep van de nieuwe of bewerkte afbeelding met hyperlinks. |
 
 ## Voorbeelden {#section-fdac488b640f427c8aa3d549c5032851}
 

@@ -2,12 +2,12 @@
 description: Hiermee werkt u een afbeeldingsset bij.
 solution: Experience Manager
 title: updateImageSet
-feature: Dynamic Media Classic,SDK/API,Afbeeldingssets
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: d8d5fb80-17f1-424f-8a61-27189f87d603
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
@@ -24,16 +24,16 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep naar het bedrijf dat de afbeeldingsset bevat die u wilt wijzigen. |
-| `*`assetHandle`*` | `xsd:string` | Ys | De handgreep van de afbeeldingsset die u wilt wijzigen. |
-| `*`memberArray`*` | `types:ImageSetMemberUpdateArray` | Nee | Hiermee worden de leden van de afbeeldingsset opnieuw ingesteld. |
-| `*`thumbAssetHandle`*` | `xsd:string` | Nee | De handgreep van het element dat fungeert als miniatuur voor de afbeeldingsset. |
+| companyHandle | `xsd:string` | Ja | De handgreep naar het bedrijf dat de afbeeldingsset bevat die u wilt wijzigen. |
+| assetHandle | `xsd:string` | Ys | De handgreep van de afbeeldingsset die u wilt wijzigen. |
+| memberArray | `types:ImageSetMemberUpdateArray` | Nee | Hiermee worden de leden van de afbeeldingsset opnieuw ingesteld. |
+| thumbAssetHandle | `xsd:string` | Nee | De handgreep van het element dat fungeert als miniatuur voor de afbeeldingsset. |
 
 **Output (updateImageSetReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`opeenvolging`*` |  |  |  |
+| opeenvolging |  |  |  |
 
 ## Voorbeelden {#section-ce47a4b6e062423fa55ed3a0fd26d7ff}
 

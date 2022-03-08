@@ -2,12 +2,12 @@
 description: Voegt een gebruiker aan een serie van groepen toe.
 solution: Experience Manager
 title: addGroupMembership
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c5b5e155-d285-4304-98bc-1d938793e2c0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ IPS API keert geen reactie voor deze verrichting terug.
 
 ## Voorbeelden {#section-f7a1f40c3d7a40ea964b29056c734d81}
 
-In dit voorbeeld wordt een groep toegevoegd aan een bedrijf met `*`groupHandleArray`*`. In dit voorbeeld wordt slechts één groep gebruikt.
+In dit voorbeeld wordt een groep toegevoegd aan een bedrijf met groupHandleArray. In dit voorbeeld wordt slechts één groep gebruikt.
 
 **Verzoek**
 

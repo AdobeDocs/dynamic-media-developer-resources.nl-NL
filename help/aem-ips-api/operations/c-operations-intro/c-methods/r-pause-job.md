@@ -2,12 +2,12 @@
 description: Hiermee wordt een actieve taak gepauzeerd.
 solution: Experience Manager
 title: pauseJob
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 010e969a-911e-49fc-8577-66c18cd4329c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '61'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,8 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handgreep aan het bedrijf. |
-| `*`jobHandle`*` | `xsd:string` | Ja | Handgreep aan de baan u wilt pauzeren. |
+| companyHandle | `xsd:string` | Ja | Handgreep aan het bedrijf. |
+| jobHandle | `xsd:string` | Ja | Handgreep aan de baan u wilt pauzeren. |
 
 **Uitvoer (PauseJobReturn)**
 

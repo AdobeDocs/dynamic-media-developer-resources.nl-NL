@@ -1,13 +1,13 @@
 ---
+title: emptyAssetsFromTrash
 description: Legt activa van het IPS afval leeg.
 solution: Experience Manager
-title: emptyAssetsFromTrash
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 36866dc8-6a16-4445-942f-d0ea3c168272
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,6 @@ Activa worden in de prullenbak geplaatst totdat ze handmatig worden geleegd of t
 * `ImagePortalAdmin`
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
-* &quot;
 
 ## Parameters {#section-8e1fb0ee3aae453581e99ef76e298569}
 
@@ -34,18 +33,18 @@ Activa worden in de prullenbak geplaatst totdat ze handmatig worden geleegd of t
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep naar het bedrijf dat eigenaar is van de activa. |
-| `*`assetHandleArray`*` | `types:HandleArray` | Ja | De array van handgrepen die de items vertegenwoordigen die uit de prullenbak moeten worden verwijderd. |
+| companyHandle | xsd:tekenreeks | Ja | De handgreep naar het bedrijf dat eigenaar is van de activa. |
+| assetHandleArray | types:HandleArray | Ja | De array van handgrepen die de items vertegenwoordigen die uit de prullenbak moeten worden verwijderd. |
 
 **Output (emptyAssetsFromTrashParam)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:Int` | Ja | Het aantal elementen dat met succes uit de prullenbak is verwijderd. |
-| `*`warningCount`*` | `xsd:Int` | Ja | Het aantal waarschuwingen dat wordt gegenereerd wanneer de bewerking heeft geprobeerd elementen uit de prullenbak te verwijderen. |
-| `*`errorCount`*` | `xsd:Int` | Ja | Het aantal fouten dat is gegenereerd toen de bewerking probeerde elementen uit de prullenbak te verwijderen. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nee | De array met details die zijn gekoppeld aan de elementen die waarschuwingen hebben gegenereerd toen de bewerking probeerde deze uit de prullenbak te verwijderen. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nee | De array met details die zijn gekoppeld aan de elementen die fouten genereerden toen de bewerking probeerde deze uit de prullenbak te verwijderen. |
+| successCount | xsd:int | Ja | Het aantal elementen dat met succes uit de prullenbak is verwijderd. |
+| warningCount | xsd:int | Ja | Het aantal waarschuwingen dat wordt gegenereerd wanneer de bewerking heeft geprobeerd elementen uit de prullenbak te verwijderen. |
+| errorCount | xsd:int | Ja | Het aantal fouten dat is gegenereerd toen de bewerking probeerde elementen uit de prullenbak te verwijderen. |
+| warningDetailArray | types:AssetOperationFaultArray | Nee | De array met details die zijn gekoppeld aan de elementen die waarschuwingen hebben gegenereerd toen de bewerking probeerde deze uit de prullenbak te verwijderen. |
+| errorDetailArray | types:AssetOperationFaultArray | Nee | De array met details die zijn gekoppeld aan de elementen die fouten genereerden toen de bewerking probeerde deze uit de prullenbak te verwijderen. |
 
 ## Voorbeelden {#section-6154a873b6c342bf92e2036280cafdcf}
 
@@ -54,7 +53,7 @@ In dit codevoorbeeld worden de greep van het bedrijf en een elementgreep-array g
 **Verzoek**
 
 ```java
-<emptyAssetsFromTrashParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
+<emptyAssetsFromTrashParam xmlns="http://www.scene7.com/IpsApi/xsd/2023-01-15">
    <companyHandle>c|6</companyHandle>
    <assetHandleArray>
       <items>a|942|1|579</items>
@@ -66,7 +65,7 @@ In dit codevoorbeeld worden de greep van het bedrijf en een elementgreep-array g
 **Antwoord**
 
 ```java
-<emptyAssetsFromTrashReturn xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
+<emptyAssetsFromTrashReturn xmlns="http://www.scene7.com/IpsApi/xsd/2023-01-15">
    <successCount>2</successCount>
    <warningCount>0</warningCount>
    <errorCount>0</errorCount>

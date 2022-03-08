@@ -2,12 +2,12 @@
 description: Beschrijft de verschillende bedrijven een gebruiker tot behoort.
 solution: Experience Manager
 title: CompanyMember
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: bce5e6a2-b866-4a54-8e0b-9bc99bf12988
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '48'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,6 @@ Syntaxis
 
 | Naam | Type | Beschrijving |
 |---|---|---|
-| `*`user`*` | `types:User` | Gebruikersnaam. |
-| `*`rol`*` | `xsd:string` | Rol de gebruiker voor elk bedrijf heeft zij tot behoren. |
-| `*`isActive`*` | `xsd:boolean` | Hiermee stelt u de status van de gebruiker in voor elk bedrijf waartoe de gebruiker behoort. |
+| user | `types:User` | Gebruikersnaam. |
+| rol | `xsd:string` | Rol de gebruiker voor elk bedrijf heeft zij tot behoren. |
+| isActive | `xsd:boolean` | Hiermee stelt u de status van de gebruiker in voor elk bedrijf waartoe de gebruiker behoort. |

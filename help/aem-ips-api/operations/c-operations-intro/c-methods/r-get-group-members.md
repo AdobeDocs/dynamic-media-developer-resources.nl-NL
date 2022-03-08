@@ -2,12 +2,12 @@
 description: Haalt de gebruikers op die tot een specifiek bedrijf en een specifieke groep behoren.
 solution: Experience Manager
 title: getGroupMember
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 81af79ee-be82-439f-9f42-a1ec09cd8ea0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
@@ -30,14 +30,14 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep aan het bedrijf. |
-| `*`groupHandle`*` | `xsd:string` |  | De greep naar de groep. |
+| companyHandle | `xsd:string` | Ja | De handgreep aan het bedrijf. |
+| groupHandle | `xsd:string` |  | De greep naar de groep. |
 
 **Output (getGroupMemberReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`userHandleArray`*` | `type:HandleArray` | Ja | Een array met gebruikershandgrepen. |
+| userHandleArray | `type:HandleArray` | Ja | Een array met gebruikershandgrepen. |
 
 ## Voorbeelden {#section-aaa340dba6b64cce9bcd8303cf999166}
 

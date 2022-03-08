@@ -2,12 +2,12 @@
 description: Retourneert Zip-bestandsgegevens.
 solution: Experience Manager
 title: getZipEntry
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: eb052685-b750-4a12-b00e-28e676340e98
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
@@ -36,14 +36,14 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep naar het bedrijf dat het ZIP-bestand bevat. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Verwerk het ZIP-bestand. |
+| companyHandle | `xsd:string` | Ja | De handgreep naar het bedrijf dat het ZIP-bestand bevat. |
+| assetHandle | `xsd:string` | Ja | Verwerk het ZIP-bestand. |
 
 **Output (getZipEnaptersReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`zipArray`*` | `types:ZipEntryArray` | Ja | Array met items in een ZIP-bestand. |
+| zipArray | `types:ZipEntryArray` | Ja | Array met items in een ZIP-bestand. |
 
 ## Voorbeelden {#section-1fc0ad8fa448492cb5a135d3e3d161ac}
 

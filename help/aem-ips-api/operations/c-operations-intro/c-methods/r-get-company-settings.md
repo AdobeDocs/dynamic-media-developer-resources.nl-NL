@@ -2,12 +2,12 @@
 description: Keert IPS montages voor een specifiek bedrijf terug.
 solution: Experience Manager
 title: getCompanySettings
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b9f41405-8a45-416c-acec-ef22c2ee119e
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '64'
 ht-degree: 0%
 
 ---
@@ -31,13 +31,13 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep naar het bedrijf waarvan u de instellingen wilt ophalen. |
+| companyHandle | `xsd:string` | Ja | De handgreep naar het bedrijf waarvan u de instellingen wilt ophalen. |
 
 **Output (getCompanySettingsReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`instellingen`*` | `types:CompanySettings` | Ja | Bedrijfsinstellingen. |
+| instellingen | `types:CompanySettings` | Ja | Bedrijfsinstellingen. |
 
 ## Voorbeelden {#section-191f78995ecf473a95eadf7296204fd7}
 

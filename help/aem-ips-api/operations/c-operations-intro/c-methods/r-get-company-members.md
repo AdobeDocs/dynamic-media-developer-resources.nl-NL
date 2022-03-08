@@ -1,20 +1,20 @@
 ---
-description: Retourneert de gebruikers van een bedrijf dat is opgegeven door een greep van het bedrijf.
+description: Retourneert de gebruikers van een bedrijf dat is opgegeven door een bedrijvengreep.
 solution: Experience Manager
 title: getCompanyMember
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: da5e5a48-2e0b-4ccc-a71e-b5b746484d4a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
 
 # getCompanyMember{#getcompanymembers}
 
-Retourneert de gebruikers van een bedrijf dat is opgegeven door een greep van het bedrijf.
+Retourneert de gebruikers van een bedrijf dat is opgegeven door een bedrijvengreep.
 
 Syntaxis
 
@@ -31,14 +31,14 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep aan het bedrijf waarvan leden u wilt verkrijgen. |
-| `*`includeInvalid`*` | `xsd:boolean` | Ja | Inclusief ongeldige bedrijven. |
+| companyHandle | `xsd:string` | Ja | De handgreep aan het bedrijf waarvan leden u wilt verkrijgen. |
+| includeInvalid | `xsd:boolean` | Ja | Inclusief ongeldige bedrijven. |
 
 **Output (getCompanyMemberReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`memberArray`*` | `types:CompanyMemberArray` | Ja | Array met gebruikerslidmaatschappen. |
+| memberArray | `types:CompanyMemberArray` | Ja | Array met gebruikerslidmaatschappen. |
 
 ## Voorbeelden {#section-39d8cf3653fd4fe8b842caabac9dedfc}
 

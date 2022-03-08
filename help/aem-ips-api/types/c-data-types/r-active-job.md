@@ -1,13 +1,13 @@
 ---
+title: ActiveJob
 description: Een taak die op een server wordt uitgevoerd. Het is ook een instantie van een geplande taak.
 solution: Experience Manager
-title: ActiveJob
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 3d878207-99e4-4c75-ab12-b38a37c82fb7
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Banen bestaan in drie staten:
 * Wordt momenteel uitgevoerd.
 * Voltooid (en heeft reeds informatie aan een baanlogboek geschreven).
 
-Geef een waarde voor het taaktype op om het taaktype te retourneren. U kunt de volgende taken retourneren:
+Geef een waarde op voor het taaktype om het taaktype te retourneren. U kunt de volgende taken retourneren:
 
 * `imageServingPublishJob`
 * `imageRenderingPublishJob`
@@ -60,7 +60,7 @@ Geef een waarde voor het taaktype op om het taaktype te retourneren. U kunt de v
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
-   <td colname="col3">Oorspronkelijke naam van het type <span class="codeph"> ActiveJob</span> dat met de taak is ingediend. </td> 
+   <td colname="col3">Oorspronkelijke naam van de <span class="codeph"> ActiveJob</span> type verzonden met de taak. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
@@ -80,7 +80,7 @@ Geef een waarde voor het taaktype op om het taaktype te retourneren. U kunt de v
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> landinstelling</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
-   <td colname="col3">De landinstelling voor de gegevens van het taaklogboek en de e-maillokalisatie. <p>Geef landinstellingen op als <span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span>, waarbij de taalcode een code van twee letters in kleine letters is zoals gespecificeerd in ISO-639, en de optionele landcode een code van twee letters in hoofdletters is zoals gespecificeerd in ISO-3166. De landinstelling voor Engels (Verenigde Staten) zou bijvoorbeeld als volgt zijn: <span class="codeph"> nl-NL</span>. </p></td> 
+   <td colname="col3">De landinstelling voor de gegevens van het taaklogboek en de e-maillokalisatie. <p>Landinstellingen opgeven als <span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span>, waarbij de taalcode een code van twee kleine letters is, zoals gespecificeerd in ISO-639, en de optionele landcode een code van twee letters in hoofdletters is, zoals gespecificeerd in ISO-3166. De landinstelling voor Engels (Verenigde Staten) zou bijvoorbeeld als volgt zijn: <span class="codeph"> en-US</span>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> beschrijving</span> </span> </td> 
@@ -165,7 +165,7 @@ Geef een waarde voor het taaktype op om het taaktype te retourneren. U kunt de v
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadPostJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typen:UploadPostJob</span> </td> 
-   <td colname="col3"> Uploaden naar het bureaublad voor het bijhouden van taakdetails. </td> 
+   <td colname="col3"> Taakdetails, uploaden naar bureaublad volgen. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 

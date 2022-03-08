@@ -5,9 +5,9 @@ title: addProjectAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 60aa2846-b41e-4131-b465-82aa832434f7
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
@@ -33,23 +33,23 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handgreep aan het bedrijf verbonden aan het huidige project. |
-| `*`projectHandle`*` | `xsd:string` | Ja | Verwerk het project waaraan u elementen toevoegt. |
-| `*`projectHandleArray`*` | `xsd:HandleArray` | Ja | Array met elementen die u toevoegt aan het huidige project. |
+| companyHandle | `xsd:string` | Ja | Handgreep aan het bedrijf verbonden aan het huidige project. |
+| projectHandle | `xsd:string` | Ja | Verwerk het project waaraan u elementen toevoegt. |
+| projectHandleArray | `xsd:HandleArray` | Ja | Array met elementen die u toevoegt aan het huidige project. |
 
 **Output (addProjectAssetsParam)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Ja | Het aantal elementen dat is toegevoegd. |
-| `*`warningCount`*` | `xsd:int` | Ja | Het aantal waarschuwingen dat wordt gegenereerd wanneer de bewerking heeft geprobeerd elementen aan een project toe te voegen. |
-| `*`errorCount`*` | `xsd:int` | Ja | Het aantal fouten dat is gegenereerd toen de bewerking probeerde elementen toe te voegen aan een project. |
-| `*`warningDetailHandle`*` | `xsd:AssetOperationFaultArray` | Nee | Array met waarschuwingen die door elementen worden gegenereerd wanneer de bewerking probeerde deze aan een project toe te voegen. |
-| `*`companyHandle`*` | `xsd:AssetOperationFaultArray` | Nee | Array met fouten die door elementen worden gegenereerd wanneer de bewerking probeerde deze toe te voegen aan een project. |
+| successCount | `xsd:int` | Ja | Het aantal elementen dat is toegevoegd. |
+| warningCount | `xsd:int` | Ja | Het aantal waarschuwingen dat wordt gegenereerd wanneer de bewerking heeft geprobeerd elementen aan een project toe te voegen. |
+| errorCount | `xsd:int` | Ja | Het aantal fouten dat is gegenereerd toen de bewerking probeerde elementen toe te voegen aan een project. |
+| warningDetailHandle | `xsd:AssetOperationFaultArray` | Nee | Array met waarschuwingen die door elementen worden gegenereerd wanneer de bewerking probeerde deze aan een project toe te voegen. |
+| companyHandle | `xsd:AssetOperationFaultArray` | Nee | Array met fouten die door elementen worden gegenereerd wanneer de bewerking probeerde deze toe te voegen aan een project. |
 
 ## Voorbeelden {#section-bee5be2402f54cb9a3a02cc07def4135}
 
-In dit voorbeeld wordt één element (waarnaar wordt verwezen door de greep ervan) toegevoegd aan een element handle array aan een project dat in de aanvraag is opgegeven. De bewerking is voltooid wanneer de reactie `successCount` `1` retourneert.
+In dit voorbeeld wordt één element (waarnaar wordt verwezen door de greep ervan) toegevoegd aan een element handle array aan een project dat in de aanvraag is opgegeven. De bewerking is voltooid wanneer de reactie `successCount` retourneert `1`.
 
 **Verzoek**
 

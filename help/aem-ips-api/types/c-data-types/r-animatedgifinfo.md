@@ -1,20 +1,20 @@
 ---
-description: Eigenschappen van een geanimeerd GIF-bestandselement.
-solution: Experience Manager
 title: AnimatedGifInfo
-feature: Dynamic Media Classic, SDK/API
+description: Eigenschappen van een geanimeerd GIF.
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b50b39b4-3055-43e3-a8bb-50f8b2f0d1fc
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '55'
 ht-degree: 0%
 
 ---
 
 # AnimatedGifInfo{#animatedgifinfo}
 
-Eigenschappen van een geanimeerd GIF-bestandselement.
+Eigenschappen van een geanimeerd GIF.
 
 Syntaxis
 
@@ -32,7 +32,7 @@ Syntaxis
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> originalPath</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:tekenreeks</span> </p> </td> 
-   <td colname="col3"> <p>Pad naar het GIF-bestand. </p> </td> 
+   <td colname="col3"> <p>Pad naar het bestand GIF. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> originalFile</span> </span> </p> </td> 

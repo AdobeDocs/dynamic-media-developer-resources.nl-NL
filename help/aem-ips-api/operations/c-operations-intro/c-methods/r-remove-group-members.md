@@ -2,12 +2,12 @@
 description: Hiermee verwijdert u bedrijfgebruikers uit een specifieke groep.
 solution: Experience Manager
 title: removeGroupMember
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 8a9b7d54-d11b-41a8-9783-573a316e0ac6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,9 @@ Hiermee verwijdert u bedrijfgebruikers uit een specifieke groep.
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep aan het bedrijf met de gebruikers u wilt werken met. |
-| `*`groupHandle`*` | `xsd:string` | Ja | Groepshandgreep. |
-| `*`userHandleArray`*` | `types:HandleArray` | Ja | Een array van handgrepen voor gebruikers van wie u het groepslidmaatschap wilt verwijderen. |
+| companyHandle | `xsd:string` | Ja | De handgreep aan het bedrijf met de gebruikers u wilt werken met. |
+| groupHandle | `xsd:string` | Ja | Groepshandgreep. |
+| userHandleArray | `types:HandleArray` | Ja | Een array van handgrepen voor gebruikers van wie u het groepslidmaatschap wilt verwijderen. |
 
 **Output (removeGroupMemberParam)**
 
@@ -43,7 +43,7 @@ IPS API keert geen reactie voor deze verrichting terug.
 
 ## Voorbeelden {#section-9eedac852cea46ec80de6a6928bf97ac}
 
-Deze codesteekproef verwijdert een gebruiker uit het gespecificeerde bedrijf. Verwijder meerdere gebruikers uit een groep met de gebruikershandle-array.
+Deze codesteekproef verwijdert een gebruiker uit het gespecificeerde bedrijf. Verwijder meerdere gebruikers uit een groep met de gebruikersgreep-array.
 
 **Verzoek**
 

@@ -5,9 +5,9 @@ title: restoreAssetsFromTrash
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: b1cde1a9-d726-4ebc-9d49-ee72a6b56fc9
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -33,18 +33,18 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep naar een bedrijf met de middelen die u wilt herstellen. |
-| `*`assetHandleArray`*` | `types:HandleArray` | Ja | Array met handgrepen voor de elementen die u wilt herstellen. |
+| companyHandle | `xsd:string` | Ja | De handgreep naar een bedrijf met de middelen die u wilt herstellen. |
+| assetHandleArray | `types:HandleArray` | Ja | Array met handgrepen voor de elementen die u wilt herstellen. |
 
 **Output (restoreAssetsFromTrashReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Ja | Aantal elementen dat is verwijderd uit de prullenbak. |
-| `*`warningCount`*` | `xsd:int` | Ja | Het aantal waarschuwingen dat wordt gegenereerd wanneer de bewerking probeerde elementen uit de prullenbak te herstellen. |
-| `*`errorCount`*` | `xsd:int` | Ja | Het aantal fouten dat wordt gegenereerd wanneer wordt geprobeerd elementen uit de prullenbak te herstellen. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nee | De array met details die zijn gekoppeld aan de elementen die waarschuwingen hebben gegenereerd toen de bewerking probeerde elementen van de prullenbak te herstellen. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nee | De array met details die zijn gekoppeld aan de elementen die fouten genereerden toen de bewerking probeerde elementen van de prullenbak te herstellen. |
+| successCount | `xsd:int` | Ja | Aantal elementen dat is verwijderd uit de prullenbak. |
+| warningCount | `xsd:int` | Ja | Het aantal waarschuwingen dat wordt gegenereerd wanneer de bewerking probeerde elementen uit de prullenbak te herstellen. |
+| errorCount | `xsd:int` | Ja | Het aantal fouten dat wordt gegenereerd wanneer wordt geprobeerd elementen uit de prullenbak te herstellen. |
+| warningDetailArray | `types:AssetOperationFaultArray` | Nee | De array met details die zijn gekoppeld aan de elementen die waarschuwingen hebben gegenereerd toen de bewerking probeerde elementen van de prullenbak te herstellen. |
+| errorDetailArray | `types:AssetOperationFaultArray` | Nee | De array met details die zijn gekoppeld aan de elementen die fouten genereerden toen de bewerking probeerde elementen van de prullenbak te herstellen. |
 
 ## Voorbeelden {#section-98fe0394b0634ca397c395f14f8a9358}
 

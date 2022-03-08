@@ -2,12 +2,12 @@
 description: Geeft als resultaat een array met Photoshop-padnamen voor de opgegeven afbeelding.
 solution: Experience Manager
 title: getPhotoshopPathNames
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 11d4c0d0-a3a3-4324-a4a6-1dd7b7e673da
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
@@ -34,14 +34,14 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Verwerk het bedrijf dat de afbeelding bevat waarmee u wilt werken. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Verwerk het afbeeldingselement. |
+| companyHandle | `xsd:string` | Ja | Verwerk het bedrijf dat de afbeelding bevat waarmee u wilt werken. |
+| assetHandle | `xsd:string` | Ja | Verwerk het afbeeldingselement. |
 
 **Output (getPhotoshopPathNamesReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`pathNameArray`*` | `types:StringArray` | Ja | Een array met Photoshop-padnamen in een afbeelding. |
+| pathNameArray | `types:StringArray` | Ja | Een array met Photoshop-padnamen in een afbeelding. |
 
 ## Voorbeelden {#section-6d316f14b4184d42af4ca3f717b042dd}
 

@@ -5,9 +5,9 @@ title: getAssetCounts
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 21cb8023-d6fe-416a-b16f-636df8a37958
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Hiermee worden de activa en het aantal activa opgehaald die aan een bepaalde onderneming zijn gekoppeld.
 
-De geretourneerde `countArray` bestaat uit een array van `assetTypes` (gegevenstype `xsd:string`), elk met een eigen telveld (gegevenstype `xsd:int`), waardoor meerdere elementtypen per element van de array kunnen worden weergegeven.
+De `countArray` returned bestaat uit een array van `assetTypes` (gegevenstype) `xsd:string`), elk met zijn eigen telveld (gegevenstype) `xsd:int`), waardoor meerdere elementtypen per element van de array kunnen worden weergegeven.
 Syntaxis
 
 ## Geautoriseerde gebruikerstypen {#section-6234754722184e828352f10eb18fbce9}
@@ -37,17 +37,17 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep voor het bedrijf met elementen die u wilt tellen. |
+| companyHandle | `xsd:string` | Ja | De handgreep voor het bedrijf met elementen die u wilt tellen. |
 
 **Output (getAssetCountsReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`countArray`*` | `types:AssetCountArray` | Nee | Een array van elementtypen, elk met een eigen telveld, waarmee meerdere elementtypen per element van de array kunnen worden weergegeven. |
+| countArray | `types:AssetCountArray` | Nee | Een array van elementtypen, elk met een eigen telveld, waarmee meerdere elementtypen per element van de array kunnen worden weergegeven. |
 
 ## Voorbeelden {#section-6052a503eb3843f6adb99e200fdba280}
 
-Deze codesteekproef gebruikt het handvat van het bedrijf als gebied in `getAssetCountsParam` die naar de IPS de dienstenserver van het Web wordt verzonden om de activa tellingen te krijgen.
+In dit codevoorbeeld wordt de greep van het bedrijf gebruikt als een veld in het dialoogvenster `getAssetCountsParam` verzonden naar de IPS de dienstenserver van het Web om de activatellingen te krijgen.
 
 **Verzoek**
 

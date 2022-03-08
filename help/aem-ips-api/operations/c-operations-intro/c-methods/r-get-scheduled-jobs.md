@@ -2,12 +2,12 @@
 description: Hiermee worden taken opgehaald die zijn gepland voor uitvoering.
 solution: Experience Manager
 title: getScheduledJobs
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7920637e-b289-410c-ae5c-e67cd7b21aba
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
@@ -35,15 +35,15 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep aan het bedrijf. |
-| `*`jobHandle`*` | `xsd:string` | Nee | Taakgreep. |
-| `*`originalName`*` | `xsd:string` | Nee | De naam die wordt opgegeven door `submitJob`. |
+| companyHandle | `xsd:string` | Ja | De handgreep aan het bedrijf. |
+| jobHandle | `xsd:string` | Nee | Taakgreep. |
+| originalName | `xsd:string` | Nee | De naam opgegeven door `submitJob`. |
 
 **Output (getScheduledJobsReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`jobArray`*` | `types:ScheduledJobArray` | Ja | Array met geplande taken. |
+| jobArray | `types:ScheduledJobArray` | Ja | Array met geplande taken. |
 
 ## Voorbeelden {#section-e79e7da86ba848fd9996aa36de462e6c}
 

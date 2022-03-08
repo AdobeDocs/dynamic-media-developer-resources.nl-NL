@@ -5,9 +5,9 @@ title: setProjectAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: b6e6e9bd-5ee2-4750-9182-49e7a3e3486c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
@@ -33,15 +33,15 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | Ja | Bedrijfshandgreep. |
-| `*`projectHandle`*` | `xsd:string` | Ja | Projecthandgreep. |
-| `*`assetHandleArray`*` | `types:HandleArray` | Ja | De array met elementhandgrepen die u aan het project wilt koppelen. |
+| companyName | `xsd:string` | Ja | Bedrijfshandgreep. |
+| projectHandle | `xsd:string` | Ja | Projecthandgreep. |
+| assetHandleArray | `types:HandleArray` | Ja | De array met elementhandgrepen die u aan het project wilt koppelen. |
 
 **Output (setProjectAssetsReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Ja | Het aantal toegevoegde elementen. |
+| successCount | `xsd:int` | Ja | Het aantal toegevoegde elementen. |
 
 ## Voorbeelden {#section-33c1a909c3dc4aa98da474c23a036596}
 

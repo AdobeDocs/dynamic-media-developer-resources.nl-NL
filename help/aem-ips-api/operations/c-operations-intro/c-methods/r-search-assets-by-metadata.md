@@ -5,9 +5,9 @@ title: searchAssetsByMetadata
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: a0e01edb-c52b-436d-a166-e24cc6861c49
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Zoekt de gegevensopslagplaats van de meta-gegevensindex naar de bepaalde onderzoekstermijnen. Retourneert elementgegevens zoals de methode searchAssets.
 
-Hoewel u met `searchAssetsByMetadata` kunt zoeken op door de gebruiker gedefinieerde metagegevensvelden, worden deze velden niet geretourneerd als ze zijn opgegeven in `responseMetadataArray`. Ter illustratie dit punt, het volgende codevoorbeeld:
+while `searchAssetsByMetadata` Hiermee kunt u zoeken op door de gebruiker gedefinieerde metagegevensvelden. Deze velden worden niet geretourneerd als ze zijn opgegeven in het dialoogvenster `responseMetadataArray`. Ter illustratie dit punt, het volgende codevoorbeeld:
 
 ```java
 <ns:responseMetadataArray>
@@ -33,7 +33,7 @@ retourneert een null-waarde:
 </items>
 ```
 
-Als u dit probleem wilt verhelpen, kunt u de `fieldHandles` van de elementen gebruiken die door de zoekopdracht worden geretourneerd om `getAssets` uit te voeren (zie ook [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). Deze methode krijgt de Gebruiker - bepaalde waarden van Gebieden voor de activa in kwestie. Gebruik het volgende syntaxisvoorbeeld aan onderzoek tegen user-defined Gebieden van Meta-gegevens:
+Als u dit probleem wilt verhelpen, kunt u de opdracht `fieldHandles` van de elementen die worden geretourneerd uit de te voeren zoekopdracht `getAssets` (zie ook [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). Deze methode krijgt de Gebruiker - bepaalde waarden van Gebieden voor de activa in kwestie. Gebruik het volgende syntaxisvoorbeeld om tegen user-defined Gebieden van Meta-gegevens te zoeken:
 
 ```java
 <ns:metadataConditionArray>
@@ -103,7 +103,7 @@ Als u dit probleem wilt verhelpen, kunt u de `fieldHandles` van de elementen geb
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Nee </p> </td> 
-   <td colname="col4"> <p>Geeft de pagina met resultaten op die moet worden geretourneerd op basis van het paginaformaat <span class="codeph"> recordsPerPage</span>. </p> </td> 
+   <td colname="col4"> <p>Hiermee geeft u de resultatenpagina op die u wilt retourneren, op basis van <span class="codeph"> recordsPerPage</span> paginaformaat. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> sortBy</span> </span> </p> </td> 
@@ -124,8 +124,8 @@ Als u dit probleem wilt verhelpen, kunt u de `fieldHandles` van de elementen geb
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`totalRows`*` | `xsd:int` | Nee | Aantal overeenkomsten. |
-| `*`assetArray`*` | `types:AssetArray` | Nee | Array met elementen die door de zoekopdracht worden geretourneerd. |
+| totalRows | `xsd:int` | Nee | Aantal overeenkomsten. |
+| assetArray | `types:AssetArray` | Nee | Array met elementen die door de zoekopdracht worden geretourneerd. |
 
 ## details metadataConditionArray {#section-1af4a4a22f82451eabdf6dfe13d9f27d}
 
@@ -156,13 +156,13 @@ Als u dit probleem wilt verhelpen, kunt u de `fieldHandles` van de elementen geb
 * `sku`
 * `modified_at`
 * `modified_by`
-* `created_at` (zelfde als  `modified_at` (Datum in de vorm: 25 juli 2014 22:13:45 GMT-0500 (CDT))
+* `created_at` (gelijk aan `modified_at` (Datum in de vorm: 25 jul. 2014 22:13:45 GMT-0500 (CDT))
 
 * `created_by`
 
 **Toegestane operatoren**
 
-[!DNL operator] bepaalt hoe te om de waarde te vergelijken en omvat:
+De [!DNL operator] definieert hoe u de waarde kunt vergelijken en opnemen:
 
 * `Equals`
 * `NotEquals`
@@ -171,15 +171,15 @@ Als u dit probleem wilt verhelpen, kunt u de `fieldHandles` van de elementen geb
 * `StartsWith`
 * `EndsWith`
 
-De `comparison_value` is de termijn aan onderzoek naar.
+De `comparison_value` is de term waarnaar moet worden gezocht.
 
 ## Voorbeelden {#section-53a12b9c023e4e629eddf5719c955ad4}
 
 In dit codevoorbeeld wordt gezocht met de volgende metagegevenscriteria:
 
-* `name` bevat  `1000801`.
+* `name` field contains `1000801`.
 
-* `dc.rights` veld is gelijk aan  `Per Jessen Schmidt`.
+* `dc.rights` gelijk aan veld `Per Jessen Schmidt`.
 
 **Verzoek**
 

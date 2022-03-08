@@ -2,12 +2,12 @@
 description: Hiermee wordt een taak naar het systeem verzonden.
 solution: Experience Manager
 title: submitJob
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b1dc7a0e-da9a-4086-822b-5274bd62eadf
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Syntaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Nee </td> 
-   <td colname="col4"> <p>Handgreep naar de gebruiker die de taak heeft verzonden. </p> <p> <p>Opmerking: Het systeem verzendt e-mail naar de gebruiker die door <span class="codeph"> userHandle</span> wordt gespecificeerd. Als <span class="codeph"> userHandle</span> niet wordt verstrekt, ontvangt de persoon die de baan indiende de e-mails. </p> </p> </td> 
+   <td colname="col4"> <p>Handgreep naar de gebruiker die de taak heeft verzonden. </p> <p> <p>Opmerking: Het systeem verzendt e-mail naar de gebruiker die door wordt gespecificeerd <span class="codeph"> userHandle</span>. Indien <span class="codeph"> userHandle</span> niet wordt verstrekt, ontvangt de persoon die de baan indiende de e-mail. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobName</span> </span> </td> 
@@ -64,19 +64,19 @@ Syntaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> landinstelling</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Nee </td> 
-   <td colname="col4"> <p>De landinstelling die wordt gebruikt voor loggegevens van taken en e-maillokalisatie. </p> <p>Landinstellingen worden opgegeven als <span class="codeph"> &lt;language_code&gt;</span> en <span class="codeph"> [&lt;country_code&gt;]</span>, waarbij de taalcode een code van twee letters in kleine letters is, zoals gespecificeerd door ISO-639, en de optionele landcode een code van twee letters in hoofdletters is, zoals gespecificeerd door ISO-3166. De landinstelling voor Engels (Verenigde Staten) zou bijvoorbeeld als volgt zijn: en-US. </p> </td> 
+   <td colname="col4"> <p>De landinstelling die wordt gebruikt voor loggegevens van taken en e-maillokalisatie. </p> <p>Landinstellingen worden opgegeven als <span class="codeph"> &lt;language_code&gt;</span> en <span class="codeph"> [&lt;country_code&gt;]</span>, waarbij de taalcode een code van twee kleine letters is, zoals gespecificeerd in ISO-639, en de optionele landcode een code van twee letters in hoofdletters is, zoals gespecificeerd in ISO-3166. De landinstelling voor Engels (Verenigde Staten) zou bijvoorbeeld als volgt zijn: en-US. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> execTime</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
    <td colname="col3"> Nee </td> 
-   <td colname="col4"> <p>Datum en tijd waarop de taak moet worden uitgevoerd. </p> <p>Opmerking:  Geef de tijdzone het verzoek. De streken van de tijd worden aangepast aan de tijdzone van de doelIPS server. </p> </td> 
+   <td colname="col4"> <p>Datum en tijd waarop de taak moet worden uitgevoerd. </p> <p>Opmerking: Geef de tijdzone het verzoek. De streken van de tijd worden aangepast aan de tijdzone van de doelIPS server. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> execSchedule</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Nee </td> 
-   <td colname="col4"> <p>Hiermee bepaalt u wanneer de taak moet worden uitgevoerd. </p> <p> Kan een <span class="codeph"> cron</span> koord zijn dat de baan op een terugkomende basis in werking stelt. </p> <p>Het programma is altijd relatief ten opzichte van de lokale tijdzone van de server. Zie de IPS documentatie voor het formaat van het douaneschema. </p> </td> 
+   <td colname="col4"> <p>Hiermee bepaalt u wanneer de taak moet worden uitgevoerd. </p> <p> Kan een <span class="codeph"> kraan</span> tekenreeks die de taak op terugkerende basis uitvoert. </p> <p>Het programma is altijd relatief ten opzichte van de lokale tijdzone van de server. Zie de IPS documentatie voor het formaat van het douaneschema. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> beschrijving</span> </span> </td> 
@@ -157,7 +157,7 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`jobHandle`*` | `xsd:string` | Ja | Taakgreep. |
+| jobHandle | `xsd:string` | Ja | Taakgreep. |
 
 ## Voorbeelden {#section-40ac77d14adf4588ba2575be6879b2d2}
 
@@ -186,7 +186,7 @@ Dit codevoorbeeld legt een beeld serend publiceerbaan aan IPS voor en keert een 
 
 ## Notities {#section-0f3078e503a249aeb6f3d662a51f036a}
 
-U kunt hoogstens één van `execTime` en `execSchedule` specificeren. Als geen van beide is geslaagd, wordt de taak onmiddellijk uitgevoerd. U kunt slechts één van het volgende gebruiken:
+U kunt maximaal één van `execTime` en `execSchedule`. Als geen van beide is geslaagd, wordt de taak onmiddellijk uitgevoerd. U kunt slechts één van het volgende gebruiken:
 
 * `imageServingPublishJob`
 * `imageRenderingPublishJob`

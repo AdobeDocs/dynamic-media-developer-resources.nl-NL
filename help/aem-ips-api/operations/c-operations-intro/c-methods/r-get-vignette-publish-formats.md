@@ -2,12 +2,12 @@
 description: getVignetPublishFormats
 solution: Experience Manager
 title: getVignetPublishFormats
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6e56d68e-b5cf-4044-9c58-f8221fa4490f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '61'
 ht-degree: 0%
 
 ---
@@ -29,13 +29,13 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep aan het bedrijf. |
+| companyHandle | `xsd:string` | Ja | De handgreep aan het bedrijf. |
 
 **Output (getVignetPublishFormatsReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`vignetteFormatArray`*` | `types:VignettePublishFormatArray` | Ja | Array met publicatie-indelingen voor vignet. |
+| vignetteFormatArray | `types:VignettePublishFormatArray` | Ja | Array met publicatie-indelingen voor vignet. |
 
 ## Voorbeelden {#section-2cc32b27cc6243b7b3e273cc05996226}
 

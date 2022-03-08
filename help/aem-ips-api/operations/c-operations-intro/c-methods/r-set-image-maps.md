@@ -2,12 +2,12 @@
 description: Hiermee stelt u de afbeelding met hyperlinks in voor een element.
 solution: Experience Manager
 title: setImageMaps
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0c8e6536-0b9c-4fcc-b71f-511afc670089
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
@@ -33,15 +33,15 @@ U moet de afbeeldingen met hyperlinks al hebben gemaakt. Afbeeldingen met hyperl
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Bedrijfshandgreep. |
-| `*`assetHandle`*` | `xsd:string` | Ja | Asset handle. |
-| `*`imageMapArray`*` | `types:ImageMapDefinitionArray` | Ja | Array met vooraf gedefinieerde afbeeldingen met hyperlinks. |
+| companyHandle | `xsd:string` | Ja | Bedrijfshandgreep. |
+| assetHandle | `xsd:string` | Ja | Asset handle. |
+| imageMapArray | `types:ImageMapDefinitionArray` | Ja | Array met vooraf gedefinieerde afbeeldingen met hyperlinks. |
 
 **Output (setImageMapsReturn)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`imageMapHandleArray`*` | `types:HandleArray` | Ja | Een array met grepen voor afbeeldingen met hyperlinks die op het element zijn toegepast. |
+| imageMapHandleArray | `types:HandleArray` | Ja | Een array met grepen voor afbeeldingen met hyperlinks die op het element zijn toegepast. |
 
 ## Voorbeelden {#section-fe2e35662a6a4ee29cf250c9fd180371}
 

@@ -2,12 +2,12 @@
 description: Hiermee stelt u metagegevensvelden voor ICC-profielen in.
 solution: Experience Manager
 title: batchSetIccProfileFields
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d10a30ca-afa7-4ef0-8cef-0329b0068bf3
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -33,18 +33,18 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Verwerk het bedrijf dat de ICC-profielen bevat. |
-| `*`update-array`*` | `xsd:string` | Ja | Array van ICC-profielupdates. |
+| companyHandle | `xsd:string` | Ja | Verwerk het bedrijf dat de ICC-profielen bevat. |
+| update-array | `xsd:string` | Ja | Array van ICC-profielupdates. |
 
 **Output (batchSetIccProfileFields)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Ja | Het aantal ICC-profielvelden is ingesteld. |
-| `*`warningCount`*` | `xsd:int` | Ja | Het aantal waarschuwingen dat wordt gegenereerd wanneer de bewerking probeerde de ICC-profielvelden in te stellen. |
-| `*`errorCount`*` | `xsd:int` | Ja | Het aantal fouten dat wordt gegenereerd wanneer de bewerking probeerde de ICC-profielvelden in te stellen. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nee | De array met details die zijn gekoppeld aan de elementen die waarschuwingen hebben gegenereerd toen de bewerking probeerde de updates toe te passen. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nee | De array met details die zijn gekoppeld aan de elementen die fouten genereerden toen de bewerking probeerde de updates toe te passen. |
+| successCount | `xsd:int` | Ja | Het aantal ICC-profielvelden is ingesteld. |
+| warningCount | `xsd:int` | Ja | Het aantal waarschuwingen dat wordt gegenereerd wanneer de bewerking probeerde de ICC-profielvelden in te stellen. |
+| errorCount | `xsd:int` | Ja | Het aantal fouten dat wordt gegenereerd wanneer de bewerking probeerde de ICC-profielvelden in te stellen. |
+| warningDetailArray | `types:AssetOperationFaultArray` | Nee | De array met details die zijn gekoppeld aan de elementen die waarschuwingen hebben gegenereerd toen de bewerking probeerde de updates toe te passen. |
+| errorDetailArray | `types:AssetOperationFaultArray` | Nee | De array met details die zijn gekoppeld aan de elementen die fouten genereerden toen de bewerking probeerde de updates toe te passen. |
 
 ## Voorbeelden {#section-5dc90cfbd9b1411485b44859032f7cb9}
 

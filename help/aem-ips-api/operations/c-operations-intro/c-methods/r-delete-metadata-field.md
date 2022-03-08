@@ -2,12 +2,12 @@
 description: Hiermee verwijdert u het metagegevensveld van een bedrijf.
 solution: Experience Manager
 title: deleteMetadataField
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1922fc1b-2abc-4d31-985a-65c788af4d46
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,8 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | De greep naar het bedrijf dat het metagegevensveld bevat dat moet worden verwijderd. |
-| `*`fieldHandle`*` | `xsd:string` | Ja | De greep naar het metagegevensveld dat moet worden verwijderd. |
+| companyHandle | `xsd:string` | Ja | De greep naar het bedrijf dat het metagegevensveld bevat dat moet worden verwijderd. |
+| fieldHandle | `xsd:string` | Ja | De greep naar het metagegevensveld dat moet worden verwijderd. |
 
 **Output (deleteMetadataFieldParam)**
 
@@ -39,7 +39,7 @@ IPS API keert geen reactie voor deze verrichting terug.
 
 ## Voorbeelden {#section-e1c474ea91a040609ecd7c2400f4fa3c}
 
-In dit codevoorbeeld wordt het metagegevensveld van een bedrijf verwijderd. Het gebruikt het bedrijfs handvat en meta-gegevenshandvat als gebieden in `deleteMetadataFieldParam` die binnen aan de IPS de dienstenserver van het Web worden overgegaan om deze actie uit te voeren.
+In dit codevoorbeeld wordt het metagegevensveld van een bedrijf verwijderd. De handgreep van het bedrijf en de verwerking van metagegevens worden gebruikt als velden in het dialoogvenster `deleteMetadataFieldParam` overgegaan binnen tot de IPS de dienstenserver van het Web om deze actie uit te voeren.
 
 **Verzoek**
 

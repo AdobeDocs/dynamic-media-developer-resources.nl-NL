@@ -2,12 +2,12 @@
 description: Hiermee stelt u afbeeldingsspecifieke velden in voor een of meer afbeeldingselementen.
 solution: Experience Manager
 title: batchSetImageFields
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 8ea6dbb8-4d32-43e5-961f-31110f983663
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -33,18 +33,18 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | De handgreep naar het bedrijf dat de afbeeldingselementen bevat. |
-| `*`updateArray`*` | `types:ImageFieldUpdateArray` | Ja | De array van afbeeldingsvelden wordt bijgewerkt. |
+| companyHandle | `xsd:string` | Ja | De handgreep naar het bedrijf dat de afbeeldingselementen bevat. |
+| updateArray | `types:ImageFieldUpdateArray` | Ja | De array van afbeeldingsvelden wordt bijgewerkt. |
 
 **Output (batchSetImageFields)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Ja | Het aantal correct ingestelde afbeeldingsvelden. |
-| `*`warningCount`*` | `xsd:int` | Ja | Het aantal waarschuwingen dat wordt gegenereerd wanneer de bewerking heeft geprobeerd de afbeeldingsvelden in te stellen. |
-| `*`errorCount`*` | `xsd:int` | Ja | Het aantal fouten dat wordt gegenereerd toen de bewerking probeerde de afbeeldingsvelden in te stellen. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nee | De array met details die zijn gekoppeld aan de elementen die waarschuwingen hebben gegenereerd toen de bewerking probeerde de updates toe te passen. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nee | De array met details die zijn gekoppeld aan de elementen die fouten genereerden toen de bewerking probeerde de updates toe te passen. |
+| successCount | `xsd:int` | Ja | Het aantal correct ingestelde afbeeldingsvelden. |
+| warningCount | `xsd:int` | Ja | Het aantal waarschuwingen dat wordt gegenereerd wanneer de bewerking heeft geprobeerd de afbeeldingsvelden in te stellen. |
+| errorCount | `xsd:int` | Ja | Het aantal fouten dat wordt gegenereerd toen de bewerking probeerde de afbeeldingsvelden in te stellen. |
+| warningDetailArray | `types:AssetOperationFaultArray` | Nee | De array met details die zijn gekoppeld aan de elementen die waarschuwingen hebben gegenereerd toen de bewerking probeerde de updates toe te passen. |
+| errorDetailArray | `types:AssetOperationFaultArray` | Nee | De array met details die zijn gekoppeld aan de elementen die fouten genereerden toen de bewerking probeerde de updates toe te passen. |
 
 ## Voorbeelden {#section-0476e3d6516a4f8bbaac9de983bc6d1e}
 

@@ -2,12 +2,12 @@
 description: Hiermee stelt u metagegevensvelden voor lettertypen in.
 solution: Experience Manager
 title: batchSetFontFields
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f38aa861-2a81-4663-967e-72611122f51b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
@@ -30,18 +30,18 @@ Hiermee stelt u metagegevensvelden voor lettertypen in.
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Ja | Handle aan het bedrijf dat de doopvonten bevat. |
-| `*`updateArray`*` | `types:FontFieldUpdateArray` | Ja | Array met updates van lettertypevelden. |
+| companyHandle | `xsd:string` | Ja | Handle aan het bedrijf dat de doopvonten bevat. |
+| updateArray | `types:FontFieldUpdateArray` | Ja | Array met updates van lettertypevelden. |
 
 **Output (batchSetFontFieldsParam)**
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Ja | Het aantal lettertypevelden is ingesteld. |
-| `*`warningCount`*` | `xsd:int` | Ja | Het aantal waarschuwingen dat wordt gegenereerd wanneer de bewerking heeft geprobeerd lettertypevelden in te stellen. |
-| `*`errorCount`*` | `xsd:int` | Ja | Het aantal fouten dat wordt gegenereerd wanneer de bewerking heeft geprobeerd lettertypevelden in te stellen. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Nee | De array met details die zijn gekoppeld aan de elementen die waarschuwingen hebben gegenereerd toen de bewerking probeerde de updates toe te passen. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Nee | De array met details die zijn gekoppeld aan de elementen die fouten genereerden toen de bewerking probeerde de updates toe te passen. |
+| successCount | `xsd:int` | Ja | Het aantal lettertypevelden is ingesteld. |
+| warningCount | `xsd:int` | Ja | Het aantal waarschuwingen dat wordt gegenereerd wanneer de bewerking heeft geprobeerd lettertypevelden in te stellen. |
+| errorCount | `xsd:int` | Ja | Het aantal fouten dat wordt gegenereerd wanneer de bewerking heeft geprobeerd lettertypevelden in te stellen. |
+| warningDetailArray | `types:AssetOperationFaultArray` | Nee | De array met details die zijn gekoppeld aan de elementen die waarschuwingen hebben gegenereerd toen de bewerking probeerde de updates toe te passen. |
+| errorDetailArray | `types:AssetOperationFaultArray` | Nee | De array met details die zijn gekoppeld aan de elementen die fouten genereerden toen de bewerking probeerde de updates toe te passen. |
 
 ## Voorbeelden {#section-0449c2e4ec534f4b8ee849ec4fe12c4e}
 

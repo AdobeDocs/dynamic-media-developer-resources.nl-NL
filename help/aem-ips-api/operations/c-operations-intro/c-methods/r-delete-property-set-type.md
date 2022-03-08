@@ -2,12 +2,12 @@
 description: Verwijdert een type eigenschapset en de bijbehorende eigenschapset en eigenschappen.
 solution: Experience Manager
 title: deletePropertySetType
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 97ec0f41-794f-4340-b86d-ab07a742d447
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Syntaxis
 
 | Naam | Type | Vereist | Beschrijving |
 |---|---|---|---|
-| `*`typeHandle`*` | `xsd:string` | Ja | De greep naar het type eigenschapset dat moet worden verwijderd. |
+| typeHandle | `xsd:string` | Ja | De greep naar het type eigenschapset dat moet worden verwijderd. |
 
 **Output (deletePropertySetTypeParam)**
 
@@ -39,7 +39,7 @@ IPS API keert geen reactie voor deze verrichting terug.
 
 ## Voorbeelden {#section-85faa2e3411a4e23aa6489037f7ce078}
 
-Deze codesteekproef gebruikt het handvat van het type als gebied in `deletePropertySetTypeParam` die naar de IPS de dienstenserver van het Web wordt verzonden om het type van bezitsreeks te schrappen.
+In dit codevoorbeeld wordt de greep van het type gebruikt als een veld in het dialoogvenster `deletePropertySetTypeParam` verzonden naar de IPS de dienstenserver van het Web om het bezit te schrappen plaatste type.
 
 **Verzoek**
 
