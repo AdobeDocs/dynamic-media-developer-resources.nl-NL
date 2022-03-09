@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: fa9727dc-f9e2-4d91-b500-445693dfb6aa
-source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2372'
 ht-degree: 0%
@@ -83,7 +83,7 @@ U kunt visuele aanpassing bereiken door aangepaste CSS toe te passen.
 
 Hieronder ziet u een voorbeeld van HTML-code waarmee de viewer in een nieuw venster wordt geopend:
 
-```
+```html {.line-numbers}
 <a href="http://s7d1.scene7.com/s7viewers/html5/VideoViewer.html?asset=Scene7SharedAssets/Glacier_Climber_MP4" target="_blank">Open popup viewer</a>
 ```
 
@@ -120,7 +120,7 @@ U kunt een relatief pad gebruiken als de viewer wordt geïmplementeerd op een va
 
 Relatief pad ziet er als volgt uit:
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/VideoViewer.js"></script>
 ```
 
@@ -141,7 +141,7 @@ Relatief pad ziet er als volgt uit:
 
    Hieronder ziet u een voorbeeld van een gedefinieerd plaatsaanduiding DIV-element:
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative;width:640px;height:360px;"></div> 
    ```
 
@@ -155,7 +155,7 @@ Relatief pad ziet er als volgt uit:
 
    Hieronder ziet u een voorbeeld van het definiëren van een statische viewergrootte in een HTML-pagina:
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7videoviewer { 
     width: 640px; 
     height: 480px; 
@@ -164,7 +164,7 @@ Relatief pad ziet er als volgt uit:
 
    U kunt instellen `stagesize` in de viewervoorinstellingsrecord in Dynamic Media Classic of deze expliciet doorgeven met de viewerinitialisatiecode met `params` verzameling. Of, als API vraag zoals die in de de verwijzingssectie van het Bevel wordt beschreven, zoals in het volgende:
 
-   ```
+   ```html {.line-numbers}
    videoViewer.setParam("stagesize", "640,480");
    ```
 
@@ -180,7 +180,7 @@ Relatief pad ziet er als volgt uit:
 
    Hieronder ziet u een voorbeeld van het maken van een viewer-instantie, het doorgeven van minimaal noodzakelijke configuratieopties aan de constructor en het aanroepen van de `init()` methode. In dit voorbeeld wordt ervan uitgegaan `videoViewer` de viewer-instantie is, `s7viewer` is de naam van de tijdelijke aanduiding `DIV`, [!DNL http://s7d1.scene7.com/is/image/] is de URL van de Beeldserver; [!DNL http://s7d1.scene7.com/is/content/] de URL van de videoserver is, en [!DNL Scene7SharedAssets/Glacier_Climber_MP4] is het actief.
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var videoViewer = new s7viewers.VideoViewer({ 
     "containerId":"s7viewer", 
@@ -195,7 +195,7 @@ Relatief pad ziet er als volgt uit:
 
    De volgende code is een volledig voorbeeld van een triviale webpagina die de Video-viewer insluit met een vaste grootte:
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -227,7 +227,7 @@ Relatief pad ziet er als volgt uit:
 
 Met responsieve ontwerpinsluiting heeft de webpagina normaal gesproken een of andere flexibele indeling die de runtimegrootte van de container van de viewer bepaalt `DIV`. In dit voorbeeld wordt ervan uitgegaan dat de webpagina de container van de viewer toestaat `DIV` om 40% van de grootte van het venster van de Webbrowser te nemen, verlatend zijn hoogte onbeperkt. De HTML-code van de webpagina ziet er als volgt uit:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -251,7 +251,7 @@ Het toevoegen van de viewer aan een dergelijke pagina lijkt op het insluiten van
 
 Alle bovenstaande stappen zijn gelijk aan die bij het insluiten van de vaste grootte. Container toevoegen `DIV` aan de bestaande &quot;houder&quot; `DIV`. De volgende code is een volledig voorbeeld. U kunt zien hoe de grootte van de viewer verandert wanneer de browser wordt aangepast en hoe de hoogte-breedteverhouding van de viewer overeenkomt met het element.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -290,7 +290,7 @@ De volgende voorbeeldpagina illustreert het levensechte gebruik van responsieve 
 
 Als er responsieve ontwerpinsluiting is met gedefinieerde breedte en hoogte, is de opmaak van de webpagina anders. het verstrekt beide grootte aan de &quot; houder&quot; `DIV` en centreer deze in het browservenster. Bovendien stelt de webpagina de grootte van de `HTML` en `BODY` element tot 100%:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -316,7 +316,7 @@ height: 60%;
 
 De overige insluitstappen zijn identiek aan het reageren op ontwerpinsluiting met onbeperkte hoogte. Het resulterende voorbeeld is het volgende:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -359,7 +359,7 @@ In plaats van JSON-gebaseerde initialisatie, is het mogelijk om op setter-gebase
 
 In het volgende voorbeeld wordt het insluiten van een vaste grootte met een setter-API geïllustreerd:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

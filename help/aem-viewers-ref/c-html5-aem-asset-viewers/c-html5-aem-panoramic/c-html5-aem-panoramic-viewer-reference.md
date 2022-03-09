@@ -5,7 +5,7 @@ keywords: responsief
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '1953'
 ht-degree: 0%
@@ -78,7 +78,7 @@ Visuele aanpassing kan worden bereikt door aangepaste CSS toe te passen.
 
 Hier volgt een voorbeeld van HTML-code waarmee de viewer in het nieuwe venster wordt geopend:
 
-```
+```html {.line-numbers}
 <a href="http://s7d1.scene7.com/s7viewers/html5/PanoramicViewer.html?asset=Scene7SharedAssets/PanoramicImage-Sample" target="_blank">Open popup viewer</a>
 ```
 
@@ -115,7 +115,7 @@ U kunt een relatief pad gebruiken als de viewer wordt geïmplementeerd op een va
 
 Relatief pad ziet er als volgt uit:
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/PanoramicViewer.js"></script>
 ```
 
@@ -135,7 +135,7 @@ Relatief pad ziet er als volgt uit:
 
    Hieronder ziet u een voorbeeld van een gedefinieerd plaatsaanduiding DIV-element:
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div> 
    ```
 
@@ -145,7 +145,7 @@ Relatief pad ziet er als volgt uit:
 
    Grootte in CSS kan rechts worden geplaatst op de pagina HTML of in een aangepast CSS-bestand van de viewer, dat later wordt toegewezen aan een viewer-voorinstellingsrecord in AOD of expliciet wordt doorgegeven met de opdracht style. Raadpleeg De sectie Viewer aanpassen voor meer informatie over het opmaken van de viewer met CSS. Hieronder ziet u een voorbeeld van het definiëren van de statische viewergrootte in de pagina HTML:
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7panoramicviewer {
      width: 1024px;
      height: 512px;
@@ -154,7 +154,7 @@ Relatief pad ziet er als volgt uit:
 
    `stagesize` De bepaling kan uitdrukkelijk met de kijker initialisatiecode met paramenteninzameling of als API vraag worden overgegaan zoals die in de sectie van de Verwijzing van het Bevel wordt beschreven, als dit:
 
-   ```
+   ```html {.line-numbers}
    panoramicViewer.setParam("stagesize", "512,256");
    ```
 
@@ -170,7 +170,7 @@ Relatief pad ziet er als volgt uit:
 
    Hieronder ziet u een voorbeeld van het maken van een viewer-instantie, het doorgeven van minimaal noodzakelijke configuratieopties aan de constructor en het aanroepen van de `init()` methode. In dit voorbeeld wordt ervan uitgegaan `panoramicViewer` de viewer-instantie is, `s7viewer` is de naam van de tijdelijke aanduiding `DIV`, [!DNL http://s7d1.scene7.com/is/image/] is de URL van de afbeeldingsserver, en [!DNL Scene7SharedAssets/PanoramicImage-Sample] is het actief.
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var panoramicViewer = new s7viewers.PanoramicViewer({ 
     "containerId":"s7viewer", 
@@ -184,7 +184,7 @@ Relatief pad ziet er als volgt uit:
 
    De volgende code is een volledig voorbeeld van een triviale webpagina die de Panoramische Viewer insluit met een vaste grootte:
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
     <head>
@@ -215,7 +215,7 @@ Relatief pad ziet er als volgt uit:
 
 Met het responsieve insluiten heeft de webpagina normaal gesproken een of andere flexibele indeling die de uitvoeringsgrootte van de container van de viewer DIV instelt. In dit voorbeeld gaan we ervan uit dat de webpagina de container DIV van de viewer toestaat 80% van de venstergrootte van de webbrowser in beslag te nemen, zodat de hoogte onbeperkt blijft. De HTML-code van de webpagina kan er als volgt uitzien:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -239,7 +239,7 @@ Het toevoegen van de viewer aan een dergelijke pagina is vergelijkbaar met het i
 
 Alle bovenstaande stappen zijn gelijk aan die bij het insluiten van de vaste grootte. Container DIV moet worden toegevoegd aan het bestaande &quot;holder&quot; DIV. De volgende code is een volledig voorbeeld. Mogelijk ziet u hoe de grootte van de viewer verandert wanneer de grootte van de browser wordt gewijzigd en hoe de hoogte-breedteverhouding van de viewer overeenkomt met het element.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html>
 <html>
 <head>
@@ -277,7 +277,7 @@ De volgende voorbeeldpagina illustreert het levensechte gebruik van responsieve 
 
 Als er responsieve ontwerpinsluiting is met gedefinieerde breedte en hoogte, is de opmaak van de webpagina anders. het verstrekt beide grootte aan de &quot; houder&quot; `DIV` en centreer deze in het browservenster. Bovendien stelt de webpagina de grootte van de `HTML` en `BODY` element tot 100%:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -303,7 +303,7 @@ height: 60%;
 
 De overige insluitstappen zijn identiek aan het insluiten van responsieve lagen met onbeperkte hoogte. Het resulterende voorbeeld is
 
-```
+```html {.line-numbers}
 <!DOCTYPE html>
 <html>
 <head>
@@ -345,7 +345,7 @@ In plaats van JSON-gebaseerde initialisatie, is het mogelijk om op setter-gebase
 
 In het volgende voorbeeld wordt het insluiten van een vaste grootte met een setter-API geïllustreerd:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html>
 <html>
 <head>

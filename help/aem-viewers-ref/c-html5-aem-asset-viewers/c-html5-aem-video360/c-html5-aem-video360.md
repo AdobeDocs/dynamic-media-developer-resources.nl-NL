@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 74dca3f6-ce89-4c5b-8459-c2c4ca8ed27c
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2569'
 ht-degree: 0%
@@ -100,7 +100,7 @@ U kunt visuele aanpassing bereiken door aangepaste CSS toe te passen.
 
 Hieronder ziet u een voorbeeld van HTML-code waarmee de viewer in een nieuw venster wordt geopend:
 
-```
+```html {.line-numbers}
 <a href="https://s7d9.scene7.com/s7viewers/html5/Video360Viewer.html?asset=Viewers/space_station_360-AVS" target="_blank">Open popup viewer</a>
 ```
 
@@ -137,7 +137,7 @@ U kunt een relatief pad gebruiken als de viewer wordt geïmplementeerd op een va
 
 Het relatieve pad ziet er als volgt uit:
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/etc/dam/viewers/s7viewers/html5/js/InteractiveVideoViewer.js"></script>
 ```
 
@@ -158,7 +158,7 @@ Het relatieve pad ziet er als volgt uit:
 
    Hieronder ziet u een voorbeeld van een gedefinieerde plaatsaanduiding `DIV` element:
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative;width:640px;height:360px;"></div>
    ```
 
@@ -172,7 +172,7 @@ Het relatieve pad ziet er als volgt uit:
 
    Hieronder ziet u een voorbeeld van het definiëren van een statische viewergrootte op de pagina HTML:
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7video360viewer { 
     width: 640px; 
     height: 640px; 
@@ -181,7 +181,7 @@ Het relatieve pad ziet er als volgt uit:
 
    U kunt de `stagesize` in de viewervoorinstellingsrecord in AEM Assets. Op aanvraag. Of u kunt deze expliciet doorgeven met de initialisatiecode van de viewer met `params` verzameling, of als API-aanroep zoals beschreven in de sectie Opdrachtverwijzing, als volgt:
 
-   ```
+   ```html {.line-numbers}
    video360viewer.setParam("stagesize", "640,640");
    ```
 
@@ -205,7 +205,7 @@ Het relatieve pad ziet er als volgt uit:
    * De URL van de videoserver is `https://s7d9.scene7.com/is/content`.
    * Het element is `Viewers/space_station_360-AVS`.
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var video360Viewer = new s7viewers.Video360Viewer({ 
     "containerId":"s7viewer", 
@@ -220,7 +220,7 @@ Het relatieve pad ziet er als volgt uit:
 
    De volgende code is een volledig voorbeeld van een triviale webpagina die de Video360 Viewer insluit met een vaste grootte:
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -252,7 +252,7 @@ Het relatieve pad ziet er als volgt uit:
 
 Bij responsieve ontwerpinsluiting heeft de webpagina normaal gesproken een flexibele indeling die de runtimegrootte van de container van de viewer bepaalt `DIV`. In het volgende voorbeeld wordt ervan uitgegaan dat de webpagina de container van de viewer toestaat `DIV` om 40% van de grootte van het venster van de Webbrowser te nemen, verlatend zijn hoogte onbeperkt. De HTML-code van de webpagina ziet er als volgt uit:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -276,7 +276,7 @@ Het toevoegen van de viewer aan een dergelijke pagina is vergelijkbaar met de st
 
 Alle bovenstaande stappen zijn gelijk aan die bij het insluiten van de vaste grootte. De container DIV toevoegen aan het bestaande `"holder"` DIV. De volgende code is een volledig voorbeeld. U ziet hoe de grootte van de viewer verandert wanneer de grootte van de browser wordt gewijzigd en hoe de hoogte-breedteverhouding van de viewer overeenkomt met het element.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -309,7 +309,7 @@ var video360Viewer = new s7viewers.Video360Viewer({
 
 Als er responsieve insluiting is waarbij breedte en hoogte zijn gedefinieerd, is de opmaak van de webpagina anders. Het verstrekt beide grootte aan `"holder"` DIV en centreer het in het browser venster. Bovendien stelt de webpagina de grootte van de `HTML` en `BODY` element aan 100 percenten.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -335,7 +335,7 @@ height: 60%;
 
 De overige insluitingsstappen zijn identiek aan de stappen die worden gebruikt voor het insluiten van responsieve lagen met onbeperkte hoogte. Het resulterende voorbeeld is het volgende:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -378,7 +378,7 @@ In plaats van JSON-gebaseerde initialisatie, is het mogelijk om op setter-gebase
 
 In het volgende voorbeeld wordt het gebruik van insluiting met een vaste grootte met de op een setter gebaseerde API geïllustreerd:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

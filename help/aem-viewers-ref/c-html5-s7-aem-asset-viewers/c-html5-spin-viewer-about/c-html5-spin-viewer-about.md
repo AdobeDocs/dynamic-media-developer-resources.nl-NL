@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 4c802d42-ea5b-4f28-b6ef-2689aa16839d
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2130'
 ht-degree: 0%
@@ -96,9 +96,8 @@ U kunt visuele aanpassing bereiken door aangepaste CSS toe te passen.
 
 Hieronder ziet u een voorbeeld van HTML-code waarmee de viewer in een nieuw venster wordt geopend:
 
-```
-<a 
-href="https://s7d1.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&stagesize=500,400" 
+```html {.line-numbers}
+<a href="https://s7d1.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&stagesize=500,400" 
 target="_blank">Open popup viewer</a>
 ```
 
@@ -135,7 +134,7 @@ U voegt de Spin Viewer als volgt toe aan een webpagina:
 
    Het relatieve pad ziet er als volgt uit:
 
-   ```
+   ```html {.line-numbers}
     <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/SpinViewer.js"></script>
    ```
 
@@ -154,7 +153,7 @@ U voegt de Spin Viewer als volgt toe aan een webpagina:
 
    Hieronder ziet u een voorbeeld van een gedefinieerd plaatsaanduiding DIV-element:
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div>
    ```
 
@@ -168,7 +167,7 @@ U voegt de Spin Viewer als volgt toe aan een webpagina:
 
    Hieronder ziet u een voorbeeld van het definiëren van een statische viewergrootte in een HTML-pagina:
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7spinviewer { 
     width: 640px; 
     height: 480px; 
@@ -177,7 +176,7 @@ U voegt de Spin Viewer als volgt toe aan een webpagina:
 
    U kunt de `stagesize` in de viewervoorinstellingsrecord in Dynamic Media Classic. Of u kunt deze expliciet doorgeven met de initialisatiecode van de viewer met `params` verzameling, of als een API-aanroep zoals beschreven in de sectie Opdrachtverwijzing, zoals hieronder:
 
-   ```
+   ```html {.line-numbers}
     spinViewer.setParam("stagesize", 
    "640,480");
    ```
@@ -194,7 +193,7 @@ U voegt de Spin Viewer als volgt toe aan een webpagina:
 
    Hieronder ziet u een voorbeeld van het maken van een viewer-instantie, het doorgeven van de minimaal benodigde configuratieopties aan de constructor en het aanroepen van de `init()` methode. In het voorbeeld wordt ervan uitgegaan `spinViewer` de viewer-instantie is, `s7viewer` is de naam van de tijdelijke aanduiding `DIV`, [!DNL http://s7d1.scene7.com/is/image/] is de URL van de afbeeldingsserver, en [!DNL Scene7SharedAssets/SpinSet_Sample] is het actief.
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var spinViewer = new s7viewers.SpinViewer({ 
     "containerId":"s7viewer", 
@@ -208,7 +207,7 @@ U voegt de Spin Viewer als volgt toe aan een webpagina:
 
    De volgende code is een volledig voorbeeld van een triviale webpagina die de Spin Viewer insluit met een vaste grootte:
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -239,7 +238,7 @@ U voegt de Spin Viewer als volgt toe aan een webpagina:
 
 Bij responsieve ontwerpinsluiting heeft de webpagina normaal gesproken een flexibele indeling die de runtimegrootte van de container van de viewer bepaalt `DIV`. In dit voorbeeld wordt ervan uitgegaan dat de webpagina de container van de viewer toestaat `DIV` om 40% van de grootte van het venster van de Webbrowser te nemen, verlatend zijn hoogte onbeperkt. De resulterende HTML code van de webpagina ziet er als volgt uit:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -263,7 +262,7 @@ Het toevoegen van de viewer aan een dergelijke pagina lijkt op het insluiten van
 
 Alle bovenstaande stappen zijn gelijk aan het insluiten van een vaste grootte. De container toevoegen `DIV` aan de bestaande &quot;houder&quot; `DIV`. De volgende code is een volledig voorbeeld. U kunt zien hoe de grootte van de viewer verandert wanneer de browser wordt aangepast en hoe de hoogte-breedteverhouding van de viewer overeenkomt met het element.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -301,7 +300,7 @@ De volgende voorbeeldpagina illustreert hoe u in de praktijk meer gevallen kunt 
 
 Als er insluiting in flexibele grootte is waarbij de breedte en hoogte zijn gedefinieerd, is de opmaak van de webpagina anders. Met andere woorden: de houder krijgt beide grootten `DIV` en centreert het in het browservenster. Bovendien stelt de webpagina de grootte van de `HTML` en `BODY` element tot 100%:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -327,7 +326,7 @@ height: 60%;
 
 De overige insluitstappen zijn identiek aan het reageren op ontwerpinsluiting met onbeperkte hoogte. Het resulterende voorbeeld is het volgende:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -369,7 +368,7 @@ In plaats van JSON-gebaseerde initialisatie is het mogelijk om setter-gebaseerde
 
 In het volgende voorbeeld wordt het insluiten van een vaste grootte met een setter-API getoond:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

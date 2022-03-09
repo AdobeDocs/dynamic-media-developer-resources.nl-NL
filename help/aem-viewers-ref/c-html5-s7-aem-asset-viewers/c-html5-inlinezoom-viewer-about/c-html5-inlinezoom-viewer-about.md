@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 33e661b0-be5e-4d37-af88-47f7bc433c01
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2385'
 ht-degree: 0%
@@ -90,7 +90,7 @@ Het is ook noodzakelijk om de component FlyoutZoomView te hebben die wordt gevor
 
 Hier volgt een voorbeeld van een HTML-code waarmee de viewer in een nieuw venster wordt geopend:
 
-```
+```html {.line-numbers}
  <a href="http://s7d1.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&config=Scene7SharedAssets/Universal_HTML5_Zoom_Inline"target="_blank">Open popup viewer</a>
 ```
 
@@ -129,7 +129,7 @@ U kunt een relatief pad gebruiken als de viewer wordt geïmplementeerd op een va
 
 Een relatief pad ziet er als volgt uit:
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/FlyoutViewer.js"></script>
 ```
 
@@ -150,7 +150,7 @@ Een relatief pad ziet er als volgt uit:
 
    Hieronder ziet u een voorbeeld van een gedefinieerd plaatsaanduiding DIV-element:
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative;z-index:1"></div> 
    ```
 
@@ -164,7 +164,7 @@ Een relatief pad ziet er als volgt uit:
 
    Hieronder ziet u een voorbeeld van het definiëren van de statische buitenste viewergrootte in een HTML-pagina:
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7flyoutviewer { 
     width: 640px; 
     height: 480px; 
@@ -179,7 +179,7 @@ Een relatief pad ziet er als volgt uit:
 
    Hieronder ziet u een voorbeeld van het definiëren van de viewergrootte voor de binnenzijde `Container` SDK-component, zodat het hoofdweergavegebied niet van grootte verandert wanneer u van element verandert:
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7flyoutviewer { 
     width: auto; 
     height: auto; 
@@ -206,7 +206,7 @@ Een relatief pad ziet er als volgt uit:
 
    Hieronder ziet u een voorbeeld van het maken van een viewer-instantie, het doorgeven van de minimaal benodigde configuratieopties aan de constructor en het aanroepen van de `init()` methode. In het voorbeeld wordt ervan uitgegaan `inlineZoomViewer` de viewer-instantie is; `s7viewer` is de naam van de tijdelijke aanduiding `DIV`; `http://s7d1.scene7.com/is/image/` is de URL van de afbeeldingsserver; en `Scene7SharedAssets/ImageSet-Views-Sample` is het actief:
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var inlineZoomViewer = new s7viewers.FlyoutViewer({ 
     "containerId":"s7viewer", 
@@ -222,7 +222,7 @@ Een relatief pad ziet er als volgt uit:
 
    De volgende code is een volledig voorbeeld van een triviale webpagina die de Inline Zoom Viewer insluit met een vaste grootte:
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -254,7 +254,7 @@ Een relatief pad ziet er als volgt uit:
 
 Bij responsieve ontwerpinsluiting heeft de webpagina normaal gesproken een flexibele indeling die de runtimegrootte van de container van de viewer bepaalt `DIV`. In het volgende voorbeeld wordt ervan uitgegaan dat de webpagina de container van de viewer toestaat `DIV` om 40% van de grootte van het venster van de Webbrowser te nemen, verlatend zijn hoogte onbeperkt. De HTML-code van de webpagina ziet er als volgt uit:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -283,7 +283,7 @@ Alle bovenstaande stappen zijn gelijk aan de stappen voor de insluiting van een 
 * added `imagereload` parameter met expliciete onderbrekingspunten;
 * in plaats van een vaste viewergrootte in te stellen met absolute eenheden gebruikt u CSS die de viewer instelt `width` en `height` tot 100% zoals hieronder:
 
-```
+```html {.line-numbers}
 #s7viewer.s7flyoutviewer { 
  width: 100%; 
  height: 100%; 
@@ -292,7 +292,7 @@ Alle bovenstaande stappen zijn gelijk aan de stappen voor de insluiting van een 
 
 De volgende code is een volledig voorbeeld. U ziet hoe de grootte van de viewer verandert wanneer de browser wordt aangepast en hoe de hoogte-breedteverhouding van de viewer overeenkomt met het element.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -337,7 +337,7 @@ De volgende voorbeeldpagina illustreert het levensechte gebruik van responsieve 
 
 Als er insluiting in flexibele grootte is waarbij de breedte en hoogte zijn gedefinieerd, is de opmaak van de webpagina anders. Het verstrekt beide grootte aan `"holder"` DIV en centreert het in het browser venster. Bovendien stelt de webpagina de grootte van de `HTML` en `BODY` element aan 100 percenten.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -363,7 +363,7 @@ height: 60%;
 
 De overige insluitingsstappen zijn identiek aan de stappen die worden gebruikt voor responsieve ontwerpinsluiting met onbeperkte hoogte. Het resulterende voorbeeld is het volgende:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -412,7 +412,7 @@ In plaats van JSON-gebaseerde initialisatie, is het mogelijk om op setter-gebase
 
 In het volgende voorbeeld wordt het gebruik van insluiting op vaste grootte met een setter-API geïllustreerd:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

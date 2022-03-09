@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 3a798595-6c65-4a12-983d-3cdc53830d28
-source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ De Viewer SDK bevat een set JavaScript-componenten voor de ontwikkeling van aang
 
 De SDK biedt bijvoorbeeld interactief zoomen en pannen. Het biedt ook een weergave van 360° en het afspelen van video&#39;s van elementen die via de back-end toepassing Dynamic Media Classic naar Adobe Dynamic Media zijn geüpload.
 
-Hoewel de componenten afhankelijk zijn van HTML5-functionaliteit, zijn ze ontworpen voor gebruik op Android™- en Apple iOS-apparaten en desktops, waaronder Internet Explorer en hoger. Dit soort ervaring betekent dat u één workflow kunt bieden voor alle ondersteunde platforms.
+Hoewel de componenten afhankelijk zijn van de HTML5-functionaliteit, zijn ze ontworpen om te werken op Android™- en Apple iOS-apparaten en desktops, waaronder Internet Explorer en hoger. Dit soort ervaring betekent dat u één workflow kunt bieden voor alle ondersteunde platforms.
 
-De SDK bestaat uit UI-componenten waaruit viewerinhoud bestaat. U kunt deze componenten opmaken via CSS en niet-UI-componenten die een ondersteunende rol hebben, zoals het ophalen en parseren of bijhouden van definities. Alle componentgedrag is aanpasbaar via wijzigingstoetsen die u op verschillende manieren kunt opgeven, bijvoorbeeld als `name=value` paren in de URL.
+De SDK bestaat uit UI-componenten waaruit viewerinhoud bestaat. U kunt deze componenten opmaken via CSS en niet-UI-componenten die een ondersteunende rol hebben, zoals het ophalen en parseren of bijhouden van definities. Alle componentgedragingen zijn aanpasbaar via wijzigingstoetsen die u op verschillende manieren kunt opgeven, bijvoorbeeld `name=value` paren in de URL.
 
 Deze zelfstudie bevat de volgende taakvolgorde om u te helpen een standaardzoomviewer te maken:
 
@@ -44,9 +44,9 @@ Deze zelfstudie bevat de volgende taakvolgorde om u te helpen een standaardzoomv
 
 1. Maak eerst een nieuwe pagina voor de ontwikkeling van de standaardzoomviewer die u gaat maken.
 
-   Bekijk deze nieuwe pagina met de Bootstrap- of loader-code die u gebruikt om een lege SDK-toepassing in te stellen. Open uw favoriete teksteditor en plak de volgende HTML-opmaak in deze editor:
+   Bekijk deze nieuwe pagina met de Bootstrap- of loader-code die u gebruikt om een lege SDK-toepassing in te stellen. Open uw favoriete tekstverwerker en plak de volgende HTML-opmaakcode in deze editor:
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
        <head> 
@@ -79,9 +79,9 @@ Deze zelfstudie bevat de volgende taakvolgorde om u te helpen een standaardzoomv
    </html>
    ```
 
-   Voeg de volgende JavaScript-code toe aan de tag `script`, zodat de tag `ParameterManager` wordt geïnitialiseerd. Zo kunt u voorbereiden op het maken en instantiëren van SDK-componenten in de functie `initViewer`:
+   Voeg de volgende JavaScript-code toe in de `script` -tag wordt geïnitialiseerd `ParameterManager`. Zo kunt u zich voorbereiden op het maken en instantiëren van SDK-componenten in het dialoogvenster `initViewer` functie:
 
-   ```
+   ```javascript {.line-numbers}
    /* We create a self-running anonymous function to encapsulate variable scope. Placing code inside such 
       a function is optional, but this prevents variables from polluting the global object.  */ 
    (function () { 
@@ -123,9 +123,9 @@ Voeg nu stijl toe aan uw viewer.
 
 1. Voor deze viewer voor volledige pagina&#39;s die u maakt, kunt u enkele basisstijlen toevoegen.
 
-   Voeg het volgende `style` blok aan de bodem van `head` toe:
+   Voeg het volgende toe `style` van het blok aan de bodem van `head`:
 
-   ```
+   ```html {.line-numbers}
    <style> 
        html, body { 
            width: 100%; 
@@ -142,15 +142,15 @@ Voeg nu stijl toe aan uw viewer.
    </style>
    ```
 
-Neem nu de componenten `Container` en `ZoomView` op.
+Neem nu de componenten op `Container` en `ZoomView`.
 
 ## Inclusief container en ZoomView {#section-1a01730663154a508b88cc40c6f35539}
 
-1. Maak een werkelijke viewer door de componenten `Container` en `ZoomView` op te nemen.
+1. Een werkelijke viewer maken door de componenten op te nemen `Container` en `ZoomView`.
 
-   Voeg de volgende `include` instructies toe onder aan het element `<head>`—nadat het script [!DNL Utils.js] is geladen:
+   Het volgende invoegen `include` instructies onder aan het dialoogvenster `<head>` element—na het [!DNL Utils.js] script is geladen:
 
-   ```
+   ```javascript {.line-numbers}
    <!-- 
        Add an "include" statement with a related module for each component that is needed for that particular  
        viewer. Check API documentation to see a complete list of components and their modules. 
@@ -163,15 +163,15 @@ Neem nu de componenten `Container` en `ZoomView` op.
 
 1. Maak nu variabelen om te verwijzen naar de verschillende SDK-componenten.
 
-   Voeg de volgende variabelen aan de bovenkant van de belangrijkste anonieme functie, enkel boven `s7sdk.Util.init()` toe:
+   Voeg de volgende variabelen aan de bovenkant van de belangrijkste anonieme functie, enkel boven toe `s7sdk.Util.init()`:
 
-   ```
+   ```javascript {.line-numbers}
    var container, zoomView;
    ```
 
-1. Voeg het volgende in de functie `initViewer` in, zodat u enkele modifiers kunt definiëren en de respectievelijke componenten kunt instantiëren:
+1. Plaats het volgende in het dialoogvenster `initViewer` zodat u enkele modifiers kunt definiëren en de respectievelijke componenten kunt instantiëren:
 
-   ```
+   ```javascript {.line-numbers}
    /* Modifiers can be added directly to ParameterManager instance */ 
    params.push("serverurl", "http://s7d1.scene7.com/is/image"); 
    params.push("asset", "Scene7SharedAssets/ImageSet-Views-Sample"); 
@@ -190,9 +190,9 @@ Neem nu de componenten `Container` en `ZoomView` op.
    resizeViewer(container.getWidth(), container.getHeight());
    ```
 
-1. Voeg een gebeurtenishandler `containerResize` en een hulplijnfunctie toe voor een correcte uitvoering van de bovenstaande code:
+1. Voor een correcte uitvoering van de bovenstaande code voegt u een `containerResize` gebeurtenishandler en een hulpfunctie:
 
-   ```
+   ```javascript {.line-numbers}
    /* Event handler for s7sdk.event.ResizeEvent.COMPONENT_RESIZE events dispatched by Container to resize 
       various view components included in this viewer. */ 
    function containerResize(event) { 
@@ -209,30 +209,30 @@ Neem nu de componenten `Container` en `ZoomView` op.
 
    ![Voorbeeld van één afbeelding](assets/viewer-1.jpg)
 
-Voeg nu de componenten `MediaSet` en `Swatches` aan uw kijker toe.
+Voeg nu de componenten toe `MediaSet` en `Swatches` naar uw viewer.
 
 ## Componenten MediaSet en Stalen toevoegen aan uw viewer {#section-02b8c21dd842400e83eae2a48ec265b7}
 
-1. Als u gebruikers de mogelijkheid wilt geven afbeeldingen uit een set te selecteren, kunt u de componenten `MediaSet` en `Swatches` toevoegen.
+1. Als u gebruikers de mogelijkheid wilt geven om afbeeldingen uit een set te selecteren, kunt u de componenten toevoegen `MediaSet` en `Swatches`.
 
    Voeg de volgende SDK toe:
 
-   ```
+   ```javascript {.line-numbers}
    s7sdk.Util.lib.include('s7sdk.set.MediaSet'); 
    s7sdk.Util.lib.include('s7sdk.set.Swatches');
    ```
 
 1. Werk de lijst met variabelen als volgt bij:
 
-   ```
+   ```javascript {.line-numbers}
    var mediaSet, container, zoomView, swatches;
    ```
 
-1. Instantiëren van `MediaSet`- en `Swatches`-componenten binnen de functie `initViewer`.
+1. Instantiëren `MediaSet` en `Swatches` componenten binnen de `initViewer` functie.
 
-   Instantieer de `Swatches`-instantie na de componenten `ZoomView` en `Container`, anders verbergt de stapelvolgorde `Swatches`:
+   Instantieer de opdracht `Swatches` instantie na de `ZoomView` en `Container` de componenten, anders verbergt de het stapelen orde `Swatches`:
 
-   ```
+   ```javascript {.line-numbers}
    // Create MediaSet to manage assets and add event listener to the NOTF_SET_PARSED event 
    mediaSet = new s7sdk.set.MediaSet(null, params, "mediaSet"); 
    
@@ -246,7 +246,7 @@ Voeg nu de componenten `MediaSet` en `Swatches` aan uw kijker toe.
 
 1. Voeg nu de volgende gebeurtenishandlerfuncties toe:
 
-   ```
+   ```javascript {.line-numbers}
    /* Event handler for the s7sdk.event.AssetEvent.NOTF_SET_PARSED event dispatched by MediaSet to 
       assign the asset to the Swatches when parsing is complete. */ 
    function onSetParsed(e) { 
@@ -266,9 +266,9 @@ Voeg nu de componenten `MediaSet` en `Swatches` aan uw kijker toe.
    }
    ```
 
-1. Plaats de stalen onder aan de viewer door de volgende CSS toe te voegen aan het element `style`:
+1. Plaats de stalen onder aan de viewer door de volgende CSS toe te voegen aan de `style` element:
 
-   ```
+   ```CSS {.line-numbers}
    /* Align swatches to bottom of viewer */ 
    .s7swatches { 
        bottom: 0; 
@@ -280,9 +280,9 @@ Voeg nu de componenten `MediaSet` en `Swatches` aan uw kijker toe.
 
 1. Geef een voorvertoning van uw viewer weer.
 
-   De stalen bevinden zich linksonder in de viewer. Als u wilt dat de stalen de volledige viewerbreedte beslaan, voegt u een aanroep toe om de stalen handmatig te vergroten of te verkleinen wanneer de gebruiker de grootte van de browser wijzigt. Voeg het volgende toe aan de functie `resizeViewer`:
+   De stalen bevinden zich linksonder in de viewer. Als u wilt dat de stalen de volledige viewerbreedte beslaan, voegt u een aanroep toe om de stalen handmatig te vergroten of te verkleinen wanneer de gebruiker de grootte van de browser wijzigt. Voeg het volgende toe aan de `resizeViewer` functie:
 
-   ```
+   ```javascript {.line-numbers}
    swatches.resize(width, swatches.getHeight());
    ```
 
@@ -298,21 +298,21 @@ Voeg nu knoppen voor inzoomen, uitzoomen en het opnieuw instellen van zoomen toe
 
    Voeg de volgende knopcomponenten toe:
 
-   ```
+   ```CSS {.line-numbers}
    s7sdk.Util.lib.include('s7sdk.common.Button');
    ```
 
 1. Werk de lijst met variabelen als volgt bij:
 
-   ```
+   ```javascript {.line-numbers}
    var mediaSet, container, zoomView, swatches, zoomInButton, zoomOutButton, zoomResetButton;
    ```
 
-1. Instantiëren van knoppen onder aan de functie `initViewer`.
+1. Instantieknoppen onder aan `initViewer` functie.
 
-   Onthoud dat de volgorde van belang is, tenzij u `z-index` opgeeft in CSS:
+   Onthoud dat de volgorde van belang is, tenzij u de optie `z-index` in CSS:
 
-   ```
+   ```CSS {.line-numbers}
    /* Create Zoom In, Zoom Out and Zoom Reset buttons */ 
    zoomInButton  = new s7sdk.common.ZoomInButton("s7container", params, "zoomInBtn"); 
    zoomOutButton = new s7sdk.common.ZoomOutButton("s7container", params, "zoomOutBtn"); 
@@ -324,9 +324,9 @@ Voeg nu knoppen voor inzoomen, uitzoomen en het opnieuw instellen van zoomen toe
    zoomResetButton.addEventListener("click", function() { zoomView.zoomReset(); });
    ```
 
-1. Definieer nu enkele basisstijlen voor de knoppen door het volgende toe te voegen aan het `style`-blok boven aan het bestand:
+1. Definieer nu enkele basisstijlen voor de knoppen door het volgende toe te voegen aan de knop `style` blok boven aan het bestand:
 
-   ```
+   ```CSS {.line-numbers}
    /* define styles common to all button components and their sub-classes */ 
    .s7button { 
        position:absolute; 
@@ -358,23 +358,23 @@ Voeg nu knoppen voor inzoomen, uitzoomen en het opnieuw instellen van zoomen toe
 
 ## De stalen verticaal configureren {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
 
-1. U kunt modifiers op de `ParameterManager` instantie direct vormen.
+1. U kunt wijzigingstoetsen op het `ParameterManager` -instantie.
 
-   Voeg het volgende toe boven aan de functie `initViewer` zodat u de `Swatches` duimlay-out als één enkele rij kunt vormen:
+   Voeg het volgende toe aan de bovenkant van `initViewer` zodat u de `Swatches` duimlay-out als één enkele rij:
 
-   ```
+   ```javascript {.line-numbers}
    params.push("Swatches.tmblayout", "1,0");
    ```
 
-1. Werk volgende resize vraag binnen `resizeViewer` bij:
+1. Werk volgende resize vraag binnen bij `resizeViewer`:
 
-   ```
+   ```javascript {.line-numbers}
    swatches.resize(swatches.getWidth(), height);
    ```
 
-1. Bewerk de volgende `s7swatches`-regel in `ZoomViewer.css`:
+1. Het volgende bewerken `s7swatches` regel in `ZoomViewer.css`:
 
-   ```
+   ```CSS {.line-numbers}
    .s7swatches { 
        top:0 ; 
        bottom: 0; 

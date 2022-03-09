@@ -2,12 +2,12 @@
 description: De attributen van de configuratie worden bepaald als attributen direct op een element IMG dat de Responsieve bibliotheek van het Beeld beheert. Elke afbeelding kan een eigen set kenmerken hebben.
 solution: Experience Manager
 title: Command reference - Configuration attributes
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8cc645f8-03fe-4ac7-b23f-36536b60fdf6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ De attributen van de configuratie worden bepaald als attributen direct op een el
 
 Optioneel.
 
-URL naar de afbeelding die wordt weergegeven in de afbeeldingsserver. Als de URL niet aanwezig is, gebruikt de bibliotheek de waarde die in `src` attribuut als val terug wordt geplaatst. Dit kenmerk dient voor de eerste afbeelding en de dynamische afbeelding die in de bibliotheek met responsieve afbeeldingen vanaf verschillende locaties wordt beheerd.
+URL naar de afbeelding die wordt weergegeven in de afbeeldingsserver. Als de URL niet aanwezig is, gebruikt de bibliotheek de waarde die is ingesteld in `src` kenmerk als fallback. Dit kenmerk dient voor de eerste afbeelding en de dynamische afbeelding die in de bibliotheek met responsieve afbeeldingen vanaf verschillende locaties wordt beheerd.
 
 **Voorbeeld**
 
@@ -30,13 +30,13 @@ URL naar de afbeelding die wordt weergegeven in de afbeeldingsserver. Als de URL
 
 ## src {#section-5dbc1f9a3c274705adb9702e4c7af0b1}
 
-Als `data-src` is ingesteld, is `src` optioneel en kan het elke URL bevatten die u wilt toevoegen. Het kan bijvoorbeeld een URL bevatten naar dezelfde afbeelding die op afbeeldingsserver is gebaseerd en die door de bibliotheek wordt gebruikt. Of het bestand kan een tijdelijke GIF-aanduiding of zelfs een gegevens-URI bevatten om te voorkomen dat bij het opstarten een extra server-round-trip plaatsvindt.
+Indien `data-src` is ingesteld, `src` is optioneel en kan elke URL bevatten die u wilt toevoegen. Het kan bijvoorbeeld een URL bevatten naar dezelfde afbeelding die op afbeeldingsserver is gebaseerd en die door de bibliotheek wordt gebruikt. Of het formulier kan een tijdelijke aanduiding voor GIFFEN of zelfs een gegevens-URI bevatten om te voorkomen dat er bij het opstarten een extra tijdelijke conversie van de server plaatsvindt.
 
-Als `data-src` niet is ingesteld, is `src` verplicht en moet  een URL bevatten naar de afbeelding die de afbeeldingsserver bevat.
+Indien `data-src` niet is ingesteld, `src` is verplicht en moet een URL bevatten naar de afbeelding die in Image Serving wordt weergegeven.
 
 **Voorbeeld**
 
-Gegevens-URI gebruiken voor het kenmerk `src` en URL voor afbeeldingsserver voor het kenmerk `data-src`:
+De gegevens-URI gebruiken voor de `src` kenmerk en URL voor afbeeldingsservice voor de `data-src` kenmerk:
 
 ```
 <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
@@ -44,13 +44,13 @@ Gegevens-URI gebruiken voor het kenmerk `src` en URL voor afbeeldingsserver voor
 
 ## data-breakpoints {#section-3bf62a89ff3e40569848c1fe3ac7886c}
 
-Een door komma&#39;s gescheiden lijst met onderbrekingspunten en optioneel gevolgd door een dubbele punt ( `:`) en opdrachten voor het bedienen van afbeeldingen of voorinstellingen voor afbeeldingen. Elk onderbrekingspunt is een waarde van de beeldbreedte die in logische CSS pixel wordt bepaald. De bibliotheek laadt de afbeelding met de dichtstbijzijnde grotere waarde uit de lijst en verkleint deze op de client, zodat deze overeenkomt met de breedte van de CSS-afbeelding bij uitvoering. (Als u op een scherm met hoge dichtheid werkt, vertegenwoordigen afbeeldingsuitvoeringen die vanaf de server worden geladen, onderbrekingspuntwaarden vermenigvuldigd met de pixelverhouding van het apparaat).
+Een door komma&#39;s gescheiden lijst met onderbrekingspunten en optioneel gevolgd door een dubbele punt ( `:`) en opdrachten of Voorinstellingen afbeelding voor Beeldserver. Elk onderbrekingspunt is een waarde van de beeldbreedte die in logische CSS pixel wordt bepaald. De bibliotheek laadt de afbeelding met de dichtstbijzijnde grotere waarde uit de lijst en verkleint deze op de client, zodat deze overeenkomt met de breedte van de CSS-afbeelding bij uitvoering. (Als u op een scherm met hoge dichtheid werkt, vertegenwoordigen afbeeldingsuitvoeringen die vanaf de server worden geladen, onderbrekingspuntwaarden vermenigvuldigd met de pixelverhouding van het apparaat).
 
 Voor elk onderbrekingspunt in de lijst kunt u een of meer opdrachten of namen van voorinstellingen voor afbeeldingen definiëren. Dergelijke extra parameters worden alleen toegepast op de afbeelding als dit specifieke onderbrekingspunt momenteel actief is.
 
-U kunt om het even welke gesteunde bevel van de Beeldserver van het Beeld behalve die meningsbevelen gebruiken die de grootte van het reactiebeeld, zoals `wid=`, `hei=`, of `scl=` beïnvloeden. Dezelfde beperking geldt voor voorinstellingen afbeelding: Een voorinstelling voor afbeeldingen die wordt gebruikt in de bibliotheek met responsieve afbeeldingen mag dergelijke opdrachten niet bevatten.
+U kunt elke ondersteunde opdracht Beeldverwerking gebruiken, behalve de weergaveopdrachten die invloed hebben op de grootte van de reactieafbeelding, zoals `wid=`, `hei=`, of `scl=`. Dezelfde beperking geldt voor voorinstellingen afbeelding: Een voorinstelling voor afbeeldingen die wordt gebruikt in de bibliotheek met responsieve afbeeldingen mag dergelijke opdrachten niet bevatten.
 
-Meerdere opdrachten voor Beeldbewerking of namen van voorinstellingen voor afbeelding worden gescheiden door het teken &quot; `&`&quot;. Als de waarde van een opdracht Beeldbewerking komma&#39;s bevat, wordt een dergelijke komma vervangen door `%2C`. Namen van voorinstellingen voor afbeelding worden omwikkeld in dollartekens ( `$`).
+Meerdere opdrachten voor het leveren van afbeeldingen of namen van voorinstellingen voor afbeeldingen worden gescheiden met &quot; `&`&quot; teken. Als de waarde van een opdracht Beeldbewerking komma&#39;s bevat, wordt deze komma vervangen door `%2C`. Namen van voorinstellingen voor afbeelding worden omwikkeld in dollartekens ( `$`).
 
 **Voorbeelden**
 
@@ -74,23 +74,23 @@ Meerdere opdrachten voor Beeldbewerking of namen van voorinstellingen voor afbee
 
 De volgende twee modi voor slim uitsnijden zijn beschikbaar in AEM 6.4 en hoger en Dynamic Media Viewers 5.9 en hoger:
 
-* **Handmatig**  door de gebruiker gedefinieerde onderbrekingspunten en de bijbehorende opdrachten voor Image Service worden gedefinieerd binnen een kenmerk in het afbeeldingselement.
-* **Smart Crop**  - berekende Smart Crop-uitvoeringen worden automatisch opgehaald van de leveringsserver. De beste vertoning wordt geselecteerd gebruikend de runtime grootte van het beeldelement.
+* **Handmatig** - door de gebruiker gedefinieerde onderbrekingspunten en de bijbehorende opdrachten in Image Service worden gedefinieerd binnen een kenmerk in het afbeeldingselement.
+* **Slim uitsnijden** - berekende slimme uitsnijdingen worden automatisch opgehaald van de leveringsserver. De beste vertoning wordt geselecteerd gebruikend de runtime grootte van het beeldelement.
 
-Als u de modus Slim uitsnijden wilt gebruiken, stelt u het kenmerk `data-mode` in op `smart crop`.
+Als u de modus Slim uitsnijden wilt gebruiken, stelt u de optie `data-mode` kenmerk naar `smart crop`.
 
 **Voorbeeld**
 
-```
+```html {.line-numbers}
 <img 
 src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" 
 data-src="https://imageserver.com/is/image/ExampleCo/SmartCropAsset" 
 data-mode="smartcrop">
 ```
 
-Het gekoppelde afbeeldingselement verzendt een `s7responsiveViewer`-gebeurtenis tijdens runtime wanneer het onderbrekingspunt verandert.
+Het gekoppelde afbeeldingselement verzendt een `s7responsiveViewer` gebeurtenis tijdens runtime wanneer het onderbrekingspunt verandert.
 
-```
+```html {.line-numbers}
          responsiveImage.addEventListener("s7responsiveViewer", function (event) { 
            var s7event = event.s7responsiveViewerEvent; 
            if(s7event.type == "breakpointchanged") { 

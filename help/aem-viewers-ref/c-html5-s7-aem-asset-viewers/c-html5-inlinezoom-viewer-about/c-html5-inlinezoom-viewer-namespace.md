@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 62b61a17-f9ae-4e71-bd78-276674193044
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Daarom is het belangrijk om een volledig gekwalificeerde SDK-naamruimte te gebru
 
 Als u bijvoorbeeld wilt luisteren naar `StatusEvent.NOTF_VIEW_READY` gebeurtenis en de viewer wordt aangeboden vanuit de Experience Manager, is het volledig gekwalificeerde gebeurtenistype `s7viewers.s7sdk.event.StatusEvent.NOTF_VIEW_READY`en de gebeurtenislistenercode ziet er als volgt uit:
 
-```
+```javascript {.line-numbers}
 <instance>.setHandlers({ 
  "initComplete":function() { 
   var flyout = <instance>.getComponent("flyout"); 

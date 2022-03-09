@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 55885e57-4a21-43bb-86b0-9ac34bd29bd0
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 1%
@@ -43,7 +43,7 @@ Geen.
 
 ## Voorbeeld {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
-```
+```javascript {.line-numbers}
 var smartCropVideoViewer = new s7viewers.SmartCropVideoViewer({ 
  "containerId":"s7viewer", 
 "params":{ 
