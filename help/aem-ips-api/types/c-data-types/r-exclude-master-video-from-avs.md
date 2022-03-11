@@ -4,9 +4,9 @@ description: Sluit de primaire video uit van de adaptieve videoset.
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e73eab03-fbda-435c-be3c-98781f8630a5
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 10eb6887663fe335be3abcc311b2d3eb4a241745
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '54'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe beëindigt de ondersteuning voor de `ExcludeMasterVideoFromAVS` parameter september 2022.
+>Adobe beëindigt de ondersteuning voor de `ExcludeMasterVideoFromAVS` parameter 1 september 2022. Zie ook [Verouderde vraag](/help/aem-ips-api/c-deprecated-calls.md).
 
 Sluit de primaire video uit van de adaptieve videoset.
 
@@ -35,7 +35,7 @@ Syntaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> true|false</span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:Boolean</span> </td> 
-   <td colname="col3"> <p>Sluit het master videobestand uit van de adaptieve videoset. </p> <p>Heeft als standaardwaarde true. </p> </td> 
+   <td colname="col3"> <p>Sluit het primaire videobestand uit van de adaptieve videoset. </p> <p>Heeft als standaardwaarde true. </p> </td> 
   </tr> 
  </tbody> 
 </table>
