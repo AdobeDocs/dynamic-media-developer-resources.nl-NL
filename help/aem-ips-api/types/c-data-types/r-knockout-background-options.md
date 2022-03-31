@@ -1,24 +1,35 @@
 ---
-description: Hiermee maskeert u de achtergrond voor geselecteerde afbeeldingen (neemt u af). Hierdoor kunt u ze in andere lagen bedekken met transparantie buiten de afbeelding van het onderwerp. Een optionele parameter die standaard uitgeschakeld is.
-solution: Experience Manager
 title: KnockoutBackgroundOptions
-feature: Dynamic Media Classic, SDK/API
+description: Hiermee maskeert u de achtergrond voor geselecteerde afbeeldingen (neemt u af). Met dit gegevenstype kunt u de lagen in andere lagen bedekken met transparantie buiten de afbeelding van het onderwerp. Een optionele parameter die standaard uitgeschakeld is.
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: aed8cf2e-5a09-43ff-9420-0d0d54059515
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 6ec990016827895e136d41f3ae1e87ffd826647e
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 0%
+source-wordcount: '189'
+ht-degree: 1%
 
 ---
 
 # KnockoutBackgroundOptions{#knockoutbackgroundoptions}
 
-Hiermee maskeert u de achtergrond voor geselecteerde afbeeldingen (neemt u af). Hierdoor kunt u ze in andere lagen bedekken met transparantie buiten de afbeelding van het onderwerp. Een optionele parameter die standaard uitgeschakeld is.
+Hiermee maskeert u de achtergrond voor geselecteerde afbeeldingen (neemt u af). Met dit gegevenstype kunt u de lagen in andere lagen bedekken met transparantie buiten de afbeelding van het onderwerp.
+
+Dit gegevenstype is standaard optioneel en uitgeschakeld.
 
 `KnockoutBackgroundOptions=[corner, tolerance, fill]`
 
 ## Parameters {#section-3149b49ccb714e6eafa6655354816819}
+
+>[!IMPORTANT]
+>
+>Als u configureert `KnockoutBackgroundOptions` in Adobe Experience Manager, gebruik in plaats daarvan de volgende parameters:
+>* `kbCorner`
+>* `kbTolerance`
+>* `kbFillMethod`
+>
+>Bijvoorbeeld: `KnockoutBackgroundOptions=kbCorner=UpperLeft&kbTolerance=0.2&kbFillMethod=MatchPixel`
 
 <table id="table_68131DE0A3C84908A43C6F7777F20973"> 
  <thead> 
@@ -32,7 +43,7 @@ Hiermee maskeert u de achtergrond voor geselecteerde afbeeldingen (neemt u af). 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> hoek</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
-   <td colname="col3">Hiermee selecteert u de hoek waarmee u wilt werken. <span class="codeph"> Deze waarden worden </span> geaccepteerd: 
+   <td colname="col3">Hiermee selecteert u de hoek waarmee u wilt werken. <span class="codeph"> hoek</span> Accepteert deze waarden: 
     <ul id="ul_36C2F07706764A7081010D5521BF3096">
      <li id="li_CBACE5C6AA8C48D3BEE033D3AE03AF3C"><span class="codeph"> BovenkantLinks</span></li>
      <li id="li_49AC53536B4B4D2CA3DD89E2A2B2E95D"><span class="codeph"> BottomLeft</span></li>
@@ -52,7 +63,7 @@ Hiermee maskeert u de achtergrond voor geselecteerde afbeeldingen (neemt u af). 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fillMethod</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
-   <td colname="col3"> <p>Pixeltransparantie bepalen op de locatie die wordt aangegeven door de variabele <span class="codeph"><span class="varname"> corner</span></span>. De <span class="codeph"> fillMethod</span> keurt deze waarden goed: </p> 
+   <td colname="col3"> <p>Pixeltransparantie bepalen op de locatie die wordt opgegeven door het dialoogvenster <span class="codeph"><span class="varname"> hoek</span></span> variabele. De <span class="codeph"> fillMethod</span> Accepteert deze waarden: </p> 
     <ul id="ul_D95F3B613D344BB89487ED09D83F9217"> 
      <li id="li_3D7B7CA1B9094D16A98E0BA3D962E97F"> <span class="codeph"> FloodFill</span>: Hiermee worden alle pixels in de opgegeven hoek transparant gemaakt. </li> 
      <li id="li_F97343C3DA7644BCBD1748AD8F9DCE2E"> <span class="codeph"> MatchPixel</span>: Hiermee worden alle overeenkomende pixels transparant gemaakt, ongeacht de locatie. </li> 
@@ -78,7 +89,7 @@ Hiermee maskeert u de achtergrond voor geselecteerde afbeeldingen (neemt u af). 
 
 ## Gebruikt door {#section-28c43baafe85434a9ee9e303ed10569a}
 
-Het type `KnockoutBackgroundOptions` wordt gebruikt door:
+De `KnockoutBackgroundOptions` type wordt gebruikt door:
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)

@@ -3,8 +3,7 @@ cloud: Experience Cloud
 user-guide-title: Dynamic Media Image Production System API
 feature-set: Experience Manager Assets
 user-guide-description: De IPS (het Systeem van de Productie van het Beeld) API van het Web laat externe toepassingen en derdeontwikkelaars toe om tot IPS activa en functionaliteit programmatically toegang te hebben.
-translation-type: tm+mt
-source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
+source-git-commit: 6ec990016827895e136d41f3ae1e87ffd826647e
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%
@@ -235,7 +234,7 @@ ht-degree: 0%
    + [EmailArray](types/c-data-types/r-email-array.md)
    + [ExcludeByproductArray](types/c-data-types/r-exclude-byproduct-array.md)
    + [ExcludeByproductCondition](types/c-data-types/r-exclude-byproduct-condition.md)
-   + [ExcludeMasterVideoFromAVS](types/c-data-types/r-exclude-master-video-from-avs.md)
+   + [ExcludeMasterVideoFromAVS](types/c-data-types/r-exclude-master-video-from-avs.md)<!-- Deprecated; remove May 2022 as per CQDOC-19165 and remove associated topic-->
    + [ExcelInfo](types/c-data-types/r-excel-info.md)
    + [ExportJob](types/c-data-types/r-exportjob.md)
    + [FlashInfo](types/c-data-types/r-flash-info.md)
@@ -421,7 +420,7 @@ ht-degree: 0%
    + [Taaktypen](string-constants/c-string-constants/r-job-types.md)
    + [Metagegevensveldtypen](string-constants/c-string-constants/r-metadata-field-types.md)
    + [Operatoren voor numerieke/datumvergelijking](string-constants/c-string-constants/r-numeric-date-comparison-operators.md)
-   + [PDF-processen](string-constants/c-string-constants/r-pdf-processes.md)
+   + [PDF Processen](string-constants/c-string-constants/r-pdf-processes.md)
    + [Machtigingstypen](string-constants/c-string-constants/r-permission-types.md)
    + [Photoshop-ankermodi](string-constants/c-string-constants/r-photoshop-anchor-modes.md)
    + [Naamgevingsmodi voor Photoshop-lagen](string-constants/c-string-constants/r-photoshop-layer-naming-modes.md)
@@ -445,7 +444,7 @@ ht-degree: 0%
    + [authenticationFault](faults/c-faults/r-authentication-fault.md)
    + [authenticationFault](faults/c-faults/r-authorization-fault.md)
    + [ipsApiFault](faults/c-faults/r-ips-api-fault.md)
-+ Logbestand {#change-log} wijzigen
++ Logbestand wijzigen {#change-log}
    + [Logbestand wijzigen](change-log/c-change-log.md)
    + Versie 6.0 {#version-6-0}
       + [Versie 6.0](change-log/c-change-log/c-6/c-6.md)
