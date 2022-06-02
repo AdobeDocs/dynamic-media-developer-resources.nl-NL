@@ -1,13 +1,13 @@
 ---
+title: laag
 description: Selecteer Laag. Selecteert een laag en begint een nieuw segment van de laagdefinitie in de bevelopeenvolging.
 solution: Experience Manager
-title: laag
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f1200d86-d88c-4990-ae36-2ce96ae94343
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Selecteer Laag. Selecteert een laag en begint een nieuw segment van de laagdefinitie in de bevelopeenvolging.
 
-`layer= *``*|comp[, *`naam`*]`
+`layer= *`n`*|comp[, *`name`*]`
 
 `layer= *`name`*`
 
@@ -35,15 +35,15 @@ Selecteer Laag. Selecteert een laag en begint een nieuw segment van de laagdefin
  </tr> 
 </table>
 
-Alle opdrachten in het laagsegment worden toegepast op de opgegeven laag. Een laagsegment wordt geëindigd door volgende `layer=` of `effect=` bevel of het eind van het verzoek.
+Alle opdrachten in het laagsegment worden toegepast op de opgegeven laag. Een laagsegment wordt beëindigd door de volgende `layer=` of `effect=` of het einde van de aanvraag.
 
-Geef `layer=comp` op om de samengestelde afbeelding (of weergave voor sommige opdrachten) te selecteren.
+Opgeven `layer=comp` om de samengestelde afbeelding te selecteren (of weergave voor sommige opdrachten).
 
 Met het laagnummer wordt de z-volgorde voor de laag opgegeven. De lagen met een hoger nummer worden boven op de lagen met een lager nummer geplaatst.
 
 Laagnummers hoeven niet opeenvolgend te zijn. Laag 0 wordt vereist.
 
-Een naam kan aan een laag met `layer= *`n`*, *`name`*` bevelvariant worden toegewezen. Zodra een genoemde laag wordt bepaald, kan het met ` layer= *`name`*` worden van verwijzingen voorzien, zonder het moeten het laagaantal kennen. De veelvoudige namen kunnen aan de zelfde laag worden toegewezen, gebruikend veelvoudige `layer= *`n`*, *`name`*` bevelen.
+Een naam kan aan een laag met worden toegewezen `layer= *`n`*, *`name`*` opdrachtvariant. Wanneer een benoemde laag is gedefinieerd, kan ernaar worden verwezen ` layer= *`name`*`, zonder dat u het laagnummer hoeft te kennen. Meerdere namen kunnen aan dezelfde laag worden toegewezen, waarbij meerdere `layer= *`n`*, *`name`*` opdrachten.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Een naam kan aan een laag met `layer= *`n`*, *`name`*` bevelvariant worden toege
 
 Laag, opdracht. Verwijzingen naar vervangingsvariabelen worden niet ondersteund in `layer=`.
 
-`comp` is niet toegestaan als een  *`name`* tekenreeks. Er wordt een fout geretourneerd als dezelfde *`name`* aan meerdere lagen is toegewezen of als naar een laag wordt verwezen door *`name`* die niet eerder is gedefinieerd.
+`comp` is niet toegestaan als een *`name`* tekenreeks. Er wordt een fout geretourneerd als dezelfde *`name`* wordt toegewezen aan meer dan één laag of als naar een laag wordt verwezen door *`name`* die niet eerder is gedefinieerd.
 
 ## Standaard {#section-091859a03f8048c2b7092f0fec9c1006}
 
@@ -61,12 +61,12 @@ Laag, opdracht. Verwijzingen naar vervangingsvariabelen worden niet ondersteund 
 
 ## Speciale gevallen {#section-e087cb2e3562473e8d391abfa3b9489f}
 
-* Als dezelfde naam aan meerdere lagen is toegewezen (bijvoorbeeld: `layer=1,image&layer=2,image`), treedt een fout op.
-* Als dezelfde naam meerdere malen aan één laag is toegewezen (bijvoorbeeld: `layer=1,image&layer=1,image`), wordt werkingsgebied geplaatst zoals gewoonlijk, zonder fouten.
+* Als dezelfde naam aan meerdere lagen is toegewezen (bijvoorbeeld: `layer=1,image&layer=2,image`), treedt er een fout op.
+* Als dezelfde naam meerdere malen aan één laag is toegewezen (bijvoorbeeld: `layer=1,image&layer=1,image`), wordt het bereik op de gebruikelijke wijze ingesteld, zonder fouten.
 * Meerdere namen voor dezelfde laag worden ondersteund.
 
    U kunt een van de namen gebruiken om naar de laag te verwijzen (bijvoorbeeld: `layer=1,image&layer=1,picture`).
-* Als een naam waarnaar wordt verwezen nooit wordt toegewezen aan een laagnummer (bijvoorbeeld: `layer=1,image&layer=picture`), treedt een fout op.
+* Als een naam waarnaar wordt verwezen nooit wordt toegewezen aan een laagnummer (bijvoorbeeld: `layer=1,image&layer=picture`), treedt er een fout op.
 * Vervangende variabelen worden niet ondersteund in laagmodifiers (bijvoorbeeld: `layer=$image$`).
 
    Dit geldt voor alle permutaties, niet alleen voor laagnamen maar ook voor laagmodifiers in het algemeen.

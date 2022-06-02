@@ -1,14 +1,14 @@
 ---
+title: DigimarcInfo
 description: Digimarc-afbeeldingsgegevens. Hiermee schakelt u Digimarc-insluiting in en geeft u het type watermerk en de bijbehorende afbeeldingsspecifieke gegevens op.
 solution: Experience Manager
-title: DigimarcInfo
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 87f4d8f0-02b9-4511-9151-89c58116c78d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,9 +20,9 @@ Digimarc-afbeeldingsgegevens. Hiermee schakelt u Digimarc-insluiting in en geeft
 
 Vier gehele getallen, gescheiden door komma&#39;s.
 
-`*``*, *``*, *`typeflagsval1`*, *`val2`*`
+`*`type`*, *`vlaggen`*, *`val1`*, *`val2`*`
 
-`*`Met `*` type schakelt u Digimarc-insluiting in en geeft u het type watermerk op:
+`*`type`*` Hiermee schakelt u Digimarc-insluiting in en geeft u het watermerktype op:
 
 <table id="table_3648951F14D94C5BAD097CFB783F1EE7"> 
  <thead> 
@@ -37,7 +37,7 @@ Vier gehele getallen, gescheiden door komma&#39;s.
    <td> <p>Geen. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>Basis. </p> </td> 
   </tr> 
   <tr> 
@@ -45,7 +45,7 @@ Vier gehele getallen, gescheiden door komma&#39;s.
    <td> <p>Afbeelding-id. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>Transactie-id. </p> </td> 
   </tr> 
   <tr> 
@@ -55,7 +55,7 @@ Vier gehele getallen, gescheiden door komma&#39;s.
  </tbody> 
 </table>
 
-`*`Hiermee `*` markeert u een bitveld met drie waarden. Stel bit 0 in om te verwijzen naar inhoud die is beveiligd tegen kopiëren, bit 1 om beperkte inhoud aan te geven en bit 2 om de inhoud van volwassenen aan te geven:
+`*`vlaggen`*` is een bitveld met drie waarden. Stel bit 0 in om te verwijzen naar inhoud die is beveiligd tegen kopiëren, bit 1 om beperkte inhoud aan te geven en bit 2 om de inhoud van volwassenen aan te geven:
 
 <table id="table_00F218515FBE484F9D05CBAF14F9D045"> 
  <thead> 
@@ -78,7 +78,7 @@ Vier gehele getallen, gescheiden door komma&#39;s.
    <td> <p>Beperkt. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>Met kopiëren beveiligd, beperkt. </p> </td> 
   </tr> 
   <tr> 
@@ -100,14 +100,14 @@ Vier gehele getallen, gescheiden door komma&#39;s.
  </tbody> 
 </table>
 
-De interpretatie van `*`val1`*` en `*`val2`*` hangt af van `*`type`*`:
+De interpretatie van `*`val1`*` en `*`val2`*` afhankelijk zijn van `*`type`*`:
 
 <table id="table_6B29F76BC1974C12AB7124BF84B29EC2"> 
  <thead> 
   <tr> 
    <th class="entry"> <p><span class="codeph"> <span class="varname"> type</span> </span> </p> </th> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> val1  </span> </span> </p> </th> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> val2  </span> </span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> val1 </span> </span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> val2 </span> </span> </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -157,4 +157,4 @@ Met &quot;1,5,0,0&quot; wordt een elementair watermerk opgegeven met de markerin
 
 ## Zie ook {#section-4bd3e7272c5c4b8cb8c5ca1ac7ed1012}
 
-[kenmerk::DigimarcInfo](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcinfo.md#reference-de88636cb9b4435a94e3d0a80f072667) ,  [kenmerk::DigimarcId](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcid.md#reference-33e3eca7f1874510904e5c8645cecd68)
+[kenmerk:DigimarcInfo](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcinfo.md#reference-de88636cb9b4435a94e3d0a80f072667) , [kenmerk:DigimarcId](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcid.md#reference-33e3eca7f1874510904e5c8645cecd68)

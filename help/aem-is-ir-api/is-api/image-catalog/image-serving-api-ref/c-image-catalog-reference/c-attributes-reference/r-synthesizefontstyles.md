@@ -1,13 +1,13 @@
 ---
+title: SynthesizeFontStyles
 description: Gesynchroniseerde fontvariaties inschakelen. Bepaalt of de server een foutreactie moet genereren of een vette, cursieve of vette/cursieve lettertypestijl moet synthetiseren als een dergelijke stijl wordt aangevraagd maar niet in de lettertypekaart kan worden gevonden.
 solution: Experience Manager
-title: SynthesizeFontStyles
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 08f20748-71c7-4b9f-9b45-70352f9abf35
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Markering. Stel de waarde in op 0 om uit te schakelen en op 1 om synthetische le
 
 ## Standaard {#section-71f94aa65e404d14b441674c040b59e3}
 
-Overgenomen van `default::SynthesizeFontStyles` indien niet gedefinieerd of indien leeg.
+Overgenomen van `default::SynthesizeFontStyles` indien niet gedefinieerd of leeg.
 
 ## Zie ook {#section-47a79659cc844272b6d5f36c946e12ac}
 

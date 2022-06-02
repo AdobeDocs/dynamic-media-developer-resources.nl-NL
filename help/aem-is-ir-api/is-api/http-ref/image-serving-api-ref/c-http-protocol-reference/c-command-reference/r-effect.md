@@ -1,13 +1,13 @@
 ---
+title: effect
 description: Selecteer Effectlaag. Selecteert een effect laag en begint een nieuw laagsegment in het verzoekkoord, dat met de huidige laag wordt geassocieerd.
 solution: Experience Manager
-title: effect
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d1eaa38d-cfd3-44d4-92b1-04d72333f867
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Selecteer Effectlaag. Selecteert een effect laag en begint een nieuw laagsegment
  </tr> 
 </table>
 
-Alle bevelen binnen het nieuwe segment worden toegepast op de gespecificeerde effect laag. Een segment van de effectlaag wordt geëindigd door volgende `layer=` of `effect=` bevel of tegen het eind van het verzoek.
+Alle bevelen binnen het nieuwe segment worden toegepast op de gespecificeerde effect laag. Een segment van de effectlaag wordt geëindigd door volgende `layer=` of `effect=` of aan het einde van de aanvraag.
 
 *`n`* moet kleiner zijn dan 0 voor buitenlaageffecten (d.w.z. effecten achter de bovenliggende laag) en groter dan 0 voor binnenlaageffecten (d.w.z. effecten binnen de bovenliggende laag). Effectlaagnummers hoeven niet opeenvolgend te zijn.
 
@@ -47,4 +47,4 @@ Geen.
 
 ## Zie ook {#section-573273e9e0e64103a5764075f5e50180}
 
-` [layer=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-layer.md#reference-0f8d7fbef64841dd855917bd8fc22e6d)`
+[layer=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-layer.md)

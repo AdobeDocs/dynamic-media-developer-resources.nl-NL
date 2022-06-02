@@ -1,20 +1,20 @@
 ---
-description: Regel-element aanvragen. Een of meer regels zijn optioneel in het element <ruleset>.
-solution: Experience Manager
 title: regel
-feature: Dynamic Media Classic, SDK/API
+description: Regel-element aanvragen. Een of meer regels zijn optioneel in het dialoogvenster <ruleset> element.
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4fabd469-c80c-422a-80b0-3d31ce191d58
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '297'
 ht-degree: 2%
 
 ---
 
 # regel{#rule}
 
-Regel-element aanvragen. Een of meer regels zijn optioneel in het element `<ruleset>`.
+Regel-element aanvragen. Een of meer regels zijn optioneel in het dialoogvenster `<ruleset>` element.
 
 ## Attributen {#section-d4a3b0496c0c4aa5bd7da87203b9379b}
 
@@ -22,7 +22,7 @@ Regel-element aanvragen. Een of meer regels zijn optioneel in het element `<rule
 
 `Replace = "first" | "all"`: Optioneel. De standaardwaarde is &quot;first&quot;.
 
-`RequestType` =  *&quot;`types`&quot;*: Optioneel. Geeft aan op welke invoercontext de regel van toepassing is. *`types`* is een lijst met komma&#39;s als scheidingsteken. Deze lijst kan een of meer tokens bevatten die in de volgende tabel worden vermeld. Als `RequestType` niet wordt gespecificeerd, is de regel op verzoeken van toepassing die op alle gesteunde contexten worden ontvangen.
+`RequestType` = *&quot;`types`&quot;*: Optioneel. Geeft aan op welke invoercontext de regel van toepassing is. *`types`* is een lijst met komma&#39;s als scheidingsteken. Deze lijst kan een of meer tokens bevatten die in de volgende tabel worden vermeld. Indien `RequestType` niet wordt gespecificeerd, is de regel op verzoeken van toepassing die op alle gesteunde contexten worden ontvangen.
 
 <table id="table_4935E1ED03624DA6AF3F8DC9AAA10237"> 
  <thead> 
@@ -51,14 +51,14 @@ Regel-element aanvragen. Een of meer regels zijn optioneel in het element `<rule
  </tbody> 
 </table>
 
-**`Name = "text"`**: Optioneel. Wordt gebruikt om het element `<rule>` in foutopsporingslogboeken en foutberichten te identificeren.
+**`Name = "text"`**: Optioneel. Wordt gebruikt om de `<rule>` -element in foutopsporingslogboeken en foutberichten.
 
-`  *`Kenmerk`* ="value"`: Optioneel. `<rule>` elementen kunnen elk van de volgende kenmerken definiëren in elke combinatie. Als de regel is opgegeven en deze correct is aangepast, worden de overeenkomende cataloguskenmerken voor deze aanvraag genegeerd. De standaardwaarde is `RequestType="is"`.
+`  *`Kenmerk`* ="value"`: Optioneel. `<rule>` elementen kunnen elk van de volgende kenmerken definiëren in elke combinatie. Als de regel is opgegeven en deze correct is aangepast, worden de overeenkomende cataloguskenmerken voor deze aanvraag genegeerd. Standaard is `RequestType="is"`.
 
 <table id="table_67AED5BEADDF4DAC99B5EF46438C1ABC"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> <span class="varname"> Kenmerk  </span> </b> </th> 
+   <th class="entry"> <b> <span class="varname"> Kenmerk </span> </b> </th> 
    <th class="entry"> <p>Overeenkomende afbeeldingscataloguskenmerken </p> </th> 
   </tr> 
  </thead>
@@ -77,7 +77,7 @@ Regel-element aanvragen. Een of meer regels zijn optioneel in het element `<rule
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> MaxPix</span> </p> </td> 
-   <td> <p><a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-maxpix.md#reference-e167d396ac794079ba8b5e6eb16eeda5" type="reference" format="dita" scope="local"> kenmerk::MaxPix  </a> </p> </td> 
+   <td> <p><a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-maxpix.md#reference-e167d396ac794079ba8b5e6eb16eeda5" type="reference" format="dita" scope="local"> kenmerk::MaxPix </a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> RequestLock</span> </p> </td> 
@@ -104,7 +104,7 @@ Regel-element aanvragen. Een of meer regels zijn optioneel in het element `<rule
 
 Raadpleeg de beschrijving van het overeenkomstige kenmerk voor de afbeeldingscatalogus voor meer informatie.
 
-De attributen van de Vervalsing treden slechts de standaardattributenwaarden met voeten. De opheffing wordt genegeerd als een specifieke `catalog::Expiration` waarde op het verzoek van toepassing is.
+De attributen van de Vervalsing treden slechts de standaardattributenwaarden met voeten. De overschrijving wordt genegeerd als een specifieke `catalog::Expiration` is van toepassing op de aanvraag.
 
 ## Gegevens {#section-8fce013a4c724da58af3fee4e7a90e72}
 
@@ -129,10 +129,10 @@ De attributen van de Vervalsing treden slechts de standaardattributenwaarden met
 
 ## Notities {#section-0c5fbc363070419d8c9800b0c02dc9f9}
 
-Wanneer zowel `<expression>` als `<substitution>` worden opgegeven en vastgelegde subtekenreeksen niet worden gebruikt, wordt de eerste overeenkomende subtekenreeks vervangen door `<substitution>`.
+Als beide `<expression>` en `<substitution>` worden opgegeven en vastgelegde subtekenreeksen niet worden gebruikt, wordt de eerste overeenkomende subtekenreeks vervangen door `<substitution>`.
 
-Als `<expression>` niet is opgegeven, komen alle paden overeen en wordt `<substitution>` toegevoegd aan het einde van het pad.
+Indien `<expression>` niet is opgegeven, overeenkomende paden en `<substitution>` wordt toegevoegd aan het einde van het pad.
 
-Als `<substitution>` niet wordt gespecificeerd, komt geen weg of vraagtransformatie voor, maar om het even welke gespecificeerde catalogusattributen worden met voeten getreden. Als `<substitution>` leeg is, wordt de overeenkomende subtekenreeks verwijderd.
+Indien `<substitution>` niet is opgegeven, er vindt geen pad- of querytransformatie plaats, maar opgegeven cataloguskenmerken worden overschreven. Indien `<substitution>` is leeg, wordt de overeenkomende subtekenreeks verwijderd.
 
-`<addressfilter>` wordt toegepast slechts wanneer een gelijke voorkomt, en vóór vraagregels worden toegepast.
+De `<addressfilter>` wordt toegepast slechts wanneer een gelijke voorkomt, en vóór vraagregels worden toegepast.
