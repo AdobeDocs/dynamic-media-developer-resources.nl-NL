@@ -5,7 +5,7 @@ feature-set: Experience Manager Assets
 user-guide-description: De IPS (het Systeem van de Productie van het Beeld) API van het Web laat externe toepassingen en derdeontwikkelaars toe om tot IPS activa en functionaliteit programmatically toegang te hebben.
 source-git-commit: 72f9cd1b1de82cbeeb8d41fb0f1cf0b51744a8a3
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
