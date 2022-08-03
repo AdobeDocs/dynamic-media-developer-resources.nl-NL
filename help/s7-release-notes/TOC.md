@@ -11,7 +11,7 @@ role: Developer,User
 user-guide-description: De nieuwste release bevat informatie over Adobe Dynamic Media Classic, een onderdeel van de Adobe Experience Manager-oplossing in de Adobe Experience Cloud.
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---

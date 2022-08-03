@@ -6,7 +6,7 @@ feature-set: Experience Manager Assets
 user-guide-description: Documentatie weergeven over API's van het type IS (Image Serving) en AIR (Image Rendering) en verwante technologieën.
 source-git-commit: f64229a72bef887f356b118a1da4ba5177c28bbc
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1466'
 ht-degree: 0%
 
 ---
