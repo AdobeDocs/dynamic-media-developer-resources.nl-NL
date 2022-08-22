@@ -1,13 +1,13 @@
 ---
+title: Verwijderen in Windows
 description: Volg deze instructies om het teruggeven van het Beeld op een systeem van Vensters te desinstalleren.
 solution: Experience Manager
-title: Verwijderen in Windows
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 50a3d0d4-acfe-4ed2-af9f-01f8c98d0c12
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '44'
+source-wordcount: '39'
 ht-degree: 0%
 
 ---
@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Volg deze instructies om het teruggeven van het Beeld op een systeem van Vensters te desinstalleren.
 
-1. Start het deïnstallatieprogramma met ` *[!DNL install_folder]*\_uninst\uninstaller.exe` of selecteer **[!UICONTROL Programs]** > **[!UICONTROL Scene7]** > **[!UICONTROL Image Rendering]** > **[!UICONTROL Uninstall]**.
+1. Het verwijderprogramma starten door het uit te voeren ` *[!DNL install_folder]*\_uninst\uninstaller.exe`of in het menu Start selecteert u **[!UICONTROL Programs]** > **[!UICONTROL Scene7]** > **[!UICONTROL Image Rendering]** > **[!UICONTROL Uninstall]**.

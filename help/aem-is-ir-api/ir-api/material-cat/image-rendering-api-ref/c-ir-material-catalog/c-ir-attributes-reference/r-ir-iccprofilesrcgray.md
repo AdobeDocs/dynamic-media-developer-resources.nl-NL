@@ -1,13 +1,13 @@
 ---
+title: IccProfileSrcGray
 description: Standaardinvoerkleurprofiel voor grijswaarden. Hiermee geeft u de naam op van het ICC-kleurprofiel dat moet worden gebruikt voor grijswaardenafbeeldingen die geen kleurprofiel insluiten.
 solution: Experience Manager
-title: IccProfileSrcGray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8c89f0bb-4912-4838-a9e2-fb5d2f255eae
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

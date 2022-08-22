@@ -1,20 +1,20 @@
 ---
-description: Render-intentie kleurconversie. Biedt de standaard rendering intent voor kleurconversies wanneer de render intent niet is opgegeven met icc=.
-solution: Experience Manager
 title: IccRenderIntent
-feature: Dynamic Media Classic, SDK/API
+description: Kleuromzetting-rendering intent. Biedt de standaard rendering intent voor kleurconversies wanneer de render intent niet is opgegeven met icc=.
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 86cc907d-556c-40ec-a104-2f0dcf9ed1ce
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
 
 # IccRenderIntent{#iccrenderintent}
 
-Render-intentie kleurconversie. Biedt de standaard rendering intent voor kleurconversies wanneer de render intent niet is opgegeven met icc=.
+Kleuromzetting-rendering intent. Biedt de standaard rendering intent voor kleurconversies wanneer de render-intentie niet is opgegeven met `icc=`.
 
 ## Eigenschappen {#section-0a38c60e1525426185616c42824aee2c}
 
@@ -26,4 +26,4 @@ Overgenomen van `default::IccRenderIntent`indien niet gedefinieerd. Als deze lee
 
 ## Zie ook {#section-e77bcdfef6d2486ebd545631ccb40ebd}
 
-[kenmerk::IccProfile*](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilecmyk.md#reference-55aead2d924847ffbd1be4c46add7127) ,  [kenmerk::IccBlackPointCompensation](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccblackpointcompensation.md#reference-d939b0cdf6564baaa88deb1059e3b7f0),  [icc=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-icc.md#reference-86a2fff3cef24982ad2063d977a16e06)
+[kenmerk::IccProfile*](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilecmyk.md#reference-55aead2d924847ffbd1be4c46add7127) , [kenmerk::IccBlackPointCompensation](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccblackpointcompensation.md#reference-d939b0cdf6564baaa88deb1059e3b7f0), [icc=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-icc.md#reference-86a2fff3cef24982ad2063d977a16e06)

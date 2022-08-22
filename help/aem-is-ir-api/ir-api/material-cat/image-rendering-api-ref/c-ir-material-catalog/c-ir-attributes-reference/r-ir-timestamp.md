@@ -1,24 +1,24 @@
 ---
-description: Standaardtijdstempel voor aanpassing. Verstrekt een standaardwaarde voor catalogus TimeStamp en vignet TimeStamp. Als deze waarde niet wordt opgegeven, gebruikt de server de wijzigingsdatum/-tijd van het bestand catalog.ini.
-solution: Experience Manager
 title: TimeStamp
+description: Standaardtijdstempel voor aanpassing. Verstrekt een standaardwaarde voor catalogus TimeStamp en vignet TimeStamp. Als deze waarde niet wordt opgegeven, gebruikt de server de wijzigingsdatum/-tijd van dit bestand catalog.ini.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0b6d8fa6-0ad9-4f72-8d6d-1427e5d59df3
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # TimeStamp{#timestamp}
 
-Standaardtijdstempel voor aanpassing. Geeft een standaardwaarde voor catalog::TimeStamp en vignet::TimeStamp. Als deze waarde niet wordt opgegeven, gebruikt de server de wijzigingsdatum/-tijd van het bestand catalog.ini.
+Standaardtijdstempel voor aanpassing. Biedt een standaardwaarde voor `catalog::TimeStamp` en `vignette::TimeStamp`. Als deze waarde niet wordt opgegeven, gebruikt de server de wijzigingsdatum/-tijd van dit bestand catalog.ini.
 
 ## Eigenschappen {#section-910e2562b41c47b78ee6216deeabbbd5}
 
-Datum-/tijdwaarde in Java-indeling. Kan het gehele getal van milliseconden zijn dat is verstreken sinds middernacht, 1 januari 1970 UTC/GMT of een datum-/tijdtekenreekswaarde met een van de volgende notaties:
+Datum-/tijdwaarde in Java™-indeling. Kan het gehele getal van milliseconden zijn dat is verstreken sinds middernacht, 1 januari 1970 UTC/GMT of een datum-/tijdtekenreekswaarde met een van de volgende notaties:
 
 * *[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]* *[!DNL zzz]*
 
@@ -26,15 +26,15 @@ Datum-/tijdwaarde in Java-indeling. Kan het gehele getal van milliseconden zijn 
 
 *[!DNL hh]* ligt tussen 0 en 23.
 
-*[!DNL zzz]* is een tijdzonecode van 3 of 4 tekens, zoals &#39;GMT&#39; of &#39;PST&#39;. De zomertijd moet in de tijdzonecode (bijvoorbeeld, &quot;PST&quot;voor de StandaardTijd van de Stille Oceaan, tegenover &quot;PDT&quot;voor de Besparing van het Daglicht van de Stille Oceaan) worden rekenschap gegeven.
+*[!DNL zzz]* is een tijdzonecode van drie of vier tekens, zoals &#39;GMT&#39; of &#39;PST&#39;. De zomertijd moet in de tijdzonecode (bijvoorbeeld, &quot;PST&quot;voor de StandaardTijd van de Stille Oceaan, tegenover &quot;PDT&quot;voor de Besparing van het Daglicht van de Stille Oceaan) worden rekenschap gegeven.
 
 *[!DNL offset]* is een verschuiving van de tijdzone in uren of uren:minuten ten opzichte van GMT. &#39;PDT&#39; is bijvoorbeeld gelijk aan &#39;GMT -7&#39;.
 
-Alle elementen van tekenreeksopgemaakte datum-/tijdwaarden moeten aanwezig zijn. Als de datum-/tijdwaarde niet correct is opgemaakt, wordt deze genegeerd en wordt de wijzigingstijd van de [!DNL *[!DNL catalog]*.ini] bestand wordt in plaats daarvan gebruikt.
+Alle elementen van datum-/tijdwaarden met tekenreeksindeling moeten aanwezig zijn. Als de datum-/tijdwaarde niet correct is opgemaakt, wordt deze genegeerd en wordt de wijzigingstijd van de [!DNL *[!DNL catalog]*.ini] bestand wordt in plaats daarvan gebruikt.
 
 ## Standaard {#section-65fb29a9ea2044df8cb9fe295eb14872}
 
-Als het bestand leeg is of niet is gedefinieerd, gebruikt de server de wijzigingstijd van dit [!DNL *[!DNL catalog]*.ini]-bestand.
+Als deze parameter leeg is of niet is gedefinieerd, gebruikt de server de wijzigingstijd van het bestand [!DNL *[!DNL catalog]*.ini]-bestand.
 
 ## Zie ook {#section-764188f9b1734ad1a6270f5fecd28532}
 

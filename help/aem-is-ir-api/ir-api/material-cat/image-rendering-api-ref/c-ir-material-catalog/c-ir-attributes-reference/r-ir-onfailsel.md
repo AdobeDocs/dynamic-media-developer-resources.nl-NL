@@ -1,20 +1,20 @@
 ---
+title: OnFailSel
 description: Foutafhandeling van selectie kiezen. Hiermee wordt de actie opgegeven die moet worden uitgevoerd als de opdracht sel= mislukt omdat de opgegeven pixellocatie zich niet binnen het maskergebied van een selecteerbaar object bevindt.
 solution: Experience Manager
-title: OnFailSel
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d5485569-def8-4e16-9f0e-7dd30d38439d
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # OnFailSel{#onfailsel}
 
-Foutafhandeling van selectie kiezen. Hiermee wordt de actie opgegeven die moet worden uitgevoerd als de opdracht sel= mislukt omdat de opgegeven pixellocatie zich niet binnen het maskergebied van een selecteerbaar object bevindt.
+Foutafhandeling van selectie kiezen. Hiermee wordt de actie opgegeven die moet worden uitgevoerd als de `sel=` de opdracht mislukt omdat de opgegeven pixellocatie zich niet binnen het maskergebied van een selecteerbaar object bevindt.
 
 ## Eigenschappen {#section-cec491e6c5c744f9bfafaaa9d8774f83}
 

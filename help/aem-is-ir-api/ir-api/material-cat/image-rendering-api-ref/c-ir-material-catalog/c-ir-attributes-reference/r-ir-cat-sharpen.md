@@ -1,13 +1,13 @@
 ---
+title: Verscherpen
 description: Verscherpen van standaardantwoordafbeelding. Hiermee geeft u aan of antwoordafbeeldingen moeten worden verscherpt als ze vóór het coderen worden geschaald.
 solution: Experience Manager
-title: Verscherpen
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9a540b86-4d00-47db-8a1d-1d2b186ce87b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Markering.
 
 ## Standaard {#section-e6f1f81ef5c949a488b2002581bda0d0}
 
-Overgenomen van `default::Sharpen` indien niet gedefinieerd of indien leeg.
+Overgenomen van `default::Sharpen` indien niet gedefinieerd of leeg.
 
 ## Zie ook {#section-85393c62428f49739a2510f9427d3607}
 

@@ -1,29 +1,29 @@
 ---
-description: De standaardtijd voor de clientcache om te live gaan. Verstrekt een standaardvervalinterval voor het geval dat een bepaalde catalogusverslag geen geldige catalogusVervalwaarde of waarde van de Vervaldatum van het vignet bevat, of als een vignetdossier of materiaaldossier direct, eerder dan via een catalogusverslag wordt betreden.
-solution: Experience Manager
 title: Verlopen
-feature: Dynamic Media Classic, SDK/API
+description: De standaardtijd voor de clientcache om te live gaan.
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6d9cca06-f675-4ae4-a187-9cd716e7c554
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
 
 # Verlopen{#expiration}
 
-De standaardtijd voor de clientcache om te live gaan. Verstrekt een standaardvervalinterval voor het geval dat een bepaalde catalogusverslag geen geldige catalogus bevat::Vervaldatum of vignet::De waarde van de Vervalsing, of als een vignetdossier of een materiaaldossier direct, eerder dan via een catalogusverslag wordt betreden.
+De standaardtijd voor de clientcache om te live gaan. Biedt een standaardvervalinterval voor het geval dat een bepaalde catalogusrecord geen geldige waarde bevat `catalog::Expiration` of `vignette::Expiration` waarde. Of als een vignetbestand of materiaalbestand rechtstreeks wordt benaderd in plaats van via een catalogusrecord.
 
 ## Eigenschappen {#section-8e2bade105ec4905ae5c4911f500279f}
 
-Reëel getal, 0 of hoger. Aantal uren tot het verstrijken van de antwoordgegevens. Reeks aan 0 om altijd het antwoordbeeld onmiddellijk te verlopen, dat effectief cliënt caching onbruikbaar maakt. Stel de waarde in op -1 om te markeren als *never expired*.
+Reëel nummer `0` of hoger. Aantal uren tot het verstrijken van de antwoordgegevens. Instellen op `0` om altijd het antwoordbeeld onmiddellijk te verlopen, dat effectief cliënt caching onbruikbaar maakt. Instellen op `-1` om te markeren als *nooit verlopen*.
 
 ## Standaard {#section-18cfce46edb441bfae7dd9d3e0217ba9}
 
-Overgenomen van standaard::Verlopen indien niet gedefinieerd of indien leeg.
+Overgenomen van `default::Expiration` indien niet gedefinieerd of leeg.
 
 ## Zie ook {#section-ecfe21ff789c4b298344ebf7c647b7e7}
 
-[catalogus::Verlopen](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-expiration-dataref.md#reference-5e93943abff54c93bf85aae3b911a3ce) ,  [vignet::Verlopen](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-expiration-vignette.md#reference-df80829da93e4c0ab3f97a1792d9c74c)
+[catalogus::Verlopen](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-expiration-dataref.md#reference-5e93943abff54c93bf85aae3b911a3ce) , [vignet::Expiration](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-expiration-vignette.md#reference-df80829da93e4c0ab3f97a1792d9c74c)
