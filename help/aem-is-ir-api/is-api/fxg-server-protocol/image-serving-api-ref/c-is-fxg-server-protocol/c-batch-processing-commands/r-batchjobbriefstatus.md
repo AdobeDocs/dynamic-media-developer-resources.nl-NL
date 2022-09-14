@@ -1,13 +1,13 @@
 ---
+title: batchjobbriefstatus
 description: Hiermee wordt de samengevatte status van een ingediende taak opgehaald.
 solution: Experience Manager
-title: batchjobbriefstatus
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1b31bdbb-3c2c-4f7f-ba95-d3e710270be0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 13991f71ab54d1003a79a496b861d53a61899bdc
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '48'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Deze parameter:
 
 <table id="simpletable_86E581DBB352479CB4CB531434D91E83"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> jobid  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> jobid </span> </p> </td> 
   <td class="stentry"> <p>Taak-id die is verkregen op het moment van verzending. </p> </td> 
  </tr> 
 </table>
