@@ -5,9 +5,9 @@ title: Referentie voor regelset
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: dfbb5f5e-d75a-496a-8b97-f102ad1a34d5
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ De Server van het beeld steunt een eenvoudig verzoek preprocessing mechanisme da
 
 Verzamelingen van voorverwerkingsvoorschriften (*regelsets*) kan worden gekoppeld aan afbeeldingscatalogi of de standaardcatalogus. De regels in de standaardcatalogus zijn alleen van toepassing als in de aanvraag geen specifieke hoofdafbeeldingscatalogus wordt geïdentificeerd.
 
-De pre-verwerkingsregels van het verzoek kunnen de weg en vraaggedeelten verzoeken wijzigen alvorens zij door de parser van de Server van het Platform, met inbegrip van het manipuleren van de weg, het toevoegen van bevelen, het veranderen van bevelwaarden, en het toepassen van malplaatjes of macro&#39;s worden verwerkt. De regels kunnen ook worden gebruikt om bepaalde veiligheidseigenschappen te vormen en met voeten te treden die normaal slechts met catalogusattributen, zoals verzoekverwarring, water-markering, en het beperken van de dienst tot specifieke cliëntIP adressen worden gecontroleerd.
+De pre-verwerkingsregels van het verzoek kunnen de weg en vraaggedeelten verzoeken wijzigen alvorens zij door worden verwerkt [!DNL Platform Server]De parser van de gebruiker, met inbegrip van het manipuleren van de weg, het toevoegen van bevelen, het veranderen van bevelwaarden, en het toepassen van malplaatjes of macro&#39;s. De regels kunnen ook worden gebruikt om bepaalde veiligheidseigenschappen te vormen en met voeten te treden die normaal slechts met catalogusattributen, zoals verzoekverwarring, water-markering, en het beperken van de dienst tot specifieke cliëntIP adressen worden gecontroleerd.
 
 Regelsets worden opgeslagen als XML-documentbestanden. Het relatieve of absolute pad van het bestand met regelsets moet worden opgegeven in `attribute::RuleSetFile`.
 

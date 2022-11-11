@@ -1,13 +1,13 @@
 ---
-description: 'Scène 7 Beeldserver bestaat uit de volgende componenten '
+description: Scène 7 Beeldserver bestaat uit de volgende componenten
 solution: Experience Manager
 title: Onderdelen van Image Serving
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67dd37f3-b11e-42d6-b308-7c1e76a8f2a9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
@@ -37,12 +37,12 @@ Scène 7 Beeldserver bestaat uit de volgende componenten:
    <td colname="col2"> <p>J2EE-toepassing. Biedt serverbewaking en e-mailwaarschuwingen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Platform Server </p> </td> 
+   <td colname="col1"> <p>[!DNL Platform Server] </p> </td> 
    <td colname="col2"> <p>J2EE-toepassing. Beheert cliëntverbindingen, registreren, mededelingen met andere componenten. HTTP-toegang op <span class="filepath"> /is/image</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Caching Service </p> </td> 
-   <td colname="col2"> <p>J2EE-toepassing. Beheert de gegevenscache van de Platform Server. De toegang van HTTP bij /is/cache. </p> </td> 
+   <td colname="col2"> <p>J2EE-toepassing. Beheert de [!DNL Platform Server]Gegevens cache. De toegang van HTTP bij /is/cache. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Afbeeldingsserver </p> </td> 
@@ -50,15 +50,15 @@ Scène 7 Beeldserver bestaat uit de volgende componenten:
   </tr> 
   <tr> 
    <td colname="col1"> <p>ATE-tekstrendercomponent </p> </td> 
-   <td colname="col2"> <p>Een of meer instanties van de service voor het renderen van tekst kunnen actief zijn wanneer bewerkingen <span class="codeph"> textPs=</span> worden uitgevoerd. </p> </td> 
+   <td colname="col2"> <p>Een of meer instanties van de service voor het renderen van tekst kunnen actief zijn wanneer <span class="codeph"> textPs=</span> bewerkingen worden uitgevoerd. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>SVG-rendercomponent </p> </td> 
+   <td colname="col1"> <p>SVG Rendercomponent </p> </td> 
    <td colname="col2"> <p>Zelfstandige Java-toepassing (niet gehost door Tomcat). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dynamic Media Image Rendering (ook bekend als) Server renderen) </p> </td> 
-   <td colname="col2"> <p>Hiervoor is een aparte licentie vereist. HTTP-toegang op <span class="filepath"> /ir/render</span>. Alle het Teruggeven van het Beeld functionaliteit is geïntegreerd in de Server van het Platform en de Server van het Beeld, zonder afzonderlijke uitvoerbare componenten. </p> </td> 
+   <td colname="col2"> <p>Hiervoor is een aparte licentie vereist. HTTP-toegang op <span class="filepath"> /ir/render</span>. Alle functies voor het renderen van afbeeldingen zijn geïntegreerd in de [!DNL Platform Server] en de Server van het Beeld, zonder afzonderlijke uitvoerbare componenten. </p> </td> 
   </tr> 
  </tbody> 
 </table>

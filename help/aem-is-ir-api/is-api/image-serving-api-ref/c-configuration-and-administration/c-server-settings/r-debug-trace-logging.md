@@ -2,12 +2,12 @@
 description: Gebruik deze serverinstellingen om fouten in het logbestand met overtrekken op te sporen.
 solution: Experience Manager
 title: Foutopsporing_tracering vastleggen
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: fe1fc984-3c6b-4bd1-b5ba-630860ac7319
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ Gebruik deze serverinstellingen om fouten in het logbestand met overtrekken op t
 
 >[!NOTE]
 >
->Het wordt aanbevolen alle logbestanden te configureren die naar dezelfde map moeten worden geschreven als `TC::directory`. Dit zorgt ervoor dat alle Logbestanden van Image Serving deelnemen aan de automatische rotatie van het logbestand die is geconfigureerd met `TC::maxDays`, waardoor potentiële serverinstabiliteit als gevolg van onvoldoende schijfruimte wordt voorkomen.
+>Het wordt aanbevolen alle logbestanden te configureren die naar dezelfde map moeten worden geschreven als `TC::directory`. Dit zorgt ervoor dat alle logboekbestanden met afbeeldingsservers deelnemen aan de automatische rotatie van het logbestand die is geconfigureerd met `TC::maxDays`, die potentiële serverinstabiliteit door uit-van-schijf-ruimteomstandigheden zal verhinderen.
 
 ## SV::log - pad naar logboekbestand voor tracering van servertoezichthouder {#section-3697bc480ff646e79cacc2812c55ef26}
 
-De omslag en de naam van het basisdossier voor het logboekdossiers van de Supervisor van de Server. Het pad kan absoluut of relatief ten opzichte van *[!DNL install_folder]* zijn. De servertoezichthouder voegt een afbreekstreepje en de huidige datum ( *[!DNL -yyyy-mm-dd]*) toe aan de bestandsnaam (vóór het eventuele achtervoegsel van het bestand). Het wordt aanbevolen alle logbestanden naar dezelfde map als de logbestanden van de Platform-server ( `PS::LogFolder`) te verzenden om het beheer van logbestanden dat door de Platform-server ( `PS::LogDays`) is geïmplementeerd, te benutten. De standaardwaarde is [!DNL logs/Supervisor.log].
+De omslag en de naam van het basisdossier voor het logboekdossiers van de Supervisor van de Server. Het pad kan absoluut of relatief zijn ten opzichte van *[!DNL install_folder]*. De servertoezichthouder voegt een afbreekstreepje en de huidige datum toe ( *[!DNL -yyyy-mm-dd]*) aan de bestandsnaam (vóór het eventuele achtervoegsel van het bestand). Het wordt aanbevolen alle logbestanden naar dezelfde map te sturen als [!DNL Platform Server] logbestanden ( `PS::LogFolder`) gebruiken om gebruik te maken van het beheer van logbestanden dat door de [!DNL Platform Server] ( `PS::LogDays`). Standaard is [!DNL logs/Supervisor.log].
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ Logniveau kan 1, 2, 3 of 4 zijn. De standaardwaarde is 2.
 
 ## IS::Logboek - Pad naar foutopsporingslogbestand van afbeeldingsserver {#section-73a3f09b77f2446c9f82207b7d8aec39}
 
-De omslag en de basisdossier - naam voor de dossiers van het het spoorlogboek van de Server van het Beeld. Het pad kan absoluut of relatief ten opzichte van *[!DNL install_folder]* zijn. De ImageServer voegt een afbreekstreepje en de huidige datum ( *[!DNL -yyyy-mm-dd]*) aan het dossier toe - noem (vóór het dossierachtervoegsel, als om het even welk). Het wordt aanbevolen om logbestanden van afbeeldingsservers naar dezelfde map als logbestanden van Platforms Server ( `PS::LogFolder`) te verzenden om het beheer van logbestanden dat door de server van het Platform is geïmplementeerd, te benutten (zie `PS::LogDays`).
+De omslag en de basisdossier - naam voor de dossiers van het het spoorlogboek van de Server van het Beeld. Het pad kan absoluut of relatief zijn ten opzichte van *[!DNL install_folder]*. De ImageServer voegt een afbreekstreepje en de huidige datum toe ( *[!DNL -yyyy-mm-dd]*) aan de bestandsnaam (vóór het eventuele achtervoegsel van het bestand). Het wordt aanbevolen om logbestanden van de Image Server naar dezelfde map te verzenden als [!DNL Platform Server] logbestanden ( `PS::LogFolder`) gebruiken om gebruik te maken van het beheer van logbestanden dat door de [!DNL Platform Server] (zie `PS::LogDays`).
 
 >[!NOTE]
 >
@@ -44,13 +44,13 @@ De omslag en de basisdossier - naam voor de dossiers van het het spoorlogboek va
 
 Logniveau kan 1, 2, 3 of 4 zijn (standaardwaarde is 2)
 
-Niveau 1 registreert gebeurtenissen met betrekking tot opstarten, sluiten, en de verbindingen van de Server van het Platform.
+Niveau 1 registreert gebeurtenissen met betrekking tot opstarten, sluiten, en [!DNL Platform Server] verbindingen.
 
 Niveau 2 registreert ook het verbinden met en het losmaken van bronbeelden.
 
-Niveau 3 voegt registreren van verzoeken om pixelgegevens en levering van het zelfde aan de Server van het Platform toe.
+Niveau 3 voegt logboekregistratie toe van verzoeken om pixelgegevens en levering van dezelfde gegevens aan de [!DNL Platform Server].
 
-Niveau 4 registreert alle berichten die van de Server van het Platform worden ontvangen.
+Niveau 4 registreert alle berichten die van worden ontvangen [!DNL Platform Server].
 
 Niveau 3 en 4 zouden slechts voor zuiveringsdoeleinden moeten worden gebruikt, aangezien de logboekdossiers zeer groot kunnen worden.
 

@@ -1,24 +1,24 @@
 ---
-description: Cachebeheer. Staat selectief toe onbruikbaar makend cliënt-zijcaching (browser, volmachtsservers, netwerk caching systemen) en caching in het interne geheime voorgeheugen van de Server van het Platform.
+description: Cachebeheer. Hiermee wordt het selectief uitschakelen van caching op de client (browser, proxyservers, netwerkcaching-systemen) en het in cache plaatsen op de interne [!DNL Platform Server] cache.
 solution: Experience Manager
 title: cachegeheugen
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 622c36fa-c209-4149-a7db-85067215b5e5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
 
 # cachegeheugen{#cache}
 
-Cachebeheer. Staat selectief toe onbruikbaar makend cliënt-zijcaching (browser, volmachtsservers, netwerk caching systemen) en caching in het interne geheime voorgeheugen van de Server van het Platform.
+Cachebeheer. Hiermee wordt het selectief uitschakelen van caching op de client (browser, proxyservers, netwerkcaching-systemen) en het in cache plaatsen op de interne [!DNL Platform Server] cache.
 
 `&cache= *`cacheControl`*`
 
-`&cache= *``*, *`clientControllerServerControl`*`
+`&cache= *`clientControl`*, *`serverControl`*`
 
 <table id="simpletable_DA4D92F0AEF84FD49953876796058B7F"> 
  <tr class="strow"> 
@@ -35,8 +35,8 @@ Cachebeheer. Staat selectief toe onbruikbaar makend cliënt-zijcaching (browser,
  </tr> 
 </table>
 
-Als slechts één *`cacheControl`* waarde wordt gespecificeerd, wordt het toegepast op zowel cliënt als servergeheime voorgeheugens.
+Als slechts één *`cacheControl`* waarde wordt opgegeven, wordt deze toegepast op zowel client- als servercache.
 
-Request-kenmerk. Genegeerd wanneer het verzoek geen antwoordbeeld terugkeert. *`clientControl`* wordt genegeerd wanneer caching aan de clientzijde door de afbeeldingscatalogus wordt uitgeschakeld (als de waarde een negatieve waarde  `catalog::Expiration` heeft).
+Request-kenmerk. Genegeerd wanneer het verzoek geen antwoordbeeld terugkeert. *`clientControl`* wordt genegeerd wanneer caching op de client is uitgeschakeld door de afbeeldingscatalogus (als `catalog::Expiration` heeft een negatieve waarde).
 
-Wordt standaard ingesteld op `cache=on,on`.
+Standaardwaarden: `cache=on,on`.

@@ -1,20 +1,20 @@
 ---
 title: cachegeheugen
-description: Cachebeheer. Staat selectief toe onbruikbaar makend cliënt-zijcaching (browser, volmachtsservers, netwerk caching systemen) en caching in het interne geheime voorgeheugen van de Server van het Platform.
+description: Cachebeheer. Hiermee wordt het selectief uitschakelen van caching op de client (browser, proxyservers, netwerkcaching-systemen) en het in cache plaatsen op de interne [!DNL Platform Server] cache.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4745197a-9f2d-4e33-8c0e-0067fbd65254
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
 
 # cachegeheugen {#cache}
 
-Cachebeheer. Hiermee kunt u op selectieve wijze caching op de client uitschakelen (browser, proxyservers, systemen voor netwerkcaching) en caching in de interne cache van de Platform Server.
+Cachebeheer. Hiermee kunt u het in cache plaatsen op de client (browser, proxyservers, systemen voor het in cache plaatsen van netwerken) en het in cache plaatsen van items op de interne server selectief uitschakelen [!DNL Platform Server] cache.
 
 `cache= *`cacheControl`*`
 

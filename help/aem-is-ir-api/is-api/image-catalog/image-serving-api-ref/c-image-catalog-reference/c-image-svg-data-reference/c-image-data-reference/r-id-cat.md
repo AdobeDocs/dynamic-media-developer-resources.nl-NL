@@ -2,19 +2,19 @@
 description: Catalogusrecord-id
 solution: Experience Manager
 title: Id
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 37945115-c93d-4f59-b3d3-a2c4ee7fc990
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
 
 # Id {#id}
 
-De zeer belangrijke waarde van de index waardoor de verslagen in het dossier van beeldgegevens door de Server van het Platform omhoog worden gezocht.
+Indexsleutelwaarde waarmee records in het afbeeldingsgegevensbestand worden opgezocht door de [!DNL Platform Server].
 
 Gewoonlijk is dit een korte en unieke afbeeldings-id, zoals een SKU-nummer, mogelijk met een achtervoegsel van een afbeelding als een SKU meerdere afbeeldingen heeft. Dit kan ook een complexere tekenreeks zijn die meer lijkt op een bestandspad, ter ondersteuning van het eenvoudig opnieuw plaatsen van websites met Image Serving.
 

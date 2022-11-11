@@ -2,12 +2,12 @@
 description: Gebruik deze serverinstellingen om uw server te configureren.
 solution: Experience Manager
 title: Server
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 10970ca8-b209-4adf-b027-6eb8d7a15db6
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
@@ -26,19 +26,19 @@ Zowel zijn een versie met 32 en 64 bits van de Server van het Beeld beschikbaar 
 
 >[!NOTE]
 >
->64-bits modus wordt niet ondersteund in Windows. Alleen `ImageServer32` mag worden opgegeven. Anders wordt het porteren van de afbeelding niet gestart.
+>64-bits modus wordt niet ondersteund in Windows. Alleen `ImageServer32` kan worden gespecificeerd. Anders wordt het porteren van de afbeelding niet gestart.
 
-## SV::PsHeapSize - Grootte heap-server voor Platform {#section-fd83715948764aeda58d6b3a9f9f8be9}
+## SV::PsHeapSize - [!DNL Platform Server] Grootte heap {#section-fd83715948764aeda58d6b3a9f9f8be9}
 
-De Java-heapgrootte voor de Platform Server. Heeft als standaardwaarde &quot; `512m`&quot; (512 Mbytes).
+De Java-heapgrootte voor de [!DNL Platform Server]. Heeft als standaardwaarde &quot; `512m`&quot; (512 MB).
 
 ## IS::TcpPort, PS::isConnection.port - poort voor het luisteren van afbeeldingsservers {#section-5421bfd2ca2a4a979faf812b6fdb2887}
 
-Specificeert de haven die voor communicatie tussen de Server van het Platform en de Server van het Beeld wordt gebruikt. Zorg ervoor om een havenaantal te specificeren dat niet anders op het gastheersysteem wordt gebruikt.
+Geeft de poort aan die wordt gebruikt voor communicatie tussen de [!DNL Platform Server] en de Afbeeldingsserver. Zorg ervoor om een havenaantal te specificeren dat niet anders op het gastheersysteem wordt gebruikt.
 
 >[!NOTE]
 >
->Voor een correcte werking van de Beelddienst, moet de zelfde waarde voor `IS::TcpPort` en `PS::isConnection.port` worden geplaatst.
+>Voor een juiste werking van de afbeeldingsserver moet dezelfde waarde worden ingesteld voor `IS::TcpPort` en `PS::isConnection.port`.
 
 ## IS::Fysiek geheugen - Limiet voor imageservergeheugen {#section-85e37aa2ac6e456eb698da716dd3247d}
 

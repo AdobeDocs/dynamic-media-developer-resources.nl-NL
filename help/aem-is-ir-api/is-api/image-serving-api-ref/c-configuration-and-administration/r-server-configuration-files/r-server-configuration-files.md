@@ -2,12 +2,12 @@
 description: Alle configuratiebestanden bevinden zich in install_folder/conf en kunnen worden bewerkt met de meeste teksteditors. Het is mogelijk dat de wijzigingen opnieuw moeten worden gestart voordat de server van kracht wordt.
 solution: Experience Manager
 title: Serverconfiguratiebestanden
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 6261844c-b63d-477b-8a48-963be868aa22
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ In dit document worden instellingen voor de volgende configuratiebestanden bespr
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> PlatformServer.conf</span> </p> </td> 
-   <td> <p>Configuratie van Platform Server. </p> </td> 
+   <td> <p>[!DNL Platform Server] configuratie. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> catalog-service.conf</span> </p> </td> 

@@ -5,9 +5,9 @@ title: Beperkingen en bekende problemen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fd32456b-9d99-4e82-a61c-2fc4d7030630
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1222'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,9 @@ Er zijn enkele beperkingen en bekende problemen die in overweging moeten worden 
 * Als de laatste tekstregel niet past, wordt de hele regel neergezet in plaats van als afboeking te worden weergegeven.
 * `\slmult` en `\sl` gedraagt zich anders dan MS Word en `text=`, worden zij slechts van kracht voor de huidige en volgende alinea&#39;s.
 
-* `\sb` is van toepassing op de eerste alinea voor zowel MS Word als `text=`Adobe InDesign en Photoshop doen dat niet.
+* `\sb` is van toepassing op de eerste alinea voor zowel MS Word als `text=`, Adobe InDesign en [!DNL Photoshop] doe dit niet.
 
-* `\sa` is van toepassing op de laatste alinea voor zowel MS Word als `text=`Adobe InDesign en Photoshop doen dat niet.
+* `\sa` is van toepassing op de laatste alinea voor zowel MS Word als `text=`, Adobe InDesign en [!DNL Photoshop] doe dit niet.
 
 ## Achterwaartse compatibiliteit {#section-a76842f751944f4fb664af296d064122}
 
@@ -90,15 +90,15 @@ De Digimarc-bibliotheek weigert een Digimarc-watermerk toe te passen op een afbe
 
    Verhoog de eigenschapswaarde voor Niet-gepiramideerde TIFF voor Afbeeldingsservice `MaxNonDsfSize` in de [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] configuratiebestand.
 
-* Adobe Photoshop CS3 slaat gelaagde PSD-bestanden standaard niet op als een samengestelde afbeelding.
+* Adobe [!DNL Photoshop] In CS3 worden gelaagde PSD-bestanden standaard niet opgeslagen als een samengestelde afbeelding.
 
    *Symptomen*:
 
-   Het Adobe Photoshop CS3 gelaagde PSD-bestand wordt weergegeven als zwart met de tekst &#39;Dit gelaagde Photoshop-bestand is niet opgeslagen met een samengestelde afbeelding&#39;. voor het Beeld dat antwoordbeeld serveert of in IPS.
+   De Adobe [!DNL Photoshop] In CS3 gelaagd PSD-bestand wordt weergegeven als zwart met de tekst &#39;Deze gelaagde&#39; [!DNL Photoshop] bestand is niet opgeslagen met een samengestelde afbeelding.&quot; voor het Beeld dat antwoordbeeld serveert of in IPS.
 
    *Workaround*:
 
-   Sla het Adobe Photoshop CS3-bestand op met maximale compatibiliteit ingeschakeld.
+   De Adobe opslaan [!DNL Photoshop] CS3-bestand met maximale compatibiliteit ingeschakeld.
 
 * Wanneer u een ICC-profiel toewijst aan een CMYK/JPEG-antwoordafbeelding, worden kleuren in sommige browsers omgekeerd.*Omzetten*:
 
@@ -116,7 +116,7 @@ De Digimarc-bibliotheek weigert een Digimarc-watermerk toe te passen op een afbe
 * PNG-afbeeldingen met 16 bits per kanaal worden niet ondersteund voor PhotoFont-tekst.
 * Voor kleurcorrecties voor PNG-afbeeldingen met ingesloten kleurprofielen worden opties met harde codes gebruikt. Render-intentie is relatief colorimetrisch en Blackpoint-compensatie is ingeschakeld voor PhotoFont-tekst.
 * Opzoeken op basis van bestanden wordt niet ondersteund wanneer vertaling van landinstellingen in bedrijf is ingeschakeld [!DNL ini] bestand.
-* Met Beeldserver worden niet-gesloten Photoshop-paden niet correct geschreven.
+* Bij Beeldbewerking wordt niet-gesloten geschreven [!DNL Photoshop] paden correct.
 * Afbeeldingsserver ondersteunt momenteel niet de verwerking van TIFF-bestanden die zijn geëxporteerd met Adobe Media Encoder 4.0.1 of eerder. Adobe Media Encoder is inbegrepen bij Premiere Pro CS4, After Effects CS4 en Creative Suite 4 Production Premium.
 * Gebruiken `text=` met lagen die zichzelf aanpassen, ondersteunt geen RTF-tekenreeksen die meer dan één instelling gebruiken voor regeluitvulling.
 

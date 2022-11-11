@@ -5,9 +5,9 @@ title: Problemen oplossen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b80d3c9a-a0c4-4944-9f91-e791a072cd5f
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ De reden voor dit foutenbericht is dat de Server van het Beeld er niet in is ges
 
 **Werkelijke schijfruimte die wordt gebruikt door de cachemap overschrijdt ` *[!DNL cache.maxSize]*`instellen in[!DNL PlatformServer.conf]**
 
-Dit duidt niet op een probleem. De overhead van het bestandssysteem is niet opgenomen in de instelling voor schijfcache van de Platform Server. Het totale door het systeem gerapporteerde bedrag kan aanzienlijk hoger zijn dan de instelling. Het wordt aanbevolen om tweemaal zoveel schijfruimte te reserveren als in ` *[!DNL cache.maxSize]*`.
+Dit duidt niet op een probleem. De overhead van het bestandssysteem is niet opgenomen in de [!DNL Platform Server]Cacheinstelling voor de schijf. Het totale door het systeem gerapporteerde bedrag kan aanzienlijk hoger zijn dan de instelling. Het wordt aanbevolen om tweemaal zoveel schijfruimte te reserveren als in ` *[!DNL cache.maxSize]*`.
 
 **Gebroken afbeeldingen in de voorbeelden is-docs**
 
@@ -43,11 +43,11 @@ In de voorbeelden wordt ook aangenomen dat bepaalde instellingen in [!DNL defaul
 
 **Te veel cachefouten na aanzienlijke uptime**
 
-Afhankelijk van servergebruik, kunnen de prestaties worden verbeterd door de grootte van het geheime voorgeheugen van de Server van het Platform te verhogen als de schijfruimte beschikbaar is. U kunt instellingen wijzigen door configuratiebestanden handmatig te bewerken. Zie documentatie.
+Afhankelijk van het servergebruik, kunnen de prestaties worden verbeterd door [!DNL Platform Server] schijfcachegrootte als er schijfruimte beschikbaar is. U kunt instellingen wijzigen door configuratiebestanden handmatig te bewerken. Zie documentatie.
 
 **Logbestanden nemen te veel schijfruimte in beslag**
 
-De Server van het Beeld en de Server van het Platform beginnen elke dag een nieuw logboekdossier. Deze worden standaard in [!DNL *[!DNL install_root]*/ImageServing/logs]. De bestandsgrootte, het aantal bijgehouden logbestanden en de loginhoud kunnen worden geconfigureerd. Zie documentatie.
+De afbeeldingsserver en [!DNL Platform Server] elke dag een nieuw logbestand starten. Deze worden standaard in [!DNL *[!DNL install_root]*/ImageServing/logs]. De bestandsgrootte, het aantal bijgehouden logbestanden en de loginhoud kunnen worden geconfigureerd. Zie documentatie.
 
 **Als u antivirussoftware op de server hebt geïnstalleerd**
 

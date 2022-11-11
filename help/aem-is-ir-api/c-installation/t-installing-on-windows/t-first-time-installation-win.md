@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4e34d78c-1b5b-45cf-acc5-ff12cbc6ed01
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -33,14 +33,14 @@ Gebruik deze stappen om Image Serving voor het eerst op Vensters te installeren.
    **Belangrijk:** De licentie is gebaseerd op het MAC-adres van een van de netwerkinterfacekaarten die op deze host zijn geïnstalleerd. Als u deze kaart uitschakelt, verwijdert of vervangt, wordt de licentie niet meer als geldig herkend. Zorg ervoor dat u een licentie verkrijgt voor de hardwareconfiguratie die u gebruikt voor het uitvoeren van images.
 
    U kunt IS zonder geldige licentie blijven installeren en de licentie later installeren. Selecteer **[!UICONTROL Back]** om terug te keren naar de [!DNL Authentication] en selecteert u vervolgens **[!UICONTROL Next]**.
-1. Ga aan de pagina van de Montages van het Beheer van de Server van het Platform te werk. Voer zonodig nieuwe waarden in of accepteer de standaardinstellingen.
+1. Ga door naar &quot;[!DNL Platform Server] De pagina Beheerinstellingen.&quot; Voer zonodig nieuwe waarden in of accepteer de standaardinstellingen.
 
    U kunt de volgende punten vormen:
 
    <table id="table_AA5D7674BBBE4AD4B373066AEF413FFD"> 
    <tbody> 
    <tr> 
-      <td> <p> HTTP-verbindingspoort Platform Server </p> </td>
+      <td> <p> [!DNL Platform Server] HTTP-verbindingspoort </p> </td>
       <td> <p>Hoofd HTTP luisterende haven voor het Beeld Serven en het Teruggeven van het Beeld </p> </td>
    </tr> 
    <tr> 
@@ -48,11 +48,11 @@ Gebruik deze stappen om Image Serving voor het eerst op Vensters te installeren.
       <td> <p>Admin Listening Port </p> </td>
    </tr> 
    <tr> 
-      <td> <p> Cachegrootte Platform-server in MB </p> </td>
+      <td> <p> [!DNL Platform Server] Cachegrootte in MB </p> </td>
       <td> <p>Oorspronkelijke grootte van de hoofdresponscache </p> </td>
    </tr>
    <tr> 
-      <td> <p> Cachelocatie Platform-server </p> </td>
+      <td> <p> [!DNL Platform Server] Cachelocatie </p> </td>
       <td> <p>PS-cachemap </p> </td>
    </tr>
    </tbody>

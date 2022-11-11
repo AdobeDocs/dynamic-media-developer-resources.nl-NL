@@ -5,9 +5,9 @@ title: Gegevensbestanden verwijderen of vervangen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 1624e1b5-ba79-45db-8309-457a44fddab8
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Terwijl het toevoegen van nieuwe gegevensdossiers eenvoudig en recht-voorwaarts 
 >
 >Gegevensbestanden mogen tijdens actief gebruik nooit worden vervangen of verwijderd door Image Serving. Anders kunnen fouten of zelfs een servercrash optreden.
 
-In alle gevallen, herinner me dat het geheime voorgeheugen van de Server van het Platform en de ingangen van het cliëntgeheime voorgeheugen versleten moeten worden alvorens de bijgewerkte gegevens door de cliënt worden gezien. Specifieke cachemarangen kunnen direct worden bijgewerkt met de functie `cache=validate` gebruiken.
+Houd er in alle gevallen rekening mee dat de [!DNL Platform Server] cache en de items in de clientcache moeten verouderd zijn voordat de bijgewerkte gegevens door de client worden bekeken. Specifieke cachemarangen kunnen direct worden bijgewerkt met de functie `cache=validate` gebruiken.
 
 Wijzigingen in lettertypebestanden en ICC-profielbestanden worden niet rechtstreeks door het cachebeheer bijgehouden. Als een dergelijke bron wordt gewijzigd zonder de id ervan te wijzigen, zal de servercache niet op de hoogte zijn van de wijziging, en `cache=validate` zorgt er niet voor dat de cachevermelding wordt bijgewerkt. `cache=update` kan worden gebruikt om het opnieuw genereren van dergelijke cachemarangen af te dwingen.
 

@@ -2,13 +2,13 @@
 description: Kenmerkbestanden van catalogus kunnen elke naam hebben, maar moeten het achtervoegsel .ini hebben. U kunt ze eenvoudig onderhouden met elke teksteditor.
 solution: Experience Manager
 title: Kenmerkbestanden van Catalog
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 79d9439d-7749-4ae1-aa73-e88e01cf7555
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 0%
+source-wordcount: '195'
+ht-degree: 1%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Kenmerkbestanden van catalogus kunnen elke naam hebben, maar moeten het achtervoegsel .ini hebben. U kunt ze eenvoudig onderhouden met elke teksteditor.
 
-Cataloguskenmerkbestanden bestaan uit een set tekstrecords, gescheiden door één `<CR>` (ASCII-code `0xD`), één `<LF>` (ASCII-code `0xA`) of een `<CR><LF>`-paar. Elke record bestaat uit een kenmerknaam en een of meer door komma&#39;s gescheiden kenmerkwaarden:
+Kenmerkbestanden van catalogus bestaan uit een set tekstrecords, gescheiden door één bestand `<CR>` (ASCII-code) `0xD`), één `<LF>` (ASCII-code) `0xA`), of een `<CR><LF>` paar. Elke record bestaat uit een kenmerknaam en een of meer door komma&#39;s gescheiden kenmerkwaarden:
 
-`*``*= *`naamevaluatie`*{<CR>|<LF>|<CR><LF }`
+`*`name`*= *`waarden`*{<CR>|<LF>|<CR><LF }`
 
 <table id="simpletable_0F879121670046AE9414298725961303"> 
  <tr class="strow"> 
@@ -31,13 +31,13 @@ Cataloguskenmerkbestanden bestaan uit een set tekstrecords, gescheiden door éé
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> val</span> </p></td> 
-  <td class="stentry"> <p>Kenmerkwaarde. Mag geen <span class="codeph"> &lt;CR&gt;</span> of <span class="codeph"> &lt;LF&gt;</span> karakters omvatten, tenzij ontsnapt door één enkele backslash net vóór het newline karakter. </p></td> 
+  <td class="stentry"> <p>Kenmerkwaarde. Mag niet omvatten <span class="codeph"> &lt;cr&gt;</span> of <span class="codeph"> &lt;lf&gt;</span> tekens, tenzij deze worden beschermd door één backslash vlak voor het nieuwe-regelteken. </p></td> 
  </tr> 
 </table>
 
 Spaties tussen tokens zijn optioneel.
 
-De verslagen met onbekende attributennamen worden genegeerd door de Server van het Platform.
+Records met onbekende kenmerknamen worden door de [!DNL Platform Server].
 
 Kenmerknamen kunnen bestaan uit elke combinatie van ASCII-letters, -cijfers en &quot;-&quot;, &quot;_&quot; en &quot;.&quot;.
 

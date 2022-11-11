@@ -1,13 +1,13 @@
 ---
 title: Elementen uploaden via HTTP POST's naar de UploadFile-server
-description: Bij het uploaden van middelen naar Dynamic Media Classic zijn een of meer HTTP-POSTEN vereist die een taak instellen om alle logactiviteiten te coördineren die aan de geüploade bestanden zijn gekoppeld.
+description: Elementen uploaden naar [!DNL Dynamic Media] Klassiek omvat één of meerdere verzoeken van de POST van HTTP dat opstelling een baan om alle logboekactiviteit te coördineren verbonden aan de geupload dossiers.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: e40293be-d00f-44c1-8ae7-521ce3312ca8
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '723'
 ht-degree: 0%
 
 ---

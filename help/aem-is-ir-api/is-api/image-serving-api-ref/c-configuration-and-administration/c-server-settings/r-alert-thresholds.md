@@ -2,12 +2,12 @@
 description: Gebruik deze servermontages om waakzame drempels te vormen.
 solution: Experience Manager
 title: Waarschuwingsdrempels
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 1ae76692-2688-4902-82a0-d0751408eee7
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Gebruik deze servermontages om waakzame drempels te vormen.
 
 ## AS: monitorAlertGenerator.maxAverageResponseTime -Response Time ThresholdAS: monitorAlertGenerator.maxAverageResponseTime -Response Time {#section-35111039ac6c4a63ba23fc2c828ab726}
 
-Er wordt een waarschuwing over de responstijd weergegeven wanneer de gemiddelde tijd die nodig is om een aanvraag tijdens het bemonsteringsinterval te verwerken, de hier vastgestelde drempelwaarde overschrijdt. uitgedrukt in msec; geheel getal 0 of groter. De typische waarden liggen tussen 100 en 1000 msec, afhankelijk van de ingewikkeldheid van verrichtingen.
+Er wordt een waarschuwing over de responstijd weergegeven wanneer de gemiddelde tijd die nodig is om een aanvraag tijdens het monsterinterval te verwerken, de hier vastgestelde drempelwaarde overschrijdt. uitgedrukt in msec; geheel getal 0 of groter. De typische waarden liggen tussen 100 en 1000 msec, afhankelijk van de ingewikkeldheid van verrichtingen.
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ Er wordt een minimale verkeerswaarschuwing verzonden wanneer het gemiddelde aant
 
 ## AS:monitorAlertGenerator.minFreeHeapSpace -Free Heap Space Threshold {#section-ce6705045f6842769030ccb1894594cc}
 
-Hiermee geeft u de minimale vrije Java-heapruimte op. Er wordt direct na een Java-opschooncyclus een prioriteitswaarschuwing verzonden wanneer de vrije heapruimte onder deze drempelwaarde ligt. 50 MB wordt geadviseerd voor veilige verrichting van de Server van het Platform. Als u de vrije heapruimte boven deze waarde houdt, neemt de frequentie van de afvalophalingscycli af, wat de algehele serverprestaties kan verbeteren. Geheel getal in bytes, 0 of groter.
+Hiermee geeft u de minimale vrije Java-heapruimte op. Er wordt direct na een Java-opschooncyclus een prioriteitswaarschuwing verzonden wanneer de vrije heapruimte onder deze drempelwaarde ligt. 50 MB wordt aanbevolen voor een veilige werking van de [!DNL Platform Server]. Als u de vrije heapruimte boven deze waarde houdt, neemt de frequentie van de afvalophalingscycli af, wat de algehele serverprestaties kan verbeteren. Geheel getal in bytes, 0 of groter.
 
 ## AS::monitorAlertGenerator.maxOverlap - Maximum aantal gelijktijdige verzoeken {#section-ddc6925bff944758ab19bcc9cf3f2589}
 

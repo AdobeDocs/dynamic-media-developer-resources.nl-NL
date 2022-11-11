@@ -2,12 +2,12 @@
 description: Vignetbestanden kunnen worden vervangen of verwijderd terwijl de server actief is door de opdracht req=release te gebruiken vlak voordat het bestand wordt overschreven.
 solution: Experience Manager
 title: Brongegevensbestanden verwijderen of vervangen
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 9daf8534-a844-4f4a-8e99-8dc751acd550
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,6 @@ Houd er rekening mee dat als u een brongegevensbestand verwijdert of vervangt, d
 
 De renderserver moet worden gestopt om andere gegevensbestanden te vervangen.
 
-Cachingangen van de Server van het Platform worden automatisch ongeldig gemaakt wanneer de materiaaldossiers of de vignetten worden vervangen. Wanneer u ICC-profielbestanden vervangt, worden de cache niet ongeldig gemaakt.
+[!DNL Platform Server] cachemarangen worden automatisch ongeldig gemaakt wanneer materiaalbestanden of vignetten worden vervangen. Wanneer u ICC-profielbestanden vervangt, worden de cache niet ongeldig gemaakt.
 
 Om de complicaties bij het vervangen van bestanden te voorkomen, wordt aanbevolen een vervangend bestand een nieuwe naam te geven en de bijbehorende catalogusitems bij te werken. Hierdoor kan elk gegevensbestand worden vervangen terwijl de server actief is en worden vermeldingen in de servercache automatisch verouderd zonder extra tussenkomst. Deze benadering kan voor alle gegevensdossiers worden gebruikt die door beeldcatalogi worden beheerd.
