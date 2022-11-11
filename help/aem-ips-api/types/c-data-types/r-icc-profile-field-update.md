@@ -5,14 +5,14 @@ title: IccProfileFieldUpdate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b988a430-8ed6-456b-b37b-b4185c5d3b32
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '52'
 ht-degree: 0%
 
 ---
 
-# IccProfileFieldUpdate{#iccprofilefieldupdate}
+# [!DNL IccProfileFieldUpdate]{#iccprofilefieldupdate}
 
 Informatie bijwerken voor ICC-profieleigenschappen.
 
@@ -23,6 +23,6 @@ Syntaxis
 | Naam | Type | Beschrijving |
 |---|---|---|
 | assetHandle | `xsd:string` | Handgreep van het ICC-profielelement dat moet worden bijgewerkt. |
-| class | `xsd:string` | Profielklassen (zie &quot;Profielklassen&quot; voor waarden). |
+| [!DNL class] | `xsd:string` | Profielklassen (zie &quot;Profielklassen&quot; voor waarden). |
 | colorSpace | `xsd:string` | Profielkleurruimte (zie &quot;Kleurruimten&quot; voor waarden). |
 | pcsType | `xsd:string` | Verbindingsruimte van het profiel (zie &quot;Kleurruimten&quot; voor waarden). |

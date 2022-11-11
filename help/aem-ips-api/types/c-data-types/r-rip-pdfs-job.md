@@ -1,20 +1,20 @@
 ---
-description: Een proces dat een bestaand PDF-element opnieuw converteert.
+description: Een proces dat een bestaand PDF-element opnieuw negeert.
 solution: Experience Manager
 title: RipPdfsJob
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7a787b45-3cda-44f2-8357-8b6217b679e0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
 
-# RipPdfsJob{#rippdfsjob}
+# [!DNL RipPdfsJob]{#rippdfsjob}
 
-Een proces dat een bestaand PDF-element opnieuw converteert.
+Een proces dat een bestaand PDF-element opnieuw negeert.
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ Een proces dat een bestaand PDF-element opnieuw converteert.
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdfHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> types:HandleArray</span> </p> </td> 
-   <td colname="col3"> <p>Verwerk de array met PDF-bestanden die u wilt rippen. </p> </td> 
+   <td colname="col3"> <p>Verwerk de array met PDF-bestanden die moeten worden bijgesneden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> createMask</span> </span> </p> </td> 
@@ -121,13 +121,13 @@ Een proces dat een bestaand PDF-element opnieuw converteert.
 
 ## Notities {#section-0822e70fa4784131baa5ad0ba8c0fb3b}
 
-De opties voor `*CropOptions` omvatten:
+Keuzen voor `*CropOptions` omvatten:
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-De opties voor `*PublishJob` omvatten:
+Keuzen voor `*PublishJob` omvatten:
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`

@@ -2,17 +2,17 @@
 description: Informatie over taakvoortgang.
 solution: Experience Manager
 title: TaskProgress
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 35e3be1e-ccc2-460c-98c1-bbefab1df699
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
 
-# TaskProgress{#taskprogress}
+# [!DNL TaskProgress]{#taskprogress}
 
 Informatie over taakvoortgang.
 

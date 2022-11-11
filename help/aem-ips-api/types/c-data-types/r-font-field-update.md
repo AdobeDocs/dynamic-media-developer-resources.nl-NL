@@ -5,14 +5,14 @@ title: FontFieldUpdate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9e7b90d6-78da-48ff-8dff-9def3c32e3bc
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '53'
 ht-degree: 0%
 
 ---
 
-# FontFieldUpdate{#fontfieldupdate}
+# [!DNL FontFieldUpdate]{#fontfieldupdate}
 
 Informatie voor fonteigenschappen bijwerken.
 
@@ -26,7 +26,7 @@ Syntaxis
 | fontName | `xsd:string` | Fontnaam. |
 | postscriptName | `xsd:string` | PostScript-fontnaam. |
 | rtfName | `xsd:string` | Naam RTF-lettertype. |
-| fontFamily | `xsd:string` | Naam lettertypefamilie. |
-| stijl | `xsd:string` | Lettertypestijl (zie Lettertypestijlen voor waarden). |
+| [!DNL fontFamily] | `xsd:string` | Naam lettertypefamilie. |
+| [!DNL style] | `xsd:string` | Lettertypestijl (zie Lettertypestijlen voor waarden). |
 | typeName | `xsd:string` | Naam lettertype. |
-| type | `xsd:string` | Fonttype (zie Lettertypetypen voor waarden). |
+| [!DNL type] | `xsd:string` | Fonttype (zie Lettertypetypen voor waarden). |

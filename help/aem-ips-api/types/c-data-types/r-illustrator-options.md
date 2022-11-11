@@ -5,14 +5,14 @@ title: IllustratorOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f6c06fe3-5dfa-4885-9083-c6c41ae0e0ea
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '55'
 ht-degree: 0%
 
 ---
 
-# IllustratorOptions{#illustratoroptions}
+# [!DNL IllustratorOptions]{#illustratoroptions}
 
 Opties voor een Adobe Illustrator-bestand.
 
@@ -22,7 +22,7 @@ Syntaxis
 
 | Naam | Type | Beschrijving |
 |---|---|---|
-| proces | `xsd:string` | Keuze uit Illustrator-processen. |
-| resolutie | `xsd:string` | Bestandsresolutie. |
+| [!DNL process] | `xsd:string` | Keuze uit Illustrator-processen. |
+| [!DNL resolution] | `xsd:string` | Bestandsresolutie. |
 | colorSpace | `xsd:string` | Doelkleurruimte. |
-| alpha | `xsd:boolean` | Of het bestand in een afbeelding moet worden omgezet in pixels. Als dat het geval is, maakt u een transparante achtergrond als het oorspronkelijke bestand op deze manier is gedefinieerd voor het maken van bedekkende logo&#39;s. |
+| [!DNL alpha] | `xsd:boolean` | Of het bestand in een afbeelding moet worden omgezet in pixels. Als dat het geval is, maakt u een transparante achtergrond als het oorspronkelijke bestand op deze manier is gedefinieerd voor het maken van bedekkende logo&#39;s. |

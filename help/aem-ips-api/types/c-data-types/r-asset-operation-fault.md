@@ -5,14 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: c97fc35b-76f8-4ff7-a1ae-e5f9749f376c
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
 
-# AssetOperationFault{#assetoperationfault}
+# [!DNL AssetOperationFault]{#assetoperationfault}
 
 Bevat informatie over waarschuwings of foutenvoorwaarden die tijdens een verrichting van partijactiva worden geproduceerd. De code en redengebieden beantwoorden aan de gebieden van het foutenbericht die voor de gelijkwaardige niet partijverrichting zouden geworpen hebben.
 

@@ -5,14 +5,14 @@ title: Groep
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 843b3fa5-93d3-43db-b6c7-194e7fa4d31a
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 2%
+source-wordcount: '38'
+ht-degree: 0%
 
 ---
 
-# Groep{#group}
+# [!DNL Group]{#group}
 
 Benoemde set gebruikers die wordt gebruikt voor het toewijzen van machtigingen.
 
@@ -24,5 +24,5 @@ Syntaxis
 |---|---|---|
 | groupHandle | `xsd:string` | Groepshandgreep. |
 | companyHandle | `xsd:string` | Bedrijfshandgreep. |
-| name | `xsd:string` | Groepsnaam. |
-| is SystemDefined | `xsd:string` | Hiermee wordt aangegeven of de groep door het systeem wordt gedefinieerd. |
+| [!DNL name] | `xsd:string` | Groepsnaam. |
+| [!DNL is SystemDefined] | `xsd:string` | Hiermee wordt aangegeven of de groep door het systeem wordt gedefinieerd. |

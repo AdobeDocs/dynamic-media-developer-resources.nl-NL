@@ -2,17 +2,17 @@
 description: Hiermee worden bestanden op terugkerende basis geüpload uit opgegeven servermappen.
 solution: Experience Manager
 title: UploadDirectoryJob
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a23f1bc2-aa6a-4c1d-aab5-7f6dbd08682c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
 
-# UploadDirectoryJob{#uploaddirectoryjob}
+# [!DNL UploadDirectoryJob]{#uploaddirectoryjob}
 
 Hiermee worden bestanden op terugkerende basis geüpload uit opgegeven servermappen.
 
@@ -115,7 +115,7 @@ Syntaxis
    <td colname="col3"> <p>De URL van de bestemming voor het uploaden van het bestand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> </span> </span>postImageRenderingPublishJob </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> postImageRenderingPublish</span> </span>Taak </td> 
    <td colname="col2"> <span class="codeph"> typen:ImageRendingPublishJob</span> </td> 
    <td colname="col3"> <p>Details voor een publicatietaak voor het renderen van afbeeldingen die wordt uitgevoerd nadat het uploaden is voltooid. </p> </td> 
   </tr> 
@@ -189,13 +189,13 @@ Syntaxis
 
 ## Notities {#section-637405ff7e0b4a71b83fd359b92fa0c2}
 
-Voor `CropOptions` kunt u slechts een van de volgende opties kiezen:
+Voor `CropOptions`kunt u slechts een van de volgende opties kiezen:
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-Voor `PublishJob` kunt u slechts een van de volgende opties kiezen:
+Voor `PublishJob`kunt u slechts een van de volgende opties kiezen:
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`

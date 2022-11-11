@@ -5,14 +5,14 @@ title: ImageMap
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 123eba56-2a59-44c5-93f0-205c362d071d
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 4%
+source-wordcount: '91'
+ht-degree: 2%
 
 ---
 
-# ImageMap{#imagemap}
+# [!DNL ImageMap]{#imagemap}
 
 Doel voor een klikactie in browser.
 
@@ -23,10 +23,10 @@ Altijd gekoppeld aan een afbeelding. U kunt een `ImageMap` doel van `ImageInfo`.
 | Naam | Type | Beschrijving |
 |---|---|---|
 | imageMapHandle | `xsd:string` | Afbeeldingskaart. |
-| name | `xsd:string` | Naam afbeelding met hyperlinks. |
-| regio | `xsd:string` | Coördinaten van afbeeldingen met hyperlinks. De indeling is gebaseerd op de HTML `<area>` tagkenmerk. |
-| action | `xsd:string` | Andere kenmerken die in de HTML moeten worden opgenomen `<area>` -tag, inclusief de `href` URL. |
+| [!DNL name] | `xsd:string` | Naam afbeelding met hyperlinks. |
+| [!DNL region] | `xsd:string` | Coördinaten van afbeeldingen met hyperlinks. De indeling is gebaseerd op de HTML `<area>` tagkenmerk. |
+| [!DNL action] | `xsd:string` | Andere kenmerken die in de HTML moeten worden opgenomen `<area>` -tag, inclusief de `href` URL. |
 | shapeType | `xsd:boolean` | A [!DNL RegionShape] waarde. |
-| position | `xsd:string` | Positie in de notatie van de HTML `<area>` element [!DNL coords] kenmerk. Bijvoorbeeld: `coords ="0,0,84,128"`. |
-| enabled | `xsd:boolean` | True if image map is enabled. |
+| [!DNL position] | `xsd:string` | Positie in de notatie van de HTML `<area>` element [!DNL coords] kenmerk. Bijvoorbeeld: `coords ="0,0,84,128"`. |
+| [!DNL enabled] | `xsd:boolean` | True if image map is enabled. |
 | lastModified | `xsd:dateTime` | Datum en tijd waarop de afbeelding met hyperlinks voor het laatst is gewijzigd. |

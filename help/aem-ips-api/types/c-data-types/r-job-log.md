@@ -5,14 +5,14 @@ title: JobLog
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 80ae6669-6fe7-45a6-9a1d-f8544dd4f878
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
 
-# JobLog{#joblog}
+# [!DNL JobLog]{#joblog}
 
 Het taaklogboek nadat de taak is uitgevoerd.
 
@@ -31,7 +31,7 @@ Syntaxis
 | jobSubType | `xsd:string` | Aanvullende taakgegevens. |
 | startDate | `xsd:dateTime` | De begindatum, tijd en tijdzone van de taak. |
 | endDate | `xsd:dateTime` | De einddatum, tijd en tijdzone van de taak. |
-| beschrijving | `xsd:string` | Een beschrijving van de taak zoals oorspronkelijk opgegeven in `submitJob`. |
+| [!DNL description] | `xsd:string` | Een beschrijving van de taak zoals oorspronkelijk opgegeven in `submitJob`. |
 | fileSuccessCount | `xsd:int` | Aantal bestanden verwerkt. |
 | fileErrorCount | `xsd:int` | Aantal bestanden dat een fout heeft veroorzaakt. |
 | fileWarningCount | `xsd:int` | Aantal bestanden dat een waarschuwing heeft gegenereerd. |

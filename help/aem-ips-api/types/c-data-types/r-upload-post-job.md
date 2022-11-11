@@ -2,21 +2,21 @@
 description: Gebruikt getActiveJobs om bureaubladuploads bij te houden.
 solution: Experience Manager
 title: UploadPostJob
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 60163016-fe96-4ac2-9208-da8192042d0f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
 
-# UploadPostJob{#uploadpostjob}
+# [!DNL UploadPostJob]{#uploadpostjob}
 
 Gebruikt getActiveJobs om bureaubladuploads bij te houden.
 
-Zie ook [Elementen uploaden via HTTP POST&#39;s naar Upload..](../../c-http-post.md#concept-457855c0cdc943339ca1f1bed356991d).
+Zie ook [Elementen uploaden via HTTP POST&#39;s naar Upload...](../../c-http-post.md#concept-457855c0cdc943339ca1f1bed356991d).
 
 >[!NOTE]
 >
@@ -134,7 +134,7 @@ Zie ook [Elementen uploaden via HTTP POST&#39;s naar Upload..](../../c-http-post
    <td colname="col1"> <span class="codeph"> <span class="varname"> preserveCrop</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:Boolean</span> </td> 
    <td colname="col3"> <p>Nee </p> </td> 
-   <td colname="col4"> <p>Hiermee regelt u het behoud van bestaande uitsnijddefinities. De standaardwaarde is true.</p> <p>Als u de parameter manualCropOptions en de bijbehorende waarden opgeeft, worden de nieuwe waarden (behalve 0,0,0,0) toegepast op het element, ongeacht de waarde preserveCrop.</p><p>Als u <i>not</i> de parameter manualCropOptions verstrekt, wordt de waarde van preserveCrop gehandhaafd. En in het geval van true blijven de bestaande preserveCrop-waarden behouden. in het geval van false worden de waarden preserveCrop verwijderd.</p><p>Voorbeeld:</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />    &lt;left&gt;190&lt;/left&gt;<br />    &lt;right&gt;310&lt;/right&gt;<br />    &lt;top&gt;160&lt;/top&gt;<br />    &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p></td> 
+   <td colname="col4"> <p>Hiermee regelt u het behoud van bestaande uitsnijddefinities. De standaardwaarde is true.</p> <p>Als u de parameter manualCropOptions en de bijbehorende waarden opgeeft, worden de nieuwe waarden (behalve 0,0,0,0) toegepast op het element, ongeacht de waarde preserveCrop.</p><p>Als u <i>niet</i> Voor de parameter manualCropOptions blijft de waarde van preserveCrop behouden. En in het geval van true blijven de bestaande preserveCrop-waarden behouden. in het geval van false worden de waarden preserveCrop verwijderd.</p><p>Voorbeeld:</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />   &lt;left&gt;190&lt;/left&gt;<br />   &lt;right&gt;310&lt;/right&gt;<br />   &lt;top&gt;160&lt;/top&gt;<br />   &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> preservePublishState</span> </span> </td> 

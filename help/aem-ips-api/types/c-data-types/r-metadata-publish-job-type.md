@@ -2,17 +2,17 @@
 description: Hiermee publiceert u metagegevens naar de metagegevensserver.
 solution: Experience Manager
 title: MetadataPublishJobType
-feature: Dynamic Media Classic,SDK/API,metagegevens
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: b90d27c0-9398-4597-bcce-3c36a371df22
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '64'
 ht-degree: 0%
 
 ---
 
-# MetadataPublishJobType{#metadatapublishjobtype}
+# [!DNL MetadataPublishJobType]{#metadatapublishjobtype}
 
 Hiermee publiceert u metagegevens naar de metagegevensserver.
 
@@ -32,7 +32,7 @@ Syntaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> forcePublish</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:Boolean</span> </td> 
-   <td colname="col3">Stel in op <span class="codeph"> True</span> om <i>all</i> gegevens opnieuw naar de metagegevensserver te publiceren. <p>Opmerking:  Afhankelijk van de hoeveelheid gegevens kan dit enkele minuten tot enkele uren duren. </p><p>Stel deze parameter niet in als u alleen nieuwe of gewijzigde metagegevens wilt publiceren. </p></td> 
+   <td colname="col3">Instellen op <span class="codeph"> Waar</span> publiceren <i>alles</i> gegevens opnieuw naar de metagegevensserver. <p>Opmerking: Afhankelijk van de hoeveelheid gegevens kan dit enkele minuten tot enkele uren duren. </p><p>Stel deze parameter niet in als u alleen nieuwe of gewijzigde metagegevens wilt publiceren. </p></td> 
   </tr> 
  </tbody> 
 </table>

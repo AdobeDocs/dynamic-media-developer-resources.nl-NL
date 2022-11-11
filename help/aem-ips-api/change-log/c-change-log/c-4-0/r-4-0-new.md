@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f07562a8-71e9-4d98-9d0c-5bb32a7e0ef1
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1195'
 ht-degree: 0%
 
 ---
@@ -248,8 +248,8 @@ Extra opties toegevoegd aan `UploadDirectoryJob` en `UploadUrlsJob` om de verwer
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1" morerows="1"> <p> <span class="codeph"> PostScriptOptions </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> proces </span> </p> </td> 
+   <td colname="col1" morerows="1"> <p> <span class="codeph"> [!DNL PostScriptOptions] </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> [!DNL process] </span> </p> </td> 
    <td colname="col3"> <p> 
      <ul id="ul_6BBFF026010F4913BD632B3312E17C4B"> 
       <li id="li_AA1131A68FB242C9A1380DE6F8F318C7"> <p> <span class="codeph"> Geen </span> </p> </li> 
@@ -267,7 +267,7 @@ Extra opties toegevoegd aan `UploadDirectoryJob` en `UploadUrlsJob` om de verwer
    <td colname="col4"> <p>Wordt gebruikt wanneer het bestand in een afbeelding wordt gerasterd. Er wordt een transparante achtergrond gemaakt als het oorspronkelijke bestand op deze manier is gedefinieerd voor het bedekken van logo's. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" morerows="3"> <p> <span class="codeph"> IllustratorOptions </span> </p> </td> 
+   <td colname="col1" morerows="3"> <p> <span class="codeph"> [!DNL IllustratorOptions] </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> proces </span> </p> </td> 
    <td colname="col3"> <p> 
      <ul id="ul_C2F1000A01DE41678A8E1DDE0C8A0E97"> 
@@ -281,12 +281,12 @@ Extra opties toegevoegd aan `UploadDirectoryJob` en `UploadUrlsJob` om de verwer
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <span class="codeph"> resolutie </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> [!DNL resolution] </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;integer&gt; </span> </p> </td> 
    <td colname="col4"> <p>Resolutie omzetten in pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <span class="codeph"> kleurruimte </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> [!DNL colorspace] </span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
    <td colname="col4"> <p>Doelkleurruimte voor rendering. </p> </td> 
   </tr> 
@@ -310,12 +310,12 @@ Extra opties toegevoegd aan `UploadDirectoryJob` en `UploadUrlsJob` om de verwer
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <span class="codeph"> resolutie </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> [!DNL resolution] </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;integer&gt; </span> </p> </td> 
    <td colname="col4"> <p>Resolutie omzetten in pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <span class="codeph"> kleurruimte </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> [!DNL colorspace] </span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
    <td colname="col4"> <p>Doelkleurruimte voor rendering. </p> </td> 
   </tr> 
@@ -345,19 +345,19 @@ Gewijzigd `webservice.gzip.response` configuratie-eigenschap om een van de volge
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> nooit </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> [!DNL never] </span> </p> </td> 
    <td colname="col2"> <p>Geen gzip respons. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zeep </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> [!DNL soap] </span> </p> </td> 
    <td colname="col2"> <p>Gzip-reactie alleen als authHeader/gzipResponse true is. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> accepteren </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> [!DNL accept] </span> </p> </td> 
    <td colname="col2"> <p>Gzip als authHeader/gzipResponse waar is, of er geen gzipResponse-header aanwezig is en de HTTP Accept-Encoding-header gzip bevat. (Standaard). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altijd </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> [!DNL always] </span> </p> </td> 
    <td colname="col2"> <p>Gzip altijd reactie, ongeacht headerwaarden. Gebruik deze waarde alleen voor foutopsporingsdoeleinden. </p> </td> 
   </tr> 
  </tbody> 

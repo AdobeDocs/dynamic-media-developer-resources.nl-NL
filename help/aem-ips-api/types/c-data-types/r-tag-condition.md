@@ -2,17 +2,17 @@
 description: Hiermee definieert u zoekvoorwaarden voor tagvelden.
 solution: Experience Manager
 title: TagCondition
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ab1ac4b3-e91e-4c42-8b77-6e4c1d129b1a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
 
-# TagCondition{#tagcondition}
+# [!DNL TagCondition]{#tagcondition}
 
 Hiermee definieert u zoekvoorwaarden voor tagvelden.
 
@@ -39,9 +39,9 @@ Syntaxis
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3">Afhankelijk van het veldtype van de tag en of het veld valueArray wordt gebruikt. 
     <ul id="ul_CC0926425B094B3BB7D70CB392DBDABD">
-     <li id="li_09AB923A9A8D4A71917CF59C150E4EF5">Wanneer <span class="codeph"> value</span> wordt doorgegeven, moet <span class="codeph"> op</span> de tekenreeksconstante Matches zijn. De voorwaarde komt overeen met elk element dat aan de tagwaarde is gekoppeld. </li>
-     <li id="li_70F18494AB6C454EB611F51F16C19FAD">Wanneer <span class="codeph"> valueArray</span> wordt doorgegeven, kan het op-veld de constante <span class="codeph"> MatchesAny</span> zijn voor enkelvoudige of multigetaxeerde tagvelden. Een <span class="codeph"> voorwaarde MatchesAny</span> komt overeen met elk element dat is gekoppeld aan ten minste een van de tagwaarden in <span class="codeph"> valueArray</span>. </li>
-     <li id="li_0B25542D7E964B26B15591C45D5C66D0">Voor velden met meerdere tags kan het veld op worden ingesteld op de constante <span class="codeph"> MatchesAll</span> met het veld <span class="codeph"> valueArray</span>. In dit geval komt de voorwaarde alleen overeen met elementen die zijn gekoppeld aan alle tagwaarden in <span class="codeph"> valueArray</span> (mogelijk naast andere tagwaarden). </li>
+     <li id="li_09AB923A9A8D4A71917CF59C150E4EF5">Indien <span class="codeph"> value</span> wordt doorgegeven, <span class="codeph"> op</span> moet de tekenreeksconstante Matches zijn. De voorwaarde komt overeen met elk element dat aan de tagwaarde is gekoppeld. </li>
+     <li id="li_70F18494AB6C454EB611F51F16C19FAD">Indien <span class="codeph"> valueArray</span> wordt doorgegeven, kan het op-veld de constante zijn <span class="codeph"> MatchesAny</span> voor velden met enkelvoudige of meervoudige tags. A <span class="codeph"> MatchesAny</span> voorwaarde komt overeen met elk element dat is gekoppeld aan ten minste een van de tagwaarden in <span class="codeph"> valueArray</span>. </li>
+     <li id="li_0B25542D7E964B26B15591C45D5C66D0">Voor velden met meerdere tags kan het bovenste veld worden ingesteld op de constante <span class="codeph"> MatchesAll</span> met de <span class="codeph"> valueArray</span> veld. In dit geval komt de voorwaarde alleen overeen met elementen die zijn gekoppeld aan alle tagwaarden in <span class="codeph"> valueArray</span> (mogelijk naast andere tagwaarden). </li>
     </ul></td> 
   </tr> 
   <tr> 

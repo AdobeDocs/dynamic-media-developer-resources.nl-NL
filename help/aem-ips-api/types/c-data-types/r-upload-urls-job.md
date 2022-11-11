@@ -2,17 +2,17 @@
 description: Hiermee uploadt u URL's vanaf de locatie waar u bestanden wilt ophalen.
 solution: Experience Manager
 title: UploadUrlsJob
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 28bca473-670f-4588-93fb-a6d6a692ce30
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
 
-# UploadUrlsJob{#uploadurlsjob}
+# [!DNL UploadUrlsJob]{#uploadurlsjob}
 
 Hiermee uploadt u URL&#39;s vanaf de locatie waar u bestanden wilt ophalen.
 
@@ -87,7 +87,7 @@ Syntaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> numUrls</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3">Retourneert het aantal URL's dat in een taak is verzonden. Wordt gebruikt door <a href="../../operations/c-operations-intro/c-methods/r-get-active-jobs.md#reference-67483cbd71d04042b48434d886e8a7a0" format="dita" scope="local"> getActiveJobs</a> en <a href="../../operations/c-operations-intro/c-methods/r-get-scheduled-jobs.md#reference-2bab1861325f4bff84c879d1efa9146e" format="dita" scope="local"> getScheduledJobs</a>. </td> 
+   <td colname="col3">Retourneert het aantal URL's dat in een taak is verzonden. Gebruikt door <a href="../../operations/c-operations-intro/c-methods/r-get-active-jobs.md#reference-67483cbd71d04042b48434d886e8a7a0" format="dita" scope="local"> getActiveJobs</a> en <a href="../../operations/c-operations-intro/c-methods/r-get-scheduled-jobs.md#reference-2bab1861325f4bff84c879d1efa9146e" format="dita" scope="local"> getScheduledJobs</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> overschrijven</span> </span> </td> 
@@ -174,13 +174,13 @@ Syntaxis
 
 ## Notities {#section-637405ff7e0b4a71b83fd359b92fa0c2}
 
-Voor `CropOptions` kunt u slechts een van de volgende opties kiezen:
+Voor `CropOptions`kunt u slechts een van de volgende opties kiezen:
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-Voor `PublishJob` kunt u slechts een van de volgende opties kiezen:
+Voor `PublishJob`kunt u slechts een van de volgende opties kiezen:
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`

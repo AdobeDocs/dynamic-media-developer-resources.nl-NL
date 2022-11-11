@@ -2,17 +2,17 @@
 description: Groepeer bestanden in sets met behulp van een lijst met elementen.
 solution: Experience Manager
 title: AutomatedSetGenerationJob
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 44df6dfa-1485-40c2-8a14-bbf451b87641
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
 
-# AutomatedSetGenerationJob{#automatedsetgenerationjob}
+# [!DNL AutomatedSetGenerationJob]{#automatedsetgenerationjob}
 
 Groepeer bestanden in sets met behulp van een lijst met elementen.
 
@@ -30,27 +30,27 @@ Syntaxis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL assetHandleArray]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:HandleArray</span> </td> 
    <td colname="col3">Een array met elementhandgrepen die wordt gebruikt om de set te maken. <p>Standaard is 1000 het maximale aantal elementen dat u in de array kunt opnemen. </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> destFolder</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL destFolder]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Pad naar de map waarin u de sets wilt opslaan. Hiermee wordt standaard naar de hoofdmap van het bedrijf opgeslagen. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> readyForPublish</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL readyForPublish]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:Boolean</span> </td> 
    <td colname="col3"> Hiermee stelt u een markering in die aangeeft of de elementen moeten worden gepubliceerd of niet. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> autoSetCreationOptions</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL autoSetCreationOptions]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typen:AutoSetCreationOptions</span> </td> 
    <td colname="col3">Een array met ingestelde generatiescripts die u kunt uitvoeren op de geüploade bestanden. Zie <a href="../../types/c-data-types/r-auto-set-creation-options.md#reference-58b42b39e53345aeb87cd1adc864e7ff" format="dita" scope="local"> AutoSetCreationOptions</a></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> emailSetting</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL emailSetting]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> <p>Stel een geautomatiseerde e-mailmelding in voor de taak. </p> </td> 
   </tr> 
@@ -59,7 +59,7 @@ Syntaxis
 
 **e-mailinstellingsopties**
 
-De parameter `emailSetting` bevat de volgende opties:
+De `emailSetting` parameter bevat de volgende opties:
 
 | Option | Retourneert |
 |---|---|

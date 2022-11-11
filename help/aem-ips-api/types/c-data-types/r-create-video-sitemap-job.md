@@ -2,17 +2,17 @@
 description: Hiermee maakt u een site-overzicht voor video.
 solution: Experience Manager
 title: CreateVideoSitemapJob
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2af7c949-46cf-4570-9043-1b6296a2e467
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '49'
 ht-degree: 0%
 
 ---
 
-# CreateVideoSitemapJob{#createvideositemapjob}
+# [!DNL CreateVideoSitemapJob]{#createvideositemapjob}
 
 Hiermee maakt u een site-overzicht voor video.
 
@@ -32,7 +32,7 @@ Syntaxis
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> forceUpdate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:Boolean</span> </td> 
-   <td colname="col3">Genereert het site-overzicht wanneer ingesteld op <span class="codeph"> true</span>. <p><p>Opmerking: Als de Configuratie van de Generatie van de Sitemap aan hand wordt geplaatst en <span class="codeph"> forceUpdate</span> niet wordt geplaatst, zal het plaatskaart niet worden geproduceerd. </p></p></td> 
+   <td colname="col3">Genereert het site-overzicht wanneer ingesteld op <span class="codeph"> true</span>. <p><p>Opmerking: Als de Configuratie van de Generatie Sitemap aan hand wordt geplaatst en <span class="codeph"> forceUpdate</span> niet is ingesteld, wordt het site-overzicht niet gegenereerd. </p></p></td> 
   </tr> 
  </tbody> 
 </table>

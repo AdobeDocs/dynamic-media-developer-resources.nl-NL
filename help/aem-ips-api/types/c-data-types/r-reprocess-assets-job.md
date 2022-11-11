@@ -1,20 +1,20 @@
 ---
-description: Taaktype waarmee eerder geüploade primaire bestanden opnieuw kunnen worden verwerkt, waaronder het terugzetten van PDF's en het opnieuw optimaliseren van afbeeldingen.
+description: Taaktype waarmee eerder geüploade primaire bestanden opnieuw kunnen worden verwerkt, inclusief het terugzetten van PDF en het opnieuw optimaliseren van afbeeldingen.
 solution: Experience Manager
 title: ReprocessAssetsJob
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: b6078246-54e1-4119-b4f8-ba6a28577cff
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
 
-# ReprocessAssetsJob{#reprocessassetsjob}
+# [!DNL ReprocessAssetsJob]{#reprocessassetsjob}
 
-Taaktype waarmee eerder geüploade primaire bestanden opnieuw kunnen worden verwerkt, waaronder het terugzetten van PDF&#39;s en het opnieuw optimaliseren van afbeeldingen.
+Taaktype waarmee eerder geüploade primaire bestanden opnieuw kunnen worden verwerkt, inclusief het terugzetten van PDF en het opnieuw optimaliseren van afbeeldingen.
 
 Syntaxis
 
@@ -52,7 +52,7 @@ Syntaxis
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> preserveCrop</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:Boolean</span> </p> </td> 
-   <td colname="col3"> <p>Hiermee regelt u het behoud van bestaande uitsnijddefinities. De standaardwaarde is true.</p> <p>Als u de parameter manualCropOptions en de bijbehorende waarden opgeeft, worden de nieuwe waarden (behalve 0,0,0,0) toegepast op het element, ongeacht de waarde preserveCrop.</p><p>Als u <i>not</i> de parameter manualCropOptions verstrekt, wordt de waarde van preserveCrop gehandhaafd. En in het geval van true blijven de bestaande preserveCrop-waarden behouden. in het geval van false worden de waarden preserveCrop verwijderd.</p><p>Voorbeeld:</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />    &lt;left&gt;190&lt;/left&gt;<br />    &lt;right&gt;310&lt;/right&gt;<br />    &lt;top&gt;160&lt;/top&gt;<br />    &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p> </td> 
+   <td colname="col3"> <p>Hiermee regelt u het behoud van bestaande uitsnijddefinities. De standaardwaarde is true.</p> <p>Als u de parameter manualCropOptions en de bijbehorende waarden opgeeft, worden de nieuwe waarden (behalve 0,0,0,0) toegepast op het element, ongeacht de waarde preserveCrop.</p><p>Als u <i>niet</i> Voor de parameter manualCropOptions blijft de waarde van preserveCrop behouden. En in het geval van true blijven de bestaande preserveCrop-waarden behouden. in het geval van false worden de waarden preserveCrop verwijderd.</p><p>Voorbeeld:</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />   &lt;left&gt;190&lt;/left&gt;<br />   &lt;right&gt;310&lt;/right&gt;<br />   &lt;top&gt;160&lt;/top&gt;<br />   &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 
@@ -159,13 +159,13 @@ Syntaxis
 
 **Notities**
 
-De opties voor `*CropOptions` omvatten:
+Keuzen voor `*CropOptions` omvatten:
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-De opties voor `*PublishJob` omvatten:
+Keuzen voor `*PublishJob` omvatten:
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`

@@ -5,14 +5,14 @@ title: UnsharpMaskOptions
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 7150b4a8-a44d-4858-96f2-6004d5f48e77
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
 
-# UnsharpMaskOptions{#unsharpmaskoptions}
+# [!DNL UnsharpMaskOptions]{#unsharpmaskoptions}
 
 Instellingen die de scherpte van afbeeldingen voor geoptimaliseerde TIF-piramidebestanden helpen verbeteren.
 
@@ -20,7 +20,7 @@ Instellingen die de scherpte van afbeeldingen voor geoptimaliseerde TIF-piramide
 
 ## Parameters {#section-c3f0d03136ba4422819cb463bd393885}
 
-Geef een waarde op voor `unsharpMaskOptions`-opties met `minOccurs=" *`n`*".`
+Geef een waarde op voor `unsharpMaskOptions` opties met `minOccurs=" *`n`*".`
 
 <table id="table_D1392963C5694969A9D546F82DB6F45C">
  <thead>
@@ -62,7 +62,7 @@ Geef een waarde op voor `unsharpMaskOptions`-opties met `minOccurs=" *`n`*".`
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> monochroom</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:int</span></td>
-   <td colname="col3"><p>Waarden zijn alleen <span class="codeph"> 0</span> of <span class="codeph"> 1</span>. </p><p>Stel in op <span class="codeph"> 0</span> om toe te passen op elke kleurcomponent afzonderlijk of op <span class="codeph"> 1</span> om alleen toe te passen op helderheid (intensiteit) van afbeelding. Het laagmasker of het samengestelde masker wordt ook verscherpt. </p><p><span class="codeph"><span class="varname"> </span></span> monochrome afbeeldingen worden genegeerd. </p></td>
+   <td colname="col3"><p>Waarden omvatten <span class="codeph"> 0</span> of <span class="codeph"> 1</span> alleen. </p><p>Instellen op <span class="codeph"> 0</span> afzonderlijk of op <span class="codeph"> 1</span> alleen toepassen op de helderheid (intensiteit) van de afbeelding. Het laagmasker of het samengestelde masker wordt ook verscherpt. </p><p><span class="codeph"><span class="varname"> monochroom</span></span> wordt genegeerd voor grijswaardenafbeeldingen. </p></td>
   </tr>
  </tbody>
 </table>
@@ -83,7 +83,7 @@ Geef een waarde op voor `unsharpMaskOptions`-opties met `minOccurs=" *`n`*".`
 
 ## Gebruikt door {#section-db8124a5468b498694a780f8a56a4560}
 
-Het type `unsharpMaskOptions` wordt gebruikt door:
+De `unsharpMaskOptions` type wordt gebruikt door:
 
 * [ReprocessAssetsJob](../../types/c-data-types/r-reprocess-assets-job.md#reference-a303f7832ae44fdab1dca7cc8bef3fa3)
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)

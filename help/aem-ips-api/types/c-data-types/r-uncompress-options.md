@@ -2,17 +2,17 @@
 description: Instelling voor uploaden om ZIP- en TAR-bestanden te verwerken als primaire elementen (Geen) of om de inhoud ervan te extraheren en te uploaden (UnCompress).
 solution: Experience Manager
 title: UnCompressOptions
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 89222959-3701-4ea6-bcae-98ceec93764f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
 
-# UnCompressOptions{#uncompressoptions}
+# [!DNL UnCompressOptions]{#uncompressoptions}
 
 Instelling voor uploaden om ZIP- en TAR-bestanden te verwerken als primaire elementen (Geen) of om de inhoud ervan te extraheren en te uploaden (UnCompress).
 
@@ -36,9 +36,9 @@ Instelling voor uploaden om ZIP- en TAR-bestanden te verwerken als primaire elem
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> <p>Bepaalt de verwerking van ZIP- en TAR-archiefbestanden. Biedt twee opties: 
      <ul id="ul_F34E2F3B9B74450CA7E76BD9FD7137C2">
-      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> Geen:</span> verwerken als primaire elementen. </li>
-      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> Comprimeren:inhoud </span> extraheren en verwerken. </li>
-     </ul><p>Opmerking: Tekenreeksconstanten zijn hoofdlettergevoelig. Gebruik <span class="codeph"> UnCompress</span>, niet <span class="codeph"> decomprimeren</span> of <span class="codeph"> unCompress</span>. </p></p> </td> 
+      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> Geen:</span> Verwerk het als primaire elementen. </li>
+      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> Comprimeren ongedaan maken:</span> Inhoud extraheren en verwerken. </li>
+     </ul><p>Opmerking: Tekenreeksconstanten zijn hoofdlettergevoelig. Gebruiken <span class="codeph"> UnCompress</span>, niet <span class="codeph"> decomprimeren</span> of <span class="codeph"> unCompress</span>. </p></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,7 +58,7 @@ Instelling voor uploaden om ZIP- en TAR-bestanden te verwerken als primaire elem
 
 ## Gebruikt door {#section-b2a829cf5511412e968bb2000f85cc31}
 
-Het type `unCompressionOptions` wordt gebruikt door:
+De `unCompressionOptions` type wordt gebruikt door:
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)

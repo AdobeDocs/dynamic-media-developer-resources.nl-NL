@@ -5,14 +5,14 @@ title: ConfigSetting
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6d6421ce-1933-4310-b691-817392631969
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 3%
+source-wordcount: '27'
+ht-degree: 0%
 
 ---
 
-# ConfigSetting{#configsetting}
+# [!DNL ConfigSetting]{#configsetting}
 
 Wordt alleen gebruikt door Dynamic Media-ontwikkelaars.
 
@@ -22,6 +22,6 @@ Syntaxis
 
 | Naam | Type | Beschrijving |
 |---|---|---|
-| name | `xsd:string` | Configuratienaam. |
-| value | `xsd:string` | Configuratiewaarde. |
-| handgreep | `xsd:string` | Handgreep aan de opgeslagen configuratie. |
+| [!DNL name] | `xsd:string` | Configuratienaam. |
+| [!DNL value] | `xsd:string` | Configuratiewaarde. |
+| [!DNL handle] | `xsd:string` | Handgreep aan de opgeslagen configuratie. |

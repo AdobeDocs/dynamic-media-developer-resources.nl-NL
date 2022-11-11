@@ -1,24 +1,24 @@
 ---
-description: 'Binnen dit type is het pageReset-veld relevant voor renderSet- en Catalog-afbeeldingselementtypen '
+description: Binnen dit type is het pageReset-veld relevant voor renderSet- en Catalog-afbeeldingselementtypen
 solution: Experience Manager
 title: ImageSetMemberUpdate
-feature: Dynamic Media Classic,SDK/API,Afbeeldingssets
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: 4c598afb-a80c-4fac-997f-ef1c7175430c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
 
-# ImageSetMemberUpdate{#imagesetmemberupdate}
+# [!DNL ImageSetMemberUpdate]{#imagesetmemberupdate}
 
 Binnen dit type is het pageReset-veld relevant voor de renderset- en catalogusafbeeldingselementtypen:
 
-* Voor `RenderSet` geeft `pageReset` het begin van een nieuwe renderweergave/staalgroep aan.
+* Voor `RenderSet`, `pageReset` Hiermee wordt het begin van een nieuwe renderweergave/staalgroep aangegeven.
 
-* Voor Catalogus, `pageReset` wijst op het begin van een nieuwe paginamening. Doorgaans zijn er afbeeldingen van 2 pagina&#39;s per paginaweergave, maar u kunt er meer of minder van hebben.
+* Voor Catalog: `pageReset` Hiermee wordt het begin van een nieuwe paginaweergave aangegeven. Doorgaans zijn er afbeeldingen van 2 pagina&#39;s per paginaweergave, maar u kunt er meer of minder van hebben.
 
 ## Parameters {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -39,7 +39,7 @@ Binnen dit type is het pageReset-veld relevant voor de renderset- en catalogusaf
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> pageReset</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:Boolean</span> </td> 
-   <td colname="col3">Hiermee wordt de pagina opnieuw ingesteld. <p>Instelling wordt genegeerd en waarde wordt geforceerd naar true voor <span class="codeph"> ImageSet</span> en <span class="codeph"> SpinSet</span>. </p></td> 
+   <td colname="col3">Hiermee wordt de pagina opnieuw ingesteld. <p>Instelling wordt genegeerd en waarde wordt geforceerd op true voor <span class="codeph"> ImageSet</span> en <span class="codeph"> SpinSet</span>. </p></td> 
   </tr> 
  </tbody> 
 </table>
