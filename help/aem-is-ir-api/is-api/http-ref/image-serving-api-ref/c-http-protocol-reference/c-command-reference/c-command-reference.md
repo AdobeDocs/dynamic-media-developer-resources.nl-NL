@@ -1,13 +1,13 @@
 ---
+title: Opdrachtverwijzing
 description: In deze sectie worden de HTTP-protocolopdrachten beschreven.
 solution: Experience Manager
-title: Opdrachtverwijzing
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 959cb193-d0b7-4aa9-a747-fa17484f80c7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 187de979d7d1f7ce92b7b4c8b7661a787ab6889f
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,19 @@ ht-degree: 0%
 
 In deze sectie worden de HTTP-protocolopdrachten beschreven.
 
-**Alleen** voor Dynamic Media in AEM: Naast de basisafbeeldingsinstellingen die beschikbaar zijn in de gebruikersinterface, ondersteunt  [!DNL Dynamic Media] in AEM (  [!DNL Adobe Experience Manager]) tal van geavanceerde afbeeldingswijzigingen die u kunt opgeven in het veld  **Afbeeldingsaanpassingen** . Deze parameters worden hieronder gedefinieerd. Houd er echter rekening mee dat de volgende functionaliteit niet in Dynamic Media in AEM wordt ondersteund.
+>[!TIP]
+>
+>Uitproberen en ontdekken wat de voordelen zijn van Dynamic Media-beeldmodifiers en Smart Imaging met Dynamic Media [_Opname_](https://snapshot.scene7.com/).
+>
+> Momentopname is een visueel demonstratieprogramma dat is ontworpen om de kracht van Dynamic Media te illustreren voor geoptimaliseerde en dynamische beeldlevering. Experimenteer met testafbeeldingen of Dynamic Media-URL&#39;s om visueel de uitvoer van verschillende Dynamic Media-afbeeldingsmodifiers en Smart Imaging-optimalisaties te bekijken voor:
+>* Bestandsgrootte (met WebP en AVIF levering)
+>* Netwerkbandbreedte
+>* DPR (pixelverhouding apparaat)
+>
+>Als u wilt weten hoe eenvoudig het is om Momentopname te gebruiken, speelt u de opdracht [Video over momentopnamen](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) (3 minuten en 17 seconden).
+
+
+**Alleen voor Dynamic Media in Adobe Experience Manager** - Buiten de basisafbeeldingsinstellingen die beschikbaar zijn in de gebruikersinterface, [!DNL Dynamic Media] in AEM ( [!DNL Adobe Experience Manager]) ondersteunt talrijke geavanceerde afbeeldingswijzigingen die u kunt opgeven in het dialoogvenster **Afbeeldingsaanpassingen** veld. Deze parameters worden hieronder gedefinieerd. Houd er echter rekening mee dat de volgende functionaliteit niet in Dynamic Media in AEM wordt ondersteund.
 
 * Opdrachten voor kleurcorrectie: `icc=` en `iccEmbed=`.
 * Standaardopdrachten voor sjablonen en tekstrendering: `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` en `textPs=`.
@@ -30,7 +42,7 @@ In deze sectie worden de HTTP-protocolopdrachten beschreven.
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-Zie ook de Dynamic Media [Voorinstellingsopties voor afbeeldingen](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) in de AEM 6.5-documentatie.
+Zie ook de Dynamic Media [Opties voorinstelling afbeelding](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) in de documentatie AEM 6.5.
 
 * [align](r-align.md)
 * [anker](r-anchor.md)
