@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: d5f8db82-f1f9-45be-990d-ebfef97507b6
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '2590'
 ht-degree: 0%
@@ -794,7 +794,7 @@ De breedte van de keuzelijst met insluitgrootte wordt bepaald door de volgende C
 
 >[!NOTE]
 >
->De keuzelijst met invoervak ondersteunt de `expanded` kenmerkkiezer met mogelijke waarden voor `true` en `false`. De `true` Deze waarde wordt gebruikt wanneer in een keuzelijst met invoervak een van de vooraf gedefinieerde insluitgrootten wordt weergegeven. De waarde neemt dus alle beschikbare breedte in beslag. De `false` Deze waarde wordt gebruikt wanneer de optie Aangepaste grootte is geselecteerd in de keuzelijst met invoervak. De waarde moet daarom worden verkleind zodat ruimte beschikbaar is voor invoervelden voor aangepaste breedte en hoogte.
+>De keuzelijst met invoervak ondersteunt de `expanded` kenmerkkiezer met mogelijke waarden voor `true` en `false`. De `true` Deze waarde wordt gebruikt wanneer in een keuzelijst met invoervak een van de vooraf gedefinieerde insluitgrootten wordt weergegeven. De waarde neemt dus alle beschikbare breedte in beslag. De `false` Deze waarde wordt gebruikt wanneer de optie Aangepaste grootte is geselecteerd in de keuzelijst met invoervak. De waarde moet daarom worden verkleind om ruimte voor invoervelden voor aangepaste breedte en hoogte mogelijk te maken.
 
 Voorbeeld - om het invoervak Grootte insluiten in te stellen op 300 pixels breed bij het weergeven van een vooraf gedefinieerd item en op 110 pixels breed bij het weergeven van een aangepaste grootte:
 
