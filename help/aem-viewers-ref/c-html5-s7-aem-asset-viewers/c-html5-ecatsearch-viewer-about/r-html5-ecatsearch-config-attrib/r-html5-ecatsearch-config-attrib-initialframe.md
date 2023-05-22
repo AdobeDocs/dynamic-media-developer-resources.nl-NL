@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 15241738-a1b6-4723-b6fc-ebc8f7dedb03
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 1%
+source-wordcount: '58'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> frame</span></span> </p> </td> 
-   <td colname="col2"> <p> Geeft een op nul gebaseerde spread-index op die bij het laden van de viewer moet worden weergegeven. De index komt overeen met de index van de spread in de modus Liggend. Als de viewer is geroteerd naar Staand, geeft de viewer de meest linkse pagina weer vanaf de spread waarnaar wordt verwezen door <span class="codeph"> frameIdx</span>. </p> </td> 
+   <td colname="col2"> <p> Geeft een op nul gebaseerde spread-index op die bij het laden van de viewer moet worden weergegeven. De index komt overeen met de index van de spread in de modus Liggend. Als de viewer staand wordt gedraaid, wordt de meest linkse pagina weergegeven vanaf de spread waarop de <span class="codeph"> frameIdx</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

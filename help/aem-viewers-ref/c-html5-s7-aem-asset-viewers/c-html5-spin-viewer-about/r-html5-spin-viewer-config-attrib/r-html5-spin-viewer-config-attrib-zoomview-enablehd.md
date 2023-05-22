@@ -24,7 +24,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> getal</span></span> </p> </td> 
-   <td colname="col2"> <p> Als u de limietinstelling gebruikt, schakelt de component hoge pixeldichtheid alleen in tot de opgegeven limiet. </p> <p>Zie het onderstaande voorbeeld. </p> </td> 
+   <td colname="col2"> <p> Als u de limietinstelling gebruikt, schakelt de component een hoge pixeldichtheid alleen in tot de opgegeven limiet. </p> <p>Zie het onderstaande voorbeeld. </p> </td> 
   </tr> 
  </tbody> 
 </table>

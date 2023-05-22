@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 9b9ccdf4-4639-4ba8-988c-c68d81192619
 source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,8 @@ Hotspots kunnen een Quickview-functie activeren op de hostwebpagina door een Jav
 
 ## Hotspots voor Snelle weergave {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Deze typen hotspots moeten worden ontworpen met het actietype &quot;QuickView&quot; in Dynamic Media, Adobe Experience Manager Assets - On-demand. Wanneer een gebruiker een dergelijke hotspot activeert, voert de viewer de JavaScript-callback `quickViewActivate` uit en geeft hij de hotspot-gegevens eraan door. Er wordt verwacht dat de ingesloten webpagina luistert naar deze callback. Wanneer de pagina wordt geactiveerd, wordt een eigen Quickview-implementatie geopend.
+Deze typen hotspots moeten worden ontworpen met het actietype &quot;QuickView&quot; in Dynamic Media, Adobe Experience Manager Assets - On-demand. Wanneer een gebruiker een dergelijke hotspot activeert, voert de viewer de `quickViewActivate` JavaScript-callback en geeft de hotspot-gegevens eraan door. Er wordt verwacht dat de ingesloten webpagina luistert naar deze callback. Wanneer de pagina wordt geactiveerd, wordt een eigen Quickview-implementatie geopend.
 
 ## Omleiden naar externe webpagina {#section-ef820c71251e4215800bb99c0c9ebe16}
 
-Hotspots die zijn ontworpen voor het actietype &quot;Snelle weergave&quot; in Dynamic Media of Experience Manager Assets - Op aanvraag leidt de gebruiker om naar een externe URL. Afhankelijk van de instellingen die tijdens het ontwerpen zijn gemaakt, wordt de URL geopend in een nieuw browsertabblad, in hetzelfde venster of in het benoemde browservenster.
+Hotspots die zijn ontworpen voor het actietype &quot;Snelle weergave&quot; in Dynamic Media of Experience Manager Assets - De gebruiker wordt op aanvraag omgeleid naar een externe URL. Afhankelijk van de instellingen die tijdens het ontwerpen zijn gemaakt, wordt de URL geopend in een nieuw browsertabblad, in hetzelfde venster of in het benoemde browservenster.

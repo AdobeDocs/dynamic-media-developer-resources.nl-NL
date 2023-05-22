@@ -8,7 +8,7 @@ exl-id: 2cfeeba0-3230-481c-857a-bed3fedc836c
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '76'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -21,8 +21,8 @@ Configuration attribute for Interactive Video Viewer.
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> auto|left|right  </span> </p> </td> 
-   <td colname="col2"> <p> Hiermee bepaalt u hoe miniaturen de weergave vullen. </p> <p>Stel in op <span class="codeph"> links </span> om de vulvolgorde van links naar rechts in te stellen. </p> <p>Met de instelling <span class="codeph"> rechts </span> wordt de volgorde omgekeerd, zodat de weergave in een richting van rechts naar links en van boven naar beneden wordt gevuld. </p> <p>Stel in op <span class="codeph"> auto </span> om de component de modus right te laten toepassen wanneer de landinstelling is ingesteld op <span class="codeph"> "ja" </span>; anders wordt <span class="codeph"> links </span> gebruikt. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
+   <td colname="col2"> <p> Hiermee bepaalt u hoe miniaturen de weergave vullen. </p> <p>Instellen op <span class="codeph"> left </span> om de vulvolgorde van links naar rechts in te stellen. </p> <p>Instellen op <span class="codeph"> right </span> Hiermee draait u de volgorde om, zodat de weergave wordt gevuld in de richting van rechts naar links en van boven naar beneden. </p> <p>Instellen op <span class="codeph"> auto </span> om de component de juiste modus te laten toepassen wanneer de landinstelling is ingesteld op <span class="codeph"> "ja" </span>; anders, <span class="codeph"> left </span> wordt gebruikt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

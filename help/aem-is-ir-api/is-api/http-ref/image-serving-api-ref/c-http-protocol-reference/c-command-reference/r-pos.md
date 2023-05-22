@@ -2,12 +2,12 @@
 description: Positie laag.
 solution: Experience Manager
 title: pos
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c2e9a1f3-7216-4ab0-9c37-57f083119cef
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,9 @@ posN= *`coordN`*
  </tr> 
 </table>
 
-In het geval van afbeeldings-, tekst- en effen-kleurlagen geeft `pos=` de positie van een laaganker op ten opzichte van het anker van laag 0. `posN=` coördinaatwaarden worden genormaliseerd ten opzichte van de werkelijke grootte van de laag 0 rect.
+In het geval van afbeeldings-, tekst- en effen-kleurlagen, `pos=` Hiermee geeft u de positie van een laaganker op ten opzichte van het anker laag 0. `posN=` coördinaatwaarden worden genormaliseerd ten opzichte van de werkelijke grootte van de laag 0 rect.
 
-Bij effectlagen verschuift `pos=` de effectlaag ten opzichte van de bovenliggende laag.
+In het geval van effectlagen, `pos=` verschuift de effectlaag ten opzichte van de bovenliggende laag.
 
 Bij een positieve waarde wordt de laag naar rechts/onder verplaatst en naar links/boven negatief. `posN=0.5,0.5` Hiermee verplaatst u de laag met de helft van de breedte en hoogte van de laag naar beneden en naar rechts.
 

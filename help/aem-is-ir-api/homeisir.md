@@ -3,7 +3,6 @@ description: startpagina Adobe Dynamic Media Image Serving and Image Rendering A
 solution: Experience Manager
 title: startpagina Adobe Dynamic Media Image Serving and Image Rendering API
 exl-id: a21b5a40-88d1-4e20-8770-fb35037bd7fd
-translation-type: tm+mt
 source-git-commit: 3598b0247406d942b0f58b1c74aae4956590f5f8
 workflow-type: tm+mt
 source-wordcount: '65'
@@ -11,6 +10,6 @@ ht-degree: 0%
 
 ---
 
-# Adobe Dynamic Media Image Serving and Image Rendering API Home{#adobe-scene-image-serving-and-image-rendering-api-home}
+# startpagina Adobe Dynamic Media Image Serving and Image Rendering API{#adobe-scene-image-serving-and-image-rendering-api-home}
 
 Deze documentatie bevat informatie over API&#39;s voor beeldbewerking en het renderen van afbeeldingen en verwante technologieën. Als u werkt aan Dynamic Media Classic-integratie met AEM, moet u het gedeelte Image Serving van deze API raadplegen.

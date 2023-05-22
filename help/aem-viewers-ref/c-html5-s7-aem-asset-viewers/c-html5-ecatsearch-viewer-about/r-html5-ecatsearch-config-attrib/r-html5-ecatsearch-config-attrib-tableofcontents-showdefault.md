@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: cc494d35-8d9b-44f8-874b-dfc88b65f547
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 3%
+source-wordcount: '44'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td> <p> Wanneer ingesteld op <span class="codeph"> 1</span> vult de component het vervolgkeuzevenster met elementen voor alle pagina's, zelfs voor pagina's waarvoor geen label is gedefinieerd. </p> <p>Wanneer ingesteld op <span class="codeph"> 0</span> worden alleen items met expliciete labels weergegeven in het vervolgkeuzemenu. </p> </td> 
+   <td> <p> Wanneer ingesteld op <span class="codeph"> 1</span> de component vult het vervolgkeuzevenster met elementen voor alle pagina's, zelfs voor pagina's waarvoor geen label is gedefinieerd. </p> <p>Wanneer ingesteld op <span class="codeph"> 0</span> alleen items met expliciete labels worden weergegeven in het vervolgkeuzevenster. </p> </td> 
   </tr> 
  </tbody> 
 </table>

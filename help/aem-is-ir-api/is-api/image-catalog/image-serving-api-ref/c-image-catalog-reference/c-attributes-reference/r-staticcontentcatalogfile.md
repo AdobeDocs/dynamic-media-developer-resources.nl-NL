@@ -2,12 +2,12 @@
 description: Statische gegevenspaden van inhoudscatalogus. Hiermee geeft u de bestanden op die de statische inhoudsgegevens voor deze catalogus bevatten.
 solution: Experience Manager
 title: StaticContentCatalogFile
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ff6f0ad8-189f-4172-89cb-f138d2df8fe4
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Statische gegevenspaden van inhoudscatalogus. Hiermee geeft u de bestanden op die de statische inhoudsgegevens voor deze catalogus bevatten.
 
-De statische gegevensdossiers van de inhoudscatalogus worden geladen in de gespecificeerde orde. Als dezelfde `static::Id`-waarde voorkomt in meer dan één record (in dezelfde of in verschillende catalogusbestanden), heeft de laatste instantie voorrang.
+De statische gegevensdossiers van de inhoudscatalogus worden geladen in de gespecificeerde orde. Indien dezelfde `static::Id` De waarde komt voor in meer dan één verslag (of in zelfde of verschillende catalogusdossiers), de laatste instantie prevaleert.
 
 ## Eigenschappen {#section-3f8dc8d21fa84fbeb71db6ca1ecbdd8c}
 

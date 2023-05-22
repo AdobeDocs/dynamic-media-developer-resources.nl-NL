@@ -2,12 +2,12 @@
 description: Afbeeldingskaartgegevens.
 solution: Experience Manager
 title: map
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3330f49a-934e-492a-804c-ace4d147c65a
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Afbeeldingskaartgegevens.
 
-`req=map[,text|{xml[, *``*]}|{json[&id= *`encodingreqId`*]}]`
+`req=map[,text|{xml[, *`coderen`*]}|{json[&id= *`reqId`*]}]`
 
 <table id="simpletable_10F2152FDF33411491FBBAFD173CA5ED"> 
  <tr class="strow"> 
@@ -29,22 +29,22 @@ Afbeeldingskaartgegevens.
  </tr> 
 </table>
 
-Retourneert `catalog::Map` zonder wijziging wanneer een item in een eenvoudige catalogus wordt opgevraagd zonder dat er aanvullende opdrachten zijn opgegeven (wordt niet geschaald naar `catalog::maxPix`).
+Retourneert `catalog::Map` zonder wijzigingen wanneer een eenvoudig item in een catalogus wordt opgevraagd waarvoor geen aanvullende opdrachten zijn opgegeven (wordt niet geschaald naar `catalog::maxPix`).
 
-Als er andere opdrachten in de aanvraag worden opgegeven, wordt een samengestelde afbeelding met hyperlinks geretourneerd. Deze wordt verkregen door alle `catalog::Map`- en/of `map=`-opdrachten in de aanvraag te schalen, uit te snijden, te roteren en in lagen te plaatsen, net zoals de afbeeldingsgegevens met `req=img` zijn.
+Als er andere opdrachten zijn opgegeven in de aanvraag, wordt een samengestelde afbeelding met hyperlinks geretourneerd. Deze worden verkregen door alle opdrachten te schalen, uit te snijden, te roteren en in lagen te plaatsen `catalog::Map` en/of `map=` opdrachten die in de aanvraag zijn opgenomen, net als de afbeeldingsgegevens `req=img`.
 
-Geef `text` op of laat de tweede parameter weg om de afbeeldingskaartgegevens te retourneren in de vorm van een `HTML <AREA>`-elementtekenreeks met het MIME-responstype `text/plain`.
+Opgeven `text` of laat de tweede parameter weg om de gegevens van de beeldkaart in de vorm van een `HTML <AREA>` elementtekenreeks met MIME-type reactie `text/plain`.
 
-Geef `xml` op om de reactie op te maken als XML in plaats van HTML. U kunt desgewenst tekstcodering opgeven. De standaardwaarde is `UTF-8`.
+Opgeven `xml` om de reactie op te maken als XML in plaats van als HTML. U kunt desgewenst tekstcodering opgeven. De standaardwaarde is `UTF-8`.
 
-Retourneert een lege tekenreeks (of leeg `<AREA>`-element) als er geen toewijzingsgegevens zijn gevonden voor de opgegeven catalogusobjecten en/of als er geen `<AREA>`-elementen overblijven na het uitsnijden van de afbeeldingen.
+Retourneert een lege tekenreeks (of leeg) `<AREA>` element) als er geen kaartgegevens zijn gevonden voor de opgegeven catalogusobjecten, en/of als er geen toewijzingsgegevens zijn gevonden `<AREA>` blijven na het uitsnijden van de afbeeldingen.
 
-De reactie van HTTP is cacheable met TTL die op `catalog::Expiration` wordt gebaseerd.
+De HTTP-respons is cacheable met de TTL op basis van `catalog::Expiration`.
 
 Verzoeken die JSONP reactieformaat steunen laten u de naam van de callback manager specificeren JS gebruikend de uitgebreide syntaxis van `req=` parameter:
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` is de naam van de manager JS die in de reactie JSONP aanwezig is. Alleen a-z, A-Z en 0-9 tekens zijn toegestaan. Optioneel. De standaardwaarde is `s7jsonResponse`.
+`<reqHandler>` is de naam van de manager JS die in de reactie JSONP aanwezig is. Alleen a-z, A-Z en 0-9 tekens zijn toegestaan. Optioneel. Standaard is `s7jsonResponse`.
 
-Zie [Afbeeldingskaarten](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab).
+Zie [Afbeeldingen met hyperlinks](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab).

@@ -8,7 +8,7 @@ role: Developer,User
 exl-id: bb3cfe4a-ec60-4c10-82fe-9e4f8f7c586f
 source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1281'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Alle visuele aanpassingen en de meeste gedragsaanpassingen voor de Interactive Image Viewer worden uitgevoerd door een aangepaste CSS te maken.
 
-De voorgestelde workflow is om het standaard CSS-bestand voor de juiste viewer te gebruiken, het naar een andere locatie te kopiëren, het aan te passen en de locatie van het aangepaste bestand op te geven in de opdracht `style=`.
+De voorgestelde workflow is om het standaard CSS-bestand voor de juiste viewer te gebruiken, het naar een andere locatie te kopiëren, het aan te passen en de locatie van het aangepaste bestand op te geven in het `style=` gebruiken.
 
 Standaard CSS-bestanden vindt u op de volgende locatie:
 
@@ -27,7 +27,7 @@ Aangepast CSS-bestand moet dezelfde klassedeclaraties bevatten als het standaard
 
 Een andere manier om aangepaste CSS-regels te bieden, is door ingesloten stijlen rechtstreeks op de webpagina of in een van gekoppelde externe CSS-regels te gebruiken.
 
-Houd er bij het maken van aangepaste CSS rekening mee dat de viewer de klasse `.s7interactiveimage` toewijst aan het DOM-containerelement. Als u een extern CSS dossier gebruikt dat met `style=` bevel wordt overgegaan, gebruik `.s7interactiveimage` klasse als ouderklasse in dalende selecteur voor uw CSS regels. Als u ingesloten stijlen toevoegt op de webpagina, kwalificeert u deze kiezer ook als volgt met een id van het DOM-containerelement:
+Houd er bij het maken van aangepaste CSS rekening mee dat de viewer `.s7interactiveimage` -klasse aan het DOM-containerelement. Als u een extern CSS-bestand gebruikt dat wordt doorgegeven met de `style=` gebruiken `.s7interactiveimage` klasse als bovenliggende klasse in afstammende kiezer voor uw CSS-regels. Als u ingesloten stijlen toevoegt op de webpagina, kwalificeert u deze kiezer ook als volgt met een id van het DOM-containerelement:
 
 `#<containerId>.s7interactiveimage`
 
@@ -41,9 +41,9 @@ De viewer ondersteunt twee mechanismen voor het maken van responsieve, ontworpen
 
 De viewer ondersteunt CSS-markeringen om responsieve, ontworpen CSS te helpen maken. Deze markeringen zijn speciale CSS-klassen die dynamisch worden toegewezen aan het containerelement op het hoogste niveau. Ze zijn gebaseerd op de grootte van de runtimeviewer en het invoertype dat op het huidige apparaat wordt gebruikt.
 
-De eerste groep CSS-markeringen bevat `.s7size_large`, `.s7size_medium` en `.s7size_small` klassen. Ze worden toegepast op basis van het runtimegebied van de viewercontainer. Als het viewergebied bijvoorbeeld gelijk is aan of groter is dan het formaat van een algemene desktopmonitor, gebruikt u `.s7size_large`. Wijs `.s7size_medium` toe als het gebied zich dicht bij een gewoon tabletapparaat bevindt. Gebruik `.s7size_small` voor gebieden die vergelijkbaar zijn met mobiele-telefoonschermen. Het belangrijkste doel van deze CSS-markeringen is het maken van verschillende lay-outs voor de gebruikersinterface voor verschillende schermen en viewerformaten.
+De eerste groep CSS-markeringen bevat `.s7size_large`, `.s7size_medium`, en `.s7size_small` klassen. Ze worden toegepast op basis van het runtimegebied van de viewercontainer. Als het viewergebied bijvoorbeeld gelijk is aan of groter is dan het formaat van een algemene desktopmonitor, gebruikt u `.s7size_large`. Als het gebied dicht bij een gebruikelijke tabletcomputer ligt, wijst u `.s7size_medium`. Gebruik voor gebieden die lijken op mobiele-telefoonschermen `.s7size_small`. Het belangrijkste doel van deze CSS-markeringen is het maken van verschillende lay-outs voor de gebruikersinterface voor verschillende schermen en viewerformaten.
 
-De tweede groep CSS-markeringen bevat `.s7mouseinput` en `.s7touchinput`. De CSS-markering `.s7touchinput` wordt ingesteld als het huidige apparaat aanraakinvoer heeft. Anders wordt `.s7mouseinput` gebruikt. Deze markeringen zijn vooral bedoeld om invoerelementen in de gebruikersinterface te maken met verschillende schermgrootten voor verschillende invoertypen, omdat aanraakinvoer doorgaans grotere elementen vereist.
+De tweede groep CSS-markeringen bevat `.s7mouseinput` en `.s7touchinput`. De CSS-markering `.s7touchinput` wordt ingesteld als het huidige apparaat aanraakinvoer heeft. Anders, `.s7mouseinput` wordt gebruikt. Deze markeringen zijn vooral bedoeld om invoerelementen in de gebruikersinterface te maken met verschillende schermgrootten voor verschillende invoertypen, omdat aanraakinvoer doorgaans grotere elementen vereist.
 
 In het volgende voorbeeld-CSS wordt de inzoomknopgrootte ingesteld op 28 x 28 pixels op systemen met muisinvoer en op 56 x 56 pixels op aanraakinvoerapparaten. Als de grootte van de viewer nog kleiner is, wordt deze ingesteld op 20 x 20 pixels.
 
@@ -127,7 +127,7 @@ Het is niet nodig om de volledige viewer-CSS in elke mediaquery te dupliceren. A
 
 ## CSS-sprites {#section-9b6d8d601cb441d08214dada7bb4eddc}
 
-Veel gebruikersinterface-elementen van de viewer worden opgemaakt met behulp van bitmapillustraties en hebben meer dan één specifieke visuele status. Een goed voorbeeld is een knop die normaal ten minste drie verschillende toestanden heeft: `up`, `over` en `down`. Elke status vereist een eigen toegewezen bitmapillustratie.
+Veel gebruikersinterface-elementen van de viewer worden opgemaakt met behulp van bitmapillustraties en hebben meer dan één specifieke visuele status. Een goed voorbeeld is een knop die normaal ten minste drie verschillende toestanden heeft: `up`, `over`, en `down`. Elke status vereist een eigen toegewezen bitmapillustratie.
 
 Bij een klassieke benadering van opmaak zou de CSS een afzonderlijke verwijzing naar het afzonderlijke afbeeldingsbestand op de server hebben voor elke status van het interface-element. Hier volgt een voorbeeld-CSS voor het opmaken van een inzoomknop:
 
@@ -140,9 +140,9 @@ background-image: url(images/v2/imagemap/ImageMapEffect_icon1_light_over_touch.p
 }
 ```
 
-Het nadeel van deze aanpak is dat de eindgebruiker een flikkerende of vertraagde reactie van de gebruikersinterface ervaart wanneer het element voor het eerst wordt gebruikt. Deze handeling treedt op omdat de afbeeldingsillustratie voor de nieuwe elementstatus nog niet is gedownload. Deze aanpak kan ook een enigszins negatief effect hebben op de prestaties als gevolg van een toename van het aantal HTTP-aanroepen naar de server.
+Het nadeel van deze benadering is dat de eindgebruiker flikkerende of vertraagde gebruikersinterfacerespons ervaart wanneer het element voor het eerst met elkaar in wisselwerking staat. Deze handeling treedt op omdat de afbeeldingsillustratie voor de nieuwe elementstatus nog niet is gedownload. Deze aanpak kan ook een enigszins negatief effect hebben op de prestaties als gevolg van een toename van het aantal HTTP-aanroepen naar de server.
 
-CSS-sprites is een andere aanpak waarbij afbeeldingsillustraties voor alle elementstatussen worden gecombineerd in één PNG-bestand dat een &#39;sprite&#39; wordt genoemd. Zulk &quot;SPRITE&quot;heeft alle visuele staten voor het bepaalde die element één na een andere wordt geplaatst. Wanneer het stileren van een gebruikersinterface element met sprites, wordt het zelfde SPRITE beeld van verwijzingen voorzien voor alle verschillende staten in CSS. Ook, wordt het `background-position` bezit gebruikt voor elke staat om te specificeren welk deel van het &quot;SPRITE&quot;beeld wordt gebruikt. U kunt een sprite-afbeelding op elke gewenste manier structureren. De kijkers hebben het gewoonlijk verticaal gestapeld.
+CSS-sprites is een andere aanpak waarbij afbeeldingsillustraties voor alle elementstatussen worden gecombineerd in één PNG-bestand dat een &#39;sprite&#39; wordt genoemd. Zulk &quot;SPRITE&quot;heeft alle visuele staten voor het bepaalde die element één na een andere wordt geplaatst. Wanneer het stileren van een gebruikersinterface element met sprites, wordt het zelfde SPRITE beeld van verwijzingen voorzien voor alle verschillende staten in CSS. Ook de `background-position` eigenschap wordt voor elke status gebruikt om aan te geven welk deel van de &quot;sprite&quot;-afbeelding wordt gebruikt. U kunt een sprite-afbeelding op elke gewenste manier structureren. De kijkers hebben het gewoonlijk verticaal gestapeld.
 
 Hieronder ziet u een op sprites gebaseerd voorbeeld waarin u dezelfde inzoomknop eerder opmaakt:
 
@@ -158,14 +158,14 @@ background-position: -0px -0px; width: 56px; height: 56px;
 
 ## Algemene opmaakopmerkingen en advies {#section-95855dccbbc444e79970f1aaa3260b7b}
 
-* Wanneer u de gebruikersinterface van de viewer aanpast met CSS, wordt het gebruik van de regel `!IMPORTANT` niet ondersteund voor het opmaken van viewerelementen. Met name `!IMPORTANT`-regel mag niet worden gebruikt om standaardstijlen of runtimestijlen van de viewer of Viewer SDK te negeren. De reden hiervoor is dat het gedrag van juiste componenten kan beïnvloeden. Gebruik in plaats daarvan CSS-kiezers met de juiste specificiteit om CSS-eigenschappen in te stellen die in deze naslaggids voor viewers worden beschreven.
+* Wanneer u de gebruikersinterface van de viewer aanpast met CSS, kunt u het volgende doen: `!IMPORTANT` regel wordt niet ondersteund voor het opmaken van viewerelementen. Met name: `!IMPORTANT` Deze regel mag niet worden gebruikt om standaardstijlen of runtimestijlen van de viewer of Viewer SDK te negeren. De reden hiervoor is dat het gedrag van juiste componenten kan beïnvloeden. Gebruik in plaats daarvan CSS-kiezers met de juiste specificiteit om CSS-eigenschappen in te stellen die in deze naslaggids voor viewers worden beschreven.
 * Alle paden naar externe elementen in CSS worden omgezet op de CSS-locatie, niet op de locatie van de HTML-pagina van de viewer. Houd rekening met deze regel wanneer u de standaard-CSS naar een andere locatie kopieert. Kopieer de standaardelementen of werk alle paden in de aangepaste CSS bij.
 * De voorkeursindeling voor bitmapillustraties is PNG.
-* Bitmapillustraties worden met de eigenschap `background-image` toegewezen aan elementen van de gebruikersinterface.
-* De `width` en `height` eigenschappen van een gebruikersinterface-element bepalen zijn logische grootte. De grootte van de bitmap die wordt doorgegeven aan `background-image` heeft geen invloed op de logische grootte ervan.
-* Als u de hoge pixeldichtheid van schermen met hoge resolutie, zoals Retina, wilt gebruiken, geeft u bitmapillustraties twee keer zo groot op als de logische grootte van de gebruikersinterface-elementen. Pas vervolgens de eigenschap `-webkit-background-size:contain` toe om de achtergrond omlaag te schalen naar de logische grootte van het interface-element.
-* Als u een knop uit de gebruikersinterface wilt verwijderen, voegt u `display:none` toe aan de CSS-klasse.
-* U kunt verschillende indelingen gebruiken voor kleurwaarden die door CSS worden ondersteund. Als u transparantie nodig hebt, gebruikt u de notatie `rgba(R,G,B,A)`. Anders kunt u de notatie `#RRGGBB` gebruiken.
+* Bitmapillustraties worden aan de hand van de `background-image` eigenschap.
+* De `width` en `height` eigenschappen van een interface-element definiëren de logische grootte ervan. De grootte van de bitmap die wordt doorgegeven aan `background-image` heeft geen invloed op de logische grootte ervan.
+* Als u de hoge pixeldichtheid van schermen met hoge resolutie, zoals Retina, wilt gebruiken, geeft u bitmapillustraties twee keer zo groot op als de logische grootte van de gebruikersinterface-elementen. Pas vervolgens de `-webkit-background-size:contain` eigenschap om de achtergrond naar beneden te schalen naar de logische grootte van het gebruikersinterface-element.
+* Als u een knop uit de gebruikersinterface wilt verwijderen, voegt u `display:none` naar de CSS-klasse.
+* U kunt verschillende indelingen gebruiken voor kleurwaarden die door CSS worden ondersteund. Gebruik de indeling als u transparantie nodig hebt `rgba(R,G,B,A)`. Anders kunt u de indeling gebruiken `#RRGGBB`.
 
 ## Algemene elementen van de gebruikersinterface {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
 

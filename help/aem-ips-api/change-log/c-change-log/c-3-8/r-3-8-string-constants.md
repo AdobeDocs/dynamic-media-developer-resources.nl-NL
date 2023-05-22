@@ -2,12 +2,12 @@
 description: Beschrijft nieuwe en veranderde koordconstanten voor IPS API versie 3.8.
 solution: Experience Manager
 title: Tekenreeksconstanten nieuw en gewijzigd
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 38f28e0f-edda-4786-9627-c0ef49645237
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---

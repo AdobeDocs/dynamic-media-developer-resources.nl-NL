@@ -2,12 +2,12 @@
 description: Pas de kleurtoon aan. Hiermee verschuift u de kleurtoon van elke zichtbare pixel van de laag of samengestelde afbeelding met de opgegeven hoeveelheid.
 solution: Experience Manager
 title: op_hue
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b436bd31-12a9-42ed-9ad3-5ff91e3ccce9
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Gebaseerd op een kleurtoonbereik van 360 graden.
 
 ## Eigenschappen {#section-55779644700b4c808a624cdf5a04447e}
 
-Laag, opdracht. Wordt toegepast op de huidige laag of op de samengestelde afbeelding als `layer=comp`. Genegeerd door effectlagen. CMYK-afbeeldingen of -lagen worden omgezet in RGB voordat de bewerking wordt toegepast.
+Laag, opdracht. Is van toepassing op de huidige laag of op de samengestelde afbeelding als `layer=comp`. Genegeerd door effectlagen. CMYK-afbeeldingen of -lagen worden omgezet in RGB voordat de bewerking wordt toegepast.
 
 ## Standaard {#section-7314580251f5456fa1f381ec9e99e0bb}
 

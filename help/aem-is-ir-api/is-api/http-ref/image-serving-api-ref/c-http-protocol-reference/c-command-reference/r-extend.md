@@ -2,12 +2,12 @@
 description: Laag uitbreiden. Hiermee voegt u marges toe aan een laag of snijdt u de laagrechthoek bij.
 solution: Experience Manager
 title: uitbreiden
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 03db6555-6851-49d4-b0de-5570bf56ad76
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Laag uitbreiden. Hiermee voegt u marges toe aan een laag of snijdt u de laagrechthoek bij.
 
-`extend= *``*, *``*, *``*, *`linksRechtsonder`*`
+`extend= *`left`*, *`top`*, *`right`*, *`bottom`*`
 
-`extendN= *``*, *``*, *``*, *`leftNtopNrightNbottomN`*`
+`extendN= *`leftN`*, *`topN`*, *`rightN`*, *`bottomN`*`
 
 <table id="simpletable_1DCCD469712B423C8154630127DC5F54"> 
  <tr class="strow"> 
@@ -31,15 +31,15 @@ Laag uitbreiden. Hiermee voegt u marges toe aan een laag of snijdt u de laagrech
  </tr> 
 </table>
 
-`extend=` wordt toegepast op de laag  ** nadat de afbeelding is uitgesneden (  `crop=`) en alle laagtransformaties, inclusief  `rotate=`, zijn toegepast.
+`extend=` wordt toegepast op de laag *na* de afbeelding is uitgesneden ( `crop=`) en alle laagtransformaties, inclusief `rotate=`, zijn toegepast.
 
-Het uitgebreide gebied wordt gevuld met `bgColor=` of blijft transparant als dit niet is opgegeven.
+Het uitgebreide gebied is gevuld met `bgColor=`of, indien niet gespecificeerd, transparant blijft.
 
-De argumentwaarden voor `extendN=` worden genormaliseerd met betrekking tot de grootte van de laagrect nadat laagtransformaties, met inbegrip van `rotate=` zijn toegepast.
+Argumentwaarden voor `extendN=` genormaliseerd ten opzichte van de grootte van de laagrechthoek na laagtransformaties, waaronder `rotate=` zijn toegepast.
 
 ## Eigenschappen {#section-8fc94de871f841f3bf5e1df135972ca9}
 
-Laagkenmerk. Is op laag 0 van toepassing als `layer=comp`. Genegeerd door effectlagen.
+Laagkenmerk. Is van toepassing op laag 0 als `layer=comp`. Genegeerd door effectlagen.
 
 ## Standaard {#section-de7473649cb9406b8d99028c74c4b8dc}
 
@@ -59,4 +59,4 @@ De hoogte van de samengestelde afbeelding hangt af van de hoogte-breedteverhoudi
 
 ## Zie ook {#section-2d9572be32ca4602b60920b3810f3638}
 
-[crop=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab) ,  [color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md),  [size=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-size.md#reference-04d383f32c7b4003bed9978cb854747b),  [origin=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md#reference-e11c7ac06e2240cc884c3fec98f05138),  [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)
+[uitsnijden=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab) , [color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md), [size=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-size.md#reference-04d383f32c7b4003bed9978cb854747b), [oorsprong=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md#reference-e11c7ac06e2240cc884c3fec98f05138), [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)

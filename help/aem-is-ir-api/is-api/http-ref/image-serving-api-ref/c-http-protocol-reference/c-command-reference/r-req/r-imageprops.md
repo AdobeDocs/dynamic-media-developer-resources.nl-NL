@@ -2,12 +2,12 @@
 description: Eigenschappen van bronafbeelding. Hiermee worden de geselecteerde eigenschappen geretourneerd van het afbeeldingsbestand of het catalogusitem dat is opgegeven in het URL-pad.
 solution: Experience Manager
 title: imageprops
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b4337c20-8e47-4d61-b234-19434f5c5216
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Eigenschappen van bronafbeelding. Hiermee worden de geselecteerde eigenschappen 
  </tr> 
 </table>
 
-De reactie van HTTP is cacheable met TTL die op `attribute::NonImgExpiration` wordt gebaseerd.
+De HTTP-respons is cacheable met de TTL op basis van `attribute::NonImgExpiration`.
 
 Andere opdrachten in de tekenreeks request worden genegeerd.
 
@@ -33,7 +33,7 @@ Verzoeken die JSONP reactieformaat steunen laten u de naam van de callback manag
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` is de naam van de manager JS die in de reactie JSONP aanwezig is. Alleen a-z, A-Z en 0-9 tekens zijn toegestaan. Optioneel. De standaardwaarde is `s7jsonResponse`.
+`<reqHandler>` is de naam van de manager JS die in de reactie JSONP aanwezig is. Alleen a-z, A-Z en 0-9 tekens zijn toegestaan. Optioneel. Standaard is `s7jsonResponse`.
 
 De volgende eigenschappen worden geretourneerd:
 
@@ -47,12 +47,12 @@ De volgende eigenschappen worden geretourneerd:
   <tr> 
    <td> <p> <span class="codeph"> image.anchor</span> </p> </td> 
    <td> <p> int,int </p> </td> 
-   <td> <p> <span class="codeph"> catalogus::</span> Anker of standaardankerpunt </p> </td> 
+   <td> <p> <span class="codeph"> catalogus::Anker</span> of het standaardankerpunt </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.expiration</span> </p> </td> 
    <td> <p> double </p> </td> 
-   <td> <p> <span class="codeph"> catalogus::</span> Verlopen of de standaardtijd om te leven </p> </td> 
+   <td> <p> <span class="codeph"> catalogus::Verlopen</span> of de standaardtijd om te leven </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.height</span> </p> </td> 
@@ -87,7 +87,7 @@ De volgende eigenschappen worden geretourneerd:
   <tr> 
    <td> <p> <span class="codeph"> image.modifier</span> </p> </td> 
    <td> <p> string </p> </td> 
-   <td> <p> <span class="codeph"> catalogus::</span> Wijzigen of leeg als geen catalogusitem is </p> </td> 
+   <td> <p> <span class="codeph"> catalogus::Modifier</span> of leeg als er geen catalogusitem is </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> afbeelding. photoshopPathNames</span> </p> </td> 
@@ -97,12 +97,12 @@ De volgende eigenschappen worden geretourneerd:
   <tr> 
    <td> <p> <span class="codeph"> image.pixType</span> </p> </td> 
    <td> <p> string </p> </td> 
-   <td> <p> Afbeeldingstype, mogelijk 'CMYK', 'RGB' of 'BW' (voor grijswaardenafbeeldingen) </p> </td> 
+   <td> <p> Afbeeldingstype, kan 'CMYK', 'RGB' of 'BW' zijn (voor grijswaardenafbeeldingen) </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.postModifier</span> </p> </td> 
    <td> <p> string </p> </td> 
-   <td> <p> <span class="codeph"> kenmerk::</span> PostModifier of leeg als er geen item uit de catalogus is </p> </td> 
+   <td> <p> <span class="codeph"> kenmerk::PostModifier</span> of leeg als er geen catalogusitem is </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.printRes</span> </p> </td> 
@@ -112,22 +112,22 @@ De volgende eigenschappen worden geretourneerd:
   <tr> 
    <td> <p> <span class="codeph"> image.resolution</span> </p> </td> 
    <td> <p> echt </p> </td> 
-   <td> <p> <span class="codeph"> catalogus::</span> Resolutie of de resolutie van het standaardobject </p> </td> 
+   <td> <p> <span class="codeph"> catalogus:Resolutie</span> of de standaardobjectresolutie </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.timeStamp</span> </p> </td> 
    <td> <p> string </p> </td> 
-   <td> <p>Wijzigingsdatum/-tijd (uit catalogus <span class="codeph">::TimeStamp</span> of het afbeeldingsbestand) </p> </td> 
+   <td> <p>Wijzigingsdatum/-tijd (van <span class="codeph"> catalogus::TimeStamp</span> of het afbeeldingsbestand) </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.thumbRes</span> </p> </td> 
    <td> <p> echt </p> </td> 
-   <td> <p> <span class="codeph"> catalogus::</span> ThumbResor de standaardminiatuurresolutie </p> </td> 
+   <td> <p> <span class="codeph"> catalogus::ThumbRes</span> of de standaardminiatuurresolutie </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.thumbType</span> </p> </td> 
    <td> <p> enum </p> </td> 
-   <td> <p> <span class="codeph"> catalogus::</span> ThumbType of het standaardminiatuurtype </p> </td> 
+   <td> <p> <span class="codeph"> catalogus::ThumbType</span> of het standaardminiatuurtype </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.width</span> </p> </td> 
@@ -137,7 +137,7 @@ De volgende eigenschappen worden geretourneerd:
   <tr> 
    <td> <p> <span class="codeph"> image.translateId</span> </p> </td> 
    <td> <p> string </p> </td> 
-   <td> <p> Catalogus-id waarnaar het object <span class="varname"></span> dat in het pad is opgegeven, wordt omgezet (zie <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414" type="reference" format="dita" scope="local"> Vertaling object-id</a>). </p> </td> 
+   <td> <p> Catalogus-id waaraan de <span class="varname"> object</span> opgegeven in het pad wordt opgelost (zie <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414" type="reference" format="dita" scope="local"> Vertaling object-id</a>). </p> </td> 
   </tr> 
  </tbody> 
 </table>

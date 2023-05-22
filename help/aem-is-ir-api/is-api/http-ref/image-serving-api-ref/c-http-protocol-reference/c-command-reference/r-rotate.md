@@ -2,12 +2,12 @@
 description: Afbeelding roteren. Hiermee roteert u de afbeelding, tekst of effen kleurlaag met de opgegeven hoek.
 solution: Experience Manager
 title: roteren
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9f1b2d6f-4e67-4530-9ec6-870b97687ce0
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Positieve hoeken roteren rechtsom. Het laagankerpunt ( `anchor=` of `catalog::An
 
 ## Eigenschappen {#section-8b5a9bb9062f48dbb8d4e9953ff39e39}
 
-Laag, opdracht. Wordt toegepast op de huidige laag of op laag 0 als `layer=comp`. Genegeerd door effectlagen.
+Laag, opdracht. Is van toepassing op de huidige laag of op laag 0 als `layer=comp`. Genegeerd door effectlagen.
 
 ## Standaard {#section-69475db636124a8a85f132b6d49bd592}
 
@@ -41,12 +41,12 @@ Plaats een label &#39;&#39;Aan-verkoop&#39;&#39; in de linkerbovenhoek van afbee
 
 `http:// *`server`*/myRootId/myImageId?scl=1&size=300,300&origin=-0.5,-0.5 &layer=1&src=labelImage&origin=-0.5,-0.5&rotate=-30&color=ffffff40`
 
-`size=` wordt toegepast op laag 0 om de weergavegrootte in te stellen in plaats van `wid=` en `hei=` te gebruiken. Hierdoor kan de grootte van `myImageId` worden aangepast zonder de uiteindelijke grootte van `labelImage` te wijzigen. Ook `scl=1` moet worden opgegeven, anders kan de samengestelde afbeelding worden geschaald naar `attribute::DefaultPix` (tenzij die is ingesteld op 0,0). `color=` Hiermee voegt u vóór de rotatie de halfdekkende achtergrondkleur toe aan het tekstvak.
+Wij passen ons toe `size=` op laag 0 om de weergavegrootte in te stellen in plaats van te gebruiken `wid=` en `hei=`. Dit maakt `myImageId` te vergroten of verkleinen zonder de uiteindelijke grootte van `labelImage`. We moeten ook specificeren `scl=1`anders kan de samengestelde afbeelding worden geschaald naar `attribute::DefaultPix` (tenzij dit op 0,0 is ingesteld). `color=` Hiermee voegt u vóór de rotatie de halfdekkende achtergrondkleur toe aan het tekstvak.
 
-De oorsprong van beide lagen wordt ingesteld op de linkerbovenhoek om de gewenste uitlijning te verkrijgen. Het oorsprongpunt voor laag 1 is van toepassing op `labelImage`nadat deze is geroteerd.
+De oorsprong van beide lagen wordt ingesteld op de linkerbovenhoek om de gewenste uitlijning te verkrijgen. Het oorsprongpunt voor laag 1 is van toepassing op `labelImage`nadat het is geroteerd.
 
 Zie [Voorbeeld A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac) in [Sjablonen](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e) voor een voorbeeld van geroteerde tekst.
 
 ## Zie ook {#section-c371ee0845994b7382c02e782d1bc595}
 
-[anchor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c) ,  [bgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab),  [color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)
+[anchor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c) , [bgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab), [color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)

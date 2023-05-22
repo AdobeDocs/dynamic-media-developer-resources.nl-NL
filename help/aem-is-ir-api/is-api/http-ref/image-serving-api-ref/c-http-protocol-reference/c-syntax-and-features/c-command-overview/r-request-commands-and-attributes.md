@@ -2,12 +2,12 @@
 description: Deze opdrachten zijn van toepassing, ongeacht de plaats in het verzoek waar ze staan.
 solution: Experience Manager
 title: Aanvraagopdrachten
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3f794f46-e7f0-4899-90fa-898a698dd629
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Deze opdrachten zijn van toepassing, ongeacht de plaats in het verzoek waar ze s
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38" type="reference" format="dita" scope="local"> kwantificeren</a> </p> </td> 
-  <td class="stentry"> <p>Geeft kleurkwantiseringskenmerken voor GIF-uitvoer op. </p></td> 
+  <td class="stentry"> <p>Geeft kleurkwantiseringskenmerken op voor uitvoer van GIF. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" type="reference" format="dita" scope="local"> req</a> </p></td> 

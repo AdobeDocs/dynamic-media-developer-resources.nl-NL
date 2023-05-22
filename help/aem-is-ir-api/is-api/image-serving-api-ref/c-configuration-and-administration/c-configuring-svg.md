@@ -2,12 +2,12 @@
 description: De component SvgRender is een onafhankelijke Java-toepassing.
 solution: Experience Manager
 title: SVG configureren
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 9013e13f-818f-41b4-80b6-2615d9a8742f
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '64'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 De component SvgRender is een onafhankelijke Java-toepassing.
 
-SVG-configuratie-instellingen bevinden zich in [!DNL PlatformServer.conf], [!DNL SVG.conf], [!DNL ImageServerRegistry.xml] en [!DNL ServerSupervisorRegistry.xml].
+SVG-configuratie-instellingen bevinden zich in [!DNL PlatformServer.conf], [!DNL SVG.conf], [!DNL ImageServerRegistry.xml], en [!DNL ServerSupervisorRegistry.xml].
 
-Een contactdoosverbinding wordt gebruikt om tussen SvgRender en de Server van het Beeld te communiceren. Het poortnummer is 27346. Indien nodig, kan het worden veranderd door `SVGRender.port` in [!DNL svg.conf] en `<SVGTcpPort>` in [!DNL ImageServerRegistry.xml] in een nieuwe waarde te plaatsen.
+Een contactdoosverbinding wordt gebruikt om tussen SvgRender en de Server van het Beeld te communiceren. Het poortnummer is 27346. Indien nodig kunt u deze wijzigen door `SVGRender.port` in [!DNL svg.conf] en `<SVGTcpPort>` in [!DNL ImageServerRegistry.xml] naar een nieuwe waarde.
 
 ## Zie ook {#section-c085b47d54d44059bdaa67fd5e226e91}
 

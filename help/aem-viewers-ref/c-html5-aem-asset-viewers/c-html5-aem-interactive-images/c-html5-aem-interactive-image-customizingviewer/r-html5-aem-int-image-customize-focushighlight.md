@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 89f34a96-2b21-4169-8c25-4b53005e59b8
 source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ De vormgeving wordt bepaald door de volgende CSS-klassenkiezer:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> overzicht  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> overzicht </span> </p> </td> 
    <td colname="col2"> <p>Focus markeerstijl. </p> </td> 
   </tr> 
  </tbody> 

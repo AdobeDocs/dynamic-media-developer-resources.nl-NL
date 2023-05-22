@@ -2,12 +2,12 @@
 description: Pad afbeeldingsbestand.
 solution: Experience Manager
 title: Pad
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9d5417df-3aa2-4620-a614-ca71a96e2069
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Tekstreeks. Vereist voor afbeeldingsrecords is mogelijk leeg voor sjabloonrecord
 
 Raadpleeg de beschrijving van het hulpprogramma Image Converter (IC) voor een volledige lijst met ondersteunde bestandsindelingen.
 
-Toepassingen waarvoor afbeeldingsgegevens in meerdere resoluties vereist zijn, presteren het beste als de indeling voor meerresolutie van de Dynamic Media piramid TIFF (PTIFF) wordt gebruikt. Het hulpprogramma IC wordt gebruikt om PTIFF-afbeeldingen te maken in elke ondersteunde afbeeldingsindeling.
+Toepassingen die afbeeldingsgegevens in meerdere resoluties vereisen, presteren het beste als de indeling voor meerresolutie van de Dynamic Media piramid TIFF (PTIFF) wordt gebruikt. Het hulpprogramma IC wordt gebruikt om PTIFF-afbeeldingen te maken in elke ondersteunde afbeeldingsindeling.
 
 ## Standaard {#path-default}
 
@@ -34,6 +34,6 @@ Geen.
 
 ## Zie ook {#path-seealso}
 
-[IC Utility](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) ,  [attribute::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md) ,  [attribute::DefaultExt](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultext.md) ,  [src=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md)
+[IC-hulpprogramma](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) , [kenmerk::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md) , [kenmerk::DefaultExt](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultext.md) , [src=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md)
 
 <!-- [attribute::LowerCasePaths]() -->

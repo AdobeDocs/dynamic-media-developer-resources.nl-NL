@@ -2,12 +2,12 @@
 description: Kleuren omkeren. Hiermee wordt elke kleurcomponent omgekeerd voor een negatief afbeeldingseffect.
 solution: Experience Manager
 title: op_invert
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1bcee775-32cb-4aa8-9f33-2f075e589940
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '49'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Kleuren omkeren. Hiermee wordt elke kleurcomponent omgekeerd voor een negatief a
 
 ## Eigenschappen {#section-2e7a7b340dd147db9bd68ff3bfb6f4c1}
 
-Laag, opdracht. Wordt toegepast op de huidige laag of op de samengestelde afbeelding als `layer=comp`. Genegeerd door effectlagen.
+Laag, opdracht. Is van toepassing op de huidige laag of op de samengestelde afbeelding als `layer=comp`. Genegeerd door effectlagen.
 
 ## Standaard {#section-8040bc4e2a684c629a28b155aa0ba289}
 

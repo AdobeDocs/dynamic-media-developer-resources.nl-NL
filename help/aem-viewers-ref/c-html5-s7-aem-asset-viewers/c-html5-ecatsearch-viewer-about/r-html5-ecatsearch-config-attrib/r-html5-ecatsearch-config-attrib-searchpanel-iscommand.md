@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 4e843866-75a5-4543-a275-e134b3aee75a
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 1%
+source-wordcount: '49'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> isCommand</span></span> </p> </td> 
-   <td colname="col2"> <p> De opdrachtreeks Beeldbewerking die op alle miniaturen wordt toegepast. Indien opgegeven in de URL moeten alle exemplaren van <span class="codeph"> &amp;</span> en <span class="codeph"> =</span> HTTP-gecodeerd zijn als <span class="codeph"> %26</span> respectievelijk <span class="codeph"> %3D</span>. </p> </td> 
+   <td colname="col2"> <p> De opdrachtreeks Beeldbewerking die op alle miniaturen wordt toegepast. Indien opgegeven in de URL, alle instanties van <span class="codeph"> &amp;</span> en <span class="codeph"> =</span> moet HTTP-gecodeerd zijn als <span class="codeph"> %26</span> en <span class="codeph"> %3D</span>, respectievelijk. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -2,12 +2,12 @@
 description: Afbeelding vervagen/eroderen. Hiermee past u een morfologische dilaat (straal > 0) of erode (straal < 0) toe op de afbeeldingsgegevens.
 solution: Experience Manager
 title: op_kweken
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4c5bef4e-f80e-454d-8e93-30bf33d7ec9e
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,13 @@ Afbeelding vervagen/eroderen. Hiermee past u een morfologische dilaat (straal > 
  </tr> 
 </table>
 
-`*`De `*` stralen worden uitgedrukt in pixels ten opzichte van de samengestelde afbeelding. Als de afbeelding een gekleurde afbeelding is, wordt elke component afzonderlijk verwerkt.
+`*`radius`*` in pixels ten opzichte van de samengestelde afbeelding. Als de afbeelding een gekleurde afbeelding is, wordt elke component afzonderlijk verwerkt.
 
 Wordt voornamelijk gebruikt om de grootte van laageffecten te wijzigen. Dit is ook handig voor speciale effecten op tekstlagen of effen kleurlagen met maskers.
 
 ## Eigenschappen {#section-b1c66d65168d4ea695e8662ea690bd4e}
 
-Laagkenmerk. Wordt toegepast op de huidige laag of op de samengestelde afbeelding als `layer=comp`.
+Laagkenmerk. Is van toepassing op de huidige laag of op de samengestelde afbeelding als `layer=comp`.
 
 ## Standaard {#section-14c908bb87cb42acbea709effea2f964}
 

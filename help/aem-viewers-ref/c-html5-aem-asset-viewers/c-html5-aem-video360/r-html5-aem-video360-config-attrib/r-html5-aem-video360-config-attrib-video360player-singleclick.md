@@ -8,7 +8,7 @@ exl-id: dfb44ed5-5f4f-4a2c-a3b4-d49502556399
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
 source-wordcount: '70'
-ht-degree: 7%
+ht-degree: 5%
 
 ---
 
@@ -22,7 +22,7 @@ Configuration attribute for Video360 Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|playPause</span> </p> </td> 
-   <td colname="col2"> <p> Vormt de afbeelding van een enkele klik/tik om afspelen/pauzeren in en uit te schakelen. Als u instelt op <span class="codeph"> none</span>, wordt een enkele klik/tik uitgeschakeld om af te spelen/te pauzeren. Als ingesteld op <span class="codeph"> playPause</span>, selecteert u de videoschakelingen tussen het afspelen en pauzeren van de video. Op sommige apparaten kunt u native besturingselementen gebruiken. In dit geval is een <span class="codeph"> singleclick</span>-gedrag uitgeschakeld. </p> </td> 
+   <td colname="col2"> <p> Vormt de afbeelding van een enkele klik/tik om afspelen/pauzeren in en uit te schakelen. Instellen op <span class="codeph"> none</span> Schakelt een enkele klik/tik uit om af te spelen/te pauzeren. Indien ingesteld op <span class="codeph"> playPause</span>Selecteer vervolgens de videoschakeloptie tussen het afspelen en pauzeren van de video. Op sommige apparaten kunt u native besturingselementen gebruiken. In dit geval <span class="codeph"> enkelvoudig</span> gedrag is uitgeschakeld. </p> </td> 
   </tr> 
  </tbody> 
 </table>

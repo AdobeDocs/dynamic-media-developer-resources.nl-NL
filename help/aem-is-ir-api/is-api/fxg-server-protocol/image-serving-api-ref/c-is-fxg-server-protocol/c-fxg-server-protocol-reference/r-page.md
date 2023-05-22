@@ -2,12 +2,12 @@
 description: Pagina ophalen. Hiermee wordt een specifieke pagina in een FXG-bestand van meerdere pagina's opgehaald.
 solution: Experience Manager
 title: page
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7c72ceff-30d9-4e0b-8b4f-6cb0039d389e
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '49'
 ht-degree: 0%
 
 ---
@@ -27,4 +27,4 @@ Pagina ophalen. Hiermee wordt een specifieke pagina in een FXG-bestand van meerd
 
 ## Standaard {#section-3fd7fcc525b947c7a95457e50414ac9e}
 
-Als `page` niet is opgegeven, wordt de eerste pagina geretourneerd voor rasteruitvoer en alle pagina&#39;s voor PDF-uitvoer.
+Indien `page` wordt niet opgegeven, wordt de eerste pagina geretourneerd voor rasteruitvoer en alle pagina&#39;s voor PDF-uitvoer.

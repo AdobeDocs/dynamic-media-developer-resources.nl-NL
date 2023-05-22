@@ -22,7 +22,7 @@ Hotspots en regio&#39;s kunnen een functie van de Snelle weergave op de het ontv
 
 ## Hotspots voor Snelle weergave {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Deze typen hotspots of afbeeldingen met hyperlinks moeten worden ontworpen met het actietype &quot;QuickView&quot; in Dynamic Media, Adobe Experience Manager. Wanneer een gebruiker een dergelijke hotspot of afbeelding met hyperlinks activeert, voert de viewer de JavaScript-callback `quickViewActivate` uit en geeft hij de hotspot- of afbeeldingskaartgegevens eraan door. Er wordt verwacht dat de ingesloten webpagina luistert naar deze callback. Wanneer de pagina wordt geactiveerd, wordt een eigen Quickview-implementatie geopend.
+Deze typen hotspots of afbeeldingen met hyperlinks moeten worden ontworpen met het actietype &quot;QuickView&quot; in Dynamic Media, Adobe Experience Manager. Wanneer een gebruiker een dergelijke hotspot of afbeelding met hyperlinks activeert, voert de viewer de opdracht `quickViewActivate` JavaScript-callback en geeft de gegevens van de hotspot of afbeelding met hyperlinks eraan door. Er wordt verwacht dat de ingesloten webpagina luistert naar deze callback. Wanneer de pagina wordt geactiveerd, wordt een eigen Quickview-implementatie geopend.
 
 ## Omleiden naar externe webpagina {#section-ef820c71251e4215800bb99c0c9ebe16}
 

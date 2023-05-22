@@ -8,7 +8,7 @@ exl-id: 44efa378-c911-4449-8a10-61212d4392c6
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,7 @@ Configuration attribute for Video360 Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|on</span> </p> </td> 
-   <td colname="col2"> <p> Bepaalt of de video wordt geleverd via een HTTPS (Secure SSL Connection) of een onveilige verbinding (HTTP). </p> <p>Wanneer ingesteld op <span class="codeph"> auto</span>, wordt het protocol voor het leveren van de video overgenomen van het protocol van de ingesloten webpagina. Als de webpagina via HTTPS wordt geladen, wordt de video ook via HTTPS geleverd en omgekeerd. Wanneer de webpagina zich op HTTP bevindt, wordt de video via HTTP geleverd. </p> <p>Wanneer ingesteld op <span class="codeph"> op</span>, vindt de levering van de video altijd plaats over een veilige verbinding ongeacht het protocol van de Web-pagina. </p> <p>Heeft alleen invloed op gepubliceerde video-oplevering en wordt genegeerd voor videovoorvertoning in de modus Auteur. </p> </td> 
+   <td colname="col2"> <p> Bepaalt of de video wordt geleverd via een HTTPS (Secure SSL Connection) of een onveilige verbinding (HTTP). </p> <p>Wanneer ingesteld op <span class="codeph"> auto</span> het protocol voor de levering van video wordt overgenomen van het protocol van de ingebedde webpagina. Als de webpagina via HTTPS wordt geladen, wordt de video ook via HTTPS geleverd en omgekeerd. Wanneer de webpagina zich op HTTP bevindt, wordt de video via HTTP geleverd. </p> <p>Wanneer ingesteld op <span class="codeph"> op</span>De video wordt altijd geleverd via een beveiligde verbinding, ongeacht het protocol van de webpagina. </p> <p>Heeft alleen invloed op gepubliceerde video-oplevering en wordt genegeerd voor videovoorvertoning in de modus Auteur. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,4 +47,4 @@ ssl=on
 
 <!--<a id="section_5943AC73316749C68761FF7F74DA7547"></a>-->
 
-Zie ook [Beveiligde videoverstrekking](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-securevideodelivery.md#concept-13f66fdd4a52494aa516cd0f36fdac27).
+Zie ook [Beveiligde video-levering](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-securevideodelivery.md#concept-13f66fdd4a52494aa516cd0f36fdac27).

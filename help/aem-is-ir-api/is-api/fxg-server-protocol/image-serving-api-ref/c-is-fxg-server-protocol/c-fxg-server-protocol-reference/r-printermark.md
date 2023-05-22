@@ -2,12 +2,12 @@
 description: Drukkermarkeringen weergeven. Hiermee geeft u op hoe de drukkermarkeringen moeten worden weergegeven.
 solution: Experience Manager
 title: printerMark
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f61c7311-a2e9-4eb7-ae05-276a4eec980b
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '115'
 ht-degree: 6%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 6%
 
 Drukkermarkeringen weergeven. Hiermee geeft u op hoe de drukkermarkeringen moeten worden weergegeven.
 
-` printerMark= *`verkleinde `*, *`markeringsaflooptekens `*, *`markeringsmarkering `*, *`voor `*, *`streepjesinformatie `*, *``*, *`voor `*, *`streepjesregistratie;stijllijnwegingslaagingesloten`*`
+` printerMark= *`snijtekens`*, *`aflooptekens`*, *`registratiemarkeringen`*, *`kleurenbalken`*, *`paginagegevens`*, *`stijl`*, *`lijndikte`*, *`laag insluiten`*`
 
 De verschillende markeringen kunnen worden uit- of ingeschakeld. U kunt ook de stijl van de drukkermarkeringen bepalen.
 

@@ -22,8 +22,8 @@ Met interactief staal kunt u een QuickView activeren op de hostwebpagina door ee
 
 ## Over QuickView {#section-7990e44f641042d2a38ba20c9413b3f8}
 
-Deze typen interactieve stalen moeten worden gemaakt met het actietype &quot;quickview&quot; in Adobe Experience Manager Assets - On-demand. Wanneer een gebruiker een dergelijk staal activeert, voert de viewer `quickViewActivate` JavaScript-callback uit en geeft deze de staalgegevens eraan door. Verwacht wordt dat de insluitende webpagina luistert naar deze callback en dat de pagina een eigen Quickview-implementatie opent wanneer deze wordt geactiveerd.
+Deze typen interactieve stalen moeten worden gemaakt met het actietype &quot;quickview&quot; in Adobe Experience Manager Assets - On-demand. Wanneer een gebruiker een dergelijk staal activeert, wordt de viewer uitgevoerd `quickViewActivate` JavaScript-callback en geeft de staalgegevens eraan door. Verwacht wordt dat de insluitende webpagina luistert naar deze callback en dat de pagina een eigen Quickview-implementatie opent wanneer deze wordt geactiveerd.
 
 ## Omleiden naar een externe webpagina {#section-32ebe3c3a7f74892a428c5d48801de4d}
 
-Stalen die zijn geschreven voor het actietype &quot;quickview&quot; in Experience Manager Assets - op verzoek sturen de gebruiker om naar een externe URL. Afhankelijk van de instellingen op het moment van ontwerpen kan de URL worden geopend in een nieuw browsertabblad, in hetzelfde venster of in het benoemde browservenster.
+Stalen die zijn geschreven voor het actietype &quot;quickview&quot; in Experience Manager Assets - leiden de gebruiker op verzoek om naar een externe URL. Afhankelijk van de instellingen op het moment van ontwerpen kan de URL worden geopend in een nieuw browsertabblad, in hetzelfde venster of in het benoemde browservenster.

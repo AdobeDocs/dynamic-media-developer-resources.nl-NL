@@ -20,7 +20,7 @@ JavaScript API-referentie voor Carousel Viewer.
 
 Start de initialisatie van de Carousel Viewer. Tegen deze tijd moet het container-DOM-element worden gemaakt, zodat de viewercode het met zijn id kan vinden.
 
-Als het containerelement nog geen deel uitmaakt van de webpaginalay-out (het kan bijvoorbeeld worden verborgen met de stijl `display:none`), onderbreekt de viewer het initialisatieproces. De bewerking wordt onderbroken tot het moment dat de webpagina het containerelement weer in de lay-out plaatst, waarna het laden van de viewer automatisch wordt hervat.
+Als het containerelement nog geen deel uitmaakt van de webpaginalay-out, kan het bijvoorbeeld worden verborgen met `display:none` style - de viewer onderbreekt het initialisatieproces. De bewerking wordt onderbroken tot het moment dat de webpagina het containerelement weer in de lay-out plaatst, waarna het laden van de viewer automatisch wordt hervat.
 
 Roep deze methode slechts eenmaal aan tijdens de levenscyclus van de viewer; volgende aanroepen worden genegeerd.
 

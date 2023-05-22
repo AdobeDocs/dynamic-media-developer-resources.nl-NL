@@ -8,7 +8,7 @@ exl-id: 13b11e9c-00c5-4c1d-b1af-90afaabc389e
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '30'
-ht-degree: 6%
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ Configuration attribute for Interactive Video Viewer.
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
    <td colname="col2"> <p> Geeft aan of de video opnieuw moet worden afgespeeld nadat het afspelen is voltooid. </p> </td> 
   </tr> 
  </tbody> 

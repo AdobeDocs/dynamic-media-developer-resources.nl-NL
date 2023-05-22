@@ -2,12 +2,12 @@
 description: Modus Structuur herhalen. Hiermee geeft u op hoe structuurafbeeldingen naast elkaar worden geplaatst om het doeloppervlak te vullen.
 solution: Experience Manager
 title: Herhalen
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6d6946b0-a827-4ee6-963b-84529ad35ee9
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '127'
 ht-degree: 15%
 
 ---
@@ -28,7 +28,7 @@ De volgende waarden zijn toegestaan voor herhaalbare structuurmaterialen:
   <td class="- topic/stentry stentry"> <p>Rechte herhaling. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
-  <td class="- topic/stentry stentry"> <p>3 </p></td> 
+  <td class="- topic/stentry stentry"> <p>1 </p></td> 
   <td class="- topic/stentry stentry"> <p>willekeurige verdeling in vier richtingen. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
@@ -41,7 +41,7 @@ De volgende waarden zijn toegestaan voor herhaalbare structuurmaterialen:
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>4 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Achtergrond met kwartdrop hangend. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Achtergrond met kwartdrop hangt vast. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>5 </p></td> 

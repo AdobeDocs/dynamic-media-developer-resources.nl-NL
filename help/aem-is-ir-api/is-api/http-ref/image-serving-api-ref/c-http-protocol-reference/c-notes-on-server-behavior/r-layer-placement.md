@@ -18,8 +18,8 @@ Lagen worden gepositioneerd door de oorsprong van de laag (origin=) uit te lijne
 
 Als de oorsprong van de laag niet expliciet is opgegeven voor een afbeeldingslaag, wordt deze als volgt berekend:
 
-1. Bepaal het afbeeldingsanker. Gebruik `anchor=` of, indien niet opgegeven, `catalog::Anchor`.
-1. Als het afbeeldingsanker is gedefinieerd, past u de laagtransformaties toe en `extend=` om de laag om te zetten in de waarde origin=.
-1. Als er geen afbeeldingsanker is gedefinieerd, wordt de oorsprong van de laag in het midden van de laagrechthoek geplaatst (na toepassing van `extend=`).
+1. Bepaal het afbeeldingsanker. Gebruiken `anchor=`of, indien niet gespecificeerd, `catalog::Anchor`.
+1. Als het afbeeldingsanker is gedefinieerd, past u de laagtransformaties toe en `extend=` om deze om te zetten in een origin= value.
+1. Als er geen afbeeldingsanker is gedefinieerd, wordt de oorsprong van de laag in het midden van de laagrechthoek geplaatst (na het toepassen `extend=`).
 
 ![Laag plaatsen, afbeelding](assets/layerplacement.png)

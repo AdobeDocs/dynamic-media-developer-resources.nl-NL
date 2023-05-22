@@ -2,12 +2,12 @@
 description: Verscherpen. Verscherpen, kenmerk, bepaalt wanneer het materiaal wordt verscherpt tijdens het renderen.
 solution: Experience Manager
 title: Scherp
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ce08ed97-33b7-4d28-8f7f-3f3ef8598ad6
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '109'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ Enum.
   <td class="stentry"> <p>Geen verscherping. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p></td> 
+  <td class="stentry"> <p>1 </p></td> 
   <td class="stentry"> <p>Normale verscherping (na de transformatie). </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -36,7 +36,7 @@ Enum.
   <td class="stentry"> <p>Alternatieve verscherping (vóór de transformatie). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>1 </p></td> 
+  <td class="stentry"> <p>3 </p></td> 
   <td class="stentry"> <p>Meer verscherping (zowel voor als na de transformatie). </p></td> 
  </tr> 
 </table>
@@ -49,4 +49,4 @@ Genegeerd door effen kleurmaterialen, optioneel voor alle andere materialen.
 
 ## Zie ook {#section-b462f9ad9ae347e1a1993abf2f2daa8e}
 
-[kenmerk::Verscherpen](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharp.md#reference-c706450cf95347f98f86c696f9167297) ,  [catalogus::RenderSettings](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rendersettings.md#reference-f3ae5e18095d40b2a8edef957dd82fbd),  [sharpening=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)
+[kenmerk:Verscherpen](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharp.md#reference-c706450cf95347f98f86c696f9167297) , [catalogus:RenderSettings](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rendersettings.md#reference-f3ae5e18095d40b2a8edef957dd82fbd), [shar=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)

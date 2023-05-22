@@ -2,12 +2,12 @@
 description: Schaalweergave. Hiermee wordt de samengestelde afbeelding geschaald met de inverse van invFactor.
 solution: Experience Manager
 title: scl
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 297d187c-3a52-45ff-b73d-0b0e4b956080
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '129'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Schaalweergave. Hiermee wordt de samengestelde afbeelding geschaald met de inver
 
 Er wordt geen schaling toegepast wanneer `scl=1`. *`invFactor`* Als de afbeelding groter is dan 1,0 en kleiner dan 1,0, wordt de samengestelde afbeelding vergroot.
 
-Als `scl=` is opgegeven en `wid=` en/of `hei=` ook aanwezig zijn, wordt de afbeelding na het schalen uitgesneden tot `wid=` en/of `hei=`.
+Indien `scl=` wordt opgegeven, en `wid=` en/of `hei=` ook aanwezig zijn, wordt de afbeelding uitgesneden tot `wid=` en/of `hei=` na het schalen.
 
 >[!NOTE]
 >
@@ -39,12 +39,12 @@ Kenmerk weergeven. Ongeacht de huidige laaginstelling.
 
 ## Standaard {#section-32502fa218a24e1f9c65f41c0260b56a}
 
-Als noch `wid=`, `hei=`, noch `scl=` worden gespecificeerd, zal het antwoordbeeld of de grootte van het samengestelde beeld of `attribute::DefaultPix` hebben, welke kleiner is.
+Als beide `wid=`, `hei=`, noch `scl=` worden opgegeven, heeft de antwoordafbeelding de grootte van de samengestelde afbeelding of `attribute::DefaultPix`, afhankelijk van welke waarde het kleinst is.
 
 ## Voorbeeld {#section-a33f6239476a4b438d939656ad99aa76}
 
-Zie het voorbeeld in [rotate=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096) voor een gemeenschappelijke toepassing van `scl=`.
+Zie het voorbeeld in [roteren=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096) voor een gemeenschappelijke toepassing van `scl=`.
 
 ## Zie ook {#section-ccefd5de59924059903d66d4974ce317}
 
-[wid=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47) ,  [hei=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96),  [kenmerk::DefaultPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultpix.md#reference-996b2c22b30f4fd9b970c84063306df1)
+[wid=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47) , [hei=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96), [kenmerk::DefaultPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultpix.md#reference-996b2c22b30f4fd9b970c84063306df1)

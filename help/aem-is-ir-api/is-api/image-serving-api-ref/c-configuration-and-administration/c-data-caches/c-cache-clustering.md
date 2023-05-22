@@ -2,12 +2,12 @@
 description: Het groeperen van het geheime voorgeheugen staat veelvoudige lading-evenwichtige servers toe om geheim voorgeheugeningangen in het primaire reactiecache en het secundaire gegevensgeheime voorgeheugen (voor genestelde/ingebedde verzoeken) uit te wisselen, met het potentieel om serverontvankelijkheid beduidend te verhogen door de behoefte te elimineren om de zelfde geheim voorgeheugeningang op veelvoudige servers te produceren.
 solution: Experience Manager
 title: Cache-clustering
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: d1bea565-ac4e-4717-a53f-cbe706664598
 source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,6 @@ De geheim voorgeheugencluster kan in één van twee basisconfiguraties werken:
 
    Deze configuratie vermindert verkeer tussen de peer servers. Het biedt ook de snelste responstijden ten koste van het repliceren van alle cachemarkeringen naar alle servers in de cluster. Dit is de aanbevolen configuratie.
 
-* Wanneer `PS::cacheCluster.updateLocalCache` is uitgeschakeld, worden gegevens van andere servers niet naar de lokale cache gekopieerd.
+* Wanneer `PS::cacheCluster.updateLocalCache` is uitgeschakeld, gegevens van andere servers worden niet naar de lokale cache gekopieerd.
 
    Hiermee wordt de beschikbare schijfruimte voor cachegegevens vermenigvuldigd. Nochtans, verhoogt het het verkeer tussen de peer servers en vermindert de algemene reactietijden. Gebruik deze configuratie slechts wanneer u lage geheim voorgeheugenklaptarieven ziet.

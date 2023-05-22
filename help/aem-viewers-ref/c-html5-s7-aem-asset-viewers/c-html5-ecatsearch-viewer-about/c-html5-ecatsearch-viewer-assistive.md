@@ -2,12 +2,12 @@
 description: Alle viewercomponenten ondersteunen de rollen en kenmerken van ARIA (Accessible Rich Internet Applications) om de integratie met ondersteunende hulpmiddelen, zoals schermlezers, te verbeteren.
 solution: Experience Manager
 title: Technische ondersteuning
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search,Toegankelijkheid
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search,Accessibility
 role: Developer,User
 exl-id: fbfc9415-6ab8-466c-9a1f-d33565eff2a4
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -16,20 +16,20 @@ ht-degree: 0%
 
 Alle viewercomponenten ondersteunen de rollen en kenmerken van ARIA (Accessible Rich Internet Applications) om de integratie met ondersteunende hulpmiddelen, zoals schermlezers, te verbeteren.
 
-Het viewerelement op het hoogste niveau heeft het kenmerk rol `region` en `aria-label` standaard ingesteld op de naam van de viewer. U kunt het label besturen met het lokalisatiesymbool `Container.LABEL`.
+Het viewerelement op het hoogste niveau heeft een rol `region` en `aria-label` kenmerk standaard ingesteld op de naam van de viewer. U kunt het label besturen met het `Container.LABEL` lokalisatiesymbool.
 
-Knoppen hebben de rol `button` en beschrijvende tekst ingesteld met het kenmerk `aria-label`. De waarde van het kenmerk `aria-label` wordt gevuld met de waarde van het localisatiesymbool van de knop. Wanneer een knoop gehandicapt is, wordt `aria-disabled` attributen geplaatst dienovereenkomstig.
+Knoppen hebben de rol `button` en beschrijvende tekst ingesteld met de `aria-label` kenmerk. De waarde van `aria-label` wordt gevuld met de waarde van het localisatiesymbool van de knop. Wanneer een knop is uitgeschakeld, wordt `aria-disabled` wordt dienovereenkomstig ingesteld.
 
-De hoofdweergave heeft de rol `application`. Een korte beschrijving van de hoofdweergave vindt u in `aria-roledescription`, met de waarde die wordt gedefinieerd door het lokalisatiesymbool `ROLE_DESCRIPTION` van de overeenkomstige hoofdweergavecomponent. Navigatietips voor toetsenbordgebruikers worden opgegeven met `aria-describedby`. De tekst voor de gebruikshint is afkomstig van het `USAGE_HINT`-lokalisatiesymbool. Als voor een element een label is gedefinieerd in het veld UserData, wordt het kenmerk `aria-label` ingesteld met de waarde van een dergelijk label.
+De hoofdweergave heeft een rol `application`. Een korte beschrijving van het hoofdstandpunt wordt gegeven in `aria-roledescription`met de waarde die door de `ROLE_DESCRIPTION` lokalisatiesymbool van de bijbehorende hoofdweergavecomponent. Navigatietips voor toetsenbordgebruikers worden weergegeven met `aria-describedby`, de tekst voor de gebruikstip afkomstig is van de `USAGE_HINT` lokalisatiesymbool. Als voor een element een label is gedefinieerd in het veld UserData, wordt `aria-label` wordt ingesteld met de waarde van een dergelijk label.
 
-Hot spots, gebieden en afbeeldingen met hyperlinks hebben de rol `button` en beschrijvende tekst ingesteld met het kenmerk `aria-label`, met de waarde van de hotspot of het label van de afbeeldingskaart. Wanneer de gebruiker focus op hotspots of afbeeldingen met hyperlinks plaatst, worden navigatietekens voor toetsenbordgebruikers opgegeven met `aria-describedby`, waarbij de tekst voor de gebruikshint afkomstig is van het `USAGE_HINT`-lokalisatiesymbool.
+Hotspots, gebieden en afbeeldingen met hyperlinks hebben de rol `button` en beschrijvende tekst ingesteld met `aria-label` met de waarde van de hotspot of het label van de afbeelding met hyperlinks. Wanneer de gebruiker de focus op hotspots of afbeeldingen met hyperlinks plaatst, worden navigatietekens voor toetsenbordgebruikers weergegeven met `aria-describedby`, met de tekst voor de gebruiksaanwijzing die afkomstig is van de `USAGE_HINT` lokalisatiesymbool.
 
-Miniaturen hebben de rol `dialog` met `aria-label` attribuut dat door het `ThumbnailGridView.LABEL` localisatiesymbool wordt gecontroleerd. Afzonderlijke miniaturen hebben de rol `button`. Als een miniatuur is geselecteerd, wordt `aria-selected`-kenmerk ingesteld op `true`.
+Miniaturen hebben de rol `dialog` with `aria-label` door de `ThumbnailGridView.LABEL` lokalisatiesymbool. Afzonderlijke miniaturen hebben een rol `button`. Als er een miniatuur is geselecteerd, wordt deze weergegeven `aria-selected` kenmerk ingesteld op `true`.
 
-Componenten die stalen weergeven, hebben de rol `listbox` met `aria-label` kenmerk ingesteld op de waarde van het `LABEL` lokalisatiesymbool van die component. Afzonderlijke stalen hebben de rol `option` met de kenmerken `aria-setsize` en `aria-posinset` om de staalpositie in de set te beschrijven. Als een staal is geselecteerd, krijgt het kenmerk `aria-selected` ingesteld op `true`.
+Componenten die stalen weergeven, hebben de rol `listbox` with `aria-label` kenmerk ingesteld op de waarde van het `LABEL` lokalisatiesymbool van die component. Afzonderlijke stalen hebben de rol `option` with `aria-setsize` en `aria-posinset` kenmerken die de staalpositie in de set beschrijven. Als er een staal is geselecteerd, wordt het staal `aria-selected` kenmerk ingesteld op `true`.
 
-Vervolgkeuzelijsten worden geactiveerd door knoppen met extra `aria-haspopup`-kenmerk ingesteld op `true` en het `aria-controls`-kenmerk dat verwijst naar het daadwerkelijke element van het vervolgkeuzevenster. Het vervolgkeuzevenster heeft de rol `menu` met subelementen die de rol `menuitem` hebben. Voor elk menu-item wordt het kenmerk `aria-label` opgegeven.
+Vervolgkeuzelijsten worden geactiveerd door knoppen met extra opties `aria-haspopup` kenmerk ingesteld op `true` en de `aria-controls` kenmerk dat verwijst naar het daadwerkelijke element in het vervolgkeuzevenster. De rol van het vervolgkeuzevenster zelf is `menu` met subelementen die een rol spelen `menuitem`. Elk menu-item heeft de `aria-label` opgegeven kenmerk.
 
-De gebruikersinterface van het onderzoek wordt gegroepeerd in het element met de rol `search`. Het veld Invoerveld zoeken heeft de rol `searchbox` en verwijst naar het informatieve label dat wordt beheerd door het localisatiesymbool `SearchPanel.INFO_PROMPT` met het kenmerk `aria-describedby`.
+De gebruikersinterface van het onderzoek wordt gegroepeerd in het element met de rol `search`. Het veld Zoeken in invoerveld heeft de rol `searchbox` en verwijst naar het informatieve label dat wordt beheerd door `SearchPanel.INFO_PROMPT` lokalisatiesymbool met `aria-describedby` kenmerk.
 
-Modal dialoogvensters hebben de rol `dialog`. Naar het headerelement van het dialoogvenster wordt verwezen door het kenmerk `aria-labelledby`.
+Modal dialoogvensters hebben de rol `dialog`. Naar het headerelement van het dialoogvenster wordt verwezen door het `aria-labelledby` kenmerk.

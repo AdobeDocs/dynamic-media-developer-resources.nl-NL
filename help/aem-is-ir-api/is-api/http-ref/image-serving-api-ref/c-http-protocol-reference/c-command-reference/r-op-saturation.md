@@ -2,12 +2,12 @@
 description: Pas de verzadiging aan. Hiermee wijzigt u de verzadiging van elke zichtbare pixel van de laag of samengestelde afbeelding.
 solution: Experience Manager
 title: op_verzadiging
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: cd71e27e-6ccc-4ade-9bcf-af8e41bcf381
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Pas de verzadiging aan. Hiermee wijzigt u de verzadiging van elke zichtbare pixe
 
 ## Eigenschappen {#section-9a3cc9ff060049449554dfa69d92fd53}
 
-Laag, opdracht. Wordt toegepast op de huidige laag of op de samengestelde afbeelding als `layer=comp`. Genegeerd door effectlagen.
+Laag, opdracht. Is van toepassing op de huidige laag of op de samengestelde afbeelding als `layer=comp`. Genegeerd door effectlagen.
 
 ## Standaard {#section-ef0e78f55c8b4d22aee09104dad6410a}
 

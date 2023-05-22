@@ -2,12 +2,12 @@
 description: Pad voor maskerbestand. Relatief of absoluut pad en naam voor een afbeeldingsbestand met een masker dat is gekoppeld aan deze catalogusrecord.
 solution: Experience Manager
 title: MaskPath
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b67e0b62-d2cc-4b05-bd09-65b206466df5
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ De server gebruikt de regels voor padresolutie die worden beschreven in [Brongeg
 
 Tekstreeks. Optioneel. Indien gespecificeerd, moet het een geldig relatieve of absolute het dossierweg van de Server van het Beeld zijn. `attribute::DefaultExt` wordt toegevoegd als er geen achtervoegsel voor het bestand aanwezig is.
 
-Als zowel een hoofdafbeelding ( `catalog::Path`) als een maskerafbeelding ( `catalog::MaskPath`) in een catalogusrecord worden gedefinieerd, moeten beide dezelfde pixelgrootte hebben. Maskerafbeeldingen moeten 8-bits grijswaarden hebben.
+Als beide een hoofdafbeelding ( `catalog::Path`) en een maskerafbeelding ( `catalog::MaskPath`) zijn gedefinieerd in een catalogusrecord, moeten beide exact dezelfde pixelgrootte hebben. Maskerafbeeldingen moeten 8-bits grijswaarden hebben.
 
-`mask=` in de aanvraag overschrijft  `catalog::MaskPath`.
+`mask=` in de aanvraag overschrijft `catalog::MaskPath`.
 
-`catalog::MaskPath` Hiermee wordt het alfakanaal in de hoofdafbeelding ( `catalog::Path`), indien aanwezig, overschreven en als het alfakanaal niet is gekoppeld (dus niet vooraf is vermenigvuldigd). Als de afbeeldings-alfa vooraf wordt vermenigvuldigd, wordt `catalog::MaskPath` genegeerd en wordt altijd het alfakanaal gebruikt.
+`catalog::MaskPath` Hiermee overschrijft u het alfakanaal in de hoofdafbeelding ( `catalog::Path`), indien aanwezig, en als het alfakanaal niet gekoppeld is (d.w.z. niet vooraf vermenigvuldigd is). Als de alfa van de afbeelding vooraf is vermenigvuldigd, `catalog::MaskPath` wordt genegeerd en wordt het alfakanaal altijd gebruikt.
 
 ## Standaard {#section-78533e35bfec469ba087cb68a35bb81b}
 
@@ -36,4 +36,4 @@ Geen.
 
 ## Zie ook {#section-68d262f5949c4959b8723ba44611d1dc}
 
-[kenmerk::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md) ,  [kenmerk::DefaultExt](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultext.md),  [catalogus::Path](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md#reference-306afcaff172440ca81b85da8d78213c),  [mask=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md),  [req=mask](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md)
+[kenmerk::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md) , [kenmerk::DefaultExt](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultext.md), [catalogus::pad](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md#reference-306afcaff172440ca81b85da8d78213c), [mask=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md), [req=mask](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md)

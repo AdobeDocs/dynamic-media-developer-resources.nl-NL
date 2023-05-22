@@ -2,12 +2,12 @@
 description: Hiermee herstelt u de publicatiestatus voor een of meer elementen zodat het element opnieuw moet worden gepubliceerd in de volgende publicatietaak.
 solution: Experience Manager
 title: forceRepublishAssets
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 4c75af38-4791-4f21-8d1b-4855fcdfd4b1
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
@@ -51,13 +51,13 @@ Syntaxis
    <td colname="col1"><span class="codeph"> <span class="varname"> republishFiles</span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:Boolean</span> </td> 
    <td colname="col3"> <p>Nee </p> </td> 
-   <td colname="col4"> <p>Hiermee geeft u aan dat de bestanden voor het element opnieuw worden gepubliceerd naar de leveringsservers. Heeft als standaardwaarde <span class="codeph"> true</span>. </p> </td> 
+   <td colname="col4"> <p>Hiermee geeft u aan dat de bestanden voor het element opnieuw worden gepubliceerd naar de leveringsservers. Standaardwaarden: <span class="codeph"> true</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"> <span class="varname"> resyncCatalog</span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:Boolean</span> </td> 
    <td colname="col3"> <p>Nee </p> </td> 
-   <td colname="col4"> <p>Hiermee geeft u aan dat de metagegevens van de catalogus die worden gebruikt om het element te leveren, worden gesynchroniseerd om te garanderen dat het element actueel is. Deze parameter wordt gebruikt om rasvoorwaarden op te lossen die op dichtbijgelegen gezamenlijke updates aan het zelfde verslag zouden kunnen voorkomen. De standaardwaarde is <span class="codeph"> false</span>. </p> </td> 
+   <td colname="col4"> <p>Hiermee geeft u aan dat de metagegevens van de catalogus die worden gebruikt om het element te leveren, worden gesynchroniseerd om te garanderen dat het element actueel is. Deze parameter wordt gebruikt om rasvoorwaarden op te lossen die op dichtbijgelegen gezamenlijke updates aan het zelfde verslag zouden kunnen voorkomen. Standaardwaarden: <span class="codeph"> false</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </td> 

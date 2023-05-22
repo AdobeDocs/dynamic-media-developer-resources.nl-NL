@@ -2,12 +2,12 @@
 description: Modifier-tekenreeks voor postfix-verzoek. Geen of meer opdrachten Afbeeldingsservice gescheiden door '&' tekens.
 solution: Experience Manager
 title: PostModifier
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7d6c9408-1f09-464d-8a69-eabdf7c0117d
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 Modifier-tekenreeks voor postfix-verzoek. Geen of meer opdrachten Afbeeldingsservice gescheiden door &#39;&amp;&#39; tekens.
 
-Opdrachten in dit veld overschrijven altijd opdrachten in de HTTP-aanvraag en in `catalog::Modifier`.
+Opdrachten in dit veld overschrijven opdrachten altijd in de HTTP-aanvraag en in `catalog::Modifier`.
 
-`catalog::PostModifier` Dit is handig als bepaalde afbeeldingen speciale instellingen vereisen die normaal gesproken via de URL worden beheerd, zoals  `qlt=` of  `resmode=`. `catalog::Modifier` moet worden gebruikt voor het instellen van de meeste IS-opdrachten in de afbeeldingscatalogus.
+`catalog::PostModifier` is handig als voor bepaalde afbeeldingen speciale instellingen nodig zijn die normaal gesproken via de URL worden beheerd, zoals `qlt=` of `resmode=`. `catalog::Modifier` moet worden gebruikt voor het instellen van de meeste IS-opdrachten in de afbeeldingscatalogus.
 
-Macro&#39;s zijn toegestaan in `catalog::PostModifier`, zolang ze in dezelfde catalogus of in de standaardcatalogus zijn gedefinieerd. Ook aangepaste variabelen kunnen worden gebruikt.
+Macro&#39;s zijn toegestaan in `catalog::PostModifier`, zolang deze in dezelfde catalogus of in de standaardcatalogus zijn gedefinieerd. Ook aangepaste variabelen kunnen worden gebruikt.
 
 >[!NOTE]
 >
->Als een verzoek meerdere lagen betreft, wordt alleen de inhoud van `catalog::PostModifier` van laag 0 toegepast. `catalog::PostModifier` van alle andere lagen wordt genegeerd.
+>Als een aanvraag meerdere lagen betreft, wordt alleen de inhoud van `catalog::PostModifier` van laag 0 wordt toegepast. `catalog::PostModifier` van alle andere lagen wordt genegeerd.
 
 ## Eigenschappen {#section-6d5b0462ba1245b8ac3ddfd15c059f42}
 

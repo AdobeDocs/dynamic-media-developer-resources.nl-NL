@@ -2,12 +2,12 @@
 description: Statisch inhoudstype, filter. Geeft een filtertekenreeks op voor statische inhoud die wordt geleverd via /is/content.
 solution: Experience Manager
 title: type
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9015d5f4-e42c-43e0-af85-fc9c278448e7
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
@@ -25,16 +25,16 @@ Statisch inhoudstype, filter. Geeft een filtertekenreeks op voor statische inhou
  </tr> 
 </table>
 
-De server zal val met de waarde van `catalog::Type` van het gevraagde statische inhoudspunt vergelijken. Het item wordt geretourneerd aan de client als de waarden overeenkomen (hoofdlettergevoelig). Als dit niet het geval is, wordt een fout geretourneerd.
+De server zal val met de waarde van vergelijken `catalog::Type` van het gevraagde statische inhoudsitem. Het item wordt geretourneerd aan de client als de waarden overeenkomen (hoofdlettergevoelig). Als dit niet het geval is, wordt een fout geretourneerd.
 
 ## Eigenschappen {#section-529b088434a44a9f86a64ef548d2925b}
 
-Alleen ondersteund voor aanvragen voor statische inhoud (niet-afbeeldingsbestanden) via. Wordt genegeerd als `catalog::Type` leeg is of niet is gedefinieerd.
+Alleen ondersteund voor aanvragen voor statische inhoud (niet-afbeeldingsbestanden) via. Genegeerd als `catalog::Type` is leeg of niet gedefinieerd.
 
 ## Standaard {#section-e9e8f51d0a01452183ccb510efd87d46}
 
-Er wordt geen overeenkomend type toegepast als `type=` niet is opgegeven of leeg is.
+Er wordt geen overeenkomend type toegepast als `type=` is niet opgegeven of is leeg.
 
 ## Zie ook {#section-da60777a46a74f1bbfa5b2f3b240eb0f}
 
-[Statische inhoud](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-serving-static-non-image-content.md#reference-cbe50e697fdf4c7bbb0084f98b7739da) (niet-afbeeldingsbestanden) wordt geleverd,  [catalogus::UserType](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-usertype-cat.md)
+[Statische (niet-afbeeldings) inhoud renderen](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-serving-static-non-image-content.md#reference-cbe50e697fdf4c7bbb0084f98b7739da), [catalogus::UserType](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-usertype-cat.md)

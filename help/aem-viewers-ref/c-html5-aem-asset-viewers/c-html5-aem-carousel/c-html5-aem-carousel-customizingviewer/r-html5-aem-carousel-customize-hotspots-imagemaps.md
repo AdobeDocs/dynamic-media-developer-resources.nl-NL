@@ -35,11 +35,11 @@ De weergave van het hotspot-pictogram wordt bepaald door de volgende CSS-klassen
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
    <td colname="col2"> <p>Hotspot-pictogramafbeeldingen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p>Plaats binnen de illustratie-sprite als CSS-sprites worden gebruikt. </p> <p>Zie <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -47,7 +47,7 @@ De weergave van het hotspot-pictogram wordt bepaald door de volgende CSS-klassen
    <td colname="col2"> <p>Breedte van hotspot-pictogram. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van hotspot-pictogram. </p> </td> 
   </tr> 
  </tbody> 
@@ -83,16 +83,16 @@ De vormgeving van het gebied met afbeeldingskaart wordt bepaald door de volgende
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background  </span> </p> </td> 
-   <td colname="col2"> <p>Vulkleur van gebied Afbeeldingskaart. </p> <p>Geef deze kleur op in <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> of <span class="codeph"> RGBA(R,G,B,A) </span>-indelingen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background </span> </p> </td> 
+   <td colname="col2"> <p>Vulkleur van gebied Afbeeldingskaart. </p> <p>Deze kleur opgeven in <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span>, of <span class="codeph"> RGBA(R,G,B,A) </span> indelingen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>Vulkleur van gebied Afbeeldingskaart. </p> <p>Geef deze kleur op in <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> of <span class="codeph"> RGBA(R,G,B,A) </span>-indelingen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>Vulkleur van gebied Afbeeldingskaart. </p> <p>Deze kleur opgeven in <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span>, of <span class="codeph"> RGBA(R,G,B,A) </span> indelingen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
-   <td colname="col2"> <p> Randstijl van afbeeldingskaart. Moet worden opgegeven als " <span class="codeph"> width </span> <span class="codeph"> solid color </span>", waarbij <span class="codeph"> width </span> wordt uitgedrukt in pixels, en <span class="codeph"> color </span> wordt ingesteld als <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) &lt;a1 1/&gt;, of <span class="codeph"> RGBA(R,G,B,A) </span>.</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col2"> <p> Randstijl van afbeeldingskaart. Moet worden gespecificeerd als " <span class="codeph"> width </span> <span class="codeph"> effen kleur </span>", waarbij <span class="codeph"> width </span> wordt uitgedrukt in pixels, en <span class="codeph"> kleur </span> is ingesteld als <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span>, of <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

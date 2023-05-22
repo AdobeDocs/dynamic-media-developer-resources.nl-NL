@@ -2,12 +2,12 @@
 description: Afbeelding uitsnijden. Hiermee geeft u een rechthoekig uitsnijdgebied op, uitgedrukt in pixels of genormaliseerd ten opzichte van de bronafbeelding of maskerafbeelding met volledige resolutie.
 solution: Experience Manager
 title: uitsnijden
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d1ea63c1-95f0-4a4e-b65d-eb535eef0205
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Afbeelding uitsnijden. Hiermee geeft u een rechthoekig uitsnijdgebied op, uitgedrukt in pixels of genormaliseerd ten opzichte van de bronafbeelding of maskerafbeelding met volledige resolutie.
 
-`crop= *``*, *`coördineren`*`
+`crop= *`coord`*, *`size`*`
 
-`cropN= *``*, *`coordNsizeN`*`
+`cropN= *`coordN`*, *`sizeN`*`
 
 <table id="simpletable_472A9AD67AA64419B0877B0535F8B14A"> 
  <tr class="strow"> 
@@ -43,7 +43,7 @@ Kan ook worden gebruikt om de afbeelding buiten de grenzen te vergroten door neg
 
 ## Eigenschappen {#section-632e0405bb9940679b5f8b1c10e0902e}
 
-Kenmerk van bronafbeelding/masker. Wordt toegepast op de bronafbeelding van laag 0 als `layer=comp`. Genegeerd door lagen die niet zijn gekoppeld aan een bronafbeelding of -masker.
+Kenmerk van bronafbeelding/masker. Is van toepassing op laag 0 bronbeeld als `layer=comp`. Genegeerd door lagen die niet zijn gekoppeld aan een bronafbeelding of -masker.
 
 ## Standaard {#section-41f62d386c664f77952bc22e7286bb88}
 
@@ -61,4 +61,4 @@ Gehele afbeelding ( `cropN=0,0,1,1`).
 
 ## Zie ook {#section-d5616c7aa0ce4faa88f51dd5662e5daf}
 
-[](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-croppath.md) [cropPathbgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab) ,  [anchor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c),  [extend=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac)
+[cropPath](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-croppath.md) [bgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab) , [anchor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c), [extend=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac)

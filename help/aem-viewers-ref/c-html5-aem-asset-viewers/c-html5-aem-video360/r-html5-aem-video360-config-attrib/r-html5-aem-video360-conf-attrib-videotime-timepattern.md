@@ -22,7 +22,7 @@ Configuration attribute for Video360 Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> [h:]m|mm:s|ss</span> </p> </td> 
-   <td colname="col2"> <p> Plaatst het patroon voor de tijd die in de controlebar wordt getoond, waar <span class="codeph"> h</span> uren is, <span class="codeph"> m</span> minuten is, en <span class="codeph"> s</span> seconden is. </p> <p>Het aantal letters dat voor elke tijdeenheid wordt gebruikt, bepaalt het aantal cijfers dat voor de eenheid moet worden weergegeven. Als het getal niet in de opgegeven cijfers past, wordt de equivalente waarde weergegeven in de volgende eenheid. </p> <p>Als de huidige filmtijd bijvoorbeeld 67 minuten en 5 seconden is, wordt het tijdpatroon <span class="codeph"> m:ss</span> weergegeven als 67:05. Dezelfde tijd wordt weergegeven als 1:07:5 als het opgegeven tijdpatroon <span class="codeph"> h:mm:s</span> is. </p> </td> 
+   <td colname="col2"> <p> Plaatst het patroon voor de tijd die in de controlebar wordt getoond, waar <span class="codeph"> h</span> is uren, <span class="codeph"> m</span> minuten is, en <span class="codeph"> s</span> is seconden. </p> <p>Het aantal letters dat voor elke tijdeenheid wordt gebruikt, bepaalt het aantal cijfers dat voor de eenheid moet worden weergegeven. Als het getal niet in de opgegeven cijfers past, wordt de equivalente waarde weergegeven in de volgende eenheid. </p> <p>Als de huidige filmtijd bijvoorbeeld 67 minuten en 5 seconden is, wordt het tijdpatroon weergegeven <span class="codeph"> m:ss</span> wordt weergegeven als 67:05. Dezelfde tijd wordt weergegeven als 1:07:5 als het opgegeven tijdpatroon <span class="codeph"> h:mm:s</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

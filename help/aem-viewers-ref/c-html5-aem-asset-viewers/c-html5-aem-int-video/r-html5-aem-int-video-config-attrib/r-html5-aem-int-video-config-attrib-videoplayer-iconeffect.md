@@ -8,7 +8,7 @@ exl-id: 690dc488-2db0-4166-a308-f1f3438c480a
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '127'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -16,17 +16,17 @@ ht-degree: 1%
 
 Configuration attribute for Interactive Video Viewer.
 
-` [VideoPlayer.|<containerId>_videoPlayer.]iconeffect=0|1[, *``*][, *``*][, *`countfadeautoHide`*]`
+` [VideoPlayer.|<containerId>_videoPlayer.]iconeffect=0|1[, *`aantal`*][, *`vervagen`*][, *`autoHide`*]`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Hiermee wordt het IconEffect vóór de video weergegeven wanneer de video is gepauzeerd. Op sommige apparaten worden native besturingselementen gebruikt. In dergelijke gevallen wordt de pictogrameffect<span class="codeph">/&gt;-modifier genegeerd.</span> </p> </td> 
+   <td colname="col2"> <p> Hiermee wordt het IconEffect vóór de video weergegeven wanneer de video is gepauzeerd. Op sommige apparaten worden native besturingselementen gebruikt. In dergelijke gevallen <span class="codeph"> iconeffect</span> modifier wordt genegeerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> aantal</span></span> </p> </td> 
-   <td colname="col2"> <p> Hiermee geeft u het maximale aantal keren op dat het IconEffect wordt weergegeven en opnieuw wordt weergegeven. De waarde <span class="codeph"> -1</span> geeft aan dat het pictogram oneindig opnieuw wordt weergegeven. </p> </td> 
+   <td colname="col2"> <p> Hiermee geeft u het maximale aantal keren op dat het IconEffect wordt weergegeven en opnieuw wordt weergegeven. Een waarde van <span class="codeph"> -1</span> Hiermee wordt aangegeven dat het pictogram voor onbepaalde tijd opnieuw wordt weergegeven. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> vervagen</span></span> </p> </td> 
@@ -34,7 +34,7 @@ Configuration attribute for Interactive Video Viewer.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> autoHide</span></span> </p> </td> 
-   <td colname="col2"> <p> Stelt het aantal seconden in dat het IconEffect volledig zichtbaar blijft voordat het automatisch wordt verborgen. De tijd nadat de animatie voor vervagen is voltooid en voordat de animatie voor vervagen wordt gestart. Stel in op <span class="codeph"> 0</span> om automatisch verbergen uit te schakelen. </p> </td> 
+   <td colname="col2"> <p> Stelt het aantal seconden in dat het IconEffect volledig zichtbaar blijft voordat het automatisch wordt verborgen. De tijd nadat de animatie voor vervagen is voltooid en voordat de animatie voor vervagen wordt gestart. Instellen op <span class="codeph"> 0</span> om automatisch verbergen uit te schakelen. </p> </td> 
   </tr> 
  </tbody> 
 </table>

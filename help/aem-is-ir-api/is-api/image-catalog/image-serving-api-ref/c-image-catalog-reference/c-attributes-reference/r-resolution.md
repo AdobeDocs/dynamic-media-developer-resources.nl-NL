@@ -2,12 +2,12 @@
 description: Standaardobjectresolutie. Biedt een standaardobjectresolutie voor het geval een bepaalde catalogusrecord geen geldige waarde voor Resolutie van catalogus bevat.
 solution: Experience Manager
 title: Resolutie
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ba55a3b6-9f8b-4b69-8604-f0893f56eb5d
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '82'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Reëel getal, groter dan 0. Doorgaans uitgedrukt als pixels per inch, maar mogel
 
 ## Standaard {#section-2d1258d2b7ce4929ac327a5d41a108dd}
 
-Overgenomen van `default::Resolution` indien niet gedefinieerd of indien leeg.
+Overgenomen van `default::Resolution` indien niet gedefinieerd of leeg.
 
 ## Zie ook {#section-dffa1f318fd84833b74d08d09c24c974}
 

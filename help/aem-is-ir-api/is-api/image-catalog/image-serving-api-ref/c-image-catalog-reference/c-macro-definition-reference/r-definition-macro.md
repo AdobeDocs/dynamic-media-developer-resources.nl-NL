@@ -2,12 +2,12 @@
 description: Macrodefinitie. Een afbeeldingsserverend protocolfragment dat bestaat uit een of meer volledige opdrachten, gescheiden door '&'-tekens.
 solution: Experience Manager
 title: Definitie
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5b8815f5-c8e0-43e1-828c-2e389388cdde
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---

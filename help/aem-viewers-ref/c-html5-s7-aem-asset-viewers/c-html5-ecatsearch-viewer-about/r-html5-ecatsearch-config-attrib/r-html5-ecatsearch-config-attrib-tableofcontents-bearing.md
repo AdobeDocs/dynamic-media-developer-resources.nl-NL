@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: d8b88ea2-38fe-41b8-89cb-c3603c513142
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> lateraal|verticaal passend</span> </p> </td> 
-   <td> <p> Hiermee bepaalt u de richting van de vormgeving van het vervolgkeuzepaneel. </p> <p>Wanneer ingesteld op <span class="codeph"> fit-vertical</span>, verplaatst de component eerst de positie van het basispaneel naar de bodem van zijn knoop en probeert om het paneel of aan het recht of aan de linkerkant van de basisplaats uit te rollen. Bij elke poging controleert de component of het deelvenster is bijgesneden door een buitencontainer. Als alle pogingen mislukken, probeert de component om de positie van het basispaneel naar de bovenkant te verschuiven en de rollopouten in de juiste en linkerrichting te herhalen. </p> <p>Wanneer ingesteld op <span class="codeph"> fit-lateraal</span>, gebruikt de component een gelijkaardige logica, maar verschuift de basis eerst naar rechts, waarbij de rolrichtingen omlaag en omhoog worden geprobeerd. Vervolgens verschuift het de basis naar links en probeert het de richting omlaag en omhoog. </p> </td> 
+   <td> <p> Hiermee bepaalt u de richting van de vormgeving van het vervolgkeuzepaneel. </p> <p>Wanneer ingesteld op <span class="codeph"> verticaal passend</span>De component verschuift eerst de positie van het basisdeelvenster naar de onderkant van de knop en probeert het deelvenster uit te rollen naar rechts of naar links vanaf de basislocatie. Bij elke poging controleert de component of het deelvenster is bijgesneden door een buitencontainer. Als alle pogingen mislukken, probeert de component om de positie van het basispaneel naar de bovenkant te verschuiven en de rollopouten in de juiste en linkerrichting te herhalen. </p> <p>Wanneer ingesteld op <span class="codeph"> monteerbaar</span>, gebruikt de component een gelijkaardige logica, maar verschuift de basis eerst naar rechts, die en probeert neer en omhoog richtingen uitrollen. Vervolgens verschuift het de basis naar links en probeert het de richting omlaag en omhoog. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> autoHideDelay</span></span> </p> </td> 

@@ -2,12 +2,12 @@
 description: Voeg ruis toe. Hiermee voegt u willekeurige ruis toe aan de voorgrondafbeeldingsgegevens of aan de voorgrond van een effectlaag.
 solution: Experience Manager
 title: op_ruis
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: eeadd3ab-80ff-4f9b-b5b7-4f3da6feebde
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Voeg ruis toe. Hiermee voegt u willekeurige ruis toe aan de voorgrondafbeeldingsgegevens of aan de voorgrond van een effectlaag.
 
-`op_noise= *``*[,uniform|gaussian[, *`valmonochroom`*]]`
+`op_noise= *`val`*[,uniform|gaussian[, *`monochroom`*]]`
 
 <table id="table_40675464E5824D52BF392ECCE2DDC03C"> 
  <tbody> 
@@ -43,7 +43,7 @@ Voeg ruis toe. Hiermee voegt u willekeurige ruis toe aan de voorgrondafbeeldings
 
 ## Eigenschappen {#section-1f1a64c791f545a3bf1abd0b0e575d87}
 
-Laag, opdracht. Wordt toegepast op de huidige laag of op de samengestelde afbeelding als `layer=comp`.
+Laag, opdracht. Is van toepassing op de huidige laag of op de samengestelde afbeelding als `layer=comp`.
 
 ## Standaard {#section-d548868fa4b64a60bcb481cad1f8113e}
 

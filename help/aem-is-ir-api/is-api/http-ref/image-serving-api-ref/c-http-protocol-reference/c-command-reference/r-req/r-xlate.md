@@ -2,13 +2,13 @@
 description: Beschikbare landspecifieke versies. Retourneert een lijst met beschikbare landspecifieke versies van de catalogus-id die is opgegeven in het aanvraagpad.
 solution: Experience Manager
 title: xlate
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: bf5b3cb7-9792-4eca-a1aa-55aa4089b4d4
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 2%
+source-wordcount: '107'
+ht-degree: 0%
 
 ---
 
@@ -25,16 +25,16 @@ Beschikbare landspecifieke versies. Retourneert een lijst met beschikbare landsp
  </tr> 
 </table>
 
-Zie [Vertaling van object-id](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414).
+Zie [Vertaling object-id](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414).
 
 Bijvoorbeeld:
 
 `xlate.translatedIds=image,image_fr,image_de`
 
-De reactie van HTTP is cacheable met TTL die op `catalog::Expiration` wordt gebaseerd.
+De HTTP-respons is cacheable met de TTL op basis van `catalog::Expiration`.
 
 Verzoeken die JSONP reactieformaat steunen laten u de naam van de callback manager specificeren JS gebruikend de uitgebreide syntaxis van `req=` parameter:
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` is de naam van de manager JS die in de reactie JSONP aanwezig is. Alleen a-z, A-Z en 0-9 tekens zijn toegestaan. Optioneel. De standaardwaarde is `s7jsonResponse`.
+`<reqHandler>` is de naam van de manager JS die in de reactie JSONP aanwezig is. Alleen a-z, A-Z en 0-9 tekens zijn toegestaan. Optioneel. Standaard is `s7jsonResponse`.

@@ -8,7 +8,7 @@ exl-id: 8eb2aa50-52b9-4b63-9789-87e492f34a22
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
 source-wordcount: '199'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -31,25 +31,25 @@ De viewer ondersteunt ondertiteling via gehoste WebVTT-bestanden. Overlappende c
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> A  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> A </span> </p> </td> 
    <td colname="col2"> <p>tekst uitlijnen </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> left|right|middle|start|end  </span> </p> </td> 
-   <td colname="col4"> <p> Tekstuitlijning bepalen. </p> <p>De standaardwaarde is <span class="codeph"> midden </span>. </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> left|right|middle|start|end </span> </p> </td> 
+   <td colname="col4"> <p> Tekstuitlijning bepalen. </p> <p>Standaard is <span class="codeph"> midden </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> T  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> T </span> </p> </td> 
    <td colname="col2"> <p>tekstpositie </p> </td> 
    <td colname="col3"> <p> 0%-100% </p> </td> 
    <td colname="col4"> <p> Percentage van inzet in de component VideoPlayer voor het begin van de bijschrifttekst. </p> <p>De standaardwaarde is 0%. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> S  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> S </span> </p> </td> 
    <td colname="col2"> <p>lijngrootte </p> </td> 
    <td colname="col3"> <p> 0%-100% </p> </td> 
    <td colname="col4"> <p> Percentage van videobreedte dat wordt gebruikt voor bijschriften. </p> <p>De standaardwaarde is 100%. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> L  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> L </span> </p> </td> 
    <td colname="col2"> <p>lijnpositie </p> </td> 
    <td colname="col3"> <p> 0%-100%|geheel getal </p> </td> 
    <td colname="col4"> <p> Bepaalt de regelpositie op de pagina. </p> <p>Als de waarde wordt uitgedrukt als een geheel getal (geen procentteken), is dit het aantal regels vanaf de bovenkant waar de tekst wordt weergegeven. </p> <p>Als het een percentage is (het procentteken is het laatste teken), wordt de bijschrifttekst weergegeven met dat percentage in het weergavegebied. </p> <p>De standaardwaarde is 100%. </p> </td> 
@@ -62,12 +62,12 @@ Andere WebVTT-functies in het WebVTT-bestand worden niet ondersteund, maar onder
 <table id="table_A5BB1C08DA4B425DBD0356C7D3693E75"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> file  </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> file </span> </span> </p> </td> 
    <td colname="col2"> <p> Hiermee wordt een URL of pad naar de WebVTT-bijschriftinhoud opgegeven. Geef het WebVTT-bestand door Beeldverwerking. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
-   <td colname="col2"> <p> Geeft de standaardondertitelingsstatus aan (ingeschakeld is <span class="codeph"> 1 </span>). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> Hiermee wordt de standaardondertitelingsstatus opgegeven (ingeschakeld) <span class="codeph"> 1 </span>). </p> </td> 
   </tr> 
  </tbody> 
 </table>

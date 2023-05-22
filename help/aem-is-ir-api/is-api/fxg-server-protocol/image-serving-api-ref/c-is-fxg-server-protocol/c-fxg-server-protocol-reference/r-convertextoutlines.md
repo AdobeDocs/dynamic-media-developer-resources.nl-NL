@@ -1,20 +1,20 @@
 ---
-description: Tekst in een PDF-bestand converteren naar contouren.
+description: Tekst in een PDF-bestand omzetten in contouren.
 solution: Experience Manager
 title: convertTextToOutlines
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b9bff788-f859-4817-9e29-b9edc579eee7
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '62'
 ht-degree: 1%
 
 ---
 
 # convertTextToOutlines{#converttexttooutlines}
 
-Tekst in een PDF-bestand converteren naar contouren.
+Tekst in een PDF-bestand omzetten in contouren.
 
 <table id="simpletable_FDE0D8786BC747AF87A336452500E695"> 
  <tr class="strow"> 
@@ -23,6 +23,6 @@ Tekst in een PDF-bestand converteren naar contouren.
  </tr> 
 </table>
 
-Met de URL-opdracht `convertTextToOutlines=1` kunt u alle tekst in een PDF-bestand wijzigen in padomtrekken.
+De opdracht URL gebruiken `convertTextToOutlines=1` om alle tekst in een PDF-bestand te wijzigen in padomtrekken.
 
-Wanneer een effect wordt toegepast op tekst in een PDF-bestand, zoals tekst converteren naar contouren, wordt de uiteindelijke gerenderde afbeelding verkleind of &#39;afgevlakt&#39;.
+Wanneer een effect wordt toegepast op tekst in een PDF-bestand, zoals tekst omzetten in contouren, wordt de uiteindelijke gerenderde afbeelding verkleind of &#39;afgevlakt&#39;.

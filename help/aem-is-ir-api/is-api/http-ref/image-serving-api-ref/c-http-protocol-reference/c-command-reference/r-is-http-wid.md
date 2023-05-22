@@ -2,12 +2,12 @@
 description: Weergavebreedte. Hiermee geeft u de breedte op van de reactieafbeelding (weergaveafbeelding) wanneer fit= niet aanwezig is in de aanvraag.
 solution: Experience Manager
 title: winderig
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ba22c79b-da59-4993-aa1c-2c990a0c4be5
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -20,14 +20,14 @@ Weergavebreedte. Hiermee geeft u de breedte op van de reactieafbeelding (weergav
 
 <table id="simpletable_E217453246F5441C896C1F69EA4D4218"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> val  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> val </span> </p> </td> 
   <td class="stentry"> <p>Afbeeldingsbreedte in pixels (int groter dan 0). </p> </td> 
  </tr> 
 </table>
 
-Als zowel `hei=` als `scl=` worden gespecificeerd, kan het samengestelde beeld volgens het `align=` attribuut worden bebouwd. Wanneer `fit=` aanwezig is, `wid=` specificeert de nauwkeurige, de minimum, of de maximumbreedte van het reactiebeeld; Raadpleeg de beschrijving van `fit=` voor meer informatie.
+Als beide `hei=` en `scl=` worden opgegeven, kan de samengestelde afbeelding worden bijgesneden op basis van de `align=` kenmerk. Wanneer `fit=` aanwezig is, `wid=` geeft de exacte, minimale of maximale breedte van de reactieafbeelding aan; zie de beschrijving van `fit=` voor meer informatie.
 
-Als `scl=` niet is opgegeven, wordt de samengestelde afbeelding passend geschaald. Als zowel `wid=` als `hei=` worden gespecificeerd, en `scl=` niet wordt gespecificeerd, dan wordt het beeld geschraapt om volledig binnen de wid/hei rechthoek te passen, verlatend zo weinig mogelijk achtergrondoppervlak. In dit geval wordt de afbeelding binnen de weergaverechthoek geplaatst volgens het kenmerk `align=`.
+Indien `scl=` niet is opgegeven, wordt de samengestelde afbeelding op maat geschaald. Als beide `wid=` en `hei=` gespecificeerd zijn, en `scl=` niet is opgegeven, wordt de afbeelding geschaald zodat deze volledig binnen de witte rechthoek past, zodat zo weinig mogelijk achtergrondoppervlak zichtbaar blijft. In dit geval wordt de afbeelding op basis van de `align=` kenmerk.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ Als `scl=` niet is opgegeven, wordt de samengestelde afbeelding passend geschaal
 
 ## Standaard {#section-976d4c8554a34c899f85d172f6ac6f58}
 
-Als noch `wid=`, `hei=`, noch `scl=` worden gespecificeerd, zal het antwoordbeeld of de grootte van het samengestelde beeld of `attribute::DefaultPix` hebben, welke kleiner is.
+Als beide `wid=`, `hei=`, noch `scl=` worden opgegeven, heeft de antwoordafbeelding de grootte van de samengestelde afbeelding of `attribute::DefaultPix`, afhankelijk van welke waarde het kleinst is.
 
 ## Eigenschappen {#section-c93b7ce1b0d2475f80b06264b45d1285}
 
@@ -43,7 +43,7 @@ Kenmerk weergeven. Is van toepassing ongeacht de huidige laaginstelling.
 
 ## Voorbeeld {#section-82bc98b7c15a451bbe9b915d414c0470}
 
-een afbeelding aanvragen om in een rechthoek van 200 x 200 te passen; de afbeelding wordt rechtsboven uitgelijnd als deze niet vierkant is. Een willekeurig achtergrondgebied wordt gevuld met `attribute::BkgColor`.
+een afbeelding aanvragen om in een rechthoek van 200 x 200 te passen; de afbeelding wordt rechtsboven uitgelijnd als deze niet vierkant is. Een willekeurig achtergrondgebied is gevuld met `attribute::BkgColor`.
 
 ` http:// *`server`*/myRootId/myImageId?wid=200&hei=200&align=1,-1`
 
@@ -53,4 +53,4 @@ Dezelfde afbeelding, geleverd met een vaste breedte van 200 pixels, maar met een
 
 ## Zie ook {#section-4e9659238d6545498378ca8b1f3ec4ae}
 
-[hei=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96) ,  [fit=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md#reference-f11bff6d93d143d6b135de3a923bc989),  [scl=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-scl.md#reference-b2a74e493d0d407e98fe350551ba3fcc),  [align=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-align.md#reference-b7d6b87c75124d78884f916dd6544bc7),  [kenmerk::DefaultPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultpix.md#reference-996b2c22b30f4fd9b970c84063306df1),  [kenmerk::MaxPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-maxpix.md#reference-e167d396ac794079ba8b5e6eb16eeda5)
+[hei=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96) , [fit=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md#reference-f11bff6d93d143d6b135de3a923bc989), [scl=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-scl.md#reference-b2a74e493d0d407e98fe350551ba3fcc), [align=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-align.md#reference-b7d6b87c75124d78884f916dd6544bc7), [kenmerk::DefaultPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultpix.md#reference-996b2c22b30f4fd9b970c84063306df1), [kenmerk::MaxPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-maxpix.md#reference-e167d396ac794079ba8b5e6eb16eeda5)

@@ -2,12 +2,12 @@
 description: Verwijdert machtigingen voor mappen.
 solution: Experience Manager
 title: removeFolderPermissions
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 10830980-d504-4610-96c9-730937453256
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ IPS API keert geen reactie voor deze verrichting terug.
 
 ## Voorbeelden {#section-04390f0ec7cc460cb5d34d518e33e7a5}
 
-Dit codevoorbeeld verwijdert toestemmingen uit een omslag en zijn subfolders. Stel `updateChildren` in op `false` als u alleen machtigingen uit de bovenliggende map moet verwijderen.
+Dit codevoorbeeld verwijdert toestemmingen uit een omslag en zijn subfolders. Set `updateChildren` tot `false` als u alleen machtigingen uit de bovenliggende map moet verwijderen.
 
 **Verzoek**
 

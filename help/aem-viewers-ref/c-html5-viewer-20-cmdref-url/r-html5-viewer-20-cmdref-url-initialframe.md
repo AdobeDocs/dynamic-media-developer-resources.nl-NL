@@ -8,7 +8,7 @@ exl-id: db77edf0-e223-4f44-b83b-b6dbe5c1abd6
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
 source-wordcount: '97'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ Parameter die alle viewers gemeen hebben.
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> pageIdx</span></span> </p> </td> 
-   <td colname="col2"> <p>Een op nul gebaseerde index van de pagina binnen de spread wanneer het apparaat staand is. Voor een "van links naar rechts"milieu, <span class="codeph"> 0</span> betekent "van links pagina"en <span class="codeph"> 1</span> betekent "van rechts pagina". Voor een "rechts-links"-omgeving is het tegenovergestelde: <span class="codeph"> 0</span> betekent "rechterpagina" en <span class="codeph"> 1</span> betekent "linkerpagina". </p> <p>Indien niet gespecificeerd, <span class="codeph"> 0</span> wordt verondersteld door gebrek. Wordt genegeerd wanneer het apparaat liggend is. </p> </td> 
+   <td colname="col2"> <p>Een op nul gebaseerde index van de pagina binnen de spread wanneer het apparaat staand is. Voor een "links-naar-rechts"-omgeving: <span class="codeph"> 0</span> betekent "linkerpagina" en <span class="codeph"> 1</span> betekent "rechterpagina". Voor een "rechts-links"-omgeving is het tegenovergestelde: <span class="codeph"> 0</span> betekent "rechterpagina" en <span class="codeph"> 1</span> betekent "linkerpagina". </p> <p>Indien niet opgegeven, <span class="codeph"> 0</span> wordt standaard aangenomen. Wordt genegeerd wanneer het apparaat liggend is. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 90ef96fc-c12f-4fc8-b465-6520b71f4e7b
 source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,9 @@ Vergelijkbare vereisten als Voorbeeld A, maar gebruik een achtergrond met een ef
  </tr> 
 </table>
 
-De afbeelding wordt in laag 0 geplaatst en de hoogtewaarde `size=` wordt ingesteld op 0. Met deze instelling wordt de werkelijke hoogte bepaald door de hoogte van de afbeelding nadat deze is geschaald naar 800 pixels breed.
+De afbeelding wordt in laag 0 geplaatst en de hoogtewaarde van `size=` is ingesteld op 0. Met deze instelling wordt de werkelijke hoogte bepaald door de hoogte van de afbeelding nadat deze is geschaald naar 800 pixels breed.
 
-Met de variabele `extend=` worden 100 pixels boven en onder en 200 pixels rechts toegevoegd.
+De variabele `extend=` Hiermee voegt u 100 pixels boven en onder en 200 pixels rechts toe.
 
 De oorsprong voor zowel laag 0 als laag 1 wordt midden-rechts van het compositiegebied geplaatst om de gewenste tekstpositie te bereiken.
 

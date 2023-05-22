@@ -2,12 +2,12 @@
 description: Deze opdrachten zijn van toepassing, ongeacht de plaats in het verzoek waar ze staan.
 solution: Experience Manager
 title: Opdrachten weergeven
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c1dcabd3-d2bc-4ca1-a909-fcfe0d2feff6
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---

@@ -2,12 +2,12 @@
 description: Wordt gebruikt door getActivePublishContextReturn/publishContext.
 solution: Experience Manager
 title: Context publiceren
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2eaa6771-18e9-4758-bfa9-23cce278bee7
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '19'
+source-wordcount: '14'
 ht-degree: 0%
 
 ---

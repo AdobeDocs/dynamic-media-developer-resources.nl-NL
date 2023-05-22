@@ -2,12 +2,12 @@
 description: In catalogusvelden worden deze standaardwaarden gebruikt.
 solution: Experience Manager
 title: Standaardwaarden voor catalogusvelden
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8d4e666c-468b-4907-911a-9df324f7d2bf
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '50'
 ht-degree: 0%
 
 ---

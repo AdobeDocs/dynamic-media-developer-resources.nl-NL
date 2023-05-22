@@ -1,20 +1,20 @@
 ---
-description: PDF-taakopties toepassen. Een bestand met taakopties of een PDF-voorinstelling is een bestand dat door Illustrator is gegenereerd in het dialoogvenster Opslaan als PDF-opties of in het dialoogvenster PDF-voorinstellingen in InDesign.
+description: PDF-taakopties toepassen. Een bestand met taakopties of een voorinstelling voor PDF is een bestand dat door Illustrator is gegenereerd in het dialoogvenster Opslaan als PDF of voorinstellingen voor PDF in InDesign.
 solution: Experience Manager
 title: joboption
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8e7224e7-d801-4550-b95e-24d15734043a
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
 
 # joboption{#joboption}
 
-PDF-taakopties toepassen. Een bestand met taakopties of een PDF-voorinstelling is een bestand dat door Illustrator is gegenereerd in het dialoogvenster Opslaan als PDF-opties of in het dialoogvenster PDF-voorinstellingen in InDesign.
+PDF-taakopties toepassen. Een bestand met taakopties of een voorinstelling voor PDF is een bestand dat door Illustrator is gegenereerd in het dialoogvenster Opslaan als PDF of voorinstellingen voor PDF in InDesign.
 
 ` joboption= *`value`*`
 
@@ -25,7 +25,7 @@ PDF-taakopties toepassen. Een bestand met taakopties of een PDF-voorinstelling i
  </tr> 
 </table>
 
-Het dossier van baanopties kan door IPS/Dynamic Media Klassiek worden geupload en worden gepubliceerd. De PDF-opties in het bestand met taakopties worden gebruikt wanneer de PDF wordt gegenereerd.
+Het dossier van baanopties kan door IPS/Dynamic Media Classic worden geupload en worden gepubliceerd. De PDF-opties in het bestand met taakopties worden gebruikt wanneer de PDF wordt gegenereerd.
 
 De volgende opties worden momenteel ondersteund:
 

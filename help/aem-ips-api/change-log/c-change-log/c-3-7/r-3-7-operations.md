@@ -2,12 +2,12 @@
 description: Beschrijft nieuwe en veranderde verrichtingsmethodes voor IPS API versie 3.7.
 solution: Experience Manager
 title: Nieuwe en gewijzigde bewerkingen
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1f11a686-7239-4922-a608-5330864184ac
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '48'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Syntaxis
 
 **searchAsset**
 
-* `name` parameter verwijderd.
+* Verwijderd `name` parameter.
 * Toegevoegd `excludeFieldArray`.
 
 **getFolders**
@@ -50,4 +50,4 @@ Syntaxis
 **getFolderTree**
 
 * Toegevoegd `excludeFieldArray` en `getUniqueMetadataValues`.
-* `fieldHandle` is een vereiste parameter.
+* Made `fieldHandle` een vereiste parameter.

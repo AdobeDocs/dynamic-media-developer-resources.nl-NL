@@ -8,7 +8,7 @@ exl-id: 75521239-a0be-4aa0-b65d-9a1f7d902cf2
 source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
 source-wordcount: '78'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">0|1[,<span class="varname"> limiet</span>]</span> </p> </td> 
-   <td colname="col2"> <p> Vormt gedrag voor automatisch verbergen afhankelijk van het aantal pagina's en de grootte van de uitvoeringscomponent. </p> <p> <span class="codeph"> 0</span> schakelt automatisch verbergen uit. </p> <p> <span class="codeph"> 1</span> schakelt automatisch verbergen in. De component verbergt de punten als ten minste een van de volgende voorwaarden true wordt: </p> <p> 
+   <td colname="col2"> <p> Vormt gedrag voor automatisch verbergen afhankelijk van het aantal pagina's en de grootte van de uitvoeringscomponent. </p> <p> <span class="codeph"> 0</span> Hiermee schakelt u het automatisch verbergen uit. </p> <p> <span class="codeph"> 1</span> Hiermee schakelt u automatisch verbergen in. De component verbergt de punten als ten minste een van de volgende voorwaarden true wordt: </p> <p> 
      <ul id="ul_A7F9C1DDC6AE44BAA348B3AD440A4EDD"> 
       <li id="li_39332158806445DF874C5A52F1331B8B">de rij met punten breder wordt dan de breedte van de uitvoeringscomponent, of </li> 
-      <li id="li_E30BAC8B609147ADB8824000F5729B21">Het aantal pagina's dat voor deze component wordt ingesteld, overschrijdt de limiet die door de parameter <span class="codeph"><span class="varname"> limit</span></span> wordt geconfigureerd. </li> 
-     </ul> </p> <p> Als u <span class="codeph"><span class="varname"> limit</span></span> instelt op <span class="codeph"> -1</span>, wordt de tweede voorwaarde voor automatisch verbergen uitgeschakeld. </p> </td> 
+      <li id="li_E30BAC8B609147ADB8824000F5729B21">Het aantal pagina's dat voor deze component is ingesteld, overschrijdt de limiet die door de <span class="codeph"><span class="varname"> limiet</span></span> parameter. </li> 
+     </ul> </p> <p> Instelling <span class="codeph"><span class="varname"> limiet</span></span> tot <span class="codeph"> -1</span> Hiermee wordt de tweede voorwaarde voor automatisch verbergen uitgeschakeld. </p> </td> 
   </tr> 
  </tbody> 
 </table>

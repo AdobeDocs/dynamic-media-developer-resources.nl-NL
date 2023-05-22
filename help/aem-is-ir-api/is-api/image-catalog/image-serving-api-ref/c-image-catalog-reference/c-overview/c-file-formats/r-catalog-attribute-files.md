@@ -8,7 +8,7 @@ exl-id: 79d9439d-7749-4ae1-aa73-e88e01cf7555
 source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
 source-wordcount: '195'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Kenmerkbestanden van catalogus bestaan uit een set tekstrecords, gescheiden door
 
 <table id="simpletable_0F879121670046AE9414298725961303"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> values</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname"> waarden</span> </p> </td> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> val</span>[,<span class="varname"> waarden</span>]</span> </p> </td> 
  </tr> 
  <tr class="strow"> 

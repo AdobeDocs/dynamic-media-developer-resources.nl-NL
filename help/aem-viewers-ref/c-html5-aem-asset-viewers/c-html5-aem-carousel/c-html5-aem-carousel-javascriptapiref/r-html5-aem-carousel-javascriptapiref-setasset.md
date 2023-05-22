@@ -18,7 +18,7 @@ JavaScript API-referentie voor Carousel Viewer.
 
 ` setAsset( *`element`*)`
 
-Hiermee stelt u het nieuwe element in. U kunt deze parameter op elk ogenblik roepen, of vóór of na `init()`. Als deze wordt aangeroepen na `init()`, wisselt de viewer het element tijdens runtime om.
+Hiermee stelt u het nieuwe element in. U kunt deze parameter op elk gewenst moment vóór of na `init()`. Als het wordt aangeroepen na `init()`, wordt het element tijdens runtime vervangen door de viewer.
 
 Zie ook [init](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
@@ -26,7 +26,7 @@ Zie ook [init](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-a
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> element</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> String</span>} nieuwe element-id. </p> <p>Afbeeldingen die gebruikmaken van IR (Image Rendering) of UGC (Door de gebruiker gegenereerde inhoud) worden niet ondersteund door deze viewer. </p> </td>
+   <td colname="col2"> <p>{<span class="codeph"> String</span>} new asset ID. </p> <p>Afbeeldingen die gebruikmaken van IR (Image Rendering) of UGC (Door de gebruiker gegenereerde inhoud) worden niet ondersteund door deze viewer. </p> </td>
   </tr>
  </tbody>
 </table>

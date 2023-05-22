@@ -2,12 +2,12 @@
 description: Kenmerkbestanden van catalogi herkennen deze kenmerken voor catalogusbeheer.
 solution: Experience Manager
 title: Catalogusbeheer
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c29858a7-6695-4c40-a818-4161a2e97ff5
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---

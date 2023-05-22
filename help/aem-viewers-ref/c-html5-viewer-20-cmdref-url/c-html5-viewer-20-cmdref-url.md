@@ -16,4 +16,4 @@ ht-degree: 0%
 
 De verwijzingsdocumentatie van het bevel die voor alle Kijkers gemeenschappelijk is.
 
-De hieronder vermelde opdrachten worden toegepast via URL of via API `setParam()` of `setParams()`.
+De onderstaande opdrachten worden toegepast via URL of via API `setParam()` of `setParams()` methoden.

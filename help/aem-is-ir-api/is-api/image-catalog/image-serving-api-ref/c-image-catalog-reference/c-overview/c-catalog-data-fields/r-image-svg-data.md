@@ -2,12 +2,12 @@
 description: De volgende velden worden herkend in afbeeldings- en SVG-gegevensbestanden.
 solution: Experience Manager
 title: Afbeelding_SVG-gegevens
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5392e08f-3614-4588-8846-4262d32f3ce1
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ De volgende velden worden herkend in afbeeldings- en SVG-gegevensbestanden.
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md" type="reference" format="dita" scope="local"> Pad</a></span> </p> </td> 
-   <td colname="col2"> <p>Pad naar afbeeldings-/SVG-bestand. </p> </td> 
+   <td colname="col2"> <p>Bestandspad voor afbeelding/SVG. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-printresolution-cat.md#reference-4ebb2e136995470b84b7c5e10cb8e5f5" type="reference" format="dita" scope="local"> PrintResolution</a></span> </p> </td> 

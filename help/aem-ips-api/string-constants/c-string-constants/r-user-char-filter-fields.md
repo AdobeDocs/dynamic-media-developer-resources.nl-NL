@@ -2,12 +2,12 @@
 description: Gebruikt door getUsersParam en getUserCharsParam/charField.
 solution: Experience Manager
 title: Gebruikerskartelvelden
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 40ba507b-6859-4b37-b801-c6f21d12e98e
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '27'
+source-wordcount: '22'
 ht-degree: 0%
 
 ---

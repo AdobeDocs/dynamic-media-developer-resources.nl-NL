@@ -33,15 +33,15 @@ De vormgeving van de deelknop Facebook wordt bepaald door de volgende CSS-klasse
    <td colname="col2"> <p>Knopbreedte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
    <td colname="col2"> <p> De afbeelding die voor een bepaalde knopstatus wordt weergegeven. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -49,9 +49,9 @@ De vormgeving van de deelknop Facebook wordt bepaald door de volgende CSS-klasse
 
 >[!NOTE]
 >
->Deze knoop steunt `state` attributenselecteur, die kan worden gebruikt om verschillende huiden op verschillende knoopstaten toe te passen.
+>Deze knop ondersteunt de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende skins toe te passen op verschillende knoptoestanden.
 
-Het is mogelijk om de knop uit het deelvenster Sociaal delen te verwijderen door de CSS-eigenschap `display:none` in te stellen op de CSS-klasse.
+Het is mogelijk de knop uit het deelvenster Sociaal delen te verwijderen door de instelling `display:none` CSS-eigenschap in de CSS-klasse.
 
 De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 

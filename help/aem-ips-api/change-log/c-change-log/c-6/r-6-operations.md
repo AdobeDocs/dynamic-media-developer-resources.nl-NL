@@ -2,12 +2,12 @@
 description: Beschrijft nieuwe en veranderde verrichtingsmethodes voor IPS API versie 6.
 solution: Experience Manager
 title: Nieuwe en gewijzigde bewerkingen
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fc7af77e-17fc-453a-8949-78c9c5c33b34
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
@@ -31,25 +31,25 @@ Syntaxis
 
 **Toegevoegd**
 
-* `isHidden` en `initialTagValue` toegevoegd aan:
+* Toegevoegd `isHidden` en `initialTagValue` tot:
 
    * `saveMetadataField`
    * ` `updateMetadataField&quot;
    * `createMetadataField`
 
-* `thumbAssetHandle` toegevoegd aan:
+* Toegevoegd `thumbAssetHandle` tot:
 
    * `createImageSet`
    * `createAssetSet`
 
-   `companyHandle` toegevoegd aan:
+   Toegevoegd `companyHandle` tot:
 
    * `getViewerConfigSettings`
    * `setViewerConfigSettings`
    * `updateViewerConfigSettings`
    * `getSearchStrings`
 
-   `contextHandle` toegevoegd aan:
+   Toegevoegd `contextHandle` tot:
 
    * `getImageServingPublishSettings`
    * `getImageRenderingPublishSettings`
@@ -63,27 +63,27 @@ Syntaxis
    * `getUsers`.
    * `getUserChars`.
 
-* `permissionArray` toegevoegd aan `createPropertySet`.
+* Toegevoegd `permissionArray` tot `createPropertySet`.
 
-* `exportJob` toegevoegd aan `submitJob`.
+* Toegevoegd `exportJob` tot `submitJob`.
 
 **Gewijzigd**
 
-* In `addUser` en `setUser` is `role` gewijzigd in `defaultRole`.
+* In `addUser` en `setUser`, gewijzigd `role` tot `defaultRole`.
 
-* In `getCompanyMembers` is `userArray` gewijzigd in `memberArray`.
+* In `getCompanyMembers`, gewijzigd `userArray` tot `memberArray`.
 
-* In `getCompanyMembership` is `companyArray` gewijzigd in `membershipArray`.
+* In `getCompanyMembership`, gewijzigd `companyArray` tot `membershipArray`.
 
-* In `addUser`, `setCompanyMembership`, en `addCompanyMembership`, veranderde `membershipArray` in `companyHandleArray`.
+* In `addUser`, `setCompanyMembership`, en `addCompanyMembership`, gewijzigd `membershipArray` tot `companyHandleArray`.
 
-* In `getCompanyMembership` is `companyArray` gewijzigd in `membershipArray`.
+* In `getCompanyMembership`, gewijzigd `companyArray` tot `membershipArray`.
 
-* In `getUserChars` is `includeInvalid` nu optioneel.
+* In `getUserChars`, `includeInvalid` is nu optioneel.
 
 **Verwijderd**
 
-* `renameFiles` verwijderd uit `renameAsset`.
+* Verwijderd `renameFiles` van `renameAsset`.
 
-* `getXMPPanelViewDefinition` verwijderd.
-* `searchAssetsByFulltext` en `searchAssetsBySimilarity` zijn verwijderd.
+* Verwijderd `getXMPPanelViewDefinition`.
+* Verwijderd `searchAssetsByFulltext` en `searchAssetsBySimilarity`.

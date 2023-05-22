@@ -8,7 +8,7 @@ exl-id: c94ac151-3115-42ac-8a76-13b8769293cb
 source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
 source-wordcount: '87'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> always|never|limit</span> </p> </td> 
-   <td colname="col2"> <p> Optimalisatie in-, beperken of uitschakelen voor apparaten waarbij <span class="codeph"> devicePixelRatio</span> groter is dan <span class="codeph"> 1</span>, dat wil zeggen apparaten met high-density display zoals iPhone4 en soortgelijke apparaten. </p> <p>Als actief dan beperkt de component de grootte van het de beeldverzoek van IS alsof het apparaat slechts een pixelverhouding van <span class="codeph"> 1 </span> had en die manier de bandbreedte vermindert. </p> <p>Zie het onderstaande voorbeeld. </p> </td> 
+   <td colname="col2"> <p> Optimalisatie inschakelen, beperken of uitschakelen voor apparaten waarbij <span class="codeph"> devicePixelRatio</span> is groter dan <span class="codeph"> 1</span>, dat zijn apparaten met high-density beeldscherm zoals iPhone4 en gelijkaardige apparaten. </p> <p>Als de component actief is, beperkt de component de grootte van de aanvraag voor de IS-afbeelding alsof het apparaat alleen een pixelverhouding van <span class="codeph"> 1</span> en zo vermindert u de bandbreedte . </p> <p>Zie het onderstaande voorbeeld. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> getal</span></span> </p> </td> 
-   <td colname="col2"> <p> Als u de instelling <span class="codeph"></span> gebruikt, schakelt de component hoge pixeldichtheid alleen in tot de opgegeven limiet. </p> <p>Zie het onderstaande voorbeeld. </p> </td> 
+   <td colname="col2"> <p> Als u de <span class="codeph"> limiet</span> Met deze instelling schakelt u een hoge pixeldichtheid alleen in tot de opgegeven limiet. </p> <p>Zie het onderstaande voorbeeld. </p> </td> 
   </tr> 
  </tbody> 
 </table>

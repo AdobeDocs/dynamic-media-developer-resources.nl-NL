@@ -2,12 +2,12 @@
 description: Deze opdrachten zijn van toepassing op afbeeldings-, tekst- en effen-kleurlagen. Ze zijn over het algemeen ook handig voor samengestelde afbeeldingen en eenvoudige, niet-gelaagde afbeeldingsaanvragen.
 solution: Experience Manager
 title: Gemeenschappelijke operaties
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f30a9653-7aed-4233-8361-18ca6561d420
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---

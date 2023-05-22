@@ -2,12 +2,12 @@
 description: Boldface-vlag. Geeft aan of het lettertypebestand waarnaar wordt verwezen door deze lettertypekaartrecord moet worden gebruikt wanneer hierom wordt gevraagd door de RTF-opdracht vet (\b).
 solution: Experience Manager
 title: Vet
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3a39bb3b-e518-400e-8e24-0ebfb55777c4
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---

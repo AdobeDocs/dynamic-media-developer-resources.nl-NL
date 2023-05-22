@@ -2,12 +2,12 @@
 description: Afbeeldingssetgegevens uit afbeeldingscatalogus. Hiermee worden de gegevens van de afbeeldingsset geretourneerd voor het item van de afbeeldingscatalogus dat is opgegeven in het URL-pad.
 solution: Experience Manager
 title: imageset
-feature: Dynamic Media Classic,SDK/API,Afbeeldingssets
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,User
 exl-id: 730e7db9-47f0-4e96-8948-18b8185a5b7a
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Afbeeldingssetgegevens uit afbeeldingscatalogus. Hiermee worden de gegevens van de afbeeldingsset geretourneerd voor het item van de afbeeldingscatalogus dat is opgegeven in het URL-pad.
 
-`req=imageset[,text|javascript|{xml[, *``*]}|{json[&id= *`encodingreqId`*]}]`
+`req=imageset[,text|javascript|{xml[, *`coderen`*]}|{json[&id= *`reqId`*]}]`
 
 <table id="simpletable_86FF9E59B11D4C408F0D932D46CC2F8E"> 
  <tr class="strow"> 
@@ -29,12 +29,12 @@ Afbeeldingssetgegevens uit afbeeldingscatalogus. Hiermee worden de gegevens van 
  </tr> 
 </table>
 
-De inhoud van `catalog::ImageSet` wordt zonder verdere wijziging geretourneerd (behalve tekenreekslokalisatie, indien van toepassing), gevolgd door één regelafsluiter (CR/LF). Als het URL-pad niet wordt omgezet in een geldig catalogusitem, bestaat het antwoord uit slechts één regeleinde.
+De inhoud van `catalog::ImageSet` wordt geretourneerd zonder verdere wijziging (behalve tekenreekslokalisatie, indien van toepassing), gevolgd door één regelafsluiter (CR/LF). Als het URL-pad niet wordt omgezet in een geldig catalogusitem, bestaat het antwoord uit slechts één regeleinde.
 
-Andere opdrachten in de tekenreeks request worden genegeerd. De reactie van HTTP is cacheable met TTL die op `catalog::NonImgExpiration` wordt gebaseerd.
+Andere opdrachten in de tekenreeks request worden genegeerd. De HTTP-respons is cacheable met de TTL op basis van `catalog::NonImgExpiration`.
 
 Verzoeken die JSONP reactieformaat steunen laten u de naam van de callback manager specificeren JS gebruikend de uitgebreide syntaxis van `req=` parameter:
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` is de naam van de manager JS die in de reactie JSONP aanwezig is. Alleen a-z, A-Z en 0-9 tekens zijn toegestaan. Optioneel. De standaardwaarde is `s7jsonResponse`.
+`<reqHandler>` is de naam van de manager JS die in de reactie JSONP aanwezig is. Alleen a-z, A-Z en 0-9 tekens zijn toegestaan. Optioneel. Standaard is `s7jsonResponse`.

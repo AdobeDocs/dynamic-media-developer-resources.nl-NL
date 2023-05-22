@@ -35,27 +35,27 @@ De vormgeving van knopinfo wordt bepaald door de volgende CSS-klassenkiezer:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
    <td colname="col2"> <p> Straal achtergrondrand. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-color </span> </p> </td> 
    <td colname="col2"> <p> Achtergrondrandkleur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Achtergrondkleur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> kleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kleur </span> </p> </td> 
    <td colname="col2"> <p>Tekstkleur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Naam tekstlettertype. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekengrootte  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekengrootte </span> </p> </td> 
    <td colname="col2"> <p>Tekengrootte tekst. </p> </td> 
   </tr> 
  </tbody> 
@@ -63,7 +63,7 @@ De vormgeving van knopinfo wordt bepaald door de volgende CSS-klassenkiezer:
 
 >[!NOTE]
 >
->Als knopinfo-stijlen worden aangepast vanuit de ingesloten webpagina, moeten alle eigenschappen de `!IMPORTANT`-regel bevatten. Deze stap is niet nodig als knopinfo wordt aangepast in het CSS-bestand van de viewer.
+>Als knopinfo-stijlen worden aangepast vanuit de ingesloten webpagina, moeten alle eigenschappen `!IMPORTANT` regel. Deze stap is niet nodig als knopinfo wordt aangepast in het CSS-bestand van de viewer.
 
 Voorbeeld - voor het instellen van knopinfo met een grijze rand met een hoekstraal van 3 pixels, een zwarte achtergrond en witte tekst in Arial®, grootte van 11 pixels:
 

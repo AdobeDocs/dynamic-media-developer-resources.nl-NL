@@ -2,12 +2,12 @@
 description: Validatie aanvragen.
 solution: Experience Manager
 title: validate
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 88424371-45a0-43bb-af49-2e8568b7b44c
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Validatie aanvragen.
  </tr> 
 </table>
 
-Parseert de aanvraagtekenreeks alsof `req=img` is opgegeven, maar zonder variabelen te vervangen en objecten waarnaar wordt verwezen (afbeeldingen, ICC-profielen, lettertypen, enzovoort) te evalueren. De standaardfoutreactie wordt geretourneerd als parseren mislukt, anders wordt de volgende eigenschap geretourneerd:
+Parseert de verzoektekenreeks alsof `req=img` zijn opgegeven, maar zonder variabelen te vervangen en objecten waarnaar wordt verwezen (afbeeldingen, ICC-profielen, lettertypen, enzovoort) te evalueren. De standaardfoutreactie wordt geretourneerd als parseren mislukt, anders wordt de volgende eigenschap geretourneerd:
 
 `request.isValid=1`
 
@@ -35,4 +35,4 @@ Verzoeken die JSONP reactieformaat steunen laten u de naam van de callback manag
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` is de naam van de manager JS die in de reactie JSONP aanwezig is. Alleen a-z, A-Z en 0-9 tekens zijn toegestaan. Optioneel. De standaardwaarde is `s7jsonResponse`.
+`<reqHandler>` is de naam van de manager JS die in de reactie JSONP aanwezig is. Alleen a-z, A-Z en 0-9 tekens zijn toegestaan. Optioneel. Standaard is `s7jsonResponse`.

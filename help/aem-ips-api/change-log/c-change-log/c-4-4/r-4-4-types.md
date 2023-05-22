@@ -2,12 +2,12 @@
 description: Beschrijft nieuwe en veranderde gegevenstypes voor IPS API versie 4.4.
 solution: Experience Manager
 title: Nieuwe en gewijzigde gegevenstypen
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d8800b15-b9a3-4497-8b6b-fd318458ab5a
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '51'
+source-wordcount: '46'
 ht-degree: 0%
 
 ---

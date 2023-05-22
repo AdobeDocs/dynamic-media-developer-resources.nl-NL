@@ -2,12 +2,12 @@
 description: Pas de helderheid aan. Hiermee verkleint of vermeerdert u de helderheid van de afbeelding.
 solution: Experience Manager
 title: op_brightness
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 390ed812-87ae-41e7-8021-65dd95915ae8
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Pas de helderheid aan. Hiermee verkleint of vermeerdert u de helderheid van de a
 
 ## Eigenschappen {#section-c7e757f63b2c4b5ebaacbadb51c72ce4}
 
-Laag, opdracht. Wordt toegepast op de huidige laag of op de samengestelde afbeelding als `layer=comp`. Genegeerd door effectlagen. CMYK-afbeeldingen of -lagen worden omgezet in RGB voordat de bewerking wordt toegepast.
+Laag, opdracht. Is van toepassing op de huidige laag of op de samengestelde afbeelding als `layer=comp`. Genegeerd door effectlagen. CMYK-afbeeldingen of -lagen worden omgezet in RGB voordat de bewerking wordt toegepast.
 
 ## Standaard {#section-be56be0759634c79b4f264f194a94dbc}
 

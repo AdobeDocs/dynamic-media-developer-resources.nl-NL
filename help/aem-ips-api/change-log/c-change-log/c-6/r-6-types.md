@@ -2,12 +2,12 @@
 description: Beschrijft nieuwe en veranderde types voor IPS API versie 6.
 solution: Experience Manager
 title: Nieuwe en gewijzigde gegevenstypen
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d3bcd718-cf27-4d31-850f-a3205564be60
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '69'
 ht-degree: 0%
 
 ---
@@ -40,19 +40,19 @@ Syntaxis
 
 **Toegevoegd**
 
-* `numUrls` toegevoegd aan `UploadUrlsJob`.
+* Toegevoegd `numUrls` tot `UploadUrlsJob`.
 
-* `fileName` toegevoegd aan `Asset.`
+* Toegevoegd `fileName` tot `Asset.`
 
-* `isHidden` toegevoegd aan `MetadataField`.
+* Toegevoegd `isHidden` tot `MetadataField`.
 
-* `taskState` toegevoegd aan `TaskProgress`.
+* Toegevoegd `taskState` tot `TaskProgress`.
 
-* `exportJob` toegevoegd aan `ActiveJob` en `ScheduledJob`.
+* Toegevoegd `exportJob` tot `ActiveJob` en `ScheduledJob`.
 
-* `optmizedPath` en `optimizedFile` toegevoegd aan `PsdInfo`.
+* Toegevoegd `optmizedPath` en `optimizedFile` tot `PsdInfo`.
 
-* `contextHandle` toegevoegd aan:
+* Toegevoegd `contextHandle` tot:
 
    * `ImageRenderingPublishJob`
    * `VideoPublishJob`
@@ -66,8 +66,8 @@ Syntaxis
 
 **Gewijzigd**
 
-* In `User` is `role` gewijzigd in `defaultRole`.
+* In `User`, gewijzigd `role` tot `defaultRole`.
 
-* In `Folder` is `permissions` gewijzigd in `permissionsSetHandle`.
+* In `Folder`, gewijzigd `permissions` tot `permissionsSetHandle`.
 
-* In `AssetSummary` zijn `type` en `name` nu optioneel.
+* In `AssetSummary`, `type` en `name` zijn nu optioneel.

@@ -2,12 +2,12 @@
 description: De kleurbalans aanpassen. Hiermee wordt de waarde van elke RGB-kleurcomponent afzonderlijk aangepast.
 solution: Experience Manager
 title: op_kleurbalans
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 93476778-97b0-4ad5-b22a-093239e845f0
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 De kleurbalans aanpassen. Hiermee wordt de waarde van elke RGB-kleurcomponent afzonderlijk aangepast.
 
-`op_colorbalance= *``*, *``*, *`redAdjgreenAdjblueAdj`*`
+`op_colorbalance= *`redAdj`*, *`greenAdj`*, *`blueAdj`*`
 
 <table id="simpletable_BBDAA6FE9A0E48E3BD8304BDED776713"> 
  <tr class="strow"> 
@@ -33,11 +33,11 @@ De kleurbalans aanpassen. Hiermee wordt de waarde van elke RGB-kleurcomponent af
  </tr> 
 </table>
 
-Grijs- en CMYK-invoerafbeeldingsgegevens worden omgezet in RGB met behulp van native conversie. Dit is niet nauwkeurig wanneer kleurbeheer is ingeschakeld.
+Grijs- en CMYK-invoerafbeeldingsgegevens worden naar RGB geconverteerd met behulp van native conversie. Dit is niet correct als kleurbeheer is ingeschakeld.
 
 ## Eigenschappen {#section-dff9c934f7c1442bbd02379b688d82e2}
 
-Laag, opdracht. Wordt toegepast op de huidige laag of op de samengestelde afbeelding als `layer=comp`. Genegeerd door effectlagen. CMYK-afbeeldingen en -lagen worden omgezet in RGB voordat de bewerking wordt toegepast.
+Laag, opdracht. Is van toepassing op de huidige laag of op de samengestelde afbeelding als `layer=comp`. Genegeerd door effectlagen. CMYK-afbeeldingen en -lagen worden omgezet in RGB voordat de bewerking wordt toegepast.
 
 ## Standaard {#section-08d84ef715964f7daea86f5ef237d199}
 

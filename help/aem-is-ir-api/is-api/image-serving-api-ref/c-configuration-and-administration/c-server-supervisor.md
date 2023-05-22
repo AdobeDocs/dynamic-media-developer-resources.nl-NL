@@ -2,12 +2,12 @@
 description: Beeld dat componenten serveert wordt beheerd door de Supervisor van de Server, die een Linux daemon of Dienst van Vensters (S7Supervisor.exe is, die als "Beeld van Dynamic Media Servend"in het Controlebord van de Diensten wordt vermeld).
 solution: Experience Manager
 title: Servertoezichthouder
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 83b6a63f-6bb8-4a14-b8d5-389d23fae57c
 source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Naast het beginnen en het tegenhouden van andere Beeld die componenten dienen, i
 
 ## Starten en stoppen {#section-061d28d74e034a30adc39ea3e2031cd0}
 
-De Supervisor van de Server is begonnen, tegengehouden, en opnieuw begonnen met het Beeld dat hulpprogrammascript van het nut dienen. Raadpleeg de [documentatie bij Hulpprogramma&#39;s](../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f) voor meer informatie.
+De Supervisor van de Server is begonnen, tegengehouden, en opnieuw begonnen met het Beeld dat hulpprogrammascript van het nut dienen. Zie de [Documentatie over hulpprogramma&#39;s](../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f) voor meer informatie .
 
 Het beginnen en het tegenhouden van de Supervisor van de Server begint automatisch en houdt alle andere Beeld dat componenten dienen tegen.
 

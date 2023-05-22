@@ -18,17 +18,17 @@ JavaScript API-referentie voor Interactive Video Viewer.
 
 ` setContainerId( *`containerId`*)`
 
-Hiermee stelt u de id in van de DOM-container (normaal gesproken een DIV) waarin de viewer wordt ingevoegd. Het is niet nodig om het containerelement te hebben dat tegen de tijd wordt gecreeerd deze methode wordt geroepen. De container moet echter bestaan wanneer `init()` wordt uitgevoerd. Het moet vóór `init()` worden geroepen.
+Hiermee stelt u de id in van de DOM-container (normaal gesproken een DIV) waarin de viewer wordt ingevoegd. Het is niet nodig om het containerelement te hebben dat tegen de tijd wordt gecreeerd deze methode wordt geroepen. De container moet echter bestaan wanneer `init()` wordt uitgevoerd. Het moet eerder worden opgeroepen `init()`.
 
-Deze methode is optioneel als de configuratiegegevens van de viewer samen met het JSON-object `config` aan de constructor worden doorgegeven.
+Deze methode is optioneel als de configuratiegegevens van de viewer samen met de `config` JSON-object naar de constructor.
 
 ## Parameter {#section-fa807db629ce43bab286b1e1dc96c492}
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}  </span> ID van container. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> ID van container. </p> </td> 
   </tr> 
  </tbody> 
 </table>

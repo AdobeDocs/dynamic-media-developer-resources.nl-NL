@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # JavaScript API-referentie voor Video360 Viewer{#javascript-api-reference-for-video-viewer}
 
-De hoofdklasse van Video360Viewer is `Video360Viewer`. Deze wordt gedeclareerd in de naamruimte s7viewers. Deze JavaScript API behandelt constructor, methoden en callbacks van deze specifieke klasse.
+De hoofdklasse van de Video360Viewer is `Video360Viewer`. Deze wordt gedeclareerd in de naamruimte s7viewers. Deze JavaScript API behandelt constructor, methoden en callbacks van deze specifieke klasse.
 
-In alle volgende voorbeelden staat `<instance>` voor de werkelijke naam van het JavaScript-viewerobject dat is geïnstantieerd vanuit de klasse `s7viewers.Video360Viewer`.
+In alle volgende voorbeelden: `<instance>` staat voor de werkelijke naam van het JavaScript-viewerobject dat is geïnstantieerd via het `s7viewers.Video360Viewer` klasse.

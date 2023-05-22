@@ -8,7 +8,7 @@ exl-id: 84deb0d4-ac7e-4ba0-884f-675a0dcc827b
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '56'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
 
@@ -21,8 +21,8 @@ Configuration attribute for Interactive Video Viewer.
 <table id="table_2A4F898BBF88417DB0834B7F78637F5D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
-   <td colname="col2"> <p> Hiermee stelt u de modus Gedempt in voor het afspelen van video bij het eerste laden. Indien ingesteld op <span class="codeph"> 1 </span> wordt het volume gedempt; anders wordt de video afgespeeld met geluid. Op bepaalde apparaten kan de video automatisch worden afgespeeld wanneer de video tijdens het laden wordt gedempt. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> Hiermee stelt u de modus Gedempt in voor het afspelen van video bij het eerste laden. Indien ingesteld op <span class="codeph"> 1 </span> het volume wordt gedempt; anders wordt de video afgespeeld met geluid. Op bepaalde apparaten kan de video automatisch worden afgespeeld wanneer de video tijdens het laden wordt gedempt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -35,23 +35,23 @@ De volgende CSS-klassenkiezer bepaalt de locatie en richting van het interactiev
    <td colname="col2"> <p>Breedte van het interactieve deelvenster Stalen </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van het interactieve deelvenster Stalen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Bovenste positie van het interactieve deelvenster Stalen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
    <td colname="col2"> <p>De onderste positie van het interactieve deelvenster Stalen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
    <td colname="col2"> <p>Linkerpositie van het interactieve deelvenster Stalen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
    <td colname="col2"> <p>De rechterpositie van het interactieve deelvenster Stalen. </p> </td> 
   </tr> 
  </tbody> 
@@ -103,37 +103,37 @@ De volgende CSS-klassenkiezer bepaalt de vormgeving van het bannerpaneel:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Achtergrondkleur van het bannerpaneel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> kleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kleur </span> </p> </td> 
    <td colname="col2"> <p>Tekstkleur in het bannerpaneel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Rand rond het bannerpaneel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p>De tekendikte die voor de tekst in het bannerpaneel moet worden gebruikt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekengrootte  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekengrootte </span> </p> </td> 
    <td colname="col2"> <p>De tekengrootte die voor de tekst in het bannerpaneel moet worden gebruikt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>De lettertypefamilie die voor de tekst in het bannerpaneel moet worden gebruikt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-align  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-align </span> </p> </td> 
    <td colname="col2"> <p>De lettertypeuitlijning die moet worden gebruikt voor de tekst in het bannerpaneel. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-De knopinfo voor de banner kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie.
+De knopinfo voor de banner kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie .
 
 ## Voorbeeld {#section-e8caea0a303c425a8a637c2a47c06355}
 
@@ -159,7 +159,7 @@ De volgende CSS-klassenkiezer bepaalt de weergave van de stalen:
 <table id="table_45E98E96B07246CAA5D3076FAF62A0B3"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Achtergrondkleur van het gebied Stalen. </p> </td> 
   </tr> 
  </tbody> 
@@ -184,8 +184,8 @@ De volgende CSS-klassenkiezer bepaalt de afstand tussen staalminiaturen:
 <table id="table_FE6A749EA3894956998D50EA4AB6497B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge  </span> </p> </td> 
-   <td colname="col2"> <p> De grootte van de horizontale en verticale marge rond elke miniatuur. De werkelijke miniatuurspatiëring is gelijk aan de som van de linker- en rechtermarge die is ingesteld voor <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge </span> </p> </td> 
+   <td colname="col2"> <p> De grootte van de horizontale en verticale marge rond elke miniatuur. De werkelijke miniatuurafstand is gelijk aan de som van de linker- en rechtermarge die is ingesteld voor <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -209,15 +209,15 @@ De volgende CSS-klassenkiezer bepaalt de weergave van afzonderlijke miniaturen:
 <table id="table_FB760FE6BEA44E129C07DD912C86DE57"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Breedte van de miniatuur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van de miniatuur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Rand van de miniatuur. </p> </td> 
   </tr> 
  </tbody> 
@@ -225,7 +225,7 @@ De volgende CSS-klassenkiezer bepaalt de weergave van afzonderlijke miniaturen:
 
 >[!NOTE]
 >
->Miniatuur ondersteunt de kenmerkenkiezer `state`, die u kunt gebruiken om verschillende skins toe te passen op verschillende miniatuurtoestanden. Met name `state="selected"` komt overeen met de miniatuur van de geselecteerde afbeelding; `state="default"` komt overeen met de overige miniaturen; `state="over"` wordt gebruikt bij de muisaanwijzer.
+>De miniatuur ondersteunt de `state` kenmerkenkiezer, die u kunt gebruiken om verschillende skins toe te passen op verschillende miniatuurtoestanden. Met name: `state="selected"` komt overeen met de miniatuur van de geselecteerde afbeelding; `state="default"` komt overeen met de overige miniaturen; `state="over"` wordt gebruikt bij muisaanwijzer.
 
 ## Voorbeeld {#section-69fec189ffaa440b97b6b846c320b75b}
 
@@ -247,19 +247,19 @@ De volgende CSS-klassenkiezer bepaalt de vormgeving van het miniatuurlabel:
 <table id="table_81B3209FB8124FFA9DB81FD35717900D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> kleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kleur </span> </p> </td> 
    <td colname="col2"> <p>Tekstkleur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Rand Label. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> text-align  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
    <td colname="col2"> <p>Horizontale tekstuitlijning. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Fontnaam. </p> </td> 
   </tr> 
  </tbody> 
@@ -285,26 +285,26 @@ Met de volgende CSS-klassenkiezer bepaalt u de vormgeving van de schuifknoppen O
 
 `.s7interactivevideoviewer .s7interactiveswatches .s7scrolldownbutton`
 
-Het is niet mogelijk om de rolknopen te plaatsen gebruikend CSS `top`, `left`, `bottom`, en `right` eigenschappen; in plaats daarvan worden ze automatisch door de viewerlogica geplaatst.
+Het is niet mogelijk om de schuifknoppen met CSS te positioneren `top`, `left`, `bottom`, en `right` eigenschappen; in plaats daarvan worden ze automatisch door de viewerlogica geplaatst.
 
 ## CSS-eigenschappen van de weergave van de schuifknoppen Omhoog en Omlaag {#css-properties-of-the-appearance-of-the-up-and-down-scroll-buttons}
 
 <table id="table_48AF27AFBB1543288D45449D6900675C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Breedte van de schuifknop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van de schuifknop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
    <td colname="col2"> <p>De afbeelding die voor een bepaalde knopstatus wordt weergegeven. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p>De positie binnen de sprite van de illustratie, als CSS-sprites worden gebruikt. </p> <p>Zie ook <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -312,9 +312,9 @@ Het is niet mogelijk om de rolknopen te plaatsen gebruikend CSS `top`, `left`, `
 
 >[!NOTE]
 >
->Deze knoop steunt `state` attributenselecteur, die u kunt gebruiken om verschillende huiden op de knoopstaten toe te passen: &quot; `up`&quot;, &quot; `down`&quot;, &quot; `over`&quot; en &quot; `disabled`&quot;.
+>Deze knop ondersteunt de `state` kenmerkenkiezer, die u kunt gebruiken om verschillende skins toe te passen op de knopstaten: &quot; `up`&quot;, &quot; `down`&quot;, &quot; `over`&quot;, en &quot; `disabled`&quot;.
 
-De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie.
+De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie .
 
 ## Voorbeeld {#section-e6ce4fa084b84288bc7583342b2c510c}
 

@@ -2,12 +2,12 @@
 description: Foutbericht met details. Geeft het detailniveau voor foutberichten op die via HTTP worden geretourneerd als de error.message-waarde.
 solution: Experience Manager
 title: ErrorDetail
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 08a363d0-918d-48e9-aef0-5a8554c2708a
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '157'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ De volgende waarden zijn toegestaan:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>Volledige foutopsporingsinformatie. Voegt Java-stacktraceringen toe, indien van toepassing. Foutafbeeldingen bevatten nooit stacktraces en retourneren in plaats daarvan niveau 2-informatie in <span class="codeph"> $error.message</span>. Deze informatie kan nuttig zijn bij het melden van problemen aan technische ondersteuning van Dynamic Media. </p></td> 
+  <td class="stentry"> <p>Volledige foutopsporingsinformatie. Voegt Java-stacktraceringen toe, indien van toepassing. Foutafbeeldingen bevatten nooit stapelsporen en retourneren in plaats daarvan niveau 2-informatie in <span class="codeph"> $error.message</span>. Deze informatie kan nuttig zijn bij het melden van problemen aan technische ondersteuning van Dynamic Media. </p></td> 
  </tr> 
 </table>
 

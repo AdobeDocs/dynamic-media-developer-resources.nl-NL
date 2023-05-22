@@ -2,37 +2,37 @@
 description: De RTF-specificatie staat RGB-kleurwaarden toe die zijn opgegeven met &bsol;colortbl. Elke component wordt afzonderlijk voorzien van de &bsol;rood, &bsol;groen, en &bsol;blauw bevelen.
 solution: Experience Manager
 title: Kleurverwerking
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 590ed0f1-8d78-4afc-ac9e-c28272cd24a6
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
 
 # Kleurverwerking{#color-handling}
 
-De RTF-specificatie staat RGB-kleurwaarden toe die zijn opgegeven met `\colortbl`. Elke component wordt afzonderlijk geleverd met de opdrachten `\red`, `\green` en `\blue`.
+De RTF-specificatie staat RGB-kleurwaarden toe die zijn opgegeven met `\colortbl`. Elke component wordt afzonderlijk geleverd bij de `\red`, `\green`, en `\blue` opdrachten.
 
-Met de eigen RTF-extensieopdracht `\cmykcolortbl` kunt u CMYK-kleuren opgeven, waarbij elke kleurcomponent wordt geleverd met de opdrachten `\cyan`, `\magenta`, `\yellow` en `\black`.
+De RTF-extensie-opdracht `\cmykcolortbl` staat het specificeren van CMYK kleuren met elke kleurencomponent toe die met wordt voorzien `\cyan`, `\magenta`, `\yellow`, en `\black` opdrachten.
 
-De kleurcomponentwaarden voor `\colortbl` liggen in het bereik 0 tot en met 255. Componentwaarden voor `\cmykcolortbl` liggen tussen 0 en 100.
+Waarden van kleurcomponenten voor `\colortbl` liggen in het bereik 0-255. Componentwaarden voor `\cmykcolortbl` liggen in het bereik 0 tot en met 100.
 
-Met de RTF-extensieopdracht `\*\iscolortbl`, ondersteund door `textPs=`, kunt u een kleurentabel opgeven met standaardwaarden voor de kleurserver voor afbeeldingen met volledige RGB-, grijs-, CMYK- en alpha-ondersteuning. Deze heeft de volgende syntaxis:
+De opdracht RTF-extensie `\*\iscolortbl`, ondersteund door `textPs=`, biedt een manier om een kleurentabel op te geven met standaardwaarden voor afbeeldingsservers, met volledige RGB-, grijs-, CMYK- en alpha-ondersteuning. Deze heeft de volgende syntaxis:
 
 ` {\&#42;\iscolortbl; *[!DNL colors]*;}`
 
 *[!DNL colors]* een of meer IS-kleurwaarden, gescheiden door &#39;;&#39;
 
-Er kunnen meer dan één type kleurentabel worden opgegeven in dezelfde RTF-tekenreeks `text=` of `textPs=`. Elke kleurentabel kan een ander aantal items hebben. Met Image Serving wordt geprobeerd kleuren in deze volgorde te zoeken: `\iscolortbl` voor `\cmykcolortbl` (alleen als het pixeltype van de tekstlaag CMYK is) vóór `\colortbl`. Alleen voor `textPs=` worden kleuren nauwkeurig omgezet tussen CMYK en RGB, indien dat nodig is (bijvoorbeeld wanneer RGB-kleuren zijn opgegeven maar CMYK-uitvoer is vereist). Als er geen kleur voor een bepaalde indexwaarde wordt gevonden, wordt de standaardkleur (zwart) gebruikt.
+Er kunnen meerdere typen kleurentabel worden opgegeven in hetzelfde `text=` of `textPs=` RTF-tekenreeks. Elke kleurentabel kan een ander aantal items hebben. Met Image Serving wordt geprobeerd kleuren in deze volgorde te zoeken: `\iscolortbl` voor `\cmykcolortbl` (alleen als het pixeltype van de tekstlaag CMYK is) voor `\colortbl`. Voor `textPs=` alleen, worden kleuren nauwkeurig omgezet tussen CMYK en RGB, als dat nodig is (bijvoorbeeld wanneer RGB-kleuren zijn opgegeven maar CMYK-uitvoer is vereist). Als er geen kleur voor een bepaalde indexwaarde wordt gevonden, wordt de standaardkleur (zwart) gebruikt.
 
-Raadpleeg [color](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) voor een beschrijving van de syntaxis van IS-kleurwaarden.
+Zie [kleur](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) voor een beschrijving van de syntaxis van IS-kleurwaarden.
 
 ## Beperkingen {#section-c5173e672d854e4aa9656844f7fc4d0e}
 
-`text=` biedt geen ondersteuning  `\*\iscolortbl`. `textPs=` biedt geen ondersteuning  `\cmykcolortbl`.
+`text=` ondersteunt niet `\*\iscolortbl`. `textPs=` ondersteunt niet `\cmykcolortbl`.
 
 Kleurselecties worden genegeerd bij het renderen van fotolettertypen.
 

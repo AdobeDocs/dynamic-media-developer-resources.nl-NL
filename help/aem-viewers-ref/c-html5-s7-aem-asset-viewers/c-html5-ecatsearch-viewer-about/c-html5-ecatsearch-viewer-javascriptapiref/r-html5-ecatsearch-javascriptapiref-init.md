@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 4d71062c-fee7-4339-bd7f-1b7f778465c4
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ JavaScript API-referentie voor eCatalog Viewer.
 
 Start de initialisatie van de eCatalog Viewer. Tegen deze tijd moet het DOM-element van de container worden gemaakt, zodat de viewercode het met zijn id kan vinden.
 
-Als het containerelement nog geen deel uitmaakt van de webpaginalay-out (het kan bijvoorbeeld worden verborgen met de eraan toegewezen stijl [!DNL `display:none`]), onderbreekt de viewer het initialisatieproces totdat de webpagina het containerelement weer in de layout plaatst. Wanneer dit gebeurt, wordt het laden van de viewer automatisch hervat.
+Als het containerelement nog geen deel uitmaakt van de webpaginalay-out (bijvoorbeeld [!DNL `display:none`] stijl eraan is toegewezen), onderbreekt de viewer het initialisatieproces totdat de webpagina het containerelement weer in de layout plaatst. Wanneer dit gebeurt, wordt het laden van de viewer automatisch hervat.
 
 Roep deze methode slechts eenmaal aan tijdens de levenscyclus van de viewer; volgende aanroepen worden genegeerd.
 

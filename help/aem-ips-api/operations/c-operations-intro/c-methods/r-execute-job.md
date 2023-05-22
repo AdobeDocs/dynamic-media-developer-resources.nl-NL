@@ -2,12 +2,12 @@
 description: Hiermee wordt een specifieke taak uitgevoerd.
 solution: Experience Manager
 title: executeJob
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 4b2a2a14-d785-43bd-b1fc-2812d9f21964
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '76'
 ht-degree: 0%
 
 ---

@@ -2,12 +2,12 @@
 description: Stel XML in voor of na een knooppunt.
 solution: Experience Manager
 title: insertBefore,insertAfter
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 20d27fa7-e98a-4f85-9e48-5fa9ad3102b7
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '53'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Stel XML in voor of na een knooppunt.
 
 `insertBefore=<xml>, insertAfter=<xml>`
 
-Als een FXG knoopelement `s7:elementID` bepaald heeft, kunnen wij de fragmenten van XML vóór of na die knoop met dit bevel toevoegen.
+Als een FXG-knoopelement een `s7:elementID` gedefinieerd, kunnen wij de fragmenten van XML vóór of na die knoop met dit bevel toevoegen.
 
 ## Voorbeeld {#section-1fc8d4135ef94b60b838391e1568e70e}
 

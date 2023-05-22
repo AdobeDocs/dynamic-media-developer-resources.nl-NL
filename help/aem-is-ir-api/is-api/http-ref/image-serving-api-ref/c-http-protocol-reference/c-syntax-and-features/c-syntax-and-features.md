@@ -2,12 +2,12 @@
 description: De onderwerpen in deze sectie beschrijven de syntaxis en de eigenschappen van de protocollen van HTTP.
 solution: Experience Manager
 title: Syntaxis en kenmerken
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 44981754-017b-4293-9d44-7611b7a470c4
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 De onderwerpen in deze sectie beschrijven de syntaxis en de eigenschappen van de protocollen van HTTP.
 
 * [Basissyntaxis van HTTP-protocol voor afbeeldingen](r-basic-syntax.md)
-* [Beeld dat HTTP-protocol serveert, opdracht   overzicht](c-command-overview/c-command-overview.md)
+* [Overzicht van de opdracht HTTP-protocol voor Image Serving](c-command-overview/c-command-overview.md)
 * [Overzicht van lagen](c-layering-overview/c-layering-overview.md)
 * [Laagbewerkingen](c-layering-overview/c-layer-operations.md)
 * [Laageffecten](r-layer-effects.md)

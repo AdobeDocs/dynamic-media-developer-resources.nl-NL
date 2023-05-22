@@ -2,12 +2,12 @@
 description: Conversie browserindeling. Hiermee wordt aangegeven of de conversiefunctionaliteit van de browserindeling is in- of uitgeschakeld.
 solution: Experience Manager
 title: Bfc
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 407d36ae-ea45-4580-9ca2-16d073d1edad
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '54'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,8 @@ Conversie browserindeling. Hiermee wordt aangegeven of de conversiefunctionalite
 
 <table id="simpletable_998CF426296945FEA48D19E33B71A17E"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> true|false  </span> </p> </td> 
-  <td class="stentry"> <p>Hiermee geeft u aan of de conversie van JPEG- of PNG-afbeeldingen naar kleinere browserspecifieke bestandsindelingen is ingeschakeld ( <span class="codeph"> true </span>) of uitgeschakeld ( <span class="codeph"> false </span>). </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> true|false </span> </p> </td> 
+  <td class="stentry"> <p>Hiermee wordt opgegeven of conversie van JPEG- of PNG-afbeeldingen naar kleinere browserspecifieke bestandsindelingen ingeschakeld is ( <span class="codeph"> true </span>) of uit ( <span class="codeph"> false </span>). </p> </td> 
  </tr> 
 </table>
 

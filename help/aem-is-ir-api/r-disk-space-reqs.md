@@ -1,5 +1,5 @@
 ---
-description: 'Naast de ruimte die nodig is om de software te installeren, heeft Image Serving de volgende vereisten voor schijfruimte '
+description: Naast de ruimte die nodig is om de software te installeren, heeft Image Serving de volgende vereisten voor schijfruimte
 solution: Experience Manager
 title: Vereisten en aanbevelingen voor schijfruimte
 feature: Dynamic Media Classic,SDK/API

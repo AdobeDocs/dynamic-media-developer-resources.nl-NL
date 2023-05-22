@@ -35,7 +35,7 @@ De vormgeving van het weergavegebied wordt bepaald door de volgende CSS-klassenk
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Achtergrondkleur in hexadecimale notatie van de hoofdweergave. </p> </td> 
   </tr> 
  </tbody> 

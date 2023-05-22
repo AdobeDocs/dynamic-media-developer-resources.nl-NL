@@ -35,7 +35,7 @@ De vormgeving van de setindicatorcontainer wordt beheerd met de volgende CSS-kla
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>De achtergrondkleur in hexadecimale notatie van de setindicator. </p> </td> 
   </tr> 
  </tbody> 
@@ -43,7 +43,7 @@ De vormgeving van de setindicatorcontainer wordt beheerd met de volgende CSS-kla
 
 >[!NOTE]
 >
->De indicator Set ondersteunt de selector van het moduskenmerk, waarmee u verschillende stijlen kunt toepassen voor de modi dotted en Numeric. Met name `mode="numeric"` komt overeen met de numerieke bewerkingsmodus; `mode="dotted"` komt overeen met de standaardpuntstatus.
+>De indicator Set ondersteunt de selector van het moduskenmerk, waarmee u verschillende stijlen kunt toepassen voor de modi dotted en Numeric. Met name: `mode="numeric"` komt overeen met de numerieke bedrijfsmodus; `mode="dotted"` komt overeen met de standaardpuntstatus.
 
 Stel dat u een setindicator met een witte achtergrond wilt instellen:
 
@@ -70,51 +70,51 @@ De vormgeving van een individuele set-indicator punt wordt bepaald door de CSS-k
    <td colname="col2"> <p>Breedte van punt van indicator instellen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van punt van de ingestelde indicator. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
    <td colname="col2"> <p>Linkermarge in pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
    <td colname="col2"> <p>Bovenmarge in pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge-rechts  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge-rechts </span> </p> </td> 
    <td colname="col2"> <p>Rechtermarge in pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-bottom </span> </p> </td> 
    <td colname="col2"> <p>Ondermarge in pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
    <td colname="col2"> <p>Randstraal in pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Achtergrondkleur in hexadecimale notatie. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Naam van lettertype. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tekengrootte  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tekengrootte </span> </p> </td> 
    <td colname="col2"> <p>Grootte van lettertype. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> kleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> kleur </span> </p> </td> 
    <td colname="col2"> <p>Kleur van lettertype. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vertical-align  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> vertical-align </span> </p> </td> 
    <td colname="col2"> <p>Verticale uitlijning van de bannerindex. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> regelhoogte  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> regelhoogte </span> </p> </td> 
    <td colname="col2"> <p>Teksthoogte voor de bannerindex. </p> </td> 
   </tr> 
  </tbody> 
@@ -122,7 +122,7 @@ De vormgeving van een individuele set-indicator punt wordt bepaald door de CSS-k
 
 >[!NOTE]
 >
->De vastgestelde indicatorpunten steunen `state` attributenselecteur, die kan worden gebruikt om verschillende huiden op verschillende duimnagelstaten toe te passen. Met name `state="selected"` komt overeen met het huidige element in de set; `state="unselected"` komt overeen met de status van het standaarditem.
+>Indicatie-items instellen ondersteunt de `state` kenmerkenkiezer, die kan worden gebruikt om verschillende skins toe te passen op verschillende miniatuurtoestanden. Met name: `state="selected"` overeenstemt met het huidige element in de reeks; `state="unselected"` komt overeen met de status van het standaarditem.
 
 Stel dat u een instellingsindicator wilt instellen in de stippelmodus voor desktopsystemen. U wilt dat het 20 pixels van de onderkant van de viewer verwijderd is. En niet-geselecteerde stippen moeten zwart zijn met 50% transparantie en 15 x 15 pixels met 7 pixels afgeronde hoeken. Geselecteerde stippen zijn zwart met 90% transparantie, 18 x 18 pixels met negen pixels afgeronde hoeken. De ruimte tussen stippen is vijf pixels.
 

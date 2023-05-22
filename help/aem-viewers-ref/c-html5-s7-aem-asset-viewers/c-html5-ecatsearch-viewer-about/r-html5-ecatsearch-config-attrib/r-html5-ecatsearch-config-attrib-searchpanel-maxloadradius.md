@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: c2bbcb99-eeef-4793-a132-d0bd1fefb534
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 1%
+source-wordcount: '53'
+ht-degree: 0%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 1%
 <table id="table_985ADD6C9BD04C629A84C9C625CCCFEB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>Geeft het gedrag voor het vooraf laden van de component op. </p> <p>Wanneer ingesteld op <span class="codeph"> -1</span> worden alle miniaturen tegelijkertijd geladen wanneer de component wordt geïnitialiseerd of het element wordt gewijzigd. </p> <p> Wanneer ingesteld op <span class="codeph"> 0</span> worden alleen zichtbare miniaturen geladen. </p> <p>Stel <span class="codeph"><span class="varname"> voorlader</span></span> in om te bepalen hoeveel onzichtbare rijen rondom het zichtbare gebied worden voorgeladen. </p> </td> 
+   <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> voorlader</span></span> </p> </td> 
+   <td colname="col2"> <p>Geeft het gedrag voor het vooraf laden van de component op. </p> <p>Wanneer ingesteld op <span class="codeph"> -1</span> alle miniaturen worden tegelijk geladen wanneer de component wordt geïnitialiseerd of wanneer het element wordt gewijzigd. </p> <p> Wanneer ingesteld op <span class="codeph"> 0</span> alleen zichtbare miniaturen worden geladen. </p> <p>Set <span class="codeph"><span class="varname"> voorlader</span></span> om te bepalen hoeveel onzichtbare rijen rond het zichtbare gebied worden vooraf geladen. </p> </td> 
   </tr> 
  </tbody> 
 </table>

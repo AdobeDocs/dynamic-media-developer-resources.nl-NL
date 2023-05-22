@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 3772ff80-3a51-4dd9-85a7-12242518080c
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 1%
+source-wordcount: '76'
+ht-degree: 0%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 1%
 <table id="table_4A3D7D66D76A403199303155318D0DE1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> pictogram|gebied|auto|geen  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> pictogram|gebied|auto|geen </span> </p> </td> 
    <td colname="col2"> <p>Hiermee geeft u de vormgeving van de afbeeldingskaart op. </p> <p> 
      <ul id="ul_DDA49C152718486E853213E6FC2182B2"> 
-      <li id="li_18F86AB4D2F544319CCDF7BE376ABA53"> <p> <span class="codeph"> pictogrammen  </span> voor pictogramkaarten worden statisch weergegeven op het bureaublad en aanraakapparaten. </p> </li> 
-      <li id="li_F8832681CDD6456E9147A37C99BAFFED"> <p> <span class="codeph"> regio  </span> geeft gebieden met afbeeldingskaart weer; op het bureaublad worden ze op rollover en op aanraakapparaten altijd zichtbaar. </p> </li> 
-      <li id="li_9F7DD686E8104AEB944505363F433C0F"> <p> <span class="codeph"> automatisch  </span> op desktopsystemen worden gebieden met afbeeldingen met hyperlinks weergegeven en pictogrammen met hyperlinks op aanraakapparaten zijn altijd zichtbaar. </p> </li> 
-      <li id="li_7CB644F3A029480293B46F44FF8D03B6"> <p> <span class="codeph"> Bij Geen worden afbeeldingen met hyperlinks  </span> uitgeschakeld. </p> </li> 
+      <li id="li_18F86AB4D2F544319CCDF7BE376ABA53"> <p> <span class="codeph"> pictogram </span> kaartpictogrammen worden statisch weergegeven op het bureaublad en de aanraakapparaten. </p> </li> 
+      <li id="li_F8832681CDD6456E9147A37C99BAFFED"> <p> <span class="codeph"> regio </span> geeft gebieden met afbeeldingskaart weer; op het bureaublad worden ze op rollover en op aanraakapparaten altijd zichtbaar. </p> </li> 
+      <li id="li_9F7DD686E8104AEB944505363F433C0F"> <p> <span class="codeph"> auto </span> op desktopsystemen worden gebieden met afbeeldingen met hyperlinks weergegeven en worden pictogrammen met hyperlinks op aanraakapparaten altijd weergegeven. </p> </li> 
+      <li id="li_7CB644F3A029480293B46F44FF8D03B6"> <p> <span class="codeph"> none </span> Schakelt afbeeldingen met hyperlinks uit. </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

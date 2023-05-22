@@ -2,12 +2,12 @@
 description: Clientbericht. Verstrekt een mechanisme voor cliënten om korte tekstberichten in het serverlogboek op te nemen.
 solution: Experience Manager
 title: message
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 47e51181-714c-4b25-a375-f3b2238cd534
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '52'
 ht-degree: 0%
 
 ---
@@ -25,4 +25,4 @@ Clientbericht. Verstrekt een mechanisme voor cliënten om korte tekstberichten i
  </tr> 
 </table>
 
-De HTTP-respons is niet cacheable. Een lege reactie is teruggekeerd met MIME type `text/plain`.
+De HTTP-respons is niet cacheable. Er wordt een lege reactie geretourneerd met het MIME-type `text/plain`.

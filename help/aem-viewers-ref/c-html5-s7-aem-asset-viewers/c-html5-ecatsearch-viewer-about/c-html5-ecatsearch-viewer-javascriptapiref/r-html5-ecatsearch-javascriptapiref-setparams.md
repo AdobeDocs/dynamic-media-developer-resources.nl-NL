@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: cbd7987b-5e47-4ac0-8235-a217e5e6dee9
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ JavaScript API-referentie voor eCatalog Viewer.
 
 [!DNL ` setParams( *`param`*)`]
 
-Stelt een of meer parameters in op een bepaalde waarde. De syntaxis van het methodeargument is identiek aan een URL vraagkoord. Namelijk vertegenwoordigt het naam=waarde paren die met [!DNL `&`] worden gescheiden. Net als in een queryreeks zijn de namen en waarden procentueel gecodeerd met UTF8. Voordat u [!DNL `init()`] aanroept, moet deze parameter worden aangeroepen.
+Stelt een of meer parameters in op een bepaalde waarde. De syntaxis van het methodeargument is identiek aan een URL vraagkoord. Namelijk vertegenwoordigt het naam=waarde paren die met worden gescheiden [!DNL `&`]. Net als in een queryreeks zijn de namen en waarden procentueel gecodeerd met UTF8. Voordat u belt [!DNL `init()`], moet deze parameter worden aangeroepen.
 
-Deze methode is optioneel als de configuratiegegevens van de viewer samen met het JSON-object [!DNL `config`] aan de constructor worden doorgegeven.
+Deze methode is optioneel als de configuratiegegevens van de viewer worden doorgegeven met [!DNL `config`] JSON-object naar de constructor.
 
 Zie ook [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
@@ -28,7 +28,7 @@ Zie ook [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> param</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value parameterparen gescheiden met  <span class="codeph"> &amp;</span>. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value parameterparen gescheiden met <span class="codeph"> &amp;</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

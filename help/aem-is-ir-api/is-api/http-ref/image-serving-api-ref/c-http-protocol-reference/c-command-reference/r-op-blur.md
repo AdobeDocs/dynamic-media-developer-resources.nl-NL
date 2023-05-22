@@ -2,12 +2,12 @@
 description: Afbeelding vervagen. Hiermee past u een vervagend filter toe op de afbeeldingsgegevens.
 solution: Experience Manager
 title: op_vervagen
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: cd68c109-ee99-4ef7-aac0-7d2e6d408cc0
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Afbeelding vervagen. Hiermee past u een vervagend filter toe op de afbeeldingsge
 
 ## Eigenschappen {#section-92573fe2c07746a7bab93a81fc3d208d}
 
-Laag, opdracht. Wordt toegepast op de huidige laag of op de samengestelde afbeelding als `layer=comp`.
+Laag, opdracht. Is van toepassing op de huidige laag of op de samengestelde afbeelding als `layer=comp`.
 
 ## Standaard {#section-a976cb86620d489085a8fc9bae2626c0}
 
@@ -37,6 +37,6 @@ Laag, opdracht. Wordt toegepast op de huidige laag of op de samengestelde afbeel
 
 ## Voorbeeld {#section-1ebacde68388492eb108ae0fcd7424db}
 
-Vervaag de achtergrond van een afbeelding. Naar een afzonderlijke maskerafbeelding wordt verwezen door `catalog::MaskPath`. `layer=0`moet expliciet worden opgegeven, anders zou `op_blur` worden toegepast op de volledige samengestelde afbeelding.
+Vervaag de achtergrond van een afbeelding. Er wordt verwezen naar een afzonderlijke maskerafbeelding door `catalog::MaskPath`. Let op: `layer=0`uitdrukkelijk moet worden gespecificeerd, anders `op_blur` wordt toegepast op de volledige samengestelde afbeelding.
 
 `http://server/myRootId/myImageId?wid=500&layer=0&maskUse=invert&op_blur=20&layer=1&src=myRootId/myImageId`

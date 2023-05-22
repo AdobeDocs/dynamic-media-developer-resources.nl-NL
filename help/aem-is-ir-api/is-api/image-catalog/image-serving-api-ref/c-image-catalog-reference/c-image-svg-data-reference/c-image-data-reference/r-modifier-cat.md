@@ -2,12 +2,12 @@
 description: Modifier-tekenreeks voor voorvoegselverzoek. Geen of meer opdrachten Afbeeldingsservice gescheiden door '&' tekens.
 solution: Experience Manager
 title: Modifier
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6eef3159-c082-469b-b9dc-29acb28560d6
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ Modifier-tekenreeks voor voorvoegselverzoek. Geen of meer opdrachten Afbeeldings
 
 Wordt gebruikt om afbeeldingen permanent te wijzigen en de tekst van sjablonen op te slaan.
 
-Opdrachten in dit veld worden overschreven door dezelfde opdrachten in de aanvraag of sjabloon waar naar deze record wordt verwezen, en door opdrachten in `catalog::PostModifier`
+Opdrachten in dit veld worden overschreven door dezelfde opdrachten in de aanvraag of sjabloon waarnaar wordt verwezen in deze record, en door opdrachten in `catalog::PostModifier`
 
-Macro&#39;s zijn toegestaan in `catalog::Modifier`, zolang ze in dezelfde catalogus of in de standaardcatalogus zijn gedefinieerd. Ook aangepaste variabelen kunnen worden gebruikt.
+Macro&#39;s zijn toegestaan in `catalog::Modifier`, zolang deze in dezelfde catalogus of in de standaardcatalogus zijn gedefinieerd. Ook aangepaste variabelen kunnen worden gebruikt.
 
 ## Eigenschappen {#section-6674388f77d644469371a17e8809c45f}
 

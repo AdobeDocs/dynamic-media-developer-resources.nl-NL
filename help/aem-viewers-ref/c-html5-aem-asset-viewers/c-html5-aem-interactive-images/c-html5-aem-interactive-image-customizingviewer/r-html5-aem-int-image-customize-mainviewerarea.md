@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c8005e7e-dff6-4f40-a94c-6fb6640e827f
 source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
@@ -39,17 +39,17 @@ De vormgeving van het weergavegebied wordt bepaald door de volgende CSS-klassenk
    <td colname="col2"> <p>De breedte van de viewer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>De hoogte van de viewer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Achtergrondkleur in hexadecimale notatie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voorbeeld - een viewer instellen met een witte achtergrond ( `#FFFFFF`) en de grootte instellen op 1174 x 500 pixels.
+Voorbeeld - Een viewer instellen met een witte achtergrond ( `#FFFFFF`) en maak de grootte 1174 x 500 pixels.
 
 ```
 .s7interactiveimage { 

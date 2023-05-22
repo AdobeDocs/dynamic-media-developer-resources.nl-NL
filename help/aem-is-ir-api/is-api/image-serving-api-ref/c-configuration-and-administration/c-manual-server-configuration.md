@@ -2,12 +2,12 @@
 description: Veel aspecten van Beeldservers en Afbeeldingsweergave kunnen handmatig worden geconfigureerd door de desbetreffende configuratiebestanden te bewerken.
 solution: Experience Manager
 title: Serverconfiguratie
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 2bb81f55-98da-47a1-8214-49b9bd30eb94
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '61'
 ht-degree: 0%
 
 ---

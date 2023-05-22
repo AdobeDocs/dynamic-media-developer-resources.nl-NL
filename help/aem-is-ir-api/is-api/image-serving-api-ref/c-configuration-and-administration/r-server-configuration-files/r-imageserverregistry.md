@@ -2,12 +2,12 @@
 description: Bevat de configuratiemontages van de Server van het Beeld.
 solution: Experience Manager
 title: ImageServerRegistry.xml
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 4483c5e8-5123-4d0f-bf9a-4ef8d8cec5a9
 source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Start de afbeeldingsserver na het bewerken van dit bestand opnieuw om de wijzigi
 
 >[!NOTE]
 >
->Wijzig de structuur van `<imageserverregistry>` niet, inclusief de volgorde van elementen. Wees voorzichtig als u dit bestand bewerkt, anders kan het zijn dat de Image Server niet kan worden gestart.
+>Wijzig de structuur van `<imageserverregistry>`, met inbegrip van de volgorde van de elementen. Wees voorzichtig als u dit bestand bewerkt, anders kan het zijn dat de Image Server niet kan worden gestart.
 
 In het volgende voorbeeld wordt aangegeven welke elementen kunnen worden gewijzigd. Er zijn andere elementen die niet mogen worden gewijzigd. De volgorde van de onderstaande elementen weerspiegelt niet de volgorde waarin deze in het bestand aanwezig moeten zijn.
 
@@ -52,4 +52,4 @@ In het volgende voorbeeld wordt aangegeven welke elementen kunnen worden gewijzi
 
 ## Notities {#section-7217f011f69f41e7af4f3983d7776d6f}
 
-Er kunnen meerdere `<RootPath>`-elementen aanwezig zijn (één voor elke brongegevensbestandsmap). De Server van het beeld zoekt de wortelwegen in de orde die wordt gespecificeerd om een bepaald brondossier te vinden.
+Meerdere `<RootPath>` Er kunnen elementen aanwezig zijn (één voor elke map met brongegevensbestanden). De Server van het beeld zoekt de wortelwegen in de orde die wordt gespecificeerd om een bepaald brondossier te vinden.

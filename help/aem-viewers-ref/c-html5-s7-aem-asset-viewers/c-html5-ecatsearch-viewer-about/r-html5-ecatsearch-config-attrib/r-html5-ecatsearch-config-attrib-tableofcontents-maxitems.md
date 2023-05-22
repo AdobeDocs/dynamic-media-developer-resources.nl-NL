@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: c2e559d9-96c7-4d0f-8aa6-a60d9e42c7c4
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 1%
+source-wordcount: '59'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> maxitems</span></span> </p> </td> 
-   <td> <p>Het maximumaantal items in de vervolgkeuzelijst. </p> <p>Bovendien kunt u het aantal zichtbare items in de vervolgkeuzelijst verkleinen voor het geval deze door de buitencontainer wordt bijgesneden. </p> <p>Wanneer ingesteld op <span class="codeph"> 0</span> toont die component zoveel mogelijk items gezien de container waaraan deze is toegevoegd. </p> </td> 
+   <td> <p>Het maximumaantal items in de vervolgkeuzelijst. </p> <p>Bovendien kunt u het aantal zichtbare items in de vervolgkeuzelijst verkleinen voor het geval deze door de buitencontainer wordt bijgesneden. </p> <p>Wanneer ingesteld op <span class="codeph"> 0</span> die component toont zo veel mogelijk punten gezien de container het aan wordt toegevoegd. </p> </td> 
   </tr> 
  </tbody> 
 </table>

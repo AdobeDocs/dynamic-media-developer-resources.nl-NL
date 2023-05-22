@@ -31,11 +31,11 @@ De vormgeving van het veranderbare volumegebied wordt bepaald door de volgende C
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> Positie vanaf de bovenrand, inclusief opvulling. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
    <td colname="col2"> <p> Positie vanaf de rechterrand, inclusief opvulling. </p> </td> 
   </tr> 
   <tr> 
@@ -43,11 +43,11 @@ De vormgeving van het veranderbare volumegebied wordt bepaald door de volgende C
    <td colname="col2"> <p> De breedte van de veranderbare volumeregeling. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>De hoogte van de veranderbare volumeregeling. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> De kleur van de veranderbare volumeregeling. </p> </td> 
   </tr> 
  </tbody> 
@@ -66,11 +66,11 @@ U kunt de achtergrondafbeelding voor elke knopstatus bepalen. De grootte van de 
 <table id="table_46903DCACF314426B67783167ADF7715"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
    <td colname="col2"> <p> De afbeelding die voor een bepaalde knopstatus wordt weergegeven. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -78,7 +78,7 @@ U kunt de achtergrondafbeelding voor elke knopstatus bepalen. De grootte van de 
 
 >[!NOTE]
 >
->Deze knoop steunt zowel `state` als `selected` attribuutselecteurs, die kunnen worden gebruikt om verschillende huiden op verschillende knoopstaten toe te passen. Met name `selected='true'` komt overeen met de status &quot;muted&quot; en `selected='false'` komt overeen met de status &quot;unmuted&quot;.
+>Deze knop ondersteunt beide `state` en `selected` kenmerkkiezers, die kunnen worden gebruikt om verschillende skins toe te passen op verschillende knoptoestanden. Met name: `selected='true'` komt overeen met de toestand &quot;gedempt&quot; en `selected='false'` komt overeen met de status &quot;unmuted&quot;.
 
 Het verticale gebied van de volumebalk wordt bestuurd met de volgende CSS-klassenkiezer:
 
@@ -91,15 +91,15 @@ Het verticale gebied van de volumebalk wordt bestuurd met de volgende CSS-klasse
 <table id="table_966826FB81114362A8D81D1EED38D512"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> De achtergrondkleur van het verticale volume. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p> De breedte van het verticale volume. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p> De hoogte van het verticale volume. </p> </td> 
   </tr> 
  </tbody> 
@@ -117,15 +117,15 @@ De track binnen verticale volumeregeling wordt bestuurd met de volgende CSS-klas
 <table id="table_21E9AD3FBC8C4437BA02E5CD1BF7E831"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> De achtergrondkleur van het verticale volumeregelaar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Breedte van de verticale volumeregeling. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van de verticale volumeregeling. </p> </td> 
   </tr> 
  </tbody> 
@@ -142,29 +142,29 @@ De verticale volumeknop wordt bestuurd met de volgende CSS-klassenkiezer:
 <table id="table_709D64AF815341A5B50ED72CCB350F2E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
    <td colname="col2"> <p> Verticale volumeregelaar illustraties. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Breedte van de verticale volumeregelaar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van de verticale volumeregelaar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
    <td colname="col2"> <p>Horizontale positie van de knop voor verticale volumeregeling. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie.
+De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie .
 
 ## Voorbeelden {#section-e8caea0a303c425a8a637c2a47c06355}
 

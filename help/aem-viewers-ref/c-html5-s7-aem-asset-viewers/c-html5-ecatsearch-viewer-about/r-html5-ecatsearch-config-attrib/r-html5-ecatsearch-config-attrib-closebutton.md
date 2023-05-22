@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 4f5f84d0-1b5a-4fb3-91ab-44b4542c6ef1
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 4%
+source-wordcount: '41'
+ht-degree: 2%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 4%
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
-   <td colname="col2"> <p>Stel in op <span class="codeph"> 1 </span> om weergave van de sluitknop in te schakelen. Of u stelt de waarde <span class="codeph"> 0 </span> in om de sluitknop te verbergen. </p> <p>De knop Sluiten wordt alleen ondersteund op aanraakapparaten. kan niet worden weergegeven op desktopsystemen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
+   <td colname="col2"> <p>Instellen op <span class="codeph"> 1 </span> om weergave van de sluitknop in te schakelen. Of, instellen op <span class="codeph"> 0 </span> om de sluitknop te verbergen. </p> <p>De knop Sluiten wordt alleen ondersteund op aanraakapparaten. kan niet worden weergegeven op desktopsystemen. </p> </td> 
   </tr> 
  </tbody> 
 </table>

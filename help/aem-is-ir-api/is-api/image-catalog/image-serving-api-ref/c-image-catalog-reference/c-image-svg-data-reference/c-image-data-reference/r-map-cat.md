@@ -1,28 +1,28 @@
 ---
-description: Afbeeldingskaartgegevens. Geen of meer volledige HTML <AREA>-elementen, gesorteerd van voor naar achter.
+description: Afbeeldingskaartgegevens. Geen of meer volledige HTML <area> elementen, gesorteerd van voor naar achter.
 solution: Experience Manager
 title: Kaart
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e9490b5c-0f85-4256-8590-0d6aa52a19d5
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
 
 # Kaart{#map}
 
-Afbeeldingskaartgegevens. Geen of meer complete HTML `<AREA>`-elementen, gesorteerd van voor naar achter.
+Afbeeldingskaartgegevens. Geen of meer volledige HTML `<AREA>` elementen, gesorteerd van voor naar achter.
 
-De server interpreteert de kenmerken SHAPE en COORDS en kan deze wijzigen. (SHAPE=CIRCLE wordt niet ondersteund in deze release.) Alle andere attributen van `<AREA>` worden overgegaan zonder wijziging. Coördinaatwaarden die zijn opgegeven met het kenmerk COORDS, moeten pixelverschuivingen zijn ten opzichte van de linkerbovenhoek van de ongewijzigde bronafbeelding. (`%` coördinaten worden niet ondersteund in deze release en worden mogelijk niet correct verwerkt.)
+De server interpreteert de kenmerken SHAPE en COORDS en kan deze wijzigen. (SHAPE=CIRCLE wordt niet ondersteund in deze release.) Alle andere kenmerken van `<AREA>` zonder wijzigingen worden doorgegeven. Coördinaatwaarden die zijn opgegeven met het kenmerk COORDS, moeten pixelverschuivingen zijn ten opzichte van de linkerbovenhoek van de ongewijzigde bronafbeelding. (`%` coördinaten worden niet ondersteund in deze release en worden mogelijk niet correct verwerkt.)
 
 ## Eigenschappen {#section-f52d89fd399b4356ac05277e6c12f956}
 
-Tekstreeks. Indien opgegeven, moet het een of meer complete HTML `<AREA>`-elementen zijn.
+Tekstreeks. Indien gespecificeerd moet het één of meerdere volledige HTML zijn `<AREA>` elementen.
 
-Dit veld neemt deel aan de lokalisatie van tekstreeksen. Raadpleeg [Tekstreeks lokalisatie](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) in de *HTTP-protocolreferentie* voor meer informatie.
+Dit veld neemt deel aan de lokalisatie van tekstreeksen. Zie [Tekstreeks lokaliseren](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) in de *HTTP-protocolreferentie* voor meer informatie.
 
 ## Standaard {#section-30c7f88929f54f7ba852c5c6c5e2c70b}
 
@@ -30,4 +30,4 @@ Geen.
 
 ## Zie ook {#section-d66a32e1f12f4cb0ad22ddd78be36ec4}
 
-[map=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-map.md) ,  [req=map](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md),  [Tekstreeks lokalisatie](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)
+[map=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-map.md) , [req=map](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md), [Tekstreeks lokaliseren](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)

@@ -2,12 +2,12 @@
 description: Paden insluiten. Hiermee geeft u op of Photoshop-paden uit het bronafbeeldingsbestand van laag 0 moeten worden opgenomen in de reactieafbeelding.
 solution: Experience Manager
 title: pathEmbed
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a3b305eb-0313-4c58-bd47-4f87e09d0e0b
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Paden insluiten. Hiermee geeft u op of Photoshop-paden uit het bronafbeeldingsbe
 
 Request-kenmerk. Wordt genegeerd als de bronafbeelding geen padgegevens bevat. De padgegevens worden net als de afbeeldingsgegevens geschaald en geroteerd. Alleen paden uit de bronafbeelding van `layer=0` worden verwerkt; paden van andere laagafbeeldingen worden genegeerd.
 
-Genegeerd als de indeling van de uitvoerafbeelding het insluiten van paden niet ondersteunt. Raadpleeg de beschrijving van `fmt=` voor een lijst met uitvoerafbeeldingsindelingen die paden insluiten ondersteunen.
+Genegeerd als de indeling van de uitvoerafbeelding het insluiten van paden niet ondersteunt. Zie de beschrijving van `fmt=` voor een lijst met uitvoerafbeeldingsindelingen die paden insluiten ondersteunen.
 
 ## Beperkingen {#section-697cddb79a1542bc8457d2f4f59eec69}
 

@@ -39,17 +39,17 @@ De vormgeving van het weergavegebied wordt bepaald door de volgende CSS-klassenk
    <td colname="col2"> <p>De breedte van de viewer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>De hoogte van de viewer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Achtergrondkleur in hexadecimale notatie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Voorbeeld - een viewer instellen met een witte achtergrond ( `#FFFFFF`) en de grootte instellen op 1174 x 500 pixels.
+Voorbeeld - Een viewer instellen met een witte achtergrond ( `#FFFFFF`) en maak de grootte 1174 x 500 pixels.
 
 ```
 .s7carouselviewer { 

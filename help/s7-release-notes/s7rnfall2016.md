@@ -1,13 +1,13 @@
 ---
 title: Scene7 Fall 2016 Release
-description: '"De nieuwste release bevat informatie over de Adobe Scene7 Fall 2016, een onderdeel van de Adobe Experience Manager-oplossing in de Adobe Experience Cloud."'
+description: "De nieuwste release bevat informatie over de Adobe Scene7 Fall 2016, een onderdeel van de Adobe Experience Manager-oplossing in de Adobe Experience Cloud."
 solution: Experience Manager
 feature: Dynamic Media Classic
 role: Developer,User
 exl-id: 23091ef7-750a-4ec2-9d03-1d713f436991
 source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2209'
 ht-degree: 0%
 
 ---

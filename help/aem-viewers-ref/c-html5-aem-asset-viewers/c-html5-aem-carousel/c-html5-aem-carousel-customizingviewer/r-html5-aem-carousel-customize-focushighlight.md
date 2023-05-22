@@ -35,7 +35,7 @@ De vormgeving wordt bepaald door de volgende CSS-klassenkiezer:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> overzicht  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> overzicht </span> </p> </td> 
    <td colname="col2"> <p>Focus markeerstijl. </p> </td> 
   </tr> 
  </tbody> 

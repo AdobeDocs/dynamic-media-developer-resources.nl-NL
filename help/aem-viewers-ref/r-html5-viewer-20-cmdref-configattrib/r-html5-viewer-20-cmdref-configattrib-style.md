@@ -8,7 +8,7 @@ exl-id: a0547ada-3d8f-4ec2-a7e4-424fd1a78a28
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
 source-wordcount: '97'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ U kunt het volgende bevel zowel van het URL vraagkoord als config toepassen. Het
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> cssPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> Relatieve of absolute CSS-locatie. </p> <p>Hiermee geeft u de locatie van het aangepaste CSS-bestand op. Als de <span class="codeph"><span class="varname"> cssPath</span></span> relatief is, wordt het opgelost tegen de de paginalocatie van HTML van de kijker en de waarde van <span class="codeph"> contentUrl=</span> parameter. </p> </td> 
+   <td colname="col2"> <p> Relatieve of absolute CSS-locatie. </p> <p>Hiermee geeft u de locatie van het aangepaste CSS-bestand op. Als de <span class="codeph"><span class="varname"> cssPath</span></span> is relatief, wordt deze omgezet op basis van de locatie van de HTML-pagina van de viewer en de waarde van <span class="codeph"> contentUrl=</span> parameter. </p> </td> 
   </tr> 
  </tbody> 
 </table>

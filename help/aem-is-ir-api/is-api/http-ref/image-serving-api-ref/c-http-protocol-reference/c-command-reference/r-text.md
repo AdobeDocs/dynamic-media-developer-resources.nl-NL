@@ -2,12 +2,12 @@
 description: Laagtekst. Geeft tekst en opmaakinhoud voor een tekstlaag op.
 solution: Experience Manager
 title: text
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3966b180-bef1-4fad-af71-ba42bbdffd59
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
@@ -20,22 +20,22 @@ Laagtekst. Geeft tekst en opmaakinhoud voor een tekstlaag op.
 
 <table id="simpletable_6C095D7F69874A8EA3D1D52103FA520C"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> string  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> string </span> </p> </td> 
   <td class="stentry"> <p>RTF-tekenreeks (Rich-text-formatted) of onbewerkte-text tekenreeks. </p> </td> 
  </tr> 
 </table>
 
-Alle besturingselementen voor lettertype-, lettertypekleur- en alineaopmaak worden bereikt met RTF-opdrachten. Raadpleeg [Tekstopmaak](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c) voor meer informatie.
+Alle besturingselementen voor lettertype-, lettertypekleur- en alineaopmaak worden bereikt met RTF-opdrachten. Zie [Tekstopmaak](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c) voor aanvullende informatie.
 
-`text=` ondersteunt automatisch schalen van de tekst om de laagrechthoek te vullen die met is opgegeven  `size=`.
+`text=` ondersteunt automatisch schalen van de tekst om de laagrechthoek te vullen die is opgegeven met `size=`.
 
 Zie [textAttr=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textattr.md#reference-ff00484fa3244286abeff34911f7ec0d).
 
-`text=` ondersteunt het automatisch aanpassen van de grootte van de tekstlaag aan de gerenderde tekst (wanneer  `size=` geen waarde is opgegeven of wanneer alleen de breedte is opgegeven). Let erop dat in dit geval slechts een van de RTF-uitlijningsopdrachten `\ql`, `\qr` en `\qc` kan worden toegepast. anders wordt een fout geretourneerd.
+`text=` ondersteunt het automatisch aanpassen van de grootte van de tekstlaag aan de gerenderde tekst (wanneer `size=` niet wordt opgegeven of wanneer alleen de breedte wordt opgegeven). Let op: in dit geval is slechts een van de RTF-uitlijningsopdrachten `\ql`, `\qr`, en `\qc` kan worden toegepast; anders wordt een fout geretourneerd.
 
 ## Eigenschappen {#section-8c0f020094a44c6b858454ef91ab4edf}
 
-Laagkenmerk. Is van toepassing op `layer=0` als `layer=comp`. wederzijds exclusief met `src=` en `textPs=` in dezelfde laag; de laatste instantie van `text=`, `textPs=` en `src=` heeft voorrang en bepaalt of dit een afbeelding of een tekstlaag is. Genegeerd door effectlagen.
+Laagkenmerk. Van toepassing op `layer=0` indien `layer=comp`. Wederzijdse uitsluiten met `src=` en `textPs=` in dezelfde laag; de laatste `text=`, `textPs=`, en `src=` heeft voorrang en bepaalt of dit een afbeelding of een tekstlaag is. Genegeerd door effectlagen.
 
 ## Standaard {#section-58958671e0ad479e8d5f6c1d41d7dc74}
 
@@ -47,4 +47,4 @@ Zie de voorbeelden in [Tekstopmaak](../../../../../is-api/http-ref/image-serving
 
 ## Zie ook {#section-207b779ab67342a5acd343e6bcc749c4}
 
-[Tekstopmaak](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c),  [Tekstpositionering](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-positioning.md#reference-f647443d92914f4b89a7cc5a83267d87),  [src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1),  [textAttr=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textattr.md#reference-ff00484fa3244286abeff34911f7ec0d),  [textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767)
+[Tekstopmaak](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c), [Tekstpositionering](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-positioning.md#reference-f647443d92914f4b89a7cc5a83267d87), [src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1), [textAttr=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textattr.md#reference-ff00484fa3244286abeff34911f7ec0d), [textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767)

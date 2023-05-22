@@ -2,12 +2,12 @@
 description: gebruikt door PhotoshopOptions/anchor.
 solution: Experience Manager
 title: Photoshop-ankermodi
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 69edbec2-b646-4527-9ee3-a0e710996230
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '21'
+source-wordcount: '16'
 ht-degree: 0%
 
 ---

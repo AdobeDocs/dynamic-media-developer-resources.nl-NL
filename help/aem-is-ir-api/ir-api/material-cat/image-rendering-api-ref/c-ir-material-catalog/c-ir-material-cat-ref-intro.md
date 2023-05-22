@@ -2,12 +2,12 @@
 description: In dit document wordt de materiaalcatalogus voor Dynamic Media Image Rendering beschreven.
 solution: Experience Manager
 title: Inleiding
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1cdb9c45-329d-44df-92c3-8cba5b2b1339
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
@@ -34,35 +34,35 @@ Aangenomen wordt dat de lezer bekend is met Dynamic Media Image Authoring and Im
   <td class="stentry"> <p>In beschrijvende gedeelten is niet-cursieve tekst tussen enkele aanhalingstekens letterlijk. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> parameter  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> parameter </span> </p> </td> 
   <td class="stentry"> <p>Cursief verwijst naar een variabele of parameter, die moet worden vervangen door een werkelijke waarde. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> attribute::Item  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> attribute::Item </span> </p> </td> 
   <td class="stentry"> <p>Een naam met het voorvoegsel 'attribute::' verwijst naar een afbeeldingscataloguskenmerk. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <span class="codeph"> catalogus::Item  </span> </td> 
+  <td class="stentry"> <span class="codeph"> catalogus::Item </span> </td> 
   <td class="stentry"> <p>Een naam vooraf voorzien van 'catalog::' verwijst naar een gegevensveld voor een materiaalcatalogus. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> icc::Item  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> icc::Item </span> </p> </td> 
   <td class="stentry"> <p>Een naam met de voorvoegsel 'icc::' verwijst naar een veld in de ICC-kleurenprofielkaart. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> macro::Item  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> macro::Item </span> </p> </td> 
   <td class="stentry"> <p>Een naam met het voorvoegsel 'macro::' verwijst naar een veld in de macrodefinitietabel. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> regels:Item  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> regels:Item </span> </p> </td> 
   <td class="stentry"> <p>Een naam met een voorvoegsel 'ruleset::' verwijst naar een element in een URL-voorverwerkingsregelset. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> default::Item  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> default::Item </span> </p> </td> 
   <td class="stentry"> <p>Een naam met de voorvoegsel 'default:' verwijst naar een kenmerk van de standaardafbeeldingscatalogus. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> vignet::Item  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> vignet::Item </span> </p> </td> 
   <td class="stentry"> <p>Een naam met de voorvoegsel 'vignet::' verwijst naar een veld in de vignetkaart. </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -74,7 +74,7 @@ Aangenomen wordt dat de lezer bekend is met Dynamic Media Image Authoring and Im
   <td class="stentry"> <p>Het optionele syntaxiselement mag nooit of vaker worden herhaald. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> item1  </span>|  <span class="varname"> post 2  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> item1 </span>| <span class="varname"> item2 </span> </p> </td> 
   <td class="stentry"> <p>Een verticale balk geeft aan dat het enige syntaxisitem links of het item rechts kan worden gebruikt. Er moet precies één item zijn geselecteerd. </p> </td> 
  </tr> 
  <tr class="strow"> 

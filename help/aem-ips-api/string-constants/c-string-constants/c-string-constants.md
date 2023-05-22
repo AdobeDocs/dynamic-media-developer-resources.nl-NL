@@ -2,12 +2,12 @@
 description: Tekenreeksconstanten
 solution: Experience Manager
 title: Tekenreeksconstanten
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 06c381f6-5896-4d9b-b6f4-a907b3774d08
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 * [Taaktypen](r-job-types.md)
 * [Metagegevensveldtypen](r-metadata-field-types.md)
 * [Operatoren voor numerieke/datumvergelijking](r-numeric-date-comparison-operators.md)
-* [PDF-processen](r-pdf-processes.md)
+* [PDF Processen](r-pdf-processes.md)
 * [Machtigingstypen](r-permission-types.md)
 * [Photoshop-ankermodi](r-photoshop-anchor-modes.md)
 * [Naamgevingsmodi voor Photoshop-lagen](r-photoshop-layer-naming-modes.md)

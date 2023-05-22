@@ -2,12 +2,12 @@
 description: De volgende velden worden herkend in ICC-kleurprofieltoewijzingsbestanden.
 solution: Experience Manager
 title: ICC-profielkaarten
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3492f4f3-d93e-4b62-8ff6-ace228e0687e
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '40'
 ht-degree: 0%
 
 ---

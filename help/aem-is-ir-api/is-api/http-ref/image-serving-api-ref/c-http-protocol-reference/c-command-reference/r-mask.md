@@ -2,12 +2,12 @@
 description: Afbeeldingsmasker. Hiermee geeft u een aparte maskerafbeelding op die als een niet-gekoppeld masker moet worden gebruikt.
 solution: Experience Manager
 title: masker
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5785844b-945b-4dd0-ac59-efbf1360b7cd
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Afbeeldingsmasker. Hiermee geeft u een aparte maskerafbeelding op die als een niet-gekoppeld masker moet worden gebruikt.
 
-`mask= *``*|{[is|ir]'{' *`objectnestedRequest`*'}'}`
+`mask= *`object`*|{[is|ir]'{' *`nestedRequest`*'}'}`
 
 <table id="simpletable_F5A8CD8D7E9B48DAB3C8184E8FE60D9B"> 
  <tr class="strow"> 
@@ -29,27 +29,27 @@ Afbeeldingsmasker. Hiermee geeft u een aparte maskerafbeelding op die als een ni
  </tr> 
 </table>
 
-*`object`* Dit kan een catalogus-item of een afbeeldings-/SVG-bestand zijn. Kan worden opgegeven voor afbeeldingslagen en effen kleurlagen.
+*`object`* Dit kan een catalogusitem of een afbeeldings-/SVG-bestand zijn. Kan worden opgegeven voor afbeeldingslagen en effen kleurlagen.
 
-Als *`object`* wordt omgezet in een afbeeldingscatalogusitem, wordt `catalog::MaskPath` gebruikt of, als `catalog::MaskPath` niet is gedefinieerd, wordt `catalog::Path` gebruikt. Als *`object`* niet aan een catalogusingang oplost, dan wordt het geïnterpreteerd als dossierweg.
+Indien *`object`* wordt omgezet in een afbeeldingscatalogusitem, `catalog::MaskPath` wordt gebruikt, of `catalog::MaskPath` is niet gedefinieerd, dan `catalog::Path` wordt gebruikt. Indien *`object`* wordt niet omgezet in een item in een catalogus. Het wordt dan geïnterpreteerd als een bestandspad.
 
 Als de bronafbeelding een alfakanaal heeft, wordt deze altijd gebruikt. Anders wordt de afbeelding, indien nodig, omgezet in grijswaarden voordat deze als laagmasker wordt gebruikt.
 
-Als een masker op een stevige kleurenlaag wordt vastgemaakt, kan het worden bebouwd en worden geschraapt gebruikend de zelfde regels die voor beelden in beeldlagen worden gebruikt. `size=`,  `scale=`of  `res=` kan worden gebruikt om het masker te schalen.
+Als een masker op een stevige kleurenlaag wordt vastgemaakt, kan het worden bebouwd en worden geschraapt gebruikend de zelfde regels die voor beelden in beeldlagen worden gebruikt. `size=`, `scale=`, of `res=` kan worden gebruikt om het masker te schalen.
 
-Laagmaskers kunnen ook worden opgegeven in de vorm van een *`nestedRequest`*. Geneste of ingesloten aanvragen worden ingesloten door accolades. Plaats een voorvoegsel voor een ingesloten aanvraag voor het renderen van afbeeldingen met `is` en een ingesloten aanvraag voor het renderen van afbeeldingen met `ir`. Een verzoek aan een buitenlandse server wordt verondersteld als geen prefix wordt gespecificeerd. Raadpleeg [Nesten en insluiten aanvragen](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b) voor meer informatie.
+Laagmaskers kunnen ook worden opgegeven in de vorm van een *`nestedRequest`*. Geneste of ingesloten aanvragen worden ingesloten door accolades. Een ingesloten aanvraag voor Beeldbewerking vooraf bevestigen met `is` en een ingesloten aanvraag voor het renderen van afbeeldingen met `ir`. Een verzoek aan een buitenlandse server wordt verondersteld als geen prefix wordt gespecificeerd. Zie [Nesten en insluiten aanvragen](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b) voor meer informatie.
 
 ## Eigenschappen {#section-a093043dc249423b8ae322cefb0d545d}
 
-Kenmerk afbeelding of laag. Is op laag 0 van toepassing als `layer=comp`. Genegeerd door effectlagen.
+Kenmerk afbeelding of laag. Is van toepassing op laag 0 als `layer=comp`. Genegeerd door effectlagen.
 
-*`object`* mag niet worden omgezet in een catalogusrecord waarin een  `src=` of een  `mask=` opdracht in is opgenomen  `catalog::Modifier`.
+*`object`* mag niet worden omgezet in een catalogusrecord die een `src=` of `mask=` opdracht in `catalog::Modifier`.
 
-De voorvoegsels `is` en `ir` zijn niet hoofdlettergevoelig.
+De `is` en `ir` voorvoegsels zijn niet hoofdlettergevoelig.
 
 ## Standaard {#section-10cf793c665f49deb1b248faa3b618a9}
 
-Als `mask=` niet uitdrukkelijk wordt gespecificeerd, en als het laagbeeld met een catalogusingang wordt geassocieerd, dan `catalog::MaskPath` wordt gebruikt. Anders wordt het alfakanaal van de laagafbeelding gebruikt, indien aanwezig. Als er geen alfakanaal is, heeft de laag geen masker en wordt de laagrechthoek volledig dekkend weergegeven.
+Indien `mask=` niet expliciet wordt opgegeven en als de laagafbeelding aan een catalogusitem is gekoppeld, `catalog::MaskPath` wordt gebruikt. Anders wordt het alfakanaal van de laagafbeelding gebruikt, indien aanwezig. Als er geen alfakanaal is, heeft de laag geen masker en wordt de laagrechthoek volledig dekkend weergegeven.
 
 ## Voorbeeld {#section-1bbe623f7c744bdf97b596458d8e7ea3}
 
@@ -59,4 +59,4 @@ Gebruik verschillende afzonderlijke maskers om verschillende gebieden van een af
 
 ## Zie ook {#section-7ed5201d91594e5f872438a92eaf1c89}
 
-[maskUse=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-maskuse.md#reference-9bb1fb5eee4a4bd38f33dadc1a752464) ,  [catalog::MaskPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-maskpath-cat.md),  [object](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0) ,  [Request Nesting and Embedding](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b)
+[maskUse=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-maskuse.md#reference-9bb1fb5eee4a4bd38f33dadc1a752464) , [catalogus::MaskPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-maskpath-cat.md), [object](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0) , [Nesten en insluiten aanvragen](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b)

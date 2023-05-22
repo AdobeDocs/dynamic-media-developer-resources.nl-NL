@@ -105,7 +105,7 @@ De Digimarc-bibliotheek weigert een Digimarc-watermerk toe te passen op een afbe
    De indeling van de reactieafbeelding wijzigen met `fmt=`
 
 * De grootte van de HTTP-reactie op afbeelding data-after compressie, inclusief bestandsheader-is beperkt tot 16 MB.
-* &quot;..&quot; is niet toegestaan in een padelement in HTTP-aanvragen.
+* &quot; ..&quot; is niet toegestaan in een padelement in HTTP-aanvragen.
 * Door de gebruiker gemaakte of gewijzigde bestanden kunnen worden verwijderd uit *[!DNL install_root]* of een submap. Kopieer deze bestanden naar een andere locatie voordat u de installatie ongedaan maakt.
 
 ## Beperkingen die alleen van toepassing zijn op beeldservers {#section-b08ad535e4454265b8157dec244c4faf}

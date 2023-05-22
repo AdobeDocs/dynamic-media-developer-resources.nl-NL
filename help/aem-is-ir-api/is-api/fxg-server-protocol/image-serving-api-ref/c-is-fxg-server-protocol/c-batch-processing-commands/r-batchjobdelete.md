@@ -2,12 +2,12 @@
 description: Verwijder de uitvoer van een taak.
 solution: Experience Manager
 title: batchjobdelete
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9aca6693-32ac-4abd-9595-95bce60050ec
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Deze parameter:
 
 Retourneert:
 
-Status van taak op het moment dat het verwijderingsverzoek werd ontvangen, fout als `jobid` ongeldig is of de taak al was verwijderd.
+Status van de taak op het moment dat de aanvraag voor verwijdering is ontvangen, fout als `jobid` is ongeldig of de taak is al verwijderd.
 
 ## Voorbeeld {#section-e0df8fc8e6554ba58e1fa937b8241ecf}
 

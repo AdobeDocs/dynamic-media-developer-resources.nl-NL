@@ -2,12 +2,12 @@
 description: Deze opdrachten zijn niet alleen van toepassing op algemene laagopdrachten, maar ook op afbeeldingslagen.
 solution: Experience Manager
 title: Opdrachten Afbeeldingslaag
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 142e3fbb-93d6-4072-8e49-b7a7484106d8
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '42'
+source-wordcount: '37'
 ht-degree: 0%
 
 ---

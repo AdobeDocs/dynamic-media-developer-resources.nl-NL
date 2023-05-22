@@ -2,12 +2,12 @@
 description: JPEG-kwaliteit. Hiermee geeft u JPEG-coderingskenmerken op om het compressieniveau te bepalen. Dit varieert op zijn beurt de bestandsgrootte (de hoeveelheid antwoordgegevens) en indirect de visuele kwaliteit van de resulterende afbeelding.
 solution: Experience Manager
 title: qlt
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c2a611a8-f331-4e01-a262-34340ce67b21
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -16,26 +16,26 @@ ht-degree: 0%
 
 JPEG-kwaliteit. Hiermee geeft u JPEG-coderingskenmerken op om het compressieniveau te bepalen. Dit varieert op zijn beurt de bestandsgrootte (de hoeveelheid antwoordgegevens) en indirect de visuele kwaliteit van de resulterende afbeelding.
 
-` qlt= *``*[, *`kwalitatief chroma`*]`
+` qlt= *`kwaliteit`*[, *`chroma`*]`
 
 <table id="simpletable_FB8090D4BEBF42FD83A64A7AAB6D7F92"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> kwaliteit  </span> </p> </td> 
-  <td class="stentry"> <p>JPEG-coderingskwaliteit (1...100 int). </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> kwaliteit </span> </p> </td> 
+  <td class="stentry"> <p>Coderingskwaliteit JPEG (1...100 int). </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> chroma  </span> </p> </td> 
-  <td class="stentry"> <p>downsampling van JPEG-chromaticiteit (0=normaal, 1=uitgeschakeld); optioneel, standaard is 0. </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> chroma </span> </p> </td> 
+  <td class="stentry"> <p>JPEG-chromaticiteitsdownsampling (0=normaal, 1=uitgeschakeld); optioneel, standaard is 0. </p> </td> 
  </tr> 
 </table>
 
-Hogere waarden *`quality`* verhogen de bestandsgrootte en kwaliteit, lagere waarden verlagen de bestandsgrootte en verlagen de waargenomen afbeeldingskwaliteit. Met waarden boven 90 worden vaak afbeeldingen gegenereerd die niet van de ongecomprimeerde afbeelding zijn te onderscheiden.
+Hoger *`quality`* Als u waarden opgeeft, neemt de bestandsgrootte en kwaliteit toe, nemen lagere waarden toe en nemen de waargenomen beeldkwaliteit af. Met waarden boven 90 worden vaak afbeeldingen gegenereerd die niet van de ongecomprimeerde afbeelding zijn te onderscheiden.
 
-Stel de markering *`chroma`* in om de downsampling van RGB-chromaticiteit in JPEG-coders uit te schakelen. Hierdoor kan de waargenomen scherpte van de randen in een afbeelding toenemen wanneer de rand wordt gedefinieerd door een wijziging in kleurtoon in plaats van helderheid. Als u deze markering instelt, kan de bestandsgrootte enigszins toenemen. Experimenteer met deze instelling als de tekst iets vaag lijkt.
+Stel de *`chroma`* markering voor het uitschakelen van de downsampling van de RGB-kleurafwijking door typische JPEG-encoders. Hierdoor kan de waargenomen scherpte van de randen in een afbeelding toenemen wanneer de rand wordt gedefinieerd door een wijziging in kleurtoon in plaats van helderheid. Als u deze markering instelt, kan de bestandsgrootte enigszins toenemen. Experimenteer met deze instelling als de tekst iets vaag lijkt.
 
 ## Eigenschappen {#section-925a44cbdc9042db8d4eb149cd073d21}
 
-Request-kenmerk. Ongeacht de huidige laaginstelling. Genegeerd als JPEG-codering niet wordt ondersteund door de bestandsindeling van de uitvoerafbeelding. Raadpleeg de beschrijving van `fmt=` voor informatie over welke uitvoerafbeeldingsindelingen `qlt=` ondersteunen.
+Request-kenmerk. Ongeacht de huidige laaginstelling. Genegeerd als de bestandsindeling van de uitvoerafbeelding geen JPEG-codering ondersteunt. Zie de beschrijving van `fmt=` voor informatie over de uitvoerafbeeldingsindelingen `qlt=`.
 
 *`chroma`* wordt genegeerd als het uitvoerpixeltype CMYK of grijs is.
 
@@ -55,4 +55,4 @@ De kwaliteit van de verhoging voor hoge bandbreedteverbindingen:
 
 ## Zie ook {#section-0074a060bb314ddfa7f4ed23be976507}
 
-[fmt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) ,  [kenmerk::JpegQuality](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-jpegquality.md#reference-4a879e7c46024c8a898a9fd226f9eb09)
+[fmt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) , [kenmerk:JpegQuality](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-jpegquality.md#reference-4a879e7c46024c8a898a9fd226f9eb09)

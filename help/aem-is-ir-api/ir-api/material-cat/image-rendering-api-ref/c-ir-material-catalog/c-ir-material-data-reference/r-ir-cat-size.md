@@ -40,7 +40,7 @@ Geef een waarde voor de dikte op om een slagschaduw toe te voegen aan het decima
   <td class="stentry"> <p>Het decal is 5 duim breed, de hoogte wordt bepaald door de aspectverhouding van het beeld, en een slagschaduw wordt teruggegeven gebaseerd op een dikte van 1 duim. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>0,0, 0,5 </p></td> 
+  <td class="stentry"> <p>0,0,.5 </p></td> 
   <td class="stentry"> <p>De breedte en hoogte van het decal worden bepaald door de catalogus::Resolutie, en dat deze 1,5 cm dik is. </p></td> 
  </tr> 
 </table>

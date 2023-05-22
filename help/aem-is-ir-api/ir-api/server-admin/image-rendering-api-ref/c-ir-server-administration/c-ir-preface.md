@@ -2,12 +2,12 @@
 description: In deze documentatie worden problemen met serverbeheer besproken en worden de configuratie-instellingen voor Dynamic Media Image Rendering beschreven.
 solution: Experience Manager
 title: Voorkeur voor serverbeheer
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 65fc3510-3d47-4650-bf89-322b517dc004
 source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---

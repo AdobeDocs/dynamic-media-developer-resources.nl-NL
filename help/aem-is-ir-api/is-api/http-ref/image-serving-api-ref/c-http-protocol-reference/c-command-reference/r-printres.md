@@ -2,12 +2,12 @@
 description: Afdrukresolutie. Hiermee overschrijft u de waarde voor de afdrukresolutie die is ingesloten in de reactieafbeelding.
 solution: Experience Manager
 title: printRes
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 81c4c3b8-946d-401b-a279-ba3f426ea5a4
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Afdrukresolutie. Hiermee overschrijft u de waarde voor de afdrukresolutie die is
  </tr> 
 </table>
 
-De afdrukresolutie wordt meestal gedefinieerd door `catalog::PrintResolution` in het geval van een catalogusitem, anders door de waarde voor de afdrukresolutie die is ingesloten in de bronafbeelding. In het geval van een sjabloon of een samengestelde afbeelding met lagen is de standaardafdrukresolutie die is ingesloten in het reactiebestand de afdrukresolutie van de laagafbeelding met het laagste laagnummer.
+De afdrukresolutie wordt doorgaans gedefinieerd door `catalog::PrintResolution` in het geval van een catalogusitem, anders door de waarde voor de afdrukresolutie die is ingesloten in de bronafbeelding. In het geval van een sjabloon of een samengestelde afbeelding met lagen is de standaardafdrukresolutie die is ingesloten in het reactiebestand de afdrukresolutie van de laagafbeelding met het laagste laagnummer.
 
 Als u de afdrukresolutie instelt, verandert de pixelgrootte van de antwoordafbeelding niet.
 

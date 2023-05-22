@@ -2,12 +2,12 @@
 description: Hiermee wordt informatie over het opgegeven bedrijf geretourneerd, inclusief de greep van het bedrijf, de naam van het bedrijf, het hoofdpad en de vervaldatum. U moet of companyHandle of companyName specificeren waarvan informatie u wilt terugwinnen.
 solution: Experience Manager
 title: getCompanyInfo
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 72bd223b-c99a-48a3-9c0a-d1af392d904c
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
@@ -46,13 +46,13 @@ Syntaxis
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:tekenreeks</span> </p> </td> 
-   <td colname="col3"> <p>Of <span class="codeph"> <span class="varname"> companyHandle</span> </span> of <span class="codeph"> <span class="varname"> companyName</span> </span> is vereist. </p> </td> 
+   <td colname="col3"> <p>Willekeurig <span class="codeph"> <span class="varname"> companyHandle</span> </span> of <span class="codeph"> <span class="varname"> companyName</span> </span> is vereist. </p> </td> 
    <td colname="col4"> <p>De handgreep van het bedrijf waarvan informatie u wilt verkrijgen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:tekenreeks</span> </p> </td> 
-   <td colname="col3"> <p>Of <span class="codeph"> <span class="varname"> companyHandle</span> </span> of <span class="codeph"> <span class="varname"> companyName</span> </span> is vereist. </p> </td> 
+   <td colname="col3"> <p>Willekeurig <span class="codeph"> <span class="varname"> companyHandle</span> </span> of <span class="codeph"> <span class="varname"> companyName</span> </span> is vereist. </p> </td> 
    <td colname="col4"> <p>De naam van het bedrijf waarvan informatie u wilt verkrijgen. </p> </td> 
   </tr> 
  </tbody> 

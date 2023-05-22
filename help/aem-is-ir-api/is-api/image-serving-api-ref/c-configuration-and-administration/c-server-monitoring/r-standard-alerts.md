@@ -2,12 +2,12 @@
 description: De standaardalarm wordt verzonden met een geconsolideerd e-mailbericht aan het eind van het gevormde gemiddelde interval.
 solution: Experience Manager
 title: Standaardwaarschuwingen
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: eb691988-9f03-463f-bed5-2c230431f537
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ In de volgende tabel wordt elk type standaardwaarschuwing beschreven.
   <tr> 
    <td> <p>Hoog gelijktijdig </p> </td> 
    <td> <p>Conc </p> </td> 
-   <td> Wordt verzonden wanneer het aantal aanvragen dat gelijktijdig wordt verwerkt (de <i>overlapping</i>) de opgegeven drempel overschrijdt. Kan wijzen op een overbelastingsvoorwaarde voor de server. </td> 
+   <td> Wordt verzonden wanneer het aantal aanvragen dat gelijktijdig wordt verwerkt (de <i>overlappen</i>) de opgegeven drempel overschrijdt. Kan wijzen op een overbelastingsvoorwaarde voor de server. </td> 
   </tr> 
   <tr> 
    <td> <p>Minimumverkeer </p> </td> 

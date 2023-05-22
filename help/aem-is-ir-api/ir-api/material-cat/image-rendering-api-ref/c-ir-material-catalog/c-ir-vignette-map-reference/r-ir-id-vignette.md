@@ -2,12 +2,12 @@
 description: Vignetidentificatie. Indexsleutelwaarde waarmee records in het vignetkaartbestand door de server worden opgezocht.
 solution: Experience Manager
 title: Id
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5c0c8788-ffe5-4b42-86f6-6b4683dd7c21
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '96'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Typisch een kort en uniek herkenningsteken, zoals een aantal SKU. Dit kan ook ee
 
 ## Eigenschappen {#section-267bbf34677e4401abbaf6fdce52191b}
 
-Tekstreeks. Vereist. Primaire indexsleutel voor de tabel met vignetkaarten. Elke `vignette::Id`-waarde moet uniek zijn in de tabel en mag geen &#39;,&#39;-tekens bevatten.
+Tekstreeks. Vereist. Primaire indexsleutel voor de tabel met vignetkaarten. Elk `vignette::Id` Waarde moet uniek zijn in de tabel en mag geen &#39;,&#39;-tekens bevatten.
 
 ## Standaard {#section-736d3419b19045efa00887cb595b0337}
 

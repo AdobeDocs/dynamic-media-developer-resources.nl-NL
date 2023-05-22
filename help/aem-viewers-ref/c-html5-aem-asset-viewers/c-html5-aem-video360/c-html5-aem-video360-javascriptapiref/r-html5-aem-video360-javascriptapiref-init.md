@@ -20,7 +20,7 @@ JavaScript API-referentie voor Video360 Viewer.
 
 Start de initialisatie van de Video360 Viewer. Tegen deze tijd moet het container-DOM-element worden gemaakt, zodat de viewercode het met zijn id kan vinden.
 
-Als het containerelement nog geen deel uitmaakt van de webpaginalay-out (het kan bijvoorbeeld worden verborgen met de eraan toegewezen stijl `display:none`), onderbreekt de viewer het initialisatieproces. Dit gebeurt totdat de webpagina het containerelement weer in de layout plaatst. Wanneer deze gebeurtenis plaatsvindt, wordt het laden van de viewer automatisch hervat.
+Als het containerelement nog geen deel uitmaakt van de webpaginalay-out (bijvoorbeeld `display:none` stijl toegewezen), onderbreekt de viewer het initialisatieproces. Dit gebeurt totdat de webpagina het containerelement weer in de layout plaatst. Wanneer deze gebeurtenis plaatsvindt, wordt het laden van de viewer automatisch hervat.
 
 Roep deze methode slechts eenmaal aan tijdens de levenscyclus van de viewer; volgende aanroepen worden genegeerd.
 

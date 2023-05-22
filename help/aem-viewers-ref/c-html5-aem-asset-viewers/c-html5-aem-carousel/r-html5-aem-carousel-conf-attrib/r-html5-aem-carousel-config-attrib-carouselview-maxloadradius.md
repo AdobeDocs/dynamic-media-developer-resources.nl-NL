@@ -8,7 +8,7 @@ exl-id: 8a3d3d32-7970-420c-8ad8-296c9ba1f08a
 source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
 source-wordcount: '63'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 1%
 <table id="table_B3B03B00DCF0466DB332E851F4DDF610"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> -1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td> <p>Geeft het gedrag voor het vooraf laden van de component op. </p> <p>Wanneer ingesteld op <span class="codeph"> -1</span>, laadt de component alle carrouselframes vooraf wanneer deze niet-actief zijn. </p> <p>Wanneer ingesteld op <span class="codeph"> 0</span> laadt de component alleen het frame dat momenteel zichtbaar is, het vorige en het volgende frame. </p> <p><span class="codeph"><span class="varname"> Met </span></span>voorladen bepaalt u hoeveel onzichtbare frames rondom het momenteel weergegeven frame worden voorgeladen wanneer het frame niet actief is. </p> </td> 
+   <td> <p> <span class="codeph"> -1|0|<span class="varname"> voorlader</span></span> </p> </td> 
+   <td> <p>Geeft het gedrag voor het vooraf laden van de component op. </p> <p>Wanneer ingesteld op <span class="codeph"> -1</span> de component laadt alle carrouselframes vooraf wanneer deze inactief zijn. </p> <p>Wanneer ingesteld op <span class="codeph"> 0</span> de component laadt alleen het frame dat momenteel zichtbaar, vorig en volgend frame is. </p> <p><span class="codeph"><span class="varname"> voorlader</span></span>Hiermee bepaalt u hoeveel onzichtbare frames rondom het momenteel weergegeven frame worden voorgeladen wanneer het frame inactief is. </p> </td> 
   </tr> 
  </tbody> 
 </table>

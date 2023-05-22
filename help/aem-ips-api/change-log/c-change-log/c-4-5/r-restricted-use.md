@@ -2,12 +2,12 @@
 description: Deze nieuwe of gewijzigde bewerkingen en gegevenstypen die beschikbaar zijn in de bètaversie van WSDL, mogen niet worden gebruikt buiten Dynamic Media-toepassingen.
 solution: Experience Manager
 title: Beperkt gebruik
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6602c5bc-9f75-4885-ae14-cab14e6afa5e
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -52,57 +52,57 @@ Deze bewerkingen en typen zijn onderhevig aan uitschakelen, wijzigen of vervange
 
 **Gewijzigde typen**
 
-* Gewijzigd `ActiveJob` om een `createVideoSitemapJob` type op te nemen
+* Gewijzigd `ActiveJob` een `createVideoSitemapJob` type
 
-* Gewijzigd `ScheduledJob` om een `createVideoSitemapJob` type op te nemen
+* Gewijzigd `ScheduledJob` een `createVideoSitemapJob` type
 
-* `ImageServingPublishJob` gewijzigd om een optionele `contextHandle` op te nemen
+* Gewijzigd `ImageServingPublishJob` om een facultatieve `contextHandle`
 
-* `ImageRenderingPublishJob` gewijzigd om een optionele `contextHandle` op te nemen
+* Gewijzigd `ImageRenderingPublishJob` om een facultatieve `contextHandle`
 
-* `MetadataField` gewijzigd om een optionele `initialTagField` op te nemen
+* Gewijzigd `MetadataField` om een facultatieve `initialTagField`
 
-* `MetadataCondition` gewijzigd om de parameter `caseSensitive` op te nemen en op te tioneel te maken
+* Gewijzigd `MetadataCondition` om op te nemen en facultatief `caseSensitive` parameter
 
-* `PropertySet` gewijzigd om een optionele `PermissionArray` als `permissions` op te nemen
+* Gewijzigd `PropertySet` om een facultatieve `PermissionArray` als `permissions`
 
-* Gewijzigd `UploadDirectoryJob` om optionele parameters `xmpKeywords`, `xmpTemplateId` en `xmpTemplateOverride` op te nemen
+* Gewijzigd `UploadDirectoryJob` Optioneel opnemen `xmpKeywords`, `xmpTemplateId` en `xmpTemplateOverride` parameters
 
-* `VideoPublishJob` gewijzigd om een optionele `contextHandle` op te nemen
+* Gewijzigd `VideoPublishJob` om een facultatieve `contextHandle`
 
 **Gewijzigde bewerkingen**
 
-* `createAssetSet` gewijzigd om een optionele `thumbAssetHandle` op te nemen
+* Gewijzigd `createAssetSet` om een facultatieve `thumbAssetHandle`
 
-* `createImageSet` gewijzigd om een optionele `thumbAssetHandle` op te nemen
+* Gewijzigd `createImageSet` om een facultatieve `thumbAssetHandle`
 
-* `createMetadataField` gewijzigd om een optionele `initialTagValue`-parameter op te nemen
+* Gewijzigd `createMetadataField` om een facultatieve `initialTagValue` parameter
 
-* `createPropertySet` gewijzigd om een optionele `PermissionUpdateArray` als `permissionArray` op te nemen
+* Gewijzigd `createPropertySet` om een facultatieve `PermissionUpdateArray` als `permissionArray`
 
-* `getImageServingPublishSettings` gewijzigd om een optionele `contextHandle`-parameter op te nemen
+* Gewijzigd `getImageServingPublishSettings` om een facultatieve `contextHandle` parameter
 
-* `getImageRenderingPublishSettings` gewijzigd om een optionele `contextHandle`-parameter op te nemen
+* Gewijzigd `getImageRenderingPublishSettings` om een facultatieve `contextHandle` parameter
 
-* `searchAssetsByFullText` gewijzigd om een reeks optionele parameters op te nemen:
+* Gewijzigd `searchAssetsByFullText` een reeks facultatieve parameters op te nemen:
 
-   * `SearchFilter` as,  `filters` parameter
+   * `SearchFilter` als `filters` parameter
 
    * `sortBy`
    * `sortDirection`
 
-* `searchAssetsByMetadata` gewijzigd om een reeks optionele parameters op te nemen:
+* Gewijzigd `searchAssetsByMetadata` een reeks facultatieve parameters op te nemen:
 
-   * `SearchFilter` as,  `filters` parameter
+   * `SearchFilter` als `filters` parameter
 
    * `sortBy`
    * `sortDirection`
    * `haystackSearch` reeks van zeven parameters
 
-* `setAssetPublishState` gewijzigd om een optionele `HandleArray` als `contextHandleArray` op te nemen
+* Gewijzigd `setAssetPublishState` om een facultatieve `HandleArray` als `contextHandleArray`
 
-* `setImageServingPublishSettings` gewijzigd om een optionele `contextHandle`-parameter op te nemen
+* Gewijzigd `setImageServingPublishSettings` om een facultatieve `contextHandle` parameter
 
-* `setImageRenderingPublishSettings` gewijzigd om een optionele `contextHandle`parameter op te nemen
+* Gewijzigd `setImageRenderingPublishSettings` om een facultatieve `contextHandle`parameter
 
-* Gewijzigd `submitJob` om een optioneel `createVideoSitemap` taaktype op te nemen
+* Gewijzigd `submitJob` om een facultatieve `createVideoSitemap` taaktype

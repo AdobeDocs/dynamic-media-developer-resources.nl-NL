@@ -2,12 +2,12 @@
 description: Verlopen
 solution: Experience Manager
 title: Verlopen
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ee329834-a2a0-44fd-a0a5-7bf5a8e0a5a5
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,11 @@ Verlopen wordt gebruikt voor deze responstypen:
 * `req=userdata`
 * `req=map`
 
-Bepaalde typen reacties (bijvoorbeeld reacties op fouten) worden altijd gemarkeerd voor directe vervaldatum (of gecodeerd als niet-cachebaar), terwijl andere (bijvoorbeeld eigenschap of standaardafbeeldingsreacties) speciale vervalinstellingen gebruiken ( `attribute::NonImgExpiration` en `attribute::DefaultExpiration`).
+Bepaalde typen reacties (bijvoorbeeld reacties op fouten) worden altijd gemarkeerd voor directe vervaldatum (of gecodeerd als niet-cachebaar), terwijl andere (bijvoorbeeld eigenschappen of standaardafbeeldingsreacties) speciale vervalinstellingen gebruiken ( `attribute::NonImgExpiration` en `attribute::DefaultExpiration`).
 
 ## Eigenschappen {#section-7f5173d090cf48df8fa1a2c72b8c8c60}
 
-Reëel getal, -2, -1 of 0 of hoger. Aantal uren tot aan het verstrijken van de responsimage. Reeks aan 0 om altijd het antwoordbeeld onmiddellijk te verlopen, dat effectief cliënt caching onbruikbaar maakt. Ingesteld op -1 om te markeren als *`never expire`*. In dit geval retourneert de server altijd de 304-status (niet gewijzigd) als reactie op voorwaardelijke GET-aanvragen, zonder te controleren of het bestand daadwerkelijk is gewijzigd. Stel de waarde in op -2 om de standaardinstelling van `attribute::Expiration` te gebruiken.
+Reëel getal, -2, -1 of 0 of hoger. Aantal uren tot aan het verstrijken van de responsimage. Reeks aan 0 om altijd het antwoordbeeld onmiddellijk te verlopen, dat effectief cliënt caching onbruikbaar maakt. Instellen op -1 om te markeren als *`never expire`*. In dit geval retourneert de server altijd de 304-status (niet gewijzigd) als reactie op voorwaardelijke GET-aanvragen, zonder te controleren of het bestand daadwerkelijk is gewijzigd. Stel in op -2 om de standaardinstelling te gebruiken die wordt geboden door `attribute::Expiration`.
 
 ## Standaard {#section-ec72cc1dfc5e4f278174d37da2e39462}
 
@@ -38,4 +38,4 @@ Reëel getal, -2, -1 of 0 of hoger. Aantal uren tot aan het verstrijken van de r
 
 ## Zie ook {#section-0e5e8595aad641c689726828712a8902}
 
-[attribute::Expiration](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-expiration.md#reference-a0bf4686425d4e00b8014c4950fb62b7),  [attribute::DefaultExpiration](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultexpiration.md#reference-0526166fab654fceb243b75d1ea4f0cf),  [attribute::NonImgExpiration](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-nonimgexpiration.md#reference-a8066cd0d24b4ea98100ade4821f1f9d),  [req=](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76)
+[kenmerk::Expiration](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-expiration.md#reference-a0bf4686425d4e00b8014c4950fb62b7), [kenmerk::DefaultExpiration](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultexpiration.md#reference-0526166fab654fceb243b75d1ea4f0cf), [kenmerk::NonImgExpiration](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-nonimgexpiration.md#reference-a8066cd0d24b4ea98100ade4821f1f9d), [req=](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76)

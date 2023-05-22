@@ -31,19 +31,19 @@ De volgende CSS-klassenkiezer bepaalt de vormgeving van de knop:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Positie vanaf de bovenrand, inclusief opvulling. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
    <td colname="col2"> <p>Positie vanaf de rechterrand, inclusief opvulling. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
    <td colname="col2"> <p>Positie vanaf de linkerrand, inclusief opvulling. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
    <td colname="col2"> <p> Positie vanaf de onderrand, inclusief opvulling. </p> </td> 
   </tr> 
   <tr> 
@@ -51,15 +51,15 @@ De volgende CSS-klassenkiezer bepaalt de vormgeving van de knop:
    <td colname="col2"> <p>Breedte van de knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hoogte van de knop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
    <td colname="col2"> <p>De afbeelding die voor een bepaalde knopstatus wordt weergegeven. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -67,13 +67,13 @@ De volgende CSS-klassenkiezer bepaalt de vormgeving van de knop:
 
 >[!NOTE]
 >
->Deze knoop steunt zowel `state`, `selected`, als `replay` attribuutselecteurs, die kunnen worden gebruikt om verschillende huiden op verschillende knoopstaten toe te passen. Met name `selected='true'` komt overeen met de status &quot;play&quot; en `selected='false'` komt overeen met de status &quot;pause&quot;;
+>Deze knop ondersteunt beide `state`, `selected`, en `replay` kenmerkkiezers, die kunnen worden gebruikt om verschillende skins toe te passen op verschillende knoptoestanden. Met name: `selected='true'` komt overeen met de status &quot;play&quot; en `selected='false'` komt overeen met de pauzestatus;
 >
->De kenmerkenkiezer `replay='true'` wordt geplaatst wanneer de video het eind heeft bereikt en het selecteren van de knoop begint playback van het begin opnieuw.
+>De kenmerkenkiezer `replay='true'` wordt ingesteld wanneer de video het einde heeft bereikt en wanneer u de knop selecteert, wordt het afspelen vanaf het begin opnieuw gestart.
 
-De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) voor meer informatie.
+De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) voor meer informatie .
 
-**Voorbeeld**  - Een afspeel-/pauzeknop van 32 x 32 pixels instellen. Laat het zich op zes pixels van de boven- en linkerrand van de besturingsbalk bevinden. En ten slotte wordt voor elk van de vier verschillende knoptoestanden een andere afbeelding weergegeven wanneer deze is geselecteerd of niet.
+**Voorbeeld** - Een afspeel-/pauzeknop van 32 x 32 pixels instellen. Laat het zich op zes pixels van de boven- en linkerrand van de besturingsbalk bevinden. En ten slotte wordt voor elk van de vier verschillende knoptoestanden een andere afbeelding weergegeven wanneer deze is geselecteerd of niet.
 
 ```
 .s7video360viewer .s7playpausebutton { 

@@ -2,12 +2,12 @@
 description: Alle cataloguskenmerken zijn optioneel, behalve basis-id van catalogus.
 solution: Experience Manager
 title: Kenmerken
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d0c8e808-d887-4bad-bbb5-f36a19ab4df2
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Alle cataloguskenmerken zijn optioneel, behalve catalogus::RootId.
 
-Alle kenmerken zijn vereist in het standaardbestand voor cataloguskenmerken ( [!DNL default.ini]).
+Alle kenmerken zijn vereist in het standaard cataloguskenmerkbestand ( [!DNL default.ini]).
 
 * [AllowDirectAccess](r-allowdirectaccess.md)
 * [AllowDirectUrls](r-allowdirecturls.md)

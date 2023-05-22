@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: ff57762e-05f5-41c1-956f-39280941eeb1
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 1%
+source-wordcount: '65'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td> <p>Specificeert het beeldformaat dat de component voor het laden van beelden van de Server van het Beeld gebruikt. Het kan om het even welke waarde zijn die de Server van het Beeld en cliëntbrowser steunt. Als de opgegeven indeling eindigt met <span class="codeph"> -alpha</span>, rendert de component afbeeldingen als transparante inhoud. Voor alle andere afbeeldingsindelingen behandelt de component afbeeldingen als dekkend. </p> </td> 
+   <td> <p>Specificeert het beeldformaat dat de component voor het laden van beelden van de Server van het Beeld gebruikt. Het kan om het even welke waarde zijn die de Server van het Beeld en cliëntbrowser steunt. Als de opgegeven indeling eindigt met <span class="codeph"> -alpha</span>, worden afbeeldingen door de component als transparante inhoud gerenderd. Voor alle andere afbeeldingsindelingen behandelt de component afbeeldingen als dekkend. </p> </td> 
   </tr> 
  </tbody> 
 </table>

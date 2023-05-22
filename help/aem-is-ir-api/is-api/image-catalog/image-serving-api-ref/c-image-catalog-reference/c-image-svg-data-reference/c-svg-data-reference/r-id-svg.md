@@ -2,12 +2,12 @@
 description: Id
 solution: Experience Manager
 title: Id
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d7b37180-cc93-41cd-bf14-5c262b046fbc
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Gewoonlijk is dit een korte en unieke id, zoals een SKU-nummer, mogelijk met een
 
 ## Eigenschappen {#section-874a6853f67b4b229341ca76682884ae}
 
-Tekstreeks. Vereist. Record-id voor de tabel met afbeeldings-/SVG- of statische inhoudsgegevens. Elke `catalog::Id`-waarde in deze afbeeldingscatalogus/SVG-catalogus of in deze statische inhoudscatalogus moet uniek zijn en mag geen &#39;,&#39;-tekens bevatten.
+Tekstreeks. Vereist. Record-id voor de tabel met afbeeldings-/SVG- of statische inhoudsgegevens. Elk `catalog::Id` De waarde in deze afbeeldingscatalogus/SVG-catalogus of in deze catalogus met statische inhoud moet uniek zijn en mag geen &#39;,&#39;-tekens bevatten.
 
 ## Standaard {#section-a26e7d83a5ee44b5918baef82ee48e14}
 

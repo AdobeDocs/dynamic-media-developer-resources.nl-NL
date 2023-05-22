@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 0dc195ee-9229-40a3-ad8b-8f00c2c9ff97
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Syntaxis
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> contextHandleArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Codewoordgroep  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Codewoordgroep </span> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
   </tr> 

@@ -2,12 +2,12 @@
 description: Hoofdpad voor saveToFile=. Relatief pad voor de hoofdmap waarnaar afbeeldingen die zijn gegenereerd met req=saveToFile, moeten worden geschreven.
 solution: Experience Manager
 title: SavePath
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6e2814b9-898f-4cf4-8e4f-aa972d554213
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Hoofdpad voor saveToFile=. Relatief pad voor de hoofdmap waarnaar afbeeldingen d
 
 ## Eigenschappen {#section-343d1371e966491c92854a8df14c3c50}
 
-Tekstreeks. Moet leeg zijn of een geldig relatief mappad. Altijd gecombineerd met de absolute wortelweg die met `ImageServer::SaveDirectory` wordt gevormd.
+Tekstreeks. Moet leeg zijn of een geldig relatief mappad. Altijd gecombineerd met het absolute hoofdpad dat is geconfigureerd met `ImageServer::SaveDirectory`.
 
 ## Standaard {#section-ae751eea97654f399c6aaee3f3252cbb}
 

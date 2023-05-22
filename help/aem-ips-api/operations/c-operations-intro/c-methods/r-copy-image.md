@@ -2,12 +2,12 @@
 description: Hiermee maakt u een kopie van een bestaand afbeeldingselement. De gespecificeerde het protocolbevelen van de Server van het Beeld worden toegepast om het nieuwe exemplaar te produceren
 solution: Experience Manager
 title: copyImage
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 059ebbca-2341-444b-850a-1ec9582692ec
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---

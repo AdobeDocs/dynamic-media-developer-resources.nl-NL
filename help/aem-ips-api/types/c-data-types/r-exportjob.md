@@ -8,7 +8,7 @@ exl-id: f0266b9f-c6e0-4843-b002-0bc068d43424
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ Taaktype om geoorloofde export van eerder geüploade bestanden toe te staan.
 
 De volgende elementtypen worden niet door ExportJob ondersteund:
 
-* Afbeeldingsets
+* Afbeeldingssets
 * Rendersets
 * Sets draaien
 * Mediasets

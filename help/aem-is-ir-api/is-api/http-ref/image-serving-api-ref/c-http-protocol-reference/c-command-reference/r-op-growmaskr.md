@@ -2,12 +2,12 @@
 description: Afbeelding vervagen/eroderen. Past een morfologische dilaat (straal > 0) of erode (straal < 0) op de maskergegevens toe.
 solution: Experience Manager
 title: op_growMaskR
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7abfbccf-8bcf-44d4-b50a-eca7a3f11360
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Afbeelding vervagen/eroderen. Past een morfologische dilaat (straal > 0) of erod
 <table id="simpletable_3BAA4523D29E447FA7A4C9009B3E8344"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> radiusR</span></span> </p> </td> 
-  <td class="stentry"> <p>Straal verwateren/eroderen in pixels waarin <span class="codeph"><span class="varname"> radiusR</span></span> ongewijzigd wordt toegepast, ongeacht of het masker is gedownsampled (int -100..100). </p></td> 
+  <td class="stentry"> <p>Straal drogen/eroderen in pixels waarin <span class="codeph"><span class="varname"> radiusR</span></span> wordt toegepast zoals is, ongeacht of het masker is gedownsampled (int -100..100). </p></td> 
  </tr> 
 </table>
 
@@ -29,7 +29,7 @@ Primair gebruikt om een masker lichtjes te kweken of te krimpen om artefacten ro
 
 ## Eigenschappen {#section-b1c66d65168d4ea695e8662ea690bd4e}
 
-Is van toepassing op de huidige laag of op laag `0` als `layer=comp`.
+Is van toepassing op de huidige laag of op de laag `0` indien `layer=comp`.
 
 ## Standaard {#section-14c908bb87cb42acbea709effea2f964}
 

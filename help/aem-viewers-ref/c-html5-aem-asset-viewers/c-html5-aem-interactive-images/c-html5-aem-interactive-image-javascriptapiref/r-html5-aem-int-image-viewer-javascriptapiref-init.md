@@ -20,7 +20,7 @@ JavaScript API-referentie voor Interactive Image Viewer.
 
 Start de initialisatie van de Interactive Image Viewer. Tegen deze tijd moet het container-DOM-element worden gemaakt, zodat de viewercode het met zijn id kan vinden.
 
-Als het containerelement nog geen deel uitmaakt van de webpaginalay-out - het kan bijvoorbeeld worden verborgen met de stijl `display:none` die eraan is toegewezen - onderbreekt de viewer het initialisatieproces. Dit gebeurt totdat de webpagina het containerelement weer in de layout plaatst. Wanneer deze actie wordt uitgevoerd, wordt het laden van de viewer automatisch hervat.
+Als het containerelement nog geen deel uitmaakt van de webpaginalay-out, kan het bijvoorbeeld worden verborgen met `display:none` stijl die eraan is toegewezen - de viewer onderbreekt het initialisatieproces. Dit gebeurt totdat de webpagina het containerelement weer in de layout plaatst. Wanneer deze actie wordt uitgevoerd, wordt het laden van de viewer automatisch hervat.
 
 Roep deze methode slechts eenmaal aan tijdens de levenscyclus van de viewer; volgende aanroepen worden genegeerd.
 

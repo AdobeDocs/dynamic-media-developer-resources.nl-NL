@@ -8,7 +8,7 @@ exl-id: e5a56195-c3ca-4748-aef6-e1f143ac254d
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
 source-wordcount: '124'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ Configuration attribute for Video360 Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|progressief</span> </p> </td> 
-   <td colname="col2"> <p> Hiermee stelt u het type afspelen in dat door de viewer wordt gebruikt. </p> <p>Wanneer <span class="codeph"> auto</span> wordt geplaatst, in de meeste Desktopbrowsers en alle apparaten van iOS, gebruikt de kijker HTML5 het stromen video in formaat HLS. En het komt terug bij progressieve HTML5 playback op bepaalde systemen zoals oudere Internet Explorer en Android™. </p> <p>Wanneer <span class="codeph"> progressief</span> wordt geplaatst, baseert de kijker zich slechts op HTML5 playback als oorspronkelijk gesteund door browsers en speelt progressief video op alle systemen. </p> <p>Raadpleeg de gebruikershandleiding bij de HTML5 Viewers SDK voor meer informatie over de afspeelselectie in de native modi <span class="codeph"> auto</span> en <span class="codeph"> progressief</span>. </p> </td> 
+   <td colname="col2"> <p> Hiermee stelt u het type afspelen in dat door de viewer wordt gebruikt. </p> <p>Wanneer <span class="codeph"> auto</span> is ingesteld, gebruikt de viewer in de meeste desktopbrowsers en alle iOS-apparaten HTML5-streaming video in HLS-indeling. En het komt terug bij progressieve HTML5 playback op bepaalde systemen zoals oudere Internet Explorer en Android™. </p> <p>Wanneer <span class="codeph"> progressief</span> is ingesteld, is de viewer alleen afhankelijk van het afspelen van HTML5 als dit wordt ondersteund door browsers en wordt de video progressief afgespeeld op alle systemen. </p> <p>Voor meer informatie over de afspeelselectie in <span class="codeph"> auto</span> en <span class="codeph"> progressief</span> native modi, zie de gebruikershandleiding van de HTML5 Viewers SDK. </p> </td> 
   </tr> 
  </tbody> 
 </table>

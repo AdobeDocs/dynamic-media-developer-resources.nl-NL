@@ -32,7 +32,7 @@ Uitlijning van structuurrenderen. Hiermee geeft u op welke oorsprongpunten door 
   <td class="stentry"> <p>Willekeurige uitlijning. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3,6 </p></td> 
+  <td class="stentry"> <p>3..6 </p></td> 
   <td class="stentry"> <p>Door gebruiker gedefinieerde oorsprong. </p></td> 
  </tr> 
 </table>

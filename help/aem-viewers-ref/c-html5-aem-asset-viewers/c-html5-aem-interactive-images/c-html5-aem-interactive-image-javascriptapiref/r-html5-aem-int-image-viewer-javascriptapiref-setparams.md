@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 6a09e3bc-e79c-4206-be42-0c6ae3d91590
 source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ JavaScript API-referentie voor Video Image Viewer.
 
 ` setParams( *`param`*)`
 
-Stelt een of meer parameters in op een bepaalde waarde. De syntaxis van het methodeargument is identiek aan een URL vraagkoord. Namelijk vertegenwoordigt het naam=waarde paren die met `&` worden gescheiden. In een queryreeks zijn de namen en waarden procentueel gecodeerd met UTF8. Voordat u `init()` aanroept, moet deze parameter worden aangeroepen.
+Stelt een of meer parameters in op een bepaalde waarde. De syntaxis van het methodeargument is identiek aan een URL vraagkoord. Namelijk vertegenwoordigt het naam=waarde paren die met worden gescheiden `&`. In een queryreeks zijn de namen en waarden procentueel gecodeerd met UTF8. Voordat u belt `init()`, moet deze parameter worden aangeroepen.
 
-Deze methode is optioneel als de configuratiegegevens van de viewer samen met het JSON-object `config` zijn doorgegeven aan de constructor.
+Deze methode is optioneel als de configuratiegegevens van de viewer zijn doorgegeven met `config` JSON-object naar constructor.
 
 Zie ook [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
@@ -30,7 +30,7 @@ Zie ook [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-abou
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> param</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value parameterparen gescheiden met  <span class="codeph"> &amp;</span>. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value parameterparen gescheiden met <span class="codeph"> &amp;</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: fd1fa0f2-d666-4470-8b5b-673f3c4327e0
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 1%
+source-wordcount: '57'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> isCommand</span></span> </p> </td> 
-   <td colname="col2"> <p> De opdrachtreeks voor Beeldbewerking die wordt toegepast op de pagina-afbeelding. Indien opgegeven in de URL moeten alle exemplaren van <span class="codeph"> &amp;</span> en <span class="codeph"> =</span> HTTP-gecodeerd zijn als <span class="codeph"> %26</span> respectievelijk <span class="codeph"> %3D</span>. </p> <p> <p>Opmerking:  Bewerkingsopdrachten voor afbeeldingsgrootte worden niet ondersteund. </p> </p> </td> 
+   <td colname="col2"> <p> De opdrachtreeks voor Beeldbewerking die wordt toegepast op de pagina-afbeelding. Indien opgegeven in de URL, alle instanties van <span class="codeph"> &amp;</span> en <span class="codeph"> =</span> moet HTTP-gecodeerd zijn als <span class="codeph"> %26</span> en <span class="codeph"> %3D</span>, respectievelijk. </p> <p> <p>Opmerking: Bewerkingsopdrachten voor afbeeldingsgrootte worden niet ondersteund. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -74,7 +74,7 @@ De schuiffunctie wordt ingeschakeld voor de hoofdbesturingsbalk en is uitgeschak
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> positie </span> </p> </td> 
    <td colname="col2"> <p>Wanneer ingesteld op <span class="codeph"> static </span> de schuiffunctie is uitgeschakeld. </p> <p>Deze eigenschap instellen op <span class="codeph"> absoluut </span> om de schuiffunctie in te schakelen. </p> </td> 
   </tr> 
  </tbody> 

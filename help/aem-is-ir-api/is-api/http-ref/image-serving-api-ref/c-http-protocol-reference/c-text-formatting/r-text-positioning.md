@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # Tekstpositionering{#text-positioning}
 
-De renderer `text=` positioneert tekst fundamenteel verschillend dan de renderer textPs= wanneer toegepast op presize lagen (d.w.z. wanneer size= ook wordt gespecificeerd).
+De `text=` renderer plaatst tekst fundamenteel anders dan de textPs= renderer wanneer toegepast op presize lagen (d.w.z. wanneer size= ook wordt gespecificeerd).
 
-Zelf formaat `text=`en `textPs=` lagen hebben gelijkaardige verschijning en het plaatsen.
+Zelfaanpassing `text=`en `textPs=` lagen hebben een vergelijkbare vormgeving en positie.
 
-`textPs=` lijnt de bovenkant van de karaktercel met de bovenkant van het tekstvakje (veronderstellend `\vertalt`) uit, zelfs als het in delen van de teruggegeven tekstglyphs die zich gedeeltelijk buiten de grens van het tekstvakje uitbreiden. Gegenereerde glyphs van bepaalde lettertypen kunnen ook iets buiten de linker- en rechterrand van het tekstvak uitsteken. Voor toepassingen die vereisen dat alle gerenderde tekst zich binnen de laagrechthoek moet bevinden, kunnen de RTF `\marg*` bevelen of `textFlowPath=` worden gebruikt om het tekst terug te geven gebied aan te passen.
+De `textPs=` Hiermee wordt de bovenkant van de tekencel uitgelijnd met de bovenkant van het tekstvak (uitgaande van `\vertalt`), zelfs als het resultaat is dat delen van de weergegeven tekstglyphs zich gedeeltelijk buiten de grens van het tekstvak uitstrekken. Gegenereerde glyphs van bepaalde lettertypen kunnen ook iets buiten de linker- en rechterrand van het tekstvak uitsteken. Voor toepassingen waarbij alle gerenderde tekst zich in de laagrechthoek moet bevinden, wordt de RTF `\marg*` opdrachten of `textFlowPath=` kan worden gebruikt om het tekstrendergebied aan te passen.
 
-Met `text=` daarentegen wordt de gerenderde tekst naar wens verschoven en wordt gegarandeerd dat alle gerenderde glyphs volledig binnen het opgegeven tekstvak passen.
+Daarentegen `text=` Hiermee wordt de gerenderde tekst zo nodig verplaatst en wordt gegarandeerd dat alle gerenderde glyphs volledig binnen het opgegeven tekstvak passen.
 
-Hoewel `text=` iets gemakkelijker te gebruiken is voor eenvoudige toepassingen, biedt `textPs=` nauwkeurige positionering onafhankelijk van lettertypen en teksteffecten.
+while `text=` is wellicht iets gemakkelijker te gebruiken voor eenvoudige toepassingen, `textPs=` biedt nauwkeurige positionering, onafhankelijk van lettertypen en teksteffecten.
 
 ## Voorbeelden {#section-1b6bdf2ea34447528188ae4e1430ee71}
 
@@ -34,19 +34,19 @@ De volgende voorbeelden zijn voor tekst van vooraf formaat. Het gedrag voor teks
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20Normal%20Normal`
 
-** `textPs=` geeft de tekst strak uitgelijnd op de bovenkant van het tekstvak. Dit leidt tot een kleine bijsnijding, zelfs voor gewone lettertypen zoals Arial®:**
+** `textPs=` Hiermee wordt tekst strak uitgelijnd op de bovenkant van het tekstvak, wat resulteert in een kleine bijgesneden tekst, zelfs voor algemene lettertypen zoals Arial®:**
 
 ![Voorbeeld van tekstpositionering van twee afbeeldingen](assets/tp02.png)
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&textPs=\fs40Normal%20Normal%20Normal`
 
-** `text=` verplaatst de weergegeven tekst automatisch omlaag om bijsnijden te voorkomen:**
+** `text=` Hiermee wordt gerenderde tekst automatisch omlaag verplaatst om bijsnijden te voorkomen:**
 
 ![Voorbeeld van tekstpositionering van drie afbeeldingen](assets/tp03.png)
 
 `/is/image?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20{\up20Raised%20}Normal`
 
-** `textPs=` verplaatst geen tekst met verheven gedeelten. Dit leidt tot aanzienlijk bijsnijden als de tekst zich op laag 0 bevindt:**
+** `textPs=` verplaatst geen tekst die verhoogde gedeelten bevat, wat resulteert in aanzienlijk bijsnijden als de tekst zich op laag 0 bevindt:**
 
 ![Voorbeeld van tekstpositionering van vier afbeeldingen](assets/tp04.png)
 

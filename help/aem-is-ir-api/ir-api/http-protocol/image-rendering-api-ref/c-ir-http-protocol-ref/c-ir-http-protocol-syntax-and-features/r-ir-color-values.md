@@ -41,12 +41,12 @@ Enkele voorbeelden van geldige kleurspecificaties en de bijbehorende kleurwaarde
 
 <table id="simpletable_837B3173020240A5B7B2DB2F4CC57352"> 
  <tr class="strow"> 
-  <td class="stentry"> <p>0 100 200 </p></td> 
+  <td class="stentry"> <p>0,100,200 </p></td> 
   <td class="stentry"> <p>(0,100,200) </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>128 </p></td> 
-  <td class="stentry"> <p>(128 128 128) </p></td> 
+  <td class="stentry"> <p>(128,128,128) </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>0x010203 </p></td> 
@@ -54,7 +54,7 @@ Enkele voorbeelden van geldige kleurspecificaties en de bijbehorende kleurwaarde
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>00b1c2 </p></td> 
-  <td class="stentry"> <p>(160 177 194) </p></td> 
+  <td class="stentry"> <p>(160,177,194) </p></td> 
  </tr> 
 </table>
 

@@ -2,12 +2,12 @@
 description: Bestandspad voor lettertypemetriek. Pad en naam van een bestand met maatgegevens voor lettertypen, inclusief bestandsachtervoegsel.
 solution: Experience Manager
 title: MetricsPath
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0f1f98a5-b53b-4e20-b4c8-e70482b01a04
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---

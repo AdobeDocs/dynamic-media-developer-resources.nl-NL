@@ -39,11 +39,11 @@ De vormgeving van het weergavegebied wordt bepaald door de volgende CSS-klassenk
    <td colname="col2"> <p>De breedte van de viewer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>De hoogte van de viewer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Achtergrondkleur in hexadecimale notatie. </p> </td> 
   </tr> 
  </tbody> 
@@ -51,7 +51,7 @@ De vormgeving van het weergavegebied wordt bepaald door de volgende CSS-klassenk
 
 ## Voorbeeld {#section-ee18025b182a42dc98052de5f133ddfe}
 
-Een viewer instellen met een witte achtergrond ( `#FFFFFF`) en de grootte ervan instellen op 512 x 288 pixels.
+Een viewer instellen met een witte achtergrond ( `#FFFFFF`) en maakt het formaat 512 x 288 pixels.
 
 ```
 .s7video360viewer { 

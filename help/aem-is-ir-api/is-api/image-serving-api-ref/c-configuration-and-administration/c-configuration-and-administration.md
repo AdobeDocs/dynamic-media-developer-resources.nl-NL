@@ -2,12 +2,12 @@
 description: Gebruik de informatie in deze sectie om uw Server van het Beeld te vormen en te beheren.
 solution: Experience Manager
 title: Configuratie en beheer
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: fa02b6f7-777f-4c4d-a959-0f0d0fc96774
 source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '57'
 ht-degree: 0%
 
 ---

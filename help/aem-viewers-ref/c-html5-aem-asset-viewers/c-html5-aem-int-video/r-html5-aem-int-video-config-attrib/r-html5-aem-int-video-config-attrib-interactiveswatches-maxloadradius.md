@@ -8,7 +8,7 @@ exl-id: 16c9c70a-352d-4a21-bb14-2f9e266a83e8
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '67'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -21,8 +21,8 @@ Configuration attribute for Interactive Video Viewer.
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">1|0|<span class="varname"> voorlaad</span></span> </p> </td> 
-   <td colname="col2"> <p> Geeft het gedrag voor het vooraf laden van de component op. </p> <p>Wanneer ingesteld op <span class="codeph"> -1</span> worden alle stalen tegelijkertijd geladen wanneer de component wordt geïnitialiseerd of het element wordt gewijzigd. </p> <p>Wanneer ingesteld op <span class="codeph"> 0</span>, worden alleen zichtbare stalen geladen. </p> <p>Stel dit in op <span class="codeph"><span class="varname"> voorlader</span></span> om te bepalen hoeveel onzichtbare rijen/kolommen rondom het zichtbare gebied worden voorgeladen. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">1|0|<span class="varname"> voorlader</span></span> </p> </td> 
+   <td colname="col2"> <p> Geeft het gedrag voor het vooraf laden van de component op. </p> <p>Wanneer ingesteld op <span class="codeph"> -1</span> alle stalen worden tegelijkertijd geladen wanneer de component wordt geïnitialiseerd of het element wordt gewijzigd. </p> <p>Wanneer ingesteld op <span class="codeph"> 0</span> alleen zichtbare stalen worden geladen. </p> <p>Instellen op <span class="codeph"><span class="varname"> voorlader</span></span> om te bepalen hoeveel onzichtbare rijen/kolommen rond het zichtbare gebied worden vooraf geladen. </p> </td> 
   </tr> 
  </tbody> 
 </table>

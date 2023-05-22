@@ -2,12 +2,12 @@
 description: Wordt gebruikt door PostScriptOptions/ColorSpace.
 solution: Experience Manager
 title: PostScript-kleurruimtemodi
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1083ee53-f9ba-4afe-a62f-98db11c74137
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '21'
+source-wordcount: '16'
 ht-degree: 0%
 
 ---

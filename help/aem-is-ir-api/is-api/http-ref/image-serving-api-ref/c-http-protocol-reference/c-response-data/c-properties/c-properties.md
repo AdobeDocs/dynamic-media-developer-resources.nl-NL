@@ -2,26 +2,26 @@
 description: Eigenschapsgegevens worden geretourneerd als reactie op verschillende typen req=.
 solution: Experience Manager
 title: Eigenschappen
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 748f68a1-f3ec-4249-a257-1115bcb3ee4c
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '48'
 ht-degree: 0%
 
 ---
 
 # Eigenschappen{#properties}
 
-Eigenschapsgegevens worden geretourneerd als reactie op de volgende typen `req=`:
+Eigenschapsgegevens worden geretourneerd als reactie op het volgende: `req=` typen:
 
 * `catalogprops`
 * `imageprops`
 * `props`
 * `userdata`
 
-`userdata` reacties worden alleen opgemaakt als eigenschappen als de inhoud van de eigenschappen de indeling  `catalog::UserData` volgt.
+`userdata` reacties worden alleen opgemaakt als eigenschappen wanneer de inhoud van `catalog::UserData` volgt de eigenschappen-indeling.
 
 * [Eigenschappen van Text (Java)](r-text-java-properties.md)
 * [JavaScript-eigenschappen](r-javascript-properties.md)

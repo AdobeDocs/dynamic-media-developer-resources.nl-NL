@@ -2,12 +2,12 @@
 description: Paden voor afbeeldingsgegevensbestanden. Hier geeft u de bestanden op die de afbeeldingsgegevens voor deze catalogus bevatten.
 solution: Experience Manager
 title: CatalogFile
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 240a3884-68dd-474c-83a6-d79fc5b6c300
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '108'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Paden voor afbeeldingsgegevensbestanden. Hier geeft u de bestanden op die de afbeeldingsgegevens voor deze catalogus bevatten.
 
-Afbeeldingsgegevensbestanden worden in de opgegeven volgorde geladen. Als dezelfde `catalog::Id`-waarde voorkomt in meer dan één record (in dezelfde of in verschillende catalogusbestanden), heeft de laatste instantie voorrang.
+Afbeeldingsgegevensbestanden worden in de opgegeven volgorde geladen. Indien dezelfde `catalog::Id` De waarde komt voor in meer dan één verslag (of in zelfde of verschillende catalogusdossiers), de laatste instantie prevaleert.
 
 ## Eigenschappen {#section-6da55f145ecd4e31a5de52637a436983}
 

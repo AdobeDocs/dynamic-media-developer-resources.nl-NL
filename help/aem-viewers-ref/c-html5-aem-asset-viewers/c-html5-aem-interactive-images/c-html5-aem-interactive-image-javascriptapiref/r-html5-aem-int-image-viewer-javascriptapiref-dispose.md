@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 8af8506e-6b29-45ea-a70b-3eb3b2995047
 source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ Hiermee wordt deze viewerinstantie verwijderd door alle bronnen die door de view
 
 De webpaginacode moet ook de viewerinstantievariabele verwijderen om de viewer volledig uit het webbrowsergeheugen te verwijderen.
 
-Als de webpaginacode gebeurtenislisteners rechtstreeks heeft geregistreerd in Viewer SDK-componenten die door de viewer worden gebruikt - of externe referenties naar dergelijke componenten heeft opgeslagen - moeten deze listeners expliciet door de webpaginacode worden verwijderd. En, moeten dergelijke externe componentenverwijzingen worden geschrapt alvorens `dispose()` te roepen.
+Als de webpaginacode gebeurtenislisteners rechtstreeks heeft geregistreerd in Viewer SDK-componenten die door de viewer worden gebruikt - of externe referenties naar dergelijke componenten heeft opgeslagen - moeten deze listeners expliciet door de webpaginacode worden verwijderd. En, moeten dergelijke externe componentenverwijzingen alvorens te roepen worden geschrapt `dispose()`.
 
-Open de viewer-API niet meer nadat `dispose()` is aangeroepen.
+Geen toegang meer tot de viewer-API na `dispose()` wordt aangeroepen.
 
 ## Parameters {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

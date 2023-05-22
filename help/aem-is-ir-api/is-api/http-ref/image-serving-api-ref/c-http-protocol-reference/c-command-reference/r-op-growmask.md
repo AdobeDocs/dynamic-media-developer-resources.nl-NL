@@ -2,12 +2,12 @@
 description: Afbeelding vervagen/eroderen. Past een morfologische dilaat (straal > 0) of erode (straal < 0) op de maskergegevens toe.
 solution: Experience Manager
 title: op_kwekenMasker
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 322d97af-bb1b-44bb-90f1-cda9984b78b5
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Primair gebruikt om een masker lichtjes te kweken of te krimpen om artefacten ro
 
 ## Eigenschappen {#section-b1c66d65168d4ea695e8662ea690bd4e}
 
-Is van toepassing op de huidige laag of op laag `0` als `layer=comp`.
+Is van toepassing op de huidige laag of op de laag `0` indien `layer=comp`.
 
 ## Standaard {#section-14c908bb87cb42acbea709effea2f964}
 

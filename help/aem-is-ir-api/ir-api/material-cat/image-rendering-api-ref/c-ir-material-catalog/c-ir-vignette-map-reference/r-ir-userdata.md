@@ -2,13 +2,13 @@
 description: Gebruikersgegevens. De server retourneert de inhoud van dit veld naar de client als reactie op req=userdata.
 solution: Experience Manager
 title: Gebruikersgegevens *
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e8ec11af-9448-4796-a43d-0fb9841469dd
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 1%
+source-wordcount: '64'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Gebruikersgegevens. De server retourneert de inhoud van dit veld naar de client als reactie op req=userdata.
 
-Nieuwe regels kunnen worden beschermd met &#39;??&#39;. De server vervangt &#39;?? met `<cr><lf>` voordat de inhoud van dit veld wordt geretourneerd.
+Nieuwe regels kunnen worden beschermd met &#39;??&#39;. De server vervangt &#39;?? with `<cr><lf>` voordat de inhoud van dit veld wordt geretourneerd.
 
 ## Eigenschappen {#section-4e3904e047a84cc790ce77c56d3e0b21}
 

@@ -8,7 +8,7 @@ exl-id: 08125f45-38cb-45bb-bc29-c767f4d0aed9
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -29,5 +29,5 @@ Syntaxis
 | width | `xsd:int` | Breedte van zoomdoel. |
 | height | `xsd:int` | Hoogte doel zoomen. |
 | userData | `xsd:string` | Gebruikersgegevens die zijn gekoppeld aan het doel Zoomen. |
-| position | `xsd:int` | Hiermee worden zoomdoelen die zijn gekoppeld aan een element, op basis van de positie geordend |
+| positie | `xsd:int` | Hiermee worden zoomdoelen die zijn gekoppeld aan een element, op basis van de positie geordend |
 | lastModified | `xsd:dateTime` | Datum van laatste wijziging. |

@@ -2,12 +2,12 @@
 description: Laaguitknippad. Hiermee geeft u een clippad voor de huidige laag op.
 solution: Experience Manager
 title: clipPath
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 86c87cd1-6e08-40cb-80e6-35a9f49b6572
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Laaguitknippad. Hiermee geeft u een clippad voor de huidige laag op.
 
 `clipPath= *`pathDefinition`*`
 
-`clipPathE= *``*&#42;[, *`pathNamepathName`*]`
+`clipPathE= *`pathName`*&#42;[, *`pathName`*]`
 
 <table id="simpletable_275E2A5FAB804C6388BD110D2ACA3C82"> 
  <tr class="strow"> 
@@ -31,25 +31,25 @@ Laaguitknippad. Hiermee geeft u een clippad voor de huidige laag op.
  </tr> 
 </table>
 
-Alle delen van de laag die buiten het gebied vallen dat wordt gedefinieerd door `clipPath=`, worden transparant gemaakt.
+Om het even welke delen van de laag die buiten het gebied vallen dat door wordt bepaald `clipPath=` worden transparant gemaakt.
 
-`*``*` pathName is de naam van een pad dat is ingesloten in de bronafbeelding van de laag. Het pad wordt automatisch getransformeerd om de relatieve uitlijning met de inhoud van de afbeelding te behouden. Als meer dan één `*`pathName`*` wordt gespecificeerd, klemt de server het beeld aan de doorsnede van deze wegen. `*`pathName`*` niet gevonden in de bronafbeelding wordt genegeerd.
+`*`pathName`*` Dit is de naam van een pad dat is ingesloten in de bronafbeelding van de laag. Het pad wordt automatisch getransformeerd om de relatieve uitlijning met de inhoud van de afbeelding te behouden. Indien meer dan één `*`pathName`*` wordt opgegeven, knipt de server de afbeelding naar het snijpunt van deze paden. Alle `*`pathName`*` niet gevonden in de bronafbeelding wordt genegeerd.
 
 >[!NOTE]
 >
 >Alleen ASCII-tekenreeksen worden ondersteund voor `*`pathName`*`.
 
-`*`Met `*` pathDefinition kunnen expliciete padgegevens worden opgegeven in pixelcoördinaten van lagen.
+`*`pathDefinition`*` Hiermee kunt u expliciete padgegevens opgeven in pixelcoördinaten van lagen.
 
-Als `size=` wordt gespecificeerd en niet 0.0, is de laag presized. In dit geval zijn padcoördinaten relatief ten opzichte van de linkerbovenhoek van de laagrechthoek en wordt de laag geplaatst op basis van `origin=` of de standaardinstelling ervan. Eventuele gebieden van het pad buiten de laagrechthoek blijven transparant.
+Indien `size=` is opgegeven en niet 0,0, wordt de laag van grote of kleine grootte. In dit geval zijn padcoördinaten relatief ten opzichte van de linkerbovenhoek van de laagrechthoek en wordt de laag op basis van `origin=` of de standaardwaarde ervan. Eventuele gebieden van het pad buiten de laagrechthoek blijven transparant.
 
-Wanneer `size=` niet is opgegeven voor een effen kleur of een tekstlaag, wordt de laag beschouwd als een laag van zichzelf te wijzigen, waarbij de grootte van het pad wordt bepaald. Wanneer `origin=` niet is opgegeven, wordt standaard ingesteld op (0,0) van de coördinaatruimte van het pad. Hierdoor kunnen in feite padcoördinaten worden opgegeven ten opzichte van de oorsprong van laag 0.
+Indien `size=` niet is opgegeven voor een effen kleur of een tekstlaag, wordt de laag beschouwd als een laag van zichzelf te wijzigen, waarbij de grootte van het pad wordt bepaald. Indien `origin=` is niet opgegeven, wordt standaard ingesteld op (0,0) van de padcoördinaatruimte. Hierdoor kunnen in feite padcoördinaten worden opgegeven ten opzichte van de oorsprong van laag 0.
 
 >[!NOTE]
 >
->`scale=`,  `rotate=`en  `anchor=` opdrachten zijn niet toegestaan voor lagen met effen kleuren waarvan het formaat automatisch wordt aangepast.
+>`scale=`, `rotate=`, en `anchor=` opdrachten zijn niet toegestaan voor het automatisch aanpassen van effen kleurlagen.
 
-`*``*` pathDefinition accepteert een tekenreeks die lijkt op de waarde van het  `d=` kenmerk van het SVG- `<path>` element, behalve dat komma&#39;s worden gebruikt in plaats van spaties om waarden te scheiden. `*``*` pathDefinition kan een of meer subpaden met gesloten lus bevatten.
+`*`pathDefinition`*` accepteert een tekenreeks die lijkt op de waarde van de `d=` kenmerk van de SVG `<path>` -element, behalve dat komma&#39;s worden gebruikt in plaats van spaties om waarden te scheiden. `*`pathDefinition`*` kan een of meer subpaden met gesloten lus bevatten.
 
 De volgende padopdrachten worden ondersteund in `*`pathDefinition`*`:
 
@@ -63,12 +63,12 @@ De volgende padopdrachten worden ondersteund in `*`pathDefinition`*`:
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td> <b> </b> <span class="varname"> Mx,y</span> </td> 
+   <td> <b> M</b> <span class="varname"> x,y</span> </td> 
    <td> <p> absoluut </p> </td> 
    <td> <p> Start een nieuw subpad op x,y. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <b> </b> <span class="varname"> mx,y</span> </td> 
+   <td> <b> m</b> <span class="varname"> x,y</span> </td> 
    <td> <p> verplaatsen naar relatief </p> </td> 
   </tr> 
   <tr valign="top"> 
@@ -90,7 +90,7 @@ De volgende padopdrachten worden ondersteund in `*`pathDefinition`*`:
    <td> <p> curveto relatief </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <b> Z</b> |  <b>z</b> </td> 
+   <td> <b> Z</b> | <b>z</b> </td> 
    <td> <p> sluiten </p> </td> 
    <td> <p> Sluit het huidige subpad met een rechte lijn. </p> </td> 
   </tr> 
@@ -109,14 +109,14 @@ Als een subpad begint met een relatieve beweging (&#39;m&#39;), is het relatief 
 
 ## Eigenschappen {#section-d4127db0dac54e3cbd44f7ea1e001960}
 
-Laagkenmerk. Wordt toegepast op de huidige laag of op de samengestelde afbeelding als `layer=comp`. Effectlagen negeren deze.
+Laagkenmerk. Is van toepassing op de huidige laag of op de samengestelde afbeelding als `layer=comp`. Effectlagen negeren deze.
 
 `clipPathE=` wordt genegeerd als er geen pad met de opgegeven naam is gevonden in de bronafbeelding van de laag of als de laagbron geen afbeelding is.
 
 ## Standaard {#section-076c35ea37fa4a44ada253b4c2dec1dd}
 
-Geen, voor geen extra uitknippen van de laag.
+Geen, voor geen extra uitknipsel van de laag.
 
 ## Zie ook {#section-dd8110fb6f5c45eba6284c5ec5f49056}
 
-[clipXpath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clipxpath.md#reference-17e5e4da3e044943af8f963f58a45f53) ,  [textFlowPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef) ,  [extend=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac)
+[clipXpath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clipxpath.md#reference-17e5e4da3e044943af8f963f58a45f53) , [textFlowPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef) , [extend=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac)

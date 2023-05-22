@@ -16,17 +16,17 @@ ht-degree: 0%
 
 Configuration attribute for Carousel Viewer.
 
-` [ControlBar.|<containerId>_controlBar.]transition=none|fade[, *``*[, *`delay ytohideduration`*]`
+` [ControlBar.|<containerId>_controlBar.]transition=none|fade[, *`delaytohide`*[, *`duur`*]`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|faden</span> </p> </td> 
-   <td colname="col2"> <p> Geeft het effecttype aan dat wordt gebruikt om de besturingsbalk en de inhoud ervan weer te geven of te verbergen. </p> <p>Stel in op <span class="codeph"> none</span> voor onmiddellijke weergave/verbergen. </p> <p>Stel in op <span class="codeph"> vervagen</span> om een geleidelijk in-/uitfadeeffect te verkrijgen. </p> </td> 
+   <td colname="col2"> <p> Geeft het effecttype aan dat wordt gebruikt om de besturingsbalk en de inhoud ervan weer te geven of te verbergen. </p> <p>Instellen op <span class="codeph"> none</span> bijvoorbeeld tonen/verbergen. </p> <p>Instellen op <span class="codeph"> vervagen</span> om een geleidelijk in-/uitfadeeffect te creëren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> delaytohide</span></span> </p> </td> 
-   <td colname="col2"> <p> Hiermee bepaalt u de tijd in seconden tussen de laatste muis-/aanraakgebeurtenis die is geregistreerd op de besturingsbalk en de verborgen tijdbalk. </p> <p>Indien ingesteld op <span class="codeph"> -1</span>, activeert de component nooit het effect voor automatisch verbergen en blijft deze daarom altijd zichtbaar op het scherm. </p> </td> 
+   <td colname="col2"> <p> Hiermee bepaalt u de tijd in seconden tussen de laatste muis-/aanraakgebeurtenis die is geregistreerd op de besturingsbalk en de verborgen tijdbalk. </p> <p>Indien ingesteld op <span class="codeph"> -1</span> de component activeert nooit het automatisch verborgen effect en blijft daarom altijd zichtbaar op het scherm. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> duur</span></span> </p> </td> 

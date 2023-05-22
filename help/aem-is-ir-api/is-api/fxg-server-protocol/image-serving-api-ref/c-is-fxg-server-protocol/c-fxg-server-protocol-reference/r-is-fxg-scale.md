@@ -2,12 +2,12 @@
 description: Afbeelding schalen. Hiermee schaalt u een afbeelding met factor ten opzichte van de afbeelding met volledige resolutie.
 solution: Experience Manager
 title: schalen
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 89701a15-a0b6-460d-b0c1-5e25f3305380
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '42'
 ht-degree: 0%
 
 ---

@@ -16,17 +16,17 @@ ht-degree: 0%
 
 Configuration attribute for Video360 Viewer.
 
-` [ControlBar.|<containerId>_controls.]transition=none|fade[, *``*[, *`delayTohideduration`*]`
+` [ControlBar.|<containerId>_controls.]transition=none|fade[, *`delaytohide`*[, *`duur`*]`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|faden</span> </p> </td> 
-   <td colname="col2"> <p> Geeft het effecttype aan dat wordt gebruikt om de besturingsbalk en de inhoud ervan weer te geven of te verbergen. </p> <p>Gebruik <span class="codeph"> none</span> voor onmiddellijke weergave en verbergen. Gebruik <span class="codeph"> vervagen</span> om een geleidelijk in- en uitfadeeffect te bieden. </p> <p>Vervagen wordt niet ondersteund in Internet Explorer 8. </p> </td> 
+   <td colname="col2"> <p> Geeft het effecttype aan dat wordt gebruikt om de besturingsbalk en de inhoud ervan weer te geven of te verbergen. </p> <p>Gebruiken <span class="codeph"> none</span> voor onmiddellijke weergave en verbergen. Gebruiken <span class="codeph"> vervagen</span> een geleidelijk in- en uitfadeeffect te bieden. </p> <p>Vervagen wordt niet ondersteund in Internet Explorer 8. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide</span> </span> </p> </td> 
-   <td colname="col2"> <p>Hiermee bepaalt u de tijd in seconden tussen de laatste muis-/aanraakgebeurtenis die door de besturingsbalk wordt geregistreerd en de verborgen tijdbalk. </p> <p> Indien ingesteld op <span class="codeph"> -1</span>, activeert de component nooit het effect voor automatisch verbergen en blijft deze altijd zichtbaar op het scherm. </p> </td> 
+   <td colname="col2"> <p>Hiermee bepaalt u de tijd in seconden tussen de laatste muis-/aanraakgebeurtenis die door de besturingsbalk wordt geregistreerd en de verborgen tijdbalk. </p> <p> Indien ingesteld op <span class="codeph"> -1</span>De component activeert echter nooit het effect Automatisch verbergen en blijft altijd zichtbaar op het scherm. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duur</span> </span> </p> </td> 

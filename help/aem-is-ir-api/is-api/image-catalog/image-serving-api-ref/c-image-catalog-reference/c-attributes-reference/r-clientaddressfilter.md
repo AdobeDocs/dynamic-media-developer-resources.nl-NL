@@ -22,7 +22,7 @@ Wanneer gespecificeerd, worden de verzoeken aan deze beeldcatalogus die van een 
 
 Lijst met door komma&#39;s gescheiden IP-adressen met optionele netmaskers (CIDR-notatie wordt gebruikt):
 
-`*`ipAddress`*` `[`/ *`netmask`*`]`* `[`,*`ipAddress`*`[`/*`netmask`*`]]`
+`*`ipAddress`*` `[`/ *`netmask`*`]`&#42; `[`,*`ipAddress`*`[`/*`netmask`*`]]`
 
 <table id="simpletable_9F82BB0D42A9434883F2F70A2A92898C"> 
  <tr class="strow"> 

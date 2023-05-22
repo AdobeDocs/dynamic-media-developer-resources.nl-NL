@@ -2,12 +2,12 @@
 description: Afbeeldingsanker. Definieert het ankerpunt van de rechthoek van de afbeelding, effen kleur of het tekstkader voordat transformaties worden toegepast (crop=, scale=, rotate=, flip=). Wordt ook gebruikt als rotatiecentrum voor rotate=.
 solution: Experience Manager
 title: anker
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f62ae048-0dcc-4e93-a9f1-2e4db6bef51f
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
@@ -31,19 +31,19 @@ Afbeeldingsanker. Definieert het ankerpunt van de rechthoek van de afbeelding, e
  </tr> 
 </table>
 
-Het ankerpunt wordt getransformeerd met de afbeelding en wordt het oorsprongpunt van de laag (tenzij `origin=` ook wordt opgegeven, in welk geval `anchor=` alleen wordt gebruikt als rotatiepunt voor `rotate=`).
+Het ankerpunt wordt getransformeerd met de afbeelding en wordt het oorsprongpunt van de laag (tenzij `origin=` wordt ook gespecificeerd, in welk geval `anchor=` wordt alleen gebruikt als rotatiecentrum voor `rotate=`).
 
-`anchorN=0,0` plaatst het afbeeldingsanker in het midden van de bronafbeelding. `anchorN=-0.5,-0.5` of  `anchor=0,0` bevindt zich in de linkerbovenhoek en  `anchorN=0.5,0.5` bevindt zich in de rechterbenedenhoek van de bronafbeelding.
+`anchorN=0,0` plaatst het afbeeldingsanker in het midden van de bronafbeelding. `anchorN=-0.5,-0.5` of `anchor=0,0` zich in de linkerbovenhoek bevindt, en `anchorN=0.5,0.5` bevindt zich in de rechterbenedenhoek van de bronafbeelding.
 
 ## Eigenschappen {#section-f08942bc6aae46a8b5d341faaff80640}
 
-Kenmerk bronafbeelding. Wordt toegepast op de huidige laag of op laag 0 als `layer=comp`.
+Kenmerk bronafbeelding. Is van toepassing op de huidige laag of op laag 0 als `layer=comp`.
 
 ## Standaard {#section-35d369fab1254f1a9b91684a6e169ad1}
 
-Als `anchor=` niet is opgegeven, wordt catalog::Anker gebruikt. Als `catalog::Anchor` niet is gedefinieerd, wordt het midden van de afbeeldingsrechthoek gebruikt (hetzelfde als het opgeven van `anchorN=0,0`).
+Indien `anchor=` is niet opgegeven, catalogus::Anker wordt gebruikt. Indien `catalog::Anchor` niet is gedefinieerd, wordt het midden van de afbeeldingsrechthoek gebruikt (gelijk aan opgeven `anchorN=0,0`).
 
-Tekstlagen met `textPs=` en lagen met `clipPath=` kunnen verschillende standaardankers hebben.
+Tekstlagen die `textPs=` en lagen waarbij `clipPath=` kunnen verschillende standaardankers hebben.
 
 ## Voorbeeld {#section-cc127e6b1ea94524900b5c0dd8b4c7ec}
 
@@ -51,4 +51,4 @@ Zie &quot;Voorbeeld C&quot; in [Sjablonen](../../../../../is-api/http-ref/image-
 
 ## Zie ook {#section-9877ea3a0743492aaa4fa1dfc9510b07}
 
-[catalogus::Anker](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-anchor-cat.md) ,  [oorsprong=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md#reference-e11c7ac06e2240cc884c3fec98f05138),  [rotate=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096),  [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d),  [Tekstlagen](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-layers.md#reference-47e78cfb18134db5ab09e17af14a6a8f)
+[catalogus::Anker](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-anchor-cat.md) , [oorsprong=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md#reference-e11c7ac06e2240cc884c3fec98f05138), [roteren=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096), [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d), [Tekstlagen](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-layers.md#reference-47e78cfb18134db5ab09e17af14a6a8f)

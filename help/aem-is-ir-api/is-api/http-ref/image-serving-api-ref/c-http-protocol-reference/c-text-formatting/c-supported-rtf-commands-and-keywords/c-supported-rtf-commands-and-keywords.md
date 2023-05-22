@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Hier volgt een lijst met trefwoorden en opdrachten die worden ondersteund door de text engine voor scène 7-afbeeldingen.
 
-Raadpleeg de gepubliceerde [RTF 1.6-specificatie](https://msdn.microsoft.com/en-us/library/aa140277%28v=office.10%29.aspx) voor meer informatie over elk trefwoord of elke opdracht.
+Zie de gepubliceerde [RTF 1.6-specificatie](https://msdn.microsoft.com/en-us/library/aa140277%28v=office.10%29.aspx) voor details over elk sleutelwoord of bevel.
 
 RTF-opdrachten die hieronder niet worden vermeld, worden door de parser genegeerd.
 

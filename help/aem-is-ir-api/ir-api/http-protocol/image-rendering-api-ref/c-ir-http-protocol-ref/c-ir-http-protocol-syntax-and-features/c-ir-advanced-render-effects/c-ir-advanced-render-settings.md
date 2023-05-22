@@ -309,7 +309,7 @@ Deze instellingen worden op interactieve wijze beheerd in het ontwerpen van afbe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>H60i30J10K200L400U1V10W100X0 </p> </td> 
+   <td colname="col1"> <p>H60I30J10K200L400U1V10W100X0 </p> </td> 
    <td colname="col2"> <p>Standaardwaarden in Afbeeldingsontwerpomgeving. 
      <ul id="ul_AA7CF1A3E6984B318265BBE8FFFBB4EE">
       <li> USM1

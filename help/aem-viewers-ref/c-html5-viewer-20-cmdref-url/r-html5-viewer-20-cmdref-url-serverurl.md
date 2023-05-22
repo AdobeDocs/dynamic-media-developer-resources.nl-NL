@@ -8,7 +8,7 @@ exl-id: c9da3d5b-492d-4e1f-8fdc-3255b2b40fc6
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
 source-wordcount: '100'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Parameter die alle viewers gemeen hebben.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>Relatieve of absolute afbeeldingsserver voor het hoofdpad. </p> <p> Hiermee geeft u een relatief of absoluut pad op naar de afbeeldingsserver, vanwaar de viewer afbeeldingen ophaalt. Als het pad geen regelafstand <span class="filepath"> /</span> heeft, is dit relatief ten opzichte van de locatie van de HTML-pagina van de viewer. Als het pad een regelafstand <span class="filepath"> /</span> heeft, wordt een absoluut pad op dezelfde server opgegeven. </p> <p> Gebruik alleen een absoluut pad als de module Delen via e-mail is ingeschakeld in de viewer. </p> </td> 
+   <td colname="col2"> <p>Relatieve of absolute afbeeldingsserver voor het hoofdpad. </p> <p> Hiermee geeft u een relatief of absoluut pad op naar de afbeeldingsserver, vanwaar de viewer afbeeldingen ophaalt. Als het pad geen regelafstand heeft <span class="filepath"> /</span>, is deze relatief ten opzichte van de locatie van de HTML-pagina van de viewer. Als het pad een regelafstand heeft <span class="filepath"> /</span>, wordt een absoluut pad op dezelfde server opgegeven. </p> <p> Gebruik alleen een absoluut pad als de module Delen via e-mail is ingeschakeld in de viewer. </p> </td> 
   </tr> 
  </tbody> 
 </table>

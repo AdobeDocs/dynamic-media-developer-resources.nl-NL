@@ -29,11 +29,11 @@ De weergave van het afspeelpictogram wordt bepaald door de volgende CSS-klassenk
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
    <td colname="col2"> <p> De weergegeven afbeelding voor het afspeelpictogram. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Positie binnen illustratie-sprite, als CSS-sprites worden gebruikt. </p> <p>Zie <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS-sprites </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -41,15 +41,15 @@ De weergave van het afspeelpictogram wordt bepaald door de volgende CSS-klassenk
    <td colname="col2"> <p> De breedte van het afspeelpictogram. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>De hoogte van het afspeelpictogram. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Het effect van het pictogram steunt `state` attributenselecteur. De kenmerkenkiezer `state="play"` wordt gebruikt wanneer de video wordt gepauzeerd in het midden van het afspelen en `state="replay"` wordt gebruikt wanneer de afspeelkop aan het einde van de stream staat.
+Het pictogrameffect ondersteunt de `state` kenmerkkiezer. De kenmerkenkiezer `state="play"` wordt gebruikt wanneer de video wordt gepauzeerd tijdens het afspelen, en `state="replay"` wordt gebruikt wanneer de afspeelkop zich aan het einde van de stream bevindt.
 
-**Voorbeeld**  - Afspeelpictogram van 100 x 100 pixels instellen.
+**Voorbeeld** - Stel een afspeelpictogram van 100 x 100 pixels in.
 
 ```
 .s7video360viewer .s7videoplayer .s7iconeffect { 

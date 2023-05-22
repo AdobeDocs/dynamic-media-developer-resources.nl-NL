@@ -8,7 +8,7 @@ exl-id: 818ea14b-4dab-4447-9645-46f2ba82547b
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
 source-wordcount: '127'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -16,17 +16,17 @@ ht-degree: 4%
 
 Configuration attribute for Video360 Viewer.
 
-` [Video360Player.|<containerId>_video360Player.]iconeffect=0|1[, *``*][, *``*][, *`countfadeautoHide`*]`
+` [Video360Player.|<containerId>_video360Player.]iconeffect=0|1[, *`aantal`*][, *`vervagen`*][, *`autoHide`*]`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Hiermee wordt het IconEffect vóór de video weergegeven wanneer de video is gepauzeerd. Op sommige apparaten worden native besturingselementen gebruikt. In dergelijke gevallen wordt de optie <span class="codeph">iconeffect</span> genegeerd. </p> </td> 
+   <td colname="col2"> <p> Hiermee wordt het IconEffect vóór de video weergegeven wanneer de video is gepauzeerd. Op sommige apparaten worden native besturingselementen gebruikt. In dergelijke gevallen <span class="codeph">iconeffect</span> modifier wordt genegeerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> aantal</span></span> </p> </td> 
-   <td colname="col2"> <p> Hiermee geeft u het maximale aantal keren op dat het IconEffect wordt weergegeven en opnieuw wordt weergegeven. De waarde <span class="codeph"> -1</span> geeft aan dat het pictogram oneindig opnieuw wordt weergegeven. </p> </td> 
+   <td colname="col2"> <p> Hiermee geeft u het maximale aantal keren op dat het IconEffect wordt weergegeven en opnieuw wordt weergegeven. Een waarde van <span class="codeph"> -1</span> Hiermee wordt aangegeven dat het pictogram voor onbepaalde tijd opnieuw wordt weergegeven. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> vervagen</span></span> </p> </td> 
@@ -34,7 +34,7 @@ Configuration attribute for Video360 Viewer.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> autoHide</span></span> </p> </td> 
-   <td colname="col2"> <p> Stelt het aantal seconden in dat het IconEffect volledig zichtbaar blijft voordat het automatisch wordt verborgen. De tijd nadat de animatie voor vervagen is voltooid en voordat de animatie voor vervagen wordt gestart. Stel in op <span class="codeph"> 0</span> om automatisch verbergen uit te schakelen. </p> </td> 
+   <td colname="col2"> <p> Stelt het aantal seconden in dat het IconEffect volledig zichtbaar blijft voordat het automatisch wordt verborgen. De tijd nadat de animatie voor vervagen is voltooid en voordat de animatie voor vervagen wordt gestart. Instellen op <span class="codeph"> 0</span> om automatisch verbergen uit te schakelen. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -2,12 +2,12 @@
 description: Hiermee wordt de opgegeven lijst met URL's doorgestuurd naar de Dynamic Media CDN-provider (Content Distribution Network) om de bestaande cache met HTTP-reacties ongeldig te maken.
 solution: Experience Manager
 title: cdnCacheInvalidation
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 65b758f2-b49a-4616-b657-a64808c9202a
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,11 @@ De regels die de frequentie van het gebruik van deze eigenschap bepalen worden g
 
 **Bevestigingse-mails**
 
-Bevestigingse-mails van de Dynamic Media CDN-partner kunnen worden verzonden naar de maker van de lijst of naar maximaal vijf andere e-mailadressen. De API verzendt de bevestiging wanneer het volledige CDN-netwerk op de hoogte is gebracht van het feit dat de URL&#39;s waarnaar in de e-mail wordt verwezen, zijn gewist. Één enkele vraag aan `cdnCacheInvalidation` kan veelvoudige e-mail verzenden als het aantal geleverde URLs het aantal overschrijdt dat Dynamic Media aan de partner CDN op één enkel bericht kan leveren. Momenteel, zou dat zijn als het verzoek 100 URLs overschrijdt, maar is onderworpen aan verandering die op verzoek van de partner CDN wordt gebaseerd.
+Bevestigingse-mails van de Dynamic Media CDN-partner kunnen worden verzonden naar de maker van de lijst of naar maximaal vijf andere e-mailadressen. De API verzendt de bevestiging wanneer het volledige CDN-netwerk op de hoogte is gebracht van het feit dat de URL&#39;s waarnaar in de e-mail wordt verwezen, zijn gewist. Één enkele vraag aan `cdnCacheInvalidation` U kunt meerdere e-mails verzenden als het aantal opgegeven URL&#39;s het aantal overschrijdt dat Dynamic Media in één melding aan de CDN-partner kan leveren. Momenteel, zou dat zijn als het verzoek 100 URLs overschrijdt, maar is onderworpen aan verandering die op verzoek van de partner CDN wordt gebaseerd.
 
 **Ondersteund sinds**
 
-6,0
+6.0
 
 ## Geautoriseerde gebruikerstypen {#section-0d7895e733d54fb68beb8d231a04e4c9}
 
@@ -39,7 +39,7 @@ Bevestigingse-mails van de Dynamic Media CDN-partner kunnen worden verzonden naa
 
 ## Parameters {#section-bd1ed2b7419945d19a2ebd5668499f72}
 
-**Input** (  `cdnCacheInvalidationParam`)
+**Invoer** ( `cdnCacheInvalidationParam`)
 
 <table id="table_EDD1875264C846BE951869D528A90D73"> 
  <thead> 
@@ -66,7 +66,7 @@ Bevestigingse-mails van de Dynamic Media CDN-partner kunnen worden verzonden naa
  </tbody> 
 </table>
 
-**Output**(  `cdnCacheInvalidationReturn`)
+**Uitvoer**( `cdnCacheInvalidationReturn`)
 
 <table id="table_1D947C1BF8864820AD7BA0CDC0F076F9"> 
  <thead> 

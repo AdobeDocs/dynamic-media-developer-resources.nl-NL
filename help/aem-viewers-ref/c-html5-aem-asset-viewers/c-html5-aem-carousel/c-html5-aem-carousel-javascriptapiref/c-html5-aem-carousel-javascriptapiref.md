@@ -16,4 +16,4 @@ ht-degree: 0%
 
 De hoofdklasse van de Carousel Viewer is CarouselViewer. Deze wordt gedeclareerd in de naamruimte s7viewers. Deze JavaScript API behandelt constructor, methoden en callbacks van deze specifieke klasse.
 
-In alle volgende voorbeelden staat `<instance>` voor de werkelijke naam van het JavaScript-viewerobject dat is geïnstantieerd vanuit de klasse `s7viewers.CarouselViewer`.
+In alle volgende voorbeelden: `<instance>` staat voor de werkelijke naam van het JavaScript-viewerobject dat is geïnstantieerd via het `s7viewers.CarouselViewer` klasse.
