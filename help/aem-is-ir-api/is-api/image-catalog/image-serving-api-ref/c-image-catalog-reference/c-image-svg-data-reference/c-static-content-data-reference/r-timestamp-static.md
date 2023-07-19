@@ -1,13 +1,13 @@
 ---
-description: TimeStamp
-solution: Experience Manager
 title: TimeStamp
+description: Als 'attribute::UseLastModified' is ingesteld, wordt de waarde 'catalog::TimeStamp' in de HTTP-reactie geretourneerd als een Laatst gewijzigde HTTP-header. De header Laatst gewijzigd wordt altijd geretourneerd voor statische inhoud, zelfs als 'attribute::UseLastModified' niet is ingesteld.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3c47b14d-b629-474d-952a-b09e1b1162b4
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: c1a4dad7888d31e0b78f0fc5091700ad8104e685
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
