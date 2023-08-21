@@ -4,9 +4,9 @@ user-guide-title: Dynamic Media-API voor beeldbeheer en renderen
 breadcrumb-title: Dynamic Media-API voor beeldbeheer en renderen
 feature-set: Experience Manager Assets
 user-guide-description: Documentatie weergeven over API's van het type IS (Image Serving) en AIR (Image Rendering) en verwante technologieën.
-source-git-commit: f64229a72bef887f356b118a1da4ba5177c28bbc
+source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1468'
 ht-degree: 0%
 
 ---
@@ -101,8 +101,8 @@ ht-degree: 0%
    + [Statische (niet-afbeeldings) inhoud bedienen](is-api/image-serving-api-ref/c-serving-static-nonimage-contents.md)
    + [Problemen oplossen](is-api/image-serving-api-ref/r-troubleshooting.md)
    + HTTP-protocolverwijzing {#http-protocol-reference}
-      + [Overzicht van HTTP-protocolverwijzing](is-api/image-serving-api-ref/c-http-protocol-reference/c-http-protocol-reference.md)
-      + HTTP-protocolintroductie {#http-protocol-introduction}
+      + [Overzicht van de HTTP-protocolverwijzing](is-api/image-serving-api-ref/c-http-protocol-reference/c-http-protocol-reference.md)
+      + Introductie van HTTP-protocol {#http-protocol-introduction}
          + [Inleiding](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md)
          + [Beoogd publiek](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-intended-audience.md)
          + [Documentconventies](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/r-document-conventions.md)
@@ -118,7 +118,7 @@ ht-degree: 0%
             + [Algemene laagopdrachten](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-common-layer-commands-and-attributes.md)
             + [Opdrachten Afbeeldingslaag](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-image-layer-commands-and-attributes.md)
             + [Opdrachten tekstlaag](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-text-layer-commands-and-attributes.md)
-            + [Opdrachten voor effen kleuren in lagen](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-solid-color-layer-commands-and-attributes.md)
+            + [Opdrachten voor effen kleurlagen](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-solid-color-layer-commands-and-attributes.md)
             + [Laageffecten, opdrachten](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-layer-effect-commands-and-attributes.md)
          + Lagen {#layering}
             + [Overzicht van lagen](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-layering-overview/c-layering-overview.md)
@@ -131,7 +131,7 @@ ht-degree: 0%
          + [Laageffecten](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-layer-effects.md)
          + [Nesten en insluiten aanvragen](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md)
          + [Vervangende variabelen](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md)
-         + [Opdrachtmacro&#39;s](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-command-macros.md)
+         + [Command macros](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-command-macros.md)
          + [Afbeeldingscatalogi](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-catalogs.md)
          + [Omzetten van object-id](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md)
          + [Tekstreeks lokaliseren](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)
@@ -185,6 +185,7 @@ ht-degree: 0%
          + [uitsnijden](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md)
          + [cropPathE](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-croppath.md)
          + [defaultImage](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-defaultimage.md)
+         + [dpr](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md)
          + [effect](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effect.md)
          + [effectMask](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effectmask.md)
          + [uitbreiden](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md)
@@ -203,6 +204,7 @@ ht-degree: 0%
          + [map](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-map.md)
          + [masker](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md)
          + [maskUse](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-maskuse.md)
+         + [netwerk](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md)
          + [op_vervagen](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-blur.md)
          + [op_brightness](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-brightness.md)
          + [op_kleurbalans](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-colorbalance.md)
@@ -319,7 +321,7 @@ ht-degree: 0%
             + [trimMargin](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol-reference/r-trimmargin.md)
             + [winderig](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol-reference/r-is-fxg-wid.md)
          + [Substitutievariabelen](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/r-is-fxg-substitution-variables.md)
-         + Opdrachtmacro&#39;s {#command-macros}
+         + Command macros {#command-macros}
             + [Overzicht van opdrachtmacro&#39;s](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/r-is-fxg-command-macros/r-is-fxg-command-macros.md)
             + [name](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/r-is-fxg-command-macros/r-name.md)
          + FXG DOM-bewerkingen {#fxg-dom-ops}
@@ -487,7 +489,7 @@ ht-degree: 0%
       + [Referentie macrodefinitie](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-macro-definition-reference/c-macro-definition-reference.md)
       + [Naam](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-macro-definition-reference/r-name-macro.md)
       + [Definitie](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-macro-definition-reference/r-definition-macro.md)
-   + Lettertypetoewijzing {#font-map}
+   + Lettertypekaart {#font-map}
       + [Referentie lettertypetoewijzing](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/c-font-map-reference.md)
       + [Vet](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-bold-font.md)
       + [FontPath](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-fontpath-font.md)
@@ -518,7 +520,7 @@ ht-degree: 0%
    + Configuratie {#configuration}
       + [Configuratie](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-installation.md)
       + [Licentie](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-licensing.md)
-      + [De opstelling en vormt IR 3.x verenigbaarheidsmodule](ir-api/image-rendering-api-ref/c-ir-installation/t-ir-setup-compatibility-module.md)
+      + [Instellen en configureren van IR 3.x-compatibiliteitsmodule](ir-api/image-rendering-api-ref/c-ir-installation/t-ir-setup-compatibility-module.md)
       + [Afbeeldingen renderen instellen en configureren](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-setup-ir.md)
       + Rendering afbeelding verwijderen {#uninstalling-image-rendering}
          + [Rendering afbeelding verwijderen](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-uninstalling/c-ir-uninstalling.md)
@@ -595,7 +597,7 @@ ht-degree: 0%
             + [Variabele verwerking in ingesloten externe verzoeken](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-custom-variables/c-ir-variable-processing-in-embedded-foreign-requests.md)
             + [Standaard](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-custom-variables/c-ir-default.md)
             + [Voorbeelden](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-custom-variables/r-ir-examples.md)
-         + [Command macros *](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-command-macros.md)
+         + [Opdrachtmacro&#39;s *](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-command-macros.md)
          + [Kleurbeheer voor rendering van afbeeldingen *](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-color-management.md)
          + [Kleurwaarden](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/r-ir-color-values.md)
          + [HTTP-codering voor het renderen van afbeeldingen](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-encoding.md)

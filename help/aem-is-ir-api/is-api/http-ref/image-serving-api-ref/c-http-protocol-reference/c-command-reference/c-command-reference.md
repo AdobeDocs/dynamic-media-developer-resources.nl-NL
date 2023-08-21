@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 959cb193-d0b7-4aa9-a747-fa17484f80c7
-source-git-commit: 187de979d7d1f7ce92b7b4c8b7661a787ab6889f
+source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -23,12 +23,12 @@ In deze sectie worden de HTTP-protocolopdrachten beschreven.
 > Momentopname is een visueel demonstratieprogramma dat is ontworpen om de kracht van Dynamic Media te illustreren voor geoptimaliseerde en dynamische beeldlevering. Experimenteer met testafbeeldingen of Dynamic Media-URL&#39;s om visueel de uitvoer van verschillende Dynamic Media-afbeeldingsmodifiers en Smart Imaging-optimalisaties te bekijken voor:
 >* Bestandsgrootte (met WebP en AVIF levering)
 >* Netwerkbandbreedte
->* DPR (pixelverhouding apparaat)
+>* DPR (Pixelverhouding apparaat)
 >
 >Als u wilt weten hoe eenvoudig het is om Momentopname te gebruiken, speelt u de opdracht [Video over momentopnamen](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) (3 minuten en 17 seconden).
 
 
-**Alleen voor Dynamic Media in Adobe Experience Manager** - Buiten de basisafbeeldingsinstellingen die beschikbaar zijn in de gebruikersinterface, [!DNL Dynamic Media] in AEM ( [!DNL Adobe Experience Manager]) ondersteunt talrijke geavanceerde afbeeldingswijzigingen die u kunt opgeven in het dialoogvenster **Afbeeldingsaanpassingen** veld. Deze parameters worden hieronder gedefinieerd. Houd er echter rekening mee dat de volgende functionaliteit niet in Dynamic Media in AEM wordt ondersteund.
+**Alleen voor Dynamic Media in Adobe Experience Manager** - Buiten de basisafbeeldingsinstellingen die beschikbaar zijn in de gebruikersinterface, [!DNL Dynamic Media] in AEM ( [!DNL Adobe Experience Manager]) ondersteunt talrijke geavanceerde afbeeldingswijzigingen die u kunt opgeven in het dialoogvenster **Afbeeldingsmodificatoren** veld. Deze parameters worden hieronder gedefinieerd. Houd er echter rekening mee dat de volgende functionaliteit niet in Dynamic Media in AEM wordt ondersteund.
 
 * Opdrachten voor kleurcorrectie: `icc=` en `iccEmbed=`.
 * Standaardopdrachten voor sjablonen en tekstrendering: `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` en `textPs=`.
@@ -38,7 +38,7 @@ In deze sectie worden de HTTP-protocolopdrachten beschreven.
 * `req=saveToFile`
 * `req=targets`
 * `template=`
-* Niet-kernservices van Dynamic Media: SVG, Afbeelding renderen en Web-to-Print.
+* Niet-core Dynamic Media services: SVG, Afbeeldingen renderen en Web-to-Print.
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
@@ -57,6 +57,7 @@ Zie ook de Dynamic Media [Opties voorinstelling afbeelding](https://experiencele
 * [uitsnijden](r-crop.md)
 * [cropPathE](r-croppath.md)
 * [defaultImage](r-is-http-defaultimage.md)
+* [dpr](r-dpr.md)
 * [effect](r-effect.md)
 * [effectMask](r-effectmask.md)
 * [uitbreiden](r-extend.md)
@@ -75,6 +76,7 @@ Zie ook de Dynamic Media [Opties voorinstelling afbeelding](https://experiencele
 * [map](r-map.md)
 * [masker](r-mask.md)
 * [maskUse](r-maskuse.md)
+* [netwerk](r-network.md)
 * [op_vervagen](r-op-blur.md)
 * [op_brightness](r-op-brightness.md)
 * [op_kleurbalans](r-op-colorbalance.md)
