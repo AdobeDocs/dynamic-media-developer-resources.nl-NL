@@ -1,11 +1,11 @@
 ---
+title: op_inkleuren
 description: Afbeelding inkleuren. De afbeeldingsgegevens worden ingekleurd met behoud van schaduwen en hooglichten.
 solution: Experience Manager
-title: op_inkleuren
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1abbde32-867a-4596-a46b-12ec50d59170
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Afbeelding inkleuren. De afbeeldingsgegevens worden ingekleurd met behoud van sc
  </tr> 
 </table>
 
-Het tweede argument geeft aan of de helderheid van de bronafbeelding moet worden aangepast voordat deze wordt ingekleurd. Opgeven `off` om de automatische helderheidscompensatie onbruikbaar te maken of `norm` om de helderheid automatisch aan te passen zodat de mediaanwaarde 50% intensiteit heeft.
+Het tweede argument geeft aan of de helderheid van de bronafbeelding moet worden aangepast voordat de afbeelding wordt ingekleurd. Opgeven `off` om de automatische helderheidscompensatie onbruikbaar te maken of `norm` om de helderheid automatisch aan te passen zodat de mediaanwaarde 50% intensiteit heeft.
 
 Stel de *`contrast`* -waarde op 0 om het contrastbereik van de invoerafbeelding te behouden of geef een gewenst contrastbereik op met een waarde groter dan 0. Bij een waarde van 100 wordt het contrast gemaximaliseerd. De typische waarden kunnen tussen 30 en 70 zijn.
 

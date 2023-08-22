@@ -1,11 +1,11 @@
 ---
+title: omdraaien
 description: Laag omdraaien. Hiermee wordt de laag horizontaal, verticaal of beide gespiegeld na het toepassen van crop= en vóór rotate= en extend=.
 solution: Experience Manager
-title: omdraaien
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 451d8b4d-0f22-41f3-ac86-435797c23ea3
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Laag omdraaien. Hiermee wordt de laag horizontaal, verticaal of beide gespiegeld
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> bedrieglijk </span> </p> </td> 
-  <td class="stentry"> <p>Laag verticaal spiegelen (omhoog-omlaag). </p> </td> 
+  <td class="stentry"> <p>Laag verticaal omdraaien (omhoog). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> lrud </span> </p> </td> 
@@ -39,7 +39,7 @@ Sommige opdrachten, waaronder `extend=`wordt impliciet toegepast op laag 0 in pl
 
 >[!NOTE]
 >
->De gespiegelde laag wordt geplaatst op basis van het laaganker; verschillende spiegelwaarden resulteren in verschillende laagposities wanneer het anker zich niet in het midden van de laag bevindt.
+>De gespiegelde laag wordt gepositioneerd op basis van het laaganker; verschillende waarden flip= resulteren in verschillende laagposities wanneer het anker zich niet in het midden van de laag bevindt.
 
 ## Eigenschappen {#section-294da2af7be746b5adfc35e29ee68217}
 

@@ -1,11 +1,11 @@
 ---
+title: bgc
 description: Achtergrondkleur weergeven. Hiermee geeft u de achtergrondkleur voor de samengestelde afbeelding (weergaveafbeelding) op.
 solution: Experience Manager
-title: bgc
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 39ca0d63-55c6-40be-88b6-cf73828cc355
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Kenmerk weergeven. Is van toepassing ongeacht de huidige laaginstelling. Genegee
 
 Elke alpha-waarde die met kleur is opgegeven, wordt genegeerd.
 
-*`color`* wordt verondersteld tot de uitvoerkleurruimte te behoren (zoals opgegeven met `icc=`) en moet hetzelfde pixeltype hebben als de uitvoerafbeelding. Als de pixeltypen niet overeenkomen, *`color`* wordt geconverteerd met behulp van naïeve conversie.
+*`color`* wordt verondersteld tot de uitvoerkleurruimte te behoren (zoals opgegeven met `icc=`) en moet hetzelfde pixeltype hebben als de uitvoerafbeelding. Als de pixeltypen niet overeenkomen, *`color`* wordt geconverteerd met naïeve conversie.
 
 ## Standaard {#section-4e025cbd723547b5ab4450f7aad70da3}
 

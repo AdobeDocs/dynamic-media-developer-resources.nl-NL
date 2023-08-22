@@ -1,11 +1,11 @@
 ---
+title: opac
 description: Pas de afbeeldingsdekking aan. Hiermee kunt u de voorgronddekking van een afbeeldings-, tekst-, effen kleur- of effectlaag verlagen.
 solution: Experience Manager
-title: opac
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 38e0e1dc-46c0-48a4-b676-f7e6d262392f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 0%
@@ -33,7 +33,7 @@ De voorgronddekking voor een afbeeldingslaag wordt bepaald door het laagmasker o
 
 `opac=` wijzigt nooit de dekking van gebieden gevuld met `color=` of `bgColor=`, behalve de voorgrondgebieden van effen kleuren en effectlagen (ingesteld met `color=`).
 
-Wanneer u deze opgeeft in een afbeelding, tekst of laag met een effen kleur, *`opacity`* past de volledige laag, met inbegrip van alle bijbehorende effect lagen toe terwijl *`fillOpacity`* is alleen van toepassing op de inhoud van de primaire laag. Wanneer opgegeven in een effectlaag, *`opacity`* wordt toegepast op de effectlaag, terwijl *`fillOpacity`* wordt genegeerd.
+Wanneer u deze opgeeft in een afbeelding, tekst of effen kleurlaag, *`opacity`* past de volledige laag, met inbegrip van alle bijbehorende effect lagen toe terwijl *`fillOpacity`* is alleen van toepassing op de inhoud van de primaire laag. Wanneer opgegeven in een effectlaag, *`opacity`* wordt toegepast op de effectlaag, terwijl *`fillOpacity`* wordt genegeerd.
 
 De effectieve dekking voor de inhoud van de hoofdlaag is ( *`opacity`* &#42; *`fillOpacity`* / 100). De effectieve dekking voor effectlagen is (hoofdniveau) *`opacity`* &#42; effect *`opacity`* / 100).
 

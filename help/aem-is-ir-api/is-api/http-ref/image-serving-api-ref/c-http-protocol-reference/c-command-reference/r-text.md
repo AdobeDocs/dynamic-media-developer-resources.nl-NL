@@ -1,11 +1,11 @@
 ---
+title: text
 description: Laagtekst. Geeft tekst en opmaakinhoud voor een tekstlaag op.
 solution: Experience Manager
-title: text
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3966b180-bef1-4fad-af71-ba42bbdffd59
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Zie [textAttr=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-prot
 
 ## Eigenschappen {#section-8c0f020094a44c6b858454ef91ab4edf}
 
-Laagkenmerk. Van toepassing op `layer=0` indien `layer=comp`. Wederzijdse uitsluiten met `src=` en `textPs=` in dezelfde laag; de laatste `text=`, `textPs=`, en `src=` heeft voorrang en bepaalt of dit een afbeelding of een tekstlaag is. Genegeerd door effectlagen.
+Laagkenmerk. Van toepassing op `layer=0` indien `layer=comp`. Wederzijdse uitsluiten met `src=` en `textPs=` in dezelfde laag; het laatste exemplaar van `text=`, `textPs=`, en `src=` heeft voorrang en bepaalt of dit een afbeelding of een tekstlaag is. Genegeerd door effectlagen.
 
 ## Standaard {#section-58958671e0ad479e8d5f6c1d41d7dc74}
 

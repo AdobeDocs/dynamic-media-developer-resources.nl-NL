@@ -1,11 +1,11 @@
 ---
+title: hei
 description: Hoogte weergeven. Hiermee geeft u de hoogte op van de reactieafbeelding (weergaveafbeelding) wanneer fit niet aanwezig is in de aanvraag.
 solution: Experience Manager
-title: hei
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c812c7f0-4ac1-42cb-be47-7baebd8caf60
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 0%
@@ -25,9 +25,9 @@ Hoogte weergeven. Hiermee geeft u de hoogte op van de reactieafbeelding (weergav
  </tr> 
 </table>
 
-Als beide `wid=` en `scl=` worden opgegeven, kan de samengestelde afbeelding worden bijgesneden op basis van de `align=`kenmerk. Wanneer `fit=` aanwezig is, `hei=` geeft de exacte, minimale of maximale hoogte van het reactiebeeld aan; zie de beschrijving van [fit=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md) voor meer informatie.
+Als beide `wid=` en `scl=` worden opgegeven, kan de samengestelde afbeelding worden bijgesneden op basis van de `align=`kenmerk. Wanneer `fit=` aanwezig is, `hei=` geeft de exacte, minimale of maximale hoogte van de reactieafbeelding aan; raadpleeg de beschrijving van [fit=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md) voor meer informatie.
 
-Indien `scl=` niet is opgegeven, wordt de samengestelde afbeelding op maat geschaald. Als beide `wid=` en `hei=` gespecificeerd zijn, en `scl=` niet is opgegeven, wordt de afbeelding zodanig geschaald dat deze volledig binnen de rechthoek met schuine streep past, zodat zo weinig mogelijk achtergrondoppervlak zichtbaar blijft; in dit geval wordt de afbeelding binnen de weergaverechthoek geplaatst op basis van de `align=` kenmerk. Het achtergrondgebied is gevuld met `bgc=`of, indien niet gespecificeerd met `attribute::BkgColor`.
+Indien `scl=` niet is opgegeven, wordt de samengestelde afbeelding op maat geschaald. Als beide `wid=` en `hei=` gespecificeerd zijn, en `scl=` niet is opgegeven, wordt de afbeelding geschaald zodat deze volledig binnen de brede rechthoek past, zodat zo weinig mogelijk achtergrondoppervlak zichtbaar blijft; in dit geval wordt de afbeelding binnen de weergaverechthoek geplaatst op basis van de `align=` kenmerk. Het achtergrondgebied is gevuld met `bgc=`, of, indien niet gespecificeerd met `attribute::BkgColor`.
 
 >[!NOTE]
 >
@@ -39,11 +39,11 @@ Kenmerk weergeven. Is van toepassing ongeacht de huidige laaginstelling.
 
 ## Standaard {#section-76544d34806d4124a8b173e229cba71f}
 
-Als beide `wid=`, `hei=`, noch `scl=` opgegeven, heeft de antwoordafbeelding de grootte van de samengestelde afbeelding of `attribute::DefaultPix`, afhankelijk van welke waarde het kleinst is.
+Als geen van beide `wid=`, `hei=`, noch `scl=` opgegeven, heeft de antwoordafbeelding de grootte van de samengestelde afbeelding of `attribute::DefaultPix`, afhankelijk van welke waarde kleiner is.
 
 ## Voorbeelden {#section-eb10df7cd67e4733984810aaffd0b9e2}
 
-een afbeelding aanvragen om in een rechthoek van 200 x 200 te passen; de afbeelding wordt links boven uitgelijnd als deze niet vierkant is. Een willekeurig achtergrondgebied is gevuld met `attribute::BkgColor`.
+Een afbeelding aanvragen om in een rechthoek van 200 x 200 te passen; de afbeelding links boven uitlijnen als deze niet vierkant is. Een willekeurig achtergrondgebied is gevuld met `attribute::BkgColor`.
 
 `http://server/myRootId/myImageId?wid=200&hei=200&align=-1,-1`
 

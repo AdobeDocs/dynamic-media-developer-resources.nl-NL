@@ -1,11 +1,11 @@
 ---
+title: template
 description: Samenstellingsjabloon. Hiermee kunt u een samenstellende sjabloon opgeven die zich in een andere catalogus dan de hoofdcatalogus bevindt.
 solution: Experience Manager
-title: template
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 56ebf2a1-f2c3-4b3f-8d0a-9383f1411440
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 0%
@@ -21,13 +21,13 @@ Samenstellingsjabloon. Hiermee kunt u een samenstellende sjabloon opgeven in een
 <table id="simpletable_DEC6F4EB460D453B8F272C98C9C8B7E5"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> object</span> </p> </td> 
-  <td class="stentry"> <p>Sjabloon. </p></td> 
+  <td class="stentry"> <p>Sjabloon </p></td> 
  </tr> 
 </table>
 
 *`template`* moet een item uit de afbeeldingscatalogus zijn in de sjabloonhoofdtekst in `catalog::Modifier`.
 
-Wanneer `template=` is aanwezig, wordt het voorwerp dat in de verzoekweg wordt gespecificeerd niet toegepast als bron voor laag 0. Er kan echter naar worden verwezen als een `src=` of `mask=` overal in het malplaatje door de vooraf bepaalde wegvariabele te gebruiken `$object$` als `src=` waarde. `catalog::Modifier` van het object dat is opgegeven in het aanvraagpad, wordt alleen toegepast als `$object$` in de sjabloon, terwijl `catalog::PostModifier` wordt altijd toegepast.
+Wanneer `template=` is aanwezig, wordt het voorwerp dat in de verzoekweg wordt gespecificeerd niet toegepast als bron voor laag 0. Er kan echter naar worden verwezen als een `src=` of `mask=` ergens in de sjabloon met de vooraf gedefinieerde padvariabele `$object$` als `src=` waarde. `catalog::Modifier` van het object dat is opgegeven in het aanvraagpad, wordt alleen toegepast als `$object$` in de sjabloon, terwijl `catalog::PostModifier` wordt altijd toegepast.
 
 Laag 0 wordt bepaald in het malplaatjelichaam en kan een beeld, stevige kleur, tekst, of genestelde of ingebedde verzoeklaag zijn.
 

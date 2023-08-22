@@ -1,11 +1,11 @@
 ---
+title: anker
 description: Afbeeldingsanker. Definieert het ankerpunt van de rechthoek van de afbeelding, effen kleur of het tekstkader voordat transformaties worden toegepast (crop=, scale=, rotate=, flip=). Wordt ook gebruikt als rotatiecentrum voor rotate=.
 solution: Experience Manager
-title: anker
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f62ae048-0dcc-4e93-a9f1-2e4db6bef51f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Afbeeldingsanker. Definieert het ankerpunt van de rechthoek van de afbeelding, e
 <table id="simpletable_3ED1CD0BF473439FA1132FC84B4452A8"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> coord</span> </span> </p> </td> 
-  <td class="stentry"> <p>pixelverschuiving ten opzichte van de linkerbovenhoek van de bronafbeelding (int, int) </p></td> 
+  <td class="stentry"> <p>pixelverschuiving vanaf de linkerbovenhoek van de bronafbeelding (int, int) </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> coordN</span> </span> </p> </td> 

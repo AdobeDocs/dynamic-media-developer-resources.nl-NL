@@ -1,11 +1,11 @@
 ---
+title: id
 description: Versie afbeelding/metagegevens. Wanneer het werken met inhoud die regelmatig verandert, kunnen de servers in caching netwerken zoals Akamai, browser caches, en collectieve de servergeheime voorgeheugens van de volmachtsserver van het Beeld antwoorden opslaan die verouderd kunnen zijn voor periodes.
 solution: Experience Manager
-title: id
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3cdd27e4-14d2-42ef-aedb-9c1f7c39b4c6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 0%
@@ -70,7 +70,7 @@ In de volgende tabel worden de tekenreeks met de versie-id weergegeven die voor 
  </tbody> 
 </table>
 
-`req=` typen die niet hierboven zijn vermeld, hebben een korte TTL ( `attribute::NonImgExpiration`) of de reacties daarvan in het geheel niet te goeder trouw zijn; het opnemen van `id=` met dergelijke verzoeken.
+`req=` typen die niet hierboven zijn vermeld, hebben een korte TTL ( `attribute::NonImgExpiration`) of de reacties ervan zijn helemaal niet te goeder trouw; het heeft geen enkel voordeel om `id=` met dergelijke verzoeken.
 
 ## Eigenschappen {#section-62e973d0d5884abebbb0679f9278ae2c}
 

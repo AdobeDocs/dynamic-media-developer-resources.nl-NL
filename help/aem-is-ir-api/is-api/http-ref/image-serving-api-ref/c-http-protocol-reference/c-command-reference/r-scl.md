@@ -1,11 +1,11 @@
 ---
+title: scl
 description: Schaalweergave. Hiermee wordt de samengestelde afbeelding geschaald met de inverse van invFactor.
 solution: Experience Manager
-title: scl
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 297d187c-3a52-45ff-b73d-0b0e4b956080
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Kenmerk weergeven. Ongeacht de huidige laaginstelling.
 
 ## Standaard {#section-32502fa218a24e1f9c65f41c0260b56a}
 
-Als beide `wid=`, `hei=`, noch `scl=` worden opgegeven, heeft de antwoordafbeelding de grootte van de samengestelde afbeelding of `attribute::DefaultPix`, afhankelijk van welke waarde het kleinst is.
+Als geen van beide `wid=`, `hei=`, noch `scl=` worden opgegeven, heeft de antwoordafbeelding de grootte van de samengestelde afbeelding of `attribute::DefaultPix`, afhankelijk van welke waarde kleiner is.
 
 ## Voorbeeld {#section-a33f6239476a4b438d939656ad99aa76}
 

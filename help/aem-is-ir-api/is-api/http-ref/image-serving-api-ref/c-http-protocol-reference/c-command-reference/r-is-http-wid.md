@@ -1,11 +1,11 @@
 ---
+title: winderig
 description: Weergavebreedte. Hiermee geeft u de breedte op van de reactieafbeelding (weergaveafbeelding) wanneer fit= niet aanwezig is in de aanvraag.
 solution: Experience Manager
-title: winderig
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ba22c79b-da59-4993-aa1c-2c990a0c4be5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Weergavebreedte. Hiermee geeft u de breedte op van de reactieafbeelding (weergav
  </tr> 
 </table>
 
-Als beide `hei=` en `scl=` worden opgegeven, kan de samengestelde afbeelding worden bijgesneden op basis van de `align=` kenmerk. Wanneer `fit=` aanwezig is, `wid=` geeft de exacte, minimale of maximale breedte van de reactieafbeelding aan; zie de beschrijving van `fit=` voor meer informatie.
+Als beide `hei=` en `scl=` worden opgegeven, kan de samengestelde afbeelding worden bijgesneden op basis van de `align=` kenmerk. Wanneer `fit=` aanwezig is, `wid=` geeft de exacte, minimale of maximale breedte van de reactieafbeelding aan; raadpleeg de beschrijving van `fit=` voor meer informatie.
 
 Indien `scl=` niet is opgegeven, wordt de samengestelde afbeelding op maat geschaald. Als beide `wid=` en `hei=` gespecificeerd zijn, en `scl=` niet is opgegeven, wordt de afbeelding geschaald zodat deze volledig binnen de witte rechthoek past, zodat zo weinig mogelijk achtergrondoppervlak zichtbaar blijft. In dit geval wordt de afbeelding op basis van de `align=` kenmerk.
 
@@ -35,7 +35,7 @@ Indien `scl=` niet is opgegeven, wordt de samengestelde afbeelding op maat gesch
 
 ## Standaard {#section-976d4c8554a34c899f85d172f6ac6f58}
 
-Als beide `wid=`, `hei=`, noch `scl=` worden opgegeven, heeft de antwoordafbeelding de grootte van de samengestelde afbeelding of `attribute::DefaultPix`, afhankelijk van welke waarde het kleinst is.
+Als geen van beide `wid=`, `hei=`, noch `scl=` worden opgegeven, heeft de antwoordafbeelding de grootte van de samengestelde afbeelding of `attribute::DefaultPix`, afhankelijk van welke waarde kleiner is.
 
 ## Eigenschappen {#section-c93b7ce1b0d2475f80b06264b45d1285}
 
@@ -43,7 +43,7 @@ Kenmerk weergeven. Is van toepassing ongeacht de huidige laaginstelling.
 
 ## Voorbeeld {#section-82bc98b7c15a451bbe9b915d414c0470}
 
-een afbeelding aanvragen om in een rechthoek van 200 x 200 te passen; de afbeelding wordt rechtsboven uitgelijnd als deze niet vierkant is. Een willekeurig achtergrondgebied is gevuld met `attribute::BkgColor`.
+Een afbeelding aanvragen om in een rechthoek van 200 x 200 te passen; de afbeelding rechtsboven uitlijnen als deze niet vierkant is. Een willekeurig achtergrondgebied is gevuld met `attribute::BkgColor`.
 
 ` http:// *`server`*/myRootId/myImageId?wid=200&hei=200&align=1,-1`
 

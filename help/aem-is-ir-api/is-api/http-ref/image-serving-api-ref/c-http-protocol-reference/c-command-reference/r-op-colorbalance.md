@@ -1,11 +1,11 @@
 ---
+title: op_kleurbalans
 description: De kleurbalans aanpassen. Hiermee wordt de waarde van elke RGB-kleurcomponent afzonderlijk aangepast.
 solution: Experience Manager
-title: op_kleurbalans
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 93476778-97b0-4ad5-b22a-093239e845f0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%

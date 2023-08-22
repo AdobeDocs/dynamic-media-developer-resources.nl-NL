@@ -1,11 +1,11 @@
 ---
+title: rgn
 description: Regio van belang. Hiermee geeft u een rechthoekig interessegebied (ROI) in de samengestelde afbeelding op, uitgedrukt in pixels.
 solution: Experience Manager
-title: rgn
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4fa597ba-f949-47f2-bb0f-5c078b5c7524
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 0%

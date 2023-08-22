@@ -1,11 +1,11 @@
 ---
+title: map
 description: Afbeeldingskaartgegevens. Biedt afbeeldingskaartgegevens voor deze laag. Hiermee overschrijft u alle gegevens uit de catalogus Kaart voor deze laag.
 solution: Experience Manager
-title: map
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7c1fbb50-98ec-4d9a-b608-93d60d687069
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
@@ -55,4 +55,4 @@ An `AREA` -element met (meestal) standaardkenmerken wordt gebruikt om het kaartg
 
 ## Zie ook {#section-bc1d946fdf4b47bf9742a986800aa9b5}
 
-[Afbeeldingen met hyperlinks](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab), [req=map](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76)
+[Afbeeldingskaarten](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab), [req=map](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76)

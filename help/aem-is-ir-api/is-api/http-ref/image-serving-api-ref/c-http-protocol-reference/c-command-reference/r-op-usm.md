@@ -1,11 +1,11 @@
 ---
+title: op_usm
 description: Onscherp masker. Onscherp maskeert de laag of de definitieve meningsafbeelding, na al het schrapen, als layer=comp.
 solution: Experience Manager
-title: op_usm
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a83d6326-9029-4c5c-a069-92bc81120866
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
@@ -27,7 +27,7 @@ De parameters worden verondersteld op het volledige resolutiebeeld van toepassin
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> radius</span></span> </p></td> 
-  <td class="stentry"> <p>De kernel-straal van de filter in pixel (echt 0...250). </p></td> 
+  <td class="stentry"> <p>Filter de kernel-straal in pixels (reële 0...250). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> drempel</span></span> </p></td> 

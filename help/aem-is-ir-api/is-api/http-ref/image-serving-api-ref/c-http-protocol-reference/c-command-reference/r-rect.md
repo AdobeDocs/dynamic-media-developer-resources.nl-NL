@@ -1,11 +1,11 @@
 ---
+title: rect
 description: Eindweergaverechthoek. Hiermee kunt u de uiteindelijke afbeelding van de weergave splitsen in verschillende stroken of tegels, die afzonderlijk kunnen worden geleverd en naadloos kunnen worden samengevoegd door de client, zonder artefacten langs de randen.
 solution: Experience Manager
-title: rect
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1870001b-7904-470f-9582-984d453509ca
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 0%
@@ -25,11 +25,11 @@ Eindweergaverechthoek. Hiermee kunt u de uiteindelijke afbeelding van de weergav
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> size</span> </p></td> 
-  <td class="stentry"> <p>Grootte van de ROI in pixels (int, int). Hiermee geeft u de grootte van de antwoordafbeelding op. De afbeelding is gevuld met <span class="codeph"> bgc=</span> in gebieden die niet onder de afbeelding van de weergave vallen (of die transparant blijven, als <span class="codeph"> fmt=*-alpha</span> in het verzoek). </p></td> 
+  <td class="stentry"> <p>Grootte van de ROI in pixels (int, int). Hiermee geeft u de grootte van de antwoordafbeelding op. De afbeelding is gevuld met <span class="codeph"> bgc=</span> in gebieden die niet onder de afbeelding van de weergave vallen (of die transparant blijven, als <span class="codeph"> fmt=*-alpha</span> in het verzoek aanwezig is). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> schalen</span> </p></td> 
-  <td class="stentry"> <p>Schaalfactor (reëel). Bij waarden kleiner dan 1,0 neemt de resolutie af en bij waarden groter dan 1,0 neemt de resolutie toe. </p></td> 
+  <td class="stentry"> <p>Schaalfactor (real). Bij waarden kleiner dan 1,0 neemt de resolutie af en bij waarden groter dan 1,0 neemt de resolutie toe. </p></td> 
  </tr> 
 </table>
 
@@ -53,9 +53,9 @@ De tekstreactie bevat de volgende eigenschappen:
 
 `image.width=2000 image.height=2400 image.version=37JK6NTvpvC42F5gOuLEVY`
 
-Op basis van deze informatie kiezen we voor vier stroken van 600 x 2000 pixels. De `rect=` wordt gebruikt om de stripgrootte en de posities te beschrijven.
+Op basis van deze informatie kiezen we voor vier stroken van 600 x 2000 pixels. De `rect=` wordt gebruikt om de stripformaten en de posities te beschrijven.
 
-Aangezien deze afbeelding regelmatig wordt gewijzigd, worden de `id=` gebruiken om de kans te minimaliseren dat wij omhoog met één of meerdere stroken van een oudere versie van het beeld eindigen die in een CDN of volmachtsserver in het voorgeheugen kunnen zijn opgeslagen. De waarde van de `image.version` eigenschap wordt voor dit doel gebruikt.
+Aangezien deze afbeelding regelmatig wordt gewijzigd, wordt de opdracht `id=` gebruiken om de kans te minimaliseren dat wij omhoog met één of meerdere stroken van een oudere versie van het beeld eindigen die in een CDN of volmachtsserver in het voorgeheugen kunnen zijn opgeslagen. De waarde van `image.version` eigenschap wordt voor dit doel gebruikt.
 
 `http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,0,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,600,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,1200,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,1800,2000,600`
 

@@ -1,11 +1,11 @@
 ---
+title: uitbreiden
 description: Laag uitbreiden. Hiermee voegt u marges toe aan een laag of snijdt u de laagrechthoek bij.
 solution: Experience Manager
-title: uitbreiden
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 03db6555-6851-49d4-b0de-5570bf56ad76
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Laag uitbreiden. Hiermee voegt u marges toe aan een laag of snijdt u de laagrech
 
 `extend=` wordt toegepast op de laag *na* de afbeelding is uitgesneden ( `crop=`) en alle laagtransformaties, inclusief `rotate=`, zijn toegepast.
 
-Het uitgebreide gebied is gevuld met `bgColor=`of, indien niet gespecificeerd, transparant blijft.
+Het uitgebreide gebied is gevuld met `bgColor=`, of, indien niet gespecificeerd, transparant blijft.
 
 Argumentwaarden voor `extendN=` genormaliseerd ten opzichte van de grootte van de laagrechthoek na laagtransformaties, waaronder `rotate=` zijn toegepast.
 

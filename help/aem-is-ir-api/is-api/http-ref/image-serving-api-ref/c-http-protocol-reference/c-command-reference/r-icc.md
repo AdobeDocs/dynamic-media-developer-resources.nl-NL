@@ -1,11 +1,11 @@
 ---
+title: icc
 description: Uitvoerkleurprofiel.
 solution: Experience Manager
-title: icc
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8be7be8c-a23d-4a5b-93e4-44231155616b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -33,11 +33,11 @@ Uitvoerkleurprofiel.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> dithering</span></span> </p></td> 
-  <td class="stentry"> <p>1 om dithering in te schakelen, 0 om dithering uit te schakelen. </p></td> 
+  <td class="stentry"> <p>1 om, 0 toe te laten om dithering onbruikbaar te maken. </p></td> 
  </tr> 
 </table>
 
-*`object`* Hiermee geeft u het kleurruimteprofiel van de uitvoer op waarnaar de afbeelding moet worden geconverteerd als deze afwijkt van het werkprofiel. *`profile`* moet geldig zijn `icc::Name` gedefinieerd in de ICC-profielkaart van een afbeeldingscatalogus of standaardcatalogus, of een relatief pad naar een profielbestand (meestal met [!DNL .icc] of [!DNL .icm] achtervoegsel). Zie [ *`object`*](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0)voor aanvullende informatie.
+*`object`* geeft het kleurruimteprofiel van de uitvoer aan waarnaar de afbeelding moet worden geconverteerd als deze afwijkt van het werkprofiel. *`profile`* moet geldig zijn `icc::Name` gedefinieerd in de ICC-profielkaart van een afbeeldingscatalogus of standaardcatalogus, of een relatief pad naar een profielbestand (meestal met [!DNL .icc] of [!DNL .icm] achtervoegsel). Zie [*`object`*](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0) voor aanvullende informatie.
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ Uitvoerkleurprofiel.
 
 >[!NOTE]
 >
->Niet alle kleurconversies ondersteunen alle kleuren *`renderIntent`* en *`blackpointComp`* keuzen. Doorgaans worden deze instellingen alleen ondersteund wanneer het ICC-uitvoerprofiel een uitvoerapparaat zoals een printer of monitor karakteriseert. Sommige ICC-uitvoerprofielen bieden ook geen ondersteuning voor alle profielen *`renderIntent`* keuzen.
+>Niet alle kleurconversies ondersteunen alle kleuren *`renderIntent`* en *`blackpointComp`* keuzen. Doorgaans worden deze instellingen alleen ondersteund wanneer het ICC-uitvoerprofiel een uitvoerapparaat zoals een printer of monitor karakteriseert. Sommige ICC-uitvoerprofielen ondersteunen niet alle *`renderIntent`* keuzen.
 
 Opmerking
 
@@ -63,7 +63,7 @@ Request-kenmerk. De server retourneert een fout als een afbeeldingstype is opgeg
 
 ## Standaard {#section-0b9fe2eb428447df8ae9948f11ab5aae}
 
-Als kleurbeheer is ingeschakeld en `icc=` niet is opgegeven, levert de server de afbeelding die naar het uitvoerprofiel is geconverteerd ( `attribute::IccProfile*`) die overeenkomen met het afbeeldingstype dat is opgegeven met `fmt=`.
+Als kleurbeheer is ingeschakeld en `icc=` niet is opgegeven, levert de server de afbeelding die is omgezet in het uitvoerprofiel ( `attribute::IccProfile*`) die overeenkomen met het opgegeven afbeeldingstype `fmt=`.
 
 Indien niet opgegeven, *`renderIntent`* wordt overgeërfd van `attribute::IccRenderIntent`, *`blackpointComp`* wordt overgeërfd van `attribute::IccBlackPointCompensation`, en *`dither`* wordt overgeërfd van `attribute::IccDither`.
 

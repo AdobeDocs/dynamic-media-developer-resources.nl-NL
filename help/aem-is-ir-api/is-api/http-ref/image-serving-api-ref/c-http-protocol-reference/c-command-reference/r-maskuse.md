@@ -1,11 +1,11 @@
 ---
+title: maskUse
 description: Maskergebruik van afbeelding. Hiermee geeft u op hoe het masker of het alfakanaal van de afbeelding wordt gebruikt voor bewerkingen in de afbeelding (bijvoorbeeld colorize=). Wanneer het effect in een effectlaag wordt opgegeven, is het mogelijk het effect toe te passen op het achtergrondgebied van de bovenliggende laag of op de volledige bovenliggende laagrechthoek.
 solution: Experience Manager
-title: maskUse
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e99101a1-1747-454c-b0c0-3af3335c0497
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Het gedrag van `maskUse=` is ongedefinieerd en wordt niet ondersteund wanneer di
 
 ## Voorbeeld {#section-daa371e9be5547368ff6772342acba0a}
 
-Vullen met kleur op de achtergrond van een afbeelding; de voorgrond van de afbeelding wordt gedefinieerd door een aparte maskerafbeelding. Dit wordt bereikt door de achtergrond van de gekleurde afbeelding bovenaan in lagen te plaatsen als de ongewijzigde afbeelding:
+Vullen met kleur op de achtergrond van een afbeelding. De voorgrond van de afbeelding wordt gedefinieerd door een aparte maskerafbeelding. Dit wordt bereikt door de achtergrond van de gekleurde afbeelding bovenaan in lagen te plaatsen als de ongewijzigde afbeelding:
 
 `http://server/myRootId/myImageId?layer=1&src=myImageId&mask=myImgMask&maskUse=invert&colorize=0x306090`
 

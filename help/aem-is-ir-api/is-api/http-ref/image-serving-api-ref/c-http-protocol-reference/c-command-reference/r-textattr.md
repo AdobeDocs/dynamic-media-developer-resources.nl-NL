@@ -1,11 +1,11 @@
 ---
+title: textAttr
 description: Kenmerken tekstlaag. Geeft extra kenmerken op voor tekstlagen die niet beschikbaar zijn als rtf-opdrachten.
 solution: Experience Manager
-title: textAttr
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0c8a3d2a-2524-436a-8bc7-60241af0fd17
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Kenmerken tekstlaag. Geeft extra kenmerken op voor tekstlagen die niet beschikba
 <table id="simpletable_0072BF7DF52B4959A14EDEF60A6EBDEE"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> res </span> </span> </p> </td> 
-  <td class="stentry"> <p>Hiermee kunt u de tekstlaag schalen zonder de tekengrootte te wijzigen. Met hogere resolutiewaarden vergroot u de grootte van de gerenderde tekst ten opzichte van de canvasgrootte. kleinere waarden verkleinen de tekstgrootte. Tekstresolutie in dots per inch (int groter dan 0). </p> </td> 
+  <td class="stentry"> <p>Hiermee kunt u de tekstlaag schalen zonder de tekengrootte te wijzigen. Bij hogere resolutiewaarden neemt de grootte van de gerenderde tekst toe ten opzichte van de canvasgrootte. Bij lagere waarden wordt de tekst kleiner. Tekstresolutie in dots per inch (int groter dan 0). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> antiAliasing </span> </span> </p> </td> 
@@ -55,7 +55,7 @@ Kenmerken tekstlaag. Geeft extra kenmerken op voor tekstlagen die niet beschikba
     <table id="simpletable_2CFC06DB37154C7C92614FDF7A818DB5"> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> fixedRes </span> </p> </td> 
-      <td class="stentry"> <p>Gebruik de opgegeven resolutie. </p> <p>Gebruik deze optie als de tekst moet worden gerenderd in een exacte grootte ten opzichte van het samengestelde canvas. Tekst kan worden bijgesneden tot de laaggrootte (indien opgegeven) als het tekstvak te klein is. Dit is de enige <span class="varname"> resMode </span> door <span class="codeph"> textPs= </span>. </p> </td> 
+      <td class="stentry"> <p>Gebruik de opgegeven resolutie. </p> <p>Gebruik deze optie als de tekst moet worden weergegeven in een exacte grootte ten opzichte van het samengestelde canvas. Tekst kan worden bijgesneden tot de laaggrootte (indien opgegeven) als het tekstvak te klein is. Dit is de enige <span class="varname"> resMode </span> optie ondersteund door <span class="codeph"> textPs= </span>. </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> autoRes </span> </p> </td> 
@@ -63,13 +63,13 @@ Kenmerken tekstlaag. Geeft extra kenmerken op voor tekstlagen die niet beschikba
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> maxRes </span> </p> </td> 
-      <td class="stentry"> <p>Gebruik de opgegeven resolutie; Verlaag indien nodig om te voorkomen dat tekst wordt afgekapt naar de laagrechthoek. </p> <p>Gebruik deze optie om tekst met de exacte opgegeven resolutie te renderen, zolang er geen bijsnijden plaatsvindt. Bij knippen wordt de resolutie automatisch verlaagd om ervoor te zorgen dat alle tekst zich volledig in het tekstvak bevindt. Als tekstomloop is ingeschakeld, kan de tekst worden teruggeplaatst met de uiteindelijke resolutie. Niet ondersteund door <span class="codeph"> textPs= </span>. </p> </td> 
+      <td class="stentry"> <p>Gebruik de opgegeven resolutie; verlaag deze indien nodig om te voorkomen dat tekst wordt afgekapt naar de laagrechthoek. </p> <p>Gebruik deze optie om tekst met de exacte opgegeven resolutie te renderen, zolang er geen bijsnijden plaatsvindt. Bij knippen wordt de resolutie automatisch verlaagd om ervoor te zorgen dat alle tekst zich volledig in het tekstvak bevindt. Als tekstomloop is ingeschakeld, kan de tekst worden teruggeplaatst met de uiteindelijke resolutie. Niet ondersteund door <span class="codeph"> textPs= </span>. </p> </td> 
      </tr> 
     </table> </p> <p>Als de grootte van de tekstlaag niet is opgegeven met size= of als alleen de breedte is opgegeven, worden de instellingen 'autoRes' en 'maxRes' genegeerd en wordt de opgegeven resolutie gebruikt om de tekst te renderen. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> wordWrap </span> </span> </p> </td> 
-  <td class="stentry"> <p>Geeft de omloopmodus aan. </p> <p> <span class="codeph"> wrap | noWrap | nbWrap </span> </p> <p> 
+  <td class="stentry"> <p>Hiermee geeft u de omloopmodus op. </p> <p> <span class="codeph"> wrap | noWrap | nbWrap </span> </p> <p> 
     <table id="simpletable_FF2510E029EC41E29BC30D9FC2923EA3"> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> noWrap </span> </p> </td> 

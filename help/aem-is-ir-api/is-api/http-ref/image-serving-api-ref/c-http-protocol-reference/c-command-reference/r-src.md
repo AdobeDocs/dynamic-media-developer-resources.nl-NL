@@ -1,11 +1,11 @@
 ---
+title: src
 description: Laagafbeelding.
 solution: Experience Manager
-title: src
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 88b89e70-59cf-4fb9-bbe7-0ac5eff792f1
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Laagafbeelding.
 <table id="simpletable_59104309B8284B21ABCE7DC95BF5A273"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> object </span> </p> </td> 
-  <td class="stentry"> <p>Afbeeldingsobject. </p> </td> 
+  <td class="stentry"> <p>Object Image. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> nestedRequest </span> </p> </td> 
@@ -43,7 +43,7 @@ Zie [Nesten en insluiten aanvragen](../../../../../is-api/http-ref/image-serving
 
 ## Eigenschappen {#section-2c22bb89a35d470f833df8ba898efd93}
 
-Laagkenmerk. Van toepassing op `layer=0` indien `layer=comp`. Wederzijdse uitsluiten met `text=` en `textPs=` in dezelfde laag; het laatste geval van een van de `text=`, `textPs=`, of `src=` heeft voorrang en bepaalt of dit een afbeelding of een tekstlaag is. Genegeerd door effectlagen.
+Laagkenmerk. Van toepassing op `layer=0` indien `layer=comp`. Wederzijdse uitsluiten met `text=` en `textPs=` in dezelfde laag; de laatste keer dat een van de `text=`, `textPs=`, of `src=` heeft voorrang en bepaalt of dit een afbeelding of een tekstlaag is. Genegeerd door effectlagen.
 
 *`object`*kan niet worden omgezet in een andere catalogusrecord die een `src=` of `mask=` in zijn `catalog::Modifier`. (Gebruik nesten van aanvragen om een vergelijkbaar effect te bereiken.)
 

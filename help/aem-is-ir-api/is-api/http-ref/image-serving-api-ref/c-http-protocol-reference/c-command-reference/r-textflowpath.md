@@ -1,11 +1,11 @@
 ---
+title: textFlowPath
 description: Tekststroomgebied. Geeft een of meer gebieden op waarin tekst die met textPs= is opgegeven, moet worden doorlopen.
 solution: Experience Manager
-title: textFlowPath
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b5575d17-150b-421c-b298-077b577eb95c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Tekststroomgebied. Geeft een of meer gebieden op waarin tekst die met textPs= is
  </tr> 
 </table>
 
-Zie [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) voor aanvullende informatie, met inbegrip van een beschrijving van *`pathDefinition`*.
+Zie [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) voor aanvullende informatie, waaronder een beschrijving van *`pathDefinition`*.
 
 De opdrachten voor de RTF-marge `\margl`, `\margr`, `\margt`, en `\margb` worden genegeerd wanneer `textFlowPath=` aanwezig is. Als er geen paddefinitie is opgegeven, `textFlowPath=` wordt genegeerd.
 
@@ -35,7 +35,7 @@ Kenmerk tekstlaag ( `textPs=` alleen). Genegeerd door andere lagen. Van toepassi
 
 ## Standaard {#section-68c4559b9e8242059b82e5a39a455dfc}
 
-Hetzelfde als de laagrechthoek; de volledige laagrechthoek wordt gevuld met tekst.
+Hetzelfde als de laagrechthoek; tekst vult de volledige laagrechthoek.
 
 ## Zie ook {#section-592b0039cf99471188db6a7df44b450a}
 

@@ -1,13 +1,13 @@
 ---
-description: Progressieve JPEG-scan. Met de optie Progressieve JPEG wordt een afbeelding zo weergegeven dat deze in eerste instantie een vage foto of een foto van lage kwaliteit in zijn geheel weergeeft. Naarmate het scannen doorgaat, wordt het duidelijker wanneer de afbeeldingsgegevens beter worden gedownload. Met deze parameter kunt u het aantal scans instellen dat nodig is (3, 4 of 5) voor de hele afbeelding.
-solution: Experience Manager
 title: pscan
+description: Progressieve JPEG-scan. Met de optie Progressieve JPEG wordt een afbeelding zo weergegeven dat deze in eerste instantie een vage foto of een foto van lage kwaliteit in zijn geheel weergeeft.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1afd3a60-e0b6-47d1-b7e4-98a3145782a2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---

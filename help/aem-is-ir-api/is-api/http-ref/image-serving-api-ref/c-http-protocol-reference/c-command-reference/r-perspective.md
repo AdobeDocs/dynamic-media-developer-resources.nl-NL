@@ -1,11 +1,11 @@
 ---
+title: perspectief
 description: Perspectieftransformatie. Pas een perspectieftransformatie toe op de bronafbeelding van de laag om het gebied te vullen dat met de vierhoek is opgegeven. Andere gebieden van de laag blijven transparant.
 solution: Experience Manager
-title: perspectief
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2e0297b0-c9a4-4bbd-9f06-368f722288d4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Perspectieftransformatie. Pas een perspectieftransformatie toe op de bronafbeeld
 <table id="simpletable_4BD38BBF53964F7D97B9E58914C97B3F"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> perspQuad</span> </p></td> 
-  <td class="stentry"> <p>Perspectieve vierhoekige pixelcoördinaten (8 realen, gescheiden door komma's). </p></td> 
+  <td class="stentry"> <p>Perspectiefvierhoekige pixelcoördinaten (8 reële waarden, gescheiden door komma's). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> perspQuadN</span> </p></td> 
@@ -53,7 +53,7 @@ Het gedrag is ongedefinieerd als de vierhoek niet geschikt is voor een perspecti
 
 Hoewel de standaardimplementatie een redelijk compromis tussen kwaliteit en prestaties oplevert, kan het soms nodig zijn om de resolutie van de bronafbeelding te verhogen om de scherpte te verbeteren of om deze te verminderen om aliasing-artefacten te verminderen.
 
-Als de bron een afbeelding is, gebruikt u `scale=` om een andere resolutie te kiezen (ten opzichte van de volledige resolutie van de afbeelding). De opgegeven `scale=` De waarde wordt afgerond aan het volgende hogere niveau van de PTIF resolutie. In het geval van een geneste aanvraagbron kan de grootte van de afbeelding die door het geneste verzoek wordt geproduceerd, worden aangepast om de gewenste scherpte te verkrijgen. Voor tekstlagen wordt de resolutie van de invoerafbeelding (de gerenderde tekst) aangepast door een grotere size= waarde te selecteren in combinatie met een hogere resolutie die is opgegeven met `textAttr=`.
+Als de bron een afbeelding is, gebruikt u `scale=` een andere resolutie kiezen (ten opzichte van de volledige resolutie van de afbeelding). De opgegeven `scale=` De waarde wordt afgerond naar het volgende hogere PTIF resolutieniveau. In het geval van een geneste aanvraagbron kan de grootte van de afbeelding die door het geneste verzoek wordt geproduceerd, worden aangepast om de gewenste scherpte te verkrijgen. Voor tekstlagen wordt de resolutie van de invoerafbeelding (de gerenderde tekst) aangepast door een grotere size= waarde te selecteren in combinatie met een hogere resolutie die is opgegeven met `textAttr=`.
 
 *`resOptions`* Hiermee kunt u een ander algoritme voor het berekenen van nieuwe pixels selecteren. De volgende waarden worden ondersteund (hoofdlettergevoelig):
 
@@ -71,7 +71,7 @@ Als de bron een afbeelding is, gebruikt u `scale=` om een andere resolutie te ki
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> R2</span> </p> </td> 
-   <td> <p> Bi-lineair. </p> </td> 
+   <td> <p> Bidirectioneel. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> R3</span> </p> </td> 

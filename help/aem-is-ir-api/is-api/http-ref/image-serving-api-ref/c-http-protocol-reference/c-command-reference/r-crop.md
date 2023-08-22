@@ -1,11 +1,11 @@
 ---
+title: uitsnijden
 description: Afbeelding uitsnijden. Hiermee geeft u een rechthoekig uitsnijdgebied op, uitgedrukt in pixels of genormaliseerd ten opzichte van de bronafbeelding of maskerafbeelding met volledige resolutie.
 solution: Experience Manager
-title: uitsnijden
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d1ea63c1-95f0-4a4e-b65d-eb535eef0205
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Afbeelding uitsnijden. Hiermee geeft u een rechthoekig uitsnijdgebied op, uitged
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> coordN</span></span> </p> </td> 
-  <td class="stentry"> <p>Genormaliseerde verschuiving van de linkerbovenhoek van de bronafbeelding naar de linkerbovenhoek van de uitsnijdvak (reëel, reëel). </p></td> 
+  <td class="stentry"> <p>Genormaliseerde verschuiving van de linkerbovenhoek van de bronafbeelding naar de linkerbovenhoek van de uitsnijdvak (echt, echt). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> size</span></span> </p></td> 
@@ -51,7 +51,7 @@ Gehele afbeelding ( `cropN=0,0,1,1`).
 
 ## Voorbeelden {#section-2c99b481c0a04321979a3b522aa295d1}
 
-**Uitsnijden 10% van links en 10% van rechts:**
+**Uitsnijden 10% links en 10% rechts:**
 
 `…&cropN=0.1,0,0.8,1&…`
 

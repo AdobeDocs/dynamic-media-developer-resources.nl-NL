@@ -1,11 +1,11 @@
 ---
+title: masker
 description: Afbeeldingsmasker. Hiermee geeft u een aparte maskerafbeelding op die als een niet-gekoppeld masker moet worden gebruikt.
 solution: Experience Manager
-title: masker
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5785844b-945b-4dd0-ac59-efbf1360b7cd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Indien *`object`* wordt omgezet in een afbeeldingscatalogusitem, `catalog::MaskP
 
 Als de bronafbeelding een alfakanaal heeft, wordt deze altijd gebruikt. Anders wordt de afbeelding, indien nodig, omgezet in grijswaarden voordat deze als laagmasker wordt gebruikt.
 
-Als een masker op een stevige kleurenlaag wordt vastgemaakt, kan het worden bebouwd en worden geschraapt gebruikend de zelfde regels die voor beelden in beeldlagen worden gebruikt. `size=`, `scale=`, of `res=` kan worden gebruikt om het masker te schalen.
+Als een masker is gekoppeld aan een effen kleurlaag, kan het worden uitgesneden en geschaald met dezelfde regels die ook worden gebruikt voor afbeeldingen in afbeeldingslagen. `size=`, `scale=`, of `res=` kan worden gebruikt om het masker te schalen.
 
 Laagmaskers kunnen ook worden opgegeven in de vorm van een *`nestedRequest`*. Geneste of ingesloten aanvragen worden ingesloten door accolades. Een ingesloten aanvraag voor Beeldbewerking vooraf bevestigen met `is` en een ingesloten aanvraag voor het renderen van afbeeldingen met `ir`. Een verzoek aan een buitenlandse server wordt verondersteld als geen prefix wordt gespecificeerd. Zie [Nesten en insluiten aanvragen](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b) voor meer informatie.
 
@@ -53,7 +53,7 @@ Indien `mask=` niet expliciet wordt opgegeven en als de laagafbeelding aan een c
 
 ## Voorbeeld {#section-1bbe623f7c744bdf97b596458d8e7ea3}
 
-Gebruik verschillende afzonderlijke maskers om verschillende gebieden van een afbeelding kleur te geven. De ingekleurde, gemaskerde gebieden worden in lagen boven op de oorspronkelijke, ongewijzigde afbeelding geplaatst:
+Gebruik verschillende afzonderlijke maskers om verschillende gebieden van een afbeelding te vullen met kleur. De ingekleurde, gemaskerde gebieden worden in lagen boven op de oorspronkelijke, ongewijzigde afbeelding geplaatst:
 
 `http://server/myRootId/myImageId?wid=500& layer=1&src=myImageId&mask=myMask1&op_colorize=200,0,0& layer=2&src=myImageId&mask=myMask2&op_colorize=0,200,0& layer=3&src=myImageId&mask=myMask3&op_colorize=0,0,200`
 

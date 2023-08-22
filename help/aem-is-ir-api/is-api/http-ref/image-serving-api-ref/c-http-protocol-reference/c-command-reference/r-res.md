@@ -1,11 +1,11 @@
 ---
-description: Afbeeldingen schalen op basis van resolutie. Hiermee schaalt u de afbeelding naar de gewenste resolutie.
-solution: Experience Manager
 title: res
+description: Op resolutie gebaseerde afbeeldingsschaling. Hiermee schaalt u de afbeelding naar de gewenste resolutie.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e8ed7b00-7bb3-463e-9aaa-47f77bd4b45e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 0%
@@ -14,14 +14,14 @@ ht-degree: 0%
 
 # res{#res}
 
-Afbeeldingen schalen op basis van resolutie. Hiermee schaalt u de afbeelding naar de gewenste resolutie.
+Op resolutie gebaseerde afbeeldingsschaling. Hiermee schaalt u de afbeelding naar de gewenste resolutie.
 
 ` res= *`val`*`
 
 <table id="simpletable_E69F3709266749C4A165C90FF18FF5AA"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> val </span> </p> </td> 
-  <td class="stentry"> <p>doelresolutie; meestal in pixels per inch (reëel). </p> </td> 
+  <td class="stentry"> <p>Doelresolutie; doorgaans in pixels per inch (reëel). </p> </td> 
  </tr> 
 </table>
 
@@ -33,7 +33,7 @@ Naast het verkrijgen van beelden met nauwkeurige resoluties, `res=` kunt u ook g
 
 >[!NOTE]
 >
->Normaal gesproken wordt de grootte van een samengestelde afbeelding aangepast aan de grootte van de doelweergave (opgegeven door `wid=`, `hei=`, of `attribute::DefaultPix`) voordat deze aan de client wordt geretourneerd. Als u deze formaatwijziging wilt voorkomen en een afbeelding wilt verkrijgen met de exacte resolutie die is opgegeven door `res=`, kan het nodig zijn om weergave-schaling uit te schakelen door expliciet `scl=1`. Hierdoor wordt de server opgedragen de samengestelde afbeelding bij te snijden naar de grootte van de doelweergave in plaats van deze te schalen.
+>Normaal gesproken wordt de grootte van een samengestelde afbeelding aangepast aan de grootte van de doelweergave (opgegeven door `wid=`, `hei=`, of `attribute::DefaultPix`) voordat deze aan de client wordt geretourneerd. Als u dit niet wilt vergroten of verkleinen en een afbeelding wilt verkrijgen met de exacte resolutie die wordt opgegeven door `res=`, kan het nodig zijn om weergaveschaling uit te schakelen door expliciet `scl=1`. Hierdoor wordt de server opgedragen de samengestelde afbeelding bij te snijden naar de grootte van de doelweergave in plaats van deze te schalen.
 
 ## Eigenschappen {#section-fdbd16e59cff4952a3717146bc91412e}
 

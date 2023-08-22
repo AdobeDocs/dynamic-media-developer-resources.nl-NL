@@ -1,11 +1,11 @@
 ---
+title: align
 description: Afbeelding uitlijnen met weergave. Hiermee wordt de samengestelde afbeelding uitgelijnd (mogelijk na het schalen, als scl= ook is opgegeven) binnen de weergaverechthoek die wordt gedefinieerd door wid= en hei=.
 solution: Experience Manager
-title: align
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 01001cc6-1a60-4d6b-a27f-ea5822be6d11
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
@@ -21,11 +21,11 @@ Afbeelding uitlijnen met weergave. Hiermee wordt de samengestelde afbeelding uit
 <table id="simpletable_4CB26F72A56D4515B767C303F8E8A1CF"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> horiz </span> </span> </p> </td> 
-  <td class="stentry"> <p>horizontale uitlijning (reëel, -1.0...1.0) </p> </td> 
+  <td class="stentry"> <p>horizontale uitlijning (true, -1.0...1.0) </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> omkeren </span> </span> </p> </td> 
-  <td class="stentry"> <p>verticale uitlijning (reëel, -1.0...1.0) </p> </td> 
+  <td class="stentry"> <p>verticale uitlijning (true, -1.0...1.0) </p> </td> 
  </tr> 
 </table>
 
@@ -45,7 +45,7 @@ De volgende aanvraag is geschikt `myImage` in een weergaverechthoek van 200 x 20
 
 `http://server/myRootId/myImageId?wid=200&hei=200&align=0,-1`
 
-Indien `myImage` is precies vierkant, vult het de volledige meningsrechthoek. Indien `myImage` heeft een staande hoogte-breedteverhouding, wordt het geschaald tot 200 pixels hoog en wordt horizontaal gecentreerd in de weergave. Indien `myImage` heeft een liggende hoogte-breedteverhouding, wordt deze geschaald tot 200 pixels breed en wordt uitgelijnd op de bovenrand van de weergave. In alle gevallen is de geretourneerde afbeelding precies 200 x 200 pixels groot. elke ruimte die niet door de geschaalde `myImage` is gevuld met `attribute::BkgColor` (specificeer bgc= om de achtergrondkleur dynamisch te controleren).
+Indien `myImage` is precies vierkant, vult het de volledige meningsrechthoek. Indien `myImage` heeft een staande hoogte-breedteverhouding, wordt het geschaald tot 200 pixels hoog en wordt horizontaal gecentreerd in de weergave. Indien `myImage` heeft een liggende hoogte-breedteverhouding, wordt deze geschaald tot 200 pixels breed en wordt uitgelijnd op de bovenrand van de weergave. In alle gevallen is de geretourneerde afbeelding precies 200 x 200 pixels groot; elke ruimte die niet door de geschaalde afbeelding wordt bedekt `myImage` is gevuld met `attribute::BkgColor` (specificeer bgc= om de achtergrondkleur dynamisch te controleren).
 
 ## Zie ook {#section-28b42c6db199456a800c8407faa26a99}
 

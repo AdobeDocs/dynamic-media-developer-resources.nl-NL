@@ -1,11 +1,11 @@
 ---
+title: roteren
 description: Afbeelding roteren. Hiermee roteert u de afbeelding, tekst of effen kleurlaag met de opgegeven hoek.
 solution: Experience Manager
-title: roteren
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9f1b2d6f-4e67-4530-9ec6-870b97687ce0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
@@ -21,11 +21,11 @@ Afbeelding roteren. Hiermee roteert u de afbeelding, tekst of effen kleurlaag me
 <table id="simpletable_5531ED4C2099411DB404657E12B05314"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> hoek</span> </p> </td> 
-  <td class="stentry"> <p>Rotatiehoek in graden (reëel). </p></td> 
+  <td class="stentry"> <p>Rotatiehoek in graden (echt). </p></td> 
  </tr> 
 </table>
 
-Positieve hoeken roteren rechtsom. Het laagankerpunt ( `anchor=` of `catalog::Anchor`) fungeert als het middelpunt van de rotatie. De laagrechthoek wordt zo nodig vergroot en rondom de geroteerde gegevens geplaatst om uitsnijden te voorkomen. Rotatie wordt toegepast nadat het achtergrondgebied van de laag is gevuld met `color=`. `bgColor=` U kunt achtergrondkleur toevoegen aan het selectiekader na het roteren.
+Positieve hoeken roteren rechtsom. Het laagankerpunt ( `anchor=` of `catalog::Anchor`) fungeert als rotatiecentrum. De laagrechthoek wordt zo nodig vergroot en rondom de geroteerde gegevens geplaatst om uitsnijden te voorkomen. Rotatie wordt toegepast nadat het achtergrondgebied van de laag is gevuld met `color=`. `bgColor=` U kunt achtergrondkleur toevoegen aan het selectiekader na het roteren.
 
 ## Eigenschappen {#section-8b5a9bb9062f48dbb8d4e9953ff39e39}
 

@@ -1,11 +1,11 @@
 ---
+title: imageSet
 description: Afbeeldingsset. Hiermee wordt een waarde voor de afbeeldingsset opgegeven die moet worden gebruikt bij het genereren van de reactie req=set.
 solution: Experience Manager
-title: imageSet
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 318c658d-7126-40f6-870b-11294a3f6f5f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Afbeeldingsset. Hiermee wordt een waarde voor de afbeeldingsset opgegeven die mo
 <table id="simpletable_F697691D166C407D82233664814F4663"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> val</span></span> </p> </td> 
-  <td class="stentry"> <p>Tekenreeks afbeeldingsset. </p></td> 
+  <td class="stentry"> <p>Tekenreeks voor afbeeldingsset. </p></td> 
  </tr> 
 </table>
 
