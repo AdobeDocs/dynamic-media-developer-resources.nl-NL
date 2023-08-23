@@ -1,13 +1,13 @@
 ---
+title: Bfc
 description: Conversie browserindeling. Hiermee wordt aangegeven of de conversiefunctionaliteit van de browserindeling is in- of uitgeschakeld.
 solution: Experience Manager
-title: Bfc
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 407d36ae-ea45-4580-9ca2-16d073d1edad
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 21d6aed6baee24922732461fe680f6cc93bd0d06
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---
@@ -30,3 +30,7 @@ Conversie browserindeling. Hiermee wordt aangegeven of de conversiefunctionalite
 ## Standaard {#section-9c2c5794b82a4ef89a09551f08d03dbc}
 
 `Bfc=false`
+
+## Zie ook
+
+[bfc](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-bfc.md), [dpr](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md), [netwerk](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md), [Slimme afbeeldingen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)

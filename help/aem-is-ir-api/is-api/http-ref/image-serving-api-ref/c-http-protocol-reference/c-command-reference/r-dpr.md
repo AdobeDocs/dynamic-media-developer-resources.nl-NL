@@ -4,9 +4,9 @@ description: DPR (Device Pixel Ratio)&mdash;ook wel CSS-pixelverhouding&mdash ge
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
-source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
+source-git-commit: 21d6aed6baee24922732461fe680f6cc93bd0d06
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '311'
 ht-degree: 1%
 
 ---
@@ -44,6 +44,8 @@ Als de resulterende afbeelding door DPR-optimalisatie groter is dan de Dynamic M
 | 816 x 500 | 3 | 2448 x 1500 |
 | 816 x 500 | 4 | 3264 x 2000 |
 
+DPR-waarden zijn gebaseerd op de gedetecteerde client-side waarden van de gebundelde CDN. Deze waarden zijn soms onjuist. IPhone5 bijvoorbeeld met `dpr=2`en iPhone12 met dpr=3, beide tonen `dpr=2`. Stilstaand, voor apparaten met hoge resolutie, verzenden `dpr=2` is beter dan verzenden `dpr=1`. De beste manier om deze onnauwkeurigheid te overwinnen, is echter door DPR op de client-side te gebruiken om u 100% nauwkeurige waarden te geven. En het werkt voor elk apparaat, of het nu Apple is of een ander apparaat dat gelanceerd werd. Zie [Slimme beeldverwerking gebruiken met pixelverhouding van client-side apparaat](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/client-side-dpr.html?lang=en).
+
 ## Eigenschappen
 
 
@@ -60,4 +62,4 @@ Als de resulterende afbeelding door DPR-optimalisatie groter is dan de Dynamic M
 
 ## Zie ook
 
-[netwerk](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md), [Slimme afbeeldingen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)
+[bfc](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bfc.md), [netwerk](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md), [Slimme afbeeldingen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)
