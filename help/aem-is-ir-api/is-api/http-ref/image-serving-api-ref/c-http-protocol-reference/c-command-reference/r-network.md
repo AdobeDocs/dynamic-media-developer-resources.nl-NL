@@ -4,9 +4,9 @@ description: Leer over het gebruiken van de optimalisering van de netwerkbandbre
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
-source-git-commit: 96b60fd5f6e3550993cd7640138df4c9bbf6b955
+source-git-commit: a6e0db8238ba5f2209089c6eda7b42c42f66b25f
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ De bandbreedtewaarden van het netwerk zijn gebaseerd op de ontdekte cliënt-zijw
 
 ## Eigenschappen
 
-
+Een aanvraagkenmerk. Het heeft geen effect als de netvoorwaarden uitstekend zijn.
 
 ## Standaard
 

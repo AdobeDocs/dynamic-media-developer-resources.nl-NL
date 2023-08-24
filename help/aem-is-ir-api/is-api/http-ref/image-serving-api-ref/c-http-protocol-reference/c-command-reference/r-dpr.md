@@ -4,9 +4,9 @@ description: DPR (Device Pixel Ratio)&mdash;ook wel CSS-pixelverhouding&mdash ge
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
-source-git-commit: 21d6aed6baee24922732461fe680f6cc93bd0d06
+source-git-commit: a6e0db8238ba5f2209089c6eda7b42c42f66b25f
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '323'
 ht-degree: 1%
 
 ---
@@ -48,7 +48,7 @@ DPR-waarden zijn gebaseerd op de gedetecteerde client-side waarden van de gebund
 
 ## Eigenschappen
 
-
+Een aanvraagkenmerk. Het heeft geen effect als `dpr` is uit of als `dprValue=1`.
 
 ## Standaard
 
