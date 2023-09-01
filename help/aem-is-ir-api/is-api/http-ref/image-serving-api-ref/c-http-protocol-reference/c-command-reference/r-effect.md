@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d1eaa38d-cfd3-44d4-92b1-04d72333f867
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
@@ -27,15 +27,15 @@ Selecteer Effectlaag. Selecteert een effect laag en begint een nieuw laagsegment
 
 Alle bevelen binnen het nieuwe segment worden toegepast op de gespecificeerde effect laag. Een segment van de effectlaag wordt geëindigd door volgende `layer=` of `effect=` of aan het einde van de aanvraag.
 
-*`n`* moet kleiner zijn dan 0 voor buitenlaageffecten (d.w.z. effecten achter de bovenliggende laag) en groter dan 0 voor binnenlaageffecten (d.w.z. effecten binnen de bovenliggende laag). Effectlaagnummers hoeven niet opeenvolgend te zijn.
+De waarde *`n`* moet kleiner zijn dan 0 voor buitenlaageffecten (dat wil zeggen effecten achter de bovenliggende laag) en groter dan 0 voor binnenlaageffecten (dat wil zeggen, effecten binnen de bovenliggende laag). Effectlaagnummers hoeven niet opeenvolgend te zijn.
 
-Het aantal van de effect laag specificeert de z-orde, in het geval van veelvoudige effect lagen voor de zelfde ouderlaag. De lagen met een hoger nummer worden boven op de lagen met een lager nummer geplaatst.
+Het effect laagaantal specificeert de z-orde, als er veelvoudige effect lagen voor de zelfde ouderlaag zijn. De lagen met een hoger nummer worden boven op de lagen met een lager nummer geplaatst.
 
 Effectlagen kunnen worden gekoppeld aan `layer=comp`.
 
 ## Eigenschappen {#section-e11f795deff345779ce280a82cf221ca}
 
-Effectlaag, opdracht. *`n`* mag niet 0 zijn.
+Effectlaag, opdracht. De waarde *`n`* mag niet 0 zijn.
 
 ## Standaard {#section-84bbe1cfe7a94040827c994323ac59d4}
 

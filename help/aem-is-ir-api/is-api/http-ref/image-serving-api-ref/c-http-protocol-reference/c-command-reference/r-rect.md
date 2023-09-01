@@ -1,20 +1,20 @@
 ---
 title: rect
-description: Eindweergaverechthoek. Hiermee kunt u de uiteindelijke afbeelding van de weergave splitsen in verschillende stroken of tegels, die afzonderlijk kunnen worden geleverd en naadloos kunnen worden samengevoegd door de client, zonder artefacten langs de randen.
+description: Eindweergaverechthoek. Hierdoor kan de uiteindelijke weergaveafbeelding worden gedemonteerd in verschillende stroken of tegels, die afzonderlijk kunnen worden geleverd en naadloos kunnen worden samengevoegd door de client, zonder artefacten langs de randen.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1870001b-7904-470f-9582-984d453509ca
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
 
 # rect{#rect}
 
-Eindweergaverechthoek. Hiermee kunt u de uiteindelijke afbeelding van de weergave splitsen in verschillende stroken of tegels, die afzonderlijk kunnen worden geleverd en naadloos kunnen worden samengevoegd door de client, zonder artefacten langs de randen.
+Eindweergaverechthoek. Hierdoor kan de uiteindelijke weergaveafbeelding worden gedemonteerd in verschillende stroken of tegels, die afzonderlijk kunnen worden geleverd en naadloos kunnen worden samengevoegd door de client, zonder artefacten langs de randen.
 
 `rect= *`coord`*, *`size`*[, *`schalen`*]`
 
@@ -37,11 +37,11 @@ Met deze opdracht kunnen via HTTP grote afbeeldingen worden geleverd die anders 
 
 >[!NOTE]
 >
->Als u JPEG comprimeert, krijgt u het beste resultaat als de strip of tegelgrootte een veelvoud is van de tegelgrootte van de JPEG-codering (16 x 16 pixels).
+>Als u JPEG-compressie gebruikt, krijgt u het beste resultaat als de strip of tegelgrootte een veelvoud is van de tegelgrootte van de JPEG-codering (16 x 16 pixels).
 
 ## Voorbeeld {#section-932fcfcb41d74a29bc929e4430c49601}
 
-Scheid een afdrukbare CMYK-afbeelding in verschillende strepen met volledige resolutie om de bestandsgrootte van het downloadbestand te beperken. Als wij om een aaneengesloten beeld zouden verzoeken:
+Scheid een afdrukbare CMYK-afbeelding in verschillende strepen met volledige resolutie om de bestandsgrootte van het downloadbestand te beperken. Als u een aangrenzende afbeelding hebt aangevraagd:
 
 `http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&fmt=tif&icc=WebCoated`
 
@@ -53,15 +53,15 @@ De tekstreactie bevat de volgende eigenschappen:
 
 `image.width=2000 image.height=2400 image.version=37JK6NTvpvC42F5gOuLEVY`
 
-Op basis van deze informatie kiezen we voor vier stroken van 600 x 2000 pixels. De `rect=` wordt gebruikt om de stripformaten en de posities te beschrijven.
+Op basis van deze informatie zijn vier stroken van 600 x 2000 pixels gewenst. De `rect=` wordt gebruikt om de stripformaten en de posities te beschrijven.
 
-Aangezien deze afbeelding regelmatig wordt gewijzigd, wordt de opdracht `id=` gebruiken om de kans te minimaliseren dat wij omhoog met één of meerdere stroken van een oudere versie van het beeld eindigen die in een CDN of volmachtsserver in het voorgeheugen kunnen zijn opgeslagen. De waarde van `image.version` eigenschap wordt voor dit doel gebruikt.
+Omdat deze afbeelding vaak wordt gewijzigd, worden de `id=` is opgenomen. Dit minimaliseert de kans om met één of meerdere stroken van een oudere versie van het beeld te eindigen die in een CDN of volmachtsserver in het voorgeheugen kunnen zijn opgeslagen. De waarde van `image.version` eigenschap wordt voor dit doel gebruikt.
 
 `http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,0,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,600,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,1200,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,1800,2000,600`
 
 ## Eigenschappen {#section-aae223cee13e46d38b74680c048d945b}
 
-Kenmerk weergeven. Is van toepassing ongeacht de huidige laaginstelling.
+Kenmerk weergeven. Deze wordt toegepast ongeacht de huidige laaginstelling.
 
 Om het even welke gebieden van het ROI die zich buiten het meningsbeeld uitbreiden worden opgevuld met `bgc=`.
 

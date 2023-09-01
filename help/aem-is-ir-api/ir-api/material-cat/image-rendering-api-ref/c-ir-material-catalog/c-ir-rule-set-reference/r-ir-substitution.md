@@ -1,11 +1,11 @@
 ---
+title: vervanging
 description: Vervangend tekenreekselement. Optioneel in <rule> elementen.
 solution: Experience Manager
-title: vervanging
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ea44d940-e8dd-4a25-a082-3ed3c0f57e45
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Vervangende tekenreeks.
 
 Definieert een vervangende tekenreeks voor de overeenkomende tekenreeks of subtekenreeks in het pad of de query.
 
-Als de patroonexpressie subexpressies bevat (gescheiden door ronde haakjes), wordt de eerste overeenkomende subtekenreeks vervangen door de vervangende tekenreeks. Als de patroonexpressie geen subexpressies bevat, wordt de gehele overeenkomende tekenreeks vervangen.
+Als de patroonexpressie subexpressies bevat (gescheiden door ronde haakjes), wordt de eerste overeenkomende subtekenreeks vervangen door de vervangende tekenreeks. Als de patroonexpressie geen subexpressions bevat, wordt de volledige overeenkomende tekenreeks vervangen.
 
 Indien `<expression>` is leeg of ontbreekt, wordt het substitutietekenreeks toegevoegd aan de weg of de vraag.
 

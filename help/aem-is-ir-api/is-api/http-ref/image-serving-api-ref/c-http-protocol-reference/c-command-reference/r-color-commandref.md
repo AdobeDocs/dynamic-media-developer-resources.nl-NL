@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b937e699-8e1e-4211-86a6-fdc155a0e3ed
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -25,21 +25,21 @@ Laagkleur. Hiermee geeft u de voorgrondkleur en dekking van effen kleuren en eff
  </tr> 
 </table>
 
-In het geval van afbeeldings- en tekstlagen: `color=` Hiermee vult u transparante en semi-dekkende gebieden binnen het selectiekader van de laag met de opgegeven kleur* voor* `rotate=` en `extend=` worden toegepast.
+Als er afbeeldings- en tekstlagen zijn, `color=` Hiermee vult u transparante en semi-dekkende gebieden binnen het selectiekader van de laag met de opgegeven kleur* voor* `rotate=` en `extend=` worden toegepast.
 
 ## Eigenschappen {#section-d6e74c36a49547849212e4db8927e678}
 
 Laagkenmerk. Is van toepassing op huidige laag of op laag 0 als `layer=comp`.
 
-*`color`* wordt verondersteld te bestaan in de werkkleurruimte die overeenkomt met het pixeltype van *`color`*. *`color`* nauwkeurig wordt omgezet als de laagafbeelding een ander pixeltype heeft op het moment van samenvoegen.
+De optie *`color`* wordt verondersteld te bestaan in de werkkleurruimte die overeenkomt met het pixeltype van *`color`*. en *`color`* nauwkeurig wordt omgezet als de laagafbeelding een ander pixeltype heeft op het moment van samenvoegen.
 
 ## Standaard {#section-60611c72876b4c45b5c85ce35608e5ec}
 
-Geen standaardwaarde voor effen kleuren en effectlagen; er moet een kleur worden opgegeven. De standaardwaarde is 0,0,0,0 (volledig transparant) voor afbeeldings- en tekstlagen.
+Geen standaardinstelling voor effen kleuren en effectlagen; er moet een kleur worden opgegeven. De standaardwaarde is 0,0,0,0 (volledig transparant) voor afbeeldings- en tekstlagen.
 
 ## Voorbeeld {#section-2d090493f4ec4e188bbc5565aa151a05}
 
-In het volgende sjabloonfragment stellen we de tekstachtergrond in op een dekkende kleur van 50% en gebruiken we dezelfde kleur om een halftransparante rand van 10 pixels toe te voegen rondom de afbeelding van laag 2:
+In het volgende sjabloonfragment wordt de tekstachtergrond ingesteld op een dekkende kleur van 50% en wordt dezelfde kleur gebruikt om een halftransparante rand van 10 pixels toe te voegen rondom de afbeelding van laag 2:
 
 `…&$color=214,245,130,128& layer=1&text=my-text-string&color=$color$&… layer=2&src=myRootId/myImageId&extend=10,10,10,10&bgColor=$color$&…`
 

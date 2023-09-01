@@ -1,24 +1,24 @@
 ---
-description: Een proces dat een bestaand PDF-element opnieuw negeert.
-solution: Experience Manager
 title: RipPdfsJob
+description: Een proces dat een bestaand PDF-element rendert.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7a787b45-3cda-44f2-8357-8b6217b679e0
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
 
 # [!DNL RipPdfsJob]{#rippdfsjob}
 
-Een proces dat een bestaand PDF-element opnieuw negeert.
+Een proces dat een bestaand PDF-element rendert.
 
 >[!NOTE]
 >
->Dit taaktype is afgekeurd. Overgang naar `ReprocessAssetsJob` voor alle toekomstige integratie.
+>Dit taaktype is vervangen. Overgang naar `ReprocessAssetsJob` voor alle toekomstige integratie.
 
 ## Parameters {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -114,7 +114,7 @@ Een proces dat een bestaand PDF-element opnieuw negeert.
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> types:KnockoutBackgroundOptions</span> </p> </td> 
-   <td colname="col3"> <p>Masker de achtergrond voor geselecteerde afbeeldingen. Hierdoor kunt u ze in andere lagen bedekken met transparantie buiten de afbeelding van het onderwerp. </p> <p>Optioneel. </p> <p>Zie<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
+   <td colname="col3"> <p>Masker de achtergrond voor geselecteerde afbeeldingen. Hierdoor kunt u deze lagen in andere lagen bedekken met transparantie buiten de afbeelding van het onderwerp. </p> <p>Optioneel. </p> <p>Zie<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>

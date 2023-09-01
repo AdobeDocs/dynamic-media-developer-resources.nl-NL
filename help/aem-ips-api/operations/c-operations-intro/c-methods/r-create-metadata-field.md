@@ -1,20 +1,20 @@
 ---
-description: Hiermee kunnen beheerders nieuwe metagegevensvelden maken voor coördinatie met contentbeheersystemen of voor sjabloonbewerkingen. Voorbeelden van gemaakte metagegevensvelden zijn trefwoorden, informatie over de auteur van de afbeelding of informatie over de copyrighthouder.
-solution: Experience Manager
 title: createMetadataField
+description: Met deze methode kunnen beheerders metagegevensvelden maken voor coördinatie met inhoudsbeheersystemen of voor sjabloonbewerkingen. Voorbeelden van gemaakte metagegevensvelden zijn trefwoorden, informatie over de auteur van de afbeelding of informatie over de copyrighthouder.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: eac7fa54-ebe2-4f42-a478-d9a6fb54d1b6
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
 
 # createMetadataField{#createmetadatafield}
 
-Hiermee kunnen beheerders nieuwe metagegevensvelden maken voor coördinatie met contentbeheersystemen of voor sjabloonbewerkingen. Voorbeelden van gemaakte metagegevensvelden zijn trefwoorden, informatie over de auteur van de afbeelding of informatie over de copyrighthouder.
+Met deze methode kunnen beheerders metagegevensvelden maken voor coördinatie met inhoudsbeheersystemen of voor sjabloonbewerkingen. Voorbeelden van gemaakte metagegevensvelden zijn trefwoorden, informatie over de auteur van de afbeelding of informatie over de copyrighthouder.
 
 Syntaxis
 
@@ -40,7 +40,7 @@ Syntaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> Naam van het bedrijf waartoe het metagegevensveld behoort. </td> 
+   <td colname="col4"> De naam van het bedrijf waartoe het metagegevensveld behoort. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetType</span> </span> </td> 
@@ -82,7 +82,7 @@ Syntaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
    <td colname="col3"> Nee </td> 
-   <td colname="col4"> Hiermee kunt u een set gedeelde opsommingswaarden maken waarnaar geselecteerde tags kunnen wijzen. </td> 
+   <td colname="col4"> Hiermee kunt u een set gedeelde specifieke waarden maken waarnaar geselecteerde tags kunnen verwijzen. </td> 
   </tr> 
  </tbody> 
 </table>

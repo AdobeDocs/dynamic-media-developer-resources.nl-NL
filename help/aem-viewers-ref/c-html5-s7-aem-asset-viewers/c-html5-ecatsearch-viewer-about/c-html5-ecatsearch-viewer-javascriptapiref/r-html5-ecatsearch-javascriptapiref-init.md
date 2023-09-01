@@ -1,13 +1,13 @@
 ---
+title: init
 description: JavaScript API-referentie voor eCatalog Viewer.
 solution: Experience Manager
-title: init
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 4d71062c-fee7-4339-bd7f-1b7f778465c4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ JavaScript API-referentie voor eCatalog Viewer.
 
 [!DNL `init()`]
 
-Start de initialisatie van de eCatalog Viewer. Tegen deze tijd moet het DOM-element van de container worden gemaakt, zodat de viewercode het met zijn id kan vinden.
+Start de initialisatie van de eCatalog Viewer. Tegen deze tijd, moet het containerDOM element worden gecreeerd zodat de kijkerscode het door zijn identiteitskaart kan vinden.
 
-Als het containerelement nog geen deel uitmaakt van de webpaginalay-out (bijvoorbeeld [!DNL `display:none`] stijl eraan is toegewezen), onderbreekt de viewer het initialisatieproces totdat de webpagina het containerelement weer in de layout plaatst. Wanneer dit gebeurt, wordt het laden van de viewer automatisch hervat.
+Als het containerelement nog geen deel uitmaakt van de webpaginalay-out, kan het bijvoorbeeld worden verborgen met [!DNL `display:none`] stijl die eraan is toegewezen. De viewer schorst het initialisatieproces. Dit gebeurt totdat de webpagina het containerelement weer in de layout plaatst. Wanneer deze gebeurtenis plaatsvindt, wordt de viewer automatisch opnieuw geladen.
 
 Roep deze methode slechts eenmaal aan tijdens de levenscyclus van de viewer; volgende aanroepen worden genegeerd.
 

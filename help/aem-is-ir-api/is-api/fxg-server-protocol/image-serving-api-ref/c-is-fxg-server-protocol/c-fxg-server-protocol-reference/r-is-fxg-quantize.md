@@ -1,11 +1,11 @@
 ---
+title: kwantificeren
 description: Kleurkwantiteit. Geeft kleurkwantiseringskenmerken op voor GIF-uitvoerconversie.
 solution: Experience Manager
-title: kwantificeren
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67247016-a038-4ed4-90ed-751eaf9c4881
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Kleurkwantiteit. Geeft kleurkwantiseringskenmerken op voor GIF-uitvoerconversie.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> colorList </span> </span> </p> </td> 
-  <td class="stentry"> <p>Door komma's gescheiden lijst met geforceerde RGB kleuren in hexadecimale 6-indeling. Hiermee kunt u geforceerde kleuren opgeven die moeten worden opgenomen in een ' <span class="codeph"> adaptief </span>". Als het opgegeven aantal kleuren kleiner is dan <span class="codeph"> numColors </span>extra kleuren worden berekend op basis van de inhoud van de afbeelding. </p> <p>Wordt alleen gebruikt als <span class="codeph"> fmt=gif </span> of <span class="codeph"> fmt=gif-alpha </span>. Anders genegeerd. De kleuren die zijn opgegeven met <span class="codeph"> <span class="varname"> colorList </span> </span> moet RGB-waarden zijn in hex6-indeling (zie <span class="codeph"> kleur </span>); er zijn geen andere kleurspecificaties toegestaan . </p> </td> 
+  <td class="stentry"> <p>Door komma's gescheiden lijst met geforceerde RGB kleuren in hexadecimale 6-indeling. Hiermee kunt u geforceerde kleuren opgeven die moeten worden opgenomen in een ' <span class="codeph"> adaptief </span>". Als het opgegeven aantal kleuren kleiner is dan <span class="codeph"> numColors </span>extra kleuren worden berekend op basis van de inhoud van de afbeelding. </p> <p>Wordt alleen gebruikt als <span class="codeph"> fmt=gif </span> of <span class="codeph"> fmt=gif-alpha </span>. Anders genegeerd. De kleuren die zijn opgegeven met <span class="codeph"> <span class="varname"> colorList </span> </span> moet RGB-waarden zijn in hex6-indeling (zie <span class="codeph"> kleur </span>); er zijn geen andere kleurspecificaties toegestaan. </p> </td> 
  </tr> 
 </table>
 
@@ -45,8 +45,8 @@ Kleurkwantiteit. Geeft kleurkwantiseringskenmerken op voor GIF-uitvoerconversie.
 
 Een miniatuur van een GIF genereren met de &#39; `web`&#39; en geen dithering:
 
-[!DNL http://server/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off]
+[!DNL `http://server/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off`]
 
-Zet de afbeelding om in een bitonal-GIF met toetsenbordkleurtransparantie en forceer de kleuren naar zwart-wit:
+Zet de afbeelding om in een bitonaal GIF met kleurentransparantie en forceer de kleuren in zwart-wit:
 
-[!DNL http://server/is/agm/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff]
+[!DNL `http://server/is/agm/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`]

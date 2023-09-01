@@ -1,24 +1,24 @@
 ---
-description: Maak of bewerk een metagegevensveld. Laat de optionele veldgreep weg om een nieuw metagegevensveld te maken.
-solution: Experience Manager
 title: saveMetadataField
+description: Maak of bewerk een metagegevensveld. Laat de optionele veldgreep weg om een metagegevensveld te maken.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 56a45324-5027-4375-a790-c965f682e4b9
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
 
 # saveMetadataField{#savemetadatafield}
 
-Maak of bewerk een metagegevensveld. Laat de optionele veldgreep weg om een nieuw metagegevensveld te maken.
+Maak of bewerk een metagegevensveld. Laat de optionele veldgreep weg om een metagegevensveld te maken.
 
 >[!NOTE]
 >
->Deze methode is afgekeurd.
+>Deze methode is vervangen.
 
 ## Geautoriseerde gebruikerstypen {#section-0c1cbde0863346f8a31b32fd06ab2926}
 
@@ -100,7 +100,7 @@ Maak of bewerk een metagegevensveld. Laat de optionele veldgreep weg om een nieu
 
 ## Voorbeelden {#section-4441c26d1f41466ba972b43dd5189e89}
 
-In dit codevoorbeeld wordt een nieuw metagegevensveld gemaakt dat wordt beperkt door de tekenreeksconstanten voor elementtype en metagegevenstypen. Als de `fieldHandle` -element heeft een geldige waarde voor de veldgreep. De waarden van de metagegevens worden gewijzigd en de veldgreep wordt opgehaald die u in de aanvraag hebt opgegeven.
+In dit codevoorbeeld wordt een metagegevensveld gemaakt dat wordt beperkt door de tekenreeksconstanten voor elementtype en metagegevenstypen. Als de `fieldHandle` -element heeft een geldige waarde voor de veldgreep. De waarden van de metagegevens worden gewijzigd en de veldgreep wordt opgehaald die u in de aanvraag hebt opgegeven.
 
 **Verzoek**
 

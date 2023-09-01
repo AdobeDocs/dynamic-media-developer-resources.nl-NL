@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 86c87cd1-6e08-40cb-80e6-35a9f49b6572
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Laaguitknippad. Hiermee geeft u een clippad voor de huidige laag op.
  </tr> 
 </table>
 
-Om het even welke delen van de laag die buiten het gebied vallen dat door wordt bepaald `clipPath=` worden transparant gemaakt.
+Alle delen van de laag die buiten het gebied vallen dat wordt gedefinieerd door `clipPath=` worden transparant gemaakt.
 
 `*`pathName`*` Dit is de naam van een pad dat is ingesloten in de bronafbeelding van de laag. Het pad wordt automatisch getransformeerd om de relatieve uitlijning met de inhoud van de afbeelding te behouden. Indien meer dan één `*`pathName`*` wordt opgegeven, knipt de server de afbeelding naar het snijpunt van deze paden. Alle `*`pathName`*` niet gevonden in de bronafbeelding wordt genegeerd.
 
@@ -43,7 +43,7 @@ Om het even welke delen van de laag die buiten het gebied vallen dat door wordt 
 
 Indien `size=` is opgegeven en niet 0,0, wordt de laag van grote of kleine grootte. In dit geval zijn padcoördinaten relatief ten opzichte van de linkerbovenhoek van de laagrechthoek en wordt de laag op basis van `origin=` of de standaardwaarde ervan. Eventuele gebieden van het pad buiten de laagrechthoek blijven transparant.
 
-Indien `size=` niet is opgegeven voor een effen kleur of een tekstlaag, wordt de laag beschouwd als een laag van zichzelf te wijzigen, waarbij de grootte van het pad wordt bepaald. Indien `origin=` is niet opgegeven, wordt standaard ingesteld op (0,0) van de padcoördinaatruimte. Hierdoor kunnen in feite padcoördinaten worden opgegeven ten opzichte van de oorsprong van laag 0.
+Indien `size=` niet is opgegeven voor een effen kleur of een tekstlaag, wordt de laag beschouwd als een laag van zichzelf te wijzigen, waarbij de grootte van het pad wordt bepaald. Indien `origin=` is niet opgegeven, wordt standaard ingesteld op (0,0) van de padcoördinaatruimte. Met dit workflowproces kunnen in feite padcoördinaten worden opgegeven ten opzichte van de oorsprong van laag 0.
 
 >[!NOTE]
 >
@@ -111,7 +111,7 @@ Als een subpad begint met een relatieve beweging (&#39;m&#39;), is het relatief 
 
 Laagkenmerk. Is van toepassing op de huidige laag of op de samengestelde afbeelding als `layer=comp`. Effectlagen negeren deze.
 
-`clipPathE=` wordt genegeerd als er geen pad met de opgegeven naam is gevonden in de bronafbeelding van de laag of als de laagbron geen afbeelding is.
+De optie `clipPathE=` wordt genegeerd als er geen pad met de opgegeven naam is gevonden in de bronafbeelding van de laag of als de laagbron geen afbeelding is.
 
 ## Standaard {#section-076c35ea37fa4a44ada253b4c2dec1dd}
 

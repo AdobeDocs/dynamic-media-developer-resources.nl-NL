@@ -1,13 +1,13 @@
 ---
+title: weggooien
 description: JavaScript API-referentie voor eCatalog Viewer.
 solution: Experience Manager
-title: weggooien
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: fda6d50f-0e1b-436c-af2e-1ccc9cd51c39
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ JavaScript API-referentie voor eCatalog Viewer.
 
 Hiermee wordt deze viewerinstantie verwijderd door alle bronnen die door de viewerlogica worden gebruikt vrij te geven en alle binnenobjecten en componenten die door de viewer in runtime zijn gemaakt, te verwijderen.
 
-De webpaginacode moet ook de viewerinstantievariabele verwijderen om de viewer volledig uit het webbrowsergeheugen te verwijderen.
+De code van de webpagina moet ook de instantievariabele van de viewer verwijderen om de viewer volledig uit het webbrowsergeheugen te verwijderen.
 
-Als de webpaginacode gebeurtenislisteners rechtstreeks heeft geregistreerd in Viewer SDK-componenten die door de viewer worden gebruikt of externe referenties naar dergelijke componenten zijn opgeslagen, moet de webpaginacode deze listeners expliciet niet registreren en moeten deze externe componentverwijzingen worden verwijderd voordat deze worden aangeroepen [!DNL `dispose()`].
+Als de webpaginacode gebeurtenislisteners rechtstreeks heeft geregistreerd in Viewer SDK-componenten die door de viewer worden gebruikt, of als externe referenties naar dergelijke componenten zijn opgeslagen, moeten deze listeners expliciet door de webpaginacode niet worden geregistreerd. En, moeten dergelijke externe componentenverwijzingen alvorens te roepen worden geschrapt [!DNL `dispose()`].
 
 Geen toegang meer tot de viewer-API na [!DNL `dispose()`] wordt aangeroepen.
 

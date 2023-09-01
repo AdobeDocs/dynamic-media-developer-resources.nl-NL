@@ -1,11 +1,11 @@
 ---
+title: createAssetSet
 description: Creeert een generisch element dat met een ruwe reeks definitiekoord wordt geplaatst dat aan een Server van het Beeld moet worden gepubliceerd.
 solution: Experience Manager
-title: createAssetSet
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 4565eb4f-eeb7-4b98-bfef-1a59e9a931af
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Syntaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks </span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> De handgreep naar het bedrijf dat de set activa zal bevatten. </td> 
+   <td colname="col4"> De handgreep naar het bedrijf dat de set elementen bevat. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span> </span> </td> 
@@ -69,7 +69,7 @@ Syntaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks </span> </td> 
    <td colname="col3"> Nee </td> 
-   <td colname="col4"> De parameters in de reeks definitiereeks. <p>Deze moeten worden omgezet in de indeling die is opgegeven door de doelviewer. </p> </td> 
+   <td colname="col4"> De parameters in de reeks definitiereeks. <p>Deze parameters moeten worden omgezet in de indeling die is opgegeven door de doelviewer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span> </span> </td> 
@@ -82,11 +82,11 @@ Syntaxis
 
 **Vervangende functies voor setDefinition**
 
-U kunt vervangende functies op regel opgeven die worden opgelost tijdens het opzoeken of publiceren van een catalogus. Vervangende tekenreeksen hebben de indeling `${<substitution_func>}`. Beschikbare functies worden hieronder opgesomd.
+U kunt vervangende functies inline opgeven die worden opgelost tijdens het opzoeken of publiceren van een catalogus. Vervangende tekenreeksen hebben de indeling `${<substitution_func>}`. Beschikbare functies worden hieronder beschreven.
 
 >[!NOTE]
 >
->De handvatliterals in parameterlijsten moeten door haakjes worden omringd `([])`. Alle tekst die zich buiten een vervangende tekenreeks bevindt, wordt tijdens de resolutie letterlijk naar de uitvoertekenreeks gekopieerd.
+>De handgreepliterals in parameterlijsten moeten tussen haakjes staan `([])`. Alle tekst die zich buiten een vervangende tekenreeks bevindt, wordt tijdens de resolutie letterlijk naar de uitvoertekenreeks gekopieerd.
 
 | **Vervangende functie** | **Retourneert** |
 |---|---|
@@ -102,7 +102,7 @@ ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])};1,${getFileP
 6|19|144])};${getCatalogId([a|452|1|433])};2;${getMetadata([a|1036|19|144], [m|1|ASSET|SharedDateField])} 
 ```
 
-Tijdens het opzoeken of publiceren van een catalogus wordt dit omgezet in een tekenreeks die lijkt op het volgende:
+Tijdens het opzoeken of publiceren van een catalogus wordt dit proces omgezet in een tekenreeks die lijkt op het volgende:
 
 ```java
 jcompany/myRenderSet;jcompany/myRenderSet;1,jcompany/Videos/Somebodys_N08275_flv.flv;jcomp any/myimg-1;2;20090703 10:05:53

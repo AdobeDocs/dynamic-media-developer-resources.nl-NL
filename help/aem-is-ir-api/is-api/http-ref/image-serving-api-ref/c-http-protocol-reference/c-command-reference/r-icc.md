@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8be7be8c-a23d-4a5b-93e4-44231155616b
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
@@ -37,15 +37,15 @@ Uitvoerkleurprofiel.
  </tr> 
 </table>
 
-*`object`* geeft het kleurruimteprofiel van de uitvoer aan waarnaar de afbeelding moet worden geconverteerd als deze afwijkt van het werkprofiel. *`profile`* moet geldig zijn `icc::Name` gedefinieerd in de ICC-profielkaart van een afbeeldingscatalogus of standaardcatalogus, of een relatief pad naar een profielbestand (meestal met [!DNL .icc] of [!DNL .icm] achtervoegsel). Zie [*`object`*](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0) voor aanvullende informatie.
+De waarde *`object`* geeft het kleurruimteprofiel van de uitvoer aan waarnaar de afbeelding moet worden geconverteerd als deze afwijkt van het werkprofiel. De waarde *`profile`* moet geldig zijn `icc::Name` gedefinieerd in de ICC-profielkaart van een afbeeldingscatalogus of standaardcatalogus, of een relatief pad naar een profielbestand (meestal met [!DNL .icc] of [!DNL .icm] achtervoegsel). Zie [*`object`*](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0) voor aanvullende informatie.
 
 >[!NOTE]
 >
->*`object`* mag geen &#39;,&#39;-tekens bevatten, zelfs niet als deze met HTTP zijn gecodeerd.
+>De waarde *`object`* mag geen &#39;,&#39;-tekens bevatten, zelfs niet als deze met HTTP zijn gecodeerd.
 
-*`renderIntent`* Hiermee kunt u de standaard rendering intent overschrijven.
+De waarde *`renderIntent`* Hiermee kunt u de standaard rendering intent overschrijven.
 
-*`blackpointComp`* maakt compensatie van zwartpunten mogelijk als het uitvoerprofiel deze functie ondersteunt.
+De waarde *`blackpointComp`* maakt compensatie van zwartpunten mogelijk als het uitvoerprofiel deze functie ondersteunt.
 
 >[!NOTE]
 >
@@ -53,13 +53,13 @@ Uitvoerkleurprofiel.
 
 Opmerking
 
-*`dither`* maakt dithering mogelijk (werkelijke foutdiffusie), waardoor kleurstreepvorming-artefacten worden voorkomen of verminderd.
+De optie *`dither`* maakt dithering mogelijk (werkelijke foutdiffusie), waardoor kleurstreepvorming-artefacten worden voorkomen of verminderd.
 
 ## Eigenschappen {#section-9fcd3e7bd1fd43c887b0f18a2f3c7259}
 
 Request-kenmerk. De server retourneert een fout als een afbeeldingstype is opgegeven met `fmt=` die niet overeenkomen *`profile`*.
 
-*`renderIntent`* en *`blackpointComp`* worden genegeerd als dit niet compatibel is met het opgegeven ICC-profiel. CMYK-uitvoerapparaatprofielen bieden meestal ondersteuning voor verschillende render-intenties.
+De modifiers *`renderIntent`* en *`blackpointComp`* worden genegeerd als dit niet compatibel is met het opgegeven ICC-profiel. CMYK-uitvoerapparaatprofielen bieden meestal ondersteuning voor verschillende render-intenties.
 
 ## Standaard {#section-0b9fe2eb428447df8ae9948f11ab5aae}
 

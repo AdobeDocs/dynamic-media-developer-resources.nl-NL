@@ -1,20 +1,20 @@
 ---
-description: Keert activa van IPS terug.
-solution: Experience Manager
 title: getAssets
+description: Keert activa van het Systeem van de Productie van het Beeld (IPS) terug.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 3b63da9c-f10a-40bf-8e3c-4f0bfc53d74c
-source-git-commit: e7370f699fea8a2c248a33ebc8925d98231e6b26
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
 
 # getAssets{#getassets}
 
-Keert activa van IPS terug.
+Keert activa van het Systeem van de Productie van het Beeld (IPS) terug.
 
 Syntaxis
 
@@ -82,12 +82,12 @@ Syntaxis
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> types:StringArray</span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
-   <td colname="col4"> <p>Velden en subvelden die van de reactie zijn uitgesloten. </p> </td> 
+   <td colname="col4"> <p>Velden en subvelden die zijn uitgesloten van de reactie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Uitvoer (getAssetsReturn)**
+**Output (getAssetsReturn)**
 
 <table id="table_694932BBBD2C4167871380B2CF514BEA"> 
  <thead> 

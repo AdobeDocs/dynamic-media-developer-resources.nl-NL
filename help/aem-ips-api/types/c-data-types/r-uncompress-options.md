@@ -1,13 +1,13 @@
 ---
+title: UnCompressOptions
 description: Instelling voor uploaden om ZIP- en TAR-bestanden te verwerken als primaire elementen (Geen) of om de inhoud ervan te extraheren en te uploaden (UnCompress).
 solution: Experience Manager
-title: UnCompressOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 89222959-3701-4ea6-bcae-98ceec93764f
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Instelling voor uploaden om ZIP- en TAR-bestanden te verwerken als primaire elem
 
 >[!NOTE]
 >
->`None` is standaard.
+>De instelling `None` is de standaardwaarde.
 
 ## Parameters {#section-10e49e27f60743da970a4ff1c4587eab}
 
@@ -34,11 +34,11 @@ Instelling voor uploaden om ZIP- en TAR-bestanden te verwerken als primaire elem
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> proces</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks</span> </td> 
-   <td colname="col3"> <p>Bepaalt de verwerking van ZIP- en TAR-archiefbestanden. Biedt twee opties: 
+   <td colname="col3"> <p>Bepaalt de verwerking van ZIP- en TAR-archiefbestanden. Deze biedt twee opties: 
      <ul id="ul_F34E2F3B9B74450CA7E76BD9FD7137C2">
       <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> Geen:</span> Verwerk het als primaire elementen. </li>
-      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> Comprimeren ongedaan maken:</span> Inhoud extraheren en verwerken. </li>
-     </ul><p>Opmerking: Tekenreeksconstanten zijn hoofdlettergevoelig. Gebruiken <span class="codeph"> UnCompress</span>, niet <span class="codeph"> decomprimeren</span> of <span class="codeph"> unCompress</span>. </p></p> </td> 
+      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> Comprimeren ongedaan maken:</span> Extraheer en verwerk de inhoud. </li>
+     </ul><p>Opmerking: tekenreeksconstanten zijn hoofdlettergevoelig. Gebruiken <span class="codeph"> UnCompress</span>, niet <span class="codeph"> decomprimeren</span>, of <span class="codeph"> unCompress</span>. </p></p> </td> 
   </tr> 
  </tbody> 
 </table>
