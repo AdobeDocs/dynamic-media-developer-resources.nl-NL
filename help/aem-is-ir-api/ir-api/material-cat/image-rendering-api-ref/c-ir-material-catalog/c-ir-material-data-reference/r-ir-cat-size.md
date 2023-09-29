@@ -1,13 +1,13 @@
 ---
+title: Grootte
 description: Decal size. Breedte, hoogte en dikte van een decaal materiaalobject.
 solution: Experience Manager
-title: Grootte
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 964cb4c1-5256-40eb-94ea-761916174b79
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '212'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ Decal size. Breedte, hoogte en dikte van een decaal materiaalobject.
 
 ## Eigenschappen {#section-967bf1112eec4032a91ed0c8a7b10a07}
 
-Drie echte getallen, gescheiden door komma&#39;s. Mag niet negatief zijn. Ongebruikte waarden instellen op 0. volgnullen mogen worden weggelaten.
+Drie echte getallen, gescheiden door komma&#39;s. Het mag niet negatief zijn. Stel ongebruikte waarden in op 0. volgnullen mogen worden weggelaten.
 
 Geef alleen de breedte en de hoogte op als de afbeelding moet worden uitgerekt zodat deze binnen de opgegeven grootte past (de hoogte-breedteverhouding kan veranderen). Stel de breedte of hoogte in om de afbeelding proportioneel te schalen. Breedte en hoogte instellen op 0 `catalog::Resolution`om de objectgrootte te bepalen.
 
@@ -37,7 +37,7 @@ Geef een waarde voor de dikte op om een slagschaduw toe te voegen aan het decima
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>0,5,1 </p></td> 
-  <td class="stentry"> <p>Het decal is 5 duim breed, de hoogte wordt bepaald door de aspectverhouding van het beeld, en een slagschaduw wordt teruggegeven gebaseerd op een dikte van 1 duim. </p></td> 
+  <td class="stentry"> <p>Het decal is 5 duim breed, de hoogte wordt bepaald door de aspectverhouding van het beeld, en een slagschaduw wordt teruggegeven gebaseerd op een 1 duim dikte. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>0,0,.5 </p></td> 

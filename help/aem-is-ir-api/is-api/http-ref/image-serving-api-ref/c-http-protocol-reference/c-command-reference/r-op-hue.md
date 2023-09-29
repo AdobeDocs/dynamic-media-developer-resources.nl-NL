@@ -1,20 +1,20 @@
 ---
 title: op_hue
-description: Pas de kleurtoon aan. Hiermee verschuift u de kleurtoon van elke zichtbare pixel van de laag of samengestelde afbeelding met de opgegeven hoeveelheid.
+description: Hiermee past u de kleurtoon van de afbeelding aan. Hiermee verschuift u de kleurtoon van elke zichtbare pixel van de laag of samengestelde afbeelding met de opgegeven hoeveelheid.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b436bd31-12a9-42ed-9ad3-5ff91e3ccce9
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '96'
 ht-degree: 0%
 
 ---
 
 # op_hue{#op-hue}
 
-Pas de kleurtoon aan. Hiermee verschuift u de kleurtoon van elke zichtbare pixel van de laag of samengestelde afbeelding met de opgegeven hoeveelheid.
+Hiermee past u de kleurtoon van de afbeelding aan. Hiermee verschuift u de kleurtoon van elke zichtbare pixel van de laag of samengestelde afbeelding met de opgegeven hoeveelheid.
 
 `op_hue= *`adj`*`
 

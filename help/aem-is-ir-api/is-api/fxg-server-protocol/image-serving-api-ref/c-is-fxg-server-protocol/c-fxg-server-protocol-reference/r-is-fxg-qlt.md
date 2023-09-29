@@ -1,13 +1,13 @@
 ---
+title: qlt
 description: JPEG-kwaliteit. Hiermee geeft u JPEG-coderingskenmerken op om het compressieniveau te bepalen. Dit varieert op zijn beurt de bestandsgrootte (de hoeveelheid antwoordgegevens) en indirect de visuele kwaliteit van de resulterende afbeelding.
 solution: Experience Manager
-title: qlt
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8801a650-303c-47a3-8136-c8b2b7a80e9d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 JPEG-kwaliteit. Hiermee geeft u JPEG-coderingskenmerken op om het compressieniveau te bepalen. Dit varieert op zijn beurt de bestandsgrootte (de hoeveelheid antwoordgegevens) en indirect de visuele kwaliteit van de resulterende afbeelding.
 
-` qlt= *`kwaliteit`*[, *`chroma`*]`
+` qlt= *`Kwaliteit`*[, *`chroma`*]`
 
 <table id="simpletable_D080D15922CE4EF4B707282A4D45739A"> 
  <tr class="strow"> 
@@ -35,8 +35,8 @@ Bij hogere waarden voor kwaliteit neemt de bestandsgrootte en de kwaliteit toe, 
 
 Stel de `chroma` markering voor het uitschakelen van de downsampling van de RGB-kleurafwijking door typische JPEG-encoders. Hierdoor kan de waargenomen scherpte van de randen in een afbeelding toenemen wanneer de rand wordt gedefinieerd door een wijziging in kleurtoon in plaats van helderheid. Als u deze markering instelt, kan de bestandsgrootte enigszins toenemen. Experimenteer met deze instelling als de tekst iets vaag lijkt.
 
-`chroma` wordt genegeerd als het uitvoerpixeltype CMYK of grijs is.
+De `chroma` wordt genegeerd als het uitvoerpixeltype CMYK of grijs is.
 
 ## Voorbeeld {#section-a6c263f15c29424a86ef267c96a6630a}
 
-[!DNL http://server/is/agm/myRootId/myImageId?fmt=jpg&qlt=80]
+`http://server/is/agm/myRootId/myImageId?fmt=jpg&qlt=80`

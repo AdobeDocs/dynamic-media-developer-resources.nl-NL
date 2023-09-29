@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 451d8b4d-0f22-41f3-ac86-435797c23ea3
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 0%
@@ -21,11 +21,11 @@ Laag omdraaien. Hiermee wordt de laag horizontaal, verticaal of beide gespiegeld
 <table id="simpletable_072CA0E24B7146D48AEFD70E51E849C2"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> lr </span> </p> </td> 
-  <td class="stentry"> <p>Laag horizontaal spiegelen (links-rechts). </p> </td> 
+  <td class="stentry"> <p>Draai de laag horizontaal om (links-rechts). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> bedrieglijk </span> </p> </td> 
-  <td class="stentry"> <p>Laag verticaal omdraaien (omhoog). </p> </td> 
+  <td class="stentry"> <p>Draai de laag verticaal (omhoog-omlaag). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> lrud </span> </p> </td> 
@@ -33,13 +33,13 @@ Laag omdraaien. Hiermee wordt de laag horizontaal, verticaal of beide gespiegeld
  </tr> 
 </table>
 
-Kan ook op tekstlagen worden toegepast.
+Het kan ook op tekstlagen worden toegepast.
 
 Sommige opdrachten, waaronder `extend=`wordt impliciet toegepast op laag 0 in plaats van op de samengestelde laag wanneer `layer=comp` is geselecteerd. In dergelijke scenario&#39;s, worden alle bevelen die automatisch aan laag 0 worden toegewezen toegepast vóór de bevelen die van toepassing zijn op `layer=comp`. Wanneer `layer=comp`, `extend=` wordt toegepast vóór `flip=`.
 
 >[!NOTE]
 >
->De gespiegelde laag wordt gepositioneerd op basis van het laaganker; verschillende waarden flip= resulteren in verschillende laagposities wanneer het anker zich niet in het midden van de laag bevindt.
+>De gespiegelde laag wordt gepositioneerd op basis van het laaganker. Verschil `flip=` resulteren in verschillende laagposities wanneer het anker zich niet in het midden van de laag bevindt.
 
 ## Eigenschappen {#section-294da2af7be746b5adfc35e29ee68217}
 

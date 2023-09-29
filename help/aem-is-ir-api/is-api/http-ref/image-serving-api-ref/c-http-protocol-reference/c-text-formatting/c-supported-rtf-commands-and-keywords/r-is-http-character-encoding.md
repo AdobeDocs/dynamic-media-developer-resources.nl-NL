@@ -1,13 +1,13 @@
 ---
+title: Tekencodering
 description: Gebruik de volgende opdrachten voor het coderen van tekens.
 solution: Experience Manager
-title: Tekencodering
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a03f08f7-e9cc-458f-9ff0-7721f1dbc4cc
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
@@ -38,16 +38,16 @@ Gebruik de volgende opdrachten voor het coderen van tekens.
   <tr> 
    <td> <span class="codeph">\uc<span class="varname"> N</span></span> </td> 
    <td> <p>Unicode-tekengrootte. </p> </td> 
-   <td> <p>Aantal bytes dat overeenkomt met opgegeven Unicode-teken. </p> </td> 
+   <td> <p>Aantal bytes dat overeenkomt met een bepaald Unicode-teken. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \loch </span> </td> 
-   <td> <p>Er volgen tekens uit het gebied met de lage ANSI. </p> </td> 
+   <td> <p>Tekens uit het gebied met de lage ANSI. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \hich </span> </td> 
-   <td> <p>Er volgen tekens uit het gebied met hoge ANSI. </p> </td> 
+   <td> <p>Tekens uit het gebied met hoge ANSI. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 

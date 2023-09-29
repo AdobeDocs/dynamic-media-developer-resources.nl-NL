@@ -1,20 +1,20 @@
 ---
-description: Deze opdrachten zijn van toepassing, ongeacht de plaats in het verzoek waar ze staan.
-solution: Experience Manager
 title: Aanvraagopdrachten
+description: Deze opdrachten zijn van toepassing, ongeacht de plaats in het verzoek waar de opdrachten staan.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3f794f46-e7f0-4899-90fa-898a698dd629
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
 
 # Aanvraagopdrachten{#request-commands}
 
-Deze opdrachten zijn van toepassing, ongeacht de plaats in het verzoek waar ze staan.
+Deze opdrachten zijn van toepassing, ongeacht de plaats in het verzoek waar de opdrachten staan.
 
 <table id="simpletable_3F7C17FB9E374EFDAD01EB24F57EC367"> 
  <tr class="strow"> 
@@ -31,7 +31,7 @@ Deze opdrachten zijn van toepassing, ongeacht de plaats in het verzoek waar ze s
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517" type="reference" format="dita" scope="local"> icc</a> </p></td> 
-  <td class="stentry"> <p>Hiermee stelt u het kleurprofiel voor de uitvoer in. </p></td> 
+  <td class="stentry"> <p>Hiermee stelt u het uitvoerkleurprofiel in. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e" type="reference" format="dita" scope="local"> iccEmbed</a> </p> </td> 
@@ -43,7 +43,7 @@ Deze opdrachten zijn van toepassing, ongeacht de plaats in het verzoek waar ze s
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-xmpembed.md#reference-46ecf40a40a0442fa62de3a85dcb03e8" type="reference" format="dita" scope="local"> xmpEmbed</a> </p></td> 
-  <td class="stentry"> <p>Hiermee worden XMP metagegevens ingesloten in de antwoordafbeelding. </p></td> 
+  <td class="stentry"> <p>Sluit XMP metagegevens in de antwoordafbeelding in. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-printres.md#reference-84f52afff4704c4b9d58e4bbbaea1491" type="reference" format="dita" scope="local"> printRes</a> </p> </td> 
@@ -79,6 +79,6 @@ Deze opdrachten zijn van toepassing, ongeacht de plaats in het verzoek waar ze s
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-imageset-req.md#reference-c42935490db84830b31e9e649895dee3" type="reference" format="dita" scope="local"> imageSet</a> </p> </td> 
-  <td class="stentry"> <p>Geeft de afbeelding aan die voor deze aanvraag moet worden gebruikt. </p></td> 
+  <td class="stentry"> <p>Hier geeft u de afbeelding op die u voor deze aanvraag wilt gebruiken. </p></td> 
  </tr> 
 </table>

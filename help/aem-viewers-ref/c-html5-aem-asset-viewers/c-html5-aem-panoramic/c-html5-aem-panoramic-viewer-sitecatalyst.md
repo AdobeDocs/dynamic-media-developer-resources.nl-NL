@@ -5,37 +5,37 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User,Data Engineer,Data Architect
 exl-id: fb58a388-e4da-475d-b726-d5a32e99cce0
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
 
 # Ondersteuning voor Adobe Analytics-tracking{#support-for-adobe-analytics-tracking}
 
-Door gebrek, verzendt de kijker één enkele het volgen HTTP- verzoek naar de gevormde Server van het Beeld met viewertype en versieinformatie.
+Door gebrek, verzendt de kijker één enkele het volgen HTTP- verzoek naar een gevormde Server van het Beeld met viewertype en versieinformatie.
 
 ## Aangepaste reeksspatiëring {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Om met een analysesysteem van derden te kunnen integreren, moet naar `trackEvent` callback en proces van viewer `eventInfo` argument van de callback functie zoals nodig. De volgende code is een voorbeeld van een dergelijke handlerfunctie:
+Om met analysesystemen van derden te integreren, is het nodig te luisteren naar `trackEvent` callback en proces van viewer `eventInfo` argument van de callback functie zoals nodig. De volgende code is een voorbeeld van een dergelijke handlerfunctie:
 
 ```javascript {.line-numbers}
 var panoramicViewer = new s7viewers.PanoramicViewer({
-	"containerId":"s7viewer",
+    "containerId":"s7viewer",
 "params":{
-	"asset":"Scene7SharedAssets/PanoramicImage-Sample",
-	"serverurl":"http://s7d1.scene7.com/is/image/"
+    "asset":"Scene7SharedAssets/PanoramicImage-Sample",
+    "serverurl":"http://s7d1.scene7.com/is/image/"
 },
 "handlers":{
-	"trackEvent":function(objID, compClass, instName, timeStamp, eventInfo) {
-		//identify event type
-		var eventType = eventInfo.split(",")[0];
-		switch (eventType) {
-			case "LOAD":
-				//custom event processing code
-				break;
-			//additional cases for other events
+    "trackEvent":function(objID, compClass, instName, timeStamp, eventInfo) {
+        //identify event type
+        var eventType = eventInfo.split(",")[0];
+        switch (eventType) {
+            case "LOAD":
+                //custom event processing code
+                break;
+            //additional cases for other events
 }
 }
 }

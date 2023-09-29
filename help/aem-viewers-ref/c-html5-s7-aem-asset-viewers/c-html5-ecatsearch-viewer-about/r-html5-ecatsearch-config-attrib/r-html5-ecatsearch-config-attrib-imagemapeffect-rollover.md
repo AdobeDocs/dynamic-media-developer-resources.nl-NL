@@ -1,13 +1,13 @@
 ---
+title: ImageMapEffect.rollover
 description: ImageMapEffect.rollover
 solution: Experience Manager
-title: ImageMapEffect.rollover
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 29ca3d4d-6953-4148-9b1e-01e94d1da7df
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '82'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p>Hiermee geeft u aan wanneer het deelvenster Info moet worden weergegeven. </p> <p>Indien ingesteld op <span class="codeph"> 1</span>, wordt het deelvenster Info weergegeven wanneer de muis het gebied met de afbeeldingskaart binnenkomt (voor het geval de afbeelding met hyperlinks niet leeg is), <span class="codeph"> rollover_key</span> kenmerk). </p> <p>Indien ingesteld op <span class="codeph"> 0</span> Het deelvenster Info wordt geactiveerd wanneer de afbeelding met hyperlinks wordt geselecteerd (als de afbeelding met hyperlinks een niet-leeg formaat heeft) <span class="codeph"> rollover_key</span> en leeg <span class="codeph"> href</span> kenmerken). </p> <p> Wordt genegeerd op aanraakapparaten, zoals desktopsystemen met aanraakbediening, en wordt automatisch ingesteld op <span class="codeph"> 0</span>. </p> </td> 
+   <td colname="col2"> <p>Hiermee geeft u aan wanneer het deelvenster Info moet worden weergegeven. </p> <p>Indien ingesteld op <span class="codeph"> 1</span>, wordt het deelvenster Info weergegeven wanneer de muis het gebied van de afbeeldingskaart binnenkomt (voor het geval de afbeelding met hyperlinks niet leeg is), <span class="codeph"> rollover_key</span> kenmerk). </p> <p>Indien ingesteld op <span class="codeph"> 0</span>, wordt het deelvenster Info geactiveerd wanneer de afbeeldingskaart is geselecteerd (als de afbeeldingskaart een niet-lege afbeelding bevat <span class="codeph"> rollover_key</span> en leeg <span class="codeph"> href</span> kenmerken). </p> <p> Wordt genegeerd op aanraakapparaten, zoals desktopsystemen met aanraakbediening, en wordt automatisch ingesteld op <span class="codeph"> 0</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

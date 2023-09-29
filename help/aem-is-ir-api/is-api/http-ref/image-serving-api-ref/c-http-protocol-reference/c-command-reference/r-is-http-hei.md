@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c812c7f0-4ac1-42cb-be47-7baebd8caf60
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Hoogte weergeven. Hiermee geeft u de hoogte op van de reactieafbeelding (weergav
 
 Als beide `wid=` en `scl=` worden opgegeven, kan de samengestelde afbeelding worden bijgesneden op basis van de `align=`kenmerk. Wanneer `fit=` aanwezig is, `hei=` geeft de exacte, minimale of maximale hoogte van de reactieafbeelding aan; raadpleeg de beschrijving van [fit=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md) voor meer informatie.
 
-Indien `scl=` niet is opgegeven, wordt de samengestelde afbeelding op maat geschaald. Als beide `wid=` en `hei=` gespecificeerd zijn, en `scl=` niet is opgegeven, wordt de afbeelding geschaald zodat deze volledig binnen de brede rechthoek past, zodat zo weinig mogelijk achtergrondoppervlak zichtbaar blijft; in dit geval wordt de afbeelding binnen de weergaverechthoek geplaatst op basis van de `align=` kenmerk. Het achtergrondgebied is gevuld met `bgc=`, of, indien niet gespecificeerd met `attribute::BkgColor`.
+Indien `scl=` niet is opgegeven, wordt de samengestelde afbeelding op maat geschaald. Als beide `wid=` en `hei=` gespecificeerd zijn, en `scl=` niet is opgegeven, wordt de afbeelding geschaald zodat deze volledig binnen de witte rechthoek past, zodat zo weinig mogelijk achtergrondoppervlak zichtbaar blijft. In dit geval wordt de afbeelding op basis van de `align=` kenmerk. Het achtergrondgebied is gevuld met `bgc=`, of, indien niet gespecificeerd met `attribute::BkgColor`.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ Indien `scl=` niet is opgegeven, wordt de samengestelde afbeelding op maat gesch
 
 ## Eigenschappen {#section-534923644a1e464496eeba83dedcbd3c}
 
-Kenmerk weergeven. Is van toepassing ongeacht de huidige laaginstelling.
+Kenmerk weergeven. Deze wordt toegepast ongeacht de huidige laaginstelling.
 
 ## Standaard {#section-76544d34806d4124a8b173e229cba71f}
 
@@ -43,11 +43,11 @@ Als geen van beide `wid=`, `hei=`, noch `scl=` opgegeven, heeft de antwoordafbee
 
 ## Voorbeelden {#section-eb10df7cd67e4733984810aaffd0b9e2}
 
-Een afbeelding aanvragen om in een rechthoek van 200 x 200 te passen; de afbeelding links boven uitlijnen als deze niet vierkant is. Een willekeurig achtergrondgebied is gevuld met `attribute::BkgColor`.
+Vraag een afbeelding aan zodat deze past in een rechthoek van 200 x 200; lijn de afbeelding linksboven uit als deze niet vierkant is. Een willekeurig achtergrondgebied is gevuld met `attribute::BkgColor`.
 
 `http://server/myRootId/myImageId?wid=200&hei=200&align=-1,-1`
 
-Dezelfde afbeelding, geleverd op een vaste hoogte van 200 pixels, maar met een variabele breedte die overeenkomt met de hoogte-breedteverhouding van de afbeelding. In dit geval heeft de geretourneerde afbeelding nooit een opvulgebied voor de achtergrond. Let in dit geval op: `align=` zou helemaal geen effect hebben.
+Dezelfde afbeelding, geleverd op een vaste hoogte van 200 pixels, maar met een variabele breedte die overeenkomt met de hoogte-breedteverhouding van de afbeelding. In dit geval heeft de geretourneerde afbeelding nooit een opvulgebied voor de achtergrond. En in dit geval `align=` zou helemaal geen effect hebben.
 
 `http://server/myRootId/myImageId?hei=200`
 

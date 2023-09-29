@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ba22c79b-da59-4993-aa1c-2c990a0c4be5
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Weergavebreedte. Hiermee geeft u de breedte op van de reactieafbeelding (weergaveafbeelding) wanneer fit= niet aanwezig is in de aanvraag.
 
-` wid= *`val`*`
+`wid= *`val`*`
 
 <table id="simpletable_E217453246F5441C896C1F69EA4D4218"> 
  <tr class="strow"> 
@@ -35,21 +35,21 @@ Indien `scl=` niet is opgegeven, wordt de samengestelde afbeelding op maat gesch
 
 ## Standaard {#section-976d4c8554a34c899f85d172f6ac6f58}
 
-Als geen van beide `wid=`, `hei=`, noch `scl=` worden opgegeven, heeft de antwoordafbeelding de grootte van de samengestelde afbeelding of `attribute::DefaultPix`, afhankelijk van welke waarde kleiner is.
+Als geen van beide `wid=`, `hei=`, noch `scl=` zijn opgegeven, heeft de antwoordafbeelding de grootte van de samengestelde afbeelding of `attribute::DefaultPix`, afhankelijk van welke waarde kleiner is.
 
 ## Eigenschappen {#section-c93b7ce1b0d2475f80b06264b45d1285}
 
-Kenmerk weergeven. Is van toepassing ongeacht de huidige laaginstelling.
+Kenmerk weergeven. Deze wordt toegepast ongeacht de huidige laaginstelling.
 
 ## Voorbeeld {#section-82bc98b7c15a451bbe9b915d414c0470}
 
-Een afbeelding aanvragen om in een rechthoek van 200 x 200 te passen; de afbeelding rechtsboven uitlijnen als deze niet vierkant is. Een willekeurig achtergrondgebied is gevuld met `attribute::BkgColor`.
+Vraag een afbeelding aan zodat deze past in een rechthoek van 200 x 200; lijn de afbeelding rechtsboven uit als deze niet vierkant is. Een willekeurig achtergrondgebied is gevuld met `attribute::BkgColor`.
 
-` http:// *`server`*/myRootId/myImageId?wid=200&hei=200&align=1,-1`
+` http:// *`Server`*/myRootId/myImageId?wid=200&hei=200&align=1,-1`
 
-Dezelfde afbeelding, geleverd met een vaste breedte van 200 pixels, maar met een variabele hoogte om de hoogte-breedteverhouding van de afbeelding te behouden. In dit geval heeft de geretourneerde afbeelding nooit een opvulgebied voor de achtergrond. Let erop dat align= in dit geval helemaal geen effect heeft.
+Dezelfde afbeelding, geleverd met een vaste breedte van 200 pixels, maar met een variabele hoogte om de hoogte-breedteverhouding van de afbeelding te behouden. In dit geval heeft de geretourneerde afbeelding nooit een opvulgebied voor de achtergrond. In dit geval: `align=` zou helemaal geen effect hebben.
 
-` http:// *`server`*/myRootId/myImageId?wid=200`
+` http:// *`Server`*/myRootId/myImageId?wid=200`
 
 ## Zie ook {#section-4e9659238d6545498378ca8b1f3ec4ae}
 

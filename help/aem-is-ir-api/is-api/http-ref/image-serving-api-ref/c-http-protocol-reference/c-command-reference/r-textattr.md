@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0c8a3d2a-2524-436a-8bc7-60241af0fd17
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Kenmerken tekstlaag. Geeft extra kenmerken op voor tekstlagen die niet beschikba
 <table id="simpletable_0072BF7DF52B4959A14EDEF60A6EBDEE"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> res </span> </span> </p> </td> 
-  <td class="stentry"> <p>Hiermee kunt u de tekstlaag schalen zonder de tekengrootte te wijzigen. Bij hogere resolutiewaarden neemt de grootte van de gerenderde tekst toe ten opzichte van de canvasgrootte. Bij lagere waarden wordt de tekst kleiner. Tekstresolutie in dots per inch (int groter dan 0). </p> </td> 
+  <td class="stentry"> <p>Dit biedt een manier om de tekstlaag te schalen zonder de tekengrootte te wijzigen. Bij hogere resolutiewaarden neemt de grootte van de gerenderde tekst toe ten opzichte van de canvasgrootte. Bij lagere waarden wordt de tekst kleiner. Tekstresolutie in dots per inch (int groter dan 0). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> antiAliasing </span> </span> </p> </td> 
@@ -59,13 +59,13 @@ Kenmerken tekstlaag. Geeft extra kenmerken op voor tekstlagen die niet beschikba
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> autoRes </span> </p> </td> 
-      <td class="stentry"> <p>Pas de resolutie automatisch aan om de laagrechthoek het beste te vullen met de tekst. </p> <p>Gebruik deze optie om de tekstgrootte automatisch aan te passen, zodat het tekstvak zoveel mogelijk wordt gevuld, zonder dat er een risico op afkapping bestaat. Als tekstomloop is ingeschakeld, kan de tekst worden teruggeplaatst met de uiteindelijke resolutie. <span class="varname"> res </span> wordt genegeerd als <span class="codeph"> autoRes </span> is geselecteerd. Niet ondersteund door <span class="codeph"> textPs= </span>. </p> </td> 
+      <td class="stentry"> <p>Pas de resolutie automatisch aan om de laagrechthoek het beste te vullen met de tekst. </p> <p>Gebruik deze optie om de tekstgrootte automatisch aan te passen, zodat het tekstvak zoveel mogelijk wordt gevuld, zonder dat er een risico op afkapping bestaat. Als tekstomloop is ingeschakeld, kan de tekst worden teruggeplaatst met de uiteindelijke resolutie. De <span class="varname"> res </span> wordt genegeerd als <span class="codeph"> autoRes </span> is geselecteerd. Niet ondersteund door <span class="codeph"> textPs= </span>. </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> maxRes </span> </p> </td> 
-      <td class="stentry"> <p>Gebruik de opgegeven resolutie; verlaag deze indien nodig om te voorkomen dat tekst wordt afgekapt naar de laagrechthoek. </p> <p>Gebruik deze optie om tekst met de exacte opgegeven resolutie te renderen, zolang er geen bijsnijden plaatsvindt. Bij knippen wordt de resolutie automatisch verlaagd om ervoor te zorgen dat alle tekst zich volledig in het tekstvak bevindt. Als tekstomloop is ingeschakeld, kan de tekst worden teruggeplaatst met de uiteindelijke resolutie. Niet ondersteund door <span class="codeph"> textPs= </span>. </p> </td> 
+      <td class="stentry"> <p>Gebruik de opgegeven resolutie; verlaag deze indien nodig om te voorkomen dat tekst wordt afgekapt naar de laagrechthoek. </p> <p>Gebruik deze optie om tekst met de opgegeven resolutie te renderen, zolang er geen bijsnijden plaatsvindt. Als er wordt bijgesneden, wordt de resolutie automatisch verlaagd om ervoor te zorgen dat alle tekst zich volledig in het tekstvak bevindt. Als tekstomloop is ingeschakeld, kan de tekst worden teruggeplaatst met de uiteindelijke resolutie. Niet ondersteund door <span class="codeph"> textPs= </span>. </p> </td> 
      </tr> 
-    </table> </p> <p>Als de grootte van de tekstlaag niet is opgegeven met size= of als alleen de breedte is opgegeven, worden de instellingen 'autoRes' en 'maxRes' genegeerd en wordt de opgegeven resolutie gebruikt om de tekst te renderen. </p> </td> 
+    </table> </p> <p>Als de grootte van de tekstlaag niet is opgegeven met size= of als alleen de breedte is opgegeven, worden de instellingen 'autoRes' en 'maxRes' genegeerd. In dergelijke gevallen wordt de opgegeven resolutie gebruikt om de tekst te renderen. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> wordWrap </span> </span> </p> </td> 
@@ -77,11 +77,11 @@ Kenmerken tekstlaag. Geeft extra kenmerken op voor tekstlagen die niet beschikba
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> wrap </span> </p> </td> 
-      <td class="stentry"> <p>Standaardtekstomloop inschakelen. </p> <p>Breekt indien nodig lange woorden. <span class="codeph"> textPs= </span> alleen ondersteuning <span class="codeph"> wrap </span>. </p> </td> 
+      <td class="stentry"> <p>Standaardtekstomloop inschakelen. </p> <p>Het breekt zo nodig lange woorden. <span class="codeph"> textPs= </span> alleen ondersteuning <span class="codeph"> wrap </span>. </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> nbWrap </span> </p> </td> 
-      <td class="stentry"> <p>Tekstomloop inschakelen. </p> <p>Hiermee breekt u nooit een woord, zelfs niet als het aan het einde wordt afgekapt. Gewoonlijk gebruikt in combinatie met <span class="codeph"> autoRes </span> of <span class="codeph"> maxRes </span> ervoor te zorgen dat lange woorden nooit worden gebroken . </p> </td> 
+      <td class="stentry"> <p>Tekstomloop inschakelen. </p> <p>Hiermee breekt u nooit een woord, zelfs niet als het aan het einde wordt afgekapt. Meestal gebruikt met <span class="codeph"> autoRes </span> of <span class="codeph"> maxRes </span> ervoor te zorgen dat lange woorden nooit worden gebroken . </p> </td> 
      </tr> 
     </table> </p> <p>Beide <span class="codeph"> wrap </span> en <span class="codeph"> nbwrap </span> automatische tekstomloop op woordgrenzen en afbreekstreepjes. </p> </td> 
  </tr> 

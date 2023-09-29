@@ -1,24 +1,24 @@
 ---
-description: Alle configuratiebestanden bevinden zich in install_folder/conf en kunnen worden bewerkt met de meeste teksteditors. Het is mogelijk dat de wijzigingen opnieuw moeten worden gestart voordat de server van kracht wordt.
-solution: Experience Manager
 title: Serverconfiguratiebestanden
+description: Alle configuratiebestanden bevinden zich in de installatiemap/conf en kunnen met de meeste teksteditors worden bewerkt. Start de server opnieuw om de wijzigingen te activeren.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 6261844c-b63d-477b-8a48-963be868aa22
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
 
 # Serverconfiguratiebestanden{#server-configuration-files}
 
-Alle configuratiebestanden bevinden zich in install_folder/conf en kunnen worden bewerkt met de meeste teksteditors. Het is mogelijk dat de wijzigingen opnieuw moeten worden gestart voordat de server van kracht wordt.
+Alle configuratiebestanden bevinden zich in de `install_folder/conf` en zijn bewerkbaar met de meeste teksteditors. Start de server opnieuw om de wijzigingen te activeren.
 
 >[!NOTE]
 >
->De meeste serverconfiguratiebestanden bevatten aanvullende eigenschappen en waarden die niet in dit document worden beschreven. Dergelijke eigenschappen zijn bedoeld voor intern servergebruik en mogen alleen worden gewijzigd als hiervoor specifieke instructies zijn gegeven door de technische ondersteuning van Dynamic Media.
+>De meeste serverconfiguratiebestanden bevatten aanvullende eigenschappen en waarden die niet in dit document worden beschreven. Dergelijke eigenschappen zijn bedoeld voor intern servergebruik en mogen alleen worden gewijzigd als hiervoor instructies zijn gegeven door de technische ondersteuning van Dynamic Media.
 
 In dit document worden instellingen voor de volgende configuratiebestanden besproken:
 

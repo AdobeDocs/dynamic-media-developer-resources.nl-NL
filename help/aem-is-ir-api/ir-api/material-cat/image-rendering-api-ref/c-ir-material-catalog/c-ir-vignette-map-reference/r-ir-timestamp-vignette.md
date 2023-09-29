@@ -1,13 +1,13 @@
 ---
+title: TimeStamp
 description: Tijdstempel voor wijziging. Hiermee geeft u de datum/tijd op waarop dit vignet voor het laatst is gewijzigd.
 solution: Experience Manager
-title: TimeStamp
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6a163727-9ac6-43ca-9afd-169ac6306124
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -22,25 +22,25 @@ Indien `attribute::UseLastModified` is ingesteld, de meest recente `vignette::Ti
 >
 >De werkelijke bestandstijd van het vignetbestand wordt hiervoor nooit gebruikt.
 
-`catalog::TimeStamp` wordt ook gebruikt voor op een catalogus gebaseerde cachevalidatie (zie [kenmerk:CacheValidationPolicy](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md).
+De `catalog::TimeStamp` wordt ook gebruikt voor cachevalidatie op basis van een catalogus. Zie [kenmerk:CacheValidationPolicy](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md).
 
 ## Eigenschappen {#section-c4a42c64e44d49238ef2ec31ebd82ac1}
 
-Datum-/tijdwaarde in Java-indeling. Kan het gehele getal van milliseconden zijn dat is verstreken sinds middernacht, 1 januari 1970 UTC/GMT of een datum-/tijdtekenreekswaarde met een van de volgende notaties:
+Datum-/tijdwaarde in Java™-indeling. Dit kan het gehele getal van milliseconden zijn dat is verstreken sinds middernacht, 1 januari 1970 UTC/GMT of een datum-/tijdtekenreekswaarde met een van de volgende notaties:
 
 *[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]* *[!DNL zzz]*
 
 *[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]*GMT *[!DNL offset]*
 
 * *[!DNL hh]* ligt tussen 0 en 23.
-* *[!DNL zzz]* is een tijdzonecode van 3 of 4 tekens, zoals &#39;GMT&#39; of &#39;PST&#39;. De zomertijd moet in de tijdzonecode (bijvoorbeeld, &quot;PST&quot;voor de StandaardTijd van de Stille Oceaan, tegenover &quot;PDT&quot;voor de Besparing van het Daglicht van de Stille Oceaan) worden rekenschap gegeven.
+* *[!DNL zzz]* is een tijdzonecode van drie of vier tekens, zoals &#39;GMT&#39; of &#39;PST&#39;. De zomertijd moet in de tijdzonecode (bijvoorbeeld, &quot;PST&quot;voor de StandaardTijd van de Stille Oceaan, tegenover &quot;PDT&quot;voor de Besparing van het Daglicht van de Stille Oceaan) worden rekenschap gegeven.
 * *[!DNL offset]* is een verschuiving van de tijdzone in uren of uren:minuten ten opzichte van GMT. &#39;PDT&#39; is bijvoorbeeld gelijk aan &#39;GMT -7&#39;.
 
-Alle elementen van tekenreeksopgemaakte datum-/tijdwaarden moeten aanwezig zijn. Als de datum-/tijdwaarde niet correct is opgemaakt, wordt deze genegeerd en wordt de wijzigingstijd van de [!DNL *[!DNL catalog]*.ini] bestand wordt in plaats daarvan gebruikt.
+Alle elementen van datum-/tijdwaarden met tekenreeksindeling moeten aanwezig zijn. Als de datum-/tijdwaarde niet correct is opgemaakt, wordt deze genegeerd en wordt de wijzigingstijd van de [!DNL *[!DNL catalog]*.ini] bestand wordt in plaats daarvan gebruikt.
 
 ## Standaard {#section-562c221d2e8b4a97ab5e9a3605f22140}
 
-`attribute::TimeStamp` is het veld leeg of niet aanwezig.
+De `attribute::TimeStamp` Dit is het veld dat leeg is of niet aanwezig.
 
 ## Zie ook {#section-ffa82b202be04dd9b87cba3c61d1ee24}
 

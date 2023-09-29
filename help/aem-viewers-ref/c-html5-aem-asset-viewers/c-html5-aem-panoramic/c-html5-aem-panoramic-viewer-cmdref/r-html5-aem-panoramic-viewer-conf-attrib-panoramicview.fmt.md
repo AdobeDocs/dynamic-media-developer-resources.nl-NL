@@ -4,7 +4,7 @@ description: Specificeert het beeldformaat dat door de component voor het laden 
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # PanoramicView.fmt{#panoramicview-fmt}
 
-Specificeert het beeldformaat dat door de component voor het laden van beelden van de Server van het Beeld wordt gebruikt. Als de opgegeven indeling eindigt met &quot;-alpha&quot;, geeft de component afbeeldingen weer als transparant. Voor alle andere afbeeldingsindelingen behandelt de component afbeeldingen als dekkend. De component heeft standaard een transparante achtergrond. Stel daarom de optie `background-color` CSS-eigenschap naar `desired_color`
+Specificeert het beeldformaat dat door de component voor het laden van beelden van de Server van het Beeld wordt gebruikt. Als de opgegeven indeling eindigt met &quot;-alpha&quot;, worden de afbeeldingen door de component als transparant gerenderd. Voor alle andere afbeeldingsindelingen behandelt de component afbeeldingen als dekkend. De component heeft standaard een transparante achtergrond. Als u de achtergrondkleur ondoorzichtig wilt maken, stelt u de optie `background-color` CSS-eigenschap naar `desired_color`
 
 `[PanoramicView.|<containerId>_panoramicView.]fmt=jpg|jpeg|png|png-alpha|gif|gif-alpha`
 
@@ -21,7 +21,7 @@ Specificeert het beeldformaat dat door de component voor het laden van beelden v
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha </span> </p> </td> 
-   <td colname="col2"> <p> Specificeert beeldformaat dat door de component voor het laden van beelden van de Server van het Beeld moet worden gebruikt. Als de opgegeven indeling eindigt met "-alpha", worden afbeeldingen als transparante inhoud gerenderd. voor alle andere afbeeldingsindelingen behandelt de component afbeeldingen als dekkend. Merk op dat de component transparante achtergrond door gebrek heeft, zodat voor ondoorzichtig, achtergrond-kleur CSS bezit aan de gewenste kleur plaatsen. </p> </td> 
+   <td colname="col2"> <p> Specificeert het beeldformaat dat door de component voor het laden van beelden van de Server van het Beeld moet worden gebruikt. Als de opgegeven indeling eindigt met "-alpha", geeft de component afbeeldingen weer als transparante inhoud; voor alle andere afbeeldingsindelingen behandelt de component afbeeldingen als dekkend. De component heeft standaard een transparante achtergrond. Stel daarom voor dekkend de CSS-eigenschap voor de achtergrondkleur in op de gewenste kleur. </p> </td> 
   </tr> 
  </tbody> 
 </table>

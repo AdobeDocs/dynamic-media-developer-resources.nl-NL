@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 297d187c-3a52-45ff-b73d-0b0e4b956080
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Schaalweergave. Hiermee wordt de samengestelde afbeelding geschaald met de inver
  </tr> 
 </table>
 
-Er wordt geen schaling toegepast wanneer `scl=1`. *`invFactor`* Als de afbeelding groter is dan 1,0 en kleiner dan 1,0, wordt de samengestelde afbeelding vergroot.
+Er wordt geen schaling toegepast wanneer `scl=1`. An *`invFactor`* Bij een waarde die groter is dan 1,0 en kleiner dan 1,0 wordt de samengestelde afbeelding vergroot.
 
 Indien `scl=` wordt opgegeven, en `wid=` en/of `hei=` ook aanwezig zijn, wordt de afbeelding uitgesneden tot `wid=` en/of `hei=` na het schalen.
 
@@ -35,11 +35,11 @@ Indien `scl=` wordt opgegeven, en `wid=` en/of `hei=` ook aanwezig zijn, wordt d
 
 ## Eigenschappen {#section-60af012719db477db4a4703e9a6da5f5}
 
-Kenmerk weergeven. Ongeacht de huidige laaginstelling.
+Kenmerk weergeven. Deze wordt toegepast ongeacht de huidige laaginstelling.
 
 ## Standaard {#section-32502fa218a24e1f9c65f41c0260b56a}
 
-Als geen van beide `wid=`, `hei=`, noch `scl=` worden opgegeven, heeft de antwoordafbeelding de grootte van de samengestelde afbeelding of `attribute::DefaultPix`, afhankelijk van welke waarde kleiner is.
+Als geen van beide `wid=`, `hei=`, noch `scl=` zijn opgegeven, heeft de antwoordafbeelding de grootte van de samengestelde afbeelding of `attribute::DefaultPix`, afhankelijk van welke waarde kleiner is.
 
 ## Voorbeeld {#section-a33f6239476a4b438d939656ad99aa76}
 
