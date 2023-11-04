@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1b4a78a1-4f03-47ce-b523-10975e83f0ea
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '947'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Retourneert een XML-representatie van de objecthiërarchie in het vignet, inclus
 
 `img`
 
-Voert de opgegeven opdrachten uit en retourneert de gerenderde afbeelding. Het formaat van de antwoordgegevens en het reactietype worden bepaald door `fmt=`.
+Voert de opgegeven opdrachten uit en retourneert de gerenderde afbeelding. Het formaat en het type reactie van antwoordgegevens worden bepaald door `fmt=`.
 
 `imageprops`
 
@@ -166,9 +166,9 @@ Retourneert de afbeeldingskaartgegevens die in het vignet zijn opgenomen. Standa
 
 De kaartgegevens worden niet geschaald naar `wid=` of `hei=` of anderszins gewijzigd. Het MIME-type reactie is `<text/xml>`.
 
-De responsgegevens bestaan uit een `<map>` element met een set `<area>` elementen, vergelijkbaar met de HTML `<AREA>` tag.
+De responsgegevens bestaan uit een `<map>` element met een set `<area>` elementen, vergelijkbaar met de HTML `<AREA>` -tag.
 
-Elk `<area>` element bevat de standaard `type=` en `coord=` en een `name=` -kenmerk, de naam of het naampad van de vignetgroep opgeven. Meerdere `<area>` elementen met dezelfde naam zijn aanwezig als de maskers van de overeenkomende objectgroep onderbroken gebieden hebben.
+Elk `<area>` element bevat de standaard `type=` en `coord=` kenmerken en een `name=` -kenmerk, de naam of het naampad van de vignetgroep opgeven. Meerdere `<area>` elementen met dezelfde naam zijn aanwezig als de maskers van de overeenkomende objectgroep onderbroken gebieden hebben.
 
 Naast de standaardkenmerken kunnen vignetten indien nodig aanvullende kenmerken definiëren. Dergelijke aangepaste kenmerken worden gedefinieerd als objectgroepkenmerken. De namen van aangepaste kenmerken moeten beginnen met `map` in de `<area>` elementen. Als de groepskenmerken bijvoorbeeld `map.href=http://www.scene7.com`de overeenkomstige `<area>` element include `href="http://www.scene7.com"`.
 
@@ -180,7 +180,7 @@ Hiermee worden de opgegeven opdrachten uitgevoerd en wordt de gerenderde afbeeld
 
 `props`
 
-Voert de opgegeven opdrachten uit en retourneert vigneteigenschappen en groep- of objecteigenschappen in plaats van de gerenderde afbeelding. Zie [Eigenschappen](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a) voor een beschrijving van de antwoordsyntaxis en het MIME-type reactie. De standaardselectie is van toepassing tenzij `obj=` of `sel=` wordt ook opgegeven (zie [ `obj=` ](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a)).
+Voert de opgegeven opdrachten uit en retourneert vigneteigenschappen en groep- of objecteigenschappen in plaats van de gerenderde afbeelding. Zie [Eigenschappen](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a) voor een beschrijving van de antwoordsyntaxis en het MIME-type reactie. De standaardselectie is van toepassing tenzij `obj=` of `sel=` wordt ook opgegeven (zie [`obj=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a)).
 
 De volgende eigenschappen kunnen in de reactie worden opgenomen:
 
@@ -300,7 +300,7 @@ De volgende eigenschappen kunnen in de reactie worden opgenomen:
 
 Retourneert de inhoud van `vignette::UserData`. De server vervangt alle exemplaren van `'??'` in `vignette::UserData` met regeleinde ( `<cr><lf>`). Het antwoord is opgemaakt als tekstgegevens met het MIME-type van het antwoord ingesteld op &lt;text plain=&quot;&quot;>.
 
-Als het object dat is opgegeven in het URL-pad niet wordt omgezet in een geldige vignettoewijzingsvermelding, of als de waarde `vignette::UserData` is leeg, bevat het antwoord alleen een regeleinde ( `CR/LF`).
+Als het object dat is opgegeven in het URL-pad niet wordt omgezet in een geldige vignettoewijzingsvermelding, of als de waarde `vignette::UserData` is leeg, bevat het antwoord alleen een regelafsluiter ( `CR/LF`).
 
 Eventuele andere opdrachten in de tekenreeks request worden genegeerd.
 

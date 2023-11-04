@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 937be8a2-307e-47bb-9fc8-d354f780a214
-source-git-commit: 96504ebdc86ff81e9ce69e2d708ede1d0a88d9b5
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2403'
+source-wordcount: '2399'
 ht-degree: 0%
 
 ---
@@ -29,11 +29,11 @@ Viewer type 518.
 
 [https://s7d9.scene7.com/s7viewers/html5/SmartCropVideoViewer.html?asset=html5automation/frisbee-AVS](https://s7d9.scene7.com/s7viewers/html5/SmartCropVideoViewer.html?asset=html5automation/frisbee-AVS)
 
-## Video-viewer voor SmartCrop gebruiken {#section-f21ac23d3f6449ad9765588d69584772}
+## De Smart Crop Video Viewer gebruiken {#section-f21ac23d3f6449ad9765588d69584772}
 
 De Smart Crop Video Viewer vertegenwoordigt een hoofd-JavaScript-bestand en een set hulpbestanden, één JavaScript-bestand met alle Viewer SDK-componenten die door deze viewer worden gebruikt, elementen en CSS-gedownload door de viewer in runtime.
 
-U kunt de SmartCrop Video-viewer in de pop-upmodus gebruiken met een HTML-pagina die klaar is voor productie en die wordt geleverd bij IS-Viewers. U kunt de viewer ook gebruiken in de ingesloten modus, waar deze is geïntegreerd in een doelwebpagina met behulp van de gedocumenteerde API.
+U kunt de SmartCrop Video-viewer in de pop-upmodus gebruiken met een HTML-pagina die klaar is voor productie en die wordt geleverd bij IS-Viewers. U kunt de viewer ook gebruiken in de ingesloten modus, waar deze met de gedocumenteerde API is geïntegreerd in een doelwebpagina.
 
 Het configureren en toewijzen van een skin aan de viewer is vergelijkbaar met die van andere viewers. Alle skins worden gemaakt door middel van aangepaste CSS.
 
@@ -47,7 +47,7 @@ De Smart Crop Video Viewer biedt een set standaardbesturingselementen voor de ge
 * Videoscrubber-videotijdballon.
 * Tijdindicator voor afspeeltijd/totale tijd.
 * Volumeregeling.
-* De knop Volledig scherm.
+* schermvullende knop.
 * Schakelen tussen Closed Caption-codes.
 
 Al deze controles worden gegroepeerd in een controlebar bij de bodem van het gebruikersinterface van de kijker.
@@ -58,7 +58,7 @@ Wanneer de viewer werkt in de pop-upmodus, is de knop Volledig scherm niet besch
 
 U kunt snel door de inhoud van een video navigeren wanneer het videohoofdstuk wordt geactiveerd. De videohoofdstukken worden getoond als tellers in het videoscrubberspoor en tonen de hoofdstuktitel en bijbehorende beschrijving op een muisomvergooien of met één enkele aanraking op aanrakingssystemen. Gebruikers kunnen naar een bepaald hoofdstuk zoeken door een hoofdstukmarkering te selecteren of de ballon met de hoofdstukbeschrijving te selecteren.
 
-De viewer ondersteunt zowel aanraakinvoer als muisinvoer op Windows-apparaten met aanraakscherm en muis. Deze ondersteuning is echter alleen beschikbaar voor Chrome-, Internet Explorer 11- en Edge-webbrowsers.
+De viewer ondersteunt zowel aanraakinvoer als muisinvoer op Windows-apparaten met aanraakscherm en muis. Deze ondersteuning is echter beperkt tot Chrome, Internet Explorer 11 en alleen Edge-webbrowsers.
 
 Deze viewer is volledig toegankelijk via het toetsenbord.
 
@@ -68,13 +68,13 @@ Zie [Toetsenbordtoegankelijkheid en -navigatie](../../c-keyboard-accessibility.m
 
 De SmartCrop Video-viewer ondersteunt gereedschappen voor het delen van sociale media. Ze zijn beschikbaar als één knop in de gebruikersinterface die wordt uitgevouwen tot een werkbalk voor delen wanneer de gebruiker erop klikt of tikt.
 
-De werkbalk voor delen bevat een pictogram voor elk type kanaal dat wordt ondersteund, zoals Facebook, Twitter, Delen via e-mail, Delen via code insluiten en delen van koppelingen. Wanneer gereedschappen voor delen via e-mail, insluiten of delen van koppelingen zijn geactiveerd, wordt in de viewer een modaal dialoogvenster weergegeven met een bijbehorend formulier voor gegevensinvoer. Wanneer Facebook of Twitter wordt aangeroepen, stuurt de viewer de gebruiker terug naar een standaarddialoogvenster voor delen via een sociale-mediaservice. Ook wanneer een gereedschap voor delen is geactiveerd, wordt het afspelen van video automatisch gepauzeerd.
+De werkbalk voor delen bevat een pictogram voor elk type kanaal dat wordt ondersteund, zoals Facebook, Twitter, e-maildelen, het insluiten van code voor delen en het delen van koppelingen. Wanneer gereedschappen voor delen via e-mail, insluiten of delen van koppelingen zijn geactiveerd, wordt in de viewer een modaal dialoogvenster weergegeven met een bijbehorend formulier voor gegevensinvoer. Wanneer Facebook of Twitter wordt aangeroepen, leidt de viewer de gebruiker om naar een standaarddialoogvenster voor delen via een sociale-mediaservice. Ook wanneer het afspelen van video automatisch wordt gepauzeerd met een gereedschap voor delen.
 
 Delen van gereedschappen is niet beschikbaar in de modus Volledig scherm vanwege beveiligingsbeperkingen van de webbrowser.
 
 ## Smart Crop Video Viewer insluiten {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Verschillende webpagina&#39;s hebben verschillende vereisten voor viewergedrag. Soms bevat een webpagina een koppeling die de viewer in een apart browservenster opent wanneer u deze optie selecteert. In andere gevallen moet u de viewer rechtstreeks insluiten op de hostpagina. In het laatste geval heeft de webpagina mogelijk een statische paginalay-out of wordt een responsief ontwerp gebruikt dat op verschillende apparaten of voor verschillende venstergrootten van de browser anders wordt weergegeven. Om aan deze behoeften tegemoet te komen, ondersteunt de viewer drie primaire bewerkingsmodi: popup, insluiting van vaste grootte en responsieve ontwerpinsluiting.
+Verschillende webpagina&#39;s hebben verschillende vereisten voor viewergedrag. Soms bevat een webpagina een koppeling die de viewer in een apart browservenster opent wanneer u deze optie selecteert. In andere gevallen moet u de viewer rechtstreeks insluiten op de hostpagina. In het laatste geval heeft de webpagina mogelijk een statische paginalay-out of wordt een responsief ontwerp gebruikt dat op verschillende apparaten of voor verschillende venstergrootten van de browser anders wordt weergegeven. Om aan deze behoeften tegemoet te komen, ondersteunt de viewer drie primaire bewerkingsmodi: popup, insluiten van vaste grootte en insluiten van responsieve ontwerpen.
 
 Het insluiten van meerdere video&#39;s op dezelfde pagina wordt ondersteund op tablets en mobiele apparaten. Gewoonlijk kan slechts één video tegelijk worden afgespeeld. Wanneer een gebruiker een video begint af te spelen en vervolgens een andere video probeert af te spelen, wordt de eerste video automatisch gepauzeerd. De video die automatisch is gepauzeerd onthoudt de huidige afspeeltijd, zodat de gebruiker er altijd weer naar kan terugkeren en het afspelen kan hervatten. De enige uitzondering op deze regel is de Chrome-browser op Android™ 4.x-apparaten, die video&#39;s parallel kunnen afspelen.
 
@@ -102,7 +102,7 @@ In de ingesloten modus wordt de viewer toegevoegd aan de bestaande webpagina, wa
 
 De belangrijkste gebruiksgevallen zijn webpagina&#39;s die zijn georiënteerd op desktops of tabletapparaten, en ook responsieve ontwerppagina&#39;s die de lay-out automatisch aanpassen, afhankelijk van het apparaattype.
 
-Insluiten met vaste grootte wordt gebruikt wanneer de viewer de grootte niet wijzigt na de eerste keer laden. Dit is de beste keuze voor webpagina&#39;s met een statische pagina-indeling.
+De insluiting met een vaste grootte wordt gebruikt wanneer de viewer de grootte niet wijzigt na de eerste keer laden. Dit is de beste keuze voor webpagina&#39;s met een statische pagina-indeling.
 
 Bij het insluiten van responsieve ontwerpen wordt ervan uitgegaan dat de viewer tijdens runtime de grootte moet wijzigen als gevolg van de wijziging van de grootte van de container `DIV`. De meest gebruikte optie is het toevoegen van de viewer aan een webpagina die een flexibele pagina-indeling gebruikt.
 
@@ -117,7 +117,7 @@ U voegt de viewer als volgt toe aan een webpagina:
 1. Het JavaScript-bestand van de viewer toevoegen aan uw webpagina.
 1. De container definiëren `DIV`.
 1. De viewergrootte instellen.
-1. De viewer maken en initialiseren.
+1. De viewer maken en initialiseren
 
 1. Het JavaScript-bestand van de viewer toevoegen aan uw webpagina.
 
@@ -146,9 +146,9 @@ Relatief pad ziet er als volgt uit:
 
    De plaatsaanduiding DIV is een gepositioneerd element, wat betekent dat de `position` CSS-eigenschap is ingesteld op `relative` of `absolute`.
 
-   Controleer of de functie Volledig scherm goed werkt in Internet Explorer. Controleer of het DOM geen andere elementen bevat die een hogere stapelvolgorde hebben dan het DIV-bestand voor de plaatsaanduiding.
+   Controleer of de functie Volledig scherm goed werkt in Internet Explorer. Controleer of het DOM geen andere elementen bevat die een hogere stapelvolgorde hebben dan de plaatsaanduiding DIV.
 
-   Hieronder ziet u een voorbeeld van een gedefinieerd plaatsaanduiding DIV-element:
+   Hieronder ziet u een voorbeeld van een gedefinieerd plaatsaanduiding voor een DIV-element:
 
    ```html {.line-numbers}
    <div id="s7viewer" style="position:relative;width:640px;height:360px;"></div> 
@@ -160,7 +160,7 @@ Relatief pad ziet er als volgt uit:
 
    U kunt de grootte in CSS rechts op de pagina HTML of in een aangepast CSS-bestand van de viewer plaatsen. Deze wordt later toegewezen aan een viewer-voorinstellingsrecord in Dynamic Media Classic of expliciet doorgegeven met behulp van een stijlopdracht.
 
-   Zie [De Smart Crop Video Viewer aanpassen](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e) voor meer informatie over het opmaken van de viewer met CSS.
+   Zie [De Smart Crop Video-viewer aanpassen](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e) voor meer informatie over het opmaken van de viewer met CSS.
 
    Hieronder ziet u een voorbeeld van het definiëren van een statische viewergrootte in een HTML-pagina:
 
@@ -171,7 +171,7 @@ Relatief pad ziet er als volgt uit:
    }
    ```
 
-   U kunt instellen `stagesize` in de viewervoorinstellingsrecord in Dynamic Media Classic of deze expliciet doorgeven met de viewerinitialisatiecode met `params` verzameling. Of, als API vraag zoals die in de de verwijzingssectie van het Bevel wordt beschreven, zoals in het volgende:
+   U kunt instellen `stagesize` in de viewervoorinstellingsrecord in Dynamic Media Classic, of geef deze expliciet door met de viewerinitialisatiecode met `params` verzameling. Of, als API vraag zoals die in de de verwijzingssectie van het Bevel wordt beschreven, zoals in het volgende:
 
    ```html {.line-numbers}
    smartCropVideoViewer.setParam("stagesize", "640,480");
@@ -179,11 +179,11 @@ Relatief pad ziet er als volgt uit:
 
    Een op CSS gebaseerde benadering wordt geadviseerd en in dit voorbeeld gebruikt.
 
-1. De viewer maken en initialiseren.
+1. De viewer maken en initialiseren
 
    Wanneer u de bovenstaande stappen hebt uitgevoerd, maakt u een instantie van `s7viewers.SmartCropVideoViewer` klasse, alle configuratieinformatie tot zijn aannemer overgaan, en vraag `init()` op een viewerinstantie. De informatie van de configuratie wordt overgegaan tot de aannemer als voorwerp JSON. Dit object moet minstens `containerId` veld met de naam van de container-id van de viewer en het geneste veld `params` JSON-object met configuratieparameters die door de viewer worden ondersteund. In dit geval: `params` Het object moet ten minste de URL van de afbeeldingsserver hebben doorgegeven zoals `serverUrl` eigenschap, videoserver-URL doorgegeven als `videoserverurl` en het oorspronkelijke actief als `asset` parameter. Met de op JSON gebaseerde initialisatie-API kunt u de viewer maken en starten met één coderegel.
 
-   Het is belangrijk dat de viewercontainer aan het DOM wordt toegevoegd, zodat de viewercode het containerelement op basis van de id kan vinden. Sommige browsers stellen het samenstellen van DOM tot het einde van de webpagina uit. Voor maximale compatibiliteit roept u de `init()` methode vlak voor het sluiten `BODY` -tag of op de hoofdtekst `onload()` gebeurtenis.
+   Het is belangrijk dat de viewercontainer aan het DOM wordt toegevoegd, zodat de viewercode het containerelement op basis van de id kan vinden. Sommige browsers stellen het samenstellen van DOM tot het einde van de webpagina uit. Voor maximale compatibiliteit roept u de `init()` methode vlak voor het sluiten `BODY` of op de hoofdtekst `onload()` gebeurtenis.
 
    Tegelijkertijd mag het containerelement nog niet noodzakelijkerwijs deel uitmaken van de webpaginalay-out. Het kan bijvoorbeeld verborgen zijn met `display:none` stijl die eraan is toegewezen. In dit geval vertraagt de viewer het initialisatieproces totdat de webpagina het containerelement weer in de layout plaatst. Wanneer deze actie wordt uitgevoerd, wordt het laden van de viewer automatisch hervat.
 
@@ -252,11 +252,11 @@ Met responsieve ontwerpinsluiting heeft de webpagina normaal gesproken een of an
 </html> 
 ```
 
-Het toevoegen van de viewer aan een dergelijke pagina lijkt op het insluiten van een vaste grootte. het enige verschil is dat u de viewergrootte niet expliciet hoeft te definiëren.
+Het toevoegen van de viewer aan een dergelijke pagina is vergelijkbaar met het insluiten van een vaste grootte. Het enige verschil is dat u de viewergrootte niet expliciet hoeft te definiëren.
 
 1. Het JavaScript-bestand van de viewer toevoegen aan uw webpagina.
 1. De container DIV definiëren.
-1. De viewer maken en initialiseren.
+1. De viewer maken en initialiseren
 
 Alle bovenstaande stappen zijn gelijk aan die bij het insluiten van de vaste grootte. Container toevoegen `DIV` aan de bestaande &quot;houder&quot; `DIV`. De volgende code is een volledig voorbeeld. U kunt zien hoe de grootte van de viewer verandert wanneer de browser wordt aangepast en hoe de hoogte-breedteverhouding van de viewer overeenkomt met het element.
 
@@ -297,7 +297,7 @@ De volgende voorbeeldpagina illustreert het levensechte gebruik van responsieve 
 
 **Responsief ontwerpinsluiting met gedefinieerde breedte en hoogte**
 
-Als er responsieve ontwerpinsluiting is met gedefinieerde breedte en hoogte, is de opmaak van de webpagina anders. het verstrekt beide grootte aan de &quot; houder&quot; `DIV` en centreer deze in het browservenster. Bovendien stelt de webpagina de grootte van de `HTML` en `BODY` element tot 100%:
+Als er responsieve ontwerpinsluiting is waarbij breedte en hoogte zijn gedefinieerd, is de opmaak van de webpagina anders. De aanduiding voor beide formaten krijgt de aanduiding `DIV` en centreer deze in het browservenster. Bovendien stelt de webpagina de grootte van de `HTML` en `BODY` element tot 100%:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 

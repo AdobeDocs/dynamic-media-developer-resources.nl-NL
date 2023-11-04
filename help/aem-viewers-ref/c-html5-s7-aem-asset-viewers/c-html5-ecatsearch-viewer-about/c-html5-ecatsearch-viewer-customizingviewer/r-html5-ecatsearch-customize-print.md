@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: c5939cdc-fa4e-4f19-b2a9-21b389492c4f
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '1469'
 ht-degree: 0%
@@ -172,7 +172,7 @@ Het pictogram en de titeltekst worden verpakt in een extra container die met het
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
-   <td colname="col2"> <p> Opvulling binnen voor het koptekstpictogram en de titel. </p> </td> 
+   <td colname="col2"> <p> Opvulling binnen voor koptekstpictogram en titel. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -226,7 +226,7 @@ De titel van de koptekst wordt bestuurd met de volgende CSS-klassenkiezer:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>Lettertypefamilie. </p> </td> 
+   <td colname="col2"> <p>Fontfamilie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
@@ -716,7 +716,7 @@ Keuzerondjes en de bijschrifttekst worden bestuurd met de volgende CSS-klassenki
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> De totale breedte van het keuzerondje met een bijschrift. </p> </td> 
+   <td colname="col2"> <p> The total width of the radio button with a caption. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> kleur </span> </p> </td> 

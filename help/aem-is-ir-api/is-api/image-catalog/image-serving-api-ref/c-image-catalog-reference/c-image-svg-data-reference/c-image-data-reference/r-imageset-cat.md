@@ -5,7 +5,7 @@ title: ImageSet
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,User
 exl-id: eacf0553-8cec-4a1d-80a5-6fe37b92b5bf
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Afbeeldingssetgegevens. Biedt een mechanisme voor het definiëren van gesorteerde sets afbeeldingen en het beheren van kenmerken die door Dynamic Media-viewers worden gebruikt.
 
-Een afbeeldingsset bestaat uit een gesorteerde, door komma&#39;s gescheiden lijst met items, waarbij elk item bestaat uit een of meer subitems (afbeeldings-id&#39;s, stalen, paden voor mediabestanden, labels, enz.), gescheiden door puntkomma&#39;s en/of dubbele punten.
+Een afbeeldingsset bestaat uit een gesorteerde, door komma&#39;s gescheiden lijst met items. Elk item bestaat uit een of meer subitems (afbeeldings-id&#39;s, stalen, paden voor mediabestanden, labels enzovoort), gescheiden door puntkomma&#39;s of dubbele punten, of beide.
 
 accolades `{ }` en haakjes `( )` kan worden gebruikt om bepaalde inhoud (zoals kleurwaarden) af te bakenen of geneste sets aan te geven. Accolades of ronde haakjes die op deze manier worden gebruikt, mogen niet worden gecodeerd en moeten altijd als overeenkomende paren worden weergegeven. Als dit niet het geval is, treedt er een parseringsfout op.
 
@@ -33,7 +33,6 @@ accolades `{ }` en haakjes `( )` kan worden gebruikt om bepaalde inhoud (zoals k
 >* `)`
 
 
-
 Raadpleeg de documentatie van de Image Serving Viewers voor meer informatie over de structuur en het gebruik van afbeeldingssets.
 
 De server retourneert de inhoud van dit veld zonder wijzigingen als reactie op een `req=imageset` verzoek.
@@ -42,7 +41,7 @@ De server retourneert de inhoud van dit veld zonder wijzigingen als reactie op e
 
 De volgende vastgestelde definities worden native ondersteund door Image Serving en toegang met bepaalde viewers omvat parseren, valideren en verwerken van de set op de server. Elk settype kan worden geïdentificeerd door de corresponderende waarde in `catalog::AssetType`.
 
-**Standaardstaalsets**
+**Standaardstalensets**
 
 Elk item in een standaardstalenset bestaat uit een verwijzing naar een afbeeldingsrecord en een optionele aparte verwijzing naar een afbeeldingsrecord die als staal wordt gebruikt.
 
@@ -82,7 +81,7 @@ Elk item in een tweedimensionale centrifuge kan bestaan uit een eenvoudige afbee
 
 **Paginasets**
 
-Elk item in een paginaset kan bestaan uit maximaal drie pagina-afbeeldingen gescheiden met dubbele punten.
+Elk item in een paginaset kan bestaan uit afbeeldingen van maximaal drie pagina&#39;s, gescheiden met dubbele punten.
 
 | `*`pageSet`*` | `*`pageItem`* &#42;[ , *`pageItem`* ]` |
 |---|---|
@@ -96,16 +95,16 @@ Elk item in een mediaset kan bestaan uit een afbeelding, een standaardstalenset,
 |---|---|
 | `*`item`*` | ` { *`videoItem`* | *`recutItem`* | *`imageItem`*}} | *`setItem`* } [ ; [ *`ID`* ] [ ; [ *`gereserveerd`* ] ] ]` |
 | `*`videoItem`*` | `*`video`* ; *`staalId`*` |
-| `*`recutItem`*` | `*`recept`* ; *`staalId`*` |
+| `*`recutItem`*` | `*`recupereren`* ; *`staalId`*` |
 | `*`imageItem`*` | `*`imageId`* ; [ *`staalId`* ]` |
 | `*`setItem`*` | ` { *`setId`* | { '{' *`inlineSet`* '}' } } ; *`staalId`*` |
 | `*`ID`*` | `media type identifier [ img | basic | advanced_image | img | img_set | advanced_imageset | advanced_swatchset | spin | video ]` |
 | `*`staalId`*` | IS-afbeeldings-id |
 | `*`video`*` | Pad van video-/animatiebestand of statische catalogus-id |
-| `*`recept`*` | XML-bestandspad van definitie recut of statische catalogus-id |
+| `*`recupereren`*` | XML-bestandspad van definitie recut of statische catalogus-id |
 | `*`imageId`*` | IS-afbeeldings-id |
 | `*`setId`*` | IS verwijzing naar beeld, spin, of catalogusreeks |
-| `*`inlineSet`*` | Een gealigneerde afbeelding, spin- of catalogusset |
+| `*`inlineSet`*` | Ingealigneerde afbeelding, spin of catalogus |
 | `*`gereserveerd`*` | Gereserveerd voor toekomstig gebruik |
 
 **Videosets**

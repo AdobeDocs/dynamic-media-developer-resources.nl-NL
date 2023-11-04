@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 4748d04e-7f9d-413f-9e9a-a0fad129c5fc
-source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Bepaalde inhoud die in de Video Viewer wordt weergegeven, is afhankelijk van lokalisatie. Deze inhoud bevat knopinfo voor gebruikersinterface-elementen en een foutbericht dat wordt weergegeven wanneer de video niet kan worden afgespeeld.
 
-Elke tekstinhoud in de viewer die kan worden gelokaliseerd, wordt vertegenwoordigd door een speciale viewer-SDK-id met de naam SYMBOL. Elk SYMBOL heeft een standaardtekstwaarde voor de landinstelling Engels ( `"en"`) wordt geleverd bij de viewer buiten de box. Er kunnen ook door de gebruiker gedefinieerde waarden worden ingesteld voor zoveel landinstellingen als nodig zijn.
+Elke tekstinhoud in de viewer die kan worden gelokaliseerd, wordt vertegenwoordigd door een speciale viewer-SDK-id met de naam SYMBOL. Elk SYMBOL heeft een aan de standaardwaarde gekoppelde tekstwaarde voor de landinstelling Engels ( `"en"`) wordt geleverd bij de viewer buiten de box. Er kunnen ook door de gebruiker gedefinieerde waarden worden ingesteld voor het aantal landinstellingen dat nodig is.
 
 Wanneer de viewer wordt gestart, wordt de huidige landinstelling gecontroleerd om te zien of er een door de gebruiker gedefinieerde waarde is voor elk ondersteund SYMBOL voor de landinstelling. Als dat het geval is, gebruikt het de user-defined waarde; anders, valt het terug naar de uit-van-de-doos standaardtekst.
 
@@ -54,7 +54,7 @@ De volgende SYMBOL&#39;s worden ondersteund:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Container.LABEL </span> </p> </td> 
-   <td colname="col2"> <p> ARIA-label voor viewerelement op hoofdniveau. </p> </td> 
+   <td colname="col2"> <p> ARIA-label voor viewerelement op het hoogste niveau. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_SELECTED </span> </p> </td> 
@@ -62,7 +62,7 @@ De volgende SYMBOL&#39;s worden ondersteund:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_UNSELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Knopinfo voor de niet-geselecteerde knopstatus Afspelen pauzeren. </p> </td> 
+   <td colname="col2"> <p>Knopinfo voor de niet-geselecteerde knopstatus Afspelen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_REPLAY </span> </p> </td> 
@@ -70,7 +70,7 @@ De volgende SYMBOL&#39;s worden ondersteund:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoScrubber.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Knopinfo voor de scrubber van de video. </p> </td> 
+   <td colname="col2"> <p>Knopinfo voor de videoscrubber. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoTime.TOOLTIP </span> </p> </td> 
@@ -78,7 +78,7 @@ De volgende SYMBOL&#39;s worden ondersteund:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_SELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Knopinfo voor de geselecteerde veranderbare volumetoestand. </p> </td> 
+   <td colname="col2"> <p>Knopinfo voor de geselecteerde veranderbare volumetatus. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_UNSELECTED </span> </p> </td> 
@@ -94,7 +94,7 @@ De volgende SYMBOL&#39;s worden ondersteund:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Knopinfo voor de toestand van de knop Volledig scherm is uitgeschakeld. </p> </td> 
+   <td colname="col2"> <p>Knopinfo voor de niet-geselecteerde knoptoestand Volledig scherm. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ClosedCaptionButton.TOOLTIP_SELECTED </span> </p> </td> 
@@ -126,7 +126,7 @@ De volgende SYMBOL&#39;s worden ondersteund:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TO </span> </p> </td> 
-   <td colname="col2"> <p>Label voor het invoerveld "Aan". </p> </td> 
+   <td colname="col2"> <p>Label voor het invoerveld Aan. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_ADD </span> </p> </td> 
@@ -157,7 +157,7 @@ De volgende SYMBOL&#39;s worden ondersteund:
    <td colname="col2"> <p>Knopinfo voor de knop Annuleren. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmailShare.CLOSE </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> E-mailShare.CLOSE </span> </p> </td> 
    <td colname="col2"> <p>Bijschrift voor de sluitknop die onder in het dialoogvenster wordt weergegeven nadat het formulier is verzonden. </p> </td> 
   </tr> 
   <tr> 
@@ -170,7 +170,7 @@ De volgende SYMBOL&#39;s worden ondersteund:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_ACTION </span> </p> </td> 
-   <td colname="col2"> <p>Knopinfo voor de knop Formulier verzenden. </p> </td> 
+   <td colname="col2"> <p>Knopinfo voor het verzenden van formulieren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.SEND_SUCCESS </span> </p> </td> 
@@ -258,7 +258,7 @@ De volgende SYMBOL&#39;s worden ondersteund:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Knopinfo voor de Twitter-deelknop. </p> </td> 
+   <td colname="col2"> <p>Knopinfo voor de knop Twitter delen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoPlayer.ERROR </span> </p> </td> 

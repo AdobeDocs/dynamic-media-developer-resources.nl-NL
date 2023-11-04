@@ -1,20 +1,20 @@
 ---
-description: Materiaaltype. Oppervlaktetype van het materiaal. Wordt gebruikt in combinatie met Glanzend effect in catalogus en Ruwheid van catalogus om 3D-reflectie-rendereffecten te beheren.
+description: Materiaaltype. Type oppervlak van het materiaal. Wordt gebruikt in combinatie met Glanzend effect in catalogus en Ruwheid van catalogus om 3D-reflectie-rendereffecten te beheren.
 solution: Experience Manager
 title: Type
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 912e2535-9980-4174-bca7-f44789eb39b4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '132'
 ht-degree: 15%
 
 ---
 
 # Type{#type}
 
-Materiaaltype. Oppervlaktetype van het materiaal. Wordt gebruikt in combinatie met catalogus::Glans en catalogus::Ruwheid om 3D-reflectie-rendereffecten te beheren.
+Materiaaltype. Type oppervlak van het materiaal. Wordt gebruikt in combinatie met catalogus::Glans en catalogus::Ruwheid om 3D-reflectie-rendereffecten te beheren.
 
 ## Eigenschappen {#section-86e8bc194f764c848e0ee55630a5ac1b}
 

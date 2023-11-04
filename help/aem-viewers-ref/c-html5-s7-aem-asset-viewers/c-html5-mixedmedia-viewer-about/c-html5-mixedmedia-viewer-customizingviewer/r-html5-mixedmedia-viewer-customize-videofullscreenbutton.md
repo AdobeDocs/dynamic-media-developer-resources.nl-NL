@@ -1,24 +1,24 @@
 ---
-title: Knop Video volledig scherm
-description: De knop Volledig scherm zorgt ervoor dat de viewer de modus Volledig scherm opent of verlaat wanneer deze door de gebruiker is geselecteerd. Deze wordt gebruikt wanneer de viewer video weergeeft en wordt op de besturingsbalk geplaatst. Deze knop wordt niet weergegeven als de viewer werkt in de pop-upmodus en het systeem geen native volledig scherm ondersteunt.
+title: Video, knop Volledig scherm
+description: De knop Volledig scherm zorgt ervoor dat de viewer de modus Volledig scherm opent of verlaat wanneer deze door de gebruiker is geselecteerd. Deze wordt gebruikt wanneer de viewer video weergeeft en wordt op de besturingsbalk geplaatst. Deze knop wordt niet weergegeven als de viewer werkt in de pop-upmodus en het systeem geen ondersteuning biedt voor een native volledig scherm.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 45811efa-95f6-4b6d-96f8-9e5437a55f0e
-source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
 
-# Knop Video volledig scherm{#video-full-screen-button}
+# Video, knop Volledig scherm{#video-full-screen-button}
 
-De knop Volledig scherm zorgt ervoor dat de viewer de modus Volledig scherm opent of verlaat wanneer deze door de gebruiker is geselecteerd. Deze wordt gebruikt wanneer de viewer video weergeeft en wordt op de besturingsbalk geplaatst. Deze knop wordt niet weergegeven als de viewer werkt in de pop-upmodus en het systeem geen native volledig scherm ondersteunt.
+De knop Volledig scherm zorgt ervoor dat de viewer de modus Volledig scherm opent of verlaat wanneer deze door de gebruiker is geselecteerd. Deze wordt gebruikt wanneer de viewer video weergeeft en wordt op de besturingsbalk geplaatst. Deze knop wordt niet weergegeven als de viewer werkt in de pop-upmodus en het systeem geen ondersteuning biedt voor een native volledig scherm.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-U kunt de grootte, de huid, en de positie van de volledige het schermknoop, met betrekking tot de controlebar die het bevat, door CSS rangschikken.
+U kunt de grootte, de huid, en de positie van de volledig-schermknoop, met betrekking tot de controlebar die het bevat, door CSS rangschikken.
 
 De weergave van de knop Volledig scherm wordt bepaald door de CSS-klassenkiezer:
 
@@ -73,7 +73,7 @@ De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-e
 
 ## Voorbeeld {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Aan opstelling een volledig het schermknoop die 32 x 32 pixel is, en geplaatst 6 pixel van de bovenkant en de juiste rand van de controlebar. Geef ook een andere afbeelding weer voor elk van de vier verschillende knoptoestanden, indien geselecteerd of niet.
+Aan opstelling een volledig-schermknoop die 32 x 32 pixel is, en geplaatst 6 pixel van de bovenkant en de juiste rand van de controlebar. Geef ook een andere afbeelding weer voor elk van de vier verschillende knoptoestanden, indien geselecteerd of niet.
 
 ```
 .s7mixedmediaviewer . s7fullscreenbutton { 

@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 8e243fa5-e375-41ce-8b49-2571023130c1
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2160'
+source-wordcount: '2158'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ De eCatalog Viewer ondersteunt de volgende aanraakbewegingen die ook in andere m
   </tr> 
   <tr> 
    <td colname="col1"> <p>Kneep </p> </td> 
-   <td colname="col2"> <p>Hiermee zoomt u in of uit. </p> </td> 
+   <td colname="col2"> <p>Zoomt in of uit. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Horizontaal vegen of tikken </p> </td> 
@@ -78,7 +78,7 @@ De eCatalog Viewer ondersteunt de volgende aanraakbewegingen die ook in andere m
 
 Het is mogelijk om een realistisch animatie-effect voor paginapijten in te schakelen voor het navigeren tussen cataloguspagina&#39;s. In dergelijke gevallen kan een gebruiker een paginahoek vasthouden en slepen en de pagina omdraaien.
 
-Deze viewer ondersteunt ook aanraakinvoer en muisinvoer op Windows-apparaten met een aanraakscherm en muis. Deze ondersteuning is echter alleen beschikbaar voor Chrome-, Internet Explorer 11- en Edge-webbrowsers.
+Deze viewer ondersteunt ook aanraakinvoer en muisinvoer op Windows-apparaten met een aanraakscherm en muis. Deze ondersteuning is echter beperkt tot Chrome, Internet Explorer 11 en alleen Edge-webbrowsers.
 
 Deze viewer is volledig toegankelijk via het toetsenbord, zoals beschreven in [Toetsenbordtoegankelijkheid en -navigatie](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
@@ -86,11 +86,11 @@ Deze viewer is volledig toegankelijk via het toetsenbord, zoals beschreven in [T
 
 De eCatalog Viewer ondersteunt gereedschappen voor sociale media. Ze zijn beschikbaar als een knop in de hoofdbesturingsbalk die wordt uitgevouwen tot een werkbalk voor delen wanneer een gebruiker erop klikt of erop tikt.
 
-De werkbalk voor delen bevat pictogrammen voor elk type ondersteund kanaal voor delen, waaronder Facebook, Twitter, Delen via e-mail, delen van code insluiten en delen van koppelingen. Wanneer gereedschappen voor delen via e-mail, insluiten of delen van koppelingen zijn geactiveerd, wordt in de viewer een modaal dialoogvenster weergegeven met een bijbehorend formulier voor gegevensinvoer. Wanneer Facebook of Twitter wordt aangeroepen, stuurt de viewer de gebruiker door naar een standaarddialoogvenster voor delen van een sociale service. Delen van gereedschappen is niet beschikbaar in de modus Volledig scherm vanwege beveiligingsbeperkingen van de webbrowser.
+De werkbalk voor delen bevat pictogrammen voor elk type ondersteund kanaal voor delen, zoals Facebook, Twitter, e-maildelen, het insluiten van code voor delen en het delen van koppelingen. Wanneer gereedschappen voor delen via e-mail, insluiten of delen van koppelingen zijn geactiveerd, wordt in de viewer een modaal dialoogvenster weergegeven met een bijbehorend formulier voor gegevensinvoer. Wanneer Facebook of Twitter wordt aangeroepen, stuurt de viewer de gebruiker door naar een standaarddialoogvenster voor delen van een sociale service. Delen van gereedschappen is niet beschikbaar in de modus Volledig scherm vanwege beveiligingsbeperkingen van de webbrowser.
 
-## eCatalog-viewer insluiten {#section-6bb5d3c502544ad18a58eafe12a13435}
+## eCatalog Viewer insluiten {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Verschillende webpagina&#39;s hebben verschillende vereisten voor viewergedrag. Soms bevat een webpagina een koppeling die de viewer in een apart browservenster opent als deze optie is geselecteerd. In andere gevallen moet u de viewer rechts insluiten op de hostpagina. In het laatste geval heeft de webpagina mogelijk een statische paginalay-out of wordt een responsief ontwerp gebruikt dat op verschillende apparaten of voor verschillende venstergrootten van de browser anders wordt weergegeven. Om aan deze behoeften tegemoet te komen, ondersteunt de viewer drie primaire bewerkingsmodi: pop-up, vaste grootte het inbedden, en ontvankelijk ontwerp het inbedden.
+Verschillende webpagina&#39;s hebben verschillende vereisten voor viewergedrag. Soms bevat een webpagina een koppeling die de viewer in een apart browservenster opent als deze optie is geselecteerd. In andere gevallen moet u de viewer rechts insluiten op de hostpagina. In het laatste geval heeft de webpagina mogelijk een statische paginalay-out of wordt een responsief ontwerp gebruikt dat op verschillende apparaten of voor verschillende venstergrootten van de browser anders wordt weergegeven. Om aan deze behoeften tegemoet te komen, ondersteunt de viewer drie primaire bewerkingsmodi: pop-up, insluiten van vaste grootte en insluiten van responsieve ontwerpen.
 
 **Pop-upmodus**
 
@@ -116,7 +116,7 @@ In de ingesloten modus wordt de viewer toegevoegd aan de bestaande webpagina, wa
 
 De belangrijkste gebruiksgevallen zijn webpagina&#39;s die zijn georiënteerd op desktops of tablets, en responsieve, ontworpen pagina&#39;s die de lay-out automatisch aanpassen, afhankelijk van het apparaattype.
 
-De insluiting met een vaste grootte wordt gebruikt wanneer de viewer de grootte niet wijzigt na het laden. Deze methode is de beste keuze voor webpagina&#39;s met een statische indeling.
+De insluiting met een vaste grootte wordt gebruikt wanneer de viewer de grootte niet wijzigt na de eerste keer laden. Deze methode is de beste keuze voor webpagina&#39;s met een statische indeling.
 
 Bij insluiten van responsieve ontwerpen wordt ervan uitgegaan dat de viewer tijdens runtime de grootte moet wijzigen als reactie op de wijziging van de grootte van de container `DIV`. De meest gebruikte optie is het toevoegen van een viewer aan een webpagina die een flexibele pagina-indeling gebruikt.
 
@@ -131,7 +131,7 @@ U voegt de viewer als volgt toe aan een webpagina:
 1. Het JavaScript-bestand van de viewer toevoegen aan uw webpagina.
 1. De container DIV definiëren.
 1. De viewergrootte instellen.
-1. De viewer maken en initialiseren.
+1. De viewer maken en initialiseren
 
 1. Het JavaScript-bestand van de viewer toevoegen aan uw webpagina.
 
@@ -160,7 +160,7 @@ Het relatieve pad ziet er als volgt uit:
 
    De plaatsaanduiding DIV is een gepositioneerd element, wat betekent dat de `position` CSS-eigenschap is ingesteld op `relative` of `absolute`.
 
-   Hieronder ziet u een voorbeeld van een gedefinieerd plaatsaanduiding DIV-element:
+   Hieronder ziet u een voorbeeld van een gedefinieerd plaatsaanduiding voor een DIV-element:
 
    ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div>
@@ -194,7 +194,7 @@ Het relatieve pad ziet er als volgt uit:
 
    Wanneer u de bovenstaande stappen hebt uitgevoerd, maakt u een instantie van `s7viewers.eCatalogViewer` klasse, geef alle configuratieinformatie tot zijn aannemer door en roep `init()` op een viewerinstantie. De informatie van de configuratie wordt overgegaan tot de aannemer als voorwerp JSON. Dit object heeft minstens de `containerId` veld met de naam van de container-id van de viewer en het geneste veld `params` JSON-object met configuratieparameters die door de viewer worden ondersteund. In dit geval worden de `params` Het object moet ten minste de URL van de afbeeldingsserver hebben doorgegeven zoals `serverUrl` en het oorspronkelijke actief als `asset` parameter. Met de op JSON gebaseerde initialisatie-API kunt u de viewer maken en starten met één coderegel.
 
-   Het is belangrijk dat de viewercontainer aan het DOM wordt toegevoegd, zodat de viewercode het containerelement op basis van de id kan vinden. Sommige browsers stellen het samenstellen van DOM tot het einde van de webpagina uit. Voor maximale compatibiliteit roept u echter de `init()` methode vlak voor het sluiten `BODY` -tag of op de hoofdtekst `onload()` gebeurtenis.
+   Het is belangrijk dat de viewercontainer aan het DOM wordt toegevoegd, zodat de viewercode het containerelement op basis van de id kan vinden. Sommige browsers stellen het samenstellen van DOM tot het einde van de webpagina uit. Voor maximale compatibiliteit roept u echter de `init()` methode vlak voor het sluiten `BODY` of op de hoofdtekst `onload()` gebeurtenis.
 
    Tegelijkertijd mag het containerelement nog niet noodzakelijkerwijs deel uitmaken van de webpaginalay-out. Het kan bijvoorbeeld verborgen zijn met `display:none` stijl die eraan is toegewezen. In dit geval vertraagt de viewer het initialisatieproces totdat de webpagina het containerelement weer in de layout plaatst. Wanneer deze actie wordt uitgevoerd, wordt het laden van de viewer automatisch hervat.
 
@@ -265,7 +265,7 @@ Het toevoegen van de viewer aan een dergelijke pagina lijkt op het insluiten van
 
 1. Het JavaScript-bestand van de viewer toevoegen aan uw webpagina.
 1. De container DIV definiëren.
-1. De viewer maken en initialiseren.
+1. De viewer maken en initialiseren
 
 Alle bovenstaande stappen zijn gelijk aan het insluiten van een vaste grootte. De container toevoegen `DIV` aan de bestaande &quot;houder&quot; `DIV`. De volgende code is een volledig voorbeeld. U kunt zien hoe de grootte van de viewer verandert wanneer de browser wordt aangepast en hoe de hoogte-breedteverhouding van de viewer overeenkomt met het element.
 

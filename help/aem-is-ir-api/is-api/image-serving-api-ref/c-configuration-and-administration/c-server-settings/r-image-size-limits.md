@@ -5,7 +5,7 @@ title: Limieten voor afbeeldingsgrootte
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 75ec58ee-8c98-46cb-96b2-79d1c32e576f
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -26,11 +26,11 @@ Hiermee beperkt u de grootte van afbeeldingen die de afbeeldingsserver kan maken
 
 ## IS:MaxSavePixels - Limiet voor grootte voor opslaan naar bestanden {#section-d1547c4afa88467080ab08356f775e06}
 
-Beperkt de grootte van beelden de Server van het Beeld aan dossiers met zal schrijven `req=saveToFile` gebruiken. Geheel getal groter dan 0 in miljoenen pixels. Er wordt een fout geretourneerd als de opslagbewerking de limiet overschrijdt. De standaardwaarde is 100 miljoen pixels.
+Beperkt de grootte van beelden de Server van het Beeld aan dossiers met het `req=saveToFile` gebruiken. Geheel getal groter dan 0 in miljoenen pixels. Er wordt een fout geretourneerd als de opslagbewerking de limiet overschrijdt. De standaardwaarde is 100 miljoen pixels.
 
 ## IS::MaxNonDsfSize - formaatlimiet voor niet-PTIFF-invoerafbeeldingen {#section-50de28a7158a436393cce5da0d1e4d46}
 
-De maximumgrootte (in pixels) van afbeeldingen die geen PTIFF-bestanden zijn die de afbeeldingsserver mag openen. De Beeldserver retourneert een fout wanneer wordt geprobeerd toegang te krijgen tot een niet-PTIFF-afbeelding die groter is dan deze limiet.
+De maximumgrootte (in pixels) van afbeeldingen die geen PTIFF-bestanden zijn die de afbeeldingsserver mag openen. Als de afbeeldingsserver een fout retourneert wanneer wordt geprobeerd toegang te krijgen tot een niet-PTIFF-afbeelding die groter is dan deze limiet.
 
 >[!NOTE]
 >

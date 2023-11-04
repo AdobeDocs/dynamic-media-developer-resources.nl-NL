@@ -5,7 +5,7 @@ title: Laagtypen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9819a73d-1108-414a-831f-37ba94c3feb9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Afbeeldingslagen moeten een `src=` opdracht die de afbeelding aangeeft die als l
 
 ## Tekstlagen {#section-dc2aec6416a340bcb20c1f884323c8d0}
 
-Moet een `text=` of `textPs=` gebruiken die de tekstinhoud bevat in de vorm van een RTF-tekstfragment (Rich Text Format). Tekstlagen kunnen zichzelf aanpassen aan de inhoud of worden expliciete grootten gegeven (bijvoorbeeld als tekst moet worden teruggeplaatst naar een bepaalde breedte of als de tekst moet worden beperkt binnen een bepaald gebied). `textPs=` ondersteuning voor het laten doorlopen van tekst in willekeurige vormen die zijn gedefinieerd met `textFlowPath=` en op willekeurige paden die zijn gedefinieerd met `textPath=`. `textPs=` ondersteunt ook het renderen van tekst naar het tekstvak of de opgegeven vorm onder willekeurige hoeken ( `textAngle=`).
+Moet een `text=` of `textPs=` gebruiken die de tekstinhoud bevat in de vorm van een RTF-tekstfragment (Rich Text Format). Tekstlagen kunnen zichzelf aanpassen aan de inhoud of expliciete grootten krijgen. Bijvoorbeeld als tekst moet worden teruggeplaatst naar een bepaalde breedte of als de tekst moet worden beperkt binnen een bepaald gebied. `textPs=` ondersteuning voor het laten doorlopen van tekst in willekeurige vormen gedefinieerd met `textFlowPath=` en op willekeurige paden gedefinieerd met `textPath=`. `textPs=` ondersteunt ook het renderen van tekst naar het tekstvak of de opgegeven vorm onder willekeurige hoeken ( `textAngle=`).
 
 ## Effen kleurlagen {#section-56dfb672756643dda08dc93294809eb0}
 

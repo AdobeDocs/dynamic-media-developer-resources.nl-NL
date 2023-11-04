@@ -1,24 +1,24 @@
 ---
-title: Knop Volledig scherm
-description: De knop Volledig scherm zorgt ervoor dat de videospeler de modus Volledig scherm opent of sluit wanneer de gebruiker erop klikt.
+title: schermvullende knop
+description: De knop Volledig scherm zorgt ervoor dat de videospeler de modus Volledig scherm opent of verlaat wanneer de gebruiker erop klikt.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 0cb2b1bd-154e-41d8-bd9f-69a1cfc72902
-source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
 
-# Knop Volledig scherm{#full-screen-button}
+# schermvullende knop{#full-screen-button}
 
-De knop Volledig scherm zorgt ervoor dat de videospeler de modus Volledig scherm opent of sluit wanneer de gebruiker erop klikt.
+De knop Volledig scherm zorgt ervoor dat de videospeler de modus Volledig scherm opent of verlaat wanneer de gebruiker erop klikt.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-U kunt de grootte, de huid, en de positie van de volledige het schermknoop, met betrekking tot de controlebar die het bevat, door CSS rangschikken.
+U kunt de grootte, de huid, en de positie van de volledig-schermknoop, met betrekking tot de controlebar die het bevat, door CSS rangschikken.
 
 De weergave van de knop Volledig scherm wordt bepaald door de CSS-klassenkiezer:
 

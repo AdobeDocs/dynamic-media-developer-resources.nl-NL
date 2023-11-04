@@ -5,9 +5,9 @@ title: Afbeeldingscatalogi
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 54c83ad2-a932-4df2-92ff-ab34d4a5b1a7
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
@@ -20,15 +20,15 @@ Afbeeldingscatalogi bieden de volgende functies:
 
 * Een blijvende koppeling van afbeeldingen met bepaalde metagegevens en wijzigingopdrachten toestaan.
 
-   Er wordt verwezen naar items in afbeeldingscatalogi met een snelkoppelingnotatie `*`rootId/objId`*`, waarbij `*`rootId`*` de afbeeldingscatalogus en `*`objId`*` geeft een gegevensrecord in de catalogus aan.
+  Er wordt verwezen naar items in afbeeldingscatalogi met een snelkoppelingnotatie `*`rootId/objId`*`, waarbij `*`rootId`*` de afbeeldingscatalogus en `*`objId`*` geeft een gegevensrecord in de catalogus aan.
 * Verstrek gebreken voor bepaalde verzoekattributen, zoals de kwaliteit van de JPEG of of een watermerk moet worden toegepast.
 * Lettertypen, ICC-profielen, macrodefinities en aanvraagsjablonen beheren
 
-Zelfs als er geen specifieke afbeeldingscatalogi zijn gedefinieerd, zijn alle functies van afbeeldingscatalogi beschikbaar via de standaardcatalogus ( [!DNL default.ini]).
+Zelfs als er geen specifieke afbeeldingscatalogi zijn gedefinieerd, zijn alle functies van afbeeldingscatalogi beschikbaar in de standaardcatalogus ( [!DNL default.ini]).
 
 Indien `*`rootId`*` in het URL-pad van de aanvraag komt overeen `attribute::RootId` van een specifieke afbeeldingscatalogus wordt die catalogus de hoofdcatalogus voor deze aanvraag. De hoofdcatalogus bevat de standaardkenmerken en -instellingen voor de gehele aanvraag. Als er geen overeenkomende catalogus wordt gevonden, wordt in plaats daarvan de standaardcatalogus gebruikt.
 
-Een catalogus die is geïdentificeerd in een `src=` of `mask=` biedt de volgende cataloguskenmerken en -gegevens aan de huidige laag:
+Een catalogus die in een `src=` of `mask=` biedt de volgende cataloguskenmerken en -gegevens aan de huidige laag:
 
 <table id="table_D3FA66EA5D054745900DE5A120885AA8"> 
  <thead> 
@@ -99,7 +99,7 @@ Een catalogus die is geïdentificeerd in een `src=` of `mask=` biedt de volgende
 
 Binnen dezelfde laag, `src=` en `mask=` moet verwijzen naar dezelfde (eventuele) afbeeldingscatalogus.
 
-Een catalogus die is geïdentificeerd in een `icc=` wordt alleen gebruikt om een item uit de ICC-profieltabel van de catalogus op te zoeken. Er zijn geen andere cataloguskenmerken of -gegevens bij betrokken.
+Een catalogus die in een `icc=` wordt alleen gebruikt om een item uit de ICC-profieltabel van de catalogus op te zoeken. Er zijn geen andere cataloguskenmerken of -gegevens bij betrokken.
 
 Indien: `*`rootId`*` wordt omgezet in een catalogus, en `*`objId`*` komt overeen met een `catalog::Id` in deze catalogus, dan `*`rootId/objId`*` wordt in feite vervangen door de volgende vermelding in de catalogus:
 

@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 65a54308-f9db-4458-a9c3-ccb1433af43c
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2645'
+source-wordcount: '2642'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 De gemengde Kijker van Media is een media kijker. De klasse biedt ondersteuning voor mediasets die afbeeldingen, stalensets, centrifuges, video&#39;s en adaptieve videosets bevatten.
 
-Een miniatuur onder aan de viewer geeft elk element in de mediaset weer, samen met de aanduiding voor het type element. Wanneer een element in een stalenset is geselecteerd, wordt een tweede rij stalen weergegeven waarmee u kleurvariaties kunt selecteren in de stalenset. Afbeeldingen en stalensetelementen bieden ondersteuning voor zoomen in continue of inline modus. centrifuges ondersteunen zowel zoomen als draaien. Video&#39;s en Adaptieve videosets ondersteunen alle standaardbesturingselementen voor afspelen, mits optionele, gesloten bijschriften boven op de video-inhoud worden weergegeven. Een gebruiker kan op elk moment overschakelen naar het volledige scherm door op de knop Volledig scherm te klikken. De viewer heeft een optionele knop Sluiten. Het is ontworpen voor gebruik op desktops en mobiele apparaten.
+Een miniatuur onder aan de viewer geeft elk element in de mediaset weer, samen met de desbetreffende indicator voor het type element. Wanneer een element in een stalenset is geselecteerd, wordt een tweede rij stalen weergegeven waarmee u kleurvariaties kunt selecteren in de stalenset. Afbeeldingen en elementen in stalensets ondersteunen zoomen in de modus Continu of Inline. Spin-sets ondersteunen zowel zoomen als draaien. Video&#39;s en Adaptieve videosets ondersteunen alle standaardbesturingselementen voor afspelen, mits optionele, gesloten bijschriften boven op de video-inhoud worden weergegeven. Een gebruiker kan op elk moment overschakelen naar het volledige scherm door op de knop Volledig scherm te klikken. De viewer heeft een optionele knop Sluiten. Het is ontworpen voor gebruik op desktops en mobiele apparaten.
 
 De gemengde Kijker van Media gebruikt HTML5 die videoplayback in formaat HLS in zijn standaardconfiguratie stromen wanneer het onderliggende systeem dat steunt. Op systemen die geen ondersteuning bieden voor HTML5-streaming, valt de viewer terug naar de progressieve HTML van de video.
 
@@ -37,7 +37,7 @@ Zie [Systeemvereisten en -vereisten](../../c-system-requirements-and-prerequisit
 
 De gemengde Kijker van Media vertegenwoordigt een belangrijkste dossier JavaScript en een reeks helperdossiers (één enkele omvat JavaScript met alle componenten van SDK van de Kijker die door deze bepaalde kijker worden gebruikt, activa, CSS) door de kijker in runtime wordt gedownload.
 
-U kunt de Gemengde Kijker van Media op pop-up wijze gebruiken gebruikend productie-klaar HTML pagina die van IS-Kijkers wordt voorzien. U kunt de viewer ook gebruiken in de ingesloten modus, waar deze is geïntegreerd in een doelwebpagina met behulp van de gedocumenteerde API.
+U kunt de Gemengde Kijker van Media op pop-up wijze gebruiken gebruikend productie-klaar HTML pagina die van IS-Kijkers wordt voorzien. U kunt de viewer ook gebruiken in de ingesloten modus, waar deze met de gedocumenteerde API is geïntegreerd in een doelwebpagina.
 
 Het configureren en toewijzen van een skin aan de viewer is vergelijkbaar met die van andere viewers. Alle skins worden gemaakt door middel van aangepaste CSS.
 
@@ -77,12 +77,12 @@ De gemengde Kijker van Media steunt enig-aanraak en multi-aanrakingsgebaren die 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verticaal vegen of tikken </p> </td> 
-   <td colname="col2"> <p> Als de afbeelding zich in een herstelstatus bevindt, verandert de verticale weergavehoek voor het geval dat een multidimensionale centrifugeset wordt gebruikt. In een eendimensionale centrifuge of wanneer een multidimensionale centrifuge zich op de laatste of de eerste as bevindt, zodat verticale veeggebaren niet tot een verandering van de verticale weergavehoek leidt, wordt de beweging uitgevoerd door een native paginaschuiving. </p> <p> Als het huidige element een gecentreerde of afbeeldingsset is en u op de afbeelding hebt ingezoomd, wordt de afbeelding verticaal verplaatst. Als de afbeelding naar de weergavegrens wordt verplaatst en de veegbeweging nog steeds in die richting wordt uitgevoerd, wordt de beweging op de pagina zelf uitgevoerd. </p> <p> Als de beweging binnen het stalengebied wordt uitgevoerd, wordt een native paginaschuiving uitgevoerd. </p> </td> 
+   <td colname="col2"> <p> Als de afbeelding zich in een herstelstatus bevindt, verandert de verticale weergavehoek voor het geval dat een multidimensionale centrifugeset wordt gebruikt. In een eendimensionale centrifuge of wanneer een multidimensionale centrifuge zich op de laatste of de eerste as bevindt, zodat verticale veeggebaren niet tot een verandering van de verticale weergavehoek leidt, wordt de beweging uitgevoerd door een native paginaschuiving. </p> <p> Als het huidige element een centrifugeerset of een afbeelding is en u op de afbeelding hebt ingezoomd, wordt de afbeelding verticaal verplaatst. Als de afbeelding naar de weergavegrens wordt verplaatst en de veegbeweging nog steeds in die richting wordt uitgevoerd, wordt de beweging op de pagina zelf uitgevoerd. </p> <p> Als de beweging binnen het stalengebied wordt uitgevoerd, wordt een native paginaschuiving uitgevoerd. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-De viewer ondersteunt ook aanraakinvoer en muisinvoer op Windows-apparaten met aanraakscherm en muis. Deze ondersteuning is echter alleen beschikbaar voor Chrome-, Internet Explorer 11- en Edge-webbrowsers.
+De viewer ondersteunt ook aanraakinvoer en muisinvoer op Windows-apparaten met aanraakscherm en muis. Deze ondersteuning is echter beperkt tot Chrome, Internet Explorer 11 en alleen Edge-webbrowsers.
 
 Deze viewer is volledig toegankelijk via het toetsenbord.
 
@@ -90,7 +90,7 @@ Zie [Toetsenbordtoegankelijkheid en -navigatie](../../c-keyboard-accessibility.m
 
 ## Gemengde Media Viewer insluiten {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Verschillende webpagina&#39;s hebben verschillende vereisten voor viewergedrag. Soms bevat een webpagina een koppeling die de viewer in een apart browservenster opent als deze optie is geselecteerd. In andere gevallen moet u de viewer rechts insluiten op de hostpagina. In het laatste geval heeft de webpagina mogelijk een statische paginalay-out of wordt een responsief ontwerp gebruikt dat op verschillende apparaten of voor verschillende venstergrootten van de browser anders wordt weergegeven. Om aan deze behoeften tegemoet te komen, ondersteunt de viewer drie primaire bewerkingsmodi: pop-up, vaste grootte het inbedden, en ontvankelijk ontwerp het inbedden.
+Verschillende webpagina&#39;s hebben verschillende vereisten voor viewergedrag. Soms bevat een webpagina een koppeling die de viewer in een apart browservenster opent als deze optie is geselecteerd. In andere gevallen moet u de viewer rechts insluiten op de hostpagina. In het laatste geval heeft de webpagina mogelijk een statische paginalay-out of wordt een responsief ontwerp gebruikt dat op verschillende apparaten of voor verschillende venstergrootten van de browser anders wordt weergegeven. Om aan deze behoeften tegemoet te komen, ondersteunt de viewer drie primaire bewerkingsmodi: pop-up, insluiten van vaste grootte en insluiten van responsieve ontwerpen.
 
 ## Pop-upmodus {#section-77d5aa03b8b94566958a179b1a2cd474}
 
@@ -116,7 +116,7 @@ In de ingesloten modus wordt de viewer toegevoegd aan de bestaande webpagina, wa
 
 De belangrijkste gebruiksgevallen zijn webpagina&#39;s die zijn georiënteerd op desktops of tabletapparaten, en ook responsieve ontwerppagina&#39;s die de lay-out automatisch aanpassen, afhankelijk van het apparaattype.
 
-De insluiting met een vaste grootte wordt gebruikt wanneer de viewer de grootte niet wijzigt na het laden. Deze handeling is de beste keuze voor webpagina&#39;s met een statische indeling.
+De insluiting met een vaste grootte wordt gebruikt wanneer de viewer de grootte niet wijzigt na de eerste keer laden. Deze handeling is de beste keuze voor webpagina&#39;s met een statische indeling.
 
 Bij insluiten van responsieve ontwerpen wordt ervan uitgegaan dat de viewer tijdens runtime de grootte moet wijzigen als reactie op de wijziging van de grootte van de container `DIV`. De meest gebruikte optie is het toevoegen van een viewer aan een webpagina die een flexibele pagina-indeling gebruikt.
 
@@ -131,7 +131,7 @@ U voegt de viewer als volgt toe aan een webpagina:
 1. Het JavaScript-bestand van de viewer toevoegen aan uw webpagina.
 1. De container definiëren `DIV`.
 1. De viewergrootte instellen.
-1. De viewer maken en initialiseren.
+1. De viewer maken en initialiseren
 
 1. Het JavaScript-bestand van de viewer toevoegen aan uw webpagina.
 
@@ -160,9 +160,9 @@ Het relatieve pad ziet er als volgt uit:
 
    De plaatsaanduiding DIV is een gepositioneerd element, wat betekent dat de `position` CSS-eigenschap is ingesteld op `relative` of `absolute`.
 
-   Controleer of de functie Volledig scherm goed werkt in Internet Explorer. Controleer of het DOM geen andere elementen bevat die een hogere stapelvolgorde hebben dan het DIV-bestand voor de plaatsaanduiding.
+   Controleer of de functie Volledig scherm goed werkt in Internet Explorer. Controleer of het DOM geen andere elementen bevat die een hogere stapelvolgorde hebben dan de plaatsaanduiding DIV.
 
-   Hieronder ziet u een voorbeeld van een gedefinieerd plaatsaanduiding DIV-element:
+   Hieronder ziet u een voorbeeld van een gedefinieerd plaatsaanduiding voor een DIV-element:
 
    ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div> 
@@ -189,7 +189,7 @@ Het relatieve pad ziet er als volgt uit:
 
    [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html)
 
-   Als u de afmetingen van de hoofdweergave statisch wilt maken, definieert u de viewergrootte in absolute eenheden voor het binnenste `Container` SDK-component gebruiken `.s7mixedmediaviewer .s7container` CSS-kiezer, of door te gebruiken `stagesize` modifier.
+   Als u de afmetingen van de hoofdweergave statisch wilt maken, definieert u de viewergrootte in absolute eenheden voor het binnenste `Container` SDK-component gebruiken `.s7mixedmediaviewer .s7container` CSS-kiezer of door gebruik te maken van `stagesize` modifier.
 
    Hieronder ziet u een voorbeeld van het definiëren van de viewergrootte voor de binnenzijde `Container` SDK-component, zodat het hoofdweergavegebied niet van grootte verandert wanneer u van element verandert:
 
@@ -204,7 +204,7 @@ Het relatieve pad ziet er als volgt uit:
 
    [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html)
 
-   U kunt de `stagesize` in de viewervoorinstellingsrecord in Dynamic Media Classic of deze expliciet doorgeven met de viewerinitialisatiecode met `params` verzameling. Of, als API vraag zoals die in de sectie van de Verwijzing van het Bevel van deze Hulp wordt beschreven, zoals in het volgende:
+   U kunt de `stagesize` in de viewervoorinstellingsrecord in Dynamic Media Classic, of geef deze expliciet door met de viewerinitialisatiecode met `params` verzameling. Of, als API vraag zoals die in de sectie van de Verwijzing van het Bevel van deze Hulp wordt beschreven, zoals in het volgende:
 
    ```html {.line-numbers}
    mixedMediaViewer.setParam("stagesize", "640,480");
@@ -212,15 +212,15 @@ Het relatieve pad ziet er als volgt uit:
 
    Een op CSS gebaseerde benadering wordt geadviseerd en in dit voorbeeld gebruikt.
 
-1. De viewer maken en initialiseren.
+1. De viewer maken en initialiseren
 
-   Wanneer u de bovenstaande stappen hebt uitgevoerd, maakt u een instantie van `s7viewers.MixedMediaViewer` klasse, geef alle configuratieinformatie tot zijn aannemer door en roep `init()` op een viewerinstantie. De informatie van de configuratie wordt overgegaan tot de aannemer als voorwerp JSON. Dit object moet ten minste het volgende bevatten: `containerId` veld met de naam van de container-id van de viewer en het geneste veld `params` JSON-object met configuratieparameters die door de viewer worden ondersteund. In dit geval worden de `params` Het object moet ten minste de URL van de afbeeldingsserver hebben doorgegeven zoals `serverUrl` eigenschap, de URL van de videoserver doorgegeven als `videoserverurl` vastgoed en eerste actief als `asset` parameter. Met de op JSON gebaseerde initialisatie-API kunt u de viewer maken en starten met één coderegel.
+   Wanneer u de bovenstaande stappen hebt uitgevoerd, maakt u een instantie van `s7viewers.MixedMediaViewer` klasse, geef alle configuratieinformatie tot zijn aannemer door en roep `init()` op een viewerinstantie. De informatie van de configuratie wordt overgegaan tot de aannemer als voorwerp JSON. Dit object moet ten minste het volgende bevatten `containerId` veld met de naam van de container-id van de viewer en het geneste veld `params` JSON-object met configuratieparameters die de viewer ondersteunt. In dit geval worden de `params` Het object moet ten minste de URL van de afbeeldingsserver hebben doorgegeven zoals `serverUrl` eigenschap, de URL van de videoserver doorgegeven als `videoserverurl` vastgoed en eerste actief als `asset` parameter. Met de op JSON gebaseerde initialisatie-API kunt u de viewer maken en starten met één coderegel.
 
-   Het is belangrijk dat de viewercontainer aan het DOM wordt toegevoegd, zodat de viewercode het containerelement op basis van de id kan vinden. Sommige browsers stellen het samenstellen van DOM tot het einde van de webpagina uit. Voor maximale compatibiliteit roept u de `init()` methode vlak voor het sluiten `BODY` -tag of op de hoofdtekst `onload()` gebeurtenis.
+   Het is belangrijk dat de viewercontainer aan het DOM wordt toegevoegd, zodat de viewercode het containerelement op basis van de id kan vinden. Sommige browsers stellen het samenstellen van DOM tot het einde van de webpagina uit. Voor maximale compatibiliteit roept u de `init()` methode vlak voor het sluiten `BODY` of op de hoofdtekst `onload()` gebeurtenis.
 
    Tegelijkertijd mag het containerelement nog niet noodzakelijkerwijs deel uitmaken van de webpaginalay-out. Het kan bijvoorbeeld verborgen zijn met `display:none` stijl die eraan is toegewezen. In dit geval vertraagt de viewer het initialisatieproces totdat de webpagina het containerelement weer in de layout plaatst. Wanneer deze actie wordt uitgevoerd, wordt het laden van de viewer automatisch hervat.
 
-   Hieronder ziet u een voorbeeld van het maken van een viewer-instantie, het doorgeven van de minimaal benodigde configuratieopties aan de constructor en het aanroepen van de `init()` methode. In het voorbeeld wordt ervan uitgegaan `mixedMediaViewer` de viewer-instantie is; `s7viewer` is de naam van de tijdelijke aanduiding `DIV`; [!DNL http://s7d1.scene7.com/is/image/] is de URL van de afbeeldingsserver; [!DNL http://s7d1.scene7.com/is/content/] de URL van de videoserver; en [!DNL Scene7SharedAssets/Mixed_Media_Set_Sample] is het actief:
+   Hieronder ziet u een voorbeeld van het maken van een viewer-instantie, het doorgeven van de minimaal benodigde configuratieopties aan de constructor en het aanroepen van de `init()` methode. In het voorbeeld wordt ervan uitgegaan `mixedMediaViewer` de viewer-instantie is; `s7viewer` is de naam van de tijdelijke aanduiding `DIV`; [!DNL http://s7d1.scene7.com/is/image/] is de URL van de afbeeldingsserver; [!DNL http://s7d1.scene7.com/is/content/] de URL van de videoserver is, en [!DNL Scene7SharedAssets/Mixed_Media_Set_Sample] is het actief:
 
 ```html {.line-numbers}
 <script type="text/javascript"> 
@@ -292,7 +292,7 @@ Het toevoegen van de viewer aan een dergelijke pagina is vergelijkbaar met de st
 
 1. Het JavaScript-bestand van de viewer toevoegen aan uw webpagina.
 1. De container DIV definiëren.
-1. De viewer maken en initialiseren.
+1. De viewer maken en initialiseren
 
 Alle bovenstaande stappen zijn gelijk aan die bij het insluiten van de vaste grootte. De container DIV toevoegen aan het bestaande `"holder"` DIV. De volgende code is een volledig voorbeeld. U ziet hoe de grootte van de viewer verandert wanneer de grootte van de browser wordt gewijzigd en hoe de hoogte-breedteverhouding van de viewer overeenkomt met het element.
 
@@ -333,7 +333,7 @@ De volgende voorbeeldpagina illustreert het levensechte gebruik van responsieve 
 
 ## Flexibele insluiting van grootte met gedefinieerde breedte en hoogte {#section-0a329016f9414d199039776645c693de}
 
-Als er insluiting in flexibele grootte is waarbij de breedte en hoogte zijn gedefinieerd, is de opmaak van de webpagina anders. Het verstrekt beide grootte aan `"holder"` DIV en centreert het in het browser venster. Bovendien stelt de webpagina de grootte van de `HTML` en `BODY` element aan 100 percenten.
+Als er insluiting in flexibele grootte is waarbij de breedte en hoogte zijn gedefinieerd, is de opmaak van de webpagina anders. Het verstrekt beide grootte aan `"holder"` DIV en centreert het in het browser venster. Bovendien stelt de webpagina de grootte van de `HTML` en `BODY` tot 100 procent.
 
 ```html {.line-numbers}
 <!DOCTYPE html> 

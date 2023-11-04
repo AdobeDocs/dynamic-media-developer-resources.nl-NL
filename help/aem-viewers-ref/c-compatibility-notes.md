@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
-source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Compatibiliteitsnotities voor besturingssystemen, browsers en mobiele apparaten.
 
 ## Galaxy S4 {#section-7effabfea75b488399e0f71cab4ce76b}
 
-* Apparaat gedetecteerd als tablet in de staande modus met Volledig scherm ingeschakeld in de browserinstellingen.
+* Apparaat gedetecteerd als tablet in de staande modus met volledig scherm ingeschakeld in de browserinstellingen.
 
 ## Galaxy Nexus {#section-9340b0b026bd48e8a8a6b837b59c6dc5}
 
@@ -54,7 +54,7 @@ Compatibiliteitsnotities voor besturingssystemen, browsers en mobiele apparaten.
 ## HTML5 Video Viewer {#section-3c2dd1220dea4093b17ca2dd0a688307}
 
 * `IntialBitRate` modifier wordt alleen ondersteund bij het afspelen van software-HLS en Flash HDS. Dit werkt niet wanneer het afspelen de native speler gebruikt.
-* OGG en WebM progressief afspelen niet ondersteund.
+* OGG en WebM progressief afspelen wordt niet ondersteund.
 * Browserschaling zorgt ervoor dat de videospeler op een onjuiste grootte wordt weergegeven (inclusief de weergave-instellingen van het Configuratiescherm van Windows®).
 * Het gebruik van HLS-streaming op Safari is niet consistent.
 
@@ -70,6 +70,6 @@ Compatibiliteitsnotities voor besturingssystemen, browsers en mobiele apparaten.
 
 ## Safari {#section-f8de598293d349188aa02c82cd3af8b6}
 
-* Safari 6.1 of hoger: Instellingen voor de insteekmodule Internet verhinderen het afspelen van Flash-video.
+* Safari 6.1 of hoger: instellingen voor de plug-in Internet verhinderen het afspelen van video in de Flash.
 * Het gebruik van HLS-streaming op Safari is niet consistent.
 * Kan niet zoeken tot einde van video in Safari 6 met gebruik van HLS-streaming.

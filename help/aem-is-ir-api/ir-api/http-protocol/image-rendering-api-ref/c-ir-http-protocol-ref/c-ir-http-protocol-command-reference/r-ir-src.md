@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: aff45f0f-e672-40da-9cc8-db83cf3922ff
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -53,15 +53,15 @@ Materiaalbestand. Hiermee worden materiaalgegevens opgegeven, in de vorm van Ã©Ã
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> isReq</span> </p></td> 
-  <td class="stentry"> <p>Verzoek om beeldverwerking. </p></td> 
+  <td class="stentry"> <p>Verzoek om beeldbewerking. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> irReq</span> </p></td> 
-  <td class="stentry"> <p>Verzoek om afbeeldingen te renderen. </p></td> 
+  <td class="stentry"> <p>Verzoek om beeldweergave. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> foreignReq</span> </p></td> 
-  <td class="stentry"> <p>Verzoek aan een externe server. </p></td> 
+  <td class="stentry"> <p>Aanvraag bij een externe server. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> name</span> </p></td> 
@@ -81,9 +81,9 @@ Voor materiaal voor vensterbekleding is een stijlbestand voor vensterbekleding v
 
 Voor het renderen van afbeeldingen worden dezelfde regels gebruikt als voor het weergeven van afbeeldingen, zodat u materiaalcatalogi, catalogusitems en gegevensbestanden kunt opzoeken. Zie de beschrijving van de *`object`* Gegevenstype in de documentatie van de Beeldserver voor meer informatie.
 
-*`materialFile`* Is een pad dat relatief is ten opzichte van `attribute::RootPath`.
+*`materialFile`* Is een pad ten opzichte van `attribute::RootPath`.
 
-*`foreignReq`* Dit kan een URL zijn die relatief is ten opzichte van `attribute::RootUrl`of een absolute URL als `attribute::AllowDirectUrls` is ingesteld.
+*`foreignReq`* Kan een URL zijn die betrekking heeft op `attribute::RootUrl`of een absolute URL als `attribute::AllowDirectUrls` is ingesteld.
 
 Indien *`catId`* niet is opgegeven, wordt de sessiecatalogus gebruikt.
 
@@ -121,4 +121,4 @@ Een geneste aanvraag voor een afbeelding in de afbeeldingsserver om een structuu
 
 ## Zie ook {#section-d01d25b8903e4f5ca6aef4a084fca6b7}
 
-[Materiaalcatalogi](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/c-ir-http-material-catalogs.md#concept-772742c1688f420a88a56f5136ad1db2), [kenmerk:RootUrl](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402), [kenmerk:AllowDirectUrls](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-allowdirecturls.md#reference-02000c0f3c494292bad8425d06268882)
+[Materiaalcatalogi](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/c-ir-http-material-catalogs.md#concept-772742c1688f420a88a56f5136ad1db2), [kenmerk:RootUrl](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402), [kenmerk::AllowDirectUrls](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-allowdirecturls.md#reference-02000c0f3c494292bad8425d06268882)

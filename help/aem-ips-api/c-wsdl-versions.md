@@ -5,9 +5,9 @@ title: IPS Web Service WSDL-versies
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d7a6079e-286e-4e62-b2ff-551ef4a5815c
-source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '956'
 ht-degree: 0%
 
 ---
@@ -197,7 +197,7 @@ De voorkeursmethode voor het doorgeven van verificatiereferenties in API-aanvrag
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> errorHttpStatusCode </span> </p> </td> 
-   <td colname="col2"> <p> Optionele parameter om de HTTP-statuscode voor foutreacties te negeren. Standaard retourneren de foutreacties HTTP-statuscode 500 (Interne serverfout). Sommige clientplatforms, waaronder Adobe Flash, kunnen de hoofdtekst van de reactie niet lezen, tenzij de statuscode 200 (OK) wordt geretourneerd. </p> </td> 
+   <td colname="col2"> <p> Optionele parameter om de HTTP-statuscode voor foutreacties te negeren. Standaard retourneren de foutreacties HTTP-statuscode 500 (Interne serverfout). Sommige cliëntplatforms, met inbegrip van de Flash van de Adobe, kunnen het antwoordlichaam niet lezen tenzij een statuscode van 200 (O.K.) is teruggekeerd. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -229,7 +229,7 @@ Wanneer `base64()` past de standaard Base64-codering toe, `<IPS_user_email>` is 
 
 Verzend de koptekst voor autorisatie op voorhand met het eerste verzoek. Als de aanvraag geen verificatiereferenties bevat, `IpsApiService` reageert niet met een statuscode van `401 (Unauthorized)`. In plaats daarvan, een statuscode van `500 (Internal Server Error)` is teruggekeerd met een de foutenlichaam die van de ZEEP verklaren dat het verzoek niet kon worden voor authentiek verklaard.
 
-Vóór IPS 3.8, werd de authentificatie via de kopbal van de ZEEP uitgevoerd gebruikend `AuthUser` en `AuthPassword` elementen in de naamruimte `http://www.scene7.com/IpsApi`. Bijvoorbeeld:
+Vóór IPS 3.8, werd de authentificatie door de kopbal van de ZEEP uitgevoerd gebruikend `AuthUser` en `AuthPassword` elementen in de naamruimte `http://www.scene7.com/IpsApi`. Bijvoorbeeld:
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 

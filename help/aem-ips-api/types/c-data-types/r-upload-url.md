@@ -5,9 +5,9 @@ title: UploadUrl
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f13fc27c-a91f-4823-8d65-664854af98ae
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '40'
+source-wordcount: '44'
 ht-degree: 0%
 
 ---
@@ -23,4 +23,4 @@ Syntaxis
 | Naam | Type | Beschrijving |
 |---|---|---|
 | sourceUrl | `xsd:string` | De bron-URL waaruit het element wordt geüpload. |
-| destPath | `xsd:string` | Het bestandspad IPS en de naam van het bestand waarnaar u wilt uploaden. |
+| destPath | `xsd:string` | Het IPS dossierweg en naam van het dossier u wilt uploaden aan. |

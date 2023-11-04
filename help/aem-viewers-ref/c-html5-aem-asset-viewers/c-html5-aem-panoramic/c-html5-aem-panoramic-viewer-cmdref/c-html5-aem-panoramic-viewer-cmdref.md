@@ -4,9 +4,9 @@ description: Documentatie over configuratiekenmerken voor Panoramische Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '148'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Documentatie over configuratiekenmerken voor Panoramische Viewer.
 
 Elke configuratieopdracht kan worden ingesteld in een URL of via `setParam()` en/of `setParams()` API-methoden. Om het even welk config attribuut kan ook in server-zijconfiguratieverslag worden gespecificeerd.
 
-Sommige configuratieopdrachten kunnen worden voorafgegaan door de klassenaam of instantienaam van de overeenkomende HTML5 SDK-component. Een instantienaam van de component is dynamisch en is afhankelijk van de id van het DOM-element van de viewercontainer die is doorgegeven aan `setContainerId()` API-methode. De documentatie zal facultatieve prefix voor dergelijke bevelen omvatten. Bijvoorbeeld: `vrrender` wordt als volgt beschreven:
+Sommige configuratieopdrachten kunnen worden voorafgegaan door de klassenaam of instantienaam van de overeenkomende HTML5 SDK-component. Een instantienaam van de component is dynamisch en is afhankelijk van de id van het DOM-element van de viewercontainer die is doorgegeven aan `setContainerId()` API-methode. Documentatie bevat een optioneel voorvoegsel voor dergelijke opdrachten. Bijvoorbeeld: `vrrender` deze opdracht wordt als volgt beschreven:
 
 ```
 [PanoramicView.|<containerId>_panoramicView].vrrender

@@ -5,9 +5,9 @@ title: Kleurbeheer voor rendering van afbeeldingen *
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fa772ab2-8a32-4c1a-9ee3-c1cf4a0b3095
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Stijlbestanden voor kabinetsopmaakbestanden (.vnc) en vensterbekledingsbestanden
 
 **Zie ook**
 
-[International Color Consortium](https://www.color.org/index.xalter) , [ `icc=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-icc.md#reference-86a2fff3cef24982ad2063d977a16e06) , [ `iccEmbed=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f) , `attribute::IccProfile*` , `attribute::IccProfileSrc*`, `attribute::IccRenderIntent` , `attribute::IccBlackPointCompensation` , `attribute::IccDither` , ICC-profielkaarten
+[Internationaal kleurconsortium](https://www.color.org/index.xalter) , [`icc=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-icc.md#reference-86a2fff3cef24982ad2063d977a16e06) , [`iccEmbed=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f) , `attribute::IccProfile*` , `attribute::IccProfileSrc*`, `attribute::IccRenderIntent` , `attribute::IccBlackPointCompensation` , `attribute::IccDither` , ICC-profielkaarten
 
 ## Standaardkleurruimten {#section-8ce27edf42e746febe4654f8f19b9c0c}
 
@@ -42,7 +42,7 @@ De werkkleurruimte wordt meestal gedefinieerd door het ICC-kleurprofiel dat is i
 
 Alle renderbewerkingen worden uitgevoerd in de werkkleurruimte.
 
-**Belangrijk:** Het ICC-profiel voor de werkkleurruimte moet invoer- en uitvoertransformaties ondersteunen. Als een alleen-uitvoerprofiel wordt gebruikt als werkkleurruimte, kan AIR materialen niet omzetten in een profiel. Een dergelijk kleurprofiel kan nog steeds worden gebruikt als de materialen zich in dezelfde werkkleurruimte bevinden. Het toepassen van materialen in andere kleurruimten mislukt.
+**Belangrijk:** Het ICC-profiel voor de werkkleurruimte moet invoer- en uitvoertransformaties ondersteunen. Als een uitvoerprofiel wordt gebruikt als een werkkleurruimte, kan IR materialen niet omzetten in deze ruimte. Een dergelijk kleurprofiel kan nog steeds worden gebruikt als de materialen zich in dezelfde werkkleurruimte bevinden. Poging om materialen toe te passen in andere kleurruimten is mislukt.
 
 ## Expliciete kleurwaarden {#section-31727bf1b23e477ca92572fbbf422d2f}
 
@@ -54,7 +54,7 @@ Materiaalafbeeldingsbestanden (structuur- en decale afbeeldingen) kunnen van het
 
 Materiaalafbeeldingen die worden verkregen bij verzoeken om geneste afbeeldingsserver of om het renderen van afbeeldingen, bevatten doorgaans een kleurprofiel. Als dit niet het geval is, worden de afbeeldingen gekoppeld aan de standaardinvoerkleurruimte die overeenkomt met het pixeltype.
 
-Als de kleurruimte van het afbeeldingsbestand anders is dan de werkkleurruimte, wordt een nauwkeurige kleuromzetting gebruikt om de afbeelding om te zetten in de werkkleurruimte. Typeconversie van het type naïef wordt gebruikt wanneer geen profiel wordt ingebed en geen standaard inputprofiel wordt bepaald.
+Als de kleurruimte van het afbeeldingsbestand afwijkt van de werkkleurruimte, wordt een nauwkeurige kleuromzetting gebruikt voor de omzetting in de werkkleurruimte. Typeconversie van het type naïef wordt gebruikt wanneer geen profiel wordt ingebed en geen standaard inputprofiel wordt bepaald.
 
 Andere materiaalgegevensbestanden, zoals bestanden in kabinetstijl ( [!DNL .vnc]) of venster dat bestanden bedekt ( [!DNL .vnw]) kleurprofielen niet insluiten en altijd wordt aangenomen dat deze zich in de werkkleurruimte bevinden.
 
@@ -72,6 +72,6 @@ Indien `icc=` niet is opgegeven, wordt het ICC-profiel voor de werkkleurruimte i
 
 Alle kleurprofielen die door de server worden gebruikt, moeten voldoen aan de ICC-specificatie. ICC-profielbestanden hebben doorgaans een [!DNL .icc] of [!DNL .icm] bestandsachtervoegsel en bevinden zich op dezelfde locatie als de materiaalgegevensbestanden.
 
-Uitvoerprofielen kunnen op bestandspad/naam worden opgegeven in het dialoogvenster `icc=` wordt aangeraden alle profielbestanden te registreren in de ICC-profielkaart van de standaardcatalogus of een specifieke materiaalcatalogus en sneltoetsidentificatoren te gebruiken ( `icc::Name`) in plaats van bestandspaden.
+Uitvoerprofielen kunnen worden opgegeven op bestandspad/-naam in het dialoogvenster `icc=` wordt aangeraden alle profielbestanden te registreren in de ICC-profielkaart van de standaardcatalogus of een specifieke materiaalcatalogus en sneltoetsidentificatoren te gebruiken ( `icc::Name`) in plaats van bestandspaden.
 
 Werkprofielen moeten worden geregistreerd in de ICC-profielkaart van de materiaalcatalogus of de standaardcatalogus.

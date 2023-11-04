@@ -5,9 +5,9 @@ title: createTemplate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 228b4228-8c42-4e42-9fb1-d6aea61b9c4a
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Hiermee maakt u een gelaagde afbeelding die meerdere tekst- en afbeeldingslagen kan bevatten.
 
-De `urlModifier` parameter specificeert de het protocolbevelen van de Server van het Beeld die in de catalogus van de Server van het Beeld worden opgeslagen voorafgaand aan om het even welke user-provided bevelen op URL worden toegepast. De `urlPostApplyModifier` parameter specificeert protocolbevelen die na om het even welke bevelen URL worden toegepast, die om het even welke conflicterende gebruiker-geleverde montages zullen met voeten treden.
+De `urlModifier` parameter specificeert de het protocolbevelen van de Server van het Beeld die in de catalogus van de Server van het Beeld worden opgeslagen voorafgaand aan om het even welke user-provided bevelen op URL worden toegepast. De `urlPostApplyModifier` parameter specificeert protocolbevelen worden toegepast na om het even welke bevelen URL, die om het even welke conflicterende gebruiker-geleverde montages met voeten treedt.
 
 ## Geautoriseerde gebruikerstypen {#section-9fb615d8e75f452eab2893cc3decfbe6}
 
@@ -34,10 +34,10 @@ De `urlModifier` parameter specificeert de het protocolbevelen van de Server van
 |---|---|---|---|
 | companyHandle | `xsd:string` | Ja | Het bedrijf waartoe de sjabloon behoort. |
 | folderHandle | `xsd:string` | Ja | De maphandgreep die staat voor de map waarin de sjabloon zich bevindt. |
-| name | `xsd:string` | Ja | Sjabloonnaam. |
+| name | `xsd:string` | Ja | Naam sjabloon. |
 | type | `xsd:string` | Ja | Sjabloontype. |
 | urlModifier | `xsd:string` | Ja | Specificeert de bevelen van de Server van het Beeld die in de catalogus worden opgeslagen IS die voorafgaand aan om het even welke user-provided bevelen op URL worden toegepast. |
-| urlPostApplyModifier | `xsd:string` | Nee | Hiermee geeft u protocolopdrachten op die worden toegepast na URL-opdrachten. Deze overschrijven eventuele conflicterende door de gebruiker opgegeven instellingen. |
+| urlPostApplyModifier | `xsd:string` | Nee | Hiermee geeft u protocolopdrachten op die worden toegepast na URL-opdrachten, waarbij conflicterende door de gebruiker opgegeven instellingen worden genegeerd. |
 
 **Uitvoer (createTemplateParam)**
 

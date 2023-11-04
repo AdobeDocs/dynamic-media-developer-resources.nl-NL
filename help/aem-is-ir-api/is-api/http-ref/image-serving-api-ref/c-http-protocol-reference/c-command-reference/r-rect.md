@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1870001b-7904-470f-9582-984d453509ca
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Eindweergaverechthoek. Hierdoor kan de uiteindelijke weergaveafbeelding worden g
  </tr> 
 </table>
 
-Met deze opdracht kunnen via HTTP grote afbeeldingen worden geleverd die anders de maximale grootte overschrijden die is geconfigureerd met `attribute::MaxPix`.
+Gebruikend dit bevel, kan het Serven van het Beeld grote beelden als HTTP leveren die anders de groottegrens zou overschrijden die met wordt gevormd `attribute::MaxPix`.
 
 >[!NOTE]
 >

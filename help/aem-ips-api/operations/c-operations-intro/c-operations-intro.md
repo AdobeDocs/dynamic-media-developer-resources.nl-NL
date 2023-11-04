@@ -5,9 +5,9 @@ title: Bewerkingsmethoden
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 020c8e63-ad4e-4c0d-8da6-b51efb2b89a5
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Deze sectie beschrijft de gemeenschappelijke verrichtingsparameters die door de 
 
 Voor een volledige beschrijving van elke parameter van de verrichting, zie [Operatieparameters](/help/aem-ips-api/operations/c-operations-intro/c-methods/c-methods.md).
 
-## Handgrepen: Info {#section-094ce1afa6244fa5b2c762f44ffdca1c}
+## Handgrepen: informatie {#section-094ce1afa6244fa5b2c762f44ffdca1c}
 
 Handelt referentieIPS voorwerpen die door bepaalde API verrichtingen zijn teruggekeerd. U kunt handvatten als parameters tot verdere verrichtingsvraag ook overgaan. Handgrepen zijn typen tekenreeksgegevens ( `xsd:string`).
 
@@ -51,11 +51,11 @@ SearchAssetsReturn retVal = ipsApi.searchAssets(searchParam, authHeader);
 
 **companyHandle**
 
-De meeste verrichtingen vereisen u om een bedrijfcontext te plaatsen door in a over te gaan `companyHandle` parameter. De bedrijfshandgreep is een aanwijzer die wordt geretourneerd door bepaalde bewerkingen, zoals `getCompanyInfo`, `addCompany`, en `getCompanyMembership`.
+De meeste verrichtingen vereisen u om een bedrijfcontext te plaatsen door in te gaan `companyHandle` parameter. De bedrijfshandgreep is een aanwijzer die wordt geretourneerd door bepaalde bewerkingen, zoals `getCompanyInfo`, `addCompany`, en `getCompanyMembership`.
 
 **userHandle**
 
-De `userHandle` parameter is een optionele parameter voor bewerkingen die op een specifieke gebruiker zijn gericht. Door gebrek, richten deze verrichtingen de roepende gebruiker (de gebruiker waarvan geloofsbrieven binnen voor authentificatie worden overgegaan). Beheerders met de juiste machtigingen kunnen echter een andere gebruiker opgeven. De `setPassword` bewerking stelt normaal gesproken het wachtwoord van de geverifieerde gebruiker in, maar een beheerder kan de opdracht `userHandle` om het wachtwoord voor een andere gebruiker in te stellen.
+De `userHandle` parameter is een optionele parameter voor bewerkingen die op een specifieke gebruiker zijn gericht. Door gebrek, richten deze verrichtingen de roepende gebruiker (de gebruiker waarvan geloofsbrieven binnen voor authentificatie worden overgegaan). Beheerders met de juiste machtigingen kunnen echter een andere gebruiker opgeven. Bijvoorbeeld de `setPassword` bewerking stelt normaal gesproken het wachtwoord van de geverifieerde gebruiker in, maar een beheerder kan de opdracht `userHandle` om het wachtwoord voor een andere gebruiker in te stellen.
 
 Voor verrichtingen die een bedrijfcontext vereisen (het gebruiken van `companyHandle` parameter), zowel moeten de voor authentiek verklaarde als doelgebruikers lid van het gespecificeerde bedrijf zijn. Voor verrichtingen die geen bedrijfcontext vereisen, moeten de voor authentiek verklaarde en doelgebruikers allebei lid van minstens één gemeenschappelijk bedrijf zijn.
 
@@ -96,14 +96,14 @@ Op dezelfde manier om alle gebieden (behalve toestemmingen) terug te keren:
 
 Merk op dat de knoopwegen met betrekking tot de wortel van de terugkeerknoop zijn. Als u een complex tekstveld opgeeft zonder subelementen (bijvoorbeeld `assetArray/items/imageInfo`), worden alle subelementen opgenomen. Als u een of meer subelementen opgeeft in een complex tekstveld (bijvoorbeeld `assetArray/items/imageInfo/originalPath`), worden alleen die subelementen opgenomen.
 
-Als u geen `responseFieldArray` of `excludeFieldArray` in een aanvraag worden alle velden geretourneerd.
+Als u dit niet doet `responseFieldArray` of `excludeFieldArray` in een aanvraag worden alle velden geretourneerd.
 
 **Landinstelling**
 
 Sinds IPS 4.0, steunt IPS API het plaatsen van de scènecontext van een verrichting door over te gaan `authHeader` locale, parameter. Wanneer de parameter locale niet aanwezig is, wordt de HTTP-header `Accept-Language` wordt gebruikt. Als deze kopbal ook niet aanwezig is, wordt de standaardscène voor de IPS server gebruikt.
 
-Bij bepaalde bewerkingen worden ook expliciete landinstellingsparameters gebruikt, die mogelijk anders zijn dan de context van de landinstelling van de bewerking. De `submitJob` de bewerking neemt een `locale` parameter die de landinstelling instelt die wordt gebruikt voor het vastleggen van taken en e-mailmeldingen.
+Bij bepaalde bewerkingen worden ook expliciete landinstellingsparameters gebruikt, die kunnen verschillen van de context van de landinstelling van de bewerking. Bijvoorbeeld de `submitJob` de bewerking neemt een `locale` parameter die de landinstelling instelt die wordt gebruikt voor het vastleggen van taken en e-mailmeldingen.
 
-Landinstellingsparameters gebruiken de notatie `<language_code>[-<country_code>]`
+Landinstellingsparameters gebruiken de indeling `<language_code>[-<country_code>]`
 
 Wanneer de taalcode een kleine letter is, is de tweelettercode volgens ISO-639 en de optionele landcode een hoofdletter, tweelettercode volgens ISO-3266. De landinstelling voor Amerikaans Engels is bijvoorbeeld `en-US`.

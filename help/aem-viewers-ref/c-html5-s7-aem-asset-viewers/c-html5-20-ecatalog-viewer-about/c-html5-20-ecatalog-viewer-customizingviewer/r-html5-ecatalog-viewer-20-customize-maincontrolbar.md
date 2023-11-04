@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 4db16599-ede0-47ae-bb5a-840655d3620b
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ De vormgeving van de hoofdbesturingsbalk wordt bepaald door de volgende CSS-klas
 
 De hoofdbesturingsbalk ondersteunt een optionele schuiffunctie. Deze wordt geactiveerd als de viewerbreedte te klein is en er onvoldoende ruimte is voor alle knoppen die zijn ingesteld op de besturingsbalk. In dit geval wordt een pijlknop met twee statussen weergegeven aan de rechterkant van de besturingsbalk. Wanneer u op deze knop klikt of erop tikt, worden alle besturingsbalkelementen naar links of naar rechts geschoven, afhankelijk van de status van de schuifknop. Het belangrijkste gebruiksgeval voor deze functie is mobiele apparaten met kleine schermen met een staande oriëntatie.
 
-De schuiffunctie wordt ingeschakeld voor de hoofdbesturingsbalk en is uitgeschakeld voor de secundaire besturingsbalk. De functie wordt in- en uitgeschakeld met de volgende CSS-klassenkiezer:
+De scrolleigenschap wordt toegelaten voor de belangrijkste controlebar, en is gehandicapt voor de secundaire controlebar. De functie wordt in- en uitgeschakeld met de volgende CSS-klassenkiezer:
 
 `.s7ecatalogviewer .s7controlbar .s7innercontrolbarcontainer`
 

@@ -1,11 +1,11 @@
 ---
 title: Weergave Favorieten
-description: De weergave Favorieten bestaat uit een kolom met miniatuurafbeeldingen.
+description: De weergave Favorieten bestaat uit een kolom met miniaturen.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 8daf3d19-615b-4d62-a6f5-6a153d193b88
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Weergave Favorieten{#favorites-view}
 
-De weergave Favorieten bestaat uit een kolom met miniatuurafbeeldingen.
+De weergave Favorieten bestaat uit een kolom met miniaturen.
 
 <!--<a id="section_B6EFCCADB5A5495DAE6BBE42F7F405CB"></a>-->
 
@@ -24,7 +24,7 @@ De vormgeving van de container van de folioweergave wordt bepaald door de volgen
 .s7ecatalogsearchviewer .s7favoritesview
 ```
 
-De positie en de hoogte van de mening van Favorieten wordt beheerd door de mening; in CSS is het alleen mogelijk om de breedte te definiëren.
+De positie en hoogte van de weergave Favorieten worden beheerd door de weergave. In CSS is het alleen mogelijk de breedte te definiëren.
 
 **CSS-eigenschappen van de weergave Favorieten**
 
@@ -130,7 +130,7 @@ De vormgeving van het label van de miniatuur wordt bepaald door de volgende CSS-
 <table id="table_B41339A16ACB46CB87D3EB1FD05FA2CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> lettertypefamilie </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> lettertype-familie </span> </p> </td> 
    <td colname="col2"> <p>Fontnaam. </p> </td> 
   </tr> 
   <tr> 

@@ -1,20 +1,20 @@
 ---
-description: textPs= implementeert een eigen algoritme voor het passend maken van kopieën die automatisch de tekengrootte(s) aanpassen om het tekstgebied optimaal te vullen met tekst, waardoor extra ruimte aan de onderkant wordt geminimaliseerd en overloop wordt voorkomen.
+description: textPs= implementeert een eigen passend passend maken van kopieën, waarbij de tekengrootten automatisch worden aangepast om het tekstgebied optimaal te vullen met tekst, zodat extra ruimte aan de onderkant tot een minimum wordt beperkt en overloop wordt voorkomen.
 solution: Experience Manager
 title: Kopiëren
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d1a560f3-f92c-4143-b80a-e1674c8a4207
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
 
 # Kopiëren{#copy-fitting}
 
-textPs= implementeert een eigen algoritme voor het passend maken van kopieën die automatisch de tekengrootte(s) aanpassen om het tekstgebied optimaal te vullen met tekst, waardoor extra ruimte aan de onderkant wordt geminimaliseerd en overloop wordt voorkomen.
+textPs= implementeert een eigen passend passend maken van kopieën, waarbij de tekengrootten automatisch worden aangepast om het tekstgebied optimaal te vullen met tekst, zodat extra ruimte aan de onderkant tot een minimum wordt beperkt en overloop wordt voorkomen.
 
 Het passend maken van kopieën kan op alineastijl en zelfs voor een afzonderlijk tekstbereik gezamenlijk worden ingeschakeld en beheerd voor de gehele tekstlaag.
 
@@ -22,15 +22,15 @@ Geef de minimale tekengrootte op met `\fs` en de maximale tekengrootte met `\cop
 
 `\copyfit` wordt beschouwd als een opdracht voor het opmaken van tekens en heeft werkingsgebiedregels zoals `\fs` en `\b`.
 
-Aanpassen van kopiëren is uitgeschakeld door op te geven `\copyfit` met een grootte die gelijk is aan of kleiner is dan de grootte die is opgegeven met `\fs`.
+Aanpassen van kopiëren is uitgeschakeld door op te geven `\copyfit` met een grootte die gelijk is aan of kleiner is dan de opgegeven grootte `\fs`.
 
 ## Het aantal regels beperken {#section-e5aee0f039e04842afc3d6884ed681ac}
 
-Naast het opgeven van het bereik van tekengrootten, kunt u het gedrag van het algoritme voor het passend maken van kopieën verder bepalen met het `\copyfitlines` of `\copyfitmaxlines` bevelen, die het aantal lijnen beperken het algoritme zal produceren. Beide bevelen aanvaarden een parameter van de lijntelling of 0, om het aantal lijnen in het gekopieerde gebied niet te beperken.
+Naast het opgeven van het bereik van tekengrootten, kunt u het gedrag van het algoritme voor het passend maken van kopieën verder bepalen met het `\copyfitlines` of `\copyfitmaxlines` opdrachten, die het aantal regels beperken dat het algoritme genereert. Beide bevelen aanvaarden een parameter van de lijntelling of 0, om het aantal lijnen in het gekopieerde gebied niet te beperken.
 
 `\copyfitlines` Hiermee staat u toe dat tekst overloopt op extra regels wanneer deze niet in het opgegeven aantal regels past. Expliciete regeleinden in het tekstsegment dat moet worden gekopieerd, worden altijd toegepast.
 
-`\copyfitmaxlines` Hiermee worden extra uitvoerlijnen die de opgegeven limiet overschrijden, altijd afgebroken. Het opgegeven aantal regels wordt nooit overschreden, zelfs niet als er expliciete regeleinden aanwezig zijn. Voor deze release van Image Serving, niet meer dan N-1 `\line` in het tekstbereik waarin de kopie is gemonteerd, mogen markeringen aanwezig zijn. Gedrag is ongedefinieerd als deze limiet wordt overschreden.
+`\copyfitmaxlines` Hiermee worden extra uitvoerlijnen die de opgegeven limiet overschrijden, altijd afgebroken. Het opgegeven aantal regels wordt nooit overschreden, zelfs niet als er expliciete regeleinden aanwezig zijn. Voor deze release van Image Serving, maximaal N-1 `\line` in het tekstbereik waarin de kopie is gemonteerd, mogen markeringen aanwezig zijn. Gedrag is ongedefinieerd als deze limiet wordt overschreden.
 
 ## Voorbeelden {#section-f4ddbbfade444560be30a813d90c2c1b}
 
@@ -40,13 +40,13 @@ In de volgende voorbeelden wordt ervan uitgegaan dat tekstlichamen worden voorzi
 
 `{\fs10\copyfit100 $A${\fs20\copyfit200 $B$}$C$}`
 
-*[!DNL $B$]* wordt altijd twee keer zo groot weergegeven als de rest van de tekst. Wanneer er veel tekst is opgegeven, *[!DNL $A$]* en *[!DNL $C$]* wordt weergegeven met `\fs10` en *[!DNL $B$]* with `\fs20`. Met weinig tekst, *[!DNL $A$]* en *[!DNL $C$]* gebruikt `\fs100` en *[!DNL $B$]* `\fs200`.
+*[!DNL $B$]* wordt altijd twee keer zo groot weergegeven als de rest van de tekst. Wanneer er veel tekst is opgegeven, *[!DNL $A$]* en *[!DNL $C$]* wordt weergegeven met `\fs10` en *[!DNL $B$]* with `\fs20`. Met weinig tekst, *[!DNL $A$]* en *[!DNL $C$]* gebruiken `\fs100` en *[!DNL $B$]* `\fs200`.
 
 **Converteren naar een algemene grote tekengrootte als slechts een kleine hoeveelheid tekst wordt getekend:**
 
 `{\copyfit100\fs10 $A${\fs20 $B$}$C$}`
 
-Aan het kleinste uiteinde van het bereik *[!DNL $B$]* wordt weergegeven met `\fs20`, twee keer zo groot als *[!DNL $A$]* en *[!DNL $C$]* om `\fs10`. Alle tekst wordt getekend bij `\fs100` (50 punten) aan het tegenovergestelde eind van de waaier.
+Aan het kleinste uiteinde van het bereik *[!DNL $B$]* wordt weergegeven met `\fs20`, twee keer zo groot *[!DNL $A$]* en *[!DNL $C$]* om `\fs10`. Alle tekst wordt getekend bij `\fs100` (50 punten) aan het tegenovergestelde eind van de waaier.
 
 **Omzetten in een algemene kleine tekengrootte als er veel tekst moet worden weergegeven:**
 

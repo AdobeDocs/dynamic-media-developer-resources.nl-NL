@@ -1,12 +1,12 @@
 ---
 title: Draaien
-description: Spin Viewer is een beeldviewer die een weergave van 360 graden van de afbeelding biedt, of zelfs een multidimensionale weergave als de juiste centrifugeset wordt gebruikt. Deze heeft zoomen- en centrifugegereedschappen, ondersteuning voor volledig scherm en een optionele knop Sluiten. Het is ontworpen voor gebruik op desktops en mobiele apparaten.
+description: Spin Viewer is een beeldviewer die een weergave van 360 graden van de afbeelding biedt, of zelfs een multidimensionale weergave als de juiste centrifugeset wordt gebruikt. Deze heeft zoomgereedschappen en centrifuge, ondersteuning voor volledig scherm en een optionele knop Sluiten. Het is ontworpen voor gebruik op desktops en mobiele apparaten.
 keywords: responsief
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 4c802d42-ea5b-4f28-b6ef-2689aa16839d
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '2130'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Draaien{#spin}
 
-Spin Viewer is een beeldviewer die een weergave van 360 graden van de afbeelding biedt, of zelfs een multidimensionale weergave als de juiste centrifugeset wordt gebruikt. Deze heeft zoomen- en centrifugegereedschappen, ondersteuning voor volledig scherm en een optionele knop Sluiten. Het is ontworpen voor gebruik op desktops en mobiele apparaten.
+Spin Viewer is een beeldviewer die een weergave van 360 graden van de afbeelding biedt, of zelfs een multidimensionale weergave als de juiste centrifugeset wordt gebruikt. Deze heeft zoomgereedschappen en centrifuge, ondersteuning voor volledig scherm en een optionele knop Sluiten. Het is ontworpen voor gebruik op desktops en mobiele apparaten.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ Spin Viewer vertegenwoordigt een hoofd-JavaScript-bestand en een set hulplijnbes
 
 De draaiende viewer kan zowel in de pop-upmodus worden gebruikt met een pagina voor HTML-pagina die klaar is voor productie en die is voorzien van IS-Viewers, als in de ingesloten modus, waar deze viewer met behulp van gedocumenteerde API is geïntegreerd in de doelwebpagina.
 
-Configuratie en skins zijn vergelijkbaar met die van de andere viewers. Alle skins kunnen worden gemaakt met aangepaste CSS.
+Configuratie en skins zijn vergelijkbaar met die van de andere viewers. Alle skins kunnen worden gemaakt met behulp van aangepaste CSS.
 
 Zie [Command reference common to all viewers - Configuration attributes](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) en [Command reference common to all Viewers - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
@@ -72,7 +72,7 @@ De Draai Viewer ondersteunt de volgende aanraakbewegingen die veel voorkomen in 
 
 >[!NOTE]
 >
->De viewer ondersteunt ook aanraakinvoer en muisinvoer op Windows-apparaten met aanraakscherm en muis. Deze ondersteuning is echter alleen beschikbaar voor Chrome-, Internet Explorer 11- en Edge-webbrowsers.
+>De viewer ondersteunt ook aanraakinvoer en muisinvoer op Windows-apparaten met aanraakscherm en muis. Deze ondersteuning is echter beperkt tot Chrome, Internet Explorer 11 en alleen Edge-webbrowsers.
 
 Deze viewer is volledig toegankelijk via het toetsenbord.
 
@@ -80,7 +80,7 @@ Zie [Toetsenbordtoegankelijkheid en -navigatie](../../c-keyboard-accessibility.m
 
 ## Spin Viewer insluiten {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Verschillende webpagina&#39;s hebben verschillende vereisten voor viewergedrag. Soms bevat een webpagina een koppeling die de viewer in een apart browservenster opent als deze optie is geselecteerd. In andere gevallen moet u de viewer rechts insluiten op de hostpagina. In het laatste geval heeft de webpagina mogelijk een statische paginalay-out of wordt een responsief ontwerp gebruikt dat op verschillende apparaten of voor verschillende venstergrootten van de browser anders wordt weergegeven. Om aan deze behoeften tegemoet te komen, ondersteunt de viewer drie primaire bewerkingsmodi: pop-up, vaste grootte het inbedden, en ontvankelijk ontwerp het inbedden.
+Verschillende webpagina&#39;s hebben verschillende vereisten voor viewergedrag. Soms bevat een webpagina een koppeling die de viewer in een apart browservenster opent als deze optie is geselecteerd. In andere gevallen moet u de viewer rechts insluiten op de hostpagina. In het laatste geval heeft de webpagina mogelijk een statische paginalay-out of wordt een responsief ontwerp gebruikt dat op verschillende apparaten of voor verschillende venstergrootten van de browser anders wordt weergegeven. Om aan deze behoeften tegemoet te komen, ondersteunt de viewer drie primaire bewerkingsmodi: pop-up, insluiten van vaste grootte en insluiten van responsieve ontwerpen.
 
 **Pop-upmodus**
 
@@ -107,7 +107,7 @@ In de ingesloten modus wordt de viewer toegevoegd aan de bestaande webpagina, wa
 
 De belangrijkste gebruiksgevallen zijn webpagina&#39;s die zijn georiënteerd op desktops of tabletapparaten, en ook responsieve ontwerppagina&#39;s die de lay-out automatisch aanpassen, afhankelijk van het apparaattype.
 
-De insluiting met een vaste grootte wordt gebruikt wanneer de viewer de grootte niet wijzigt na het laden. Deze handeling is de beste keuze voor webpagina&#39;s met een statische indeling.
+De insluiting met een vaste grootte wordt gebruikt wanneer de viewer de grootte niet wijzigt na de eerste keer laden. Deze handeling is de beste keuze voor webpagina&#39;s met een statische indeling.
 
 Bij insluiten van responsieve ontwerpen wordt ervan uitgegaan dat de viewer tijdens runtime de grootte moet wijzigen als reactie op de wijziging van de grootte van de container `DIV`. De meest gebruikte optie is het toevoegen van een viewer aan een webpagina die een flexibele pagina-indeling gebruikt.
 
@@ -122,15 +122,15 @@ U voegt de Spin Viewer als volgt toe aan een webpagina:
 1. Het JavaScript-bestand van de viewer toevoegen aan uw webpagina.
 1. De container definiëren `DIV`.
 1. De viewergrootte instellen.
-1. De viewer maken en initialiseren.
+1. De viewer maken en initialiseren
 
 1. Het JavaScript-bestand van de viewer toevoegen aan uw webpagina.
 
-   Voor het maken van een viewer moet u een scripttag toevoegen aan de kop van de HTML. Voordat u de viewer-API kunt gebruiken, moet u controleren of deze `SpinViewer.js`. `SpinViewer.js` bevindt zich onder de [!DNL html5/js/] submap van uw standaard IS-Viewers-implementatie:
+   Voor het maken van een viewer moet u een scripttag toevoegen aan de kop van de HTML. Voordat u de viewer-API kunt gebruiken, moet u controleren of deze `SpinViewer.js`. `SpinViewer.js` bevindt zich onder [!DNL html5/js/] submap van uw standaard IS-Viewers-implementatie:
 
    `<s7viewers_root>/html5/js/SpinViewer.js`
 
-   U kunt een relatief pad gebruiken als de viewer wordt geïmplementeerd op een van de Adobe Dynamic Media-servers en vanuit hetzelfde domein wordt aangeboden. Anders geeft u een volledig pad op naar een van de Adobe Dynamic Media-servers waarop de IS-Viewers zijn geïnstalleerd.
+   U kunt een relatief pad gebruiken als de viewer wordt geïmplementeerd op een van de Adobe Dynamic Media-servers en vanuit hetzelfde domein wordt aangeboden. Anders geeft u een volledig pad op naar een van de Adobe Dynamic Media-servers waarop IS-Viewers zijn geïnstalleerd.
 
    Het relatieve pad ziet er als volgt uit:
 
@@ -151,7 +151,7 @@ U voegt de Spin Viewer als volgt toe aan een webpagina:
 
    De plaatsaanduiding DIV is een gepositioneerd element, wat betekent dat de `position` CSS-eigenschap is ingesteld op `relative` of `absolute`.
 
-   Hieronder ziet u een voorbeeld van een gedefinieerd plaatsaanduiding DIV-element:
+   Hieronder ziet u een voorbeeld van een gedefinieerd plaatsaanduiding voor een DIV-element:
 
    ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div>
@@ -161,7 +161,7 @@ U voegt de Spin Viewer als volgt toe aan een webpagina:
 
    U kunt de statische grootte voor de viewer instellen door deze te declareren voor `.s7spinviewer` CSS-klasse op hoofdniveau in absolute eenheden of met gebruik van `stagesize` modifier.
 
-   U kunt de grootte in CSS rechtstreeks op de pagina HTML of in een aangepast CSS-bestand van de viewer plaatsen. De voorinstelling wordt later toegewezen aan een record met viewervoorinstellingen in Dynamic Media Classic of expliciet doorgegeven via een stijlopdracht.
+   U kunt de grootte in CSS rechtstreeks op de pagina HTML of in een aangepast CSS-bestand van de viewer plaatsen. De voorinstelling wordt later toegewezen aan een record met viewervoorinstellingen in Dynamic Media Classic of expliciet doorgegeven met behulp van een stijlopdracht.
 
    Zie [Spin Viewer aanpassen](../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#concept-464f3bfa55764bc09c92d8c7480b0b55) voor meer informatie over het opmaken van de viewer met CSS.
 
@@ -183,11 +183,11 @@ U voegt de Spin Viewer als volgt toe aan een webpagina:
 
    Een op CSS gebaseerde benadering wordt geadviseerd en in dit voorbeeld gebruikt.
 
-1. De viewer maken en initialiseren.
+1. De viewer maken en initialiseren
 
-   Wanneer u de bovenstaande stappen hebt uitgevoerd, maakt u een instantie van `s7viewers.SpinViewer` klasse, geef alle configuratieinformatie tot zijn aannemer door en roep `init()` op een viewerinstantie. De informatie van de configuratie wordt overgegaan tot de aannemer als voorwerp JSON. Dit object heeft minstens `containerId` veld met de naam van de container-id van de viewer en het geneste veld `params` JSON-object met configuratieparameters die door de viewer worden ondersteund. In dit geval `params` object, moet ten minste de URL van de afbeeldingsserver worden doorgegeven als `serverUrl` vastgoed en eerste actief als `asset` parameter. Met de op JSON gebaseerde initialisatie-API kunt u de viewer maken en starten met één coderegel.
+   Wanneer u de bovenstaande stappen hebt uitgevoerd, maakt u een instantie van `s7viewers.SpinViewer` klasse, geef alle configuratieinformatie tot zijn aannemer door en roep `init()` op een viewerinstantie. De informatie van de configuratie wordt overgegaan tot de aannemer als voorwerp JSON. Dit object heeft minstens `containerId` veld met de naam van de container-id van de viewer en het geneste veld `params` JSON-object met configuratieparameters die de viewer ondersteunt. In dit geval `params` object, moet ten minste de URL van de afbeeldingsserver worden doorgegeven als `serverUrl` vastgoed en eerste actief als `asset` parameter. Met de op JSON gebaseerde initialisatie-API kunt u de viewer maken en starten met één coderegel.
 
-   Het is belangrijk dat de viewercontainer aan het DOM wordt toegevoegd, zodat de viewercode het containerelement op basis van de id kan vinden. Sommige browsers stellen het samenstellen van DOM tot het einde van de webpagina uit. Voor maximale compatibiliteit roept u de `init()` methode vlak voor het sluiten `BODY` -tag of op de hoofdtekst `onload()` gebeurtenis.
+   Het is belangrijk dat de viewercontainer aan het DOM wordt toegevoegd, zodat de viewercode het containerelement op basis van de id kan vinden. Sommige browsers stellen het samenstellen van DOM tot het einde van de webpagina uit. Voor maximale compatibiliteit roept u de `init()` methode vlak voor het sluiten `BODY` of op de hoofdtekst `onload()` gebeurtenis.
 
    Tegelijkertijd mag het containerelement nog niet noodzakelijkerwijs deel uitmaken van de webpaginalay-out. Het kan bijvoorbeeld verborgen zijn met de `display:none` stijl die eraan is toegewezen. In dit geval vertraagt de viewer het initialisatieproces totdat de webpagina het containerelement weer in de layout plaatst. Wanneer deze actie wordt uitgevoerd, wordt het laden van de viewer automatisch hervat.
 
@@ -258,7 +258,7 @@ Het toevoegen van de viewer aan een dergelijke pagina lijkt op het insluiten van
 
 1. Het JavaScript-bestand van de viewer toevoegen aan uw webpagina.
 1. De container DIV definiëren.
-1. De viewer maken en initialiseren.
+1. De viewer maken en initialiseren
 
 Alle bovenstaande stappen zijn gelijk aan het insluiten van een vaste grootte. De container toevoegen `DIV` aan de bestaande &quot;houder&quot; `DIV`. De volgende code is een volledig voorbeeld. U kunt zien hoe de grootte van de viewer verandert wanneer de browser wordt aangepast en hoe de hoogte-breedteverhouding van de viewer overeenkomt met het element.
 

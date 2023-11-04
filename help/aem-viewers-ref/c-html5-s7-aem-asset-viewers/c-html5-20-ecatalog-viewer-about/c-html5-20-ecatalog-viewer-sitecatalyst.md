@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 714e8001-06dc-49b1-838f-ab9772f2527c
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 0%
@@ -18,7 +18,7 @@ De eCatalog-viewer ondersteunt het uit het vak bijhouden van Adobe Analytics.
 
 ## Buiten-de-box-tracking {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-De eCatalog Viewer ondersteunt [!DNL Adobe Analytics] het volgen uit-van-de-doos. Als u het bijhouden van wijzigingen wilt inschakelen, geeft u de juiste naam van de bedrijfsvoorinstelling door als `config2` parameter.
+De eCatalog-viewer ondersteunt [!DNL Adobe Analytics] het volgen uit-van-de-doos. Als u het bijhouden van wijzigingen wilt inschakelen, geeft u de juiste naam van de bedrijfsvoorinstelling door als `config2` parameter.
 
 De kijker verzendt ook één enkele het volgen HTTP- verzoek naar de gevormde Server van het Beeld met het viewertype en versieinformatie.
 
@@ -63,12 +63,12 @@ De viewer houdt de volgende SDK-gebruikersgebeurtenissen bij:
    <td colname="col2"> <p>de viewer wordt eerst geladen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> WISSELEN </span> </p> </td> 
    <td colname="col2"> <p>een element wordt in de viewer gewisseld met het gereedschap <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOMEN </span> </p> </td> 
-   <td colname="col2"> <p> ingezoomd op een afbeelding. </p> </td> 
+   <td colname="col2"> <p> Er is ingezoomd op een afbeelding. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAN </span> </p> </td> 

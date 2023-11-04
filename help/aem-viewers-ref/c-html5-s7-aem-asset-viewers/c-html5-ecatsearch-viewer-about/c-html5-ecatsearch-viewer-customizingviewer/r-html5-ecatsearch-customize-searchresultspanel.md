@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: ffbbc2ae-60da-4c3d-a350-6dbcb64e189d
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 0%
@@ -170,7 +170,7 @@ De zoekknop links van het invoerveld voor zoekopdrachten in de vorm van het stan
  </tbody> 
 </table>
 
-Voorbeeld - Een zoekknop instellen met een pictogram van 26 x 26 pixels voor &#39;uitziend glas&#39;; 30 pixels groot met een rand van 1 pixel:
+Voorbeeld - Een zoekknop instellen met een pictogram van 26 x 26 pixels voor &#39;uitziend glas&#39;; 30 pixels voor een rand van 1 pixel:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinputbutton { 

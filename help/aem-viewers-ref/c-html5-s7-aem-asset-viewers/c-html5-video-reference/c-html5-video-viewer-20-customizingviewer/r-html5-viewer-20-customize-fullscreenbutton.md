@@ -1,24 +1,24 @@
 ---
-title: Knop Volledig scherm
-description: De knop Volledig scherm zorgt ervoor dat de videospeler de modus Volledig scherm opent of sluit wanneer de gebruiker erop klikt.
+title: schermvullende knop
+description: De knop Volledig scherm zorgt ervoor dat de videospeler de modus Volledig scherm opent of verlaat wanneer de gebruiker erop klikt.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 120f0ee9-e76b-48d5-8ea7-8be5a8f52edc
-source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
 
-# Knop Volledig scherm{#full-screen-button}
+# schermvullende knop{#full-screen-button}
 
 De knop Volledig scherm zorgt ervoor dat de videospeler de modus Volledig scherm opent of sluit wanneer een gebruiker deze selecteert.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-U kunt de grootte, de huid, en de positie van de volledige het schermknoop, met betrekking tot de controlebar die het bevat, door CSS rangschikken.
+U kunt de grootte, de huid, en de positie van de volledig-schermknoop, met betrekking tot de controlebar die het bevat, door CSS rangschikken.
 
 De weergave van de knop Volledig scherm wordt bepaald door de CSS-klassenkiezer:
 
@@ -73,7 +73,7 @@ De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-e
 
 ## Voorbeeld {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Aan opstelling een volledig het schermknoop die 32 x 32 pixel is, en geplaatst 6 pixel van de bovenkant en de juiste rand van de controlebar. Geef ook een andere afbeelding weer voor elk van de vier verschillende knoptoestanden, indien geselecteerd of niet.
+Aan opstelling een volledig-schermknoop die 32 x 32 pixel is, en geplaatst 6 pixel van de bovenkant en de juiste rand van de controlebar. Geef ook een andere afbeelding weer voor elk van de vier verschillende knoptoestanden, indien geselecteerd of niet.
 
 ```
 .s7videoviewer . s7fullscreenbutton { 

@@ -5,9 +5,9 @@ title: streefdoelen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 58f7b1ad-8762-4d23-b320-6f69e75ecf63
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Zoomen is gericht op gegevens uit afbeeldingscatalogus. Hiermee worden zoomdoelg
  </tr> 
 </table>
 
-De inhoud van `catalog::Targets` worden geretourneerd. Wanneer de opmaak &#39;text&#39; wordt aangevraagd, worden alle varianten van `??` in `catalog::Targets` worden vervangen door regeleinde en één regeleinde ( `CR/LF`) aan het einde wordt toegevoegd. Als het URL-pad niet wordt omgezet in een geldig catalogusitem, bestaat het antwoord uit slechts één regeleinde. De juiste opmaak wordt toegepast wanneer de bestandsindeling xml of json wordt aangevraagd.
+De inhoud van `catalog::Targets` worden geretourneerd. Wanneer de opmaak &#39;text&#39; wordt aangevraagd, worden alle varianten van `??` in `catalog::Targets` worden vervangen door regeleinde en een regeleinde ( `CR/LF`) aan het einde wordt toegevoegd. Als het URL-pad niet wordt omgezet in een geldig catalogusitem, bestaat het antwoord alleen uit een terminator met één regel. De juiste opmaak wordt toegepast wanneer de bestandsindeling xml of json wordt aangevraagd.
 
 Andere opdrachten in de tekenreeks request worden genegeerd.
 

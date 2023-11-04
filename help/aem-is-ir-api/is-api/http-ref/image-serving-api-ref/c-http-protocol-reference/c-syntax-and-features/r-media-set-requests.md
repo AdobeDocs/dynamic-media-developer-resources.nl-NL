@@ -5,9 +5,9 @@ title: Mediasetaanvragen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 71efed33-6248-4d23-ab4e-2caec3449171
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '956'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ De kijkers kunnen dit mechanisme gebruiken om reacties te produceren om de prese
 
 ## Aanvraagsyntaxis {#section-d72b1d95e4ce4bb1b332ce096c2b99f1}
 
-De ingestelde reactie voor een `catalog::ImageSet` kan worden opgehaald met de `req=set` wijzigen en verwijzen naar de catalogusrecord-id in het netto pad. De afbeeldingsset kan ook rechtstreeks in de URL worden opgegeven met de opdracht `imageset=` modifier. Als de `imageset=` De bepaling wordt gebruikt om imageset te specificeren, zou de volledige waarde in krullende steunen moeten worden ingesloten om de beeld te ontsnappen vastgestelde waarde en ervoor te zorgen dat om het even welke inbegrepen bepalingen niet als deel van het URL vraagkoord worden geïnterpreteerd.
+De ingestelde reactie voor een `catalog::ImageSet` kan worden opgehaald met het gereedschap `req=set` wijzigen en verwijzen naar de catalogusrecord-id in het netto pad. De afbeeldingsset kan ook rechtstreeks in de URL worden opgegeven met de opdracht `imageset=` modifier. Als de `imageset=` De bepaling wordt gebruikt om imageset te specificeren, zou de volledige waarde in krullende steunen moeten worden ingesloten om de beeld te ontsnappen vastgestelde waarde en ervoor te zorgen dat om het even welke inbegrepen bepalingen niet als deel van het URL vraagkoord worden geïnterpreteerd.
 
 ## Typen ingestelde reacties {#section-93eb0a1f70344da2a888e56372ad3896}
 
@@ -93,14 +93,14 @@ Wanneer een `req=set` verzoek wordt ontvangen, wordt het type te produceren reac
 
 * Als er geen record wordt gevonden in de afbeeldingscatalogus en NIET in de catalogus met statische inhoud
 
-   * Op bestanden gebaseerde video aannemen als de bestandsextensie zich in de volgende set bevindt: mp3, mp4, flv, f4v, swf, xml
+   * Op bestanden gebaseerde video aannemen als de bestandsextensie de volgende set heeft: mp3, mp4, flv, f4v, swf, xml
    * Anders wordt een op een bestand gebaseerde afbeelding aangenomen
 
-In alle gevallen zal de resulterende xml-reactie overeenkomen met het opgegeven XML-document met het ingestelde hoofdknooppunt dat overeenkomt met het gedetecteerde type.
+In alle gevallen komt de resulterende xml-reactie overeen met het opgegeven XML-document met het ingestelde hoofdknooppunt dat overeenkomt met het gedetecteerde type.
 
 ## Typedetectie binnen {#section-8f46490e467247e69ce284704def06f3}
 
-Wanneer de buitenste set wordt gedetecteerd als een mediaset, bevat de reactie een set mediasetitems die overeenkomen met elk mediaset-item in `catalog::ImageSet`. Als de optionele parameter type is opgegeven voor een bepaald mediaset-item, wordt deze toegewezen aan een uitvoertype volgens de volgende tabel:
+Wanneer de buitenste set wordt gedetecteerd als een mediaset, bevat de reactie een set mediasetitems die overeenkomen met elk mediasetitem in `catalog::ImageSet`. Als de optionele parameter type is opgegeven voor een bepaald mediaset-item, wordt deze toegewezen aan een uitvoertype volgens de volgende tabel:
 
 | Invoertype | Uitvoertype |
 |---|---|

@@ -5,7 +5,7 @@ title: Ondersteuning voor Adobe Analytics-tracking
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User,Data Engineer,Data Architect
 exl-id: b35e52f5-fa08-4945-aa52-9fdf41a6081a
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 0%
@@ -63,12 +63,12 @@ De viewer houdt de volgende SDK-gebruikersgebeurtenissen bij:
    <td colname="col2"> <p>de viewer wordt eerst geladen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> WISSELEN </span> </p> </td> 
    <td colname="col2"> <p>een element wordt in de viewer gewisseld met het gereedschap <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOMEN </span> </p> </td> 
-   <td colname="col2"> <p> ingezoomd op een afbeelding. </p> </td> 
+   <td colname="col2"> <p> Er is ingezoomd op een afbeelding. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAN </span> </p> </td> 

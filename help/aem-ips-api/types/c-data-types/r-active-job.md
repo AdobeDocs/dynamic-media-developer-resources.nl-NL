@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 3d878207-99e4-4c75-ab12-b38a37c82fb7
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Geef een waarde op voor het taaktype om het taaktype te retourneren. U kunt de v
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> vordering</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> Voortgang van de taak (d.w.z. hoe dicht de taak bij voltooiing is). </td> 
+   <td colname="col3"> De voortgang van de taak (dat wil zeggen hoe dicht de taak bij voltooiing staat). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> progressMessage</span> </span> </td> 

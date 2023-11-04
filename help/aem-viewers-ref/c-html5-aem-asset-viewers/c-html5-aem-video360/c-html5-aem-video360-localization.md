@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: d54fd841-2246-4d2e-8bf9-7da56f2487f3
-source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Bepaalde inhoud die door de viewer wordt weergegeven, is afhankelijk van lokalisatie. Dergelijke inhoud bevat knopinfo voor gebruikersinterface-elementen en een foutbericht die wordt weergegeven wanneer de video niet kan worden afgespeeld.
 
-Elke tekstinhoud in de viewer die kan worden gelokaliseerd, wordt vertegenwoordigd door een speciale viewer-SDK-id met de naam SYMBOL. Elk SYMBOL heeft een standaardtekstwaarde voor de landinstelling Engels ( `"en"`) wordt geleverd bij de viewer buiten de box. Er kunnen ook door de gebruiker gedefinieerde waarden worden ingesteld voor zoveel landinstellingen als nodig zijn.
+Elke tekstinhoud in de viewer die kan worden gelokaliseerd, wordt vertegenwoordigd door een speciale viewer-SDK-id met de naam SYMBOL. Elk SYMBOL heeft een aan de standaardwaarde gekoppelde tekstwaarde voor de landinstelling Engels ( `"en"`) wordt geleverd bij de viewer buiten de box. Er kunnen ook door de gebruiker gedefinieerde waarden worden ingesteld voor het aantal landinstellingen dat nodig is.
 
 Wanneer de viewer wordt gestart, wordt de huidige landinstelling gecontroleerd om te zien of er een door de gebruiker gedefinieerde waarde is voor elk ondersteund SYMBOL voor de landinstelling. Als dat het geval is, gebruikt het de user-defined waarde; anders, valt het terug naar de uit-van-de-doos standaardtekst.
 
@@ -54,7 +54,7 @@ De volgende SYMBOL&#39;s worden ondersteund:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Container.LABEL </span> </p> </td> 
-   <td colname="col2"> <p>ARIA-label voor viewerelement op hoofdniveau. </p> </td> 
+   <td colname="col2"> <p>ARIA-label voor viewerelement op het hoogste niveau. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_SELECTED </span> </p> </td> 
@@ -78,7 +78,7 @@ De volgende SYMBOL&#39;s worden ondersteund:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_SELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Geselecteerde muteerbare volumetoestand. </p> </td> 
+   <td colname="col2"> <p>Geselecteerde muteerbare volumetatus. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_UNSELECTED </span> </p> </td> 
@@ -90,11 +90,11 @@ De volgende SYMBOL&#39;s worden ondersteund:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
-   <td colname="col2"> <p>De knop Volledig scherm in normale toestand. </p> </td> 
+   <td colname="col2"> <p>schermvullende knop in normale toestand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED </span> </p> </td> 
-   <td colname="col2"> <p>De knop Volledig scherm in volledige schermstatus. </p> </td> 
+   <td colname="col2"> <p>schermvullende knop in volledig-schermstaat. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SocialShare.TOOLTIP </span> </p> </td> 
@@ -178,7 +178,7 @@ De volgende SYMBOL&#39;s worden ondersteund:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>De Twitter-deelknop. </p> </td> 
+   <td colname="col2"> <p>De knop Twitter delen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Video360Player.ERROR </span> </p> </td> 

@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6647b459-11d2-47e4-9033-3a740f01a623
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
@@ -25,13 +25,13 @@ grot= *`color`*[,*`width`*]
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> width </span> </span> </p> </td>
-  <td class="stentry"> <p>Gegroepeerde dikte; coördinaten van scènes (doorgaans inches) (reëel). </p> </td>
+  <td class="stentry"> <p>Gegroepeerde dikte; coördinaateenheden scène (doorgaans inches) (reëel). </p> </td>
  </tr> 
 </table>
 
 Voor maximale controle van de vormgeving van de tussenruimte gelden de volgende voorschriften:
 
-* De tegel moet vierkant of rechthoekig zijn; momenteel worden geen andere vormen ondersteund.
+* De tegel moet vierkant of rechthoekig zijn. Er worden momenteel geen andere vormen ondersteund.
 * De afbeelding mag slechts één tegel bevatten.
 * De standaardruimte in de afbeelding (indien aanwezig) moet dezelfde dikte hebben op alle vier de randen.
 * De dikte van de standaardtussenruimte moet in de materiaalcatalogus worden opgegeven ( `catalog::GroutWidth`).

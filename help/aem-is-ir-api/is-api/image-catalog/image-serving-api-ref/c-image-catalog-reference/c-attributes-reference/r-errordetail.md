@@ -1,20 +1,20 @@
 ---
-description: Foutbericht met details. Geeft het detailniveau voor foutberichten op die via HTTP worden geretourneerd als de error.message-waarde.
+description: Foutbericht Geeft het detailniveau voor foutberichten op die via HTTP worden geretourneerd als de error.message-waarde.
 solution: Experience Manager
 title: ErrorDetail
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 08a363d0-918d-48e9-aef0-5a8554c2708a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '161'
 ht-degree: 2%
 
 ---
 
 # ErrorDetail{#errordetail}
 
-Foutbericht met details. Geeft het detailniveau voor foutberichten op die via HTTP worden geretourneerd als de error.message-waarde.
+Foutbericht Geeft het detailniveau voor foutberichten op die via HTTP worden geretourneerd als de error.message-waarde.
 
 De volgende waarden zijn toegestaan:
 
@@ -33,7 +33,7 @@ De volgende waarden zijn toegestaan:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>Volledige foutopsporingsinformatie. Voegt Java-stacktraceringen toe, indien van toepassing. Foutafbeeldingen bevatten nooit stapelsporen en retourneren in plaats daarvan niveau 2-informatie in <span class="codeph"> $error.message</span>. Deze informatie kan nuttig zijn bij het melden van problemen aan technische ondersteuning van Dynamic Media. </p></td> 
+  <td class="stentry"> <p>Volledige foutopsporingsinformatie. Voegt Java-stapelsporen toe, indien van toepassing. Foutafbeeldingen bevatten nooit stapelsporen en retourneren in plaats daarvan niveau 2-informatie in <span class="codeph"> $error.message</span>. Deze informatie kan nuttig zijn bij het melden van problemen aan technische ondersteuning van Dynamic Media. </p></td> 
  </tr> 
 </table>
 

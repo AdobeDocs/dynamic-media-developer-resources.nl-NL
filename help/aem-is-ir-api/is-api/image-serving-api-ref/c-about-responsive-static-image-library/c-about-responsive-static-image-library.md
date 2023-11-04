@@ -5,7 +5,7 @@ title: De bibliotheek met responsieve afbeeldingen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f853b9b4-917c-4744-b2a5-25fde2532356
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Het eenvoudigste gebruik van de bibliotheek met responsieve afbeeldingen is het 
    <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/responsive-static-image-bootstrap.html" format="https" scope="external"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/responsive-static-image-bootstrap.html </a> </p> <p> 
      <!-- http://sasha.s7qa.com/jira-bugs/S7-7729/responsive-static-image-bootstrap.htm--> </p> </td> 
-   <td colname="col2"> <p>In het volgende Bootstrap-voorbeeld wordt hetzelfde gebruiksgeval in een webpagina getoond. Volgens Bootstrap CSS kan de lay-outcel waaraan de responsieve afbeelding wordt toegevoegd, een van de volgende breedten hebben: 360, 720 en 940 pixels. Deze waarden zijn precies wat als breekpunten aan de Responsieve Bibliotheek van het Beeld wordt overgegaan. Als zodanig zorgt Dynamic Media ervoor dat de netwerkbandbreedte van de client effectief wordt gebruikt. En het zorgt er ook voor dat de afbeelding wordt weergegeven in de juiste grootte, gezien de huidige lay-out van de webpagina, zonder dat visuele vervormingen de clientbrowser schalen. </p> <p>Klik URL zodat opent u de Web-pagina, resize het browser venster om verschillende lay-outbreekpunten te raken, en netwerkverkeer te controleren. </p> <p>Gevallen van geavanceerder gebruik omvatten het associëren van verschillende Voorinstellingen van het Beeld, of Beeld die bevelen, of allebei, met verschillende breekpuntwaarden. </p> </td> 
+   <td colname="col2"> <p>Het volgende voorbeeld van de Bootstrap illustreert het zelfde gebruiksgeval in een Web-pagina. Volgens Bootstrap CSS kan de lay-outcel waaraan de responsieve afbeelding wordt toegevoegd een van de volgende breedten hebben: 360, 720 en 940 pixels. Deze waarden zijn precies wat als breekpunten aan de Responsieve Bibliotheek van het Beeld wordt overgegaan. Als zodanig zorgt Dynamic Media ervoor dat de netwerkbandbreedte van de client effectief wordt gebruikt. En het zorgt er ook voor dat de afbeelding wordt weergegeven in de juiste grootte, gezien de huidige lay-out van de webpagina, zonder dat visuele vervormingen de clientbrowser schalen. </p> <p>Klik URL zodat opent u de Web-pagina, resize het browser venster om verschillende lay-outbreekpunten te raken, en netwerkverkeer te controleren. </p> <p>Gevallen van geavanceerder gebruik omvatten het associëren van verschillende vooraf instelt van het Beeld, of Beeld die bevelen, of allebei, met verschillende breekpuntwaarden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 

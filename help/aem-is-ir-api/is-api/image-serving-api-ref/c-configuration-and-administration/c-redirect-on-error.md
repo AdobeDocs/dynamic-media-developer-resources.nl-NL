@@ -5,9 +5,9 @@ title: Omleiden bij fout
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: c5541bf3-3296-4ce3-a2ff-9f6336f78ea9
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -20,18 +20,18 @@ De volgende typen verzoeken worden omgeleid:
 
 * IS Afbeeldingen die zich in de catalogus bevinden, maar niet op schijf.
 
-   Als een afbeelding zich niet in een catalogus bevindt, kan een fout bij het omleiden niet optreden als de afbeelding niet is gevonden.
+  Als een afbeelding zich niet in een catalogus bevindt, kan een fout bij het omleiden niet optreden als de afbeelding niet is gevonden.
 
 * Beschadigde afbeeldingen, kleurprofielen of lettertypen.
 * Statische inhoud kan niet worden gevonden op schijf.
 
-   Aanvragen voor statische inhoud worden omgeleid wanneer deze niet op schijf kan worden gevonden, zelfs als de statische inhoud waarnaar wordt verwezen geen catalogusrecord heeft.
+  Aanvragen voor statische inhoud worden omgeleid wanneer deze niet op schijf kan worden gevonden, zelfs als de statische inhoud waarnaar wordt verwezen geen catalogusrecord heeft.
 
-De omleiding van de fout zal in geen ander geval gebeuren.
+De omleiding van de fout gebeurt in geen enkel ander geval.
 
-Wanneer toegelaten en wanneer zulk een fout tijdens de verwerking van het verzoek voorkomt, zal de primaire server het verzoek naar de secundaire server voor verwerking verzenden. De reactie, ongeacht of het op succes of mislukking wijst, wordt dan door:sturen direct aan de cliënt. De primaire servermarkeringen logboekingangen van dergelijke door:sturen verzoeken met geheim voorgeheugengebruik `REMOTE`. De reactiegegevens worden niet lokaal door de primaire server in de cache geplaatst.
+Wanneer toegelaten en wanneer zulk een fout tijdens de verwerking van het verzoek voorkomt, verzendt de primaire server het verzoek naar de secundaire server voor verwerking. De reactie, ongeacht of het op succes of mislukking wijst, wordt dan door:sturen direct aan de cliënt. De primaire servermarkeringen logboekingangen van dergelijke door:sturen verzoeken met geheim voorgeheugengebruik `REMOTE`. De reactiegegevens worden niet lokaal door de primaire server in de cache geplaatst.
 
-Omleiden van fout is ingeschakeld door instellen `PS::errorRedirect.rootUrl` aan de het domeinnaam en havenaantal van HTTP van de secundaire server. Bovendien wordt de verbindingstijd gevormd met `PS::errorRedirect.connectTimeout` en de maximumtijd de primaire server op een reactie van de secundaire server zal wachten alvorens een fout aan de cliënt terug te keren wordt gevormd met `PS::errorRedirect.socketTimeout`.
+Omleiden van fout is ingeschakeld door instellen `PS::errorRedirect.rootUrl` aan de het domeinnaam en havenaantal van HTTP van de secundaire server. Bovendien wordt de verbindingstijd gevormd met `PS::errorRedirect.connectTimeout` en de maximumtijd de primaire server wacht op een reactie van de secundaire server alvorens een fout aan de cliënt terug te keren wordt gevormd met `PS::errorRedirect.socketTimeout`.
 
 >[!NOTE]
 >

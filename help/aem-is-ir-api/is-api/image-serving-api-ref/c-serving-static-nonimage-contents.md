@@ -1,20 +1,20 @@
 ---
 title: Statische (niet-afbeeldings) inhoud bedienen
-description: Met Afbeeldingsserver kunt u niet-afbeeldingsinhoud in catalogi beheren en deze via een aparte /is/content-context bedienen.
+description: Met Afbeeldingsserver kunt u niet-afbeeldingsinhoud in catalogi beheren en deze inhoud bedienen via een aparte /is/content-context.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: adc3d972-b02d-40db-992e-acaa06b848ff
-source-git-commit: d1df6e943747f9db12c08003647aee840fdfcc0a
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
 
 # Statische (niet-afbeeldings) inhoud bedienen{#serving-static-non-image-contents}
 
-Met Afbeeldingsserver kunt u niet-afbeeldingsinhoud in catalogi beheren en deze via een aparte /is/content-context bedienen.
+Met Afbeeldingsserver kunt u niet-afbeeldingsinhoud in catalogi beheren en deze inhoud bedienen via een aparte /is/content-context.
 
 Dit vermogen staat voor het vormen van TTL voor elk punt afzonderlijk toe.
 
@@ -23,7 +23,7 @@ Image Serving ondersteunt de volgende opdrachten bij [!DNL /is/content]:
 <table id="simpletable_8A3AB1D1D20F4B6CBE86767E94735980"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-type.md#reference-89094fd1c50c444eb082cd266769cccb" format="dita" scope="local"> type </a> </p> </td> 
-  <td class="stentry"> <p>Filter Inhoudstype. </p> </td> 
+  <td class="stentry"> <p>Inhoudstype, filter. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" format="dita" scope="local"> req </a> </p> </td> 
@@ -98,11 +98,11 @@ Catalogi met statische inhoud zijn vergelijkbaar met catalogi met afbeeldingen, 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> catalogus::TimeStamp </span> </p> </td> 
-   <td colname="col2"> <p>Tijdstempel voor bestandswijziging; vereist als validatie op basis van een catalogus is ingeschakeld met <span class="codeph"> kenmerk:CacheValidationPolicy </span>. </p> </td> 
+   <td colname="col2"> <p>Tijdstempel voor bestandswijziging; is vereist als validatie op basis van catalogus is ingeschakeld met <span class="codeph"> kenmerk:CacheValidationPolicy </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> catalogus::UserData </span> </p> </td> 
-   <td colname="col2"> <p>Optionele metagegevens die zijn gekoppeld aan dit statische inhoudsitem; beschikbaar voor de client met <span class="codeph"> req=userdata </span>. </p> </td> 
+   <td colname="col2"> <p>Optionele metagegevens gekoppeld aan dit statische inhouditem; beschikbaar voor de client met <span class="codeph"> req=userdata </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> catalog::UserType </span> </p> </td> 
@@ -119,9 +119,9 @@ Dit mechanisme kan ervoor zorgen dat klanten alleen inhoud ontvangen die geschik
 
 U kunt videotitelbestanden (WebVTT), CSS of een willekeurig tekstbestand in JSONP-indeling inkapselen. De JSON-respons wordt hieronder beschreven.
 
-* Voor WebVTT-bestanden is het mime-type van de reactie tekst/javascript. JSON wordt niet geretourneerd; in plaats daarvan wordt JavaScript geretourneerd dat een methode met JSON aanroept. Zowel identiteitskaart als manager zijn facultatief.
+* Voor WebVTT-bestanden is het mime-type van de reactie tekst/javascript. JSON wordt niet geretourneerd. In plaats daarvan wordt JavaScript geretourneerd dat een methode met JSON aanroept. Zowel identiteitskaart als manager zijn facultatief.
 * Voor CSS-bestanden is het mime-type van de reactie text/javascript. Zowel identiteitskaart als manager zijn facultatief.
-* UTF-8-codering wordt standaard toegepast om ervoor te zorgen dat deze correct wordt gedecodeerd. De standaardgroottelimiet is 2 MB.
+* UTF-8-codering wordt standaard toegepast om ervoor te zorgen dat deze correct wordt gedecodeerd. De standaardformaatlimiet is 2 MB.
 
 U kunt ook tracks gebruiken voor andere soorten metagegevens met tijdnotatie. De brongegevens voor elk spoorelement zijn een tekstdossier dat uit een lijst van getimed cues wordt samengesteld. Cuse kan gegevens opnemen in indelingen zoals JSON of CSV.
 

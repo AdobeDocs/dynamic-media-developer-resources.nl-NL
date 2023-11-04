@@ -5,9 +5,9 @@ title: Brongegevens
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: de2d8fa2-6793-49ba-b873-adf723369cce
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ Als het een materiaalcatalogus betreft, het bestand dat in de materiaalcatalogus
 
 * Als het pad absoluut is, wordt het ongewijzigd gebruikt.
 * Als het pad relatief is, heeft het pad een voorvoegsel `catalog::RootPath` (uit een benoemde materiaalcatalogus).
-* Als het pad absoluut is, wordt het gebruikt; anders wordt het vooraf bepaald `default::RootPath` (uit de standaardcatalogus).
-* Als het pad absoluut is, wordt het gebruikt; anders, combineert de server het met de weg die in wordt gespecificeerd [ir.resourceRootPaths](../../../../../../ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-resource-root-folders.md#concept-39a34d2239934079bb396e1bf568a9c2).
-* Als het pad nu absoluut is, wordt het gebruikt; anders wordt ervan uitgegaan dat dit relatief is ten opzichte van [!DNL  *[!DNL install_folder]*].
+* Als het pad absoluut is, wordt het gebruikt; anders wordt het voorafgegaan door `default::RootPath` (uit de standaardcatalogus).
+* Als het pad absoluut is, wordt het gebruikt; anders wordt het gecombineerd met het pad dat is opgegeven in [ir.resourceRootPaths](../../../../../../ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-resource-root-folders.md#concept-39a34d2239934079bb396e1bf568a9c2).
+* Als het pad nu absoluut is, wordt het gebruikt; anders wordt het ten opzichte van [!DNL  *[!DNL install_folder]*].
 
 Als er geen afbeeldingscatalogus bij betrokken is, wordt het pad gecombineerd met `default::RootPath` en vervolgens op de hierboven aangegeven wijze worden verwerkt.
 

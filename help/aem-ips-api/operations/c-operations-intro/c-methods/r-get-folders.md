@@ -5,7 +5,7 @@ title: getFolders
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 71fe3343-2560-4d74-8ec3-1229d83a62e1
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Retourneert alle mappen en submappen, te beginnen bij het mappad. De reactie get
 
 ## Doel van mappen {#section-66e344d5333f42f1b060a0cba25935c3}
 
-Met een map kunt u submappen en elementen ordenen. Alle map- en elementnamen moeten uniek zijn. Mappen en elementen met dezelfde naam veroorzaken een naamruimteconflict, zelfs als ze zich in verschillende maphiërarchieën bevinden.
+Met een map kunt u submappen en elementen ordenen. Alle mappen en middelen moeten uniek zijn. Mappen en elementen met dezelfde naam veroorzaken een naamruimteconflict, zelfs als ze zich in verschillende maphiërarchieën bevinden.
 Syntaxis
 
 ## Geautoriseerde gebruikerstypen {#section-0dc7e17cb60f4cf7bcdb76648e5d2f8e}

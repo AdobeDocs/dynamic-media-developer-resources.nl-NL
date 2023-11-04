@@ -5,9 +5,9 @@ title: Fouten
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9314782f-703b-4e9c-a026-62970d1c752f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Als een aanvraag niet met succes kan worden voltooid, retourneert de server een foutafbeelding of een andere HTTP-antwoordstatus dan 200, samen met een foutbericht.
 
-De responsstatuswaarde is afhankelijk van het type fout; voor de meest voorkomende fouten is het &quot; 403 &quot; . Foutreacties voor aanvraagtypen die geen afbeelding zijn, komen overeen met de indeling die is opgegeven met `req=`. (Kan momenteel niet consistent worden geïmplementeerd.)
+De responsstatuswaarde is afhankelijk van het type fout; voor de meeste voorkomende fouten is de waarde &#39;403&#39;. Foutreacties voor aanvraagtypen die geen afbeelding zijn, komen overeen met de indeling die is opgegeven met `req=`. (Kan momenteel niet consistent worden geïmplementeerd.)
 
 De hoeveelheid details in het foutbericht kan worden geconfigureerd met `attribute::ErrorDetail`.
 

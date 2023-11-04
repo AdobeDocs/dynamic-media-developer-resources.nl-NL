@@ -5,9 +5,9 @@ title: Verzoek vergrendelen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7ac727ef-3775-4884-b9db-bfae171a0f9d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Om de kans op het knoeien met verzoeken te verminderen, wordt een eenvoudige sluitingsfaciliteit verstrekt.
 
-Als attribute::RequestLock wordt geplaatst, moet een slotwaarde aan het verzoek worden toegevoegd, in vorm van `&xxxx`, waarbij xxxx een hexadecimale waarde van vier cijfers is. Deze hexadecimale waarde wordt gegenereerd met behulp van een eenvoudig hash-algoritme dat wordt toegepast op het *modifiers* deel van het verzoek (na &#39;?&#39; waarmee het URL-pad wordt gescheiden van het *modifiers*). Dit moet worden gedaan nadat het verzoek volledig http-encoded is, maar alvorens het (naar keuze) wordt verduisterd. Nadat de-obfuscating van het verzoek, zal de server het zelfde het hakken algoritme op het bepalingskoord (exclusief de laatste 5 karakters, die de slotwaarde bevatten) gebruiken. Als de gegenereerde sleutel niet overeenkomt met de vergrendeling, wordt het verzoek afgewezen.
+Als attribute::RequestLock wordt geplaatst, moet een slotwaarde aan het verzoek worden toegevoegd, in vorm van `&xxxx`, waarbij xxxx een hexadecimale waarde van vier cijfers is. Deze hexadecimale waarde wordt gegenereerd met behulp van een eenvoudig hash-algoritme dat wordt toegepast op het *modifiers* deel van het verzoek (na &#39;?&#39; waarmee het URL-pad wordt gescheiden van het *modifiers*). Dit moet worden gedaan nadat het verzoek volledig http-encoded is, maar alvorens het (naar keuze) wordt verduisterd. Na het ontduisteren van het verzoek, gebruikt de server het zelfde het hakken algoritme op het bepalingskoord (met uitzondering van de laatste 5 karakters, die de slotwaarde bevatten). Als de gegenereerde sleutel niet overeenkomt met de vergrendeling, wordt het verzoek afgewezen.
 
 >[!IMPORTANT]
 >

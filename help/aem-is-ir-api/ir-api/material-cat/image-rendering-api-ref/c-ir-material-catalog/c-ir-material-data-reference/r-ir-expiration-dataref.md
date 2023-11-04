@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e4f7e5a8-0021-4dd3-be1b-8cb656cabdac
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ Cachetijd client om te live gaan. Aantal uren tot vervaldatum. Wordt gebruikt om
 
 De server berekent de vervaltijd/de datum van de NTTP reactiegegevens door deze waarde aan de tijd/de datum van transmissie toe te voegen.
 
-Browsers beheren caches met de vervaltijden van bestanden. Voordat een aanvraag aan de server wordt doorgegeven, controleert de browser de cache om te controleren of het bestand al is gedownload. Als dat het geval is en als het bestand nog niet is verlopen, verzendt de browser een voorwaardelijke aanvraag (bijvoorbeeld met de if-Modified-Since HTTP-aanvraagheader) in plaats van een normale GET. De server heeft de mogelijkheid om te reageren met de status &#39;304&#39; en de afbeelding niet te verzenden. De browser laadt het bestand vervolgens uit de cache. Dit kan de algemene prestaties voor vaak toegankelijke gegevens aanzienlijk verhogen.
+Browsers beheren caches met de vervaltijden van bestanden. Voordat een aanvraag aan de server wordt doorgegeven, controleert de browser de cache om te controleren of het bestand al is gedownload. Als dat het geval is en als het bestand nog niet is verlopen, verzendt de browser een voorwaardelijk verzoek (bijvoorbeeld met de if-Modified-Since HTTP-aanvraagheader) in plaats van een normale GET-aanvraag. De server heeft de mogelijkheid om te reageren met de status &#39;304&#39; en de afbeelding niet te verzenden. De browser laadt het bestand vervolgens gewoon uit de cache. Dit kan de algemene prestaties voor vaak toegankelijke gegevens aanzienlijk verhogen.
 
-De server stelt de header van de HTTP-reactie voor verlopen in op de huidige datum/tijd plus het kleinste vignet::Verlopen en alle catalogus::Vervalwaarden voor het vignet en alle materialen die bij de renderbewerking zijn betrokken.
+De server stelt de header van de HTTP-reactie op de huidige datum/tijd plus het kleinste vignet in::Expiration en all catalog::Expiration values for the vignet and all materials betrokken in the render operation.
 
 De vervaldatum wordt voornamelijk ingesteld voor reacties op afbeeldingsgegevens. Bepaalde typen reacties worden altijd gemarkeerd voor onmiddellijke vervaldatum (of gecodeerd als niet-cachebaar), inclusief alle reacties op fouten of reacties op eigenschappen.
 

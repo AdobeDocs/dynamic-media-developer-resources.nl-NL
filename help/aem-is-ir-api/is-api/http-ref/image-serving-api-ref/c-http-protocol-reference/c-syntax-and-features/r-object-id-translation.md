@@ -5,7 +5,7 @@ title: Omzetten van object-id
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7a3bd6a1-2ad4-4da2-944c-489b7d18fdc1
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 0%
@@ -26,7 +26,7 @@ De *`locale`* wordt opgegeven in aanvragen voor beeldverwerking bij de `locale=`
 
 ## Toepassingsgebied {#section-66fcd5bd467c4eeaa1574583cbe9756d}
 
-Alle verwijzingen naar items in afbeeldings-, SVG- en statische inhoudcatalogi worden beschouwd als verwijzingen naar vertaallettertypen en ICC-profielverwijzingen worden niet vertaald. Naast de *`object`* in het pad van [!DNL /is/image] en [!DNL /is/static requests], zijn deze opdrachten en cataloguskenmerken afhankelijk van id-omzetting: `src=`, `mask=`, `template=`, `defaultImage=`, `attribute::DefaultImage`, en `attribute::Watermark`.
+Alle verwijzingen naar items in afbeeldings-, SVG- en statische inhoudcatalogi worden beschouwd als verwijzingen naar vertaallettertypen en ICC-profielverwijzingen worden niet vertaald. Naast de *`object`* in het pad van [!DNL /is/image] en [!DNL /is/static requests], zijn deze opdrachten en cataloguskenmerken onderhevig aan id-omzetting: `src=`, `mask=`, `template=`, `defaultImage=`, `attribute::DefaultImage`, en `attribute::Watermark`.
 
 ## De vertaalkaart voor id {#section-9e417b352c314dfe94e831fdd62cddc8}
 
@@ -48,7 +48,7 @@ In het bovenstaande voorbeeld zoekt de server eerst naar de *`locale`* &quot; `d
 
 ## Onbekende landinstellingen {#section-b2f3c83f2dc845d69b5908107b775537}
 
-In het bovenstaande voorbeeld: `attribute::LocaleMap` bevat een lege *`locale`* waarmee de standaardvertaalregel wordt gedefinieerd die voor onbekend wordt gebruikt `locale=` waarden (d.w.z. waarden die niet expliciet in de vertaalkaart zijn vermeld). Als deze vertaalkaart op de aanvraag is toegepast `/is/image/myCat/myImg?locale=ja`zal `myCat/myImg_E`, indien deze bestaat of anderszins `myCat/myImg`.
+In het bovenstaande voorbeeld: `attribute::LocaleMap` bevat een lege *`locale`* waarmee de standaardvertaalregel wordt gedefinieerd die voor onbekend wordt gebruikt `locale=` waarden (dat wil zeggen waarden die niet expliciet in de vertaalkaart worden vermeld). Als deze vertaalkaart op de aanvraag is toegepast `/is/image/myCat/myImg?locale=ja`, wil zij `myCat/myImg_E`, indien deze bestaat, of anderszins `myCat/myImg`.
 
 Als een vertaalkaart geen standaardvertaalregel specificeert, is een fout teruggekeerd voor alle verzoeken met onbekend `locale=` waarden.
 
@@ -97,7 +97,7 @@ In de volgende tabel wordt aangegeven welke catalogusitems in overweging worden 
 
 **Zoeken naar specifieke id&#39;s**
 
-Sommige naamgevingsconventies voor afbeeldingen bieden mogelijk geen interne ondersteuning voor algemene afbeeldings-id&#39;s. De generieke id&#39;s van het verzoek moeten altijd worden toegewezen aan een specifieke id in de catalogus. vaak is de exacte specifieke id onbekend.
+Sommige naamgevingsconventies voor afbeeldingen bieden mogelijk geen interne ondersteuning voor algemene afbeeldings-id&#39;s. De generieke id&#39;s van het verzoek moeten altijd worden toegewezen aan een specifieke id in de catalogus. Het is vaak mogelijk dat de exacte specifieke id niet bekend is.
 
 In dit voorbeeld kunnen afbeeldingen voor alle talen `_1`, `_2`, of `_3` achtervoegsel. Afbeeldingen die specifiek zijn voor Franse landinstellingen kunnen `_22` of `_23` achtervoegsel en afbeeldingen die specifiek zijn voor Duitse landinstellingen kunnen `_470` of `_480` achtervoegsel.
 

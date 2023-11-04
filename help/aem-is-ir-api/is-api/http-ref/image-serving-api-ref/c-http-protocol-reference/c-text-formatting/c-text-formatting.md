@@ -5,9 +5,9 @@ title: Tekstopmaak
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2c120ed1-b556-4caf-a30e-63ae48cc2104
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ De Server van het beeld verstrekt verscheidene alternatieven om tekst terug te g
 
 >[!NOTE]
 >
->Naast de elders genoemde verschillen, `text=` veroorzaakt subtiele verschillen in de gerenderde tekst in vergelijking met `textPs=`. onderstreept hebben bijvoorbeeld niet dezelfde dikte en positie en gesynthetiseerde cursief worden onder een iets andere hoek gerenderd. Als de tekst niet in de beschikbare ruimte past, `text=` kan de laatste regel gedeeltelijk uitsnijden, terwijl `textPs=` alleen volledige regels worden gerenderd.
+>Naast de elders genoemde verschillen, `text=` veroorzaakt subtiele verschillen in de gerenderde tekst in vergelijking met `textPs=`. onderstreept hebben bijvoorbeeld niet dezelfde dikte en positie en gesynthetiseerde cursief worden onder een iets andere hoek gerenderd. Als de tekst niet in de beschikbare ruimte past, `text=` kan de laatste regel gedeeltelijk uitsnijden, terwijl `textPs=` alleen volledige regels worden weergegeven.
 
 Alle tekstopdrachten accepteren opgemaakte tekst die is gebaseerd op een subset van de RTF-specificatie (Rich Text Format). Elke tekstlaag kan een andere tekstopdracht opgeven.
 
@@ -153,7 +153,7 @@ Sommige tekstverwerkers genereren vrij grote bestanden, die aanzienlijke preambl
 
 Taalcodering op basis van UTF-8- en ISO-standaarden wordt ondersteund in RTF-tekenreeksen als alternatief voor de standaardcoderingsmechanismen voor RTF-tekens. Hierdoor kunnen toepassingen niet-Engelse tekst zonder RTF-codering naar de server verzenden.
 
-Alle niet-HTTP-compatibele tekens moeten correct worden beschermd als de tekenreeks via http moet worden verzonden. Alleen &#39;=&#39;, &#39;&amp;&#39; en &#39;%&#39; hoeven te worden beschermd als de tekenreeks in het `catalog::Modifiers` veld van een catalogusrecord. Besturingstekens, inclusief `<CR>`, `<LF>`, en `<TAB>` moet altijd worden verwijderd.
+Alle niet-HTTP-compatibele tekens moeten correct worden beschermd als de tekenreeks via http moet worden verzonden. Alleen &#39;=&#39;, &#39;&amp;&#39; en &#39;%&#39; hoeven te worden beschermd als de tekenreeks in het `catalog::Modifiers` van een catalogusrecord in een afbeelding. Besturingstekens, inclusief `<CR>`, `<LF>`, en `<TAB>` moet altijd worden verwijderd.
 
 De Image Serving text engines interpreteren een subset van opdrachten die zijn gedefinieerd in de RTF-specificatie (Rich Text Format), versie 1.6. Deze subset is gericht op lettertype-/tekenopmaak, eenvoudige alineaopmaak en ondersteuning voor internationale lettertypen en tekensets. Geavanceerde opmaakconstructies, zoals stijlpagina&#39;s en tabellen, worden momenteel niet ondersteund.
 

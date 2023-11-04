@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8f99bb3d-c5d6-4215-a76b-58ba7689ff02
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Een willekeurig aantal laageffecten kan aan één bovenliggende laag worden geko
 
 ## Verhouding tot bovenliggende laag {#section-eb8bfc4f754a42fc973b562821d6f2d3}
 
-De lagen van het effect worden automatisch gerangschikt en geplaatst om met de ouderlaag (d.w.z. de effect laag erft `size=` en `origin=` waarden van de bovenliggende laag). `pos=` U kunt de effectlaag ook buiten de bovenliggende laag plaatsen, zoals gewoonlijk is vereist voor slagschaduwen en binnenschaduweffecten. While for standard layers `pos=` Hiermee geeft u een verschuiving op tussen de oorsprong van deze laag en laag 0 voor effectlagen `pos=` Hiermee bepaalt u de verschuiving tussen de oorsprong van de effectlaag en de bovenliggende laag.
+De lagen van het effect worden automatisch gerangschikt en geplaatst om met de ouderlaag (namelijk erft de effect laag) te samenvallen `size=` en `origin=` waarden van de bovenliggende laag). `pos=` U kunt de effectlaag ook buiten de bovenliggende laag plaatsen, zoals gewoonlijk is vereist voor slagschaduwen en binnenschaduweffecten. While for standard layers `pos=` Hiermee geeft u een verschuiving op tussen de oorsprong van deze laag en laag 0 voor effectlagen `pos=` Hiermee bepaalt u de verschuiving tussen de oorsprong van de effectlaag en de bovenliggende laag.
 
 ## Ondersteunde opdrachten en kenmerken {#section-035fc6bcba7d4e7ab4bd46687c1d8879}
 

@@ -5,7 +5,7 @@ title: Problemen oplossen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b80d3c9a-a0c4-4944-9f91-e791a072cd5f
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ImageServer houdt nu een installatielogboekbestand bij en een back-upmap met all
 
 **Wanneer het beginnen van de Server van het Beeld, stapelt het startmanuscript met het bericht &quot;begin in afwachting&quot; (LINUX slechts)**
 
-Dit kan wijzen op een probleem met de vergunning van de Beelddienst, zoals een ontbrekend vergunningsdossier of een verlopen tijdelijke vergunning. U moet een geldig licentiebestand vinden in [!DNL /usr/local/scene7/licenses].
+Dit kan wijzen op een probleem met de Beeldserver- Vergunning, zoals een ontbrekend vergunningsdossier of een verlopen tijdelijke vergunning. U moet een geldig licentiebestand vinden in [!DNL /usr/local/scene7/licenses].
 
 **Afbeeldingsserver loopt vast of loopt vast en het logbestand van de afbeeldingsserver geeft aan dat er onvoldoende ruimte is of dat de bron tijdelijk niet beschikbaar is in het bestand [!DNL IgcVirtualMemory.cpp]&quot;**
 
@@ -39,7 +39,7 @@ Dit duidt niet op een probleem. De overhead van het bestandssysteem is niet opge
 
 Dit komt voor als de Server van het Beeld niet loopt. Dit gebeurt ook als het hoofdpad van de catalogus of het hoofdpad van de afbeelding is gewijzigd ten opzichte van de standaardinstelling van de installatie, maar de voorbeeldafbeeldingen en catalogi zijn niet naar de nieuwe locaties verplaatst. Controleer de waarde van de Weg van de Weg van de Wortel van de Server van het Beeld in configuratiedossiers. Verplaats zo nodig de demomap met de voorbeeldafbeeldingen naar de huidige hoofdmap van de afbeelding en verplaats deze [!DNL sample*.*] naar de huidige hoofdmap van de catalogus.
 
-In de voorbeelden wordt ook aangenomen dat bepaalde instellingen in [!DNL default.ini] standaard zijn (bv. verduistering of vergrendeling mag niet worden ingeschakeld).
+In de voorbeelden wordt ook aangenomen dat bepaalde instellingen in [!DNL default.ini] zijn standaard (verduistering of vergrendeling mag bijvoorbeeld niet worden ingeschakeld).
 
 **Te veel cachefouten na aanzienlijke uptime**
 

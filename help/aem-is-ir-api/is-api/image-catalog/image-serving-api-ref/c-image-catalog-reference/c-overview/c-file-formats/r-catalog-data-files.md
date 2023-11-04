@@ -5,9 +5,9 @@ title: Catalogusgegevensbestanden
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4aa20abe-4f84-470b-b5a1-3d9246ab1792
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Gegevensbestanden van catalogi kunnen elke naam en elk achtervoegsel van het bestand hebben (behalve .ini). Ze kunnen eenvoudig worden onderhouden met toepassingen die door tabs gescheiden tekstgegevensbestanden ondersteunen, zoals Microsoft Excel en Access.
 
-In wezen bestaat een catalogusgegevensbestand in een tweedimensionale tabel uit een headerrecord die de gegevenskolommen en elk gewenst aantal gegevensrecords (rijen) identificeert. Velden in zowel koptekst- als gegevensrecords worden gescheiden door één veld `<TAB>` tekens. Records worden gescheiden door één record `<CR>` (ASCII-code) `0xD`), één `<LF>` (ASCII-code) `0xA`), of een `<CR><LF>` paar.
+In wezen bestaat een catalogusgegevensbestand in een tweedimensionale tabel uit een headerrecord die de gegevenskolommen en elk gewenst aantal gegevensrecords (rijen) identificeert. Velden in zowel koptekst- als gegevensrecords worden gescheiden door één veld `<TAB>` tekens. Records worden gescheiden door één record `<CR>` (ASCII-code `0xD`), één `<LF>` (ASCII-code `0xA`), of een `<CR><LF>` paar.
 
 De headerrecord moet de exacte namen voor elk gegevensveld bevatten. Lege velden zijn niet toegestaan in de koptekstrij. Namen van gegevensvelden zijn niet hoofdlettergevoelig. Alle veldnamen moeten uniek zijn.
 

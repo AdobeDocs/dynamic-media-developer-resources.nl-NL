@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 05f5abe0-1124-4114-864d-440699bcdc39
-source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Bepaalde inhoud die in de Carousel Viewer wordt weergegeven, moet worden gelokaliseerd. Deze inhoud bevat dianavigatieknoppen.
 
-Elke tekstinhoud in de viewer die kan worden gelokaliseerd, wordt vertegenwoordigd door de speciale Viewer SDK-id SYMBOL. Elk SYMBOL heeft een standaardtekstwaarde voor een Engelse landinstelling ( `"en"`) worden geleverd bij de viewer buiten de box en kunnen ook door de gebruiker gedefinieerde waarden bevatten voor zoveel landinstellingen als nodig is.
+Elke tekstinhoud in de viewer die kan worden gelokaliseerd, wordt vertegenwoordigd door de speciale Viewer SDK-id SYMBOL. Elk SYMBOL heeft een aan de standaardwaarde gekoppelde tekstwaarde voor een Engelse landinstelling ( `"en"`) worden geleverd bij de viewer buiten de box en kunnen ook door de gebruiker gedefinieerde waarden bevatten voor zoveel landinstellingen als nodig is.
 
 Wanneer de viewer wordt gestart, wordt de huidige landinstelling gecontroleerd om te controleren of er voor elke ondersteunde SYMBOL-landinstelling een door de gebruiker gedefinieerde waarde is. Als dat het geval is, gebruikt het de user-defined waarde; anders, valt het terug naar de uit-van-de-doos standaardtekst.
 
@@ -66,7 +66,7 @@ De volgende SYMBOL&#39;s worden ondersteund:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Container.LABEL </span> </p> </td> 
-   <td colname="col2"> <p> ARIA-label voor viewerelement op hoofdniveau. </p> </td> 
+   <td colname="col2"> <p> ARIA-label voor viewerelement op het hoogste niveau. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CarouselView.ROLE_DESCRIPTION </span> </p> </td> 

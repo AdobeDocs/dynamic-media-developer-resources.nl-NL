@@ -1,20 +1,20 @@
 ---
-title: Knop Volledig scherm
-description: Hiermee gaat de viewer naar de modus Volledig scherm of wordt deze afgesloten wanneer deze door de gebruiker is geselecteerd. Deze knop wordt weergegeven in de hoofdbesturingsbalk. Deze knop wordt niet weergegeven als de viewer werkt in de pop-upmodus en het systeem geen native volledig scherm ondersteunt. U kunt de grootte, de huid, en de plaats van de knoop door CSS.
+title: schermvullende knop
+description: Hiermee gaat de viewer naar de modus Volledig scherm of wordt deze afgesloten wanneer deze door de gebruiker is geselecteerd. Deze knop wordt weergegeven in de hoofdbesturingsbalk. Deze knop wordt niet weergegeven als de viewer werkt in de pop-upmodus en het systeem geen ondersteuning biedt voor een native volledig scherm. U kunt de grootte, de huid, en de plaats van de knoop door CSS.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 3f56fbd2-4d2e-4cfa-bc97-350bc2bb708e
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
 
-# Knop Volledig scherm{#full-screen-button}
+# schermvullende knop{#full-screen-button}
 
-Hiermee gaat de viewer naar de modus Volledig scherm of wordt deze afgesloten wanneer deze door de gebruiker is geselecteerd. Deze knop wordt weergegeven in de hoofdbesturingsbalk. Deze knop wordt niet weergegeven als de viewer werkt in de pop-upmodus en het systeem geen native volledig scherm ondersteunt. U kunt de grootte, de huid, en de plaats van de knoop door CSS.
+Hiermee gaat de viewer naar de modus Volledig scherm of wordt deze afgesloten wanneer deze door de gebruiker is geselecteerd. Deze knop wordt weergegeven in de hoofdbesturingsbalk. Deze knop wordt niet weergegeven als de viewer werkt in de pop-upmodus en het systeem geen ondersteuning biedt voor een native volledig scherm. U kunt de grootte, de huid, en de plaats van de knoop door CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

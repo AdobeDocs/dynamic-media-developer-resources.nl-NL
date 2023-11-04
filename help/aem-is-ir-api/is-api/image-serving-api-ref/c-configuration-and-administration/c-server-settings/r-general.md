@@ -5,9 +5,9 @@ title: Algemeen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 3e4079e7-6def-4938-bb5b-c8122502712d
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,11 @@ Specificeert de de wortelweg van HTTP om de Server van het Beeld toegang tot de 
 
 ## IS::RemoteUrlDefaultExpiration - Remote Image Source Default TTL {#section-e4c31228b459492cacd2f482d9575f71}
 
-De TTL voor caching beelden die via HTTP van een verre bron worden verkregen gebruikend `src={…}` construct. Wordt alleen gebruikt wanneer de externe server geen header Expiration in de HTTP-respons bevat. Geheel getal in seconden.
+De TTL voor caching beelden die door middel van HTTP van een verre bron worden verkregen gebruikend `src={…}` construct. Wordt alleen gebruikt wanneer de externe server geen header Expiration in de HTTP-respons bevat. Geheel getal in seconden.
 
 ## IS::RemoteUrlTimeout - Remote Image Source Timeout {#section-437646c479cc4bea81dae42100a3c50a}
 
-De tijd de Server van het Beeld zal op een verre server wachten om het gevraagde beelddossier via HTTP te leveren alvorens een fout terug te keren. Geheel getal in seconden.
+De tijd de Server van het Beeld wacht op een verre server om het gevraagde beelddossier als HTTP te leveren alvorens een fout terug te keren. Geheel getal in seconden.
 
 ## PS::allowDefaultCatalogRequests - Standaardcatalogusverzoeken inschakelen/uitschakelen {#section-484e442a115a49b4ac269d1718b351e1}
 

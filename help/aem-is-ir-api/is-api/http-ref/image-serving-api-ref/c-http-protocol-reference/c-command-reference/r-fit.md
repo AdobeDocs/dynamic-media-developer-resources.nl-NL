@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d2939f86-5dab-471d-ba59-70d91ae1e4fd
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -72,11 +72,11 @@ In de volgende beschrijving van de modusopties wordt aangenomen dat: *`xScale`* 
 
 Set *`upscale`* naar &#39;1&#39; om upscaling toe te staan of naar &#39;0&#39; om te beperken *`xScale`*en *`yScale`* beperkt tot 1:1. Als upscaling is uitgeschakeld, kan er extra witruimte aanwezig zijn als de samengestelde afbeelding kleiner is dan de reactieafbeelding.
 
-Uitsnijden en witruimte worden standaard gecentreerd. hun positie kan worden geregeld met `align=`. De kleur en dekking van de vulling met witruimte worden bepaald door `bgc=`.
+Uitsnijden en witruimte worden standaard gecentreerd; de positie ervan kan worden bepaald met `align=`. De kleur en dekking van de vulling met witruimte worden bepaald door `bgc=`.
 
 ## Eigenschappen {#section-6d7a5a7e18434bca9bc2fdb236af8909}
 
-Kenmerk weergeven. Is van toepassing ongeacht de huidige laaginstelling. Ten minste één van `wid=` of `hei=` moet ook worden gespecificeerd, anders is een fout teruggekeerd; beide `wid=` en `hei=` moeten worden gespecificeerd om de geschikte modi te laten functioneren zoals beschreven. Er wordt een fout geretourneerd wanneer `req=tmb` wordt ook opgegeven.
+Kenmerk weergeven. Is van toepassing ongeacht de huidige laaginstelling. Ten minste één van `wid=` of `hei=` moet ook worden opgegeven, anders wordt een fout geretourneerd; beide `wid=` en `hei=` moeten worden gespecificeerd om de geschikte modi te laten functioneren zoals beschreven. Er wordt een fout geretourneerd wanneer `req=tmb` wordt ook opgegeven.
 
 ## Standaard {#section-3a553b4b29ef447a8331d6954f3f06da}
 

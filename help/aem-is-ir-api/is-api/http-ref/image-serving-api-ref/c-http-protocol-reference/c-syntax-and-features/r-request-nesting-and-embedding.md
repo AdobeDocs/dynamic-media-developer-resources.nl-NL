@@ -1,20 +1,20 @@
 ---
-description: Image Serving ondersteunt het onbeperkt nesten van aanvragen voor beeldweergave, het insluiten van aanvragen voor het renderen van afbeeldingen en het insluiten van afbeeldingen die zijn opgehaald van externe servers. Deze mechanismen worden alleen ondersteund door laagafbeeldingen en laagmaskers.
+description: Image Serving ondersteunt het onbeperkt nesten van aanvragen voor beeldweergave, het insluiten van aanvragen voor het renderen van afbeeldingen en het insluiten van afbeeldingen die zijn opgehaald van externe servers. Alleen laagafbeeldingen en laagmaskers ondersteunen deze mechanismen.
 solution: Experience Manager
 title: Nesten en insluiten aanvragen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b9c9d241-5a3d-4637-a90a-d8cdf29cc968
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1044'
 ht-degree: 0%
 
 ---
 
 # Nesten en insluiten aanvragen{#request-nesting-and-embedding}
 
-Image Serving ondersteunt het onbeperkt nesten van aanvragen voor beeldweergave, het insluiten van aanvragen voor het renderen van afbeeldingen en het insluiten van afbeeldingen die zijn opgehaald van externe servers. Deze mechanismen worden alleen ondersteund door laagafbeeldingen en laagmaskers.
+Image Serving ondersteunt het onbeperkt nesten van aanvragen voor beeldweergave, het insluiten van aanvragen voor het renderen van afbeeldingen en het insluiten van afbeeldingen die zijn opgehaald van externe servers. Alleen laagafbeeldingen en laagmaskers ondersteunen deze mechanismen.
 
 >[!NOTE]
 >
@@ -129,7 +129,7 @@ Dit mechanisme ondersteunt dezelfde indelingen voor afbeeldingsbestanden die wor
 
 >[!NOTE]
 >
->Bij Beeldserver wordt het hulpprogramma voor validatie automatisch uitgevoerd wanneer een extern image voor het eerst wordt gebruikt, om te controleren of het image geldig is en tijdens de overdracht niet is beschadigd. Dit kan een lichte vertraging bij eerste toegang veroorzaken. Voor de beste prestaties is het raadzaam de grootte van dergelijke afbeeldingen te beperken en/of een indeling voor afbeeldingsbestanden te gebruiken die goed comprimeert.
+>Wanneer een extern image voor het eerst wordt gebruikt, wordt het hulpprogramma voor het valideren van images automatisch uitgevoerd om te controleren of het image geldig is en niet is beschadigd tijdens de overdracht. Dit kan een lichte vertraging bij eerste toegang veroorzaken. Voor de beste prestaties is het raadzaam de grootte van dergelijke afbeeldingen te beperken en/of een indeling voor afbeeldingsbestanden te gebruiken die goed comprimeert.
 
 ## Beperkingen {#section-fb68e3f0d40947feb94d7bf183b64929}
 
@@ -151,7 +151,7 @@ Met kleine wijzigingen kunnen we de afbeelding met laag 0 vooraf schalen en deze
 
 **Aanvragen voor Dynamic Media-beeldweergave insluiten**
 
-Een sjabloon gebruiken die is opgeslagen in [!DNL myCatalog/myTemplate]; de afbeelding voor laag2 van de sjabloon genereren met Dynamic Media Image Rendering:
+Een sjabloon gebruiken die is opgeslagen in [!DNL myCatalog/myTemplate]; genereer de afbeelding voor laag2 van de sjabloon met behulp van Dynamic Media Image Rendering:
 
 `http://server/is/image/myCatalog/myTemplate?layer=2&src=ir(myRenderCatalog/myRenderObject?id=myIdValue&sel=group&src=is(myCatalog/myTexture1?res=30)&res=30)&wid=300`
 
@@ -159,4 +159,4 @@ Noteer de geneste accolades. Met de aanvraag Afbeelding renderen sluit u een aan
 
 ## Zie ook {#section-109a0a9a3b144158958351139c8b8e69}
 
-[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) , [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [Voorbewerking aanvragen](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-preprocessing.md#reference-c27976436bf04194bfbe9adf40ea98e3), referentie voor het renderen van afbeeldingen, [Sjablonen](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e), [Hulpprogramma&#39;s voor afbeeldingsservices](../../../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f)
+[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) , [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [Voorbewerking aanvragen](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-preprocessing.md#reference-c27976436bf04194bfbe9adf40ea98e3), referentie afbeeldingsweergave, [Sjablonen](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e), [Hulpprogramma&#39;s voor afbeeldingsservices](../../../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f)

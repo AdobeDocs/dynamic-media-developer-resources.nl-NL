@@ -5,9 +5,9 @@ title: Reëel nummer
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 04534c0f-12b7-4560-974b-918b081164ce
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '25'
+source-wordcount: '26'
 ht-degree: 0%
 
 ---
@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Gegevenstype Reëel getal.
 
-Waarde van getekend zwevend punt (bijvoorbeeld 0, 12,5, 245, -2,34e4). 0 of negatieve waarden kunnen een speciale betekenis hebben.
+Waarde van ondertekend zwevend punt (bijvoorbeeld 0, 12,5, 245, -2,34e4). 0 of negatieve waarden kunnen een speciale betekenis hebben.

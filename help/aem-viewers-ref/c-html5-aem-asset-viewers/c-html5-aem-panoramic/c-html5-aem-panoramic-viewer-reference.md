@@ -5,9 +5,9 @@ keywords: responsief
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1955'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ Viewer type 514.
 
 [http://s7d1.scene7.com/s7viewers/html5/PanoramicViewer.html?asset=Scene7SharedAssets/PanoramicImage-Sample](http://s7d1.scene7.com/s7viewers/html5/PanoramicViewer.html?asset=Scene7SharedAssets/PanoramicImage-Sample)
 
-## Panoramische Viewer gebruiken {#section-f21ac23d3f6449ad9765588d69584772}
+## Panoramische viewer gebruiken {#section-f21ac23d3f6449ad9765588d69584772}
 
 HTML5 Panoramische Viewer staat voor een hoofd-JavaScript-bestand en een set hulpbestanden die door de viewer in runtime worden gedownload. De set hulpbestanden bestaat uit één JavaScript-bestand dat alle HTML5 Viewer SDK-componenten bevat die door deze viewer, elementen en CSS worden gebruikt.
 HTML5 Panoramische Viewer kan zowel in de pop-upmodus worden gebruikt met een pagina die klaar is voor productie en die wordt geleverd met IS-Viewers, als in de ingesloten modus, waarbij de viewer met behulp van gedocumenteerde API is geïntegreerd in de doelwebpagina.
-Configuratie en skins zijn vergelijkbaar met die van de andere HTML5-viewers. Alle skins kunnen worden gemaakt met aangepaste CSS.
+Configuratie en skins zijn vergelijkbaar met die van de andere HTML5-viewers. Alle skins kunnen worden gemaakt met behulp van aangepaste CSS.
 
 Zie [Command reference common to all viewers - Configuration attributes](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) en [Command reference common to all Viewers - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
@@ -62,7 +62,7 @@ Panoramische Viewer kan panoramische afbeeldingen renderen in de modus Virtual R
 
 ## HTML5 Panoramische Viewer insluiten {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Verschillende webpagina&#39;s hebben verschillende vereisten voor viewergedrag. Soms biedt een webpagina een koppeling. Als u die koppeling selecteert, wordt de viewer geopend in een apart browservenster. In andere gevallen kan het nodig zijn de viewer in te sluiten in de hostpagina. In het laatste geval kan de webpagina een statische lay-out hebben of ‘responsief’ zijn en anders worden weergegeven op verschillende apparaten of voor verschillende venstergrootten in de browser. Om aan deze behoeften tegemoet te komen, ondersteunt de viewer drie primaire bewerkingsmodi: popup, insluiten van vaste grootte en responsieve insluiting.
+Verschillende webpagina&#39;s hebben verschillende vereisten voor viewergedrag. Soms biedt een webpagina een koppeling. Als u die koppeling selecteert, wordt de viewer geopend in een apart browservenster. In andere gevallen kan het nodig zijn de viewer in te sluiten in de hostpagina. In het laatste geval kan de webpagina een statische lay-out hebben of ‘responsief’ zijn en anders worden weergegeven op verschillende apparaten of voor verschillende venstergrootten in de browser. Om aan deze behoeften te voldoen, ondersteunt de viewer drie primaire bewerkingsmodi: popup, insluiten van vaste grootte en responsieve insluiting.
 
 **Pop-upmodus**
 
@@ -88,11 +88,11 @@ In de ingesloten modus wordt de viewer toegevoegd aan de bestaande webpagina, wa
 
 De meest gebruikte gevallen zijn webpagina&#39;s die zijn georiënteerd op desktops of tablets, en responsieve webpagina&#39;s die de lay-out automatisch aanpassen, afhankelijk van het apparaattype.
 
-Insluiten met vaste grootte wordt gebruikt wanneer de viewer de grootte niet wijzigt na de eerste keer laden. Deze methode is de beste keuze voor webpagina&#39;s met een statische indeling.
+De insluiting met een vaste grootte wordt gebruikt wanneer de viewer de grootte niet wijzigt na de eerste keer laden. Deze methode is de beste keuze voor webpagina&#39;s met een statische indeling.
 
 Bij het insluiten van responsieve bestanden wordt ervan uitgegaan dat de gebruiker de grootte tijdens runtime moet wijzigen als gevolg van de wijziging van de grootte van de container-DIV. De meest gebruikte optie is het toevoegen van een viewer aan een webpagina die een flexibele indeling gebruikt.
 
-In de responsieve modus gedraagt de viewer zich anders, afhankelijk van de manier waarop de container DIV van de webpagina wordt vergroot of verkleind. Als op de webpagina alleen de breedte van het DIV-containerelement wordt ingesteld en de hoogte onbeperkt blijft, kiest de viewer automatisch de hoogte op basis van de hoogte-breedteverhouding van het gebruikte element. Deze methode zorgt ervoor dat het element perfect in de weergave past zonder opvulling aan de zijkanten. Dit gebruiksgeval komt het meest voor op webpagina&#39;s die responsieve lay-outframeworks gebruiken, zoals Bootstrap, Foundation en dergelijke.
+In de responsieve modus gedraagt de viewer zich anders, afhankelijk van de manier waarop de container DIV van de webpagina wordt aangepast. Als op de webpagina alleen de breedte van het DIV-containerelement wordt ingesteld en de hoogte onbeperkt blijft, kiest de viewer automatisch de hoogte op basis van de hoogte-breedteverhouding van het gebruikte element. Deze methode zorgt ervoor dat het element perfect in de weergave past zonder opvulling aan de zijkanten. Dit gebruiksgeval is het gemeenschappelijkst voor Web-pagina&#39;s die ontvankelijke lay-outkaders zoals Bootstrap, Stichting en dergelijke gebruiken.
 
 Als de webpagina de breedte en de hoogte voor de container-DIV van de viewer instelt, vult de viewer dat gebied en volgt deze het formaat dat wordt aangegeven door de indeling van de webpagina. Een goed voorbeeld is het insluiten van de viewer in een modale overlay, waarbij de grootte van de overlay wordt aangepast aan de venstergrootte van de webbrowser.
 
@@ -103,7 +103,7 @@ U voegt de viewer als volgt toe aan een webpagina:
 1. Het JavaScript-bestand van de viewer toevoegen aan uw webpagina.
 1. De container definiëren `DIV`.
 1. De viewergrootte instellen.
-1. De viewer maken en initialiseren.
+1. De viewer maken en initialiseren
 
 1. Het JavaScript-bestand van de viewer toevoegen aan uw webpagina.
 
@@ -133,7 +133,7 @@ Relatief pad ziet er als volgt uit:
    De plaatsaanduiding DIV is een gepositioneerd element, wat betekent dat de `position` CSS-eigenschap is ingesteld op `relative` of `absolute`.
 
 
-   Hieronder ziet u een voorbeeld van een gedefinieerd plaatsaanduiding DIV-element:
+   Hieronder ziet u een voorbeeld van een gedefinieerd plaatsaanduiding voor een DIV-element:
 
    ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div> 
@@ -152,7 +152,7 @@ Relatief pad ziet er als volgt uit:
    }
    ```
 
-   `stagesize` De bepaling kan uitdrukkelijk met de kijker initialisatiecode met paramenteninzameling of als API vraag worden overgegaan zoals die in de sectie van de Verwijzing van het Bevel wordt beschreven, als dit:
+   `stagesize` De bepaling kan uitdrukkelijk met de de initialisatiecode van de kijker met paramenteninzameling of als API vraag worden overgegaan zoals die in de sectie van de Verwijzing van het Bevel wordt beschreven, als dit:
 
    ```html {.line-numbers}
    panoramicViewer.setParam("stagesize", "512,256");
@@ -160,11 +160,11 @@ Relatief pad ziet er als volgt uit:
 
    Een op CSS gebaseerde benadering wordt aanbevolen en wordt in dit voorbeeld gebruikt.
 
-1. De viewer maken en initialiseren.
+1. De viewer maken en initialiseren
 
    Wanneer u de bovenstaande stappen hebt uitgevoerd, maakt u een instantie van `s7viewers.PanoramicViewer` klasse, geef alle configuratieinformatie tot zijn aannemer door en roep `init(`) op een viewer-instantie. De informatie van de configuratie wordt overgegaan tot de aannemer als voorwerp JSON. Dit object moet minimaal het veld containerId hebben met de naam van de viewercontainer-id en het geneste JSON-object params met configuratieparameters die door de viewer worden ondersteund. In dit geval moet voor params-objecten ten minste de URL voor afbeeldingsserver worden doorgegeven `serverUrl` eigenschap en eerste element als parameter element. Met de op JSON gebaseerde initialisatie-API kunt u de viewer maken en starten met één coderegel.
 
-   Het is belangrijk dat de viewercontainer aan het DOM wordt toegevoegd, zodat de viewercode het containerelement op basis van de id kan vinden. Sommige browsers stellen het samenstellen van DOM tot het einde van de webpagina uit. Voor maximale compatibiliteit roept u de `init()` methode vlak voor het sluiten `BODY` -tag of op de hoofdtekst `onload()` gebeurtenis.
+   Het is belangrijk dat de viewercontainer aan het DOM wordt toegevoegd, zodat de viewercode het containerelement op basis van de id kan vinden. Sommige browsers stellen het samenstellen van DOM tot het einde van de webpagina uit. Voor maximale compatibiliteit roept u de `init()` methode vlak voor het sluiten `BODY` of op de hoofdtekst `onload()` gebeurtenis.
 
    Tegelijkertijd mag het containerelement nog niet noodzakelijkerwijs deel uitmaken van de webpaginalay-out. Het kan bijvoorbeeld verborgen zijn met `display:none` stijl die eraan is toegewezen. In dit geval vertraagt de viewer het initialisatieproces totdat de webpagina het containerelement weer in de layout plaatst. Wanneer deze actie wordt uitgevoerd, wordt het laden van de viewer automatisch hervat.
 
@@ -213,7 +213,7 @@ Relatief pad ziet er als volgt uit:
 
 **Responsief ontwerpinsluiting met onbeperkte hoogte**
 
-Met het responsieve insluiten heeft de webpagina normaal gesproken een of andere flexibele indeling die de uitvoeringsgrootte van de container van de viewer DIV instelt. In dit voorbeeld gaan we ervan uit dat de webpagina de container DIV van de viewer toestaat 80% van de venstergrootte van de webbrowser in beslag te nemen, zodat de hoogte onbeperkt blijft. De HTML-code van de webpagina kan er als volgt uitzien:
+Met het responsieve insluiten heeft de webpagina normaal gesproken een of andere flexibele indeling die de runtime-grootte van de container van de viewer DIV instelt. In dit voorbeeld gaan we ervan uit dat de webpagina de container DIV van de viewer toestaat 80% van de venstergrootte van de webbrowser in beslag te nemen, zodat de hoogte onbeperkt blijft. De HTML-code van de webpagina kan er als volgt uitzien:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -235,7 +235,7 @@ Het toevoegen van de viewer aan een dergelijke pagina is vergelijkbaar met het i
 
 1. Het JavaScript-bestand van de viewer toevoegen aan uw webpagina.
 1. De container DIV definiëren.
-1. De viewer maken en initialiseren.
+1. De viewer maken en initialiseren
 
 Alle bovenstaande stappen zijn gelijk aan die bij het insluiten van de vaste grootte. Container DIV moet worden toegevoegd aan het bestaande &quot;holder&quot; DIV. De volgende code is een volledig voorbeeld. Mogelijk ziet u hoe de grootte van de viewer verandert wanneer de grootte van de browser wordt gewijzigd en hoe de hoogte-breedteverhouding van de viewer overeenkomt met het element.
 
@@ -275,7 +275,7 @@ De volgende voorbeeldpagina illustreert het levensechte gebruik van responsieve 
 
 **Responsief ontwerpinsluiting met gedefinieerde breedte en hoogte**
 
-Als er responsieve ontwerpinsluiting is met gedefinieerde breedte en hoogte, is de opmaak van de webpagina anders. het verstrekt beide grootte aan de &quot; houder&quot; `DIV` en centreer deze in het browservenster. Bovendien stelt de webpagina de grootte van de `HTML` en `BODY` element tot 100%:
+Als er responsieve ontwerpinsluiting is waarbij breedte en hoogte zijn gedefinieerd, is de opmaak van de webpagina anders. De aanduiding voor beide formaten krijgt de aanduiding `DIV` en centreer deze in het browservenster. Bovendien stelt de webpagina de grootte van de `HTML` en `BODY` element tot 100%:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -301,7 +301,7 @@ height: 60%;
 </html> 
 ```
 
-De overige insluitstappen zijn identiek aan het insluiten van responsieve lagen met onbeperkte hoogte. Het resulterende voorbeeld is
+De rest van de insluitstappen is gelijk aan het insluiten van responsieve lagen met onbeperkte hoogte. Het resultaat is
 
 ```html {.line-numbers}
 <!DOCTYPE html>

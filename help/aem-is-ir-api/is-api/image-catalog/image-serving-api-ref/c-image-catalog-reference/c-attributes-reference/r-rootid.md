@@ -1,20 +1,20 @@
 ---
-description: Catalogus-id. Het HTTP-padelement dat moet worden gebruikt om deze catalogus aan te duiden in de specificatie voor afbeeldingsobjecten van een aanvraag.
+description: Catalogus-id. Het HTTP-padelement dat wordt gebruikt om deze catalogus te identificeren in de specificatie voor afbeeldingsobjecten van een aanvraag.
 solution: Experience Manager
 title: RootId
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9224f06d-28a9-4a23-9a3a-735b2b9f87ff
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '68'
 ht-degree: 0%
 
 ---
 
 # RootId{#rootid}
 
-Catalogus-id. Het HTTP-padelement dat moet worden gebruikt om deze catalogus aan te duiden in de specificatie voor afbeeldingsobjecten van een aanvraag.
+Catalogus-id. Het HTTP-padelement dat wordt gebruikt om deze catalogus te identificeren in de specificatie voor afbeeldingsobjecten van een aanvraag.
 
 ## Eigenschappen {#section-9a49da71de634378a06d2347790898a0}
 
@@ -22,7 +22,7 @@ Tekstreeks. Kan alleen tekens bevatten die geldig zijn in HTTP-paden.
 
 ## Standaard {#section-c5296f4e52394984bf1c0d265ecde940}
 
-Geen. Elke catalogus moet een unieke `attribute::RootId` waarde. [!DNL default.ini] heeft doorgaans een lege `attribute::RootId`.
+Geen. Elke catalogus moet een unieke catalogus hebben `attribute::RootId` waarde. [!DNL default.ini] heeft doorgaans een lege `attribute::RootId`.
 
 ## Zie ook {#section-5297eaaf736b4db5901e0b37e7cb8bbe}
 

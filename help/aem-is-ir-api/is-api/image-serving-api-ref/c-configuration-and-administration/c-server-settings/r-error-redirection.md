@@ -5,9 +5,9 @@ title: Fout bij omleiden
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: a184e113-9708-412f-9b71-d75a35629adf
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,8 @@ De basis-URL ( [!DNL HTTP:// *[!DNL domain]*[: *[!DNL port]*]]) voor het secunda
 
 ## PS::errorRedirect.connectTimeout - Time-out voor omleiding van verbinding {#section-3971be8f720d4b32a2cc7860b4085971}
 
-Maximale tijd (in msec) waarop de server wacht tot een verbinding met de secundaire server tot stand is gebracht voordat een fout naar de client wordt geretourneerd.
+Maximale tijd (in msec) wacht de server op een verbinding met de secundaire server die moet worden ingesteld voordat een fout op de client wordt geretourneerd.
 
 ## PS::errorRedirect.socketTimeout - Redirect Timeout van de Reactie {#section-69d8579f748d4044bca99dfb64dd523c}
 
-Maximale tijd (in msec) de server zal op de secundaire server wachten om gegevens terug te keren alvorens het omleidingsverzoek te verlaten en een fout aan de cliënt terug te keren.
+Maximale tijd (in msec) wacht de server op de secundaire server om gegevens terug te keren voordat de omleidingsaanvraag wordt verlaten en een fout op de client wordt geretourneerd.

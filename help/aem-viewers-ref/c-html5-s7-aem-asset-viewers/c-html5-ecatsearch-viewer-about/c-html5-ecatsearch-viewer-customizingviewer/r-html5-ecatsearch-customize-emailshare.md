@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: a879994d-2f26-4fdd-9a51-73644fc033cd
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '3046'
 ht-degree: 0%
@@ -118,7 +118,7 @@ Standaard wordt het modale dialoogvenster gecentreerd weergegeven op het scherm 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
-   <td colname="col2"> <p> Straal van de rand van het dialoogvenster (als het dialoogvenster niet het volledige browservenster neemt); </p> </td> 
+   <td colname="col2"> <p> Straal van de rand van het dialoogvenster (als het dialoogvenster niet het volledige browservenster overneemt); </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
@@ -162,7 +162,7 @@ De koptekst van het dialoogvenster bestaat uit een pictogram, een titeltekst en 
  </tbody> 
 </table>
 
-Het pictogram en de titeltekst worden verpakt in een extra container die met
+Het pictogram en de titeltekst worden verpakt in een extra container die wordt bestuurd met
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogheader .s7dialogline
@@ -174,7 +174,7 @@ Het pictogram en de titeltekst worden verpakt in een extra container die met
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
-   <td colname="col2"> <p> Opvulling binnen voor het koptekstpictogram en de titel. </p> </td> 
+   <td colname="col2"> <p> Opvulling binnen voor koptekstpictogram en titel. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -228,7 +228,7 @@ De titel van de koptekst wordt bestuurd met de volgende CSS-klassenkiezer:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>Lettertypefamilie. </p> </td> 
+   <td colname="col2"> <p>Fontfamilie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
@@ -723,7 +723,7 @@ Elk formulierinvoerveld wordt in de container geplaatst, zodat u een aangepaste 
 
 >[!NOTE]
 >
->Invoerveldcontainer ondersteunt optioneel `state` kenmerkkiezer. Deze is ingesteld op `verifyerror` als de gebruiker een fout maakt in de indeling van de invoergegevens en inlinevalidatie mislukt. Deze kenmerkenkiezer kan worden gebruikt om onjuiste gebruikersinvoer in het formulier te markeren.
+>Invoerveldcontainer ondersteunt optioneel `state` kenmerkkiezer. Deze is ingesteld op `verifyerror` als de gebruiker een fout maakt in de indeling van de invoergegevens en inlinevalidatie mislukt. Met deze kenmerkenkiezer kunt u onjuiste gebruikersinvoer in het formulier markeren.
 
 De meeste invoervelden die zich uitstrekken van het label links tot aan de rechterrand van de hoofdtekst van het dialoogvenster (waaronder het veld Van en het veld Bericht), worden bestuurd met de volgende CSS-klassenkiezer:
 
@@ -976,7 +976,7 @@ De inhoud die wordt gedeeld, wordt onder in de hoofdtekst van het dialoogvenster
  </tbody> 
 </table>
 
-Voorbeeld - als u een container onder wilt instellen met een gestippelde rand van één pixel en geen opvulling:
+Voorbeeld - als u een container onder een container wilt instellen met een gestippelde rand van één pixel en geen opvulling:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbody .s7dialogcontent { 
@@ -1016,7 +1016,7 @@ De `background-image` wordt ingesteld door de componentlogica.
  </tbody> 
 </table>
 
-Voorbeeld - als u een miniatuur wilt instellen op 90 x 60 pixels en de miniatuur aan de bovenzijde uitgelijnd met tien pixels opvulling:
+Voorbeeld - als u een miniatuur wilt instellen op 90 x 60 pixels en de miniatuur aan de bovenzijde uitgelijnd met tien pixels aan de opvulling:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogthumbnail { 
@@ -1076,7 +1076,7 @@ De titel van de inhoud wordt bestuurd met de volgende CSS-klassenkiezer:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>Lettertypefamilie. </p> </td> 
+   <td colname="col2"> <p>Fontfamilie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1114,7 +1114,7 @@ De oorsprong van de inhoud wordt beheerd met de volgende CSS-klassenkiezer:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>Lettertypefamilie. </p> </td> 
+   <td colname="col2"> <p>Fontfamilie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1151,7 +1151,7 @@ De beschrijving van de inhoud wordt beheerd met de volgende CSS-klassenkiezer:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>Lettertypefamilie. </p> </td> 
+   <td colname="col2"> <p>Fontfamilie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1197,7 +1197,7 @@ Wanneer een gebruiker onjuiste invoergegevens invoert en inlinevalidering misluk
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>Lettertypefamilie. </p> </td> 
+   <td colname="col2"> <p>Fontfamilie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> regelhoogte </span> </p> </td> 

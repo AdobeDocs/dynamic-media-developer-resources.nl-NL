@@ -5,9 +5,9 @@ title: Pad *
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 28758709-26ae-4261-b11e-34e37b9d1b8c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Tekstreeks. Vereist voor textuur- en decal-materialen, facultatief voor materiaa
 
 Renderen van afbeeldingen ondersteunt dezelfde bronafbeeldingsindelingen als Dynamic Media Image Serving.
 
-Toepassingen waarvoor afbeeldingsgegevens in meerdere resoluties nodig zijn, presteren het beste als de indeling voor meerresolutie van de Dynamic Media piramid TIFF (PTIFF) wordt gebruikt. De Beeldserver omvat het hulpmiddel van de Omzetter van het Beeld (IC) dat tot beelden PTIFF van om het even welk gesteund formaat leidt.
+Toepassingen waarvoor afbeeldingsgegevens in meerdere resoluties nodig zijn, presteren het best als de indeling voor meerresolutie van de Dynamic Media-piramid-TIFF (PTIFF) wordt gebruikt. De Beeldserver omvat het hulpmiddel van de Omzetter van het Beeld (IC) dat tot beelden PTIFF van om het even welk gesteund formaat leidt.
 
 Raadpleeg de beschrijving van het IC-hulpprogramma in de documentatie van Image Serving voor een volledige lijst met ondersteunde bestandsindelingen.
 

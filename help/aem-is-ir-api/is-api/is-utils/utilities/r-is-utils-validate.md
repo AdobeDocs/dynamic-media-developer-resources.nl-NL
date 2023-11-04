@@ -1,20 +1,20 @@
 ---
-description: Hulpprogramma voor het valideren van afbeeldingen. Dit opdrachtregelhulpprogramma controleert afbeeldingsbestanden om te controleren of deze geldig zijn en zonder problemen kunnen worden gelezen door Image Serving.
+description: Hulpprogramma voor het valideren van afbeeldingen. Dit opdrachtregelprogramma controleert afbeeldingsbestanden om te controleren of deze geldig zijn en zonder problemen kunnen worden gelezen door Image Serving.
 solution: Experience Manager
 title: validate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 78d50fe9-95c6-4335-98d8-3322839ee02d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
 
 # validate{#validate}
 
-Hulpprogramma voor het valideren van afbeeldingen. Dit opdrachtregelhulpprogramma controleert afbeeldingsbestanden om te controleren of deze geldig zijn en zonder problemen kunnen worden gelezen door Image Serving.
+Hulpprogramma voor het valideren van afbeeldingen. Dit opdrachtregelprogramma controleert afbeeldingsbestanden om te controleren of deze geldig zijn en zonder problemen kunnen worden gelezen door Image Serving.
 
 Alle niet-PTIFF-afbeeldingsbestanden moeten worden gevalideerd voordat het bestand beschikbaar wordt gemaakt voor afbeeldingen die als bronafbeelding fungeren. PTIFF-afbeeldingen moeten worden gevalideerd na mogelijk onbetrouwbare kopieerbewerkingen.
 
@@ -25,11 +25,11 @@ Alle niet-PTIFF-afbeeldingsbestanden moeten worden gevalideerd voordat het besta
 <table id="simpletable_D2C6B20E1007433AB4184A73046A44F0"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> fileType </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> -jpeg | -ptif | -alle </span> </p> <p>bronbestandstype; er moet ten minste één worden opgegeven (-om staat dezelfde afbeeldingsbestandstypen toe die worden ondersteund door IC). </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -jpeg | -ptif | -alle </span> </p> <p>Bronbestandstype; ten minste één bestandstype moet worden opgegeven (-een staat dezelfde afbeeldingsbestandstypen toe die worden ondersteund door IC). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> opties </span> </span> </p> </td> 
-  <td class="stentry"> <p>Andere opdrachtopties (zie hieronder). </p> </td> 
+  <td class="stentry"> <p>Andere opdrachtopties (zie verderop). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> sourceFile </span> </span> </p> </td> 

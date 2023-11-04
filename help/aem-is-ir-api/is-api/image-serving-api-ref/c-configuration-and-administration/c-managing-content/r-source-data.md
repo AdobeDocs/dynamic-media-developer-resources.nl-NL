@@ -5,9 +5,9 @@ title: Brongegevens
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: d7e9c101-8d34-4241-b03c-131f31c25933
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,6 @@ Alles `*`rootPath`*` segmenten kunnen leeg, relatief of absoluut zijn.
 
 `*`catalogPath`*` is een absoluut of relatief bestandspad/-naam. `*`requestPath`*` moet een relatief bestandspad/-naam zijn.
 
-`Multiple IS::RootPath` waarden kunnen worden gedefinieerd in ImageServerRegistry.xml (of via de beheerdersinterface). Hierdoor kunnen brongegevensbestanden over meerdere bestandssystemen worden verspreid. De server van het Beeld zal afwisselende wegen in de gespecificeerde orde proberen tot het gegevensdossier wordt gevonden.
+`Multiple IS::RootPath` waarden kunnen worden gedefinieerd in ImageServerRegistry.xml (of via de beheerdersinterface). Hierdoor kunnen brongegevensbestanden over meerdere bestandssystemen worden verspreid. De server van het Beeld probeert afwisselende wegen in de gespecificeerde orde tot het gegevensdossier wordt gevonden.
 
 U kunt op elk moment nieuwe gegevensbestanden toevoegen zonder de server te stoppen.

@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 7040edf2-4356-4493-b886-8c5694f5863a
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 0%
@@ -51,7 +51,7 @@ De vormgeving van de stalencontainer wordt bepaald door de volgende CSS-klassenk
  </tbody> 
 </table>
 
-Voorbeeld - voor het instellen van stalen op 460 x 100 pixels:
+Voorbeeld - Stalen instellen op 460 x 100 pixels:
 
 ```
 .s7flyoutviewer .s7swatches { 

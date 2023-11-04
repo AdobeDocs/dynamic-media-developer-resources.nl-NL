@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 32b55fb1-1408-4264-92fa-b3a73f31df1d
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1395'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Om responsieve, ontworpen CSS te maken, ondersteunt de viewer CSS-markeringen di
 
 De eerste groep CSS-markeringen bevat `.s7size_large`, `.s7size_medium`, en `.s7size_small` klassen. Ze worden toegepast op basis van het runtimegebied van de viewercontainer. Dit betekent dat het viewergebied gelijk is aan of groter is dan het formaat van een algemene desktopmonitor `.s7size_large` wordt gebruikt; als het gebied zich in de buurt van een gebruikelijke tabletvorm bevindt `.s7size_medium` is toegewezen. Voor gebieden die vergelijkbaar zijn met mobiele-telefoonschermen. De markering `.s7size_small` is ingesteld. Het belangrijkste doel van deze CSS-markeringen is het maken van verschillende lay-outs voor de gebruikersinterface voor verschillende schermen en viewerformaten.
 
-De tweede groep CSS-markeertekens bevat `.s7mouseinput` en `.s7touchinput`. De markering `.s7touchinput` wordt ingesteld als het huidige apparaat aanraakinvoermogelijkheden heeft; anders, `.s7mouseinput` wordt gebruikt. Deze markeringen zijn bedoeld om invoerelementen voor de gebruikersinterface te maken met verschillende schermgrootten voor verschillende invoertypen, omdat aanraakinvoer doorgaans grotere elementen vereist. Als het apparaat zowel muisinvoer- als aanraakmogelijkheden heeft, `.s7touchinput` wordt ingesteld en de viewer een aanraakvriendelijke gebruikersinterface weergeeft.
+De tweede groep CSS-markeertekens bevat `.s7mouseinput` en `.s7touchinput`. De markering `.s7touchinput` wordt ingesteld als het huidige apparaat aanraakinvoermogelijkheden heeft; anders `.s7mouseinput` wordt gebruikt. Deze markeringen zijn bedoeld om invoerelementen voor de gebruikersinterface te maken met verschillende schermgrootten voor verschillende invoertypen, omdat aanraakinvoer doorgaans grotere elementen vereist. Als het apparaat zowel muisinvoer- als aanraakmogelijkheden heeft, `.s7touchinput` wordt ingesteld en de viewer een aanraakvriendelijke gebruikersinterface weergeeft.
 
 In het volgende voorbeeld-CSS wordt de inzoomknopgrootte ingesteld op 28 x 28 pixels op systemen met muisinvoer en op 56 x 56 pixels op aanraakapparaten. Bovendien wordt de knop volledig verborgen als de viewergrootte te klein wordt:
 
@@ -88,7 +88,7 @@ Gebruik bij toepassing op mobiele viewers vier CSS-mediaquery&#39;s die in de vo
    }
    ```
 
-1. Bevat alleen specifieke regels voor tablets met schermen met hoge resolutie.
+1. Bevat alleen regels die specifiek zijn voor tablets met schermen met hoge resolutie.
 
    ```
    @media only screen and (max-device-width:13.5in) and (max-device-height:13.5in) and (max-device-width:799px) and (-webkit-min-device-pixel-ratio:1.5), 
@@ -115,7 +115,7 @@ Gebruik bij toepassing op mobiele viewers vier CSS-mediaquery&#39;s die in de vo
    }
    ```
 
-Als u een mediaqueryaanpak gebruikt, moet u CSS met apparaatdetectie als volgt ordenen:
+Met een mediaqueryaanpak moet u CSS met apparaatdetectie als volgt ordenen:
 
 * Ten eerste definieert de desktopspecifieke sectie alle eigenschappen die specifiek zijn voor het bureaublad of die op alle schermen van toepassing zijn.
 * Ten tweede gaan de vier mediaquery&#39;s in de hierboven gedefinieerde volgorde en bieden ze CSS-regels die specifiek zijn voor het overeenkomstige apparaattype.
@@ -124,7 +124,7 @@ Het is niet nodig om de volledige viewer-CSS in elke mediaquery te dupliceren. A
 
 ## CSS-sprites {#section-9d570f95eb2443aca74c1b02f6e89aff}
 
-Veel gebruikersinterface-elementen van de viewer worden opgemaakt met behulp van bitmapillustraties en hebben meer dan één specifieke visuele status. Een goed voorbeeld is een knop die normaal ten minste drie verschillende toestanden heeft: &quot;up&quot;, &quot;over&quot; en &quot;down&quot;. Elke status vereist een eigen toegewezen bitmapillustratie.
+Veel gebruikersinterface-elementen van de viewer worden opgemaakt met behulp van bitmapillustraties en hebben meer dan één specifieke visuele status. Een goed voorbeeld is een knop met normaal ten minste drie verschillende toestanden: &quot;omhoog&quot;, &quot;boven&quot; en &quot;omlaag&quot;. Elke status vereist een eigen toegewezen bitmapillustratie.
 
 Bij een klassieke benadering van opmaak zou de CSS een afzonderlijke verwijzing naar het afzonderlijke afbeeldingsbestand op de server hebben voor elke status van het interface-element. Hier volgt een voorbeeld-CSS voor het opmaken van een inzoomknop:
 
@@ -143,7 +143,7 @@ background-image:url(images/v2/ZoomInButton_dark_disabled.png);
 }
 ```
 
-Het nadeel van deze benadering is dat de eindgebruiker flikkerende of vertraagde gebruikersinterfacerespons ervaart wanneer het element voor het eerst met elkaar in wisselwerking staat. Deze handeling treedt op omdat de afbeeldingsillustratie voor de nieuwe elementstatus nog niet is gedownload. Deze aanpak kan ook een enigszins negatief effect hebben op de prestaties als gevolg van een toename van het aantal HTTP-aanroepen naar de server.
+Het nadeel van deze aanpak is dat de eindgebruiker een flikkerende of vertraagde reactie van de gebruikersinterface ervaart wanneer het element voor het eerst wordt gebruikt. Deze handeling treedt op omdat de afbeeldingsillustratie voor de nieuwe elementstatus nog niet is gedownload. Deze aanpak kan ook een enigszins negatief effect hebben op de prestaties als gevolg van een toename van het aantal HTTP-aanroepen naar de server.
 
 CSS-sprites is een andere aanpak waarbij afbeeldingsillustraties voor alle elementstatussen worden gecombineerd in één PNG-bestand dat een &#39;sprite&#39; wordt genoemd. Zulk &quot;SPRITE&quot;heeft alle visuele staten voor het bepaalde die element één na een andere wordt geplaatst. Wanneer het stileren van een gebruikersinterface element met sprites, wordt het zelfde SPRITE beeld van verwijzingen voorzien voor alle verschillende staten in CSS. Ook de `background-position` eigenschap wordt voor elke status gebruikt om aan te geven welk deel van de &quot;sprite&quot;-afbeelding wordt gebruikt. U kunt een sprite-afbeelding op elke gewenste manier structureren. De kijkers hebben het gewoonlijk verticaal gestapeld. Hieronder ziet u een op sprite gebaseerd voorbeeld waarin u dezelfde inzoomknop van bovenaf opmaakt:
 
@@ -167,14 +167,14 @@ background-position: -0px -560px;
 
 ## Algemene opmaakopmerkingen en advies {#section-95855dccbbc444e79970f1aaa3260b7b}
 
-* Wanneer u de gebruikersinterface van de viewer aanpast met CSS, kunt u het volgende doen: `!IMPORTANT` regel wordt niet ondersteund voor het opmaken van viewerelementen. Met name: `!IMPORTANT` Deze regel mag niet worden gebruikt om standaardstijlen of runtimestijlen van de viewer of Viewer SDK te negeren. De reden hiervoor is dat het het gedrag van juiste componenten kan beïnvloeden. Gebruik in plaats daarvan CSS-kiezers met de juiste specificiteit om CSS-eigenschappen in te stellen die in deze naslaggids worden beschreven.
+* Wanneer u de gebruikersinterface van de viewer aanpast met CSS, kunt u de optie `!IMPORTANT` regel wordt niet ondersteund voor het opmaken van viewerelementen. Met name: `!IMPORTANT` Deze regel mag niet worden gebruikt om standaardstijlen of runtimestijlen van de viewer of Viewer SDK te negeren. De reden hiervoor is dat het het gedrag van juiste componenten kan beïnvloeden. Gebruik in plaats daarvan CSS-kiezers met de juiste specificiteit om CSS-eigenschappen in te stellen die in deze naslaggids worden beschreven.
 * Alle paden naar externe elementen in CSS worden omgezet op de CSS-locatie, niet op de locatie van de HTML-pagina van de viewer. Houd rekening met deze regel wanneer u de standaard-CSS naar een andere locatie kopieert. Kopieer de standaardelementen of werk paden bij in de aangepaste CSS.
 * De voorkeursindeling voor bitmapillustraties is PNG.
 * Bitmapillustraties worden aan de hand van de `background-image` eigenschap.
 * De `width` en `height` eigenschappen van een interface-element definiëren de logische grootte ervan. De grootte van de bitmap die wordt doorgegeven aan `background-image` heeft geen invloed op de logische grootte.
 * Als u de hoge pixeldichtheid van schermen met hoge resolutie, zoals Retina, wilt gebruiken, geeft u bitmapillustraties twee keer zo groot op als de logische grootte van de gebruikersinterface-elementen. Pas vervolgens de `-webkit-background-size:contain` eigenschap om de achtergrond naar beneden te schalen naar de logische grootte van het gebruikersinterface-element.
 * Als u een knop uit de gebruikersinterface wilt verwijderen, voegt u `display:none` naar de CSS-klasse.
-* U kunt verschillende indelingen gebruiken voor kleurwaarden die door CSS worden ondersteund. Gebruik de indeling als u transparantie nodig hebt `rgba(R,G,B,A)`. Anders kunt u de indeling gebruiken `#RRGGBB`.
+* U kunt verschillende indelingen gebruiken voor kleurwaarden die CSS ondersteunt. Gebruik de indeling als u transparantie nodig hebt `rgba(R,G,B,A)`. Anders kunt u de indeling gebruiken `#RRGGBB`.
 
 ## Algemene gebruikersinterface-elementen {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
 
@@ -191,7 +191,7 @@ Hier volgt de documentatie van de gebruikersinterface-elementen die van toepassi
 * [Weergave Favorieten](r-html5-ecatsearch-customize-favoritesview.md)
 * [Knop Eerste pagina](r-html5-ecatsearch-customize-firstpagebutton.md)
 * [Focus markeren](r-html5-ecatsearch-customize-focushighlight.md)
-* [Knop Volledig scherm](r-html5-ecatsearch-customize-fullscreenbutton.md)
+* [schermvullende knop](r-html5-ecatsearch-customize-fullscreenbutton.md)
 * [Pictogram, effect](r-html5-ecatsearch-customize-iconeffect.md)
 * [Pop-up deelvenster Info](r-html5-ecatsearch-customize-infopanelpopup.md)
 * [Afbeeldingskaart, effect](r-html5-ecatsearch-customize-imagemapeffect.md)
@@ -200,7 +200,7 @@ Hier volgt de documentatie van de gebruikersinterface-elementen die van toepassi
 * [Knop Laatste pagina](r-html5-ecatsearch-customize-lastpagebutton.md)
 * [Delen van koppeling](r-html5-ecatsearch-customize-linkshare.md)
 * [Hoofdbesturingsbalk](r-html5-ecatsearch-customize-maincontrolbar.md)
-* [Hoofdviewergebied](r-html5-ecatsearch-customize-mainviewerarea.md)
+* [Hoofdgebied van viewer](r-html5-ecatsearch-customize-mainviewerarea.md)
 * [Knop Volgende pagina](r-html5-ecatsearch-customize-nextpagebutton.md)
 * [Pagina-indicator](r-html5-ecatsearch-customize-pageindicator.md)
 * [Paginaweergave](r-html5-ecatsearch-customize-pageview.md)
@@ -216,7 +216,7 @@ Hier volgt de documentatie van de gebruikersinterface-elementen die van toepassi
 * [Miniaturen](r-html5-ecatsearch-customize-thumbnails.md)
 * [Knop Miniaturen](r-html5-ecatsearch-customize-thumbnailsbutton.md)
 * [Knopinfo](r-html5-ecatsearch-customize-tooltips.md)
-* [Twitter share](r-html5-ecatsearch-customize-twittershare.md)
+* [Twitter delen](r-html5-ecatsearch-customize-twittershare.md)
 * [De knop Alle favorieten weergeven](r-html5-ecatsearch-customize-viewallfavorites.md)
 * [Knop Inzoomen](r-html5-ecatsearch-customize-zoominbutton.md)
 * [Knop Uitzoomen](r-html5-ecatsearch-customize-zoomoutbutton.md)

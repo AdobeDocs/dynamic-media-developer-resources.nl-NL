@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f1200d86-d88c-4990-ae36-2ce96ae94343
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Laag, opdracht. Verwijzingen naar vervangingsvariabelen worden niet ondersteund 
 
 ## Standaard {#section-091859a03f8048c2b7092f0fec9c1006}
 
-`layer=comp`. Veel opdrachten en kenmerken zijn van toepassing op laag 0 als `layer=comp`.
+`layer=comp`. Veel opdrachten en kenmerken gelden voor laag 0 als `layer=comp`.
 
 ## Speciale gevallen {#section-e087cb2e3562473e8d391abfa3b9489f}
 
@@ -65,13 +65,13 @@ Laag, opdracht. Verwijzingen naar vervangingsvariabelen worden niet ondersteund 
 * Als dezelfde naam meerdere malen aan één laag is toegewezen (bijvoorbeeld: `layer=1,image&layer=1,image`), wordt het bereik op de gebruikelijke wijze ingesteld, zonder fouten.
 * Meerdere namen voor dezelfde laag worden ondersteund.
 
-   U kunt een van de namen gebruiken om naar de laag te verwijzen (bijvoorbeeld: `layer=1,image&layer=1,picture`).
+  U kunt beide namen gebruiken om naar de laag te verwijzen (bijvoorbeeld: `layer=1,image&layer=1,picture`).
 * Als een naam waarnaar wordt verwezen nooit wordt toegewezen aan een laagnummer (bijvoorbeeld: `layer=1,image&layer=picture`), treedt er een fout op.
 * Vervangende variabelen worden niet ondersteund in laagmodifiers (bijvoorbeeld: `layer=$image$`).
 
-   Dit geldt voor alle permutaties, niet alleen voor laagnamen maar ook voor laagmodifiers in het algemeen.
+  Dit geldt voor alle permutaties, niet alleen voor laagnamen, maar ook voor laagmodifiers in het algemeen.
 
-* Alle regels voor samenvoegen en overschrijven werken precies zo als wanneer in meerdere bronnen naar dezelfde laag wordt verwezen (aanvraag, catalogusrecords vóór of na wijziging, macro&#39;s, enz.).
+* Alle regels voor samenvoegen en overschrijven werken precies zo als wanneer in meerdere bronnen naar dezelfde laag wordt verwezen (aanvraag, catalogusrecords vóór of na wijziging, macro&#39;s, enzovoort.)
 
 ## Voorbeeld {#section-cc40de6a0a754178aa752601539c815b}
 

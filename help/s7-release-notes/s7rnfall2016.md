@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic
 role: Developer,User
 exl-id: 23091ef7-750a-4ec2-9d03-1d713f436991
-source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2209'
+source-wordcount: '2204'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ De meest recente release bevat de Adobe Scene7 Fall 2016-oplossing, die deel uit
 
 ## Scene7 Fall 2016 Release {#topic-791cdf80f91e457fbb63bfedf79f5a94}
 
-De meest recente releaseopmerkingen voor [!DNL Adobe Scene7] Vrijgavedeel van de Fall 2016 [!DNL Adobe Experience Manager] in de [!DNL Adobe Experience Cloud].
+De meest recente releaseopmerkingen voor [!DNL Adobe Scene7] Vrijgavedeel van de Fall 2016 [!DNL Adobe Experience Manager] oplossing in de [!DNL Adobe Experience Cloud].
 
 * [Algemeen](s7rnfall2016.md#section-52afeb72ecb34c1585ea67a5051825a2)
 * [Scene7](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
@@ -30,20 +30,20 @@ De meest recente releaseopmerkingen voor [!DNL Adobe Scene7] Vrijgavedeel van de
 
 ## Algemeen {#section-52afeb72ecb34c1585ea67a5051825a2}
 
-Adobe is opgetogen om de beschikbaarheid van HTTP/2 levering van inhoud aan te kondigen met het algemene voordeel van betere prestaties.
+De Adobe is opgetogen om de beschikbaarheid van HTTP/2 levering van inhoud aan te kondigen met het algemene voordeel van betere prestaties.
 
 Zie [HTTP2 Veelgestelde vragen over inhoud](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
 
 ## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
-Voor volledige documentatie raadpleegt u [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
+Zie voor volledige documentatie [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
 
 **Nieuwe functies, verbeteringen en foutoplossingen**
 
 * Functie voor videorecut is verwijderd uit [!DNL Adobe Scene7 Publishing System] gebruikersinterface.
 * Waar nodig en mogelijk verificatie toegevoegd aan alle Scene7-servlets
 * Opgeloste problemen in verband met de lijstweergave in de prullenbak.
-* Verwijderd **Dynamic Media Classic (Scene7)-beheerder maken** door beveiligingsproblemen.
+* Verwijderd **Dynamic Media Classic (Scene7)-beheerder maken** gebruikersfunctie van Gebruikersbeheer vanwege beveiligingsproblemen.
 * FTP WebAdmin ondersteunt nu OKTA-verificatie.
 * Verwijderd de eigenschap van het standaardwachtwoord dat voor nieuwe gebruikers van het Portaal van Media werd gecreeerd.
 * Bugfixatie die het tijdelijke wachtwoord impliceert dat werd geproduceerd toen een nieuwe gebruiker werd toegevoegd. Het wachtwoord voldoet niet aan de vereiste wachtwoordvereisten.
@@ -52,23 +52,23 @@ Voor volledige documentatie raadpleegt u [https://experienceleague.adobe.com/doc
 * Opgeloste problemen waarbij een gebruiker is verwijderd en die u later niet opnieuw hebt gemaakt.
 * Bugfixatie met betrekking tot het welkomstbericht dat naar nieuwe Scene7-gebruikers is verzonden en waarbij geen verificatie is opgenomen voor het beheren van bepaalde instellingen.
 * Opgeloste problemen waarbij een FTP-mappenlijst niet kan worden opgehaald als een map speciale tekens in de naam bevat.
-* Configureer OKTA-serviceproviders voor Scene7-omgevingen.
+* OKTA-serviceproviders configureren voor Scene7-omgevingen.
 * Toegevoegde ondersteuning voor Experience Cloud Org ID for Viewer Analytics.
 * Implementeerde Scene7 SAML-consument.
 
 ## Viewers (afbeeldingen met 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Voor volledige documentatie raadpleegt u [Referentiehandleiding voor viewers](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Zie voor volledige documentatie [Referentiehandleiding voor viewers](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Bugfixes voor afbeeldingen in 5.5.3**
 
 * Compatibiliteit met RequireJS- en DOJO-bibliotheken.
 
-   Geconsolideerde SDK JS-caching tijdens viewerimplementatie.
+  Geconsolideerde SDK JS-caching tijdens viewerimplementatie.
 
 ## Viewers (afbeelding met 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Voor volledige documentatie raadpleegt u [Referentiehandleiding voor viewers](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Zie voor volledige documentatie [Referentiehandleiding voor viewers](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Bugfixes voor afbeeldingen in 5.5.2**
 
@@ -77,15 +77,15 @@ Voor volledige documentatie raadpleegt u [Referentiehandleiding voor viewers](ht
 
 ## Viewers (afbeelding met 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Voor volledige documentatie raadpleegt u [Referentiehandleiding voor viewers](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Zie voor volledige documentatie [Referentiehandleiding voor viewers](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Nieuwe functies, verbeteringen en foutoplossingen voor Image Serving 5.5.1**
 
 * HTML5 eCatalog-viewer met zoekfunctie.
-* Toegevoegde HLS-streaming video playback als standaardmethode voor het afspelen van video voor de meeste desktopsystemen. Op Flash gebaseerde HDS-videostreaming is nog steeds beschikbaar als alternatieve afspeeloptie.
-* Extra ondersteuning voor apparaten met zowel muis- als aanraakinvoer via Chrome-browser.
+* Toegevoegde HLS-streaming video playback als standaardmethode voor het afspelen van video voor de meeste desktopsystemen. HDS-videostreaming op basis van Flash is nog steeds beschikbaar als alternatieve afspeeloptie.
+* Toegevoegde ondersteuning voor apparaten met zowel muis- als aanraakinvoer via Chrome-browser.
 * Ondersteuning voor Experience Cloud Org ID toegevoegd aan de integratie met Analytics.
-* Werk de JavaScript-bibliotheek AppMeasurement bij naar versie 1.6.1.
+* AppMeasurement JavaScript-bibliotheek bijwerken naar versie 1.6.1.
 * Extra ondersteuning voor oriëntatie van rechts naar links in de eCatalog-viewer.
 * Probleem opgelost waarbij `tip=0,-1,0` heeft een fout veroorzaakt die buiten het bereik valt.
 
@@ -97,19 +97,19 @@ Voor volledige documentatie raadpleegt u [Referentiehandleiding voor viewers](ht
 
 * Algemeen
 
-   * Schalen aan de browserzijde kan de interface en afbeeldingen vervagen wanneer de gebruiker inzoomt op de pagina. De opmaak van de gebruikersinterface kan ook onjuist worden weergegeven, afhankelijk van zoomen. Dit effect wordt op volledig scherm weergegeven.
+   * Schalen aan de browserzijde kan de interface en afbeeldingen vervagen wanneer de gebruiker inzoomt op de pagina. De opmaak van de gebruikersinterface kan ook onjuist worden weergegeven, afhankelijk van zoomen. Dit effect gaat over op het volledige scherm.
    * Vanwege groottebeperking op mobiele apparaten gebruikt de gemengde Media Viewer een diabeweging om frames in ingesloten afbeeldingssets te wisselen in plaats van op de ingesloten stalenscomponent te tikken. De component is er als visuele indicator.
    * In Internet Explorer-browsers en sommige aanraakapparaten neemt de modus Volledig scherm niet het volledige apparaatscherm in beslag. In plaats daarvan wordt de grootte van de toepassing aangepast aan het browservenster.
    * De knop Sluiten werkt niet in iOS 8.0 en 8.1, maar komt niet meer voor in iOS 8.2
 
 * Galaxy SIII
 
-   * Geheugenlek gezien met Zoom- en eCatalog HTML5-viewers. Herhaalde navigatie door frames kan ertoe leiden dat de browser vastloopt.
+   * Geheugenlek gezien met Zoom en eCatalog HTML5 viewers. Herhaalde navigatie door frames kan ertoe leiden dat de browser vastloopt.
    * Dubbeltik op de viewer kan ertoe leiden dat de hele pagina in- en uitzoomen in plaats van alleen de viewer waarvoor schaling aan de browserzijde is ingeschakeld.
 
 * Galaxy S4
 
-   * Apparaat gedetecteerd als tablet in de staande modus met Volledig scherm ingeschakeld in de browserinstellingen.
+   * Apparaat gedetecteerd als tablet in de staande modus met volledig scherm ingeschakeld in de browserinstellingen.
 
 * Galaxy Nexus
 
@@ -121,14 +121,14 @@ Voor volledige documentatie raadpleegt u [Referentiehandleiding voor viewers](ht
 
 * HTC mobiele apparaten
 
-   * De mobiele apparaten van HTC tonen de bevindingen van Adobe aan dat het onvermogen om inheems knijpbeweging te onbruikbaar te maken een &quot;eigenschap&quot;van de omslag van HTML UI (HTC Sense) is. Door dit probleem kan de hele pagina worden ingezoomd wanneer een zoombeweging met een knijpbeweging in de viewer wordt gebruikt. Stel voor dat u dubbeltikt.
+   * De bevindingen van de Adobe van HTC mobiele apparaten tonen aan dat het onvermogen om native knijpzoomen onbruikbaar te maken een &quot;eigenschap&quot;van de omslag van HTML UI (HTC Sense) is. Door dit probleem kan de hele pagina worden ingezoomd wanneer een zoombeweging met een knijpbeweging in de viewer wordt gebruikt. Stel voor dat u dubbeltikt.
    * Pictogrammen met afbeeldingen met hyperlinks kunnen elkaar overlappen als de afbeeldingen met hyperlinks klein zijn en dicht bij elkaar liggen.
 
 * HTML5-video
 
    * Internet Explorer 9: aangepaste posterafbeeldingen worden niet weergegeven.
    * `IntialBitRate` modifier wordt alleen ondersteund bij het afspelen van software-HLS en Flash HDS. Dit werkt niet wanneer het afspelen de native speler gebruikt.
-   * OGG en WebM progressief afspelen worden momenteel niet ondersteund.
+   * Op dit moment wordt het progressieve afspelen van OGG en WebM niet ondersteund.
    * Schalen in de browser kan ertoe leiden dat de videospeler op een onjuiste grootte wordt weergegeven (inclusief de weergave-instellingen van het besturingsvenster van Windows OS).
    * Videozoekopdrachten waarbij gebruik wordt gemaakt van HLS-streaming op Safari kunnen inconsistent zijn.
 
@@ -145,7 +145,7 @@ Voor volledige documentatie raadpleegt u [Referentiehandleiding voor viewers](ht
 
 * Safari
 
-   * Safari 6.1 of hoger: Instellingen voor Internet Plug-ins kunnen het afspelen van Flash-video voorkomen.
+   * Safari 6.1 of hoger: instellingen voor Internet Plug-ins kunnen het afspelen van video via de Flash voorkomen.
    * Video &#39;seek&#39; met gebruik van HLS-streaming op Safari kan inconsistent zijn.
    * Kan niet zoeken tot einde van video in Safari 6 met gebruik van HLS-streaming.
 
@@ -153,7 +153,7 @@ Voor volledige documentatie raadpleegt u [Referentiehandleiding voor viewers](ht
 
 * De opties van de Beeldserver van `iscommands` worden niet toegevoegd aan de `req=set` aanvraag door ontwerp. Modifiers die alleen van invloed zijn op de beeldweergave, werken prima. Modifiers die van invloed zijn op de grootte, moeten in een complex element worden gebruikt. Bijvoorbeeld:
 
-   `https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset= {Scene7SharedAssets/Backpack_B?extendn=0.5%252C0.5%252C0.5%252C0.5}`
+  `https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset= {Scene7SharedAssets/Backpack_B?extendn=0.5%252C0.5%252C0.5%252C0.5}`
 
 * [Flyout] IE9 blijft soms op het scherm nadat u de muis hebt uitgeschakeld.
 * Schalen in de browser leidt tot een onjuiste formaatwijziging.
@@ -166,7 +166,7 @@ Voor volledige documentatie raadpleegt u [Referentiehandleiding voor viewers](ht
 
 * HTML5 Alle viewers
 
-   * Het insluiten van een viewer in een tabel kan resulteren in een onjuiste grootte of plaatsing van de viewer in een niet-native modus voor volledig scherm. U kunt beter DIV&#39;s gebruiken.
+   * Het insluiten van een viewer in een tabel kan resulteren in een onjuiste grootte of plaatsing van de viewer in een andere modus dan de modus Volledig scherm. U kunt beter DIV&#39;s gebruiken.
    * Parameters met expliciete instantienamen in de code moeten instantienamen in de URL ook overschrijven (bijvoorbeeld `zoomView.iconfeffect=0`).
    * Uitsnijden van de opdracht Afbeeldingsserver wordt momenteel niet ondersteund.
    * De knop Sluiten werkt alleen als de viewer is geopend in het onderliggende venster.
@@ -191,8 +191,8 @@ Voor volledige documentatie raadpleegt u [Referentiehandleiding voor viewers](ht
 * HTML5-video
 
    * Er kan een fout met betrekking tot de maximale grootte optreden voor de posterafbeelding. Bedrijf moet de limietinstelling voor Publiceren van afbeeldingsserver verhogen.
-   * Videobijschriften vereisen een bedrijfsregels als het hosten van de HTML-pagina wordt verzorgd door een externe server (niet door een Scene7-server). Neem contact op met de ondersteuning van Adobe.
-   * Bij het bijhouden van analyses kan een onjuist afspeelpercentage worden gerapporteerd als gevolg van buffering
+   * Videobijschriften vereisen een bedrijfsregels als het hosten van de HTML-pagina wordt verzorgd door een externe server (niet door een Scene7-server). Neem contact op met de ondersteuning van de Adobe.
+   * Bij het bijhouden van analyses kan een onjuist afspeelpercentage worden gerapporteerd vanwege buffering
    * Zwart frame in plaats van posterafbeelding wordt mogelijk weergegeven op iPad- of Android™-apparaten.
    * Het zwarte frame kan op het scherm opvlammen tijdens het laden van de viewer op iPad- of Android™-apparaten.
    * Zwarte randen worden weergegeven aan de zijde van de component VideoPlayer wanneer de achtergrond op iPad-apparaten is ingesteld op wit/transparant.
@@ -203,7 +203,7 @@ Voor volledige documentatie raadpleegt u [Referentiehandleiding voor viewers](ht
 
 ## Scene7 HTML5 Viewer SDK 3.0.2 {#section-30e2392859c442d1aab2766d0f1d1580}
 
-De gebruikershandleiding bevindt zich in de map Adobe HTML5 Viewer SDK van de client-installatiemap. Component API-documentatie vindt u in de submap docs van de clientinstallatie.
+De gebruikershandleiding bevindt zich in de map Adobe HTML5 Viewer SDK van de clientinstallatie. Component API-documentatie vindt u in de submap docs van de clientinstallatie.
 
 **Bugfixes voor 3.0.2**
 
@@ -214,7 +214,7 @@ De gebruikershandleiding bevindt zich in de map Adobe HTML5 Viewer SDK van de cl
 
 * Algemeen
 
-   * Toegevoegde HLS-streaming video playback als standaardmethode voor het afspelen van video voor de meeste desktopsystemen. Op Flash gebaseerde HDS-videostreaming is nog steeds beschikbaar als alternatieve afspeeloptie.
+   * Toegevoegde HLS-streaming video playback als standaardmethode voor het afspelen van video voor de meeste desktopsystemen. HDS-videostreaming op basis van Flash is nog steeds beschikbaar als alternatieve afspeeloptie.
    * Toegevoegde componenten SearchManager, SearchPanel, SearchEffect, en SearchButton om nieuwe eigenschap van het Onderzoek in eCatalog kijkers te steunen.
    * Toegevoegde ondersteuning voor apparaten met zowel muis- als aanraakinvoer via de Chrome-browser.
    * Refactored Android™ versiedetectie om toekomstige versies van OS te steunen.
@@ -234,7 +234,7 @@ De gebruikershandleiding bevindt zich in de map Adobe HTML5 Viewer SDK van de cl
 
    * Als u de standaardinstelling wilt uitschakelen, moet blauw de volgende CSS-regel worden toegevoegd voor de component:
 
-      `-webkit-tap-highlight-color: rgba(0,0,0,0);`
+     `-webkit-tap-highlight-color: rgba(0,0,0,0);`
 
 * BlackBerry®
 
@@ -246,7 +246,7 @@ De gebruikershandleiding bevindt zich in de map Adobe HTML5 Viewer SDK van de cl
 
 * Galaxy SIII
 
-   * Viewer kan soms niet in volledig scherm worden geladen.
+   * Viewer kan soms niet worden geladen in een volledig scherm.
    * Er is momenteel onvoldoende geheugen beschikbaar voor de weergave van het beeld.
    * Dubbeltikken op een beweging zoomt de viewer en de pagina in wanneer schaling aan de browserzijde actief is.
 
@@ -255,13 +255,13 @@ De gebruikershandleiding bevindt zich in de map Adobe HTML5 Viewer SDK van de cl
    * Artefacten die over sommige meningscomponenten tonen.
    * Dubbeltikken op een beweging zoomt de viewer en de pagina in wanneer schaling aan de browserzijde actief is.
 
-* iPad 3
+* IPAD 3
 
    * De iPad 3 heeft een native resolutie van 2048 x 1536. Deze resolutie kan weergaveproblemen veroorzaken als de publicatie van het bedrijf IS, de afbeeldingsgroottebeperking lager is ingesteld.
 
 * iPhone4
 
-   * Pictogram voor opnieuw afspelen wordt na het schuiven door de pagina vervangen door het afspeelpictogram.
+   * Pictogram voor opnieuw afspelen van pictogrammen wordt na het schuiven van de pagina vervangen door het afspeelpictogram.
 
 * Internet Explorer
 
@@ -279,7 +279,7 @@ De gebruikershandleiding bevindt zich in de map Adobe HTML5 Viewer SDK van de cl
 
 * Aanraakapparaten
 
-   * De modus Volledig scherm neemt niet het volledige apparaatscherm in beslag, maar past de grootte van de toepassing aan het browservenster aan.
+   * de modus Volledig scherm neemt niet het volledige apparaatscherm in beslag, maar past de grootte van de toepassing aan het browservenster aan.
    * Aangepaste cursors werken niet op aanraakapparaten.
    * Paginaschaling op aanraakapparaten wordt momenteel niet ondersteund. Voor het insluiten van HTML5-viewers is de meta-tag viewport met de juiste instellingen vereist.
 
@@ -298,7 +298,7 @@ De gebruikershandleiding bevindt zich in de map Adobe HTML5 Viewer SDK van de cl
 
 * Aanraakapparaten
 
-   * Met een knijpbeweging op aanraakapparaten wordt geen zoomgebeurtenis gegenereerd
+   * Knijpbewegingen op aanraakapparaten genereren geen zoomgebeurtenis
 
 * Container
 

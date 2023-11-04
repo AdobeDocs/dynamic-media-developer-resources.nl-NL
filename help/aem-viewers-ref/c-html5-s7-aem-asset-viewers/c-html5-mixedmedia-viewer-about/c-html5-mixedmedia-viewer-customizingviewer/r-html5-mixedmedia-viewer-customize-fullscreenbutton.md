@@ -1,20 +1,20 @@
 ---
-title: Knop Volledig scherm
-description: Met deze knop activeert de gebruiker de modus Volledig scherm of wordt deze afgesloten wanneer deze door de gebruiker is geselecteerd. Deze wordt gebruikt wanneer de viewer afbeeldingen of centrifuges weergeeft. Deze knop wordt niet weergegeven als de viewer werkt in de pop-upmodus en het systeem geen native volledig scherm ondersteunt. U kunt deze knop vergroten, verkleinen, verkleinen en plaatsen met CSS.
+title: schermvullende knop
+description: Met deze knop activeert de gebruiker de modus Volledig scherm of wordt deze afgesloten wanneer deze door de gebruiker is geselecteerd. Deze wordt gebruikt wanneer de viewer afbeeldingen of centrifuges weergeeft. Deze knop wordt niet weergegeven als de viewer werkt in de pop-upmodus en het systeem geen ondersteuning biedt voor een native volledig scherm. U kunt deze knop vergroten, verkleinen, verkleinen en plaatsen met CSS.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 1df99614-9493-4c8a-bc51-4426b8c5467a
-source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
 
-# Knop Volledig scherm{#full-screen-button}
+# schermvullende knop{#full-screen-button}
 
-Met deze knop activeert de gebruiker de modus Volledig scherm of wordt deze afgesloten wanneer deze door de gebruiker is geselecteerd. Deze wordt gebruikt wanneer de viewer afbeeldingen of centrifuges weergeeft. Deze knop wordt niet weergegeven als de viewer werkt in de pop-upmodus en het systeem geen native volledig scherm ondersteunt. U kunt deze knop vergroten, verkleinen, verkleinen en plaatsen met CSS.
+Met deze knop activeert de gebruiker de modus Volledig scherm of wordt deze afgesloten wanneer deze door de gebruiker is geselecteerd. Deze wordt gebruikt wanneer de viewer afbeeldingen of centrifuges weergeeft. Deze knop wordt niet weergegeven als de viewer werkt in de pop-upmodus en het systeem geen ondersteuning biedt voor een native volledig scherm. U kunt deze knop vergroten, verkleinen, verkleinen en plaatsen met CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -75,7 +75,7 @@ De vormgeving van de knop wordt bepaald door de volgende CSS-klassenkiezer:
 
 De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) voor meer informatie .
 
-Voorbeeld - Een schermvullende knop van 32 x 32 pixels instellen en 6 pixels van de boven- en rechterrand van de viewer plaatsen. En ten slotte wordt voor elk van de vier verschillende knoptoestanden een andere afbeelding weergegeven wanneer deze is geselecteerd of niet is geselecteerd:
+Voorbeeld - Een knop voor volledig scherm van 32 x 32 pixels instellen en zes pixels van de boven- en rechterrand van de viewer plaatsen. En ten slotte wordt voor elk van de vier verschillende knoptoestanden een andere afbeelding weergegeven wanneer deze is geselecteerd of niet is geselecteerd:
 
 ```
 .s7mixedmediaviewer .s7fullscreenbutton { 

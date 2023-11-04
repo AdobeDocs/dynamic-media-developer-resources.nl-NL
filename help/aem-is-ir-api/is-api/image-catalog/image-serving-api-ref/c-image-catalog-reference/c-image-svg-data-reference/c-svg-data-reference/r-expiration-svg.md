@@ -5,9 +5,9 @@ title: Verlopen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 62d2368b-ea56-4964-ab9c-07454e19540c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Verlopen wordt gebruikt voor deze responstypen:
 * `req=userdata`
 * `req=map`
 
-Bepaalde typen reacties (bijvoorbeeld reacties op fouten) worden altijd gemarkeerd voor directe vervaldatum (of gecodeerd als niet-cachebaar), terwijl andere (bijvoorbeeld eigenschappen of standaardafbeeldingsreacties) speciale vervalinstellingen gebruiken ( `attribute::NonImgExpiration` en `attribute::DefaultExpiration`).
+Bepaalde typen reacties (bijvoorbeeld foutreacties) worden altijd gemarkeerd voor directe vervaldatum (of gecodeerd als niet-cachebaar), terwijl andere (bijvoorbeeld eigenschaps- of standaardafbeeldingsreacties) speciale vervalinstellingen gebruiken ( `attribute::NonImgExpiration` en `attribute::DefaultExpiration`).
 
 ## Eigenschappen {#section-7f5173d090cf48df8fa1a2c72b8c8c60}
 

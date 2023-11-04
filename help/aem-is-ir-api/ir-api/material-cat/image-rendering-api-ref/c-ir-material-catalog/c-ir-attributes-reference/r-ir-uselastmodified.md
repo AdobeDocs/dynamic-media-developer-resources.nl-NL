@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 31dfbc55-0efd-417b-be4a-67c878772388
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,8 @@ Deze optie moet alleen worden ingeschakeld als een gedistribueerd cachenetwerk, 
 
 * `catalog::TimeStamp`, `vignette::TimeStamp`, of `attribute::TimeStamp` niet is gedefinieerd, zodat de wijzigingstijd van de [!DNL catalog.ini] bestand wordt gebruikt als standaard voor `catalog::TimeStamp`.
 
-* In plaats van de materiaalcatalogusbestanden via een netwerkmontage te delen, heeft elke server een eigen instantie van de catalogusbestanden op een lokaal bestandssysteem.
-* Twee of meer instanties van hetzelfde [!DNL catalog.ini] bestanden hebben andere wijzigingsdatums voor het bestand. Dit kan worden veroorzaakt door het onjuist kopiëren van de bestanden.
+* In plaats van de materiaalcatalogusbestanden te delen via een netwerkmontage, heeft elke server een eigen instantie van de catalogusbestanden op een lokaal bestandssysteem.
+* Twee of meer instanties van hetzelfde [!DNL catalog.ini] bestanden hebben andere wijzigingsdatums voor het bestand, mogelijk veroorzaakt door het onjuist kopiëren van de bestanden.
 
 ## Eigenschappen {#section-453952244193452caccfaf7f601007c1}
 

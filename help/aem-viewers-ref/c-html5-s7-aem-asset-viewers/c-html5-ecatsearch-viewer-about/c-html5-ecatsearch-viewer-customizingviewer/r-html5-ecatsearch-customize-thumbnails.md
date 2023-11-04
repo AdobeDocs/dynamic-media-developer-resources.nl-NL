@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 25032917-237c-4227-92bd-ce66a6d003a0
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Miniaturen bestaan uit een raster van miniatuurafbeeldingen met een optionele sc
 
 U schakelt miniaturen in of uit door op de miniatuurknop in de hoofdbesturingsbalk te klikken. Wanneer miniaturen actief zijn, worden deze in de modale modus weergegeven boven op de gebruikersinterface van de viewer. De viewerlogica wijzigt de grootte van de miniatuurcontainer automatisch in het gehele viewergebied.
 
-De weergave van de container met miniaturen wordt bepaald door de volgende CSS-klassenkiezer:
+De vormgeving van de container met miniaturen wordt bepaald door de volgende CSS-klassenkiezer:
 
 `.s7ecatalogsearchviewer .s7thumbnailgridview`
 
@@ -197,11 +197,11 @@ Als er meer miniaturen zijn dan verticaal in de weergave passen, wordt met minia
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
-   <td colname="col2"> <p> De verticale verschuiving van de schuifbalk ten opzichte van de bovenkant van het gebied met miniaturen. </p> </td> 
+   <td colname="col2"> <p> De verticale verschuiving van de schuifbalk vanaf de bovenkant van het gebied met miniaturen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
-   <td colname="col2"> <p>De verticale verschuiving van de schuifbalk ten opzichte van de onderkant van het gebied met miniaturen. </p> </td> 
+   <td colname="col2"> <p>De verticale verschuiving van de schuifbalk vanaf de onderkant van het gebied met miniaturen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 

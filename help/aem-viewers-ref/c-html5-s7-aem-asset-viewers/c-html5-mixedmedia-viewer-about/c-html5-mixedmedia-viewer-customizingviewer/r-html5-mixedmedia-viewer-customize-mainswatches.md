@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: e6ff32bf-f85a-4288-a0e5-34487229a9d9
-source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
@@ -161,7 +161,7 @@ Voorbeeld - voor het instellen van pictogramoverlays voor centrifuges, stalenset
 }
 ```
 
-De vormgeving van de linker- en rechterschuifknoppen wordt bepaald door de volgende CSS-klassenkiezers:
+De vormgeving van de linker- en rechterschuifknoppen wordt bepaald door de volgende CSS-klassekiezers:
 
 `.s7mixedmediaviewer .s7swatches .s7scrollleftbutton`
 

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8419d68d-7579-4e62-abbd-7dc0a736ae23
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Vignetbestand. Geeft het vignet op dat voor de aanvraag moet worden gebruikt.
 
 U kunt een item voor een vignetkaart of een vignetbestand opgeven. Externe URL&#39;s zijn niet toegestaan.
 
-`vignette=` Kan worden gebruikt als alternatief voor het opgeven van het vignet in het verzoek-URL-pad. Wordt gebruikt om vignetten op te geven via variabelen in sjablonen.
+`vignette=` Kan worden gebruikt als alternatief voor het opgeven van het vignet in het verzoek-URL-pad. Wordt gebruikt om vignetten op te geven als variabelen in sjablonen.
 
 Indien *`catId`* niet is opgegeven, wordt de sessiecatalogus gebruikt.
 

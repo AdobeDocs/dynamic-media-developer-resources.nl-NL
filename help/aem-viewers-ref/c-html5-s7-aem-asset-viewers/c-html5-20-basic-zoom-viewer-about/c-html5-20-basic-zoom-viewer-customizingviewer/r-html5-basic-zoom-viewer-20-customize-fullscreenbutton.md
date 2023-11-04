@@ -1,20 +1,20 @@
 ---
-title: Knop Volledig scherm
-description: Hiermee gaat de viewer naar de modus Volledig scherm of wordt deze afgesloten wanneer de gebruiker hierop klikt. Deze knop wordt niet weergegeven als de viewer werkt in de pop-upmodus en het systeem native volledig scherm niet ondersteunt. U kunt deze knop vergroten, verkleinen, verkleinen en plaatsen met CSS.
+title: schermvullende knop
+description: Zorgt ervoor dat de viewer de modus Volledig scherm opent of verlaat wanneer de gebruiker hierop klikt. Deze knop wordt niet weergegeven als de viewer werkt in de pop-upmodus en het systeem geen native volledig scherm ondersteunt. U kunt deze knop vergroten, verkleinen, verkleinen en plaatsen met CSS.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: ec8ebf24-c8ae-43f1-86b9-0b30d529d277
-source-git-commit: d5f1f05c36c1cb8a57b5a4bb8a9d066c20e32e75
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
-# Knop Volledig scherm{#full-screen-button}
+# schermvullende knop{#full-screen-button}
 
-Hiermee gaat de viewer naar de modus Volledig scherm of wordt deze afgesloten wanneer deze door de gebruiker is geselecteerd. Deze knop wordt niet weergegeven als de viewer werkt in de pop-upmodus en het systeem native volledig scherm niet ondersteunt. U kunt deze knop vergroten, verkleinen, verkleinen en plaatsen met CSS.
+Hiermee gaat de viewer naar de modus Volledig scherm of wordt deze afgesloten wanneer deze door de gebruiker is geselecteerd. Deze knop wordt niet weergegeven als de viewer werkt in de pop-upmodus en het systeem geen native volledig scherm ondersteunt. U kunt deze knop vergroten, verkleinen, verkleinen en plaatsen met CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -75,7 +75,7 @@ De vormgeving van de knop wordt bepaald door de volgende CSS-klassenkiezer:
 
 De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie .
 
-Voorbeeld - om een schermvullende knop in te stellen van 32 x 32 pixels en zes pixels van de boven- en rechterrand van de viewer te plaatsen. Er moet een andere afbeelding worden weergegeven voor elk van de vier verschillende knoptoestanden, indien geselecteerd of niet geselecteerd:
+Voorbeeld - om een knop voor volledig scherm in te stellen met een resolutie van 32 x 32 pixels en zes pixels vanaf de boven- en rechterrand van de viewer. Er moet een andere afbeelding worden weergegeven voor elk van de vier verschillende knoptoestanden, indien geselecteerd of niet geselecteerd:
 
 ```
 .s7basiczoomviewer .s7fullscreenbutton { 

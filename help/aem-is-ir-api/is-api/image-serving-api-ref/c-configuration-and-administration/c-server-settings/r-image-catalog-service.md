@@ -5,9 +5,9 @@ title: Afbeeldingscatalogusservice
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: c089ef35-47a1-4921-8a5e-1ca78f29794d
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -30,4 +30,4 @@ Tijd in msec de catalogusdienst wacht na a [!DNL catalog.ini] bestand wordt gewi
 
 ## CS::catalog.refreshInterval - Frequentie voor bestandscontrole van catalogus {#section-517fefc1d8784777a1026abec8630d58}
 
-Frequentie waarop de catalogusservice controleert op wijzigingen in afbeeldingscatalogi. Geheel getal in msec.
+Frequentie waarop de catalogusservice controleert of er wijzigingen zijn aangebracht in afbeeldingscatalogi. Geheel getal in msec.

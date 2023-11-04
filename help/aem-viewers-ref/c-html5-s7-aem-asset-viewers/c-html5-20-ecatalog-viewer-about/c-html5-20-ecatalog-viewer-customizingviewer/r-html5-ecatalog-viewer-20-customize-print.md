@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 25057e72-f079-4221-91c2-760d99d30633
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '1469'
 ht-degree: 0%
@@ -172,7 +172,7 @@ Het pictogram en de titeltekst worden verpakt in een extra container die met het
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
-   <td colname="col2"> <p> Opvulling binnen voor het koptekstpictogram en de titel. </p> </td> 
+   <td colname="col2"> <p> Opvulling binnen voor koptekstpictogram en titel. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -226,7 +226,7 @@ De titel van de koptekst wordt bestuurd met de volgende CSS-klassenkiezer:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>Lettertypefamilie. </p> </td> 
+   <td colname="col2"> <p>Fontfamilie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
@@ -461,7 +461,7 @@ Bovendien delen beide knoppen dezelfde algemene CSS-klasse die CSS-instellingen 
 
 De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-elementen](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) voor meer informatie .
 
-Voorbeeld - voor het instellen van een voettekst in het dialoogvenster met een knop Annuleren van 64 x 34 en een knop Verzenden naar afdruk van 96 x 34, waarbij de tekstkleur en de achtergrondkleur voor elke knopstatus verschillen:
+Voorbeeld - voor het instellen van een voettekst in het dialoogvenster met een knop Annuleren van 64 x 34 en een knop Verzenden naar afdruk van 96 x 34, waarbij de tekstkleur en de achtergrondkleur voor elke knopstatus anders zijn:
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogfooter { 
@@ -716,7 +716,7 @@ Keuzerondjes en de bijschrifttekst worden bestuurd met de volgende CSS-klassenki
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> De totale breedte van het keuzerondje met een bijschrift. </p> </td> 
+   <td colname="col2"> <p> The total width of the radio button with a caption. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> kleur </span> </p> </td> 

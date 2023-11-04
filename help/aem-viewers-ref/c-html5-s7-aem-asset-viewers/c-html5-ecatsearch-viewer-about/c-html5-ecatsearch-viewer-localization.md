@@ -5,9 +5,9 @@ title: Lokalisatie van gebruikersinterface-elementen
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: c44bfb38-a523-4399-8dbd-936830bb7cac
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Bepaalde inhoud die in de eCatalog Viewer wordt weergegeven, is afhankelijk van een lokalisatie, zoals zoomknoppen, knoppen voor het wijzigen van de pagina, miniatuurknop, knop Volledig scherm, knop Sluiten en schuifbalkknoppen.
 
-Elke tekstinhoud in de viewer die kan worden gelokaliseerd, wordt vertegenwoordigd door een speciale viewer-SDK-id met de naam SYMBOL. Elk SYMBOL heeft een standaardtekstwaarde voor de landinstelling Engels ( `"en"`) wordt geleverd bij de viewer buiten de box en kunnen ook door de gebruiker gedefinieerde waarden worden ingesteld voor zoveel landinstellingen als nodig zijn.
+Elke tekstinhoud in de viewer die kan worden gelokaliseerd, wordt vertegenwoordigd door een speciale viewer-SDK-id met de naam SYMBOL. Elk SYMBOL heeft een aan de standaardwaarde gekoppelde tekstwaarde voor de landinstelling Engels ( `"en"`) wordt geleverd bij de viewer buiten de box en kunnen ook door de gebruiker gedefinieerde waarden worden ingesteld voor zoveel landinstellingen als nodig zijn.
 
 Wanneer de viewer wordt gestart, wordt de huidige landinstelling gecontroleerd om te zien of er een door de gebruiker gedefinieerde waarde is voor elk ondersteund SYMBOL in de landinstelling. Als dat het geval is, gebruikt het de user-defined waarde; anders, valt het terug naar de uit-van-de-doos standaardtekst.
 
@@ -58,7 +58,7 @@ De volgende SYMBOL&#39;s worden ondersteund (ervan uitgaande dat containerId de 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PageView.ROLE_DESCRIPTION </span> </p> </td> 
-   <td colname="col2"> <p>ARIA-rolbeschrijving voor de hoofdweergavecomponent. </p> </td> 
+   <td colname="col2"> <p>De rolbeschrijving van ARIA voor de belangrijkste meningscomponent. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PageView.USAGE_HINT </span> </p> </td> 
@@ -66,7 +66,7 @@ De volgende SYMBOL&#39;s worden ondersteund (ervan uitgaande dat containerId de 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CloseButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Knop Sluiten. </p> </td> 
+   <td colname="col2"> <p>Sluiten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZoomInButton.TOOLTIP </span> </p> </td> 
@@ -74,7 +74,7 @@ De volgende SYMBOL&#39;s worden ondersteund (ervan uitgaande dat containerId de 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZoomOutButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Knop Uitzoomen. </p> </td> 
+   <td colname="col2"> <p>Uitzoomen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZoomResetButton.TOOLTIP </span> </p> </td> 
@@ -82,11 +82,11 @@ De volgende SYMBOL&#39;s worden ondersteund (ervan uitgaande dat containerId de 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
-   <td colname="col2"> <p>De knop Volledig scherm in normale toestand. </p> </td> 
+   <td colname="col2"> <p>schermvullende knop in normale toestand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED </span> </p> </td> 
-   <td colname="col2"> <p>De knop Volledig scherm in volledige schermstatus. </p> </td> 
+   <td colname="col2"> <p>schermvullende knop in volledig-schermstaat. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollUpButton.TOOLTIP </span> </p> </td> 
@@ -138,7 +138,7 @@ De volgende SYMBOL&#39;s worden ondersteund (ervan uitgaande dat containerId de 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CloseButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Knop Sluiten. </p> </td> 
+   <td colname="col2"> <p>Sluiten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> InfoPanelPopup.TOOLTIP_CLOSE </span> </p> </td> 
@@ -166,7 +166,7 @@ De volgende SYMBOL&#39;s worden ondersteund (ervan uitgaande dat containerId de 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TO </span> </p> </td> 
-   <td colname="col2"> <p>Label voor het invoerveld "Aan". </p> </td> 
+   <td colname="col2"> <p>Label voor het invoerveld Aan. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_ADD </span> </p> </td> 
@@ -194,7 +194,7 @@ De volgende SYMBOL&#39;s worden ondersteund (ervan uitgaande dat containerId de 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_CANCEL </span> </p> </td> 
-   <td colname="col2"> <p>De knop Annuleren. </p> </td> 
+   <td colname="col2"> <p>Annuleren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.ACTION </span> </p> </td> 
@@ -205,7 +205,7 @@ De volgende SYMBOL&#39;s worden ondersteund (ervan uitgaande dat containerId de 
    <td colname="col2"> <p>Selecteer Alles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmailShare.CLOSE </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> E-mailShare.CLOSE </span> </p> </td> 
    <td colname="col2"> <p>Bijschrift voor de sluitknop die onder in het dialoogvenster wordt weergegeven nadat het formulier is verzonden. </p> </td> 
   </tr> 
   <tr> 
@@ -254,7 +254,7 @@ De volgende SYMBOL&#39;s worden ondersteund (ervan uitgaande dat containerId de 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP_CANCEL </span> </p> </td> 
-   <td colname="col2"> <p>De knop Annuleren. </p> </td> 
+   <td colname="col2"> <p>Annuleren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.CUSTOM_SIZE </span> </p> </td> 
@@ -282,7 +282,7 @@ De volgende SYMBOL&#39;s worden ondersteund (ervan uitgaande dat containerId de 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_CANCEL </span> </p> </td> 
-   <td colname="col2"> <p>De knop Annuleren. </p> </td> 
+   <td colname="col2"> <p>Annuleren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.ACTION </span> </p> </td> 
@@ -294,15 +294,15 @@ De volgende SYMBOL&#39;s worden ondersteund (ervan uitgaande dat containerId de 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Facebook Share button. </p> </td> 
+   <td colname="col2"> <p>Facebook-deelknop. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Twitter Share button. </p> </td> 
+   <td colname="col2"> <p>Knop twitter delen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Afdrukken.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Knop Afdrukken. </p> </td> 
+   <td colname="col2"> <p>Afdrukken. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Afdrukken.HEADER </span> </p> </td> 
@@ -314,11 +314,11 @@ De volgende SYMBOL&#39;s worden ondersteund (ervan uitgaande dat containerId de 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Afdrukken.PRINT_RANGE </span> </p> </td> 
-   <td colname="col2"> <p>Label voor de sectie Pagina's afdrukken selecteren. </p> </td> 
+   <td colname="col2"> <p>Label voor de sectie "Selecteer Pagina's afdrukken". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.PRINT_RANGE_CURRENT </span> </p> </td> 
-   <td colname="col2"> <p>Bijschrift voor het keuzerondje "Huidige pagina's". </p> </td> 
+   <td colname="col2"> <p>Bijschrift voor het keuzerondje Huidige pagina's. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Afdrukken.PRINT_RANGE_FROM </span> </p> </td> 
@@ -334,11 +334,11 @@ De volgende SYMBOL&#39;s worden ondersteund (ervan uitgaande dat containerId de 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Afdrukken.PAGE_HANDLING </span> </p> </td> 
-   <td colname="col2"> <p>Label voor de sectie "Paginaverwerking". </p> </td> 
+   <td colname="col2"> <p>Label voor de sectie Paginaverwerking. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.PAGE_HANDLING_ONE </span> </p> </td> 
-   <td colname="col2"> <p>Bijschrift voor het keuzerondje "1 pagina per vel". </p> </td> 
+   <td colname="col2"> <p>Bijschrift voor het keuzerondje 1 pagina per vel. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.PAGE_HANDLING_TWO </span> </p> </td> 
@@ -350,7 +350,7 @@ De volgende SYMBOL&#39;s worden ondersteund (ervan uitgaande dat containerId de 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.TOOLTIP_CANCEL </span> </p> </td> 
-   <td colname="col2"> <p> De knop Annuleren. </p> </td> 
+   <td colname="col2"> <p> Annuleren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.ACTION </span> </p> </td> 
@@ -358,7 +358,7 @@ De volgende SYMBOL&#39;s worden ondersteund (ervan uitgaande dat containerId de 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.TOOLTIP_ACTION </span> </p> </td> 
-   <td colname="col2"> <p> Verzenden naar afdrukknop. </p> </td> 
+   <td colname="col2"> <p> Naar afdrukknop. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FavorietenMenu.TOOLTIP </span> </p> </td> 
@@ -394,7 +394,7 @@ De volgende SYMBOL&#39;s worden ondersteund (ervan uitgaande dat containerId de 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_XX[_YY] </span> </p> </td> 
-   <td colname="col2"> <p>Paginalabel die door de viewer tijdens het laden wordt gegenereerd. </p> <p>De naam van dat symbool is een sjabloon, waarbij <span class="codeph"> XX </span> is een op nul gebaseerde spread-index met de oriëntatie Liggend en optioneel <span class="codeph"> JJ </span> is een op nul gebaseerde pagina-index binnen de spread waarop de <span class="codeph"> XX </span>. </p> <p>alleen van toepassing op het oorspronkelijk geladen element; genegeerd als een element wordt gewijzigd met de <span class="codeph"> setAsset() </span> API-aanroep. </p> </td> 
+   <td colname="col2"> <p>Paginalabel die door de viewer tijdens het laden wordt gegenereerd. </p> <p>De naam van dat symbool is een sjabloon, waarbij <span class="codeph"> XX </span> is een op nul gebaseerde spread-index met de oriëntatie Liggend en optioneel <span class="codeph"> JJ </span> is een op nul gebaseerde pagina-index binnen de spread waarop de <span class="codeph"> XX </span>. </p> <p>Alleen van toepassing op het oorspronkelijk geladen element; wordt genegeerd als een element wordt gewijzigd met de opdracht <span class="codeph"> setAsset() </span> API-aanroep. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_DELIM </span> </p> </td> 
@@ -433,7 +433,7 @@ De volgende SYMBOL&#39;s worden ondersteund (ervan uitgaande dat containerId de 
    <td colname="col1"> <p> <span class="codeph"> SearchPanel.THUMBNAIL_LABEL </span> </p> </td> 
    <td colname="col2"> <p>Gelokaliseerd label voor resultaatminiatuur van zoekvenster. </p> <p>Dit symbool ondersteunt de volgende vervangingstokens bij uitvoering: </p> <p> 
      <ul id="ul_7620C59FA56544CD9CE9E49B1871BCC1"> 
-      <li id="li_FAF092734B4B4B55A309413690DA3FCC"> <span class="codeph"> $PAGE$ </span> - Paginanummer. </li> 
+      <li id="li_FAF092734B4B4B55A309413690DA3FCC"> <span class="codeph"> $PAGE$ </span> - Paginanummer </li> 
       <li id="li_3414176505BB4A768FB42341A315E96F"> <span class="codeph"> $PAGE_HIT_COUNT$ </span> - Het aantal zoekresultaten dat op de pagina wordt gevonden. </li> 
      </ul> </p> </td> 
   </tr> 

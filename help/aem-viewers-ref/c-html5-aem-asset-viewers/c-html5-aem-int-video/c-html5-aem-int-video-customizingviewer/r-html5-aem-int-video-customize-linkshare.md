@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 638ca6c2-375c-4162-b640-68aed6a8a9c6
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '1385'
 ht-degree: 0%
@@ -106,7 +106,7 @@ De achtergrondoverlay die de webpagina bedekt wanneer het actieve dialoogvenster
 }
 ```
 
-Standaard wordt het modale dialoogvenster gecentreerd weergegeven op het scherm op desktopsystemen en neemt het volledige webpaginagebied op aanraakapparaten in beslag. In alle gevallen, wordt het plaatsen en het rangschikken van de dialoogdoos beheerd door de component. Het dialoogvenster wordt bestuurd met de volgende CSS-klassenkiezer:
+Standaard wordt het modale dialoogvenster gecentreerd weergegeven op het scherm op desktopsystemen en neemt het volledige webpaginagebied op aanraakapparaten. In alle gevallen, wordt het plaatsen en het rangschikken van de dialoogdoos beheerd door de component. Het dialoogvenster wordt bestuurd met de volgende CSS-klassenkiezer:
 
 ```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialog
@@ -174,7 +174,7 @@ Het pictogram en de titeltekst zijn ondergebracht in een extra container die wor
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
-   <td colname="col2"> <p> Opvulling binnen voor het koptekstpictogram en de titel </p> </td> 
+   <td colname="col2"> <p> Opvulling binnen voor koptekstpictogram en titel </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -228,7 +228,7 @@ De titel van de koptekst wordt bestuurd met de volgende CSS-klassenkiezer:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>Lettertypefamilie. </p> </td> 
+   <td colname="col2"> <p>Fontfamilie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
@@ -658,7 +658,7 @@ De grootte van de tekstkopie die boven op de koppeling wordt weergegeven, wordt 
 }
 ```
 
-De koppeling voor delen is ondergebracht in een container en wordt beheerd met de volgende CSS-klassenkiezer:
+De koppeling voor delen is ondergebracht in een container en wordt bestuurd met de volgende CSS-klassenkiezer:
 
 ```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialoginputcontainer

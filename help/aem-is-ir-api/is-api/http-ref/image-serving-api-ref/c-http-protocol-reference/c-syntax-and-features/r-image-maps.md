@@ -1,24 +1,24 @@
 ---
-description: IS biedt mechanismen om het gebruik van afbeeldingen met HTML-afbeeldingen te vereenvoudigen. De op JAVA gebaseerde en op Flash gebaseerde viewers in IS bieden ook beperkte ondersteuning voor afbeeldingen met hyperlinks.
+description: IS biedt mechanismen om het gebruik van afbeeldingen met HTML-afbeeldingen te vereenvoudigen. De op JAVA gebaseerde en op Flash-gebaseerde kijkers in IS omvatten ook beperkte steun voor beeldkaarten.
 solution: Experience Manager
 title: Afbeeldingen met hyperlinks
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9a685f9d-205d-43b3-b5fe-3ae324fe153e
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
 
 # Afbeeldingen met hyperlinks{#image-maps}
 
-IS biedt mechanismen om het gebruik van afbeeldingen met HTML-afbeeldingen te vereenvoudigen. De op JAVA gebaseerde en op Flash gebaseerde viewers in IS bieden ook beperkte ondersteuning voor afbeeldingen met hyperlinks.
+IS biedt mechanismen om het gebruik van afbeeldingen met HTML-afbeeldingen te vereenvoudigen. De op JAVA gebaseerde en op Flash-gebaseerde kijkers in IS omvatten ook beperkte steun voor beeldkaarten.
 
 Bronafbeeldingen met hyperlinks worden via `catalog::Map` of met de `map=` en verwerkte kaarten worden opgehaald met de opdracht `req=map` gebruiken.
 
-Een afbeelding met hyperlinks bestaat uit een of meer HTML AREA-elementen, op de juiste wijze gescheiden met &#39;&lt;&#39; en &#39;>&#39;. Indien beschikbaar via catalog::Map, worden alle pixelcoördinaatwaarden verondersteld in de oorspronkelijke afbeeldingsresolutie te staan en relatief ten opzichte van de linkerbovenhoek van de (ongewijzigde) bronafbeelding. Indien verstrekt via een `map=` gebruiken, worden de coördinaatwaarden als laagcoördinaten beschouwd, relatief ten opzichte van de linkerbovenhoek van de laag (na `rotate=` en `extend=`).
+Een afbeelding met hyperlinks bestaat uit een of meer HTML AREA-elementen, op de juiste wijze gescheiden met &#39;&lt;&#39; en &#39;>&#39;. Indien beschikbaar in de vorm van catalogus::Kaart, worden alle pixelcoördinaatwaarden verondersteld in de oorspronkelijke afbeeldingsresolutie en ten opzichte van de linkerbovenhoek van de (ongewijzigde) bronafbeelding te staan. Indien verstrekt door middel van een `map=` gebruiken, worden de coördinaatwaarden als laagcoördinaten beschouwd, relatief ten opzichte van de linkerbovenhoek van de laag (na `rotate=` en `extend=`).
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ Een afbeelding met hyperlinks bestaat uit een of meer HTML AREA-elementen, op de
 
 IS produceert een samengestelde beeldkaart van de bronbeeldkaarten van elke samenstellende laag door de ruimtelijke transformaties (zoals schrapen en omwenteling) op de kaartcoördinaten toe te passen, en dan de verwerkte laagkaarten in de aangewezen z-orde (voor aan achter) en met het aangewezen plaatsen samen te stellen.
 
-De volgende opdrachten worden overwogen voor het verwerken van afbeeldingen met hyperlinks, mits deze opdrachten worden gecombineerd met `req=map` (rechtstreeks in de aanvraag, via catalogussjablonen of in `catalog::Modifier` tekenreeksen):
+De volgende opdrachten worden overwogen voor het verwerken van afbeeldingen met hyperlinks, mits deze opdrachten worden gecombineerd met `req=map` (rechtstreeks in de aanvraag, via catalogussjablonen, of in `catalog::Modifier` tekenreeksen):
 
 * `align=`
 * `wid=`
@@ -51,7 +51,7 @@ De `SHAPE` en `COORDS` kenmerken van een `AREA` kan tijdens de verwerking van ee
 
 Alle `AREA` elementen die tijdens de verwerking leeg raken, worden volledig verwijderd. Als een kaart is gekoppeld aan `layer=comp` het wordt achter alle andere kaarten geplaatst. De gegevens worden in tekstvorm één als of meer HTML geretourneerd `AREA` elementen. Een lege antwoordtekenreeks geeft aan dat er geen afbeelding met hyperlinks bestaat voor de opgegeven objecten.
 
-Laagtransparantie wordt niet in overweging genomen bij kaartverwerking. Aan een volledig transparante laag kan nog steeds een afbeelding met hyperlinks zijn gekoppeld. De kaart van een gedeeltelijk transparante laag wordt niet geknipt naar de transparante gebieden.
+Laagtransparantie wordt niet in overweging genomen bij kaartverwerking. Aan een volledig transparante laag kan nog steeds een afbeelding met hyperlinks zijn gekoppeld. De kaart van een gedeeltelijk transparante laag wordt niet geknipt aan de transparante gebieden.
 
 ## Zie ook {#see-also}
 

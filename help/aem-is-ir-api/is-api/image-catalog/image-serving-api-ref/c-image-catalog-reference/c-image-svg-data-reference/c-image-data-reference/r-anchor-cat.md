@@ -1,20 +1,20 @@
 ---
-description: Afbeeldingsanker. Oorsprong wanneer deze afbeelding wordt gebruikt als een laag in een sjabloon of samengestelde afbeelding.
+description: Anker afbeelding. Oorsprong wanneer deze afbeelding wordt gebruikt als een laag in een sjabloon of samengestelde afbeelding.
 solution: Experience Manager
 title: Anker
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c54b8bb2-af4f-4c05-be7b-4326dd08993a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
 
 # Anker{#anchor}
 
-Afbeeldingsanker. Oorsprong wanneer deze afbeelding wordt gebruikt als een laag in een sjabloon of samengestelde afbeelding.
+Anker afbeelding. Oorsprong wanneer deze afbeelding wordt gebruikt als een laag in een sjabloon of samengestelde afbeelding.
 
 Hiermee definieert u ook het standaardmiddelpunt voor rotatie.
 
@@ -26,7 +26,7 @@ Overschreven door `anchor=`(die op hun beurt kunnen worden overschreven door `or
 
 ## Standaard {#section-ca3a4cc837d643519eff15951f2b47a1}
 
-Het middelpunt van de afbeelding wordt gebruikt als dit veld niet aanwezig is of leeg is en als dit een geldige afbeeldingsrecord is (bijvoorbeeld als `catalog::Path` is geldig).
+Het middelpunt van de afbeelding wordt gebruikt als dit veld niet aanwezig is of leeg is en als dit een geldige afbeeldingsrecord is (dat wil zeggen als `catalog::Path` is geldig).
 
 ## Zie ook {#section-f605d29c3f5d48ad8e2a374f11886f19}
 

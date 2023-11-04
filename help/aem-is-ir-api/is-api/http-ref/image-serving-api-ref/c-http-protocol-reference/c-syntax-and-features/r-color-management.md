@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0c9a489c-36e0-4934-b9c5-33414a9ce0b8
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '1202'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -56,7 +56,7 @@ In afbeeldingsservers wordt doorgaans geprobeerd kleurconversies tijdens de verw
 >
 >De opdrachten `op_brightness=`, `op_colorbalance=`, `op_colorize=`, `op_contrast=`, `op_hue=`, en `op_saturation=` zijn RGB-bewerkingen. Bij deze bewerkingen blijft de kleurgetrouwheid alleen behouden als de kleurruimte van de laag een pixeltype van RGB heeft. Als u een andere kleur dan RGB gebruikt, worden de gegevens geconverteerd naar RGB met naïeve kleurconversie en heeft het resultaat een beperkte kleurgetrouwheid. De laagkleurruimte voor dergelijke lagen moet als onbepaald worden beschouwd.
 
-Opties voor kleurconversie zijn beschikbaar bij `icc=` of, indien `icc=` is niet opgegeven met `attribute::IccRenderIntent`, `attribute::IccBlackPointCompensation`, en `attribute::IccDither`.
+Opties voor kleurconversie zijn beschikbaar bij `icc=` of, indien `icc=` is niet opgegeven, met `attribute::IccRenderIntent`, `attribute::IccBlackPointCompensation`, en `attribute::IccDither`.
 
 ## Kleurprofielen insluiten {#section-261ebbae5ce046589a776ca972380052}
 
@@ -66,7 +66,7 @@ Het ICC-kleurprofiel van de uitvoerkleurruimte kan, indien beschikbaar, worden i
 
 Alle kleurprofielen die door de server worden gebruikt, moeten voldoen aan de ICC-specificatie. ICC-profielbestanden hebben doorgaans een [!DNL .icc] of [!DNL .icm] bestandsachtervoegsel en bevinden zich op dezelfde locatie als afbeeldingsgegevensbestanden.
 
-Uitvoerprofielen kunnen op bestandspad/naam worden opgegeven in het dialoogvenster `icc=` wordt aangeraden alle profielbestanden te registreren in de ICC-profielkaart van de standaardcatalogus of afbeeldingscatalogus en de sneltoetsidentificatoren te gebruiken ( `icc::Name`) in plaats van bestandspaden.
+Uitvoerprofielen kunnen worden opgegeven op bestandspad/-naam in het dialoogvenster `icc=` wordt aangeraden alle profielbestanden te registreren in de ICC-profielkaart van de standaardcatalogus of afbeeldingscatalogus en gebruik sneltoetsidentificatoren ( `icc::Name`) in plaats van bestandspaden.
 
 Alle ICC-profielen waarnaar wordt verwezen in `catalog::IccProfile` en in `attribute::IccProfile*` moet zijn geregistreerd in de ICC-profielkaart van de afbeelding of standaardcatalogus.
 
@@ -76,7 +76,7 @@ Momenteel worden alleen CMYK-, RGB- en grijswaardenkleurruimten ondersteund.
 
 ## Opgenomen ICC-kleurprofielen {#section-98b4a7d9f9814e8ba27d6dcf3dcf850c}
 
-De meeste standaard Adobe ICC-profielen worden opgenomen in de standaardafbeeldingscatalogus. Deze profielen kunnen worden benaderd door hun algemene namen (bijvoorbeeld zoals in Photoshop) of met een iets kortere id. In de volgende tabel worden alle standaard-ICC-profielen weergegeven. Wanneer u naar een profiel in het dialoogvenster `icc=` gebruiken onder de algemene naam, moeten spaties als gecodeerd worden `%20`.
+De meeste ICC-profielen voor Adobe van afbeeldingen worden opgenomen in de standaardafbeeldingscatalogus. Deze profielen zijn toegankelijk met de algemene namen (zoals in Photoshop) of met een iets kortere id. In de volgende tabel worden alle standaard-ICC-profielen weergegeven. Wanneer u naar een profiel in het dialoogvenster `icc=` gebruiken onder de algemene naam, moeten spaties als gecodeerd worden `%20`.
 
 Er kunnen aanvullende profielen worden toegevoegd aan de standaardprofielen, hetzij aan de standaardcatalogus, hetzij aan een specifieke afbeeldingscatalogus. Zie de [ICC Profile Map Reference](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c) voor meer informatie.
 
@@ -84,12 +84,82 @@ Er kunnen aanvullende profielen worden toegevoegd aan de standaardprofielen, het
 >
 >De volgende tabel is van toepassing op *Dynamic Media Hybrid* alleen (wordt uitgevoerd in `dynamicmedia` uitvoeringsmodus).
 
-|Id|Algemene naam|Bestandsnaam| |— |— |— | |**RGB**|| |`AdobeRGB`|Adobe RGB (1998)|AdobeRGB1998.icc| |`AppleRGB`|Apple RGB|AppleRGB.icc| |`CIERGB`|CIE RGB|CIERGB.icc| |`ColorMatchRGB`|ColorMatch RGB|ColorMatchRGB.icc| |`NTSC`|NTSC (1953)|NTSC1953.icc| |`PAL`|PAL/SECAM|PAL_SECAM.icc| |`ProPhoto`|ProPhoto RGB|ProPhoto.icm| |`SMPTE`|SMPTE-C|SMPTE-C.icc| |`sRGB`|sRGB IEC61966-2.1|sRgb Kleurruimteprofiel.icm| |`WideGamutRGB`|Brede kleuromvang RGB|Brede kleuromvangRGB.icc| |**CMYK**|| |`CoatedFogra27`|Coated FOGRA27 (ISO 12647-2:2004)|CoatedFOGRA27.icc| |`CoatedFogra39`|Coated FOGRA39 (ISO 12647-2:2004)|CoatedFOGRA39.icc| |`CoatedGraCol`|Coated GRACoL 2006 (ISO 12647-2:2004)|CoatedGRACoL2006.icc| |`EuropeISOCoated`|Europe ISO Coated FOGRA27|EuropeISOCoatedFOGRA27.icc| |`EuroscaleCoated`|Euroscale Coated|EuroscaleCoated.icc| |`EuroscaleUncoated`|Euroscale Uncoated v2|EuroscaleUncoated.icc| |`JapanColorCoated`|Japan Color 2001 Coated|JapanColor2001Coated.icc| |`JapanColorNewspaper`|Japan Color 2002 Newspaper|JapanColor2002Newspaper.icc| |`JapanColorUncoated`|Japan Color 2001 Uncoated|JapanColor2001Uncoated.icc| |`JapanColorWebCoated`|Japan Color 2003 Web Coated|JapanColor2003WebCoated.icc| |`JapanWebCoated`|Japan Web Coated (Ad)|JapanWebCoated.icc| |`NewsprintSNAP2007`|US Newsprint (SNAP 2007)|USNewsprintSNAP2007.icc| |`PS4Default`|Photoshop 4 Default CMYK|Photoshop4DefaultCMYK.icc| |`PS5Default`|Photoshop 5 Default CMYK|Photoshop5DefaultCMYK.icc| |`SheetfedCoated`|V.S. Sheetfed Coated v2|USSheetfedCoated.icc| |`SheetfedUncoated`|V.S. Sheetfed Uncoated v2|USSheetfedUncoated.icc| |`UncoatedFogra29`|Uncoated FOGRA29 (ISO 12647-2:2004)|UncoatedFOGRA29.icc| |`WebCoated`|V.S. Web Coated (SWOP) v2|USWebCoatedSWOP.icc| |`WebCoatedFogra28`|Web Coated FOGRA28 (ISO 12647-2:2004)|WebCoatedFOGRA28.icc| |`WebCoatedGrade3`|Web Coated SWOP 2006 Grade 3 Paper|WebCoatedSWOP2006Grade3.icc| |`WebCoatedGrade5`|Web Coated SWOP 2006 Grade 5 Paper|WebCoatedSWOP2006Grade5.icc| |`WebUncoated`|V.S. Web Uncoated v2|USWebUncoated.icc|
+| Id | Algemene naam | Bestandsnaam |
+|-- |-- |-- |
+| **RGB** |  |  |
+| `AdobeRGB` | Adobe RGB (1998) | AdobeRGB1998.icc |
+| `AppleRGB` | Apple RGB | AppleRGB.icc |
+| `CIERGB` | CIE RGB | CIERGB.icc |
+| `ColorMatchRGB` | ColorMatch RGB | ColorMatchRGB.icc |
+| `NTSC` | NTSC (1953) | NTSC1953.icc |
+| `PAL` | PAL/SECAM | PAL_SECAM.icc |
+| `ProPhoto` | ProPhoto RGB | ProPhoto.icm |
+| `SMPTE` | SMPTE-C | SMPTE-C.icc |
+| `sRGB` | sRGB IEC61966-2.1 | sRGB-kleurruimteprofiel.icm |
+| `WideGamutRGB` | Brede kleuromvang RGB | WideGamutRGB.icc |
+| **CMYK** |  |  |
+| `CoatedFogra27` | Coated FOGRA27 (ISO 12647-2:2004) | CoatedFOGRA27.icc |
+| `CoatedFogra39` | Coated FOGRA39 (ISO 12647-2:2004) | CoatedFOGRA39.icc |
+| `CoatedGraCol` | Coated GRACoL 2006 (ISO 12647-2:2004) | CoatedGRACoL2006.icc |
+| `EuropeISOCoated` | Europe ISO Coated FOGRA27 | EuropeISOCoatedFOGRA27.icc |
+| `EuroscaleCoated` | Euroscale Coated | EuroscaleCoated.icc |
+| `EuroscaleUncoated` | Euroscale Uncoated v2 | EuroscaleUncoated.icc |
+| `JapanColorCoated` | Japan Color 2001 Coated | JapanColor2001Coated.icc |
+| `JapanColorNewspaper` | Japan Color 2002 Newspaper | JapanColor2002Newspaper.icc |
+| `JapanColorUncoated` | Japan Color 2001 Uncoated | JapanColor2001Uncoated.icc |
+| `JapanColorWebCoated` | Japan Color 2003 Web Coated | JapanColor2003WebCoated.icc |
+| `JapanWebCoated` | Japan Web Coated (Ad) | JapanWebCoated.icc |
+| `NewsprintSNAP2007` | US Newsprint (SNAP 2007) | USNewsprintSNAP2007.icc |
+| `PS4Default` | Photoshop 4 standaard CMYK | Photoshop4DefaultCMYK.icc |
+| `PS5Default` | Photoshop 5 standaard CMYK | Photoshop5DefaultCMYK.icc |
+| `SheetfedCoated` | U.S. Sheetfed Coated v2 | USSheetfedCoated.icc |
+| `SheetfedUncoated` | U.S. Sheetfed Uncoated v2 | USSheetfedUncoated.icc |
+| `UncoatedFogra29` | Uncoated FOGRA29 (ISO 12647-2:2004) | UncoatedFOGRA29.icc |
+| `WebCoated` | U.S. Web Coated (SWOP) v2 | USWebCoatedSWOP.icc |
+| `WebCoatedFogra28` | Web Coated FOGRA28 (ISO 12647-2:2004) | WebCoatedFOGRA28.icc |
+| `WebCoatedGrade3` | Web Coated SWOP 2006 Grade 3 Paper | WebCoatedSWOP2006Grade3.icc |
+| `WebCoatedGrade5` | Web Coated SWOP 2006 Grade 5 Paper | WebCoatedSWOP2006Grade5.icc |
+| `WebUncoated` | U.S. Web Uncoated v2 | USWebUncoated.icc |
 
 De volgende tabel is van toepassing op *Dynamic Media Classic Image Serving* en *Dynamic Media* (wordt uitgevoerd in `dynamicmedia_scene7` uitvoeringsmodus).
 
-|Id|Algemene naam|Bestandsnaam| |— |— |— | |**RGB**|| |`AdobeRGB`|Adobe RGB (1998)|AdobeRGB1998.icc| |`AppleRGB`|Apple RGB|AppleRGB.icc| |`CIERGB|CIE RGB`|CIERGB.icc| |`ColorMatchRGB`|ColorMatch RGB|ColorMatchRGB.icc| |`NTSC`|NTSC (1953)|NTSC1953.icc| |`PAL`|PAL/SECAM|PAL_SECAM.icc| |`ProPhoto RGB`|ProPhoto RGB|ProPhoto RGB.icm| |`SMPTE`|SMPTE-C|SMPTE-C.icc| |`sRGB`|sRGB IEC61966-2.1|sRgb Kleurruimteprofiel.icm| |`WideGamutRGB`|Brede kleuromvang RGB|Brede kleuromvangRGB.icc| |**CMYK**|| |`CoatedFogra27`|Coated FOGRA27 (ISO 12647-2:2004)|CoatedFOGRA27.icc| |`CoatedFogra39`|Coated FOGRA39 (ISO 12647-2:2004)|CoatedFOGRA39.icc| |`Coated GRACoL 2006 (ISO 12647-2:2004)`|Coated GRACoL 2006 (ISO 12647-2:2004)|CoatedGRACoL2006.icc| |`EuropeISOCoated`|Europe ISO Coated FOGRA27|EuropeISOCoatedFOGRA27.icc| |`Euroscale Coated v2`|Euroscale Coated v2|EuroscaleCoated.icc| |`EuroscaleUncoated`|Euroscale Uncoated v2|EuroscaleUncoated.icc| |`JapanColorCoated`|Japan Color 2001 Coated|JapanColor2001Coated.icc| |`JapanColorNewspaper`|Japan Color 2002 Newspaper|JapanColor2002Newspaper.icc| |`JapanColorUncoated`|Japan Color 2001 Uncoated|JapanColor2001Uncoated.icc| |`Japan Color 2003 Web Coated`|Japan Color 2003 Web Coated|JapanColor2003WebCoated.icc| |`JapanWebCoated`|Japan Web Coated (Ad)|JapanWebCoated.icc| |`PS4Default`|Photoshop 4 Default CMYK|Photoshop4DefaultCMYK.icc| |`PS5Default`|Photoshop 5 Default CMYK|Photoshop5DefaultCMYK.icc| |`SheetfedCoated`|V.S. Sheetfed Coated v2|USSheetfedCoated.icc| |`SheetfedUncoated`|V.S. Sheetfed Uncoated v2|USSheetfedUncoated.icc| |`UncoatedFogra29`|Uncoated FOGRA29 (ISO 12647-2:2004)|UncoatedFOGRA29.icc| |`US Newsprint (SNAP 2007)`|US Newsprint (SNAP 2007)|USNewsprintSNAP2007.icc| |`WebCoated`|V.S. Web Coated (SWOP) v2|USWebCoatedSWOP.icc| |`WebCoatedFogra28`|Web Coated FOGRA28 (ISO 12647-2:2004)|WebCoatedFOGRA28.icc| |`Web Coated SWOP 2006 Grade 3 Paper`|Web Coated SWOP 2006 Grade 3 Paper|WebCoatedSWOP2006Grade3.icc| |`Web Coated SWOP Grade 5 Paper`|Web Coated SWOP 2006 Grade 5 Paper|WebCoatedSWOP2006Grade5.icc| |`WebUncoated`|V.S. Web Uncoated v2|USWebUncoated.icc|
+| Id | Algemene naam | Bestandsnaam |
+|-- |-- |-- |
+| **RGB** |  |  |
+| `AdobeRGB` | Adobe RGB (1998) | AdobeRGB1998.icc |
+| `AppleRGB` | Apple RGB | AppleRGB.icc |
+| `CIERGB|CIE RGB` | CIERGB.icc |
+| `ColorMatchRGB` | ColorMatch RGB | ColorMatchRGB.icc |
+| `NTSC` | NTSC (1953) | NTSC1953.icc |
+| `PAL` | PAL/SECAM | PAL_SECAM.icc |
+| `ProPhoto RGB` | ProPhoto RGB | ProPhoto RGB.icm |
+| `SMPTE` | SMPTE-C | SMPTE-C.icc |
+| `sRGB` | sRGB IEC61966-2.1 | sRGB-kleurruimteprofiel.icm |
+| `WideGamutRGB` | Brede kleuromvang RGB | WideGamutRGB.icc |
+| **CMYK** |  |  |
+| `CoatedFogra27` | Coated FOGRA27 (ISO 12647-2:2004) | CoatedFOGRA27.icc |
+| `CoatedFogra39` | Coated FOGRA39 (ISO 12647-2:2004) | CoatedFOGRA39.icc |
+| `Coated GRACoL 2006 (ISO 12647-2:2004)` | Coated GRACoL 2006 (ISO 12647-2:2004) | CoatedGRACoL2006.icc |
+| `EuropeISOCoated` | Europe ISO Coated FOGRA27 | EuropeISOCoatedFOGRA27.icc |
+| `Euroscale Coated v2` | Euroscale Coated v2 | EuroscaleCoated.icc |
+| `EuroscaleUncoated` | Euroscale Uncoated v2 | EuroscaleUncoated.icc |
+| `JapanColorCoated` | Japan Color 2001 Coated | JapanColor2001Coated.icc |
+| `JapanColorNewspaper` | Japan Color 2002 Newspaper | JapanColor2002Newspaper.icc |
+| `JapanColorUncoated` | Japan Color 2001 Uncoated | JapanColor2001Uncoated.icc |
+| `Japan Color 2003 Web Coated` | Japan Color 2003 Web Coated | JapanColor2003WebCoated.icc |
+| `JapanWebCoated` | Japan Web Coated (Ad) | JapanWebCoated.icc |
+| `PS4Default` | Photoshop 4 standaard CMYK | Photoshop4DefaultCMYK.icc |
+| `PS5Default` | Photoshop 5 standaard CMYK | Photoshop5DefaultCMYK.icc |
+| `SheetfedCoated` | U.S. Sheetfed Coated v2 | USSheetfedCoated.icc |
+| `SheetfedUncoated` | U.S. Sheetfed Uncoated v2 | USSheetfedUncoated.icc |
+| `UncoatedFogra29` | Uncoated FOGRA29 (ISO 12647-2:2004) | UncoatedFOGRA29.icc |
+| `US Newsprint (SNAP 2007)` | US Newsprint (SNAP 2007) | USNewsprintSNAP2007.icc |
+| `WebCoated` | U.S. Web Coated (SWOP) v2 | USWebCoatedSWOP.icc |
+| `WebCoatedFogra28` | Web Coated FOGRA28 (ISO 12647-2:2004) | WebCoatedFOGRA28.icc |
+| `Web Coated SWOP 2006 Grade 3 Paper` | Web Coated SWOP 2006 Grade 3 Paper | WebCoatedSWOP2006Grade3.icc |
+| `Web Coated SWOP Grade 5 Paper` | Web Coated SWOP 2006 Grade 5 Paper | WebCoatedSWOP2006Grade5.icc |
+| `WebUncoated` | U.S. Web Uncoated v2 | USWebUncoated.icc |
 
 ## Zie ook {#section-39159397e80b4efca5f631eab8b9aa06}
 
-[International Color Consortium](https://www.color.org/index.xalter), [icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517), [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e), [kenmerk::IccProfile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md#reference-db89f9dac33e447cadb359ec1ba27ee0)&#42;, [kenmerk::IccProfileSrc](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcgray.md#reference-a717831da24d43f680d01393660f12f9)&#42;, [kenmerk:IccRenderIntent](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccrenderintent.md#reference-012f207f28bd4406a5368d23ed95a51f), [kenmerk::IccBlackPointCompensation](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f), [kenmerk::IccDither](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccdither.md#reference-914d0d0567364246b4016d45c0ada85b), [ICC Profile Map Reference](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c), [color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md), [bgc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88), [ *`color`*](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)
+[Internationaal kleurconsortium](https://www.color.org/index.xalter), [icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517), [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e), [kenmerk::IccProfile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md#reference-db89f9dac33e447cadb359ec1ba27ee0)&#42;, [kenmerk::IccProfileSrc](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcgray.md#reference-a717831da24d43f680d01393660f12f9)&#42;, [kenmerk:IccRenderIntent](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccrenderintent.md#reference-012f207f28bd4406a5368d23ed95a51f), [kenmerk::IccBlackPointCompensation](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f), [kenmerk::IccDither](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccdither.md#reference-914d0d0567364246b4016d45c0ada85b), [ICC Profile Map Reference](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c), [color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md), [bgc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88), [*`color`*](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)

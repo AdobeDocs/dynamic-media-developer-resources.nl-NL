@@ -5,9 +5,9 @@ title: regel
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8f56012c-d01c-489c-9d18-91e256f72012
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Daarnaast `<rule>` elementen kunnen elk van de volgende kenmerken definiëren in
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> DefaultPix </span> </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-defaultpix.md#reference-102c98f9b5d24d2aaaeb756653fb0e6f" type="reference" format="dita" scope="local"> attribute::DefaultPix </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-defaultpix.md#reference-102c98f9b5d24d2aaaeb756653fb0e6f" type="reference" format="dita" scope="local"> attribute::DefautPix </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ErrorImage </span> </p> </td> 
@@ -57,7 +57,7 @@ Daarnaast `<rule>` elementen kunnen elk van de volgende kenmerken definiëren in
 
 Raadpleeg de beschrijving van het overeenkomstige kenmerk voor de afbeeldingscatalogus voor meer informatie.
 
-Het kenmerk Expiration overschrijft alleen de standaardwaarde voor het kenmerk; wordt genegeerd als een specifieke `catalog::Expiration` is van toepassing op de aanvraag.
+Het kenmerk Expiration negeert alleen de standaardwaarde voor het kenmerk; het wordt genegeerd als een specifieke eigenschap `catalog::Expiration` waarde is van toepassing op de aanvraag.
 
 ## Gegevens {#section-401b6dfce082490f81229a19b73f2562}
 
@@ -80,7 +80,7 @@ Het kenmerk Expiration overschrijft alleen de standaardwaarde voor het kenmerk; 
 
 Als beide `<expression>` en `<substitution>` worden opgegeven en vastgelegde subtekenreeksen niet worden gebruikt, wordt de eerste overeenkomende subtekenreeks vervangen door `<substitution>`.
 
-Indien `<expression>` niet is opgegeven, komen paden overeen en `<substitution>` wordt toegevoegd aan het einde van het pad.
+Indien `<expression>` niet is opgegeven, overeenkomende paden en `<substitution>` wordt toegevoegd aan het einde van het pad.
 
 Indien `<substitution>` niet is opgegeven, wordt de overeenkomende subtekenreeks verwijderd.
 

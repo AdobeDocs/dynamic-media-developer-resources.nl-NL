@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: cdb3ed5e-c396-483d-aea0-2b3f24efe56e
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 De materialen van kabinetten specificeren een dossier van het kabinetsstijl (.vnc- dossieruitbreiding), een speciaal gegevensdossier dat fotografische vertegenwoordiging van kabinetten samen met parametrische lay-outdefinities en andere informatie vereist voor het teruggeven van kabinetsfronten bevat.
 
-[!DNL vnc] bestanden kunnen een herhaalbare houten korrelstructuur bevatten, of de structuur kan extern via een tweede argument worden geleverd om `src=`. Bepaalde [!DNL vnc] Met bestanden kunt u geselecteerde gebieden met kabinetsvoorvoegsels inkleuren of een structuur geven (meestal gebruikt voor laminaatkaststijlen).
+[!DNL vnc] bestanden kunnen een herhaalbare houten korrelstructuur bevatten, of de structuur kan extern worden opgegeven door middel van een tweede argument: `src=`. Bepaalde [!DNL vnc] Met bestanden kunt u geselecteerde gebieden met kabinetsvoorvoegsels inkleuren of een structuur geven (meestal gebruikt voor laminaatkaststijlen).
 
 Cabinematerialen kunnen alleen op kabinetsobjecten worden toegepast.
 
@@ -31,7 +31,7 @@ Cabinematerialen kunnen alleen op kabinetsobjecten worden toegepast.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272" type="reference" format="dita" scope="local"> <span class="codeph"> src= </span> </a> </p> </td> 
-   <td colname="col2"> <p>bestand in kabinetstijl; vereist. </p> </td> 
+   <td colname="col2"> <p>Bestand met kabinetstijl; vereist. </p> </td> 
    <td colname="col3"> <p>Geen. </p> </td> 
   </tr> 
   <tr> 
@@ -50,14 +50,14 @@ Cabinematerialen kunnen alleen op kabinetsobjecten worden toegepast.
    <td colname="col3"> <p>Geen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> shar= </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> scherp= </span> </a> </p> </td> 
    <td colname="col2"> <p>Verscherpen. </p> </td> 
    <td colname="col3"> <p>0 (geen verscherping) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-flags.md#reference-3a4844f0f21346d79e6508aaad9a9ac9" type="reference" format="dita" scope="local"> <span class="codeph"> flags= </span> </a> </p> </td> 
    <td colname="col2"> <p>Speciale rendermarkeringen. </p> </td> 
-   <td colname="col3"> <p>0 (geen markeringen) </p> </td> 
+   <td colname="col3"> <p>0 (geen vlaggen) </p> </td> 
   </tr> 
  </tbody> 
 </table>

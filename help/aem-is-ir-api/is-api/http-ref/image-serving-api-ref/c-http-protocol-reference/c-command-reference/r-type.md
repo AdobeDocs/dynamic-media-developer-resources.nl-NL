@@ -1,20 +1,20 @@
 ---
 title: type
-description: Statisch inhoudstype, filter. Geeft een filtertekenreeks op voor statische inhoud die wordt geleverd via /is/content.
+description: Statisch inhoudstype, filter. Geeft een filtertekenreeks op voor statische inhoud die wordt geleverd als /is/content.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9015d5f4-e42c-43e0-af85-fc9c278448e7
-source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---
 
 # type{#type}
 
-Statisch inhoudstype, filter. Geeft een filtertekenreeks op voor statische inhoud die wordt geleverd via /is/content.
+Statisch inhoudstype, filter. Geeft een filtertekenreeks op voor statische inhoud die wordt geleverd als /is/content.
 
 `type= *`val`*`
 
@@ -29,7 +29,7 @@ De serververgelijkingen `val` met de waarde van `catalog::Type` van het gevraagd
 
 ## Eigenschappen {#section-529b088434a44a9f86a64ef548d2925b}
 
-Alleen ondersteund voor aanvragen voor statische inhoud (niet-afbeeldingsbestanden) via. Genegeerd als `catalog::Type` is leeg of niet gedefinieerd.
+Alleen ondersteund voor verzoeken van statische inhoud (niet-afbeeldingsbestanden) die worden verzonden als. Genegeerd als `catalog::Type` is leeg of niet gedefinieerd.
 
 ## Standaard {#section-e9e8f51d0a01452183ccb510efd87d46}
 

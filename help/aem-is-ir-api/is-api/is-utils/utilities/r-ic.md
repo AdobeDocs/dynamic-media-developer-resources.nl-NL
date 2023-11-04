@@ -5,9 +5,9 @@ title: ic
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ab653aae-532b-4f3d-8541-f6296fbf9172
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Hulpprogramma voor afbeeldingsomzetting.
 
 `ic` is een opdrachtregelprogramma waarmee afbeeldingsbestanden worden geconverteerd naar de geoptimaliseerde Piramid TIFF-indeling (PTIFF). Terwijl Image Serving afbeeldingen kan verwerken zonder conversie, raden we u aan alle afbeeldingen groter dan 512x512 pixels om te zetten in PTIFF. Deze conversie zorgt voor optimale serverprestaties en een optimaal gebruik van bronnen en minimaliseert de responstijden.
 
-Het wordt aanbevolen om PTIFF-bestanden die fotografische inhoud bevatten, met JPEG-codering te coderen (geef `-jpegcompress`). Door de computer gegenereerde inhoud kan profiteren van compressie zonder verlies (ofwel `-deflatecompress` of `-lzwcompress`). Tenzij een kleurconversie of conversie van pixeltypen vereist is, worden JPEG-bronafbeeldingsgegevens zonder decodering naar PTIFF overgedragen om kwaliteitsverlies te voorkomen. In dit geval zijn de opgegeven compressieopties alleen van toepassing op de piramide met lagere resolutie.
+Het wordt aanbevolen om PTIFF-bestanden met fotografische inhoud JPEG-gecodeerd te maken (geef `-jpegcompress`). Door de computer gegenereerde inhoud kan profiteren van compressie zonder verlies (ofwel `-deflatecompress` of `-lzwcompress`). Tenzij een kleurconversie of conversie van pixeltypen vereist is, worden JPEG-bronafbeeldingsgegevens zonder decodering naar PTIFF overgedragen om kwaliteitsverlies te voorkomen. In dit geval zijn de opgegeven compressieopties alleen van toepassing op de piramide met lagere resolutie.
 
 Als u grote afbeeldingen niet omzet, hoeft u de parameters die bepalen hoeveel geheugen u moet gebruiken, niet in te stellen. Als u dat wel doet, geef dan `ic` meer geheugen door de `-maxmem` hieronder beschreven instelling. Een goede duim voor het berekenen van de vereiste hoeveelheid geheugen is het vermenigvuldigen van de breedte van de afbeelding en het vermenigvuldigen van de hoogte van de afbeelding en het aantal kanalen. Bijvoorbeeld vier voor een RGB-afbeelding met alpha-keer drie. Bovendien als de kanalen 16 beetjes per component in plaats van 8 tweemaal het definitieve resultaat zijn.
 
@@ -81,7 +81,7 @@ Als u grote afbeeldingen niet omzet, hoeft u de parameters die bepalen hoeveel g
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -jpegquality &lt; <span class="varname"> kwaliteit </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>kwaliteit van de JPEG (0-100); de standaardwaarde is 95). </p> </td> 
+   <td colname="col2"> <p>Kwaliteit JPEG (0-100; standaardwaarde is 95). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -fullsamplechrominantie </span> </p> </td> 
@@ -97,7 +97,7 @@ Als u grote afbeeldingen niet omzet, hoeft u de parameters die bepalen hoeveel g
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -dpi &lt; <span class="varname"> dpi </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Afdrukresolutie (dpi) voor <span class="codeph"> <span class="varname"> destFile </span> </span>; indien niet opgegeven, de afdrukresolutie van <span class="codeph"> srcFile </span> wordt gekopieerd naar <span class="codeph"> <span class="varname"> destFile </span> </span>. </p> </td> 
+   <td colname="col2"> <p>Afdrukresolutie (dpi) voor <span class="codeph"> <span class="varname"> destFile </span> </span>; indien niet gespecificeerd, de afdrukresolutie van <span class="codeph"> srcFile </span> wordt gekopieerd naar <span class="codeph"> <span class="varname"> destFile </span> </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -autocrop &lt; <span class="varname"> hoek </span>&gt; &lt; <span class="varname"> mode </span>&gt; &lt; <span class="varname"> tolerantie </span>&gt; &lt; <span class="varname"> infoFile </span>&gt; </span> </p> </td> 
@@ -106,9 +106,9 @@ Als u grote afbeeldingen niet omzet, hoeft u de parameters die bepalen hoeveel g
 <p><i><b>hoek</b></i> - ul | EUR | Alle | lr </p>
    <p> Hiermee geeft u op welke hoek van de afbeelding een zaadpunt moet worden gebruikt. Genegeerd als de modus 1 is.</p>
    <p><i><b>mode</b></i> - 0 | 1</p>
-   <p>Stel de waarde in op 0 voor uitsnijden op basis van de kleur van de opgegeven hoekpixel; werkt aan vooraf vermenigvuldigde kleurengegevens als de alpha- gegevens met het bronbeeld worden geassocieerd.</p>
-   <p>Instellen op 1 voor uitsnijden op basis van alpha-gegevens; hoek wordt genegeerd en 0 altijd de zaadwaarde is; er wordt geen uitsnijding toegepast als er geen alpha-gegevens aan de bronafbeelding zijn gekoppeld.</p> 
-   <p><i><b>tolerantie</b></i> - Tolerantie afstemmen. Reële waarde 0,0 tot 1,0. Hiermee geeft u de tolerantie op voor overeenkomende pixelcomponentwaarden. Ingesteld op 0 voor exacte overeenkomsten.</p>
+   <p>Stel de waarde in op 0 om uit te snijden op basis van de kleur van de opgegeven hoekpixel. Hierbij wordt gebruikgemaakt van vooraf vermenigvuldigde kleurgegevens als er alpha-gegevens aan de bronafbeelding zijn gekoppeld.</p>
+   <p>Stel de waarde in op 1 voor uitsnijden op basis van alpha-gegevens. De hoek wordt genegeerd en 0 is altijd de zaadwaarde. Er wordt geen uitsnijden toegepast als er geen alpha-gegevens aan de bronafbeelding zijn gekoppeld.</p> 
+   <p><i><b>tolerantie</b></i> - Gelijke tolerantie. Reële waarde 0,0 tot 1,0. Hiermee geeft u de tolerantie op voor overeenkomende pixelcomponentwaarden. Ingesteld op 0 voor exacte overeenkomsten.</p>
    <p><i><b>infoFile</b></i> - Pad en naam van het XML-uitvoerbestand waarnaar de gegevens over de uitsnijdgegevens worden geschreven.</p>
 
 <p>  
@@ -123,7 +123,7 @@ Als u grote afbeeldingen niet omzet, hoeft u de parameters die bepalen hoeveel g
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -imageprofile &lt; <span class="varname"> file </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Pad en naam van een ICC-profielbestand. Definieert de kleurruimte van <span class="codeph"> <span class="varname"> sourceFile </span> </span> en moet overeenkomen met het pixeltype. Moet alleen worden opgegeven als er geen profiel is ingesloten in <span class="codeph"> <span class="varname"> sourceFile </span> </span>, aangezien dit het ingesloten profiel overschrijft. </p> </td> 
+   <td colname="col2"> <p>Pad en naam van een ICC-profielbestand. Hiermee wordt de kleurruimte van <span class="codeph"> <span class="varname"> sourceFile </span> </span> en moet overeenkomen met het pixeltype. Alleen opgeven als er geen profiel is ingesloten in <span class="codeph"> <span class="varname"> sourceFile </span> </span>, aangezien dit het ingesloten profiel overschrijft. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -viewprofile &lt; <span class="varname"> file </span>&gt; </span> </p> </td> 
@@ -167,7 +167,7 @@ Als u grote afbeeldingen niet omzet, hoeft u de parameters die bepalen hoeveel g
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -downsample8x8 </span> </p> </td> 
-   <td colname="col2"> <p>Gebruik filter voor het opnieuw berekenen van pixels (Lanczos-venster) van hogere kwaliteit (standaard). </p> </td> 
+   <td colname="col2"> <p>Gebruik filter voor het berekenen van nieuwe pixels van hogere kwaliteit (Lanczos-venster) (standaard). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -downsample8x8FlashPix </span> </p> </td> 
@@ -226,7 +226,7 @@ Als u grote afbeeldingen niet omzet, hoeft u de parameters die bepalen hoeveel g
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -maxmempercent &lt; <span class="varname"> procent </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Limiet geheugengebruik. Standaard is 25% van het fysieke geheugen. Als beide <span class="codeph"> maxmem </span> noch <span class="codeph"> maxmempercent </span> zijn uitdrukkelijk geplaatst gebruik maxmempercent gebrek. </p> </td> 
+   <td colname="col2"> <p>Limiet geheugengebruik. Standaard is 25% van het fysieke geheugen. Als geen van beide <span class="codeph"> maxmem </span> noch <span class="codeph"> maxmempercent </span> zijn uitdrukkelijk geplaatst gebruik maxmempercent gebrek. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -version </span> </p> </td> 
@@ -297,7 +297,7 @@ In de volgende tabel worden de bestandsindelingen en indelingsopties voor afbeel
    <td> <p> RGB </p> </td> 
    <td> <p> 8 </p> </td> 
    <td> <p> RLE </p> </td> 
-   <td> <p> alleen bitmapgegevens; vectorgegevens worden genegeerd. </p> </td> 
+   <td> <p> Alleen bitmapgegevens; vectorgegevens worden genegeerd. </p> </td> 
   </tr> 
   <tr> 
    <td> <b> PNG</b> </td> 
@@ -330,6 +330,6 @@ Alle afbeeldingen converteren in *`srcFolder`* naar met JPEG gecodeerde piramide
 
 `ic -convert -jpegcompress -jpegquality 90 -overwrite -continueOnError srcFolder destFolder`
 
-Alle afbeeldingen converteren in *`srcFolder`*. De gecodeerde afbeeldingsgegevens van JPG-bestanden worden gebruikt voor LZW-compressie met volledige resolutie en zonder verlies voor de rest van de afbeeldingspiramide van deze afbeeldingen en voor de volledige uitvoerafbeelding van alle invoerbestanden zonder JPG. De pixeltypen, ingesloten kleurprofielen, XMP metagegevens, enz. worden gehandhaafd.
+Alle afbeeldingen converteren in *`srcFolder`*. De gecodeerde afbeeldingsgegevens van JPG-bestanden worden gebruikt voor LZW-compressie met volledige resolutie en zonder verlies voor de rest van de afbeeldingspiramide van deze afbeeldingen en voor de volledige uitvoerafbeelding van alle invoerbestanden zonder JPG. De pixeltypen, ingesloten kleurprofielen, XMP metagegevens, enzovoort. worden gehandhaafd.
 
 `ic -convert -lzwcompress -embedXmpData -embedColorProfile -maintainpixeltype -overwrite -continueOnError srcFolder destFolder`

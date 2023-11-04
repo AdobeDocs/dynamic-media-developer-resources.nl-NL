@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4fabd469-c80c-422a-80b0-3d31ce191d58
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Regel-element aanvragen. Een of meer regels zijn optioneel in het dialoogvenster
 
 **`Name = "text"`**: Optioneel. Wordt gebruikt om de `<rule>` -element in foutopsporingslogboeken en foutberichten.
 
-`  *`Kenmerk`* ="value"`: Optioneel. `<rule>` elementen kunnen elk van de volgende kenmerken definiëren in elke combinatie. Als de regel is opgegeven en deze correct is aangepast, worden de overeenkomende cataloguskenmerken voor deze aanvraag genegeerd. Standaard is `RequestType="is"`.
+`  *`Kenmerk`* ="value"`: Optioneel. `<rule>` elementen kunnen elk van de volgende kenmerken definiëren in elke combinatie. Als deze optie is opgegeven en de regel correct wordt toegepast, worden de overeenkomende cataloguskenmerken voor deze aanvraag genegeerd. Standaard is `RequestType="is"`.
 
 <table id="table_67AED5BEADDF4DAC99B5EF46438C1ABC"> 
  <thead> 
@@ -104,7 +104,7 @@ Regel-element aanvragen. Een of meer regels zijn optioneel in het dialoogvenster
 
 Raadpleeg de beschrijving van het overeenkomstige kenmerk voor de afbeeldingscatalogus voor meer informatie.
 
-De attributen van de Vervalsing treden slechts de standaardattributenwaarden met voeten. De overschrijving wordt genegeerd als een specifieke `catalog::Expiration` is van toepassing op de aanvraag.
+De kenmerken Expiration overschrijven alleen de standaardkenmerkwaarden. De overschrijving wordt genegeerd als een specifieke `catalog::Expiration` waarde is van toepassing op de aanvraag.
 
 ## Gegevens {#section-8fce013a4c724da58af3fee4e7a90e72}
 

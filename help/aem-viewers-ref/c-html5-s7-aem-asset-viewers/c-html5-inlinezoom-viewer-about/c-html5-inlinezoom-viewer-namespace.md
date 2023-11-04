@@ -5,22 +5,22 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 62b61a17-f9ae-4e71-bd78-276674193044
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
 
 # Viewer SDK-naamruimte{#viewer-sdk-namespace}
 
-De viewer is samengesteld uit veel Viewer SDK-componenten. Doorgaans hoeft de webpagina niet rechtstreeks te communiceren met de API voor SDK-componenten. alle algemene behoeften worden gedekt door de viewer-API zelf.
+De viewer is samengesteld uit veel Viewer SDK-componenten. Doorgaans hoeft de webpagina niet rechtstreeks te communiceren met de API voor SDK-componenten. Alle algemene behoeften worden behandeld in de viewer-API zelf.
 
 Bij sommige gevallen van geavanceerd gebruik is het echter vereist dat de webpagina verwijst naar een binnenste SDK-component die de opdracht `getComponent()` viewer-API en vervolgens alle flexibiliteit van de API&#39;s van SDK zelf gebruiken.
 
 De naamruimte die door de viewer wordt gebruikt voor het laden en initialiseren van SDK-componenten, is afhankelijk van de omgeving waarin de viewer werkt. Als de viewer wordt uitgevoerd in Adobe Experience Manager, laadt de viewer SDK-componenten in `s7viewers.s7sdk` naamruimte. Op dezelfde manier laadt de viewer die vanuit Dynamic Media Classic wordt aangeboden de SDK in `s7classic.s7sdk`.
 
-In beide gevallen heeft de naamruimte die wordt gebruikt door de SDK in de viewer `s7viewers` of `s7classic` als voorvoegsel. En het is anders dan de gewone `s7sdk` naamruimte die wordt gebruikt in de SDK User Guide of SDK API documentatie.
+In beide gevallen heeft de naamruimte die wordt gebruikt door de SDK in de viewer `s7viewers` of `s7classic` als prefix. En het is anders dan de gewone `s7sdk` naamruimte die wordt gebruikt in de SDK User Guide of SDK API documentatie.
 
 Daarom is het belangrijk om een volledig gekwalificeerde SDK-naamruimte te gebruiken wanneer u aangepaste toepassingscode schrijft die communiceert met interne viewercomponenten.
 
@@ -35,7 +35,7 @@ Als u bijvoorbeeld wilt luisteren naar `StatusEvent.NOTF_VIEW_READY` gebeurtenis
   }, false); 
 } 
 }); 
-The same code for viewer served from Dynamic Media Classic will look like this: 
+The same code for viewer served from Dynamic Media Classic looks like this: 
 <instance>.setHandlers({ 
  "initComplete":function() { 
   var flyout = <instance>.getComponent("flyout"); 

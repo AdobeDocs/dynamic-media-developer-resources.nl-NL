@@ -5,16 +5,16 @@ title: Statische (niet-afbeeldings) inhoud bedienen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e2c79bdc-5d70-46d9-85f4-ffebd7621944
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
 
 # Statische (niet-afbeeldings) inhoud bedienen{#serving-static-non-image-content}
 
-Met Beeldserver kunt u niet-afbeeldingsinhoud in catalogi beheren en deze via een aparte `context /is/content`. Het mechanisme staat voor het vormen van TTL voor elk punt afzonderlijk toe.
+Beeldserver biedt een mechanisme voor het beheren van inhoud die geen afbeelding is, in catalogi en het bedienen via een aparte `context /is/content`. Het mechanisme staat voor het vormen van TTL voor elk punt afzonderlijk toe.
 
 ## Basissyntaxis {#section-a986baaca8644d04bcd0ddf781ae916e}
 
@@ -60,7 +60,7 @@ Beeldserver ondersteunt de volgende opdrachten bij /is/content:
 <table id="simpletable_1D96BA1AB5394B3C9B91D46617AFC0FA"> 
  <tr class="strow"> 
   <td class="stentry"> <a href="../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-type.md#reference-89094fd1c50c444eb082cd266769cccb" type="reference" format="dita" scope="local"> type </a> </td> 
-  <td class="stentry"> <p>Filter Inhoudstype. </p> </td> 
+  <td class="stentry"> <p>Inhoudstype, filter. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <a href="../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" type="reference" format="dita" scope="local"> req </a> </td> 
@@ -94,7 +94,7 @@ Catalogi met statische inhoud zijn vergelijkbaar met catalogi met afbeeldingen, 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> catalogus::Verlopen </span> </p> </td> 
-   <td> <p> De TTL voor dit inhoudsitem; attribute::Expiration is used if not specified or if empty </p> </td> 
+   <td> <p> De TTL voor dit inhoudstitem; attribute::Expiration wordt gebruikt als niet gespecificeerd of als leeg </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> catalogus::TimeStamp </span> </p> </td> 
@@ -102,18 +102,18 @@ Catalogi met statische inhoud zijn vergelijkbaar met catalogi met afbeeldingen, 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> catalogus::UserData </span> </p> </td> 
-   <td> <p> Optionele metagegevens die zijn gekoppeld aan dit statische inhoudsitem; beschikbaar voor de client met req=userdata </p> </td> 
+   <td> <p> Optionele metagegevens gekoppeld aan dit item met statische inhoud; beschikbaar voor de client met req=userdata </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> catalog::UserType </span> </p> </td> 
-   <td> <p> Optioneel gegevenstype; kan worden gebruikt om verzoeken om statische inhoud met het type= bevel te filtreren </p> </td> 
+   <td> <p> Optioneel gegevenstype; kan worden gebruikt om aanvragen voor statische inhoud te filteren met de opdracht type= </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Statische inhoud filteren {#section-896c37cf68bc446eb0766fb378898262}
 
-Dit mechanisme kan ervoor zorgen dat klanten alleen inhoud ontvangen die geschikt is voor hun behoeften. Ervan uitgaande dat de statische inhoud is gecodeerd met de juiste code `catalog::UserType`waarden, kan de client de `type=` aan het verzoek. De beeldserver vergelijkt de waarde die bij de `type=` aan de waarde van `catalog::UserType` en retourneert bij een onjuiste overeenkomst een fout in plaats van mogelijk onjuiste inhoud.
+Dit mechanisme kan ervoor zorgen dat klanten alleen inhoud ontvangen die geschikt is voor hun behoeften. Ervan uitgaande dat de statische inhoud is gecodeerd met de juiste code `catalog::UserType`waarden, kan de client de `type=` aan het verzoek. De beeldenserver vergelijkt de waarde die met `type=` aan de waarde van `catalog::UserType` en retourneert bij een onjuiste overeenkomst een fout in plaats van mogelijk onjuiste inhoud.
 
 ## Zie ook {#section-91c7b686aacf4d3ca974f35a3fe3d6ec}
 

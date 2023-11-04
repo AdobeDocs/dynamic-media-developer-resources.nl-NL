@@ -5,9 +5,9 @@ title: SVG-ondersteuning
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 60e40195-710f-4f03-b152-52eaa10c5b21
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Afbeeldingsserver ondersteunt SVG-bestanden (Scalable Vector Graphics) als brongegevens. Conformiteit met SVG 1.1 is vereist.
 
-De beeldenserver herkent slechts statische inhoud van SVG; animaties, scripts en andere interactieve inhoud worden niet ondersteund.
+De functie Afbeeldingsserver herkent alleen statische inhoud van de SVG. Animaties, scripts en andere interactieve inhoud worden niet ondersteund.
 
 SVG kan worden opgegeven wanneer afbeeldingsbestanden zijn toegestaan (URL-pad). `src=`, en `mask=`). Nadat de inhoud van het SVG-bestand is gerasterd, wordt het net als een afbeelding verwerkt.
 
@@ -24,7 +24,7 @@ Net als bij afbeeldingen kunnen SVG-bestanden worden opgegeven als afbeeldingsca
 
 ## Vervangende variabelen {#section-83b149f13f244193901df39b204c975b}
 
-` $ *[!DNL var]*$` substitutievariabelen kunnen in het SVG-bestand worden opgenomen in de waardetekenreeksen `<text>` elementen en alle elementkenmerken.
+` $ *[!DNL var]*$` vervangende variabelen kunnen in het SVG-bestand worden opgenomen in de waardetekenreeksen `<text>` elementen en alle elementkenmerken.
 
 De belangrijke Variabelen in het vraaggedeelte van ingebedde Beeld die verzoeken dienen worden niet direct vervangen. In plaats daarvan, worden alle beschikbare veranderlijke definities toegevoegd aan het verzoek, dat Beeld dat variabelen toestaat om te vervangen wanneer het ontleden van het verzoek.
 
@@ -42,11 +42,11 @@ Geef een volledige aanvraag voor de afbeeldingenservice op, te beginnen met `htt
 
 >[!NOTE]
 >
->Afbeeldingen die zijn ingesloten in SVG, worden momenteel niet automatisch aangepast. Zorg ervoor dat alle beeldverwijzingen de noodzakelijke bevelen van de Beeldserver van het Beeld omvatten om de gewenste beeldgrootte (b.v. `wid=`). Als de afbeeldingsgrootte niet expliciet wordt ingesteld, `attribute::DefaultPix` wordt toegepast.
+>Afbeeldingen die zijn ingesloten in SVG, worden momenteel niet automatisch aangepast. Zorg ervoor dat alle afbeeldingsvoorkeuren de vereiste opdrachten in de afbeeldingsserver bevatten om de gewenste afbeeldingsgrootte in te stellen (bijvoorbeeld `wid=`). Als de afbeeldingsgrootte niet expliciet wordt ingesteld, `attribute::DefaultPix` wordt toegepast.
 
 ## Kleurbeheer {#section-ea76e2bc4e1842638aa97a2d470c8a68}
 
-Alle kleurwaarden die zijn ingesloten in SVG-bestanden en via vervangingsvariabelen worden doorgegeven aan SVG-sjablonen, worden verondersteld te bestaan in de `sRgb` kleurruimte.
+Alle kleurwaarden die zijn ingesloten in SVG-bestanden en die via vervangende variabelen worden doorgegeven aan SVG-sjablonen, worden verondersteld te bestaan in de `sRgb` kleurruimte.
 
 Er wordt geen kleuromzetting uitgevoerd wanneer afbeeldingen in de SVG worden ingesloten. Voor kleurgetrouwheid moet u opgeven `icc=sRgb` voor alle ingesloten afbeeldingsaanvragen.
 
@@ -66,7 +66,7 @@ Deze SVG-sjabloon kan als volgt worden gebruikt:
 
 SVG-bestanden moeten zelfstandig zijn en mogen niet verwijzen naar secundaire bestanden of bronnen, met uitzondering van externe afbeeldingen waarnaar wordt verwezen met verzoeken om beeldbewerking of het renderen van afbeeldingen (zie hierboven).
 
-Alleen statische inhoud wordt gerenderd. Animatie, interactieve functies, zoals knoppen, enz. kan aanwezig zijn, maar kan niet worden teruggegeven zoals verwacht.
+Alleen statische inhoud wordt weergegeven. Animatie, interactieve functies, zoals knoppen, enzovoort. kan aanwezig zijn, maar kan niet worden teruggegeven zoals verwacht.
 
 ICC-kleurspecificaties op basis van profielen worden momenteel niet ondersteund.
 

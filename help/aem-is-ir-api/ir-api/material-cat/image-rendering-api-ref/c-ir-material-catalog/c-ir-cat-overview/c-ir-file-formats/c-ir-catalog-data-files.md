@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1fb91795-f699-40b4-a6bc-6eab3e1ecd1d
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Gegevensbestanden van Catalog kunnen elke naam en elk achtervoegsel van het best
 
 U kunt catalogusgegevensbestanden eenvoudig onderhouden met toepassingen die door tabs gescheiden tekstgegevensbestanden ondersteunen, zoals Microsoft® Excel en Access.
 
-In wezen bestaat een catalogusgegevensbestand uit een koptekstrecord waarin de gegevenskolommen en een willekeurig aantal gegevensrecords (rijen) worden geïdentificeerd. Velden in zowel koptekst- als gegevensrecords worden gescheiden door één veld `<TAB>` tekens. Records worden gescheiden door één record `<CR>` (ASCII-code) `0xD`), één `<LF>` (ASCII-code) `0xA`), of een `<CR><LF>` paar.
+In wezen bestaat een catalogusgegevensbestand uit een koptekstrecord waarin de gegevenskolommen en een willekeurig aantal gegevensrecords (rijen) worden geïdentificeerd. Velden in zowel koptekst- als gegevensrecords worden gescheiden door één veld `<TAB>` tekens. Records worden gescheiden door één record `<CR>` (ASCII-code `0xD`), één `<LF>` (ASCII-code `0xA`), of een `<CR><LF>` paar.
 
 De headerrecord moet de exacte namen voor elk gegevensveld bevatten. Lege velden zijn niet toegestaan in de koptekstrij. Namen van gegevensvelden zijn niet hoofdlettergevoelig. Alle veldnamen moeten uniek zijn.
 
@@ -30,7 +30,7 @@ Gegevensvelden mogen geen `<CR>`, `<LF>`, of `<TAB>` tekens, tenzij de gegevensw
 
 Meerdere gegevenswaarden in hetzelfde veld worden gescheiden door komma&#39;s (&#39;,&#39;), tenzij anders aangegeven.
 
-Kolommen waarvan de naam begint met &#39;.&#39; worden genegeerd; Hierdoor kunnen gegevens worden opgeslagen in materiaalcatalogi die niet van belang zijn voor het renderen van afbeeldingen. Kolommen met onbekende koptekstnamen worden genegeerd en er wordt een waarschuwing naar het logbestand geschreven.
+Kolommen waarvan de naam begint met &#39;.&#39; worden genegeerd. Hierdoor kunnen gegevens worden opgeslagen in materiaalcatalogi die niet van belang zijn voor het renderen van afbeeldingen. Kolommen met onbekende koptekstnamen worden genegeerd en er wordt een waarschuwing naar het logbestand geschreven.
 
 Veldnamen kunnen bestaan uit elke combinatie van ASCII-letters, -cijfers en &quot;-&quot; en &quot;_&quot;.
 

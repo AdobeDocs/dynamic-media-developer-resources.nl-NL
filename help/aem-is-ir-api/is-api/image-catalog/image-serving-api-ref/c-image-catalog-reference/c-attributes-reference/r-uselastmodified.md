@@ -5,9 +5,9 @@ title: UseLastModified
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4908da5d-636e-44d2-bd49-40e01c8b5f79
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -26,10 +26,9 @@ Deze optie moet alleen worden ingeschakeld als een gedistribueerd cachenetwerk o
 >
 >* Geen `catalog::TimeStamp` noch `attribute::TimeStamp`, zodat de wijzigingstijd van de [!DNL catalog.ini] bestand wordt gebruikt als standaard voor `catalog::TimeStamp`.
 >
->* In plaats van de afbeeldingscatalogusbestanden via een netwerkmontage te delen, heeft elke server een eigen instantie van de catalogusbestanden op een lokaal bestandssysteem.
->* Twee of meer instanties van hetzelfde [!DNL catalog.ini] bestanden hebben andere wijzigingsdatums voor het bestand. Dit kan worden veroorzaakt door het onjuist kopiëren van de bestanden.
+>* In plaats van de bestanden met de afbeeldingscatalogus te delen via een netwerkmontage, heeft elke server een eigen instantie van de catalogusbestanden op een lokaal bestandssysteem.
+>* Twee of meer instanties van hetzelfde [!DNL catalog.ini] bestanden hebben andere wijzigingsdatums voor het bestand, mogelijk veroorzaakt door het onjuist kopiëren van de bestanden.
 >
-
 
 ## Eigenschappen {#section-7e26009b7d0a4a3ab234bf2a37f599e0}
 

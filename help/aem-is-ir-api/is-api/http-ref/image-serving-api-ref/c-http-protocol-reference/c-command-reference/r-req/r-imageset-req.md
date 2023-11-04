@@ -1,20 +1,20 @@
 ---
-description: Afbeeldingssetgegevens uit afbeeldingscatalogus. Hiermee worden de gegevens van de afbeeldingsset geretourneerd voor het item van de afbeeldingscatalogus dat is opgegeven in het URL-pad.
+description: Afbeeldingssetgegevens uit afbeeldingscatalogus. Retourneert de afbeeldingssetgegevens voor het item van de afbeeldingscatalogus dat is opgegeven in het URL-pad.
 solution: Experience Manager
 title: imageset
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,User
 exl-id: 730e7db9-47f0-4e96-8948-18b8185a5b7a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
 
 # imageset{#imageset}
 
-Afbeeldingssetgegevens uit afbeeldingscatalogus. Hiermee worden de gegevens van de afbeeldingsset geretourneerd voor het item van de afbeeldingscatalogus dat is opgegeven in het URL-pad.
+Afbeeldingssetgegevens uit afbeeldingscatalogus. Retourneert de afbeeldingssetgegevens voor het item van de afbeeldingscatalogus dat is opgegeven in het URL-pad.
 
 `req=imageset[,text|javascript|{xml[, *`coderen`*]}|{json[&id= *`reqId`*]}]`
 
@@ -29,7 +29,7 @@ Afbeeldingssetgegevens uit afbeeldingscatalogus. Hiermee worden de gegevens van 
  </tr> 
 </table>
 
-De inhoud van `catalog::ImageSet` wordt geretourneerd zonder verdere wijziging (behalve tekenreekslokalisatie, indien van toepassing), gevolgd door één regelafsluiter (CR/LF). Als het URL-pad niet wordt omgezet in een geldig catalogusitem, bestaat het antwoord uit slechts één regeleinde.
+De inhoud van `catalog::ImageSet` wordt geretourneerd zonder verdere wijziging (behalve tekenreekslokalisatie, indien van toepassing), gevolgd door een single-line terminator (CR/LF). Als het URL-pad niet wordt omgezet in een geldig catalogusitem, bestaat het antwoord alleen uit een terminator met één regel.
 
 Andere opdrachten in de tekenreeks request worden genegeerd. De HTTP-respons is cacheable met de TTL op basis van `catalog::NonImgExpiration`.
 

@@ -5,9 +5,9 @@ title: Kenmerkbestanden van Catalog
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 79d9439d-7749-4ae1-aa73-e88e01cf7555
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Kenmerkbestanden van catalogus kunnen elke naam hebben, maar moeten het achtervoegsel .ini hebben. U kunt ze eenvoudig onderhouden met elke teksteditor.
 
-Kenmerkbestanden van catalogus bestaan uit een set tekstrecords, gescheiden door één bestand `<CR>` (ASCII-code) `0xD`), één `<LF>` (ASCII-code) `0xA`), of een `<CR><LF>` paar. Elke record bestaat uit een kenmerknaam en een of meer door komma&#39;s gescheiden kenmerkwaarden:
+Kenmerkbestanden van catalogus bestaan uit een set tekstrecords, gescheiden door één bestand `<CR>` (ASCII-code `0xD`), één `<LF>` (ASCII-code `0xA`), of een `<CR><LF>` paar. Elke record bestaat uit een kenmerknaam en een of meer door komma&#39;s gescheiden kenmerkwaarden:
 
 `*`name`*= *`waarden`*{<CR>|<LF>|<CR><LF }`
 
@@ -37,7 +37,7 @@ Kenmerkbestanden van catalogus bestaan uit een set tekstrecords, gescheiden door
 
 Spaties tussen tokens zijn optioneel.
 
-Records met onbekende kenmerknamen worden door de [!DNL Platform Server].
+Records met onbekende kenmerknamen worden genegeerd door de [!DNL Platform Server].
 
 Kenmerknamen kunnen bestaan uit elke combinatie van ASCII-letters, -cijfers en &quot;-&quot;, &quot;_&quot; en &quot;.&quot;.
 

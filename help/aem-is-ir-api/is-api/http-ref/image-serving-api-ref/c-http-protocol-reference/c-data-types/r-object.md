@@ -5,9 +5,9 @@ title: object
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 64846f8f-ebc6-446c-8277-04c45111dc24
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -39,9 +39,9 @@ Source Object Specifier. Afbeeldings-, SVG- en ICC-profielobjecten kunnen worden
 
 *`rootId`* geeft een afbeeldingscatalogus aan. (Zie [Afbeeldingscatalogus](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) voor meer informatie.) Indien *`rootId`* wordt opgegeven in het URL-pad, wordt die catalogus *hoofdcatalogus* voor dit verzoek. Anders wordt de standaardcatalogus gebruikt als de hoofdcatalogus. In dezelfde aanvraag kunnen meerdere verschillende afbeeldingcatalogi worden gebruikt.
 
-De server gaat er in eerste instantie van uit dat *`rootId`* wordt weggelaten in `src=`, `mask=`, en `icc=` en wordt geprobeerd een item in de catalogus te vinden in de hoofdcatalogus. In feite probeert de server de gehele server te gebruiken *`object`* tekenreeks als *`objId.`*
+De server gaat er aanvankelijk van uit dat *`rootId`* wordt weggelaten in `src=`, `mask=`, en `icc=` opdrachten en pogingen om een item in de catalogus te zoeken. In feite probeert de server de gehele server te gebruiken *`object`* tekenreeks als *`objId.`*
 
-Als een item uit een catalogus wordt gevonden, wordt dit gebruikt; anders, probeert de server volgende om aan te passen *`rootId`* van een afbeeldingscatalogus. Als een catalogus wordt geïdentificeerd, wordt gezocht naar *`objId`*. Als en de ingang wordt gevonden, wordt het gebruikt.
+Als een catalogusitem wordt gevonden, wordt dit gebruikt. Als dit niet het geval is, probeert de volgende server het item *`rootId`* van een afbeeldingscatalogus. Als een catalogus wordt geïdentificeerd, wordt gezocht naar *`objId`*. Als en de ingang wordt gevonden, wordt het gebruikt.
 
 Anders, *`object`* wordt aangenomen dat het een expliciet bestandspad betreft. In dat geval, indien `attribute::FullMatch` wordt ingesteld in de hoofdcatalogus, wordt de catalogus genegeerd voor dit object en wordt in plaats daarvan de standaardcatalogus gebruikt. Indien `attribute::FullMatch` niet is ingesteld, wordt de hoofdcatalogus gebruikt voor verdere verwerking.
 
@@ -65,7 +65,7 @@ Toepassingen waarvoor afbeeldingsgegevens in meerdere resoluties nodig zijn, pre
 
 **Een afbeelding en een ICC-profiel openen in twee verschillende afbeeldingcatalogi**
 
-De afbeelding ophalen &#39; [!DNL myImage]&#39; in de afbeeldingscatalogus aangeduid als &#39; [!DNL myCatalog]en sluit het ICC-profiel &#39; [!DNL sRGB]&#39; in de afbeeldingscatalogus met de naam &#39; [!DNL myProfiles]&quot;:
+De afbeelding ophalen &#39; [!DNL myImage]&#39; in de afbeeldingscatalogus aangeduid als &#39; [!DNL myCatalog]en sluit het ICC-profiel &#39; [!DNL sRGB]&#39; in de afbeeldingscatalogus &#39; [!DNL myProfiles]&quot;:
 
 ` http:// *`server`*/myCatalog/myImage?icc=myProfiles/sRGB&iccEmbed=true`
 

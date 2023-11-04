@@ -1,20 +1,20 @@
 ---
 title: ErrorDetail
-description: Foutbericht met details. Geeft het detailniveau voor foutberichten op die via HTTP worden geretourneerd als de error.message-waarde.
+description: Foutbericht Geeft het detailniveau voor foutberichten op die via HTTP worden geretourneerd als de error.message-waarde.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 39d7fc44-7605-4f93-b2f9-0a6e8bc76ec7
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '166'
 ht-degree: 2%
 
 ---
 
 # ErrorDetail{#errordetail}
 
-Foutbericht met details. Geeft het detailniveau voor foutberichten op die via HTTP worden geretourneerd als de error.message-waarde.
+Foutbericht Geeft het detailniveau voor foutberichten op die via HTTP worden geretourneerd als de error.message-waarde.
 
 ## Titel {#section-c10d75d72ee24d16a67cc8d927f1deba}
 

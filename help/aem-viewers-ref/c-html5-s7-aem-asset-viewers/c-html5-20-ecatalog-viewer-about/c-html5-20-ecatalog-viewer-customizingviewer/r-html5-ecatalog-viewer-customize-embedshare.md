@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 2ed2db55-824c-40b6-8747-6b9b8792f5db
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '2606'
 ht-degree: 0%
@@ -106,7 +106,7 @@ Voorbeeld - Een achtergrondbedekking instellen op grijs met een dekking van 70%:
 }
 ```
 
-Standaard wordt het modale dialoogvenster gecentreerd weergegeven op het scherm op desktopsystemen en neemt het volledige webpaginagebied op aanraakapparaten in beslag. In alle gevallen, wordt het plaatsen en het rangschikken van de dialoogdoos beheerd door de component. Het dialoogvenster wordt bestuurd met de volgende CSS-klassenkiezer:
+Standaard wordt het modale dialoogvenster gecentreerd weergegeven op het scherm op desktopsystemen en neemt het volledige webpaginagebied op aanraakapparaten. In alle gevallen, wordt het plaatsen en het rangschikken van de dialoogdoos beheerd door de component. Het dialoogvenster wordt bestuurd met de volgende CSS-klassenkiezer:
 
 ```
 .s7embeddialog .s7dialog
@@ -162,7 +162,7 @@ De koptekst van het dialoogvenster bestaat uit een pictogram, een titeltekst en 
  </tbody> 
 </table>
 
-Het pictogram en de titeltekst worden verpakt in een extra container die met
+Het pictogram en de titeltekst worden verpakt in een extra container die wordt bestuurd met
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7dialogheader .s7dialogline
@@ -174,7 +174,7 @@ Het pictogram en de titeltekst worden verpakt in een extra container die met
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
-   <td colname="col2"> <p> Opvulling binnen voor het koptekstpictogram en de titel </p> </td> 
+   <td colname="col2"> <p> Opvulling binnen voor koptekstpictogram en titel </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -228,7 +228,7 @@ De titel van de koptekst wordt bestuurd met de volgende CSS-klassenkiezer:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>Lettertypefamilie. </p> </td> 
+   <td colname="col2"> <p>Fontfamilie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
@@ -672,11 +672,11 @@ De insluitcode wordt ondergebracht in container en bestuurd met de volgende CSS-
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>De breedte van de container van de insluitcode. </p> </td> 
+   <td colname="col2"> <p>De breedte van de insluitcodecontainer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
-   <td colname="col2"> <p>Rand rond de insluitcodecontainer. </p> </td> 
+   <td colname="col2"> <p>Rand rondom de container van de insluitcode. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
@@ -712,7 +712,7 @@ De eigenlijke ingesloten codetekst wordt beheerd met de volgende CSS-klassenkiez
  </tbody> 
 </table>
 
-Voorbeeld: de ingesloten code instellen voor gebruik `break-word` tekstterugloop:
+Voorbeeld: de insluitcode instellen voor gebruik `break-word` tekstterugloop:
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7dialogmessage { 
@@ -819,7 +819,7 @@ De hoogte van de tekst van de keuzelijst met invoervak wordt gedefinieerd door e
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Teksthoogte van keuzelijst met invoervak. </p> </td> 
+   <td colname="col2"> <p>Hoogte van tekstvak met invoervak. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1174,7 +1174,7 @@ Het schuifbalkblokje beweegt verticaal binnen een schuiftrackgebied. De vertical
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> achtergrondafbeelding </span> </p> </td> 
-   <td colname="col2"> <p> De afbeelding die wordt weergegeven voor een bepaalde staat van het blokje. </p> </td> 
+   <td colname="col2"> <p> De afbeelding die wordt weergegeven voor een bepaalde blokstatus. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 

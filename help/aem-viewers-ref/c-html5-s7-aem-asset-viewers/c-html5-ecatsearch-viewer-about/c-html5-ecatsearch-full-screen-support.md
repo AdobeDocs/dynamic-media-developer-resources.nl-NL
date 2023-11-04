@@ -1,23 +1,23 @@
 ---
-description: De viewer ondersteunt de bewerkingsmodus Volledig scherm.
+description: De viewer ondersteunt de modus Volledig scherm.
 solution: Experience Manager
-title: Ondersteuning voor volledig scherm
+title: ondersteuning voor volledig scherm
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: b4196444-10a9-4391-b3ac-d8f12deb173f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
 
-# Ondersteuning voor volledig scherm{#full-screen-support}
+# ondersteuning voor volledig scherm{#full-screen-support}
 
-De viewer ondersteunt de bewerkingsmodus Volledig scherm.
+De viewer ondersteunt de modus Volledig scherm.
 
 Op moderne desktopbrowsers, met uitzondering van Internet Explorer 10 en ouder, en op sommige aanraakapparaten gebruikt de viewer de modus &quot;native&quot; volledig scherm. Deze modus houdt in dat het volledige apparaatscherm wordt ingenomen door de viewerinhoud.
 
-Op iOS-apparaten en in oudere Internet Explorer-browsers gebruikt de viewer de modus Gesimuleerd volledig scherm. In deze modus wordt de grootte van de viewer alleen gewijzigd om het volledige gebied van het venster van de webbrowser te nemen. Bovendien zijn de gebruikersinterface van de webbrowser en andere vensters nog steeds zichtbaar op het scherm.
+Op iOS-apparaten en in oudere Internet Explorer-browsers gebruikt de viewer de modus &quot;gesimuleerd&quot; (volledig scherm). In deze modus wordt de grootte van de viewer alleen gewijzigd om het volledige gebied van het venster van de webbrowser te nemen. Bovendien zijn de gebruikersinterface van de webbrowser en andere vensters nog steeds zichtbaar op het scherm.
 
-Een eindgebruiker gaat de modus Volledig scherm in en verlaat deze door in de gebruikersinterface van de viewer op de knop Volledig scherm te drukken. Als de modus &quot;native&quot; voor volledig scherm wordt gebruikt op het bureaublad, is het ook mogelijk deze uit te schakelen door op **Esc**.
+Een eindgebruiker gaat de modus Volledig scherm in en verlaat deze door op de knop Volledig scherm in de gebruikersinterface van de viewer te drukken. Als de modus &quot;native&quot; voor volledig scherm wordt gebruikt op het bureaublad, is het ook mogelijk om deze uit te schakelen door op **Esc**.

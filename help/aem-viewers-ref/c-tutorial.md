@@ -1,11 +1,11 @@
 ---
 title: Zelfstudie voor viewer-SDK
-description: De Viewer SDK bevat een set JavaScript-componenten voor de ontwikkeling van aangepaste viewers. De viewers zijn webtoepassingen waarmee rich media-inhoud van Adobe Dynamic Media kan worden ingesloten in webpagina's.
+description: De Viewer SDK bevat een set JavaScript-componenten voor de ontwikkeling van aangepaste viewers. De viewers zijn webtoepassingen waarmee rijke media-inhoud die door Adobe Dynamic Media wordt aangeboden, kan worden ingesloten in webpagina's.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 3a798595-6c65-4a12-983d-3cdc53830d28
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Zelfstudie voor viewer-SDK{#viewer-sdk-tutorial}
 
-De Viewer SDK bevat een set JavaScript-componenten voor de ontwikkeling van aangepaste viewers. De viewers zijn webtoepassingen waarmee rich media-inhoud van Adobe Dynamic Media kan worden ingesloten in webpagina&#39;s.
+De Viewer SDK bevat een set JavaScript-componenten voor de ontwikkeling van aangepaste viewers. De viewers zijn webtoepassingen waarmee rijke media-inhoud die door Adobe Dynamic Media wordt aangeboden, kan worden ingesloten in webpagina&#39;s.
 
 De SDK biedt bijvoorbeeld interactief zoomen en pannen. Het biedt ook een weergave van 360° en het afspelen van video&#39;s van elementen die via de back-end toepassing Dynamic Media Classic naar Adobe Dynamic Media zijn geüpload.
 
@@ -44,7 +44,7 @@ Deze zelfstudie bevat de volgende taakvolgorde om u te helpen een standaardzoomv
 
 1. Maak eerst een nieuwe pagina voor de ontwikkeling van de standaardzoomviewer die u gaat maken.
 
-   Bekijk deze nieuwe pagina met de Bootstrap- of loader-code die u gebruikt om een lege SDK-toepassing in te stellen. Open uw favoriete tekstverwerker en plak de volgende HTML-opmaakcode in deze editor:
+   Bekijk deze nieuwe pagina de Bootstrap - of lader - code die u gebruikt om een lege SDK-toepassing in te stellen. Open uw favoriete tekstverwerker en plak de volgende HTML-opmaakcode in deze editor:
 
    ```html {.line-numbers}
    <!DOCTYPE html> 
@@ -115,7 +115,7 @@ Deze zelfstudie bevat de volgende taakvolgorde om u te helpen een standaardzoomv
 
 1. Sla het bestand op als een lege sjabloon. U kunt elke gewenste bestandsnaam gebruiken.
 
-   U gebruikt dit lege sjabloonbestand als referentie wanneer u in de toekomst viewers maakt. Deze sjabloon werkt lokaal en vanaf een webserver.
+   U kunt dit lege sjabloonbestand als referentie gebruiken wanneer u in de toekomst viewers maakt. Deze sjabloon werkt lokaal en vanaf een webserver.
 
 Voeg nu stijl toe aan uw viewer.
 
@@ -123,7 +123,7 @@ Voeg nu stijl toe aan uw viewer.
 
 1. Voor deze viewer voor volledige pagina&#39;s die u maakt, kunt u enkele basisstijlen toevoegen.
 
-   Voeg het volgende toe `style` van het blok aan de bodem van `head`:
+   Voeg het volgende toe `style` onder aan het blok `head`:
 
    ```html {.line-numbers}
    <style> 
@@ -178,8 +178,8 @@ Neem nu de componenten op `Container` en `ZoomView`.
    
    /* Create a viewer container as a parent component for other user interface components that  
       are part of the viewer application and associate event handlers for resize and  
-      full screen notification. The advantage of using Container as the parent is the  
-      component's ability to resize and bring itself and its children to full screen. */ 
+      full-screen notification. The advantage of using Container as the parent is the  
+      component's ability to resize and bring itself and its children to full-screen. */ 
    container = new s7sdk.common.Container(null, params, "s7container"); 
    container.addEventListener(s7sdk.event.ResizeEvent.COMPONENT_RESIZE, containerResize, false); 
    
@@ -207,7 +207,7 @@ Neem nu de componenten op `Container` en `ZoomView`.
 
 1. Geef een voorvertoning van de pagina weer, zodat u kunt zien wat u hebt gemaakt. De pagina moet er als volgt uitzien:
 
-   ![Voorbeeld van één afbeelding](assets/viewer-1.jpg)
+   ![Voorbeeld van één afbeelding weergeven](assets/viewer-1.jpg)
 
 Voeg nu de componenten toe `MediaSet` en `Swatches` naar uw viewer.
 
@@ -230,7 +230,7 @@ Voeg nu de componenten toe `MediaSet` en `Swatches` naar uw viewer.
 
 1. Instantiëren `MediaSet` en `Swatches` componenten binnen de `initViewer` functie.
 
-   Instantieer de opdracht `Swatches` instantie na de `ZoomView` en `Container` de componenten, anders verbergt de het stapelen orde `Swatches`:
+   Instantieer de opdracht `Swatches` instantie na de `ZoomView` en `Container` componenten, anders verbergt de stapelvolgorde `Swatches`:
 
    ```javascript {.line-numbers}
    // Create MediaSet to manage assets and add event listener to the NOTF_SET_PARSED event 
@@ -308,7 +308,7 @@ Voeg nu knoppen voor inzoomen, uitzoomen en het opnieuw instellen van zoomen toe
    var mediaSet, container, zoomView, swatches, zoomInButton, zoomOutButton, zoomResetButton;
    ```
 
-1. Instantieknoppen onder aan `initViewer` functie.
+1. Knoppen onder aan `initViewer` functie.
 
    Onthoud dat de volgorde van belang is, tenzij u de optie `z-index` in CSS:
 
@@ -360,7 +360,7 @@ Voeg nu knoppen voor inzoomen, uitzoomen en het opnieuw instellen van zoomen toe
 
 1. U kunt wijzigingstoetsen op het `ParameterManager` -instantie.
 
-   Voeg het volgende toe aan de bovenkant van `initViewer` zodat u de `Swatches` duimlay-out als één enkele rij:
+   Voeg het volgende toe aan de bovenkant van `initViewer` functie zodat u de `Swatches` duimlay-out als één enkele rij:
 
    ```javascript {.line-numbers}
    params.push("Swatches.tmblayout", "1,0");
@@ -389,4 +389,4 @@ Voeg nu knoppen voor inzoomen, uitzoomen en het opnieuw instellen van zoomen toe
 
    Uw standaardzoomviewer is nu voltooid.
 
-   Deze viewerzelfstudie behandelt de grondbeginselen van wat de Dynamic Media Viewer SDK biedt. Terwijl u met de SDK werkt, kunt u de verschillende standaardcomponenten gebruiken om eenvoudig rijke kijkervaringen voor uw doelpubliek te maken en te stijlaliseren.
+   Deze viewerzelfstudie behandelt de grondbeginselen van wat de SDK van de Dynamic Media Viewer biedt. Terwijl u met de SDK werkt, kunt u de verschillende standaardcomponenten gebruiken om eenvoudig rijke kijkervaringen voor uw doelpubliek te maken en te stijlaliseren.

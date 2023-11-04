@@ -5,9 +5,9 @@ title: SSL-ciphers definiëren
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 7734ba02-4442-4a3d-acbf-e14d8ad66279
-source-git-commit: 370444b85cb2636d109df4e2681e3e078d6f1e1a
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Standaard zijn alle ciphers beschikbaar. De lijst wordt gescheiden door komma&#3
 
 <!-- WEAK CQDOC-19433 `TLS_RSA_WITH_AES_128_CBC_SHA` -->
 
-Als een van de waarden verkeerd is, zal Tomcat elke enkele cipher toelaten. Het is dus van essentieel belang om met een extern hulpmiddel na configuratie te controleren om te zien welke ciphers eigenlijk worden toegelaten.
+Als een van de waarden fout is, schakelt Tomcat elk enkel cijfer in. Het is dus van essentieel belang om met een extern hulpmiddel na configuratie te controleren om te zien welke ciphers eigenlijk worden toegelaten.
 
 Als voorbeeld laat de volgende configuratie alleen de &quot;128-bits&quot; cdersuites en hoger toe:
 

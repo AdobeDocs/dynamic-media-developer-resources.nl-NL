@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: c386a09c-21ce-4105-b416-e6ae50219af0
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Bepaalde inhoud die in de Video Viewer wordt weergegeven, is afhankelijk van lokalisatie, inclusief zoomknoppen en een knop voor volledig scherm.
 
-Elke tekstinhoud in de viewer die kan worden gelokaliseerd, wordt vertegenwoordigd door een speciale viewer-SDK-id met de naam SYMBOL. Elk SYMBOL heeft een standaardtekstwaarde voor de landinstelling Engels ( `"en"`) wordt geleverd bij de viewer buiten de box. Er kunnen ook door de gebruiker gedefinieerde waarden worden ingesteld voor zoveel landinstellingen als nodig zijn.
+Elke tekstinhoud in de viewer die kan worden gelokaliseerd, wordt vertegenwoordigd door een speciale viewer-SDK-id met de naam SYMBOL. Elk SYMBOL heeft een aan de standaardwaarde gekoppelde tekstwaarde voor de landinstelling Engels ( `"en"`) wordt geleverd bij de viewer buiten de box. Er kunnen ook door de gebruiker gedefinieerde waarden worden ingesteld voor het aantal landinstellingen dat nodig is.
 
 Wanneer de viewer wordt gestart, wordt de huidige landinstelling gecontroleerd om te zien of er een door de gebruiker gedefinieerde waarde is voor elk ondersteund SYMBOL voor de landinstelling. Als dat het geval is, gebruikt het de user-defined waarde; anders, valt het terug naar de uit-van-de-doos standaardtekst.
 
@@ -48,13 +48,13 @@ De volgende SYMBOL&#39;s worden ondersteund:
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>SYMBOOL </p> </th> 
-   <th colname="col2" class="entry"> <p>Knopinfo voor... </p> </th> 
+   <th colname="col2" class="entry"> <p>Knopinfo voor de... </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Container.LABEL </span> </p> </td> 
-   <td colname="col2"> <p>ARIA-label voor viewerelement op hoofdniveau. </p> </td> 
+   <td colname="col2"> <p>ARIA-label voor viewerelement op het hoogste niveau. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZoomView.ROLE_DESCRIPTION </span> </p> </td> 
@@ -66,7 +66,7 @@ De volgende SYMBOL&#39;s worden ondersteund:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CloseButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Knop Sluiten. </p> </td> 
+   <td colname="col2"> <p>Sluiten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZoomInButton.TOOLTIP </span> </p> </td> 
@@ -74,7 +74,7 @@ De volgende SYMBOL&#39;s worden ondersteund:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZoomOutButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Knop Uitzoomen. </p> </td> 
+   <td colname="col2"> <p>Uitzoomen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZoomResetButton.TOOLTIP </span> </p> </td> 
@@ -82,11 +82,11 @@ De volgende SYMBOL&#39;s worden ondersteund:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
-   <td colname="col2"> <p>De knop Volledig scherm in normale toestand. </p> </td> 
+   <td colname="col2"> <p>schermvullende knop in normale toestand. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED </span> </p> </td> 
-   <td colname="col2"> <p>De knop Volledig scherm in volledige schermstatus. </p> </td> 
+   <td colname="col2"> <p>schermvullende knop in volledig-schermstaat. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollLeftButton.TOOLTIP </span> </p> </td> 

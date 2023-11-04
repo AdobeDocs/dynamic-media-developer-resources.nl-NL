@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 17387203-f7a7-4876-a15b-2084894f981d
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,13 @@ Selecteer object op naam. Hiermee wordt de opgegeven groep vignetten op naam ges
  </tr> 
 </table>
 
-Subgroepen of afzonderlijke objecten kunnen worden geselecteerd met behulp van een volledig gekwalificeerd groepspad (d.w.z. door de naam van de doelgroep of het doelobject op te geven, voorafgegaan door alle bovenliggende groepen, gescheiden door / (slashes).
+Subgroepen of afzonderlijke objecten kunnen worden geselecteerd met een volledig gekwalificeerd groepspad (dat wil zeggen door de naam van de doelgroep of het doelobject op te geven, voorafgegaan door alle bovenliggende groepen, gescheiden door / (slashes).
 
 Als er geen groep/object met de opgegeven naam wordt gevonden, wordt de handeling opgegeven in `attribute::OnObjFail` wordt genomen.
 
 ## Eigenschappen {#section-9463b36e8ff74c81a70c7c2b58927430}
 
-Selectieopdracht; MSS-scheidingsteken. De objectselectie is blijvend totdat een ander object is geselecteerd. `obj=` of `sel=`.
+Selectie, opdracht; MSS-scheidingsteken. De objectselectie is blijvend totdat een ander object is geselecteerd. `obj=` of `sel=`.
 
 Paden en namen van groepen/objecten zijn niet hoofdlettergevoelig.
 

@@ -5,26 +5,26 @@ title: Pad
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f2d17309-c4d0-477f-a8d8-b40f05a1a60b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
 
 # Pad{#path}
 
-De server gebruikt de regels voor padresolutie die worden beschreven in [Brongegevens beheren](../../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md#concept-1ec4d9f0e58a430cae045761f1ff9173) om het gegevensbestand te zoeken.
+De server gebruikt de regels voor padresolutie die in [Brongegevens beheren](../../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md#concept-1ec4d9f0e58a430cae045761f1ff9173) om het gegevensbestand te zoeken.
 
 ## Eigenschappen {#section-72d9edc532ad43349afcb4df22e1c692}
 
-Tekstreeks. Vereist voor afbeeldings- en SVG-records is mogelijk leeg voor sjabloonrecords. Indien gespecificeerd, moet het een geldig relatieve of absolute het dossierweg van de Server van het Beeld zijn. kenmerk::DefaultExt wordt toegevoegd als er geen achtervoegsel voor het bestand aanwezig is.
+Tekstreeks. Vereist voor afbeeldings- en SVG-records is mogelijk leeg voor sjabloonrecords. Indien gespecificeerd, moet het een geldig relatieve of absolute het dossierweg van de Server van het Beeld zijn. attribute::DefaultExt wordt toegevoegd als geen dossierachtervoegsel aanwezig is.
 
 ## Ondersteunde bestandsindelingen voor afbeeldingen {#section-8d6443c883aa48aaa00316fe9661aaa8}
 
 Raadpleeg de beschrijving van het hulpprogramma Image Converter (IC) voor een volledige lijst met ondersteunde bestandsindelingen voor afbeeldingen.
 
-Toepassingen waarvoor afbeeldingsgegevens in meerdere resoluties nodig zijn, presteren het beste als de indeling voor meerresolutie van de Dynamic Media piramid TIFF (PTIFF) wordt gebruikt. Het hulpprogramma IC wordt gebruikt om PTIFF-afbeeldingen te maken in elke ondersteunde afbeeldingsindeling.
+Toepassingen waarvoor afbeeldingsgegevens in meerdere resoluties nodig zijn, presteren het best als de indeling voor meerresolutie van de Dynamic Media-piramid-TIFF (PTIFF) wordt gebruikt. Het hulpprogramma IC wordt gebruikt om PTIFF-afbeeldingen te maken in elke ondersteunde afbeeldingsindeling.
 
 ## Standaard {#section-82dad83ec3f84ae8bf2f850b4139f63e}
 

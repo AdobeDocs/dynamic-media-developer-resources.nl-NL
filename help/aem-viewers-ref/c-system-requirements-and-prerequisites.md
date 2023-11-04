@@ -6,7 +6,7 @@ contentOwner: Rick Brough
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
-source-git-commit: 7793e9befcf3050b9f4e12deeffa018d7c91aaf7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Systeemvereisten voor Dynamic Media HTML5-viewers.
 
 <!-- Updated March 03, 2022 Contact is now Deepa Gupta -->
 
-* Adobe Dynamic Media Image Serving 6.7.1 of hoger.
+* Adobe Dynamic Media Image Serving 6.7.1 of later.
 * Voor HTML5-viewers zijn SDK JavaScript Server-side bibliotheken 3.11.5 of hoger vereist.
 * *Een vriend e-mailen* voor sociale functies is s7ondemand 5.0.9 of hoger vereist.
 * eCatalog-viewer - [Pop-up deelvenster Info](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) Voor ondersteuning is infoserver 2.1.8 of hoger vereist.
@@ -78,7 +78,7 @@ Systeemvereisten voor Dynamic Media HTML5-viewers.
 
 <!-- CQDOC-19433 -->
 
-Vanaf 30 september 2022 beëindigt Adobe Dynamic Media Viewers de ondersteuning voor:
+Vanaf 30 september 2022 is de ondersteuning voor Adobe Dynamic Media Viewers beëindigd voor:
 
 * TLS (Transport Layer Security) 1.0 en 1.1
 * De volgende zwakke ciphers in TLS 1.2:
@@ -97,11 +97,11 @@ Vanaf 30 september 2022 beëindigt Adobe Dynamic Media Viewers de ondersteuning 
    * TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
    * TLS_RSA_WITH_SDES_EDE_CBC_SHA
 
-## Niet-ondersteunde combinaties van webbrowsers en besturingssystemen voor Dynamic Media Viewers {#browser-os-support}
+## Niet-ondersteunde combinaties van webbrowser en besturingssysteem voor Dynamic Media Viewers {#browser-os-support}
 
 <!-- CQDOC-19433 -->
 
-Adobe Dynamic Media Viewers ondersteunen de volgende webbrowser- en besturingssysteemcombinaties niet:
+Adobe Dynamic Media Viewers biedt geen ondersteuning voor de volgende webbrowser- en besturingssysteemcombinaties:
 
 * Internet Explorer 11 + Windows 7
 * Internet Explorer 11 + Windows 8.1
@@ -119,19 +119,19 @@ Adobe Dynamic Media Viewers ondersteunen de volgende webbrowser- en besturingssy
 NOTE
 Effective September 30, 2018, Adobe Dynamic Media Classic Viewers ended support of Transport Layer Security 1.0 (TLS 1.0). As such, Dynamic Media Classic no longer supports viewers on the following browsers/platforms that support TLS 1.0 (Adobe recommends using TLS 1.2 or later):
 
-* Android™ 2.3.7
-* Android™ 4.0.4
-* Android™ 4.1.1
-* Android™ 4.2.2
-* Android™ 4.3
-* Internet Explorer 7 on Window Vista®
-* Internet Explorer 8 on Windows® XP
-* Internet Explorer 8-10 on Windows® 7
-* Internet Explorer 10 on Windows® Phone 8.0
+* Android&trade; 2.3.7
+* Android&trade; 4.0.4
+* Android&trade; 4.1.1
+* Android&trade; 4.2.2
+* Android&trade; 4.3
+* Internet Explorer 7 on Window Vista&reg;
+* Internet Explorer 8 on Windows&reg; XP
+* Internet Explorer 8-10 on Windows&reg; 7
+* Internet Explorer 10 on Windows&reg; Phone 8.0
 * Safari 5.1.9 on Apple OS X 10.6.8
 * Safari 6.0.4 on Apple OS X 10.8.4
-* Java™ 6u45
-* Java™ 7u25
+* Java&trade; 6u45
+* Java&trade; 7u25
 * OpenSSL 0.9.8y
 * Baidu January 2015
 

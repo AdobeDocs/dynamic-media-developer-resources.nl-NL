@@ -5,9 +5,9 @@ title: cdnCacheInvalidation
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 65b758f2-b49a-4616-b657-a64808c9202a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 Hiermee wordt de opgegeven lijst met URL&#39;s doorgestuurd naar de Dynamic Media CDN-provider (Content Distribution Network) om de bestaande cache met HTTP-reacties ongeldig te maken.
 
-## cdnCacheInvalidation: Info {#section-4f70d2bc79d64288b961836ab17e9690}
+## cdnCacheInvalidation: informatie {#section-4f70d2bc79d64288b961836ab17e9690}
 
-De CDN geheim voorgeheugenongeldigverklaring dwingt alle HTTP- verzoeken om deze URLs tegen de huidige gepubliceerde gegevens op het netwerk van Dynamic Media opnieuw te worden bevestigd nadat dit ongeldigingsverzoek door het netwerk CDN wordt verwerkt. URL&#39;s die niet zijn verbonden met de URL-structuur van de Dynamic Media-service en die direct overeenkomen met de hoofdid van het Dynamic Media-bedrijf die is toegewezen op het moment dat het bedrijf wordt gemaakt, resulteren in een API-fout voor de gehele aanvraag. Eventuele ongeldige URL&#39;s die de CDN niet ondersteunt en die als ongeldig worden beschouwd, resulteren ook in een API-fout voor de gehele aanvraag.
+De CDN geheim voorgeheugenongeldigverklaring dwingt alle HTTP- verzoeken om deze URLs tegen de huidige gepubliceerde gegevens op het netwerk van Dynamic Media opnieuw te worden bevestigd nadat dit ongeldigingsverzoek door het netwerk CDN wordt verwerkt. URL&#39;s die niet zijn verbonden met de URL-structuur van de Dynamic Media-service en die direct overeenkomen met de hoofdid van het Dynamic Media-bedrijf die is toegewezen wanneer het bedrijf wordt gemaakt, resulteren in een API-fout voor de gehele aanvraag. Ongeldige URL&#39;s die de CDN niet ondersteunt en die als ongeldig worden beschouwd, resulteren ook in een API-fout voor de gehele aanvraag.
 
-**Gebruiksfrequentie: Regels**
+**Gebruiksfrequentie: regels**
 
-De regels die de frequentie van het gebruik van deze eigenschap bepalen worden gecontroleerd door de partners CDN van Dynamische Media. CDN behoudt de discretie om de ontvankelijkheid van deze ongeldig wordingen te degraderen om optimale prestaties van zijn dienst aan zijn gebruikers te handhaven. Mocht Dynamic Media op de hoogte worden gesteld van het overgebruik van deze functie, dan moeten we de functie uitschakelen, per bedrijf of volledig in de service.
+De regels die de frequentie van het gebruik van deze eigenschap bepalen worden gecontroleerd door de partners CDN van Dynamic Media. CDN behoudt de discretie om de ontvankelijkheid van deze ongeldig wordingen te degraderen om optimale prestaties van zijn dienst aan zijn gebruikers te handhaven. Mocht Dynamic Media op de hoogte worden gesteld van overgebruik van deze functie, dan moet de Adobe de functie uitschakelen, per bedrijf of volledig in de service.
 
 **Bevestigingse-mails**
 
@@ -100,7 +100,7 @@ Bevestigingse-mails van de Dynamic Media CDN-partner kunnen worden verzonden naa
 
 In dit voorbeeld worden vier URL&#39;s ongeldig gemaakt in de CDN-cache. De reactie bevat summiere tellingen van het succes van de verrichtingen en een lijst van foutendetails die direct van CDN worden geleverd om de cliënt in gebruik van deze eigenschap bij te staan.
 
-`getCdnCacheInvalidationStatus` bewerking.
+`getCdnCacheInvalidationStatus` -bewerking.
 
 **Verzoek**
 

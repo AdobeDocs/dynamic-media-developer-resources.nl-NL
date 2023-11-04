@@ -1,24 +1,24 @@
 ---
-title: Knop Volledig scherm
+title: schermvullende knop
 description: De knop Volledig scherm zorgt ervoor dat de SmartCrop Video-speler de modus Volledig scherm opent of verlaat wanneer de gebruiker erop klikt.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 79b57f6d-17d2-48af-9414-b0ab9d24fbdc
-source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
 
-# Knop Volledig scherm{#full-screen-button}
+# schermvullende knop{#full-screen-button}
 
 De knop Volledig scherm zorgt ervoor dat de SmartCrop Video-speler de modus Volledig scherm opent of verlaat wanneer de gebruiker erop klikt.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-U kunt de grootte, de huid, en de positie van de volledige het schermknoop, met betrekking tot de controlebar die het bevat, door CSS rangschikken.
+U kunt de grootte, de huid, en de positie van de volledig-schermknoop, met betrekking tot de controlebar die het bevat, door CSS rangschikken.
 
 De weergave van de knop Volledig scherm wordt bepaald door de CSS-klassenkiezer:
 
@@ -73,7 +73,7 @@ De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-e
 
 ## Voorbeeld {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Aan opstelling een volledig het schermknoop die 32 x 32 pixel is, en geplaatst 6 pixel van de bovenkant en de juiste rand van de controlebar. Geef ook een andere afbeelding weer voor elk van de vier verschillende knoptoestanden, indien geselecteerd of niet.
+Aan opstelling een volledig-schermknoop die 32 x 32 pixel is, en geplaatst 6 pixel van de bovenkant en de juiste rand van de controlebar. Geef ook een andere afbeelding weer voor elk van de vier verschillende knoptoestanden, indien geselecteerd of niet.
 
 ```
 .s7smartcropvideoviewer . s7fullscreenbutton { 

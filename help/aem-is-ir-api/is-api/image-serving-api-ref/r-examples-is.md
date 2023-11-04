@@ -1,12 +1,12 @@
 ---
 title: Voorbeelden van Image Server
-description: Deze pagina zal met de voorbeelden van de Server van het Beeld verbinden.
+description: Deze pagina zou aan de voorbeelden van de Server van het Beeld moeten verbinden.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 17c933f1-5f61-4f22-88d4-6295a2d13a01
 hidefromtoc: true
-source-git-commit: 34be28b2768426da6387dafd0d28805c3e84a12c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '22'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Voorbeelden van Image Server{#image-server-examples}
 
-Dit onderwerp zal met de voorbeelden van de Server van het Beeld verbinden.
+Dit onderwerp zou aan de voorbeelden van de Server van het Beeld moeten verbinden.
 <!-- As of August 29 (and likely months or years before this date), none of the links below work anymore! -->
 
 

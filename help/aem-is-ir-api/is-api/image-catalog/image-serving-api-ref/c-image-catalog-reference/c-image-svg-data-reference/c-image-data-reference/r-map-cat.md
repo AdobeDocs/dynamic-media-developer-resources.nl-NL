@@ -5,9 +5,9 @@ title: Kaart
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e9490b5c-0f85-4256-8590-0d6aa52a19d5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Afbeeldingskaartgegevens. Geen of meer volledige HTML `<AREA>` elementen, gesorteerd van voor naar achter.
 
-De server interpreteert de kenmerken SHAPE en COORDS en kan deze wijzigen. (SHAPE=CIRCLE wordt niet ondersteund in deze release.) Alle andere kenmerken van `<AREA>` zonder wijzigingen worden doorgegeven. Coördinaatwaarden die zijn opgegeven met het kenmerk COORDS, moeten pixelverschuivingen zijn ten opzichte van de linkerbovenhoek van de ongewijzigde bronafbeelding. (`%` coördinaten worden niet ondersteund in deze release en worden mogelijk niet correct verwerkt.)
+De server interpreteert de kenmerken SHAPE en COORDS en kan deze wijzigen (SHAPE=CIRCLE wordt in deze versie niet ondersteund). Alle andere kenmerken van `<AREA>` zonder wijzigingen worden doorgegeven. Coördinaatwaarden die zijn opgegeven met het kenmerk COORDS, moeten pixelverschuivingen zijn ten opzichte van de linkerbovenhoek van de ongewijzigde bronafbeelding. (`%` coördinaten worden niet ondersteund in deze release en worden mogelijk niet correct verwerkt.)
 
 ## Eigenschappen {#section-f52d89fd399b4356ac05277e6c12f956}
 

@@ -5,9 +5,9 @@ title: Pad
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9d5417df-3aa2-4620-a614-ca71a96e2069
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ Relatief of absoluut pad en naam van het bronafbeeldingsbestand dat aan deze cat
 
 ## Eigenschappen {#path-properties}
 
-Tekstreeks. Vereist voor afbeeldingsrecords is mogelijk leeg voor sjabloonrecords. Indien gespecificeerd, moet het een geldig relatieve of absolute het dossierweg van de Server van het Beeld zijn. kenmerk::DefaultExt wordt toegevoegd als er geen achtervoegsel voor het bestand aanwezig is.
+Tekstreeks. Vereist voor afbeeldingsrecords is mogelijk leeg voor sjabloonrecords. Indien gespecificeerd, moet het een geldig relatieve of absolute het dossierweg van de Server van het Beeld zijn. attribute::DefaultExt wordt toegevoegd als geen dossierachtervoegsel aanwezig is.
 
 ## Ondersteunde bestandsindelingen voor afbeeldingen {#path-supported-image-file-formats}
 
 Raadpleeg de beschrijving van het hulpprogramma Image Converter (IC) voor een volledige lijst met ondersteunde bestandsindelingen.
 
-Toepassingen die afbeeldingsgegevens in meerdere resoluties vereisen, presteren het beste als de indeling voor meerresolutie van de Dynamic Media piramid TIFF (PTIFF) wordt gebruikt. Het hulpprogramma IC wordt gebruikt om PTIFF-afbeeldingen te maken in elke ondersteunde afbeeldingsindeling.
+Toepassingen waarvoor afbeeldingsgegevens in meerdere resoluties nodig zijn, presteren het beste als de indeling voor meerresolutie van Dynamic Media piramid TIFF (PTIFF) wordt gebruikt. Het hulpprogramma IC wordt gebruikt om PTIFF-afbeeldingen te maken in elke ondersteunde afbeeldingsindeling.
 
 ## Standaard {#path-default}
 

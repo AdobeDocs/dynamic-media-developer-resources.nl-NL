@@ -1,20 +1,20 @@
 ---
-description: Hiermee stelt u gebruikerskenmerken in (bijvoorbeeld naam, e-mail, rol, enz.)
+description: Hiermee stelt u gebruikerskenmerken in (bijvoorbeeld naam, e-mail, rol, enzovoort.)
 solution: Experience Manager
 title: setUserInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d8f8fe53-a874-4b77-9084-9a369862a672
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
 
 # setUserInfo{#setuserinfo}
 
-Hiermee stelt u gebruikerskenmerken in (bijvoorbeeld naam, e-mail, rol, enz.)
+Hiermee stelt u gebruikerskenmerken in (bijvoorbeeld naam, e-mail, rol, enzovoort.)
 
 Syntaxis
 
@@ -34,10 +34,10 @@ Syntaxis
 | userHandle | `xsd:string` | Nee | Gebruikershandgreep. |
 | firstName | `xsd:string` | Ja | Voornaam. |
 | lastName | `xsd:string` | Ja | Achternaam. |
-| email | `xsd:string` | Ja | E-mailadres gebruiker. |
-| defaultRole | `xsd:string` | Ja | Plaatst de rol voor een gebruiker in elk bedrijf zij tot behoren. De `IpsAdmin` de rol treedt andere per-bedrijfmontages met voeten. |
+| email | `xsd:string` | Ja | E-mailadres van gebruiker. |
+| defaultRole | `xsd:string` | Ja | Plaatst de rol voor een gebruiker in elk bedrijf zij tot behoren. Noteer echter de `IpsAdmin` de rol treedt andere per-bedrijfmontages met voeten. |
 | passwordExpires | `xsd:dateTime` | Nee | Vervaldatum wachtwoord van set. |
-| isValid | `xsd:boolean` | Ja | Hiermee wordt bepaald of de gebruiker een geldige IPS-gebruiker is. |
+| isValid | `xsd:boolean` | Ja | Bepaalt als de gebruiker een geldige IPS gebruiker is. |
 | membershipArray | `types:CompanyMembershipUpdateArray` | Ja | Een array met bedrijfshandgrepen. |
 
 **Output (setUserInfoReturn)**

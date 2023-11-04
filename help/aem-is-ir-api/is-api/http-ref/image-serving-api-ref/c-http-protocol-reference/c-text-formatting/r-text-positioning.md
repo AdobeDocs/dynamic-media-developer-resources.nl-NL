@@ -1,26 +1,26 @@
 ---
 title: Tekstpositionering
-description: De renderer text= positioneert tekst fundamenteel verschillend dan de renderer textPs= wanneer toegepast op presize lagen (d.w.z. wanneer size= ook wordt gespecificeerd).
+description: De renderer text= positioneert tekst fundamenteel verschillend van textPs= renderer wanneer toegepast op presize lagen (namelijk wanneer size= ook wordt gespecificeerd).
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 092444bf-9964-4d97-b06e-3add033da284
-source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
 
 # Tekstpositionering{#text-positioning}
 
-De `text=` renderer plaatst tekst fundamenteel anders dan de textPs= renderer wanneer toegepast op presize lagen (d.w.z. wanneer size= ook wordt gespecificeerd).
+De `text=` renderer plaatst tekst fundamenteel verschillend van textPs= renderer wanneer toegepast op presize lagen (namelijk wanneer size= ook wordt gespecificeerd).
 
 Zelfaanpassing `text=`en `textPs=` lagen hebben een vergelijkbare vormgeving en positie.
 
-De `textPs=` Hiermee wordt de bovenkant van de tekencel uitgelijnd met de bovenkant van het tekstvak (uitgaande van `\vertalt`), zelfs als het resultaat is dat delen van de weergegeven tekstglyphs zich gedeeltelijk buiten de grens van het tekstvak uitstrekken. Gegenereerde glyphs van bepaalde lettertypen kunnen ook iets buiten de linker- en rechterrand van het tekstvak uitsteken. Voor toepassingen waarbij alle gerenderde tekst zich in de laagrechthoek moet bevinden, wordt de RTF `\marg*` opdrachten of `textFlowPath=` kan worden gebruikt om het tekstrendergebied aan te passen.
+De `textPs=` Hiermee wordt de bovenkant van de tekencel uitgelijnd met de bovenkant van het tekstvak (uitgaande van `\vertalt`), zelfs als het resultaat is dat delen van de weergegeven tekstglyphs zich gedeeltelijk buiten de grens van het tekstvak uitstrekken. Gegenereerde glyphs van bepaalde lettertypen kunnen ook iets buiten de linker- en rechterrand van het tekstvak uitsteken. Voor toepassingen waarbij alle gerenderde tekst zich in de laagrechthoek moet bevinden, wordt de RTF `\marg*` opdrachten of `textFlowPath=` U kunt het tekstrendergebied aanpassen.
 
-Daarentegen `text=` Hiermee wordt de gerenderde tekst zo nodig verplaatst en wordt gegarandeerd dat alle gerenderde glyphs volledig binnen het opgegeven tekstvak passen.
+In tegenstelling tot `text=` Hiermee wordt de gerenderde tekst zo nodig verplaatst en wordt gegarandeerd dat alle gerenderde glyphs volledig binnen het opgegeven tekstvak passen.
 
 while `text=` is wellicht iets gemakkelijker te gebruiken voor eenvoudige toepassingen, `textPs=` biedt nauwkeurige positionering, onafhankelijk van lettertypen en teksteffecten.
 

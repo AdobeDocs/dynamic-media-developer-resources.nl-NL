@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: eeb5b2c7-688e-42a1-bfe6-3f29e509baed
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '1384'
 ht-degree: 0%
@@ -106,7 +106,7 @@ Voorbeeld - Een achtergrondbedekking instellen op grijs met een dekking van 70%:
 }
 ```
 
-Standaard wordt het modale dialoogvenster gecentreerd weergegeven op het scherm op desktopsystemen en neemt het volledige webpaginagebied op aanraakapparaten in beslag. In alle gevallen, wordt het plaatsen en het rangschikken van de dialoogdoos beheerd door de component. Het dialoogvenster wordt bestuurd met de volgende CSS-klassenkiezer:
+Standaard wordt het modale dialoogvenster gecentreerd weergegeven op het scherm op desktopsystemen en neemt het volledige webpaginagebied op aanraakapparaten. In alle gevallen, wordt het plaatsen en het rangschikken van de dialoogdoos beheerd door de component. Het dialoogvenster wordt bestuurd met de volgende CSS-klassenkiezer:
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialog
@@ -162,7 +162,7 @@ De koptekst van het dialoogvenster bestaat uit een pictogram, een titeltekst en 
  </tbody> 
 </table>
 
-Het pictogram en de titeltekst worden verpakt in een extra container die met
+Het pictogram en de titeltekst worden verpakt in een extra container die wordt bestuurd met
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialogheader .s7dialogline
@@ -174,7 +174,7 @@ Het pictogram en de titeltekst worden verpakt in een extra container die met
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
-   <td colname="col2"> <p> Opvulling binnen voor het koptekstpictogram en de titel. </p> </td> 
+   <td colname="col2"> <p> Opvulling binnen voor koptekstpictogram en titel. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -228,7 +228,7 @@ De titel van de koptekst wordt bestuurd met de volgende CSS-klassenkiezer:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>Lettertypefamilie. </p> </td> 
+   <td colname="col2"> <p>Fontfamilie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opvullen </span> </p> </td> 
@@ -658,7 +658,7 @@ Voorbeeld - als u de tekstkopie wilt instellen op 430 pixels breed en onderaan e
 }
 ```
 
-De koppeling voor delen is ondergebracht in een container en wordt beheerd met de volgende CSS-klassenkiezer:
+De koppeling voor delen is ondergebracht in een container en wordt bestuurd met de volgende CSS-klassenkiezer:
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialoginputcontainer

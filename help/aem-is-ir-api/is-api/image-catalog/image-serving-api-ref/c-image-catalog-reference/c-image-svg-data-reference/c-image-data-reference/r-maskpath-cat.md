@@ -5,9 +5,9 @@ title: MaskPath
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b67e0b62-d2cc-4b05-bd09-65b206466df5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Pad voor maskerbestand. Relatief of absoluut pad en naam voor een afbeeldingsbes
 
 Hiermee kunt u afzonderlijke maskers aan afbeeldingen koppelen.
 
-De server gebruikt de regels voor padresolutie die worden beschreven in [Brongegevens beheren](/help/aem-is-ir-api/is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md) om het gegevensbestand te zoeken.
+De server gebruikt de regels voor padresolutie die in [Brongegevens beheren](/help/aem-is-ir-api/is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md) om het gegevensbestand te zoeken.
 
 ## Eigenschappen {#section-cdc3b7e2811e41008479cd97887c01b7}
 
@@ -28,7 +28,7 @@ Als beide een hoofdafbeelding ( `catalog::Path`) en een maskerafbeelding ( `cata
 
 `mask=` in de aanvraag overschrijft `catalog::MaskPath`.
 
-`catalog::MaskPath` Hiermee overschrijft u het alfakanaal in de hoofdafbeelding ( `catalog::Path`), indien aanwezig, en als het alfakanaal niet gekoppeld is (d.w.z. niet vooraf vermenigvuldigd is). Als de alfa van de afbeelding vooraf is vermenigvuldigd, `catalog::MaskPath` wordt genegeerd en wordt het alfakanaal altijd gebruikt.
+`catalog::MaskPath` Hiermee overschrijft u het alfakanaal in de hoofdafbeelding ( `catalog::Path`), indien aanwezig, en als het alfakanaal niet is gekoppeld (dat wil zeggen niet vooraf vermenigvuldigd). Als de alfa van de afbeelding vooraf is vermenigvuldigd, `catalog::MaskPath` wordt genegeerd en wordt het alfakanaal altijd gebruikt.
 
 ## Standaard {#section-78533e35bfec469ba087cb68a35bb81b}
 
