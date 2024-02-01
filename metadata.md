@@ -6,9 +6,10 @@ product: adobe dynamic media classic
 type: Documentation
 git-repo: https://github.com/AdobeDocs/dynamic-media-developer-resources.nl-NL
 index: true
-source-git-commit: 3598b0247406d942b0f58b1c74aae4956590f5f8
+recommendations: noDisplay
+source-git-commit: 0803dd4f2eb0002e50ab2c506d0e9cb203f3d456
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
@@ -25,5 +26,5 @@ Het bestand metadata.md bevat metagegevens op repo-niveau die worden doorgegeven
 | oplossingspictogram | Hiermee wordt het oplossingspictogram weergegeven naast de titel van de oplossing. Nog niet geïmplementeerd |
 | aan de slag-url | Aan de slag met Help-pagina koppelen |
 | zelfstudies-url | Koppeling maken naar videozelfstudies: helpx-zelfstudies of KT-zelfstudies |
-| mini-toc-niveaus | Hiermee bepaalt u het aantal kopniveaus dat wordt weergegeven in de rechterrails. default is 2 |
+| minitoc-niveaus | Hiermee bepaalt u het aantal kopniveaus dat wordt weergegeven in de rechterrails. default is 2 |
 | git-repo | Hiermee wordt de locatie van het primaire bronrepo voor intern gebruik opgegeven |
