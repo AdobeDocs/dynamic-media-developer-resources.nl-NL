@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 9ed415c5ab4444a2d404782bfd96ded3c47c26cd
+source-git-commit: 17ccca8fcf75eaa902527837d83b03776c1386b9
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '907'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,8 @@ Indeling reactieafbeelding.
 | *`compression`* | Beschrijving |
 |---|---|
 | `jpeg` | JPEG-compressie (met verlies). |
-| `lossy` | WebP, JPEG 2000, en JPEG XR compressie (verlies). |
-| `lossless` | WebP, JPEG 2000, en JPEG XR compressie (lossless). |
+| `lossy` | JPEG 2000, en JPEG XR compressie (verlies), en WebP. |
+| `lossless` | HEIC, JPEG 2000, en JPEG XR compressie (lossless), en WebP. |
 | `lzw` | LZW-compressie (Lempel-Ziv-Welch) (zonder verlies). |
 | `none` | Niet gecomprimeerd. |
 | `zip` | Compressie &#39;Deflate&#39; (zonder verlies). |
