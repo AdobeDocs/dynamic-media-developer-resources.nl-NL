@@ -3,7 +3,7 @@ cloud: Experience Cloud
 user-guide-title: Referentiehandleiding voor Dynamic Media Viewers
 feature-set: Experience Manager Assets
 user-guide-description: Pas Dynamic Media-viewers aan voor gebruik op desktop- en touchscreen-apparaten. Inclusief interactieve afbeeldingen en video's, carrousels, centrifuges en meer.
-source-git-commit: f970421ccc482b698343aa18e7dfde7bea4c2a89
+source-git-commit: 8d5dbc2d2b5e228f8496fd71633bf1cb96218226
 workflow-type: tm+mt
 source-wordcount: '2066'
 ht-degree: 0%
@@ -738,7 +738,7 @@ ht-degree: 0%
       + [Ondersteuning voor Adobe Analytics-tracking](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-analytics.md)
       + [Technische ondersteuning](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-assistive.md)
       + [Lokalisatie van gebruikersinterface-elementen](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md)
-      + [Ondersteuning voor hotspot en afbeeldingen met hyperlinks](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-hotspot--image-support.md)
+      + [Ondersteuning voor hotspot en afbeeldingen met hyperlinks](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-hotspot-image-support.md)
       + [Afbeelding vooraf laden](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-preload-image.md)
       + [Viewer SDK-naamruimte](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-namespace.md)
    + Interactieve afbeelding {#interactive-images}
