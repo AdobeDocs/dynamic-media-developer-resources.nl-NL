@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: f2685d59-6b92-49cf-9359-dda602af4297
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '2994'
+source-wordcount: '3029'
 ht-degree: 0%
 
 ---
@@ -521,7 +521,7 @@ Voorbeeld - Een voettekst voor een dialoogvenster instellen met de knop Annulere
 }
 ```
 
-Het hoofddialoogvenster (tussen de kop- en voettekst) bevat schuifbare inhoud in het dialoogvenster en het schuifvenster aan de rechterkant. In alle gevallen beheert de component de breedte van dit gebied. Het is niet mogelijk om dit in CSS in te stellen. Het hoofddialoogvenster wordt bestuurd met de volgende CSS-klassenkiezer:
+Het hoofddialoogvenster tussen de kop- en voettekst bevat schuifbare inhoud in het dialoogvenster en het schuifvenster aan de rechterkant. In alle gevallen beheert de component de breedte van dit gebied. Het is niet mogelijk om dit in CSS in te stellen. Het hoofddialoogvenster wordt bestuurd met de volgende CSS-klassenkiezer:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogviewarea

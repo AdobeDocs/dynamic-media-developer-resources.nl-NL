@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 0b792a15-ed00-4ee5-90f4-511ac9e035b6
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1399'
 ht-degree: 0%
 
 ---
@@ -525,7 +525,7 @@ Voorbeeld - voor het instellen van een voettekst in een dialoogvenster met een k
 }
 ```
 
-Het hoofddialoogvenster (tussen de kop- en voettekst) bevat inhoud van het dialoogvenster. In alle gevallen beheert de component de breedte van dit gebied. Het is niet mogelijk dit in te stellen in CSS. Het hoofddialoogvenster wordt bestuurd met de volgende CSS-klassenkiezer:
+Het hoofddialoogvenster tussen de kop- en voettekst bevat inhoud van het dialoogvenster. In alle gevallen beheert de component de breedte van dit gebied. Het is niet mogelijk dit in te stellen in CSS. Het hoofddialoogvenster wordt bestuurd met de volgende CSS-klassenkiezer:
 
 ```
 .s7ecatalogsearchviewer .s7linkdialog .s7dialogviewarea

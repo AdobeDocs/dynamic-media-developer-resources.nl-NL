@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8b5afb99-3201-4e43-93e7-e8998354204f
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Kenmerkbestanden van catalogus bestaan uit een set tekstrecords, gescheiden door
 <table id="simpletable_8454AD549FDA421BA1469CDA44132773"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> name </span> </span> </p> </td> 
-  <td class="stentry"> <p>Kenmerknaam; kan bestaan uit een of meer letters, cijfers, '-' en '_'; niet hoofdlettergevoelig. </p> </td> 
+  <td class="stentry"> <p>Kenmerknaam; kan bestaan uit een of meer letters, cijfers, - (afbreekstreepje) en _ (onderstrepingsteken); niet hoofdlettergevoelig.</p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> value </span> </span> </p> </td> 
@@ -32,7 +32,7 @@ Kenmerkbestanden van catalogus bestaan uit een set tekstrecords, gescheiden door
 </table>
 
 * Spaties tussen tokens zijn optioneel.
-* Records met onbekende kenmerknamen worden genegeerd door de [!DNL Platform Server].
-* Kenmerknamen kunnen bestaan uit elke combinatie van ASCII-letters, -cijfers en &quot;-&quot;, &quot;_&quot; en &quot;.&quot;
+* De [!DNL Platform Server] Hiermee worden records met onbekende kenmerknamen genegeerd.
+* Kenmerknamen kunnen bestaan uit elke combinatie van ASCII-letters, -cijfers en `-`, `_`, en `.` tekens.
 * Als dezelfde kenmerknaam meerdere keren voorkomt in hetzelfde kenmerkbestand, heeft de laatste aangetroffen naam voorrang.
-* Gebruik &#39;#&#39; als het eerste teken om een record te markeren als een opmerking die de parser negeert.
+* Gebruiken `#` als het eerste teken om een record te markeren als een opmerking die de parser negeert.

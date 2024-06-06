@@ -5,9 +5,9 @@ title: Opties voor vignetten
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7f9c2b43-9264-46a4-9519-64148aebf258
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ De volgende opties bepalen de verwerking van vignetbestanden. Ze worden genegeer
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">-uitsnijden <span class="varname"> x</span><span class="varname"> y</span><span class="varname"> winderig</span><span class="varname"> hei</span></span> </p></td> 
-  <td class="stentry"> <p>Snijd het vignet uit voordat u het schaalt. </p> <p><span class="codeph"><span class="varname"> x</span>,<span class="varname"> y</span></span> de linkerbovenhoek van de uitsnijdrechthoek is, en <span class="codeph"><span class="varname"> winderig</span>,<span class="varname"> hei</span></span> is de grootte van de uitsnijdrechthoek. Waarden zijn pixelcoördinaten ten opzichte van de weergave-afbeelding met volledige resolutie van het bronvignet. </p></td> 
+  <td class="stentry"> <p>Snijd het vignet uit voordat u het schaalt. </p> <p><span class="codeph"><span class="varname"> x</span>,<span class="varname"> y</span></span> de linkerbovenhoek van de snijrechthoek is, en <span class="codeph"><span class="varname"> winderig</span>,<span class="varname"> hei</span></span> is de grootte van de uitsnijdrechthoek. Waarden zijn pixelcoördinaten ten opzichte van de weergave-afbeelding met volledige resolutie van het bronvignet. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">-cropn <span class="varname"> xn</span><span class="varname"> yn</span><span class="varname"> brein</span><span class="varname"> heek</span></span> </p> </td> 
-  <td class="stentry"> <p>Snijd het vignet uit voordat u het schaalt. </p> <p><span class="codeph"><span class="varname"> xn</span>,<span class="varname"> yn</span></span> de linkerbovenhoek van de uitsnijdrechthoek is, en <span class="codeph"><span class="varname"> brein</span>,<span class="varname"> heek</span></span> is de grootte van de uitsnijdrechthoek. Waarden worden genormaliseerd ten opzichte van de weergaveafbeelding van het bronvignet en moeten liggen tussen 0,0...1.0. </p> <p><span class="codeph"><span class="varname"> xn</span></span>+<span class="codeph"><span class="varname"> brein</span></span> en <span class="codeph"><span class="varname"> yn</span></span>+<span class="codeph"><span class="varname"> heek</span></span> mag niet groter zijn dan 1,0. </p></td> 
+  <td class="stentry"> <p>Snijd het vignet uit voordat u het schaalt. </p> <p><span class="codeph"><span class="varname"> xn</span>,<span class="varname"> yn</span></span> de linkerbovenhoek van de snijrechthoek is, en <span class="codeph"><span class="varname"> brein</span>,<span class="varname"> heek</span></span> is de grootte van de uitsnijdrechthoek. Waarden worden genormaliseerd ten opzichte van de weergaveafbeelding van het bronvignet en moeten liggen tussen 0,0...1.0. </p> <p><span class="codeph"><span class="varname"> xn</span></span>+<span class="codeph"><span class="varname"> brein</span></span> en <span class="codeph"><span class="varname"> yn</span></span>+<span class="codeph"><span class="varname"> heek</span></span> mag niet groter zijn dan 1,0. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> -inbedmateriaal</span> </p></td> 

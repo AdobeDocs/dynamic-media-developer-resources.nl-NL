@@ -1,13 +1,13 @@
 ---
+title: name
 description: Naam van opdrachtmacro.
 solution: Experience Manager
-title: name
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b5aa907b-aa95-4573-bc05-65d84c173f25
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: d41865c6263a6a97a358e116e8c21d36b11c1d1b
 workflow-type: tm+mt
-source-wordcount: '28'
+source-wordcount: '33'
 ht-degree: 0%
 
 ---
@@ -25,4 +25,4 @@ Naam van opdrachtmacro.
  </tr> 
 </table>
 
-*`name`* is niet hoofdlettergevoelig en kan bestaan uit een combinatie van letters, cijfers , &#39;-&#39;, &#39;_&#39; en &#39;.&#39; tekens.
+De opdracht *`name`* niet hoofdlettergevoelig is en kan bestaan uit een combinatie van letters, cijfers, `-` (afbreekstreepje), `_` (onderstrepingsteken), en `.` (punt) tekens.

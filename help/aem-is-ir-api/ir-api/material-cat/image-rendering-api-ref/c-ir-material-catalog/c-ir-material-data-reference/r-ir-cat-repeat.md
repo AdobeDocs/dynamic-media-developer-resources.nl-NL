@@ -5,9 +5,9 @@ title: Herhalen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6d6946b0-a827-4ee6-963b-84529ad35ee9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '128'
 ht-degree: 15%
 
 ---
@@ -41,11 +41,11 @@ De volgende waarden zijn toegestaan voor herhaalbare structuurmaterialen:
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>4 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Achtergrond met kwartdrop hangt vast. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Achtergrond hangend, kwartdrop. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>5 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Achtergrond van drie druppels hangen. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Achtergrond van derde druppel hangend. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>6 </p></td> 
@@ -53,15 +53,15 @@ De volgende waarden zijn toegestaan voor herhaalbare structuurmaterialen:
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>7 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Achtergrond met vijf druppels hangend. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Achtergrond met 5-delige schaling hangend. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>8 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Achtergrond omkeren hangt. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Achtergrond omkeren. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>9 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Willekeurige achtergrond hangt. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Willekeurige achtergrond hangend. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>10 </p></td> 

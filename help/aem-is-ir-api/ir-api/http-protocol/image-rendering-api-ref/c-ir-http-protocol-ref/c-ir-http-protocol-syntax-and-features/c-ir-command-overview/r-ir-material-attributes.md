@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 77801376-5bc5-4fd4-95d6-8c80b31c779d
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Met deze kenmerken worden materialen gedefinieerd die op het geselecteerde objec
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180" type="reference" format="dita" scope="local"> ruw</a></span> </p></td> 
-  <td class="stentry"> <p>Oppervlakteruwheid. </p></td> 
+  <td class="stentry"> <p>Oppervlakteruwheid </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-type.md#reference-128c7de89e2d46838019b560f3f84a35" type="reference" format="dita" scope="local"> type</a></span> </p></td> 
@@ -91,7 +91,7 @@ Met deze kenmerken worden materialen gedefinieerd die op het geselecteerde objec
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-flags.md#reference-3a4844f0f21346d79e6508aaad9a9ac9" type="reference" format="dita" scope="local"> vlaggen</a></span> </p></td> 
-  <td class="stentry"> <p>Speciale instellingen toepassen. </p></td> 
+  <td class="stentry"> <p>Speciale instellingen die moeten worden toegepast. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rs.md#reference-d20cefaaa6cd4f449d1591c87959b4cf" type="reference" format="dita" scope="local"> rs</a></span> </p></td> 

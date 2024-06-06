@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 2ed2db55-824c-40b6-8747-6b9b8792f5db
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '2606'
+source-wordcount: '2640'
 ht-degree: 0%
 
 ---
@@ -525,7 +525,7 @@ Voorbeeld - Een dialoogvenstervoettekst instellen met een knop Annuleren van 64 
 }
 ```
 
-Het hoofddialoogvenster (tussen de kop- en voettekst) bevat schuifbare inhoud in het dialoogvenster en het schuifvenster aan de rechterkant. In alle gevallen beheert de component de breedte van dit gebied. Het is niet mogelijk om dit in CSS in te stellen. Het hoofddialoogvenster wordt bestuurd met de volgende CSS-klassenkiezer:
+Het hoofddialoogvenster tussen de kop- en voettekst bevat schuifbare inhoud in het dialoogvenster en het schuifvenster aan de rechterkant. In alle gevallen beheert de component de breedte van dit gebied. Het is niet mogelijk om dit in CSS in te stellen. Het hoofddialoogvenster wordt bestuurd met de volgende CSS-klassenkiezer:
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7dialogviewarea

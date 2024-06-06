@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 9eb2ef38-9b86-4c60-90a2-6609cb3fcc39
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1402'
 ht-degree: 0%
 
 ---
@@ -525,7 +525,7 @@ De knopinfo kan worden gelokaliseerd. Zie [Lokalisatie van gebruikersinterface-e
 }
 ```
 
-Het hoofddialoogvenster (tussen de kop- en voettekst) bevat inhoud van het dialoogvenster. In alle gevallen beheert de component de breedte van dit gebied. Het is niet mogelijk dit in te stellen in CSS. Het hoofddialoogvenster wordt bestuurd met de volgende CSS-klassenkiezer:
+Het hoofddialoogvenster tussen de kop- en voettekst bevat inhoud van het dialoogvenster. In alle gevallen beheert de component de breedte van dit gebied. Het is niet mogelijk dit in te stellen in CSS. Het hoofddialoogvenster wordt bestuurd met de volgende CSS-klassenkiezer:
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogviewarea

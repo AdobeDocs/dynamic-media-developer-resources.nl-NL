@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 71d59961-848e-4d78-875e-066e842ac1bf
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -22,19 +22,19 @@ Kleurkwantiteit. Geeft kleurkwantiseringskenmerken op voor GIF-uitvoerconversie.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> type </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {adaptief|web|mac} </span> </p> <p>Hiermee geeft u het palettype op. </p> <p>Instellen op <span class="codeph"> adaptief </span> om een optimaal palet voor de afbeelding te berekenen. </p> <p>Instellen op <span class="codeph"> web </span> of <span class="codeph"> mac </span> om een vooraf gedefinieerd palet te kiezen. </p> <p> <p>Opmerking: De <span class="codeph"> mac </span> Type pallet wordt alleen ondersteund voor GIF- en PNG8-indelingen, maar niet voor GIF-Alpha- en PNG8-Alpha-indelingen. </p> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {adaptief|web|mac} </span> </p> <p>Hiermee geeft u het palettype op. </p> <p>Instellen op <span class="codeph"> adaptief </span> om een optimaal palet voor de afbeelding te berekenen. </p> <p>Instellen op <span class="codeph"> web </span> of <span class="codeph"> mac </span> om een vooraf gedefinieerd palet te kiezen. </p> <p> <p>Opmerking: De <span class="codeph"> mac </span> Type pallet wordt alleen ondersteund voor GIF- en PNG8-indelingen, maar niet voor GIF-Alpha- en PNG8-Alpha-indelingen.</p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> dithering </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {diffuse|off} </span> </p> <p>Hiermee geeft u de ditheringopties op. </p> <p>Instellen op <span class="codeph"> diffuus </span> voor Floyd-Steinberg foutverspreiding </p> <p>Instellen op <span class="codeph"> uit </span> dithering uitschakelen. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {diffuse|off} </span> </p> <p>Hiermee geeft u de ditheringopties op. </p> <p>Instellen op <span class="codeph"> diffuus </span> voor Floyd-Steinberg foutverspreiding </p> <p>Instellen op <span class="codeph"> uit </span> dithering uitschakelen.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> numColors </span> </span> </p> </td> 
-   <td colname="col2"> <p>Aantal uitvoerkleuren (2-256) </p> <p>Hiermee bepaalt u hoeveel kleuren worden opgenomen in het dialoogvenster <span class="codeph"> adaptief </span> palet. </p> </td> 
+   <td colname="col2"> <p>Aantal uitvoerkleuren (2-256) </p> <p>Hiermee bepaalt u hoeveel kleuren worden opgenomen in het dialoogvenster <span class="codeph"> adaptief </span> palet.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> colorList </span> </span> </p> </td> 
-   <td colname="col2"> <p>Een door komma's gescheiden lijst met geforceerde RGB-kleuren in hexadecimale 6-indeling </p> <p>Hier geeft u de kleuren op die u in een <span class="codeph"> adaptief </span> palet. Als het opgegeven aantal kleuren kleiner is dan <span class="codeph"> <span class="varname"> numColors </span> </span>extra kleuren worden berekend op basis van de inhoud van de afbeelding. </p> </td> 
+   <td colname="col2"> <p>Een door komma's gescheiden lijst met geforceerde RGB-kleuren in hexadecimale 6-indeling </p> <p>Hier geeft u de kleuren op die u in een <span class="codeph"> adaptief </span> palet. Als het opgegeven aantal kleuren kleiner is dan <span class="codeph"> <span class="varname"> numColors </span> </span>extra kleuren worden berekend op basis van de inhoud van de afbeelding.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,7 +55,7 @@ Een miniatuur van een GIF genereren met de opdracht `web` palet en geen ditherin
 
 `http:// *`*Server*`*/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off`
 
-Zet de afbeelding om in een bitonaal GIF met kleurentransparantie en forceer de kleuren in zwart-wit:
+Zet de afbeelding om in een bitonaal GIF met kleurentransparantie. En forceer kleuren naar zwart-wit:
 
 `http:// *`*Server*`*/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`
 

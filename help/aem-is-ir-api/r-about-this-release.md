@@ -5,9 +5,9 @@ title: Over deze release
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f837191b-1151-4c29-8059-b4d3e09e304e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ Deze release—Afbeelding met 6.6.1 en Afbeelding weergeven 6.6.1—vervangt de 
 ## Bekende problemen en gedragswijzigingen {#section-9dbc05206187477f926a78e8108a34e1}
 
 * Het gebruik van het vraagteken in element-id&#39;s wordt niet meer ondersteund, zelfs niet als het teken URL-gecodeerd is.
-* Dynamische banner `/xfl/flash/` aanvragen worden niet meer ondersteund en retourneren nu een http 404-foutcode.
+* Dynamische banner `/xfl/flash/` aanvragen worden niet meer ondersteund en retourneren nu een HTTP 404-foutcode.
 * W2P `/is/agm/` aanvragen worden niet meer ondersteund.
-* Sommige foutberichten worden niet meer naar de browser gerenderd. Als dusdanig, moet u het spoorlogboek herzien om te zuiveren.
+* Sommige foutberichten worden niet meer weergegeven in de browser. Als dusdanig, moet u het spoorlogboek herzien om te zuiveren.
 
 ## Nieuwe functies {#section-b1386e36cb4544ebb79766a06b16842d}
 

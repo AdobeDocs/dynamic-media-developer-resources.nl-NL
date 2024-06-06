@@ -5,9 +5,9 @@ title: Tekstlagen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6793eb7d-6c10-4136-b6d4-186a698a8e52
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '888'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ De gemeenschappelijke regels en definities zijn als volgt:
 * Tekstlagen waarvan het formaat automatisch wordt aangepast, zijn lagen die geen a `size=` bevel of waarvoor `size=0,0` wordt opgegeven.
 
 * De laaggrootte van tekstlagen die zichzelf aanpassen, wordt bepaald door de werkelijke weergegeven tekst.
-* Het standaardlaaganker van tekstlagen waarvan het formaat automatisch wordt aangepast is doorgaans *niet* in het midden van de laag (zie hieronder).
+* Het standaardlagenanker van tekstlagen waarvan het formaat automatisch wordt aangepast, is doorgaans *niet* in het midden van de laag (zie hieronder).
 * Indien `anchor=` of `origin=` is opgegeven voor het automatisch aanpassen van tekstlagen, wordt de positie van de tekstlaag beïnvloed door de tekstinhoud.
 
 * Wanneer `size=` worden opgegeven, kunnen delen van tekenglyphs buiten de laagrechthoek worden weergegeven.

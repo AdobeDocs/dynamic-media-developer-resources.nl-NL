@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6cc82742-4ba0-4524-a87b-586539d7fe38
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '156'
 ht-degree: 12%
 
 ---
@@ -37,11 +37,11 @@ Modus Structuur herhalen. Hiermee bepaalt u de herhalingsmodus voor herhaalbare 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
-  <td class="stentry"> <p>Achtergrond met kwartdrop hangt vast. </p> </td> 
+  <td class="stentry"> <p>Achtergrond hangend, kwartdrop. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p> </td> 
-  <td class="stentry"> <p>Achtergrond van drie druppels hangen. </p> </td> 
+  <td class="stentry"> <p>Achtergrond van derde druppel hangend. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>6 </p> </td> 
@@ -49,15 +49,15 @@ Modus Structuur herhalen. Hiermee bepaalt u de herhalingsmodus voor herhaalbare 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>7 </p> </td> 
-  <td class="stentry"> <p>Achtergrond met vijf druppels hangend. </p> </td> 
+  <td class="stentry"> <p>Achtergrond met 5-delige schaling hangend. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>8 </p> </td> 
-  <td class="stentry"> <p>Achtergrond omkeren hangend. </p> </td> 
+  <td class="stentry"> <p>Achtergrond omkeren. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>9 </p> </td> 
-  <td class="stentry"> <p>Willekeurige achtergrond hangt. </p> </td> 
+  <td class="stentry"> <p>Willekeurige achtergrond hangend. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>10 </p> </td> 
@@ -101,7 +101,7 @@ Modus Structuur herhalen. Hiermee bepaalt u de herhalingsmodus voor herhaalbare 
  </tr> 
 </table>
 
-De willekeurige opvulmodi (14...18) kunnen worden gebruikt om structuren te synthetiseren op basis van beelden die niet gemakkelijk herhaalbaar zijn; het algoritme leidt tot volledig willekeurige of gedeeltelijk willekeurige texturen die op het originele beeld worden gebaseerd.
+Met de willekeurige overvulmodi (14...18) kunt u structuren samenstellen op basis van afbeeldingen die niet gemakkelijk herhaalbaar zijn. Met het algoritme maakt u volledig willekeurige of gedeeltelijk willekeurige structuren op basis van de oorspronkelijke afbeelding.
 
 ## Eigenschappen {#section-262bf540930d4890b678ea00cefe1909}
 
