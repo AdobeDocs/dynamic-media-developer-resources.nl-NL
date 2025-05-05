@@ -241,7 +241,7 @@ Knop Sluiten wordt beheerd met de volgende CSS-klassenkiezer:
 .s7ecatalogsearchviewer .s7printdialog .s7closebutton
 ```
 
-**CSS-eigenschappen van de knop close **
+**CSS-eigenschappen van de knop close &#x200B;**
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
@@ -328,7 +328,7 @@ De voettekst van het dialoogvenster bestaat uit de knoppen Annuleren en Verzende
 .s7ecatalogsearchviewer .s7printdialog .s7dialogfooter
 ```
 
-**CSS-eigenschappen van de voettekst van het dialoogvenster **
+**CSS-eigenschappen van de voettekst van het dialoogvenster &#x200B;**
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -527,7 +527,7 @@ Het hoofddialoogvenster tussen de kop- en voettekst bevat inhoud van het dialoog
 .s7ecatalogsearchviewer .s7printdialog .s7dialogviewarea
 ```
 
-**CSS-eigenschappen van het weergavegebied van het dialoogvenster **
+**CSS-eigenschappen van het weergavegebied van het dialoogvenster &#x200B;**
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
@@ -562,7 +562,7 @@ Alle formulierinhoud (zoals labels en invoervelden) bevindt zich in een containe
 .s7ecatalogsearchviewer .s7printdialog .s7dialogbody
 ```
 
-**CSS-eigenschappen van de hoofdtekst van het dialoogvenster **
+**CSS-eigenschappen van de hoofdtekst van het dialoogvenster &#x200B;**
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
@@ -644,7 +644,7 @@ Alle statische labels in het dialoogvenster worden beheerd met de volgende CSS-k
 
 Deze klasse is niet geschikt voor het bepalen van de grootte of positie van het label, omdat u deze kunt toepassen op tekst op verschillende plaatsen in de gebruikersinterface van het formulier.
 
-**CSS-eigenschappen van het label van het dialoogvenster. **
+**CSS-eigenschappen van het label van het dialoogvenster. &#x200B;**
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 

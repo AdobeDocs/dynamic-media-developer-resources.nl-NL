@@ -20,7 +20,7 @@ Syntaxis
 
 ## TC::map - Map met logbestanden {#section-5d9e2168d4504bbe9868b7d6051c9d67}
 
-De map waarnaar de [!DNL Platform Server] schrijft logbestanden. Dit kan een absoluut pad zijn of een pad dat relatief is ten opzichte van *`install_folder`*. Standaard is [!DNL  *`install_folder`*/logs].
+De map waarnaar de [!DNL Platform Server] schrijft logbestanden. Dit kan een absoluut pad zijn of een pad dat relatief is ten opzichte van *`install_folder`*. Standaard is [!DNL &#x200B; *`install_folder`*/logs].
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ Het aantal dagen dat logbestanden moeten worden bewaard. De nieuwe logboekdossie
 
 ## TC::voorvoegsel - Naam van logbestand voor toegang {#section-1003856323b844049632710a5a056aa7}
 
-Het voorvoegsel van de naam voor het bestand waarnaar de gegevens van het toegangslogboek worden geschreven. De datum en het achtervoegsel van het bestand ( [!DNL  *`yyyy`*-*`mm`*-*`dd`*.log]) worden toegevoegd aan de opgegeven tekenreeks. De naam van het dossier van het toegangslogboek moet van dat van het dossier van het spoorlogboek verschillend zijn. Standaard is &quot; `access-`&quot;.
+Het voorvoegsel van de naam voor het bestand waarnaar de gegevens van het toegangslogboek worden geschreven. De datum en het achtervoegsel van het bestand ( [!DNL &#x200B; *`yyyy`*-*`mm`*-*`dd`*.log]) worden toegevoegd aan de opgegeven tekenreeks. De naam van het dossier van het toegangslogboek moet van dat van het dossier van het spoorlogboek verschillend zijn. Standaard is &quot; `access-`&quot;.
 
 ## TC::patroon - Toegangslogpatroon {#section-22775ea85cee444d8a7d7336a3b1feef}
 
@@ -202,7 +202,7 @@ De volgende patroonvariabelen worden ondersteund:
    <td> <p>De laatste URL na alle transformaties van de liniaal. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{ <span class="varname"> httpRequestHeader </span>_i </span> </p> </td> 
+   <td> <p> <span class="codeph"> %&lbrace; <span class="varname"> httpRequestHeader </span>_i </span> </p> </td> 
    <td> <p>De waarde van de opgegeven HTTP-aanvraagheader. </p> </td> 
   </tr> 
   <tr> 

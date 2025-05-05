@@ -41,12 +41,12 @@ Gebruik de volgende speciale entiteiten bij het opmaken van tekst.
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;accolade; </span> </td> 
+   <td> <span class="codeph"> &accolade; </span> </td> 
    <td> <p>Accolade krullen openen. </p> </td> 
    <td> <p>De accolade moet HTTP-gecodeerd zijn. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;Bron; </span> </td> 
+   <td> <span class="codeph"> &Bron; </span> </td> 
    <td> <p>Accolade krullen sluiten. </p> </td> 
    <td> <p>De accolade moet HTTP-gecodeerd zijn. </p> </td> 
   </tr> 

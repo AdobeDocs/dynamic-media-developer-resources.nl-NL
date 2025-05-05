@@ -43,7 +43,7 @@ De volgende typen kunnen worden beheerd:
 
   `AllowDirectAccess=include:IS,STATIC`
 
-* Directe toegang toestaan voor alle objecttypen behalve `IS` en `STATIC``AllowDirectAccess=exclude:IS,STATIC`
+* Directe toegang toestaan voor alle objecttypen behalve `IS` en `STATIC` `AllowDirectAccess=exclude:IS,STATIC`
 
 * Directe toegang toestaan voor *nee* objecttypen (geen opnemen)
 

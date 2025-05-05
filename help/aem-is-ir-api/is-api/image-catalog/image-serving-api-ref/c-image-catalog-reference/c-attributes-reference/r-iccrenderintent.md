@@ -1,6 +1,6 @@
 ---
 title: IccRenderIntent
-description: Render-intentie kleurconversie. Deze methode biedt de standaard rendering intent voor kleurconversies wanneer ` icc=` niet is opgegeven voor de render-intentie.
+description: Render-intentie kleurconversie. Deze methode biedt de standaard rendering intent voor kleurconversies wanneer &grave; icc=&grave; niet is opgegeven voor de render-intentie.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User

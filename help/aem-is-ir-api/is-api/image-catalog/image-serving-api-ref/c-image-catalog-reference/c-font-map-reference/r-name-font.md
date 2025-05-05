@@ -1,5 +1,5 @@
 ---
-description: Naam lettertype. De naam van het lettertype, exact zoals opgegeven in de opdracht RTF \fonttbl.
+description: Naam lettertype. De naam van het lettertype, exact zoals opgegeven in de opdracht RTF fonttbl.
 solution: Experience Manager
 title: Naam
 feature: Dynamic Media Classic,SDK/API

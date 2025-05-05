@@ -22,7 +22,7 @@ Gedetailleerd bericht dat reageert op een van de URL&#39;s die in de CDN-validat
 
 ## Parameters {#section-cf4b0c923cef4c14869319af73ace58b}
 
-| ** Naam** | ** Type** | ** Beschrijving* |
+| **&#x200B; Naam** | **&#x200B; Type** | ** Beschrijving* |
 |---|---|---|
 | code | `xsd:int` | Foutcode van de CDN |
 | reden | `xsd:string` | Foutbericht van de CDN |

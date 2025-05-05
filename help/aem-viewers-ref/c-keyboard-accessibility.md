@@ -26,7 +26,7 @@ Een eindgebruiker kan met behulp van **[!UICONTROL Tab]** en **[!UICONTROL Shift
 
 Afhankelijk van het besturingssysteem en de instellingen van de webbrowser ontvangt het interface-element met invoerfocus een visuele focusindicatie. De visuele indicator kan bijvoorbeeld een dunne rand zijn die rondom het interface-element wordt weergegeven.
 
-Het is mogelijk een dergelijke focusmarkering uit te schakelen of aan te passen in de CSS van de viewer. Klik in de inhoudsopgave van dit Help-systeem onder een specifieke viewernaam (bijvoorbeeld Standaardzoom of Interactieve video) op **Aanpassen *naam van viewer*** >** Focus markeren **.
+Het is mogelijk een dergelijke focusmarkering uit te schakelen of aan te passen in de CSS van de viewer. Klik in de inhoudsopgave van dit Help-systeem onder een specifieke viewernaam (bijvoorbeeld Standaardzoom of Interactieve video) op **Aanpassen *naam van viewer*** >**&#x200B; Focus markeren &#x200B;**.
 
 Toetsen die door afzonderlijke gebruikersinterface-elementen van de viewer worden ondersteund, zijn meestal duidelijk en gemakkelijk te vinden.
 

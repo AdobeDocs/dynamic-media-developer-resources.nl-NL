@@ -24,7 +24,7 @@ Als het een materiaalcatalogus betreft, het bestand dat in de materiaalcatalogus
 * Als het pad relatief is, heeft het pad een voorvoegsel `catalog::RootPath` (uit een benoemde materiaalcatalogus).
 * Als het pad absoluut is, wordt het gebruikt; anders wordt het voorafgegaan door `default::RootPath` (uit de standaardcatalogus).
 * Als het pad absoluut is, wordt het gebruikt; anders wordt het gecombineerd met het pad dat is opgegeven in [ir.resourceRootPaths](../../../../../../ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-resource-root-folders.md#concept-39a34d2239934079bb396e1bf568a9c2).
-* Als het pad nu absoluut is, wordt het gebruikt; anders wordt het ten opzichte van [!DNL  *[!DNL install_folder]*].
+* Als het pad nu absoluut is, wordt het gebruikt; anders wordt het ten opzichte van [!DNL &#x200B; *[!DNL install_folder]*].
 
 Als er geen afbeeldingscatalogus bij betrokken is, wordt het pad gecombineerd met `default::RootPath` en vervolgens op de hierboven aangegeven wijze worden verwerkt.
 

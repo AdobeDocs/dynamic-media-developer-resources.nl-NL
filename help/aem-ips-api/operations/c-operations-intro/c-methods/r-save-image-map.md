@@ -85,7 +85,7 @@ Syntaxis
    <td colname="col1"> <span class="codeph"> <span class="varname"> action </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:tekenreeks </span> </td> 
    <td colname="col3"> Ja </td> 
-   <td colname="col4"> <p>De <span class="codeph"> href </span> waarde verbonden aan de beeldkaart zoals die in de IPS interface wordt gespecificeerd. </p> <p>Om de <span class="codeph"> href </span> waarde, klik het beeld in de IPS interface, kopieer en kleef URL in dit element, en formatteer dan IPS URL als juiste URL. Bijvoorbeeld: <span class="codeph"> &amp; </span> wordt <span class="codeph"> &amp;amp; </span>. </p> </td> 
+   <td colname="col4"> <p>De <span class="codeph"> href </span> waarde verbonden aan de beeldkaart zoals die in de IPS interface wordt gespecificeerd. </p> <p>Om de <span class="codeph"> href </span> waarde, klik het beeld in de IPS interface, kopieer en kleef URL in dit element, en formatteer dan IPS URL als juiste URL. Bijvoorbeeld: <span class="codeph"> &amp; </span> wordt <span class="codeph"> &amp; </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> positie </span> </span> </td> 

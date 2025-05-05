@@ -33,7 +33,7 @@ Materiaalbestand. Hiermee worden materiaalgegevens opgegeven, in de vorm van Ã©Ã
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> embeddedReq</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph">&amp;Accolade;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;Broce;'&amp;rbrace;|&amp;lbrace;'ir&amp;lbrace;'<span class="varname"> irReq</span>&amp;Broce;'|&amp;lbrace;'&amp;lbrace;'<span class="varname"> foreignReq</span>'&amp;resource;'</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&Accolade;'is&lbrace;'<span class="varname"> isReq</span>'&Broce;'&rbrace;|&lbrace;'ir&lbrace;'<span class="varname"> irReq</span>&Broce;'|&lbrace;'&lbrace;'<span class="varname"> foreignReq</span>'&resource;'</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p></td> 

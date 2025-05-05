@@ -23,7 +23,7 @@ De server van het Beeld is geïnstalleerd als Dienst van Vensters.
 
    `http:// server:port /is/image`
 
-[!DNL  http:// *[!DNL server:port]*/ir/render]
+[!DNL &#x200B; http:// *[!DNL server:port]*/ir/render]
 
 Controleren op de aanwezigheid van &quot; `imageServer.`&quot;punten in de reactie, die erop wijzen dat de Server van het Beeld luistert.
 >Aanvullende verificatie kan worden uitgevoerd met de voorbeeldpagina&#39;s van de pakketten Documentatie en Demo, indien geïnstalleerd.

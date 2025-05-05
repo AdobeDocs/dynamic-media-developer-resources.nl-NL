@@ -95,6 +95,6 @@ Aangenomen wordt dat de lezer bekend is met Dynamic Media Image Authoring and Im
 
 **Algemene bepalingen**
 
-** *`MSS`* ** Segment materiaalspecificatie: een reeks materiaalkenmerken tussen twee selectieopdrachten in de aanvraag.
+**&#x200B; *`MSS`* &#x200B;** Segment materiaalspecificatie: een reeks materiaalkenmerken tussen twee selectieopdrachten in de aanvraag.
 
-** *`vignette`* ** Een afbeelding die is voorbereid in Dynamic Media Image Authoring voor gebruik met behulp van Image Rendering.
+**&#x200B; *`vignette`* &#x200B;** Een afbeelding die is voorbereid in Dynamic Media Image Authoring voor gebruik met behulp van Image Rendering.

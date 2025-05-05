@@ -42,7 +42,7 @@ Met problemen kunt u eenvoudig uw idee voor verbetering beschrijven in de docume
 
 Als u een probleem ziet en precies weet hoe u dit kunt verhelpen, kunt u een pull-verzoek maken. De verzoeken van de trek staan u toe om uw eigen uit te geven aan de documentatie, die dan voor opneming door een lid van het documentatieteam wordt herzien. Als u de voorgestelde wijzigingen wilt aanbrengen en de pull-aanvraag wilt maken, selecteert u **Deze pagina bewerken** boven aan het rechternavigatievenster op een willekeurige pagina.
 
-Alle intrekkingsverzoeken moeten vergezeld gaan van een ondertekend [licentieovereenkomst voor contribuanten of CLA](https://opensource.adobe.com/cla.html. Dit proces geeft de Adobe toestemming om uw bijdragen als deel van het project opnieuw te verdelen. Verzend slechts één keer een Adobe CLA. Als je er al een hebt ingediend, ben je goed om te gaan!
+Alle intrekkingsverzoeken moeten vergezeld gaan van een ondertekend [licentieovereenkomst voor contribuanten of CLA] (https://opensource.adobe.com/cla.html. Dit proces geeft de Adobe toestemming om uw bijdragen als deel van het project opnieuw te verdelen. Verzend slechts één keer een Adobe CLA. Als je er al een hebt ingediend, ben je goed om te gaan!
 
 ### Snelle video-introductie
 

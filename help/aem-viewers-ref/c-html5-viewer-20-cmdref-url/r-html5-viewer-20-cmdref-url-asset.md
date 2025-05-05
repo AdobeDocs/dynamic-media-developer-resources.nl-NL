@@ -62,7 +62,7 @@ of
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> multiDimensionalSpinSet </span> </span> </p> </td> 
-   <td colname="col2"> <p>Hiermee wordt een expliciete multidimensionale spin-set opgegeven met de volgende syntaxis: </p> <p> <span class="codeph"> ( <span class="varname"> horizontalSpinSet </span>)[,( <span class="varname"> horizontalSpinSet </span>) </span> </p> <p> waar <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> is een door komma's gescheiden lijst met frames voor een bepaalde horizontale as. Alles <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> moet hetzelfde aantal frames hebben. </p> <p> <p>Opmerking: Deze functie wordt ondersteund in Adobe Dynamic Media Classic. wordt niet ondersteund in Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p>Hiermee wordt een expliciete multidimensionale spin-set opgegeven met de volgende syntaxis: </p> <p> <span class="codeph"> ( <span class="varname"> horizontalSpinSet </span>)&lbrack;,( <span class="varname"> horizontalSpinSet </span>) </span> </p> <p> waar <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> is een door komma's gescheiden lijst met frames voor een bepaalde horizontale as. Alles <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> moet hetzelfde aantal frames hebben. </p> <p> <p>Opmerking: Deze functie wordt ondersteund in Adobe Dynamic Media Classic. wordt niet ondersteund in Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> modifiers </span> </span> </p> </td> 

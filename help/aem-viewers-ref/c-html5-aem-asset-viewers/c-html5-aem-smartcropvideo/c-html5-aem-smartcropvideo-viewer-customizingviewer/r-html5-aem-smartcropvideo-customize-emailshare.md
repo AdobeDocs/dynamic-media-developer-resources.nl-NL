@@ -241,7 +241,7 @@ Knop Sluiten wordt beheerd met de volgende CSS-klassenkiezer:
 .s7smartcropvideoviewer .s7emaildialog .s7closebutton
 ```
 
-**CSS-eigenschappen van de knop close **
+**CSS-eigenschappen van de knop close &#x200B;**
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
@@ -328,7 +328,7 @@ Dialoogvoettekst bestaat uit de knoppen &quot;Annuleren&quot; en &quot;E-mail ve
 .s7smartcropvideoviewer .s7emaildialog .s7dialogfooter
 ```
 
-**CSS-eigenschappen van de voettekst van het dialoogvenster **
+**CSS-eigenschappen van de voettekst van het dialoogvenster &#x200B;**
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -527,7 +527,7 @@ Het hoofddialoogvenster tussen de kop- en voettekst bevat schuifbare inhoud in h
 .s7smartcropvideoviewer .s7emaildialog .s7dialogviewarea
 ```
 
-**CSS-eigenschappen van het weergavegebied van het dialoogvenster **
+**CSS-eigenschappen van het weergavegebied van het dialoogvenster &#x200B;**
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
@@ -571,7 +571,7 @@ Alle formulierinhoud (zoals labels en invoervelden) bevindt zich in een containe
 
 Als de hoogte van deze container groter lijkt te zijn dan het gebied van het hoofddialoogvenster, wordt automatisch een verticaal schuiven ingeschakeld door de component.
 
-**CSS-eigenschappen van de hoofdtekst van het dialoogvenster **
+**CSS-eigenschappen van de hoofdtekst van het dialoogvenster &#x200B;**
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
@@ -623,7 +623,7 @@ Alle statische labels in het dialoogvenster worden beheerd met
 
 Deze klasse is niet geschikt voor het beheren van de grootte of positie van labels, omdat u deze kunt toepassen op tekst in verschillende locaties van de gebruikersinterface van het formulier.
 
-**CSS-eigenschappen van het label van het dialoogvenster. **
+**CSS-eigenschappen van het label van het dialoogvenster. &#x200B;**
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
@@ -959,7 +959,7 @@ De inhoud die wordt gedeeld, wordt onder in de hoofdtekst van het dialoogvenster
 .s7smartcropvideoviewer .s7emaildialog .s7dialogbody .s7dialogcontent
 ```
 
-**CSS-eigenschappen van de inhoud van het dialoogvenster **
+**CSS-eigenschappen van de inhoud van het dialoogvenster &#x200B;**
 
 <table id="table_9C5CBFC2482E4A46BE837573B0B02FE4"> 
  <tbody> 
@@ -1094,7 +1094,7 @@ De oorsprong van de inhoud wordt beheerd met de volgende CSS-klassenkiezer:
 .s7smartcropvideoviewer .s7emaildialog .s7dialogorigin
 ```
 
-**CSS-eigenschappen van oorsprong van inhoud in het dialoogvenster **
+**CSS-eigenschappen van oorsprong van inhoud in het dialoogvenster &#x200B;**
 
 <table id="table_51763B532A9C4AE8AE54B69933A8C0B5"> 
  <tbody> 

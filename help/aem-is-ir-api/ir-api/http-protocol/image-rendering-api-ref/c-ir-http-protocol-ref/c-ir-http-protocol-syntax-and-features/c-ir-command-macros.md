@@ -18,7 +18,7 @@ De macro&#39;s van het bevel verstrekken genoemde kortere weg voor reeksen bevel
 
 `$ *[!DNL name]*$`
 
-** *[!DNL name]* ** Macronaam
+**&#x200B; *[!DNL name]* &#x200B;** Macronaam
 
 Macro&#39;s worden gedefinieerd in afzonderlijke macrodefinitiebestanden, die kunnen worden gekoppeld aan materiaalcatalogi of de standaardcatalogus.
 

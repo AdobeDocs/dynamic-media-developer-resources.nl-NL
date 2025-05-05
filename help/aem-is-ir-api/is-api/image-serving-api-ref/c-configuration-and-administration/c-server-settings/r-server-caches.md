@@ -42,7 +42,7 @@ De server van het Beeld moet soms middengegevens aan schijf opslaan. Het pad kan
 
 ## SV::temp - map Tijdelijke bestanden voor servertoezichthouder {#section-fd2cd5ef7e814a4bb56aaf5525e1a154}
 
-De Supervisor van de Server moet soms tussentijdse gegevens aan schijf opslaan. Het pad kan absoluut of relatief zijn ten opzichte van *[!DNL install_folder]*. Heeft als standaardwaarde [!DNL  *[!DNL install_folder]*/temp].
+De Supervisor van de Server moet soms tussentijdse gegevens aan schijf opslaan. Het pad kan absoluut of relatief zijn ten opzichte van *[!DNL install_folder]*. Heeft als standaardwaarde [!DNL &#x200B; *[!DNL install_folder]*/temp].
 
 >[!NOTE]
 >

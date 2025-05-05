@@ -21,7 +21,7 @@ Afbeelding met glans. Biedt pixelcontrole over de glanzen van een herhaalbare st
 <table id="simpletable_6AFC3DEB61D647339525C7CFFA052608"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> embeddedReq</span> </span> </p></td> 
-  <td class="stentry"> <p><span class="codeph">&amp;Accolade;'is&amp;lbrace;'<span class="varname"> isReq</span>&amp;Broce;'&amp;rbrace;|&amp;lbrace;'&amp;lbrace;'<span class="varname"> foreignReq</span>'&amp;resource;' </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&Accolade;'is&lbrace;'<span class="varname"> isReq</span>&Broce;'&rbrace;|&lbrace;'&lbrace;'<span class="varname"> foreignReq</span>'&resource;' </span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> glossMapFile</span> </span> </p></td> 

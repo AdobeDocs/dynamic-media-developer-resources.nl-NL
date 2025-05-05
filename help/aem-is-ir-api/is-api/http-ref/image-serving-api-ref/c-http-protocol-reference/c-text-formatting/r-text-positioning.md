@@ -28,25 +28,25 @@ while `text=` is wellicht iets gemakkelijker te gebruiken voor eenvoudige toepas
 
 De volgende voorbeelden zijn voor tekst van vooraf formaat. Het gedrag voor tekst op zichzelf wijzigen is anders.
 
-** `Text=` biedt altijd een smalle marge bovenaan:**
+**&#x200B; `Text=` biedt altijd een smalle marge bovenaan:**
 
 ![Voorbeeld van tekstpositionering van één afbeelding](assets/tp01.png)
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20Normal%20Normal`
 
-** `textPs=` Hiermee wordt tekst strak uitgelijnd op de bovenkant van het tekstvak, wat resulteert in een kleine bijgesneden tekst, zelfs voor algemene lettertypen zoals Arial®:**
+**&#x200B; `textPs=` Hiermee wordt tekst strak uitgelijnd op de bovenkant van het tekstvak, wat resulteert in een kleine bijgesneden tekst, zelfs voor algemene lettertypen zoals Arial®:**
 
 ![Voorbeeld van tekstpositionering van twee afbeeldingen](assets/tp02.png)
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&textPs=\fs40Normal%20Normal%20Normal`
 
-** `text=` Hiermee wordt gerenderde tekst automatisch omlaag verplaatst om bijsnijden te voorkomen:**
+**&#x200B; `text=` Hiermee wordt gerenderde tekst automatisch omlaag verplaatst om bijsnijden te voorkomen:**
 
 ![Voorbeeld van tekstpositionering van drie afbeeldingen](assets/tp03.png)
 
 `/is/image?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20{\up20Raised%20}Normal`
 
-** `textPs=` verplaatst geen tekst die verhoogde gedeelten bevat, wat resulteert in aanzienlijk bijsnijden als de tekst zich op laag 0 bevindt:**
+**&#x200B; `textPs=` verplaatst geen tekst die verhoogde gedeelten bevat, wat resulteert in aanzienlijk bijsnijden als de tekst zich op laag 0 bevindt:**
 
 ![Voorbeeld van tekstpositionering van vier afbeeldingen](assets/tp04.png)
 

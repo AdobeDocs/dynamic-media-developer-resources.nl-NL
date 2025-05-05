@@ -1,5 +1,5 @@
 ---
-description: Boldface-vlag. Geeft aan of het lettertypebestand waarnaar wordt verwezen door deze lettertypekaartrecord moet worden gebruikt wanneer hierom wordt gevraagd door de RTF-opdracht vet (\b).
+description: Boldface-vlag. Geeft aan of het lettertypebestand waarnaar wordt verwezen door deze lettertypekaartrecord moet worden gebruikt wanneer hierom wordt gevraagd door de RTF-opdracht vet (b).
 solution: Experience Manager
 title: Vet
 feature: Dynamic Media Classic,SDK/API

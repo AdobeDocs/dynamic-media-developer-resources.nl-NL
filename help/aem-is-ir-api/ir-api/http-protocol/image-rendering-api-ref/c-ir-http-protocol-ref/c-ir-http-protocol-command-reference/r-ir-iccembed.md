@@ -1,6 +1,6 @@
 ---
 title: iccEmbed
-description: ICC-profiel insluiten. Geeft aan of het werkende ICC-kleurprofiel of het profiel dat met ` icc=` is opgegeven, moet worden ingesloten in de antwoordafbeelding.
+description: ICC-profiel insluiten. Geeft aan of het werkende ICC-kleurprofiel of het profiel dat met &grave; icc=&grave; is opgegeven, moet worden ingesloten in de antwoordafbeelding.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
