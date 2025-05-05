@@ -37,7 +37,7 @@ De uitzonderingen op deze regel zijn op de versienota&#39;s van toepassing waar 
 
 Alle ideeën die u eventueel nodig hebt om de documentatie te verbeteren, zijn welkom als bijdragen. Opmerkingen, problemen en intrekkingsverzoeken zijn echter bedoeld voor *bijdragen* alleen. Ze zijn niet bedoeld om je vragen te beantwoorden over hoe je Dynamic Media kunt gebruiken, je project kunt implementeren of technische problemen kunt oplossen.
 
-Eventuele vragen over het gebruik van Dynamic Media of technische fouten moeten via de [Enterprise Support-portal van Experience Cloud](https://experienceleague.adobe.com/?support-solution=General&amp;support-tab=home#support) of in de [Experience Manager-gemeenschap.](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
+Eventuele vragen over het gebruik van Dynamic Media of technische fouten moeten via de [Enterprise Support-portal van Experience Cloud](https://experienceleague.adobe.com/nl?support-solution=General&amp;support-tab=home#support) of in de [Experience Manager-gemeenschap.](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
 
 ***Documentatiebijdragen zijn geen vervanging voor de Adobe van de klantenservice*** en dergelijke bijdragen die vragen om antwoorden op ondersteunende vragen worden afgewezen.
 

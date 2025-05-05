@@ -53,7 +53,7 @@ De volgende elementtypen worden niet door ExportJob ondersteund:
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL is_modifier]</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:tekenreeks </span> </p> </td> 
-   <td colname="col3"> <p>Hiermee geeft u de <span class="codeph"> ImageServer</span> het teruggeven van koord URL, dat aan ExportJob wordt toegevoegd <span class="codeph"> omzetten</span> verzoek. </p> <p>Zie de <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html" scope="external" format="html"> IS-documentatie</a> voor details over het verzenden van de IS bepalingen. </p> </td> 
+   <td colname="col3"> <p>Hiermee geeft u de <span class="codeph"> ImageServer</span> het teruggeven van koord URL, dat aan ExportJob wordt toegevoegd <span class="codeph"> omzetten</span> verzoek. </p> <p>Zie de <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=nl-NL" scope="external" format="html"> IS-documentatie</a> voor details over het verzenden van de IS bepalingen. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL macro]</span> </span> </p> </td> 

@@ -170,7 +170,7 @@ Geef een waarde op voor het taaktype om het taaktype te retourneren. U kunt de v
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> typen:ExportJob</span> </td> 
-   <td colname="col3">Toestaan dat eerder geüploade bestanden zijn geëxporteerd. Zie <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> Taak exporteren</a>. </td> 
+   <td colname="col3">Toestaan dat eerder geüploade bestanden zijn geëxporteerd. Zie <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html?lang=nl-NL" format="http" scope="external"> Taak exporteren</a>. </td> 
   </tr> 
  </tbody> 
 </table>

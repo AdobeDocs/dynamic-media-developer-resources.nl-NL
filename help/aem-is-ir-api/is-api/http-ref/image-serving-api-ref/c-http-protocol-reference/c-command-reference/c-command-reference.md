@@ -25,7 +25,7 @@ In deze sectie worden de HTTP-protocolopdrachten beschreven.
 >* Netwerkbandbreedte
 >* DPR (Pixelverhouding apparaat)
 >
->Als u wilt weten hoe eenvoudig het is om Momentopname te gebruiken, speelt u de opdracht [Video over momentopnamen](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) (3 minuten en 17 seconden).
+>Als u wilt weten hoe eenvoudig het is om Momentopname te gebruiken, speelt u de opdracht [Video over momentopnamen](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=nl-NL) (3 minuten en 17 seconden).
 
 
 **Alleen voor Dynamic Media in Adobe Experience Manager** - Buiten de basisafbeeldingsinstellingen die beschikbaar zijn in de gebruikersinterface, [!DNL Dynamic Media] in AEM ( [!DNL Adobe Experience Manager]) ondersteunt talrijke geavanceerde afbeeldingswijzigingen die u kunt opgeven in het dialoogvenster **Afbeeldingsmodificatoren** veld. Deze parameters worden hieronder gedefinieerd. Houd er echter rekening mee dat de volgende functionaliteit niet in Dynamic Media in AEM wordt ondersteund.
@@ -42,7 +42,7 @@ In deze sectie worden de HTTP-protocolopdrachten beschreven.
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-Zie ook de Dynamic Media [Opties voorinstelling afbeelding](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) in de documentatie AEM 6.5.
+Zie ook de Dynamic Media [Opties voorinstelling afbeelding](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html?lang=nl-NL#dynamic) in de documentatie AEM 6.5.
 
 * [align](r-align.md)
 * [anker](r-anchor.md)

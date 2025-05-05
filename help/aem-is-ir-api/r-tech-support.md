@@ -17,4 +17,4 @@ ht-degree: 0%
 Gebruik het volgende om contact op te nemen met Technische ondersteuning.
 
 * **Telefoon** - 800-898-9743 van 6.00 tot 18.00 uur, Pacific Time van de Verenigde Staten, van maandag tot en met vrijdag, met uitzondering van feestdagen.
-* **Een draagtas maken** - [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+* **Een draagtas maken** - [https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)

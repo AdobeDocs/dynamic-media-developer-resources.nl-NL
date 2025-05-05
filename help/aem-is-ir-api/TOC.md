@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Dynamic Media-API voor beeldbeheer en renderen {#image-serving-api}
 
-+ [Start Dynamic Media Image Serving and Image Rendering API](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html) -->
++ [Start Dynamic Media Image Serving and Image Rendering API](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=nl-NL) -->
 + [Over deze release](r-about-this-release.md)
 + [Systeemvereisten en -vereisten](r-requirements-and-prerequisites.md)
 + [Vereisten en aanbevelingen voor schijfruimte](r-disk-space-reqs.md)

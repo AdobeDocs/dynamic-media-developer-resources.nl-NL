@@ -36,14 +36,14 @@ Syntaxis
 | triggerState | `xsd:int` | Keuze van status voor taaktrigger. |
 | imageServingPublishJob | `types:ImageServingPublishJob` | Taakdetails voor een afbeelding die publicatietaak aanbiedt. |
 | imageServingRenderJob | `types:ImageServingRenderJob` | Taakdetails voor een renderingtaak voor afbeeldingen. |
-| videoPublishJob | `types:VideoPublishJob` | Taakdetails voor een video-publicatietaak. Zie [VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
+| videoPublishJob | `types:VideoPublishJob` | Taakdetails voor een video-publicatietaak. Zie [VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html?lang=nl-NL). |
 | serverDirectoryPublishJob | `types:ServerDirectoryPublishJob` | Taakgegevens voor de publicatietaak van een servermap. |
 | uploadDirectoryJob | `types:UploadDirectoryJob` | Taakgegevens voor een uploadmaptaak. |
 | uploadUrlsJob | `types:UploadUrlsJob` | Taakgegevens voor een upload-URL&#39;s-taak. |
 | optimizeImagesJob | `types:OptimizeImagesJob` |  |
 | ripPdfsJob | `types:RipPdfsJob` |  |
 | reprocessAssetsJob | `types:ReprocessAssetsJob` |  |
-| exportJob | `types:ExportJob` | Toestaan dat eerder geüploade bestanden zijn geëxporteerd. Zie [Taak exporteren](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
+| exportJob | `types:ExportJob` | Toestaan dat eerder geüploade bestanden zijn geëxporteerd. Zie [Taak exporteren](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html?lang=nl-NL). |
 
 ## Notities {#section-34ec157f281f412f9f0f6e861e6ed0cd}
 

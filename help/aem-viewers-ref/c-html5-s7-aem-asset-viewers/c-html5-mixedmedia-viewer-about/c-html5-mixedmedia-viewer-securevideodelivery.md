@@ -28,7 +28,7 @@ Afhankelijk van de methode voor het publiceren van Dynamic Media-video die u in 
    https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/MixedMediaViewer.html?asset=%2Fcontent%2Fdam%2FGeometrixx-Outdoors-New-Launch%2Fbackpack%2Fbackpack_mixed_media&config=/etc/dam/presets/viewer/MixedMedia_light&serverUrl=https%3A%2F%2Fadobedemo62-h.assetsadobe.com%2Fis%2Fimage%2F&contenturl=%2F&config2=/etc/dam/presets/analytics&videoserverurl=https://gateway-na.assetsadobe.com/DMGateway/public/demoCo&VideoPlayer.ssl=on
    ```
 
-   Zie ook [(URL&#39;s koppelen aan uw webtoepassing)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic).
+   Zie ook [(URL&#39;s koppelen aan uw webtoepassing)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=nl-NL#dynamic).
 
 * Als u een Dynamic Media-video met insluitcode publiceert, voegt u `VideoPlayer.ssl` aan de lijst van andere parameters van de kijkerconfiguratie in het inbedcodefragment. Als u bijvoorbeeld de HTTPS-video wilt afspelen, voegt u `&VideoPlayer.ssl=on` zoals in het volgende voorbeeld:
 
@@ -56,4 +56,4 @@ Afhankelijk van de methode voor het publiceren van Dynamic Media-video die u in 
    </script>
    ```
 
-   Zie ook [(De video insluiten op een webpagina](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic).
+   Zie ook [(De video insluiten op een webpagina](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=nl-NL#dynamic).

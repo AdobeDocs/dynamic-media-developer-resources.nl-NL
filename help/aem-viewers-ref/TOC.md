@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Referentiehandleiding voor Dynamic Media Viewers {#library}
 
-+ [Referentiehandleiding voor Dynamic Media Viewers](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en) -->
++ [Referentiehandleiding voor Dynamic Media Viewers](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=nl-NL) -->
 + [Viewer-bibliotheekvoorbeelden](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 + [Systeemvereisten](c-system-requirements-and-prerequisites.md)
 + [Meerdere viewers op dezelfde server installeren](t-installing-the-viewers.md)

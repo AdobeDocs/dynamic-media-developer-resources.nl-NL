@@ -32,11 +32,11 @@ De meest recente releaseopmerkingen voor [!DNL Adobe Scene7] Vrijgavedeel van de
 
 De Adobe is opgetogen om de beschikbaarheid van HTTP/2 levering van inhoud aan te kondigen met het algemene voordeel van betere prestaties.
 
-Zie [HTTP2 Veelgestelde vragen over inhoud](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
+Zie [HTTP2 Veelgestelde vragen over inhoud](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html?lang=nl-NL#dynamic).
 
 ## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
-Zie voor volledige documentatie [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
+Zie voor volledige documentatie [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=nl-NL](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=nl-NL)
 
 **Nieuwe functies, verbeteringen en foutoplossingen**
 
@@ -58,7 +58,7 @@ Zie voor volledige documentatie [https://experienceleague.adobe.com/docs/dynamic
 
 ## Viewers (afbeeldingen met 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Zie voor volledige documentatie [Referentiehandleiding voor viewers](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Zie voor volledige documentatie [Referentiehandleiding voor viewers](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=nl-NL).
 
 **Bugfixes voor afbeeldingen in 5.5.3**
 
@@ -68,7 +68,7 @@ Zie voor volledige documentatie [Referentiehandleiding voor viewers](https://exp
 
 ## Viewers (afbeelding met 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Zie voor volledige documentatie [Referentiehandleiding voor viewers](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Zie voor volledige documentatie [Referentiehandleiding voor viewers](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=nl-NL).
 
 **Bugfixes voor afbeeldingen in 5.5.2**
 
@@ -77,7 +77,7 @@ Zie voor volledige documentatie [Referentiehandleiding voor viewers](https://exp
 
 ## Viewers (afbeelding met 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Zie voor volledige documentatie [Referentiehandleiding voor viewers](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Zie voor volledige documentatie [Referentiehandleiding voor viewers](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=nl-NL).
 
 **Nieuwe functies, verbeteringen en foutoplossingen voor Image Serving 5.5.1**
 

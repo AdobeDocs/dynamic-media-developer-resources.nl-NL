@@ -18,7 +18,7 @@ Voer de volgende stappen uit om een bibliotheek met responsieve afbeeldingen aan
 
 **De bibliotheek met responsieve afbeeldingen gebruiken**
 
-1. In Dynamic Media Classic: [een voorinstelling voor afbeeldingen maken](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing) als u de bibliotheek met responsieve afbeeldingen wilt gebruiken met voorinstellingen.
+1. In Dynamic Media Classic: [een voorinstelling voor afbeeldingen maken](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html?lang=nl-NL#image-sizing) als u de bibliotheek met responsieve afbeeldingen wilt gebruiken met voorinstellingen.
 
    Als u voorinstellingen voor afbeeldingen definieert die worden gebruikt in de bibliotheek met responsieve afbeeldingen, mag u geen instellingen gebruiken die van invloed zijn op de afbeeldingsgrootte, zoals `wid=`, `hei=`, of `scl=`. Geef geen velden voor de grootte op in de voorinstelling Afbeelding. Laat ze in plaats daarvan leeg.
 1. Voeg het JavaScript-bibliotheekbestand toe aan uw webpagina.
